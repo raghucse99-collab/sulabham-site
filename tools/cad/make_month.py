@@ -73,7 +73,7 @@ def pdf_html(title, body, m):
 h1{{font-family:AK;font-size:20pt;margin:0 0 2mm}} h2{{font-family:AK;font-size:14pt;margin:5mm 0 2mm;border-bottom:2px solid #e3a400}}
 h3{{font-size:11pt;margin:3mm 0 1mm}} ul{{margin:1mm 0;padding-left:5mm}} p{{margin:1mm 0}} .small{{color:#52677a;font-size:8.5pt}}
 .q{{break-inside:avoid;margin:0 0 3mm}} .o{{margin-left:4mm}} .k{{background:#e6f1f6;padding:1.5mm 3mm;border-radius:2mm;margin-top:1mm}}
-</style></head><body><h1>{E(title)}</h1><p class="small">Sulabham · raghucse99-collab.github.io/sulabham</p>{body}</body></html>"""
+</style></head><body><h1>{E(title)}</h1><p class="small">Sulabham · sulabham.in</p>{body}</body></html>"""
 
 async def main(mid, test_p, codes_p):
     y, mo = map(int, mid.split('-'))

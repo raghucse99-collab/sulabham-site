@@ -9,7 +9,7 @@ import render as MAPS
 HERE = os.path.dirname(os.path.abspath(__file__))
 FS = os.path.join(HERE, 'fonts')
 ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
-SITE_URL = 'raghucse99-collab.github.io/sulabham'
+SITE_URL = 'sulabham.in'
 
 def f64(p): return 'data:font/woff2;base64,' + base64.b64encode(open(os.path.join(FS, p), 'rb').read()).decode()
 FONTS = f"""

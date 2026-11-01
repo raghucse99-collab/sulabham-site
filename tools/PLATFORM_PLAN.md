@@ -4,7 +4,7 @@ Goal: bilingual, syllabus-complete, concept-oriented APPSC platform (Group 2 fir
 without breaking anything. Follow tools/CONTENT_STANDARD.md for all content.
 
 ## A. What exists today (inventory, checked 30 Oct 2026)
-Static site on GitHub Pages (raghucse99-collab/sulabham), no server/login; per-device progress in localStorage.
+Static site on GitHub Pages (repo raghucse99-collab/sulabham-site, domain sulabham.in; old address forwarded by repo raghucse99-collab/sulabham), no server/login; per-device progress in localStorage.
 
 | Area | Files | Working features |
 |---|---|---|

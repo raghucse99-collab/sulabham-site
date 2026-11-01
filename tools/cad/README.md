@@ -3,7 +3,7 @@
 > **First read `tools/CONTENT_STANDARD.md`** — the owner's charter (UNDERSTAND. CONNECT. REMEMBER. APPLY.): Group 2 first, teaching / exam / bilingual / accuracy / website rules and the quality-control checklist. Follow it for everything below.
 
 
-Page: https://raghucse99-collab.github.io/sulabham/current.html (tabs Daily / Weekly / Monthly).
+Page: https://sulabham.in/current.html (tabs Daily / Weekly / Monthly).
 Audience: Andhra Pradesh aspirants — APPSC Group 1 & Group 2 first. Every text field is bilingual `{"en": "...", "te": "..."}`.
 Telegram posting is automatic (GitHub Action) when a NEW file is pushed — never post yourself.
 

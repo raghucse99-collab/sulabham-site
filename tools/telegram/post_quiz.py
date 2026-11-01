@@ -8,7 +8,7 @@ usage: python3 tools/telegram/post_quiz.py <file>
 """
 import json, os, sys, time, uuid, urllib.request, urllib.parse, urllib.error
 
-SITE = 'https://raghucse99-collab.github.io/sulabham'
+SITE = 'https://sulabham.in'
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
 TOKEN = os.environ['TG_TOKEN'].strip()
 CHAT_FILE = os.path.join(HERE, 'chat_id.txt')

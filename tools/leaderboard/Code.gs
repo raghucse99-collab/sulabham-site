@@ -3,7 +3,7 @@
    This script re-checks the answers against the public answer key on the website (so a typed score cannot be faked),
    keeps only the FIRST attempt from each device for each mock, writes a row to the "Scores" sheet,
    and returns the top 100 (name, place, score, minutes — never the device number). */
-const SITE = 'https://raghucse99-collab.github.io/sulabham/';
+const SITE = 'https://sulabham.in/';
 
 function sheet_() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();

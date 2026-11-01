@@ -3,11 +3,11 @@
 > **First read `tools/CONTENT_STANDARD.md`** — the owner's charter (UNDERSTAND. CONNECT. REMEMBER. APPLY.): Group 2 first, teaching / exam / bilingual / accuracy / website rules and the quality-control checklist. Follow it for everything below.
 
 
-Every morning (IST) one new day is added to https://raghucse99-collab.github.io/sulabham/today.html
+Every morning (IST) one new day is added to https://sulabham.in/today.html
 Audience: Andhra Pradesh exam aspirants (APPSC Group 1/2, AP DSC, AP Police SI/PC). Bilingual: every text field has English (`en`) and Telugu (`te`).
 
 ## Steps
-1. Work in the repo root (clone `raghucse99-collab/sulabham` if needed). Use today's date in Asia/Kolkata (`TZ=Asia/Kolkata date +%F`).
+1. Work in the repo root (clone `raghucse99-collab/sulabham-site` if needed). Use today's date in Asia/Kolkata (`TZ=Asia/Kolkata date +%F`).
 2. Research with web search (use the current year in queries):
    - **Today's importance**: 2–3 items — birth/death anniversaries of important persons (Indian freedom fighters, reformers, scientists, AP/Telangana personalities get priority), national/international days with the **official theme for this year**. Verify the theme from an official or reliable source; if no theme is announced, don't invent one — say so or omit the theme row.
    - **In the news — explained**: 3 current topics from the last 1–3 days that matter for exams (editorials and "Explained" pieces of The Hindu / Indian Express, PIB, government schemes, reports & indices, environment, polity, IR, economy, science, AP news). Prefer topics with static-GK links.
@@ -62,7 +62,7 @@ Aspirants read the day's importance and articles first, then take the quiz. So `
 - APPSC Group 1 Prelims pattern: statement-based "which of the statements is/are correct" (I/II/III/IV with combination options), incorrect-statement, application questions; at least one trap statement per question; NEVER one-line recall. Options like "I and II only". Spread correct answers over a–d.
 - Use only facts written in the item (easy / facts / chain / trap) — nothing new. Explain the wrong statement in `why`.
 - `make_day.py` validates the quiz and makes `cards/<date>/quiz-en.png`, `quiz-te.png`, `quiz-en.txt`, `quiz-te.txt`, `quiz-polls-en.txt`, `quiz-polls-te.txt`.
-- The quiz page link to share: https://raghucse99-collab.github.io/sulabham/today.html?d=<date>&tab=quiz (add `&m=te` for the Telugu medium). The Telegram post (automatic) sends the headline plus quiz polls.
+- The quiz page link to share: https://sulabham.in/today.html?d=<date>&tab=quiz (add `&m=te` for the Telugu medium). The Telegram post (automatic) sends the headline plus quiz polls.
 - The evening current-affairs run makes a separate 10-question quiz for the evening news.
 
 ## Schema (every text = {"en": "...", "te": "..."})
