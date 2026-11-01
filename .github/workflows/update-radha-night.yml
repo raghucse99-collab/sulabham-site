@@ -11,7 +11,7 @@ permissions:
   contents: write
 concurrency:
   group: update-radha-night
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -33,5 +33,7 @@ jobs:
             echo "No Radha Night source changes."
           else
             git commit -m "Refresh Radha Night historical chart"
+            git fetch origin main
+            git rebase origin/main
             git push
           fi
