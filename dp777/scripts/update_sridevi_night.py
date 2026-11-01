@@ -66,6 +66,36 @@ def main():
             op, jo, cl = parse_cell(raw)
             row[f"{day} Open"], row[f"{day} Jodi"], row[f"{day} Close"] = op, jo, cl
         found[date] = row
+    # Fallback for the source's responsive layout, where the whole weekly
+    # chart is emitted as text instead of eight separate table cells.
+    if len(found) < 300:
+        class TextParser(HTMLParser):
+            def __init__(self):
+                super().__init__(convert_charrefs=True)
+                self.parts = []
+            def handle_data(self, data):
+                self.parts.append(data)
+        tp = TextParser()
+        tp.feed(html)
+        plain = " ".join(" ".join(tp.parts).split())
+        date_token = re.compile(r"\\b\\d{1,2}/\\d{1,2}/\\d{2,4}\\s+to\\s+\\d{1,2}/\\d{1,2}/\\d{2,4}\\b", re.I)
+        matches = list(date_token.finditer(plain))
+        result_token = re.compile(r"(?<![\\d])(?:\\d{3}-\\d{2}-\\d{3}|\\*\\*|--)(?![\\d])")
+        for i, match in enumerate(matches):
+            date = normalize_date(match.group(0))
+            end = matches[i + 1].start() if i + 1 < len(matches) else len(plain)
+            segment = plain[match.end():end]
+            tokens = result_token.findall(segment)
+            if len(tokens) < 7:
+                continue
+            row = {"date": date}
+            for day, token in zip(DAYS, tokens[:7]):
+                if re.fullmatch(r"\\d{3}-\\d{2}-\\d{3}", token):
+                    op, jo, cl = token.split("-")
+                else:
+                    op, jo, cl = ("***", "**", "***")
+                row[f"{day} Open"], row[f"{day} Jodi"], row[f"{day} Close"] = op, jo, cl
+            found[date] = row
     if not found: raise SystemExit("No Sridevi Night weekly rows parsed; existing archive left unchanged.")
     old = {"updated_at": "", "charts": {"sridevi": {"rows": []}}}
     if OUT.exists():
