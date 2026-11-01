@@ -1,0 +1,212 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-01 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+--- QUESTION ---
+Q1. Consider the following about the naming of cyclones 'Murasu' and 'Arnab'. Which is/are correct?
+I. 'Murasu' was suggested by India.
+II. 'Arnab' was suggested by Bangladesh.
+III. Both are from the 2020 list of 169 names given by 13 countries.
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(d) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+All three are correct. Murasu (India; a Tamil word for a drum) and Arnab (Bangladesh) are both in the April 2020 WMO/ESCAP Panel list (13 countries × 13 names = 169). Trap: assuming 'Arnab' is an I...
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Which one of the following statements about Cyclone Murasu (IMD forecast, 1 November 2026) is INCORRECT?
+
+--- OPTIONS ---
+(a) It may become a Severe Cyclonic Storm by 2 November morning
+(b) It will cross the north Andhra coast near Visakhapatnam
+(c) Landfall winds of 100–110 km/h gusting to 120 km/h
+(d) Landfall expected between Nellore and Narsapur
+
+--- CORRECT (tick this) ---
+(b) It will cross the north Andhra coast near Visakhapatnam
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(b) is wrong: the forecast landfall is on the SOUTH AP coast between Nellore and Narsapur, not near Visakhapatnam (which is 660 km NNW of the storm). (a), (c), (d) match the IMD forecast.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following about AP's plan to modernise de-addiction centres (October 2026):
+I. ₹9.86 crore was released by the Prohibition and Excise Department for 16 centres.
+II. King George Hospital, Visakhapatnam is one of the three centres of excellence.
+III. The Institute of Mental Health chosen as a centre of excellence is in Kurnool.
+
+--- QUESTION ---
+Q3. Consider the following about AP's plan to modernise de-addiction centres (October 2026): (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: the Institute of Mental Health centre of excellence is in Kadapa (the third is GGH Vijayawada). Trap: confusing two Rayalaseema cities.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. With reference to the constitutional provision behind prohibition and de-addiction efforts, consider:
+I. Article 47 directs the State to try to prohibit intoxicating drinks and harmful drugs except for medicinal use.
+II. Article 47 is a Directive Principle in Part IV.
+III. A citizen can approach a court to enforce Article 47.
+
+--- QUESTION ---
+Q4. With reference to the constitutional provision behind prohibition and de-addiction efforts, consider: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: Directive Principles are not enforceable by any court (Article 37), though they are fundamental in governance. Trap: mixing up DPSPs with Fundamental Rights.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Consider the following about the National Social Security Boards set up in October 2026:
+I. Two boards were set up under the Code on Social Security, 2020.
+II. Both are chaired by the Union Labour Minister.
+III. Andhra Pradesh is one of the five States on the gig workers' board.
+IV. Aggregators' contribution is capped at 2% of payouts to gig workers.
+
+--- QUESTION ---
+Q5. Consider the following about the National Social Security Boards set up in October 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III only
+(b) I and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I, II, III are correct. IV is wrong: aggregators pay 1–2% of annual TURNOVER, and the cap is 5% of payouts to workers. Trap: mixing the 2% (turnover) and 5% (payout cap) numbers.
+
+==================== Q6 ====================
+--- QUESTION ---
+Q6. Consider the following about GST collections in October 2026 and GST itself:
+I. Gross GST was ₹2.31 lakh crore, up 22.9% year-on-year.
+II. GST on imports grew faster than domestic GST.
+III. The GST Council was created under Article 270.
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct (imports +42.2% vs domestic +15.8%). III is wrong: the GST Council is under Article 279A (added by the 101st Amendment, 2016); Article 270 deals with sharing of taxes between t...
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following about the India–EU Free Trade Agreement:
+I. European Council President António Costa said PM Modi will sign it in Brussels in December.
+II. Over 99% of Indian exports by value will get preferential or duty-free access to the EU.
+III. In 2024-25 India had a goods trade deficit with the EU.
+
+--- QUESTION ---
+Q7. Consider the following about the India–EU Free Trade Agreement: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: India exported $75.85 bn and imported $60.68 bn — a SURPLUS. Trap: assuming India has a deficit with every big partner (true for China, not the EU).
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Consider the following about the new Chief of the Air Staff:
+I. Air Chief Marshal Ashutosh Dixit took charge on 31 October 2026 as the 29th Chief of the Air Staff.
+II. He succeeded Air Chief Marshal Amar Preet Singh.
+III. He was Vice Chief of the Air Staff just before this.
+
+--- QUESTION ---
+Q8. Consider the following about the new Chief of the Air Staff: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(d) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+All three are correct. Dixit (fighter pilot, joined 6 Dec 1986) was VCAS from 1 July 2026 and earlier Chief of Integrated Defence Staff. Trap: Amar Preet Singh was the 28th chief, not the 29th.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Consider the following about Manisha Bhanwala's win at the 2026 Senior World Wrestling Championships:
+I. She is the first Indian woman to win gold at the Senior Worlds.
+II. She won in the 59 kg women's freestyle category.
+III. The championships were held in Almaty.
+IV. She beat a wrestler from Japan in the final.
+
+--- QUESTION ---
+Q9. Consider the following about Manisha Bhanwala's win at the 2026 Senior World Wrestling Championships: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I, II and IV only
+(c) I and II only
+(d) II, III and IV only
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong — the venue was Astana (Kazakhstan's capital). IV is wrong — she beat Abigail Nette of the USA 8–6. Trap: Japan is a wrestling power, so it 'sounds' right.
+
+==================== Q10 ====================
+--- QUESTION ---
+Q10. Arrange these milestones of Indian women's cricket in chronological order: 1. First Test vs West Indies  2. WCAI merges with BCCI  3. WCAI founded  4. First ODI
+
+--- OPTIONS ---
+(a) 3 – 1 – 4 – 2
+(b) 1 – 3 – 4 – 2
+(c) 3 – 4 – 1 – 2
+(d) 1 – 4 – 3 – 2
+
+--- CORRECT (tick this) ---
+(a) 3 – 1 – 4 – 2
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+WCAI founded 1973 → first Test 31 Oct 1976 (Bengaluru) → first ODI 1 Jan 1978 → merger with BCCI 2006. Trap: thinking the association came after the first international match.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/current.html?d=2026-11-01

@@ -1,0 +1,1581 @@
+{
+ "date": "2026-11-01",
+ "day": {
+  "en": "Sunday, 1 November 2026",
+  "te": "ఆదివారం, 1 నవంబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "murasu",
+   "cat": "ap",
+   "title": {
+    "en": "Cyclone 'Murasu' heads for south Andhra coast; landfall between Nellore and Narsapur on the night of 2–3 November",
+    "te": "'మురసు' తుపాను దక్షిణ కోస్తా వైపు; నవంబర్ 2–3 రాత్రి నెల్లూరు–నర్సాపురం మధ్య తీరం దాటే అవకాశం"
+   },
+   "pts": [
+    {
+     "en": "A system over the Bay of Bengal became Cyclone Murasu. At 11:30 am on 1 November IMD placed it near 12.1°N, 85.3°E — about 560 km ESE of Chennai and 660 km SSE of Visakhapatnam — moving west-northwest at 23 km/h.",
+     "te": "బంగాళాఖాతంలోని వ్యవస్థ 'మురసు' తుపానుగా మారింది. నవంబర్ 1 ఉ. 11:30కు IMD ప్రకారం ఇది 12.1°ఉ, 85.3°తూ వద్ద — చెన్నైకి తూర్పు-ఆగ్నేయంగా సుమారు 560 కి.మీ., విశాఖకు దక్షిణ-ఆగ్నేయంగా 660 కి.మీ. — గంటకు 23 కి.మీ. వేగంతో పశ్చిమ-వాయవ్య దిశగా కదులుతోంది."
+    },
+    {
+     "en": "It is forecast to become a Severe Cyclonic Storm by the morning of 2 November and cross the south AP coast between Nellore and Narsapur between 11:30 pm on 2 November and 4 am on 3 November, with winds of 100–110 km/h gusting to 120 km/h.",
+     "te": "నవంబర్ 2 ఉదయానికి తీవ్ర తుపానుగా బలపడి, నవంబర్ 2 రాత్రి 11:30 – నవంబర్ 3 తెల్లవారుజామున 4 గంటల మధ్య నెల్లూరు–నర్సాపురం మధ్య దక్షిణ కోస్తా తీరం దాటవచ్చు; గాలుల వేగం గంటకు 100–110 కి.మీ., గరిష్ఠం 120 కి.మీ."
+    },
+    {
+     "en": "It is the second cyclone in a week: Cyclone Arnab hit near Narsapur on 28 October. CM N. Chandrababu Naidu held an emergency review and ordered early evacuation from flood-prone areas; heavy rain is expected in Eluru, Krishna, NTR, West Godavari, Guntur and Bapatla.",
+     "te": "వారంలో ఇది రెండో తుపాను: అక్టోబర్ 28న 'ఆర్నాబ్' నర్సాపురం వద్ద తీరం దాటింది. సీఎం ఎన్. చంద్రబాబు నాయుడు అత్యవసర సమీక్ష నిర్వహించి, వరద ముంపు ప్రాంతాల నుంచి ముందుగానే ప్రజలను తరలించాలని ఆదేశించారు; ఏలూరు, కృష్ణా, ఎన్టీఆర్, పశ్చిమ గోదావరి, గుంటూరు, బాపట్లలో భారీ వర్షాలు."
+    },
+    {
+     "en": "Name: 'Murasu' was suggested by India (Tamil word for an ancient drum used to spread news). 'Arnab' was suggested by Bangladesh. Both are in the 2020 list of 169 names.",
+     "te": "పేరు: 'మురసు'ను భారత్ సూచించింది (వార్తలు చాటడానికి వాడిన ప్రాచీన డప్పు — తమిళ పదం). 'ఆర్నాబ్'ను బంగ్లాదేశ్ సూచించింది. రెండూ 2020 జాబితాలోని 169 పేర్లలోనివే."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Landfall (forecast)",
+      "te": "తీరం దాటడం (అంచనా)"
+     },
+     {
+      "en": "Between Nellore and Narsapur, night of 2–3 Nov",
+      "te": "నెల్లూరు–నర్సాపురం మధ్య, నవం 2–3 రాత్రి"
+     }
+    ],
+    [
+     {
+      "en": "Wind",
+      "te": "గాలి వేగం"
+     },
+     {
+      "en": "100–110 km/h, gusts 120 km/h",
+      "te": "గం. 100–110 కి.మీ., గరిష్ఠం 120"
+     }
+    ],
+    [
+     {
+      "en": "Name given by",
+      "te": "పేరు సూచించిన దేశం"
+     },
+     {
+      "en": "India ('Murasu' = drum)",
+      "te": "భారత్ ('మురసు' = డప్పు)"
+     }
+    ],
+    [
+     {
+      "en": "Name list",
+      "te": "పేర్ల జాబితా"
+     },
+     {
+      "en": "169 names, 13 countries (WMO/ESCAP Panel, 2020)",
+      "te": "169 పేర్లు, 13 దేశాలు (WMO/ESCAP ప్యానెల్, 2020)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Naming trap: cyclones of the North Indian Ocean are named by RSMC New Delhi (IMD) from the WMO/ESCAP Panel list of 13 countries; a storm gets a name only when it reaches 'cyclonic storm' stage — not as a depression.",
+    "te": "పేరు ట్రాప్: ఉత్తర హిందూ మహాసముద్ర తుపానులకు RSMC న్యూఢిల్లీ (IMD) WMO/ESCAP ప్యానెల్ 13 దేశాల జాబితా నుంచి పేర్లు పెడుతుంది; 'తుపాను' దశకు చేరినప్పుడే పేరు వస్తుంది — వాయుగుండం దశలో కాదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": [
+      76,
+      9,
+      90,
+      19
+     ],
+     "h": {
+      "en": "Murasu: from the Bay to the AP coast",
+      "te": "మురసు: బంగాళాఖాతం నుంచి ఏపీ తీరానికి"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#1d4f91",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        12.1,
+        85.3
+       ],
+       "t": {
+        "en": "Murasu (1 Nov)",
+        "te": "మురసు (నవం 1)"
+       }
+      },
+      {
+       "ll": [
+        14.44,
+        79.99
+       ],
+       "t": {
+        "en": "Nellore",
+        "te": "నెల్లూరు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.43,
+        81.7
+       ],
+       "t": {
+        "en": "Narsapur",
+        "te": "నర్సాపురం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        13.08,
+        80.27
+       ],
+       "t": {
+        "en": "Chennai",
+        "te": "చెన్నై"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        17.69,
+        83.22
+       ],
+       "t": {
+        "en": "Visakhapatnam",
+        "te": "విశాఖపట్నం"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         12.1,
+         85.3
+        ],
+        [
+         15.4,
+         81.0
+        ]
+       ],
+       "dash": 1,
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "Dashed arrow = expected path (WNW). Landfall zone: the coast between Nellore and Narsapur.",
+      "te": "చుక్కల బాణం = అంచనా మార్గం (పశ్చిమ-వాయవ్యం). తీరం దాటే ప్రాంతం: నెల్లూరు–నర్సాపురం మధ్య తీరం."
+     },
+     "src": "cards/cad/2026-11-01/map-murasu-1-{m}.svg"
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Two cyclones in one week",
+      "te": "ఒకే వారంలో రెండు తుపానులు"
+     },
+     "a": {
+      "h": {
+       "en": "🌀 Arnab",
+       "te": "🌀 ఆర్నాబ్"
+      },
+      "l": [
+       {
+        "en": "Name from Bangladesh",
+        "te": "పేరు: బంగ్లాదేశ్"
+       },
+       {
+        "en": "Crossed near Narsapur, 28 Oct",
+        "te": "అక్టో 28న నర్సాపురం వద్ద"
+       },
+       {
+        "en": "Loss estimate ₹4,600 crore",
+        "te": "నష్ట అంచనా ₹4,600 కోట్లు"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "🌀 Murasu",
+       "te": "🌀 మురసు"
+      },
+      "l": [
+       {
+        "en": "Name from India",
+        "te": "పేరు: భారత్"
+       },
+       {
+        "en": "Nellore–Narsapur, 2–3 Nov",
+        "te": "నెల్లూరు–నర్సాపురం, నవం 2–3"
+       },
+       {
+        "en": "Severe cyclonic storm (forecast)",
+        "te": "తీవ్ర తుపాను (అంచనా)"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Business Today — After Arnab, now Cyclone Murasu heading for Andhra (IMD 11:30 am bulletin), 1 Nov 2026",
+     "u": "https://www.businesstoday.in/india/story/after-arnab-now-cyclone-murasu-heading-for-andhra-when-will-it-make-landfall-564982-2026-11-01"
+    },
+    {
+     "t": "The Hans India — AP braces for another cyclone, CM Chandrababu reviews, 1 Nov 2026",
+     "u": "https://www.thehansindia.com/andhra-pradesh/ap-braces-for-another-cyclone-cm-chandrababu-reviews-places-officials-on-alert-1138159"
+    },
+    {
+     "t": "Madhyamam — Cyclone 'Murasu' forms over Bay of Bengal, 1 Nov 2026",
+     "u": "https://madhyamamonline.com/india/cyclone-murasu-forms-bay-bengal-imd-issues-coastal-alert-1568240"
+    },
+    {
+     "t": "India Education Diary — New list of names of tropical cyclones over north Indian Ocean (IMD), 28 Apr 2020",
+     "u": "https://indiaeducationdiary.in/?p=59598"
+    },
+    {
+     "t": "inkl (The Hindu) — Tropical cyclone gets Tamil name 'Murasu'",
+     "u": "https://www.inkl.com/news/tropical-cyclone-gets-tamil-name"
+    }
+   ]
+  },
+  {
+   "id": "deaddiction",
+   "cat": "ap",
+   "title": {
+    "en": "AP releases ₹9.86 crore to modernise 16 de-addiction centres; 3 to become centres of excellence",
+    "te": "16 డీ-అడిక్షన్ కేంద్రాల ఆధునికీకరణకు ఏపీ ₹9.86 కోట్లు; 3 కేంద్రాలు 'సెంటర్స్ ఆఫ్ ఎక్సలెన్స్'"
+   },
+   "pts": [
+    {
+     "en": "The AP Prohibition and Excise Department released ₹9.86 crore (statement of 30 October) to upgrade 16 de-addiction centres in government hospitals across the State.",
+     "te": "రాష్ట్రవ్యాప్తంగా ప్రభుత్వ ఆసుపత్రుల్లోని 16 డీ-అడిక్షన్ (వ్యసన విముక్తి) కేంద్రాల ఆధునికీకరణకు ఏపీ మద్యనిషేధ, ఎక్సైజ్ శాఖ ₹9.86 కోట్లు విడుదల చేసింది (అక్టోబర్ 30 ప్రకటన)."
+    },
+    {
+     "en": "Three will be centres of excellence: Government General Hospital Vijayawada, King George Hospital Visakhapatnam and the Institute of Mental Health, Kadapa.",
+     "te": "మూడు కేంద్రాలు 'సెంటర్స్ ఆఫ్ ఎక్సలెన్స్'గా మారతాయి: విజయవాడ ప్రభుత్వ సర్వజన ఆసుపత్రి, విశాఖ కింగ్ జార్జ్ ఆసుపత్రి (KGH), కడప మానసిక ఆరోగ్య సంస్థ (IMH)."
+    },
+    {
+     "en": "Six district/area hospitals — Anakapalli, Narasapuram, Narasaraopeta, Chittoor, Hindupur and Bapatla — are also covered. Works include building repair and machines such as biofeedback units, breath analysers and ECG.",
+     "te": "అనకాపల్లి, నరసాపురం, నరసరావుపేట, చిత్తూరు, హిందూపురం, బాపట్ల జిల్లా/ఏరియా ఆసుపత్రులూ ఇందులో ఉన్నాయి. భవన మరమ్మతులతో పాటు బయోఫీడ్‌బ్యాక్, బ్రీత్ అనలైజర్, ECG వంటి యంత్రాలు సమకూరుస్తారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Amount",
+      "te": "మొత్తం"
+     },
+     {
+      "en": "₹9.86 crore",
+      "te": "₹9.86 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Department",
+      "te": "శాఖ"
+     },
+     {
+      "en": "Prohibition & Excise",
+      "te": "మద్యనిషేధ & ఎక్సైజ్"
+     }
+    ],
+    [
+     {
+      "en": "Centres",
+      "te": "కేంద్రాలు"
+     },
+     {
+      "en": "16 (3 centres of excellence)",
+      "te": "16 (3 సెంటర్స్ ఆఫ్ ఎక్సలెన్స్)"
+     }
+    ],
+    [
+     {
+      "en": "Constitution link",
+      "te": "రాజ్యాంగ లింక్"
+     },
+     {
+      "en": "Article 47 (DPSP)",
+      "te": "ఆర్టికల్ 47 (ఆదేశిక సూత్రం)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: Article 47 (Part IV, DPSP) asks the State to raise nutrition and public health and to try to prohibit intoxicating drinks and harmful drugs except for medicinal use; DPSPs are not enforceable in courts. Trap: IMH is in Kadapa, KGH in Visakhapatnam.",
+    "te": "స్టాటిక్ లింక్: ఆర్టికల్ 47 (భాగం IV, ఆదేశిక సూత్రాలు) — పోషణ, ప్రజారోగ్యం మెరుగుపరచాలి; ఔషధ అవసరాలు తప్ప మత్తు పానీయాలు, హానికర మాదకద్రవ్యాల నిషేధానికి కృషి చేయాలి; ఆదేశిక సూత్రాలను కోర్టుల ద్వారా అమలు చేయించలేం. ట్రాప్: IMH కడపలో, KGH విశాఖలో."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "ap",
+     "h": {
+      "en": "Three de-addiction centres of excellence",
+      "te": "మూడు డీ-అడిక్షన్ సెంటర్స్ ఆఫ్ ఎక్సలెన్స్"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#2f6b2f",
+     "pts": [
+      {
+       "ll": [
+        16.51,
+        80.65
+       ],
+       "t": {
+        "en": "Vijayawada GGH",
+        "te": "విజయవాడ GGH"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        17.69,
+        83.22
+       ],
+       "t": {
+        "en": "KGH Visakhapatnam",
+        "te": "KGH విశాఖ"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        14.47,
+        78.82
+       ],
+       "t": {
+        "en": "IMH Kadapa",
+        "te": "IMH కడప"
+       }
+      }
+     ],
+     "cap": {
+      "en": "One centre of excellence each in north coastal AP, central AP and Rayalaseema; 13 more hospital centres get upgrades.",
+      "te": "ఉత్తరాంధ్ర, మధ్య కోస్తా, రాయలసీమల్లో ఒక్కో సెంటర్ ఆఫ్ ఎక్సలెన్స్; మరో 13 ఆసుపత్రి కేంద్రాలకూ ఆధునికీకరణ."
+     },
+     "src": "cards/cad/2026-11-01/map-deaddiction-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Indian Opinion (IANS) — Andhra Pradesh to modernise 16 de-addiction centres for Rs 9.86 crore, 30 Oct 2026",
+     "u": "https://indianopinion.org/andhra-pradesh-to-modernise-16-de-addiction-centres-for-rs-9-86-crore/"
+    }
+   ]
+  },
+  {
+   "id": "gigboards",
+   "cat": "schemes",
+   "title": {
+    "en": "Centre sets up two National Social Security Boards — for unorganised workers and for gig & platform workers; AP on the gig board",
+    "te": "అసంఘటిత కార్మికులు, గిగ్ & ప్లాట్‌ఫాం కార్మికుల కోసం రెండు జాతీయ సామాజిక భద్రతా బోర్డులు; గిగ్ బోర్డులో ఏపీకి చోటు"
+   },
+   "pts": [
+    {
+     "en": "On 30 October the Labour Ministry constituted two National Social Security Boards under the Code on Social Security, 2020 — one for unorganised workers (Section 6) and one for gig and platform workers (Section 114(6)). Tenure: three years.",
+     "te": "సామాజిక భద్రతా నియమావళి (Code on Social Security), 2020 కింద కేంద్ర కార్మిక శాఖ అక్టోబర్ 30న రెండు జాతీయ సామాజిక భద్రతా బోర్డులను ఏర్పాటు చేసింది — అసంఘటిత కార్మికులకు (సెక్షన్ 6), గిగ్ & ప్లాట్‌ఫాం కార్మికులకు (సెక్షన్ 114(6)). పదవీకాలం: మూడేళ్లు."
+    },
+    {
+     "en": "Both are chaired by the Union Labour Minister (Mansukh Mandaviya); the Labour Secretary is vice-chairperson. They recommend and monitor welfare schemes and advise the Centre.",
+     "te": "రెండింటికీ కేంద్ర కార్మిక మంత్రి (మన్సుఖ్ మాండవీయ) ఛైర్మన్; కార్మిక కార్యదర్శి వైస్-ఛైర్మన్. సంక్షేమ పథకాలను సిఫార్సు చేయడం, పర్యవేక్షించడం, కేంద్రానికి సలహా ఇవ్వడం వీటి పని."
+    },
+    {
+     "en": "The gig board has 5 aggregators (Eternal, Swiggy, Zepto, Urban Company, Rapido), 5 worker representatives, ESIC and EPFO heads, 2 experts and 5 States — Uttar Pradesh, Maharashtra, Andhra Pradesh, Gujarat and West Bengal.",
+     "te": "గిగ్ బోర్డులో 5 అగ్రిగేటర్ కంపెనీలు (ఎటర్నల్, స్విగ్గీ, జెప్టో, అర్బన్ కంపెనీ, రాపిడో), 5 కార్మిక ప్రతినిధులు, ESIC & EPFO అధిపతులు, 2 నిపుణులు, 5 రాష్ట్రాలు — ఉత్తరప్రదేశ్, మహారాష్ట్ర, ఆంధ్రప్రదేశ్, గుజరాత్, పశ్చిమ బెంగాల్."
+    },
+    {
+     "en": "Aggregators must pay 1–2% of annual turnover into a social security fund, capped at 5% of the amount paid to gig workers; the Centre will notify the exact rate.",
+     "te": "అగ్రిగేటర్లు వార్షిక టర్నోవర్‌లో 1–2% సామాజిక భద్రతా నిధికి చెల్లించాలి; ఇది గిగ్ కార్మికులకు చెల్లించే మొత్తంలో 5% మించకూడదు; కచ్చితమైన రేటును కేంద్రం నోటిఫై చేస్తుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Law",
+      "te": "చట్టం"
+     },
+     {
+      "en": "Code on Social Security, 2020",
+      "te": "సామాజిక భద్రతా నియమావళి, 2020"
+     }
+    ],
+    [
+     {
+      "en": "Chair",
+      "te": "ఛైర్మన్"
+     },
+     {
+      "en": "Union Labour Minister",
+      "te": "కేంద్ర కార్మిక మంత్రి"
+     }
+    ],
+    [
+     {
+      "en": "Members (approx.)",
+      "te": "సభ్యులు"
+     },
+     {
+      "en": "40 (unorganised) · 22 (gig)",
+      "te": "40 (అసంఘటిత) · 22 (గిగ్)"
+     }
+    ],
+    [
+     {
+      "en": "Aggregator levy",
+      "te": "అగ్రిగేటర్ చెల్లింపు"
+     },
+     {
+      "en": "1–2% of turnover, max 5% of worker payouts",
+      "te": "టర్నోవర్‌లో 1–2%, గరిష్ఠం కార్మిక చెల్లింపుల్లో 5%"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: the Code on Social Security, 2020 is the first central law to define 'gig worker' and 'platform worker'; it is one of the four Labour Codes. Trap: the 5% cap is on payouts to workers, not on turnover.",
+    "te": "స్టాటిక్ లింక్: 'గిగ్ వర్కర్', 'ప్లాట్‌ఫాం వర్కర్'లను నిర్వచించిన తొలి కేంద్ర చట్టం సామాజిక భద్రతా నియమావళి, 2020; ఇది నాలుగు లేబర్ కోడ్‌లలో ఒకటి. ట్రాప్: 5% పరిమితి కార్మికులకు చెల్లింపులపై — టర్నోవర్‌పై కాదు."
+   },
+   "pics": [
+    {
+     "type": "dots",
+     "h": {
+      "en": "Who sits on the gig & platform workers board",
+      "te": "గిగ్ & ప్లాట్‌ఫాం కార్మికుల బోర్డులో ఎవరు"
+     },
+     "groups": [
+      {
+       "n": 5,
+       "color": "#a86b00",
+       "t": {
+        "en": "Aggregator companies",
+        "te": "అగ్రిగేటర్ కంపెనీలు"
+       }
+      },
+      {
+       "n": 5,
+       "color": "#1f6f6a",
+       "t": {
+        "en": "Worker representatives",
+        "te": "కార్మిక ప్రతినిధులు"
+       }
+      },
+      {
+       "n": 5,
+       "color": "#1d4f91",
+       "t": {
+        "en": "States (incl. AP)",
+        "te": "రాష్ట్రాలు (ఏపీ సహా)"
+       }
+      },
+      {
+       "n": 2,
+       "color": "#7a3b8f",
+       "t": {
+        "en": "ESIC + EPFO",
+        "te": "ESIC + EPFO"
+       }
+      },
+      {
+       "n": 2,
+       "color": "#8a4b14",
+       "t": {
+        "en": "Experts",
+        "te": "నిపుణులు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Business Standard — Centre constitutes social security board for gig, unorganised workers, 30 Oct 2026",
+     "u": "https://www.business-standard.com/amp/industry/news/centre-constitutes-social-security-board-for-gig-unorganised-workers-126103001418_1.html"
+    },
+    {
+     "t": "The Tribune — Govt constitutes national social security boards for gig, unorganised workers, 30 Oct 2026",
+     "u": "https://www.tribuneindia.com/news/india/govt-constitutes-national-social-security-boards-for-gig-unorganised-workers/"
+    },
+    {
+     "t": "Battle IAS — Two national boards to plan welfare for gig workers (cross-check), 31 Oct 2026",
+     "u": "https://battleias.com/current-affairs/2026-10-31-two-national-boards-to-plan-welfare-for-gig-workers/"
+    }
+   ]
+  },
+  {
+   "id": "gst",
+   "cat": "economy",
+   "title": {
+    "en": "Gross GST collection in October 2026: ₹2.31 lakh crore, up 22.9%; import GST up 42.2%",
+    "te": "అక్టోబర్ 2026 స్థూల GST వసూళ్లు ₹2.31 లక్షల కోట్లు, 22.9% వృద్ధి; దిగుమతులపై GST 42.2% పెరుగుదల"
+   },
+   "pts": [
+    {
+     "en": "Provisional Finance Ministry data released on 1 November: gross GST in October 2026 was ₹2.31 lakh crore, 22.9% more than October 2025. Net GST (after refunds of ₹27,934 crore) was ₹2.03 lakh crore, up 25.6%.",
+     "te": "నవంబర్ 1న విడుదలైన ఆర్థిక శాఖ తాత్కాలిక గణాంకాల ప్రకారం అక్టోబర్ 2026 స్థూల GST ₹2.31 లక్షల కోట్లు — అక్టోబర్ 2025 కంటే 22.9% ఎక్కువ. రీఫండ్లు (₹27,934 కోట్లు) పోగా నికర GST ₹2.03 లక్షల కోట్లు, 25.6% వృద్ధి."
+    },
+    {
+     "en": "Growth came mainly from imports: GST on imports rose 42.2% to ₹72,246 crore, while domestic gross GST rose 15.8% to ₹1.59 lakh crore.",
+     "te": "వృద్ధి ప్రధానంగా దిగుమతుల నుంచే: దిగుమతులపై GST 42.2% పెరిగి ₹72,246 కోట్లకు చేరగా, దేశీయ స్థూల GST 15.8% పెరిగి ₹1.59 లక్షల కోట్లు అయింది."
+    },
+    {
+     "en": "April–October 2026-27: gross GST ₹14.77 lakh crore (up 13.2%). Maharashtra (₹35,150 crore) was the top State in October.",
+     "te": "ఏప్రిల్–అక్టోబర్ 2026-27: స్థూల GST ₹14.77 లక్షల కోట్లు (13.2% వృద్ధి). అక్టోబర్‌లో మహారాష్ట్ర (₹35,150 కోట్లు) అగ్రస్థానం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Gross GST (Oct)",
+      "te": "స్థూల GST (అక్టో)"
+     },
+     {
+      "en": "₹2.31 lakh crore (+22.9%)",
+      "te": "₹2.31 లక్షల కోట్లు (+22.9%)"
+     }
+    ],
+    [
+     {
+      "en": "Net GST (Oct)",
+      "te": "నికర GST (అక్టో)"
+     },
+     {
+      "en": "₹2.03 lakh crore (+25.6%)",
+      "te": "₹2.03 లక్షల కోట్లు (+25.6%)"
+     }
+    ],
+    [
+     {
+      "en": "Imports GST",
+      "te": "దిగుమతుల GST"
+     },
+     {
+      "en": "₹72,246 crore (+42.2%)",
+      "te": "₹72,246 కోట్లు (+42.2%)"
+     }
+    ],
+    [
+     {
+      "en": "Apr–Oct gross",
+      "te": "ఏప్రి–అక్టో స్థూల"
+     },
+     {
+      "en": "₹14.77 lakh crore (+13.2%)",
+      "te": "₹14.77 లక్షల కోట్లు (+13.2%)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: GST came on 1 July 2017 through the 101st Constitutional Amendment (2016); the GST Council is under Article 279A and is chaired by the Union Finance Minister. IGST is levied on inter-State supplies and imports. Trap: 'gross' is before refunds, 'net' is after refunds.",
+    "te": "స్టాటిక్ లింక్: 101వ రాజ్యాంగ సవరణ (2016) ద్వారా 2017 జూలై 1న GST అమల్లోకి వచ్చింది; GST కౌన్సిల్ ఆర్టికల్ 279A కింద ఏర్పడింది, ఛైర్‌పర్సన్ కేంద్ర ఆర్థిక మంత్రి. అంతర్రాష్ట్ర సరఫరాలు, దిగుమతులపై IGST. ట్రాప్: 'స్థూల' = రీఫండ్లకు ముందు, 'నికర' = రీఫండ్ల తర్వాత."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "October 2026 GST (₹ thousand crore)",
+      "te": "అక్టోబర్ 2026 GST (₹ వేల కోట్లు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Gross GST",
+        "te": "స్థూల GST"
+       },
+       "v": 231,
+       "vl": "2.31 lakh cr"
+      },
+      {
+       "t": {
+        "en": "Net GST",
+        "te": "నికర GST"
+       },
+       "v": 203,
+       "vl": "2.03 lakh cr"
+      },
+      {
+       "t": {
+        "en": "Domestic gross",
+        "te": "దేశీయ స్థూల"
+       },
+       "v": 159,
+       "vl": "1.59 lakh cr (+15.8%)"
+      },
+      {
+       "t": {
+        "en": "On imports",
+        "te": "దిగుమతులపై"
+       },
+       "v": 72.2,
+       "vl": "72,246 cr (+42.2%)"
+      },
+      {
+       "t": {
+        "en": "Refunds",
+        "te": "రీఫండ్లు"
+       },
+       "v": 27.9,
+       "vl": "27,934 cr"
+      }
+     ],
+     "cap": {
+      "en": "Gross − refunds ≈ net (2.31 − 0.28 ≈ 2.03 lakh crore).",
+      "te": "స్థూల − రీఫండ్లు ≈ నికర (2.31 − 0.28 ≈ 2.03 లక్షల కోట్లు)."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Tribune (ANI) — Gross GST collections rise 22.9% to Rs 2.31 lakh crore in October, 1 Nov 2026",
+     "u": "https://www.tribuneindia.com/news/business/gross-gst-collections-rise-22-9-to-rs-2-31-lakh-crore-in-october-net-revenue-up-25-6"
+    }
+   ]
+  },
+  {
+   "id": "indiaeu",
+   "cat": "ir",
+   "title": {
+    "en": "PM Modi to visit Brussels in December to sign the India–EU Free Trade Agreement",
+    "te": "భారత్–EU స్వేచ్ఛా వాణిజ్య ఒప్పందంపై సంతకానికి డిసెంబర్‌లో ప్రధాని మోదీ బ్రస్సెల్స్ పర్యటన"
+   },
+   "pts": [
+    {
+     "en": "European Council President António Costa said in Montreal (during the EU–Canada summit) that PM Modi will come to Brussels in December to sign the India–EU trade deal. Negotiations were concluded earlier in 2026.",
+     "te": "మాంట్రియల్‌లో (EU–కెనడా సదస్సు సందర్భంగా) యూరోపియన్ కౌన్సిల్ అధ్యక్షుడు ఆంటోనియో కోస్టా — భారత్–EU వాణిజ్య ఒప్పందంపై సంతకానికి ప్రధాని మోదీ డిసెంబర్‌లో బ్రస్సెల్స్ వస్తారని చెప్పారు. చర్చలు 2026లోనే ముగిశాయి."
+    },
+    {
+     "en": "The pact covers a market of over 2 billion people (about a quarter of the world economy). Over 99% of Indian exports by value will get preferential or duty-free entry to the EU; textiles, leather and gems & jewellery gain most.",
+     "te": "ఈ ఒప్పందం 200 కోట్లకుపైగా జనాభా (ప్రపంచ ఆర్థిక వ్యవస్థలో సుమారు నాలుగో వంతు) మార్కెట్‌ను కలుపుతుంది. విలువ పరంగా 99%కిపైగా భారత ఎగుమతులకు EUలో ప్రాధాన్య/సుంకరహిత ప్రవేశం; వస్త్రాలు, తోలు, రత్నాలు & ఆభరణాలకు ఎక్కువ లాభం."
+    },
+    {
+     "en": "India protected farm and dairy sectors; EU car and auto-part tariffs will be cut in phases. In 2024-25 goods trade was $136.54 billion — India exported $75.85 billion and imported $60.68 billion.",
+     "te": "వ్యవసాయ, పాడి రంగాలను భారత్ కాపాడుకుంది; EU కార్లు, విడిభాగాలపై సుంకాలు దశలవారీగా తగ్గుతాయి. 2024-25లో వస్తు వాణిజ్యం $136.54 బిలియన్ — భారత ఎగుమతులు $75.85 బి., దిగుమతులు $60.68 బి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Signing",
+      "te": "సంతకం"
+     },
+     {
+      "en": "Brussels, December 2026 (expected)",
+      "te": "బ్రస్సెల్స్, డిసెంబర్ 2026 (అంచనా)"
+     }
+    ],
+    [
+     {
+      "en": "Announced by",
+      "te": "ప్రకటించినది"
+     },
+     {
+      "en": "António Costa, European Council President",
+      "te": "ఆంటోనియో కోస్టా, యూరోపియన్ కౌన్సిల్ అధ్యక్షుడు"
+     }
+    ],
+    [
+     {
+      "en": "Goods trade 2024-25",
+      "te": "వస్తు వాణిజ్యం 2024-25"
+     },
+     {
+      "en": "$136.54 bn (India surplus)",
+      "te": "$136.54 బి. (భారత్‌కు మిగులు)"
+     }
+    ],
+    [
+     {
+      "en": "Services trade 2024",
+      "te": "సేవల వాణిజ్యం 2024"
+     },
+     {
+      "en": "$83.1 bn",
+      "te": "$83.1 బి."
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: European Council President (António Costa) ≠ European Commission President (Ursula von der Leyen). EU HQ institutions sit in Brussels; the EU has 27 members. In goods, India has a trade SURPLUS with the EU.",
+    "te": "ట్రాప్: యూరోపియన్ కౌన్సిల్ అధ్యక్షుడు (ఆంటోనియో కోస్టా) ≠ యూరోపియన్ కమిషన్ అధ్యక్షురాలు (ఉర్సులా వాన్ డెర్ లేయెన్). EU ప్రధాన సంస్థలు బ్రస్సెల్స్‌లో; EUలో 27 సభ్య దేశాలు. వస్తు వాణిజ్యంలో EUతో భారత్‌కు మిగులు."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "India–EU goods trade 2024-25 ($ billion)",
+      "te": "భారత్–EU వస్తు వాణిజ్యం 2024-25 ($ బిలియన్)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "India's exports to EU",
+        "te": "EUకు భారత ఎగుమతులు"
+       },
+       "v": 75.85,
+       "vl": "75.85"
+      },
+      {
+       "t": {
+        "en": "India's imports from EU",
+        "te": "EU నుంచి దిగుమతులు"
+       },
+       "v": 60.68,
+       "vl": "60.68"
+      }
+     ],
+     "cap": {
+      "en": "Exports > imports → India has a goods trade surplus of about $15 billion with the EU.",
+      "te": "ఎగుమతులు > దిగుమతులు → EUతో భారత్‌కు సుమారు $15 బిలియన్ వస్తు వాణిజ్య మిగులు."
+     }
+    },
+    {
+     "type": "map",
+     "view": "world",
+     "h": {
+      "en": "Where the deal will be signed",
+      "te": "ఒప్పందం ఎక్కడ సంతకం"
+     },
+     "pts": [
+      {
+       "ll": [
+        50.85,
+        4.35
+       ],
+       "t": {
+        "en": "Brussels",
+        "te": "బ్రస్సెల్స్"
+       }
+      },
+      {
+       "ll": [
+        28.61,
+        77.21
+       ],
+       "t": {
+        "en": "New Delhi",
+        "te": "న్యూఢిల్లీ"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         28.61,
+         77.21
+        ],
+        [
+         50.85,
+         4.35
+        ]
+       ],
+       "dash": 1,
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "Brussels (Belgium) hosts the main EU institutions.",
+      "te": "బ్రస్సెల్స్ (బెల్జియం)లో EU ప్రధాన సంస్థలు ఉన్నాయి."
+     },
+     "src": "cards/cad/2026-11-01/map-indiaeu-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Outlook India — Narendra Modi to visit Brussels in December to sign India-EU trade pact, 30 Oct 2026",
+     "u": "https://outlookindia.com/national/narendra-modi-to-visit-brussels-in-december-to-sign-india-eu-trade-pact"
+    }
+   ]
+  },
+  {
+   "id": "iafchief",
+   "cat": "defence",
+   "title": {
+    "en": "Air Chief Marshal Ashutosh Dixit takes charge as the 29th Chief of the Air Staff",
+    "te": "29వ వైమానిక దళాధిపతిగా ఎయిర్ చీఫ్ మార్షల్ అశుతోష్ దీక్షిత్ బాధ్యతల స్వీకరణ"
+   },
+   "pts": [
+    {
+     "en": "On 31 October 2026 Air Chief Marshal Ashutosh Dixit became the 29th Chief of the Air Staff (CAS). He succeeded Air Chief Marshal Amar Preet Singh, who retired after about 42 years of service (CAS from 30 Sept 2024).",
+     "te": "2026 అక్టోబర్ 31న ఎయిర్ చీఫ్ మార్షల్ అశుతోష్ దీక్షిత్ 29వ చీఫ్ ఆఫ్ ది ఎయిర్ స్టాఫ్ (CAS) అయ్యారు. సుమారు 42 ఏళ్ల సేవ తర్వాత పదవీ విరమణ చేసిన ఎయిర్ చీఫ్ మార్షల్ అమర్ ప్రీత్ సింగ్ (2024 సెప్టెంబర్ 30 నుంచి CAS) స్థానంలో వచ్చారు."
+    },
+    {
+     "en": "Dixit joined the fighter stream on 6 December 1986. He is an NDA alumnus, an experimental test pilot and flying instructor with over 3,500 flying hours on Mirage-2000, MiG variants, Jaguar and Tejas.",
+     "te": "దీక్షిత్ 1986 డిసెంబర్ 6న ఫైటర్ విభాగంలో చేరారు. NDA పూర్వ విద్యార్థి; ప్రయోగాత్మక టెస్ట్ పైలట్, ఫ్లయింగ్ ఇన్‌స్ట్రక్టర్; మిరాజ్-2000, మిగ్ రకాలు, జాగ్వార్, తేజస్‌పై 3,500కుపైగా గంటల అనుభవం."
+    },
+    {
+     "en": "Before this he was Vice Chief of the Air Staff (from 1 July 2026), and earlier Chief of Integrated Defence Staff and AOC-in-C, Central Air Command.",
+     "te": "అంతకుముందు వైస్ చీఫ్ ఆఫ్ ది ఎయిర్ స్టాఫ్ (2026 జూలై 1 నుంచి); దానికి ముందు ఇంటిగ్రేటెడ్ డిఫెన్స్ స్టాఫ్ చీఫ్, సెంట్రల్ ఎయిర్ కమాండ్ AOC-in-C."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "New CAS",
+      "te": "కొత్త CAS"
+     },
+     {
+      "en": "Ashutosh Dixit (29th)",
+      "te": "అశుతోష్ దీక్షిత్ (29వ)"
+     }
+    ],
+    [
+     {
+      "en": "Took charge",
+      "te": "బాధ్యతలు"
+     },
+     {
+      "en": "31 October 2026",
+      "te": "31 అక్టోబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Predecessor",
+      "te": "పూర్వ అధిపతి"
+     },
+     {
+      "en": "Amar Preet Singh (28th)",
+      "te": "అమర్ ప్రీత్ సింగ్ (28వ)"
+     }
+    ],
+    [
+     {
+      "en": "Previous post",
+      "te": "గత పదవి"
+     },
+     {
+      "en": "Vice Chief of the Air Staff",
+      "te": "వైస్ చీఫ్ ఆఫ్ ది ఎయిర్ స్టాఫ్"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: the IAF was founded on 8 October 1932 (Air Force Day); the President is the Supreme Commander of the armed forces. Trap: Dixit is the 29th CAS — Amar Preet Singh was the 28th.",
+    "te": "స్టాటిక్ లింక్: భారత వైమానిక దళం 1932 అక్టోబర్ 8న ఏర్పడింది (వైమానిక దళ దినోత్సవం); సాయుధ దళాల సర్వసైన్యాధిపతి రాష్ట్రపతి. ట్రాప్: దీక్షిత్ 29వ CAS — అమర్ ప్రీత్ సింగ్ 28వ."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Ashutosh Dixit — career steps",
+      "te": "అశుతోష్ దీక్షిత్ — కెరీర్ దశలు"
+     },
+     "items": [
+      {
+       "y": "1986",
+       "t": {
+        "en": "Joins fighter stream (6 Dec)",
+        "te": "ఫైటర్ విభాగంలో చేరిక (డిసెం 6)"
+       }
+      },
+      {
+       "y": "2024",
+       "t": {
+        "en": "AOC-in-C, Central Air Command",
+        "te": "AOC-in-C, సెంట్రల్ ఎయిర్ కమాండ్"
+       }
+      },
+      {
+       "y": "2025",
+       "t": {
+        "en": "Chief of Integrated Defence Staff",
+        "te": "ఇంటిగ్రేటెడ్ డిఫెన్స్ స్టాఫ్ చీఫ్"
+       }
+      },
+      {
+       "y": "Jul 2026",
+       "t": {
+        "en": "Vice Chief of the Air Staff",
+        "te": "వైస్ చీఫ్ ఆఫ్ ది ఎయిర్ స్టాఫ్"
+       }
+      },
+      {
+       "y": "31 Oct 2026",
+       "t": {
+        "en": "29th Chief of the Air Staff",
+        "te": "29వ వైమానిక దళాధిపతి"
+       },
+       "hl": 1
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ETV Bharat — Indian Air Force gets its 29th Chief as Air Chief Marshal Ashutosh Dixit assumes charge, 31 Oct 2026",
+     "u": "https://www.etvbharat.com/en/bharat/indian-air-force-gets-its-29th-chief-as-air-chief-marshal-amar-preet-singh-demits-office-after-42-years-of-service-enn26103103789"
+    },
+    {
+     "t": "Wikipedia — Ashutosh Dixit (career posts, cross-check)",
+     "u": "https://en.wikipedia.org/wiki/Ashutosh_Dixit"
+    }
+   ]
+  },
+  {
+   "id": "manisha",
+   "cat": "sports",
+   "title": {
+    "en": "Manisha Bhanwala becomes the first Indian woman to win gold at the Senior World Wrestling Championships",
+    "te": "సీనియర్ ప్రపంచ రెజ్లింగ్ ఛాంపియన్‌షిప్‌లో స్వర్ణం గెలిచిన తొలి భారత మహిళ మనీషా భన్వాలా"
+   },
+   "pts": [
+    {
+     "en": "On 30 October 2026 in Astana (Kazakhstan), Manisha Bhanwala won the women's freestyle 59 kg final, beating Abigail Elizabeth Nette of the USA 8–6 after trailing 0–6.",
+     "te": "2026 అక్టోబర్ 30న అస్తానా (కజకిస్థాన్)లో మహిళల ఫ్రీస్టైల్ 59 కేజీల ఫైనల్‌లో మనీషా భన్వాలా 0–6తో వెనకబడి కూడా అమెరికాకు చెందిన అబిగైల్ ఎలిజబెత్ నెట్‌ను 8–6తో ఓడించారు."
+    },
+    {
+     "en": "It is India's first-ever women's gold at the Senior World Championships.",
+     "te": "సీనియర్ ప్రపంచ ఛాంపియన్‌షిప్‌లో భారత మహిళలకు ఇదే తొలి స్వర్ణం."
+    },
+    {
+     "en": "Indian women won four medals at this edition: Manisha (gold), Kajal Dhochak and Neelam Sirohi (silver) and Tanu Sharma (bronze, 72 kg).",
+     "te": "ఈ పోటీల్లో భారత మహిళలు నాలుగు పతకాలు గెలిచారు: మనీషా (స్వర్ణం), కాజల్ ధోచక్, నీలమ్ సిరోహి (రజతం), తను శర్మ (కాంస్యం, 72 కేజీ)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Event",
+      "te": "పోటీ"
+     },
+     {
+      "en": "Senior World Wrestling Championships 2026",
+      "te": "సీనియర్ ప్రపంచ రెజ్లింగ్ ఛాంపియన్‌షిప్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Venue",
+      "te": "వేదిక"
+     },
+     {
+      "en": "Astana, Kazakhstan",
+      "te": "అస్తానా, కజకిస్థాన్"
+     }
+    ],
+    [
+     {
+      "en": "Category",
+      "te": "విభాగం"
+     },
+     {
+      "en": "Women's freestyle 59 kg",
+      "te": "మహిళల ఫ్రీస్టైల్ 59 కేజీ"
+     }
+    ],
+    [
+     {
+      "en": "Final",
+      "te": "ఫైనల్"
+     },
+     {
+      "en": "Beat Abigail Nette (USA) 8–6",
+      "te": "అబిగైల్ నెట్ (అమెరికా)పై 8–6"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: the venue is Astana, the capital of Kazakhstan (not Almaty). This is the Senior Worlds — not the Asian Championships, where she had won gold earlier.",
+    "te": "ట్రాప్: వేదిక అస్తానా — కజకిస్థాన్ రాజధాని (అల్మాటీ కాదు). ఇది సీనియర్ ప్రపంచ ఛాంపియన్‌షిప్ — ఆమె ఇంతకుముందు స్వర్ణం గెలిచిన ఆసియా ఛాంపియన్‌షిప్ కాదు."
+   },
+   "pics": [
+    {
+     "type": "dots",
+     "h": {
+      "en": "Indian women's medals at the 2026 Senior Worlds (Astana)",
+      "te": "2026 సీనియర్ ప్రపంచ పోటీల్లో (అస్తానా) భారత మహిళల పతకాలు"
+     },
+     "groups": [
+      {
+       "n": 1,
+       "color": "#c9a227",
+       "t": {
+        "en": "Gold — Manisha (59 kg)",
+        "te": "స్వర్ణం — మనీషా (59 కేజీ)"
+       }
+      },
+      {
+       "n": 2,
+       "color": "#8a8f98",
+       "t": {
+        "en": "Silver — Kajal Dhochak, Neelam Sirohi",
+        "te": "రజతం — కాజల్ ధోచక్, నీలమ్ సిరోహి"
+       }
+      },
+      {
+       "n": 1,
+       "color": "#8a4b14",
+       "t": {
+        "en": "Bronze — Tanu Sharma (72 kg)",
+        "te": "కాంస్యం — తను శర్మ (72 కేజీ)"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "WION — Manisha Bhanwala scripts history, wins India's first women's gold at Wrestling World Championships, 30 Oct 2026",
+     "u": "https://www.wionews.com/sports/manisha-bhanwala-scripts-history-wins-india-s-first-women-s-gold-at-wrestling-world-championships-1793371223556"
+    },
+    {
+     "t": "Daily Jagran — School assembly news headlines, 1 Nov 2026",
+     "u": "https://www.thedailyjagran.com/education/news/todays-school-assembly-news-headline-november-1-2026-check-top-national-international-and-sports-news-here-10334691"
+    }
+   ]
+  },
+  {
+   "id": "wcricket50",
+   "cat": "days",
+   "title": {
+    "en": "50 years of Indian women's international cricket: first Test was on 31 October 1976 at Bengaluru",
+    "te": "భారత మహిళల అంతర్జాతీయ క్రికెట్‌కు 50 ఏళ్లు: తొలి టెస్ట్ 1976 అక్టోబర్ 31న బెంగళూరులో"
+   },
+   "pts": [
+    {
+     "en": "On 31 October 1976 India played its first official women's international — a Test against the West Indies in Bengaluru. The match was drawn. 31 October 2026 marked 50 years.",
+     "te": "1976 అక్టోబర్ 31న భారత మహిళల జట్టు తొలి అధికారిక అంతర్జాతీయ మ్యాచ్ — వెస్టిండీస్‌తో బెంగళూరులో టెస్ట్ — ఆడింది. మ్యాచ్ డ్రా. 2026 అక్టోబర్ 31కి 50 ఏళ్లు పూర్తయ్యాయి."
+    },
+    {
+     "en": "Captain Shantha Rangaswamy top-scored with 74; Shubhangi Kulkarni took India's first five-wicket haul. The six-Test series ended 1–1.",
+     "te": "కెప్టెన్ శాంత రంగస్వామి 74 పరుగులతో టాప్ స్కోరర్; శుభాంగి కులకర్ణి భారత్ తరఫున తొలి 5 వికెట్ల ఘనత సాధించారు. ఆరు టెస్టుల సిరీస్ 1–1తో ముగిసింది."
+    },
+    {
+     "en": "The Women's Cricket Association of India (WCAI), founded in 1973 by Mahendra Kumar Sharma, ran the game until it merged with the BCCI in 2006. India's first women's ODI was on 1 January 1978.",
+     "te": "1973లో మహేంద్ర కుమార్ శర్మ స్థాపించిన భారత మహిళా క్రికెట్ సంఘం (WCAI) 2006లో BCCIలో విలీనమయ్యే వరకు ఆటను నిర్వహించింది. భారత మహిళల తొలి వన్డే 1978 జనవరి 1న."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "First Test",
+      "te": "తొలి టెస్ట్"
+     },
+     {
+      "en": "31 Oct 1976 vs West Indies, Bengaluru",
+      "te": "31 అక్టో 1976, వెస్టిండీస్‌తో, బెంగళూరు"
+     }
+    ],
+    [
+     {
+      "en": "First captain",
+      "te": "తొలి కెప్టెన్"
+     },
+     {
+      "en": "Shantha Rangaswamy",
+      "te": "శాంత రంగస్వామి"
+     }
+    ],
+    [
+     {
+      "en": "WCAI",
+      "te": "WCAI"
+     },
+     {
+      "en": "Founded 1973; merged with BCCI 2006",
+      "te": "స్థాపన 1973; BCCIలో విలీనం 2006"
+     }
+    ],
+    [
+     {
+      "en": "First ODI",
+      "te": "తొలి వన్డే"
+     },
+     {
+      "en": "1 January 1978",
+      "te": "1 జనవరి 1978"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Chronology question likely: WCAI 1973 → first Test 1976 → first ODI 1978 → first World Cup final 2005 (lost to Australia) → merger with BCCI 2006.",
+    "te": "కాలక్రమ ప్రశ్నకు అవకాశం: WCAI 1973 → తొలి టెస్ట్ 1976 → తొలి వన్డే 1978 → తొలి ప్రపంచకప్ ఫైనల్ 2005 (ఆస్ట్రేలియా చేతిలో ఓటమి) → BCCIలో విలీనం 2006."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Indian women's cricket — milestones",
+      "te": "భారత మహిళల క్రికెట్ — ముఖ్య ఘట్టాలు"
+     },
+     "items": [
+      {
+       "y": "1973",
+       "t": {
+        "en": "WCAI founded",
+        "te": "WCAI స్థాపన"
+       }
+      },
+      {
+       "y": "1976",
+       "t": {
+        "en": "First Test vs West Indies, Bengaluru",
+        "te": "తొలి టెస్ట్ — వెస్టిండీస్, బెంగళూరు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1978",
+       "t": {
+        "en": "First ODI (1 Jan); India hosts World Cup",
+        "te": "తొలి వన్డే (జన 1); ప్రపంచకప్‌కు ఆతిథ్యం"
+       }
+      },
+      {
+       "y": "2005",
+       "t": {
+        "en": "First World Cup final (lost to Australia)",
+        "te": "తొలి ప్రపంచకప్ ఫైనల్ (ఆస్ట్రేలియాపై ఓటమి)"
+       }
+      },
+      {
+       "y": "2006",
+       "t": {
+        "en": "WCAI merges with BCCI",
+        "te": "BCCIలో WCAI విలీనం"
+       },
+       "hl": 1
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ICC — Celebrating 50 years of women's cricket in India, 17 Sep 2025",
+     "u": "https://www.icc-cricket.com/media-releases/celebrating-50-years-of-women-s-cricket-in-india"
+    },
+    {
+     "t": "ESPNcricinfo — WI Women vs IND Women, 1st Test at Bengaluru, Oct 31 1976",
+     "u": "https://www.espncricinfo.com/ci/content/match/67452.html"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "murasu",
+   "q": {
+    "en": "Consider the following about the naming of cyclones 'Murasu' and 'Arnab'. Which is/are correct?",
+    "te": "'మురసు', 'ఆర్నాబ్' తుపానుల పేర్ల గురించి కింది వాటిలో సరైనది/సరైనవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. 'Murasu' was suggested by India.",
+     "te": "I. 'మురసు' పేరును భారత్ సూచించింది."
+    },
+    {
+     "en": "II. 'Arnab' was suggested by Bangladesh.",
+     "te": "II. 'ఆర్నాబ్' పేరును బంగ్లాదేశ్ సూచించింది."
+    },
+    {
+     "en": "III. Both are from the 2020 list of 169 names given by 13 countries.",
+     "te": "III. రెండూ 13 దేశాలు ఇచ్చిన 169 పేర్ల 2020 జాబితాలోనివి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct. Murasu (India; a Tamil word for a drum) and Arnab (Bangladesh) are both in the April 2020 WMO/ESCAP Panel list (13 countries × 13 names = 169). Trap: assuming 'Arnab' is an Indian name because it sounds Indian.",
+    "te": "మూడూ సరైనవే. మురసు (భారత్; డప్పు అనే తమిళ పదం), ఆర్నాబ్ (బంగ్లాదేశ్) — రెండూ ఏప్రిల్ 2020 WMO/ESCAP ప్యానెల్ జాబితాలో (13 దేశాలు × 13 పేర్లు = 169). ట్రాప్: 'ఆర్నాబ్' భారతీయ పేరులా వినిపించడం వల్ల భారత్ ఇచ్చిందనుకోవడం."
+   }
+  },
+  {
+   "topic": "murasu",
+   "q": {
+    "en": "Which one of the following statements about Cyclone Murasu (IMD forecast, 1 November 2026) is INCORRECT?",
+    "te": "మురసు తుపాను (IMD అంచనా, 1 నవంబర్ 2026) గురించి కింది వాటిలో తప్పు ప్రకటన ఏది?"
+   },
+   "o": [
+    {
+     "en": "It may become a Severe Cyclonic Storm by 2 November morning",
+     "te": "నవంబర్ 2 ఉదయానికి తీవ్ర తుపానుగా మారవచ్చు"
+    },
+    {
+     "en": "It will cross the north Andhra coast near Visakhapatnam",
+     "te": "విశాఖ వద్ద ఉత్తరాంధ్ర తీరం దాటుతుంది"
+    },
+    {
+     "en": "Landfall winds of 100–110 km/h gusting to 120 km/h",
+     "te": "తీరం దాటేటప్పుడు గాలి గం. 100–110 కి.మీ., గరిష్ఠం 120"
+    },
+    {
+     "en": "Landfall expected between Nellore and Narsapur",
+     "te": "నెల్లూరు–నర్సాపురం మధ్య తీరం దాటే అవకాశం"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "(b) is wrong: the forecast landfall is on the SOUTH AP coast between Nellore and Narsapur, not near Visakhapatnam (which is 660 km NNW of the storm). (a), (c), (d) match the IMD forecast.",
+    "te": "(b) తప్పు: అంచనా ప్రకారం దక్షిణ కోస్తాలో నెల్లూరు–నర్సాపురం మధ్య తీరం దాటుతుంది, విశాఖ వద్ద కాదు. (a), (c), (d) IMD అంచనాకు సరిపోతాయి."
+   }
+  },
+  {
+   "topic": "deaddiction",
+   "q": {
+    "en": "Consider the following about AP's plan to modernise de-addiction centres (October 2026):",
+    "te": "ఏపీ డీ-అడిక్షన్ కేంద్రాల ఆధునికీకరణ (అక్టోబర్ 2026) గురించి కింది వాటిని పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. ₹9.86 crore was released by the Prohibition and Excise Department for 16 centres.",
+     "te": "I. 16 కేంద్రాలకు మద్యనిషేధ & ఎక్సైజ్ శాఖ ₹9.86 కోట్లు విడుదల చేసింది."
+    },
+    {
+     "en": "II. King George Hospital, Visakhapatnam is one of the three centres of excellence.",
+     "te": "II. విశాఖ కింగ్ జార్జ్ ఆసుపత్రి మూడు సెంటర్స్ ఆఫ్ ఎక్సలెన్స్‌లో ఒకటి."
+    },
+    {
+     "en": "III. The Institute of Mental Health chosen as a centre of excellence is in Kurnool.",
+     "te": "III. సెంటర్ ఆఫ్ ఎక్సలెన్స్‌గా ఎంపికైన మానసిక ఆరోగ్య సంస్థ కర్నూలులో ఉంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and II are correct. III is wrong: the Institute of Mental Health centre of excellence is in Kadapa (the third is GGH Vijayawada). Trap: confusing two Rayalaseema cities.",
+    "te": "I, II సరైనవి. III తప్పు: మానసిక ఆరోగ్య సంస్థ సెంటర్ ఆఫ్ ఎక్సలెన్స్ కడపలో ఉంది (మూడోది విజయవాడ GGH). ట్రాప్: రెండు రాయలసీమ నగరాల మధ్య గందరగోళం."
+   }
+  },
+  {
+   "topic": "deaddiction",
+   "q": {
+    "en": "With reference to the constitutional provision behind prohibition and de-addiction efforts, consider:",
+    "te": "మద్యనిషేధం, వ్యసన విముక్తి ప్రయత్నాలకు ఆధారమైన రాజ్యాంగ నిబంధన గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Article 47 directs the State to try to prohibit intoxicating drinks and harmful drugs except for medicinal use.",
+     "te": "I. ఔషధ అవసరాలు తప్ప మత్తు పానీయాలు, హానికర మాదకద్రవ్యాల నిషేధానికి కృషి చేయాలని ఆర్టికల్ 47 చెబుతుంది."
+    },
+    {
+     "en": "II. Article 47 is a Directive Principle in Part IV.",
+     "te": "II. ఆర్టికల్ 47 భాగం IVలోని ఆదేశిక సూత్రం."
+    },
+    {
+     "en": "III. A citizen can approach a court to enforce Article 47.",
+     "te": "III. ఆర్టికల్ 47 అమలు కోసం పౌరుడు కోర్టును ఆశ్రయించవచ్చు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and II are correct. III is wrong: Directive Principles are not enforceable by any court (Article 37), though they are fundamental in governance. Trap: mixing up DPSPs with Fundamental Rights.",
+    "te": "I, II సరైనవి. III తప్పు: ఆదేశిక సూత్రాలను ఏ కోర్టు ద్వారా అమలు చేయించలేం (ఆర్టికల్ 37), అయితే పాలనకు అవి మౌలికం. ట్రాప్: ఆదేశిక సూత్రాలను ప్రాథమిక హక్కులతో కలపడం."
+   }
+  },
+  {
+   "topic": "gigboards",
+   "q": {
+    "en": "Consider the following about the National Social Security Boards set up in October 2026:",
+    "te": "అక్టోబర్ 2026లో ఏర్పాటైన జాతీయ సామాజిక భద్రతా బోర్డుల గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Two boards were set up under the Code on Social Security, 2020.",
+     "te": "I. సామాజిక భద్రతా నియమావళి, 2020 కింద రెండు బోర్డులు ఏర్పడ్డాయి."
+    },
+    {
+     "en": "II. Both are chaired by the Union Labour Minister.",
+     "te": "II. రెండింటికీ కేంద్ర కార్మిక మంత్రి ఛైర్మన్."
+    },
+    {
+     "en": "III. Andhra Pradesh is one of the five States on the gig workers' board.",
+     "te": "III. గిగ్ కార్మికుల బోర్డులోని ఐదు రాష్ట్రాల్లో ఆంధ్రప్రదేశ్ ఒకటి."
+    },
+    {
+     "en": "IV. Aggregators' contribution is capped at 2% of payouts to gig workers.",
+     "te": "IV. అగ్రిగేటర్ల చెల్లింపు గిగ్ కార్మికులకు చెల్లింపుల్లో 2%కు పరిమితం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I, II, III are correct. IV is wrong: aggregators pay 1–2% of annual TURNOVER, and the cap is 5% of payouts to workers. Trap: mixing the 2% (turnover) and 5% (payout cap) numbers.",
+    "te": "I, II, III సరైనవి. IV తప్పు: అగ్రిగేటర్లు వార్షిక టర్నోవర్‌లో 1–2% చెల్లించాలి; పరిమితి కార్మికుల చెల్లింపుల్లో 5%. ట్రాప్: 2% (టర్నోవర్), 5% (పరిమితి) సంఖ్యలను కలపడం."
+   }
+  },
+  {
+   "topic": "gst",
+   "q": {
+    "en": "Consider the following about GST collections in October 2026 and GST itself:",
+    "te": "అక్టోబర్ 2026 GST వసూళ్లు, GST గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Gross GST was ₹2.31 lakh crore, up 22.9% year-on-year.",
+     "te": "I. స్థూల GST ₹2.31 లక్షల కోట్లు, ఏడాది ప్రాతిపదికన 22.9% వృద్ధి."
+    },
+    {
+     "en": "II. GST on imports grew faster than domestic GST.",
+     "te": "II. దేశీయ GST కంటే దిగుమతులపై GST వేగంగా పెరిగింది."
+    },
+    {
+     "en": "III. The GST Council was created under Article 270.",
+     "te": "III. GST కౌన్సిల్ ఆర్టికల్ 270 కింద ఏర్పడింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and II are correct (imports +42.2% vs domestic +15.8%). III is wrong: the GST Council is under Article 279A (added by the 101st Amendment, 2016); Article 270 deals with sharing of taxes between the Centre and States.",
+    "te": "I, II సరైనవి (దిగుమతులు +42.2%, దేశీయం +15.8%). III తప్పు: GST కౌన్సిల్ ఆర్టికల్ 279A కింద (101వ సవరణ, 2016); ఆర్టికల్ 270 కేంద్ర–రాష్ట్రాల పన్నుల పంపిణీకి సంబంధించినది."
+   }
+  },
+  {
+   "topic": "indiaeu",
+   "q": {
+    "en": "Consider the following about the India–EU Free Trade Agreement:",
+    "te": "భారత్–EU స్వేచ్ఛా వాణిజ్య ఒప్పందం గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. European Council President António Costa said PM Modi will sign it in Brussels in December.",
+     "te": "I. ప్రధాని మోదీ డిసెంబర్‌లో బ్రస్సెల్స్‌లో సంతకం చేస్తారని యూరోపియన్ కౌన్సిల్ అధ్యక్షుడు ఆంటోనియో కోస్టా చెప్పారు."
+    },
+    {
+     "en": "II. Over 99% of Indian exports by value will get preferential or duty-free access to the EU.",
+     "te": "II. విలువ పరంగా 99%కిపైగా భారత ఎగుమతులకు EUలో ప్రాధాన్య/సుంకరహిత ప్రవేశం."
+    },
+    {
+     "en": "III. In 2024-25 India had a goods trade deficit with the EU.",
+     "te": "III. 2024-25లో EUతో భారత్‌కు వస్తు వాణిజ్య లోటు ఉంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and II are correct. III is wrong: India exported $75.85 bn and imported $60.68 bn — a SURPLUS. Trap: assuming India has a deficit with every big partner (true for China, not the EU).",
+    "te": "I, II సరైనవి. III తప్పు: భారత ఎగుమతులు $75.85 బి., దిగుమతులు $60.68 బి. — మిగులు. ట్రాప్: ప్రతి పెద్ద భాగస్వామితో లోటు ఉంటుందనుకోవడం (చైనాతో నిజం, EUతో కాదు)."
+   }
+  },
+  {
+   "topic": "iafchief",
+   "q": {
+    "en": "Consider the following about the new Chief of the Air Staff:",
+    "te": "కొత్త వైమానిక దళాధిపతి గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Air Chief Marshal Ashutosh Dixit took charge on 31 October 2026 as the 29th Chief of the Air Staff.",
+     "te": "I. ఎయిర్ చీఫ్ మార్షల్ అశుతోష్ దీక్షిత్ 2026 అక్టోబర్ 31న 29వ వైమానిక దళాధిపతిగా బాధ్యతలు చేపట్టారు."
+    },
+    {
+     "en": "II. He succeeded Air Chief Marshal Amar Preet Singh.",
+     "te": "II. ఆయన ఎయిర్ చీఫ్ మార్షల్ అమర్ ప్రీత్ సింగ్ స్థానంలో వచ్చారు."
+    },
+    {
+     "en": "III. He was Vice Chief of the Air Staff just before this.",
+     "te": "III. దీనికి ముందు ఆయన వైస్ చీఫ్ ఆఫ్ ది ఎయిర్ స్టాఫ్."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct. Dixit (fighter pilot, joined 6 Dec 1986) was VCAS from 1 July 2026 and earlier Chief of Integrated Defence Staff. Trap: Amar Preet Singh was the 28th chief, not the 29th.",
+    "te": "మూడూ సరైనవే. దీక్షిత్ (ఫైటర్ పైలట్, 1986 డిసెం 6న చేరిక) 2026 జూలై 1 నుంచి VCAS; అంతకుముందు ఇంటిగ్రేటెడ్ డిఫెన్స్ స్టాఫ్ చీఫ్. ట్రాప్: అమర్ ప్రీత్ సింగ్ 28వ అధిపతి, 29వ కాదు."
+   }
+  },
+  {
+   "topic": "manisha",
+   "q": {
+    "en": "Consider the following about Manisha Bhanwala's win at the 2026 Senior World Wrestling Championships:",
+    "te": "2026 సీనియర్ ప్రపంచ రెజ్లింగ్ ఛాంపియన్‌షిప్‌లో మనీషా భన్వాలా విజయం గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. She is the first Indian woman to win gold at the Senior Worlds.",
+     "te": "I. సీనియర్ ప్రపంచ పోటీల్లో స్వర్ణం గెలిచిన తొలి భారత మహిళ ఆమె."
+    },
+    {
+     "en": "II. She won in the 59 kg women's freestyle category.",
+     "te": "II. మహిళల ఫ్రీస్టైల్ 59 కేజీల విభాగంలో గెలిచారు."
+    },
+    {
+     "en": "III. The championships were held in Almaty.",
+     "te": "III. పోటీలు అల్మాటీలో జరిగాయి."
+    },
+    {
+     "en": "IV. She beat a wrestler from Japan in the final.",
+     "te": "IV. ఫైనల్‌లో జపాన్ రెజ్లర్‌ను ఓడించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and II are correct. III is wrong — the venue was Astana (Kazakhstan's capital). IV is wrong — she beat Abigail Nette of the USA 8–6. Trap: Japan is a wrestling power, so it 'sounds' right.",
+    "te": "I, II సరైనవి. III తప్పు — వేదిక అస్తానా (కజకిస్థాన్ రాజధాని). IV తప్పు — అమెరికాకు చెందిన అబిగైల్ నెట్‌ను 8–6తో ఓడించారు. ట్రాప్: జపాన్ రెజ్లింగ్‌లో బలమైన దేశం కాబట్టి సరైనదిలా అనిపిస్తుంది."
+   }
+  },
+  {
+   "topic": "wcricket50",
+   "q": {
+    "en": "Arrange these milestones of Indian women's cricket in chronological order: 1. First Test vs West Indies  2. WCAI merges with BCCI  3. WCAI founded  4. First ODI",
+    "te": "భారత మహిళల క్రికెట్ ఘట్టాలను కాలక్రమంలో అమర్చండి: 1. వెస్టిండీస్‌తో తొలి టెస్ట్  2. BCCIలో WCAI విలీనం  3. WCAI స్థాపన  4. తొలి వన్డే"
+   },
+   "o": [
+    {
+     "en": "3 – 1 – 4 – 2",
+     "te": "3 – 1 – 4 – 2"
+    },
+    {
+     "en": "1 – 3 – 4 – 2",
+     "te": "1 – 3 – 4 – 2"
+    },
+    {
+     "en": "3 – 4 – 1 – 2",
+     "te": "3 – 4 – 1 – 2"
+    },
+    {
+     "en": "1 – 4 – 3 – 2",
+     "te": "1 – 4 – 3 – 2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "WCAI founded 1973 → first Test 31 Oct 1976 (Bengaluru) → first ODI 1 Jan 1978 → merger with BCCI 2006. Trap: thinking the association came after the first international match.",
+    "te": "WCAI స్థాపన 1973 → తొలి టెస్ట్ 31 అక్టో 1976 (బెంగళూరు) → తొలి వన్డే 1 జన 1978 → BCCIలో విలీనం 2006. ట్రాప్: సంఘం తొలి అంతర్జాతీయ మ్యాచ్ తర్వాత ఏర్పడిందనుకోవడం."
+   }
+  }
+ ]
+}
