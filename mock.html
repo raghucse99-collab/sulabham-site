@@ -188,6 +188,8 @@ function drawList(){var x=t(),h='<header class="hero"><div class="wrap"><div cla
     else if(s)h+='<button type="button" class="go" data-cont="'+m.id+'">'+x.cont+'</button>';
     else h+='<button type="button" class="go" data-new="'+m.id+'" data-mode="exam">'+x.start.replace("150",mins)+'</button><button type="button" class="ln" data-new="'+m.id+'" data-mode="prac">'+x.prac+'</button>';
     if(LB)h+='<button type="button" class="ln" data-lb="'+m.id+'">'+x.lbBtn+'</button>';
+    var ca=m.kind==="ca",im=k===0?(ca?"ca-quiz":"g2-mock"):"",te2=m.title.te||m.title.en,qq=m.q||150;
+    h+='<button type="button" class="ln" data-share data-url="mock.html?m='+esc(m.id)+'"'+(im?' data-img="cards/launch/'+im+'-en.png" data-img-te="cards/launch/'+im+'-te.png"':'')+' data-text-en="'+esc("📝 Free "+m.title.en+" on Sulabham — "+qq+" questions, "+mins+" minutes, APPSC pattern, Telugu & English. Take it here:")+'" data-text-te="'+esc("📝 సులభంలో ఉచిత "+te2+" — "+qq+" ప్రశ్నలు, "+mins+" నిమిషాలు, APPSC తరహా, తెలుగు & ఇంగ్లీష్. ఇక్కడ రాయండి:")+'">📤 '+(med==="te"?"పంచుకోండి":"Share")+'</button>';
     h+='</div></div>';return h}
   h+='<p class="note">'+x.pat+'</p><p class="empty" style="font-size:.82rem;padding-top:0">🔒 '+x.free+'</p></main>';
   $("app").innerHTML=h}
