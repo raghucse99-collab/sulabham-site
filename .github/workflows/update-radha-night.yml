@@ -1,6 +1,10 @@
 name: Update Radha Night chart
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "dp777/scripts/update_radha_night.py"
+      - ".github/workflows/update-radha-night.yml"
   schedule:
     - cron: "*/30 * * * *"
 permissions:
