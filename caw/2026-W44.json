@@ -1,0 +1,1878 @@
+{
+ "id": "2026-W44",
+ "rev": [
+  {
+   "en": "Two cyclones in one week: 'Arnab' (name by Bangladesh) became very severe and crossed the coast near Yanam on 28 Oct; 'Murasu' (name by India) to cross between Nellore and Narsapur on the night of 2–3 Nov.",
+   "te": "ఒకే వారంలో రెండు తుపానులు: 'అర్నబ్' (బంగ్లాదేశ్ పేరు) అతి తీవ్రంగా మారి అక్టో 28న యానాం దగ్గర తీరం దాటింది; 'మురసు' (భారత్ పేరు) నవం 2–3 రాత్రి నెల్లూరు–నర్సాపూర్ మధ్య తీరం దాటే అవకాశం."
+  },
+  {
+   "en": "Arnab: AP's preliminary loss ₹4,563 crore; crops hit on 3.3 lakh ha in 16 districts. Central teams: MHA (cyclone) and Agriculture Ministry (drought in 388 mandals).",
+   "te": "అర్నబ్: ఏపీ ప్రాథమిక నష్టం ₹4,563 కోట్లు; 16 జిల్లాల్లో 3.3 లక్షల హెక్టార్లలో పంటలకు నష్టం. కేంద్ర బృందాలు: హోం శాఖ (తుపాను), వ్యవసాయ శాఖ (388 మండలాల్లో కరవు)."
+  },
+  {
+   "en": "AP polls: 100 urban bodies voted on 1 Nov (count 3 Nov); MPTC–ZPTC moved to 5 Nov (count 7 Nov) — by the SEC. ECI's SIR: AP final roll on 30 Nov.",
+   "te": "ఏపీ ఎన్నికలు: 100 పట్టణ సంస్థలకు నవం 1న పోలింగ్ (లెక్కింపు నవం 3); ఎంపీటీసీ–జడ్పీటీసీ నవం 5కి మార్పు (లెక్కింపు నవం 7) — SEC. ECI SIR: ఏపీ తుది ఓటర్ల జాబితా నవం 30."
+  },
+  {
+   "en": "30 Oct: 24th PM-KISAN instalment (₹2,000) + Annadata Sukhibhava — ₹7,000 each to 46.85 lakh AP farmer families (₹20,000 a year in AP).",
+   "te": "అక్టో 30: 24వ PM-KISAN విడత (₹2,000) + అన్నదాత సుఖీభవ — 46.85 లక్షల ఏపీ రైతు కుటుంబాలకు ₹7,000 చొప్పున (ఏపీలో ఏటా ₹20,000)."
+  },
+  {
+   "en": "Union Cabinet (28 Oct): PM-VGSY ₹7,395.55 cr for panchayats; containers ₹10,000 cr; sports goods ₹1,856.67 cr; DA/DR up to 63%.",
+   "te": "కేంద్ర కేబినెట్ (అక్టో 28): పంచాయతీలకు PM-VGSY ₹7,395.55 కోట్లు; కంటైనర్లు ₹10,000 కోట్లు; క్రీడా సామగ్రి ₹1,856.67 కోట్లు; DA/DR 63%కి."
+  },
+  {
+   "en": "Economy: H1 fiscal deficit ₹7.14 lakh cr = 42.1% of BE (CGA data); October gross GST ₹2.31 lakh cr (+22.9%); Q2 GDP projected at 7.35%.",
+   "te": "ఆర్థికం: తొలి అర్ధ సంవత్సర ద్రవ్య లోటు ₹7.14 లక్షల కోట్లు = బడ్జెట్ అంచనాలో 42.1% (CGA); అక్టోబర్ స్థూల GST ₹2.31 లక్షల కోట్లు (+22.9%); Q2 GDP అంచనా 7.35%."
+  },
+  {
+   "en": "ISRO's GSLV-F18 launched NavIC satellite NVS-03 from Sriharikota on 30 Oct — new L1 signal, indigenous atomic clock.",
+   "te": "ISRO GSLV-F18 అక్టో 30న శ్రీహరికోట నుంచి NavIC ఉపగ్రహం NVS-03ను ప్రయోగించింది — కొత్త L1 సిగ్నల్, స్వదేశీ అటామిక్ క్లాక్."
+  },
+  {
+   "en": "Persons: Ashutosh Dixit — 29th Air Chief; Manisha Bhanwala — India's first women's gold at Senior World Wrestling (Astana); Ashoke Sen — first Indian Oskar Klein Medal.",
+   "te": "వ్యక్తులు: అశుతోష్ దీక్షిత్ — 29వ వాయుసేనాధిపతి; మనీషా భన్వాలా — సీనియర్ ప్రపంచ రెజ్లింగ్‌లో భారత్‌కు తొలి మహిళా స్వర్ణం (అస్తానా); అశోక్ సేన్ — ఆస్కార్ క్లైన్ మెడల్ పొందిన తొలి భారతీయుడు."
+  }
+ ],
+ "test": [
+  {
+   "topic": "murasu",
+   "q": {
+    "en": "Consider the following statements about the two cyclones that hit AP this week:",
+    "te": "ఈ వారం ఏపీని తాకిన రెండు తుపానుల గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. 'Arnab' was suggested by Bangladesh and 'Murasu' by India.",
+     "te": "I. 'అర్నబ్' పేరును బంగ్లాదేశ్, 'మురసు' పేరును భారత్ సూచించాయి."
+    },
+    {
+     "en": "II. A system gets a name as soon as it becomes a depression.",
+     "te": "II. వ్యవస్థ వాయుగుండం (డిప్రెషన్)గా మారగానే పేరు పెడతారు."
+    },
+    {
+     "en": "III. Arnab reached the 'very severe cyclonic storm' stage before landfall.",
+     "te": "III. తీరం దాటక ముందు అర్నబ్ 'అతి తీవ్ర తుపాను' దశకు చేరింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct: Arnab (Bangladesh, 'ocean'), Murasu (India, a drum); Arnab became very severe at 2:30 am on 27 Oct. II is wrong: a name is given only at the 'cyclonic storm' stage, never to a depression.",
+    "te": "I, III సరైనవి: అర్నబ్ (బంగ్లాదేశ్, 'సముద్రం'), మురసు (భారత్, ఒక డప్పు); అక్టో 27 తెల్లవారుజామున 2:30కి అర్నబ్ అతి తీవ్ర తుపానుగా మారింది. II తప్పు: 'తుపాను' (సైక్లోనిక్ స్టార్మ్) దశకు చేరినప్పుడే పేరు పెడతారు, వాయుగుండానికి కాదు."
+   }
+  },
+  {
+   "topic": "arnabsignal",
+   "q": {
+    "en": "Match the port with the signal hoisted on 27 Oct for Cyclone Arnab:",
+    "te": "అర్నబ్ తుపాను కోసం అక్టో 27న ఎగురవేసిన సిగ్నల్‌తో ఓడరేవును జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. Kakinada  B. Visakhapatnam  C. Machilipatnam  D. Kalingapatnam",
+     "te": "A. కాకినాడ  B. విశాఖపట్నం  C. మచిలీపట్నం  D. కళింగపట్నం"
+    },
+    {
+     "en": "1. Local Cautionary III  2. Great Danger VIII  3. Great Danger IX  4. Great Danger X",
+     "te": "1. లోకల్ కాషనరీ III  2. గ్రేట్ డేంజర్ VIII  3. గ్రేట్ డేంజర్ IX  4. గ్రేట్ డేంజర్ X"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-4, B-3, C-2, D-1",
+     "te": "A-4, B-3, C-2, D-1"
+    },
+    {
+     "en": "A-3, B-4, C-2, D-1",
+     "te": "A-3, B-4, C-2, D-1"
+    },
+    {
+     "en": "A-4, B-2, C-3, D-1",
+     "te": "A-4, B-2, C-3, D-1"
+    },
+    {
+     "en": "A-4, B-3, C-1, D-2",
+     "te": "A-4, B-3, C-1, D-2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Kakinada (near landfall at Yanam) got the highest, X; Visakhapatnam IX; Machilipatnam VIII; Kalingapatnam only III. Trap: signal XI is not 'more danger' — it means communication with IMD has failed.",
+    "te": "తీరం దాటే యానాం దగ్గరి కాకినాడకు అత్యధిక X; విశాఖకు IX; మచిలీపట్నానికి VIII; కళింగపట్నానికి III మాత్రమే. ట్రాప్: XI అంటే 'ఎక్కువ ప్రమాదం' కాదు — IMDతో సమాచారం తెగిపోయిందని అర్థం."
+   }
+  },
+  {
+   "topic": "apdelta",
+   "q": {
+    "en": "Arrange these IMD stages from weakest to strongest:",
+    "te": "కింది IMD దశలను బలహీనమైనది నుంచి బలమైనది వరకు అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "1. Deep depression",
+     "te": "1. తీవ్ర వాయుగుండం (డీప్ డిప్రెషన్)"
+    },
+    {
+     "en": "2. Well-marked low",
+     "te": "2. బాగా గుర్తించదగిన అల్పపీడనం"
+    },
+    {
+     "en": "3. Very severe cyclonic storm",
+     "te": "3. అతి తీవ్ర తుపాను"
+    },
+    {
+     "en": "4. Severe cyclonic storm",
+     "te": "4. తీవ్ర తుపాను"
+    }
+   ],
+   "o": [
+    {
+     "en": "1, 2, 4, 3",
+     "te": "1, 2, 4, 3"
+    },
+    {
+     "en": "2, 1, 3, 4",
+     "te": "2, 1, 3, 4"
+    },
+    {
+     "en": "2, 4, 1, 3",
+     "te": "2, 4, 1, 3"
+    },
+    {
+     "en": "2, 1, 4, 3",
+     "te": "2, 1, 4, 3"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Low → well-marked low → depression → deep depression → cyclonic storm → severe → very severe. This week: the new system was a well-marked low on 31 Oct; Arnab was very severe and weakened to severe after landfall.",
+    "te": "అల్పపీడనం → బాగా గుర్తించదగిన అల్పపీడనం → వాయుగుండం → తీవ్ర వాయుగుండం → తుపాను → తీవ్ర → అతి తీవ్ర. ఈ వారం: అక్టో 31న కొత్త వ్యవస్థ బాగా గుర్తించదగిన అల్పపీడనం; అర్నబ్ అతి తీవ్రం, తీరం దాటాక తీవ్ర తుపానుగా బలహీనపడింది."
+   }
+  },
+  {
+   "topic": "apteams",
+   "q": {
+    "en": "Two Central teams were sent to AP this week. Which statement is INCORRECT?",
+    "te": "ఈ వారం రెండు కేంద్ర బృందాలను ఏపీకి పంపారు. కింది వాటిలో తప్పు ప్రకటన ఏది?"
+   },
+   "o": [
+    {
+     "en": "The cyclone team was sent by the Union Home Ministry",
+     "te": "తుపాను బృందాన్ని కేంద్ర హోం శాఖ పంపింది"
+    },
+    {
+     "en": "The drought team was sent by the Union Agriculture Ministry",
+     "te": "కరవు బృందాన్ని కేంద్ర వ్యవసాయ శాఖ పంపింది"
+    },
+    {
+     "en": "Both teams studied the same Godavari districts",
+     "te": "రెండు బృందాలూ ఒకే గోదావరి జిల్లాలను పరిశీలించాయి"
+    },
+    {
+     "en": "AP declared 388 mandals drought-hit for Kharif 2026",
+     "te": "ఖరీఫ్ 2026కి ఏపీ 388 మండలాలను కరవు ప్రాంతాలుగా ప్రకటించింది"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "(c) is wrong: the cyclone team went to Konaseema, Kakinada, East & West Godavari, but the drought team went to Sri Sathya Sai, Anantapur, Kurnool and Nandyal. Nodal ministry: MHA for cyclones/floods, Agriculture for drought.",
+    "te": "(c) తప్పు: తుపాను బృందం కోనసీమ, కాకినాడ, తూర్పు–పశ్చిమ గోదావరికి; కరవు బృందం శ్రీ సత్యసాయి, అనంతపురం, కర్నూలు, నంద్యాలకు వెళ్లింది. నోడల్ శాఖ: తుపాను/వరదలకు హోం శాఖ, కరవుకు వ్యవసాయ శాఖ."
+   }
+  },
+  {
+   "topic": "arnabcost",
+   "q": {
+    "en": "Consider the following about Cyclone Arnab's impact in AP (State estimates):",
+    "te": "ఏపీలో అర్నబ్ తుపాను ప్రభావం (రాష్ట్ర అంచనాలు) గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. West Godavari had the largest total crop area hit.",
+     "te": "I. మొత్తం పంట నష్టపు విస్తీర్ణం పశ్చిమ గోదావరిలో అత్యధికం."
+    },
+    {
+     "en": "II. Konaseema had the largest horticulture area hit.",
+     "te": "II. ఉద్యాన పంటల నష్టం కోనసీమలో అత్యధికం."
+    },
+    {
+     "en": "III. The rains of 26–29 Oct brought about 380 TMC of water into the State.",
+     "te": "III. అక్టో 26–29 వర్షాలతో రాష్ట్రానికి సుమారు 380 TMC నీరు వచ్చింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct: West Godavari 76,752 ha (total crops), Konaseema 11,229 ha (horticulture), ~380 TMC inflow plus ~44 TMC groundwater rise. Trap: the 'worst-hit' district depends on which kind of crop is asked.",
+    "te": "మూడూ సరైనవి: పశ్చిమ గోదావరి 76,752 హెక్టార్లు (మొత్తం పంటలు), కోనసీమ 11,229 హెక్టార్లు (ఉద్యాన), సుమారు 380 TMC నీరు + 44 TMC భూగర్భజలం పెరుగుదల. ట్రాప్: ఏ రకం పంట అడిగారో దాన్ని బట్టి 'అత్యధిక నష్టం' జిల్లా మారుతుంది."
+   }
+  },
+  {
+   "topic": "apsir",
+   "q": {
+    "en": "Consider the following about AP election work this week:",
+    "te": "ఈ వారం ఏపీలో ఎన్నికల పనుల గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. SEC moved MPTC–ZPTC polling to 5 Nov as ULB counting is on 3 Nov.",
+     "te": "I. పట్టణ సంస్థల లెక్కింపు నవం 3న ఉన్నందున ఎంపీటీసీ–జడ్పీటీసీ పోలింగ్‌ను SEC నవం 5కి మార్చింది."
+    },
+    {
+     "en": "II. The SEC extended the SIR of electoral rolls; AP's final roll is on 30 Nov.",
+     "te": "II. ఓటర్ల జాబితా SIRను SEC పొడిగించింది; ఏపీ తుది జాబితా నవం 30న."
+    },
+    {
+     "en": "III. The State Election Commissioner can be removed only like a High Court judge.",
+     "te": "III. రాష్ట్ర ఎన్నికల కమిషనర్‌ను హైకోర్టు న్యాయమూర్తి విధానంలోనే తొలగించగలరు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct. II is wrong: the SIR (final AP roll 30 Nov) is done by the Election Commission of India under Art. 324 — the SEC (Art. 243K/243ZA) only runs panchayat and municipal polls.",
+    "te": "I, III సరైనవి. II తప్పు: SIR (ఏపీ తుది జాబితా నవం 30)ను ఆర్టికల్ 324 కింద భారత ఎన్నికల సంఘం (ECI) చేస్తుంది — SEC (ఆర్టికల్ 243K/243ZA) పంచాయతీ, మున్సిపల్ ఎన్నికలు మాత్రమే నిర్వహిస్తుంది."
+   }
+  },
+  {
+   "topic": "apulb",
+   "q": {
+    "en": "AP's 1 Nov urban polls covered 13 corporations and 87 municipalities/nagar panchayats. Under Part IXA:",
+    "te": "నవం 1 ఏపీ పట్టణ ఎన్నికల్లో 13 కార్పొరేషన్లు, 87 మున్సిపాలిటీలు/నగర పంచాయతీలు. భాగం IXA ప్రకారం:"
+   },
+   "st": [
+    {
+     "en": "I. Art. 243Q provides Nagar Panchayats for areas in transition from rural to urban.",
+     "te": "I. గ్రామీణం నుంచి పట్టణంగా మారుతున్న ప్రాంతాలకు నగర పంచాయతీని ఆర్టికల్ 243Q కల్పిస్తుంది."
+    },
+    {
+     "en": "II. Art. 243U gives municipalities a 5-year term.",
+     "te": "II. ఆర్టికల్ 243U మున్సిపాలిటీలకు 5 ఏళ్ల పదవీకాలం ఇస్తుంది."
+    },
+    {
+     "en": "III. Part IXA was added by the 73rd Amendment.",
+     "te": "III. భాగం IXAను 73వ సవరణ చేర్చింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and II are correct. III is wrong: Part IXA (municipalities) came from the 74th Amendment, 1992; the 73rd added Part IX (panchayats). Trap: 73 = village, 74 = town.",
+    "te": "I, II సరైనవి. III తప్పు: భాగం IXA (మున్సిపాలిటీలు) 74వ సవరణ (1992) ద్వారా వచ్చింది; 73వ సవరణ భాగం IX (పంచాయతీలు)ను చేర్చింది. ట్రాప్: 73 = గ్రామం, 74 = పట్టణం."
+   }
+  },
+  {
+   "topic": "pmkisan24",
+   "q": {
+    "en": "Consider the following about farmer income support paid on 30 Oct:",
+    "te": "అక్టో 30న చెల్లించిన రైతు ఆదాయ సాయం గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The PM released the 24th PM-KISAN instalment from Banaskantha, Gujarat.",
+     "te": "I. గుజరాత్‌లోని బనస్కాంఠ నుంచి ప్రధాని 24వ PM-KISAN విడతను విడుదల చేశారు."
+    },
+    {
+     "en": "II. In AP, an eligible family gets ₹20,000 a year, of which the Centre pays ₹6,000.",
+     "te": "II. ఏపీలో అర్హ కుటుంబానికి ఏటా ₹20,000; అందులో కేంద్రం వాటా ₹6,000."
+    },
+    {
+     "en": "III. PM-KISAN is a Centrally Sponsored Scheme in which States share the cost.",
+     "te": "III. PM-KISAN కేంద్ర ప్రాయోజిత పథకం; ఖర్చులో రాష్ట్రాలకూ వాటా ఉంటుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and II are correct (AP: ₹14,000 State Annadata Sukhibhava + ₹6,000 PM-KISAN). III is wrong: PM-KISAN is a Central Sector Scheme, 100% funded by the Centre. Contrast: PM-VGSY (approved 28 Oct) is Centrally Sponsored.",
+    "te": "I, II సరైనవి (ఏపీ: రాష్ట్ర అన్నదాత సుఖీభవ ₹14,000 + PM-KISAN ₹6,000). III తప్పు: PM-KISAN కేంద్ర రంగ పథకం, 100% కేంద్ర నిధులు. పోలిక: అక్టో 28న ఆమోదించిన PM-VGSY కేంద్ర ప్రాయోజిత పథకం."
+   }
+  },
+  {
+   "topic": "apcabinet",
+   "q": {
+    "en": "Match the project cleared by the AP Cabinet (29 Oct) with its location:",
+    "te": "ఏపీ కేబినెట్ (అక్టో 29) ఆమోదించిన ప్రాజెక్టును దాని ప్రాంతంతో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. Quantum hardware park  B. ₹5,194-cr steel plant  C. 500 MW wind project  D. Hyperscale data centre park",
+     "te": "A. క్వాంటం హార్డ్‌వేర్ పార్క్  B. ₹5,194 కోట్ల ఉక్కు కర్మాగారం  C. 500 MW పవన విద్యుత్  D. హైపర్‌స్కేల్ డేటా సెంటర్ పార్క్"
+    },
+    {
+     "en": "1. Kurnool district  2. Visakhapatnam district  3. Amaravati  4. Vizianagaram",
+     "te": "1. కర్నూలు జిల్లా  2. విశాఖపట్నం జిల్లా  3. అమరావతి  4. విజయనగరం"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-3, B-2, C-1, D-4",
+     "te": "A-3, B-2, C-1, D-4"
+    },
+    {
+     "en": "A-3, B-4, C-1, D-2",
+     "te": "A-3, B-4, C-1, D-2"
+    },
+    {
+     "en": "A-2, B-4, C-1, D-3",
+     "te": "A-2, B-4, C-1, D-3"
+    },
+    {
+     "en": "A-3, B-4, C-2, D-1",
+     "te": "A-3, B-4, C-2, D-1"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Quantum park ~250 acres in Amaravati's Quantum Valley; Steel Exchange India plant in Vizianagaram; 500 MW wind in Kurnool; data centre park in Visakhapatnam district. Trap: Vizianagaram and Visakhapatnam are neighbours — do not swap.",
+    "te": "క్వాంటం పార్క్ అమరావతి క్వాంటం వ్యాలీలో ~250 ఎకరాలు; స్టీల్ ఎక్స్ఛేంజ్ ఇండియా ఉక్కు కర్మాగారం విజయనగరంలో; 500 MW పవన విద్యుత్ కర్నూలులో; డేటా సెంటర్ పార్క్ విశాఖ జిల్లాలో. ట్రాప్: విజయనగరం, విశాఖ పక్కపక్క జిల్లాలు — తారుమారు చేయవద్దు."
+   }
+  },
+  {
+   "topic": "containers",
+   "q": {
+    "en": "Match the scheme approved by the Union Cabinet on 28 Oct with its outlay:",
+    "te": "అక్టో 28న కేంద్ర కేబినెట్ ఆమోదించిన పథకాన్ని దాని వ్యయంతో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. Container Manufacturing Promotion Scheme  B. Khelo India Sports Goods Mfg Scheme  C. PM Viksit Gram Swaraj Yojana",
+     "te": "A. కంటైనర్ తయారీ ప్రోత్సాహక పథకం  B. ఖేలో ఇండియా క్రీడా సామగ్రి తయారీ పథకం  C. PM వికసిత్ గ్రామ స్వరాజ్ యోజన"
+    },
+    {
+     "en": "1. ₹1,856.67 cr  2. ₹7,395.55 cr  3. ₹10,000 cr",
+     "te": "1. ₹1,856.67 కోట్లు  2. ₹7,395.55 కోట్లు  3. ₹10,000 కోట్లు"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-3, B-2, C-1",
+     "te": "A-3, B-2, C-1"
+    },
+    {
+     "en": "A-2, B-1, C-3",
+     "te": "A-2, B-1, C-3"
+    },
+    {
+     "en": "A-3, B-1, C-2",
+     "te": "A-3, B-1, C-2"
+    },
+    {
+     "en": "A-1, B-3, C-2",
+     "te": "A-1, B-3, C-2"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Containers ₹10,000 cr (to 2039-40, target 7.5 lakh TEU); sports goods ₹1,856.67 cr (2026 to 2033-34); PM-VGSY ₹7,395.55 cr (2026-27 to 2030-31, Ministry of Panchayati Raj).",
+    "te": "కంటైనర్లు ₹10,000 కోట్లు (2039-40 వరకు, లక్ష్యం 7.5 లక్షల TEU); క్రీడా సామగ్రి ₹1,856.67 కోట్లు (2026–2033-34); PM-VGSY ₹7,395.55 కోట్లు (2026-27–2030-31, పంచాయతీరాజ్ మంత్రిత్వ శాఖ)."
+   }
+  },
+  {
+   "topic": "dahike",
+   "q": {
+    "en": "Consider the following about the DA/DR hike of 28 Oct:",
+    "te": "అక్టో 28 DA/DR పెంపు గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Dearness Relief is paid to pensioners; Dearness Allowance to serving employees.",
+     "te": "I. డియర్‌నెస్ రిలీఫ్ పెన్షనర్లకు; డియర్‌నెస్ అలవెన్స్ సర్వీసులో ఉన్న ఉద్యోగులకు."
+    },
+    {
+     "en": "II. The new rate is 63% of basic pay, from 1 July 2026.",
+     "te": "II. కొత్త రేటు బేసిక్ వేతనంలో 63%, 1 జులై 2026 నుంచి."
+    },
+    {
+     "en": "III. More employees than pensioners benefit.",
+     "te": "III. పెన్షనర్ల కంటే ఉద్యోగులే ఎక్కువ మంది లబ్ధి పొందుతారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and II are correct (60% → 63%). III is wrong: 68.71 lakh pensioners vs 48.54 lakh employees — pensioners are more. DA is revised twice a year using CPI for Industrial Workers.",
+    "te": "I, II సరైనవి (60% → 63%). III తప్పు: 68.71 లక్షల పెన్షనర్లు, 48.54 లక్షల ఉద్యోగులు — పెన్షనర్లే ఎక్కువ. DAను పారిశ్రామిక కార్మికుల వినియోగదారుల ధరల సూచీ (CPI-IW) ఆధారంగా ఏటా రెండుసార్లు సవరిస్తారు."
+   }
+  },
+  {
+   "topic": "fiscal",
+   "q": {
+    "en": "Consider the following about the Centre's finances (data released 29–30 Oct):",
+    "te": "కేంద్ర ఆర్థిక స్థితి (అక్టో 29–30న విడుదలైన గణాంకాలు) గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Fiscal deficit data for April–September was released by the CAG.",
+     "te": "I. ఏప్రిల్–సెప్టెంబర్ ద్రవ్య లోటు గణాంకాలను కాగ్ (CAG) విడుదల చేసింది."
+    },
+    {
+     "en": "II. H1 fiscal deficit was 42.1% of the full-year Budget Estimate.",
+     "te": "II. తొలి అర్ధ సంవత్సర ద్రవ్య లోటు పూర్తి ఏడాది బడ్జెట్ అంచనాలో 42.1%."
+    },
+    {
+     "en": "III. The Monthly Economic Review's 7.35% projection is for July–September 2026.",
+     "te": "III. మంత్లీ ఎకనామిక్ రివ్యూ 7.35% అంచనా జులై–సెప్టెంబర్ 2026కి సంబంధించినది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II and III are correct (Q2 of FY27 = Jul–Sep). I is wrong: the Controller General of Accounts (CGA, Finance Ministry) compiles accounts; the CAG (Art. 148) audits. FY27 deficit target: ₹16.96 lakh crore = 4.3% of GDP.",
+    "te": "II, III సరైనవి (FY27 Q2 = జులై–సెప్టెంబర్). I తప్పు: లెక్కలను కంట్రోలర్ జనరల్ ఆఫ్ అకౌంట్స్ (CGA, ఆర్థిక శాఖ) తయారు చేస్తారు; కాగ్ (ఆర్టికల్ 148) ఆడిట్ చేస్తారు. FY27 లక్ష్యం: ₹16.96 లక్షల కోట్లు = GDPలో 4.3%."
+   }
+  },
+  {
+   "topic": "gst",
+   "q": {
+    "en": "About October 2026 GST data, which statement is INCORRECT?",
+    "te": "అక్టోబర్ 2026 GST గణాంకాల గురించి తప్పు ప్రకటన ఏది?"
+   },
+   "o": [
+    {
+     "en": "Gross GST was ₹2.31 lakh crore and net GST ₹2.03 lakh crore",
+     "te": "స్థూల GST ₹2.31 లక్షల కోట్లు, నికర GST ₹2.03 లక్షల కోట్లు"
+    },
+    {
+     "en": "GST on imports grew faster than domestic GST",
+     "te": "దేశీయ GST కంటే దిగుమతులపై GST వేగంగా పెరిగింది"
+    },
+    {
+     "en": "Net GST is the amount before refunds are paid",
+     "te": "రీఫండ్‌లు చెల్లించక ముందు మొత్తమే నికర GST"
+    },
+    {
+     "en": "The GST Council comes under Article 279A",
+     "te": "GST కౌన్సిల్ ఆర్టికల్ 279A కింద ఏర్పడింది"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "(c) is wrong: GROSS is before refunds, NET is after refunds (₹27,934 cr refunded). Import GST +42.2% vs domestic +15.8%. GST came on 1 July 2017 via the 101st Amendment.",
+    "te": "(c) తప్పు: రీఫండ్‌లకు ముందుది స్థూల (గ్రాస్), తర్వాతది నికర (నెట్) (₹27,934 కోట్ల రీఫండ్). దిగుమతి GST +42.2%, దేశీయ +15.8%. GST 101వ సవరణతో 1 జులై 2017న వచ్చింది."
+   }
+  },
+  {
+   "topic": "vayvandana",
+   "q": {
+    "en": "Match the health measure in the news with the correct fact:",
+    "te": "వార్తల్లోని ఆరోగ్య చర్యను సరైన అంశంతో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. Ayushman Vay Vandana  B. Price cut for 543 cancer drug brands  C. AP de-addiction centres upgrade",
+     "te": "A. ఆయుష్మాన్ వయ్ వందన  B. 543 క్యాన్సర్ మందుల బ్రాండ్ల ధర తగ్గింపు  C. ఏపీ డీ-అడిక్షన్ కేంద్రాల ఆధునీకరణ"
+    },
+    {
+     "en": "1. Article 47 (DPSP)  2. No income test for citizens aged 70+  3. NPPA, Ministry of Chemicals & Fertilizers",
+     "te": "1. ఆర్టికల్ 47 (DPSP)  2. 70+ పౌరులకు ఆదాయ పరిమితి లేదు  3. NPPA, రసాయనాలు–ఎరువుల మంత్రిత్వ శాఖ"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-2, B-1, C-3",
+     "te": "A-2, B-1, C-3"
+    },
+    {
+     "en": "A-3, B-2, C-1",
+     "te": "A-3, B-2, C-1"
+    },
+    {
+     "en": "A-1, B-3, C-2",
+     "te": "A-1, B-3, C-2"
+    },
+    {
+     "en": "A-2, B-3, C-1",
+     "te": "A-2, B-3, C-1"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Vay Vandana (29 Oct 2024): ₹5 lakh cover for every 70+ citizen, any income. NPPA (under Chemicals & Fertilizers, not Health) cut MRPs from 9 Nov. AP's ₹9.86-cr de-addiction plan links to Art. 47.",
+    "te": "వయ్ వందన (29 అక్టో 2024): ఆదాయంతో సంబంధం లేకుండా 70+ పౌరులందరికీ ₹5 లక్షల కవరేజ్. NPPA (రసాయనాలు–ఎరువుల శాఖ కింద, ఆరోగ్య శాఖ కాదు) నవం 9 నుంచి MRP తగ్గించింది. ఏపీ ₹9.86 కోట్ల డీ-అడిక్షన్ పథకం ఆర్టికల్ 47కి లింక్."
+   }
+  },
+  {
+   "topic": "nvs03",
+   "q": {
+    "en": "Consider the following about NVS-03, launched on 30 Oct:",
+    "te": "అక్టో 30న ప్రయోగించిన NVS-03 గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. GSLV-F18 placed it directly in its final orbit at 32.5° East.",
+     "te": "I. GSLV-F18 దాన్ని నేరుగా 32.5° తూర్పు వద్ద తుది కక్ష్యలో ఉంచింది."
+    },
+    {
+     "en": "II. Its new L1 signal is the frequency GPS also uses, so more phones can use NavIC.",
+     "te": "II. కొత్త L1 సిగ్నల్‌ను GPS కూడా వాడుతుంది, కాబట్టి ఎక్కువ ఫోన్లు NavIC వాడగలవు."
+    },
+    {
+     "en": "III. NavIC is a regional system covering India and about 1,500 km beyond.",
+     "te": "III. NavIC భారత్ + సుమారు 1,500 కి.మీ. వరకు కవర్ చేసే ప్రాంతీయ వ్యవస్థ."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "III only",
+     "te": "III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II and III are correct. I is wrong: GSLV put it in a Geosynchronous Transfer Orbit (170 × 37,023 km); the satellite's own engine takes it to 32.5° E. GSLV's third stage is cryogenic (CUS15).",
+    "te": "II, III సరైనవి. I తప్పు: GSLV దాన్ని జియోసింక్రోనస్ ట్రాన్స్‌ఫర్ కక్ష్య (170 × 37,023 కి.మీ.)లో ఉంచింది; ఉపగ్రహం తన ఇంజిన్‌తో 32.5° తూర్పుకు చేరుతుంది. GSLV మూడో దశ క్రయోజెనిక్ (CUS15)."
+   }
+  },
+  {
+   "topic": "ircode",
+   "q": {
+    "en": "Match the Supreme Court matter of this week with its key legal link:",
+    "te": "ఈ వారం సుప్రీంకోర్టు కేసును దాని ముఖ్య న్యాయ అంశంతో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. DNPA vs DPDP Act  B. AITUC vs Industrial Relations Code  C. Digital-arrest fraud victims",
+     "te": "A. DNPA vs DPDP చట్టం  B. AITUC vs పారిశ్రామిక సంబంధాల కోడ్  C. డిజిటల్ అరెస్ట్ మోస బాధితులు"
+    },
+    {
+     "en": "1. Bangalore Water Supply case (1978)  2. Privacy (Art. 21) vs press freedom (Art. 19(1)(a))  3. Bank due diligence and RBI KYC rules",
+     "te": "1. బెంగళూరు వాటర్ సప్లై కేసు (1978)  2. గోప్యత (ఆర్టికల్ 21) vs పత్రికా స్వేచ్ఛ (19(1)(a))  3. బ్యాంకుల జాగ్రత్త, RBI KYC నిబంధనలు"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-2, B-1, C-3",
+     "te": "A-2, B-1, C-3"
+    },
+    {
+     "en": "A-1, B-2, C-3",
+     "te": "A-1, B-2, C-3"
+    },
+    {
+     "en": "A-3, B-1, C-2",
+     "te": "A-3, B-1, C-2"
+    },
+    {
+     "en": "A-2, B-3, C-1",
+     "te": "A-2, B-3, C-1"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "DPDP case = clash of privacy (Puttaswamy, 2017) and press freedom; IR Code Sec. 2(p) exclusions vs the 7-judge Bangalore Water Supply 'triple test'; digital arrest = banks must compensate when due diligence fails.",
+    "te": "DPDP కేసు = గోప్యత (పుట్టస్వామి, 2017), పత్రికా స్వేచ్ఛ మధ్య ఘర్షణ; IR కోడ్ సెక్షన్ 2(p) మినహాయింపులు vs 7 మంది న్యాయమూర్తుల బెంగళూరు వాటర్ సప్లై 'ట్రిపుల్ టెస్ట్'; డిజిటల్ అరెస్ట్ = బ్యాంకు జాగ్రత్త విఫలమైతే పరిహారం."
+   }
+  },
+  {
+   "topic": "digiarrest",
+   "q": {
+    "en": "Consider the following about the RBI's draft KYC Amendment Directions, 2026 (digital-arrest case):",
+    "te": "RBI ముసాయిదా KYC సవరణ ఆదేశాలు, 2026 (డిజిటల్ అరెస్ట్ కేసు) గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Banks must flag suspected mule-account transactions of ₹1,000 or more.",
+     "te": "I. ₹1,000 లేదా అంతకంటే ఎక్కువ అనుమానిత మ్యూల్ ఖాతా లావాదేవీలను బ్యాంకులు గుర్తించాలి."
+    },
+    {
+     "en": "II. Funds may be held for up to 60 days.",
+     "te": "II. నిధులను 60 రోజుల వరకు నిలిపి ఉంచవచ్చు."
+    },
+    {
+     "en": "III. They are to be operational by 30 Nov and notified by 31 Dec.",
+     "te": "III. నవం 30 నాటికి అమలు, డిసెం 31 నాటికి నోటిఫై చేయాలి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and II are correct. III reverses the order: notify by 30 Nov, operational by 31 Dec. A 'mule account' passes on stolen money; victims report on the National Cybercrime Reporting Portal.",
+    "te": "I, II సరైనవి. III క్రమం తారుమారు: నవం 30 నాటికి నోటిఫై, డిసెం 31 నాటికి అమలు. 'మ్యూల్ ఖాతా' అంటే దొంగిలించిన డబ్బును మళ్లించే ఖాతా; బాధితులు నేషనల్ సైబర్‌క్రైమ్ రిపోర్టింగ్ పోర్టల్‌లో ఫిర్యాదు చేయాలి."
+   }
+  },
+  {
+   "topic": "gigboards",
+   "q": {
+    "en": "About the new National Social Security Board for gig workers:",
+    "te": "గిగ్, ప్లాట్‌ఫామ్ కార్మికుల జాతీయ సామాజిక భద్రతా బోర్డు గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It is under the Code on Social Security, 2020, chaired by the Labour Minister.",
+     "te": "I. సామాజిక భద్రతా కోడ్, 2020 కింద ఏర్పడింది; కేంద్ర కార్మిక మంత్రి అధ్యక్షులు."
+    },
+    {
+     "en": "II. Andhra Pradesh is one of the five States on the board.",
+     "te": "II. బోర్డులోని ఐదు రాష్ట్రాల్లో ఆంధ్రప్రదేశ్ ఒకటి."
+    },
+    {
+     "en": "III. The aggregator levy is capped at 5% of their annual turnover.",
+     "te": "III. అగ్రిగేటర్ల చెల్లింపు వారి వార్షిక టర్నోవర్‌లో 5%కి పరిమితం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and II are correct (States: UP, Maharashtra, AP, Gujarat, West Bengal). III is wrong: the levy is 1–2% of turnover, capped at 5% of the amount paid to gig workers — the 5% cap is on payouts, not turnover.",
+    "te": "I, II సరైనవి (రాష్ట్రాలు: యూపీ, మహారాష్ట్ర, ఏపీ, గుజరాత్, పశ్చిమ బెంగాల్). III తప్పు: చెల్లింపు టర్నోవర్‌లో 1–2%; గరిష్ఠ పరిమితి గిగ్ కార్మికులకు చెల్లించిన మొత్తంలో 5% — టర్నోవర్‌పై కాదు."
+   }
+  },
+  {
+   "topic": "vigilance",
+   "q": {
+    "en": "Which of the following pairs (body – status) is/are correctly matched?",
+    "te": "కింది జతల్లో (సంస్థ – హోదా) సరిగా జతపరిచినవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. Central Vigilance Commission – Statutory (CVC Act, 2003)",
+     "te": "I. కేంద్ర విజిలెన్స్ కమిషన్ – చట్టబద్ధ సంస్థ (CVC చట్టం, 2003)"
+    },
+    {
+     "en": "II. State Election Commission – Constitutional (Art. 243K)",
+     "te": "II. రాష్ట్ర ఎన్నికల సంఘం – రాజ్యాంగ సంస్థ (ఆర్టికల్ 243K)"
+    },
+    {
+     "en": "III. PRAGATI – Statutory body for project review",
+     "te": "III. PRAGATI – ప్రాజెక్టుల సమీక్షకు చట్టబద్ధ సంస్థ"
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "I and II are correct. III is wrong: PRAGATI is an ICT-based platform (54th meeting this week), not a statutory body. CVC: set up in 1964 on the Santhanam Committee's advice; Vigilance Week ran 26 Oct–1 Nov.",
+    "te": "I, II సరైనవి. III తప్పు: PRAGATI ఒక ICT ఆధారిత వేదిక (ఈ వారం 54వ సమావేశం), చట్టబద్ధ సంస్థ కాదు. CVC: సంతానం కమిటీ సిఫారసుతో 1964లో ఏర్పడింది; విజిలెన్స్ వారం అక్టో 26–నవం 1."
+   }
+  },
+  {
+   "topic": "restoration",
+   "q": {
+    "en": "About biodiversity news from CBD COP-17 (Yerevan):",
+    "te": "CBD COP-17 (యెరెవాన్) జీవవైవిధ్య వార్తల గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. KMGBF Target 2 = restore 30% of degraded ecosystems; Target 3 = protect 30% of land and sea.",
+     "te": "I. కున్మింగ్-మాంట్రియల్ లక్ష్యం 2 = క్షీణించిన పర్యావరణ వ్యవస్థల్లో 30% పునరుద్ధరణ; లక్ష్యం 3 = 30% భూమి, సముద్ర రక్షణ."
+    },
+    {
+     "en": "II. 'Nature's Comeback' found freshwater restoration ahead of land.",
+     "te": "II. మంచినీటి పునరుద్ధరణ భూ పునరుద్ధరణ కంటే ముందుందని 'నేచర్స్ కమ్‌బ్యాక్' తెలిపింది."
+    },
+    {
+     "en": "III. All 18 of India's Biosphere Reserves are in UNESCO's MAB network.",
+     "te": "III. భారత్‌లోని 18 బయోస్ఫియర్ రిజర్వులన్నీ యునెస్కో MAB నెట్‌వర్క్‌లో ఉన్నాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Only I is correct. II is wrong: land restoration is near half its target, but freshwater (11 million ha) and marine (5.7 million ha) lag far behind. III is wrong: only 13 of 18 are in MAB.",
+    "te": "I మాత్రమే సరైనది. II తప్పు: భూ పునరుద్ధరణ లక్ష్యంలో సగానికి చేరువలో ఉంది; మంచినీరు (1.1 కోట్ల హెక్టార్లు), సముద్ర (57 లక్షల హెక్టార్లు) చాలా వెనుకబడ్డాయి. III తప్పు: 18లో 13 మాత్రమే MABలో ఉన్నాయి."
+   }
+  },
+  {
+   "topic": "glof",
+   "q": {
+    "en": "Which of the following pairs is/are correctly matched?",
+    "te": "కింది జతల్లో సరిగా జతపరిచినవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. Victoria Mode – pattern of the North Atlantic Ocean",
+     "te": "I. విక్టోరియా మోడ్ – ఉత్తర అట్లాంటిక్ మహాసముద్ర నమూనా"
+    },
+    {
+     "en": "II. Punatsangchhu river – called the Sankosh in India",
+     "te": "II. పునత్సాంగ్‌ఛు నది – భారత్‌లో సంకోష్ అంటారు"
+    },
+    {
+     "en": "III. AATAL air-pollution lab – Ministry of Earth Sciences (Mission Mausam)",
+     "te": "III. AATAL వాయు కాలుష్య ల్యాబ్ – భూవిజ్ఞాన మంత్రిత్వ శాఖ (మిషన్ మౌసమ్)"
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II and III are correct: the Bhutan GLOF came down the Punatsangchhu/Sankosh (alert for Alipurduar, WB and Dhubri, Assam); AATAL is under MoES, not MoEFCC. I is wrong: the Victoria Mode is in the North PACIFIC.",
+    "te": "II, III సరైనవి: భూటాన్ GLOF పునత్సాంగ్‌ఛు/సంకోష్ నదిలో వచ్చింది (అలిపుర్‌దువార్-పశ్చిమ బెంగాల్, ధుబ్రి-అస్సాంకు హెచ్చరిక); AATAL భూవిజ్ఞాన శాఖ (MoES) కిందది, MoEFCC కాదు. I తప్పు: విక్టోరియా మోడ్ ఉత్తర పసిఫిక్‌లో ఉంటుంది."
+   }
+  },
+  {
+   "topic": "indiaeu",
+   "q": {
+    "en": "Match the international event of this week with the correct fact:",
+    "te": "ఈ వారం అంతర్జాతీయ ఘటనను సరైన అంశంతో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. India–EU FTA  B. India–Mexico  C. 12th BRICS Parliamentary Forum  D. 13th ADMM-Plus",
+     "te": "A. భారత్–EU FTA  B. భారత్–మెక్సికో  C. 12వ BRICS పార్లమెంటరీ ఫోరం  D. 13వ ADMM-Plus"
+    },
+    {
+     "en": "1. Cebu, Philippines  2. To be signed in Brussels in December  3. New Delhi Joint Declaration  4. ToR for a Preferential Trade Agreement",
+     "te": "1. సెబు, ఫిలిప్పీన్స్  2. డిసెంబర్‌లో బ్రస్సెల్స్‌లో సంతకం  3. న్యూఢిల్లీ సంయుక్త ప్రకటన  4. ప్రిఫరెన్షియల్ ట్రేడ్ అగ్రిమెంట్ ToR"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-4, B-2, C-3, D-1",
+     "te": "A-4, B-2, C-3, D-1"
+    },
+    {
+     "en": "A-2, B-3, C-4, D-1",
+     "te": "A-2, B-3, C-4, D-1"
+    },
+    {
+     "en": "A-2, B-4, C-1, D-3",
+     "te": "A-2, B-4, C-1, D-3"
+    },
+    {
+     "en": "A-2, B-4, C-3, D-1",
+     "te": "A-2, B-4, C-3, D-1"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "India–EU deal to be signed in Brussels (announced by European Council President António Costa); India–Mexico signed ToR for a PTA; BRICS forum adopted the New Delhi Joint Declaration; ADMM-Plus met in Cebu.",
+    "te": "భారత్–EU ఒప్పందం బ్రస్సెల్స్‌లో సంతకం (యూరోపియన్ కౌన్సిల్ అధ్యక్షుడు ఆంటోనియో కోస్టా ప్రకటన); భారత్–మెక్సికో PTA ToRపై సంతకం; BRICS ఫోరం న్యూఢిల్లీ సంయుక్త ప్రకటన ఆమోదం; ADMM-Plus సెబులో జరిగింది."
+   }
+  },
+  {
+   "topic": "iafchief",
+   "q": {
+    "en": "Consider the following defence news of this week:",
+    "te": "ఈ వారం రక్షణ వార్తల గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Air Chief Marshal Ashutosh Dixit became the 29th Chief of the Air Staff, succeeding Amar Preet Singh.",
+     "te": "I. అమర్ ప్రీత్ సింగ్ తర్వాత ఎయిర్ చీఫ్ మార్షల్ అశుతోష్ దీక్షిత్ 29వ వాయుసేనాధిపతి అయ్యారు."
+    },
+    {
+     "en": "II. Swavlamban 2026, the Navy's innovation seminar, was its first edition.",
+     "te": "II. నౌకాదళ ఆవిష్కరణ సదస్సు స్వావలంబన్ 2026 మొదటి ఎడిషన్."
+    },
+    {
+     "en": "III. China and Russia are among the eight 'Plus' countries of ADMM-Plus.",
+     "te": "III. ADMM-Plusలోని 8 'ప్లస్' దేశాల్లో చైనా, రష్యా ఉన్నాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct. II is wrong: Swavlamban began in 2022; 2026 was the 5th edition (NAUSETU interface standards launched). ADMM-Plus = ASEAN + India, USA, China, Russia, Japan, S. Korea, Australia, NZ.",
+    "te": "I, III సరైనవి. II తప్పు: స్వావలంబన్ 2022లో మొదలైంది; 2026 ఐదో ఎడిషన్ (NAUSETU ఇంటర్‌ఫేస్ ప్రమాణాల విడుదల). ADMM-Plus = ఆసియాన్ + భారత్, అమెరికా, చైనా, రష్యా, జపాన్, ద.కొరియా, ఆస్ట్రేలియా, న్యూజిలాండ్."
+   }
+  },
+  {
+   "topic": "manisha",
+   "q": {
+    "en": "Which of the following statements is INCORRECT?",
+    "te": "కింది వాటిలో తప్పు ప్రకటన ఏది?"
+   },
+   "o": [
+    {
+     "en": "Manisha Bhanwala won India's first women's gold at Senior World Wrestling, Astana",
+     "te": "సీనియర్ ప్రపంచ రెజ్లింగ్‌లో భారత్‌కు తొలి మహిళా స్వర్ణాన్ని మనీషా భన్వాలా అస్తానాలో గెలిచారు"
+    },
+    {
+     "en": "Ashoke Sen is the first Indian to receive the Oskar Klein Medal",
+     "te": "ఆస్కార్ క్లైన్ మెడల్ పొందిన తొలి భారతీయుడు అశోక్ సేన్"
+    },
+    {
+     "en": "AP's 'Outstanding Tourism State' award was a National Tourism Award of the Union Tourism Ministry",
+     "te": "ఏపీకి వచ్చిన 'అవుట్‌స్టాండింగ్ టూరిజం స్టేట్' అవార్డు కేంద్ర పర్యాటక శాఖ జాతీయ పర్యాటక అవార్డు"
+    },
+    {
+     "en": "The 2030 Commonwealth Games in Ahmedabad will be the centenary edition",
+     "te": "అహ్మదాబాద్‌లో జరిగే 2030 కామన్వెల్త్ క్రీడలు శతాబ్ది ఎడిషన్"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "(c) is wrong: the award was given by the Travel Agents Association of India (TAAI) at its 69th Indian Travel Congress, Kolkata — not by the Union Ministry. CWG began in Hamilton, 1930, so 2030 = 100 years.",
+    "te": "(c) తప్పు: ఈ అవార్డును ట్రావెల్ ఏజెంట్స్ అసోసియేషన్ ఆఫ్ ఇండియా (TAAI) కోల్‌కతాలో 69వ ఇండియన్ ట్రావెల్ కాంగ్రెస్‌లో ఇచ్చింది — కేంద్ర శాఖ కాదు. కామన్వెల్త్ క్రీడలు 1930లో హామిల్టన్‌లో మొదలయ్యాయి, కాబట్టి 2030 = 100 ఏళ్లు."
+   }
+  },
+  {
+   "topic": "vayvandana",
+   "q": {
+    "en": "Arrange these launches in chronological order (earliest first):",
+    "te": "కింది ప్రారంభాలను కాలక్రమంలో అమర్చండి (మొదటిది ముందు):"
+   },
+   "st": [
+    {
+     "en": "1. PM-KISAN",
+     "te": "1. PM-KISAN"
+    },
+    {
+     "en": "2. Startup India",
+     "te": "2. స్టార్టప్ ఇండియా"
+    },
+    {
+     "en": "3. Ayushman Vay Vandana",
+     "te": "3. ఆయుష్మాన్ వయ్ వందన"
+    },
+    {
+     "en": "4. Statue of Unity inaugurated",
+     "te": "4. ఐక్యతా విగ్రహం ప్రారంభం"
+    }
+   ],
+   "o": [
+    {
+     "en": "2, 1, 4, 3",
+     "te": "2, 1, 4, 3"
+    },
+    {
+     "en": "4, 2, 1, 3",
+     "te": "4, 2, 1, 3"
+    },
+    {
+     "en": "2, 4, 3, 1",
+     "te": "2, 4, 3, 1"
+    },
+    {
+     "en": "2, 4, 1, 3",
+     "te": "2, 4, 1, 3"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Startup India 16 Jan 2016 → Statue of Unity 31 Oct 2018 → PM-KISAN Feb 2019 → Vay Vandana 29 Oct 2024. Trap: the Statue (Oct 2018) came a few months before PM-KISAN (Feb 2019).",
+    "te": "స్టార్టప్ ఇండియా 16 జన 2016 → ఐక్యతా విగ్రహం 31 అక్టో 2018 → PM-KISAN ఫిబ్ర 2019 → వయ్ వందన 29 అక్టో 2024. ట్రాప్: విగ్రహం (అక్టో 2018) PM-KISAN (ఫిబ్ర 2019) కంటే కొన్ని నెలలు ముందు."
+   }
+  }
+ ],
+ "from": "2026-10-26",
+ "to": "2026-11-01",
+ "label": {
+  "en": "26 Oct – 1 Nov 2026",
+  "te": "26 అక్టోబర్ – 1 నవంబర్ 2026"
+ },
+ "days": [
+  "2026-10-26",
+  "2026-10-27",
+  "2026-10-28",
+  "2026-10-29",
+  "2026-10-30",
+  "2026-10-31",
+  "2026-11-01"
+ ],
+ "groups": [
+  {
+   "cat": "ap",
+   "items": [
+    {
+     "d": "2026-10-26",
+     "id": "arnab",
+     "t": {
+      "en": "Cyclone 'Arnab' forms in the Bay of Bengal; to cross the AP–Yanam coast between Bapatla and Visakhapatnam on 28 Oct",
+      "te": "బంగాళాఖాతంలో 'అర్ణబ్' తుపాను ఏర్పడింది; అక్టోబర్ 28న బాపట్ల–విశాఖపట్నం మధ్య ఏపీ–యానాం తీరం దాటే అవకాశం"
+     },
+     "x": {
+      "en": "Cyclone names in the North Indian Ocean come from a list of a 13-country WMO/ESCAP panel (India, Bangladesh, Myanmar, Thailand, Sri Lanka, Maldives, Pakistan, Oman, Iran, Qatar, Saudi Arabia, UAE, Yemen); a name is never reused. Trap: 'Arnab' is Bangladesh's name, not India's.",
+      "te": "ఉత్తర హిందూ మహాసముద్ర తుపానుల పేర్లు 13 దేశాల WMO/ESCAP ప్యానెల్ జాబితా నుంచి వస్తాయి (భారత్, బంగ్లాదేశ్, మయన్మార్, థాయిలాండ్, శ్రీలంక, మాల్దీవులు, పాకిస్థాన్, ఒమన్, ఇరాన్, ఖతార్, సౌదీ అరేబియా, UAE, యెమెన్); ఒకసారి వాడిన పేరు మళ్లీ వాడరు. ట్రాప్: 'అర్ణబ్' బంగ్లాదేశ్ సూచించిన పేరు, భారత్‌ది కాదు."
+     }
+    },
+    {
+     "d": "2026-10-26",
+     "id": "vizagaqi",
+     "t": {
+      "en": "Visakhapatnam's air turns 'Poor': AQI 254, the worst among AP cities",
+      "te": "విశాఖపట్నం గాలి నాణ్యత 'పేలవం': AQI 254, ఏపీ నగరాల్లో అత్యంత అధికం"
+     },
+     "x": {
+      "en": "AQI bands (CPCB): 0–50 Good, 51–100 Satisfactory, 101–200 Moderate, 201–300 Poor, 301–400 Very Poor, 401–500 Severe. CPCB is a statutory body (Water Act, 1974), not a constitutional one. Temperature inversion = warm air above cool air, so pollutants cannot rise.",
+      "te": "AQI విభాగాలు (CPCB): 0–50 మంచి, 51–100 సంతృప్తికరం, 101–200 మధ్యస్థం, 201–300 పేలవం, 301–400 చాలా పేలవం, 401–500 తీవ్రం. CPCB చట్టబద్ధ సంస్థ (జల చట్టం, 1974), రాజ్యాంగ సంస్థ కాదు. ఉష్ణోగ్రత విలోమం = చల్లని గాలిపై వేడి గాలి పొర, అందుకే కాలుష్యం పైకి వెళ్లదు."
+     }
+    },
+    {
+     "d": "2026-10-27",
+     "id": "arnabsignal",
+     "t": {
+      "en": "Cyclone Arnab becomes 'very severe'; Great Danger Signal No. X hoisted at Kakinada port",
+      "te": "అర్ణబ్ 'అతి తీవ్ర' తుపానుగా బలపడింది; కాకినాడ పోర్టులో 10వ నంబర్ మహా ప్రమాద హెచ్చరిక"
+     },
+     "x": {
+      "en": "IMD's port warning system has 11 signals: I–II distant, III–IV local cautionary, V–VII danger, VIII–X great danger, XI = communication with IMD has failed. Trap: Signal X is the highest danger signal — XI is not 'more danger', it means communication failure.",
+      "te": "IMD పోర్టు హెచ్చరిక వ్యవస్థలో 11 సిగ్నళ్లు: I–II దూర హెచ్చరిక, III–IV స్థానిక హెచ్చరిక, V–VII ప్రమాదం, VIII–X మహా ప్రమాదం, XI = IMDతో సమాచారం తెగిపోయింది. ట్రాప్: అత్యధిక ప్రమాద సిగ్నల్ X; XI అంటే 'ఇంకా ఎక్కువ ప్రమాదం' కాదు, సమాచార వైఫల్యం."
+     }
+    },
+    {
+     "d": "2026-10-27",
+     "id": "ntruhs",
+     "t": {
+      "en": "Dr NTR University of Health Sciences, Vijayawada, celebrates 40 years (Ruby Jubilee)",
+      "te": "విజయవాడలోని డా. ఎన్టీఆర్ ఆరోగ్య విశ్వవిద్యాలయం 40 ఏళ్ల వేడుక (రూబీ జూబ్లీ)"
+     },
+     "x": {
+      "en": "Jubilee names: Silver = 25, Ruby = 40, Golden = 50, Diamond = 60 years. The Governor is the ex-officio Chancellor of AP state universities. Trap: the university began in 1986 as the 'University of Health Sciences'; the NTR name was added only in 1998.",
+      "te": "జూబ్లీ పేర్లు: సిల్వర్ = 25, రూబీ = 40, గోల్డెన్ = 50, డైమండ్ = 60 ఏళ్లు. ఏపీ రాష్ట్ర విశ్వవిద్యాలయాలకు గవర్నర్ పదవిరీత్యా ఛాన్సలర్. ట్రాప్: 1986లో 'University of Health Sciences'గా మొదలైంది; ఎన్టీఆర్ పేరు 1998లోనే చేరింది."
+     }
+    },
+    {
+     "d": "2026-10-27",
+     "id": "aptourism",
+     "t": {
+      "en": "AP named 'Outstanding Tourism State of India' (Award of Merit) at TAAI's 69th Indian Travel Congress",
+      "te": "TAAI 69వ ఇండియన్ ట్రావెల్ కాంగ్రెస్‌లో ఏపీకి 'అవుట్‌స్టాండింగ్ టూరిజం స్టేట్ ఆఫ్ ఇండియా' (అవార్డ్ ఆఫ్ మెరిట్)"
+     },
+     "x": {
+      "en": "Award questions ask 'who gave it'. Trap: this award is from TAAI, a travel-industry body — it is NOT the Union Tourism Ministry's National Tourism Award.",
+      "te": "అవార్డు ప్రశ్నల్లో 'ఎవరు ఇచ్చారు' అడుగుతారు. ట్రాప్: ఈ అవార్డును ఇచ్చింది ట్రావెల్ పరిశ్రమ సంస్థ TAAI — కేంద్ర పర్యాటక మంత్రిత్వ శాఖ జాతీయ పర్యాటక అవార్డు కాదు."
+     }
+    },
+    {
+     "d": "2026-10-28",
+     "id": "arnabfall",
+     "t": {
+      "en": "Cyclone Arnab crosses the coast near Yanam; weakens into a 'severe' cyclonic storm",
+      "te": "యానాం సమీపంలో తీరం దాటిన అర్ణబ్; 'తీవ్ర' తుపానుగా బలహీనం"
+     },
+     "x": {
+      "en": "IMD ladder by wind speed: depression (31–49 km/h) → deep depression (50–61) → cyclonic storm (62–88) → severe (89–117) → very severe (118–166) → extremely severe (167–221) → super cyclone (222+). Trap: Yanam is in Puducherry UT, not an AP district.",
+      "te": "IMD వర్గీకరణ (గాలి వేగం): వాయుగుండం (31–49 కి.మీ.) → తీవ్ర వాయుగుండం (50–61) → తుపాను (62–88) → తీవ్ర తుపాను (89–117) → అతి తీవ్ర (118–166) → అత్యంత తీవ్ర (167–221) → సూపర్ సైక్లోన్ (222+). ట్రాప్: యానాం పుదుచ్చేరి UTలో భాగం, ఏపీ జిల్లా కాదు."
+     }
+    },
+    {
+     "d": "2026-10-28",
+     "id": "arnabrelief",
+     "t": {
+      "en": "Arnab damage: CM writes to Union Home Minister for early central teams; 16 NDRF teams on the ground",
+      "te": "అర్ణబ్ నష్టం: కేంద్ర బృందాలను త్వరగా పంపాలని కేంద్ర హోంమంత్రికి సీఎం లేఖ; రంగంలో 16 NDRF బృందాలు"
+     },
+     "x": {
+      "en": "Disaster Management Act, 2005: NDMA (chaired by the PM) and the NDRF force (Section 44). The Union Home Ministry sends an Inter-Ministerial Central Team to assess damage for help from the National Disaster Response Fund. Trap: NDRF = both a force and a fund — read the question carefully.",
+      "te": "విపత్తు నిర్వహణ చట్టం 2005: NDMA (అధ్యక్షుడు ప్రధానమంత్రి), NDRF దళం (సెక్షన్ 44). జాతీయ విపత్తు ప్రతిస్పందన నిధి (National Disaster Response Fund) సాయం కోసం కేంద్ర హోంశాఖ అంతర్ మంత్రిత్వ కేంద్ర బృందాన్ని పంపుతుంది. ట్రాప్: NDRF అంటే దళం, నిధి రెండూ — ప్రశ్న జాగ్రత్తగా చదవండి."
+     }
+    },
+    {
+     "d": "2026-10-29",
+     "id": "arnabloss",
+     "t": {
+      "en": "Cyclone Arnab: crops on over 80,000 ha damaged; AP Cabinet meets virtually for the first time",
+      "te": "అర్ణబ్ తుపాను: 80 వేల హెక్టార్లకు పైగా పంట నష్టం; తొలిసారి వర్చువల్‌గా ఏపీ కేబినెట్"
+     },
+     "x": {
+      "en": "Disaster Management Act, 2005: states use SDRF first; the Centre adds help from the National Disaster Response Fund after an Inter-Ministerial Central Team assesses losses. Trap: NDRF is both a force (Response Force) and a fund (Response Fund).",
+      "te": "విపత్తు నిర్వహణ చట్టం, 2005: రాష్ట్రాలు ముందుగా SDRF నిధులు వాడతాయి; అంతర్ మంత్రిత్వ కేంద్ర బృందం నష్టం అంచనా వేశాక కేంద్రం జాతీయ విపత్తు స్పందన నిధి నుంచి అదనపు సాయం ఇస్తుంది. ట్రాప్: NDRF అంటే దళం (Response Force), నిధి (Response Fund) రెండూ."
+     }
+    },
+    {
+     "d": "2026-10-29",
+     "id": "sukhibhava",
+     "t": {
+      "en": "Annadata Sukhibhava–PM-Kisan: ₹7,000 each to 46.85 lakh farmer families on 30 October",
+      "te": "అన్నదాత సుఖీభవ–పీఎం కిసాన్: అక్టోబర్ 30న 46.85 లక్షల రైతు కుటుంబాలకు ₹7,000 చొప్పున"
+     },
+     "x": {
+      "en": "PM-Kisan (2019) is a Central Sector Scheme: ₹6,000 a year in three instalments of ₹2,000, paid by DBT. Trap: in AP the yearly total is ₹20,000, but the Centre's part is only ₹6,000.",
+      "te": "పీఎం కిసాన్ (2019) కేంద్ర రంగ పథకం: ఏడాదికి ₹6,000, మూడు విడతల్లో ₹2,000 చొప్పున DBT ద్వారా. ట్రాప్: ఏపీలో ఏడాది మొత్తం ₹20,000 అయినా కేంద్ర వాటా ₹6,000 మాత్రమే."
+     }
+    },
+    {
+     "d": "2026-10-29",
+     "id": "appolls",
+     "t": {
+      "en": "AP SEC moves MPTC, ZPTC polling to 5 November; municipal polls stay on 1 November",
+      "te": "ఎంపీటీసీ, జెడ్పీటీసీ పోలింగ్ నవంబర్ 5కి మార్పు; పురపాలక ఎన్నికలు నవంబర్ 1నే"
+     },
+     "x": {
+      "en": "SEC: Article 243K (panchayats) and 243ZA (municipalities), added by the 73rd/74th Amendments; appointed by the Governor, removed only like a High Court judge. Trap: the ECI (Article 324) does not conduct local body polls.",
+      "te": "SEC: ఆర్టికల్ 243K (పంచాయతీలు), 243ZA (పురపాలికలు) — 73, 74వ సవరణలు; గవర్నర్ నియమిస్తారు, హైకోర్టు న్యాయమూర్తిని తొలగించే విధానంలోనే తొలగింపు. ట్రాప్: స్థానిక ఎన్నికలు ECI (ఆర్టికల్ 324) నిర్వహించదు."
+     }
+    },
+    {
+     "d": "2026-10-30",
+     "id": "apcabinet",
+     "t": {
+      "en": "AP Cabinet clears 48 items: quantum hardware park in Amaravati, steel plant in Vizianagaram",
+      "te": "48 అంశాలకు ఏపీ కేబినెట్ ఆమోదం: అమరావతిలో క్వాంటమ్ హార్డ్‌వేర్ పార్క్, విజయనగరంలో ఉక్కు ప్లాంట్"
+     },
+     "x": {
+      "en": "Link to AP's tech push: Quantum Valley (Amaravati) ↔ National Quantum Mission. Trap: the ₹3,700-crore Renaissance unit makes silicon crystals and wafers (solar/electronics), not battery cells.",
+      "te": "ఏపీ టెక్ లక్ష్యాలతో లింక్: క్వాంటమ్ వ్యాలీ (అమరావతి) ↔ నేషనల్ క్వాంటమ్ మిషన్. ట్రాప్: ₹3,700 కోట్ల రినైసెన్స్ యూనిట్ సిలికాన్ క్రిస్టల్స్, వేఫర్లు (సోలార్/ఎలక్ట్రానిక్స్) తయారు చేస్తుంది; బ్యాటరీ సెల్స్ కాదు."
+     }
+    },
+    {
+     "d": "2026-10-30",
+     "id": "arnabcost",
+     "t": {
+      "en": "Cyclone Arnab: AP puts preliminary loss at ₹4,563 crore; crops hit on 3.3 lakh hectares in 16 districts",
+      "te": "అర్ణబ్ తుపాను: ప్రాథమిక నష్టం ₹4,563 కోట్లు; 16 జిల్లాల్లో 3.3 లక్షల హెక్టార్లలో పంటలు దెబ్బతిన్నాయి"
+     },
+     "x": {
+      "en": "Disaster management link: a State asks the Centre for help from the NDRF (National Disaster Response Fund) after an Inter-Ministerial Central Team assesses damage. Trap: Konaseema leads in horticulture damage, but West Godavari leads in total crop area hit.",
+      "te": "విపత్తు నిర్వహణ లింక్: కేంద్ర బృందం నష్టం అంచనా వేశాక రాష్ట్రం NDRF (జాతీయ విపత్తు ప్రతిస్పందన నిధి) నుంచి సాయం కోరుతుంది. ట్రాప్: ఉద్యాన నష్టంలో కోనసీమ ముందుంది; మొత్తం పంట విస్తీర్ణంలో పశ్చిమ గోదావరి ముందుంది."
+     }
+    },
+    {
+     "d": "2026-10-31",
+     "id": "apteams",
+     "t": {
+      "en": "Two Central teams in AP: Cyclone Arnab damage (Home Ministry) and Kharif drought (Agriculture Ministry)",
+      "te": "ఏపీలో రెండు కేంద్ర బృందాలు: ఆర్నాబ్ తుపాను నష్టం (హోం శాఖ), ఖరీఫ్ కరవు (వ్యవసాయ శాఖ)"
+     },
+     "x": {
+      "en": "Nodal ministry trap: for cyclones/floods the nodal ministry is the Home Ministry (MHA), but for DROUGHT it is the Agriculture Ministry — that is why two different teams came. Central teams visit after the State's memorandum seeking extra help from the NDRF.",
+      "te": "నోడల్ మంత్రిత్వ శాఖ ట్రాప్: తుపాను/వరదలకు హోం శాఖ (MHA) నోడల్; కానీ కరవుకు వ్యవసాయ శాఖ నోడల్ — అందుకే రెండు వేర్వేరు బృందాలు వచ్చాయి. NDRF నుంచి అదనపు సాయం కోరుతూ రాష్ట్రం మెమోరాండం ఇచ్చిన తర్వాత కేంద్ర బృందాలు పర్యటిస్తాయి."
+     }
+    },
+    {
+     "d": "2026-10-31",
+     "id": "apdelta",
+     "t": {
+      "en": "After Arnab: ₹3,000-crore plan to modernise Godavari delta drains; a new depression may reach the AP coast by 2 November",
+      "te": "ఆర్నాబ్ తర్వాత: గోదావరి డెల్టా డ్రెయిన్ల ఆధునీకరణకు ₹3,000 కోట్ల ప్రణాళిక; నవంబర్ 2 నాటికి ఏపీ తీరానికి మరో వాయుగుండం"
+     },
+     "x": {
+      "en": "IMD ladder (weak → strong): Low-pressure area → Well-marked low → Depression → Deep depression → Cyclonic storm → Severe → Very severe (Arnab was 'very severe'). Trap: a depression is weaker than a cyclonic storm; IMD names a system only when it becomes a cyclonic storm.",
+      "te": "IMD క్రమం (బలహీనం → బలం): అల్పపీడనం → బలపడిన అల్పపీడనం → వాయుగుండం (Depression) → తీవ్ర వాయుగుండం → తుపాను → తీవ్ర తుపాను → అతి తీవ్ర తుపాను (ఆర్నాబ్ 'అతి తీవ్ర'). ట్రాప్: వాయుగుండం తుపాను కంటే బలహీనం; తుపాను స్థాయికి చేరినప్పుడే IMD పేరు పెడుతుంది."
+     }
+    },
+    {
+     "d": "2026-11-01",
+     "id": "murasu",
+     "t": {
+      "en": "Cyclone 'Murasu' heads for south Andhra coast; landfall between Nellore and Narsapur on the night of 2–3 November",
+      "te": "'మురసు' తుపాను దక్షిణ కోస్తా వైపు; నవంబర్ 2–3 రాత్రి నెల్లూరు–నర్సాపురం మధ్య తీరం దాటే అవకాశం"
+     },
+     "x": {
+      "en": "Naming trap: cyclones of the North Indian Ocean are named by RSMC New Delhi (IMD) from the WMO/ESCAP Panel list of 13 countries; a storm gets a name only when it reaches 'cyclonic storm' stage — not as a depression.",
+      "te": "పేరు ట్రాప్: ఉత్తర హిందూ మహాసముద్ర తుపానులకు RSMC న్యూఢిల్లీ (IMD) WMO/ESCAP ప్యానెల్ 13 దేశాల జాబితా నుంచి పేర్లు పెడుతుంది; 'తుపాను' దశకు చేరినప్పుడే పేరు వస్తుంది — వాయుగుండం దశలో కాదు."
+     }
+    },
+    {
+     "d": "2026-11-01",
+     "id": "deaddiction",
+     "t": {
+      "en": "AP releases ₹9.86 crore to modernise 16 de-addiction centres; 3 to become centres of excellence",
+      "te": "16 డీ-అడిక్షన్ కేంద్రాల ఆధునికీకరణకు ఏపీ ₹9.86 కోట్లు; 3 కేంద్రాలు 'సెంటర్స్ ఆఫ్ ఎక్సలెన్స్'"
+     },
+     "x": {
+      "en": "Static link: Article 47 (Part IV, DPSP) asks the State to raise nutrition and public health and to try to prohibit intoxicating drinks and harmful drugs except for medicinal use; DPSPs are not enforceable in courts. Trap: IMH is in Kadapa, KGH in Visakhapatnam.",
+      "te": "స్టాటిక్ లింక్: ఆర్టికల్ 47 (భాగం IV, ఆదేశిక సూత్రాలు) — పోషణ, ప్రజారోగ్యం మెరుగుపరచాలి; ఔషధ అవసరాలు తప్ప మత్తు పానీయాలు, హానికర మాదకద్రవ్యాల నిషేధానికి కృషి చేయాలి; ఆదేశిక సూత్రాలను కోర్టుల ద్వారా అమలు చేయించలేం. ట్రాప్: IMH కడపలో, KGH విశాఖలో."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "polity",
+   "items": [
+    {
+     "d": "2026-10-26",
+     "id": "vigilance",
+     "t": {
+      "en": "Vigilance Awareness Week 2026 (26 Oct–1 Nov) on the theme 'Probity for Prosperity'",
+      "te": "నిఘా అవగాహన వారం 2026 (అక్టో 26–నవం 1): ఇతివృత్తం 'Probity for Prosperity'"
+     },
+     "x": {
+      "en": "The week always includes 31 October, Sardar Patel's birth anniversary (Rashtriya Ekta Diwas). CVC is a statutory body — NOT constitutional: one Central Vigilance Commissioner + up to two Vigilance Commissioners, appointed by the President on the advice of PM, Home Minister and Leader of Opposition in Lok Sabha.",
+      "te": "ఈ వారంలో ఎప్పుడూ అక్టోబర్ 31 — సర్దార్ పటేల్ జయంతి (రాష్ట్రీయ ఏక్తా దివస్) ఉంటుంది. CVC చట్టబద్ధ సంస్థ — రాజ్యాంగ సంస్థ కాదు: ఒక కేంద్ర నిఘా కమిషనర్ + గరిష్ఠంగా ఇద్దరు నిఘా కమిషనర్లు; ప్రధాని, హోంమంత్రి, లోక్‌సభ ప్రతిపక్ష నేత సిఫార్సుతో రాష్ట్రపతి నియమిస్తారు."
+     }
+    },
+    {
+     "d": "2026-10-27",
+     "id": "dpdp",
+     "t": {
+      "en": "Digital news publishers challenge the Data Protection Act in the Supreme Court; no stay, next hearing 17 Nov",
+      "te": "డేటా రక్షణ చట్టంపై సుప్రీంకోర్టులో డిజిటల్ వార్తా సంస్థల సవాల్; స్టే లేదు, తదుపరి విచారణ నవంబర్ 17"
+     },
+     "x": {
+      "en": "Static link: Right to Privacy is a fundamental right under Article 21 (K.S. Puttaswamy, 2017); press freedom flows from Article 19(1)(a). This case is a clash of these two rights. Trap: the DPDP Act was passed in 2023; the Rules are of 2025.",
+      "te": "స్టాటిక్ లింక్: గోప్యత హక్కు ఆర్టికల్ 21 కింద ప్రాథమిక హక్కు (కె.ఎస్. పుట్టస్వామి, 2017); పత్రికా స్వేచ్ఛ ఆర్టికల్ 19(1)(a) నుంచి వస్తుంది. ఈ కేసు ఈ రెండు హక్కుల మధ్య ఘర్షణ. ట్రాప్: DPDP చట్టం 2023లో వచ్చింది; నియమాలు 2025 నాటివి."
+     }
+    },
+    {
+     "d": "2026-10-29",
+     "id": "pragati",
+     "t": {
+      "en": "54th PRAGATI meeting: PM reviews projects worth over ₹16,000 crore in 31 States/UTs",
+      "te": "54వ ప్రగతి సమావేశం: 31 రాష్ట్రాలు/UTల్లో ₹16,000 కోట్లకు పైగా ప్రాజెక్టులపై ప్రధాని సమీక్ష"
+     },
+     "x": {
+      "en": "PRAGATI is an ICT-based platform where the PM, Union secretaries and Chief Secretaries review stuck projects and grievances together — a tool of cooperative federalism. Trap: it is a platform, not a statutory body.",
+      "te": "ప్రగతి ఒక ICT వేదిక — ప్రధాని, కేంద్ర కార్యదర్శులు, రాష్ట్రాల ప్రధాన కార్యదర్శులు కలిసి నిలిచిపోయిన ప్రాజెక్టులు, ఫిర్యాదులను సమీక్షిస్తారు; సహకార సమాఖ్య విధానానికి ఉదాహరణ. ట్రాప్: ఇది వేదిక మాత్రమే, చట్టబద్ధ సంస్థ కాదు."
+     }
+    },
+    {
+     "d": "2026-10-29",
+     "id": "ircode",
+     "t": {
+      "en": "Supreme Court to examine AITUC plea against exclusions from 'industry' in the Industrial Relations Code, 2020",
+      "te": "పారిశ్రామిక సంబంధాల కోడ్–2020లో 'పరిశ్రమ' నిర్వచనం మినహాయింపులపై AITUC పిటిషన్ — సుప్రీంకోర్టు పరిశీలన"
+     },
+     "x": {
+      "en": "Bangalore Water Supply 'triple test': systematic activity + employer–employee cooperation + goods/services for human wants. Art 19(1)(c) = right to form associations/unions. Trap: it was a 7-judge bench, not 5.",
+      "te": "బెంగళూరు వాటర్ సప్లై 'త్రిముఖ పరీక్ష': క్రమబద్ధ కార్యకలాపం + యజమాని–ఉద్యోగి సహకారం + మానవ అవసరాలకు వస్తువులు/సేవలు. ఆర్టికల్ 19(1)(c) = సంఘాలు/యూనియన్లు ఏర్పాటు హక్కు. ట్రాప్: అది 7 మంది ధర్మాసనం, 5 కాదు."
+     }
+    },
+    {
+     "d": "2026-10-30",
+     "id": "apsir",
+     "t": {
+      "en": "ECI extends SIR timelines in AP, Telangana and 4 others; AP final electoral roll on 30 November",
+      "te": "ఏపీ, తెలంగాణ సహా 6 చోట్ల SIR గడువులు పొడిగించిన ఈసీఐ; ఏపీ తుది ఓటర్ల జాబితా నవంబర్ 30న"
+     },
+     "x": {
+      "en": "Static link: preparation of electoral rolls for Parliament and State Assembly elections is under the ECI (Article 324); one general electoral roll per constituency (Art. 325). Trap: the State Election Commission (Art. 243K) conducts panchayat/municipal polls, not the SIR.",
+      "te": "స్థిర అంశం: పార్లమెంటు, అసెంబ్లీ ఎన్నికల ఓటర్ల జాబితాల తయారీ ECI బాధ్యత (ఆర్టికల్ 324); ప్రతి నియోజకవర్గానికి ఒకే సాధారణ ఓటర్ల జాబితా (ఆర్టి. 325). ట్రాప్: రాష్ట్ర ఎన్నికల సంఘం (ఆర్టి. 243K) పంచాయతీ/మున్సిపల్ ఎన్నికలు నిర్వహిస్తుంది; SIR కాదు."
+     }
+    },
+    {
+     "d": "2026-10-30",
+     "id": "digiarrest",
+     "t": {
+      "en": "Supreme Court: banks must compensate digital-arrest fraud victims when their due diligence fails",
+      "te": "సుప్రీంకోర్టు: బ్యాంకుల జాగ్రత్తలో లోపం వల్ల మోసం జరిగితే 'డిజిటల్ అరెస్ట్' బాధితులకు బ్యాంకులే పరిహారం ఇవ్వాలి"
+     },
+     "x": {
+      "en": "Link: RBI regulates banks under the Banking Regulation Act, 1949; 'mule account' = an account used to pass on stolen money. Trap: the order of deadlines — notify by 30 Nov, operational by 31 Dec (not the reverse).",
+      "te": "లింక్: బ్యాంకింగ్ రెగ్యులేషన్ చట్టం, 1949 కింద RBI బ్యాంకులను నియంత్రిస్తుంది; 'మ్యూల్ ఖాతా' = దొంగిలించిన డబ్బును మళ్లించడానికి వాడే ఖాతా. ట్రాప్: గడువుల క్రమం — 30 నవంబర్‌లోగా నోటిఫై, 31 డిసెంబర్‌లోగా అమలు (తిరగబడి కాదు)."
+     }
+    },
+    {
+     "d": "2026-10-31",
+     "id": "apulb",
+     "t": {
+      "en": "AP urban local body polls on 1 November in 100 ULBs; counting on 3 November",
+      "te": "ఏపీలో 100 పట్టణ స్థానిక సంస్థలకు నవంబర్ 1న పోలింగ్; నవంబర్ 3న లెక్కింపు"
+     },
+     "x": {
+      "en": "Static link: 74th Amendment (1992) added Part IXA; Art. 243Q — three types: Nagar Panchayat (area in transition), Municipal Council (smaller urban area), Municipal Corporation (larger urban area); Art. 243U — 5-year term. Trap: municipal polls are conducted by the State Election Commission, not the ECI.",
+      "te": "స్థిర అంశం: 74వ సవరణ (1992) భాగం IXA చేర్చింది; ఆర్టి. 243Q — మూడు రకాలు: నగర పంచాయతీ (పరివర్తన ప్రాంతం), మున్సిపల్ కౌన్సిల్ (చిన్న పట్టణం), మున్సిపల్ కార్పొరేషన్ (పెద్ద నగరం); ఆర్టి. 243U — 5 ఏళ్ల పదవీకాలం. ట్రాప్: పురపాలక ఎన్నికలు నిర్వహించేది రాష్ట్ర ఎన్నికల సంఘం; ECI కాదు."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "economy",
+   "items": [
+    {
+     "d": "2026-10-27",
+     "id": "e100",
+     "t": {
+      "en": "Motor Vehicles Rules amended: flex-fuel vehicles can now run on up to E100 (almost pure ethanol)",
+      "te": "మోటారు వాహన నియమాల సవరణ: ఫ్లెక్స్-ఫ్యూయల్ వాహనాలు ఇక E100 (దాదాపు స్వచ్ఛ ఇథనాల్) వరకు వాడొచ్చు"
+     },
+     "x": {
+      "en": "Static link: National Policy on Biofuels, 2018 promotes ethanol blending. Trap: a 'flex-fuel' vehicle is not automatically E100 — it can use only the blends it is certified for.",
+      "te": "స్టాటిక్ లింక్: జాతీయ జీవ ఇంధన విధానం, 2018 ఇథనాల్ మిశ్రమాన్ని ప్రోత్సహిస్తుంది. ట్రాప్: ప్రతి 'ఫ్లెక్స్-ఫ్యూయల్' వాహనం E100 వాడగలదని కాదు — ధ్రువీకరణ పొందిన మిశ్రమాలనే వాడాలి."
+     }
+    },
+    {
+     "d": "2026-10-28",
+     "id": "containers",
+     "t": {
+      "en": "₹10,000-crore Container Manufacturing Promotion Scheme to raise capacity almost tenfold",
+      "te": "₹10,000 కోట్ల కంటైనర్ తయారీ ప్రోత్సాహక పథకం — సామర్థ్యం దాదాపు పది రెట్లు"
+     },
+     "x": {
+      "en": "Know TEU = twenty-foot equivalent unit (a 40-ft box = 2 TEU). Trap: the largest component is operational expenditure assistance (₹8,891 cr), not interest subvention (₹859 cr).",
+      "te": "TEU = ట్వంటీ-ఫుట్ ఈక్వివలెంట్ యూనిట్ (40 అడుగుల కంటైనర్ = 2 TEU). ట్రాప్: అతి పెద్ద భాగం నిర్వహణ వ్యయ సహాయం (₹8,891 కోట్లు), వడ్డీ రాయితీ (₹859 కోట్లు) కాదు."
+     }
+    },
+    {
+     "d": "2026-10-28",
+     "id": "dahike",
+     "t": {
+      "en": "DA and DR raised by 3 points to 63% from 1 July 2026",
+      "te": "DA, DR 3 శాతం పెంపు — 1 జూలై 2026 నుంచి 63%"
+     },
+     "x": {
+      "en": "DA goes to serving employees, DR to pensioners — a common swap trap. DA is revised twice a year (January and July) using the All-India Consumer Price Index for Industrial Workers (Labour Bureau). Note: pensioners outnumber employees.",
+      "te": "DA సేవలో ఉన్న ఉద్యోగులకు, DR పెన్షనర్లకు — ఈ రెండింటినీ తారుమారు చేసే ట్రాప్ సాధారణం. DAను ఏటా రెండుసార్లు (జనవరి, జూలై) పారిశ్రామిక కార్మికుల వినియోగదారుల ధరల సూచీ (CPI-IW, లేబర్ బ్యూరో) ఆధారంగా సవరిస్తారు. పెన్షనర్ల సంఖ్యే ఎక్కువ."
+     }
+    },
+    {
+     "d": "2026-10-28",
+     "id": "nsa6",
+     "t": {
+      "en": "National Startup Awards 6.0 open till 20 November; new award for student innovators",
+      "te": "నేషనల్ స్టార్టప్ అవార్డ్స్ 6.0 — దరఖాస్తులు నవంబర్ 20 వరకు; విద్యార్థి ఆవిష్కర్తలకు కొత్త అవార్డు"
+     },
+     "x": {
+      "en": "Startup India was launched on 16 January 2016 — 16 January is National Startup Day. Trap: DPIIT is under the Ministry of Commerce & Industry, not the MSME Ministry.",
+      "te": "స్టార్టప్ ఇండియా 16 జనవరి 2016న ప్రారంభమైంది — జనవరి 16 జాతీయ స్టార్టప్ దినోత్సవం. ట్రాప్: DPIIT వాణిజ్య & పరిశ్రమల మంత్రిత్వ శాఖ కింద ఉంటుంది, MSME శాఖ కింద కాదు."
+     }
+    },
+    {
+     "d": "2026-10-29",
+     "id": "auto",
+     "t": {
+      "en": "India's automobile industry is now the world's 3rd largest, at ₹22 lakh crore: Gadkari",
+      "te": "₹22 లక్షల కోట్లతో భారత ఆటోమొబైల్ పరిశ్రమ ప్రపంచంలో 3వ స్థానం: గడ్కరీ"
+     },
+     "x": {
+      "en": "Link: PM E-DRIVE, PLI for auto & ACC batteries, National Green Hydrogen Mission (2023). Trap: India overtook JAPAN (not Germany) for 3rd place.",
+      "te": "అనుసంధానం: PM E-DRIVE, ఆటో & ACC బ్యాటరీలకు PLI, జాతీయ గ్రీన్ హైడ్రోజన్ మిషన్ (2023). ట్రాప్: భారత్ 3వ స్థానానికి దాటింది జపాన్‌ను (జర్మనీని కాదు)."
+     }
+    },
+    {
+     "d": "2026-10-30",
+     "id": "gdpq2",
+     "t": {
+      "en": "Finance Ministry's monthly review projects 7.35% GDP growth for Q2 of 2026-27",
+      "te": "2026-27 రెండో త్రైమాసికంలో 7.35% GDP వృద్ధి: ఆర్థిక శాఖ నెలవారీ సమీక్ష అంచనా"
+     },
+     "x": {
+      "en": "The Monthly Economic Review comes from the Department of Economic Affairs (Finance Ministry); official GDP estimates are released by NSO under MoSPI. Trap: Indian financial-year Q2 = July–September, not April–June.",
+      "te": "నెలవారీ ఆర్థిక సమీక్షను ఆర్థిక శాఖలోని ఆర్థిక వ్యవహారాల విభాగం (DEA) విడుదల చేస్తుంది; అధికారిక GDP అంచనాలను MoSPI కింది NSO విడుదల చేస్తుంది. ట్రాప్: భారత ఆర్థిక సంవత్సరంలో Q2 = జూలై–సెప్టెంబర్; ఏప్రిల్–జూన్ కాదు."
+     }
+    },
+    {
+     "d": "2026-10-31",
+     "id": "fiscal",
+     "t": {
+      "en": "Centre's fiscal deficit in April–September 2026 at ₹7.14 lakh crore — 42.1% of the full-year target",
+      "te": "ఏప్రిల్–సెప్టెంబర్ 2026లో కేంద్ర ద్రవ్య లోటు ₹7.14 లక్షల కోట్లు — పూర్తి ఏడాది లక్ష్యంలో 42.1%"
+     },
+     "x": {
+      "en": "CGA (Department of Expenditure, Finance Ministry) compiles the Centre's accounts — don't confuse with the CAG (Art. 148), who audits. Fiscal deficit − interest payments = primary deficit; revenue deficit = revenue spending − revenue receipts. Law: FRBM Act, 2003.",
+      "te": "CGA (వ్యయ విభాగం, ఆర్థిక శాఖ) కేంద్ర లెక్కలు రూపొందిస్తుంది — ఆడిట్ చేసే CAG (ఆర్టి. 148)తో కలపవద్దు. ద్రవ్య లోటు − వడ్డీ చెల్లింపులు = ప్రాథమిక లోటు; రెవెన్యూ లోటు = రెవెన్యూ వ్యయం − రెవెన్యూ రాబడులు. చట్టం: FRBM చట్టం, 2003."
+     }
+    },
+    {
+     "d": "2026-10-31",
+     "id": "bankpanel",
+     "t": {
+      "en": "Centre sets up High-Level Committee on Banking for Viksit Bharat under ex-CVC Suresh N. Patel",
+      "te": "మాజీ CVC సురేశ్ ఎన్. పటేల్ అధ్యక్షతన 'బ్యాంకింగ్ ఫర్ వికసిత్ భారత్' ఉన్నత స్థాయి కమిటీ ఏర్పాటు"
+     },
+     "x": {
+      "en": "Static links: Lead Bank Scheme began in 1969; Priority Sector Lending target for domestic banks is 40% of ANBC; CVC is a statutory body (CVC Act, 2003). Trap: earlier banking-reform panels were the Narasimham Committees (1991, 1998).",
+      "te": "స్థిర అంశాలు: లీడ్ బ్యాంక్ పథకం 1969లో ప్రారంభం; దేశీయ బ్యాంకులకు PSL లక్ష్యం ANBCలో 40%; CVC చట్టబద్ధ సంస్థ (CVC చట్టం, 2003). ట్రాప్: గతంలో బ్యాంకింగ్ సంస్కరణల కమిటీలు నరసింహం కమిటీలు (1991, 1998)."
+     }
+    },
+    {
+     "d": "2026-11-01",
+     "id": "gst",
+     "t": {
+      "en": "Gross GST collection in October 2026: ₹2.31 lakh crore, up 22.9%; import GST up 42.2%",
+      "te": "అక్టోబర్ 2026 స్థూల GST వసూళ్లు ₹2.31 లక్షల కోట్లు, 22.9% వృద్ధి; దిగుమతులపై GST 42.2% పెరుగుదల"
+     },
+     "x": {
+      "en": "Static link: GST came on 1 July 2017 through the 101st Constitutional Amendment (2016); the GST Council is under Article 279A and is chaired by the Union Finance Minister. IGST is levied on inter-State supplies and imports. Trap: 'gross' is before refunds, 'net' is after refunds.",
+      "te": "స్టాటిక్ లింక్: 101వ రాజ్యాంగ సవరణ (2016) ద్వారా 2017 జూలై 1న GST అమల్లోకి వచ్చింది; GST కౌన్సిల్ ఆర్టికల్ 279A కింద ఏర్పడింది, ఛైర్‌పర్సన్ కేంద్ర ఆర్థిక మంత్రి. అంతర్రాష్ట్ర సరఫరాలు, దిగుమతులపై IGST. ట్రాప్: 'స్థూల' = రీఫండ్లకు ముందు, 'నికర' = రీఫండ్ల తర్వాత."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "schemes",
+   "items": [
+    {
+     "d": "2026-10-26",
+     "id": "farmerid",
+     "t": {
+      "en": "11 crore Farmer IDs created — five months before the March 2027 deadline (Digital Agriculture Mission)",
+      "te": "11 కోట్ల రైతు గుర్తింపు సంఖ్యలు (Farmer ID) పూర్తి — మార్చి 2027 గడువుకు ఐదు నెలల ముందే (డిజిటల్ అగ్రికల్చర్ మిషన్)"
+     },
+     "x": {
+      "en": "Digital Agriculture Mission has two pillars: AgriStack (Farmer Registry, Digital Crop Survey, geo-referenced village maps) and Krishi Decision Support System. Trap: Farmer IDs are made by States/UTs, not by NABARD or banks.",
+      "te": "డిజిటల్ అగ్రికల్చర్ మిషన్‌కు రెండు స్తంభాలు: AgriStack (రైతు రిజిస్ట్రీ, డిజిటల్ పంట సర్వే, భౌగోళిక గ్రామ పటాలు), కృషి డెసిషన్ సపోర్ట్ సిస్టమ్. ట్రాప్: రైతు IDలను రాష్ట్రాలు/UTలు రూపొందిస్తాయి, NABARD లేదా బ్యాంకులు కాదు."
+     }
+    },
+    {
+     "d": "2026-10-27",
+     "id": "tollpass",
+     "t": {
+      "en": "From 1 November: annual toll pass of ₹1,500/₹3,000 for private vehicles of people living within 20 km of a toll plaza",
+      "te": "నవంబర్ 1 నుంచి: టోల్ ప్లాజాకు 20 కి.మీ. లోపు నివసించే వారి ప్రైవేట్ వాహనాలకు ₹1,500/₹3,000 వార్షిక పాస్"
+     },
+     "x": {
+      "en": "Toll on National Highways is fixed by the Centre under the National Highways Act, 1956 and the NH Fee Rules, 2008. Trap: the local pass works only at ONE plaza; the ₹3,075 FASTag Annual Pass (from 15 Aug 2025) works at all NH plazas.",
+      "te": "జాతీయ రహదారుల టోల్‌ను జాతీయ రహదారుల చట్టం, 1956, NH రుసుము నియమాలు, 2008 కింద కేంద్రం నిర్ణయిస్తుంది. ట్రాప్: స్థానిక పాస్ ఒకే ప్లాజాకు; ₹3,075 ఫాస్టాగ్ వార్షిక పాస్ (15 ఆగస్టు 2025 నుంచి) అన్ని NH ప్లాజాలకు."
+     }
+    },
+    {
+     "d": "2026-10-28",
+     "id": "pmvgsy",
+     "t": {
+      "en": "Cabinet approves PM Viksit Gram Swaraj Yojana — ₹7,395.55 crore for panchayats (2026-27 to 2030-31)",
+      "te": "ప్రధానమంత్రి వికసిత్ గ్రామ స్వరాజ్ యోజనకు కేబినెట్ ఆమోదం — పంచాయతీలకు ₹7,395.55 కోట్లు (2026-27 నుంచి 2030-31)"
+     },
+     "x": {
+      "en": "Static link: Part IX (Articles 243–243O) was added by the 73rd Amendment, 1992; 24 April is National Panchayati Raj Day. Trap: PM-VGSY is Centrally Sponsored (States pay a share), not a Central Sector scheme.",
+      "te": "స్టాటిక్ లింక్: పార్ట్ IX (ఆర్టికల్స్ 243–243O)ను 73వ సవరణ (1992) చేర్చింది; ఏప్రిల్ 24 జాతీయ పంచాయతీ రాజ్ దినోత్సవం. ట్రాప్: PM-VGSY కేంద్ర ప్రాయోజిత పథకం (రాష్ట్రాలూ వాటా భరిస్తాయి), కేంద్ర రంగ పథకం కాదు."
+     }
+    },
+    {
+     "d": "2026-10-28",
+     "id": "sportsgoods",
+     "t": {
+      "en": "Khelo India Sports Goods Manufacturing Scheme approved with ₹1,856.67 crore",
+      "te": "₹1,856.67 కోట్లతో ఖేలో ఇండియా క్రీడా సామగ్రి తయారీ పథకానికి ఆమోదం"
+     },
+     "x": {
+      "en": "Link: Khelo India + 'Make in India'; ANRF was set up under the ANRF Act, 2023. Trap: same day the Cabinet cleared two manufacturing schemes — containers (₹10,000 cr, to 2039-40) and sports goods (₹1,856.67 cr, to 2033-34). Do not mix the numbers.",
+      "te": "లింక్: ఖేలో ఇండియా + 'మేక్ ఇన్ ఇండియా'; ANRF చట్టం 2023 కింద ANRF ఏర్పాటైంది. ట్రాప్: అదే రోజు రెండు తయారీ పథకాలు — కంటైనర్లు (₹10,000 కోట్లు, 2039-40 వరకు), క్రీడా సామగ్రి (₹1,856.67 కోట్లు, 2033-34 వరకు). సంఖ్యలు కలపవద్దు."
+     }
+    },
+    {
+     "d": "2026-10-30",
+     "id": "pmkisan24",
+     "t": {
+      "en": "PM releases 24th PM-KISAN instalment from Banaskantha: about ₹18,680 crore to 9.34 crore farmer families",
+      "te": "బనస్కాంఠ నుంచి PM-KISAN 24వ విడత విడుదల: 9.34 కోట్ల రైతు కుటుంబాలకు సుమారు ₹18,680 కోట్లు"
+     },
+     "x": {
+      "en": "Central Sector Scheme (100% Central funding) under the Ministry of Agriculture & Farmers Welfare. Trap: ₹4.47 lakh crore is the amount already paid (23 instalments); ₹3.15 lakh crore is the 2026-31 outlay.",
+      "te": "వ్యవసాయ & రైతు సంక్షేమ మంత్రిత్వ శాఖ కింద సెంట్రల్ సెక్టార్ పథకం (100% కేంద్ర నిధులు). ట్రాప్: ₹4.47 లక్షల కోట్లు ఇప్పటికే చెల్లించిన మొత్తం (23 విడతలు); ₹3.15 లక్షల కోట్లు 2026-31 వ్యయం."
+     }
+    },
+    {
+     "d": "2026-11-01",
+     "id": "gigboards",
+     "t": {
+      "en": "Centre sets up two National Social Security Boards — for unorganised workers and for gig & platform workers; AP on the gig board",
+      "te": "అసంఘటిత కార్మికులు, గిగ్ & ప్లాట్‌ఫాం కార్మికుల కోసం రెండు జాతీయ సామాజిక భద్రతా బోర్డులు; గిగ్ బోర్డులో ఏపీకి చోటు"
+     },
+     "x": {
+      "en": "Static link: the Code on Social Security, 2020 is the first central law to define 'gig worker' and 'platform worker'; it is one of the four Labour Codes. Trap: the 5% cap is on payouts to workers, not on turnover.",
+      "te": "స్టాటిక్ లింక్: 'గిగ్ వర్కర్', 'ప్లాట్‌ఫాం వర్కర్'లను నిర్వచించిన తొలి కేంద్ర చట్టం సామాజిక భద్రతా నియమావళి, 2020; ఇది నాలుగు లేబర్ కోడ్‌లలో ఒకటి. ట్రాప్: 5% పరిమితి కార్మికులకు చెల్లింపులపై — టర్నోవర్‌పై కాదు."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "ir",
+   "items": [
+    {
+     "d": "2026-10-27",
+     "id": "bricspf",
+     "t": {
+      "en": "12th BRICS Parliamentary Forum ends in New Delhi with the 'New Delhi Joint Declaration'",
+      "te": "న్యూఢిల్లీలో 12వ BRICS పార్లమెంటరీ ఫోరం ముగింపు; 'న్యూఢిల్లీ సంయుక్త ప్రకటన' ఆమోదం"
+     },
+     "x": {
+      "en": "India holds the BRICS chair in 2026 and hosted the 18th BRICS Summit (12–13 Sep 2026). India first proposed the CCIT at the UN in 1996 — it is still not adopted. Trap: this forum is of parliaments (Speakers), not of heads of government.",
+      "te": "2026లో BRICS అధ్యక్ష బాధ్యత భారత్‌దే; 18వ BRICS శిఖరాగ్ర సదస్సు (12–13 సెప్టెంబర్ 2026)కు ఆతిథ్యం ఇచ్చింది. CCITని భారత్ 1996లో ఐరాసలో ప్రతిపాదించింది — ఇంకా ఆమోదం పొందలేదు. ట్రాప్: ఇది పార్లమెంట్ల (స్పీకర్ల) ఫోరం, దేశాధినేతలది కాదు."
+     }
+    },
+    {
+     "d": "2026-10-29",
+     "id": "mexico",
+     "t": {
+      "en": "India and Mexico sign Terms of Reference to start Preferential Trade Agreement talks",
+      "te": "ప్రాధాన్య వాణిజ్య ఒప్పందం (PTA) చర్చలకు భారత్–మెక్సికో ToRపై సంతకం"
+     },
+     "x": {
+      "en": "PTA = duty cuts on a limited list of goods; FTA/CEPA = duties removed on most trade, often services too. Trap: India's PTA with MERCOSUR does not cover Mexico — Mexico is not a MERCOSUR member.",
+      "te": "PTA = కొన్ని వస్తువులపై మాత్రమే సుంకాల తగ్గింపు; FTA/CEPA = ఎక్కువ వాణిజ్యంపై సుంకాల తొలగింపు, తరచూ సేవలు కూడా. ట్రాప్: భారత్–MERCOSUR PTA మెక్సికోకు వర్తించదు; మెక్సికో MERCOSUR సభ్యదేశం కాదు."
+     }
+    },
+    {
+     "d": "2026-11-01",
+     "id": "indiaeu",
+     "t": {
+      "en": "PM Modi to visit Brussels in December to sign the India–EU Free Trade Agreement",
+      "te": "భారత్–EU స్వేచ్ఛా వాణిజ్య ఒప్పందంపై సంతకానికి డిసెంబర్‌లో ప్రధాని మోదీ బ్రస్సెల్స్ పర్యటన"
+     },
+     "x": {
+      "en": "Trap: European Council President (António Costa) ≠ European Commission President (Ursula von der Leyen). EU HQ institutions sit in Brussels; the EU has 27 members. In goods, India has a trade SURPLUS with the EU.",
+      "te": "ట్రాప్: యూరోపియన్ కౌన్సిల్ అధ్యక్షుడు (ఆంటోనియో కోస్టా) ≠ యూరోపియన్ కమిషన్ అధ్యక్షురాలు (ఉర్సులా వాన్ డెర్ లేయెన్). EU ప్రధాన సంస్థలు బ్రస్సెల్స్‌లో; EUలో 27 సభ్య దేశాలు. వస్తు వాణిజ్యంలో EUతో భారత్‌కు మిగులు."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "science",
+   "items": [
+    {
+     "d": "2026-10-26",
+     "id": "aatal",
+     "t": {
+      "en": "AATAL: first-of-its-kind lab to find the sources of Delhi-NCR's air pollution opened under Mission Mausam",
+      "te": "AATAL: ఢిల్లీ-NCR వాయు కాలుష్య మూలాలను గుర్తించే తొలి తరహా ప్రయోగశాల — మిషన్ మౌసమ్ కింద ప్రారంభం"
+     },
+     "x": {
+      "en": "Mission Mausam belongs to the Ministry of Earth Sciences (MoES), not MoEFCC. IITM (Indian Institute of Tropical Meteorology) is in Pune. 'Source apportionment' = finding which source adds how much pollution.",
+      "te": "మిషన్ మౌసమ్ భూ విజ్ఞాన శాస్త్రాల మంత్రిత్వ శాఖ (MoES)ది, MoEFCCది కాదు. IITM (భారత ఉష్ణమండల వాతావరణ శాస్త్ర సంస్థ) పుణెలో ఉంది. 'Source apportionment' = ఏ మూలం ఎంత కాలుష్యం కలుపుతుందో లెక్కించడం."
+     }
+    },
+    {
+     "d": "2026-10-27",
+     "id": "estic",
+     "t": {
+      "en": "PM opens ESTIC-2026, the second Emerging Science, Technology and Innovation Conclave, at Bharat Mandapam",
+      "te": "భారత్ మండపంలో ESTIC-2026 (రెండో ఎమర్జింగ్ సైన్స్, టెక్నాలజీ & ఇన్నోవేషన్ కాన్‌క్లేవ్) ప్రారంభం"
+     },
+     "x": {
+      "en": "Link: the ₹1 lakh crore Research, Development and Innovation (RDI) Fund supports private-sector research; the Anusandhan National Research Foundation (ANRF) funds university research. Trap: ESTIC-2026 is the 2nd edition, not the first.",
+      "te": "లింక్: ₹1 లక్ష కోట్ల రీసెర్చ్, డెవలప్‌మెంట్ & ఇన్నోవేషన్ (RDI) ఫండ్ ప్రైవేట్ రంగ పరిశోధనకు; అనుసంధాన్ నేషనల్ రీసెర్చ్ ఫౌండేషన్ (ANRF) విశ్వవిద్యాలయ పరిశోధనకు నిధులు ఇస్తుంది. ట్రాప్: ESTIC-2026 రెండో ఎడిషన్, మొదటిది కాదు."
+     }
+    },
+    {
+     "d": "2026-10-29",
+     "id": "nvs03",
+     "t": {
+      "en": "GSLV-F18 to launch NavIC satellite NVS-03 from Sriharikota on 30 October",
+      "te": "అక్టోబర్ 30న శ్రీహరికోట నుంచి GSLV-F18 ద్వారా NavIC ఉపగ్రహం NVS-03 ప్రయోగం"
+     },
+     "x": {
+      "en": "NavIC (old name IRNSS) is a REGIONAL system, unlike global GPS (USA), GLONASS (Russia), Galileo (EU) and BeiDou (China). Trap: GSLV first puts the satellite in GTO; the satellite's own motors take it to its final orbit.",
+      "te": "NavIC (పాత పేరు IRNSS) ప్రాంతీయ వ్యవస్థ; GPS (అమెరికా), GLONASS (రష్యా), Galileo (EU), BeiDou (చైనా) ప్రపంచవ్యాప్త వ్యవస్థలు. ట్రాప్: GSLV ముందు ఉపగ్రహాన్ని GTOలో ఉంచుతుంది; తర్వాత ఉపగ్రహం తన సొంత ఇంజిన్లతో తుది కక్ష్యకు చేరుతుంది."
+     }
+    },
+    {
+     "d": "2026-10-31",
+     "id": "nvs03",
+     "t": {
+      "en": "GSLV-F18 places NavIC satellite NVS-03 in orbit from Sriharikota",
+      "te": "శ్రీహరికోట నుంచి నావిక్ ఉపగ్రహం NVS-03ను కక్ష్యలో ప్రవేశపెట్టిన GSLV-F18"
+     },
+     "x": {
+      "en": "NavIC is a REGIONAL system (India + ~1,500 km), like Japan's QZSS. Global systems: GPS (USA), GLONASS (Russia), Galileo (EU), BeiDou (China). Trap: GSLV's 3rd stage is cryogenic; GTO is a transfer orbit, not the final orbit.",
+      "te": "నావిక్ ప్రాంతీయ వ్యవస్థ (భారత్ + ~1,500 కి.మీ.), జపాన్ QZSS లాగే. ప్రపంచ వ్యవస్థలు: GPS (అమెరికా), GLONASS (రష్యా), Galileo (EU), BeiDou (చైనా). ట్రాప్: GSLV మూడో దశ క్రయోజెనిక్; GTO బదిలీ కక్ష్య మాత్రమే, తుది కక్ష్య కాదు."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "env",
+   "items": [
+    {
+     "d": "2026-10-26",
+     "id": "climate",
+     "t": {
+      "en": "IMD study: north-west India drier, north-east losing its tropical climate, south India wetter over 70 years",
+      "te": "IMD అధ్యయనం: 70 ఏళ్లలో వాయవ్య భారత్ పొడిగా, ఈశాన్యం ఉష్ణమండల వాతావరణం కోల్పోతోంది, దక్షిణ భారత్ తడిగా"
+     },
+     "x": {
+      "en": "Trap: Victoria Mode is in the North PACIFIC (not Atlantic or Indian Ocean; do not confuse with IOD or El Niño). The 2026 monsoon ended 12.6% below normal, the weakest since 2015.",
+      "te": "ట్రాప్: విక్టోరియా మోడ్ ఉత్తర పసిఫిక్‌లో ఉంటుంది (అట్లాంటిక్/హిందూ మహాసముద్రం కాదు; IOD, ఎల్ నినోతో కలపవద్దు). 2026 రుతుపవనాలు సాధారణం కంటే 12.6% తక్కువతో ముగిశాయి — 2015 తర్వాత అత్యంత బలహీనం."
+     }
+    },
+    {
+     "d": "2026-10-28",
+     "id": "cbdcop17",
+     "t": {
+      "en": "CBD COP-17 in Yerevan: India reaffirms the Kunming-Montreal biodiversity framework",
+      "te": "యెరెవాన్‌లో CBD COP-17: కున్మింగ్-మాంట్రియల్ జీవవైవిధ్య ఫ్రేమ్‌వర్క్‌కు భారత్ కట్టుబాటు"
+     },
+     "x": {
+      "en": "Static: CBD was opened at the Rio Earth Summit, 1992; the Kunming-Montreal framework (COP-15, Dec 2022) has 23 targets for 2030 including '30x30'; the Cali Fund came from COP-16 (Cali, Colombia, 2024). India's law: Biological Diversity Act, 2002. Trap: only 13 of 18 biosphere reserves are in MAB.",
+      "te": "స్టాటిక్: CBDని 1992 రియో ఎర్త్ సమ్మిట్‌లో ప్రారంభించారు; కున్మింగ్-మాంట్రియల్ ఫ్రేమ్‌వర్క్ (COP-15, డిసెంబర్ 2022)లో 2030కి 23 లక్ష్యాలు ('30x30' సహా); Cali Fund COP-16 (కాలి, కొలంబియా, 2024) నుంచి. భారత చట్టం: జీవవైవిధ్య చట్టం 2002. ట్రాప్: 18 బయోస్ఫియర్ రిజర్వుల్లో 13 మాత్రమే MABలో."
+     }
+    },
+    {
+     "d": "2026-10-30",
+     "id": "glof",
+     "t": {
+      "en": "Glacial lake outburst in Bhutan: CWC issues flood advisory for Alipurduar (WB) and Dhubri (Assam)",
+      "te": "భూటాన్‌లో హిమానీనద సరస్సు విస్ఫోటనం: అలీపుర్‌దువార్ (ప.బెం.), ధుబ్రి (అస్సాం)కు CWC వరద హెచ్చరిక"
+     },
+     "x": {
+      "en": "CWC (under the Jal Shakti Ministry) is India's flood-forecasting body. The Sankosh is a tributary of the Brahmaputra and marks part of the Assam–West Bengal boundary. Trap: Alipurduar is in West Bengal, Dhubri is in Assam.",
+      "te": "CWC (జల్ శక్తి మంత్రిత్వ శాఖ కింద) భారత వరద అంచనా సంస్థ. సంకోష్ బ్రహ్మపుత్ర ఉపనది; అస్సాం–పశ్చిమ బెంగాల్ సరిహద్దులో కొంత భాగం ఇదే. ట్రాప్: అలీపుర్‌దువార్ పశ్చిమ బెంగాల్‌లో, ధుబ్రి అస్సాంలో ఉన్నాయి."
+     }
+    },
+    {
+     "d": "2026-10-31",
+     "id": "restoration",
+     "t": {
+      "en": "UN report 'Nature's Comeback': 252 million hectares under restoration in 149 countries; India's Ganges river dolphin recovery cited",
+      "te": "ఐరాస నివేదిక 'నేచర్స్ కమ్‌బ్యాక్': 149 దేశాల్లో 25.2 కోట్ల హెక్టార్ల పునరుద్ధరణ; భారత గంగా డాల్ఫిన్ పునరుజ్జీవనానికి ప్రస్తావన"
+     },
+     "x": {
+      "en": "Kunming-Montreal Global Biodiversity Framework (CBD COP15, 2022): Target 2 = RESTORE 30% of degraded ecosystems; Target 3 = PROTECT 30% of land and sea ('30x30'). Trap: the two 30% targets are different. Ganges dolphin: Vikramshila Gangetic Dolphin Sanctuary is in Bihar; Project Dolphin was announced in 2020.",
+      "te": "కున్మింగ్-మాంట్రియల్ ప్రపంచ జీవవైవిధ్య చట్రం (CBD COP15, 2022): లక్ష్యం 2 = క్షీణించిన వ్యవస్థల్లో 30% పునరుద్ధరణ; లక్ష్యం 3 = భూమి, సముద్రంలో 30% రక్షణ ('30x30'). ట్రాప్: రెండు 30% లక్ష్యాలు వేర్వేరు. గంగా డాల్ఫిన్: విక్రమశిల గంగా డాల్ఫిన్ అభయారణ్యం బిహార్‌లో; ప్రాజెక్ట్ డాల్ఫిన్ 2020లో ప్రకటించారు."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "defence",
+   "items": [
+    {
+     "d": "2026-10-26",
+     "id": "trident",
+     "t": {
+      "en": "'Operation Trident': NCB-led raids at 38 places in Assam, Mizoram and Manipur hit a Myanmar-linked drug cartel",
+      "te": "'ఆపరేషన్ ట్రైడెంట్': అస్సాం, మిజోరం, మణిపూర్‌లో 38 చోట్ల NCB దాడులు — మయన్మార్ సంబంధిత డ్రగ్ ముఠాపై దెబ్బ"
+     },
+     "x": {
+      "en": "Static links: NCB was set up in 1986 under the NDPS Act, 1985; PIT-NDPS Act, 1988 allows preventive detention; Article 47 (DPSP) asks the State to prohibit harmful drugs; MANAS anti-drug helpline = 1933. Mizoram borders both Myanmar and Bangladesh.",
+      "te": "స్థిర GK: NCB 1986లో NDPS చట్టం, 1985 కింద ఏర్పాటు; PIT-NDPS చట్టం, 1988 నివారణ నిర్బంధానికి వీలు; ఆర్టికల్ 47 (ఆదేశిక సూత్రం) హానికర మత్తుపదార్థాల నిషేధం కోరుతుంది; MANAS డ్రగ్ వ్యతిరేక హెల్ప్‌లైన్ = 1933. మిజోరం మయన్మార్, బంగ్లాదేశ్ రెండింటితో సరిహద్దు కలిగి ఉంది."
+     }
+    },
+    {
+     "d": "2026-10-27",
+     "id": "swavlamban",
+     "t": {
+      "en": "Swavlamban 2026: Navy's 5th innovation and indigenisation seminar held in New Delhi",
+      "te": "స్వావలంబన్ 2026: నౌకాదళ 5వ ఆవిష్కరణ & స్వదేశీకరణ సదస్సు న్యూఢిల్లీలో"
+     },
+     "x": {
+      "en": "Link: iDEX (Innovations for Defence Excellence, 2018) funds defence start-ups; Swavlamban is the Navy's own platform. Trap: Swavlamban started in 2022 — 2026 is the 5th edition.",
+      "te": "లింక్: iDEX (ఇన్నోవేషన్స్ ఫర్ డిఫెన్స్ ఎక్సలెన్స్, 2018) రక్షణ స్టార్టప్‌లకు నిధులు ఇస్తుంది; స్వావలంబన్ నౌకాదళ సొంత వేదిక. ట్రాప్: స్వావలంబన్ 2022లో మొదలైంది — 2026లో 5వ ఎడిషన్."
+     }
+    },
+    {
+     "d": "2026-10-29",
+     "id": "admm",
+     "t": {
+      "en": "Rajnath Singh at 13th ADMM-Plus in Cebu; reviews 10-year India–US defence framework with Hegseth",
+      "te": "సెబూలో 13వ ADMM-Plusకు రాజ్‌నాథ్ సింగ్; హెగ్సెత్‌తో 10 ఏళ్ల భారత్–అమెరికా రక్షణ చట్రం సమీక్ష"
+     },
+     "x": {
+      "en": "ADMM-Plus is a DEFENCE ministers' forum; do not confuse it with the ASEAN Regional Forum (ARF) or the East Asia Summit. Trap: China and Russia ARE among the 8 'Plus' countries.",
+      "te": "ADMM-Plus రక్షణ మంత్రుల వేదిక; ASEAN రీజినల్ ఫోరం (ARF), తూర్పు ఆసియా సదస్సుతో కలపొద్దు. ట్రాప్: 8 'ప్లస్' దేశాల్లో చైనా, రష్యా కూడా ఉన్నాయి."
+     }
+    },
+    {
+     "d": "2026-11-01",
+     "id": "iafchief",
+     "t": {
+      "en": "Air Chief Marshal Ashutosh Dixit takes charge as the 29th Chief of the Air Staff",
+      "te": "29వ వైమానిక దళాధిపతిగా ఎయిర్ చీఫ్ మార్షల్ అశుతోష్ దీక్షిత్ బాధ్యతల స్వీకరణ"
+     },
+     "x": {
+      "en": "Static link: the IAF was founded on 8 October 1932 (Air Force Day); the President is the Supreme Commander of the armed forces. Trap: Dixit is the 29th CAS — Amar Preet Singh was the 28th.",
+      "te": "స్టాటిక్ లింక్: భారత వైమానిక దళం 1932 అక్టోబర్ 8న ఏర్పడింది (వైమానిక దళ దినోత్సవం); సాయుధ దళాల సర్వసైన్యాధిపతి రాష్ట్రపతి. ట్రాప్: దీక్షిత్ 29వ CAS — అమర్ ప్రీత్ సింగ్ 28వ."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "health",
+   "items": [
+    {
+     "d": "2026-10-29",
+     "id": "nppa",
+     "t": {
+      "en": "NPPA cuts MRP of 543 anti-cancer medicine brands from 9 November",
+      "te": "543 క్యాన్సర్ ఔషధ బ్రాండ్ల ధరలు తగ్గించిన NPPA — నవంబర్ 9 నుంచి అమలు"
+     },
+     "x": {
+      "en": "Trade margin = gap between the price at which a company sells and the MRP the patient pays. Trap: NPPA is under the Ministry of Chemicals & Fertilizers, not the Health Ministry.",
+      "te": "ట్రేడ్ మార్జిన్ = కంపెనీ అమ్మే ధరకు, రోగి చెల్లించే MRPకి మధ్య తేడా. ట్రాప్: NPPA రసాయనాలు & ఎరువుల మంత్రిత్వ శాఖ కింద ఉంటుంది, ఆరోగ్య శాఖ కింద కాదు."
+     }
+    },
+    {
+     "d": "2026-10-31",
+     "id": "vayvandana",
+     "t": {
+      "en": "Ayushman Vay Vandana completes two years: 23.46 lakh hospital admissions worth ₹5,668.80 crore for citizens aged 70+",
+      "te": "ఆయుష్మాన్ వయ వందనకు రెండేళ్లు: 70 ఏళ్లు పైబడిన వారికి ₹5,668.80 కోట్ల విలువైన 23.46 లక్షల ఆసుపత్రి చేరికలు"
+     },
+     "x": {
+      "en": "AB PM-JAY began on 23 September 2018 (Ranchi) and is run by the National Health Authority (NHA). Trap: for the 70+ group there is NO income test; the top-up is only for the 70+ member, not the whole family.",
+      "te": "AB PM-JAY 2018 సెప్టెంబర్ 23న (రాంచీ) ప్రారంభమైంది; అమలు సంస్థ జాతీయ ఆరోగ్య ప్రాధికార సంస్థ (NHA). ట్రాప్: 70+ వర్గానికి ఆదాయ పరీక్ష లేదు; టాప్-అప్ 70+ సభ్యుడికి మాత్రమే, కుటుంబం మొత్తానికి కాదు."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "awards",
+   "items": [
+    {
+     "d": "2026-10-26",
+     "id": "ashokesen",
+     "t": {
+      "en": "Physicist Ashoke Sen becomes the first Indian to receive the Oskar Klein Medal",
+      "te": "భౌతిక శాస్త్రవేత్త అశోక్ సేన్ — ఆస్కార్ క్లైన్ మెడల్ అందుకున్న తొలి భారతీయుడు"
+     },
+     "x": {
+      "en": "Other honours of Ashoke Sen: ICTP Prize 1989, Bhatnagar Prize 1994, FRS 1998, Padma Shri 2001, Infosys Prize 2009, Breakthrough Prize 2012, Padma Bhushan 2013, Dirac Medal 2014. Trap: the Klein Medal is Swedish, not a Nobel Prize.",
+      "te": "అశోక్ సేన్ ఇతర గౌరవాలు: ICTP ప్రైజ్ 1989, భట్నాగర్ ప్రైజ్ 1994, FRS 1998, పద్మశ్రీ 2001, ఇన్ఫోసిస్ ప్రైజ్ 2009, బ్రేక్‌థ్రూ ప్రైజ్ 2012, పద్మభూషణ్ 2013, డిరాక్ మెడల్ 2014. ట్రాప్: క్లైన్ మెడల్ స్వీడన్‌ది — ఇది నోబెల్ బహుమతి కాదు."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "sports",
+   "items": [
+    {
+     "d": "2026-10-31",
+     "id": "cwg2030",
+     "t": {
+      "en": "Rahul Dravid and Saina Nehwal nominated to the 2030 Commonwealth Games Organising Committee (Ahmedabad)",
+      "te": "2030 కామన్వెల్త్ క్రీడల (అహ్మదాబాద్) నిర్వహణ కమిటీకి రాహుల్ ద్రవిడ్, సైనా నెహ్వాల్ నామినేట్"
+     },
+     "x": {
+      "en": "2030 is the centenary edition — the first Games (British Empire Games) were held in Hamilton, Canada in 1930. India hosted once before: Delhi 2010. Trap: the 2026 Games were in Glasgow (Scotland), not in India.",
+      "te": "2030 శతాబ్ది క్రీడలు — మొదటి క్రీడలు (బ్రిటిష్ ఎంపైర్ గేమ్స్) 1930లో కెనడాలోని హామిల్టన్‌లో జరిగాయి. భారత్ గతంలో ఒకసారి ఆతిథ్యం ఇచ్చింది: ఢిల్లీ 2010. ట్రాప్: 2026 క్రీడలు గ్లాస్గో (స్కాట్లాండ్)లో జరిగాయి; భారత్‌లో కాదు."
+     }
+    },
+    {
+     "d": "2026-11-01",
+     "id": "manisha",
+     "t": {
+      "en": "Manisha Bhanwala becomes the first Indian woman to win gold at the Senior World Wrestling Championships",
+      "te": "సీనియర్ ప్రపంచ రెజ్లింగ్ ఛాంపియన్‌షిప్‌లో స్వర్ణం గెలిచిన తొలి భారత మహిళ మనీషా భన్వాలా"
+     },
+     "x": {
+      "en": "Trap: the venue is Astana, the capital of Kazakhstan (not Almaty). This is the Senior Worlds — not the Asian Championships, where she had won gold earlier.",
+      "te": "ట్రాప్: వేదిక అస్తానా — కజకిస్థాన్ రాజధాని (అల్మాటీ కాదు). ఇది సీనియర్ ప్రపంచ ఛాంపియన్‌షిప్ — ఆమె ఇంతకుముందు స్వర్ణం గెలిచిన ఆసియా ఛాంపియన్‌షిప్ కాదు."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "days",
+   "items": [
+    {
+     "d": "2026-10-30",
+     "id": "ektadiwas",
+     "t": {
+      "en": "31 October — Rashtriya Ekta Diwas: 151st birth anniversary of Sardar Vallabhbhai Patel",
+      "te": "అక్టోబర్ 31 — రాష్ట్రీయ ఏక్తా దివస్: సర్దార్ వల్లభ్‌భాయ్ పటేల్ 151వ జయంతి"
+     },
+     "x": {
+      "en": "Patel, the first Home Minister and Deputy PM, led the integration of the princely states — hence 'Iron Man of India'. Trap: 31 October is his BIRTH anniversary (he died on 15 December 1950); 31 October is also Indira Gandhi's death anniversary.",
+      "te": "తొలి హోం మంత్రి, ఉప ప్రధాని అయిన పటేల్ సంస్థానాల విలీనానికి నాయకత్వం వహించారు — అందుకే 'ఉక్కు మనిషి'. ట్రాప్: అక్టోబర్ 31 ఆయన జయంతి (మరణం 1950 డిసెంబర్ 15); అక్టోబర్ 31 ఇందిరా గాంధీ వర్ధంతి కూడా."
+     }
+    },
+    {
+     "d": "2026-11-01",
+     "id": "wcricket50",
+     "t": {
+      "en": "50 years of Indian women's international cricket: first Test was on 31 October 1976 at Bengaluru",
+      "te": "భారత మహిళల అంతర్జాతీయ క్రికెట్‌కు 50 ఏళ్లు: తొలి టెస్ట్ 1976 అక్టోబర్ 31న బెంగళూరులో"
+     },
+     "x": {
+      "en": "Chronology question likely: WCAI 1973 → first Test 1976 → first ODI 1978 → first World Cup final 2005 (lost to Australia) → merger with BCCI 2006.",
+      "te": "కాలక్రమ ప్రశ్నకు అవకాశం: WCAI 1973 → తొలి టెస్ట్ 1976 → తొలి వన్డే 1978 → తొలి ప్రపంచకప్ ఫైనల్ 2005 (ఆస్ట్రేలియా చేతిలో ఓటమి) → BCCIలో విలీనం 2006."
+     }
+    }
+   ]
+  }
+ ]
+}
