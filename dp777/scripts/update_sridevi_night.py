@@ -6,10 +6,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 import json, re
 
-SOURCE = "https://dpbossx.net/sridevi-night-panel-chart.php"
+SOURCE = "https://dpboss.men/sridevi-night-panel-chart"
 OUT = Path("dp777/data/charts/sridevi.json")
 DAYS = ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
-DATE_RE = re.compile(r"^\d{1,2}/\d{1,2}/\d{4}\s+to\s+\d{1,2}/\d{1,2}/\d{4}$")
+DATE_RE = re.compile(r"^\d{1,2}/\d{1,2}/\d{2,4}\s+to\s+\d{1,2}/\d{1,2}/\d{2,4}$")
 
 class Parser(HTMLParser):
     def __init__(self):
@@ -27,6 +27,17 @@ class Parser(HTMLParser):
             self.cell = None
         elif tag == "tr" and self.row is not None:
             self.rows.append(self.row); self.row = None
+
+def normalize_date(date):
+    parts = re.split(r"\s+to\s+", date.strip(), flags=re.I)
+    normalized = []
+    for part in parts:
+        d, m, y = part.split("/")
+        year = int(y)
+        if year < 100:
+            year += 2000 if year < 70 else 1900
+        normalized.append(f"{int(d):02d}/{int(m):02d}/{year:04d}")
+    return " to ".join(normalized)
 
 def parse_cell(raw):
     text = " ".join(raw.split())
@@ -49,6 +60,7 @@ def main():
         if len(cells) < 8: continue
         date = cells[0].strip()
         if not DATE_RE.match(date): continue
+        date = normalize_date(date)
         row = {"date": date}
         for day, raw in zip(DAYS, cells[1:8]):
             op, jo, cl = parse_cell(raw)
