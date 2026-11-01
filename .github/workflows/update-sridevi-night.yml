@@ -1,5 +1,9 @@
 name: Update Sridevi Night historical archive
 on:
+  push:
+    paths:
+      - 'dp777/scripts/update_sridevi_night.py'
+      - '.github/workflows/update-sridevi-night.yml'
   workflow_dispatch:
   schedule:
     - cron: "*/15 * * * *"
