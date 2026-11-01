@@ -1213,6 +1213,17 @@ async function load(){
  }
  renderMarkets();renderChart();renderLatestResults();
 }
+// Load Radha Night's historical archive independently of live-result feeds.
+// This ensures its market card is marked ready before the user opens it.
+async function loadRadhaNightArchive(){
+ try{
+  const parsed=await fetchData('radha-night');
+  data={...data,updated_at:parsed.updated_at||data.updated_at,charts:{...(data.charts||{}),...parsed.charts}};
+  renderMarkets();
+  if(selected==='radha-night')renderChart();
+ }catch(e){console.warn('Radha Night archive load failed:',e);}
+}
+loadRadhaNightArchive();
 // Keep the large historical archive separate from the small live results feed.
 loadLiveChartFallbacks();
 setInterval(loadLiveChartFallbacks,30000);
