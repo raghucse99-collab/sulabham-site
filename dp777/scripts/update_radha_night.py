@@ -9,7 +9,7 @@ from pathlib import Path
 SOURCE = "https://sara777.com/radha-night/pana.html"
 OUT = Path("dp777/data/charts/radha-night.json")
 DAYS = ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
-DATE_RE = re.compile(r"^\\d{1,2}/\\d{1,2}/\\d{4}\\s+to\\s+\\d{1,2}/\\d{1,2}/\\d{4}$")
+DATE_RE = re.compile(r"^\d{1,2}/\d{1,2}/\d{4}\s+to\s+\d{1,2}/\d{1,2}/\d{4}$")
 
 class TableParser(HTMLParser):
     def __init__(self):
@@ -34,11 +34,11 @@ class TableParser(HTMLParser):
 
 def parse_cell(value):
     value = " ".join(value.split())
-    if not value or re.fullmatch(r"[★☆*\\s—-]+", value):
+    if not value or re.fullmatch(r"[★☆*\s—-]+", value):
         marker = value or ""
         return marker, marker, marker
     parts = value.split()
-    if len(parts) >= 3 and all(re.fullmatch(r"\\d{1,3}", x) for x in parts[:3]):
+    if len(parts) >= 3 and all(re.fullmatch(r"\d{1,3}", x) for x in parts[:3]):
         return tuple(x.zfill(3) if i != 1 else x.zfill(2) for i, x in enumerate(parts[:3]))
     # Do not guess or split a malformed/unreadable source cell.
     return value, "", ""
@@ -77,7 +77,7 @@ def main():
         }
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\\n", encoding="utf-8")
+    OUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     print(f"Saved {len(rows)} Radha Night weekly rows to {OUT}")
 
 if __name__ == "__main__":
