@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Refresh the Radha Night weekly archive from its public Pana chart page."""
+# This updater is also invoked by the repository workflow for the first import.
 from html.parser import HTMLParser
 from urllib.request import Request, urlopen
 from datetime import datetime, timezone
