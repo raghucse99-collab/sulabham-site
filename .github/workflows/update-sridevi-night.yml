@@ -1,0 +1,35 @@
+name: Update Sridevi Night historical archive
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 2 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: sridevi-night-archive
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Import and merge historical records
+        run: python dp777/scripts/update_sridevi_night.py
+      - name: Commit and push archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dp777/data/charts/sridevi.json
+          if git diff --cached --quiet; then
+            echo "No archive changes"
+            exit 0
+          fi
+          git commit -m "Restore missing Sridevi Night historical records"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
