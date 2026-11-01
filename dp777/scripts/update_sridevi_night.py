@@ -78,9 +78,9 @@ def main():
         tp = TextParser()
         tp.feed(html)
         plain = " ".join(" ".join(tp.parts).split())
-        date_token = re.compile(r"\\b\\d{1,2}/\\d{1,2}/\\d{2,4}\\s+to\\s+\\d{1,2}/\\d{1,2}/\\d{2,4}\\b", re.I)
+        date_token = re.compile(r"\b\d{1,2}/\d{1,2}/\d{2,4}\s+to\s+\d{1,2}/\d{1,2}/\d{2,4}\b", re.I)
         matches = list(date_token.finditer(plain))
-        result_token = re.compile(r"(?<![\\d])(?:\\d{3}-\\d{2}-\\d{3}|\\*\\*|--)(?![\\d])")
+        result_token = re.compile(r"(?<![\d])(?:\d{3}-\d{2}-\d{3}|\*\*|--)(?![\d])")
         for i, match in enumerate(matches):
             date = normalize_date(match.group(0))
             end = matches[i + 1].start() if i + 1 < len(matches) else len(plain)
@@ -90,7 +90,7 @@ def main():
                 continue
             row = {"date": date}
             for day, token in zip(DAYS, tokens[:7]):
-                if re.fullmatch(r"\\d{3}-\\d{2}-\\d{3}", token):
+                if re.fullmatch(r"\d{3}-\d{2}-\d{3}", token):
                     op, jo, cl = token.split("-")
                 else:
                     op, jo, cl = ("***", "**", "***")
