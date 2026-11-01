@@ -618,6 +618,37 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 @media(prefers-reduced-motion:reduce){
  *,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}
 }
+
+/* ===== Quiz poster + separate Mock Tests section ===== */
+@keyframes stw{0%,100%{transform:scale(1) rotate(0)}50%{transform:scale(1.18) rotate(-12deg)}}
+@keyframes pglow{0%,100%{box-shadow:0 10px 26px rgba(179,50,43,.28)}50%{box-shadow:0 10px 34px rgba(227,164,0,.55)}}
+.qposter{position:relative;display:block;text-decoration:none;color:#fff;border-radius:20px;padding:18px 18px 16px;margin:0 0 14px;overflow:hidden;
+ background:radial-gradient(circle at 92% 8%,rgba(255,212,92,.5),transparent 42%),linear-gradient(135deg,#7a1f3d,#b3322b 55%,#e36a1e);animation:pglow 3s ease-in-out infinite}
+.qposter::after{content:"";position:absolute;right:-30px;bottom:-40px;width:170px;height:170px;border-radius:50%;border:16px dashed rgba(255,255,255,.12)}
+.qp-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.newstar{display:inline-flex;align-items:center;gap:4px;background:#ffd45c;color:#1b1500;font-weight:800;font-size:.78rem;border-radius:999px;padding:3px 10px 3px 6px;letter-spacing:.04em;line-height:1.3;white-space:nowrap;vertical-align:2px}
+.newstar i{font-style:normal;display:inline-block;animation:stw 1.6s ease-in-out infinite}
+.qp-k{font-weight:800;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;opacity:.95}
+.qp-h{display:block;font-family:var(--f-display);font-size:1.55rem;line-height:1.15;font-weight:800;margin:2px 0 6px;position:relative;z-index:1}
+.qp-chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px;position:relative;z-index:1}
+.qp-chips span{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:2px 10px;font-size:.84rem;font-weight:600}
+.qp-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;position:relative;z-index:1}
+.qp-btn{background:#ffd45c;color:#1b1500;font-weight:800;border-radius:999px;padding:9px 18px;min-height:44px;display:inline-flex;align-items:center}
+.qp-also{font-size:.86rem;font-weight:600;opacity:.95}
+.qp-also a{color:#fff}
+#mocks{padding-block:28px 10px}
+.mtl{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.mtc{display:flex;flex-direction:column;gap:4px;text-decoration:none;color:var(--ink);background:var(--card);border:1.5px solid var(--line);border-radius:16px;padding:14px 14px 12px;min-height:44px}
+.mtc:hover{border-color:var(--pasupu)}
+.mtc.isnew{border-color:var(--pasupu);background:linear-gradient(180deg,var(--pasupu-soft),var(--card) 70%)}
+.mtc .mtk{font-size:.75rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.mtc b{font-family:var(--f-display);font-size:1.08rem;line-height:1.25}
+.mtc small{color:var(--muted);font-size:.86rem}
+.mtc .mtgo{margin-top:auto;padding-top:6px;font-weight:800;font-size:.88rem;color:var(--kumkum)}
+.mtc .free{background:var(--leaf);color:#fff;border-radius:999px;padding:1px 8px;font-size:.7rem}
+.mtc .paid{background:var(--ink);color:var(--paper);border-radius:999px;padding:1px 8px;font-size:.7rem}
+@media(max-width:520px){.qp-h{font-size:1.3rem}.mtl{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.qposter,.newstar i{animation:none}}
 </style>
 
 </head>
@@ -626,6 +657,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
   <div class="wrap">
     <a class="brand" href="#home"><img class="blogo" src="sulabham-icon.svg" alt="" width="34" height="34"><span>Sula<b>bham</b></span></a>
     <div class="links">
+      <a href="#mocks" data-te="⭐ మాక్ టెస్ట్‌లు">⭐ Mock Tests</a>
       <a href="#digest" data-te="డైజెస్ట్">Digest</a>
       <a href="#jobs">Jobs</a>
       <a href="#sepQuiz">Tests</a>
@@ -648,6 +680,12 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 
 <header class="hero" id="home">
   <div class="wrap">
+    <a class="qposter" id="qPoster" href="mock.html?m=CA-2026-10">
+      <span class="qp-top"><span class="newstar"><i>⭐</i>NEW</span><span class="qp-k" data-te="📣 క్విజ్ పోటీ జరుగుతోంది · ఉచితం">📣 Quiz contest is on · FREE</span></span>
+      <span class="qp-h" id="qpH" data-te="అక్టోబర్ 2026 కరెంట్ అఫైర్స్ గ్రాండ్ క్విజ్">October 2026 Current Affairs Grand Quiz</span>
+      <span class="qp-chips" id="qpC"><span data-te="50 ప్రశ్నలు">50 questions</span><span data-te="50 నిమిషాలు">50 minutes</span><span data-te="🏆 ర్యాంక్ + లీడర్‌బోర్డ్">🏆 Rank + leaderboard</span><span>తెలుగు + English</span></span>
+      <span class="qp-row"><span class="qp-btn" data-te="ఇప్పుడే క్విజ్ రాయండి →">Take the quiz now →</span><span class="qp-also" data-te="అన్ని మాక్ టెస్ట్‌లు కింద ⬇">All mock tests below ⬇</span></span>
+    </a>
     <div class="launch"><a class="ln-a" href="courses.html"><span class="ln-r">🚀</span><span><b data-te="కోర్సులు ప్రారంభమయ్యాయి!">Courses launched!</b><small data-te="గ్రూప్ 1 &amp; 2 ప్రిలిమ్స్ ₹499 · ASO పేపర్ II ₹299 — పూర్తి వివరాలు, ఎలా చేరాలి →">Group 1 &amp; 2 Prelims ₹499 · ASO Paper II ₹299 — full details &amp; how to join →</small></span></a><button type="button" class="ln-s" data-share data-url="courses.html" data-text-en="🚀 Sulabham courses launched — APPSC Group 1 &amp; 2 Prelims Pack ₹499 · ASO Paper II ₹299. Try the free part first:" data-text-te="🚀 సులభం కోర్సులు ప్రారంభం — APPSC గ్రూప్ 1 &amp; 2 ప్రిలిమ్స్ ప్యాక్ ₹499 · ASO పేపర్ II ₹299. ముందు ఉచిత భాగం చూడండి:" data-img="cards/launch/launch-en.png"><span data-te="📤 పంచుకోండి">📤 Share</span></button></div>
     <div class="offh"><b data-te="📚 మా కోర్సులు">📚 Our courses</b><span data-te="ప్రతి కోర్సులో ఉచిత భాగం ఉంది — ముందు చూసి, తర్వాత కొనండి">Every course has a free part — try first, then buy</span></div>
     <div class="offers">
@@ -744,6 +782,17 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
     </details>
   </div>
 </header>
+
+<section id="mocks">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow" data-te="అందరి కోసం · ఒకేచోట">For everyone · all in one place</div>
+      <h2 data-te="📝 మాక్ టెస్ట్‌లు">📝 Mock Tests</h2>
+      <p data-te="సులభంలోని అన్ని మాక్ టెస్ట్‌లు ఇక్కడే. ⭐ NEW అంటే ఈ వారం వచ్చిన కొత్త టెస్ట్. అసలు పరీక్ష తరహాలో, సమయంతో రాసి మీ స్కోర్ చూసుకోండి.">Every mock test on Sulabham, in one list. ⭐ NEW means it came out this week. Write it like the real exam, with the timer, and see your score.</p>
+    </div>
+    <div class="mtl" id="mockList"></div>
+  </div>
+</section>
 
 <section id="jobs">
   <div class="wrap">
@@ -1729,6 +1778,45 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
   function redraw(){drawNew();drawToday();if(!res.hidden)show()}
   var old=window.SUL_relang;window.SUL_relang=function(){if(old)old();redraw()};
   drawNew();
+})();
+</script>
+<script>
+/* Quiz poster + Mock Tests list. New tests in mocks/index.json appear automatically; ⭐ NEW = released in the last 7 days. */
+(function(){
+  var TE=function(){return document.documentElement.lang==="te"},L=function(o){return o?(typeof o==="string"?o:(TE()?(o.te||o.en):o.en)):""};
+  var esc=function(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")};
+  var IX=[],CAIX=[];
+  function isNew(d){if(!d)return false;var t=new Date(d+"T00:00:00+05:30").getTime();return Date.now()-t<7*864e5&&Date.now()-t>-864e5}
+  var STAR='<span class="newstar"><i>⭐</i>NEW</span>';
+  function card(o){return'<a class="mtc'+(o.nw?' isnew':'')+'" href="'+esc(o.h)+'"><span class="mtk">'+(o.nw?STAR:'')+esc(o.k)+(o.free?' <span class="free">'+(TE()?"ఉచితం":"FREE")+'</span>':'')+(o.price?' <span class="paid">'+esc(o.price)+'</span>':'')+'</span><b>'+esc(o.t)+'</b><small>'+esc(o.s)+'</small><span class="mtgo">'+(TE()?"టెస్ట్ రాయండి →":"Take the test →")+'</span></a>'}
+  function draw(){var te=TE(),out=[];
+    IX.forEach(function(m){var ca=m.kind==="ca";out.push({nw:isNew(m.date),d:m.date,h:"mock.html?m="+encodeURIComponent(m.id),free:1,
+      k:ca?(te?"కరెంట్ అఫైర్స్ క్విజ్":"Current affairs quiz"):(te?"గ్రూప్ 2 ప్రిలిమ్స్":"Group 2 Prelims"),t:L(m.title),
+      s:(m.q||150)+(te?" ప్రశ్నలు · ":" questions · ")+(m.mins||150)+(te?" నిమిషాలు":" min")+(ca?"":(te?" · −⅓ నెగెటివ్":" · −⅓ negative"))+(te?" · 🏆 లీడర్‌బోర్డ్":" · 🏆 leaderboard")})});
+    var c=CAIX[0];
+    out.push({nw:c?isNew(c.id+"-31")||isNew(nextFirst(c.id)):false,d:c?nextFirst(c.id):"2026-10-01",h:"ca.html"+(c?"?m="+c.id:""),price:"₹29",
+      k:te?"నెలవారీ కరెంట్ అఫైర్స్":"Monthly current affairs",t:te?"నెలవారీ మాక్ టెస్ట్‌లు"+(c?" — "+L(c.label)+" వరకు":""):"Monthly mock tests"+(c?" — up to "+L(c.label):""),
+      s:te?CAIX.length+" నెలలు · ఒక్కో నెల ~50 ప్రశ్నలు · మొదటి 10 ప్రశ్నలు ఉచితం":CAIX.length+" months · ~50 questions each · first 10 questions free"});
+    out.push({d:"2026-10-17",h:"prelims.html",price:"₹499",k:te?"గ్రూప్ 1 & 2 ప్రిలిమ్స్ ప్యాక్":"Group 1 & 2 Prelims Pack",t:te?"7 పరీక్షా తరహా మాక్ టెస్ట్‌లు":"7 exam-pattern mock tests",s:te?"భూగోళం + చరిత్ర · 50 ప్రశ్నలు ఒక్కొక్కటి · మాక్ టెస్ట్ 1 ఉచితం":"Geography + History · 50 questions each · Mock Test 1 free"});
+    out.push({d:"2026-10-14",h:"Geography_MockTests.html",free:1,k:te?"భూగోళం":"Geography",t:te?"జాగ్రఫీ మాక్ టెస్ట్‌లు 1–3":"Geography Mock Tests 1–3",s:te?"గ్రూప్ 1 & 2 పరీక్ష తరహా · ఆన్‌లైన్, జవాబులతో":"Group 1 & 2 exam pattern · online, with answers"});
+    out.push({d:"2026-10-22",h:"aso.html",price:"₹299",k:te?"ASO పేపర్ II":"ASO Paper II",t:te?"150 ప్రశ్నల పూర్తి మాక్":"150-question full mock",s:te?"29 ఏప్రిల్ 2025 పేపర్ తరహా · ఇంగ్లీష్ మీడియం":"Built on the 29 Apr 2025 paper · English medium"});
+    out.forEach(function(o){if(o.nw===undefined)o.nw=isNew(o.d)});
+    out.sort(function(a,b){return(b.nw-a.nw)||(b.d>a.d?1:b.d<a.d?-1:0)});
+    var el=document.getElementById("mockList");if(el)el.innerHTML=out.map(card).join("");
+    /* poster = newest current-affairs quiz, else newest mock */
+    var p=IX.filter(function(m){return m.kind==="ca"})[0]||IX[0],P=document.getElementById("qPoster");
+    if(p&&P){P.href="mock.html?m="+encodeURIComponent(p.id);var ca=p.kind==="ca";
+      document.getElementById("qpH").innerHTML=esc(L(p.title));
+      document.getElementById("qpC").innerHTML=[(p.q||150)+(te?" ప్రశ్నలు":" questions"),(p.mins||150)+(te?" నిమిషాలు":" minutes"),te?"🏆 ర్యాంక్ + లీడర్‌బోర్డ్":"🏆 Rank + leaderboard","తెలుగు + English"].map(function(x){return"<span>"+esc(x)+"</span>"}).join("");
+      P.querySelector(".newstar").style.display=isNew(p.date)?"":"none";
+      var g=IX.filter(function(m){return m.kind!=="ca"})[0],al=P.querySelector(".qp-also");
+      if(g&&isNew(g.date)&&ca)al.innerHTML="⭐ "+esc(L(g.title))+(te?" కూడా కొత్తగా వచ్చింది · కింద చూడండి ⬇":" is also new · see below ⬇")}}
+  function nextFirst(id){var y=+id.slice(0,4),m=+id.slice(5,7)+1;if(m>12){m=1;y++}return y+"-"+String(m).padStart(2,"0")+"-01"}
+  function gj(u){return fetch(u,{cache:"no-cache"}).then(function(r){return r.ok?r.json():[]}).catch(function(){return[]})}
+  draw();
+  Promise.all([gj("mocks/index.json"),gj("ca/index.json")]).then(function(r){IX=r[0]||[];CAIX=r[1]||[];
+    IX.sort(function(a,b){return b.date>a.date?1:b.date<a.date?-1:0});draw()});
+  new MutationObserver(draw).observe(document.documentElement,{attributes:true,attributeFilter:["lang"]});
 })();
 </script>
 <script src="share.js"></script>
