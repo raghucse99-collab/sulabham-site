@@ -38,12 +38,6 @@
       "source_label": "MILAN NIGHT",
       "result_changed_at": "2026-11-02T16:00:06+00:00"
     },
-    "kalyan-night": {
-      "name": "Kalyan Night",
-      "result": "258-54-680",
-      "source": "https://dpbossss.com/",
-      "source_label": "KALYAN NIGHT"
-    },
     "main-bazar": {
       "name": "Main Bazar",
       "result": "334-03-256",
@@ -65,7 +59,7 @@
       "result_changed_at": "2026-11-02T16:00:06+00:00"
     }
   },
-  "live_fetched_at": "2026-11-02T16:00:06+00:00",
+  "live_fetched_at": "2026-11-02T16:10:55+00:00",
   "live_source": "https://dpbossss.com/",
   "live_status": "partial",
   "charts": {
