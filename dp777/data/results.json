@@ -5,9 +5,10 @@
   "latest_results": {
     "time-bazar": {
       "name": "Time Bazar",
-      "result": "235-06-457",
+      "result": "258-5",
       "source": "https://dpbossss.com/",
-      "source_label": "TIME BAZAR"
+      "source_label": "TIME BAZAR",
+      "result_changed_at": "2026-11-02T08:48:39+00:00"
     },
     "milan-day": {
       "name": "Milan Day",
@@ -66,7 +67,7 @@
       "result_changed_at": "2026-11-01T15:08:02+00:00"
     }
   },
-  "live_fetched_at": "2026-11-02T07:46:38+00:00",
+  "live_fetched_at": "2026-11-02T08:48:39+00:00",
   "live_source": "https://dpbossss.com/",
   "live_status": "ok",
   "charts": {
