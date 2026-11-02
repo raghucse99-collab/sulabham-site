@@ -931,7 +931,7 @@ function matchesChartSearch(row,query){
  if(/^\d{1,3}$/.test(q))return ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].some(d=>String(row[d+' Jodi']??'').trim()===q);
  return JSON.stringify(row).toLowerCase().includes(q);
 }
-function updateCurrentChartLabel(){const market=markets.find(m=>m.id===selected);const label=$('currentChartLabel');if(!label||!market)return;const type=({jodi:'Jodi Chart',panel:'Panel Chart',guess:'Guess Chart'})[view]||'Jodi Chart';label.innerHTML='Currently Viewing: <strong>'+esc(market.name)+' – '+type+'</strong>';}
+function updateCurrentChartLabel(){const market=markets.find(m=>m.id===selected);const label=$('currentChartLabel');if(!label||!market)return;const type=({jodi:'Jodi Chart',panel:'Panel Chart',guess:'Guess Chart'})[view]||'Jodi Chart';label.textContent=market.name;}
 function renderChart(){
  const stats=$('targetStats');
  if(dataLoadFailed&&!data.charts?.[chartKeyFor(selected)]){
