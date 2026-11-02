@@ -1,0 +1,1918 @@
+{
+ "date": "2026-11-02",
+ "day": {
+  "en": "Monday, 2 November 2026",
+  "te": "సోమవారం, 2 నవంబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "journo",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "shield",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "tag": {
+    "en": "UN Day · 2 November",
+    "te": "ఐరాస దినోత్సవం · 2 నవంబర్"
+   },
+   "title": {
+    "en": "International Day to End Impunity for Crimes against Journalists",
+    "te": "జర్నలిస్టులపై నేరాలకు శిక్ష తప్పించుకోవడాన్ని అంతం చేసే అంతర్జాతీయ దినోత్సవం"
+   },
+   "line": {
+    "en": "Killers of journalists go unpunished in about 9 out of 10 cases — this UN day asks countries to end that 'impunity'.",
+    "te": "జర్నలిస్టుల హత్యల్లో దాదాపు 10లో 9 కేసుల్లో నేరస్తులకు శిక్ష పడటం లేదు — ఈ 'శిక్ష లేని స్థితి'ని అంతం చేయాలని ఈ ఐరాస దినోత్సవం కోరుతుంది."
+   },
+   "easy": [
+    {
+     "en": "'Impunity' means escaping punishment. When a journalist is killed and nobody is punished, other reporters become afraid and stop reporting the truth. So the UN General Assembly, by resolution A/RES/68/163, made 2 November the International Day to End Impunity for Crimes against Journalists. The date remembers two French journalists who were killed in Mali on 2 November 2013.",
+     "te": "'ఇంప్యూనిటీ' అంటే శిక్ష నుంచి తప్పించుకోవడం. ఒక జర్నలిస్టు హత్యకు గురై ఎవరికీ శిక్ష పడకపోతే, మిగతా విలేకరులు భయపడి నిజం రాయడం మానేస్తారు. అందుకే ఐరాస సర్వసభ్య సభ A/RES/68/163 తీర్మానం ద్వారా నవంబర్ 2ను ఈ అంతర్జాతీయ దినోత్సవంగా ప్రకటించింది. 2013 నవంబర్ 2న మాలిలో హత్యకు గురైన ఇద్దరు ఫ్రెంచ్ జర్నలిస్టుల జ్ఞాపకార్థం ఈ తేదీ."
+    },
+    {
+     "en": "UNESCO (the UN agency for education, science and culture, which also works for press freedom) leads the day. UNESCO counts more than 1,700 journalists killed since 1993; in about 9 out of 10 cases the killers are not punished. 189 journalists were killed in 2024–2025, 20% more than the previous period. The 2026 focus: how new technologies and weapons are changing the dangers journalists face, especially in conflict zones.",
+     "te": "యునెస్కో (విద్య, విజ్ఞానం, సంస్కృతి కోసం ఐరాస సంస్థ; పత్రికా స్వేచ్ఛ కోసం కూడా పనిచేస్తుంది) ఈ దినోత్సవాన్ని నిర్వహిస్తుంది. 1993 నుంచి 1,700 మందికి పైగా జర్నలిస్టులు హత్యకు గురయ్యారని, దాదాపు 10లో 9 కేసుల్లో నేరస్తులకు శిక్ష పడలేదని యునెస్కో లెక్క. 2024–2025లో 189 మంది జర్నలిస్టులు హతులయ్యారు — అంతకుముందు కాలం కంటే 20% ఎక్కువ. 2026 దృష్టి: కొత్త సాంకేతికతలు, ఆయుధాలు — ముఖ్యంగా యుద్ధ ప్రాంతాల్లో — జర్నలిస్టులకు ముప్పును ఎలా మారుస్తున్నాయి."
+    },
+    {
+     "en": "India link: the Constitution does not use the words 'freedom of the press', but the Supreme Court reads it inside Article 19(1)(a) — freedom of speech and expression — subject to reasonable restrictions under Article 19(2).",
+     "te": "భారత్ లింక్: రాజ్యాంగంలో 'పత్రికా స్వేచ్ఛ' అనే మాట నేరుగా లేదు; కానీ ఆర్టికల్ 19(1)(a) — వాక్ స్వాతంత్ర్యం, భావ ప్రకటన స్వేచ్ఛ — లోనే అది ఉందని సుప్రీంకోర్టు చెప్పింది; ఆర్టికల్ 19(2) కింద సహేతుక పరిమితులు వర్తిస్తాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Date",
+      "te": "తేదీ"
+     },
+     {
+      "en": "2 November every year",
+      "te": "ప్రతి సంవత్సరం నవంబర్ 2"
+     }
+    ],
+    [
+     {
+      "en": "Declared by",
+      "te": "ప్రకటించింది"
+     },
+     {
+      "en": "UN General Assembly, resolution A/RES/68/163",
+      "te": "ఐరాస సర్వసభ్య సభ, తీర్మానం A/RES/68/163"
+     }
+    ],
+    [
+     {
+      "en": "Why 2 Nov",
+      "te": "నవంబర్ 2 ఎందుకు"
+     },
+     {
+      "en": "Two French journalists killed in Mali, 2 Nov 2013",
+      "te": "2013 నవంబర్ 2న మాలిలో ఇద్దరు ఫ్రెంచ్ జర్నలిస్టుల హత్య"
+     }
+    ],
+    [
+     {
+      "en": "Lead UN agency",
+      "te": "ప్రధాన ఐరాస సంస్థ"
+     },
+     {
+      "en": "UNESCO",
+      "te": "యునెస్కో"
+     }
+    ],
+    [
+     {
+      "en": "Killed since 1993",
+      "te": "1993 నుంచి హతులు"
+     },
+     {
+      "en": "1,700+ journalists; ~9 in 10 cases unpunished",
+      "te": "1,700+ జర్నలిస్టులు; దాదాపు 10లో 9 కేసుల్లో శిక్ష లేదు"
+     }
+    ],
+    [
+     {
+      "en": "2024–2025",
+      "te": "2024–2025"
+     },
+     {
+      "en": "189 killed (20% more than previous period)",
+      "te": "189 మంది హతులు (ముందటి కాలం కంటే 20% ఎక్కువ)"
+     }
+    ],
+    [
+     {
+      "en": "2026 focus",
+      "te": "2026 దృష్టి"
+     },
+     {
+      "en": "New technologies & weapons changing threats, esp. in conflict zones",
+      "te": "కొత్త సాంకేతికతలు, ఆయుధాలు మారుస్తున్న ముప్పులు — ముఖ్యంగా యుద్ధ ప్రాంతాల్లో"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Press freedom",
+     "te": "లింక్ చెయిన్ · పత్రికా స్వేచ్ఛ"
+    },
+    "l": [
+     {
+      "en": "3 May = World Press Freedom Day (UNESCO) — don't confuse with 2 November",
+      "te": "మే 3 = ప్రపంచ పత్రికా స్వేచ్ఛా దినోత్సవం (యునెస్కో) — నవంబర్ 2తో కలపకండి"
+     },
+     {
+      "en": "16 November = National Press Day in India (Press Council of India began work on 16 Nov 1966)",
+      "te": "నవంబర్ 16 = భారత జాతీయ పత్రికా దినోత్సవం (1966 నవంబర్ 16న ప్రెస్ కౌన్సిల్ ఆఫ్ ఇండియా పని ప్రారంభం)"
+     },
+     {
+      "en": "Press freedom in India = part of Article 19(1)(a); limits under Article 19(2)",
+      "te": "భారత్‌లో పత్రికా స్వేచ్ఛ = ఆర్టికల్ 19(1)(a)లో భాగం; పరిమితులు ఆర్టికల్ 19(2) కింద"
+     },
+     {
+      "en": "Today's article on the DPDP Act challenge is also about journalists and information",
+      "te": "ఈ రోజు DPDP చట్టం సవాలు వ్యాసం కూడా జర్నలిస్టులు, సమాచారం గురించే"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Two press days get mixed up: 2 November (end impunity, UN) vs 3 May (World Press Freedom Day). And India's National Press Day is 16 November.",
+    "te": "రెండు పత్రికా దినాలు కలిసిపోతాయి: నవంబర్ 2 (శిక్ష లేని స్థితి అంతం, ఐరాస) vs మే 3 (ప్రపంచ పత్రికా స్వేచ్ఛా దినం). భారత జాతీయ పత్రికా దినోత్సవం నవంబర్ 16."
+   },
+   "tip": {
+    "en": "Memory: '2-11 = 2 reporters killed, 2013' → 2 November.",
+    "te": "జ్ఞాపకం: '2-11 = ఇద్దరు విలేకరుల హత్య, 2013' → నవంబర్ 2."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements:",
+     "te": "కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. 2 November was chosen because two French journalists were killed in Mali on that date in 2013.",
+      "te": "I. 2013లో ఆ తేదీన మాలిలో ఇద్దరు ఫ్రెంచ్ జర్నలిస్టులు హత్యకు గురైనందున నవంబర్ 2ను ఎంచుకున్నారు."
+     },
+     {
+      "en": "II. World Press Freedom Day is also observed on 2 November.",
+      "te": "II. ప్రపంచ పత్రికా స్వేచ్ఛా దినోత్సవం కూడా నవంబర్ 2నే."
+     },
+     {
+      "en": "III. In India, freedom of the press is read into Article 19(1)(a).",
+      "te": "III. భారత్‌లో పత్రికా స్వేచ్ఛ ఆర్టికల్ 19(1)(a)లో భాగంగా పరిగణిస్తారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II is wrong: World Press Freedom Day is 3 May.",
+     "te": "II తప్పు: ప్రపంచ పత్రికా స్వేచ్ఛా దినోత్సవం మే 3."
+    }
+   },
+   "pics": [
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "The day in one picture",
+      "te": "ఒకే చిత్రంలో ఈ దినోత్సవం"
+     },
+     "c": {
+      "en": "End impunity · 2 Nov",
+      "te": "శిక్ష లేని స్థితి అంతం · నవం 2"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Who",
+        "te": "ఎవరు"
+       },
+       "l": [
+        {
+         "en": "UNGA A/RES/68/163",
+         "te": "ఐరాస సభ A/RES/68/163"
+        },
+        {
+         "en": "Led by UNESCO",
+         "te": "యునెస్కో నిర్వహణ"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Why 2 Nov",
+        "te": "నవంబర్ 2 ఎందుకు"
+       },
+       "l": [
+        {
+         "en": "2 French journalists",
+         "te": "ఇద్దరు ఫ్రెంచ్ జర్నలిస్టులు"
+        },
+        {
+         "en": "Mali, 2013",
+         "te": "మాలి, 2013"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Numbers",
+        "te": "సంఖ్యలు"
+       },
+       "l": [
+        {
+         "en": "1,700+ killed since 1993",
+         "te": "1993 నుంచి 1,700+ హతులు"
+        },
+        {
+         "en": "~9 in 10 unpunished",
+         "te": "~10లో 9కి శిక్ష లేదు"
+        },
+        {
+         "en": "189 in 2024–25",
+         "te": "2024–25లో 189"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "2026 focus",
+        "te": "2026 దృష్టి"
+       },
+       "l": [
+        {
+         "en": "New tech & weapons",
+         "te": "కొత్త సాంకేతికత, ఆయుధాలు"
+        },
+        {
+         "en": "Conflict zones",
+         "te": "యుద్ధ ప్రాంతాలు"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "India",
+        "te": "భారత్"
+       },
+       "l": [
+        {
+         "en": "Art 19(1)(a)",
+         "te": "ఆర్టికల్ 19(1)(a)"
+        },
+        {
+         "en": "Press Day 16 Nov",
+         "te": "పత్రికా దినం నవం 16"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "United Nations — International Day to End Impunity for Crimes Against Journalists",
+     "u": "https://www.un.org/en/observances/end-impunity-crimes-against-journalists"
+    },
+    {
+     "t": "Indico.UN — IDEI 2026 event page (UNESCO), 2 Nov 2026",
+     "u": "https://indico.un.org/event/1024996/"
+    }
+   ]
+  },
+  {
+   "id": "shaw",
+   "kind": "day",
+   "color": "#2f6b2f",
+   "icon": "sirsyed",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "tag": {
+    "en": "Death anniversary · 2 Nov 1950",
+    "te": "వర్ధంతి · 2 నవంబర్ 1950"
+   },
+   "title": {
+    "en": "George Bernard Shaw — playwright, Nobel 1925",
+    "te": "జార్జ్ బెర్నార్డ్ షా — నాటక రచయిత, నోబెల్ 1925"
+   },
+   "line": {
+    "en": "Author of 'Pygmalion' and 'Arms and the Man' — a standard 'who wrote what' and Nobel question.",
+    "te": "'పిగ్మేలియన్', 'ఆర్మ్స్ అండ్ ది మ్యాన్' రచయిత — 'ఎవరు ఏమి రాశారు', నోబెల్ ప్రశ్నల్లో తరచుగా వస్తారు."
+   },
+   "easy": [
+    {
+     "en": "George Bernard Shaw was born in Dublin, Ireland, on 26 July 1856 and died at Ayot St. Lawrence in England on 2 November 1950. He moved to London in 1876 and first worked as a music and art critic. Then he started writing plays.",
+     "te": "జార్జ్ బెర్నార్డ్ షా 1856 జూలై 26న ఐర్లాండ్‌లోని డబ్లిన్‌లో జన్మించారు; 1950 నవంబర్ 2న ఇంగ్లాండ్‌లోని అయట్ సెయింట్ లారెన్స్‌లో మరణించారు. 1876లో లండన్ వెళ్లి మొదట సంగీత, కళా విమర్శకుడిగా పనిచేశారు. తర్వాత నాటకాలు రాయడం ప్రారంభించారు."
+    },
+    {
+     "en": "His plays laughed at society's problems — money, class, war. His first play was 'Widowers' Houses' (1892). Famous plays: 'Arms and the Man' (1894), 'Man and Superman' (1905), 'Pygmalion' (1913) — a poor flower girl is taught to speak like a lady — and 'Saint Joan' (1923). He won the Nobel Prize in Literature in 1925. He was an active member of the socialist Fabian Society.",
+     "te": "ఆయన నాటకాలు సమాజ సమస్యలపై — డబ్బు, వర్గం, యుద్ధం — వ్యంగ్యంగా రాసినవి. తొలి నాటకం 'విడోయర్స్ హౌసెస్' (1892). ప్రసిద్ధ నాటకాలు: 'ఆర్మ్స్ అండ్ ది మ్యాన్' (1894), 'మ్యాన్ అండ్ సూపర్‌మ్యాన్' (1905), 'పిగ్మేలియన్' (1913) — ఒక పేద పూలమ్మే అమ్మాయికి సంపన్న మహిళలా మాట్లాడటం నేర్పే కథ — 'సెయింట్ జోన్' (1923). 1925లో సాహిత్యంలో నోబెల్ బహుమతి పొందారు. సోషలిస్ట్ ఫేబియన్ సొసైటీలో చురుకైన సభ్యుడు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "26 July 1856, Dublin (Ireland)",
+      "te": "26 జూలై 1856, డబ్లిన్ (ఐర్లాండ్)"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "2 Nov 1950, Ayot St. Lawrence (England)",
+      "te": "2 నవంబర్ 1950, అయట్ సెయింట్ లారెన్స్ (ఇంగ్లాండ్)"
+     }
+    ],
+    [
+     {
+      "en": "Nobel Prize",
+      "te": "నోబెల్ బహుమతి"
+     },
+     {
+      "en": "Literature, 1925",
+      "te": "సాహిత్యం, 1925"
+     }
+    ],
+    [
+     {
+      "en": "Famous plays",
+      "te": "ప్రసిద్ధ నాటకాలు"
+     },
+     {
+      "en": "Arms and the Man (1894), Man and Superman (1905), Pygmalion (1913), Saint Joan (1923)",
+      "te": "ఆర్మ్స్ అండ్ ది మ్యాన్ (1894), మ్యాన్ అండ్ సూపర్‌మ్యాన్ (1905), పిగ్మేలియన్ (1913), సెయింట్ జోన్ (1923)"
+     }
+    ],
+    [
+     {
+      "en": "First play",
+      "te": "తొలి నాటకం"
+     },
+     {
+      "en": "Widowers' Houses (1892)",
+      "te": "విడోయర్స్ హౌసెస్ (1892)"
+     }
+    ],
+    [
+     {
+      "en": "Ideas",
+      "te": "భావజాలం"
+     },
+     {
+      "en": "Socialist; Fabian Society member",
+      "te": "సోషలిస్ట్; ఫేబియన్ సొసైటీ సభ్యుడు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Nobel in Literature",
+     "te": "లింక్ చెయిన్ · సాహిత్యంలో నోబెల్"
+    },
+    "l": [
+     {
+      "en": "Rabindranath Tagore — Nobel Literature 1913 (Gitanjali) — first Asian Nobel laureate",
+      "te": "రవీంద్రనాథ్ ఠాగూర్ — సాహిత్య నోబెల్ 1913 (గీతాంజలి) — తొలి ఆసియా నోబెల్ గ్రహీత"
+     },
+     {
+      "en": "Shaw — Nobel Literature 1925 (12 years after Tagore)",
+      "te": "షా — సాహిత్య నోబెల్ 1925 (ఠాగూర్ తర్వాత 12 ఏళ్లకు)"
+     },
+     {
+      "en": "Fabian socialism (slow, peaceful reform) influenced Jawaharlal Nehru's thinking",
+      "te": "ఫేబియన్ సోషలిజం (నెమ్మదిగా, శాంతియుత సంస్కరణ) జవహర్‌లాల్ నెహ్రూ ఆలోచనలను ప్రభావితం చేసింది"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Shaw was Irish-born, not English-born; and 'Pygmalion' is Shaw's, while 'Hamlet' is Shakespeare's — examiners swap authors.",
+    "te": "షా ఐర్లాండ్‌లో పుట్టారు, ఇంగ్లాండ్‌లో కాదు; 'పిగ్మేలియన్' షాది, 'హామ్లెట్' షేక్స్‌పియర్‌ది — రచయితలను మార్చి అడుగుతారు."
+   },
+   "mcq": {
+    "q": {
+     "en": "Which of the following pairs are correctly matched?",
+     "te": "కింది జతల్లో ఏవి సరిగ్గా జతపరచబడ్డాయి?"
+    },
+    "st": [
+     {
+      "en": "I. Pygmalion — George Bernard Shaw",
+      "te": "I. పిగ్మేలియన్ — జార్జ్ బెర్నార్డ్ షా"
+     },
+     {
+      "en": "II. Saint Joan — William Shakespeare",
+      "te": "II. సెయింట్ జోన్ — విలియం షేక్స్‌పియర్"
+     },
+     {
+      "en": "III. Arms and the Man — George Bernard Shaw",
+      "te": "III. ఆర్మ్స్ అండ్ ది మ్యాన్ — జార్జ్ బెర్నార్డ్ షా"
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II is wrong: Saint Joan (1923) is also by Shaw.",
+     "te": "II తప్పు: సెయింట్ జోన్ (1923) కూడా షా రాసినదే."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Shaw's life in dates",
+      "te": "తేదీల్లో షా జీవితం"
+     },
+     "items": [
+      {
+       "y": "1856",
+       "t": {
+        "en": "Born in Dublin, 26 July",
+        "te": "డబ్లిన్‌లో జననం, 26 జూలై"
+       }
+      },
+      {
+       "y": "1876",
+       "t": {
+        "en": "Moves to London; critic",
+        "te": "లండన్‌కు; విమర్శకుడు"
+       }
+      },
+      {
+       "y": "1892",
+       "t": {
+        "en": "First play: Widowers' Houses",
+        "te": "తొలి నాటకం: విడోయర్స్ హౌసెస్"
+       }
+      },
+      {
+       "y": "1913",
+       "t": {
+        "en": "Pygmalion",
+        "te": "పిగ్మేలియన్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1925",
+       "t": {
+        "en": "Nobel Prize in Literature",
+        "te": "సాహిత్య నోబెల్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1950",
+       "t": {
+        "en": "Dies, 2 November",
+        "te": "మరణం, 2 నవంబర్"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Britannica — George Bernard Shaw (summary)",
+     "u": "https://www.britannica.com/summary/George-Bernard-Shaw"
+    },
+    {
+     "t": "Wikiwand (Wikipedia) — 2 November: births and deaths",
+     "u": "https://www.wikiwand.com/en/articles/2_November"
+    }
+   ]
+  },
+  {
+   "id": "murasu",
+   "kind": "article",
+   "color": "#9b2c2c",
+   "icon": "shield",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "In the news · Andhra Pradesh · Disaster · 1–2 Nov 2026",
+    "te": "వార్తల్లో · ఆంధ్రప్రదేశ్ · విపత్తు · 1–2 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-III Geography & Disaster management",
+    "te": "వివరణ · GS-III భూగోళం, విపత్తు నిర్వహణ"
+   },
+   "title": {
+    "en": "Severe Cyclonic Storm 'Murasu' to cross the AP coast near Ongole",
+    "te": "తీవ్ర తుఫాను 'మురసు' ఒంగోలు సమీపంలో AP తీరం దాటనుంది"
+   },
+   "line": {
+    "en": "IMD expects landfall between Nellore and Narsapur, close to Ongole, between 11:30 pm on 2 Nov and 4 am on 3 Nov.",
+    "te": "నెల్లూరు–నర్సాపూర్ మధ్య, ఒంగోలు సమీపంలో, నవంబర్ 2 రాత్రి 11:30 నుంచి నవంబర్ 3 తెల్లవారుజామున 4 గంటల మధ్య తీరం దాటుతుందని IMD అంచనా."
+   },
+   "easy": [
+    {
+     "en": "A low-pressure system in the Bay of Bengal grew step by step: depression → deep depression (1 Nov) → cyclonic storm → severe cyclonic storm (2 Nov). At 2:30 am IST on 2 November it was near 13.6°N, 82.5°E — about 290 km east-southeast of Nellore and 330 km southeast of Ongole — moving north-west at about 20 km/h.",
+     "te": "బంగాళాఖాతంలో అల్పపీడనం దశలవారీగా బలపడింది: వాయుగుండం → తీవ్ర వాయుగుండం (నవంబర్ 1) → తుఫాను → తీవ్ర తుఫాను (నవంబర్ 2). నవంబర్ 2 తెల్లవారుజామున 2:30కు అది 13.6°ఉ, 82.5°తూ వద్ద — నెల్లూరుకు తూర్పు-ఆగ్నేయంగా సుమారు 290 కి.మీ., ఒంగోలుకు ఆగ్నేయంగా 330 కి.మీ. — గంటకు సుమారు 20 కి.మీ. వేగంతో వాయవ్య దిశగా కదులుతోంది."
+    },
+    {
+     "en": "IMD says it will cross the south Andhra Pradesh coast between Nellore and Narsapur, close to Ongole, as a severe cyclonic storm with sustained winds of 100–110 km/h gusting to 120 km/h. Very heavy rain is forecast for central coastal districts — on 3 November Eluru (about 179 mm), Krishna (163 mm) and NTR (161 mm) top the list.",
+     "te": "నెల్లూరు–నర్సాపూర్ మధ్య, ఒంగోలు సమీపంలో తీవ్ర తుఫానుగా తీరం దాటుతుందని, గంటకు 100–110 కి.మీ. (గాలి దెబ్బలు 120 కి.మీ.) వేగంతో గాలులు వీస్తాయని IMD తెలిపింది. మధ్య కోస్తా జిల్లాలకు భారీ వర్ష సూచన — నవంబర్ 3న ఏలూరు (సుమారు 179 మి.మీ.), కృష్ణా (163 మి.మీ.), ఎన్టీఆర్ (161 మి.మీ.) ముందున్నాయి."
+    },
+    {
+     "en": "Why 'Murasu'? It is a name given by India in the 2020 list of 13 countries. Murasu is a Tamil word for an ancient drum used to spread news and warnings. North Indian Ocean cyclones have been named since 2004; RSMC New Delhi (IMD) gives the names.",
+     "te": "'మురసు' ఎందుకు? 13 దేశాల 2020 జాబితాలో భారత్ ఇచ్చిన పేరు ఇది. మురసు అంటే తమిళంలో వార్తలు, హెచ్చరికలు చాటడానికి వాడిన పురాతన డప్పు. ఉత్తర హిందూ మహాసముద్ర తుఫానులకు 2004 నుంచి పేర్లు పెడుతున్నారు; RSMC న్యూఢిల్లీ (IMD) పేరు ఇస్తుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Category now",
+      "te": "ప్రస్తుత స్థాయి"
+     },
+     {
+      "en": "Severe Cyclonic Storm (2 Nov)",
+      "te": "తీవ్ర తుఫాను (నవంబర్ 2)"
+     }
+    ],
+    [
+     {
+      "en": "Landfall (IMD)",
+      "te": "తీరం దాటడం (IMD)"
+     },
+     {
+      "en": "Between Nellore and Narsapur, close to Ongole; 11:30 pm 2 Nov – 4 am 3 Nov",
+      "te": "నెల్లూరు–నర్సాపూర్ మధ్య, ఒంగోలు సమీపంలో; నవం 2 రాత్రి 11:30 – నవం 3 ఉదయం 4"
+     }
+    ],
+    [
+     {
+      "en": "Winds",
+      "te": "గాలులు"
+     },
+     {
+      "en": "100–110 km/h, gusts 120 km/h",
+      "te": "గంటకు 100–110 కి.మీ., దెబ్బలు 120 కి.మీ."
+     }
+    ],
+    [
+     {
+      "en": "Name given by",
+      "te": "పేరు ఇచ్చిన దేశం"
+     },
+     {
+      "en": "India — 'Murasu' = Tamil drum",
+      "te": "భారత్ — 'మురసు' = తమిళ డప్పు"
+     }
+    ],
+    [
+     {
+      "en": "Heaviest rain forecast, 3 Nov",
+      "te": "అత్యధిక వర్ష సూచన, నవం 3"
+     },
+     {
+      "en": "Eluru ~179 mm, Krishna 163 mm, NTR 161 mm",
+      "te": "ఏలూరు ~179 మి.మీ., కృష్ణా 163, ఎన్టీఆర్ 161"
+     }
+    ],
+    [
+     {
+      "en": "Naming system",
+      "te": "పేర్ల విధానం"
+     },
+     {
+      "en": "Since 2004; new list April 2020; 13 member countries; RSMC New Delhi names",
+      "te": "2004 నుంచి; కొత్త జాబితా ఏప్రిల్ 2020; 13 సభ్య దేశాలు; RSMC న్యూఢిల్లీ పేరు పెడుతుంది"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · IMD scale and AP cyclones",
+     "te": "లింక్ చెయిన్ · IMD వర్గీకరణ, AP తుఫానులు"
+    },
+    "l": [
+     {
+      "en": "IMD scale (km/h): Depression 31–49 → Deep depression 50–61 → Cyclonic storm 62–88 → Severe 89–117 → Very severe 118–166 → Extremely severe 167–221 → Super ≥222",
+      "te": "IMD వర్గీకరణ (కి.మీ./గం): వాయుగుండం 31–49 → తీవ్ర వాయుగుండం 50–61 → తుఫాను 62–88 → తీవ్ర 89–117 → అతి తీవ్ర 118–166 → అత్యంత తీవ్ర 167–221 → సూపర్ ≥222"
+     },
+     {
+      "en": "Northern Hemisphere cyclones rotate anticlockwise (Coriolis force)",
+      "te": "ఉత్తరార్ధగోళ తుఫానులు అపసవ్య దిశలో తిరుగుతాయి (కోరియాలిస్ బలం)"
+     },
+     {
+      "en": "Bay of Bengal gets more cyclones than the Arabian Sea; the Oct–Dec (post-monsoon) season hits the AP coast most",
+      "te": "అరేబియా సముద్రం కంటే బంగాళాఖాతంలో తుఫానులు ఎక్కువ; అక్టోబర్–డిసెంబర్ (రుతుపవనాల తర్వాత) కాలంలో AP తీరంపై ఎక్కువ ప్రభావం"
+     },
+     {
+      "en": "AP has India's 2nd longest coastline (about 974 km) after Gujarat",
+      "te": "గుజరాత్ తర్వాత దేశంలో రెండో పొడవైన తీరం AP (సుమారు 974 కి.మీ.)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "'Landfall close to Ongole' does not mean only Prakasam district is affected — the heaviest rain is forecast north of it (Eluru, Krishna, NTR). Also: names are proposed by countries, but RSMC New Delhi (IMD) assigns them.",
+    "te": "'ఒంగోలు సమీపంలో తీరం దాటడం' అంటే ప్రకాశం జిల్లాకే ప్రభావం కాదు — భారీ వర్షం ఉత్తరాన (ఏలూరు, కృష్ణా, ఎన్టీఆర్) సూచించారు. అలాగే: పేర్లను దేశాలు సూచిస్తాయి, కానీ RSMC న్యూఢిల్లీ (IMD) కేటాయిస్తుంది."
+   },
+   "tip": {
+    "en": "Stay updated through IMD and AP State Disaster Management Authority alerts; never cross flowing causeways.",
+    "te": "IMD, AP రాష్ట్ర విపత్తు నిర్వహణ సంస్థ హెచ్చరికలు పాటించండి; ప్రవహించే కాజ్‌వేలు దాటకండి."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Cyclone Murasu, consider the following statements:",
+     "te": "మురసు తుఫానుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The name 'Murasu' was contributed by India.",
+      "te": "I. 'మురసు' పేరును భారత్ ఇచ్చింది."
+     },
+     {
+      "en": "II. A severe cyclonic storm on the IMD scale has winds of 118–166 km/h.",
+      "te": "II. IMD వర్గీకరణలో తీవ్ర తుఫాను గాలి వేగం గంటకు 118–166 కి.మీ."
+     },
+     {
+      "en": "III. IMD forecast landfall between Nellore and Narsapur, close to Ongole.",
+      "te": "III. నెల్లూరు–నర్సాపూర్ మధ్య, ఒంగోలు సమీపంలో తీరం దాటుతుందని IMD అంచనా."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "II is wrong: 118–166 km/h is 'very severe'; 'severe' is 89–117 km/h.",
+     "te": "II తప్పు: 118–166 కి.మీ. 'అతి తీవ్ర'; 'తీవ్ర' తుఫాను 89–117 కి.మీ."
+    }
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Where Murasu is heading",
+      "te": "మురసు ఎటు వెళ్తోంది"
+     },
+     "view": "south",
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#9b2c2c",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        13.6,
+        82.5
+       ],
+       "t": {
+        "en": "Cyclone (2 Nov)",
+        "te": "తుఫాను (నవం 2)"
+       }
+      },
+      {
+       "ll": [
+        15.5,
+        80.05
+       ],
+       "t": {
+        "en": "Ongole",
+        "te": "ఒంగోలు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        14.44,
+        79.99
+       ],
+       "t": {
+        "en": "Nellore",
+        "te": "నెల్లూరు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.43,
+        81.7
+       ],
+       "t": {
+        "en": "Narsapur",
+        "te": "నర్సాపూర్"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         13.6,
+         82.5
+        ],
+        [
+         15.4,
+         80.3
+        ]
+       ],
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "Position at 2:30 am, 2 Nov · landfall expected near Ongole",
+      "te": "నవం 2 తెల్లవారుజాము 2:30 స్థానం · ఒంగోలు దగ్గర తీరం దాటే అవకాశం"
+     },
+     "src": "cards/2026-11-02/map-murasu-1-{m}.svg"
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "IMD scale: wind speed (km/h, upper limit)",
+      "te": "IMD వర్గీకరణ: గాలి వేగం (కి.మీ./గం, గరిష్ఠ పరిమితి)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Depression",
+        "te": "వాయుగుండం"
+       },
+       "v": 49,
+       "vl": "31–49"
+      },
+      {
+       "t": {
+        "en": "Deep depression",
+        "te": "తీవ్ర వాయుగుండం"
+       },
+       "v": 61,
+       "vl": "50–61"
+      },
+      {
+       "t": {
+        "en": "Cyclonic storm",
+        "te": "తుఫాను"
+       },
+       "v": 88,
+       "vl": "62–88"
+      },
+      {
+       "t": {
+        "en": "Severe (Murasu now)",
+        "te": "తీవ్ర (మురసు ఇప్పుడు)"
+       },
+       "v": 117,
+       "vl": "89–117"
+      },
+      {
+       "t": {
+        "en": "Very severe",
+        "te": "అతి తీవ్ర"
+       },
+       "v": 166,
+       "vl": "118–166"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Business Standard — Cyclone Murasu intensifies into severe storm, to hit Andhra coast by Nov 3 (2 Nov 2026)",
+     "u": "https://www.business-standard.com/amp/india-news/cyclone-murasu-intensifies-into-severe-storm-to-hit-andhra-coast-by-nov-3-126110200044_1.html"
+    },
+    {
+     "t": "India TV — Cyclone Murasu intensifies into severe cyclonic storm (2 Nov 2026)",
+     "u": "https://www.indiatvnews.com/news/india/cyclone-murasu-intensifies-into-severe-cyclonic-storm-andhra-pradesh-tamil-nadu-and-odisha-on-high-alert-landfall-likely-by-early-november-3-2026-11-02-1058461"
+    },
+    {
+     "t": "The News Mill — Bay of Bengal depression intensifies (1 Nov 2026)",
+     "u": "https://thenewsmill.com/2026/11/bay-of-bengal-depression-intensifies-cyclone-expected-to-hit-andhra-pradesh-coast-by-november-3/"
+    },
+    {
+     "t": "inkl — Tropical cyclone gets Tamil name (Murasu)",
+     "u": "https://www.inkl.com/news/tropical-cyclone-gets-tamil-name"
+    },
+    {
+     "t": "Legacy IAS — New list of names of tropical cyclones over north Indian Ocean",
+     "u": "https://www.legacyias.com/new-list-of-names-of-tropical-cyclones-over-north-indian-ocean/"
+    }
+   ],
+   "mains": {
+    "en": "Andhra Pradesh faces cyclones almost every post-monsoon season. Discuss the factors that make the AP coast vulnerable and suggest measures to reduce loss of life and property.",
+    "te": "దాదాపు ప్రతి రుతుపవనాల అనంతర కాలంలో ఆంధ్రప్రదేశ్ తుఫానులను ఎదుర్కొంటోంది. AP తీరం ప్రమాదానికి గురయ్యే కారణాలను చర్చించి, ప్రాణ, ఆస్తి నష్టం తగ్గించే చర్యలు సూచించండి."
+   }
+  },
+  {
+   "id": "ulbpoll",
+   "kind": "article",
+   "color": "#a86b00",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "In the news · Andhra Pradesh · Polity · 1 Nov 2026",
+    "te": "వార్తల్లో · ఆంధ్రప్రదేశ్ · పాలిటీ · 1 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Local government (74th Amendment)",
+    "te": "వివరణ · GS-II స్థానిక ప్రభుత్వాలు (74వ సవరణ)"
+   },
+   "title": {
+    "en": "AP votes in 92 urban local bodies; counting on 3 November",
+    "te": "AP లో 92 పట్టణ స్థానిక సంస్థలకు పోలింగ్; నవంబర్ 3న లెక్కింపు"
+   },
+   "line": {
+    "en": "13 municipal corporations and 79 municipalities/nagar panchayats voted on 1 Nov — conducted by the State Election Commission under Article 243ZA.",
+    "te": "13 నగరపాలక సంస్థలు, 79 పురపాలక సంఘాలు/నగర పంచాయతీలకు నవంబర్ 1న పోలింగ్ — ఆర్టికల్ 243ZA కింద రాష్ట్ర ఎన్నికల సంఘం నిర్వహణ."
+   },
+   "easy": [
+    {
+     "en": "Towns and cities are run by elected urban local bodies (ULBs). On Sunday, 1 November 2026, polling was held from 7 am to 5 pm in 92 ULBs of Andhra Pradesh — 13 municipal corporations and 79 municipalities and nagar panchayats. Elections had been notified for 100 bodies, but in 8 of them the chairpersons and ward members were elected unopposed. About 99.36 lakh voters were eligible and 11,705 polling stations were set up. Counting is on Tuesday, 3 November.",
+     "te": "పట్టణాలు, నగరాలను ఎన్నికైన పట్టణ స్థానిక సంస్థలు (ULBలు) నడుపుతాయి. 2026 నవంబర్ 1 ఆదివారం ఉదయం 7 నుంచి సాయంత్రం 5 వరకు ఆంధ్రప్రదేశ్‌లోని 92 ULBలలో పోలింగ్ జరిగింది — 13 నగరపాలక సంస్థలు, 79 పురపాలక సంఘాలు, నగర పంచాయతీలు. 100 సంస్థలకు ఎన్నికలు ప్రకటించగా, 8 చోట్ల చైర్‌పర్సన్లు, వార్డు సభ్యులు ఏకగ్రీవమయ్యారు. సుమారు 99.36 లక్షల మంది ఓటర్లు, 11,705 పోలింగ్ కేంద్రాలు. లెక్కింపు మంగళవారం, నవంబర్ 3న."
+    },
+    {
+     "en": "Polling was first fixed for 28 October and moved to 1 November after Supreme Court directions. The State Labour Department gave workers in the election areas a paid holiday on 1 November so they could vote. State Election Commissioner Anil Chandra Punetha said turnout was over 45% by 3 pm and polling was largely peaceful; complaints from Pulivendula were being examined.",
+     "te": "పోలింగ్ మొదట అక్టోబర్ 28కి నిర్ణయించగా, సుప్రీంకోర్టు ఆదేశాల తర్వాత నవంబర్ 1కి మార్చారు. ఓటు వేయడానికి వీలుగా ఎన్నికల ప్రాంతాల కార్మికులకు నవంబర్ 1న వేతనంతో కూడిన సెలవును రాష్ట్ర కార్మిక శాఖ ఇచ్చింది. మధ్యాహ్నం 3 గంటలకు 45% పైగా పోలింగ్ నమోదైందని, ఎక్కువగా ప్రశాంతంగా జరిగిందని రాష్ట్ర ఎన్నికల కమిషనర్ అనిల్ చంద్ర పునేఠ తెలిపారు; పులివెందుల ఫిర్యాదులను పరిశీలిస్తున్నారు."
+    },
+    {
+     "en": "Static link: the 74th Constitutional Amendment Act, 1992 gave municipalities constitutional status — Part IXA (Articles 243P to 243ZG). Article 243Q: three types — nagar panchayat (area in transition from rural to urban), municipal council (smaller urban area), municipal corporation (larger urban area). Article 243U: five-year term. Article 243ZA: State Election Commission conducts municipal elections. The 12th Schedule lists 18 functions.",
+     "te": "స్థిర అంశం: 74వ రాజ్యాంగ సవరణ చట్టం, 1992 పురపాలికలకు రాజ్యాంగ హోదా ఇచ్చింది — భాగం IXA (ఆర్టికల్స్ 243P నుంచి 243ZG). ఆర్టికల్ 243Q: మూడు రకాలు — నగర పంచాయతీ (గ్రామీణం నుంచి పట్టణంగా మారుతున్న ప్రాంతం), పురపాలక మండలి (చిన్న పట్టణం), నగరపాలక సంస్థ (పెద్ద నగరం). ఆర్టికల్ 243U: ఐదేళ్ల పదవీకాలం. ఆర్టికల్ 243ZA: పురపాలక ఎన్నికలను రాష్ట్ర ఎన్నికల సంఘం నిర్వహిస్తుంది. 12వ షెడ్యూల్‌లో 18 విధులు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Polling day",
+      "te": "పోలింగ్ రోజు"
+     },
+     {
+      "en": "1 Nov 2026, 7 am – 5 pm (moved from 28 Oct)",
+      "te": "1 నవంబర్ 2026, ఉ. 7 – సా. 5 (అక్టోబర్ 28 నుంచి మార్పు)"
+     }
+    ],
+    [
+     {
+      "en": "Bodies voting",
+      "te": "పోలింగ్ జరిగిన సంస్థలు"
+     },
+     {
+      "en": "92 = 13 corporations + 79 municipalities/nagar panchayats",
+      "te": "92 = 13 నగరపాలక సంస్థలు + 79 పురపాలక సంఘాలు/నగర పంచాయతీలు"
+     }
+    ],
+    [
+     {
+      "en": "Unopposed",
+      "te": "ఏకగ్రీవం"
+     },
+     {
+      "en": "8 bodies (of 100 notified)",
+      "te": "8 సంస్థలు (ప్రకటించిన 100లో)"
+     }
+    ],
+    [
+     {
+      "en": "Voters / booths",
+      "te": "ఓటర్లు / కేంద్రాలు"
+     },
+     {
+      "en": "99,36,014 voters · 11,705 polling stations",
+      "te": "99,36,014 ఓటర్లు · 11,705 పోలింగ్ కేంద్రాలు"
+     }
+    ],
+    [
+     {
+      "en": "Counting",
+      "te": "లెక్కింపు"
+     },
+     {
+      "en": "Tuesday, 3 Nov 2026",
+      "te": "మంగళవారం, 3 నవంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "SEC",
+      "te": "రాష్ట్ర ఎన్నికల కమిషనర్"
+     },
+     {
+      "en": "Anil Chandra Punetha",
+      "te": "అనిల్ చంద్ర పునేఠ"
+     }
+    ],
+    [
+     {
+      "en": "Constitution",
+      "te": "రాజ్యాంగం"
+     },
+     {
+      "en": "74th Amendment 1992 · Part IXA · Art 243ZA (SEC) · 243U (5 years)",
+      "te": "74వ సవరణ 1992 · భాగం IXA · ఆర్టి. 243ZA (SEC) · 243U (5 ఏళ్లు)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Local bodies in the Constitution",
+     "te": "లింక్ చెయిన్ · రాజ్యాంగంలో స్థానిక సంస్థలు"
+    },
+    "l": [
+     {
+      "en": "73rd Amendment (1992) → Panchayats, Part IX, Art 243–243O, 11th Schedule (29 subjects); SEC for panchayats = Art 243K",
+      "te": "73వ సవరణ (1992) → పంచాయతీలు, భాగం IX, ఆర్టి. 243–243O, 11వ షెడ్యూల్ (29 అంశాలు); పంచాయతీలకు SEC = ఆర్టి. 243K"
+     },
+     {
+      "en": "74th Amendment (1992) → Municipalities, Part IXA, Art 243P–243ZG, 12th Schedule (18 subjects); SEC for municipalities = Art 243ZA",
+      "te": "74వ సవరణ (1992) → పురపాలికలు, భాగం IXA, ఆర్టి. 243P–243ZG, 12వ షెడ్యూల్ (18 అంశాలు); పురపాలికలకు SEC = ఆర్టి. 243ZA"
+     },
+     {
+      "en": "Election Commission of India (Art 324) does NOT conduct local body polls — the State Election Commission does",
+      "te": "భారత ఎన్నికల సంఘం (ఆర్టి. 324) స్థానిక సంస్థల ఎన్నికలు నిర్వహించదు — రాష్ట్ర ఎన్నికల సంఘం నిర్వహిస్తుంది"
+     },
+     {
+      "en": "State Finance Commission (Art 243Y for municipalities) reviews their finances every 5 years",
+      "te": "రాష్ట్ర ఆర్థిక సంఘం (పురపాలికలకు ఆర్టి. 243Y) ప్రతి 5 ఏళ్లకు వాటి ఆర్థిక స్థితి సమీక్షిస్తుంది"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Article 243K (SEC for panchayats) vs 243ZA (SEC for municipalities); and ECI under Article 324 has no role in municipal polls.",
+    "te": "ఆర్టికల్ 243K (పంచాయతీలకు SEC) vs 243ZA (పురపాలికలకు SEC); ఆర్టికల్ 324 కింద ECIకి పురపాలక ఎన్నికల్లో పాత్ర లేదు."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about urban local bodies:",
+     "te": "పట్టణ స్థానిక సంస్థల గురించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. Elections to municipalities are conducted by the State Election Commission under Article 243ZA.",
+      "te": "I. పురపాలికల ఎన్నికలను ఆర్టికల్ 243ZA కింద రాష్ట్ర ఎన్నికల సంఘం నిర్వహిస్తుంది."
+     },
+     {
+      "en": "II. The 12th Schedule lists 29 functions of municipalities.",
+      "te": "II. 12వ షెడ్యూల్‌లో పురపాలికల 29 విధులు ఉన్నాయి."
+     },
+     {
+      "en": "III. A nagar panchayat is meant for an area in transition from rural to urban.",
+      "te": "III. గ్రామీణం నుంచి పట్టణంగా మారుతున్న ప్రాంతానికి నగర పంచాయతీ."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "II is wrong: the 12th Schedule has 18 subjects; 29 is the 11th Schedule (panchayats).",
+     "te": "II తప్పు: 12వ షెడ్యూల్‌లో 18 అంశాలు; 29 అంశాలు 11వ షెడ్యూల్ (పంచాయతీలు)."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "AP ULB elections 2026 at a glance",
+      "te": "AP ULB ఎన్నికలు 2026 ఒక చూపులో"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Notified bodies",
+        "te": "ప్రకటించిన సంస్థలు"
+       },
+       "v": 100,
+       "vl": "100"
+      },
+      {
+       "t": {
+        "en": "Voted on 1 Nov",
+        "te": "నవం 1న పోలింగ్"
+       },
+       "v": 92,
+       "vl": "92"
+      },
+      {
+       "t": {
+        "en": "Municipalities / NPs voting",
+        "te": "పోలింగ్ — పురపాలక సంఘాలు / న.పం."
+       },
+       "v": 79,
+       "vl": "79"
+      },
+      {
+       "t": {
+        "en": "Corporations voting",
+        "te": "పోలింగ్ — నగరపాలక సంస్థలు"
+       },
+       "v": 13,
+       "vl": "13"
+      },
+      {
+       "t": {
+        "en": "Unopposed",
+        "te": "ఏకగ్రీవం"
+       },
+       "v": 8,
+       "vl": "8"
+      }
+     ]
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "From Constitution to counting",
+      "te": "రాజ్యాంగం నుంచి లెక్కింపు వరకు"
+     },
+     "items": [
+      {
+       "i": "📜",
+       "t": {
+        "en": "74th Amendment 1992, Part IXA",
+        "te": "74వ సవరణ 1992, భాగం IXA"
+       }
+      },
+      {
+       "i": "🏛️",
+       "t": {
+        "en": "SEC conducts polls (Art 243ZA)",
+        "te": "SEC ఎన్నికల నిర్వహణ (ఆర్టి. 243ZA)"
+       }
+      },
+      {
+       "i": "🗳️",
+       "t": {
+        "en": "Polling 1 Nov · 99.36 lakh voters",
+        "te": "పోలింగ్ నవం 1 · 99.36 లక్షల ఓటర్లు"
+       }
+      },
+      {
+       "i": "🔢",
+       "t": {
+        "en": "Counting 3 Nov",
+        "te": "లెక్కింపు నవం 3"
+       }
+      },
+      {
+       "i": "🏙️",
+       "t": {
+        "en": "5-year term (Art 243U)",
+        "te": "5 ఏళ్ల పదవీకాలం (ఆర్టి. 243U)"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India — AP Municipal Elections live: polling in 92 urban local bodies (1 Nov 2026)",
+     "u": "https://www.thehansindia.com/live-updates/live-updates-ap-municipal-elections-live-updates-polling-begins-in-92-urban-local-bodies-1138091"
+    },
+    {
+     "t": "ANI — Turnout good in Andhra municipal polls, says SEC Anil Chandra Punetha (1 Nov 2026)",
+     "u": "https://aninews.in/news/national/general-news/turnout-good-in-andhra-municipal-polls-says-sec-anil-chandra-punetha20261101205801/"
+    },
+    {
+     "t": "Telugu Rise — Andhra Pradesh November 1 rules: paid holiday (2026)",
+     "u": "https://telugurise.com/en/andhra-pradesh-november-1-rules"
+    }
+   ],
+   "mains": {
+    "en": "The 74th Constitutional Amendment aimed to make urban local bodies 'units of self-government'. Examine how far the State Election Commission and State Finance Commission have helped achieve this, with reference to Andhra Pradesh.",
+    "te": "పట్టణ స్థానిక సంస్థలను 'స్వపరిపాలన విభాగాలు'గా మార్చడం 74వ రాజ్యాంగ సవరణ లక్ష్యం. ఆంధ్రప్రదేశ్ నేపథ్యంలో రాష్ట్ర ఎన్నికల సంఘం, రాష్ట్ర ఆర్థిక సంఘం ఈ లక్ష్య సాధనకు ఎంతవరకు తోడ్పడ్డాయో పరిశీలించండి."
+   }
+  },
+  {
+   "id": "dpdp",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "In the news · Polity · Supreme Court · 27 Oct 2026",
+    "te": "వార్తల్లో · పాలిటీ · సుప్రీంకోర్టు · 27 అక్టోబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity & Governance",
+    "te": "వివరణ · GS-II పాలిటీ, పరిపాలన"
+   },
+   "title": {
+    "en": "Privacy vs right to information: news publishers challenge the DPDP Act",
+    "te": "గోప్యత vs సమాచార హక్కు: DPDP చట్టంపై వార్తా ప్రచురణకర్తల సవాలు"
+   },
+   "line": {
+    "en": "The Supreme Court issued notice to the Centre on 27 Oct on a plea against Section 44(3), which changed RTI Act Section 8(1)(j); next hearing 17 Nov.",
+    "te": "RTI చట్టం సెక్షన్ 8(1)(j)ని మార్చిన సెక్షన్ 44(3)పై పిటిషన్‌కు అక్టోబర్ 27న సుప్రీంకోర్టు కేంద్రానికి నోటీసు; తదుపరి విచారణ నవంబర్ 17."
+   },
+   "easy": [
+    {
+     "en": "The Digital Personal Data Protection (DPDP) Act was enacted on 11 August 2023 to protect people's personal data. Its Section 44(3) amended Section 8(1)(j) of the Right to Information (RTI) Act, 2005 — the clause that lets officials refuse 'personal information'. The change took effect on 13 November 2025. Critics say the express public-interest test inside 8(1)(j) is gone, so officials can refuse more information by calling it 'personal'.",
+     "te": "ప్రజల వ్యక్తిగత డేటాను కాపాడేందుకు డిజిటల్ వ్యక్తిగత డేటా పరిరక్షణ (DPDP) చట్టం 2023 ఆగస్టు 11న వచ్చింది. దాని సెక్షన్ 44(3), సమాచార హక్కు (RTI) చట్టం, 2005లోని సెక్షన్ 8(1)(j)ని — 'వ్యక్తిగత సమాచారం' ఇవ్వకుండా నిరాకరించే నిబంధనను — సవరించింది. ఈ మార్పు 2025 నవంబర్ 13 నుంచి అమల్లోకి వచ్చింది. 8(1)(j)లో ఉన్న స్పష్టమైన ప్రజాప్రయోజన పరీక్ష తొలగిపోయిందని, 'వ్యక్తిగతం' అని చెప్పి అధికారులు ఎక్కువ సమాచారం నిరాకరించగలరని విమర్శకుల వాదన."
+    },
+    {
+     "en": "The Digital News Publishers Association (DNPA) moved the Supreme Court, saying the law may hurt investigative journalism and that journalists need an exemption. On 27 October 2026 the Court issued notice to the Centre; the next hearing is on 17 November. Earlier petitions (for example by RTI activist Venkatesh Nayak, filed February 2026) are also pending; in February 2026 the Court refused to stay the Act.",
+     "te": "ఈ చట్టం పరిశోధనాత్మక జర్నలిజానికి హాని చేయవచ్చని, జర్నలిస్టులకు మినహాయింపు కావాలని డిజిటల్ న్యూస్ పబ్లిషర్స్ అసోసియేషన్ (DNPA) సుప్రీంకోర్టును ఆశ్రయించింది. 2026 అక్టోబర్ 27న కోర్టు కేంద్రానికి నోటీసు ఇచ్చింది; తదుపరి విచారణ నవంబర్ 17. అంతకుముందు దాఖలైన పిటిషన్లు (ఉదా: RTI కార్యకర్త వెంకటేష్ నాయక్, ఫిబ్రవరి 2026) కూడా పెండింగ్‌లో ఉన్నాయి; ఫిబ్రవరి 2026లో చట్టంపై స్టే ఇవ్వడానికి కోర్టు నిరాకరించింది."
+    },
+    {
+     "en": "The government's view: privacy must be protected, and Section 8(2) of the RTI Act still allows disclosure when public interest outweighs the harm. So the real question is balance — the right to privacy (Article 21, Puttaswamy 2017) versus the right to information (part of Article 19(1)(a)).",
+     "te": "ప్రభుత్వ వాదన: గోప్యతను కాపాడాలి; హాని కంటే ప్రజాప్రయోజనం ఎక్కువైతే సమాచారం ఇవ్వడానికి RTI సెక్షన్ 8(2) ఇంకా అనుమతిస్తుంది. కాబట్టి అసలు ప్రశ్న సమతౌల్యం — గోప్యత హక్కు (ఆర్టికల్ 21, పుట్టస్వామి 2017) vs సమాచార హక్కు (ఆర్టికల్ 19(1)(a)లో భాగం)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "DPDP Act",
+      "te": "DPDP చట్టం"
+     },
+     {
+      "en": "Enacted 11 Aug 2023",
+      "te": "11 ఆగస్టు 2023న చట్టం"
+     }
+    ],
+    [
+     {
+      "en": "Provision challenged",
+      "te": "సవాలు చేసిన నిబంధన"
+     },
+     {
+      "en": "Section 44(3) → amends RTI Act Section 8(1)(j)",
+      "te": "సెక్షన్ 44(3) → RTI సెక్షన్ 8(1)(j) సవరణ"
+     }
+    ],
+    [
+     {
+      "en": "RTI change in force",
+      "te": "RTI మార్పు అమలు"
+     },
+     {
+      "en": "13 November 2025",
+      "te": "13 నవంబర్ 2025"
+     }
+    ],
+    [
+     {
+      "en": "Latest petitioner",
+      "te": "తాజా పిటిషనర్"
+     },
+     {
+      "en": "Digital News Publishers Association (DNPA)",
+      "te": "డిజిటల్ న్యూస్ పబ్లిషర్స్ అసోసియేషన్ (DNPA)"
+     }
+    ],
+    [
+     {
+      "en": "SC order",
+      "te": "సుప్రీం ఉత్తర్వు"
+     },
+     {
+      "en": "Notice to Centre, 27 Oct 2026; next hearing 17 Nov",
+      "te": "కేంద్రానికి నోటీసు, 27 అక్టో 2026; తదుపరి విచారణ నవం 17"
+     }
+    ],
+    [
+     {
+      "en": "Stay?",
+      "te": "స్టే?"
+     },
+     {
+      "en": "Refused in Feb 2026; matter sent to a larger bench",
+      "te": "ఫిబ్రవరి 2026లో నిరాకరణ; పెద్ద బెంచ్‌కు బదిలీ"
+     }
+    ],
+    [
+     {
+      "en": "Regulator",
+      "te": "నియంత్రణ సంస్థ"
+     },
+     {
+      "en": "Data Protection Board of India (Section 18)",
+      "te": "డేటా ప్రొటెక్షన్ బోర్డ్ ఆఫ్ ఇండియా (సెక్షన్ 18)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Privacy and RTI",
+     "te": "లింక్ చెయిన్ · గోప్యత, RTI"
+    },
+    "l": [
+     {
+      "en": "2005: RTI Act — Section 8 lists exemptions; 8(1)(j) = personal information; 8(2) = public-interest override",
+      "te": "2005: RTI చట్టం — సెక్షన్ 8 మినహాయింపులు; 8(1)(j) = వ్యక్తిగత సమాచారం; 8(2) = ప్రజాప్రయోజన ప్రాధాన్యం"
+     },
+     {
+      "en": "2017: K.S. Puttaswamy (9 judges) — privacy is a fundamental right under Article 21",
+      "te": "2017: కె.ఎస్. పుట్టస్వామి (9 మంది న్యాయమూర్తులు) — గోప్యత ఆర్టికల్ 21 కింద ప్రాథమిక హక్కు"
+     },
+     {
+      "en": "2019: Subhash Aggarwal case — personal information linked to public activity can be disclosed",
+      "te": "2019: సుభాష్ అగర్వాల్ కేసు — ప్రజా కార్యకలాపాలతో సంబంధం ఉన్న వ్యక్తిగత సమాచారం వెల్లడి చేయవచ్చు"
+     },
+     {
+      "en": "2023: DPDP Act → 2025: RTI amendment in force → 2026: Supreme Court challenges",
+      "te": "2023: DPDP చట్టం → 2025: RTI సవరణ అమలు → 2026: సుప్రీంకోర్టులో సవాళ్లు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The DPDP Act did not repeal the RTI Act — it amended only Section 8(1)(j). Section 8(2) (public-interest override) still exists.",
+    "te": "DPDP చట్టం RTI చట్టాన్ని రద్దు చేయలేదు — సెక్షన్ 8(1)(j)ని మాత్రమే సవరించింది. సెక్షన్ 8(2) (ప్రజాప్రయోజన ప్రాధాన్యం) ఇంకా ఉంది."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements:",
+     "te": "కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. Section 44(3) of the DPDP Act, 2023 amended Section 8(1)(j) of the RTI Act, 2005.",
+      "te": "I. DPDP చట్టం, 2023 సెక్షన్ 44(3) RTI చట్టం, 2005 సెక్షన్ 8(1)(j)ని సవరించింది."
+     },
+     {
+      "en": "II. The DPDP Act repealed Section 8(2) of the RTI Act.",
+      "te": "II. DPDP చట్టం RTI సెక్షన్ 8(2)ను రద్దు చేసింది."
+     },
+     {
+      "en": "III. The right to privacy was held to be a fundamental right in the Puttaswamy case (2017).",
+      "te": "III. పుట్టస్వామి కేసు (2017)లో గోప్యత హక్కును ప్రాథమిక హక్కుగా ప్రకటించారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "II is wrong: Section 8(2) — the public-interest override — still exists.",
+     "te": "II తప్పు: సెక్షన్ 8(2) — ప్రజాప్రయోజన ప్రాధాన్యం — ఇంకా ఉంది."
+    }
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "RTI Section 8(1)(j): before vs after",
+      "te": "RTI సెక్షన్ 8(1)(j): ముందు vs తర్వాత"
+     },
+     "a": {
+      "h": {
+       "en": "Before (till 12 Nov 2025)",
+       "te": "ముందు (12 నవం 2025 వరకు)"
+      },
+      "l": [
+       {
+        "en": "Personal info could be refused…",
+        "te": "వ్యక్తిగత సమాచారం నిరాకరించవచ్చు…"
+       },
+       {
+        "en": "…but given if larger public interest",
+        "te": "…కానీ ఎక్కువ ప్రజాప్రయోజనం ఉంటే ఇవ్వాలి"
+       },
+       {
+        "en": "Public-interest test inside 8(1)(j)",
+        "te": "8(1)(j)లోనే ప్రజాప్రయోజన పరీక్ష"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "After DPDP Section 44(3)",
+       "te": "DPDP సెక్షన్ 44(3) తర్వాత"
+      },
+      "l": [
+       {
+        "en": "Information that 'relates to personal information' exempt",
+        "te": "'వ్యక్తిగత సమాచారానికి సంబంధించినది' మినహాయింపు"
+       },
+       {
+        "en": "No express public-interest test in 8(1)(j)",
+        "te": "8(1)(j)లో స్పష్టమైన ప్రజాప్రయోజన పరీక్ష లేదు"
+       },
+       {
+        "en": "Section 8(2) override remains",
+        "te": "సెక్షన్ 8(2) ప్రాధాన్యం మిగిలి ఉంది"
+       }
+      ]
+     }
+    },
+    {
+     "type": "timeline",
+     "h": {
+      "en": "How we got here",
+      "te": "ఇక్కడికి ఎలా వచ్చాం"
+     },
+     "items": [
+      {
+       "y": "2005",
+       "t": {
+        "en": "RTI Act",
+        "te": "RTI చట్టం"
+       }
+      },
+      {
+       "y": "2017",
+       "t": {
+        "en": "Puttaswamy: privacy = fundamental right",
+        "te": "పుట్టస్వామి: గోప్యత = ప్రాథమిక హక్కు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2023",
+       "t": {
+        "en": "DPDP Act (11 Aug)",
+        "te": "DPDP చట్టం (11 ఆగ)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2025",
+       "t": {
+        "en": "RTI change in force (13 Nov)",
+        "te": "RTI మార్పు అమలు (13 నవం)"
+       }
+      },
+      {
+       "y": "Feb 2026",
+       "t": {
+        "en": "SC refuses stay",
+        "te": "స్టేకు సుప్రీం నిరాకరణ"
+       }
+      },
+      {
+       "y": "27 Oct 2026",
+       "t": {
+        "en": "Notice on publishers' plea",
+        "te": "ప్రచురణకర్తల పిటిషన్‌పై నోటీసు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Business Standard — RTI vs privacy: Why India's news publishers have moved the Supreme Court (27 Oct 2026)",
+     "u": "https://www.business-standard.com/india-news/rti-vs-privacy-why-india-s-news-publishers-have-moved-the-supreme-court-126102701061_1.html"
+    },
+    {
+     "t": "Supreme Court Observer — Constitutionality of the Digital Personal Data Protection Act, 2023",
+     "u": "https://www.scobserver.in/cases/constitutionality-of-the-digital-personal-data-protection-act-2023/"
+    }
+   ],
+   "mains": {
+    "en": "'The right to privacy and the right to information are both essential to democracy.' Discuss with reference to the amendment of Section 8(1)(j) of the RTI Act by the DPDP Act, 2023.",
+    "te": "'గోప్యత హక్కు, సమాచార హక్కు రెండూ ప్రజాస్వామ్యానికి అవసరం.' DPDP చట్టం, 2023 ద్వారా RTI సెక్షన్ 8(1)(j) సవరణ నేపథ్యంలో చర్చించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "journo",
+   "q": {
+    "en": "With reference to the International Day to End Impunity for Crimes against Journalists, consider the following statements:",
+    "te": "జర్నలిస్టులపై నేరాల శిక్ష లేని స్థితి అంతం దినోత్సవానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It was proclaimed by the UN General Assembly through resolution A/RES/68/163.",
+     "te": "I. ఐరాస సర్వసభ్య సభ A/RES/68/163 తీర్మానం ద్వారా దీన్ని ప్రకటించింది."
+    },
+    {
+     "en": "II. UNESCO is the lead UN agency for the day.",
+     "te": "II. ఈ దినోత్సవానికి యునెస్కో ప్రధాన ఐరాస సంస్థ."
+    },
+    {
+     "en": "III. It is observed on 3 May every year.",
+     "te": "III. ప్రతి ఏటా మే 3న జరుపుకుంటారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "III is wrong: it is 2 November; 3 May is World Press Freedom Day.",
+    "te": "III తప్పు: ఇది నవంబర్ 2న; మే 3 ప్రపంచ పత్రికా స్వేచ్ఛా దినోత్సవం."
+   }
+  },
+  {
+   "topic": "journo",
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. According to UNESCO, more than 1,700 journalists have been killed since 1993.",
+     "te": "I. యునెస్కో ప్రకారం 1993 నుంచి 1,700 మందికి పైగా జర్నలిస్టులు హత్యకు గురయ్యారు."
+    },
+    {
+     "en": "II. In most of these cases the killers have been punished.",
+     "te": "II. ఈ కేసుల్లో చాలావాటిలో హంతకులకు శిక్ష పడింది."
+    },
+    {
+     "en": "III. India's National Press Day is observed on 16 November.",
+     "te": "III. భారత జాతీయ పత్రికా దినోత్సవం నవంబర్ 16న."
+    },
+    {
+     "en": "IV. The Indian Constitution expressly uses the words 'freedom of the press'.",
+     "te": "IV. భారత రాజ్యాంగం 'పత్రికా స్వేచ్ఛ' అనే మాటను స్పష్టంగా వాడింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "III and IV only",
+     "te": "III, IV మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "II is wrong: in about 9 out of 10 cases killers go unpunished. IV is wrong: press freedom is read into Article 19(1)(a); the words are not in the text.",
+    "te": "II తప్పు: దాదాపు 10లో 9 కేసుల్లో శిక్ష పడలేదు. IV తప్పు: పత్రికా స్వేచ్ఛ ఆర్టికల్ 19(1)(a)లో భాగంగా పరిగణిస్తారు; ఆ మాటలు రాజ్యాంగంలో లేవు."
+   }
+  },
+  {
+   "topic": "shaw",
+   "q": {
+    "en": "With reference to George Bernard Shaw, consider the following statements:",
+    "te": "జార్జ్ బెర్నార్డ్ షాకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. He was born in Dublin, Ireland.",
+     "te": "I. ఆయన ఐర్లాండ్‌లోని డబ్లిన్‌లో జన్మించారు."
+    },
+    {
+     "en": "II. He received the Nobel Prize in Literature in 1913.",
+     "te": "II. 1913లో సాహిత్య నోబెల్ పొందారు."
+    },
+    {
+     "en": "III. He was an active member of the Fabian Society.",
+     "te": "III. ఆయన ఫేబియన్ సొసైటీలో చురుకైన సభ్యుడు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II is wrong: Shaw got the Nobel in 1925; 1913 is Tagore's Nobel year.",
+    "te": "II తప్పు: షాకు నోబెల్ 1925లో; 1913 ఠాగూర్ నోబెల్ సంవత్సరం."
+   }
+  },
+  {
+   "topic": "shaw",
+   "q": {
+    "en": "Arrange the following works of George Bernard Shaw in chronological order:",
+    "te": "జార్జ్ బెర్నార్డ్ షా రచనలను కాలక్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "I. Pygmalion",
+     "te": "I. పిగ్మేలియన్"
+    },
+    {
+     "en": "II. Widowers' Houses",
+     "te": "II. విడోయర్స్ హౌసెస్"
+    },
+    {
+     "en": "III. Saint Joan",
+     "te": "III. సెయింట్ జోన్"
+    },
+    {
+     "en": "IV. Arms and the Man",
+     "te": "IV. ఆర్మ్స్ అండ్ ది మ్యాన్"
+    }
+   ],
+   "o": [
+    {
+     "en": "II, IV, III, I",
+     "te": "II, IV, III, I"
+    },
+    {
+     "en": "IV, II, I, III",
+     "te": "IV, II, I, III"
+    },
+    {
+     "en": "II, I, IV, III",
+     "te": "II, I, IV, III"
+    },
+    {
+     "en": "II, IV, I, III",
+     "te": "II, IV, I, III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Widowers' Houses 1892 → Arms and the Man 1894 → Pygmalion 1913 → Saint Joan 1923.",
+    "te": "విడోయర్స్ హౌసెస్ 1892 → ఆర్మ్స్ అండ్ ది మ్యాన్ 1894 → పిగ్మేలియన్ 1913 → సెయింట్ జోన్ 1923."
+   }
+  },
+  {
+   "topic": "murasu",
+   "q": {
+    "en": "With reference to the naming of tropical cyclones in the North Indian Ocean, consider the following statements:",
+    "te": "ఉత్తర హిందూ మహాసముద్ర తుఫానుల నామకరణానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The current list was adopted in April 2020 and has names from 13 member countries.",
+     "te": "I. ప్రస్తుత జాబితా ఏప్రిల్ 2020లో ఆమోదించారు; 13 సభ్య దేశాల పేర్లు ఉన్నాయి."
+    },
+    {
+     "en": "II. A name, once used, can be repeated after ten years.",
+     "te": "II. ఒకసారి వాడిన పేరును పదేళ్ల తర్వాత మళ్లీ వాడవచ్చు."
+    },
+    {
+     "en": "III. 'Murasu', a Tamil word for a drum, was suggested by India.",
+     "te": "III. తమిళంలో డప్పు అర్థం గల 'మురసు'ను భారత్ సూచించింది."
+    },
+    {
+     "en": "IV. Names are assigned by RSMC New Delhi (IMD).",
+     "te": "IV. పేర్లను RSMC న్యూఢిల్లీ (IMD) కేటాయిస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is wrong: names are not repeated — a used name is retired.",
+    "te": "II తప్పు: పేర్లు మళ్లీ వాడరు — వాడిన పేరు రిటైర్ అవుతుంది."
+   }
+  },
+  {
+   "topic": "murasu",
+   "q": {
+    "en": "Arrange the following IMD categories of low-pressure systems in increasing order of wind speed:",
+    "te": "IMD అల్పపీడన వ్యవస్థల వర్గాలను గాలి వేగం పెరిగే క్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "I. Severe cyclonic storm",
+     "te": "I. తీవ్ర తుఫాను"
+    },
+    {
+     "en": "II. Deep depression",
+     "te": "II. తీవ్ర వాయుగుండం"
+    },
+    {
+     "en": "III. Very severe cyclonic storm",
+     "te": "III. అతి తీవ్ర తుఫాను"
+    },
+    {
+     "en": "IV. Cyclonic storm",
+     "te": "IV. తుఫాను"
+    }
+   ],
+   "o": [
+    {
+     "en": "II, IV, I, III",
+     "te": "II, IV, I, III"
+    },
+    {
+     "en": "IV, II, I, III",
+     "te": "IV, II, I, III"
+    },
+    {
+     "en": "II, I, IV, III",
+     "te": "II, I, IV, III"
+    },
+    {
+     "en": "II, IV, III, I",
+     "te": "II, IV, III, I"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Deep depression 50–61 → Cyclonic storm 62–88 → Severe 89–117 → Very severe 118–166 km/h. Murasu became 'severe' on 2 Nov.",
+    "te": "తీవ్ర వాయుగుండం 50–61 → తుఫాను 62–88 → తీవ్ర 89–117 → అతి తీవ్ర 118–166 కి.మీ./గం. నవంబర్ 2న మురసు 'తీవ్ర' స్థాయికి చేరింది."
+   }
+  },
+  {
+   "topic": "ulbpoll",
+   "q": {
+    "en": "With reference to the Andhra Pradesh urban local body elections held on 1 November 2026, consider the following statements:",
+    "te": "2026 నవంబర్ 1న జరిగిన ఆంధ్రప్రదేశ్ పట్టణ స్థానిక సంస్థల ఎన్నికలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Polling was held in 13 municipal corporations and 79 municipalities/nagar panchayats.",
+     "te": "I. 13 నగరపాలక సంస్థలు, 79 పురపాలక సంఘాలు/నగర పంచాయతీల్లో పోలింగ్ జరిగింది."
+    },
+    {
+     "en": "II. The elections were conducted by the Election Commission of India.",
+     "te": "II. ఈ ఎన్నికలను భారత ఎన్నికల సంఘం నిర్వహించింది."
+    },
+    {
+     "en": "III. Polling was originally fixed for 28 October and moved to 1 November after Supreme Court directions.",
+     "te": "III. పోలింగ్ మొదట అక్టోబర్ 28కి నిర్ణయించి, సుప్రీంకోర్టు ఆదేశాల తర్వాత నవంబర్ 1కి మార్చారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II is wrong: municipal polls are conducted by the State Election Commission (Art 243ZA), here headed by Anil Chandra Punetha.",
+    "te": "II తప్పు: పురపాలక ఎన్నికలను రాష్ట్ర ఎన్నికల సంఘం (ఆర్టి. 243ZA) నిర్వహిస్తుంది — ఇక్కడ కమిషనర్ అనిల్ చంద్ర పునేఠ."
+   }
+  },
+  {
+   "topic": "ulbpoll",
+   "q": {
+    "en": "Match List-I with List-II:",
+    "te": "జాబితా-Iను జాబితా-IIతో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "List-I: A. Article 243K  B. Article 243ZA  C. Article 243U  D. Article 243Q",
+     "te": "జాబితా-I: A. ఆర్టికల్ 243K  B. ఆర్టికల్ 243ZA  C. ఆర్టికల్ 243U  D. ఆర్టికల్ 243Q"
+    },
+    {
+     "en": "List-II: 1. Five-year term of municipalities  2. SEC for panchayats  3. Three types of municipalities  4. SEC for municipalities",
+     "te": "జాబితా-II: 1. పురపాలికల ఐదేళ్ల పదవీకాలం  2. పంచాయతీలకు SEC  3. మూడు రకాల పురపాలికలు  4. పురపాలికలకు SEC"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-2, B-4, C-3, D-1",
+     "te": "A-2, B-4, C-3, D-1"
+    },
+    {
+     "en": "A-4, B-2, C-1, D-3",
+     "te": "A-4, B-2, C-1, D-3"
+    },
+    {
+     "en": "A-2, B-1, C-4, D-3",
+     "te": "A-2, B-1, C-4, D-3"
+    },
+    {
+     "en": "A-2, B-4, C-1, D-3",
+     "te": "A-2, B-4, C-1, D-3"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "243K = SEC (panchayats); 243ZA = SEC (municipalities); 243U = 5-year term; 243Q = nagar panchayat / municipal council / municipal corporation.",
+    "te": "243K = SEC (పంచాయతీలు); 243ZA = SEC (పురపాలికలు); 243U = 5 ఏళ్ల పదవీకాలం; 243Q = నగర పంచాయతీ / పురపాలక మండలి / నగరపాలక సంస్థ."
+   }
+  },
+  {
+   "topic": "dpdp",
+   "q": {
+    "en": "With reference to the challenge to the Digital Personal Data Protection Act, 2023, consider the following statements:",
+    "te": "డిజిటల్ వ్యక్తిగత డేటా పరిరక్షణ చట్టం, 2023పై సవాలుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The Digital News Publishers Association has sought an exemption for journalistic activities.",
+     "te": "I. జర్నలిస్టిక్ కార్యకలాపాలకు మినహాయింపు కావాలని డిజిటల్ న్యూస్ పబ్లిషర్స్ అసోసియేషన్ కోరింది."
+    },
+    {
+     "en": "II. On 27 October 2026, the Supreme Court stayed Section 44(3) of the Act.",
+     "te": "II. 2026 అక్టోబర్ 27న చట్టం సెక్షన్ 44(3)పై సుప్రీంకోర్టు స్టే ఇచ్చింది."
+    },
+    {
+     "en": "III. The amendment to RTI Section 8(1)(j) came into force on 13 November 2025.",
+     "te": "III. RTI సెక్షన్ 8(1)(j) సవరణ 2025 నవంబర్ 13 నుంచి అమల్లోకి వచ్చింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is wrong: the Court only issued notice to the Centre (next hearing 17 Nov); it had refused a stay earlier, in February 2026.",
+    "te": "II తప్పు: కోర్టు కేంద్రానికి నోటీసు మాత్రమే ఇచ్చింది (తదుపరి విచారణ నవం 17); ఫిబ్రవరి 2026లోనే స్టేకు నిరాకరించింది."
+   }
+  },
+  {
+   "topic": "dpdp",
+   "q": {
+    "en": "Match List-I with List-II:",
+    "te": "జాబితా-Iను జాబితా-IIతో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "List-I: A. RTI Act Section 8(2)  B. DPDP Act Section 18  C. Puttaswamy case (2017)  D. DPDP Act Section 44(3)",
+     "te": "జాబితా-I: A. RTI సెక్షన్ 8(2)  B. DPDP సెక్షన్ 18  C. పుట్టస్వామి కేసు (2017)  D. DPDP సెక్షన్ 44(3)"
+    },
+    {
+     "en": "List-II: 1. Data Protection Board of India  2. Amends RTI Section 8(1)(j)  3. Public-interest override  4. Privacy a fundamental right",
+     "te": "జాబితా-II: 1. డేటా ప్రొటెక్షన్ బోర్డ్ ఆఫ్ ఇండియా  2. RTI సెక్షన్ 8(1)(j) సవరణ  3. ప్రజాప్రయోజన ప్రాధాన్యం  4. గోప్యత ప్రాథమిక హక్కు"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-1, B-3, C-4, D-2",
+     "te": "A-1, B-3, C-4, D-2"
+    },
+    {
+     "en": "A-3, B-1, C-2, D-4",
+     "te": "A-3, B-1, C-2, D-4"
+    },
+    {
+     "en": "A-3, B-1, C-4, D-2",
+     "te": "A-3, B-1, C-4, D-2"
+    },
+    {
+     "en": "A-3, B-4, C-1, D-2",
+     "te": "A-3, B-4, C-1, D-2"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "8(2) = public-interest override; Section 18 = Data Protection Board; Puttaswamy = privacy under Article 21; 44(3) = amends 8(1)(j).",
+    "te": "8(2) = ప్రజాప్రయోజన ప్రాధాన్యం; సెక్షన్ 18 = డేటా ప్రొటెక్షన్ బోర్డ్; పుట్టస్వామి = ఆర్టికల్ 21 కింద గోప్యత; 44(3) = 8(1)(j) సవరణ."
+   }
+  }
+ ]
+}
