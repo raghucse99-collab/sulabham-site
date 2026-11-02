@@ -1,0 +1,1738 @@
+{
+ "date": "2026-11-02",
+ "day": {
+  "en": "Monday, 2 November 2026",
+  "te": "సోమవారం, 2 నవంబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "surge",
+   "cat": "ap",
+   "title": {
+    "en": "Severe Cyclone Murasu crosses the coast tonight south of Ongole; IMD warns of a 1–1.5 m storm surge",
+    "te": "తీవ్ర తుపాను 'మురసు' ఈ రాత్రి ఒంగోలుకు దక్షిణంగా తీరం దాటే అవకాశం; 1–1.5 మీ. ఉప్పెన హెచ్చరిక"
+   },
+   "pts": [
+    {
+     "en": "At 2:30 pm on 2 November the severe cyclonic storm was about 100 km east of Nellore, 160 km south-east of Ongole and 210 km south of Machilipatnam. Its speed slowed to about 10 km/h.",
+     "te": "నవంబర్ 2 మ. 2:30కు తీవ్ర తుపాను నెల్లూరుకు తూర్పుగా సుమారు 100 కి.మీ., ఒంగోలుకు ఆగ్నేయంగా 160 కి.మీ., మచిలీపట్నానికి దక్షిణంగా 210 కి.మీ. దూరంలో ఉంది. వేగం గంటకు సుమారు 10 కి.మీ.కి తగ్గింది."
+    },
+    {
+     "en": "Storm surge = sea water pushed onto land by the cyclone's strong winds and low pressure. IMD expects a surge of 1 to 1.5 metres; sea water may enter up to 330 m inland in Ongole mandal and 190 m in Bapatla mandal.",
+     "te": "ఉప్పెన (Storm surge) = తుపాను బలమైన గాలులు, అల్పపీడనం వల్ల సముద్రపు నీరు భూమిపైకి రావడం. 1–1.5 మీటర్ల ఉప్పెన రావచ్చని IMD అంచనా; ఒంగోలు మండలంలో 330 మీ., బాపట్ల మండలంలో 190 మీ. లోపలికి సముద్రపు నీరు రావచ్చు."
+    },
+    {
+     "en": "Bapatla, Prakasam and Krishna districts face the most surge risk; precautionary evacuation began in five districts. Nine NDRF teams were sent to East Godavari, West Godavari, Kakinada, Krishna, Bapatla and Nellore.",
+     "te": "ఉప్పెన ముప్పు బాపట్ల, ప్రకాశం, కృష్ణా జిల్లాలకు ఎక్కువ; ఐదు జిల్లాల్లో ముందు జాగ్రత్త తరలింపు మొదలైంది. తూర్పు గోదావరి, పశ్చిమ గోదావరి, కాకినాడ, కృష్ణా, బాపట్ల, నెల్లూరుకు 9 NDRF బృందాలను పంపారు."
+    },
+    {
+     "en": "Winds of 100–110 km/h gusting to 120 km/h are expected at landfall (11:30 pm on 2 Nov – 4 am on 3 Nov). After landfall it should weaken into a depression and move north-west towards Telangana.",
+     "te": "తీరం దాటే సమయంలో (నవం 2 రాత్రి 11:30 – నవం 3 తెల్లవారుజాము 4) గంటకు 100–110 కి.మీ., గరిష్ఠం 120 కి.మీ. గాలులు. తీరం దాటాక వాయుగుండంగా బలహీనపడి వాయవ్యంగా తెలంగాణ వైపు కదలవచ్చు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Landfall zone",
+      "te": "తీరం దాటే ప్రాంతం"
+     },
+     {
+      "en": "South of Ongole (Nellore–Narsapur stretch)",
+      "te": "ఒంగోలుకు దక్షిణం (నెల్లూరు–నర్సాపురం మధ్య)"
+     }
+    ],
+    [
+     {
+      "en": "Storm surge",
+      "te": "ఉప్పెన"
+     },
+     {
+      "en": "1–1.5 m; most risk: Bapatla, Prakasam, Krishna",
+      "te": "1–1.5 మీ.; ఎక్కువ ముప్పు: బాపట్ల, ప్రకాశం, కృష్ణా"
+     }
+    ],
+    [
+     {
+      "en": "NDRF teams",
+      "te": "NDRF బృందాలు"
+     },
+     {
+      "en": "9 teams in 6 districts",
+      "te": "6 జిల్లాల్లో 9 బృందాలు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Concept trap: a storm surge is caused by a cyclone's wind and low pressure — not by an earthquake (that is a tsunami). NDRF was created under the Disaster Management Act, 2005.",
+    "te": "కాన్సెప్ట్ ట్రాప్: ఉప్పెనకు కారణం తుపాను గాలులు, అల్పపీడనం — భూకంపం కాదు (భూకంపం వల్ల వచ్చేది సునామీ). NDRF విపత్తు నిర్వహణ చట్టం, 2005 కింద ఏర్పడింది."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": [
+      77.5,
+      12.5,
+      84.5,
+      17.5
+     ],
+     "h": {
+      "en": "Murasu at 2:30 pm, 2 Nov",
+      "te": "నవం 2 మ. 2:30కు మురసు"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#1d4f91",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        14.5,
+        80.9
+       ],
+       "t": {
+        "en": "Murasu",
+        "te": "మురసు"
+       }
+      },
+      {
+       "ll": [
+        14.44,
+        79.99
+       ],
+       "t": {
+        "en": "Nellore",
+        "te": "నెల్లూరు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        15.5,
+        80.05
+       ],
+       "t": {
+        "en": "Ongole",
+        "te": "ఒంగోలు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        15.9,
+        80.47
+       ],
+       "t": {
+        "en": "Bapatla",
+        "te": "బాపట్ల"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.19,
+        81.14
+       ],
+       "t": {
+        "en": "Machilipatnam",
+        "te": "మచిలీపట్నం"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         14.5,
+         80.9
+        ],
+        [
+         15.2,
+         80.2
+        ]
+       ],
+       "dash": 1,
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "Dashed arrow = expected landfall south of Ongole. Surge risk is highest on the Bapatla–Prakasam–Krishna coast.",
+      "te": "చుక్కల బాణం = ఒంగోలుకు దక్షిణంగా తీరం దాటే అంచనా. ఉప్పెన ముప్పు బాపట్ల–ప్రకాశం–కృష్ణా తీరంలో ఎక్కువ."
+     },
+     "src": "cards/cad/2026-11-02/map-surge-1-{m}.svg"
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How a storm surge happens",
+      "te": "ఉప్పెన ఎలా వస్తుంది"
+     },
+     "items": [
+      {
+       "i": "🌀",
+       "t": {
+        "en": "Very low pressure at the cyclone centre",
+        "te": "తుపాను కేంద్రంలో తీవ్ర అల్పపీడనం"
+       }
+      },
+      {
+       "i": "💨",
+       "t": {
+        "en": "Strong winds push sea water towards the coast",
+        "te": "బలమైన గాలులు సముద్రపు నీటిని తీరం వైపు నెడతాయి"
+       }
+      },
+      {
+       "i": "🌊",
+       "t": {
+        "en": "Sea level rises 1–1.5 m at landfall",
+        "te": "తీరం దాటేటప్పుడు సముద్ర మట్టం 1–1.5 మీ. పెరుగుతుంది"
+       }
+      },
+      {
+       "i": "🏘️",
+       "t": {
+        "en": "Low-lying coastal villages flood",
+        "te": "లోతట్టు తీర గ్రామాలు మునుగుతాయి"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Down To Earth — Cyclone Murasu: IMD warns of storm surges up to 1.5 metres, 2 Nov 2026",
+     "u": "https://www.downtoearth.org.in/climate-change/cyclone-murasu-races-across-bay-of-bengal-imd-warns-of-storm-surges-up-to-15-metres"
+    },
+    {
+     "t": "ETV Bharat (Telugu) — AP live news updates, 2 Nov 2026",
+     "u": "https://www.etvbharat.com/te/state/live-blog--2nd-november-2026-news-today-ap-live-news-updates-telugu-breaking-news-andhra-pradesh-top-news-aps26110200364"
+    },
+    {
+     "t": "All India Radio — Severe Cyclonic Storm 'Murasu' to hit south AP coast tonight, 2 Nov 2026",
+     "u": "https://newsonair.gov.in/deep-depression-over-bay-of-bengal-intensifies-into-cyclonic-storm-murasu-likely-to-make-landfall-along-ap-coast-tomorrow/"
+    }
+   ]
+  },
+  {
+   "id": "mptc",
+   "cat": "ap",
+   "title": {
+    "en": "AP rural local body polls on 5 November: 9,829 MPTC and 659 ZPTC seats; counting on 7 November",
+    "te": "నవంబర్ 5న ఏపీ గ్రామీణ స్థానిక ఎన్నికలు: 9,829 ఎంపీటీసీ, 659 జెడ్పీటీసీ స్థానాలు; నవంబర్ 7న లెక్కింపు"
+   },
+   "pts": [
+    {
+     "en": "The AP State Election Commission moved MPTC/ZPTC polling from 3 November to 5 November, because counting of the urban local body (ULB) polls is on 3 November and police and poll staff were needed there.",
+     "te": "పట్టణ స్థానిక సంస్థల (ULB) ఓట్ల లెక్కింపు నవంబర్ 3న ఉండటంతో, పోలీసు–ఎన్నికల సిబ్బంది అవసరం దృష్ట్యా ఏపీ రాష్ట్ర ఎన్నికల సంఘం ఎంపీటీసీ/జెడ్పీటీసీ పోలింగ్‌ను నవంబర్ 3 నుంచి 5కు మార్చింది."
+    },
+    {
+     "en": "Schedule: polling 5 Nov (7 am–5 pm), re-poll if needed 6 Nov, counting from 8 am on 7 Nov. At 88 polling stations in Alluri Sitarama Raju and Polavaram districts polling ends at 3 pm.",
+     "te": "షెడ్యూల్: పోలింగ్ నవం 5 (ఉ. 7 – సా. 5), అవసరమైతే రీపోలింగ్ నవం 6, లెక్కింపు నవం 7 ఉ. 8 నుంచి. అల్లూరి సీతారామరాజు, పోలవరం జిల్లాల్లోని 88 పోలింగ్ కేంద్రాల్లో మ. 3కే పోలింగ్ ముగుస్తుంది."
+    },
+    {
+     "en": "Final lists: 46,045 nominations for 9,829 MPTC seats in 28 districts and 4,770 nominations for 659 ZPTC seats. The government declared holidays on 4 and 5 November.",
+     "te": "తుది జాబితా: 28 జిల్లాల్లో 9,829 ఎంపీటీసీ స్థానాలకు 46,045 నామినేషన్లు; 659 జెడ్పీటీసీ స్థానాలకు 4,770 నామినేషన్లు. నవంబర్ 4, 5 తేదీల్లో ప్రభుత్వం సెలవులు ప్రకటించింది."
+    },
+    {
+     "en": "MPTC = member of the Mandal Parishad (middle tier); ZPTC = member of the Zilla Parishad (district tier). These are two of the three tiers of Panchayati Raj created by the 73rd Amendment (Part IX).",
+     "te": "ఎంపీటీసీ = మండల పరిషత్ (మధ్య అంచె) సభ్యుడు; జెడ్పీటీసీ = జిల్లా పరిషత్ (జిల్లా అంచె) సభ్యుడు. 73వ సవరణ (భాగం IX) ఏర్పాటు చేసిన మూడంచెల పంచాయతీరాజ్‌లో ఇవి రెండు అంచెలు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Polling / Counting",
+      "te": "పోలింగ్ / లెక్కింపు"
+     },
+     {
+      "en": "5 Nov / 7 Nov 2026",
+      "te": "నవం 5 / నవం 7, 2026"
+     }
+    ],
+    [
+     {
+      "en": "Seats",
+      "te": "స్థానాలు"
+     },
+     {
+      "en": "9,829 MPTC · 659 ZPTC",
+      "te": "9,829 ఎంపీటీసీ · 659 జెడ్పీటీసీ"
+     }
+    ],
+    [
+     {
+      "en": "State Election Commissioner",
+      "te": "రాష్ట్ర ఎన్నికల కమిషనర్"
+     },
+     {
+      "en": "Anil Chandra Punetha",
+      "te": "అనిల్ చంద్ర పునేఠా"
+     }
+    ],
+    [
+     {
+      "en": "Constitution",
+      "te": "రాజ్యాంగం"
+     },
+     {
+      "en": "Art. 243K — SEC conducts panchayat polls",
+      "te": "ఆర్టికల్ 243K — పంచాయతీ ఎన్నికలు SEC నిర్వహిస్తుంది"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: panchayat and municipal elections are held by the State Election Commission (Art. 243K / 243ZA), NOT by the Election Commission of India (Art. 324). The SEC is appointed by the Governor.",
+    "te": "ట్రాప్: పంచాయతీ, మున్సిపల్ ఎన్నికలను నిర్వహించేది రాష్ట్ర ఎన్నికల సంఘం (ఆర్టి. 243K / 243ZA) — భారత ఎన్నికల సంఘం (ఆర్టి. 324) కాదు. SECని గవర్నర్ నియమిస్తారు."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "Three tiers of Panchayati Raj in AP",
+      "te": "ఏపీలో మూడంచెల పంచాయతీరాజ్"
+     },
+     "items": [
+      {
+       "i": "🏡",
+       "t": {
+        "en": "Gram Panchayat — village (Sarpanch, ward members)",
+        "te": "గ్రామ పంచాయతీ — గ్రామం (సర్పంచ్, వార్డు సభ్యులు)"
+       }
+      },
+      {
+       "i": "🏢",
+       "t": {
+        "en": "Mandal Parishad — MPTC members (poll on 5 Nov)",
+        "te": "మండల పరిషత్ — ఎంపీటీసీలు (నవం 5 పోలింగ్)"
+       }
+      },
+      {
+       "i": "🏛️",
+       "t": {
+        "en": "Zilla Parishad — ZPTC members (poll on 5 Nov)",
+        "te": "జిల్లా పరిషత్ — జెడ్పీటీసీలు (నవం 5 పోలింగ్)"
+       }
+      }
+     ]
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "Seats vs nominations",
+      "te": "స్థానాలు vs నామినేషన్లు"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "MPTC nominations",
+        "te": "ఎంపీటీసీ నామినేషన్లు"
+       },
+       "v": 46045,
+       "vl": "46,045"
+      },
+      {
+       "t": {
+        "en": "MPTC seats",
+        "te": "ఎంపీటీసీ స్థానాలు"
+       },
+       "v": 9829,
+       "vl": "9,829"
+      },
+      {
+       "t": {
+        "en": "ZPTC nominations",
+        "te": "జెడ్పీటీసీ నామినేషన్లు"
+       },
+       "v": 4770,
+       "vl": "4,770"
+      },
+      {
+       "t": {
+        "en": "ZPTC seats",
+        "te": "జెడ్పీటీసీ స్థానాలు"
+       },
+       "v": 659,
+       "vl": "659"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Deccan Chronicle — MPTC, ZPTC Elections: AP Govt declares holidays on November 4 & 5, 2 Nov 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/mptc-zptc-elections-ap-govt-declares-holidays-on-november-4-5-2001026"
+    },
+    {
+     "t": "The South First — AP MPTC, ZPTC poll schedule revised: polling on 5 Nov, counting on 7 Nov, 28 Oct 2026",
+     "u": "https://thesouthfirst.com/andhrapradesh/ap-mptc-zptc-poll-schedule-revised-polling-on-5-november-counting-on-7-november/"
+    }
+   ]
+  },
+  {
+   "id": "rail",
+   "cat": "economy",
+   "title": {
+    "en": "Bengaluru–Mumbai Vande Bharat Sleeper starts (stops at Anantapur, Guntakal); design of India's own bullet train 'B28' ready",
+    "te": "బెంగళూరు–ముంబై వందే భారత్ స్లీపర్ ప్రారంభం (అనంతపురం, గుంతకల్లులో ఆగుతుంది); స్వదేశీ బుల్లెట్ రైలు 'B28' డిజైన్ సిద్ధం"
+   },
+   "pts": [
+    {
+     "en": "Railway Minister Ashwini Vaishnaw flagged off the Bengaluru–Mumbai Vande Bharat Sleeper Express on 1 November; PM Modi called it a game changer for connectivity. It has 16 coaches and takes about 16 hours overnight.",
+     "te": "బెంగళూరు–ముంబై వందే భారత్ స్లీపర్ ఎక్స్‌ప్రెస్‌ను రైల్వే మంత్రి అశ్వినీ వైష్ణవ్ నవంబర్ 1న జెండా ఊపి ప్రారంభించారు; అనుసంధానానికి ఇది గేమ్ ఛేంజర్ అని ప్రధాని మోదీ అన్నారు. 16 కోచ్‌లు, రాత్రిపూట సుమారు 16 గంటల ప్రయాణం."
+    },
+    {
+     "en": "Train 27652 leaves SMVT Bengaluru at 7:45 pm and reaches CSMT Mumbai at 11:55 am. Stops: Anantapur, Guntakal (AP), Raichur, Yadgir, Kalaburagi, Solapur, Pune, Kalyan — it crosses AP, Karnataka and Maharashtra.",
+     "te": "రైలు 27652 బెంగళూరు SMVT నుంచి రా. 7:45కు బయలుదేరి ముంబై CSMTకి ఉ. 11:55కు చేరుతుంది. హాల్టులు: అనంతపురం, గుంతకల్లు (ఏపీ), రాయచూర్, యాద్గిర్, కలబురగి, సోలాపూర్, పుణె, కళ్యాణ్ — ఏపీ, కర్ణాటక, మహారాష్ట్ర గుండా వెళ్తుంది."
+    },
+    {
+     "en": "Same day, at BEML in Bengaluru, Vaishnaw said the design of India's first Swadeshi bullet train, 'B28', is ready. It is built by a BEML-led consortium for 280–350 km/h, for the Mumbai–Ahmedabad High-Speed Rail corridor; the first prototype may roll out early in 2027.",
+     "te": "అదే రోజు బెంగళూరులోని BEMLలో, భారత తొలి స్వదేశీ బుల్లెట్ రైలు 'B28' డిజైన్ సిద్ధమైందని వైష్ణవ్ తెలిపారు. BEML నేతృత్వంలోని కన్సార్టియం దీనిని గంటకు 280–350 కి.మీ. వేగం కోసం ముంబై–అహ్మదాబాద్ హై-స్పీడ్ రైల్ కారిడార్ కోసం తయారు చేస్తోంది; తొలి నమూనా 2027 ప్రారంభంలో రావచ్చు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Train numbers",
+      "te": "రైలు నంబర్లు"
+     },
+     {
+      "en": "27652 (BLR→Mumbai) · 27651 (Mumbai→BLR)",
+      "te": "27652 (బెంగళూరు→ముంబై) · 27651 (ముంబై→బెంగళూరు)"
+     }
+    ],
+    [
+     {
+      "en": "AP stops",
+      "te": "ఏపీ హాల్టులు"
+     },
+     {
+      "en": "Anantapur, Guntakal",
+      "te": "అనంతపురం, గుంతకల్లు"
+     }
+    ],
+    [
+     {
+      "en": "B28 speed",
+      "te": "B28 వేగం"
+     },
+     {
+      "en": "280–350 km/h (BEML-led consortium)",
+      "te": "గం. 280–350 కి.మీ. (BEML కన్సార్టియం)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Don't mix up: Vande Bharat Sleeper = overnight semi-high-speed train on existing tracks; B28 = Swadeshi high-speed (bullet) train for the separate Mumbai–Ahmedabad HSR corridor.",
+    "te": "కలపవద్దు: వందే భారత్ స్లీపర్ = ఇప్పటి పట్టాలపై రాత్రి ప్రయాణ సెమీ హై-స్పీడ్ రైలు; B28 = ప్రత్యేక ముంబై–అహ్మదాబాద్ HSR కారిడార్ కోసం స్వదేశీ హై-స్పీడ్ (బుల్లెట్) రైలు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": [
+      71.5,
+      11.8,
+      80.5,
+      20.0
+     ],
+     "h": {
+      "en": "Bengaluru–Mumbai Vande Bharat Sleeper route",
+      "te": "బెంగళూరు–ముంబై వందే భారత్ స్లీపర్ మార్గం"
+     },
+     "hl": [
+      "Andhra Pradesh",
+      "Karnataka",
+      "Maharashtra"
+     ],
+     "hlc": "#a86b00",
+     "pts": [
+      {
+       "ll": [
+        12.97,
+        77.59
+       ],
+       "t": {
+        "en": "Bengaluru",
+        "te": "బెంగళూరు"
+       }
+      },
+      {
+       "ll": [
+        14.68,
+        77.6
+       ],
+       "t": {
+        "en": "Anantapur",
+        "te": "అనంతపురం"
+       }
+      },
+      {
+       "ll": [
+        15.17,
+        77.37
+       ],
+       "t": {
+        "en": "Guntakal",
+        "te": "గుంతకల్లు"
+       }
+      },
+      {
+       "ll": [
+        17.33,
+        76.83
+       ],
+       "t": {
+        "en": "Kalaburagi",
+        "te": "కలబురగి"
+       }
+      },
+      {
+       "ll": [
+        18.52,
+        73.86
+       ],
+       "t": {
+        "en": "Pune",
+        "te": "పుణె"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        18.94,
+        72.84
+       ],
+       "t": {
+        "en": "Mumbai",
+        "te": "ముంబై"
+       },
+       "a": "l"
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         12.97,
+         77.59
+        ],
+        [
+         14.68,
+         77.6
+        ],
+        [
+         15.17,
+         77.37
+        ],
+        [
+         16.2,
+         77.36
+        ],
+        [
+         17.33,
+         76.83
+        ],
+        [
+         17.66,
+         75.91
+        ],
+        [
+         18.52,
+         73.86
+        ],
+        [
+         19.24,
+         73.13
+        ],
+        [
+         18.94,
+         72.84
+        ]
+       ],
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "The route enters AP at Anantapur and Guntakal before going to Karnataka (Raichur) and Maharashtra (Solapur, Pune).",
+      "te": "మార్గం ఏపీలో అనంతపురం, గుంతకల్లు మీదుగా కర్ణాటక (రాయచూర్), మహారాష్ట్ర (సోలాపూర్, పుణె) చేరుతుంది."
+     },
+     "src": "cards/cad/2026-11-02/map-rail-1-{m}.svg"
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Two trains, two purposes",
+      "te": "రెండు రైళ్లు, రెండు లక్ష్యాలు"
+     },
+     "a": {
+      "h": {
+       "en": "🛏️ Vande Bharat Sleeper",
+       "te": "🛏️ వందే భారత్ స్లీపర్"
+      },
+      "l": [
+       {
+        "en": "Running now (1 Nov 2026)",
+        "te": "ఇప్పుడే నడుస్తోంది (నవం 1, 2026)"
+       },
+       {
+        "en": "Bengaluru–Mumbai, ~16 h",
+        "te": "బెంగళూరు–ముంబై, ~16 గం."
+       },
+       {
+        "en": "16 coaches, overnight",
+        "te": "16 కోచ్‌లు, రాత్రి ప్రయాణం"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "🚄 B28 bullet train",
+       "te": "🚄 B28 బుల్లెట్ రైలు"
+      },
+      "l": [
+       {
+        "en": "Design ready; prototype early 2027",
+        "te": "డిజైన్ సిద్ధం; నమూనా 2027 ప్రారంభం"
+       },
+       {
+        "en": "Mumbai–Ahmedabad HSR",
+        "te": "ముంబై–అహ్మదాబాద్ HSR"
+       },
+       {
+        "en": "280–350 km/h, BEML-led",
+        "te": "గం. 280–350 కి.మీ., BEML"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Business Today — Bengaluru–Mumbai in 16 hours: Vande Bharat Sleeper begins service, 2 Nov 2026",
+     "u": "https://www.businesstoday.in/amp/latest/photo/bengaluru-mumbai-in-16-hours-vande-bharat-sleeper-begins-service-check-timings-and-stops-565172-2026-11-02"
+    },
+    {
+     "t": "All India Radio — PM Modi hails Bengaluru–Mumbai Vande Bharat Sleeper Train, 1 Nov 2026",
+     "u": "https://newsonair.gov.in/pm-modi-hails-bengaluru-mumbai-vande-bharat-sleeper-train-as-game-changer-for-connectivity/"
+    },
+    {
+     "t": "All India Radio — India's first Swadeshi bullet train design ready: Ashwini Vaishnaw, 1 Nov 2026",
+     "u": "https://newsonair.gov.in/indias-first-swadeshi-bullet-train-design-ready-ashwini-vaishnaw/"
+    }
+   ]
+  },
+  {
+   "id": "pmi",
+   "cat": "economy",
+   "title": {
+    "en": "Manufacturing PMI eases to 54.7 in October; export orders grow at a six-month high",
+    "te": "అక్టోబర్‌లో తయారీ PMI 54.7కు స్వల్ప తగ్గుదల; ఎగుమతి ఆర్డర్లు ఆరు నెలల గరిష్ఠం"
+   },
+   "pts": [
+    {
+     "en": "PMI (Purchasing Managers' Index) is a monthly survey of company purchase managers. Above 50 = activity is expanding; below 50 = shrinking.",
+     "te": "PMI (పర్చేజింగ్ మేనేజర్స్ ఇండెక్స్) = కంపెనీల కొనుగోలు మేనేజర్లపై నెలవారీ సర్వే. 50 పైన = కార్యకలాపాలు విస్తరిస్తున్నాయి; 50 కింద = తగ్గుతున్నాయి."
+    },
+    {
+     "en": "The HSBC India Manufacturing PMI, compiled by S&P Global and released on 2 November, fell slightly to 54.7 in October from 55.1 in September — still well above 50 and its long-run average.",
+     "te": "S&P Global రూపొందించి నవంబర్ 2న విడుదల చేసిన HSBC ఇండియా తయారీ PMI సెప్టెంబర్‌లోని 55.1 నుంచి అక్టోబర్‌లో 54.7కు స్వల్పంగా తగ్గింది — అయినా 50కి, దీర్ఘకాల సగటుకు బాగా పైనే."
+    },
+    {
+     "en": "New export orders grew at the fastest pace in six months (demand from the US, UK, UAE, Saudi Arabia and others). Input cost inflation was the lowest since February and selling-price rise the weakest in nearly four years.",
+     "te": "కొత్త ఎగుమతి ఆర్డర్లు ఆరు నెలల్లో వేగంగా పెరిగాయి (అమెరికా, బ్రిటన్, యూఏఈ, సౌదీ తదితర దేశాల డిమాండ్). ముడిసరుకు వ్యయ ద్రవ్యోల్బణం ఫిబ్రవరి తర్వాత కనిష్ఠం; అమ్మకపు ధరల పెరుగుదల దాదాపు నాలుగేళ్లలో అతి తక్కువ."
+    },
+    {
+     "en": "Business confidence weakened and is below its long-run average; hiring rose only marginally.",
+     "te": "వ్యాపార విశ్వాసం తగ్గి దీర్ఘకాల సగటు కంటే దిగువన ఉంది; ఉద్యోగ నియామకాలు స్వల్పంగానే పెరిగాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "October 2026 PMI",
+      "te": "అక్టోబర్ 2026 PMI"
+     },
+     {
+      "en": "54.7 (Sept: 55.1)",
+      "te": "54.7 (సెప్టెం: 55.1)"
+     }
+    ],
+    [
+     {
+      "en": "Compiled by",
+      "te": "రూపొందించేది"
+     },
+     {
+      "en": "S&P Global (sponsor: HSBC)",
+      "te": "S&P Global (స్పాన్సర్: HSBC)"
+     }
+    ],
+    [
+     {
+      "en": "Expansion line",
+      "te": "విస్తరణ రేఖ"
+     },
+     {
+      "en": "50",
+      "te": "50"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: a fall from 55.1 to 54.7 is slower growth, NOT contraction — only a reading below 50 means contraction. PMI is a private survey (S&P Global), unlike IIP, which is released by NSO (MoSPI).",
+    "te": "ట్రాప్: 55.1 నుంచి 54.7కు తగ్గడం అంటే వృద్ధి వేగం తగ్గడం మాత్రమే, సంకోచం కాదు — 50 కంటే తక్కువైతేనే సంకోచం. PMI ప్రైవేట్ సర్వే (S&P Global); IIPని విడుదల చేసేది NSO (MoSPI)."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Manufacturing PMI (50 = no change)",
+      "te": "తయారీ PMI (50 = మార్పు లేదు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "September 2026",
+        "te": "సెప్టెంబర్ 2026"
+       },
+       "v": 55.1,
+       "vl": "55.1"
+      },
+      {
+       "t": {
+        "en": "October 2026",
+        "te": "అక్టోబర్ 2026"
+       },
+       "v": 54.7,
+       "vl": "54.7"
+      },
+      {
+       "t": {
+        "en": "Expansion line",
+        "te": "విస్తరణ రేఖ"
+       },
+       "v": 50,
+       "vl": "50"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Tribune (ANI) — India's manufacturing PMI eases to 54.7 in October, export orders hit six-month high, 2 Nov 2026",
+     "u": "https://www.tribuneindia.com/news/business/indias-manufacturing-pmi-eases-to-54-7-in-october-export-orders-hit-six-month-high"
+    },
+    {
+     "t": "Business Standard — Manufacturing PMI eases to 54.7 in October despite strong export demand, 2 Nov 2026",
+     "u": "https://www.business-standard.com/amp/economy/news/manufacturing-pmi-eases-to-54-7-in-october-despite-strong-export-demand-126110200290_1.html"
+    }
+   ]
+  },
+  {
+   "id": "epfo",
+   "cat": "schemes",
+   "title": {
+    "en": "EPFO marks its 74th Foundation Day: over 8 crore members and a ₹32 lakh crore corpus",
+    "te": "EPFO 74వ వ్యవస్థాపక దినోత్సవం: 8 కోట్లకు పైగా సభ్యులు, ₹32 లక్షల కోట్ల నిధి"
+   },
+   "pts": [
+    {
+     "en": "The Employees' Provident Fund Organisation (EPFO) celebrated its 74th Foundation Day in New Delhi on 1 November 2026. Labour & Employment Minister Mansukh Mandaviya presided.",
+     "te": "ఉద్యోగుల భవిష్య నిధి సంస్థ (EPFO) 74వ వ్యవస్థాపక దినోత్సవాన్ని నవంబర్ 1, 2026న న్యూఢిల్లీలో జరుపుకుంది. కార్మిక–ఉపాధి శాఖ మంత్రి మన్‌సుఖ్ మాండవీయ అధ్యక్షత వహించారు."
+    },
+    {
+     "en": "EPFO now has more than 8 crore members and a corpus of about ₹32 lakh crore built from members' contributions. The Minister asked officials to focus on worker welfare up to the 'last mile'.",
+     "te": "EPFOకు ఇప్పుడు 8 కోట్లకు పైగా సభ్యులు, సభ్యుల చందాలతో ఏర్పడిన సుమారు ₹32 లక్షల కోట్ల నిధి ఉన్నాయి. 'చివరి వ్యక్తి' వరకు కార్మిక సంక్షేమంపై దృష్టి పెట్టాలని మంత్రి సూచించారు."
+    },
+    {
+     "en": "Background: EPFO was set up under the Employees' Provident Funds & Miscellaneous Provisions Act, 1952. It runs three schemes — EPF (1952), EDLI (insurance, 1976) and EPS (pension, 1995). The Code on Social Security, 2020 (in force from 21 Nov 2025) now brings these laws together.",
+     "te": "నేపథ్యం: EPFO ఉద్యోగుల భవిష్య నిధి & ఇతర నిబంధనల చట్టం, 1952 కింద ఏర్పడింది. ఇది మూడు పథకాలు నడుపుతుంది — EPF (1952), EDLI (బీమా, 1976), EPS (పెన్షన్, 1995). సామాజిక భద్రతా స్మృతి, 2020 (21 నవం 2025 నుంచి అమల్లో) ఈ చట్టాలను ఒకచోటికి తెచ్చింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Founded",
+      "te": "ఏర్పాటు"
+     },
+     {
+      "en": "1952 (EPF & MP Act)",
+      "te": "1952 (EPF & MP చట్టం)"
+     }
+    ],
+    [
+     {
+      "en": "Members / corpus",
+      "te": "సభ్యులు / నిధి"
+     },
+     {
+      "en": "8 crore+ / ~₹32 lakh crore",
+      "te": "8 కోట్లు+ / ~₹32 లక్షల కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Ministry",
+      "te": "మంత్రిత్వ శాఖ"
+     },
+     {
+      "en": "Labour & Employment",
+      "te": "కార్మిక–ఉపాధి"
+     }
+    ],
+    [
+     {
+      "en": "CPFC",
+      "te": "కేంద్ర PF కమిషనర్"
+     },
+     {
+      "en": "Ramesh Krishnamurthi",
+      "te": "రమేష్ కృష్ణమూర్తి"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Order trap: EPF 1952 → EDLI 1976 → EPS 1995 → Code on Social Security 2020. EPFO is under the Labour Ministry, not the Finance Ministry; ESIC (health insurance, 1948 Act) is a different body.",
+    "te": "క్రమం ట్రాప్: EPF 1952 → EDLI 1976 → EPS 1995 → సామాజిక భద్రతా స్మృతి 2020. EPFO కార్మిక శాఖ కింద ఉంటుంది, ఆర్థిక శాఖ కింద కాదు; ESIC (ఆరోగ్య బీమా, 1948 చట్టం) వేరే సంస్థ."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "EPFO's journey",
+      "te": "EPFO ప్రయాణం"
+     },
+     "items": [
+      {
+       "y": "1952",
+       "t": {
+        "en": "EPF & MP Act; EPFO set up",
+        "te": "EPF & MP చట్టం; EPFO ఏర్పాటు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1976",
+       "t": {
+        "en": "EDLI — insurance scheme",
+        "te": "EDLI — బీమా పథకం"
+       }
+      },
+      {
+       "y": "1995",
+       "t": {
+        "en": "EPS — pension scheme",
+        "te": "EPS — పెన్షన్ పథకం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2020",
+       "t": {
+        "en": "Code on Social Security passed",
+        "te": "సామాజిక భద్రతా స్మృతి ఆమోదం"
+       }
+      },
+      {
+       "y": "2025",
+       "t": {
+        "en": "Code in force (21 Nov)",
+        "te": "స్మృతి అమల్లోకి (21 నవం)"
+       }
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "74th Foundation Day; 8 crore+ members",
+        "te": "74వ వ్యవస్థాపక దినం; 8 కోట్ల+ సభ్యులు"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = most-asked years.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే సంవత్సరాలు."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "All India Radio — EPFO celebrates 74th Foundation Day, highlights 74-year journey in social security, 1 Nov 2026",
+     "u": "https://newsonair.gov.in/epfo-celebrates-74th-foundation-day-highlights-74-year-journey-in-social-security/"
+    },
+    {
+     "t": "Legacy IAS — PIB summaries 01–02 Nov 2026 (cross-check: EPFO schemes, Code on Social Security)",
+     "u": "https://www.legacyias.com/pib-summaries-02-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "keralahc",
+   "cat": "polity",
+   "title": {
+    "en": "Kerala High Court turns 70; CJI Surya Kant flags rising 'urgent listing' requests to the Supreme Court",
+    "te": "కేరళ హైకోర్టుకు 70 ఏళ్లు; సుప్రీంకోర్టుకు పెరుగుతున్న 'అత్యవసర లిస్టింగ్' అభ్యర్థనలపై CJI సూర్యకాంత్ ఆందోళన"
+   },
+   "pts": [
+    {
+     "en": "CJI Surya Kant inaugurated the Platinum Jubilee (70 years) of the Kerala High Court in Kochi on 1 November 2026. The court was set up on 1 November 1956, along with the State of Kerala.",
+     "te": "కేరళ హైకోర్టు ప్లాటినం జూబ్లీ (70 ఏళ్లు)ని CJI సూర్యకాంత్ నవంబర్ 1, 2026న కొచ్చిలో ప్రారంభించారు. కేరళ రాష్ట్రంతో పాటు 1 నవంబర్ 1956న ఈ హైకోర్టు ఏర్పడింది."
+    },
+    {
+     "en": "He was concerned that many litigants rush to the Supreme Court for urgent hearing of cases still pending in High Courts. The SC respects High Courts' autonomy, including control over their own roster; he asked for transparent, predictable listing and use of technology to spot truly urgent cases.",
+     "te": "హైకోర్టుల్లో పెండింగ్‌లో ఉన్న కేసుల అత్యవసర విచారణ కోసం చాలామంది సుప్రీంకోర్టుకు వస్తున్నారని ఆయన ఆందోళన వ్యక్తం చేశారు. రోస్టర్‌పై నియంత్రణ సహా హైకోర్టుల స్వయంప్రతిపత్తిని సుప్రీంకోర్టు గౌరవిస్తుంది; పారదర్శక, ముందే తెలిసే లిస్టింగ్, నిజమైన అత్యవసర కేసులను గుర్తించేందుకు సాంకేతికత వాడాలన్నారు."
+    },
+    {
+     "en": "He credited the Kerala HC for inspiring more women in the judiciary — pioneers Justice Anna Chandy and Justice Fathima Beevi began there — and said he had persuaded bar bodies to ensure 30% representation for women members.",
+     "te": "న్యాయవ్యవస్థలో మహిళల ప్రాతినిధ్యం పెరగడానికి కేరళ హైకోర్టు స్ఫూర్తి అని ప్రశంసించారు — జస్టిస్ అన్నా చాందీ, జస్టిస్ ఫాతిమా బీవీ అక్కడి నుంచే మొదలయ్యారు — బార్ సంఘాల్లో మహిళలకు 30% ప్రాతినిధ్యం ఉండేలా ఒప్పించానన్నారు."
+    },
+    {
+     "en": "AP link: Andhra Pradesh was also formed on 1 November 1956 (States Reorganisation). Today the AP High Court sits at Amaravati (since 1 January 2019).",
+     "te": "ఏపీ లింక్: ఆంధ్రప్రదేశ్ కూడా 1 నవంబర్ 1956న (రాష్ట్రాల పునర్వ్యవస్థీకరణ) ఏర్పడింది. ప్రస్తుతం ఏపీ హైకోర్టు అమరావతిలో ఉంది (1 జనవరి 2019 నుంచి)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Kerala HC founded",
+      "te": "కేరళ హైకోర్టు ఏర్పాటు"
+     },
+     {
+      "en": "1 Nov 1956 (Kochi)",
+      "te": "1 నవం 1956 (కొచ్చి)"
+     }
+    ],
+    [
+     {
+      "en": "High Courts in India",
+      "te": "దేశంలో హైకోర్టులు"
+     },
+     {
+      "en": "25",
+      "te": "25"
+     }
+    ],
+    [
+     {
+      "en": "First woman SC judge",
+      "te": "తొలి మహిళా SC న్యాయమూర్తి"
+     },
+     {
+      "en": "Fathima Beevi (1989)",
+      "te": "ఫాతిమా బీవీ (1989)"
+     }
+    ],
+    [
+     {
+      "en": "Constitution",
+      "te": "రాజ్యాంగం"
+     },
+     {
+      "en": "Art. 214 (HC for each State), Art. 231 (common HC)",
+      "te": "ఆర్టి. 214 (ప్రతి రాష్ట్రానికి హైకోర్టు), ఆర్టి. 231 (ఉమ్మడి హైకోర్టు)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: Anna Chandy = first woman High Court judge in India (Kerala); Fathima Beevi = first woman Supreme Court judge (1989). The Chief Justice is the 'master of the roster' in each court.",
+    "te": "ట్రాప్: అన్నా చాందీ = దేశంలో తొలి మహిళా హైకోర్టు న్యాయమూర్తి (కేరళ); ఫాతిమా బీవీ = తొలి మహిళా సుప్రీంకోర్టు న్యాయమూర్తి (1989). ప్రతి కోర్టులో ప్రధాన న్యాయమూర్తే 'మాస్టర్ ఆఫ్ ది రోస్టర్'."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Kerala HC & AP — linked dates",
+      "te": "కేరళ హైకోర్టు & ఏపీ — ముడిపడిన తేదీలు"
+     },
+     "items": [
+      {
+       "y": "1956",
+       "t": {
+        "en": "1 Nov: Kerala State & HC formed; AP formed",
+        "te": "1 నవం: కేరళ రాష్ట్రం, హైకోర్టు; ఆంధ్రప్రదేశ్ ఏర్పాటు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1989",
+       "t": {
+        "en": "Fathima Beevi — first woman SC judge",
+        "te": "ఫాతిమా బీవీ — తొలి మహిళా SC న్యాయమూర్తి"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2019",
+       "t": {
+        "en": "AP High Court at Amaravati (1 Jan)",
+        "te": "అమరావతిలో ఏపీ హైకోర్టు (1 జన)"
+       }
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "Kerala HC Platinum Jubilee (1 Nov)",
+        "te": "కేరళ హైకోర్టు ప్లాటినం జూబ్లీ (1 నవం)"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "LiveLaw — Kerala High Court's example prompted SC to strive for more women representation: CJI Surya Kant, 1 Nov 2026",
+     "u": "https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-platinum-jubilee-556809"
+    },
+    {
+     "t": "Bar & Bench — Kerala High Court turns 70; CJI Surya Kant hails its contributions, 2 Nov 2026",
+     "u": "https://www.barandbench.com/news/litigation/kerala-high-court-turns-70-cji-surya-kant-hails-progressive-high-courts-contributions"
+    },
+    {
+     "t": "The CSR Journal — CJI Surya Kant calls for review of urgent case listing procedures, 1 Nov 2026",
+     "u": "https://thecsrjournal.in/chief-justice-surya-kant-calls-for-review-of-urgent-case-listing-procedures-amid-concerns-over-judicial-process-responsiveness-during-kerala-high-court-platinum-jubilee-celebrations"
+    }
+   ]
+  },
+  {
+   "id": "digiyatra",
+   "cat": "science",
+   "title": {
+    "en": "Digi Yatra goes international: e-passport based trials at seven airports for flights abroad",
+    "te": "అంతర్జాతీయ ప్రయాణాలకు డిజీ యాత్ర: ఏడు విమానాశ్రయాల్లో ఈ-పాస్‌పోర్ట్ ఆధారిత ట్రయల్స్"
+   },
+   "pts": [
+    {
+     "en": "Digi Yatra lets passengers pass airport checkpoints by face, without showing paper ID. Until now it was used for domestic flights. The Ministry of Civil Aviation has started trials for international passengers from November to December 2026.",
+     "te": "డిజీ యాత్రతో ప్రయాణికులు కాగితపు గుర్తింపు చూపకుండా ముఖం ఆధారంగా విమానాశ్రయ తనిఖీలు దాటవచ్చు. ఇప్పటివరకు దేశీయ విమానాలకే వాడారు. పౌర విమానయాన మంత్రిత్వ శాఖ నవంబర్–డిసెంబర్ 2026లో అంతర్జాతీయ ప్రయాణికులకు ట్రయల్స్ ప్రారంభించింది."
+    },
+    {
+     "en": "Airports: Delhi, Mumbai, Bengaluru, Hyderabad, Chennai, Cochin and Amritsar. Only Indian citizens with e-passports on select Air India and IndiGo international flights can join.",
+     "te": "విమానాశ్రయాలు: ఢిల్లీ, ముంబై, బెంగళూరు, హైదరాబాద్, చెన్నై, కొచ్చి, అమృత్‌సర్. ఎంపిక చేసిన ఎయిర్ ఇండియా, ఇండిగో అంతర్జాతీయ విమానాల్లో ఈ-పాస్‌పోర్ట్ ఉన్న భారత పౌరులకే అవకాశం."
+    },
+    {
+     "en": "How: in the Digi Yatra app the passenger scans the e-passport's machine-readable zone and reads its chip by NFC; a 'Verifiable Credential' is stored in the phone wallet and used at terminal entry, security and boarding gates.",
+     "te": "విధానం: డిజీ యాత్ర యాప్‌లో ఈ-పాస్‌పోర్ట్ మెషీన్ రీడబుల్ జోన్‌ను స్కాన్ చేసి, దాని చిప్‌ను NFC ద్వారా చదువుతారు; 'వెరిఫైయబుల్ క్రెడెన్షియల్' ఫోన్ వాలెట్‌లో నిల్వ అయి టెర్మినల్ ప్రవేశం, సెక్యూరిటీ, బోర్డింగ్ గేట్ల వద్ద ఉపయోగపడుతుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Ministry",
+      "te": "మంత్రిత్వ శాఖ"
+     },
+     {
+      "en": "Civil Aviation",
+      "te": "పౌర విమానయానం"
+     }
+    ],
+    [
+     {
+      "en": "Trial period",
+      "te": "ట్రయల్ కాలం"
+     },
+     {
+      "en": "Nov–Dec 2026, 7 airports",
+      "te": "నవం–డిసెం 2026, 7 విమానాశ్రయాలు"
+     }
+    ],
+    [
+     {
+      "en": "Technology",
+      "te": "సాంకేతికత"
+     },
+     {
+      "en": "Face recognition + e-passport chip (NFC)",
+      "te": "ముఖ గుర్తింపు + ఈ-పాస్‌పోర్ట్ చిప్ (NFC)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: the data is stored in the passenger's own phone wallet, not in a central government database; the trial is only for Indian e-passport holders, not foreign nationals. Hyderabad is the only Telugu-state airport in the trial.",
+    "te": "ట్రాప్: డేటా ప్రయాణికుడి ఫోన్ వాలెట్‌లోనే నిల్వ అవుతుంది, కేంద్ర ప్రభుత్వ డేటాబేస్‌లో కాదు; ట్రయల్ భారత ఈ-పాస్‌పోర్ట్ దారులకే, విదేశీయులకు కాదు. ట్రయల్‌లో తెలుగు రాష్ట్రాల నుంచి ఉన్నది హైదరాబాద్ ఒక్కటే."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "Digi Yatra for flights abroad — 4 steps",
+      "te": "విదేశీ విమానాలకు డిజీ యాత్ర — 4 దశలు"
+     },
+     "items": [
+      {
+       "i": "📘",
+       "t": {
+        "en": "Scan e-passport (MRZ)",
+        "te": "ఈ-పాస్‌పోర్ట్ స్కాన్ (MRZ)"
+       }
+      },
+      {
+       "i": "📶",
+       "t": {
+        "en": "Read the passport chip by NFC",
+        "te": "పాస్‌పోర్ట్ చిప్‌ను NFCతో చదవడం"
+       }
+      },
+      {
+       "i": "👛",
+       "t": {
+        "en": "Credential saved in phone wallet",
+        "te": "ఫోన్ వాలెట్‌లో క్రెడెన్షియల్"
+       }
+      },
+      {
+       "i": "🙂",
+       "t": {
+        "en": "Face scan at entry, security, boarding",
+        "te": "ప్రవేశం, సెక్యూరిటీ, బోర్డింగ్ వద్ద ముఖ స్కాన్"
+       }
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "view": "india",
+     "h": {
+      "en": "Seven trial airports",
+      "te": "ఏడు ట్రయల్ విమానాశ్రయాలు"
+     },
+     "pts": [
+      {
+       "ll": [
+        28.56,
+        77.1
+       ],
+       "t": {
+        "en": "Delhi",
+        "te": "ఢిల్లీ"
+       }
+      },
+      {
+       "ll": [
+        19.09,
+        72.87
+       ],
+       "t": {
+        "en": "Mumbai",
+        "te": "ముంబై"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        17.24,
+        78.43
+       ],
+       "t": {
+        "en": "Hyderabad",
+        "te": "హైదరాబాద్"
+       }
+      },
+      {
+       "ll": [
+        13.2,
+        77.71
+       ],
+       "t": {
+        "en": "Bengaluru",
+        "te": "బెంగళూరు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        12.99,
+        80.17
+       ],
+       "t": {
+        "en": "Chennai",
+        "te": "చెన్నై"
+       }
+      },
+      {
+       "ll": [
+        10.15,
+        76.4
+       ],
+       "t": {
+        "en": "Cochin",
+        "te": "కొచ్చి"
+       },
+       "a": "l"
+      }
+     ],
+     "labels": [
+      {
+       "ll": [
+        31.71,
+        74.8
+       ],
+       "t": {
+        "en": "Amritsar ✈",
+        "te": "అమృత్‌సర్ ✈"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Six dots + Amritsar (label) = 7 airports. Hyderabad is the only one in the Telugu states.",
+      "te": "ఆరు చుక్కలు + అమృత్‌సర్ (లేబుల్) = 7 విమానాశ్రయాలు. తెలుగు రాష్ట్రాల్లో హైదరాబాద్ ఒక్కటే."
+     },
+     "src": "cards/cad/2026-11-02/map-digiyatra-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "All India Radio — Digi Yatra begins international passenger trials at seven Indian airports, 1 Nov 2026",
+     "u": "https://newsonair.gov.in/digi-yatra-begins-international-passenger-trials-at-seven-indian-airports/"
+    }
+   ]
+  },
+  {
+   "id": "bimstec",
+   "cat": "ir",
+   "title": {
+    "en": "India hosts the first-ever BIMSTEC Maritime Security Exercise at Sri Vijaya Puram (30 Oct – 3 Nov)",
+    "te": "శ్రీ విజయపురంలో తొలి BIMSTEC సముద్ర భద్రతా విన్యాసాలకు భారత్ ఆతిథ్యం (అక్టో 30 – నవం 3)"
+   },
+   "pts": [
+    {
+     "en": "The maiden BIMSTEC Maritime Security Exercise is being held at Sri Vijaya Puram (formerly Port Blair), Andaman & Nicobar Islands, from 30 October to 3 November 2026 — three days of tabletop exercises and a two-day harbour phase.",
+     "te": "తొలి BIMSTEC సముద్ర భద్రతా విన్యాసాలు అండమాన్ & నికోబార్ దీవుల్లోని శ్రీ విజయపురం (పూర్వ పోర్ట్ బ్లెయిర్)లో అక్టోబర్ 30 – నవంబర్ 3, 2026 వరకు జరుగుతున్నాయి — మూడు రోజుల టేబుల్‌టాప్ విన్యాసాలు, రెండు రోజుల హార్బర్ దశ."
+    },
+    {
+     "en": "It was inaugurated by Vice Admiral Vineet McCarty, C-in-C of the Andaman and Nicobar Command — India's first integrated tri-service command. Theme: 'Shared Seas, Shared Security and Shared Prosperity'.",
+     "te": "భారత తొలి సమీకృత త్రివిధ దళాల కమాండ్ అయిన అండమాన్ & నికోబార్ కమాండ్ కమాండర్-ఇన్-చీఫ్ వైస్ అడ్మిరల్ వినీత్ మెక్‌కార్టీ దీనిని ప్రారంభించారు. థీమ్: 'Shared Seas, Shared Security and Shared Prosperity'."
+    },
+    {
+     "en": "PM Modi had announced this exercise at the 6th BIMSTEC Summit in Thailand. Aims: maritime domain awareness, disaster relief (HADR), action against cross-border sea crimes and oil-spill pollution in the Bay of Bengal.",
+     "te": "థాయ్‌లాండ్‌లో జరిగిన 6వ BIMSTEC సదస్సులో ప్రధాని మోదీ ఈ విన్యాసాన్ని ప్రకటించారు. లక్ష్యాలు: సముద్ర పరిస్థితులపై అవగాహన (MDA), విపత్తు సహాయం (HADR), సరిహద్దు సముద్ర నేరాలు, చమురు తెట్టు కాలుష్యంపై ఉమ్మడి చర్య — బంగాళాఖాతంలో."
+    },
+    {
+     "en": "BIMSTEC has 7 members: Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka and Thailand. Landlocked Bhutan and Nepal sent representatives, as they depend on the Bay of Bengal for trade.",
+     "te": "BIMSTECలో 7 సభ్య దేశాలు: బంగ్లాదేశ్, భూటాన్, భారత్, మయన్మార్, నేపాల్, శ్రీలంక, థాయ్‌లాండ్. సముద్రతీరం లేని భూటాన్, నేపాల్ వాణిజ్యానికి బంగాళాఖాతంపై ఆధారపడటంతో ప్రతినిధులను పంపాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Venue",
+      "te": "వేదిక"
+     },
+     {
+      "en": "Sri Vijaya Puram (A&N Islands)",
+      "te": "శ్రీ విజయపురం (అండమాన్ & నికోబార్)"
+     }
+    ],
+    [
+     {
+      "en": "Dates",
+      "te": "తేదీలు"
+     },
+     {
+      "en": "30 Oct – 3 Nov 2026 (1st edition)",
+      "te": "అక్టో 30 – నవం 3, 2026 (తొలి ఎడిషన్)"
+     }
+    ],
+    [
+     {
+      "en": "Members",
+      "te": "సభ్య దేశాలు"
+     },
+     {
+      "en": "7 (5 South Asia + Myanmar, Thailand)",
+      "te": "7 (5 దక్షిణాసియా + మయన్మార్, థాయ్‌లాండ్)"
+     }
+    ],
+    [
+     {
+      "en": "BIMSTEC formed / HQ",
+      "te": "BIMSTEC ఏర్పాటు / ప్రధాన కార్యాలయం"
+     },
+     {
+      "en": "1997 (Bangkok Declaration) / Dhaka",
+      "te": "1997 (బ్యాంకాక్ డిక్లరేషన్) / ఢాకా"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: Pakistan, Afghanistan and Maldives are NOT BIMSTEC members (they are in SAARC); Myanmar and Thailand are BIMSTEC members but not SAARC members.",
+    "te": "ట్రాప్: పాకిస్థాన్, అఫ్గానిస్థాన్, మాల్దీవులు BIMSTEC సభ్యులు కావు (అవి SAARCలో ఉన్నాయి); మయన్మార్, థాయ్‌లాండ్ BIMSTEC సభ్యులు కానీ SAARC సభ్యులు కావు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "southasia",
+     "h": {
+      "en": "BIMSTEC — countries around the Bay of Bengal",
+      "te": "BIMSTEC — బంగాళాఖాతం చుట్టూ దేశాలు"
+     },
+     "ctry": [
+      "Bangladesh",
+      "Bhutan",
+      "Myanmar",
+      "Nepal",
+      "Sri Lanka",
+      "Thailand"
+     ],
+     "hl": [
+      "Andaman & Nicobar"
+     ],
+     "hlc": "#b3322b",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        11.62,
+        92.73
+       ],
+       "t": {
+        "en": "Sri Vijaya Puram",
+        "te": "శ్రీ విజయపురం"
+       },
+       "a": "l"
+      }
+     ],
+     "labels": [
+      {
+       "ll": [
+        15.5,
+        88.0
+       ],
+       "t": {
+        "en": "Bay of Bengal",
+        "te": "బంగాళాఖాతం"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Coloured = BIMSTEC partners of India. The dot is the exercise venue in the Andamans.",
+      "te": "రంగు దేశాలు = భారత్ యొక్క BIMSTEC భాగస్వాములు. చుక్క = అండమాన్‌లో విన్యాస వేదిక."
+     },
+     "src": "cards/cad/2026-11-02/map-bimstec-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "ANI — India hosts BIMSTEC Maritime Security Exercise from Oct 30 to Nov 3, 31 Oct 2026",
+     "u": "https://aninews.in/news/world/asia/translating-shared-vision-into-action-india-hosts-bimstec-maritime-security-exercise-from-oct-30-to-nov-316020261031142643/"
+    },
+    {
+     "t": "The Tribune — India hosts first-ever BIMSTEC maritime security exercise at Andaman and Nicobar Islands, 31 Oct 2026 (updated 1 Nov)",
+     "u": "https://www.tribuneindia.com/news/defence/india-hosts-first-ever-bimstec-maritime-security-exercise-at-andaman-and-nicobar-islands/"
+    },
+    {
+     "t": "The Rahnuma Daily (IANS) — India hosts maiden BIMSTEC maritime security exercise, 31 Oct 2026",
+     "u": "https://therahnuma.com/india-hosts-maiden-bimstec-maritime-security-exercise-in-andaman-and-nicobar-islands-new-delhi-oct-31-ians-india-is-hosting-the-maiden-bimstec-maritime-security-exercise-in-sri-vijaya-puram-the-c/"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "surge",
+   "q": {
+    "en": "Consider the following statements about a storm surge, as warned for Cyclone Murasu. Which is/are correct?",
+    "te": "మురసు తుపానుకు హెచ్చరించిన ఉప్పెన (storm surge) గురించి కింది వాటిలో సరైనది/సరైనవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. It is caused by the cyclone's strong winds and low pressure pushing sea water onto land.",
+     "te": "I. తుపాను బలమైన గాలులు, అల్పపీడనం సముద్రపు నీటిని భూమిపైకి నెట్టడం వల్ల ఇది వస్తుంది."
+    },
+    {
+     "en": "II. It is another name for a tsunami caused by an undersea earthquake.",
+     "te": "II. సముద్రగర్భ భూకంపం వల్ల వచ్చే సునామీకే ఇది మరో పేరు."
+    },
+    {
+     "en": "III. IMD warned of a 1–1.5 m surge, with Bapatla, Prakasam and Krishna at most risk.",
+     "te": "III. 1–1.5 మీ. ఉప్పెనను IMD హెచ్చరించింది; బాపట్ల, ప్రకాశం, కృష్ణాకు ఎక్కువ ముప్పు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct. II is the trap: a tsunami comes from an undersea earthquake/landslide; a storm surge comes from a cyclone's wind and low pressure. IMD named Bapatla, Prakasam and Krishna as most at risk.",
+    "te": "I, III సరైనవి. II ట్రాప్: సునామీ సముద్రగర్భ భూకంపం/భూపాతం వల్ల వస్తుంది; ఉప్పెన తుపాను గాలి, అల్పపీడనం వల్ల వస్తుంది. బాపట్ల, ప్రకాశం, కృష్ణాకు ఎక్కువ ముప్పు అని IMD తెలిపింది."
+   }
+  },
+  {
+   "topic": "mptc",
+   "q": {
+    "en": "With reference to the MPTC/ZPTC elections in Andhra Pradesh on 5 November 2026, which of the statements given below is/are correct?",
+    "te": "నవంబర్ 5, 2026 ఏపీ ఎంపీటీసీ/జెడ్పీటీసీ ఎన్నికలకు సంబంధించి కింది వాటిలో సరైనది/సరైనవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. MPTC members belong to the Mandal Parishad, the middle tier of Panchayati Raj.",
+     "te": "I. ఎంపీటీసీ సభ్యులు పంచాయతీరాజ్ మధ్య అంచె అయిన మండల పరిషత్‌కు చెందుతారు."
+    },
+    {
+     "en": "II. The polls are conducted by the State Election Commission under Article 243K.",
+     "te": "II. ఈ ఎన్నికలను ఆర్టికల్ 243K కింద రాష్ట్ర ఎన్నికల సంఘం నిర్వహిస్తుంది."
+    },
+    {
+     "en": "III. 659 ZPTC seats and 9,829 MPTC seats go to the polls.",
+     "te": "III. 659 జెడ్పీటీసీ, 9,829 ఎంపీటీసీ స్థానాలకు పోలింగ్ జరుగుతుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct. Trap to avoid: thinking the Election Commission of India (Art. 324) holds panchayat polls — it is the SEC (Art. 243K), under Part IX added by the 73rd Amendment.",
+    "te": "మూడూ సరైనవే. తప్పించుకోవాల్సిన ట్రాప్: పంచాయతీ ఎన్నికలు భారత ఎన్నికల సంఘం (ఆర్టి. 324) నిర్వహిస్తుందనుకోవడం — 73వ సవరణ చేర్చిన భాగం IX కింద SEC (ఆర్టి. 243K) నిర్వహిస్తుంది."
+   }
+  },
+  {
+   "topic": "rail",
+   "q": {
+    "en": "Match List-I (station) with List-II (State) on the new Bengaluru–Mumbai Vande Bharat Sleeper route.",
+    "te": "కొత్త బెంగళూరు–ముంబై వందే భారత్ స్లీపర్ మార్గంలో జాబితా-I (స్టేషన్)ను జాబితా-II (రాష్ట్రం)తో జతపరచండి."
+   },
+   "st": [
+    {
+     "en": "A. Guntakal   B. Raichur   C. Solapur",
+     "te": "A. గుంతకల్లు   B. రాయచూర్   C. సోలాపూర్"
+    },
+    {
+     "en": "1. Maharashtra   2. Andhra Pradesh   3. Karnataka",
+     "te": "1. మహారాష్ట్ర   2. ఆంధ్రప్రదేశ్   3. కర్ణాటక"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-2, B-3, C-1",
+     "te": "A-2, B-3, C-1"
+    },
+    {
+     "en": "A-3, B-2, C-1",
+     "te": "A-3, B-2, C-1"
+    },
+    {
+     "en": "A-2, B-1, C-3",
+     "te": "A-2, B-1, C-3"
+    },
+    {
+     "en": "A-1, B-3, C-2",
+     "te": "A-1, B-3, C-2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Guntakal (and Anantapur) are in Andhra Pradesh, Raichur is in Karnataka and Solapur in Maharashtra. Trap: Raichur and Guntakal are close to each other across the AP–Karnataka border.",
+    "te": "గుంతకల్లు (అనంతపురం కూడా) ఆంధ్రప్రదేశ్‌లో, రాయచూర్ కర్ణాటకలో, సోలాపూర్ మహారాష్ట్రలో ఉన్నాయి. ట్రాప్: ఏపీ–కర్ణాటక సరిహద్దులో రాయచూర్, గుంతకల్లు దగ్గరగా ఉంటాయి."
+   }
+  },
+  {
+   "topic": "epfo",
+   "q": {
+    "en": "Arrange the following social security milestones in chronological order.",
+    "te": "కింది సామాజిక భద్రతా మైలురాళ్లను కాలక్రమంలో అమర్చండి."
+   },
+   "st": [
+    {
+     "en": "I. Employees' Pension Scheme (EPS)",
+     "te": "I. ఉద్యోగుల పెన్షన్ పథకం (EPS)"
+    },
+    {
+     "en": "II. EPF & Miscellaneous Provisions Act",
+     "te": "II. EPF & ఇతర నిబంధనల చట్టం"
+    },
+    {
+     "en": "III. Code on Social Security",
+     "te": "III. సామాజిక భద్రతా స్మృతి"
+    },
+    {
+     "en": "IV. Employees' Deposit Linked Insurance (EDLI)",
+     "te": "IV. ఉద్యోగుల డిపాజిట్ లింక్డ్ బీమా (EDLI)"
+    }
+   ],
+   "o": [
+    {
+     "en": "II, I, IV, III",
+     "te": "II, I, IV, III"
+    },
+    {
+     "en": "IV, II, I, III",
+     "te": "IV, II, I, III"
+    },
+    {
+     "en": "II, IV, I, III",
+     "te": "II, IV, I, III"
+    },
+    {
+     "en": "II, IV, III, I",
+     "te": "II, IV, III, I"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "EPF Act 1952 → EDLI 1976 → EPS 1995 → Code on Social Security 2020. Trap: putting EPS (pension) before EDLI (insurance).",
+    "te": "EPF చట్టం 1952 → EDLI 1976 → EPS 1995 → సామాజిక భద్రతా స్మృతి 2020. ట్రాప్: EDLI (బీమా) కంటే ముందు EPS (పెన్షన్)ను పెట్టడం."
+   }
+  },
+  {
+   "topic": "pmi",
+   "q": {
+    "en": "Consider the following statements about India's Manufacturing PMI for October 2026:",
+    "te": "అక్టోబర్ 2026 భారత తయారీ PMI గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It fell from 55.1 to 54.7, which shows manufacturing activity contracted.",
+     "te": "I. ఇది 55.1 నుంచి 54.7కు తగ్గింది — అంటే తయారీ కార్యకలాపాలు సంకోచించాయి."
+    },
+    {
+     "en": "II. New export orders grew at their fastest pace in six months.",
+     "te": "II. కొత్త ఎగుమతి ఆర్డర్లు ఆరు నెలల్లో అత్యంత వేగంగా పెరిగాయి."
+    },
+    {
+     "en": "III. It is compiled by S&P Global, not by the National Statistics Office.",
+     "te": "III. దీనిని జాతీయ గణాంక కార్యాలయం కాదు, S&P Global రూపొందిస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II and III are correct. I is wrong: any reading above 50 means expansion; 54.7 is only slower growth than 55.1. IIP (not PMI) comes from NSO.",
+    "te": "II, III సరైనవి. I తప్పు: 50 పైన ఏ విలువ అయినా విస్తరణే; 54.7 అంటే 55.1 కంటే నెమ్మదైన వృద్ధి మాత్రమే. NSO విడుదల చేసేది IIP, PMI కాదు."
+   }
+  },
+  {
+   "topic": "keralahc",
+   "q": {
+    "en": "Match List-I (person) with List-II (distinction), in the context of the Kerala High Court's Platinum Jubilee.",
+    "te": "కేరళ హైకోర్టు ప్లాటినం జూబ్లీ సందర్భంలో జాబితా-I (వ్యక్తి)ని జాబితా-II (ప్రత్యేకత)తో జతపరచండి."
+   },
+   "st": [
+    {
+     "en": "A. Fathima Beevi   B. Anna Chandy   C. Surya Kant",
+     "te": "A. ఫాతిమా బీవీ   B. అన్నా చాందీ   C. సూర్యకాంత్"
+    },
+    {
+     "en": "1. First woman High Court judge in India   2. First woman Supreme Court judge   3. Chief Justice of India who inaugurated the jubilee",
+     "te": "1. దేశంలో తొలి మహిళా హైకోర్టు న్యాయమూర్తి   2. తొలి మహిళా సుప్రీంకోర్టు న్యాయమూర్తి   3. జూబ్లీని ప్రారంభించిన భారత ప్రధాన న్యాయమూర్తి"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-2, B-1, C-3",
+     "te": "A-2, B-1, C-3"
+    },
+    {
+     "en": "A-1, B-2, C-3",
+     "te": "A-1, B-2, C-3"
+    },
+    {
+     "en": "A-2, B-3, C-1",
+     "te": "A-2, B-3, C-1"
+    },
+    {
+     "en": "A-3, B-1, C-2",
+     "te": "A-3, B-1, C-2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Fathima Beevi became the first woman SC judge (1989); Anna Chandy was India's first woman HC judge (Kerala). CJI Surya Kant inaugurated the jubilee on 1 Nov 2026. Trap: swapping the two pioneers — both began at the Kerala HC.",
+    "te": "ఫాతిమా బీవీ తొలి మహిళా SC న్యాయమూర్తి (1989); అన్నా చాందీ దేశంలో తొలి మహిళా హైకోర్టు న్యాయమూర్తి (కేరళ). CJI సూర్యకాంత్ నవం 1, 2026న జూబ్లీ ప్రారంభించారు. ట్రాప్: ఇద్దరూ కేరళ హైకోర్టు నుంచే మొదలవడంతో వారిని తారుమారు చేయడం."
+   }
+  },
+  {
+   "topic": "digiyatra",
+   "q": {
+    "en": "Which of the following statements about the Digi Yatra international trials is INCORRECT?",
+    "te": "డిజీ యాత్ర అంతర్జాతీయ ట్రయల్స్ గురించి కింది వాటిలో తప్పు ప్రకటన ఏది?"
+   },
+   "o": [
+    {
+     "en": "Trials run at seven airports including Hyderabad and Cochin",
+     "te": "హైదరాబాద్, కొచ్చి సహా ఏడు విమానాశ్రయాల్లో ట్రయల్స్"
+    },
+    {
+     "en": "The passenger's e-passport chip is read using NFC on a smartphone",
+     "te": "స్మార్ట్‌ఫోన్ NFCతో ఈ-పాస్‌పోర్ట్ చిప్‌ను చదువుతారు"
+    },
+    {
+     "en": "The credential is stored in the Digi Yatra wallet on the phone",
+     "te": "క్రెడెన్షియల్ ఫోన్‌లోని డిజీ యాత్ర వాలెట్‌లో నిల్వ"
+    },
+    {
+     "en": "Foreign nationals with any passport can join the trial",
+     "te": "ఏ పాస్‌పోర్ట్ ఉన్న విదేశీయులైనా ట్రయల్‌లో చేరవచ్చు"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "(d) is incorrect: only Indian nationals with e-passports on select Air India and IndiGo international flights can join. (a), (b) and (c) are correct as per the Civil Aviation Ministry.",
+    "te": "(d) తప్పు: ఎంపిక చేసిన ఎయిర్ ఇండియా, ఇండిగో అంతర్జాతీయ విమానాల్లో ఈ-పాస్‌పోర్ట్ ఉన్న భారత పౌరులకే అవకాశం. (a), (b), (c) పౌర విమానయాన శాఖ ప్రకారం సరైనవి."
+   }
+  },
+  {
+   "topic": "bimstec",
+   "q": {
+    "en": "Consider the following about the first BIMSTEC Maritime Security Exercise. Which is/are correct?",
+    "te": "తొలి BIMSTEC సముద్ర భద్రతా విన్యాసాల గురించి కింది వాటిలో సరైనది/సరైనవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. It is hosted at Sri Vijaya Puram by the Andaman and Nicobar Command.",
+     "te": "I. అండమాన్ & నికోబార్ కమాండ్ శ్రీ విజయపురంలో దీనికి ఆతిథ్యం ఇస్తోంది."
+    },
+    {
+     "en": "II. Maldives and Pakistan are among the participating BIMSTEC members.",
+     "te": "II. పాల్గొంటున్న BIMSTEC సభ్యుల్లో మాల్దీవులు, పాకిస్థాన్ ఉన్నాయి."
+    },
+    {
+     "en": "III. It was announced by India at the 6th BIMSTEC Summit in Thailand.",
+     "te": "III. థాయ్‌లాండ్‌లో జరిగిన 6వ BIMSTEC సదస్సులో భారత్ దీనిని ప్రకటించింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct. II is the trap: Maldives and Pakistan are SAARC members, not BIMSTEC members. BIMSTEC = Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand.",
+    "te": "I, III సరైనవి. II ట్రాప్: మాల్దీవులు, పాకిస్థాన్ SAARC సభ్యులు, BIMSTEC సభ్యులు కావు. BIMSTEC = బంగ్లాదేశ్, భూటాన్, భారత్, మయన్మార్, నేపాల్, శ్రీలంక, థాయ్‌లాండ్."
+   }
+  },
+  {
+   "topic": "mptc",
+   "q": {
+    "en": "The AP State Election Commission shifted MPTC/ZPTC polling from 3 November to 5 November 2026. What was the main reason given?",
+    "te": "ఏపీ రాష్ట్ర ఎన్నికల సంఘం ఎంపీటీసీ/జెడ్పీటీసీ పోలింగ్‌ను నవంబర్ 3 నుంచి 5కు మార్చింది. ప్రధాన కారణం ఏమిటి?"
+   },
+   "o": [
+    {
+     "en": "ULB vote counting on 3 Nov needed the same police and poll staff",
+     "te": "నవం 3 ULB లెక్కింపుకు అదే పోలీసు, ఎన్నికల సిబ్బంది అవసరం"
+    },
+    {
+     "en": "Cyclone Murasu's landfall on 3 November",
+     "te": "నవంబర్ 3న మురసు తుపాను తీరం దాటడం"
+    },
+    {
+     "en": "A direction from the Election Commission of India",
+     "te": "భారత ఎన్నికల సంఘం ఆదేశం"
+    },
+    {
+     "en": "A national holiday on 3 November",
+     "te": "నవంబర్ 3న జాతీయ సెలవు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "The SEC said counting of urban local body votes is on 3 November and police and election staff were needed for it (order issued on 28 October). (b) is a tempting trap — the cyclone came later; (c) is wrong because the ECI has no role in local body polls.",
+    "te": "పట్టణ స్థానిక సంస్థల ఓట్ల లెక్కింపు నవం 3న ఉండటంతో పోలీసు, ఎన్నికల సిబ్బంది అవసరమని SEC చెప్పింది (అక్టోబర్ 28 ఉత్తర్వు). (b) ఆకర్షణీయ ట్రాప్ — తుపాను తర్వాత వచ్చింది; స్థానిక ఎన్నికల్లో ECIకి పాత్ర లేదు కాబట్టి (c) తప్పు."
+   }
+  },
+  {
+   "topic": "rail",
+   "q": {
+    "en": "Consider the following statements about the 'B28' train:",
+    "te": "'B28' రైలు గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It is India's first Swadeshi high-speed (bullet) train, developed by a BEML-led consortium.",
+     "te": "I. ఇది BEML నేతృత్వ కన్సార్టియం అభివృద్ధి చేస్తున్న భారత తొలి స్వదేశీ హై-స్పీడ్ (బుల్లెట్) రైలు."
+    },
+    {
+     "en": "II. It now runs overnight between Bengaluru and Mumbai.",
+     "te": "II. ఇది ఇప్పుడు బెంగళూరు–ముంబై మధ్య రాత్రిపూట నడుస్తోంది."
+    },
+    {
+     "en": "III. It is meant for speeds of 280–350 km/h on the Mumbai–Ahmedabad corridor.",
+     "te": "III. ముంబై–అహ్మదాబాద్ కారిడార్‌లో గంటకు 280–350 కి.మీ. వేగం కోసం ఇది ఉద్దేశించింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and III are correct. II mixes it up with the Vande Bharat Sleeper, which started on the Bengaluru–Mumbai route on 1 Nov. B28's design is ready and the first prototype may come in early 2027.",
+    "te": "I, III సరైనవి. II వందే భారత్ స్లీపర్‌తో కలిపేసింది — అది నవం 1న బెంగళూరు–ముంబై మార్గంలో ప్రారంభమైంది. B28 డిజైన్ సిద్ధమైంది; తొలి నమూనా 2027 ప్రారంభంలో రావచ్చు."
+   }
+  }
+ ]
+}
