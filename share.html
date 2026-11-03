@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="te"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Share today · Sulabham</title>
+<style>
+:root{--bg:#f4f6f8;--card:#fff;--ink:#14212b;--mut:#5b6b78;--acc:#1d4f91;--ok:#2f6b2f;--line:#dde3e8}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,"Noto Sans Telugu",sans-serif}
+header{background:var(--acc);color:#fff;padding:14px 16px}header h1{margin:0;font-size:20px}header p{margin:4px 0 0;font-size:13px;opacity:.9}
+.bar{display:flex;gap:8px;flex-wrap:wrap;padding:12px 16px;align-items:center}
+select,button,a.btn{font:inherit;border-radius:10px;border:1px solid var(--line);padding:9px 12px;background:#fff;color:var(--ink);text-decoration:none;cursor:pointer}
+button.pri,a.pri{background:var(--acc);color:#fff;border-color:var(--acc)}button.wa,a.wa{background:#1f8f4e;color:#fff;border-color:#1f8f4e}
+.seg button[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+main{padding:0 16px 40px;max-width:720px;margin:0 auto}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:12px 0}
+section h2{margin:0 0 8px;font-size:18px}.none{color:var(--mut)}
+.pics{display:flex;gap:10px;flex-wrap:wrap}.pic{flex:1 1 140px;max-width:220px}.pic img{width:100%;border-radius:8px;border:1px solid var(--line);display:block}
+.pic .row{display:flex;gap:6px;margin-top:6px}.pic .row>*{flex:1;text-align:center;padding:7px 4px;font-size:14px}
+textarea{width:100%;min-height:150px;border:1px solid var(--line);border-radius:10px;padding:10px;font:14px/1.4 system-ui,"Noto Sans Telugu",sans-serif;margin:8px 0}
+.acts{display:flex;gap:8px;flex-wrap:wrap}.acts>*{flex:1 1 auto;text-align:center}
+.toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:var(--ok);color:#fff;padding:9px 16px;border-radius:20px;display:none}
+.tip{font-size:13px;color:var(--mut);margin-top:8px}
+</style></head><body>
+<header><h1>📤 Share today</h1><p>Owner page · copy the text, share the poster to your WhatsApp Channel</p></header>
+<div class="bar">
+ <select id="day" aria-label="Date"></select>
+ <span class="seg"><button data-m="te" aria-pressed="true">తెలుగు</button> <button data-m="en" aria-pressed="false">English</button></span>
+</div>
+<main id="out"></main>
+<div class="toast" id="toast">Copied ✓</div>
+<script>
+var SITE="https://sulabham.in/",M="te",D=null;
+try{M=localStorage.getItem("sul_share_m")||"te"}catch(e){}
+function $(s,r){return (r||document).querySelector(s)}
+function get(u,t){return fetch(u+"?v="+Date.now()).then(function(r){if(!r.ok)throw 0;return t?r.text():r.json()}).catch(function(){return null})}
+function exists(u){return fetch(u,{method:"HEAD"}).then(function(r){return r.ok}).catch(function(){return false})}
+function toast(t){var e=$("#toast");e.textContent=t;e.style.display="block";setTimeout(function(){e.style.display="none"},1600)}
+function copy(t){(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){toast("Copied ✓")},function(){var a=document.createElement("textarea");a.value=t;document.body.appendChild(a);a.select();document.execCommand("copy");a.remove();toast("Copied ✓")})}
+function sharePic(url,name,text){
+ fetch(url).then(function(r){return r.blob()}).then(function(b){
+  var f=new File([b],name,{type:b.type||"image/png"});
+  if(navigator.canShare&&navigator.canShare({files:[f]})){return navigator.share({files:[f],text:text||""})}
+  var a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=name;a.click();toast("Saved — share from Gallery")
+ }).catch(function(e){if(!e||e.name!=="AbortError")toast("Could not share")})}
+function shareText(t){if(navigator.share)navigator.share({text:t}).catch(function(){});else copy(t)}
+function L(o){return o?(o[M]||o.en||""):""}
+function block(title,pics,text,id){
+ var h='<section><h2>'+title+'</h2>';
+ if(!pics.length&&!text){return h+'<p class="none">Not published yet for this date.</p></section>'}
+ if(pics.length){h+='<div class="pics">';pics.forEach(function(p,i){h+='<div class="pic"><img src="'+p.u+'" alt="'+p.n+'" loading="lazy"><div class="row"><button class="pri" data-sp="'+id+i+'">Share</button><a class="btn" href="'+p.u+'" download="'+p.n+'">Save</a></div></div>'});h+='</div>'}
+ if(text){h+='<textarea id="t'+id+'">'+text.replace(/</g,"&lt;")+'</textarea><div class="acts"><button class="pri" data-cp="'+id+'">📋 Copy text</button><button data-st="'+id+'">📤 Share text</button><a class="btn wa" target="_blank" rel="noopener" href="https://wa.me/?text='+encodeURIComponent(text)+'">WhatsApp</a></div>'}
+ return h+'</section>'}
+function morningText(J){
+ var q=M==="te"?"&m=te":"",d=J.date,L1=[];
+ L1.push(M==="te"?"🌅 *సులభం · నేటి ప్రత్యేకం* | "+L(J.day):"🌅 *Sulabham · Today* | "+L(J.day));
+ (J.items||[]).forEach(function(it){L1.push((it.kind==="day"?"🗓️ ":"📰 ")+L(it.title))});
+ L1.push("");L1.push((M==="te"?"👉 చదవండి: ":"👉 Read: ")+SITE+"today.html?d="+d+q);
+ if(J.quiz&&J.quiz.length)L1.push((M==="te"?"📝 10 ప్రశ్నల క్విజ్: ":"📝 10-question quiz: ")+SITE+"today.html?d="+d+"&tab=quiz"+q);
+ return L1.join("\n")}
+function render(d){
+ D=d;var o=$("#out");o.innerHTML='<p class="none">Loading…</p>';
+ var mb="cards/"+d+"/",eb="cards/cad/"+d+"/";
+ Promise.all([get("days/"+d+".json"),exists(mb+"summary-"+M+".png"),exists(mb+"quiz-"+M+".png"),
+  get(eb+"ca-"+M+".txt",1),exists(eb+"summary-"+M+".png"),exists(eb+"quiz-"+M+".png"),get(eb+"quiz-"+M+".txt",1)]).then(function(r){
+  var J=r[0],mp=[],ep=[];
+  if(r[1])mp.push({u:mb+"summary-"+M+".png",n:"sulabham-today-"+d+".png"});
+  if(r[2])mp.push({u:mb+"quiz-"+M+".png",n:"sulabham-today-quiz-"+d+".png"});
+  if(r[4])ep.push({u:eb+"summary-"+M+".png",n:"sulabham-ca-"+d+".png"});
+  if(r[5])ep.push({u:eb+"quiz-"+M+".png",n:"sulabham-ca-quiz-"+d+".png"});
+  var et=r[3]||"";
+  var h=block(M==="te"?"🌅 ఉదయం · నేటి ప్రత్యేకం":"🌅 Morning · Today page",mp,J?morningText(J):"","m")+
+        block(M==="te"?"📰 సాయంత్రం · కరెంట్ అఫైర్స్":"📰 Evening · Current affairs",ep,et,"e");
+  if(r[6])h+=block(M==="te"?"📝 సాయంత్రం క్విజ్ పోస్ట్":"📝 Evening quiz post",[],r[6],"q");
+  h+='<p class="tip">Tip: tap <b>Share</b> on a poster → WhatsApp → choose your Channel. Then come back, tap <b>Copy text</b> and paste it as the next update. Bookmark this page.</p>';
+  o.innerHTML=h;
+  o.querySelectorAll("[data-cp]").forEach(function(b){b.onclick=function(){copy($("#t"+b.dataset.cp).value)}});
+  o.querySelectorAll("[data-st]").forEach(function(b){b.onclick=function(){shareText($("#t"+b.dataset.st).value)}});
+  var all={m:mp,e:ep};
+  o.querySelectorAll("[data-sp]").forEach(function(b){b.onclick=function(){var k=b.dataset.sp,p=all[k[0]][+k.slice(1)];var t=$("#t"+k[0]);sharePic(p.u,p.n,"")}});
+ })}
+document.querySelectorAll(".seg button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.m===M);b.onclick=function(){M=b.dataset.m;try{localStorage.setItem("sul_share_m",M)}catch(e){}document.querySelectorAll(".seg button").forEach(function(x){x.setAttribute("aria-pressed",x.dataset.m===M)});render(D)}});
+Promise.all([get("days/index.json"),get("cad/index.json")]).then(function(r){
+ var s={};(r[0]||[]).concat(r[1]||[]).forEach(function(x){s[x]=1});var ds=Object.keys(s).sort().reverse().slice(0,14);
+ var p=new URLSearchParams(location.search).get("d");var first=p&&s[p]?p:ds[0];
+ $("#day").innerHTML=ds.map(function(x){return '<option'+(x===first?' selected':'')+'>'+x+'</option>'}).join("");
+ $("#day").onchange=function(){render(this.value)};render(first)});
+</script></body></html>
