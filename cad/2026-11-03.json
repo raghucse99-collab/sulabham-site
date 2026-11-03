@@ -1,0 +1,1614 @@
+{
+ "date": "2026-11-03",
+ "day": {
+  "en": "Tuesday, 3 November 2026",
+  "te": "మంగళవారం, 3 నవంబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "murasu",
+   "cat": "ap",
+   "title": {
+    "en": "Severe Cyclone Murasu crosses the AP coast near Ongole early on 3 November; about 10,000 people moved to shelters",
+    "te": "తీవ్ర తుపాను మురసు నవంబర్ 3 తెల్లవారుజామున ఒంగోలు సమీపంలో తీరం దాటింది; సుమారు 10,000 మంది పునరావాస కేంద్రాలకు"
+   },
+   "pts": [
+    {
+     "en": "Landfall = the moment the centre (eye) of a cyclone moves from the sea onto land. IMD said Murasu crossed the south AP coast between Nellore and Narsapur, close to Ongole, between 3:30 am and 5:30 am on 3 November.",
+     "te": "ల్యాండ్‌ఫాల్ (తీరం దాటడం) = తుపాను కేంద్రం (కన్ను) సముద్రం నుంచి భూమిపైకి రావడం. నవంబర్ 3 తెల్లవారుజాము 3:30 – 5:30 మధ్య నెల్లూరు–నర్సాపురం మధ్య, ఒంగోలుకు దగ్గరగా మురసు తీరం దాటిందని IMD తెలిపింది."
+    },
+    {
+     "en": "Winds were 100–110 km/h, gusting to 120 km/h. Naguluppalapadu (Prakasam) recorded 198 mm of rain and Kothapatnam 182 mm up to 6 am.",
+     "te": "గాలుల వేగం గంటకు 100–110 కి.మీ., గరిష్ఠం 120 కి.మీ. ఉదయం 6 గంటల వరకు నాగులుప్పలపాడు (ప్రకాశం)లో 198 మి.మీ., కొత్తపట్నంలో 182 మి.మీ. వర్షం నమోదైంది."
+    },
+    {
+     "en": "Prakasam, Bapatla and Krishna saw storm surge and uprooted trees; Prakasam, Krishna, Guntur and Nellore were worst hit. About 10,000 people were evacuated to relief shelters; no deaths were reported on 3 November.",
+     "te": "ప్రకాశం, బాపట్ల, కృష్ణాలో ఉప్పెన, చెట్లు నేలకూలడం జరిగింది; ప్రకాశం, కృష్ణా, గుంటూరు, నెల్లూరు ఎక్కువగా దెబ్బతిన్నాయి. సుమారు 10,000 మందిని పునరావాస కేంద్రాలకు తరలించారు; నవంబర్ 3 నాటికి ప్రాణనష్టం నమోదు కాలేదు."
+    },
+    {
+     "en": "IMD said it would weaken to a cyclonic storm (80–90 km/h) by noon and a deep depression by midnight. It is the second severe cyclone in a week after Cyclone Arnab (28 October).",
+     "te": "మధ్యాహ్నానికి తుపానుగా (గం. 80–90 కి.మీ.), అర్ధరాత్రికి తీవ్ర వాయుగుండంగా బలహీనపడుతుందని IMD తెలిపింది. వారంలో ఇది రెండో తీవ్ర తుపాను — అంతకుముందు అర్ణబ్ (అక్టోబర్ 28)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Landfall",
+      "te": "తీరం దాటింది"
+     },
+     {
+      "en": "Near Ongole, 3:30–5:30 am, 3 Nov",
+      "te": "ఒంగోలు సమీపం, నవం 3 తెల్లవారుజాము 3:30–5:30"
+     }
+    ],
+    [
+     {
+      "en": "Highest rain (till 6 am)",
+      "te": "అత్యధిక వర్షం (ఉ. 6 వరకు)"
+     },
+     {
+      "en": "Naguluppalapadu 198 mm",
+      "te": "నాగులుప్పలపాడు 198 మి.మీ."
+     }
+    ],
+    [
+     {
+      "en": "Evacuated",
+      "te": "తరలింపు"
+     },
+     {
+      "en": "About 10,000 people",
+      "te": "సుమారు 10,000 మంది"
+     }
+    ],
+    [
+     {
+      "en": "Extremely heavy rain",
+      "te": "అతి భారీ వర్షం"
+     },
+     {
+      "en": "204.5 mm or more in 24 hours",
+      "te": "24 గంటల్లో 204.5 మి.మీ. లేదా ఎక్కువ"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "IMD rain scale (24 h): heavy 64.5–115.5 mm, very heavy 115.6–204.4 mm, extremely heavy ≥204.5 mm. Trap: 198 mm is 'very heavy', not 'extremely heavy'.",
+    "te": "IMD వర్ష ప్రమాణం (24 గం.): భారీ 64.5–115.5, అతి భారీ 115.6–204.4, అత్యంత భారీ ≥204.5 మి.మీ. ట్రాప్: 198 మి.మీ. 'అతి భారీ' (very heavy) కిందకు వస్తుంది, 'అత్యంత భారీ' కాదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": [
+      77.5,
+      13.5,
+      83.0,
+      17.5
+     ],
+     "h": {
+      "en": "Where Murasu crossed the coast",
+      "te": "మురసు తీరం దాటిన ప్రాంతం"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#1d4f91",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        15.5,
+        80.05
+       ],
+       "t": {
+        "en": "Ongole",
+        "te": "ఒంగోలు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        14.44,
+        79.99
+       ],
+       "t": {
+        "en": "Nellore",
+        "te": "నెల్లూరు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        15.9,
+        80.47
+       ],
+       "t": {
+        "en": "Bapatla",
+        "te": "బాపట్ల"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.19,
+        81.14
+       ],
+       "t": {
+        "en": "Machilipatnam",
+        "te": "మచిలీపట్నం"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         15.1,
+         81.3
+        ],
+        [
+         15.5,
+         80.15
+        ]
+       ],
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "Arrow = the cyclone moving onto land near Ongole (Prakasam). Prakasam, Bapatla and Krishna had storm surge.",
+      "te": "బాణం = ఒంగోలు (ప్రకాశం) దగ్గర తుపాను భూమిపైకి రావడం. ప్రకాశం, బాపట్ల, కృష్ణాలో ఉప్పెన వచ్చింది."
+     },
+     "src": "cards/cad/2026-11-03/map-murasu-1-{m}.svg"
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How Murasu weakens after landfall (IMD)",
+      "te": "తీరం దాటాక మురసు బలహీనపడే క్రమం (IMD)"
+     },
+     "items": [
+      {
+       "i": "🌀",
+       "t": {
+        "en": "Severe cyclonic storm — 100–110 km/h",
+        "te": "తీవ్ర తుపాను — గం. 100–110 కి.మీ."
+       }
+      },
+      {
+       "i": "🌬️",
+       "t": {
+        "en": "Cyclonic storm by noon — 80–90 km/h",
+        "te": "మధ్యాహ్నానికి తుపాను — గం. 80–90 కి.మీ."
+       }
+      },
+      {
+       "i": "🌧️",
+       "t": {
+        "en": "Deep depression by midnight",
+        "te": "అర్ధరాత్రికి తీవ్ర వాయుగుండం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Down To Earth — Cyclone Murasu: second severe cyclonic storm in a week, 3 Nov 2026",
+     "u": "https://www.downtoearth.org.in/climate-change/cyclone-murasu-second-severe-cyclonic-storm-in-a-week-leaves-a-trail-of-destruction-along-andhra-pradesh-coast"
+    },
+    {
+     "t": "Nation Path India — Cyclone Murasu completes landfall near Ongole, 3 Nov 2026",
+     "u": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+    },
+    {
+     "t": "KP IAS Academy (citing Deccan Chronicle/IMD) — APPSC current affairs 3 Nov 2026",
+     "u": "https://kpiasacademy.com/appsc-current-affairs-november-3rd-2026/"
+    }
+   ]
+  },
+  {
+   "id": "ulbcount",
+   "cat": "ap",
+   "title": {
+    "en": "Counting for 92 urban local bodies in AP; cyclone delays counting in Prakasam and Bapatla",
+    "te": "ఏపీలో 92 పట్టణ స్థానిక సంస్థల ఓట్ల లెక్కింపు; తుపాను వల్ల ప్రకాశం, బాపట్లలో ఆలస్యం"
+   },
+   "pts": [
+    {
+     "en": "Votes for 92 urban local bodies (ULBs) — 13 municipal corporations and 79 municipalities and nagar panchayats — were counted on 3 November for 3,186 wards.",
+     "te": "92 పట్టణ స్థానిక సంస్థల (ULBలు) — 13 నగరపాలక సంస్థలు, 79 పురపాలక సంఘాలు/నగర పంచాయతీలు — 3,186 వార్డుల ఓట్లను నవంబర్ 3న లెక్కించారు."
+    },
+    {
+     "en": "Because of Cyclone Murasu, the State Election Commission (SEC) pushed counting to 11:30 am in Ongole Municipal Corporation, Chimakurthy, Addanki, Darsi (Prakasam) and Repalle, Chirala (Bapatla).",
+     "te": "మురసు తుపాను కారణంగా ఒంగోలు నగరపాలక సంస్థ, చీమకుర్తి, అద్దంకి, దర్శి (ప్రకాశం), రేపల్లె, చీరాల (బాపట్ల)లో లెక్కింపును రాష్ట్ర ఎన్నికల సంఘం (SEC) ఉదయం 11:30కి వాయిదా వేసింది."
+    },
+    {
+     "en": "The exercise used 138 counting centres, 556 halls, 6,831 tables, 47,831 staff and 1,372 CC cameras.",
+     "te": "138 లెక్కింపు కేంద్రాలు, 556 హాళ్లు, 6,831 టేబుళ్లు, 47,831 మంది సిబ్బంది, 1,372 సీసీ కెమెరాలు వినియోగించారు."
+    },
+    {
+     "en": "Static link: elections to municipalities are conducted by the State Election Commission (Article 243ZA, 74th Amendment) — not by the Election Commission of India.",
+     "te": "స్టాటిక్ లింక్: పురపాలక ఎన్నికలను నిర్వహించేది రాష్ట్ర ఎన్నికల సంఘం (అధికరణ 243ZA, 74వ సవరణ) — భారత ఎన్నికల సంఘం కాదు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "ULBs",
+      "te": "ULBలు"
+     },
+     {
+      "en": "92 = 13 corporations + 79 municipalities/NPs",
+      "te": "92 = 13 కార్పొరేషన్లు + 79 మున్సిపాలిటీలు/నగర పంచాయతీలు"
+     }
+    ],
+    [
+     {
+      "en": "Wards",
+      "te": "వార్డులు"
+     },
+     {
+      "en": "3,186",
+      "te": "3,186"
+     }
+    ],
+    [
+     {
+      "en": "Conducted by",
+      "te": "నిర్వహణ"
+     },
+     {
+      "en": "AP State Election Commission (Art. 243ZA)",
+      "te": "ఏపీ రాష్ట్ర ఎన్నికల సంఘం (అధి. 243ZA)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: Article 243K = SEC for panchayats; 243ZA = SEC for municipalities. Both from the 73rd/74th Amendments (1992).",
+    "te": "ట్రాప్: అధికరణ 243K = పంచాయతీలకు SEC; 243ZA = మున్సిపాలిటీలకు SEC. రెండూ 73/74వ సవరణల (1992) నుంచి."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "92 ULBs counted on 3 Nov",
+      "te": "నవం 3న లెక్కింపు జరిగిన 92 ULBలు"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Municipal corporations",
+        "te": "నగరపాలక సంస్థలు"
+       },
+       "v": 13,
+       "vl": "13"
+      },
+      {
+       "t": {
+        "en": "Municipalities & nagar panchayats",
+        "te": "మున్సిపాలిటీలు & నగర పంచాయతీలు"
+       },
+       "v": 79,
+       "vl": "79"
+      }
+     ]
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Who conducts which election?",
+      "te": "ఏ ఎన్నికను ఎవరు నిర్వహిస్తారు?"
+     },
+     "a": {
+      "h": {
+       "en": "Election Commission of India",
+       "te": "భారత ఎన్నికల సంఘం"
+      },
+      "l": [
+       {
+        "en": "Art. 324",
+        "te": "అధి. 324"
+       },
+       {
+        "en": "Lok Sabha, Assembly",
+        "te": "లోక్‌సభ, శాసనసభ"
+       },
+       {
+        "en": "President, Vice-President",
+        "te": "రాష్ట్రపతి, ఉపరాష్ట్రపతి"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "State Election Commission",
+       "te": "రాష్ట్ర ఎన్నికల సంఘం"
+      },
+      "l": [
+       {
+        "en": "Art. 243K & 243ZA",
+        "te": "అధి. 243K & 243ZA"
+       },
+       {
+        "en": "Panchayats (MPTC, ZPTC)",
+        "te": "పంచాయతీలు (MPTC, ZPTC)"
+       },
+       {
+        "en": "Municipalities, corporations",
+        "te": "మున్సిపాలిటీలు, కార్పొరేషన్లు"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Deccan Chronicle — Cyclone Murasu: SEC reschedules vote counting in Prakasam, Bapatla, 3 Nov 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-murasu-sec-reschedules-vote-counting-in-prakasam-bapatla-2001297"
+    }
+   ]
+  },
+  {
+   "id": "nadisanjeevani",
+   "cat": "env",
+   "title": {
+    "en": "'Nadi Sanjeevani': Centre and Bihar sign MoU to desilt rivers and use the silt to build national highways",
+    "te": "'నదీ సంజీవని': నదుల్లో పూడిక తీసి ఆ మట్టిని జాతీయ రహదారుల నిర్మాణానికి వాడేందుకు కేంద్రం–బిహార్ ఒప్పందం"
+   },
+   "pts": [
+    {
+     "en": "On 3 November in New Delhi, the Union Ministry of Road Transport and Highways (MoRTH) and the Bihar government signed an MoU in the presence of Nitin Gadkari and Bihar CM Samrat Choudhary.",
+     "te": "నవంబర్ 3న న్యూఢిల్లీలో కేంద్ర రోడ్డు రవాణా, రహదారుల మంత్రిత్వ శాఖ (MoRTH), బిహార్ ప్రభుత్వం నితిన్ గడ్కరీ, బిహార్ సీఎం సమ్రాట్ చౌదరి సమక్షంలో ఒప్పందం (MoU) చేసుకున్నాయి."
+    },
+    {
+     "en": "Desilting = removing the mud and sand (silt) that settles on a river bed. Silt raises the bed, so rivers overflow faster — a key cause of Bihar's floods. NHAI will do the desilting.",
+     "te": "పూడికతీత (Desilting) = నదీగర్భంలో పేరుకున్న మట్టి, ఇసుకను తొలగించడం. పూడిక వల్ల నదీగర్భం ఎత్తు పెరిగి నది త్వరగా పొంగుతుంది — బిహార్ వరదలకు ఇది ముఖ్య కారణం. పూడికతీత పనిని NHAI చేస్తుంది."
+    },
+    {
+     "en": "About 1,078 lakh cubic metres of silt will be used — 243 lakh for 16 ongoing projects and 835 lakh for 27 upcoming highway projects. Rivers named: Ganga, Son, Gandak.",
+     "te": "సుమారు 1,078 లక్షల ఘనపు మీటర్ల పూడిక మట్టిని వాడతారు — 16 కొనసాగుతున్న ప్రాజెక్టులకు 243 లక్షలు, 27 రాబోయే రహదారి ప్రాజెక్టులకు 835 లక్షలు. గంగ, సోన్, గండక్ నదులు ప్రస్తావించారు."
+    },
+    {
+     "en": "Gains: cheaper road building, less topsoil mining, healthier rivers and less flooding. Bihar also has a new Water Source Restoration and Silt Management Policy 2026.",
+     "te": "లాభాలు: రహదారి నిర్మాణ వ్యయం తగ్గుతుంది, పైమట్టి తవ్వకం తగ్గుతుంది, నదులు పునరుజ్జీవిస్తాయి, వరదలు తగ్గుతాయి. బిహార్ 'జలవనరుల పునరుద్ధరణ, పూడిక నిర్వహణ విధానం 2026' కూడా తెచ్చింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Signed",
+      "te": "సంతకాలు"
+     },
+     {
+      "en": "3 Nov 2026, New Delhi — MoRTH & Bihar",
+      "te": "3 నవం 2026, న్యూఢిల్లీ — MoRTH & బిహార్"
+     }
+    ],
+    [
+     {
+      "en": "Agency",
+      "te": "అమలు సంస్థ"
+     },
+     {
+      "en": "NHAI",
+      "te": "NHAI"
+     }
+    ],
+    [
+     {
+      "en": "Silt to be used",
+      "te": "వాడే పూడిక"
+     },
+     {
+      "en": "1,078 lakh cubic metres",
+      "te": "1,078 లక్షల ఘ.మీ."
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Concept + AP link: silt on river beds raises flood risk (Bihar: Kosi, Gandak; AP: Godavari, Krishna deltas). Gandak and Kosi enter Bihar from Nepal — a common map question.",
+    "te": "కాన్సెప్ట్ + ఏపీ లింక్: నదీగర్భంలో పూడిక వల్ల వరద ముప్పు పెరుగుతుంది (బిహార్: కోసి, గండక్; ఏపీ: గోదావరి, కృష్ణా డెల్టాలు). గండక్, కోసి నేపాల్ నుంచి బిహార్‌లోకి వస్తాయి — మ్యాప్ ప్రశ్న."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": [
+      82.0,
+      24.0,
+      89.0,
+      28.5
+     ],
+     "h": {
+      "en": "Bihar's rivers from Nepal and the Ganga",
+      "te": "నేపాల్ నుంచి వచ్చే బిహార్ నదులు, గంగ"
+     },
+     "hl": [
+      "Bihar"
+     ],
+     "hlc": "#2f6b2f",
+     "ctry": [
+      "Nepal"
+     ],
+     "rivers": [
+      "Ganga",
+      "Son",
+      "Gandak",
+      "Kosi"
+     ],
+     "pts": [
+      {
+       "ll": [
+        25.59,
+        85.14
+       ],
+       "t": {
+        "en": "Patna",
+        "te": "పాట్నా"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Green = Bihar. Gandak and Kosi flow in from Nepal; Son joins the Ganga from the south near Patna.",
+      "te": "ఆకుపచ్చ = బిహార్. గండక్, కోసి నేపాల్ నుంచి వస్తాయి; సోన్ దక్షిణం నుంచి పాట్నా దగ్గర గంగలో కలుస్తుంది."
+     },
+     "src": "cards/cad/2026-11-03/map-nadisanjeevani-1-{m}.svg"
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "Silt: from flood problem to road material",
+      "te": "పూడిక: వరద సమస్య నుంచి రోడ్డు సామగ్రి వరకు"
+     },
+     "items": [
+      {
+       "i": "🏞️",
+       "t": {
+        "en": "Silt builds up on river bed",
+        "te": "నదీగర్భంలో పూడిక పేరుకుంటుంది"
+       }
+      },
+      {
+       "i": "🌊",
+       "t": {
+        "en": "River overflows → floods",
+        "te": "నది పొంగుతుంది → వరదలు"
+       }
+      },
+      {
+       "i": "🚜",
+       "t": {
+        "en": "NHAI desilts the river",
+        "te": "NHAI పూడిక తీస్తుంది"
+       }
+      },
+      {
+       "i": "🛣️",
+       "t": {
+        "en": "Silt used in highway embankments",
+        "te": "రహదారి కట్టల నిర్మాణంలో వాడకం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ETV Bharat — Bihar to use river silt for highway construction; MoRTH, state sign MoU under 'Nadi Sanjeevani', 3 Nov 2026",
+     "u": "https://www.etvbharat.com/en/bharat/bihar-to-use-river-silt-for-highway-construction-morth-state-government-sign-mou-under-nadi-sanjeevani-initiative-enn26110304755"
+    },
+    {
+     "t": "Social News XYZ (IANS) — New Delhi: MoU signing for Nadi Sanjeevani initiative, 3 Nov 2026",
+     "u": "https://www.socialnews.xyz/2026/11/03/new-delhi-mou-signing-for-nadi-sanjeevani-initiative-gallery/"
+    }
+   ]
+  },
+  {
+   "id": "sebifpi",
+   "cat": "economy",
+   "title": {
+    "en": "SEBI eases KYC review for foreign portfolio investors: review cycle up to 8 years from 1 December",
+    "te": "విదేశీ పోర్ట్‌ఫోలియో పెట్టుబడిదారులకు SEBI KYC సమీక్ష సడలింపు: డిసెంబర్ 1 నుంచి 8 ఏళ్ల వరకు"
+   },
+   "pts": [
+    {
+     "en": "FPI (Foreign Portfolio Investor) = a foreign investor who buys Indian shares/bonds without taking control of the company. KYC (Know Your Customer) = checking who the investor really is.",
+     "te": "FPI (విదేశీ పోర్ట్‌ఫోలియో పెట్టుబడిదారు) = కంపెనీపై నియంత్రణ తీసుకోకుండా భారత షేర్లు/బాండ్లు కొనే విదేశీ పెట్టుబడిదారు. KYC (మీ కస్టమర్‌ను తెలుసుకోండి) = పెట్టుబడిదారు ఎవరో నిర్ధారించే తనిఖీ."
+    },
+    {
+     "en": "Until now KYC was reviewed every year or every three years. SEBI has lengthened this: 1 year → 2 years and 3 years → 8 years, depending on the FPI category and jurisdiction risk.",
+     "te": "ఇప్పటి వరకు KYC సమీక్ష ఏటా లేదా మూడేళ్లకోసారి జరిగేది. SEBI దీన్ని పొడిగించింది: 1 ఏడాది → 2 ఏళ్లు, 3 ఏళ్లు → 8 ఏళ్లు (FPI వర్గం, దేశ రిస్క్‌ను బట్టి)."
+    },
+    {
+     "en": "Regulated FPIs from non-high-risk countries get the 8-year cycle; most others get 2 years. Rules apply from 1 December 2026. Aim: less repeated paperwork — ease of doing business.",
+     "te": "తక్కువ రిస్క్ దేశాల నియంత్రిత FPIలకు 8 ఏళ్లు; మిగతా చాలా వాటికి 2 ఏళ్లు. 2026 డిసెంబర్ 1 నుంచి అమల్లోకి. లక్ష్యం: పదే పదే పత్రాల భారం తగ్గించడం — వ్యాపార సౌలభ్యం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Regulator",
+      "te": "నియంత్రణ సంస్థ"
+     },
+     {
+      "en": "SEBI (statutory body, 1992; HQ Mumbai)",
+      "te": "SEBI (చట్టబద్ధ సంస్థ, 1992; కేంద్రం ముంబై)"
+     }
+    ],
+    [
+     {
+      "en": "Old → new",
+      "te": "పాత → కొత్త"
+     },
+     {
+      "en": "1 yr → 2 yrs; 3 yrs → 8 yrs",
+      "te": "1 ఏడాది → 2; 3 ఏళ్లు → 8"
+     }
+    ],
+    [
+     {
+      "en": "From",
+      "te": "అమలు"
+     },
+     {
+      "en": "1 December 2026",
+      "te": "1 డిసెంబర్ 2026"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: FPI ≠ FDI. FPI = portfolio investment (below 10% of a company, no control); FDI = 10% or more, with lasting interest. SEBI regulates FPIs.",
+    "te": "ట్రాప్: FPI ≠ FDI. FPI = పోర్ట్‌ఫోలియో పెట్టుబడి (కంపెనీలో 10% లోపు, నియంత్రణ లేదు); FDI = 10% లేదా ఎక్కువ, దీర్ఘకాల ఆసక్తి. FPIలను SEBI నియంత్రిస్తుంది."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "FPI KYC review — before vs after",
+      "te": "FPI KYC సమీక్ష — ముందు vs తర్వాత"
+     },
+     "a": {
+      "h": {
+       "en": "Before",
+       "te": "ముందు"
+      },
+      "l": [
+       {
+        "en": "Every 1 year or",
+        "te": "ప్రతి 1 ఏడాది లేదా"
+       },
+       {
+        "en": "every 3 years",
+        "te": "ప్రతి 3 ఏళ్లు"
+       },
+       {
+        "en": "Separate 'no change' declarations",
+        "te": "వేరుగా 'మార్పు లేదు' ప్రకటనలు"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "From 1 Dec 2026",
+       "te": "1 డిసెం 2026 నుంచి"
+      },
+      "l": [
+       {
+        "en": "Every 2 years or",
+        "te": "ప్రతి 2 ఏళ్లు లేదా"
+       },
+       {
+        "en": "every 8 years",
+        "te": "ప్రతి 8 ఏళ్లు"
+       },
+       {
+        "en": "'No change' filing dropped",
+        "te": "'మార్పు లేదు' దాఖలు అవసరం లేదు"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "PSU Watch — SEBI rationalises KYC norms for FPIs, extends review period to up to 8 years, 30 Oct 2026",
+     "u": "https://psuwatch.com/newsupdates/sebi-rationalises-kyc-norms-for-fpis-extends-review-period-to-up-to-8-years"
+    },
+    {
+     "t": "AffairsCloud — Current Affairs 3 November 2026 (SEBI KYC review periodicity)",
+     "u": "https://affairscloud.com/current-affairs-3-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "gsidg",
+   "cat": "science",
+   "title": {
+    "en": "Dinesh V. Ganvir takes charge as the 55th Director General of the Geological Survey of India",
+    "te": "జియోలాజికల్ సర్వే ఆఫ్ ఇండియా 55వ డైరెక్టర్ జనరల్‌గా దినేశ్ వి. గన్వీర్ బాధ్యతలు"
+   },
+   "pts": [
+    {
+     "en": "The Geological Survey of India (GSI) maps India's rocks and searches for minerals. It was set up in 1851 (first to find coal for railways), has its HQ in Kolkata and is an attached office of the Ministry of Mines.",
+     "te": "జియోలాజికల్ సర్వే ఆఫ్ ఇండియా (GSI) దేశ శిలలను మ్యాప్ చేసి ఖనిజాలను అన్వేషిస్తుంది. 1851లో (రైల్వేలకు బొగ్గు కనుగొనేందుకు) ఏర్పాటైంది; కేంద్రం కోల్‌కతా; గనుల మంత్రిత్వ శాఖ అనుబంధ కార్యాలయం."
+    },
+    {
+     "en": "Ganvir succeeds Varsha Ashok Aglawe, the 54th DG and the first woman to head GSI. He joined GSI in 1994 and was earlier ADG, Central Region (Nagpur).",
+     "te": "54వ DG, GSIకి నాయకత్వం వహించిన తొలి మహిళ వర్షా అశోక్ అగ్లావే తర్వాత గన్వీర్ బాధ్యతలు చేపట్టారు. ఆయన 1994లో GSIలో చేరారు; ఇంతకుముందు సెంట్రల్ రీజియన్ (నాగపూర్) ADG."
+    },
+    {
+     "en": "His priorities: more exploration of critical and strategic minerals, auction-ready mineral blocks, less import dependence, and landslide early warning.",
+     "te": "ఆయన ప్రాధాన్యాలు: కీలక (critical), వ్యూహాత్మక ఖనిజాల అన్వేషణ పెంపు, వేలానికి సిద్ధమైన ఖనిజ బ్లాకులు, దిగుమతులపై ఆధారం తగ్గింపు, కొండచరియల ముందస్తు హెచ్చరిక."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "GSI founded",
+      "te": "GSI ఏర్పాటు"
+     },
+     {
+      "en": "1851",
+      "te": "1851"
+     }
+    ],
+    [
+     {
+      "en": "HQ / Ministry",
+      "te": "కేంద్రం / మంత్రిత్వ శాఖ"
+     },
+     {
+      "en": "Kolkata / Ministry of Mines",
+      "te": "కోల్‌కతా / గనుల మంత్రిత్వ శాఖ"
+     }
+    ],
+    [
+     {
+      "en": "54th DG",
+      "te": "54వ DG"
+     },
+     {
+      "en": "Varsha Ashok Aglawe — first woman",
+      "te": "వర్షా అశోక్ అగ్లావే — తొలి మహిళ"
+     }
+    ],
+    [
+     {
+      "en": "55th DG",
+      "te": "55వ DG"
+     },
+     {
+      "en": "Dinesh V. Ganvir (Nov 2026)",
+      "te": "దినేశ్ వి. గన్వీర్ (నవం 2026)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: GSI is under the Ministry of Mines, not Earth Sciences; HQ Kolkata (not Hyderabad — Hyderabad is one of its six regional offices).",
+    "te": "ట్రాప్: GSI గనుల మంత్రిత్వ శాఖ కింద ఉంటుంది, భూ విజ్ఞాన శాఖ కింద కాదు; కేంద్రం కోల్‌కతా (హైదరాబాద్ కాదు — అది ఆరు ప్రాంతీయ కార్యాలయాల్లో ఒకటి)."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "GSI — key dates",
+      "te": "GSI — ముఖ్య తేదీలు"
+     },
+     "items": [
+      {
+       "y": "1851",
+       "t": {
+        "en": "GSI set up — coal for railways",
+        "te": "GSI ఏర్పాటు — రైల్వేలకు బొగ్గు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "Aug 2026",
+       "t": {
+        "en": "Varsha Aglawe — 54th DG, first woman",
+        "te": "వర్షా అగ్లావే — 54వ DG, తొలి మహిళ"
+       },
+       "hl": 1
+      },
+      {
+       "y": "Nov 2026",
+       "t": {
+        "en": "Dinesh V. Ganvir — 55th DG",
+        "te": "దినేశ్ వి. గన్వీర్ — 55వ DG"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Technology For You (PIB release, 1 Nov 2026) — Dinesh V. Ganvir takes charge as DG of GSI",
+     "u": "https://www.technologyforyou.org/shri-dinesh-v-ganvir-takes-charge-as-director-general-of-gsi-reaffirms-focus-on-mineral-security-scientific-excellence-and-technological-advancement/"
+    },
+    {
+     "t": "Millennium Post — Dinesh V Ganvir takes charge as DG of GSI, 3 Nov 2026",
+     "u": "https://www.millenniumpost.in/business/dinesh-v-ganvir-takes-charge-as-dg-of-gsi-681915"
+    },
+    {
+     "t": "Drishti IAS — Varsha Ashok Aglawe: 1st woman DG of GSI, 5 Aug 2026",
+     "u": "https://www.drishtiias.com/daily-updates/daily-news-analysis/varsha-ashok-aglawe-1st-woman-dg-of-geological-survey-of-india"
+    }
+   ]
+  },
+  {
+   "id": "eac",
+   "cat": "defence",
+   "title": {
+    "en": "Air Marshal Mehtab Singh Deswal takes over the IAF's Eastern Air Command at Shillong",
+    "te": "షిల్లాంగ్‌లోని వాయుసేన తూర్పు వైమానిక కమాండ్ బాధ్యతలు చేపట్టిన ఎయిర్ మార్షల్ మెహతాబ్ సింగ్ దేస్వాల్"
+   },
+   "pts": [
+    {
+     "en": "On 1 November 2026 Air Marshal Mehtab Singh Deswal became Air Officer Commanding-in-Chief (AOC-in-C) of the Eastern Air Command (EAC). He succeeds Air Marshal Inderpal Singh Walia, who became Vice Chief of the Air Staff.",
+     "te": "2026 నవంబర్ 1న ఎయిర్ మార్షల్ మెహతాబ్ సింగ్ దేస్వాల్ తూర్పు వైమానిక కమాండ్ (EAC) ఎయిర్ ఆఫీసర్ కమాండింగ్-ఇన్-చీఫ్ అయ్యారు. వాయుసేన వైస్ చీఫ్‌గా వెళ్లిన ఎయిర్ మార్షల్ ఇందర్‌పాల్ సింగ్ వాలియా స్థానంలో వచ్చారు."
+    },
+    {
+     "en": "EAC guards the air space of the North-East and the eastern borders. It began as No. 1 Operational Group in Kolkata in 1958 and became a full command on 1 December 1959; its HQ is now at Shillong (Meghalaya).",
+     "te": "ఈశాన్య రాష్ట్రాలు, తూర్పు సరిహద్దుల గగనతల రక్షణ EAC బాధ్యత. 1958లో కోల్‌కతాలో 'నం. 1 ఆపరేషనల్ గ్రూప్'గా మొదలై 1959 డిసెంబర్ 1న పూర్తి కమాండ్ అయింది; ప్రస్తుత కేంద్రం షిల్లాంగ్ (మేఘాలయ)."
+    },
+    {
+     "en": "Deswal was commissioned as a fighter pilot in June 1989, has over 3,200 flying hours and was in the team that inducted the Su-30K in 1997.",
+     "te": "దేస్వాల్ 1989 జూన్‌లో ఫైటర్ పైలట్‌గా చేరారు; 3,200కు పైగా ఫ్లయింగ్ గంటలు; 1997లో Su-30K యుద్ధ విమానాన్ని ప్రవేశపెట్టిన బృందంలో ఉన్నారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Command",
+      "te": "కమాండ్"
+     },
+     {
+      "en": "Eastern Air Command, HQ Shillong",
+      "te": "తూర్పు వైమానిక కమాండ్, కేంద్రం షిల్లాంగ్"
+     }
+    ],
+    [
+     {
+      "en": "New chief",
+      "te": "కొత్త అధిపతి"
+     },
+     {
+      "en": "Air Marshal Mehtab Singh Deswal (1 Nov 2026)",
+      "te": "ఎయిర్ మార్షల్ మెహతాబ్ సింగ్ దేస్వాల్ (1 నవం 2026)"
+     }
+    ],
+    [
+     {
+      "en": "Became a command",
+      "te": "కమాండ్‌గా"
+     },
+     {
+      "en": "1 December 1959",
+      "te": "1 డిసెంబర్ 1959"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static: IAF has 7 commands — 5 operational (Western–Delhi, South Western–Gandhinagar, Central–Prayagraj, Eastern–Shillong, Southern–Thiruvananthapuram) + Training (Bengaluru) + Maintenance (Nagpur).",
+    "te": "స్టాటిక్: IAFకు 7 కమాండ్‌లు — 5 ఆపరేషనల్ (పశ్చిమ–ఢిల్లీ, నైరుతి–గాంధీనగర్, మధ్య–ప్రయాగ్‌రాజ్, తూర్పు–షిల్లాంగ్, దక్షిణ–తిరువనంతపురం) + శిక్షణ (బెంగళూరు) + నిర్వహణ (నాగపూర్)."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "northeast",
+     "h": {
+      "en": "Eastern Air Command HQ",
+      "te": "తూర్పు వైమానిక కమాండ్ కేంద్రం"
+     },
+     "hl": [
+      "Meghalaya"
+     ],
+     "hlc": "#1d4f91",
+     "pts": [
+      {
+       "ll": [
+        25.57,
+        91.88
+       ],
+       "t": {
+        "en": "Shillong",
+        "te": "షిల్లాంగ్"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Shillong in Meghalaya is the HQ. EAC began at Kolkata in 1958.",
+      "te": "మేఘాలయలోని షిల్లాంగ్ కేంద్రం. EAC 1958లో కోల్‌కతాలో ప్రారంభమైంది."
+     },
+     "src": "cards/cad/2026-11-03/map-eac-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Wikipedia — Eastern Air Command (India) (commanders list, history), accessed 3 Nov 2026",
+     "u": "https://en.wikipedia.org/wiki/Eastern_Air_Command_(India)"
+    },
+    {
+     "t": "AffairsCloud — Current Affairs 3 November 2026 (Air Marshal Deswal takes over EAC)",
+     "u": "https://affairscloud.com/current-affairs-3-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "bulgaria",
+   "cat": "ir",
+   "title": {
+    "en": "Iliana Iotova wins Bulgaria's presidential runoff — the country's first woman elected President",
+    "te": "బల్గేరియా అధ్యక్ష రెండో రౌండ్‌లో ఇలియానా ఇయోటోవా గెలుపు — ఎన్నికైన తొలి మహిళా అధ్యక్షురాలు"
+   },
+   "pts": [
+    {
+     "en": "In the runoff on 1 November 2026, Iliana Iotova got about 57.5% of the vote, defeating Andrey Gyurov (about 39.5%).",
+     "te": "2026 నవంబర్ 1న జరిగిన రెండో రౌండ్ (runoff)లో ఇలియానా ఇయోటోవాకు సుమారు 57.5% ఓట్లు వచ్చాయి; ఆండ్రీ గ్యురోవ్ (సుమారు 39.5%)ను ఓడించారు."
+    },
+    {
+     "en": "Runoff = a second round between the top two candidates when nobody wins a clear majority in round one (held on 25 October). Turnout was a record low of about 29%.",
+     "te": "రన్‌ఆఫ్ = మొదటి రౌండ్‌లో (అక్టోబర్ 25) ఎవరికీ స్పష్టమైన మెజారిటీ రానప్పుడు మొదటి ఇద్దరి మధ్య జరిగే రెండో రౌండ్. పోలింగ్ రికార్డు స్థాయిలో తక్కువగా సుమారు 29%."
+    },
+    {
+     "en": "Iotova was Vice-President with Rumen Radev (elected 2016 and 2021) and became President when Radev stepped down to contest parliamentary elections. Bulgaria is a member of the EU and NATO; capital Sofia.",
+     "te": "ఇయోటోవా రుమెన్ రాదేవ్‌తో కలిసి ఉపాధ్యక్షురాలిగా (2016, 2021) ఎన్నికయ్యారు; పార్లమెంటు ఎన్నికల కోసం రాదేవ్ తప్పుకోవడంతో అధ్యక్షురాలయ్యారు. బల్గేరియా EU, NATO సభ్య దేశం; రాజధాని సోఫియా."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Runoff",
+      "te": "రెండో రౌండ్"
+     },
+     {
+      "en": "1 Nov 2026 — Iotova ~57.5%, Gyurov ~39.5%",
+      "te": "1 నవం 2026 — ఇయోటోవా ~57.5%, గ్యురోవ్ ~39.5%"
+     }
+    ],
+    [
+     {
+      "en": "Capital",
+      "te": "రాజధాని"
+     },
+     {
+      "en": "Sofia",
+      "te": "సోఫియా"
+     }
+    ],
+    [
+     {
+      "en": "Blocs",
+      "te": "కూటములు"
+     },
+     {
+      "en": "EU and NATO member",
+      "te": "EU, NATO సభ్య దేశం"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Map trap: Bulgaria borders the Black Sea (east) and Romania across the Danube (north) — not the Adriatic. Use it for 'match the country with sea' questions.",
+    "te": "మ్యాప్ ట్రాప్: బల్గేరియా తూర్పున నల్ల సముద్రం, ఉత్తరాన డాన్యూబ్ నది అవతల రొమేనియా — అడ్రియాటిక్ సముద్రం కాదు. 'దేశం–సముద్రం జత' ప్రశ్నలకు ఉపయోగం."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": [
+      12.0,
+      36.0,
+      34.0,
+      48.5
+     ],
+     "h": {
+      "en": "Bulgaria on the Black Sea",
+      "te": "నల్ల సముద్ర తీరాన బల్గేరియా"
+     },
+     "ctry": [
+      "Bulgaria"
+     ],
+     "hlc": "#7a3b8f",
+     "pts": [
+      {
+       "ll": [
+        42.7,
+        23.32
+       ],
+       "t": {
+        "en": "Sofia",
+        "te": "సోఫియా"
+       },
+       "a": "l"
+      }
+     ],
+     "labels": [
+      {
+       "ll": [
+        43.2,
+        31.5
+       ],
+       "t": {
+        "en": "Black Sea",
+        "te": "నల్ల సముద్రం"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Coloured = Bulgaria. Black Sea to the east.",
+      "te": "రంగు = బల్గేరియా. తూర్పున నల్ల సముద్రం."
+     },
+     "src": "cards/cad/2026-11-03/map-bulgaria-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Novinite — Bulgaria elects first woman President as Yotova defeats Gyurov in runoff, 1 Nov 2026",
+     "u": "https://www.novinite.com/articles/241385/Bulgaria+Elects+First+Woman+President+as+Yotova+Defeats+Gyurov+in+Runoff"
+    },
+    {
+     "t": "Kyiv Post — Bulgaria elects Iotova with 58%, Nov 2026",
+     "u": "https://www.kyivpost.com/post/88851"
+    },
+    {
+     "t": "AffairsCloud — Current Affairs 3 November 2026 (Bulgaria president)",
+     "u": "https://affairscloud.com/current-affairs-3-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "kabaddi",
+   "cat": "sports",
+   "title": {
+    "en": "India win both men's and women's titles at the first Commonwealth Kabaddi Championship in Ahmedabad",
+    "te": "అహ్మదాబాద్‌లో తొలి కామన్వెల్త్ కబడ్డీ ఛాంపియన్‌షిప్‌లో పురుషులు, మహిళల రెండు టైటిళ్లూ భారత్‌వే"
+   },
+   "pts": [
+    {
+     "en": "The inaugural Commonwealth Kabaddi Championship was held from 23 to 31 October 2026 at the Veer Savarkar Sports Complex, Ahmedabad, with 13 men's and 10 women's teams.",
+     "te": "తొలి కామన్వెల్త్ కబడ్డీ ఛాంపియన్‌షిప్ 2026 అక్టోబర్ 23–31 వరకు అహ్మదాబాద్‌లోని వీర్ సావర్కర్ స్పోర్ట్స్ కాంప్లెక్స్‌లో జరిగింది; 13 పురుష, 10 మహిళా జట్లు పాల్గొన్నాయి."
+    },
+    {
+     "en": "Final on 31 October: India's men beat Sri Lanka 54–20; India's women beat Uganda 35–15. The men's team was unbeaten.",
+     "te": "అక్టోబర్ 31 ఫైనల్: భారత పురుషులు శ్రీలంకను 54–20తో, భారత మహిళలు ఉగాండాను 35–15తో ఓడించారు. పురుషుల జట్టు ఒక్క మ్యాచ్ కూడా ఓడలేదు."
+    },
+    {
+     "en": "Links: the 2030 Commonwealth Games will be held in Ahmedabad; kabaddi is India's indigenous sport, governed in India by the Amateur Kabaddi Federation of India (AKFI).",
+     "te": "లింక్: 2030 కామన్వెల్త్ క్రీడలు అహ్మదాబాద్‌లో జరుగుతాయి; కబడ్డీ భారత స్వదేశీ క్రీడ — దేశంలో అమెచ్యూర్ కబడ్డీ ఫెడరేషన్ ఆఫ్ ఇండియా (AKFI) నిర్వహిస్తుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Dates / venue",
+      "te": "తేదీలు / వేదిక"
+     },
+     {
+      "en": "23–31 Oct 2026, Ahmedabad",
+      "te": "23–31 అక్టో 2026, అహ్మదాబాద్"
+     }
+    ],
+    [
+     {
+      "en": "Men's final",
+      "te": "పురుషుల ఫైనల్"
+     },
+     {
+      "en": "India 54–20 Sri Lanka",
+      "te": "భారత్ 54–20 శ్రీలంక"
+     }
+    ],
+    [
+     {
+      "en": "Women's final",
+      "te": "మహిళల ఫైనల్"
+     },
+     {
+      "en": "India 35–15 Uganda",
+      "te": "భారత్ 35–15 ఉగాండా"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: women's final opponent was Uganda (not Sri Lanka); men's was Sri Lanka. Pairs are a favourite 'match the following' item.",
+    "te": "ట్రాప్: మహిళల ఫైనల్ ప్రత్యర్థి ఉగాండా (శ్రీలంక కాదు); పురుషులది శ్రీలంక. ఇలాంటి జతలు 'జతపరచండి' ప్రశ్నల్లో వస్తాయి."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Final scores (31 Oct)",
+      "te": "ఫైనల్ స్కోర్లు (31 అక్టో)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "India men",
+        "te": "భారత పురుషులు"
+       },
+       "v": 54,
+       "vl": "54"
+      },
+      {
+       "t": {
+        "en": "Sri Lanka men",
+        "te": "శ్రీలంక పురుషులు"
+       },
+       "v": 20,
+       "vl": "20"
+      },
+      {
+       "t": {
+        "en": "India women",
+        "te": "భారత మహిళలు"
+       },
+       "v": 35,
+       "vl": "35"
+      },
+      {
+       "t": {
+        "en": "Uganda women",
+        "te": "ఉగాండా మహిళలు"
+       },
+       "v": 15,
+       "vl": "15"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Khel Now — Commonwealth Kabaddi Championship 2026 schedule & results",
+     "u": "https://khelnow.com/kabaddi/schedule-results-commonwealth-kabaddi-championship-202610"
+    },
+    {
+     "t": "myKhel — Commonwealth Kabaddi Championship 2026: India set up final against Sri Lanka",
+     "u": "https://www.mykhel.com/kabaddi/commonwealth-kabaddi-championship-2026-india-set-up-final-against-sri-lanka-457629.html"
+    },
+    {
+     "t": "AffairsCloud — Current Affairs 3 November 2026 (Commonwealth Kabaddi)",
+     "u": "https://affairscloud.com/current-affairs-3-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "idei",
+   "cat": "days",
+   "title": {
+    "en": "2 November: International Day to End Impunity for Crimes against Journalists",
+    "te": "నవంబర్ 2: జర్నలిస్టులపై నేరాలకు శిక్ష తప్పించుకోవడాన్ని అంతం చేసే అంతర్జాతీయ దినోత్సవం"
+   },
+   "pts": [
+    {
+     "en": "Impunity = escaping punishment. The day asks governments to investigate and punish attacks on journalists. UNESCO leads it; the 2026 event was held at UNESCO HQ in Paris.",
+     "te": "ఇంప్యూనిటీ = నేరం చేసి శిక్ష తప్పించుకోవడం. జర్నలిస్టులపై దాడులను దర్యాప్తు చేసి శిక్షించాలని ప్రభుత్వాలను ఈ దినం కోరుతుంది. దీనికి యునెస్కో నాయకత్వం; 2026 కార్యక్రమం పారిస్‌లోని యునెస్కో కేంద్ర కార్యాలయంలో జరిగింది."
+    },
+    {
+     "en": "It remembers French journalists Ghislaine Dupont and Claude Verlon, killed in Kidal, Mali on 2 November 2013. UN General Assembly resolution A/RES/68/163 (18 December 2013) created the day; first observed in 2014.",
+     "te": "2013 నవంబర్ 2న మాలిలోని కిడాల్‌లో హత్యకు గురైన ఫ్రెంచ్ జర్నలిస్టులు గిస్లేన్ డ్యూపాంట్, క్లాడ్ వెర్లాన్‌ల జ్ఞాపకార్థం. ఐరాస సర్వప్రతినిధి సభ తీర్మానం A/RES/68/163 (18 డిసెంబర్ 2013) దీన్ని ప్రకటించింది; తొలిసారి 2014లో పాటించారు."
+    },
+    {
+     "en": "India link: freedom of the press is part of freedom of speech and expression under Article 19(1)(a); reasonable restrictions are in Article 19(2).",
+     "te": "భారత లింక్: పత్రికా స్వేచ్ఛ అధికరణ 19(1)(a) కింద వాక్ స్వాతంత్ర్యంలో భాగం; సహేతుక పరిమితులు అధికరణ 19(2)లో ఉన్నాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Date",
+      "te": "తేదీ"
+     },
+     {
+      "en": "2 November (yearly)",
+      "te": "నవంబర్ 2 (ఏటా)"
+     }
+    ],
+    [
+     {
+      "en": "Created by",
+      "te": "ప్రకటించింది"
+     },
+     {
+      "en": "UNGA Res. 68/163, 18 Dec 2013",
+      "te": "UNGA తీర్మానం 68/163, 18 డిసెం 2013"
+     }
+    ],
+    [
+     {
+      "en": "Lead agency",
+      "te": "నాయక సంస్థ"
+     },
+     {
+      "en": "UNESCO (HQ Paris)",
+      "te": "యునెస్కో (కేంద్రం పారిస్)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: World Press Freedom Day is 3 May; National Press Day (India) is 16 November; 2 November is about impunity for crimes against journalists.",
+    "te": "ట్రాప్: ప్రపంచ పత్రికా స్వేచ్ఛా దినం మే 3; జాతీయ పత్రికా దినం (భారత్) నవంబర్ 16; నవంబర్ 2 జర్నలిస్టులపై నేరాల ఇంప్యూనిటీ గురించి."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "How the day came about",
+      "te": "ఈ దినం ఎలా వచ్చింది"
+     },
+     "items": [
+      {
+       "y": "2 Nov 2013",
+       "t": {
+        "en": "Two French journalists killed in Kidal, Mali",
+        "te": "మాలిలో ఇద్దరు ఫ్రెంచ్ జర్నలిస్టుల హత్య"
+       }
+      },
+      {
+       "y": "18 Dec 2013",
+       "t": {
+        "en": "UNGA resolution 68/163",
+        "te": "UNGA తీర్మానం 68/163"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2014",
+       "t": {
+        "en": "First observed",
+        "te": "తొలిసారి పాటించారు"
+       }
+      },
+      {
+       "y": "2 Nov 2026",
+       "t": {
+        "en": "Event at UNESCO HQ, Paris",
+        "te": "పారిస్ యునెస్కో కేంద్రంలో కార్యక్రమం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Indico.UN (UNESCO) — International Day to End Impunity for Crimes against Journalists, 2 Nov 2026",
+     "u": "https://indico.un.org/event/1024996/overview"
+    },
+    {
+     "t": "AffairsCloud — Current Affairs 3 November 2026 (IDEI 2026)",
+     "u": "https://affairscloud.com/current-affairs-3-november-2026/"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "murasu",
+   "q": {
+    "en": "Consider the following statements about Cyclone Murasu (3 Nov 2026):",
+    "te": "మురసు తుపాను (3 నవం 2026) గురించి కింది ప్రవచనాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It crossed the south AP coast near Ongole between 3:30 and 5:30 am.",
+     "te": "I. తెల్లవారుజాము 3:30–5:30 మధ్య ఒంగోలు సమీపంలో దక్షిణ ఏపీ తీరం దాటింది."
+    },
+    {
+     "en": "II. Naguluppalapadu's 198 mm falls in IMD's 'extremely heavy' category.",
+     "te": "II. నాగులుప్పలపాడు 198 మి.మీ. IMD 'అత్యంత భారీ' వర్గంలోకి వస్తుంది."
+    },
+    {
+     "en": "III. It was the second severe cyclone to hit AP within a week.",
+     "te": "III. వారంలో ఏపీని తాకిన రెండో తీవ్ర తుపాను ఇది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct. II is the trap: 'extremely heavy' needs 204.5 mm or more in 24 hours; 198 mm is 'very heavy' (115.6–204.4 mm). Arnab (28 Oct) came before Murasu.",
+    "te": "I, III సరైనవి. II ట్రాప్: 'అత్యంత భారీ'కి 24 గంటల్లో 204.5 మి.మీ. లేదా ఎక్కువ కావాలి; 198 మి.మీ. 'అతి భారీ' (115.6–204.4). మురసుకు ముందు అర్ణబ్ (28 అక్టో)."
+   }
+  },
+  {
+   "topic": "murasu",
+   "q": {
+    "en": "Arrange the stages of Murasu after landfall as forecast by IMD, from first to last:",
+    "te": "తీరం దాటాక మురసు దశలను IMD అంచనా ప్రకారం క్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "I. Deep depression",
+     "te": "I. తీవ్ర వాయుగుండం"
+    },
+    {
+     "en": "II. Severe cyclonic storm",
+     "te": "II. తీవ్ర తుపాను"
+    },
+    {
+     "en": "III. Cyclonic storm (80–90 km/h)",
+     "te": "III. తుపాను (గం. 80–90 కి.మీ.)"
+    }
+   ],
+   "o": [
+    {
+     "en": "I – III – II",
+     "te": "I – III – II"
+    },
+    {
+     "en": "III – II – I",
+     "te": "III – II – I"
+    },
+    {
+     "en": "II – I – III",
+     "te": "II – I – III"
+    },
+    {
+     "en": "II – III – I",
+     "te": "II – III – I"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "A cyclone weakens over land: severe cyclonic storm → cyclonic storm (by noon) → deep depression (by midnight). Trap: option (c) puts 'deep depression' before 'cyclonic storm'.",
+    "te": "భూమిపై తుపాను బలహీనపడుతుంది: తీవ్ర తుపాను → తుపాను (మధ్యాహ్నానికి) → తీవ్ర వాయుగుండం (అర్ధరాత్రికి). ట్రాప్: (c)లో వాయుగుండం ముందు వచ్చింది."
+   }
+  },
+  {
+   "topic": "ulbcount",
+   "q": {
+    "en": "With reference to the AP urban local body elections, which of the following statements is INCORRECT?",
+    "te": "ఏపీ పట్టణ స్థానిక సంస్థల ఎన్నికలకు సంబంధించి కింది వాటిలో సరికానిది ఏది?"
+   },
+   "o": [
+    {
+     "en": "Votes of 92 ULBs, including 13 municipal corporations, were counted on 3 Nov.",
+     "te": "13 నగరపాలక సంస్థలు సహా 92 ULBల ఓట్లు నవం 3న లెక్కించారు."
+    },
+    {
+     "en": "Counting was delayed in Ongole and Chirala because of Cyclone Murasu.",
+     "te": "మురసు తుపాను వల్ల ఒంగోలు, చీరాలలో లెక్కింపు ఆలస్యమైంది."
+    },
+    {
+     "en": "Municipal elections are conducted by the Election Commission of India.",
+     "te": "పురపాలక ఎన్నికలను భారత ఎన్నికల సంఘం నిర్వహిస్తుంది."
+    },
+    {
+     "en": "Article 243ZA provides for elections to municipalities.",
+     "te": "అధికరణ 243ZA పురపాలక ఎన్నికల గురించి చెబుతుంది."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "(c) is incorrect: municipal (and panchayat) elections are conducted by the State Election Commission, under Articles 243ZA and 243K. The ECI (Art. 324) handles Parliament, Assemblies, President and Vice-President.",
+    "te": "(c) సరికాదు: పురపాలక (పంచాయతీ) ఎన్నికలను రాష్ట్ర ఎన్నికల సంఘం అధికరణ 243ZA, 243K కింద నిర్వహిస్తుంది. ECI (అధి. 324) పార్లమెంటు, శాసనసభలు, రాష్ట్రపతి, ఉపరాష్ట్రపతి ఎన్నికలు చూస్తుంది."
+   }
+  },
+  {
+   "topic": "nadisanjeevani",
+   "q": {
+    "en": "Consider the following statements about the 'Nadi Sanjeevani' MoU (3 Nov 2026):",
+    "te": "'నదీ సంజీవని' ఒప్పందం (3 నవం 2026) గురించి కింది ప్రవచనాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It was signed between the Ministry of Jal Shakti and Bihar.",
+     "te": "I. ఇది జలశక్తి మంత్రిత్వ శాఖ, బిహార్ మధ్య కుదిరింది."
+    },
+    {
+     "en": "II. Silt removed from rivers will be used to build national highways.",
+     "te": "II. నదుల నుంచి తీసిన పూడికను జాతీయ రహదారుల నిర్మాణానికి వాడతారు."
+    },
+    {
+     "en": "III. NHAI will carry out the desilting.",
+     "te": "III. పూడికతీత పనిని NHAI చేస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "III only",
+     "te": "III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "II and III are correct. I is the trap: the MoU is between the Ministry of Road Transport and Highways (MoRTH) and Bihar — because the silt goes into highways.",
+    "te": "II, III సరైనవి. I ట్రాప్: ఒప్పందం రోడ్డు రవాణా, రహదారుల మంత్రిత్వ శాఖ (MoRTH), బిహార్ మధ్య — ఎందుకంటే పూడిక రహదారులకు వెళ్తుంది."
+   }
+  },
+  {
+   "topic": "nadisanjeevani",
+   "q": {
+    "en": "Which of the following rivers enter Bihar from Nepal?",
+    "te": "కింది నదుల్లో నేపాల్ నుంచి బిహార్‌లోకి ప్రవేశించేవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. Gandak",
+     "te": "I. గండక్"
+    },
+    {
+     "en": "II. Kosi",
+     "te": "II. కోసి"
+    },
+    {
+     "en": "III. Son",
+     "te": "III. సోన్"
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Gandak and Kosi come from Nepal (Himalayan rivers). Son is the trap: it rises on the Amarkantak plateau (Madhya Pradesh) and joins the Ganga from the south near Patna.",
+    "te": "గండక్, కోసి నేపాల్ నుంచి వస్తాయి (హిమాలయ నదులు). సోన్ ట్రాప్: ఇది అమర్‌కంటక్ పీఠభూమి (మధ్యప్రదేశ్)లో పుట్టి దక్షిణం నుంచి పాట్నా దగ్గర గంగలో కలుస్తుంది."
+   }
+  },
+  {
+   "topic": "sebifpi",
+   "q": {
+    "en": "Consider the following statements about SEBI's new KYC rules for FPIs:",
+    "te": "FPIలకు SEBI కొత్త KYC నిబంధనల గురించి కింది ప్రవచనాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The KYC review cycle can now be up to 8 years for eligible FPIs.",
+     "te": "I. అర్హత గల FPIలకు KYC సమీక్ష ఇప్పుడు 8 ఏళ్ల వరకు ఉండవచ్చు."
+    },
+    {
+     "en": "II. The rules take effect from 1 December 2026.",
+     "te": "II. నిబంధనలు 2026 డిసెంబర్ 1 నుంచి అమల్లోకి వస్తాయి."
+    },
+    {
+     "en": "III. An FPI usually holds 10% or more of a company with a lasting interest.",
+     "te": "III. FPI సాధారణంగా కంపెనీలో 10% లేదా ఎక్కువ వాటాను దీర్ఘకాల ఆసక్తితో కలిగి ఉంటుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and II are correct. III describes FDI, not FPI — FPI is a portfolio holding below 10% without control.",
+    "te": "I, II సరైనవి. III FDIని వివరిస్తుంది, FPIని కాదు — FPI అంటే నియంత్రణ లేని 10% లోపు పోర్ట్‌ఫోలియో వాటా."
+   }
+  },
+  {
+   "topic": "gsidg",
+   "q": {
+    "en": "Match List-I with List-II:",
+    "te": "జాబితా-I ని జాబితా-II తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. GSI founded — 1. Kolkata",
+     "te": "A. GSI ఏర్పాటు — 1. కోల్‌కతా"
+    },
+    {
+     "en": "B. GSI HQ — 2. Ministry of Mines",
+     "te": "B. GSI కేంద్రం — 2. గనుల మంత్రిత్వ శాఖ"
+    },
+    {
+     "en": "C. GSI parent ministry — 3. 1851",
+     "te": "C. GSI మాతృ శాఖ — 3. 1851"
+    },
+    {
+     "en": "D. 55th DG of GSI — 4. Dinesh V. Ganvir",
+     "te": "D. GSI 55వ DG — 4. దినేశ్ వి. గన్వీర్"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-1, B-3, C-2, D-4",
+     "te": "A-1, B-3, C-2, D-4"
+    },
+    {
+     "en": "A-3, B-2, C-1, D-4",
+     "te": "A-3, B-2, C-1, D-4"
+    },
+    {
+     "en": "A-2, B-1, C-3, D-4",
+     "te": "A-2, B-1, C-3, D-4"
+    },
+    {
+     "en": "A-3, B-1, C-2, D-4",
+     "te": "A-3, B-1, C-2, D-4"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "GSI: founded 1851, HQ Kolkata, under the Ministry of Mines; Ganvir is the 55th DG (Varsha Aglawe, the first woman DG, was 54th).",
+    "te": "GSI: 1851లో ఏర్పాటు, కేంద్రం కోల్‌కతా, గనుల మంత్రిత్వ శాఖ కింద; గన్వీర్ 55వ DG (తొలి మహిళా DG వర్షా అగ్లావే 54వ)."
+   }
+  },
+  {
+   "topic": "eac",
+   "q": {
+    "en": "Consider the following statements about the IAF's Eastern Air Command:",
+    "te": "వాయుసేన తూర్పు వైమానిక కమాండ్ గురించి కింది ప్రవచనాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Its headquarters is at Shillong.",
+     "te": "I. దీని కేంద్రం షిల్లాంగ్."
+    },
+    {
+     "en": "II. It became a full command on 1 December 1959.",
+     "te": "II. 1959 డిసెంబర్ 1న పూర్తి కమాండ్ అయింది."
+    },
+    {
+     "en": "III. Air Marshal Mehtab Singh Deswal became its chief on 1 November 2026.",
+     "te": "III. 2026 నవంబర్ 1న ఎయిర్ మార్షల్ మెహతాబ్ సింగ్ దేస్వాల్ దీని అధిపతి అయ్యారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct. Trap thinking: EAC started in Kolkata (1958), so many mark I wrong — but the HQ is now Shillong. Deswal succeeded I.S. Walia, who became Vice Chief.",
+    "te": "మూడూ సరైనవే. ట్రాప్: EAC కోల్‌కతాలో (1958) మొదలైనందున I తప్పు అనుకుంటారు — కానీ ప్రస్తుత కేంద్రం షిల్లాంగ్. వైస్ చీఫ్ అయిన ఐ.ఎస్. వాలియా స్థానంలో దేస్వాల్ వచ్చారు."
+   }
+  },
+  {
+   "topic": "bulgaria",
+   "q": {
+    "en": "Consider the following statements about Bulgaria's 2026 presidential election:",
+    "te": "బల్గేరియా 2026 అధ్యక్ష ఎన్నిక గురించి కింది ప్రవచనాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Iliana Iotova won the 1 November runoff against Andrey Gyurov.",
+     "te": "I. నవంబర్ 1 రన్‌ఆఫ్‌లో ఆండ్రీ గ్యురోవ్‌పై ఇలియానా ఇయోటోవా గెలిచారు."
+    },
+    {
+     "en": "II. She is Bulgaria's first woman elected President.",
+     "te": "II. బల్గేరియాలో ఎన్నికైన తొలి మహిళా అధ్యక్షురాలు ఆమె."
+    },
+    {
+     "en": "III. Bulgaria has a coast on the Adriatic Sea.",
+     "te": "III. బల్గేరియాకు అడ్రియాటిక్ సముద్ర తీరం ఉంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and II are correct. III is wrong: Bulgaria's coast is on the Black Sea; the Adriatic touches countries like Italy, Croatia and Albania.",
+    "te": "I, II సరైనవి. III తప్పు: బల్గేరియా తీరం నల్ల సముద్రంపై ఉంది; అడ్రియాటిక్ ఇటలీ, క్రొయేషియా, అల్బేనియా వంటి దేశాలను తాకుతుంది."
+   }
+  },
+  {
+   "topic": "idei",
+   "q": {
+    "en": "Match the day with its date:",
+    "te": "దినోత్సవాన్ని తేదీతో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. Day to End Impunity for Crimes against Journalists — 1. 3 May",
+     "te": "A. జర్నలిస్టులపై నేరాల ఇంప్యూనిటీ అంతం దినం — 1. మే 3"
+    },
+    {
+     "en": "B. World Press Freedom Day — 2. 16 November",
+     "te": "B. ప్రపంచ పత్రికా స్వేచ్ఛా దినం — 2. నవంబర్ 16"
+    },
+    {
+     "en": "C. National Press Day (India) — 3. 2 November",
+     "te": "C. జాతీయ పత్రికా దినం (భారత్) — 3. నవంబర్ 2"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-1, B-3, C-2",
+     "te": "A-1, B-3, C-2"
+    },
+    {
+     "en": "A-3, B-1, C-2",
+     "te": "A-3, B-1, C-2"
+    },
+    {
+     "en": "A-3, B-2, C-1",
+     "te": "A-3, B-2, C-1"
+    },
+    {
+     "en": "A-2, B-1, C-3",
+     "te": "A-2, B-1, C-3"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "2 November = Day to End Impunity (UNGA Res. 68/163, 2013); 3 May = World Press Freedom Day; 16 November = National Press Day (Press Council of India).",
+    "te": "నవంబర్ 2 = ఇంప్యూనిటీ అంతం దినం (UNGA తీర్మానం 68/163, 2013); మే 3 = ప్రపంచ పత్రికా స్వేచ్ఛా దినం; నవంబర్ 16 = జాతీయ పత్రికా దినం (ప్రెస్ కౌన్సిల్ ఆఫ్ ఇండియా)."
+   }
+  }
+ ]
+}
