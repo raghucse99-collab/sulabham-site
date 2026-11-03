@@ -1,0 +1,1925 @@
+{
+ "date": "2026-11-03",
+ "day": {
+  "en": "Tuesday, 3 November 2026",
+  "te": "మంగళవారం, 3 నవంబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "biosphere",
+   "kind": "day",
+   "color": "#2f6b2f",
+   "icon": "leaf",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    6
+   ],
+   "tag": {
+    "en": "UNESCO day · 3 November",
+    "te": "యునెస్కో దినోత్సవం · 3 నవంబర్"
+   },
+   "title": {
+    "en": "International Day for Biosphere Reserves",
+    "te": "అంతర్జాతీయ బయోస్ఫియర్ రిజర్వుల దినోత్సవం"
+   },
+   "line": {
+    "en": "India has 18 notified biosphere reserves — 13 are on UNESCO's world list. AP's own is Seshachalam (2010).",
+    "te": "భారత్‌లో 18 నోటిఫైడ్ బయోస్ఫియర్ రిజర్వులు — వాటిలో 13 యునెస్కో ప్రపంచ జాబితాలో ఉన్నాయి. ఏపీకి చెందినది శేషాచలం (2010)."
+   },
+   "easy": [
+    {
+     "en": "A biosphere reserve is a large area where nature is protected AND people continue to live and work. It is not a 'fence-and-close' area. The idea comes from UNESCO's Man and the Biosphere (MAB) programme: protect biodiversity while allowing sustainable livelihoods around it.",
+     "te": "బయోస్ఫియర్ రిజర్వు అంటే ప్రకృతిని కాపాడుతూనే ప్రజలు అక్కడ నివసిస్తూ, పనిచేసుకునే విశాల ప్రాంతం. ఇది 'కంచె వేసి మూసేసే' ప్రాంతం కాదు. ఈ భావన యునెస్కో 'మ్యాన్ అండ్ ది బయోస్ఫియర్ (MAB)' కార్యక్రమం నుంచి వచ్చింది: జీవవైవిధ్యాన్ని కాపాడుతూ చుట్టుపక్కల స్థిరమైన జీవనోపాధికి అవకాశం ఇవ్వడం."
+    },
+    {
+     "en": "Every reserve has three zones: a strictly protected core, a buffer around it for research and education, and an outer transition area where communities carry on sustainable economic activities. UNESCO marks 3 November as the International Day for Biosphere Reserves, observed from 2022. (We could not verify an official theme for 2026, so none is given.)",
+     "te": "ప్రతి రిజర్వులో మూడు జోన్లు: కఠినంగా రక్షించే కోర్ (కేంద్ర) జోన్, దాని చుట్టూ పరిశోధన-విద్య కోసం బఫర్ జోన్, బయట ప్రజలు స్థిరమైన ఆర్థిక కార్యకలాపాలు చేసుకునే ట్రాన్సిషన్ (పరివర్తన) జోన్. యునెస్కో నవంబర్ 3ను అంతర్జాతీయ బయోస్ఫియర్ రిజర్వుల దినోత్సవంగా 2022 నుంచి పాటిస్తోంది. (2026 అధికారిక థీమ్‌ను ధ్రువీకరించలేకపోయాం, అందుకే ఇవ్వలేదు.)"
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Day",
+      "te": "దినోత్సవం"
+     },
+     {
+      "en": "3 November — UNESCO; observed since 2022",
+      "te": "నవంబర్ 3 — యునెస్కో; 2022 నుంచి"
+     }
+    ],
+    [
+     {
+      "en": "India",
+      "te": "భారత్"
+     },
+     {
+      "en": "18 notified biosphere reserves",
+      "te": "18 నోటిఫైడ్ బయోస్ఫియర్ రిజర్వులు"
+     }
+    ],
+    [
+     {
+      "en": "On UNESCO list (WNBR)",
+      "te": "యునెస్కో జాబితాలో (WNBR)"
+     },
+     {
+      "en": "13 of the 18 — latest: Cold Desert, Himachal Pradesh (Sept 2025)",
+      "te": "18లో 13 — తాజాది: కోల్డ్ డెజర్ట్, హిమాచల్ ప్రదేశ్ (సెప్టెంబర్ 2025)"
+     }
+    ],
+    [
+     {
+      "en": "Oldest",
+      "te": "అత్యంత పురాతనం"
+     },
+     {
+      "en": "Nilgiri (Tamil Nadu–Karnataka–Kerala), 1986",
+      "te": "నీలగిరి (తమిళనాడు–కర్ణాటక–కేరళ), 1986"
+     }
+    ],
+    [
+     {
+      "en": "Largest",
+      "te": "అతి పెద్దది"
+     },
+     {
+      "en": "Great Rann of Kutch, Gujarat — 12,454 sq km (PIB)",
+      "te": "గ్రేట్ రాణ్ ఆఫ్ కచ్, గుజరాత్ — 12,454 చ.కి.మీ. (PIB)"
+     }
+    ],
+    [
+     {
+      "en": "Three each",
+      "te": "మూడేసి"
+     },
+     {
+      "en": "Madhya Pradesh (Pachmarhi, Achanakmar-Amarkantak, Panna) and Tamil Nadu (Nilgiri, Gulf of Mannar, Agasthyamalai)",
+      "te": "మధ్యప్రదేశ్ (పచ్‌మఢీ, అచానక్‌మార్-అమర్‌కంటక్, పన్నా), తమిళనాడు (నీలగిరి, గల్ఫ్ ఆఫ్ మన్నార్, అగస్త్యమలై)"
+     }
+    ],
+    [
+     {
+      "en": "Andhra Pradesh",
+      "te": "ఆంధ్రప్రదేశ్"
+     },
+     {
+      "en": "Seshachalam Hills — declared Sept 2010; 4,756 sq km in the then Chittoor and Kadapa districts",
+      "te": "శేషాచలం కొండలు — సెప్టెంబర్ 2010లో ప్రకటన; అప్పటి చిత్తూరు, కడప జిల్లాల్లో 4,756 చ.కి.మీ."
+     }
+    ],
+    [
+     {
+      "en": "Seshachalam species",
+      "te": "శేషాచలం జీవులు"
+     },
+     {
+      "en": "Red Sanders, Slender Loris, Golden Gecko, Mouse Deer, Indian Giant Squirrel",
+      "te": "ఎర్రచందనం, స్లెండర్ లోరిస్, గోల్డెన్ గెకో, మౌస్ డీర్, ఇండియన్ జెయింట్ స్క్విరెల్"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Protected areas",
+     "te": "లింక్ చెయిన్ · రక్షిత ప్రాంతాలు"
+    },
+    "l": [
+     {
+      "en": "UNESCO MAB → World Network of Biosphere Reserves: 738 sites in 134 countries incl. 22 transboundary (UNESCO figure quoted in 2022)",
+      "te": "యునెస్కో MAB → ప్రపంచ బయోస్ఫియర్ రిజర్వుల నెట్‌వర్క్: 134 దేశాల్లో 738 ప్రాంతాలు, 22 సరిహద్దు దాటేవి (2022లో ఉదహరించిన యునెస్కో సంఖ్య)"
+     },
+     {
+      "en": "Seshachalam core zone 750.6 sq km · buffer 1,865.2 · transition 2,140.3 sq km",
+      "te": "శేషాచలం కోర్ జోన్ 750.6 చ.కి.మీ. · బఫర్ 1,865.2 · ట్రాన్సిషన్ 2,140.3 చ.కి.మీ."
+     },
+     {
+      "en": "Red Sanders (ఎర్రచందనం) = endemic tree of the Seshachalam–Palakonda hills; link with AP forest news",
+      "te": "ఎర్రచందనం = శేషాచలం-పాలకొండ కొండలకే పరిమితమైన చెట్టు; ఏపీ అటవీ వార్తలతో లింక్"
+     }
+    ]
+   },
+   "trap": {
+    "en": "'Notified by India' (18) ≠ 'on UNESCO's World Network' (13). Seshachalam is a notified reserve (2010) — do not confuse it with the oldest (Nilgiri, 1986) or the largest (Great Rann of Kutch).",
+    "te": "'భారత్ నోటిఫై చేసినవి' (18) ≠ 'యునెస్కో ప్రపంచ నెట్‌వర్క్‌లో ఉన్నవి' (13). శేషాచలం నోటిఫైడ్ రిజర్వు (2010) — దీన్ని అత్యంత పురాతనమైన నీలగిరి (1986)తోగానీ, అతి పెద్దదైన గ్రేట్ రాణ్ ఆఫ్ కచ్‌తోగానీ కలపవద్దు."
+   },
+   "tip": {
+    "en": "18 – 13 – 1986 – 2010: India's total – UNESCO list – first (Nilgiri) – AP's Seshachalam.",
+    "te": "18 – 13 – 1986 – 2010: భారత్ మొత్తం – యునెస్కో జాబితా – మొదటిది (నీలగిరి) – ఏపీ శేషాచలం."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "Three zones of a biosphere reserve (inside → outside)",
+      "te": "బయోస్ఫియర్ రిజర్వు మూడు జోన్లు (లోపలి నుంచి బయటకు)"
+     },
+     "items": [
+      {
+       "i": "🌳",
+       "t": {
+        "en": "Core — strictly protected",
+        "te": "కోర్ — కఠిన రక్షణ"
+       }
+      },
+      {
+       "i": "🔬",
+       "t": {
+        "en": "Buffer — research, training, education",
+        "te": "బఫర్ — పరిశోధన, శిక్షణ, విద్య"
+       }
+      },
+      {
+       "i": "🏘️",
+       "t": {
+        "en": "Transition — people's sustainable livelihoods",
+        "te": "ట్రాన్సిషన్ — ప్రజల స్థిర జీవనోపాధి"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Seshachalam: core 751 · buffer 1,865 · transition 2,140 sq km",
+      "te": "శేషాచలం: కోర్ 751 · బఫర్ 1,865 · ట్రాన్సిషన్ 2,140 చ.కి.మీ."
+     }
+    },
+    {
+     "type": "dots",
+     "h": {
+      "en": "India's 18 biosphere reserves",
+      "te": "భారత్ 18 బయోస్ఫియర్ రిజర్వులు"
+     },
+     "groups": [
+      {
+       "n": 13,
+       "color": "#2f6b2f",
+       "t": {
+        "en": "on UNESCO's World Network (latest: Cold Desert, 2025)",
+        "te": "యునెస్కో ప్రపంచ నెట్‌వర్క్‌లో (తాజా: కోల్డ్ డెజర్ట్, 2025)"
+       }
+      },
+      {
+       "n": 5,
+       "color": "#a86b00",
+       "t": {
+        "en": "notified by India, not on UNESCO list",
+        "te": "భారత్ నోటిఫై చేసినవి, యునెస్కో జాబితాలో లేవు"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Source: PIB, Nov 2025",
+      "te": "ఆధారం: PIB, నవంబర్ 2025"
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB — Biosphere Reserves backgrounder (Nov 2025)",
+     "u": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025113683301.pdf"
+    },
+    {
+     "t": "Drishti IAS — International Day for Biosphere Reserves (cross-check, 4 Nov 2022)",
+     "u": "https://www.drishtiias.com/daily-updates/daily-news-analysis/international-day-for-biosphere-reserves/print_manually"
+    },
+    {
+     "t": "Governance Now — Andhra hills declared biosphere reserve (9 Sep 2010)",
+     "u": "https://www.governancenow.com/news/regular-story/andhra-hills-declared-biosphere-reserve"
+    }
+   ],
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about biosphere reserves:",
+     "te": "బయోస్ఫియర్ రిజర్వులకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "UNESCO's International Day for Biosphere Reserves falls on 3 November and has been observed since 2022.",
+      "te": "యునెస్కో అంతర్జాతీయ బయోస్ఫియర్ రిజర్వుల దినోత్సవం నవంబర్ 3; 2022 నుంచి పాటిస్తున్నారు."
+     },
+     {
+      "en": "All 18 biosphere reserves notified by India are part of UNESCO's World Network of Biosphere Reserves.",
+      "te": "భారత్ నోటిఫై చేసిన 18 బయోస్ఫియర్ రిజర్వులూ యునెస్కో ప్రపంచ నెట్‌వర్క్‌లో ఉన్నాయి."
+     },
+     {
+      "en": "The Cold Desert Biosphere Reserve of Himachal Pradesh was added to the World Network in September 2025.",
+      "te": "హిమాచల్ ప్రదేశ్‌లోని కోల్డ్ డెజర్ట్ బయోస్ఫియర్ రిజర్వు సెప్టెంబర్ 2025లో ప్రపంచ నెట్‌వర్క్‌లో చేరింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and III are correct. II is wrong: only 13 of India's 18 reserves are on UNESCO's World Network.",
+     "te": "I, III సరైనవి. II తప్పు: భారత్‌లోని 18లో 13 మాత్రమే యునెస్కో ప్రపంచ నెట్‌వర్క్‌లో ఉన్నాయి."
+    }
+   }
+  },
+  {
+   "id": "sen",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "sirsyed",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "tag": {
+    "en": "Birth anniversary · 3 Nov 1933",
+    "te": "జయంతి · 3 నవంబర్ 1933"
+   },
+   "title": {
+    "en": "Amartya Sen — economist of welfare and freedom",
+    "te": "అమర్త్య సేన్ — సంక్షేమం, స్వేచ్ఛల ఆర్థికవేత్త"
+   },
+   "line": {
+    "en": "Nobel 1998 'for his contributions to welfare economics', Bharat Ratna 1999 — the thinker behind the capability approach.",
+    "te": "'సంక్షేమ ఆర్థికశాస్త్రానికి చేసిన కృషికి' 1998 నోబెల్, 1999 భారతరత్న — 'సామర్థ్యాల విధానం' (capability approach) రూపకర్త."
+   },
+   "easy": [
+    {
+     "en": "Amartya Sen was born on 3 November 1933 at Santiniketan; Rabindranath Tagore gave him the name 'Amartya' (immortal). He studied at Presidency College, Calcutta and Trinity College, Cambridge.",
+     "te": "అమర్త్య సేన్ 1933 నవంబర్ 3న శాంతినికేతన్‌లో జన్మించారు; 'అమర్త్య' (అమరుడు) అనే పేరు రవీంద్రనాథ్ ఠాగూర్ పెట్టారు. కలకత్తా ప్రెసిడెన్సీ కళాశాల, కేంబ్రిడ్జ్ ట్రినిటీ కళాశాలలో చదివారు."
+    },
+    {
+     "en": "His big idea: development is not just more income. What matters is what people can actually do and be — read, stay healthy, take part in decisions. This 'capability approach' (essay 'Equality of What?', 1979) influenced the UNDP's Human Development Report.",
+     "te": "ఆయన ముఖ్య ఆలోచన: అభివృద్ధి అంటే కేవలం ఆదాయం పెరగడం కాదు. ప్రజలు నిజంగా ఏం చేయగలరు, ఎలా ఉండగలరు — చదవడం, ఆరోగ్యంగా ఉండటం, నిర్ణయాల్లో పాల్గొనడం — అదే ముఖ్యం. ఈ 'సామర్థ్యాల విధానం' ('Equality of What?' వ్యాసం, 1979) UNDP మానవాభివృద్ధి నివేదికను ప్రభావితం చేసింది."
+    },
+    {
+     "en": "On famines, he showed that people starve not only because total food falls, but because some groups lose the ability to buy food — he explained the Bengal famine through food prices rising while rural wages lagged.",
+     "te": "కరవులపై ఆయన చెప్పింది: మొత్తం ఆహారం తగ్గడం వల్ల మాత్రమే కాదు, కొన్ని వర్గాలు ఆహారం కొనే శక్తి కోల్పోవడం వల్ల ప్రజలు ఆకలితో చనిపోతారు — ధరలు పెరిగి, గ్రామీణ వేతనాలు వెనుకబడటంతో బెంగాల్ కరవును ఆయన ఇలాగే వివరించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "3 November 1933, Santiniketan (Bengal)",
+      "te": "3 నవంబర్ 1933, శాంతినికేతన్ (బెంగాల్)"
+     }
+    ],
+    [
+     {
+      "en": "Nobel (Economic Sciences)",
+      "te": "నోబెల్ (ఆర్థికశాస్త్రం)"
+     },
+     {
+      "en": "1998 — 'for his contributions to welfare economics' (full prize, 1/1)",
+      "te": "1998 — 'సంక్షేమ ఆర్థికశాస్త్రానికి చేసిన కృషికి' (పూర్తి బహుమతి)"
+     }
+    ],
+    [
+     {
+      "en": "Bharat Ratna",
+      "te": "భారతరత్న"
+     },
+     {
+      "en": "1999 — one year after the Nobel",
+      "te": "1999 — నోబెల్ తర్వాత ఏడాది"
+     }
+    ],
+    [
+     {
+      "en": "Key books",
+      "te": "ముఖ్య పుస్తకాలు"
+     },
+     {
+      "en": "Collective Choice and Social Welfare (1970) · Poverty and Famines (1981) · Development as Freedom (1999) · The Argumentative Indian (2005) · The Idea of Justice (2009)",
+      "te": "Collective Choice and Social Welfare (1970) · Poverty and Famines (1981) · Development as Freedom (1999) · The Argumentative Indian (2005) · The Idea of Justice (2009)"
+     }
+    ],
+    [
+     {
+      "en": "Teaching",
+      "te": "బోధన"
+     },
+     {
+      "en": "Jadavpur (1956), Delhi School of Economics (1963–71), LSE, Oxford, Harvard; Master of Trinity College (1998)",
+      "te": "జాదవ్‌పూర్ (1956), ఢిల్లీ స్కూల్ ఆఫ్ ఎకనామిక్స్ (1963–71), LSE, ఆక్స్‌ఫర్డ్, హార్వర్డ్; ట్రినిటీ కళాశాల మాస్టర్ (1998)"
+     }
+    ],
+    [
+     {
+      "en": "Nalanda University",
+      "te": "నలంద విశ్వవిద్యాలయం"
+     },
+     {
+      "en": "First Chancellor (named 19 July 2012)",
+      "te": "మొదటి ఛాన్సలర్ (19 జులై 2012)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Development economics",
+     "te": "లింక్ చెయిన్ · అభివృద్ధి ఆర్థికశాస్త్రం"
+    },
+    "l": [
+     {
+      "en": "Capability approach → UNDP Human Development Report (ranks countries on economic AND social indicators)",
+      "te": "సామర్థ్యాల విధానం → UNDP మానవాభివృద్ధి నివేదిక (ఆర్థిక + సామాజిక సూచికలతో దేశాల ర్యాంకులు)"
+     },
+     {
+      "en": "Famine = failure of people's ability to obtain food (prices vs wages), not only a shortage — link to PDS and food security",
+      "te": "కరవు = ప్రజలకు ఆహారం అందే శక్తి విఫలం కావడం (ధరలు vs వేతనాలు), కేవలం కొరత కాదు — ప్రజా పంపిణీ వ్యవస్థ, ఆహార భద్రతతో లింక్"
+     },
+     {
+      "en": "Nalanda Mentor Group (2007) → Nalanda University teaching began Aug 2014",
+      "te": "నలంద మెంటర్ గ్రూప్ (2007) → నలంద విశ్వవిద్యాలయంలో బోధన ఆగస్టు 2014"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Order trap: Nobel 1998 came BEFORE Bharat Ratna 1999. The 1998 prize was for welfare economics — not for 'development as freedom' or for famine relief work.",
+    "te": "క్రమం ఉచ్చు: 1998 నోబెల్ ముందు, 1999 భారతరత్న తర్వాత. 1998 బహుమతి సంక్షేమ ఆర్థికశాస్త్రానికి — 'డెవలప్‌మెంట్ యాజ్ ఫ్రీడమ్' పుస్తకానికో, కరవు సహాయ కార్యక్రమాలకో కాదు."
+   },
+   "tip": {
+    "en": "'98 Nobel, '99 Ratna, '99 Freedom (book) — the 1998–99 pair.",
+    "te": "'98 నోబెల్, '99 రత్న, '99 ఫ్రీడమ్ (పుస్తకం) — 1998–99 జంట."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "His life in dates",
+      "te": "తేదీల్లో ఆయన జీవితం"
+     },
+     "items": [
+      {
+       "y": "1933",
+       "t": {
+        "en": "Born at Santiniketan (3 Nov)",
+        "te": "శాంతినికేతన్‌లో జననం (3 నవం)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1953",
+       "t": {
+        "en": "Trinity College, Cambridge",
+        "te": "ట్రినిటీ కళాశాల, కేంబ్రిడ్జ్"
+       }
+      },
+      {
+       "y": "1970",
+       "t": {
+        "en": "Collective Choice and Social Welfare",
+        "te": "Collective Choice and Social Welfare"
+       }
+      },
+      {
+       "y": "1979",
+       "t": {
+        "en": "'Equality of What?' — capability approach",
+        "te": "'Equality of What?' — సామర్థ్యాల విధానం"
+       }
+      },
+      {
+       "y": "1981",
+       "t": {
+        "en": "Poverty and Famines",
+        "te": "Poverty and Famines"
+       }
+      },
+      {
+       "y": "1998",
+       "t": {
+        "en": "Nobel — welfare economics",
+        "te": "నోబెల్ — సంక్షేమ ఆర్థికశాస్త్రం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1999",
+       "t": {
+        "en": "Bharat Ratna · Development as Freedom",
+        "te": "భారతరత్న · Development as Freedom"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2012",
+       "t": {
+        "en": "First Chancellor, Nalanda University",
+        "te": "నలంద విశ్వవిద్యాలయం మొదటి ఛాన్సలర్"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = the most-asked years.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే సంవత్సరాలు."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "NobelPrize.org — Amartya Sen, Facts (Prize in Economic Sciences 1998)",
+     "u": "https://www.nobelprize.org/prizes/economic-sciences/1998/sen/facts/"
+    },
+    {
+     "t": "Wikipedia — Amartya Sen (books, posts, Nalanda; cross-check)",
+     "u": "https://en.wikipedia.org/wiki/Amartya_Sen"
+    }
+   ],
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about Amartya Sen:",
+     "te": "అమర్త్య సేన్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "He was born at Santiniketan, and the name 'Amartya' was given by Rabindranath Tagore.",
+      "te": "ఆయన శాంతినికేతన్‌లో జన్మించారు; 'అమర్త్య' పేరును రవీంద్రనాథ్ ఠాగూర్ పెట్టారు."
+     },
+     {
+      "en": "He received the 1998 prize in Economic Sciences 'for his contributions to welfare economics'.",
+      "te": "'సంక్షేమ ఆర్థికశాస్త్రానికి చేసిన కృషికి' 1998 ఆర్థికశాస్త్ర బహుమతి పొందారు."
+     },
+     {
+      "en": "He was awarded the Bharat Ratna before he received the Nobel prize.",
+      "te": "నోబెల్ బహుమతికి ముందే ఆయనకు భారతరత్న లభించింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "III is wrong: Nobel came in 1998 and the Bharat Ratna in 1999.",
+     "te": "III తప్పు: నోబెల్ 1998లో, భారతరత్న 1999లో వచ్చాయి."
+    }
+   }
+  },
+  {
+   "id": "mlc",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    6
+   ],
+   "src": {
+    "en": "In the news · Polity · The Hindu / Indian Express · Oct–Nov 2026",
+    "te": "వార్తల్లో · పాలిటీ · ది హిందూ / ఇండియన్ ఎక్స్‌ప్రెస్ · అక్టోబర్–నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity (State Legislature)",
+    "te": "వివరణ · GS-II పాలిటీ (రాష్ట్ర శాసనవ్యవస్థ)"
+   },
+   "title": {
+    "en": "Legislative Councils: why only 6 States — including AP — have an Upper House",
+    "te": "శాసన మండలి: ఏపీ సహా 6 రాష్ట్రాలకే ఎగువ సభ ఎందుకు?"
+   },
+   "line": {
+    "en": "Elections to 28 Council seats in UP, Bihar, Maharashtra and Karnataka have revived the debate — a core Group 1/2 polity topic with a direct AP history.",
+    "te": "యూపీ, బిహార్, మహారాష్ట్ర, కర్ణాటకల్లో 28 మండలి స్థానాలకు ఎన్నికలతో మళ్లీ చర్చ — ఏపీ చరిత్రతో నేరుగా ముడిపడిన గ్రూప్ 1/2 పాలిటీ అంశం."
+   },
+   "easy": [
+    {
+     "en": "A State can have one House (Legislative Assembly) or two (Assembly + Legislative Council). The Council is the Upper House — like a small Rajya Sabha for the State. Today only six States have one: Andhra Pradesh, Telangana, Karnataka, Maharashtra, Bihar and Uttar Pradesh.",
+     "te": "రాష్ట్రానికి ఒకే సభ (శాసనసభ) లేదా రెండు సభలు (శాసనసభ + శాసన మండలి) ఉండొచ్చు. మండలి ఎగువ సభ — రాష్ట్రానికి చిన్న రాజ్యసభ లాంటిది. ప్రస్తుతం ఆరు రాష్ట్రాలకే ఉంది: ఆంధ్రప్రదేశ్, తెలంగాణ, కర్ణాటక, మహారాష్ట్ర, బిహార్, ఉత్తరప్రదేశ్."
+    },
+    {
+     "en": "How is a Council created or abolished? Article 169: the State Assembly passes a resolution by special majority (majority of total membership + two-thirds of those present and voting), and then Parliament makes an ordinary law. The Council is permanent — never dissolved; members serve 6 years and one-third retire every 2 years.",
+     "te": "మండలిని ఎలా ఏర్పాటు/రద్దు చేస్తారు? ఆర్టికల్ 169: రాష్ట్ర శాసనసభ ప్రత్యేక మెజారిటీతో (మొత్తం సభ్యుల్లో మెజారిటీ + హాజరై ఓటేసిన వారిలో మూడింట రెండు వంతులు) తీర్మానం చేయాలి; తర్వాత పార్లమెంటు సాధారణ చట్టం చేస్తుంది. మండలి శాశ్వత సభ — రద్దు కాదు; సభ్యుల పదవీకాలం 6 ఏళ్లు, ప్రతి 2 ఏళ్లకు మూడో వంతు పదవీ విరమణ."
+    },
+    {
+     "en": "Its powers are limited. On an ordinary Bill it can only delay (at most about four months) — the Assembly's view prevails. On a Money Bill it can only recommend changes within 14 days. Supporters call it a 'revising chamber' for careful law-making; critics call it costly and a back door for leaders who lose elections.",
+     "te": "దీని అధికారాలు పరిమితం. సాధారణ బిల్లును కేవలం ఆలస్యం (గరిష్ఠంగా సుమారు నాలుగు నెలలు) చేయగలదు — చివరికి శాసనసభ మాటే నెగ్గుతుంది. ద్రవ్య బిల్లుపై 14 రోజుల్లో సిఫార్సులు మాత్రమే చేయగలదు. సమర్థకులు దీన్ని జాగ్రత్తగా చట్టాలు చేసే 'పునఃపరిశీలన సభ' అంటారు; విమర్శకులు ఖర్చుతో కూడినదని, ఎన్నికల్లో ఓడిన నేతలకు దొడ్డిదారి అని అంటారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Create / abolish",
+      "te": "ఏర్పాటు / రద్దు"
+     },
+     {
+      "en": "Art. 169 — Assembly resolution (special majority) + Parliament's ordinary law",
+      "te": "ఆర్టి. 169 — శాసనసభ తీర్మానం (ప్రత్యేక మెజారిటీ) + పార్లమెంటు సాధారణ చట్టం"
+     }
+    ],
+    [
+     {
+      "en": "Size",
+      "te": "పరిమాణం"
+     },
+     {
+      "en": "Art. 171 — max one-third of Assembly strength; min 40",
+      "te": "ఆర్టి. 171 — శాసనసభ సభ్యుల్లో గరిష్ఠంగా మూడో వంతు; కనీసం 40"
+     }
+    ],
+    [
+     {
+      "en": "Composition",
+      "te": "కూర్పు"
+     },
+     {
+      "en": "1/3 local bodies · 1/3 MLAs · 1/12 graduates · 1/12 teachers · 1/6 nominated by Governor",
+      "te": "1/3 స్థానిక సంస్థలు · 1/3 ఎమ్మెల్యేలు · 1/12 పట్టభద్రులు · 1/12 ఉపాధ్యాయులు · 1/6 గవర్నర్ నామినేట్"
+     }
+    ],
+    [
+     {
+      "en": "Term",
+      "te": "పదవీకాలం"
+     },
+     {
+      "en": "Permanent House (Art. 172); 6-year term; 1/3 retire every 2 years; min age 30",
+      "te": "శాశ్వత సభ (ఆర్టి. 172); 6 ఏళ్లు; ప్రతి 2 ఏళ్లకు 1/3 విరమణ; కనీస వయసు 30"
+     }
+    ],
+    [
+     {
+      "en": "Election method",
+      "te": "ఎన్నిక విధానం"
+     },
+     {
+      "en": "Proportional representation by single transferable vote (STV)",
+      "te": "ఏక బదిలీ ఓటు (STV) ద్వారా దామాషా ప్రాతినిధ్యం"
+     }
+    ],
+    [
+     {
+      "en": "Bills",
+      "te": "బిల్లులు"
+     },
+     {
+      "en": "Ordinary Bill: delay only (≈4 months max) · Money Bill: recommendations within 14 days",
+      "te": "సాధారణ బిల్లు: ఆలస్యం మాత్రమే (గరిష్ఠం ≈4 నెలలు) · ద్రవ్య బిల్లు: 14 రోజుల్లో సిఫార్సులు"
+     }
+    ],
+    [
+     {
+      "en": "Andhra Pradesh",
+      "te": "ఆంధ్రప్రదేశ్"
+     },
+     {
+      "en": "Council from 1958 → abolished 1985 → revived 2007; Jan 2020 Assembly resolution to abolish (133–0) — Council still functions",
+      "te": "మండలి 1958 నుంచి → 1985లో రద్దు → 2007లో పునరుద్ధరణ; జనవరి 2020లో రద్దు తీర్మానం (133–0) — మండలి ఇప్పటికీ కొనసాగుతోంది"
+     }
+    ],
+    [
+     {
+      "en": "Others",
+      "te": "ఇతరాలు"
+     },
+     {
+      "en": "Tamil Nadu abolished its Council in 1986; Rajasthan and Assam proposals have been pending in Parliament",
+      "te": "తమిళనాడు 1986లో మండలిని రద్దు చేసింది; రాజస్థాన్, అస్సాం ప్రతిపాదనలు పార్లమెంటులో పెండింగ్‌లో ఉన్నాయి"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · History & static polity",
+     "te": "లింక్ చెయిన్ · చరిత్ర & స్థిర పాలిటీ"
+    },
+    "l": [
+     {
+      "en": "Government of India Act, 1935 → bicameral legislatures in provinces; first provincial Council functioned in Bengal (1937)",
+      "te": "భారత ప్రభుత్వ చట్టం, 1935 → రాష్ట్రాల్లో ద్విసభా విధానం; మొదటి ప్రాంతీయ మండలి బెంగాల్‌లో (1937)"
+     },
+     {
+      "en": "Compare: Rajya Sabha (Art. 80) — also permanent, 1/3 retire every 2 years, but has equal power on ordinary Bills",
+      "te": "పోల్చండి: రాజ్యసభ (ఆర్టి. 80) — ఇదీ శాశ్వతం, ప్రతి 2 ఏళ్లకు 1/3 విరమణ; కానీ సాధారణ బిల్లులపై సమాన అధికారం"
+     },
+     {
+      "en": "AP 2020: the Council had 58 members when the abolition resolution was passed",
+      "te": "ఏపీ 2020: రద్దు తీర్మానం సమయంలో మండలిలో 58 మంది సభ్యులు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The Article 169 law is an ORDINARY law — it is not treated as a constitutional amendment under Article 368. And the Assembly alone cannot abolish a Council: Parliament must pass the law.",
+    "te": "ఆర్టికల్ 169 కింద చేసేది సాధారణ చట్టం — ఆర్టికల్ 368 కింద రాజ్యాంగ సవరణగా పరిగణించరు. శాసనసభ ఒక్కటే మండలిని రద్దు చేయలేదు: పార్లమెంటు చట్టం చేయాలి."
+   },
+   "tip": {
+    "en": "Composition code '3-3-12-12-6': thirds for Local bodies & MLAs, twelfths for Graduates & Teachers, sixth for Governor.",
+    "te": "కూర్పు కోడ్ '3-3-12-12-6': స్థానిక సంస్థలు, ఎమ్మెల్యేలకు మూడో వంతు; పట్టభద్రులు, ఉపాధ్యాయులకు పన్నెండో వంతు; గవర్నర్‌కు ఆరో వంతు."
+   },
+   "pics": [
+    {
+     "type": "dots",
+     "h": {
+      "en": "Who elects the Council? (12 equal parts)",
+      "te": "మండలిని ఎవరు ఎన్నుకుంటారు? (12 సమాన భాగాలు)"
+     },
+     "groups": [
+      {
+       "n": 4,
+       "color": "#7a3b8f",
+       "t": {
+        "en": "1/3 — local bodies",
+        "te": "1/3 — స్థానిక సంస్థలు"
+       }
+      },
+      {
+       "n": 4,
+       "color": "#1d4f91",
+       "t": {
+        "en": "1/3 — MLAs",
+        "te": "1/3 — ఎమ్మెల్యేలు"
+       }
+      },
+      {
+       "n": 1,
+       "color": "#2f6b2f",
+       "t": {
+        "en": "1/12 — graduates",
+        "te": "1/12 — పట్టభద్రులు"
+       }
+      },
+      {
+       "n": 1,
+       "color": "#a86b00",
+       "t": {
+        "en": "1/12 — teachers",
+        "te": "1/12 — ఉపాధ్యాయులు"
+       }
+      },
+      {
+       "n": 2,
+       "color": "#9b2c2c",
+       "t": {
+        "en": "1/6 — nominated by Governor",
+        "te": "1/6 — గవర్నర్ నామినేట్"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Article 171 · total ≤ 1/3 of Assembly, ≥ 40",
+      "te": "ఆర్టికల్ 171 · మొత్తం ≤ శాసనసభలో 1/3, ≥ 40"
+     }
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "The 6 States with a Legislative Council",
+      "te": "శాసన మండలి ఉన్న 6 రాష్ట్రాలు"
+     },
+     "view": "india",
+     "hl": [
+      "Andhra Pradesh",
+      "Telangana",
+      "Karnataka",
+      "Maharashtra",
+      "Bihar",
+      "Uttar Pradesh"
+     ],
+     "hlc": "#7a3b8f",
+     "cap": {
+      "en": "AP: 1958 → abolished 1985 → revived 2007",
+      "te": "ఏపీ: 1958 → 1985లో రద్దు → 2007లో పునరుద్ధరణ"
+     },
+     "src": "cards/2026-11-03/map-mlc-1-{m}.svg"
+    }
+   ],
+   "mains": {
+    "en": "'Legislative Councils are either a useful revising chamber or an avoidable expense.' Examine with reference to Articles 169 and 171 and the experience of Andhra Pradesh.",
+    "te": "'శాసన మండలి ఉపయోగకరమైన పునఃపరిశీలన సభ లేదా అనవసర ఖర్చు.' ఆర్టికల్ 169, 171, ఆంధ్రప్రదేశ్ అనుభవం ఆధారంగా పరిశీలించండి."
+   },
+   "refs": [
+    {
+     "t": "ThePrint — Jagan moves to abolish Andhra Upper House: councils' importance and function (Jan 2020)",
+     "u": "https://theprint.in/theprint-essential/jagan-moves-to-abolish-andhra-upper-house-heres-a-look-at-councils-importance-function/355581"
+    },
+    {
+     "t": "PRS Legislative Research — A house of their own (C.V. Madhukar, Indian Express, 2010)",
+     "u": "https://prsindia.org/articles-by-prs-team/a-house-of-their-own"
+    },
+    {
+     "t": "SuperKalam — The debates around legislative councils (Indian Express, 24 Oct 2026; cross-check)",
+     "u": "https://superkalam.com/current-affairs/24-10-2026/the-debates-around-legislative-councils-their-functions-today-pg17-fdaa66d6-99db-4e80-82fc-aea21a2214e9"
+    },
+    {
+     "t": "Raman Academy — 3 November 2026 current affairs (The Hindu: Role of Legislative Councils; cross-check)",
+     "u": "https://ramanacademy.in/daily-current-affairs/3-november-2026"
+    },
+    {
+     "t": "Usthadian — Legislative Councils in India and their constitutional role (27 Oct 2026; cross-check)",
+     "u": "https://www.usthadian.com/legislative-councils-in-india-and-their-constitutional-role/"
+    }
+   ],
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements regarding State Legislative Councils:",
+     "te": "రాష్ట్ర శాసన మండలులకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "Under Article 169, Parliament may create or abolish a Council by law if the State Assembly passes a resolution by special majority.",
+      "te": "ఆర్టికల్ 169 ప్రకారం, రాష్ట్ర శాసనసభ ప్రత్యేక మెజారిటీతో తీర్మానం చేస్తే పార్లమెంటు చట్టం ద్వారా మండలిని ఏర్పాటు/రద్దు చేయవచ్చు."
+     },
+     {
+      "en": "Such a law is treated as an amendment of the Constitution under Article 368.",
+      "te": "అలాంటి చట్టాన్ని ఆర్టికల్ 368 కింద రాజ్యాంగ సవరణగా పరిగణిస్తారు."
+     },
+     {
+      "en": "The Council is a permanent House; one-third of its members retire every two years.",
+      "te": "మండలి శాశ్వత సభ; ప్రతి రెండేళ్లకు మూడో వంతు సభ్యులు విరమిస్తారు."
+     },
+     {
+      "en": "A Council's strength cannot exceed one-third of the Assembly's strength and cannot be less than 40.",
+      "te": "మండలి సభ్యుల సంఖ్య శాసనసభలో మూడో వంతుకు మించకూడదు, 40కి తగ్గకూడదు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III only",
+      "te": "I, II, III మాత్రమే"
+     },
+     {
+      "en": "I, III and IV only",
+      "te": "I, III, IV మాత్రమే"
+     },
+     {
+      "en": "II, III and IV only",
+      "te": "II, III, IV మాత్రమే"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II is wrong: the Article 169 law is an ordinary law — it is not deemed a constitutional amendment under Article 368.",
+     "te": "II తప్పు: ఆర్టికల్ 169 చట్టం సాధారణ చట్టం — ఆర్టికల్ 368 కింద రాజ్యాంగ సవరణగా పరిగణించరు."
+    }
+   }
+  },
+  {
+   "id": "airfare",
+   "kind": "article",
+   "color": "#2c5d63",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "In the news · Governance & Economy · 2 Nov 2026",
+    "te": "వార్తల్లో · పరిపాలన & ఆర్థికం · 2 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Governance / GS-III Infrastructure",
+    "te": "వివరణ · GS-II పరిపాలన / GS-III మౌలిక వసతులు"
+   },
+   "title": {
+    "en": "New airfare rules: Centre can step in during 'extraordinary situations'",
+    "te": "కొత్త విమాన ఛార్జీల నియమాలు: 'అసాధారణ పరిస్థితుల్లో' కేంద్రం జోక్యం"
+   },
+   "line": {
+    "en": "Fares stay market-driven, but Rule 192 of the Bharatiya Vayuyan Niyam, 2026 lets the Centre issue time-bound directions in a crisis and makes fare breakdown mandatory.",
+    "te": "ఛార్జీలు మార్కెట్ ఆధారంగానే ఉంటాయి; కానీ భారతీయ వాయుయాన్ నియమాలు, 2026లోని రూల్ 192 ప్రకారం సంక్షోభంలో కేంద్రం పరిమితకాల ఆదేశాలు ఇవ్వొచ్చు, ఛార్జీ వివరాల విభజన తప్పనిసరి."
+   },
+   "easy": [
+    {
+     "en": "Since 1994, Indian airlines fix their own fares based on demand and costs (deregulation). Passengers complained of sudden fare spikes during festivals and crises, and the Supreme Court pressed the Centre for rules.",
+     "te": "1994 నుంచి విమానయాన సంస్థలే డిమాండ్, ఖర్చుల ఆధారంగా ఛార్జీలు నిర్ణయిస్తున్నాయి (నియంత్రణ సడలింపు). పండుగలు, సంక్షోభాల సమయంలో ఛార్జీలు ఒక్కసారిగా పెరుగుతున్నాయని ప్రయాణికులు ఫిర్యాదు చేశారు; నియమాలు తేవాలని సుప్రీంకోర్టు కేంద్రాన్ని ఒత్తిడి చేసింది."
+    },
+    {
+     "en": "The new rules (under the Bharatiya Vayuyan Adhiniyam, 2024) keep fares free in normal times — no fixed cap. But if the Centre is of the opinion that an 'extraordinary situation' has arisen, it can issue written directions in the public interest. Such action must be proportionate and only for a specified period. The rules do not define 'extraordinary situation'.",
+     "te": "కొత్త నియమాలు (భారతీయ వాయుయాన్ అధినియమం, 2024 కింద) సాధారణ సమయంలో ఛార్జీలను స్వేచ్ఛగానే ఉంచుతాయి — స్థిర పరిమితి (క్యాప్) లేదు. కానీ 'అసాధారణ పరిస్థితి' తలెత్తిందని కేంద్రం భావిస్తే ప్రజాప్రయోజనం కోసం లిఖిత ఆదేశాలు ఇవ్వొచ్చు. ఆ చర్య దామాషాగా, నిర్దిష్ట కాలానికి మాత్రమే ఉండాలి. 'అసాధారణ పరిస్థితి'కి నియమాల్లో నిర్వచనం లేదు."
+    },
+    {
+     "en": "For passengers: airlines must file tariffs with the DGCA, publish them on their websites, and show the total amount plus an itemised breakdown — base fare, taxes (paid to government), fees (paid to service providers), cancellation charges and refund conditions. The rule takes effect from 1 January 2027.",
+     "te": "ప్రయాణికులకు: విమాన సంస్థలు టారిఫ్‌లను DGCAకు సమర్పించి, తమ వెబ్‌సైట్లలో ప్రచురించాలి; మొత్తం చెల్లింపుతో పాటు విడివిడిగా — బేస్ ఛార్జీ, పన్నులు (ప్రభుత్వానికి), ఫీజులు (సేవలందించే సంస్థలకు), రద్దు ఛార్జీలు, రీఫండ్ షరతులు — చూపాలి. ఈ నియమం 2027 జనవరి 1 నుంచి అమలు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Rule",
+      "te": "నియమం"
+     },
+     {
+      "en": "Rule 192, Bharatiya Vayuyan Niyam, 2026 (Ministry of Civil Aviation)",
+      "te": "రూల్ 192, భారతీయ వాయుయాన్ నియమాలు, 2026 (పౌర విమానయాన మంత్రిత్వ శాఖ)"
+     }
+    ],
+    [
+     {
+      "en": "Parent Act",
+      "te": "మాతృ చట్టం"
+     },
+     {
+      "en": "Bharatiya Vayuyan Adhiniyam, 2024 — replaced the Aircraft Act, 1934; in force from 1 Jan 2025",
+      "te": "భారతీయ వాయుయాన్ అధినియమం, 2024 — విమాన చట్టం, 1934 స్థానంలో; 2025 జనవరి 1 నుంచి అమలు"
+     }
+    ],
+    [
+     {
+      "en": "Centre's power",
+      "te": "కేంద్ర అధికారం"
+     },
+     {
+      "en": "Written directions in an 'extraordinary situation' — proportionate, for a specified period",
+      "te": "'అసాధారణ పరిస్థితి'లో లిఖిత ఆదేశాలు — దామాషాగా, నిర్దిష్ట కాలానికి"
+     }
+    ],
+    [
+     {
+      "en": "Normal times",
+      "te": "సాధారణ సమయం"
+     },
+     {
+      "en": "No fare cap — market-based fares (deregulated in 1994)",
+      "te": "ఛార్జీ పరిమితి లేదు — మార్కెట్ ఆధారిత ఛార్జీలు (1994లో సడలింపు)"
+     }
+    ],
+    [
+     {
+      "en": "Transparency",
+      "te": "పారదర్శకత"
+     },
+     {
+      "en": "Tariffs filed with DGCA and published online; ticket shows base fare, taxes, fees, cancellation & refund terms",
+      "te": "టారిఫ్‌లు DGCAకు సమర్పణ, ఆన్‌లైన్‌లో ప్రచురణ; టికెట్‌పై బేస్ ఛార్జీ, పన్నులు, ఫీజులు, రద్దు & రీఫండ్ షరతులు"
+     }
+    ],
+    [
+     {
+      "en": "In force",
+      "te": "అమలు"
+     },
+     {
+      "en": "1 January 2027",
+      "te": "1 జనవరి 2027"
+     }
+    ],
+    [
+     {
+      "en": "Old rule",
+      "te": "పాత నియమం"
+     },
+     {
+      "en": "Aircraft Rules, 1937, Rule 135(4) named excessive/predatory pricing and oligopolistic practices — Rule 192 does not list these grounds",
+      "te": "విమాన నియమాలు, 1937 రూల్ 135(4) అధిక/దోపిడీ ధరలు, అల్పసంఖ్యాక గుత్తాధిపత్య పద్ధతులను పేర్కొంది — రూల్ 192లో ఈ కారణాలు లేవు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Regulation & the economy",
+     "te": "లింక్ చెయిన్ · నియంత్రణ & ఆర్థిక వ్యవస్థ"
+    },
+    "l": [
+     {
+      "en": "Past interventions: fare bands during COVID-19 and after IndiGo's flight disruption of December 2025 (nearly 5,000 flights cancelled)",
+      "te": "గత జోక్యాలు: కోవిడ్-19 సమయంలో, డిసెంబర్ 2025 ఇండిగో అంతరాయం (దాదాపు 5,000 విమానాల రద్దు) తర్వాత ఛార్జీ బ్యాండ్లు"
+     },
+     {
+      "en": "Why fares rise: high crude oil and aviation turbine fuel (ATF) prices + festival demand",
+      "te": "ఛార్జీలు ఎందుకు పెరుగుతాయి: ముడి చమురు, విమాన ఇంధనం (ATF) ధరలు + పండుగ డిమాండ్"
+     },
+     {
+      "en": "DGCA = aviation safety regulator; it will monitor tariffs filed by scheduled airlines",
+      "te": "DGCA = విమానయాన భద్రతా నియంత్రణ సంస్థ; షెడ్యూల్డ్ విమాన సంస్థల టారిఫ్‌లను పర్యవేక్షిస్తుంది"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The rules do NOT cap fares in normal times — intervention only in an 'extraordinary situation', which the rules leave undefined. 'Tax' goes to the government; 'fee' goes to service providers — don't swap them.",
+    "te": "సాధారణ సమయంలో నియమాలు ఛార్జీలకు పరిమితి విధించవు — 'అసాధారణ పరిస్థితి'లో మాత్రమే జోక్యం; దానికి నిర్వచనం లేదు. 'పన్ను' ప్రభుత్వానికి; 'ఫీజు' సేవలందించే సంస్థలకు — తారుమారు చేయవద్దు."
+   },
+   "tip": {
+    "en": "'34 → 24 → 26 → 27': Aircraft Act 1934 → Adhiniyam 2024 → Niyam 2026 → in force 2027.",
+    "te": "'34 → 24 → 26 → 27': విమాన చట్టం 1934 → అధినియమం 2024 → నియమాలు 2026 → అమలు 2027."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "How airfare regulation changed",
+      "te": "విమాన ఛార్జీల నియంత్రణ ఎలా మారింది"
+     },
+     "items": [
+      {
+       "y": "1934",
+       "t": {
+        "en": "Aircraft Act",
+        "te": "విమాన చట్టం (Aircraft Act)"
+       }
+      },
+      {
+       "y": "1937",
+       "t": {
+        "en": "Aircraft Rules — Rule 135(4)",
+        "te": "విమాన నియమాలు — రూల్ 135(4)"
+       }
+      },
+      {
+       "y": "1994",
+       "t": {
+        "en": "Fares deregulated — airlines set prices",
+        "te": "ఛార్జీల సడలింపు — సంస్థలే ధర నిర్ణయం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2025",
+       "t": {
+        "en": "Bharatiya Vayuyan Adhiniyam, 2024 in force (1 Jan)",
+        "te": "భారతీయ వాయుయాన్ అధినియమం, 2024 అమలు (1 జన)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "Bharatiya Vayuyan Niyam — Rule 192 notified",
+        "te": "భారతీయ వాయుయాన్ నియమాలు — రూల్ 192 నోటిఫై"
+       }
+      },
+      {
+       "y": "2027",
+       "t": {
+        "en": "Rule 192 comes into force (1 Jan)",
+        "te": "రూల్ 192 అమలు (1 జన)"
+       },
+       "hl": 1
+      }
+     ]
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Normal times vs extraordinary situation",
+      "te": "సాధారణ సమయం vs అసాధారణ పరిస్థితి"
+     },
+     "a": {
+      "h": {
+       "en": "Normal times",
+       "te": "సాధారణ సమయం"
+      },
+      "l": [
+       {
+        "en": "Airlines set fares (cost-based)",
+        "te": "సంస్థలే ఛార్జీలు నిర్ణయం (ఖర్చు ఆధారంగా)"
+       },
+       {
+        "en": "File tariffs with DGCA",
+        "te": "DGCAకు టారిఫ్ సమర్పణ"
+       },
+       {
+        "en": "Publish fares + breakdown",
+        "te": "ఛార్జీలు + విభజన ప్రచురణ"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Extraordinary situation",
+       "te": "అసాధారణ పరిస్థితి"
+      },
+      "l": [
+       {
+        "en": "Centre's written directions",
+        "te": "కేంద్రం లిఖిత ఆదేశాలు"
+       },
+       {
+        "en": "Must be proportionate",
+        "te": "దామాషాగా ఉండాలి"
+       },
+       {
+        "en": "Only for a set period",
+        "te": "నిర్దిష్ట కాలానికే"
+       }
+      ]
+     }
+    }
+   ],
+   "mains": {
+    "en": "Should the government regulate airfares in a deregulated market? Discuss the balance between market freedom and consumer protection in the new airfare rules.",
+    "te": "సడలించిన మార్కెట్‌లో ప్రభుత్వం విమాన ఛార్జీలను నియంత్రించాలా? కొత్త నియమాల్లో మార్కెట్ స్వేచ్ఛ, వినియోగదారుల రక్షణ మధ్య సమతుల్యతను చర్చించండి."
+   },
+   "refs": [
+    {
+     "t": "ANI — Government notifies new airfare rules, allows intervention in extraordinary situations (2 Nov 2026)",
+     "u": "https://aninews.in/news/business/government-notifies-new-airfare-rules-allows-intervention-in-extraordinary-situations20261102100420/"
+    },
+    {
+     "t": "Business Today — New regulations give government power to cap sudden spikes (2 Nov 2026)",
+     "u": "https://www.businesstoday.in/india/story/sky-high-airfares-new-regulations-give-government-power-to-cap-sudden-spikes-565009-2026-11-02"
+    },
+    {
+     "t": "Raman Academy — 3 November 2026 (The Hindu: Government can intervene in airfares; cross-check)",
+     "u": "https://ramanacademy.in/daily-current-affairs/3-november-2026"
+    },
+    {
+     "t": "GKToday — Bharatiya Vayuyan Adhiniyam 2024 replaces Aircraft Act of 1934 (cross-check)",
+     "u": "https://www.gktoday.in/india-modernises-aviation-with-new-legislation/"
+    }
+   ],
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the new airfare rules notified in 2026:",
+     "te": "2026లో నోటిఫై చేసిన కొత్త విమాన ఛార్జీల నియమాలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "They are made under the Bharatiya Vayuyan Adhiniyam, 2024, which replaced the Aircraft Act, 1934.",
+      "te": "ఇవి విమాన చట్టం, 1934 స్థానంలో వచ్చిన భారతీయ వాయుయాన్ అధినియమం, 2024 కింద చేసినవి."
+     },
+     {
+      "en": "They fix a maximum fare for every domestic route in normal times.",
+      "te": "సాధారణ సమయంలోనూ ప్రతి దేశీయ మార్గానికి గరిష్ఠ ఛార్జీని నిర్ణయిస్తాయి."
+     },
+     {
+      "en": "In an 'extraordinary situation' the Centre may issue written directions, which must be proportionate and for a specified period.",
+      "te": "'అసాధారణ పరిస్థితి'లో కేంద్రం లిఖిత ఆదేశాలు ఇవ్వవచ్చు; అవి దామాషాగా, నిర్దిష్ట కాలానికే ఉండాలి."
+     },
+     {
+      "en": "Airlines must submit tariffs to the DGCA and publish them on their websites.",
+      "te": "విమాన సంస్థలు టారిఫ్‌లను DGCAకు సమర్పించి, తమ వెబ్‌సైట్లలో ప్రచురించాలి."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II, III and IV only",
+      "te": "II, III, IV మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, III and IV only",
+      "te": "I, III, IV మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "II is wrong: there is no fare cap in normal times — fares remain market-based; the Centre steps in only in an extraordinary situation.",
+     "te": "II తప్పు: సాధారణ సమయంలో ఛార్జీ పరిమితి లేదు — మార్కెట్ ఆధారమే; అసాధారణ పరిస్థితిలోనే కేంద్రం జోక్యం."
+    }
+   }
+  },
+  {
+   "id": "siang",
+   "kind": "article",
+   "color": "#8a4b14",
+   "icon": "ghats",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "src": {
+    "en": "The Hindu · Editorial · 3 Nov 2026 / In the news · Arunachal Pradesh",
+    "te": "ది హిందూ · సంపాదకీయం · 3 నవంబర్ 2026 / వార్తల్లో · అరుణాచల్ ప్రదేశ్"
+   },
+   "tag": {
+    "en": "Explained · GS-II IR / GS-III Environment & Energy",
+    "te": "వివరణ · GS-II అంతర్జాతీయ సంబంధాలు / GS-III పర్యావరణం & ఇంధనం"
+   },
+   "title": {
+    "en": "Siang Upper Project: a strategic dam vs the land rights of the Adi people",
+    "te": "సియాంగ్ అప్పర్ ప్రాజెక్టు: వ్యూహాత్మక డ్యామ్ vs ఆదీ ప్రజల భూహక్కులు"
+   },
+   "line": {
+    "en": "India's planned 11,200 MW dam on the Siang answers China's mega-project on the Yarlung Tsangpo — but local protests ask: can security override Forest Rights Act consent?",
+    "te": "సియాంగ్‌పై భారత్ తలపెట్టిన 11,200 మెగావాట్ల డ్యామ్ యార్లుంగ్ సాంగ్‌పోపై చైనా భారీ ప్రాజెక్టుకు జవాబు — కానీ భద్రత పేరుతో అటవీ హక్కుల చట్టం సమ్మతిని పక్కన పెట్టొచ్చా అని స్థానికుల నిరసన."
+   },
+   "easy": [
+    {
+     "en": "The Brahmaputra starts in Tibet as the Yarlung Tsangpo, enters Arunachal Pradesh as the Siang, and becomes the Brahmaputra in Assam. In July 2025 China formally began a huge project on the lower Yarlung Tsangpo — five cascade power stations costing about 1.2 trillion yuan — close to the Arunachal border.",
+     "te": "బ్రహ్మపుత్ర నది టిబెట్‌లో యార్లుంగ్ సాంగ్‌పోగా పుట్టి, అరుణాచల్ ప్రదేశ్‌లో సియాంగ్‌గా ప్రవేశించి, అస్సాంలో బ్రహ్మపుత్రగా మారుతుంది. 2025 జులైలో చైనా దిగువ యార్లుంగ్ సాంగ్‌పోపై భారీ ప్రాజెక్టును అధికారికంగా ప్రారంభించింది — ఐదు అంచెల (క్యాస్కేడ్) విద్యుత్ కేంద్రాలు, సుమారు 1.2 ట్రిలియన్ యువాన్ వ్యయం — అరుణాచల్ సరిహద్దుకు దగ్గరగా."
+    },
+    {
+     "en": "India's answer is the Siang Upper Multipurpose Project (SUMP): an 11,200 MW dam by NHPC in Siang and Upper Siang districts. Its big reservoir is meant to act as a buffer — to store water and absorb sudden surges if water is released upstream. It was declared a national project in 2008 and is still at the pre-feasibility survey stage.",
+     "te": "భారత్ జవాబు సియాంగ్ అప్పర్ బహుళార్థ ప్రాజెక్టు (SUMP): సియాంగ్, అప్పర్ సియాంగ్ జిల్లాల్లో NHPC నిర్మించే 11,200 మెగావాట్ల డ్యామ్. దీని పెద్ద జలాశయం బఫర్‌గా పనిచేస్తుంది — నీటిని నిల్వ చేసి, ఎగువన ఒక్కసారిగా నీరు వదిలితే ఆ ఉధృతిని తట్టుకోవడానికి. 2008లోనే జాతీయ ప్రాజెక్టుగా ప్రకటించారు; ఇప్పటికీ ప్రీ-ఫీజిబిలిటీ సర్వే దశలోనే ఉంది."
+    },
+    {
+     "en": "The Adi community fears losing ancestral land and villages; protests have led to heavy security deployment. The Hindu's editorial argues that national security cannot override legal rights — the Forest Rights Act, 2006 (Gram Sabha consent) and the land acquisition law of 2013 (LARR) must be followed.",
+     "te": "పూర్వీకుల భూమి, గ్రామాలు కోల్పోతామని ఆదీ సమాజం భయపడుతోంది; నిరసనలతో భారీగా భద్రతా బలగాలను మోహరించారు. జాతీయ భద్రత పేరుతో చట్టపరమైన హక్కులను పక్కన పెట్టలేరని ది హిందూ సంపాదకీయం వాదిస్తోంది — అటవీ హక్కుల చట్టం, 2006 (గ్రామసభ సమ్మతి), 2013 భూసేకరణ చట్టం (LARR) పాటించాలి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Project",
+      "te": "ప్రాజెక్టు"
+     },
+     {
+      "en": "Siang Upper Multipurpose Project (SUMP) — 11,200 MW (11.2 GW), NHPC",
+      "te": "సియాంగ్ అప్పర్ బహుళార్థ ప్రాజెక్టు (SUMP) — 11,200 మె.వా. (11.2 GW), NHPC"
+     }
+    ],
+    [
+     {
+      "en": "Where",
+      "te": "ఎక్కడ"
+     },
+     {
+      "en": "Siang and Upper Siang districts, Arunachal Pradesh; sites studied: Parong, Dite Dime, Ugeng/Komkar",
+      "te": "సియాంగ్, అప్పర్ సియాంగ్ జిల్లాలు, అరుణాచల్ ప్రదేశ్; పరిశీలించిన ప్రాంతాలు: పరోంగ్, దితే దిమే, ఉగెంగ్/కోమ్‌కార్"
+     }
+    ],
+    [
+     {
+      "en": "Status",
+      "te": "స్థితి"
+     },
+     {
+      "en": "National project since 2008; now pre-feasibility survey (8 boreholes planned)",
+      "te": "2008 నుంచి జాతీయ ప్రాజెక్టు; ఇప్పుడు ప్రీ-ఫీజిబిలిటీ సర్వే (8 బోర్‌హోల్స్)"
+     }
+    ],
+    [
+     {
+      "en": "China's project",
+      "te": "చైనా ప్రాజెక్టు"
+     },
+     {
+      "en": "Lower Yarlung Tsangpo, Nyingchi (Tibet) — work began 19 July 2025; 5 cascade stations; ≈1.2 trillion yuan",
+      "te": "దిగువ యార్లుంగ్ సాంగ్‌పో, నింగ్చి (టిబెట్) — 19 జులై 2025న ప్రారంభం; 5 అంచెల కేంద్రాలు; ≈1.2 ట్రిలియన్ యువాన్"
+     }
+    ],
+    [
+     {
+      "en": "Opposition",
+      "te": "వ్యతిరేకత"
+     },
+     {
+      "en": "Adi (Arunachal's second-largest tribe) and Galo communities",
+      "te": "ఆదీ (అరుణాచల్‌లో రెండో అతిపెద్ద తెగ), గాలో సమాజాలు"
+     }
+    ],
+    [
+     {
+      "en": "Laws involved",
+      "te": "సంబంధిత చట్టాలు"
+     },
+     {
+      "en": "Forest Rights Act, 2006 (Gram Sabha consent) · LARR Act, 2013",
+      "te": "అటవీ హక్కుల చట్టం, 2006 (గ్రామసభ సమ్మతి) · LARR చట్టం, 2013"
+     }
+    ],
+    [
+     {
+      "en": "Water diplomacy",
+      "te": "జల దౌత్యం"
+     },
+     {
+      "en": "No India–China water treaty; neither is party to the UN Watercourses Convention (1997)",
+      "te": "భారత్–చైనా మధ్య జల ఒప్పందం లేదు; ఐరాస జలమార్గాల ఒడంబడిక (1997)లో ఇరుదేశాలూ భాగస్వాములు కావు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Geography & IR",
+     "te": "లింక్ చెయిన్ · భూగోళం & అంతర్జాతీయ సంబంధాలు"
+    },
+    "l": [
+     {
+      "en": "One river, three names: Yarlung Tsangpo (Tibet) → Siang (Arunachal) → Brahmaputra (Assam)",
+      "te": "ఒకే నది, మూడు పేర్లు: యార్లుంగ్ సాంగ్‌పో (టిబెట్) → సియాంగ్ (అరుణాచల్) → బ్రహ్మపుత్ర (అస్సాం)"
+     },
+     {
+      "en": "Lower riparian worries: India and Bangladesh are downstream of China's project",
+      "te": "దిగువ దేశాల ఆందోళన: చైనా ప్రాజెక్టుకు దిగువన భారత్, బంగ్లాదేశ్"
+     },
+     {
+      "en": "AP link: big dams and displacement — the same R&R and tribal-consent questions arise for Polavaram (Godavari)",
+      "te": "ఏపీ లింక్: భారీ డ్యామ్‌లు, నిర్వాసితులు — పోలవరం (గోదావరి) విషయంలోనూ ఇదే పునరావాసం, గిరిజన సమ్మతి ప్రశ్నలు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "India–China have NO water-sharing treaty, and neither country is party to the 1997 UN Watercourses Convention. SUMP is not yet approved for construction — it is at the pre-feasibility stage.",
+    "te": "భారత్–చైనా మధ్య జల పంపకం ఒప్పందం లేదు; 1997 ఐరాస జలమార్గాల ఒడంబడికలో ఇరుదేశాలూ లేవు. SUMP నిర్మాణానికి ఇంకా ఆమోదం రాలేదు — ప్రీ-ఫీజిబిలిటీ దశలోనే ఉంది."
+   },
+   "tip": {
+    "en": "'Tsangpo–Siang–Brahmaputra' = Tibet–Arunachal–Assam (T-S-B goes Top to Bottom).",
+    "te": "'సాంగ్‌పో–సియాంగ్–బ్రహ్మపుత్ర' = టిబెట్–అరుణాచల్–అస్సాం (పై నుంచి కిందకు)."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "One river, two mega-dams",
+      "te": "ఒకే నది, రెండు భారీ డ్యామ్‌లు"
+     },
+     "view": [
+      89.5,
+      24.0,
+      97.5,
+      30.6
+     ],
+     "hl": [
+      "Arunachal Pradesh"
+     ],
+     "hlc": "#8a4b14",
+     "ctry": [
+      "China"
+     ],
+     "rivers": [
+      "Brahmaputra",
+      "Tsangpo"
+     ],
+     "pts": [
+      {
+       "ll": [
+        29.65,
+        94.36
+       ],
+       "t": {
+        "en": "Nyingchi (China dam)",
+        "te": "నింగ్చి (చైనా డ్యామ్)"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        28.63,
+        95.03
+       ],
+       "t": {
+        "en": "Yingkiong",
+        "te": "యింగ్‌కియాంగ్"
+       }
+      },
+      {
+       "ll": [
+        28.07,
+        95.33
+       ],
+       "t": {
+        "en": "Pasighat",
+        "te": "పాసిఘాట్"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "Siang & Upper Siang districts — SUMP sites under study",
+      "te": "సియాంగ్, అప్పర్ సియాంగ్ జిల్లాలు — SUMP పరిశీలన ప్రాంతాలు"
+     },
+     "src": "cards/2026-11-03/map-siang-1-{m}.svg"
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "Why India wants SUMP — and why locals object",
+      "te": "SUMP ఎందుకు కావాలి — స్థానికులు ఎందుకు వ్యతిరేకిస్తున్నారు"
+     },
+     "items": [
+      {
+       "i": "🏗️",
+       "t": {
+        "en": "China's dam upstream (2025)",
+        "te": "ఎగువన చైనా డ్యామ్ (2025)"
+       }
+      },
+      {
+       "i": "🌊",
+       "t": {
+        "en": "Risk: sudden releases / low flows",
+        "te": "ప్రమాదం: ఒక్కసారిగా నీటి విడుదల / తక్కువ ప్రవాహం"
+       }
+      },
+      {
+       "i": "🛡️",
+       "t": {
+        "en": "SUMP reservoir = buffer",
+        "te": "SUMP జలాశయం = బఫర్"
+       }
+      },
+      {
+       "i": "🏘️",
+       "t": {
+        "en": "Adi villages & land at stake",
+        "te": "ఆదీ గ్రామాలు, భూమి ప్రమాదంలో"
+       }
+      },
+      {
+       "i": "⚖️",
+       "t": {
+        "en": "FRA 2006 consent + LARR 2013",
+        "te": "FRA 2006 సమ్మతి + LARR 2013"
+       }
+      }
+     ]
+    }
+   ],
+   "mains": {
+    "en": "'National security imperatives cannot override the constitutional and statutory rights of indigenous communities.' Discuss with reference to the Siang Upper Multipurpose Project.",
+    "te": "'జాతీయ భద్రతా అవసరాలు ఆదివాసీ సమాజాల రాజ్యాంగ, చట్టబద్ధ హక్కులను అధిగమించలేవు.' సియాంగ్ అప్పర్ బహుళార్థ ప్రాజెక్టు దృష్ట్యా చర్చించండి."
+   },
+   "refs": [
+    {
+     "t": "ThePrint — A dam, ancestral land & a standoff: Arunachal's Siang villages battle a national project (28 Oct 2026)",
+     "u": "https://theprint.in/feature/arunachal-pradesh-siang-upper-multipurpose-dam-project-villagers-protest/3084160/"
+    },
+    {
+     "t": "ETV Bharat — China begins construction of world's biggest dam over Brahmaputra in Tibet (19 Jul 2025)",
+     "u": "https://www.etvbharat.com/en/!international/china-begins-construction-of-world-biggest-dam-over-brahmaputra-in-tibet-enn25071905246"
+    },
+    {
+     "t": "Raman Academy — 3 November 2026 (The Hindu editorial: Land rights and the Siang project; cross-check)",
+     "u": "https://ramanacademy.in/daily-current-affairs/3-november-2026"
+    }
+   ],
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the Siang Upper Multipurpose Project (SUMP):",
+     "te": "సియాంగ్ అప్పర్ బహుళార్థ ప్రాజెక్టు (SUMP)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "It is a planned 11,200 MW project of NHPC in the Siang and Upper Siang districts of Arunachal Pradesh.",
+      "te": "ఇది అరుణాచల్ ప్రదేశ్‌లోని సియాంగ్, అప్పర్ సియాంగ్ జిల్లాల్లో NHPC తలపెట్టిన 11,200 మె.వా. ప్రాజెక్టు."
+     },
+     {
+      "en": "It was declared a national project in 2008.",
+      "te": "దీన్ని 2008లో జాతీయ ప్రాజెక్టుగా ప్రకటించారు."
+     },
+     {
+      "en": "The Adi community, the largest tribe of Arunachal Pradesh, is campaigning for its early construction.",
+      "te": "అరుణాచల్‌లో అతిపెద్ద తెగ అయిన ఆదీ సమాజం దీని త్వరిత నిర్మాణం కోసం ఉద్యమిస్తోంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "III has two errors: the Adi are Arunachal's second-largest tribe, and they oppose the project.",
+     "te": "IIIలో రెండు తప్పులు: ఆదీ అరుణాచల్‌లో రెండో అతిపెద్ద తెగ; వారు ప్రాజెక్టును వ్యతిరేకిస్తున్నారు."
+    }
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "biosphere",
+   "q": {
+    "en": "Consider the following statements about biosphere reserves:",
+    "te": "బయోస్ఫియర్ రిజర్వులకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. UNESCO's International Day for Biosphere Reserves falls on 3 November and has been observed since 2022.",
+     "te": "I. యునెస్కో అంతర్జాతీయ బయోస్ఫియర్ రిజర్వుల దినోత్సవం నవంబర్ 3; 2022 నుంచి పాటిస్తున్నారు."
+    },
+    {
+     "en": "II. All 18 biosphere reserves notified by India are part of UNESCO's World Network of Biosphere Reserves.",
+     "te": "II. భారత్ నోటిఫై చేసిన 18 బయోస్ఫియర్ రిజర్వులూ యునెస్కో ప్రపంచ నెట్‌వర్క్‌లో ఉన్నాయి."
+    },
+    {
+     "en": "III. The Cold Desert Biosphere Reserve of Himachal Pradesh was added to the World Network in September 2025.",
+     "te": "III. హిమాచల్ ప్రదేశ్‌లోని కోల్డ్ డెజర్ట్ బయోస్ఫియర్ రిజర్వు సెప్టెంబర్ 2025లో ప్రపంచ నెట్‌వర్క్‌లో చేరింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct. II is wrong: only 13 of India's 18 reserves are on UNESCO's World Network.",
+    "te": "I, III సరైనవి. II తప్పు: భారత్‌లోని 18లో 13 మాత్రమే యునెస్కో ప్రపంచ నెట్‌వర్క్‌లో ఉన్నాయి."
+   }
+  },
+  {
+   "topic": "biosphere",
+   "q": {
+    "en": "With reference to the Seshachalam Hills Biosphere Reserve of Andhra Pradesh, consider the following statements:",
+    "te": "ఆంధ్రప్రదేశ్‌లోని శేషాచలం కొండల బయోస్ఫియర్ రిజర్వుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It was declared in 2010 and covers parts of the then Chittoor and Kadapa districts.",
+     "te": "I. దీన్ని 2010లో ప్రకటించారు; అప్పటి చిత్తూరు, కడప జిల్లాల్లో విస్తరించి ఉంది."
+    },
+    {
+     "en": "II. Its total area of about 4,756 sq km includes core, buffer and transition zones.",
+     "te": "II. దీని మొత్తం విస్తీర్ణం సుమారు 4,756 చ.కి.మీ.లో కోర్, బఫర్, ట్రాన్సిషన్ జోన్లు ఉన్నాయి."
+    },
+    {
+     "en": "III. It is India's oldest biosphere reserve.",
+     "te": "III. ఇది భారత్‌లో అత్యంత పురాతన బయోస్ఫియర్ రిజర్వు."
+    },
+    {
+     "en": "IV. Red Sanders and the Golden Gecko are associated with it.",
+     "te": "IV. ఎర్రచందనం, గోల్డెన్ గెకో దీనితో ముడిపడి ఉన్నాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "III is wrong: the oldest is Nilgiri (1986). Seshachalam was declared in 2010.",
+    "te": "III తప్పు: అత్యంత పురాతనమైనది నీలగిరి (1986). శేషాచలాన్ని 2010లో ప్రకటించారు."
+   }
+  },
+  {
+   "topic": "sen",
+   "q": {
+    "en": "Consider the following statements about Amartya Sen:",
+    "te": "అమర్త్య సేన్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. He was born at Santiniketan, and the name 'Amartya' was given by Rabindranath Tagore.",
+     "te": "I. ఆయన శాంతినికేతన్‌లో జన్మించారు; 'అమర్త్య' పేరును రవీంద్రనాథ్ ఠాగూర్ పెట్టారు."
+    },
+    {
+     "en": "II. He received the 1998 prize in Economic Sciences 'for his contributions to welfare economics'.",
+     "te": "II. 'సంక్షేమ ఆర్థికశాస్త్రానికి చేసిన కృషికి' 1998 ఆర్థికశాస్త్ర బహుమతి పొందారు."
+    },
+    {
+     "en": "III. He was awarded the Bharat Ratna before he received the Nobel prize.",
+     "te": "III. నోబెల్ బహుమతికి ముందే ఆయనకు భారతరత్న లభించింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "III is wrong: Nobel came in 1998 and the Bharat Ratna in 1999.",
+    "te": "III తప్పు: నోబెల్ 1998లో, భారతరత్న 1999లో వచ్చాయి."
+   }
+  },
+  {
+   "topic": "sen",
+   "q": {
+    "en": "A State decides to judge its progress not only by income but by whether people can actually read, stay healthy and take part in decisions. Which of the following statements are correctly linked to this idea?",
+    "te": "ఒక రాష్ట్రం తన ప్రగతిని ఆదాయంతో మాత్రమే కాకుండా, ప్రజలు నిజంగా చదవగలుగుతున్నారా, ఆరోగ్యంగా ఉన్నారా, నిర్ణయాల్లో పాల్గొంటున్నారా అనే దానితో కొలవాలని నిర్ణయించింది. ఈ ఆలోచనకు సరిగ్గా ముడిపడిన వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. It reflects Sen's capability approach, set out in his 1979 lecture-essay 'Equality of What?'.",
+     "te": "I. ఇది సేన్ 1979 వ్యాసం 'Equality of What?'లో చెప్పిన సామర్థ్యాల విధానాన్ని ప్రతిబింబిస్తుంది."
+    },
+    {
+     "en": "II. Sen's work influenced the UNDP's Human Development Report.",
+     "te": "II. సేన్ కృషి UNDP మానవాభివృద్ధి నివేదికను ప్రభావితం చేసింది."
+    },
+    {
+     "en": "III. Sen held that famines happen only when the total food output of a region falls.",
+     "te": "III. ఒక ప్రాంతంలో మొత్తం ఆహార ఉత్పత్తి తగ్గినప్పుడే కరవులు వస్తాయని సేన్ అభిప్రాయం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "III is the trap: Sen showed famine is about people losing the ability to obtain food (prices vs wages), not only a fall in output.",
+    "te": "III ఉచ్చు: ఉత్పత్తి తగ్గడం మాత్రమే కాదు, ప్రజలు ఆహారం పొందే శక్తి (ధరలు vs వేతనాలు) కోల్పోవడమే కరవుకు కారణమని సేన్ చూపారు."
+   }
+  },
+  {
+   "topic": "mlc",
+   "q": {
+    "en": "Consider the following statements regarding State Legislative Councils:",
+    "te": "రాష్ట్ర శాసన మండలులకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Under Article 169, Parliament may create or abolish a Council by law if the State Assembly passes a resolution by special majority.",
+     "te": "I. ఆర్టికల్ 169 ప్రకారం, రాష్ట్ర శాసనసభ ప్రత్యేక మెజారిటీతో తీర్మానం చేస్తే పార్లమెంటు చట్టం ద్వారా మండలిని ఏర్పాటు/రద్దు చేయవచ్చు."
+    },
+    {
+     "en": "II. Such a law is treated as an amendment of the Constitution under Article 368.",
+     "te": "II. అలాంటి చట్టాన్ని ఆర్టికల్ 368 కింద రాజ్యాంగ సవరణగా పరిగణిస్తారు."
+    },
+    {
+     "en": "III. The Council is a permanent House; one-third of its members retire every two years.",
+     "te": "III. మండలి శాశ్వత సభ; ప్రతి రెండేళ్లకు మూడో వంతు సభ్యులు విరమిస్తారు."
+    },
+    {
+     "en": "IV. A Council's strength cannot exceed one-third of the Assembly's strength and cannot be less than 40.",
+     "te": "IV. మండలి సభ్యుల సంఖ్య శాసనసభలో మూడో వంతుకు మించకూడదు, 40కి తగ్గకూడదు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II is wrong: the Article 169 law is an ordinary law — it is not deemed a constitutional amendment under Article 368.",
+    "te": "II తప్పు: ఆర్టికల్ 169 చట్టం సాధారణ చట్టం — ఆర్టికల్ 368 కింద రాజ్యాంగ సవరణగా పరిగణించరు."
+   }
+  },
+  {
+   "topic": "mlc",
+   "q": {
+    "en": "With reference to the Andhra Pradesh Legislative Council, consider the following statements:",
+    "te": "ఆంధ్రప్రదేశ్ శాసన మండలికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. AP had a Council from 1958; it was abolished in 1985 and revived in 2007.",
+     "te": "I. ఏపీలో 1958 నుంచి మండలి ఉండేది; 1985లో రద్దయి 2007లో పునరుద్ధరించబడింది."
+    },
+    {
+     "en": "II. In January 2020 the AP Assembly passed a resolution to abolish the Council.",
+     "te": "II. 2020 జనవరిలో ఏపీ శాసనసభ మండలి రద్దు తీర్మానం చేసింది."
+    },
+    {
+     "en": "III. A resolution of the State Assembly by itself abolishes the Council; Parliament has no role.",
+     "te": "III. రాష్ట్ర శాసనసభ తీర్మానంతోనే మండలి రద్దవుతుంది; పార్లమెంటు పాత్ర లేదు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "III is wrong: after the Assembly resolution, Parliament must pass a law (Art. 169). That is why AP's 2020 resolution alone did not end the Council.",
+    "te": "III తప్పు: శాసనసభ తీర్మానం తర్వాత పార్లమెంటు చట్టం చేయాలి (ఆర్టి. 169). అందుకే 2020 తీర్మానం ఒక్కటే ఏపీ మండలిని రద్దు చేయలేదు."
+   }
+  },
+  {
+   "topic": "airfare",
+   "q": {
+    "en": "Consider the following statements about the new airfare rules notified in 2026:",
+    "te": "2026లో నోటిఫై చేసిన కొత్త విమాన ఛార్జీల నియమాలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. They are made under the Bharatiya Vayuyan Adhiniyam, 2024, which replaced the Aircraft Act, 1934.",
+     "te": "I. ఇవి విమాన చట్టం, 1934 స్థానంలో వచ్చిన భారతీయ వాయుయాన్ అధినియమం, 2024 కింద చేసినవి."
+    },
+    {
+     "en": "II. They fix a maximum fare for every domestic route in normal times.",
+     "te": "II. సాధారణ సమయంలోనూ ప్రతి దేశీయ మార్గానికి గరిష్ఠ ఛార్జీని నిర్ణయిస్తాయి."
+    },
+    {
+     "en": "III. In an 'extraordinary situation' the Centre may issue written directions, which must be proportionate and for a specified period.",
+     "te": "III. 'అసాధారణ పరిస్థితి'లో కేంద్రం లిఖిత ఆదేశాలు ఇవ్వవచ్చు; అవి దామాషాగా, నిర్దిష్ట కాలానికే ఉండాలి."
+    },
+    {
+     "en": "IV. Airlines must submit tariffs to the DGCA and publish them on their websites.",
+     "te": "IV. విమాన సంస్థలు టారిఫ్‌లను DGCAకు సమర్పించి, తమ వెబ్‌సైట్లలో ప్రచురించాలి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "II is wrong: there is no fare cap in normal times — fares remain market-based; the Centre steps in only in an extraordinary situation.",
+    "te": "II తప్పు: సాధారణ సమయంలో ఛార్జీ పరిమితి లేదు — మార్కెట్ ఆధారమే; అసాధారణ పరిస్థితిలోనే కేంద్రం జోక్యం."
+   }
+  },
+  {
+   "topic": "airfare",
+   "q": {
+    "en": "Which of the following statements about airfares in India is/are NOT correct?",
+    "te": "భారత్‌లో విమాన ఛార్జీలకు సంబంధించి కింది వాటిలో సరికాని వాక్యం/వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. Airfares have been market-determined since 1994.",
+     "te": "I. 1994 నుంచి విమాన ఛార్జీలు మార్కెట్ ఆధారంగా నిర్ణయమవుతున్నాయి."
+    },
+    {
+     "en": "II. On the new itemised ticket, 'tax' is paid to service providers and 'fee' is paid to the government.",
+     "te": "II. కొత్త విభజిత టికెట్‌లో 'పన్ను' సేవలందించే సంస్థలకు, 'ఫీజు' ప్రభుత్వానికి చెల్లిస్తారు."
+    },
+    {
+     "en": "III. The new airfare rule comes into force on 1 January 2027.",
+     "te": "III. కొత్త ఛార్జీ నియమం 2027 జనవరి 1 నుంచి అమలవుతుంది."
+    },
+    {
+     "en": "IV. Rule 192 specifically lists predatory pricing and oligopolistic practices as grounds for intervention.",
+     "te": "IV. రూల్ 192 దోపిడీ ధరలు, అల్పసంఖ్యాక గుత్తాధిపత్య పద్ధతులను జోక్యానికి కారణాలుగా ప్రత్యేకంగా పేర్కొంటుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and IV",
+     "te": "I, II, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II reverses the terms (tax → government, fee → service providers). IV is wrong: those grounds were in old Rule 135(4) of 1937, not in Rule 192.",
+    "te": "II పదాలను తారుమారు చేసింది (పన్ను → ప్రభుత్వం, ఫీజు → సేవా సంస్థలు). IV తప్పు: ఆ కారణాలు 1937 పాత రూల్ 135(4)లో ఉన్నాయి, రూల్ 192లో కాదు."
+   }
+  },
+  {
+   "topic": "siang",
+   "q": {
+    "en": "Consider the following statements about the Siang Upper Multipurpose Project (SUMP):",
+    "te": "సియాంగ్ అప్పర్ బహుళార్థ ప్రాజెక్టు (SUMP)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It is a planned 11,200 MW project of NHPC in the Siang and Upper Siang districts of Arunachal Pradesh.",
+     "te": "I. ఇది అరుణాచల్ ప్రదేశ్‌లోని సియాంగ్, అప్పర్ సియాంగ్ జిల్లాల్లో NHPC తలపెట్టిన 11,200 మె.వా. ప్రాజెక్టు."
+    },
+    {
+     "en": "II. It was declared a national project in 2008.",
+     "te": "II. దీన్ని 2008లో జాతీయ ప్రాజెక్టుగా ప్రకటించారు."
+    },
+    {
+     "en": "III. The Adi community, the largest tribe of Arunachal Pradesh, is campaigning for its early construction.",
+     "te": "III. అరుణాచల్‌లో అతిపెద్ద తెగ అయిన ఆదీ సమాజం దీని త్వరిత నిర్మాణం కోసం ఉద్యమిస్తోంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "III has two errors: the Adi are Arunachal's second-largest tribe, and they oppose the project.",
+    "te": "IIIలో రెండు తప్పులు: ఆదీ అరుణాచల్‌లో రెండో అతిపెద్ద తెగ; వారు ప్రాజెక్టును వ్యతిరేకిస్తున్నారు."
+   }
+  },
+  {
+   "topic": "siang",
+   "q": {
+    "en": "Consider the following statements on the Brahmaputra and the India–China water issue:",
+    "te": "బ్రహ్మపుత్ర, భారత్–చైనా జల సమస్యకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. China formally began its lower Yarlung Tsangpo project in July 2025 with five cascade hydropower stations.",
+     "te": "I. చైనా 2025 జులైలో ఐదు అంచెల జలవిద్యుత్ కేంద్రాలతో దిగువ యార్లుంగ్ సాంగ్‌పో ప్రాజెక్టును అధికారికంగా ప్రారంభించింది."
+    },
+    {
+     "en": "II. India and China have signed a water-sharing treaty on the Brahmaputra.",
+     "te": "II. బ్రహ్మపుత్రపై భారత్, చైనా జల పంపకం ఒప్పందం చేసుకున్నాయి."
+    },
+    {
+     "en": "III. Gram Sabha consent under the Forest Rights Act, 2006 is one of the legal issues raised against SUMP.",
+     "te": "III. అటవీ హక్కుల చట్టం, 2006 కింద గ్రామసభ సమ్మతి SUMPపై లేవనెత్తిన చట్టపరమైన అంశాల్లో ఒకటి."
+    },
+    {
+     "en": "IV. India is a party to the UN Watercourses Convention, 1997, but China is not.",
+     "te": "IV. ఐరాస జలమార్గాల ఒడంబడిక, 1997లో భారత్ భాగస్వామి, చైనా కాదు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "III and IV only",
+     "te": "III, IV మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II and IV are wrong: there is no India–China water treaty, and neither country is party to the 1997 UN Convention.",
+    "te": "II, IV తప్పు: భారత్–చైనా జల ఒప్పందం లేదు; 1997 ఐరాస ఒడంబడికలో ఇరుదేశాలూ లేవు."
+   }
+  }
+ ]
+}
