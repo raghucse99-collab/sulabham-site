@@ -1,0 +1,236 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-04 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about the making of the Indian Constitution:
+I. The Drafting Committee submitted the Draft to the President of the Constituent Assembly on 21 February 1948.
+II. Dr Ambedkar introduced the Draft in the Assembly on 4 November 1948.
+III. Clause-by-clause consideration of the Draft began only after 26 January 1950.
+IV. 114 of the Assembly's 165 sittings were spent on the Draft.
+
+--- QUESTION ---
+Q1. Consider the following statements about the making of the Indian Constitution: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and IV only
+(b) I and II only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: clause-by-clause debate ran from 15 Nov 1948 to 17 Oct 1949; the Constitution was adopted on 26 Nov 1949.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Which of the following pairs is/are correctly matched?
+I. B.N. Rau — constitutional adviser whose draft the Committee worked on
+II. D.P. Khaitan — replaced after his death by T.T. Krishnamachari
+III. B.L. Mitter — replaced by K.M. Munshi
+IV. Alladi Krishnaswami Ayyar — born in Pudur village, Andhra Pradesh
+
+--- QUESTION ---
+Q2. Which of the following pairs is/are correctly matched? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I, II and IV only
+(d) I, III and IV only
+
+--- CORRECT (tick this) ---
+(c) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: B.L. Mitter was replaced by N. Madhava Rau. K.M. Munshi was one of the original seven members.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements about the founding of UNESCO:
+I. Its Constitution was signed by 41 States at a conference in London in November 1945.
+II. The Constitution came into force on 4 November 1946 after 20 signatories ratified it.
+III. Audrey Azoulay was UNESCO's first Director-General.
+
+--- QUESTION ---
+Q3. Consider the following statements about the founding of UNESCO: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the first DG was Julian Huxley (UK, 1946–48). Audrey Azoulay was the DG before Khaled El-Enany.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. With reference to UNESCO today, which of the following statements is/are INCORRECT?
+I. Khaled El-Enany of Egypt is its 12th Director-General.
+II. He was elected at the General Conference held in Samarkand, Uzbekistan.
+III. The General Conference meets in ordinary session every year.
+IV. The Executive Board has 58 Member States.
+
+--- QUESTION ---
+Q4. With reference to UNESCO today, which of the following statements is/are INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) III only
+(b) I and III only
+(c) II and IV only
+(d) III and IV only
+
+--- CORRECT (tick this) ---
+(a) III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Only III is incorrect: the General Conference meets every two years. I, II and IV are correct.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Consider the following statements about the VB-G RAM G Act, 2025:
+I. It replaced the Mahatma Gandhi National Rural Employment Guarantee Act, 2005.
+II. It guarantees 125 days of work to every adult individual in a rural area.
+III. States can announce a pause of up to 60 days a year during peak farm seasons.
+IV. Union Territories without a legislature are fully funded by the Centre.
+
+--- QUESTION ---
+Q5. Consider the following statements about the VB-G RAM G Act, 2025: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I, III and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: the 125-day guarantee is per rural household, not per individual.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. A worker in a Gram Panchayat makes an oral complaint about unpaid wages. Under the grievance rules notified on 2 November 2026, which of the following statements are correct?
+I. The complaint must be accepted even though it is oral.
+II. The enquiry must be completed within 7 working days.
+III. If not resolved, it is automatically escalated to the next higher level.
+IV. The worker must first file an FIR before the complaint can be registered.
+
+--- QUESTION ---
+Q6. A worker in a Gram Panchayat makes an oral complaint about unpaid wages. Under the grievance rules notified on 2 November 2026, which of the following statements are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I, II, III and IV
+(d) I, II and III only
+
+--- CORRECT (tick this) ---
+(d) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: no FIR is needed — complaints can be oral or written, through any channel. (The FIR clause in the draft was even dropped.)
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following statements about the Census in India:
+I. Census is listed at entry 69 of the Union List of the Seventh Schedule.
+II. It is conducted under the Census Act, 1948 and the Census Rules, 1990.
+III. Census 2027 is the 16th Census in the series and the 8th since Independence.
+IV. Census is a Concurrent List subject, so States may conduct their own Census.
+
+--- QUESTION ---
+Q7. Consider the following statements about the Census in India: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) III and IV only
+(c) I and IV only
+(d) I, II and III only
+
+--- CORRECT (tick this) ---
+(d) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: Census is a Union List subject (entry 69); the Census itself is done by the Union with State/UT governments implementing it.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. With reference to Phase II (Population Enumeration) of Census 2027 in most States, consider the following statements:
+I. Online self-enumeration is open from 10 to 24 January 2027.
+II. House-to-house enumeration runs from 25 January to 28 February 2027.
+III. The reference date is 00:00 hours on 28 February 2027.
+IV. Caste is written in an open column without a drop-down list.
+
+--- QUESTION ---
+Q8. With reference to Phase II (Population Enumeration) of Census 2027 in most States, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and IV only
+(b) I and II only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the reference date ('census moment') is 00:00 hours on 1 March 2027, the day after door-to-door counting ends.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Consider the following statements about the Next Generation Corvettes deal:
+I. Contracts worth ₹53,866.50 crore were signed on 2 November 2026.
+II. GRSE, Kolkata will build five ships and Goa Shipyard three.
+III. Mazagon Dock Shipbuilders will build three of the eight ships.
+
+--- QUESTION ---
+Q9. Consider the following statements about the Next Generation Corvettes deal: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: only two shipyards are involved — GRSE (5) and Goa Shipyard (3). Mazagon Dock has no share.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Which of the following statements about the Next Generation Corvettes project are correct?
+I. The ships were designed in-house by the Indian Navy.
+II. The shipyards were chosen by nomination, as in earlier projects.
+III. Most of the expected employment is in ancillary industries and MSMEs, not in the shipyards.
+IV. The Cabinet Committee on Security cleared the project before the contracts were signed.
+
+--- QUESTION ---
+Q10. Which of the following statements about the Next Generation Corvettes project are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and IV only
+(c) I, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(c) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: the yards were chosen through competitive bidding — the first such project. III: 460 lakh person-days in ancillary/MSMEs vs 72 lakh in shipyards. IV: CCS cleared it on 28 Oct, contract...
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-04&tab=quiz
