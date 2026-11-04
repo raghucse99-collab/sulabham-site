@@ -1,0 +1,121 @@
+===== Post 1 of 2 =====
+📝 *SULABHAM · DAILY QUIZ* | 4 NOV 2026
+10 questions · APPSC pattern · based on today's topics · Part 1/2
+
+*1.* Consider the following about disaster relief funds (context: AP's cyclone aid request):
+I. For a general-category state like AP, the Centre gives 75% of the SDRF.
+II. Extra money from the National Disaster Response Fund is approved by a committee chaired by the Prime Minister.
+III. An Inter-Ministerial Central Team (IMCT) of the MHA assesses the damage.
+(a) I and III only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+*2.* Consider the following about the 2026 AP urban local body polls:
+I. Polls covered 92 bodies: 13 corporations, 77 municipalities and 10 nagar panchayats.
+II. The YSRCP did not win any municipal corporation.
+III. Counting in Ongole Municipal Corporation was postponed due to Cyclone Murasu.
+(a) I only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+*3.* Consider the following about Exercise Tiger Triumph 2026:
+I. It is the 5th edition of a series that began in 2019.
+II. It opened at the Maritime Warfare Centre, Visakhapatnam, as a tabletop exercise.
+III. It is a navy-only exercise between India and the US.
+IV. An NDRF team is taking part for the first time.
+(a) I and II only
+(b) II, III and IV only
+(c) I, III and IV only
+(d) I, II and IV only
+
+*4.* Consider the following about the AI models released under the IndiaAI Mission on 4 Nov 2026:
+I. EKA-1, built by Soket Labs, supports all 22 scheduled languages and English.
+II. Dhīr 2B and Dhīr 5B were built by ZenteiQ AiTech.
+III. Dhīr 5B is a larger model than EKA-1.
+(a) I and II only
+(b) II only
+(c) I and III only
+(d) I, II and III
+
+*5.* Consider the following about RBI's FEMA changes for services trade (Nov 2026):
+I. The threshold used is ₹10 lakh or its foreign-currency equivalent.
+II. The changes apply from 1 October 2026.
+III. Every service import by a resident individual must be entered in IDPMS within five working days.
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+*6.* Match List-I (COP31) with List-II. A. Host city  B. COP31 President  C. President of Negotiations  D. Pre-COP co-hosts | 1. Chris Bowen  2. Fiji, Tuvalu & Australia  3. Antalya  4. Murat Kurum
+(a) A-3, B-1, C-4, D-2
+(b) A-4, B-3, C-1, D-2
+(c) A-3, B-4, C-2, D-1
+(d) A-3, B-4, C-1, D-2
+
+*7.* Which one of the following is NOT among India's stated positions for COP31?
+(a) Developed countries must meet their Article 9.1 finance duty
+(b) Participation in carbon markets should stay voluntary
+(c) Adaptation indicators should be binding and linked to finance access
+(d) The Just Transition Work Programme should continue
+
+*8.* Consider the following about the India–Bangladesh Ganga Water Treaty:
+I. It was signed on 12 December 1996 for 30 years.
+II. Water is shared at the Farakka Barrage in West Bengal.
+III. The Joint Rivers Commission deals with 54 shared rivers.
+IV. It was signed by Indian PM I.K. Gujral.
+(a) I and II only
+(b) I, II and III only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+*9.* Consider the following about the 2026 US midterm elections:
+I. They are held in the middle of the President's four-year term.
+II. Democrats were projected to win control of both the House and the Senate.
+III. All 100 Senate seats are contested in every midterm.
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+✅ Answers, explanations & your score:
+👉 https://sulabham.in/current.html?d=2026-11-04
+
+#APPSC #Group1 #Group2 #DailyQuiz #Sulabham
+
+===== Post 2 of 2 =====
+📝 *SULABHAM · DAILY QUIZ* | 4 NOV 2026
+10 questions · APPSC pattern · based on today's topics · Part 2/2
+
+*10.* Consider the following about the draft drug batch-release rules (Nov 2026). How many are correct?
+I. They are amendments to the Drugs Rules, 1945.
+II. Each manufacturer must name a qualified, experienced person to release batches.
+III. A Batch Release Certificate in a prescribed format is proposed.
+(a) Only one
+(b) Only two
+(c) All three
+(d) None
+
+✅ Answers, explanations & your score:
+👉 https://sulabham.in/current.html?d=2026-11-04
+
+#APPSC #Group1 #Group2 #DailyQuiz #Sulabham
+
+===== Answers post (send in the evening) =====
+🔑 *Answers — Daily Quiz* | 4 NOV 2026
+1-(a) · 2-(b) · 3-(d) · 4-(a) · 5-(b) · 6-(d) · 7-(c) · 8-(b) · 9-(c) · 10-(c)
+
+📖 Explanations:
+1. (a) I and III are correct. II is the trap: the high-level committee is chaired by the Union HOME Minister, not the PM. SDRF share is 75:25 for general states, 90:10 for NE & Himalayan states.
+2. (b) I and III are correct. II is wrong: YSRCP won one corporation — Anantapur — and three municipalities.
+3. (d) I, II and IV are correct. III is the trap: Tiger Triumph is a TRI-SERVICE HADR exercise (Navy, Army, Air Force, Special Forces).
+4. (a) I and II are correct. III is wrong: EKA-1 has 26.3 billion parameters; Dhīr 5B has only 5 billion ('B' = billion parameters).
+5. (b) I and II are correct. III is the trap: IDPMS reporting is needed only for NON-individual importers above ₹10 lakh; resident individuals are left out.
+6. (d) A-3 (Antalya, Türkiye), B-4 (Murat Kurum), C-1 (Chris Bowen of Australia), D-2 (Pre-COP in the Pacific by Fiji, Tuvalu, Australia). Trap: Australia is not the host but holds the negotiations post.
+7. (c) (c) is NOT India's position: India wants VOLUNTARY adaptation indicators that are NOT tied to access to climate finance. (a), (b) and (d) are India's stated positions.
+8. (b) I, II and III are correct. IV is the trap: the treaty was signed by PM H.D. Deve Gowda with PM Sheikh Hasina. It expires on 12 Dec 2026 unless renewed.
+9. (c) I and II are correct. III is wrong: senators have 6-year terms, so only about one-third of Senate seats are contested every two years; all 435 House seats are contested.
+10. (c) All three are correct. Trap to remember: the Rules are of 1945, but the parent Drugs and Cosmetics Act is of 1940.
+
+👉 https://sulabham.in/current.html?d=2026-11-04
