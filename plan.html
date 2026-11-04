@@ -80,7 +80,7 @@ function day(n){
  app.querySelector(".back").onclick=function(){location.hash=""};
  document.getElementById("pr").onclick=function(){window.print()};
  document.getElementById("mk").onclick=function(){if(P[n])delete P[n];else P[n]=today();save();day(n)};
- fetch(f+"_"+L+".html").then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(s){document.getElementById("body").innerHTML=s}).catch(function(){document.getElementById("body").textContent=tt.soon});
+ fetch(f+"_"+L+".html?v="+Date.now()).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(s){document.getElementById("body").innerHTML=s}).catch(function(){document.getElementById("body").textContent=tt.soon});
 }
 function route(){var m=location.hash.match(/^#d(\d+)/);if(m)day(+m[1]);else list()}
 function setL(l){L=l;try{localStorage.setItem("sul_lang",l)}catch(e){}document.documentElement.lang=l;document.querySelectorAll(".lang button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.l===L)});route()}
