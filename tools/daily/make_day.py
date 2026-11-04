@@ -297,11 +297,33 @@ def validate(D):
             q = it['mcq']; bi(q['q'], 'mcq'); [bi(x, 'mcq st') for x in q['st']]; assert len(q['o']) == 4; [bi(x, 'mcq option') for x in q['o']]
             assert 0 <= q['a'] < 4; bi(q['why'], 'mcq why')
 
+def validate_words(D):
+    W = D.get('words')
+    if not W: return
+    ids = {it['id'] for it in D['items']}
+    assert len(W) == 5, 'words: exactly 5 words of the day'
+    for i, w in enumerate(W):
+        for k in ('w', 'te', 'en', 'ex'): assert str(w.get(k, '')).strip(), f'words[{i}]: needs {k}'
+        assert w.get('topic') in ids, f'words[{i}]: topic must be one of the item ids'
+
+def words_text(D, cdir):
+    W = D.get('words')
+    if not W: return
+    for m in ('en', 'te'):
+        h = '📚 *సులభం · నేటి 5 కొత్త పదాలు*' if m == 'te' else "📚 *Sulabham · Today's 5 new words*"
+        L = [h + ' | ' + D['day'][m], '']
+        for n, w in enumerate(W, 1):
+            L.append(f"{n}. *{w['w']}* — {w['te']} ({w['en']})")
+            L.append(f"   “{w['ex']}”")
+        L += ['', ('👉 ' + ('నేటి అంశాలు: ' if m == 'te' else "Today's topics: ") + f"https://{SITE_URL}/today.html?d={D['date']}" + ('&m=te' if m == 'te' else ''))]
+        open(os.path.join(cdir, f'words-{m}.txt'), 'w', encoding='utf-8').write('\n'.join(L) + '\n')
+
 async def main(src):
     global CAPDIR
     D = json.load(open(src, encoding='utf-8'))
     validate(D)
     if D.get('quiz'): validate_quiz(D)
+    validate_words(D)
     idx_p = os.path.join(ROOT, 'days', 'index.json')
     idx = json.load(open(idx_p)) if os.path.exists(idx_p) else []
     if D['date'] not in idx: idx.append(D['date'])
@@ -327,6 +349,7 @@ async def main(src):
     import subprocess; subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'compress_cards.py'), cdir], check=False)
     for m in ('en', 'te') if D.get('quiz') else (): quiz_texts(D, m, cdir); quiz_polls(D, m, cdir)
     for m in ('en', 'te'): caption(D, m)
+    words_text(D, cdir)
     # merge captions into one file per language
     for m in ('en', 'te'):
         parts = []

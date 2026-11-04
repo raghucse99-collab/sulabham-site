@@ -56,6 +56,12 @@ Every item must have at least one picture in `pics` (articles: 1–2). Choose th
   - Model: days/2026-10-20.json (1962 war map) and cad/2026-10-20.json (ulbpolls, sco, nzfta, dengue).
 Use a map whenever the topic involves places — it is the fastest way for aspirants to understand "where". Only verified numbers in pictures. Look at the Today page pictures of 2026-10-17 as the model.
 
+## Words of the day (required — 5 words)
+Add a `"words"` array of exactly **5** English words or terms that appear in today's items and that aspirants find hard (e.g. *impunity, landfall, desilting, runoff, statutory*). Prefer words that are used in the news now and recur in editorials and exam questions; no very easy words.
+- Format: `{"w":"Impunity","en":"escaping punishment","te":"శిక్ష నుంచి తప్పించుకోవడం","ex":"<one sentence from/based on today's news using the word>","topic":"<item id>"}`
+- `te` = natural Telugu meaning (not a transliteration); `en` = a short simple English meaning; `ex` = a real example sentence linked to today's topic.
+- make_day.py validates them and writes `cards/<date>/words-en.txt`, `words-te.txt`. The Today page shows them as a table (Word · Telugu meaning · Example) at the top of "Today's importance".
+
 ## Quiz (required — made in the morning, together with the page)
 Aspirants read the day's importance and articles first, then take the quiz. So `days/YYYY-MM-DD.json` MUST contain a `"quiz"` array of exactly **10 questions** based ONLY on that day's items (about 2 per item, spread across all items).
 - Format of each question: `{"topic":"<item id>","q":{..},"st":[{..} x3-4],"o":[{..} x4],"a":0-3,"why":{..}}` (all text en + te). `topic` must be an item id of the same file.
@@ -69,6 +75,7 @@ Aspirants read the day's importance and articles first, then take the quiz. So `
 ```
 { "date": "YYYY-MM-DD",
   "day": {"en":"Sunday, 18 October 2026","te":"ఆదివారం, 18 అక్టోబర్ 2026"},
+  "words": [ {"w":"..","en":"..","te":"..","ex":"..","topic":"<item id>"} x5 ],
   "items": [
     { "id": "short-id", "kind": "day" | "article", "color": "#hex", "icon": "law",
       "src":  {..}            // articles only: "The Hindu · Editorial · 15 Oct 2026" / "In the news · Economy"

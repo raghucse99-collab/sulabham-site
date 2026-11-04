@@ -60,7 +60,7 @@ function render(d){
  D=d;var o=$("#out");o.innerHTML='<p class="none">Loading…</p>';
  var mb="cards/"+d+"/",eb="cards/cad/"+d+"/";
  Promise.all([get("days/"+d+".json"),exists(mb+"summary-"+M+".png"),exists(mb+"quiz-"+M+".png"),
-  get(eb+"ca-"+M+".txt",1),exists(eb+"summary-"+M+".png"),exists(eb+"quiz-"+M+".png"),get(eb+"quiz-"+M+".txt",1)]).then(function(r){
+  get(eb+"ca-"+M+".txt",1),exists(eb+"summary-"+M+".png"),exists(eb+"quiz-"+M+".png"),get(eb+"quiz-"+M+".txt",1),get(mb+"words-"+M+".txt",1)]).then(function(r){
   var J=r[0],mp=[],ep=[];
   if(r[1])mp.push({u:mb+"summary-"+M+".png",n:"sulabham-today-"+d+".png"});
   if(r[2])mp.push({u:mb+"quiz-"+M+".png",n:"sulabham-today-quiz-"+d+".png"});
@@ -68,7 +68,7 @@ function render(d){
   if(r[5])ep.push({u:eb+"quiz-"+M+".png",n:"sulabham-ca-quiz-"+d+".png"});
   var et=r[3]||"";
   var h=block(M==="te"?"🌅 ఉదయం · నేటి ప్రత్యేకం":"🌅 Morning · Today page",mp,J?morningText(J):"","m")+
-        block(M==="te"?"📰 సాయంత్రం · కరెంట్ అఫైర్స్":"📰 Evening · Current affairs",ep,et,"e");
+        (r[7]?block(M==="te"?"📚 నేటి 5 కొత్త పదాలు":"📚 Today's 5 new words",[],r[7],"w"):"")+block(M==="te"?"📰 సాయంత్రం · కరెంట్ అఫైర్స్":"📰 Evening · Current affairs",ep,et,"e");
   if(r[6])h+=block(M==="te"?"📝 సాయంత్రం క్విజ్ పోస్ట్":"📝 Evening quiz post",[],r[6],"q");
   h+='<p class="tip">Tip: tap <b>Share</b> on a poster → WhatsApp → choose your Channel. Then come back, tap <b>Copy text</b> and paste it as the next update. Bookmark this page.</p>';
   o.innerHTML=h;

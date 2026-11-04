@@ -4,6 +4,43 @@
   "en": "Wednesday, 4 November 2026",
   "te": "బుధవారం, 4 నవంబర్ 2026"
  },
+ "words": [
+  {
+   "w": "Draft",
+   "en": "a first written version, to be discussed and changed",
+   "te": "ముసాయిదా",
+   "ex": "Ambedkar placed the Draft Constitution before the Constituent Assembly on 4 November 1948.",
+   "topic": "draftconst"
+  },
+  {
+   "w": "Enter into force",
+   "en": "to start having legal effect",
+   "te": "అమల్లోకి రావడం",
+   "ex": "UNESCO's Constitution entered into force on 4 November 1946.",
+   "topic": "unesco"
+  },
+  {
+   "w": "Grievance",
+   "en": "a complaint about unfair treatment",
+   "te": "ఫిర్యాదు / మనోవేదన",
+   "ex": "Under the new rules, a rural worker's grievance must be settled in 15 days.",
+   "topic": "vbgramg"
+  },
+  {
+   "w": "Enumeration",
+   "en": "counting people or things one by one",
+   "te": "గణన / లెక్కింపు",
+   "ex": "The Population Enumeration phase of Census 2027 begins on 25 January.",
+   "topic": "census"
+  },
+  {
+   "w": "Corvette",
+   "en": "a small, fast warship",
+   "te": "చిన్న యుద్ధ నౌక (కార్వెట్)",
+   "ex": "Contracts worth ₹53,866 crore were signed for 8 Next Generation Corvettes.",
+   "topic": "corvettes"
+  }
+ ],
  "items": [
   {
    "id": "draftconst",

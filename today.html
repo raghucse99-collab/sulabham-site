@@ -151,6 +151,12 @@ table.kv tr+tr>*{border-top:1px solid var(--line)}
 footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
 .load{padding:40px 0;color:var(--muted)}
 .qlater{display:block;text-decoration:none;font-weight:700;color:#3a2a00;background:linear-gradient(135deg,#fff3cf,#ffe08a);border:2px solid #e3a400;border-radius:12px;padding:10px 14px;margin:0 0 14px}
+.wbox{background:var(--card);border:2px solid #2f6b2f;border-radius:14px;padding:12px;margin:0 0 14px}
+.wbox h3{margin:0 0 4px;font-family:var(--f-display);font-size:1.1rem}.wbox p.wsub{margin:0 0 8px;color:var(--muted);font-size:.85rem}
+.wtab{width:100%;border-collapse:collapse;font-size:.92rem}.wtab th,.wtab td{border-top:1px solid var(--line);padding:7px 6px;text-align:left;vertical-align:top}
+.wtab th{font-size:.78rem;color:var(--muted);font-weight:600}.wtab td b{display:block}.wtab td small{color:var(--muted)}
+@media(max-width:520px){.wtab th:nth-child(3),.wtab td:nth-child(3){display:none}.wtab td .wex{display:block;margin-top:4px;font-size:.85rem;color:var(--ink)}}
+@media(min-width:521px){.wtab td .wex{display:none}}
 </style>
 </head>
 <body>
@@ -206,6 +212,10 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
     if(p.cap)h+='<figcaption class="cap">'+esc(L(p.cap))+'</figcaption>';
     return h+'</figure>';
   }
+  function wordsHTML(){var W=data.words;if(!W||!W.length)return"";var te=med==="te";
+    var h='<div class="wbox"><h3>'+(te?"📚 నేటి 5 కొత్త పదాలు":"📚 Today's 5 new words")+'</h3><p class="wsub">'+(te?"నేటి వార్తల్లో వాడిన పదాలు — అర్థం, ఉదాహరణతో":"Words used in today's news — with meaning and an example")+'</p><table class="wtab"><tr><th>'+(te?"పదం":"Word")+'</th><th>'+(te?"తెలుగు అర్థం":"Telugu meaning")+'</th><th>'+(te?"ఉదాహరణ":"Example")+'</th></tr>';
+    W.forEach(function(w){h+='<tr><td><b>'+esc(w.w)+'</b><small>'+esc(w.en||"")+'</small></td><td>'+esc(w.te)+'<span class="wex">“'+esc(w.ex)+'”</span></td><td>'+esc(w.ex)+'</td></tr>'});
+    return h+'</table></div>'}
   function card(it){
     var t=T[med],h='<details class="card" id="'+it.id+'" data-rd="t:'+data.date+':'+it.id+'" style="--c:'+it.color+'"'+(it._open?' open':'')+'><summary class="hd">';
     if(it.src)h+='<span class="src">'+esc(L(it.src))+'</span>';
@@ -232,7 +242,7 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
     var list=stab==="day"?dd:aa;if(!list.some(function(i){return i._open})&&list[0])list[0]._open=true;
     $("chips").innerHTML=list.map(function(i){return'<li><a href="#'+i.id+'">'+esc(L(i.title))+'</a></li>'}).join("");
     var hq=data.quiz&&data.quiz.length,nt=hq?3:2;if(stab==="quiz"&&!hq)stab="day";
-    var h='<p class="eyebrow" style="margin:14px 0 0">'+esc(L(data.day))+'</p><div class="stabs" role="tablist" style="--nt:'+nt+'"><button type="button" role="tab" data-stab="day" aria-selected="'+(stab==="day")+'"><b>'+t.tday+'</b><small>'+t.tdayS(dd.length)+'</small></button><button type="button" role="tab" data-stab="article" aria-selected="'+(stab==="article")+'"><b>'+t.tart+'</b><small>'+t.tartS(aa.length)+'</small></button>'+(hq?'<button type="button" role="tab" class="qz" data-stab="quiz" aria-selected="'+(stab==="quiz")+'"><b>'+t.tquiz+'</b><small>'+t.tquizS+'</small></button>':'')+'</div>'+(hq?'':'<a class="qlater" href="current.html'+(med==="te"?"?m=te":"")+'">'+t.qlater+'</a>')+(stab==="quiz"?quizHTML():list.map(card).join(""));
+    var h='<p class="eyebrow" style="margin:14px 0 0">'+esc(L(data.day))+'</p><div class="stabs" role="tablist" style="--nt:'+nt+'"><button type="button" role="tab" data-stab="day" aria-selected="'+(stab==="day")+'"><b>'+t.tday+'</b><small>'+t.tdayS(dd.length)+'</small></button><button type="button" role="tab" data-stab="article" aria-selected="'+(stab==="article")+'"><b>'+t.tart+'</b><small>'+t.tartS(aa.length)+'</small></button>'+(hq?'<button type="button" role="tab" class="qz" data-stab="quiz" aria-selected="'+(stab==="quiz")+'"><b>'+t.tquiz+'</b><small>'+t.tquizS+'</small></button>':'')+'</div>'+(hq?'':'<a class="qlater" href="current.html'+(med==="te"?"?m=te":"")+'">'+t.qlater+'</a>')+(stab==="quiz"?quizHTML():(stab==="day"?wordsHTML():"")+list.map(card).join(""));
     h+='<section class="join"><h3>'+t.join+'</h3><p>'+t.joinp+'</p><a style="background:#1f8f4e;color:#fff" target="_blank" rel="noopener" href="https://whatsapp.com/channel/0029Vb9VwxRBqbr9LpWZtI1c">'+t.jw+'</a><a style="background:#2481cc;color:#fff" target="_blank" rel="noopener" href="https://t.me/+G7R0gSQgjQBhOWNl">'+t.jt+'</a></section>';
     $("main").innerHTML=h;
     if(location.hash){var el=document.querySelector(location.hash);if(el)el.scrollIntoView()}
