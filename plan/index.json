@@ -1,0 +1,574 @@
+{
+"days": [
+{
+"n": 1,
+"w": 1,
+"pol": {
+"id": "con-6-1",
+"en": "Nature of the Indian Constitution and constitutional development",
+"te": "భారత రాజ్యాంగ స్వభావం, రాజ్యాంగ వికాసం"
+},
+"eco": {
+"id": "eco-1-1",
+"en": "National income: concept and measurement",
+"te": "జాతీయ ఆదాయం: భావన, గణన"
+},
+"ready": true
+},
+{
+"n": 2,
+"w": 1,
+"pol": {
+"id": "con-6-2",
+"en": "Salient features of the Indian Constitution",
+"te": "భారత రాజ్యాంగ ముఖ్య లక్షణాలు"
+},
+"eco": {
+"id": "eco-1-2",
+"en": "Occupational pattern and sectoral distribution of income in India",
+"te": "వృత్తి విధానం, ఆదాయ రంగాల వారీ పంపిణీ"
+},
+"ready": false
+},
+{
+"n": 3,
+"w": 1,
+"pol": {
+"id": "con-6-3",
+"en": "Preamble",
+"te": "ప్రవేశిక"
+},
+"eco": {
+"id": "eco-1-3",
+"en": "Economic growth and economic development",
+"te": "ఆర్థిక వృద్ధి, ఆర్థికాభివృద్ధి"
+},
+"ready": false
+},
+{
+"n": 4,
+"w": 1,
+"pol": {
+"id": "con-6-4",
+"en": "Fundamental Rights",
+"te": "ప్రాథమిక హక్కులు"
+},
+"eco": {
+"id": "eco-1-4",
+"en": "Strategy of planning in India",
+"te": "భారత్‌లో ప్రణాళికా వ్యూహం"
+},
+"ready": false
+},
+{
+"n": 5,
+"w": 1,
+"pol": {
+"id": "con-6-4",
+"en": "Fundamental Rights (part 2)",
+"te": "ప్రాథమిక హక్కులు (భాగం 2)"
+},
+"eco": {
+"id": "eco-1-5",
+"en": "New Economic Reforms 1991",
+"te": "1991 నూతన ఆర్థిక సంస్కరణలు"
+},
+"ready": false
+},
+{
+"n": 6,
+"w": 1,
+"pol": {
+"id": "con-6-5",
+"en": "Directive Principles of State Policy and their relationship with Fundamental Rights",
+"te": "ఆదేశిక సూత్రాలు, ప్రాథమిక హక్కులతో వాటి సంబంధం"
+},
+"eco": {
+"id": "eco-1-6",
+"en": "Decentralization of financial resources",
+"te": "ఆర్థిక వనరుల వికేంద్రీకరణ"
+},
+"ready": false
+},
+{
+"n": "R1",
+"w": 1,
+"rev": 1
+},
+{
+"n": 7,
+"w": 2,
+"pol": {
+"id": "con-6-6",
+"en": "Fundamental Duties",
+"te": "ప్రాథమిక విధులు"
+},
+"eco": {
+"id": "eco-1-7",
+"en": "NITI Aayog",
+"te": "నీతి ఆయోగ్"
+},
+"ready": false
+},
+{
+"n": 8,
+"w": 2,
+"pol": {
+"id": "con-6-7",
+"en": "Amendment of the Constitution",
+"te": "రాజ్యాంగ సవరణ"
+},
+"eco": {
+"id": "eco-2-1",
+"en": "Functions and measures of money supply",
+"te": "ద్రవ్య సరఫరా విధులు, కొలమానాలు"
+},
+"ready": false
+},
+{
+"n": 9,
+"w": 2,
+"pol": {
+"id": "con-6-8",
+"en": "Basic Structure of the Constitution",
+"te": "రాజ్యాంగ మౌలిక స్వరూపం"
+},
+"eco": {
+"id": "eco-2-2",
+"en": "RBI: functions, monetary policy and credit control",
+"te": "RBI: విధులు, ద్రవ్య విధానం, పరపతి నియంత్రణ"
+},
+"ready": false
+},
+{
+"n": 10,
+"w": 2,
+"pol": {
+"id": "con-7-1",
+"en": "Legislature, Executive and Judiciary",
+"te": "శాసన, కార్యనిర్వాహక, న్యాయ వ్యవస్థలు"
+},
+"eco": {
+"id": "eco-2-3",
+"en": "Indian banking: structure, development and reforms",
+"te": "భారత బ్యాంకింగ్: నిర్మాణం, అభివృద్ధి, సంస్కరణలు"
+},
+"ready": false
+},
+{
+"n": 11,
+"w": 2,
+"pol": {
+"id": "con-7-2",
+"en": "Types of legislatures: unicameral, bicameral",
+"te": "శాసనసభల రకాలు: ఏకసభ, ద్విసభ"
+},
+"eco": {
+"id": "eco-2-4",
+"en": "Inflation: causes and remedies",
+"te": "ద్రవ్యోల్బణం: కారణాలు, నివారణలు"
+},
+"ready": false
+},
+{
+"n": 12,
+"w": 2,
+"pol": {
+"id": "con-7-3",
+"en": "Executive — parliamentary system",
+"te": "కార్యనిర్వాహక వర్గం — పార్లమెంటరీ వ్యవస్థ"
+},
+"eco": {
+"id": "eco-2-5",
+"en": "Fiscal policy: fiscal imbalance, deficit finance, fiscal responsibility",
+"te": "కోశ విధానం: కోశ అసమతుల్యత, లోటు విత్తం, కోశ బాధ్యత"
+},
+"ready": false
+},
+{
+"n": "R2",
+"w": 2,
+"rev": 1
+},
+{
+"n": 13,
+"w": 3,
+"pol": {
+"id": "con-7-4",
+"en": "Judiciary, judicial review and judicial activism",
+"te": "న్యాయవ్యవస్థ, న్యాయ సమీక్ష, న్యాయ క్రియాశీలత"
+},
+"eco": {
+"id": "eco-2-6",
+"en": "Indian tax structure and GST",
+"te": "భారత పన్నుల నిర్మాణం, GST"
+},
+"ready": false
+},
+{
+"n": 14,
+"w": 3,
+"pol": {
+"id": "con-8-1",
+"en": "Distribution of legislative and executive powers between the Union and the States",
+"te": "కేంద్ర, రాష్ట్రాల మధ్య శాసన, కార్యనిర్వాహక అధికారాల పంపిణీ"
+},
+"eco": {
+"id": "eco-2-7",
+"en": "Recent Indian Budget",
+"te": "ఇటీవలి కేంద్ర బడ్జెట్"
+},
+"ready": false
+},
+{
+"n": 15,
+"w": 3,
+"pol": {
+"id": "con-8-2",
+"en": "Legislative, administrative and financial relations between the Union and the States",
+"te": "కేంద్ర–రాష్ట్ర శాసన, పరిపాలనా, ఆర్థిక సంబంధాలు"
+},
+"eco": {
+"id": "eco-2-8",
+"en": "Balance of Payments (BOP) and FDI",
+"te": "చెల్లింపుల శేషం (BOP), FDI"
+},
+"ready": false
+},
+{
+"n": 16,
+"w": 3,
+"pol": {
+"id": "con-8-3",
+"en": "Powers and functions of constitutional bodies",
+"te": "రాజ్యాంగ సంస్థల అధికారాలు, విధులు"
+},
+"eco": {
+"id": "eco-3-1",
+"en": "Indian agriculture: cropping pattern, production and productivity",
+"te": "భారత వ్యవసాయం: పంటల విధానం, ఉత్పత్తి, ఉత్పాదకత"
+},
+"ready": false
+},
+{
+"n": 17,
+"w": 3,
+"pol": {
+"id": "con-8-4",
+"en": "Human Rights Commission",
+"te": "మానవ హక్కుల కమిషన్"
+},
+"eco": {
+"id": "eco-3-2",
+"en": "Agricultural finance and marketing: issues and initiatives",
+"te": "వ్యవసాయ విత్తం, మార్కెటింగ్: సమస్యలు, చొరవలు"
+},
+"ready": false
+},
+{
+"n": 18,
+"w": 3,
+"pol": {
+"id": "con-8-5",
+"en": "Right to Information (RTI)",
+"te": "సమాచార హక్కు (RTI)"
+},
+"eco": {
+"id": "eco-3-3",
+"en": "Agricultural pricing and policy: MSP, procurement, issue price, distribution",
+"te": "వ్యవసాయ ధరల విధానం: MSP, సేకరణ, జారీ ధర, పంపిణీ"
+},
+"ready": false
+},
+{
+"n": "R3",
+"w": 3,
+"rev": 1
+},
+{
+"n": 19,
+"w": 4,
+"pol": {
+"id": "con-8-6",
+"en": "Lokpal and Lokayukta",
+"te": "లోక్‌పాల్, లోకాయుక్త"
+},
+"eco": {
+"id": "eco-3-4",
+"en": "Industrial development in India: patterns and problems",
+"te": "భారత పారిశ్రామికాభివృద్ధి: విధానాలు, సమస్యలు"
+},
+"ready": false
+},
+{
+"n": 20,
+"w": 4,
+"pol": {
+"id": "con-9-1",
+"en": "Centre–State relations and need for reforms",
+"te": "కేంద్ర–రాష్ట్ర సంబంధాలు, సంస్కరణల అవసరం"
+},
+"eco": {
+"id": "eco-3-5",
+"en": "New Industrial Policy 1991, disinvestment, Ease of Doing Business",
+"te": "1991 నూతన పారిశ్రామిక విధానం, పెట్టుబడుల ఉపసంహరణ, సులభతర వాణిజ్యం"
+},
+"ready": false
+},
+{
+"n": 21,
+"w": 4,
+"pol": {
+"id": "con-9-2",
+"en": "Rajamannar Committee, Sarkaria Commission, M.M. Punchhi Commission",
+"te": "రాజమన్నార్ కమిటీ, సర్కారియా కమిషన్, ఎం.ఎం. పూంఛీ కమిషన్"
+},
+"eco": {
+"id": "eco-3-6",
+"en": "Industrial sickness: causes, consequences, remedies",
+"te": "పారిశ్రామిక రుగ్మత: కారణాలు, పర్యవసానాలు, నివారణలు"
+},
+"ready": false
+},
+{
+"n": 22,
+"w": 4,
+"pol": {
+"id": "con-9-3",
+"en": "Unitary and federal features of the Indian Constitution",
+"te": "భారత రాజ్యాంగంలో ఏకకేంద్ర, సమాఖ్య లక్షణాలు"
+},
+"eco": {
+"id": "eco-3-7",
+"en": "Services sector: growth and contribution; role of IT and ITES",
+"te": "సేవా రంగం: వృద్ధి, వాటా; IT, ITES పాత్ర"
+},
+"ready": false
+},
+{
+"n": 23,
+"w": 4,
+"pol": {
+"id": "con-9-4",
+"en": "Indian political parties and the party system; recognition of national and state parties",
+"te": "భారత రాజకీయ పార్టీలు, పార్టీ వ్యవస్థ; జాతీయ, రాష్ట్ర పార్టీల గుర్తింపు"
+},
+"eco": {
+"id": "eco-4-1",
+"en": "Structure and growth of AP economy: GSDP and sectoral contribution",
+"te": "ఏపీ ఆర్థిక వ్యవస్థ నిర్మాణం, వృద్ధి: GSDP, రంగాల వాటా"
+},
+"ready": false
+},
+{
+"n": 24,
+"w": 4,
+"pol": {
+"id": "con-9-5",
+"en": "Elections and electoral reforms",
+"te": "ఎన్నికలు, ఎన్నికల సంస్కరణలు"
+},
+"eco": {
+"id": "eco-4-2",
+"en": "AP per capita income (PCI)",
+"te": "ఏపీ తలసరి ఆదాయం (PCI)"
+},
+"ready": false
+},
+{
+"n": "R4",
+"w": 4,
+"rev": 1
+},
+{
+"n": 25,
+"w": 5,
+"pol": {
+"id": "con-9-6",
+"en": "Anti-Defection Law",
+"te": "పార్టీ ఫిరాయింపుల నిరోధక చట్టం"
+},
+"eco": {
+"id": "eco-4-3",
+"en": "AP state revenue: tax and non-tax",
+"te": "ఏపీ ఆదాయం: పన్ను, పన్నేతర"
+},
+"ready": false
+},
+{
+"n": 26,
+"w": 5,
+"pol": {
+"id": "con-10-1",
+"en": "Centralization vs decentralization",
+"te": "కేంద్రీకరణ vs వికేంద్రీకరణ"
+},
+"eco": {
+"id": "eco-4-4",
+"en": "AP state expenditure, debts and interest payments",
+"te": "ఏపీ వ్యయం, అప్పులు, వడ్డీ చెల్లింపులు"
+},
+"ready": false
+},
+{
+"n": 27,
+"w": 5,
+"pol": {
+"id": "con-10-2",
+"en": "Community Development Programme",
+"te": "సామాజిక అభివృద్ధి కార్యక్రమం"
+},
+"eco": {
+"id": "eco-4-5",
+"en": "Central assistance and externally aided projects",
+"te": "కేంద్ర సహాయం, విదేశీ సహాయ ప్రాజెక్టులు"
+},
+"ready": false
+},
+{
+"n": 28,
+"w": 5,
+"pol": {
+"id": "con-10-3",
+"en": "Balwant Rai Mehta and Ashok Mehta Committees",
+"te": "బల్వంత్‌రాయ్ మెహతా, అశోక్ మెహతా కమిటీలు"
+},
+"eco": {
+"id": "eco-4-6",
+"en": "Recent AP Budget",
+"te": "ఇటీవలి ఏపీ బడ్జెట్"
+},
+"ready": false
+},
+{
+"n": 29,
+"w": 5,
+"pol": {
+"id": "con-10-4",
+"en": "73rd and 74th Constitutional Amendment Acts and their implementation",
+"te": "73, 74వ రాజ్యాంగ సవరణ చట్టాలు, వాటి అమలు"
+},
+"eco": {
+"id": "eco-5-1",
+"en": "Production trends of agriculture and allied sectors; cropping pattern",
+"te": "వ్యవసాయ, అనుబంధ రంగాల ఉత్పత్తి ధోరణులు; పంటల విధానం"
+},
+"ready": false
+},
+{
+"n": 30,
+"w": 5,
+"pol": {
+"id": "rev-pol",
+"en": "Revision: all Polity one-page notes + test",
+"te": "పాలిటీ పునశ్చరణ: అన్ని ఒక పేజీ నోట్స్ + టెస్ట్"
+},
+"eco": {
+"id": "eco-5-2",
+"en": "Rural credit cooperatives and agricultural marketing",
+"te": "గ్రామీణ పరపతి సహకార సంఘాలు, వ్యవసాయ మార్కెటింగ్"
+},
+"ready": false
+},
+{
+"n": "R5",
+"w": 5,
+"rev": 1
+},
+{
+"n": 31,
+"w": 6,
+"pol": {
+"id": "rev-pol",
+"en": "Revision: all Polity one-page notes + test",
+"te": "పాలిటీ పునశ్చరణ: అన్ని ఒక పేజీ నోట్స్ + టెస్ట్"
+},
+"eco": {
+"id": "eco-5-3",
+"en": "AP schemes for agriculture and allied sectors: horticulture, animal husbandry, fisheries, forests",
+"te": "వ్యవసాయ, అనుబంధ రంగాలకు ఏపీ పథకాలు: ఉద్యానవనాలు, పశుసంవర్ధకం, మత్స్య, అటవీ"
+},
+"ready": false
+},
+{
+"n": 32,
+"w": 6,
+"pol": {
+"id": "rev-pol",
+"en": "Revision: all Polity one-page notes + test",
+"te": "పాలిటీ పునశ్చరణ: అన్ని ఒక పేజీ నోట్స్ + టెస్ట్"
+},
+"eco": {
+"id": "eco-5-4",
+"en": "Growth and structure of industries; recent AP Industrial Development Policy",
+"te": "పరిశ్రమల వృద్ధి, నిర్మాణం; ఇటీవలి ఏపీ పారిశ్రామికాభివృద్ధి విధానం"
+},
+"ready": false
+},
+{
+"n": 33,
+"w": 6,
+"pol": {
+"id": "rev-pol",
+"en": "Revision: all Polity one-page notes + test",
+"te": "పాలిటీ పునశ్చరణ: అన్ని ఒక పేజీ నోట్స్ + టెస్ట్"
+},
+"eco": {
+"id": "eco-5-5",
+"en": "Single window mechanism, industrial incentives, MSMEs",
+"te": "సింగిల్ విండో విధానం, పారిశ్రామిక ప్రోత్సాహకాలు, MSMEలు"
+},
+"ready": false
+},
+{
+"n": 34,
+"w": 6,
+"pol": {
+"id": "rev-pol",
+"en": "Revision: all Polity one-page notes + test",
+"te": "పాలిటీ పునశ్చరణ: అన్ని ఒక పేజీ నోట్స్ + టెస్ట్"
+},
+"eco": {
+"id": "eco-5-6",
+"en": "Industrial corridors",
+"te": "పారిశ్రామిక కారిడార్లు"
+},
+"ready": false
+},
+{
+"n": 35,
+"w": 6,
+"pol": {
+"id": "rev-pol",
+"en": "Revision: all Polity one-page notes + test",
+"te": "పాలిటీ పునశ్చరణ: అన్ని ఒక పేజీ నోట్స్ + టెస్ట్"
+},
+"eco": {
+"id": "eco-5-7",
+"en": "Services sector in AP; IT, electronics and communications; recent AP IT Policy",
+"te": "ఏపీ సేవా రంగం; IT, ఎలక్ట్రానిక్స్, కమ్యూనికేషన్స్; ఇటీవలి ఏపీ IT విధానం"
+},
+"ready": false
+},
+{
+"n": 36,
+"w": 6,
+"pol": {
+"id": "rev-pol",
+"en": "Revision: all Polity one-page notes + test",
+"te": "పాలిటీ పునశ్చరణ: అన్ని ఒక పేజీ నోట్స్ + టెస్ట్"
+},
+"eco": {
+"id": "rev-eco",
+"en": "Revision: all Economy one-page notes + test",
+"te": "ఎకానమీ పునశ్చరణ: అన్ని ఒక పేజీ నోట్స్ + టెస్ట్"
+},
+"ready": false
+},
+{
+"n": "R6",
+"w": 6,
+"rev": 1
+}
+]
+}

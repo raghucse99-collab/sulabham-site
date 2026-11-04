@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script src="migrate.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Day-wise Group 2 Preparation · Sulabham</title>
+<meta name="description" content="Day-wise APPSC Group 2 preparation with Sulabham: one Polity topic and one Economy topic a day, printable notes, practice questions and a revision schedule — Telugu & English.">
+<meta property="og:image" content="https://sulabham.in/sulabham-logo.png">
+<link rel="canonical" href="https://sulabham.in/plan.html">
+<link rel="icon" type="image/svg+xml" href="sulabham-icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500;700;800&family=Noto+Sans+Telugu:wght@400;600&family=Noto+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="plan/day.css">
+<style>
+:root{--paper:#f6f4ee;--card:#fff;--ink:#14212b;--muted:#5b6b78;--line:#dfe3e6;--acc:#1d4f91;--ok:#2f6b2f;--f-display:"Anek Telugu","Noto Sans",sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 "Noto Sans","Noto Sans Telugu",sans-serif}
+header{background:var(--acc);color:#fff;padding:14px 16px;display:flex;align-items:center;gap:10px;justify-content:space-between}
+header a{color:#fff;text-decoration:none;font-family:var(--f-display);font-weight:800;font-size:20px}
+.lang button{font:inherit;font-size:14px;border:1px solid #fff;background:transparent;color:#fff;border-radius:8px;padding:4px 9px;cursor:pointer}.lang button[aria-pressed=true]{background:#fff;color:var(--acc)}
+main{max-width:860px;margin:0 auto;padding:12px 16px 50px}
+h1{font-family:var(--f-display);font-size:1.6rem;margin:8px 0 4px}.lede{color:var(--muted);margin:0 0 12px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:12px 0}
+.how ol{margin:6px 0;padding-left:20px}.how li{margin:3px 0}
+.due{border:2px solid #e3a400;background:#fffaf0}.due h3,.box h3{margin:0 0 6px;font-family:var(--f-display);font-size:1.15rem}
+.prog{height:10px;background:#e8ebee;border-radius:6px;overflow:hidden;margin:6px 0}.prog i{display:block;height:100%;background:var(--ok)}
+.wk{margin:16px 0 6px;font-family:var(--f-display);font-size:1.1rem}
+.day{display:flex;gap:10px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:6px 0;cursor:pointer;width:100%;text-align:left;font:inherit;color:inherit}
+.day .n{flex:0 0 46px;height:46px;border-radius:10px;background:#e8eef4;display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--acc)}
+.day.done .n{background:var(--ok);color:#fff}.day.soon{opacity:.62;cursor:default}.day.rev .n{background:#fff3cf;color:#6b5200}
+.day small{display:block;color:var(--muted);font-size:.82rem}.day .t{flex:1;min-width:0}.day .t b{display:block;font-size:.95rem}
+.tag{display:inline-block;font-size:.72rem;border-radius:6px;padding:1px 6px;margin-right:4px;color:#fff}.tag.p{background:var(--acc)}.tag.e{background:var(--ok)}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.btns a,.btns button{font:inherit;font-size:15px;border-radius:10px;border:1px solid var(--line);padding:9px 12px;background:#fff;color:var(--ink);text-decoration:none;cursor:pointer}
+.btns .pri{background:var(--acc);color:#fff;border-color:var(--acc)}.btns .ok{background:var(--ok);color:#fff;border-color:var(--ok)}
+.back{font:inherit;border:0;background:none;color:var(--acc);cursor:pointer;padding:0;margin:4px 0}
+.note{font-size:.85rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<header><a href="index.html">సులభం</a><span class="lang"><button data-l="te">తెలుగు</button> <button data-l="en">English</button></span></header>
+<main id="app"></main>
+<script>
+(function(){
+var L="en";try{L=localStorage.getItem("sul_lang")||"en"}catch(e){}
+var P={};try{P=JSON.parse(localStorage.getItem("sul_plan")||"{}")}catch(e){}
+function save(){try{localStorage.setItem("sul_plan",JSON.stringify(P))}catch(e){}}
+var T={en:{h:"Day-wise Group 2 preparation",lede:"One Polity topic + one Economy topic every day, in syllabus order — printable notes, practice questions and a revision reminder. Read with Group 1 depth, practise at Group 2 speed.",how:"How to study each day",steps:["Read the day's notes (Polity 90 min, Economy 90 min). For more depth, read the same chapter once in the standard book.","At night, answer the practice questions without looking.","Close everything, write what you remember, then copy the 4-box page into your subject notebook (example inside Day 1).","Revise that page on Day 1, 3, 7, 15 and 30 — this page reminds you.","Every 7th day: no new topic — revise the week's pages and take a test."],due:"🔁 Revise today",nodue:"Nothing due today — continue with your next day.",prog:function(a,b){return a+" of "+b+" days done"},wk:function(w){return"Week "+w},rev:"Revision day — revise all of this week's notebook pages + take the weekly mock",soon:"Coming soon",open:"Open",pdf:"⬇️ Download PDF (print)",done:"✓ Mark day as done",undone:"Done ✓ (tap to undo)",back:"← All days",pol:"Polity",eco:"Economy",revon:"Revise on",note:"Your progress is saved only in this browser.",day:"Day"},
+te:{h:"రోజువారీ గ్రూప్ 2 ప్రిపరేషన్",lede:"సిలబస్ క్రమంలో రోజూ ఒక పాలిటీ అంశం + ఒక ఎకానమీ అంశం — ప్రింట్ చేసుకునే నోట్స్, ప్రాక్టీస్ ప్రశ్నలు, పునశ్చరణ గుర్తు. గ్రూప్ 1 లోతుతో చదవండి, గ్రూప్ 2 వేగంతో సాధన చేయండి.",how:"రోజూ ఎలా చదవాలి",steps:["ఆ రోజు నోట్స్ చదవండి (పాలిటీ 90 ని., ఎకానమీ 90 ని.). మరింత లోతు కోసం అదే అధ్యాయాన్ని ప్రామాణిక పుస్తకంలో ఒకసారి చదవండి.","రాత్రి నోట్స్ చూడకుండా ప్రాక్టీస్ ప్రశ్నలు రాయండి.","అన్నీ మూసి గుర్తున్నది రాయండి; తర్వాత 4 బాక్సుల పేజీని సబ్జెక్ట్ నోట్‌బుక్‌లో రాయండి (ఉదాహరణ Day 1లో ఉంది).","ఆ పేజీని 1, 3, 7, 15, 30వ రోజు పునశ్చరణ చేయండి — ఈ పేజీ గుర్తు చేస్తుంది.","ప్రతి 7వ రోజు: కొత్త అంశం వద్దు — వారం పేజీలు పునశ్చరణ + టెస్ట్."],due:"🔁 ఈ రోజు పునశ్చరణ",nodue:"ఈ రోజు పునశ్చరణ లేదు — తర్వాతి రోజు కొనసాగించండి.",prog:function(a,b){return b+" రోజుల్లో "+a+" పూర్తి"},wk:function(w){return"వారం "+w},rev:"పునశ్చరణ రోజు — ఈ వారం నోట్‌బుక్ పేజీలన్నీ పునశ్చరణ + వారపు మాక్ టెస్ట్",soon:"త్వరలో",open:"తెరవండి",pdf:"⬇️ PDF డౌన్‌లోడ్ (ప్రింట్)",done:"✓ ఈ రోజు పూర్తి",undone:"పూర్తి ✓ (రద్దుకు నొక్కండి)",back:"← అన్ని రోజులు",pol:"పాలిటీ",eco:"ఎకానమీ",revon:"పునశ్చరణ తేదీలు",note:"మీ ప్రగతి ఈ బ్రౌజర్‌లోనే సేవ్ అవుతుంది.",day:"రోజు"}};
+var D=null,app=document.getElementById("app");
+function t(){return T[L]}function nm(o){return o[L]||o.en}
+function iso(d){return d.toISOString().slice(0,10)}
+function addD(s,k){var d=new Date(s+"T00:00:00Z");d.setUTCDate(d.getUTCDate()+k);return iso(d)}
+function today(){var d=new Date(Date.now()+5.5*3600e3);return iso(d)}
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;")}
+function pad(n){return("0"+n).slice(-2)}
+function dueList(){var td=today(),out=[];D.days.forEach(function(x){if(x.rev||!P[x.n])return;[1,3,7,15,30].forEach(function(k){if(addD(P[x.n],k)===td)out.push({x:x,k:k})})});return out}
+function list(){
+ var tt=t(),h='<h1>'+tt.h+'</h1><p class="lede">'+tt.lede+'</p>';
+ var nd=D.days.filter(function(x){return!x.rev}),dn=nd.filter(function(x){return P[x.n]}).length;
+ h+='<div class="box"><b>'+tt.prog(dn,nd.length)+'</b><div class="prog"><i style="width:'+Math.round(dn*100/nd.length)+'%"></i></div><span class="note">'+tt.note+'</span></div>';
+ var du=dueList();h+='<div class="box due"><h3>'+tt.due+'</h3>'+(du.length?du.map(function(o){return'<div>• '+tt.day+' '+o.x.n+' ('+tt.day+' +'+o.k+'): '+esc(nm(o.x.pol))+' · '+esc(nm(o.x.eco))+'</div>'}).join(""):'<span class="note">'+tt.nodue+'</span>')+'</div>';
+ h+='<div class="box how"><h3>'+tt.how+'</h3><ol>'+tt.steps.map(function(s){return'<li>'+s+'</li>'}).join("")+'</ol></div>';
+ var w=0;D.days.forEach(function(x){if(x.w!==w){w=x.w;h+='<div class="wk">'+tt.wk(w)+'</div>'}
+  if(x.rev){h+='<div class="day rev"><span class="n">🔁</span><span class="t"><b>'+tt.rev+'</b></span></div>';return}
+  var cls="day"+(P[x.n]?" done":"")+(x.ready?"":" soon");
+  h+='<button class="'+cls+'" data-d="'+x.n+'"'+(x.ready?'':' disabled')+'><span class="n">'+x.n+'</span><span class="t"><b><span class="tag p">'+tt.pol+'</span>'+esc(nm(x.pol))+'</b><b><span class="tag e">'+tt.eco+'</span>'+esc(nm(x.eco))+'</b>'+(x.ready?'':'<small>'+tt.soon+'</small>')+'</span></button>'});
+ app.innerHTML=h;
+ app.querySelectorAll("[data-d]").forEach(function(b){b.onclick=function(){location.hash="d"+b.getAttribute("data-d")}});
+}
+function day(n){
+ var x=D.days.filter(function(y){return String(y.n)===String(n)})[0];if(!x||!x.ready){list();return}
+ var tt=t(),f="plan/day"+pad(n);
+ var h='<button class="back">'+tt.back+'</button><h1>'+tt.day+' '+n+'</h1><p class="lede"><span class="tag p">'+tt.pol+'</span>'+esc(nm(x.pol))+'<br><span class="tag e">'+tt.eco+'</span>'+esc(nm(x.eco))+'</p>';
+ var rv=P[n]?'<p class="note">'+tt.revon+': '+[1,3,7,15,30].map(function(k){return addD(P[n],k)}).join(" · ")+'</p>':'';
+ h+='<div class="btns"><a class="pri" href="'+f+'.pdf" download>'+tt.pdf+'</a><button class="'+(P[n]?'':'ok')+'" id="mk">'+(P[n]?tt.undone:tt.done)+'</button></div>'+rv+'<div id="body" class="box">…</div>';
+ app.innerHTML=h;window.scrollTo(0,0);
+ app.querySelector(".back").onclick=function(){location.hash=""};
+ document.getElementById("mk").onclick=function(){if(P[n])delete P[n];else P[n]=today();save();day(n)};
+ fetch(f+".html").then(function(r){return r.text()}).then(function(s){document.getElementById("body").innerHTML=s});
+}
+function route(){var m=location.hash.match(/^#d(\d+)/);if(m)day(+m[1]);else list()}
+function setL(l){L=l;try{localStorage.setItem("sul_lang",l)}catch(e){}document.documentElement.lang=l;document.querySelectorAll(".lang button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.l===L)});route()}
+document.querySelectorAll(".lang button").forEach(function(b){b.onclick=function(){setL(b.dataset.l)}});
+window.addEventListener("hashchange",route);
+fetch("plan/index.json?v="+Date.now()).then(function(r){return r.json()}).then(function(j){D=j;setL(L)});
+})();
+</script>
+</body></html>
