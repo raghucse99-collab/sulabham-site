@@ -80,6 +80,7 @@ function day(n){
  app.querySelector(".back").onclick=function(){location.hash=""};
  document.getElementById("pr").onclick=function(){window.print()};
  document.getElementById("mk").onclick=function(){if(P[n])delete P[n];else P[n]=today();save();day(n)};
+ document.getElementById("body").addEventListener("click",function(e){var li=e.target.closest&&e.target.closest(".nt .opts li");if(!li)return;var q=li.closest(".q");if(q.classList.contains("done"))return;var ol=li.parentNode,k=[].indexOf.call(ol.children,li),a=+ol.dataset.a;[].forEach.call(ol.children,function(c,i){if(i===a)c.classList.add("ok")});if(k!==a)li.classList.add("bad");q.classList.add("done")});
  fetch(f+"_"+L+".html?v="+Date.now()).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(s){document.getElementById("body").innerHTML=s}).catch(function(){document.getElementById("body").textContent=tt.soon});
 }
 function route(){var m=location.hash.match(/^#d(\d+)/);if(m)day(+m[1]);else list()}
