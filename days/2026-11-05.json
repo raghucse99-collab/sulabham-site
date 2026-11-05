@@ -1,0 +1,1982 @@
+{
+ "date": "2026-11-05",
+ "day": {
+  "en": "Thursday, 5 November 2026",
+  "te": "గురువారం, 5 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Acquitted",
+   "en": "declared not guilty by a court",
+   "te": "నిర్దోషిగా విడుదల చేయడం",
+   "ex": "Defended by C.R. Das, Aurobindo Ghose was acquitted in the Alipore Bomb case in 1908.",
+   "topic": "crdas"
+  },
+  {
+   "w": "Consensus",
+   "en": "general agreement of all members, without a vote",
+   "te": "ఏకాభిప్రాయం",
+   "ex": "The UN General Assembly adopted World Tsunami Awareness Day by consensus in December 2015.",
+   "topic": "tsunami"
+  },
+  {
+   "w": "Unanimous",
+   "en": "agreed by everyone; in elections, won without a contest",
+   "te": "ఏకగ్రీవం",
+   "ex": "In Andhra Pradesh, 2,051 MPTC seats were declared unanimous before polling.",
+   "topic": "mptc"
+  },
+  {
+   "w": "Depreciation",
+   "en": "fall in the value of machines and buildings through use and age",
+   "te": "తరుగుదల",
+   "ex": "Net Value Added is Gross Value Added minus depreciation.",
+   "topic": "asi"
+  },
+  {
+   "w": "Mitigation",
+   "en": "steps to reduce the cause of a problem, e.g. cutting greenhouse gas emissions",
+   "te": "ఉపశమన చర్యలు (ఉద్గారాల తగ్గింపు)",
+   "ex": "India opposes new top-down mitigation targets at COP31.",
+   "topic": "cop31"
+  }
+ ],
+ "items": [
+  {
+   "id": "crdas",
+   "kind": "day",
+   "color": "#9b2c2c",
+   "icon": "law",
+   "cf": [
+    0,
+    2,
+    4,
+    5,
+    6
+   ],
+   "tag": {
+    "en": "Birth anniversary · 5 Nov 1870",
+    "te": "జయంతి · 5 నవంబర్ 1870"
+   },
+   "title": {
+    "en": "Deshbandhu Chittaranjan Das",
+    "te": "దేశబంధు చిత్తరంజన్ దాస్"
+   },
+   "line": {
+    "en": "Barrister, poet and Congress leader who founded the Swaraj Party with Motilal Nehru and became Calcutta's first Mayor.",
+    "te": "న్యాయవాది, కవి, కాంగ్రెస్ నాయకుడు — మోతీలాల్ నెహ్రూతో కలిసి స్వరాజ్ పార్టీ స్థాపించి, కలకత్తా తొలి మేయర్ అయ్యారు."
+   },
+   "easy": [
+    {
+     "en": "C.R. Das went to England to sit the Indian Civil Service (ICS) exam. He did not qualify, so he became a barrister. Back in Calcutta he became famous in 1908 when he defended Aurobindo Ghose in the Alipore Bomb case — Aurobindo was acquitted.",
+     "te": "సి.ఆర్. దాస్ ఇండియన్ సివిల్ సర్వీస్ (ICS) పరీక్ష కోసం ఇంగ్లండ్ వెళ్లారు. అందులో అర్హత సాధించలేకపోవడంతో బారిస్టర్ అయ్యారు. కలకత్తాకు తిరిగి వచ్చాక 1908లో అలీపూర్ బాంబు కేసులో అరబిందో ఘోష్ తరఫున వాదించి ప్రసిద్ధి చెందారు — అరబిందో నిర్దోషిగా విడుదలయ్యారు."
+    },
+    {
+     "en": "He gave up his rich legal practice for Gandhi's Non-Cooperation Movement and was jailed in 1921. After Chauri Chaura, when the movement stopped, he wanted Congressmen to enter the legislative councils and oppose the government from inside. The Gaya Congress (December 1922) rejected this, so in 1923 he and Motilal Nehru formed the Swaraj Party. People called him 'Deshbandhu' — friend of the country.",
+     "te": "గాంధీజీ సహాయ నిరాకరణ ఉద్యమం కోసం లాభదాయకమైన న్యాయవాద వృత్తిని వదిలేశారు; 1921లో జైలుకు వెళ్లారు. చౌరీచౌరా తర్వాత ఉద్యమం ఆగిపోయినప్పుడు, కాంగ్రెస్ వారు శాసన మండళ్లలోకి ప్రవేశించి లోపలి నుంచే ప్రభుత్వాన్ని వ్యతిరేకించాలని ఆయన కోరారు. గయ కాంగ్రెస్ (డిసెంబర్ 1922) దీన్ని తిరస్కరించడంతో 1923లో మోతీలాల్ నెహ్రూతో కలిసి స్వరాజ్ పార్టీ స్థాపించారు. ప్రజలు ఆయనను 'దేశబంధు' — దేశానికి మిత్రుడు — అని పిలిచారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "5 November 1870, Calcutta",
+      "te": "5 నవంబర్ 1870, కలకత్తా"
+     }
+    ],
+    [
+     {
+      "en": "Education",
+      "te": "విద్య"
+     },
+     {
+      "en": "Presidency College, Calcutta (1890); tried ICS in England, did not qualify; called to the Bar 1894 (Inner Temple)",
+      "te": "ప్రెసిడెన్సీ కళాశాల, కలకత్తా (1890); ఇంగ్లండ్‌లో ICS ప్రయత్నం, అర్హత రాలేదు; 1894లో బార్‌కు (ఇన్నర్ టెంపుల్)"
+     }
+    ],
+    [
+     {
+      "en": "1908",
+      "te": "1908"
+     },
+     {
+      "en": "Defended Aurobindo Ghose in the Alipore Bomb case — acquitted",
+      "te": "అలీపూర్ బాంబు కేసులో అరబిందో ఘోష్ తరఫున వాదన — నిర్దోషిగా విడుదల"
+     }
+    ],
+    [
+     {
+      "en": "1921",
+      "te": "1921"
+     },
+     {
+      "en": "Non-Cooperation: led boycott of the Prince of Wales's visit to Calcutta; jailed six months",
+      "te": "సహాయ నిరాకరణ: కలకత్తాలో వేల్స్ యువరాజు పర్యటన బహిష్కరణకు నాయకత్వం; ఆరు నెలల జైలు"
+     }
+    ],
+    [
+     {
+      "en": "1922",
+      "te": "1922"
+     },
+     {
+      "en": "Congress President; Gaya session (Dec) rejected his council-entry plan",
+      "te": "కాంగ్రెస్ అధ్యక్షుడు; గయ సమావేశం (డిసెంబర్) ఆయన మండళ్ల ప్రవేశ ప్రణాళికను తిరస్కరించింది"
+     }
+    ],
+    [
+     {
+      "en": "1923",
+      "te": "1923"
+     },
+     {
+      "en": "Swaraj Party with Motilal Nehru; weekly 'Forward'; Bengal Pact (16 Dec)",
+      "te": "మోతీలాల్ నెహ్రూతో స్వరాజ్ పార్టీ; 'ఫార్వర్డ్' వారపత్రిక; బెంగాల్ ఒప్పందం (16 డిసెంబర్)"
+     }
+    ],
+    [
+     {
+      "en": "1924",
+      "te": "1924"
+     },
+     {
+      "en": "First Mayor of the Calcutta Corporation",
+      "te": "కలకత్తా కార్పొరేషన్ తొలి మేయర్"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "16 June 1925, Darjeeling",
+      "te": "16 జూన్ 1925, డార్జిలింగ్"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Swarajists, Bengal and an AP connection",
+     "te": "లింక్ చెయిన్ · స్వరాజిస్టులు, బెంగాల్, AP సంబంధం"
+    },
+    "l": [
+     {
+      "en": "Chauri Chaura (Feb 1922) → Non-Cooperation withdrawn → split: 'pro-changers' (council entry: C.R. Das, Motilal Nehru) vs 'no-changers' (constructive work)",
+      "te": "చౌరీచౌరా (ఫిబ్రవరి 1922) → సహాయ నిరాకరణ ఉపసంహరణ → చీలిక: 'ప్రో-చేంజర్స్' (మండళ్ల ప్రవేశం: సి.ఆర్. దాస్, మోతీలాల్ నెహ్రూ) vs 'నో-చేంజర్స్' (నిర్మాణాత్మక కార్యక్రమం)"
+     },
+     {
+      "en": "AP link: the Congress session at Cocanada (Kakinada), December 1923, rejected Das's Bengal Pact (Hindu–Muslim pact)",
+      "te": "AP సంబంధం: డిసెంబర్ 1923 కోకనాడ (కాకినాడ) కాంగ్రెస్ సమావేశం దాస్ బెంగాల్ ఒప్పందాన్ని (హిందూ–ముస్లిం ఒప్పందం) తిరస్కరించింది"
+     },
+     {
+      "en": "He mentored Subhas Chandra Bose",
+      "te": "ఆయన సుభాష్ చంద్రబోస్‌కు మార్గదర్శి"
+     },
+     {
+      "en": "Poet too: Malancha (1895), Mala (1902), Sagar Sangeet (1914, 'Songs of the Sea')",
+      "te": "కవి కూడా: మాలంచ (1895), మాల (1902), సాగర్ సంగీత్ (1914, 'సముద్ర గీతాలు')"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Swaraj Party = C.R. Das + MOTILAL Nehru (not Jawaharlal), founded 1923 — after the Gaya session of 1922 rejected council entry. Das was Congress President in 1922, not the founder of the Congress or of 'Forward Bloc' (that was Subhas Bose, 1939).",
+    "te": "స్వరాజ్ పార్టీ = సి.ఆర్. దాస్ + మోతీలాల్ నెహ్రూ (జవహర్‌లాల్ కాదు), 1923లో స్థాపన — 1922 గయ సమావేశం మండళ్ల ప్రవేశాన్ని తిరస్కరించిన తర్వాత. దాస్ 1922లో కాంగ్రెస్ అధ్యక్షుడు; 'ఫార్వర్డ్' పత్రిక ఆయనది, కానీ 'ఫార్వర్డ్ బ్లాక్' (1939) సుభాష్ బోస్‌ది."
+   },
+   "tip": {
+    "en": "Ladder 08 → 21 → 22 → 23 → 24: Alipore case, Jail, Gaya President, Swaraj Party, Mayor.",
+    "te": "నిచ్చెన 08 → 21 → 22 → 23 → 24: అలీపూర్ కేసు, జైలు, గయ అధ్యక్షుడు, స్వరాజ్ పార్టీ, మేయర్."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Chittaranjan Das, consider the following statements:",
+     "te": "చిత్తరంజన్ దాస్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "He defended Aurobindo Ghose in the Alipore Bomb case.",
+      "te": "అలీపూర్ బాంబు కేసులో అరబిందో ఘోష్ తరఫున వాదించారు."
+     },
+     {
+      "en": "He founded the Swaraj Party along with Jawaharlal Nehru.",
+      "te": "జవహర్‌లాల్ నెహ్రూతో కలిసి స్వరాజ్ పార్టీ స్థాపించారు."
+     },
+     {
+      "en": "He became the first Mayor of the Calcutta Corporation.",
+      "te": "కలకత్తా కార్పొరేషన్ తొలి మేయర్ అయ్యారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II is wrong: the co-founder was Motilal Nehru, Jawaharlal's father.",
+     "te": "II తప్పు: సహ-స్థాపకుడు మోతీలాల్ నెహ్రూ — జవహర్‌లాల్ తండ్రి."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "His life in dates",
+      "te": "తేదీల్లో ఆయన జీవితం"
+     },
+     "items": [
+      {
+       "y": "1870",
+       "t": {
+        "en": "Born in Calcutta (5 Nov)",
+        "te": "కలకత్తాలో జననం (5 నవంబర్)"
+       }
+      },
+      {
+       "y": "1894",
+       "t": {
+        "en": "Called to the Bar (Inner Temple)",
+        "te": "బార్‌కు (ఇన్నర్ టెంపుల్)"
+       }
+      },
+      {
+       "y": "1908",
+       "t": {
+        "en": "Alipore Bomb case — Aurobindo acquitted",
+        "te": "అలీపూర్ బాంబు కేసు — అరబిందో విడుదల"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1914",
+       "t": {
+        "en": "Poems: Sagar Sangeet",
+        "te": "కవితలు: సాగర్ సంగీత్"
+       }
+      },
+      {
+       "y": "1921",
+       "t": {
+        "en": "Non-Cooperation · jailed",
+        "te": "సహాయ నిరాకరణ · జైలు"
+       }
+      },
+      {
+       "y": "1922",
+       "t": {
+        "en": "Congress President · Gaya session",
+        "te": "కాంగ్రెస్ అధ్యక్షుడు · గయ సమావేశం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1923",
+       "t": {
+        "en": "Swaraj Party with Motilal Nehru",
+        "te": "మోతీలాల్ నెహ్రూతో స్వరాజ్ పార్టీ"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1924",
+       "t": {
+        "en": "First Mayor of Calcutta",
+        "te": "కలకత్తా తొలి మేయర్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1925",
+       "t": {
+        "en": "Died at Darjeeling (16 Jun)",
+        "te": "డార్జిలింగ్‌లో మరణం (16 జూన్)"
+       }
+      }
+     ]
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "After Chauri Chaura: two paths",
+      "te": "చౌరీచౌరా తర్వాత: రెండు దారులు"
+     },
+     "a": {
+      "h": {
+       "en": "Pro-changers (Swarajists)",
+       "te": "ప్రో-చేంజర్స్ (స్వరాజిస్టులు)"
+      },
+      "l": [
+       {
+        "en": "Enter the councils",
+        "te": "మండళ్లలోకి ప్రవేశం"
+       },
+       {
+        "en": "Oppose from inside",
+        "te": "లోపలి నుంచే వ్యతిరేకత"
+       },
+       {
+        "en": "C.R. Das, Motilal Nehru",
+        "te": "సి.ఆర్. దాస్, మోతీలాల్ నెహ్రూ"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "No-changers",
+       "te": "నో-చేంజర్స్"
+      },
+      "l": [
+       {
+        "en": "Boycott the councils",
+        "te": "మండళ్ల బహిష్కరణ"
+       },
+       {
+        "en": "Constructive work in villages",
+        "te": "గ్రామాల్లో నిర్మాణాత్మక పని"
+       },
+       {
+        "en": "Won the vote at Gaya, 1922",
+        "te": "1922 గయలో వీరి మాట నెగ్గింది"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Britannica — Chittaranjan Das",
+     "u": "https://britannica.com/biography/Chittaranjan-Das"
+    },
+    {
+     "t": "Banglapedia — Das, Chitta Ranjan",
+     "u": "https://en.banglapedia.org/index.php/Das,_Chitta_Ranjan"
+    }
+   ]
+  },
+  {
+   "id": "tsunami",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "calendar",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "tag": {
+    "en": "International day · 5 November",
+    "te": "అంతర్జాతీయ దినోత్సవం · 5 నవంబర్"
+   },
+   "title": {
+    "en": "World Tsunami Awareness Day",
+    "te": "ప్రపంచ సునామీ అవగాహన దినోత్సవం"
+   },
+   "line": {
+    "en": "A UN day to spread the habit that saves lives in a tsunami: early warning and moving to high ground at once.",
+    "te": "సునామీలో ప్రాణాలు కాపాడే అలవాటు — ముందస్తు హెచ్చరిక, వెంటనే ఎత్తైన ప్రదేశానికి వెళ్లడం — ప్రచారం చేసే ఐక్యరాజ్యసమితి దినోత్సవం."
+   },
+   "easy": [
+    {
+     "en": "A tsunami is a series of very long sea waves, usually caused by an earthquake under the sea. In deep water the waves are low, but near the coast they rise high and rush far inland. There may be only minutes between the warning and the wave, so knowing what to do saves lives.",
+     "te": "సునామీ అంటే సాధారణంగా సముద్రగర్భ భూకంపం వల్ల ఏర్పడే చాలా పొడవైన సముద్ర అలల వరుస. లోతైన సముద్రంలో అలలు తక్కువ ఎత్తులో ఉంటాయి; కానీ తీరం దగ్గర ఎత్తుగా లేచి లోపలికి దూసుకొస్తాయి. హెచ్చరికకు, అలకు మధ్య కొన్ని నిమిషాలే ఉండవచ్చు; అందుకే ఏం చేయాలో తెలియడమే ప్రాణాలు కాపాడుతుంది."
+    },
+    {
+     "en": "Why 5 November? It recalls 'Inamura-no-hi' (the burning of rice sheaves) from a tsunami on 5 November 1854 in Wakayama, Japan — fire on the rice stacks was used to bring villagers up to high ground. Japan proposed the day; the 70th UN General Assembly adopted it by consensus on 22 December 2015.",
+     "te": "5 నవంబరే ఎందుకు? 1854 నవంబర్ 5న జపాన్‌లోని వకయామాలో వచ్చిన సునామీ సమయంలో జరిగిన 'ఇనమురా-నో-హి' (వరి కుప్పలను కాల్చడం) ఘటనను ఇది గుర్తు చేస్తుంది — వరి కుప్పలకు నిప్పు పెట్టి గ్రామస్తులను ఎత్తైన ప్రదేశానికి రప్పించారు. జపాన్ ప్రతిపాదించగా, ఐరాస 70వ సర్వసభ్య సమావేశం 2015 డిసెంబర్ 22న ఏకాభిప్రాయంతో ఆమోదించింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Observed",
+      "te": "జరుపుకునేది"
+     },
+     {
+      "en": "5 November every year",
+      "te": "ప్రతి ఏటా నవంబర్ 5"
+     }
+    ],
+    [
+     {
+      "en": "Adopted",
+      "te": "ఆమోదం"
+     },
+     {
+      "en": "70th UN General Assembly, by consensus, 22 Dec 2015",
+      "te": "ఐరాస 70వ సర్వసభ్య సమావేశం, ఏకాభిప్రాయంతో, 22 డిసెంబర్ 2015"
+     }
+    ],
+    [
+     {
+      "en": "Proposed by",
+      "te": "ప్రతిపాదించినది"
+     },
+     {
+      "en": "Japan, joined by 142 countries",
+      "te": "జపాన్, 142 దేశాల మద్దతుతో"
+     }
+    ],
+    [
+     {
+      "en": "Why 5 Nov",
+      "te": "నవంబర్ 5 ఎందుకు"
+     },
+     {
+      "en": "Inamura-no-hi — tsunami of 5 Nov 1854, Wakayama, Japan",
+      "te": "ఇనమురా-నో-హి — 5 నవంబర్ 1854 సునామీ, వకయామా, జపాన్"
+     }
+    ],
+    [
+     {
+      "en": "Linked to",
+      "te": "అనుబంధం"
+     },
+     {
+      "en": "Third UN World Conference on Disaster Risk Reduction (Sendai, 2015) and the 2030 Agenda (SDGs)",
+      "te": "విపత్తు ప్రమాద తగ్గింపుపై 3వ ఐరాస ప్రపంచ సదస్సు (సెండాయ్, 2015), 2030 ఎజెండా (SDGలు)"
+     }
+    ],
+    [
+     {
+      "en": "2026 theme",
+      "te": "2026 థీమ్"
+     },
+     {
+      "en": "No official 2026 theme could be verified — not given here",
+      "te": "2026 అధికారిక థీమ్ ధృవీకరించలేకపోయాం — ఇవ్వడం లేదు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Disasters and India",
+     "te": "లింక్ చెయిన్ · విపత్తులు, భారత్"
+    },
+    "l": [
+     {
+      "en": "'Tsunami' is a Japanese word: tsu = harbour, nami = wave",
+      "te": "'సునామీ' జపనీస్ పదం: సు = ఓడరేవు, నామి = అల"
+     },
+     {
+      "en": "Causes: undersea earthquakes (most), landslides, volcanic eruptions",
+      "te": "కారణాలు: సముద్రగర్భ భూకంపాలు (ఎక్కువగా), కొండచరియలు, అగ్నిపర్వత విస్ఫోటనాలు"
+     },
+     {
+      "en": "26 December 2004: the Indian Ocean tsunami hit the coasts of Tamil Nadu, Andhra Pradesh, Kerala and the Andaman & Nicobar Islands",
+      "te": "26 డిసెంబర్ 2004: హిందూ మహాసముద్ర సునామీ తమిళనాడు, ఆంధ్రప్రదేశ్, కేరళ తీరాలను, అండమాన్–నికోబార్ దీవులను తాకింది"
+     },
+     {
+      "en": "Sendai Framework for Disaster Risk Reduction 2015–2030 — the global plan adopted at the Sendai conference",
+      "te": "విపత్తు ప్రమాద తగ్గింపు సెండాయ్ ఫ్రేమ్‌వర్క్ 2015–2030 — సెండాయ్ సదస్సులో ఆమోదించిన ప్రపంచ ప్రణాళిక"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The day is fixed by a 1854 Japanese event (Inamura-no-hi), NOT by the 2004 Indian Ocean tsunami (26 December) or the 2011 Japan tsunami. It was adopted in December 2015, not in 2004.",
+    "te": "ఈ రోజు 1854 జపాన్ ఘటన (ఇనమురా-నో-హి) ఆధారంగా నిర్ణయించారు — 2004 హిందూ మహాసముద్ర సునామీ (డిసెంబర్ 26) లేదా 2011 జపాన్ సునామీ ఆధారంగా కాదు. ఆమోదం 2015 డిసెంబర్‌లో, 2004లో కాదు."
+   },
+   "tip": {
+    "en": "Feel the earthquake or see the sea pull back? Don't wait — go to high ground.",
+    "te": "భూకంపం అనిపించినా, సముద్రం వెనక్కి వెళ్తున్నా — ఆగకండి, ఎత్తైన ప్రదేశానికి వెళ్లండి."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about World Tsunami Awareness Day:",
+     "te": "ప్రపంచ సునామీ అవగాహన దినోత్సవం గురించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "It was proposed by Japan and adopted by the UN General Assembly in December 2015.",
+      "te": "దీన్ని జపాన్ ప్రతిపాదించగా 2015 డిసెంబర్‌లో ఐరాస సర్వసభ్య సమావేశం ఆమోదించింది."
+     },
+     {
+      "en": "Its date marks the anniversary of the 2004 Indian Ocean tsunami.",
+      "te": "దీని తేదీ 2004 హిందూ మహాసముద్ర సునామీ వార్షికోత్సవం."
+     },
+     {
+      "en": "The date comes from the 'Inamura-no-hi' story of 1854.",
+      "te": "ఈ తేదీ 1854 నాటి 'ఇనమురా-నో-హి' కథ నుంచి వచ్చింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II is wrong: the 2004 tsunami was on 26 December; 5 November recalls the 1854 Wakayama tsunami.",
+     "te": "II తప్పు: 2004 సునామీ డిసెంబర్ 26న; నవంబర్ 5 1854 వకయామా సునామీని గుర్తు చేస్తుంది."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "How a tsunami is born",
+      "te": "సునామీ ఎలా పుడుతుంది"
+     },
+     "items": [
+      {
+       "i": "🌋",
+       "t": {
+        "en": "Undersea earthquake shifts the sea floor",
+        "te": "సముద్రగర్భ భూకంపం — సముద్ర అడుగు కదులుతుంది"
+       }
+      },
+      {
+       "i": "🌊",
+       "t": {
+        "en": "Huge mass of water is pushed up",
+        "te": "భారీ నీటి రాశి పైకి నెట్టబడుతుంది"
+       }
+      },
+      {
+       "i": "➡️",
+       "t": {
+        "en": "Long, low waves race across the ocean",
+        "te": "పొడవైన, తక్కువ ఎత్తు అలలు సముద్రంలో వేగంగా ప్రయాణిస్తాయి"
+       }
+      },
+      {
+       "i": "🏖️",
+       "t": {
+        "en": "Near the coast they slow and rise high",
+        "te": "తీరం దగ్గర వేగం తగ్గి ఎత్తుగా లేస్తాయి"
+       }
+      },
+      {
+       "i": "⛰️",
+       "t": {
+        "en": "Warning → move to high ground",
+        "te": "హెచ్చరిక → ఎత్తైన ప్రదేశానికి"
+       }
+      }
+     ]
+    },
+    {
+     "type": "timeline",
+     "h": {
+      "en": "The day in dates",
+      "te": "తేదీల్లో ఈ దినోత్సవం"
+     },
+     "items": [
+      {
+       "y": "1854",
+       "t": {
+        "en": "5 Nov: tsunami in Wakayama, Japan — 'Inamura-no-hi'",
+        "te": "నవం 5: జపాన్ వకయామాలో సునామీ — 'ఇనమురా-నో-హి'"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2004",
+       "t": {
+        "en": "26 Dec: Indian Ocean tsunami",
+        "te": "డిసెం 26: హిందూ మహాసముద్ర సునామీ"
+       }
+      },
+      {
+       "y": "2015",
+       "t": {
+        "en": "Sendai conference on disaster risk reduction",
+        "te": "విపత్తు ప్రమాద తగ్గింపుపై సెండాయ్ సదస్సు"
+       }
+      },
+      {
+       "y": "2015",
+       "t": {
+        "en": "22 Dec: UNGA adopts the day by consensus",
+        "te": "డిసెం 22: ఐరాస సర్వసభ్య సమావేశం ఏకాభిప్రాయంతో ఆమోదం"
+       },
+       "hl": 1
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Embassy of Japan in Tonga — World Tsunami Awareness Day (22 Dec 2015)",
+     "u": "https://www.ton.emb-japan.go.jp/update/20151222%20tsunami%20awareness%20day/20151222_e_tsunami%20awareness%20day.html"
+    }
+   ]
+  },
+  {
+   "id": "mptc",
+   "kind": "article",
+   "color": "#2f6b2f",
+   "icon": "shield",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "In the news · Andhra Pradesh · The Hans India, 5 Nov 2026",
+    "te": "వార్తల్లో · ఆంధ్రప్రదేశ్ · ది హన్స్ ఇండియా, 5 నవం 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity / Local government",
+    "te": "వివరణ · GS-II పాలిటీ / స్థానిక ప్రభుత్వం"
+   },
+   "title": {
+    "en": "AP votes today for 582 ZPTC and 7,767 MPTC seats",
+    "te": "AP లో నేడు 582 ZPTC, 7,767 MPTC స్థానాలకు పోలింగ్"
+   },
+   "line": {
+    "en": "Rural Andhra Pradesh elects the middle and top tiers of Panchayati Raj today; counting is on 7 November.",
+    "te": "గ్రామీణ ఆంధ్రప్రదేశ్ నేడు పంచాయతీరాజ్ మధ్య, పై అంచెలను ఎన్నుకుంటోంది; లెక్కింపు నవంబర్ 7న."
+   },
+   "easy": [
+    {
+     "en": "Panchayati Raj in AP has three tiers: Gram Panchayat (village), Mandal Praja Parishad (mandal) and Zilla Praja Parishad (district). Voters in each mandal elect MPTC members (Mandal Parishad Territorial Constituency) to the Mandal Parishad and a ZPTC member (Zilla Parishad Territorial Constituency) to the Zilla Parishad.",
+     "te": "AP లో పంచాయతీరాజ్‌కు మూడు అంచెలు: గ్రామ పంచాయతీ (గ్రామం), మండల ప్రజా పరిషత్ (మండలం), జిల్లా ప్రజా పరిషత్ (జిల్లా). ప్రతి మండలంలో ఓటర్లు మండల పరిషత్‌కు MPTC (మండల పరిషత్ ప్రాదేశిక నియోజకవర్గం) సభ్యులను, జిల్లా పరిషత్‌కు ZPTC (జిల్లా పరిషత్ ప్రాదేశిక నియోజకవర్గం) సభ్యుడిని ఎన్నుకుంటారు."
+    },
+    {
+     "en": "There are 659 ZPTC seats in 28 Zilla Praja Parishads and 9,821 MPTC seats in 659 Mandal Praja Parishads. 77 ZPTC and 2,051 MPTC seats were won unanimously, so polling is for 582 ZPTC and 7,767 MPTC seats. 18,843 candidates are in the fray and 2.61 crore people can vote. The State Election Commission (SEC), not the Election Commission of India, runs these polls.",
+     "te": "28 జిల్లా ప్రజా పరిషత్‌లలో 659 ZPTC స్థానాలు, 659 మండల ప్రజా పరిషత్‌లలో 9,821 MPTC స్థానాలు ఉన్నాయి. 77 ZPTC, 2,051 MPTC స్థానాలు ఏకగ్రీవం అయ్యాయి; కాబట్టి 582 ZPTC, 7,767 MPTC స్థానాలకు పోలింగ్. బరిలో 18,843 మంది అభ్యర్థులు; ఓటర్లు 2.61 కోట్లు. ఈ ఎన్నికలను భారత ఎన్నికల సంఘం కాదు, రాష్ట్ర ఎన్నికల సంఘం (SEC) నిర్వహిస్తుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Polling / counting",
+      "te": "పోలింగ్ / లెక్కింపు"
+     },
+     {
+      "en": "5 Nov 2026 (moved from 3 Nov) / 7 Nov 2026",
+      "te": "5 నవం 2026 (నవం 3 నుంచి మార్పు) / 7 నవం 2026"
+     }
+    ],
+    [
+     {
+      "en": "ZPTC",
+      "te": "ZPTC"
+     },
+     {
+      "en": "659 seats in 28 ZPPs · 77 unanimous · 582 polling · 2,169 candidates",
+      "te": "28 ZPPలలో 659 స్థానాలు · 77 ఏకగ్రీవం · 582కు పోలింగ్ · 2,169 అభ్యర్థులు"
+     }
+    ],
+    [
+     {
+      "en": "MPTC",
+      "te": "MPTC"
+     },
+     {
+      "en": "9,821 seats in 659 MPPs · 2,051 unanimous · 7,767 polling",
+      "te": "659 MPPలలో 9,821 స్థానాలు · 2,051 ఏకగ్రీవం · 7,767కు పోలింగ్"
+     }
+    ],
+    [
+     {
+      "en": "Voters",
+      "te": "ఓటర్లు"
+     },
+     {
+      "en": "2,61,52,377 — women 1,32,74,208 outnumber men 1,28,76,887",
+      "te": "2,61,52,377 — మహిళలు 1,32,74,208, పురుషులు 1,28,76,887 కంటే ఎక్కువ"
+     }
+    ],
+    [
+     {
+      "en": "Not contested",
+      "te": "పోటీ లేనివి"
+     },
+     {
+      "en": "3 MPTC seats — 2 in YSR Kadapa (no nominations), 1 in Nandyal (all nominations rejected)",
+      "te": "3 MPTC స్థానాలు — YSR కడపలో 2 (నామినేషన్లు లేవు), నంద్యాలలో 1 (అన్నీ తిరస్కరణ)"
+     }
+    ],
+    [
+     {
+      "en": "Security",
+      "te": "భద్రత"
+     },
+     {
+      "en": "31,460 problematic stations (8,904 sensitive, 7,160 hypersensitive); CCTV at 16,064 places",
+      "te": "31,460 సమస్యాత్మక కేంద్రాలు (8,904 సున్నితమైనవి, 7,160 అతి సున్నితమైనవి); 16,064 చోట్ల CCTV"
+     }
+    ],
+    [
+     {
+      "en": "State Election Commissioner",
+      "te": "రాష్ట్ర ఎన్నికల కమిషనర్"
+     },
+     {
+      "en": "Anil Chandra Punetha",
+      "te": "అనిల్ చంద్ర పునేఠ"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Panchayats in the Constitution",
+     "te": "లింక్ చెయిన్ · రాజ్యాంగంలో పంచాయతీలు"
+    },
+    "l": [
+     {
+      "en": "73rd Amendment (1992) → Part IX, Articles 243–243O, 11th Schedule (29 subjects)",
+      "te": "73వ సవరణ (1992) → భాగం IX, ఆర్టికల్స్ 243–243O, 11వ షెడ్యూల్ (29 అంశాలు)"
+     },
+     {
+      "en": "Article 243B: three tiers — village, intermediate, district (intermediate tier not needed in States below 20 lakh population)",
+      "te": "ఆర్టికల్ 243B: మూడు అంచెలు — గ్రామ, మధ్యంతర, జిల్లా (20 లక్షల లోపు జనాభా ఉన్న రాష్ట్రాల్లో మధ్యంతర అంచె అవసరం లేదు)"
+     },
+     {
+      "en": "Article 243E: five-year term · Article 243K: State Election Commission for panchayat polls",
+      "te": "ఆర్టికల్ 243E: ఐదేళ్ల పదవీకాలం · ఆర్టికల్ 243K: పంచాయతీ ఎన్నికలకు రాష్ట్ర ఎన్నికల సంఘం"
+     },
+     {
+      "en": "AP's urban local bodies voted on 1 November (counting 3 November) — municipalities come under the 74th Amendment, Article 243ZA",
+      "te": "AP పట్టణ స్థానిక సంస్థలకు నవంబర్ 1న పోలింగ్ (లెక్కింపు నవంబర్ 3) — పురపాలికలు 74వ సవరణ, ఆర్టికల్ 243ZA కిందకు వస్తాయి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "MPTC = member of the MANDAL Parishad; ZPTC = member of the ZILLA Parishad — both are elected in the same poll. Panchayat polls are run by the SEC under Article 243K, not by the ECI (Article 324). And 243K is for panchayats; 243ZA is for municipalities.",
+    "te": "MPTC = మండల పరిషత్ సభ్యుడు; ZPTC = జిల్లా పరిషత్ సభ్యుడు — ఇద్దరూ ఒకే పోలింగ్‌లో ఎన్నికవుతారు. పంచాయతీ ఎన్నికలను ఆర్టికల్ 243K కింద SEC నిర్వహిస్తుంది, ECI (ఆర్టికల్ 324) కాదు. 243K పంచాయతీలకు; 243ZA పురపాలికలకు."
+   },
+   "tip": {
+    "en": "Remember '659 = 659': one ZPTC seat for each of AP's 659 Mandal Parishads.",
+    "te": "'659 = 659' గుర్తుంచుకోండి: AP లోని 659 మండల పరిషత్‌లకు 659 ZPTC స్థానాలు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the MPTC/ZPTC elections in Andhra Pradesh, consider the following statements:",
+     "te": "ఆంధ్రప్రదేశ్‌లో MPTC/ZPTC ఎన్నికలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "They are conducted by the Election Commission of India under Article 324.",
+      "te": "వీటిని ఆర్టికల్ 324 కింద భారత ఎన్నికల సంఘం నిర్వహిస్తుంది."
+     },
+     {
+      "en": "ZPTC members are elected to the Zilla Praja Parishad.",
+      "te": "ZPTC సభ్యులు జిల్లా ప్రజా పరిషత్‌కు ఎన్నికవుతారు."
+     },
+     {
+      "en": "More than 2,000 MPTC seats were decided unanimously this time.",
+      "te": "ఈసారి 2,000కు పైగా MPTC స్థానాలు ఏకగ్రీవం అయ్యాయి."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "I is wrong: panchayat polls are run by the State Election Commission (Art 243K).",
+     "te": "I తప్పు: పంచాయతీ ఎన్నికలను రాష్ట్ర ఎన్నికల సంఘం (ఆర్టి. 243K) నిర్వహిస్తుంది."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Seats: total vs polling today",
+      "te": "స్థానాలు: మొత్తం vs నేటి పోలింగ్"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "MPTC seats (total)",
+        "te": "MPTC స్థానాలు (మొత్తం)"
+       },
+       "v": 9821,
+       "vl": "9,821"
+      },
+      {
+       "t": {
+        "en": "MPTC — polling",
+        "te": "MPTC — పోలింగ్"
+       },
+       "v": 7767,
+       "vl": "7,767"
+      },
+      {
+       "t": {
+        "en": "MPTC — unanimous",
+        "te": "MPTC — ఏకగ్రీవం"
+       },
+       "v": 2051,
+       "vl": "2,051"
+      },
+      {
+       "t": {
+        "en": "ZPTC seats (total)",
+        "te": "ZPTC స్థానాలు (మొత్తం)"
+       },
+       "v": 659,
+       "vl": "659"
+      },
+      {
+       "t": {
+        "en": "ZPTC — polling",
+        "te": "ZPTC — పోలింగ్"
+       },
+       "v": 582,
+       "vl": "582"
+      },
+      {
+       "t": {
+        "en": "ZPTC — unanimous",
+        "te": "ZPTC — ఏకగ్రీవం"
+       },
+       "v": 77,
+       "vl": "77"
+      }
+     ]
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "Three tiers — who elects whom",
+      "te": "మూడు అంచెలు — ఎవరు ఎవరిని ఎన్నుకుంటారు"
+     },
+     "items": [
+      {
+       "i": "🗳️",
+       "t": {
+        "en": "Rural voters (2.61 crore)",
+        "te": "గ్రామీణ ఓటర్లు (2.61 కోట్లు)"
+       }
+      },
+      {
+       "i": "🏡",
+       "t": {
+        "en": "Gram Panchayat — village tier",
+        "te": "గ్రామ పంచాయతీ — గ్రామ అంచె"
+       }
+      },
+      {
+       "i": "🏢",
+       "t": {
+        "en": "MPTC → Mandal Praja Parishad (659)",
+        "te": "MPTC → మండల ప్రజా పరిషత్ (659)"
+       }
+      },
+      {
+       "i": "🏛️",
+       "t": {
+        "en": "ZPTC → Zilla Praja Parishad (28)",
+        "te": "ZPTC → జిల్లా ప్రజా పరిషత్ (28)"
+       }
+      },
+      {
+       "i": "🔢",
+       "t": {
+        "en": "Counting 7 Nov · SEC (Art 243K)",
+        "te": "లెక్కింపు నవం 7 · SEC (ఆర్టి. 243K)"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India — All set for MPTC, ZPTC polls today (5 Nov 2026)",
+     "u": "https://thehansindia.com/news/cities/amaravati/all-set-for-mptc-zptc-polls-today-1139263"
+    },
+    {
+     "t": "Deccan Chronicle — AP SEC reschedules MPTC, ZPTC polls to November 5 (28 Oct 2026)",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-sec-reschedules-mptc-zptc-polls-to-november-5-1999650"
+    },
+    {
+     "t": "Business Standard — AP schools closed on Nov 4, 5 for MPTC/ZPTC polls (3 Nov 2026)",
+     "u": "https://www.business-standard.com/india-news/andhra-pradesh-school-holiday-schools-to-stay-closed-on-nov-4-5-know-why-nc-126110301193_1.html"
+    }
+   ],
+   "mains": {
+    "en": "The 73rd Amendment made Panchayati Raj a constitutional institution. With reference to the MPTC/ZPTC elections of 2026 in Andhra Pradesh, discuss the role of the State Election Commission and the significance of a large number of unanimous elections for grassroots democracy.",
+    "te": "73వ సవరణ పంచాయతీరాజ్‌ను రాజ్యాంగ సంస్థగా మార్చింది. ఆంధ్రప్రదేశ్‌లో 2026 MPTC/ZPTC ఎన్నికల నేపథ్యంలో రాష్ట్ర ఎన్నికల సంఘం పాత్రను, పెద్ద సంఖ్యలో ఏకగ్రీవ ఎన్నికలు అట్టడుగు ప్రజాస్వామ్యానికి ఏమి సూచిస్తాయో చర్చించండి."
+   }
+  },
+  {
+   "id": "asi",
+   "kind": "article",
+   "color": "#a86b00",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "src": {
+    "en": "In the news · Economy · PIB (MoSPI), 4 Nov 2026",
+    "te": "వార్తల్లో · ఆర్థిక వ్యవస్థ · PIB (MoSPI), 4 నవం 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-III Economy / Industry",
+    "te": "వివరణ · GS-III ఆర్థిక వ్యవస్థ / పరిశ్రమలు"
+   },
+   "title": {
+    "en": "Annual Survey of Industries 2024-25: factories grow, big units dominate",
+    "te": "వార్షిక పరిశ్రమల సర్వే 2024-25: కర్మాగారాలు పెరిగాయి, పెద్ద యూనిట్లదే ఆధిపత్యం"
+   },
+   "line": {
+    "en": "The official yearly health check of India's factories shows 9.28% GVA growth in the corporate manufacturing sector and 7.57% more jobs.",
+    "te": "దేశ కర్మాగారాల అధికారిక వార్షిక ఆరోగ్య పరీక్ష — కార్పొరేట్ తయారీ రంగంలో GVA 9.28% పెరుగుదల, ఉద్యోగాలు 7.57% పెరుగుదల."
+   },
+   "easy": [
+    {
+     "en": "The Annual Survey of Industries (ASI) is the main official source of data on India's organised manufacturing — the registered factories. The Ministry of Statistics and Programme Implementation (MoSPI) released the full volumes for 2024-25 on 4 November 2026 (survey done October 2025 – June 2026; a factsheet came out on 30 September 2026).",
+     "te": "వార్షిక పరిశ్రమల సర్వే (ASI) దేశంలోని వ్యవస్థీకృత తయారీ రంగం — నమోదైన కర్మాగారాల — గురించి ప్రధాన అధికారిక సమాచార వనరు. గణాంకాలు, కార్యక్రమాల అమలు మంత్రిత్వ శాఖ (MoSPI) 2024-25 పూర్తి సంపుటాలను 2026 నవంబర్ 4న విడుదల చేసింది (సర్వే అక్టోబర్ 2025 – జూన్ 2026; ఫ్యాక్ట్‌షీట్ 2026 సెప్టెంబర్ 30న వచ్చింది)."
+    },
+    {
+     "en": "GVA (Gross Value Added) = value of output minus value of inputs used. Subtract depreciation (wear and tear of machines) and you get NVA (Net Value Added). The survey shows a sharp imbalance: small factories (capital up to ₹5 crore) are 78.69% of all factories but add only 17.61% of net value; big ones (₹10 crore and above) are 15.84% of factories yet add 78.07%.",
+     "te": "GVA (స్థూల జోడించిన విలువ) = ఉత్పత్తి విలువ − వాడిన ముడి సరుకుల విలువ. దాని నుంచి తరుగుదల (యంత్రాల అరుగుదల) తీసేస్తే NVA (నికర జోడించిన విలువ). సర్వే పెద్ద అసమానతను చూపింది: చిన్న కర్మాగారాలు (మూలధనం ₹5 కోట్ల వరకు) మొత్తం కర్మాగారాల్లో 78.69% ఉన్నా నికర విలువలో 17.61% మాత్రమే జోడిస్తున్నాయి; పెద్దవి (₹10 కోట్లు, ఆపైన) 15.84% మాత్రమే అయినా 78.07% జోడిస్తున్నాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Released",
+      "te": "విడుదల"
+     },
+     {
+      "en": "4 Nov 2026 by MoSPI (factsheet 30 Sep 2026)",
+      "te": "4 నవం 2026, MoSPI (ఫ్యాక్ట్‌షీట్ 30 సెప్టెం 2026)"
+     }
+    ],
+    [
+     {
+      "en": "GVA growth",
+      "te": "GVA వృద్ధి"
+     },
+     {
+      "en": "9.28% — manufacturing corporate sector (over 89% of total GVA)",
+      "te": "9.28% — తయారీ కార్పొరేట్ రంగం (మొత్తం GVAలో 89%కు పైగా)"
+     }
+    ],
+    [
+     {
+      "en": "Jobs / factories",
+      "te": "ఉద్యోగాలు / కర్మాగారాలు"
+     },
+     {
+      "en": "Persons engaged +7.57% · factories in operation +3.45% (corporate sector)",
+      "te": "పనిచేస్తున్నవారు +7.57% · నడుస్తున్న కర్మాగారాలు +3.45% (కార్పొరేట్ రంగం)"
+     }
+    ],
+    [
+     {
+      "en": "Other growth",
+      "te": "ఇతర వృద్ధి"
+     },
+     {
+      "en": "NVA per factory +6.59% · GVA per person +2.25% · plant & machinery +7.25%",
+      "te": "కర్మాగారానికి NVA +6.59% · వ్యక్తికి GVA +2.25% · ప్లాంట్ & యంత్రాలు +7.25%"
+     }
+    ],
+    [
+     {
+      "en": "Top 5 States (GVA)",
+      "te": "టాప్ 5 రాష్ట్రాలు (GVA)"
+     },
+     {
+      "en": "Maharashtra, Gujarat, Tamil Nadu, Karnataka, Uttar Pradesh — over 54% share",
+      "te": "మహారాష్ట్ర, గుజరాత్, తమిళనాడు, కర్ణాటక, ఉత్తరప్రదేశ్ — 54%కు పైగా వాటా"
+     }
+    ],
+    [
+     {
+      "en": "Top 5 industries (jobs)",
+      "te": "టాప్ 5 పరిశ్రమలు (ఉద్యోగాలు)"
+     },
+     {
+      "en": "Food products, textiles, basic metals, motor vehicles, wearing apparel — over 41% of manufacturing jobs",
+      "te": "ఆహార ఉత్పత్తులు, వస్త్రాలు, మూల లోహాలు, మోటారు వాహనాలు, దుస్తులు — తయారీ ఉద్యోగాల్లో 41%కు పైగా"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Measuring the economy",
+     "te": "లింక్ చెయిన్ · ఆర్థిక వ్యవస్థ కొలత"
+    },
+    "l": [
+     {
+      "en": "GVA = output − inputs; NVA = GVA − depreciation",
+      "te": "GVA = ఉత్పత్తి − ముడిసరుకులు; NVA = GVA − తరుగుదల"
+     },
+     {
+      "en": "ASI covers the organised (registered factory) sector; small unregistered units are not in it",
+      "te": "ASI వ్యవస్థీకృత (నమోదైన కర్మాగార) రంగాన్ని కవర్ చేస్తుంది; నమోదు కాని చిన్న యూనిట్లు ఇందులో ఉండవు"
+     },
+     {
+      "en": "Andhra Pradesh is not among the top 5 States by manufacturing GVA — a gap the State's industrial policies aim to close",
+      "te": "తయారీ GVAలో టాప్ 5 రాష్ట్రాల్లో ఆంధ్రప్రదేశ్ లేదు — రాష్ట్ర పారిశ్రామిక విధానాలు ఈ అంతరాన్ని తగ్గించాలని లక్ష్యంగా పెట్టుకున్నాయి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Growth of 9.28% is in GVA of the corporate manufacturing sector — not GDP growth. And small factories are the MAJORITY by number (78.69%) but a MINORITY by value added (17.61%).",
+    "te": "9.28% వృద్ధి కార్పొరేట్ తయారీ రంగ GVAలో — GDP వృద్ధి కాదు. చిన్న కర్మాగారాలు సంఖ్యలో ఎక్కువ (78.69%), కానీ జోడించిన విలువలో తక్కువ (17.61%)."
+   },
+   "tip": {
+    "en": "Top-5 States = 'MaGu-TaKa-UP' → over 54%.",
+    "te": "టాప్-5 రాష్ట్రాలు = 'మహా-గుజ-తమి-కర్ణా-యూపీ' → 54%కు పైగా."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the Annual Survey of Industries 2024-25, consider the following statements:",
+     "te": "వార్షిక పరిశ్రమల సర్వే 2024-25కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "It is released by the Reserve Bank of India.",
+      "te": "దీన్ని భారతీయ రిజర్వ్ బ్యాంక్ విడుదల చేస్తుంది."
+     },
+     {
+      "en": "The top five States together have more than half of manufacturing GVA.",
+      "te": "టాప్ ఐదు రాష్ట్రాల వాటా తయారీ GVAలో సగానికి పైగా ఉంది."
+     },
+     {
+      "en": "Factories with capital above ₹10 crore are the majority by number.",
+      "te": "₹10 కోట్లకు పైగా మూలధనం ఉన్న కర్మాగారాలు సంఖ్యలో ఎక్కువ."
+     }
+    ],
+    "o": [
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "I is wrong (MoSPI releases it). III is wrong: big units are only 15.84% of factories, though they add 78.07% of NVA.",
+     "te": "I తప్పు (MoSPI విడుదల చేస్తుంది). III తప్పు: పెద్ద యూనిట్లు కర్మాగారాల్లో 15.84% మాత్రమే, కానీ NVAలో 78.07% జోడిస్తాయి."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Small vs big factories (% share)",
+      "te": "చిన్న vs పెద్ద కర్మాగారాలు (% వాటా)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Up to ₹5 cr capital — share of factories",
+        "te": "₹5 కోట్ల వరకు — కర్మాగారాల వాటా"
+       },
+       "v": 78.69,
+       "vl": "78.69%"
+      },
+      {
+       "t": {
+        "en": "Up to ₹5 cr — share of net value added",
+        "te": "₹5 కోట్ల వరకు — నికర విలువ వాటా"
+       },
+       "v": 17.61,
+       "vl": "17.61%"
+      },
+      {
+       "t": {
+        "en": "₹10 cr & above — share of factories",
+        "te": "₹10 కోట్లు+ — కర్మాగారాల వాటా"
+       },
+       "v": 15.84,
+       "vl": "15.84%"
+      },
+      {
+       "t": {
+        "en": "₹10 cr & above — share of net value added",
+        "te": "₹10 కోట్లు+ — నికర విలువ వాటా"
+       },
+       "v": 78.07,
+       "vl": "78.07%"
+      }
+     ],
+     "cap": {
+      "en": "ASI 2024-25, Table 1 (by fixed capital)",
+      "te": "ASI 2024-25, పట్టిక 1 (స్థిర మూలధనం ఆధారంగా)"
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "From output to NVA",
+      "te": "ఉత్పత్తి నుంచి NVA వరకు"
+     },
+     "items": [
+      {
+       "i": "🏭",
+       "t": {
+        "en": "Value of output",
+        "te": "ఉత్పత్తి విలువ"
+       }
+      },
+      {
+       "i": "➖",
+       "t": {
+        "en": "minus inputs (raw material, power…)",
+        "te": "మైనస్ ముడిసరుకులు (ముడి పదార్థాలు, విద్యుత్…)"
+       }
+      },
+      {
+       "i": "📊",
+       "t": {
+        "en": "= GVA (corporate sector +9.28%)",
+        "te": "= GVA (కార్పొరేట్ రంగం +9.28%)"
+       }
+      },
+      {
+       "i": "⚙️",
+       "t": {
+        "en": "minus depreciation",
+        "te": "మైనస్ తరుగుదల"
+       }
+      },
+      {
+       "i": "💰",
+       "t": {
+        "en": "= NVA (per factory +6.59%)",
+        "te": "= NVA (కర్మాగారానికి +6.59%)"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB (MoSPI) — Publications of Annual Survey of Industries 2024-25, 4 Nov 2026",
+     "u": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2332475&reg=48&lang=2"
+    }
+   ],
+   "mains": {
+    "en": "The Annual Survey of Industries 2024-25 shows that a small share of large factories produces most of the value added. Discuss what this means for jobs and MSMEs, and suggest how Andhra Pradesh can raise its share in manufacturing GVA.",
+    "te": "కొద్ది శాతం పెద్ద కర్మాగారాలే ఎక్కువ విలువను జోడిస్తున్నాయని వార్షిక పరిశ్రమల సర్వే 2024-25 చూపిస్తోంది. ఉద్యోగాలు, MSMEలపై దీని అర్థం ఏమిటో చర్చించి, తయారీ GVAలో ఆంధ్రప్రదేశ్ వాటాను ఎలా పెంచవచ్చో సూచించండి."
+   }
+  },
+  {
+   "id": "cop31",
+   "kind": "article",
+   "color": "#1f6f6a",
+   "icon": "leaf",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "The Hindu · 4 Nov 2026 · Environment",
+    "te": "ది హిందూ · 4 నవం 2026 · పర్యావరణం"
+   },
+   "tag": {
+    "en": "Explained · GS-III Environment / GS-II IR",
+    "te": "వివరణ · GS-III పర్యావరణం / GS-II అంతర్జాతీయ సంబంధాలు"
+   },
+   "title": {
+    "en": "COP31 in Antalya (9–20 Nov): India to push for predictable climate finance",
+    "te": "అంటాల్యాలో COP31 (నవం 9–20): ఊహించదగిన వాతావరణ నిధుల కోసం భారత్ పట్టు"
+   },
+   "line": {
+    "en": "India wants higher climate ambition to be matched by money, technology and capacity-building from developed countries — not new top-down targets.",
+    "te": "అధిక వాతావరణ లక్ష్యాలకు సరిపడా నిధులు, సాంకేతికత, సామర్థ్య నిర్మాణం అభివృద్ధి చెందిన దేశాల నుంచి రావాలని భారత్ కోరుతోంది — పై నుంచి రుద్దే కొత్త లక్ష్యాలు కాదు."
+   },
+   "easy": [
+    {
+     "en": "A COP (Conference of the Parties) is the yearly meeting of the countries that signed the UN Framework Convention on Climate Change (UNFCCC, 1992). COP31 will be held in Antalya, Türkiye, from 9 to 20 November 2026. In an unusual deal, Türkiye hosts and its minister Murat Kurum is COP31 President, while Australia's Chris Bowen leads the actual negotiations. A pre-COP meeting was held in Nadi, Fiji (5–8 October).",
+     "te": "COP (కాన్ఫరెన్స్ ఆఫ్ ది పార్టీస్) అంటే ఐరాస వాతావరణ మార్పుల చట్రం ఒప్పందం (UNFCCC, 1992)పై సంతకం చేసిన దేశాల వార్షిక సమావేశం. COP31 తుర్కియేలోని అంటాల్యాలో 2026 నవంబర్ 9 నుంచి 20 వరకు జరుగుతుంది. ఒక ప్రత్యేక ఒప్పందం ప్రకారం తుర్కియే ఆతిథ్యం ఇస్తుంది, ఆ దేశ మంత్రి మురాత్ కురుమ్ COP31 అధ్యక్షుడు; అసలు చర్చలను ఆస్ట్రేలియాకు చెందిన క్రిస్ బోవెన్ నడిపిస్తారు. ప్రీ-COP సమావేశం ఫిజీలోని నాడిలో (అక్టోబర్ 5–8) జరిగింది."
+    },
+    {
+     "en": "Environment Minister Bhupender Yadav has said India wants 'an ambitious and balanced outcome' where higher ambition is matched by climate finance, technology transfer and capacity-building, and where each country follows its nationally determined path. India will seek a Climate Finance Work Programme under Article 9.1 of the Paris Agreement (developed countries providing finance) and will oppose new top-down mitigation targets and fossil-fuel phase-out language.",
+     "te": "అధిక లక్ష్యాలకు సరిపడా వాతావరణ నిధులు, సాంకేతిక బదిలీ, సామర్థ్య నిర్మాణం ఉండాలని, ప్రతి దేశం తన జాతీయంగా నిర్ణయించిన మార్గంలో వెళ్లాలని — 'ప్రతిష్ఠాత్మక, సమతుల్య ఫలితం' కావాలని పర్యావరణ మంత్రి భూపేందర్ యాదవ్ చెప్పారు. పారిస్ ఒప్పందం ఆర్టికల్ 9.1 (అభివృద్ధి చెందిన దేశాలు నిధులు ఇవ్వడం) కింద 'క్లైమేట్ ఫైనాన్స్ వర్క్ ప్రోగ్రామ్' కోసం భారత్ కోరుతుంది; పై నుంచి రుద్దే కొత్త ఉద్గార తగ్గింపు లక్ష్యాలను, శిలాజ ఇంధనాల దశలవారీ నిర్మూలన భాషను వ్యతిరేకిస్తుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Dates / venue",
+      "te": "తేదీలు / వేదిక"
+     },
+     {
+      "en": "9–20 Nov 2026, Antalya, Türkiye · Leaders' Summit 11–12 Nov",
+      "te": "9–20 నవం 2026, అంటాల్యా, తుర్కియే · నేతల సదస్సు 11–12 నవం"
+     }
+    ],
+    [
+     {
+      "en": "COP31 President",
+      "te": "COP31 అధ్యక్షుడు"
+     },
+     {
+      "en": "Murat Kurum (Türkiye's Environment, Urbanisation & Climate Change Minister)",
+      "te": "మురాత్ కురుమ్ (తుర్కియే పర్యావరణ, పట్టణీకరణ, వాతావరణ మార్పుల మంత్రి)"
+     }
+    ],
+    [
+     {
+      "en": "Negotiations led by",
+      "te": "చర్చల నాయకత్వం"
+     },
+     {
+      "en": "Australia — Chris Bowen, Minister for Climate Change and Energy",
+      "te": "ఆస్ట్రేలియా — క్రిస్ బోవెన్, వాతావరణ మార్పు & ఇంధన మంత్రి"
+     }
+    ],
+    [
+     {
+      "en": "Pre-COP",
+      "te": "ప్రీ-COP"
+     },
+     {
+      "en": "Nadi, Fiji, 5–8 Oct 2026 (co-hosted by Australia, Fiji, Tuvalu)",
+      "te": "నాడి, ఫిజీ, 5–8 అక్టో 2026 (ఆస్ట్రేలియా, ఫిజీ, తువాలు సంయుక్త ఆతిథ్యం)"
+     }
+    ],
+    [
+     {
+      "en": "India's asks",
+      "te": "భారత్ డిమాండ్లు"
+     },
+     {
+      "en": "Predictable finance (Art 9.1 work programme), technology transfer, continue Just Transition Work Programme",
+      "te": "ఊహించదగిన నిధులు (ఆర్టి. 9.1 వర్క్ ప్రోగ్రామ్), సాంకేతిక బదిలీ, జస్ట్ ట్రాన్సిషన్ వర్క్ ప్రోగ్రామ్ కొనసాగింపు"
+     }
+    ],
+    [
+     {
+      "en": "India opposes",
+      "te": "భారత్ వ్యతిరేకించేది"
+     },
+     {
+      "en": "New top-down mitigation targets; fossil-fuel phase-out language",
+      "te": "పై నుంచి రుద్దే కొత్త ఉద్గార లక్ష్యాలు; శిలాజ ఇంధనాల నిర్మూలన భాష"
+     }
+    ],
+    [
+     {
+      "en": "Finance goal so far",
+      "te": "ఇప్పటి నిధుల లక్ష్యం"
+     },
+     {
+      "en": "COP29 (2024, Azerbaijan): at least $300 billion a year by 2035 (NCQG)",
+      "te": "COP29 (2024, అజర్‌బైజాన్): 2035 నాటికి ఏటా కనీసం $300 బిలియన్లు (NCQG)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Climate treaties",
+     "te": "లింక్ చెయిన్ · వాతావరణ ఒప్పందాలు"
+    },
+    "l": [
+     {
+      "en": "UNFCCC adopted 1992 → COPs every year",
+      "te": "UNFCCC 1992లో ఆమోదం → ప్రతి ఏటా COPలు"
+     },
+     {
+      "en": "COP8, New Delhi (2002) → Delhi Ministerial Declaration",
+      "te": "COP8, న్యూఢిల్లీ (2002) → ఢిల్లీ మంత్రుల ప్రకటన"
+     },
+     {
+      "en": "Paris Agreement (2015): countries set their own targets — Nationally Determined Contributions (NDCs)",
+      "te": "పారిస్ ఒప్పందం (2015): దేశాలే తమ లక్ష్యాలు నిర్ణయించుకుంటాయి — జాతీయంగా నిర్ణయించిన సహకారాలు (NDCలు)"
+     },
+     {
+      "en": "COP31 also hosts CMP21 (Kyoto Protocol parties) and CMA8 (Paris Agreement parties)",
+      "te": "COP31తో పాటు CMP21 (క్యోటో ప్రోటోకాల్ పక్షాలు), CMA8 (పారిస్ ఒప్పంద పక్షాలు) సమావేశాలూ జరుగుతాయి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Host ≠ chief negotiator: Türkiye hosts COP31 (President Murat Kurum) but Australia (Chris Bowen) leads the negotiations; the pre-COP was in Fiji, not Türkiye. And the $300 billion goal is from COP29 (Azerbaijan), not COP30 or COP31.",
+    "te": "ఆతిథ్యం ≠ ప్రధాన చర్చకర్త: COP31కి తుర్కియే ఆతిథ్యం (అధ్యక్షుడు మురాత్ కురుమ్), కానీ చర్చలను ఆస్ట్రేలియా (క్రిస్ బోవెన్) నడిపిస్తుంది; ప్రీ-COP ఫిజీలో, తుర్కియేలో కాదు. $300 బిలియన్ల లక్ష్యం COP29 (అజర్‌బైజాన్)ది — COP30, COP31ది కాదు."
+   },
+   "tip": {
+    "en": "'Turkey hosts, Kangaroo talks, Fiji warms up.'",
+    "te": "'తుర్కియే ఆతిథ్యం, కంగారూ చర్చలు, ఫిజీ సన్నాహం.'"
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to COP31, consider the following statements:",
+     "te": "COP31కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "It will be held in Antalya, Türkiye.",
+      "te": "ఇది తుర్కియేలోని అంటాల్యాలో జరుగుతుంది."
+     },
+     {
+      "en": "Australia will lead the official negotiations.",
+      "te": "అధికారిక చర్చలను ఆస్ట్రేలియా నడిపిస్తుంది."
+     },
+     {
+      "en": "The pre-COP meeting was held in Baku, Azerbaijan.",
+      "te": "ప్రీ-COP సమావేశం అజర్‌బైజాన్‌లోని బాకులో జరిగింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "III is wrong: the pre-COP was in Nadi, Fiji (5–8 October 2026).",
+     "te": "III తప్పు: ప్రీ-COP ఫిజీలోని నాడిలో (5–8 అక్టోబర్ 2026) జరిగింది."
+    }
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Who does what at COP31",
+      "te": "COP31లో ఎవరి పాత్ర ఏమిటి"
+     },
+     "a": {
+      "h": {
+       "en": "Türkiye — host",
+       "te": "తుర్కియే — ఆతిథ్యం"
+      },
+      "l": [
+       {
+        "en": "Venue: Antalya",
+        "te": "వేదిక: అంటాల్యా"
+       },
+       {
+        "en": "COP31 President: Murat Kurum",
+        "te": "COP31 అధ్యక్షుడు: మురాత్ కురుమ్"
+       },
+       {
+        "en": "Leaders' Summit 11–12 Nov",
+        "te": "నేతల సదస్సు 11–12 నవం"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Australia — negotiations",
+       "te": "ఆస్ట్రేలియా — చర్చలు"
+      },
+      "l": [
+       {
+        "en": "President of Negotiations: Chris Bowen",
+        "te": "చర్చల అధ్యక్షుడు: క్రిస్ బోవెన్"
+       },
+       {
+        "en": "Pre-COP in Fiji (with Fiji, Tuvalu)",
+        "te": "ఫిజీలో ప్రీ-COP (ఫిజీ, తువాలుతో)"
+       },
+       {
+        "en": "Bridges differences among Parties",
+        "te": "దేశాల మధ్య విభేదాలను తగ్గించడం"
+       }
+      ]
+     }
+    },
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Road to COP31",
+      "te": "COP31 వరకు ప్రయాణం"
+     },
+     "items": [
+      {
+       "y": "1992",
+       "t": {
+        "en": "UNFCCC adopted",
+        "te": "UNFCCC ఆమోదం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2002",
+       "t": {
+        "en": "COP8 New Delhi — Delhi Ministerial Declaration",
+        "te": "COP8 న్యూఢిల్లీ — ఢిల్లీ మంత్రుల ప్రకటన"
+       }
+      },
+      {
+       "y": "2015",
+       "t": {
+        "en": "Paris Agreement",
+        "te": "పారిస్ ఒప్పందం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2024",
+       "t": {
+        "en": "COP29 Azerbaijan — $300 bn/yr by 2035",
+        "te": "COP29 అజర్‌బైజాన్ — 2035కు ఏటా $300 బి."
+       }
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "Pre-COP Fiji (Oct) → COP31 Antalya (9–20 Nov)",
+        "te": "ప్రీ-COP ఫిజీ (అక్టో) → COP31 అంటాల్యా (నవం 9–20)"
+       },
+       "hl": 1
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Legacy IAS — The Hindu news analysis, 4 Nov 2026 ('India to push for predictable climate finance at COP31')",
+     "u": "https://www.legacyias.com/the-hindu-upsc-news-analysis-for-04-november-2026/"
+    },
+    {
+     "t": "ANI via Asianet Newsable — India ready for balanced, ambitious outcome at COP31: Bhupender Yadav (8 Oct 2026)",
+     "u": "https://newsable.asianetnews.com/world/india-ready-for-balanced-ambitious-outcome-at-cop31-bhupender-yadav-articleshow-158l1lc"
+    },
+    {
+     "t": "Sanskriti IAS — COP31 2026: dates, venue, presidency, key officials (cross-check)",
+     "u": "https://www.sanskritiias.com/current-affairs/cop31-2026-dates-venue-presidency-key-officials-and-important-facts"
+    }
+   ],
+   "mains": {
+    "en": "'Higher ambition must be matched by climate finance.' Examine India's position for COP31 in the light of the principle of Common But Differentiated Responsibilities and Article 9.1 of the Paris Agreement.",
+    "te": "'అధిక లక్ష్యాలకు సరిపడా వాతావరణ నిధులు ఉండాలి.' ఉమ్మడి కానీ విభిన్న బాధ్యతల సూత్రం, పారిస్ ఒప్పందం ఆర్టికల్ 9.1 నేపథ్యంలో COP31 కోసం భారత్ వైఖరిని పరిశీలించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "crdas",
+   "q": {
+    "en": "Consider the following statements about Chittaranjan Das:",
+    "te": "చిత్తరంజన్ దాస్ గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. He qualified for the Indian Civil Service but resigned to join the national movement.",
+     "te": "I. ఆయన ఇండియన్ సివిల్ సర్వీస్‌కు అర్హత సాధించి, జాతీయోద్యమం కోసం రాజీనామా చేశారు."
+    },
+    {
+     "en": "II. He defended Aurobindo Ghose in the Alipore Bomb case of 1908.",
+     "te": "II. 1908 అలీపూర్ బాంబు కేసులో అరబిందో ఘోష్ తరఫున వాదించారు."
+    },
+    {
+     "en": "III. He was jailed during the Non-Cooperation Movement in 1921.",
+     "te": "III. 1921 సహాయ నిరాకరణ ఉద్యమంలో జైలుకు వెళ్లారు."
+    },
+    {
+     "en": "IV. He became the first Mayor of the Calcutta Corporation in 1924.",
+     "te": "IV. 1924లో కలకత్తా కార్పొరేషన్ తొలి మేయర్ అయ్యారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I is wrong: he went to England for the ICS but did not qualify, and became a barrister instead.",
+    "te": "I తప్పు: ICS కోసం ఇంగ్లండ్ వెళ్లారు కానీ అర్హత సాధించలేదు; బదులుగా బారిస్టర్ అయ్యారు."
+   }
+  },
+  {
+   "topic": "crdas",
+   "q": {
+    "en": "Arrange the following events in C.R. Das's public life in chronological order:",
+    "te": "సి.ఆర్. దాస్ ప్రజా జీవితంలోని కింది ఘటనలను కాలక్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "I. Swaraj Party formed with Motilal Nehru",
+     "te": "I. మోతీలాల్ నెహ్రూతో స్వరాజ్ పార్టీ ఏర్పాటు"
+    },
+    {
+     "en": "II. Gaya Congress rejects his council-entry plan",
+     "te": "II. గయ కాంగ్రెస్ ఆయన మండళ్ల ప్రవేశ ప్రణాళికను తిరస్కరణ"
+    },
+    {
+     "en": "III. Boycott of the Prince of Wales's visit to Calcutta",
+     "te": "III. కలకత్తాలో వేల్స్ యువరాజు పర్యటన బహిష్కరణ"
+    },
+    {
+     "en": "IV. Elected first Mayor of Calcutta",
+     "te": "IV. కలకత్తా తొలి మేయర్‌గా ఎన్నిక"
+    }
+   ],
+   "o": [
+    {
+     "en": "III, II, I, IV",
+     "te": "III, II, I, IV"
+    },
+    {
+     "en": "II, III, I, IV",
+     "te": "II, III, I, IV"
+    },
+    {
+     "en": "III, I, II, IV",
+     "te": "III, I, II, IV"
+    },
+    {
+     "en": "II, I, III, IV",
+     "te": "II, I, III, IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Boycott 1921 → Gaya Dec 1922 → Swaraj Party 1923 → Mayor 1924. The trap: the party came AFTER Gaya rejected council entry.",
+    "te": "బహిష్కరణ 1921 → గయ డిసెం 1922 → స్వరాజ్ పార్టీ 1923 → మేయర్ 1924. ఉచ్చు: గయ తిరస్కరించిన తర్వాతే పార్టీ వచ్చింది."
+   }
+  },
+  {
+   "topic": "tsunami",
+   "q": {
+    "en": "Consider the following statements about World Tsunami Awareness Day:",
+    "te": "ప్రపంచ సునామీ అవగాహన దినోత్సవం గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It was adopted by the 70th UN General Assembly by consensus.",
+     "te": "I. దీన్ని ఐరాస 70వ సర్వసభ్య సమావేశం ఏకాభిప్రాయంతో ఆమోదించింది."
+    },
+    {
+     "en": "II. India proposed the day after the 2004 Indian Ocean tsunami.",
+     "te": "II. 2004 హిందూ మహాసముద్ర సునామీ తర్వాత భారత్ ఈ రోజును ప్రతిపాదించింది."
+    },
+    {
+     "en": "III. Its date recalls an 1854 tsunami in Wakayama, Japan.",
+     "te": "III. దీని తేదీ 1854లో జపాన్ వకయామాలో వచ్చిన సునామీని గుర్తు చేస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "II is wrong: Japan proposed it (with 142 countries); 5 November comes from Japan's 1854 'Inamura-no-hi'.",
+    "te": "II తప్పు: జపాన్ (142 దేశాలతో) ప్రతిపాదించింది; నవంబర్ 5 జపాన్ 1854 'ఇనమురా-నో-హి' నుంచి వచ్చింది."
+   }
+  },
+  {
+   "topic": "tsunami",
+   "q": {
+    "en": "A village elder on the coast feels a strong earthquake and sees the sea suddenly pull back from the beach. Which of the following actions are correct?",
+    "te": "తీరంలోని ఒక గ్రామ పెద్దకు బలమైన భూకంపం అనిపించింది, సముద్రం ఒక్కసారిగా తీరం నుంచి వెనక్కి వెళ్లడం కనిపించింది. కింది వాటిలో సరైన చర్యలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. Move people to high ground at once, without waiting.",
+     "te": "I. ఆలస్యం చేయకుండా వెంటనే ప్రజలను ఎత్తైన ప్రదేశానికి తరలించడం."
+    },
+    {
+     "en": "II. Go down to the exposed beach to watch, since waves are low in deep water.",
+     "te": "II. లోతైన సముద్రంలో అలలు తక్కువ కాబట్టి బయటపడిన తీరానికి వెళ్లి చూడటం."
+    },
+    {
+     "en": "III. Use any quick signal — like the burning rice sheaves of 'Inamura-no-hi' — to call people uphill.",
+     "te": "III. 'ఇనమురా-నో-హి'లో వరి కుప్పలు కాల్చినట్లు, ఏదైనా వేగమైన సంకేతంతో ప్రజలను ఎత్తుకు పిలవడం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "II is wrong: waves are low only in deep sea; near the coast they rise high and rush inland within minutes.",
+    "te": "II తప్పు: లోతైన సముద్రంలోనే అలలు తక్కువ; తీరం దగ్గర నిమిషాల్లో ఎత్తుగా లేచి లోపలికి దూసుకొస్తాయి."
+   }
+  },
+  {
+   "topic": "mptc",
+   "q": {
+    "en": "Consider the following statements about the 2026 MPTC/ZPTC elections in Andhra Pradesh:",
+    "te": "ఆంధ్రప్రదేశ్ 2026 MPTC/ZPTC ఎన్నికల గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Polling is on 5 November and counting on 7 November.",
+     "te": "I. పోలింగ్ నవంబర్ 5న, లెక్కింపు నవంబర్ 7న."
+    },
+    {
+     "en": "II. Women voters outnumber men voters.",
+     "te": "II. మహిళా ఓటర్లు పురుష ఓటర్ల కంటే ఎక్కువ."
+    },
+    {
+     "en": "III. All 659 ZPTC seats go to the polls today.",
+     "te": "III. మొత్తం 659 ZPTC స్థానాలకూ నేడు పోలింగ్."
+    },
+    {
+     "en": "IV. 2,051 MPTC seats were decided unanimously.",
+     "te": "IV. 2,051 MPTC స్థానాలు ఏకగ్రీవం అయ్యాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "III is wrong: 77 ZPTC seats were unanimous, so polling is for 582 of 659.",
+    "te": "III తప్పు: 77 ZPTC స్థానాలు ఏకగ్రీవం; కాబట్టి 659లో 582కే పోలింగ్."
+   }
+  },
+  {
+   "topic": "mptc",
+   "q": {
+    "en": "Which of the following statements regarding Panchayati Raj elections is/are INCORRECT?",
+    "te": "పంచాయతీరాజ్ ఎన్నికలకు సంబంధించి కింది వాటిలో తప్పు వాక్యం/వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. Panchayat elections are conducted by the State Election Commission under Article 243K.",
+     "te": "I. పంచాయతీ ఎన్నికలను ఆర్టికల్ 243K కింద రాష్ట్ర ఎన్నికల సంఘం నిర్వహిస్తుంది."
+    },
+    {
+     "en": "II. Article 243ZA provides the State Election Commission for panchayats.",
+     "te": "II. ఆర్టికల్ 243ZA పంచాయతీలకు రాష్ట్ర ఎన్నికల సంఘాన్ని ఏర్పాటు చేస్తుంది."
+    },
+    {
+     "en": "III. Panchayats get a five-year term under Article 243E.",
+     "te": "III. ఆర్టికల్ 243E కింద పంచాయతీలకు ఐదేళ్ల పదవీకాలం."
+    }
+   ],
+   "o": [
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "III only",
+     "te": "III మాత్రమే"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Only II is incorrect: 243ZA is the SEC for municipalities (74th Amendment); for panchayats it is 243K.",
+    "te": "II మాత్రమే తప్పు: 243ZA పురపాలికలకు SEC (74వ సవరణ); పంచాయతీలకు 243K."
+   }
+  },
+  {
+   "topic": "asi",
+   "q": {
+    "en": "With reference to the Annual Survey of Industries (ASI) 2024-25, consider the following statements:",
+    "te": "వార్షిక పరిశ్రమల సర్వే (ASI) 2024-25కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. GVA of the manufacturing corporate sector grew by 9.28%.",
+     "te": "I. తయారీ కార్పొరేట్ రంగ GVA 9.28% పెరిగింది."
+    },
+    {
+     "en": "II. The 9.28% figure is India's GDP growth for 2024-25.",
+     "te": "II. 9.28% అనేది 2024-25లో దేశ GDP వృద్ధి రేటు."
+    },
+    {
+     "en": "III. Persons engaged in the corporate sector grew by 7.57%.",
+     "te": "III. కార్పొరేట్ రంగంలో పనిచేస్తున్నవారు 7.57% పెరిగారు."
+    },
+    {
+     "en": "IV. Five industries led by food products account for over 41% of manufacturing jobs.",
+     "te": "IV. ఆహార ఉత్పత్తులతో సహా ఐదు పరిశ్రమలు తయారీ ఉద్యోగాల్లో 41%కు పైగా ఇస్తున్నాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II is wrong: 9.28% is GVA growth of the corporate manufacturing sector, not GDP growth.",
+    "te": "II తప్పు: 9.28% కార్పొరేట్ తయారీ రంగ GVA వృద్ధి, GDP వృద్ధి కాదు."
+   }
+  },
+  {
+   "topic": "asi",
+   "q": {
+    "en": "A factory's output is worth ₹100 crore, it used inputs worth ₹70 crore, and depreciation is ₹5 crore. Consider the following statements:",
+    "te": "ఒక కర్మాగారం ఉత్పత్తి విలువ ₹100 కోట్లు, వాడిన ముడిసరుకుల విలువ ₹70 కోట్లు, తరుగుదల ₹5 కోట్లు. కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Its Gross Value Added is ₹30 crore.",
+     "te": "I. దాని స్థూల జోడించిన విలువ ₹30 కోట్లు."
+    },
+    {
+     "en": "II. Its Net Value Added is ₹25 crore.",
+     "te": "II. దాని నికర జోడించిన విలువ ₹25 కోట్లు."
+    },
+    {
+     "en": "III. Its Net Value Added is ₹35 crore, because depreciation is added to GVA.",
+     "te": "III. తరుగుదలను GVAకు కలపాలి కాబట్టి నికర జోడించిన విలువ ₹35 కోట్లు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "III only",
+     "te": "III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "GVA = 100 − 70 = 30; NVA = GVA − depreciation = 25. III is wrong: depreciation is subtracted, not added.",
+    "te": "GVA = 100 − 70 = 30; NVA = GVA − తరుగుదల = 25. III తప్పు: తరుగుదలను తీసేయాలి, కలపకూడదు."
+   }
+  },
+  {
+   "topic": "cop31",
+   "q": {
+    "en": "Consider the following statements about COP31:",
+    "te": "COP31 గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Türkiye's minister Murat Kurum is the COP31 President.",
+     "te": "I. తుర్కియే మంత్రి మురాత్ కురుమ్ COP31 అధ్యక్షుడు."
+    },
+    {
+     "en": "II. Australia's Chris Bowen leads the official negotiations.",
+     "te": "II. ఆస్ట్రేలియాకు చెందిన క్రిస్ బోవెన్ అధికారిక చర్చలను నడిపిస్తారు."
+    },
+    {
+     "en": "III. The goal of at least $300 billion a year by 2035 will be first adopted at COP31.",
+     "te": "III. 2035 నాటికి ఏటా కనీసం $300 బిలియన్ల లక్ష్యాన్ని COP31లో మొదటిసారి ఆమోదిస్తారు."
+    },
+    {
+     "en": "IV. COP31 is held in Antalya from 9 to 20 November 2026.",
+     "te": "IV. COP31 అంటాల్యాలో 2026 నవంబర్ 9 నుంచి 20 వరకు జరుగుతుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "III is wrong: the $300 billion-a-year goal (NCQG) was set at COP29 in Azerbaijan in 2024.",
+    "te": "III తప్పు: ఏటా $300 బిలియన్ల లక్ష్యం (NCQG) 2024లో అజర్‌బైజాన్ COP29లోనే నిర్ణయమైంది."
+   }
+  },
+  {
+   "topic": "cop31",
+   "q": {
+    "en": "Which of the following are part of India's stated position for COP31?",
+    "te": "COP31 కోసం భారత్ ప్రకటించిన వైఖరిలో కింది వాటిలో ఏవి భాగం?"
+   },
+   "st": [
+    {
+     "en": "I. A Climate Finance Work Programme under Article 9.1 of the Paris Agreement",
+     "te": "I. పారిస్ ఒప్పందం ఆర్టికల్ 9.1 కింద క్లైమేట్ ఫైనాన్స్ వర్క్ ప్రోగ్రామ్"
+    },
+    {
+     "en": "II. Support for language on phasing out fossil fuels",
+     "te": "II. శిలాజ ఇంధనాల దశలవారీ నిర్మూలన భాషకు మద్దతు"
+    },
+    {
+     "en": "III. Continuation of the Just Transition Work Programme",
+     "te": "III. జస్ట్ ట్రాన్సిషన్ వర్క్ ప్రోగ్రామ్ కొనసాగింపు"
+    },
+    {
+     "en": "IV. New top-down mitigation targets for all countries",
+     "te": "IV. అన్ని దేశాలకు పై నుంచి రుద్దే కొత్త ఉద్గార లక్ష్యాలు"
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II and IV are wrong: India opposes fossil-fuel phase-out language and new top-down mitigation targets.",
+    "te": "II, IV తప్పు: శిలాజ ఇంధనాల నిర్మూలన భాషను, పై నుంచి రుద్దే కొత్త లక్ష్యాలను భారత్ వ్యతిరేకిస్తుంది."
+   }
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-05 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about Chittaranjan Das:
+I. He qualified for the Indian Civil Service but resigned to join the national movement.
+II. He defended Aurobindo Ghose in the Alipore Bomb case of 1908.
+III. He was jailed during the Non-Cooperation Movement in 1921.
+IV. He became the first Mayor of the Calcutta Corporation in 1924.
+
+--- QUESTION ---
+Q1. Consider the following statements about Chittaranjan Das: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III only
+(b) II, III and IV only
+(c) II and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) II, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is wrong: he went to England for the ICS but did not qualify, and became a barrister instead.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Arrange the following events in C.R. Das's public life in chronological order:
+I. Swaraj Party formed with Motilal Nehru
+II. Gaya Congress rejects his council-entry plan
+III. Boycott of the Prince of Wales's visit to Calcutta
+IV. Elected first Mayor of Calcutta
+
+--- QUESTION ---
+Q2. Arrange the following events in C.R. Das's public life in chronological order: (statements in the message above)
+
+--- OPTIONS ---
+(a) III, II, I, IV
+(b) II, III, I, IV
+(c) III, I, II, IV
+(d) II, I, III, IV
+
+--- CORRECT (tick this) ---
+(a) III, II, I, IV
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Boycott 1921 → Gaya Dec 1922 → Swaraj Party 1923 → Mayor 1924. The trap: the party came AFTER Gaya rejected council entry.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements about World Tsunami Awareness Day:
+I. It was adopted by the 70th UN General Assembly by consensus.
+II. India proposed the day after the 2004 Indian Ocean tsunami.
+III. Its date recalls an 1854 tsunami in Wakayama, Japan.
+
+--- QUESTION ---
+Q3. Consider the following statements about World Tsunami Awareness Day: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I and III only
+
+--- CORRECT (tick this) ---
+(d) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: Japan proposed it (with 142 countries); 5 November comes from Japan's 1854 'Inamura-no-hi'.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. A village elder on the coast feels a strong earthquake and sees the sea suddenly pull back from the beach. Which of the following actions are correct?
+I. Move people to high ground at once, without waiting.
+II. Go down to the exposed beach to watch, since waves are low in deep water.
+III. Use any quick signal — like the burning rice sheaves of 'Inamura-no-hi' — to call people uphill.
+
+--- QUESTION ---
+Q4. A village elder on the coast feels a strong earthquake and sees the sea suddenly pull back from the beach. Which of the following actions are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: waves are low only in deep sea; near the coast they rise high and rush inland within minutes.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Consider the following statements about the 2026 MPTC/ZPTC elections in Andhra Pradesh:
+I. Polling is on 5 November and counting on 7 November.
+II. Women voters outnumber men voters.
+III. All 659 ZPTC seats go to the polls today.
+IV. 2,051 MPTC seats were decided unanimously.
+
+--- QUESTION ---
+Q5. Consider the following statements about the 2026 MPTC/ZPTC elections in Andhra Pradesh: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I, II and III only
+(c) I, II and IV only
+(d) II and IV only
+
+--- CORRECT (tick this) ---
+(c) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: 77 ZPTC seats were unanimous, so polling is for 582 of 659.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Which of the following statements regarding Panchayati Raj elections is/are INCORRECT?
+I. Panchayat elections are conducted by the State Election Commission under Article 243K.
+II. Article 243ZA provides the State Election Commission for panchayats.
+III. Panchayats get a five-year term under Article 243E.
+
+--- QUESTION ---
+Q6. Which of the following statements regarding Panchayati Raj elections is/are INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) II only
+(b) I and II only
+(c) II and III only
+(d) III only
+
+--- CORRECT (tick this) ---
+(a) II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Only II is incorrect: 243ZA is the SEC for municipalities (74th Amendment); for panchayats it is 243K.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. With reference to the Annual Survey of Industries (ASI) 2024-25, consider the following statements:
+I. GVA of the manufacturing corporate sector grew by 9.28%.
+II. The 9.28% figure is India's GDP growth for 2024-25.
+III. Persons engaged in the corporate sector grew by 7.57%.
+IV. Five industries led by food products account for over 41% of manufacturing jobs.
+
+--- QUESTION ---
+Q7. With reference to the Annual Survey of Industries (ASI) 2024-25, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II, III and IV only
+(c) I, III and IV only
+(d) I and III only
+
+--- CORRECT (tick this) ---
+(c) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: 9.28% is GVA growth of the corporate manufacturing sector, not GDP growth.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. A factory's output is worth ₹100 crore, it used inputs worth ₹70 crore, and depreciation is ₹5 crore. Consider the following statements:
+I. Its Gross Value Added is ₹30 crore.
+II. Its Net Value Added is ₹25 crore.
+III. Its Net Value Added is ₹35 crore, because depreciation is added to GVA.
+
+--- QUESTION ---
+Q8. A factory's output is worth ₹100 crore, it used inputs worth ₹70 crore, and depreciation is ₹5 crore. Consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and III only
+(c) III only
+(d) I and II only
+
+--- CORRECT (tick this) ---
+(d) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+GVA = 100 − 70 = 30; NVA = GVA − depreciation = 25. III is wrong: depreciation is subtracted, not added.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Consider the following statements about COP31:
+I. Türkiye's minister Murat Kurum is the COP31 President.
+II. Australia's Chris Bowen leads the official negotiations.
+III. The goal of at least $300 billion a year by 2035 will be first adopted at COP31.
+IV. COP31 is held in Antalya from 9 to 20 November 2026.
+
+--- QUESTION ---
+Q9. Consider the following statements about COP31: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and IV only
+(b) I and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the $300 billion-a-year goal (NCQG) was set at COP29 in Azerbaijan in 2024.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Which of the following are part of India's stated position for COP31?
+I. A Climate Finance Work Programme under Article 9.1 of the Paris Agreement
+II. Support for language on phasing out fossil fuels
+III. Continuation of the Just Transition Work Programme
+IV. New top-down mitigation targets for all countries
+
+--- QUESTION ---
+Q10. Which of the following are part of India's stated position for COP31? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I and III only
+(c) I, III and IV only
+(d) II and IV only
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II and IV are wrong: India opposes fossil-fuel phase-out language and new top-down mitigation targets.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-05&tab=quiz
