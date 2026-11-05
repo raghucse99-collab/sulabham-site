@@ -1,0 +1,207 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-05 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following about the drought situation in Andhra Pradesh (Nov 2026). Which is/are correct?
+I. 412 mandals in 21 districts have been declared drought-affected.
+II. The central team (IMCT) toured only coastal districts.
+III. The CM asked for 200 days of work under the VB-G RAM G scheme.
+
+--- QUESTION ---
+Q1. Consider the following about the drought situation in Andhra Pradesh (Nov 2026). Which is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct. II is wrong: the IMCT visited Kurnool, Nandyal, Anantapur and Sri Sathya Sai — all Rayalaseema districts, not coastal.
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. About the inscription recently copied by ASI at Tirumala temple, which of the following is INCORRECT?
+
+--- OPTIONS ---
+(a) It is written in Tamil
+(b) It belongs to the reign of Krishnadevaraya
+(c) The donor was a commander at Chandragiri Fort
+(d) It records a deposit in the temple treasury for food offerings
+
+--- CORRECT (tick this) ---
+(b) It belongs to the reign of Krishnadevaraya
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(b) is incorrect: the inscription is of Achyutadevaraya, Krishnadevaraya's successor (Tuluva dynasty). The trap is the more famous name. The other three are true.
+
+==================== Q3 ====================
+--- QUESTION ---
+Q3. Consider the following about AP DSC-2026 (APTRT-2026). Which is/are correct?
+I. It notifies 2,721 posts in total.
+II. 350 of the posts are for special education.
+III. The exam is a pen-and-paper (OMR) test.
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct (2,721 posts; 150 SA + 200 SGT special education = 350). III is wrong: it is a computer-based test (CBT).
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. With reference to the Supreme Court's 4 Nov 2026 judgment on the two-child norm, consider:
+I. It overruled Javed v. State of Haryana (2003).
+II. It noted India's TFR is now below the replacement level of 2.1.
+III. The case arose from a Maharashtra village panchayat law.
+
+--- QUESTION ---
+Q4. With reference to the Supreme Court's 4 Nov 2026 judgment on the two-child norm, consider: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I and III only
+(c) I, II and III
+(d) II and III only
+
+--- CORRECT (tick this) ---
+(d) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II and III are correct. I is the trap: a two-judge bench cannot overrule a three-judge ruling, so Javed was REFERRED to a larger bench.
+
+==================== Q5 ====================
+--- QUESTION ---
+Q5. Match List-I with List-II:
+A. Article 324 — 1. Immunity to CEC and ECs
+B. Section 16, 2023 Act — 2. Disqualification rules for panchayat members
+C. Article 243F — 3. Election Commission of India
+
+--- OPTIONS ---
+(a) A-3, B-1, C-2
+(b) A-1, B-3, C-2
+(c) A-3, B-2, C-1
+(d) A-2, B-1, C-3
+
+--- CORRECT (tick this) ---
+(a) A-3, B-1, C-2
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Article 324 = ECI; Section 16 of the CEC & ECs Act, 2023 = immunity now challenged in the SC; Article 243F = disqualifications for panchayat membership (linked to the two-child norm case).
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following about the change in the Agnipath scheme approved on 4 Nov 2026:
+I. The retention of 25% Agniveers for regular service has been raised to 75%.
+II. Agniveers not retained can opt for a 2-year extension on merit.
+III. With the extension, an Agniveer can serve up to 6 years.
+
+--- QUESTION ---
+Q6. Consider the following about the change in the Agnipath scheme approved on 4 Nov 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) II and III only
+(b) I and II only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II and III are correct. I is wrong: the 25% retention rule is unchanged; the remaining 75% get the optional extension (4 + 2 = 6 years).
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. About the Fast Track Special Courts (FTSC) scheme extended till 2031, which is/are correct?
+I. It is a central sector scheme fully funded by the Centre.
+II. The Central share comes from the Nirbhaya Fund.
+III. The number of courts will rise from 779 to 850.
+
+--- QUESTION ---
+Q7. About the Fast Track Special Courts (FTSC) scheme extended till 2031, which is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and III
+(c) I and III only
+(d) II and III only
+
+--- CORRECT (tick this) ---
+(d) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II and III are correct. I is wrong: FTSC is a Centrally SPONSORED scheme — Centre ₹2,353.15 cr + States/UTs ₹1,434.89 cr.
+
+==================== Q8 ====================
+--- QUESTION ---
+Q8. With reference to VISTAR, consider the following:
+I. It is implemented by the Ministry of Statistics and Programme Implementation (MoSPI).
+II. It includes the 8th Economic Census.
+III. It will conduct Census 2027 (population census).
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is the trap: the population Census is done by the Registrar General & Census Commissioner (MHA); VISTAR covers the ECONOMIC Census.
+
+==================== Q9 ====================
+--- QUESTION ---
+Q9. Arrange the components of the 92 GWh energy-storage target in DESCENDING order of capacity:
+1. Battery Energy Storage (BESS)
+2. Pumped Storage Projects (PSP)
+3. Other technologies
+
+--- OPTIONS ---
+(a) 1 – 2 – 3
+(b) 2 – 3 – 1
+(c) 2 – 1 – 3
+(d) 1 – 3 – 2
+
+--- CORRECT (tick this) ---
+(c) 2 – 1 – 3
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+PSP 60 GWh > BESS 30 GWh > other 2 GWh. Trap: batteries are in the news more, but pumped storage gets twice the capacity.
+
+==================== Q10 ====================
+--- QUESTION ---
+Q10. Consider the following about the Bharatiya Vayuyan Niyam, 2026:
+I. They are rules made under the Bharatiya Vayuyan Adhiniyam, 2024.
+II. They replace the Aircraft Rules, 1937.
+III. They came into force on the day of notification.
+
+--- OPTIONS ---
+(a) I and II only
+(b) II only
+(c) I, II and III
+(d) I and III only
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: the rules take effect from 1 January 2027, not on notification.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/current.html?d=2026-11-05

@@ -1,0 +1,1745 @@
+{
+ "date": "2026-11-05",
+ "day": {
+  "en": "Thursday, 5 November 2026",
+  "te": "గురువారం, 5 నవంబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "apdrought",
+   "cat": "ap",
+   "title": {
+    "en": "Drought in 412 mandals: CM Naidu asks Centre for 200 days of rural work and 'drought cards'",
+    "te": "412 మండలాల్లో కరవు: 200 రోజుల ఉపాధి, 'కరవు కార్డులు' ఇవ్వాలని కేంద్రాన్ని కోరిన సీఎం నాయుడు"
+   },
+   "pts": [
+    {
+     "en": "Andhra Pradesh has declared 412 mandals in 21 districts as drought-affected. Anantapur recorded the second-lowest rainfall in the country and groundwater has fallen sharply.",
+     "te": "ఆంధ్రప్రదేశ్ 21 జిల్లాల్లోని 412 మండలాలను కరవు ప్రభావిత మండలాలుగా ప్రకటించింది. దేశంలోనే రెండో అతి తక్కువ వర్షపాతం అనంతపురంలో నమోదైంది; భూగర్భ జలాలు బాగా పడిపోయాయి."
+    },
+    {
+     "en": "A central team (IMCT) toured Kurnool, Nandyal, Anantapur and Sri Sathya Sai districts on 2–3 November and met the CM. Its report is due within 15 days.",
+     "te": "కేంద్ర బృందం (IMCT) నవంబర్ 2–3 తేదీల్లో కర్నూలు, నంద్యాల, అనంతపురం, శ్రీ సత్యసాయి జిల్లాల్లో పర్యటించి సీఎంను కలిసింది. 15 రోజుల్లో నివేదిక ఇస్తుంది."
+    },
+    {
+     "en": "On 4 November CM N. Chandrababu Naidu asked for: 200 days of work under the VB-G RAM G rural jobs scheme (including farm work), 'drought cards' for cheap essentials, faster crop-insurance payment and rescheduling of farm loans.",
+     "te": "నవంబర్ 4న సీఎం ఎన్. చంద్రబాబు నాయుడు కోరినవి: VB-G RAM G గ్రామీణ ఉపాధి పథకంలో 200 రోజుల పని (వ్యవసాయ పనులతో సహా), తక్కువ ధరకు నిత్యావసరాల కోసం 'కరవు కార్డులు', పంట బీమా త్వరిత చెల్లింపు, వ్యవసాయ రుణాల రీషెడ్యూల్."
+    },
+    {
+     "en": "He also sought expansion of Jal Jeevan Mission and special help for cyclone damage in coastal Andhra — the state faces drought in Rayalaseema and cyclone loss on the coast at the same time.",
+     "te": "జల్ జీవన్ మిషన్ విస్తరణ, కోస్తాంధ్రలో తుపాను నష్టానికి ప్రత్యేక సాయం కూడా కోరారు — రాష్ట్రం ఒకే సమయంలో రాయలసీమలో కరవు, కోస్తాలో తుపాను నష్టం ఎదుర్కొంటోంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Drought mandals",
+      "te": "కరవు మండలాలు"
+     },
+     {
+      "en": "412 in 21 districts",
+      "te": "21 జిల్లాల్లో 412"
+     }
+    ],
+    [
+     {
+      "en": "IMCT visit",
+      "te": "IMCT పర్యటన"
+     },
+     {
+      "en": "2–3 Nov · Kurnool, Nandyal, Anantapur, Sri Sathya Sai",
+      "te": "నవం 2–3 · కర్నూలు, నంద్యాల, అనంతపురం, శ్రీ సత్యసాయి"
+     }
+    ],
+    [
+     {
+      "en": "Main demand",
+      "te": "ప్రధాన డిమాండ్"
+     },
+     {
+      "en": "200 days work under VB-G RAM G",
+      "te": "VB-G RAM G కింద 200 రోజుల పని"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Concept: drought is declared by the STATE (as per the Centre's Manual for Drought Management); the Centre's IMCT then assesses damage for extra help. Anantapur is among India's driest districts — Rayalaseema = rain-shadow region.",
+    "te": "కాన్సెప్ట్: కరవును ప్రకటించేది రాష్ట్రం (కేంద్ర కరవు నిర్వహణ మాన్యువల్ ప్రకారం); అదనపు సాయం కోసం కేంద్ర IMCT నష్టాన్ని అంచనా వేస్తుంది. అనంతపురం దేశంలోనే అతి పొడి జిల్లాల్లో ఒకటి — రాయలసీమ వర్షచ్ఛాయ ప్రాంతం."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Districts visited by the central drought team",
+      "te": "కేంద్ర కరవు బృందం పర్యటించిన జిల్లాలు"
+     },
+     "view": "ap",
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#a86b00",
+     "pts": [
+      {
+       "ll": [
+        15.83,
+        78.04
+       ],
+       "t": {
+        "en": "Kurnool",
+        "te": "కర్నూలు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        15.48,
+        78.48
+       ],
+       "t": {
+        "en": "Nandyal",
+        "te": "నంద్యాల"
+       }
+      },
+      {
+       "ll": [
+        14.68,
+        77.6
+       ],
+       "t": {
+        "en": "Anantapur",
+        "te": "అనంతపురం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        14.17,
+        77.81
+       ],
+       "t": {
+        "en": "Puttaparthi (Sri Sathya Sai)",
+        "te": "పుట్టపర్తి (శ్రీ సత్యసాయి)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "All four are Rayalaseema districts — the rain-shadow part of AP.",
+      "te": "నాలుగూ రాయలసీమ జిల్లాలే — ఏపీలోని వర్షచ్ఛాయ ప్రాంతం."
+     },
+     "src": "cards/cad/2026-11-05/map-apdrought-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Deccan Chronicle — CM Naidu Seeks Central Aid For Drought-Hit Farmers, 4 Nov 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-naidu-seeks-central-aid-for-drought-hit-farmers-2001800"
+    }
+   ]
+  },
+  {
+   "id": "tirumala",
+   "cat": "ap",
+   "title": {
+    "en": "ASI finds another 16th-century Tamil inscription of Achyutadevaraya at Tirumala temple",
+    "te": "తిరుమల ఆలయంలో అచ్యుతదేవరాయల కాలం నాటి మరో 16వ శతాబ్దపు తమిళ శాసనం గుర్తించిన ASI"
+   },
+   "pts": [
+    {
+     "en": "The Archaeological Survey of India (ASI) copied a Tamil inscription on the north wall of the third prakaram (enclosure) of the Sri Venkateswara temple, Tirumala, under its Bharat SHRI project.",
+     "te": "భారత పురావస్తు సర్వేక్షణ సంస్థ (ASI) తన 'భారత్ SHRI' ప్రాజెక్ట్ కింద తిరుమల శ్రీ వేంకటేశ్వర ఆలయ మూడో ప్రాకారం ఉత్తర గోడపై ఉన్న తమిళ శాసనాన్ని నకలు తీసింది."
+    },
+    {
+     "en": "It belongs to the reign of King Achyutadevaraya. It records a grant by Dalavay Timmarasayyar, a military commander of the king at Chandragiri Fort.",
+     "te": "ఇది అచ్యుతదేవరాయల పాలనా కాలం నాటిది. చంద్రగిరి కోటలో రాజు సైన్యాధిపతి దళవాయి తిమ్మరసయ్యర్ ఇచ్చిన దానాన్ని ఇది నమోదు చేస్తుంది."
+    },
+    {
+     "en": "150 rekhai-pon (gold coins) from a village's revenue and a deposit of 15,000 narpanam in the temple treasury (bhandaram) were given for food offerings to Lord Venkateswara on auspicious days.",
+     "te": "ఒక గ్రామ ఆదాయం నుంచి 150 రేఖై-పొన్ (బంగారు నాణేలు), ఆలయ భాండారంలో 15,000 నర్పణం డిపాజిట్ — పర్వదినాల్లో శ్రీవారికి నైవేద్యాల కోసం ఇచ్చారు."
+    },
+    {
+     "en": "A similar Tamil inscription of the same king, on the south wall, was reported on 1 November — it says 1 panam = 0.36 g of gold.",
+     "te": "ఇదే రాజుకు చెందిన ఇలాంటి తమిళ శాసనం దక్షిణ గోడపై ఉందని నవంబర్ 1న వెల్లడైంది — అందులో 1 పణం = 0.36 గ్రా. బంగారం అని ఉంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "King",
+      "te": "రాజు"
+     },
+     {
+      "en": "Achyutadevaraya (Vijayanagara)",
+      "te": "అచ్యుతదేవరాయలు (విజయనగరం)"
+     }
+    ],
+    [
+     {
+      "en": "Language",
+      "te": "భాష"
+     },
+     {
+      "en": "Tamil",
+      "te": "తమిళం"
+     }
+    ],
+    [
+     {
+      "en": "Place",
+      "te": "స్థలం"
+     },
+     {
+      "en": "3rd prakaram, north wall, Tirumala temple",
+      "te": "తిరుమల ఆలయం మూడో ప్రాకారం, ఉత్తర గోడ"
+     }
+    ],
+    [
+     {
+      "en": "Project",
+      "te": "ప్రాజెక్ట్"
+     },
+     {
+      "en": "Bharat SHRI (Shared Repository of Inscriptions)",
+      "te": "భారత్ SHRI (శాసనాల ఉమ్మడి భాండాగారం)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: Achyuta Deva Raya (r. 1529–1542) of the Tuluva dynasty succeeded his half-brother Krishnadevaraya. Trap: Chandragiri was a later Vijayanagara capital (Aravidu period) — do not confuse with Hampi.",
+    "te": "స్టాటిక్ లింక్: తుళువ వంశానికి చెందిన అచ్యుతదేవరాయలు (పాలన 1529–1542) తన సవతి సోదరుడు శ్రీకృష్ణదేవరాయల తర్వాత రాజయ్యారు. ట్రాప్: చంద్రగిరి తర్వాతి కాలంలో (అరవీటి వంశం) విజయనగర రాజధాని — హంపితో కలపవద్దు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Tirumala and Chandragiri Fort",
+      "te": "తిరుమల, చంద్రగిరి కోట"
+     },
+     "view": [
+      78.6,
+      13.1,
+      80.2,
+      14.1
+     ],
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#7a3b8f",
+     "pts": [
+      {
+       "ll": [
+        13.68,
+        79.35
+       ],
+       "t": {
+        "en": "Tirumala",
+        "te": "తిరుమల"
+       }
+      },
+      {
+       "ll": [
+        13.585,
+        79.317
+       ],
+       "t": {
+        "en": "Chandragiri Fort",
+        "te": "చంద్రగిరి కోట"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "The donor was a commander at Chandragiri Fort, close to Tirupati.",
+      "te": "దాత తిరుపతికి దగ్గర్లోని చంద్రగిరి కోటలో సైన్యాధిపతి."
+     },
+     "src": "cards/cad/2026-11-05/map-tirumala-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Deccan Chronicle — ASI Finds Another 16th-Century Inscription At Tirumala Temple, 5 Nov 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/asi-finds-another-16th-century-inscription-at-tirumala-temple-2001843"
+    },
+    {
+     "t": "Deccan Chronicle — ASI Finds 16th-Century Inscription At Tirumala Temple, 1 Nov 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/asi-finds-16th-century-inscription-at-tirumala-temple-2000731"
+    }
+   ]
+  },
+  {
+   "id": "apdsc",
+   "cat": "ap",
+   "title": {
+    "en": "AP DSC-2026 (APTRT-2026) detailed notification: 2,721 teacher posts, applications from 11 November",
+    "te": "ఏపీ డీఎస్సీ-2026 (APTRT-2026) పూర్తి నోటిఫికేషన్: 2,721 ఉపాధ్యాయ పోస్టులు, నవంబర్ 11 నుంచి దరఖాస్తులు"
+   },
+   "pts": [
+    {
+     "en": "The AP School Education Department released the detailed notification of the Andhra Pradesh Teacher Recruitment Test-2026 (APTRT-2026), popularly called DSC-2026.",
+     "te": "ఏపీ పాఠశాల విద్యాశాఖ ఆంధ్రప్రదేశ్ టీచర్ రిక్రూట్‌మెంట్ టెస్ట్-2026 (APTRT-2026) — అంటే డీఎస్సీ-2026 — పూర్తి నోటిఫికేషన్ విడుదల చేసింది."
+    },
+    {
+     "en": "2,721 posts: 2,111 regular SA + SGT posts, 350 special-education posts (150 SA + 200 SGT) and 260 posts in residential societies (Principal, PGT, TGT, PD, PET).",
+     "te": "2,721 పోస్టులు: 2,111 సాధారణ SA + SGT, 350 ప్రత్యేక విద్య (150 SA + 200 SGT), 260 గురుకుల సొసైటీ పోస్టులు (ప్రిన్సిపల్, PGT, TGT, PD, PET)."
+    },
+    {
+     "en": "Online applications open on 11 November at tet2dsc.apcfss.in; the exam is a computer-based test (CBT). Check the official notification for last date, fee and age rules.",
+     "te": "నవంబర్ 11 నుంచి tet2dsc.apcfss.in లో ఆన్‌లైన్ దరఖాస్తులు; పరీక్ష కంప్యూటర్ ఆధారిత (CBT). చివరి తేదీ, ఫీజు, వయో నిబంధనలు అధికారిక నోటిఫికేషన్‌లో చూడండి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Exam",
+      "te": "పరీక్ష"
+     },
+     {
+      "en": "APTRT-2026 (DSC-2026), CBT",
+      "te": "APTRT-2026 (డీఎస్సీ-2026), CBT"
+     }
+    ],
+    [
+     {
+      "en": "Posts",
+      "te": "పోస్టులు"
+     },
+     {
+      "en": "2,721 = 2,111 + 350 + 260",
+      "te": "2,721 = 2,111 + 350 + 260"
+     }
+    ],
+    [
+     {
+      "en": "Apply from",
+      "te": "దరఖాస్తు ప్రారంభం"
+     },
+     {
+      "en": "11 Nov 2026",
+      "te": "11 నవం 2026"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "For aspirants: SA = School Assistant (high school), SGT = Secondary Grade Teacher (primary). Special-education posts come from the RPwD Act, 2016 focus on inclusive education.",
+    "te": "అభ్యర్థులకు: SA = స్కూల్ అసిస్టెంట్ (హైస్కూల్), SGT = సెకండరీ గ్రేడ్ టీచర్ (ప్రాథమిక). ప్రత్యేక విద్య పోస్టులు సమ్మిళిత విద్య (RPwD చట్టం, 2016) లక్ష్యంలో భాగం."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "DSC-2026: 2,721 posts",
+      "te": "డీఎస్సీ-2026: 2,721 పోస్టులు"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "SGT",
+        "te": "SGT"
+       },
+       "v": 1205,
+       "vl": "1,205"
+      },
+      {
+       "t": {
+        "en": "School Assistant",
+        "te": "స్కూల్ అసిస్టెంట్"
+       },
+       "v": 906,
+       "vl": "906"
+      },
+      {
+       "t": {
+        "en": "SGT special education",
+        "te": "SGT ప్రత్యేక విద్య"
+       },
+       "v": 200,
+       "vl": "200"
+      },
+      {
+       "t": {
+        "en": "SA special education",
+        "te": "SA ప్రత్యేక విద్య"
+       },
+       "v": 150,
+       "vl": "150"
+      },
+      {
+       "t": {
+        "en": "Society posts",
+        "te": "సొసైటీ పోస్టులు"
+       },
+       "v": 260,
+       "vl": "260"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Deccan Chronicle — AP Releases Detailed DSC Notification; Applications Open On Nov. 11, 5 Nov 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-releases-detailed-dsc-notification-applications-open-on-nov-11-2001842"
+    },
+    {
+     "t": "CareerIndia — AP DSC 2026 Notification Out for 2,721 Teacher Vacancies, 14 Oct 2026",
+     "u": "https://www.careerindia.com/news/ap-dsc-2026-notification-out-for-2-721-teacher-vacancies-067085.html"
+    }
+   ]
+  },
+  {
+   "id": "twochild",
+   "cat": "polity",
+   "title": {
+    "en": "Supreme Court: laws punishing 'more than two children' have lost relevance; Javed (2003) sent to larger bench",
+    "te": "సుప్రీంకోర్టు: 'ఇద్దరు పిల్లలకు మించి' ఉంటే శిక్షించే చట్టాలు ప్రాసంగికత కోల్పోయాయి; జావేద్ (2003) తీర్పు విస్తృత ధర్మాసనానికి"
+   },
+   "pts": [
+    {
+     "en": "A former sarpanch in Maharashtra was disqualified under Section 14(1)(j-1) of the Maharashtra Village Panchayats Act, 1959 after her third child was born.",
+     "te": "మహారాష్ట్రలో ఓ మాజీ సర్పంచ్ మూడో బిడ్డ పుట్టిన తర్వాత మహారాష్ట్ర గ్రామ పంచాయతీల చట్టం, 1959 సెక్షన్ 14(1)(j-1) కింద అనర్హురాలయ్యారు."
+    },
+    {
+     "en": "On 4 November a bench of Justices P.S. Narasimha and Alok Aradhe said such laws have lost relevance: India's fertility rate (TFR) fell from 3 in 2003 to 1.9 — below the replacement level of 2.1.",
+     "te": "నవంబర్ 4న జస్టిస్ పి.ఎస్. నరసింహ, జస్టిస్ అలోక్ ఆరాధేల ధర్మాసనం ఇలాంటి చట్టాలు ప్రాసంగికత కోల్పోయాయని చెప్పింది: దేశ సంతానోత్పత్తి రేటు (TFR) 2003లో 3 నుంచి ఇప్పుడు 1.9కి — భర్తీ స్థాయి 2.1 కంటే తక్కువకు — పడిపోయింది."
+    },
+    {
+     "en": "The court said such laws raise concerns of reproductive autonomy (Article 21) and equal political participation. It stayed proceedings against her.",
+     "te": "ఇలాంటి చట్టాలు పునరుత్పత్తి స్వేచ్ఛ (ఆర్టికల్ 21), సమాన రాజకీయ భాగస్వామ్యానికి సంబంధించిన ప్రశ్నలు లేవనెత్తుతాయని కోర్టు చెప్పింది. ఆమెపై చర్యలను నిలిపివేసింది."
+    },
+    {
+     "en": "A two-judge bench cannot overrule a three-judge bench, so it referred the 2003 Javed v. State of Haryana ruling (which upheld the two-child bar in Haryana's panchayat law) to a larger bench.",
+     "te": "ఇద్దరు న్యాయమూర్తుల ధర్మాసనం ముగ్గురు న్యాయమూర్తుల తీర్పును కొట్టివేయలేదు; కాబట్టి హరియాణా పంచాయతీ చట్టంలోని ఇద్దరు పిల్లల నిబంధనను సమర్థించిన 2003 జావేద్ వర్సెస్ హరియాణా తీర్పు పునఃపరిశీలనను విస్తృత ధర్మాసనానికి పంపింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Bench",
+      "te": "ధర్మాసనం"
+     },
+     {
+      "en": "Justices P.S. Narasimha & Alok Aradhe",
+      "te": "జస్టిస్ పి.ఎస్. నరసింహ & అలోక్ ఆరాధే"
+     }
+    ],
+    [
+     {
+      "en": "Law in question",
+      "te": "వివాదాస్పద చట్టం"
+     },
+     {
+      "en": "Sec 14(1)(j-1), Maharashtra Village Panchayats Act, 1959",
+      "te": "సెక్ 14(1)(j-1), మహారాష్ట్ర గ్రామ పంచాయతీల చట్టం, 1959"
+     }
+    ],
+    [
+     {
+      "en": "TFR",
+      "te": "TFR"
+     },
+     {
+      "en": "3 (2003) → 1.9 now; replacement 2.1",
+      "te": "3 (2003) → ఇప్పుడు 1.9; భర్తీ స్థాయి 2.1"
+     }
+    ],
+    [
+     {
+      "en": "Precedent",
+      "te": "పూర్వ తీర్పు"
+     },
+     {
+      "en": "Javed v. State of Haryana, 2003 (3 judges)",
+      "te": "జావేద్ వర్సెస్ హరియాణా, 2003 (3 న్యాయమూర్తులు)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: the SC did NOT strike down the law — it referred Javed (2003) to a larger bench. Link: Article 243F lets State laws fix disqualifications for panchayat members. TFR 2.1 = replacement level.",
+    "te": "ట్రాప్: సుప్రీంకోర్టు చట్టాన్ని కొట్టివేయలేదు — జావేద్ (2003)ను విస్తృత ధర్మాసనానికి పంపింది. లింక్: పంచాయతీ సభ్యుల అనర్హతలను రాష్ట్ర చట్టాలు నిర్ణయించేందుకు ఆర్టికల్ 243F అనుమతిస్తుంది. TFR 2.1 = భర్తీ స్థాయి."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "From the 2003 ruling to today",
+      "te": "2003 తీర్పు నుంచి నేటి వరకు"
+     },
+     "items": [
+      {
+       "i": "⚖️",
+       "t": {
+        "en": "2003: Javed — 3 judges uphold two-child bar",
+        "te": "2003: జావేద్ — ఇద్దరు పిల్లల నిబంధన సమర్థన (3 జడ్జీలు)"
+       }
+      },
+      {
+       "i": "📉",
+       "t": {
+        "en": "TFR falls 3 → 1.9 (below 2.1)",
+        "te": "TFR 3 → 1.9 (2.1 కంటే తక్కువ)"
+       }
+      },
+      {
+       "i": "🗳️",
+       "t": {
+        "en": "Maharashtra sarpanch disqualified for 3rd child",
+        "te": "3వ బిడ్డ కారణంగా మహారాష్ట్ర సర్పంచ్ అనర్హత"
+       }
+      },
+      {
+       "i": "🏛️",
+       "t": {
+        "en": "4 Nov 2026: 2 judges say laws lost relevance → larger bench",
+        "te": "4 నవం 2026: చట్టాలు ప్రాసంగికత కోల్పోయాయి → విస్తృత ధర్మాసనం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Business Standard — Laws penalising having more than 2 children have lost relevance: SC, 4 Nov 2026",
+     "u": "https://www.business-standard.com/amp/india-news/laws-penalising-having-more-than-2-children-have-lost-relevance-sc-126110400640_1.html"
+    },
+    {
+     "t": "LawChakra — Supreme Court Says Two-Child Norm Laws Have Lost Relevance, Refers Javed Ruling To Larger Bench, 4 Nov 2026",
+     "u": "https://lawchakra.in/supreme-court/two-child-norm-laws/"
+    }
+   ]
+  },
+  {
+   "id": "cecimmunity",
+   "cat": "polity",
+   "title": {
+    "en": "SC seeks Centre and ECI reply on plea against lifelong legal immunity for CEC and Election Commissioners",
+    "te": "సీఈసీ, ఎన్నికల కమిషనర్లకు జీవితకాల న్యాయ రక్షణపై పిటిషన్: కేంద్రం, ఈసీఐ స్పందన కోరిన సుప్రీంకోర్టు"
+   },
+   "pts": [
+    {
+     "en": "Section 16 of the Chief Election Commissioner and Other Election Commissioners (Appointment, Conditions of Service and Term of Office) Act, 2023 protects the CEC and ECs from civil or criminal cases for acts done in official duty.",
+     "te": "ప్రధాన ఎన్నికల కమిషనర్, ఇతర ఎన్నికల కమిషనర్ల (నియామకం, సర్వీసు షరతులు, పదవీకాలం) చట్టం, 2023లోని సెక్షన్ 16 — అధికార విధుల్లో చేసిన పనులకు సీఈసీ, ఈసీలపై సివిల్ లేదా క్రిమినల్ కేసులు వేయకుండా రక్షణ ఇస్తుంది."
+    },
+    {
+     "en": "A new petition calls this 'blanket immunity without any exception' and says similar protection for other officials covers only acts done in good faith.",
+     "te": "ఇది 'ఏ మినహాయింపూ లేని సంపూర్ణ రక్షణ' అని, ఇతర అధికారులకు ఇలాంటి రక్షణ 'సద్భావనతో' చేసిన పనులకే ఉంటుందని కొత్త పిటిషన్ వాదిస్తోంది."
+    },
+    {
+     "en": "A bench of CJI Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana issued notice to the Centre and the Election Commission of India.",
+     "te": "సీజేఐ సూర్యకాంత్, జస్టిస్ జోయ్‌మాల్య బాగ్చీ, జస్టిస్ వి. మోహనలతో కూడిన ధర్మాసనం కేంద్రానికి, భారత ఎన్నికల సంఘానికి నోటీసు జారీ చేసింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Provision",
+      "te": "నిబంధన"
+     },
+     {
+      "en": "Section 16, CEC & ECs Act, 2023",
+      "te": "సెక్షన్ 16, సీఈసీ & ఈసీల చట్టం, 2023"
+     }
+    ],
+    [
+     {
+      "en": "Bench",
+      "te": "ధర్మాసనం"
+     },
+     {
+      "en": "CJI Surya Kant, Joymalya Bagchi J, V. Mohana J",
+      "te": "సీజేఐ సూర్యకాంత్, జస్టిస్ బాగ్చీ, జస్టిస్ వి. మోహన"
+     }
+    ],
+    [
+     {
+      "en": "Constitution link",
+      "te": "రాజ్యాంగ లింక్"
+     },
+     {
+      "en": "Article 324 — Election Commission",
+      "te": "ఆర్టికల్ 324 — ఎన్నికల సంఘం"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static: Article 324 creates the ECI. The 2023 Act set up a selection committee of PM + a Union Minister + Leader of Opposition (CJI not included). Trap: a notice is not a stay — Section 16 is still in force.",
+    "te": "స్టాటిక్: ఆర్టికల్ 324 ఈసీఐని ఏర్పాటు చేస్తుంది. 2023 చట్టం ప్రకారం ఎంపిక కమిటీ = ప్రధాని + ఒక కేంద్ర మంత్రి + ప్రతిపక్ష నేత (సీజేఐ లేరు). ట్రాప్: నోటీసు అంటే స్టే కాదు — సెక్షన్ 16 అమల్లోనే ఉంది."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "What is being argued",
+      "te": "వాదన ఏమిటి"
+     },
+     "a": {
+      "h": {
+       "en": "Section 16 (as written)",
+       "te": "సెక్షన్ 16 (ప్రస్తుతం)"
+      },
+      "l": [
+       {
+        "en": "No civil/criminal case for official acts",
+        "te": "అధికార చర్యలపై సివిల్/క్రిమినల్ కేసు లేదు"
+       },
+       {
+        "en": "No 'good faith' condition",
+        "te": "'సద్భావన' షరతు లేదు"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Petitioner wants",
+       "te": "పిటిషనర్ కోరేది"
+      },
+      "l": [
+       {
+        "en": "Protection only for good-faith acts",
+        "te": "సద్భావనతో చేసిన పనులకే రక్షణ"
+       },
+       {
+        "en": "Same as other officials",
+        "te": "ఇతర అధికారుల మాదిరిగానే"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Bar & Bench — Supreme Court seeks response from Centre, ECI to plea challenging blanket immunity for CEC, Election Commissioners, 4 Nov 2026",
+     "u": "https://www.barandbench.com/news/supreme-court-seeks-response-from-centre-eci-on-plea-challenging-blanket-immunity-for-cec-election-commissioners"
+    }
+   ]
+  },
+  {
+   "id": "agniveer",
+   "cat": "defence",
+   "title": {
+    "en": "Cabinet allows two-year extension for Agniveers: service up to 6 years, path to regular service",
+    "te": "అగ్నివీరులకు రెండేళ్ల పొడిగింపుకు కేబినెట్ ఆమోదం: 6 ఏళ్ల వరకు సేవ, రెగ్యులర్ సర్వీసుకు మార్గం"
+   },
+   "pts": [
+    {
+     "en": "Under the Agnipath scheme (2022), Agniveers serve 4 years and 25% are retained on merit for 15 years of regular service. On 4 November the Union Cabinet approved a tenure hike.",
+     "te": "అగ్నిపథ్ పథకం (2022)లో అగ్నివీరులు 4 ఏళ్లు సేవ చేస్తారు; ప్రతిభ ఆధారంగా 25% మందిని 15 ఏళ్ల రెగ్యులర్ సర్వీసులో కొనసాగిస్తారు. నవంబర్ 4న కేంద్ర కేబినెట్ పదవీకాలం పెంపును ఆమోదించింది."
+    },
+    {
+     "en": "The other 75% can now opt for a 2-year extension on merit (total 6 years). Willing Agniveers who meet selection criteria will then be enrolled as regular soldiers.",
+     "te": "మిగతా 75% మంది ఇప్పుడు ప్రతిభ ఆధారంగా 2 ఏళ్ల పొడిగింపు ఎంచుకోవచ్చు (మొత్తం 6 ఏళ్లు). ఆ తర్వాత ఇష్టపడి, ఎంపిక ప్రమాణాలు అందుకున్నవారిని రెగ్యులర్ సైనికులుగా చేర్చుకుంటారు."
+    },
+    {
+     "en": "Pay in the extension: ₹43,500 a month in year 1 and ₹47,500 in year 2. The 25% retention rule is unchanged. The first batch is about 46,000.",
+     "te": "పొడిగింపు కాలంలో జీతం: మొదటి ఏడాది నెలకు ₹43,500, రెండో ఏడాది ₹47,500. 25% రిటెన్షన్ నిబంధనలో మార్పు లేదు. మొదటి బ్యాచ్ సుమారు 46,000 మంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Scheme launched",
+      "te": "పథకం ప్రారంభం"
+     },
+     {
+      "en": "Agnipath, 2022",
+      "te": "అగ్నిపథ్, 2022"
+     }
+    ],
+    [
+     {
+      "en": "Tenure",
+      "te": "సేవా కాలం"
+     },
+     {
+      "en": "4 years → up to 6 (with 2-yr extension)",
+      "te": "4 ఏళ్లు → 6 వరకు (2 ఏళ్ల పొడిగింపుతో)"
+     }
+    ],
+    [
+     {
+      "en": "Retention",
+      "te": "రిటెన్షన్"
+     },
+     {
+      "en": "25% for 15 years (unchanged)",
+      "te": "25% మంది 15 ఏళ్లకు (మార్పు లేదు)"
+     }
+    ],
+    [
+     {
+      "en": "Extension pay",
+      "te": "పొడిగింపు జీతం"
+     },
+     {
+      "en": "₹43,500 → ₹47,500 per month",
+      "te": "నెలకు ₹43,500 → ₹47,500"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: the 25% retention is NOT changed; only the remaining 75% get the optional 2-year extension. Agniveers get a tax-free exit package (Seva Nidhi) but no pension.",
+    "te": "ట్రాప్: 25% రిటెన్షన్ మారలేదు; మిగిలిన 75% మందికి మాత్రమే ఐచ్ఛిక 2 ఏళ్ల పొడిగింపు. అగ్నివీరులకు పన్ను రహిత నిష్క్రమణ ప్యాకేజీ (సేవా నిధి) ఉంటుంది, పెన్షన్ ఉండదు."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "Agniveer path after the change",
+      "te": "మార్పు తర్వాత అగ్నివీర్ మార్గం"
+     },
+     "items": [
+      {
+       "i": "🪖",
+       "t": {
+        "en": "4 years as Agniveer",
+        "te": "4 ఏళ్లు అగ్నివీర్"
+       }
+      },
+      {
+       "i": "⭐",
+       "t": {
+        "en": "25% retained → 15 yrs regular",
+        "te": "25% → 15 ఏళ్ల రెగ్యులర్"
+       }
+      },
+      {
+       "i": "➕",
+       "t": {
+        "en": "Others: optional 2-yr extension",
+        "te": "మిగతావారు: ఐచ్ఛిక 2 ఏళ్ల పొడిగింపు"
+       }
+      },
+      {
+       "i": "🎖️",
+       "t": {
+        "en": "Willing & eligible → regular soldiers",
+        "te": "ఇష్టం & అర్హత → రెగ్యులర్ సైనికులు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Business Standard — Agniveer cadets get two-year extension as Cabinet approves tenure hike, 4 Nov 2026",
+     "u": "https://www.business-standard.com/external-affairs-defence-security/news/agniveer-cadets-get-two-year-extension-as-cabinet-approves-tenure-hike-126110401914_1.html"
+    },
+    {
+     "t": "Daily Jagran — Agniveers To Get Two-Year Extension As First Batch Nears Exit, 4 Nov 2026",
+     "u": "https://www.thedailyjagran.com/education/news/cds-announces-twoyear-service-extension-for-agniveers-as-first-batch-nears-exit-10335124"
+    }
+   ]
+  },
+  {
+   "id": "ftsc",
+   "cat": "schemes",
+   "title": {
+    "en": "Fast Track Special Courts for rape and POCSO cases extended till March 2031; courts to rise from 779 to 850",
+    "te": "అత్యాచార, పోక్సో కేసుల ఫాస్ట్ ట్రాక్ ప్రత్యేక కోర్టుల పథకం మార్చి 2031 వరకు పొడిగింపు; కోర్టులు 779 నుంచి 850కి"
+   },
+   "pts": [
+    {
+     "en": "The Union Cabinet continued the Centrally Sponsored Scheme for Fast Track Special Courts (FTSCs) for five more years: FY 2026-27 to 2030-31.",
+     "te": "ఫాస్ట్ ట్రాక్ ప్రత్యేక కోర్టుల (FTSC) కేంద్ర ప్రాయోజిత పథకాన్ని కేంద్ర కేబినెట్ మరో ఐదేళ్లు — 2026-27 నుంచి 2030-31 వరకు — కొనసాగించింది."
+    },
+    {
+     "en": "Outlay ₹3,788.04 crore: Centre ₹2,353.15 crore (from the Nirbhaya Fund) and States/UTs ₹1,434.89 crore. Courts rise from 779 to 850, including exclusive POCSO courts.",
+     "te": "వ్యయం ₹3,788.04 కోట్లు: కేంద్రం ₹2,353.15 కోట్లు (నిర్భయ నిధి నుంచి), రాష్ట్రాలు/యూటీలు ₹1,434.89 కోట్లు. ప్రత్యేక పోక్సో కోర్టులతో కలిపి కోర్టులు 779 నుంచి 850కి పెరుగుతాయి."
+    },
+    {
+     "en": "Started on 2 October 2019, the scheme has disposed of 4,02,457 cases. Today 779 courts (399 exclusive POCSO) work in 29 States/UTs. It is run by the Department of Justice.",
+     "te": "2 అక్టోబర్ 2019న ప్రారంభమైన ఈ పథకం 4,02,457 కేసులను పరిష్కరించింది. ప్రస్తుతం 29 రాష్ట్రాలు/యూటీల్లో 779 కోర్టులు (399 ప్రత్యేక పోక్సో) పనిచేస్తున్నాయి. న్యాయ శాఖ (Department of Justice) అమలు చేస్తుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Period",
+      "te": "కాలం"
+     },
+     {
+      "en": "2026-27 to 2030-31 (5 years)",
+      "te": "2026-27 నుంచి 2030-31 (5 ఏళ్లు)"
+     }
+    ],
+    [
+     {
+      "en": "Outlay",
+      "te": "వ్యయం"
+     },
+     {
+      "en": "₹3,788.04 cr (Centre ₹2,353.15 cr — Nirbhaya Fund)",
+      "te": "₹3,788.04 కో. (కేంద్రం ₹2,353.15 కో. — నిర్భయ నిధి)"
+     }
+    ],
+    [
+     {
+      "en": "Courts",
+      "te": "కోర్టులు"
+     },
+     {
+      "en": "779 → 850",
+      "te": "779 → 850"
+     }
+    ],
+    [
+     {
+      "en": "Cases disposed",
+      "te": "పరిష్కరించిన కేసులు"
+     },
+     {
+      "en": "4,02,457 since 2019",
+      "te": "2019 నుంచి 4,02,457"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static: POCSO Act, 2012 protects children under 18. Nirbhaya Fund was set up in 2013 (after the Dec 2012 Delhi case). Trap: FTSC is centrally SPONSORED (shared with States), not a central sector scheme.",
+    "te": "స్టాటిక్: పోక్సో చట్టం, 2012 — 18 ఏళ్ల లోపు పిల్లల రక్షణ. నిర్భయ నిధి 2013లో ఏర్పాటు. ట్రాప్: FTSC కేంద్ర ప్రాయోజిత పథకం (రాష్ట్రాలతో వాటా), కేంద్ర రంగ పథకం కాదు."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Who pays for FTSCs (₹ crore)",
+      "te": "FTSCలకు ఎవరు చెల్లిస్తారు (₹ కోట్లు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Centre (Nirbhaya Fund)",
+        "te": "కేంద్రం (నిర్భయ నిధి)"
+       },
+       "v": 2353.15,
+       "vl": "₹2,353.15 cr"
+      },
+      {
+       "t": {
+        "en": "States/UTs",
+        "te": "రాష్ట్రాలు/యూటీలు"
+       },
+       "v": 1434.89,
+       "vl": "₹1,434.89 cr"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB — Cabinet approves continuation of the Centrally Sponsored Scheme for Fast Track Special Courts (FTSCs) ... (FY 2026-27 to FY 2030-31), 4 Nov 2026",
+     "u": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2332483&reg=48&lang=1"
+    },
+    {
+     "t": "India TV — Big Cabinet decision! Fast track courts to get 5-year extension, 850 courts to speed up rape trials, 5 Nov 2026",
+     "u": "https://www.indiatvnews.com/news/india/big-cabinet-decision-fast-track-courts-to-get-5-year-extension-850-courts-to-speed-up-rape-trials-2026-11-05-1058725"
+    }
+   ]
+  },
+  {
+   "id": "vistar",
+   "cat": "economy",
+   "title": {
+    "en": "VISTAR: ₹4,371 crore scheme to modernise India's statistical system; 8th Economic Census included",
+    "te": "VISTAR: దేశ గణాంక వ్యవస్థ ఆధునీకరణకు ₹4,371 కోట్ల పథకం; 8వ ఆర్థిక గణన కూడా"
+   },
+   "pts": [
+    {
+     "en": "The Cabinet approved VISTAR — Viksit Bharat Initiative for Statistical Transformation, Analytics & Research — a central sector scheme of MoSPI worth ₹4,371.10 crore for 2026-27 to 2030-31.",
+     "te": "కేబినెట్ VISTAR (వికసిత్ భారత్ ఇనిషియేటివ్ ఫర్ స్టాటిస్టికల్ ట్రాన్స్‌ఫర్మేషన్, అనలిటిక్స్ & రీసెర్చ్)ను ఆమోదించింది — MoSPI కేంద్ర రంగ పథకం, ₹4,371.10 కోట్లు, 2026-27 నుంచి 2030-31."
+    },
+    {
+     "en": "It plans 59 surveys (earlier 43), new measures like a Headline Index of Services Production, and use of AI/ML and new data such as mobile-phone and e-commerce data.",
+     "te": "59 సర్వేలు (గతంలో 43), సేవల ఉత్పత్తి హెడ్‌లైన్ సూచీ వంటి కొత్త కొలమానాలు, AI/ML వినియోగం, మొబైల్ ఫోన్, ఈ-కామర్స్ వంటి కొత్త డేటా వనరులు."
+    },
+    {
+     "en": "Three parts: (1) statistical operations, (2) Support for Statistical Strengthening (SSS 2.0) to States for district-level data and State GDP, (3) the 8th Economic Census of non-farm establishments up to Gram Panchayat/ward level.",
+     "te": "మూడు భాగాలు: (1) గణాంక కార్యకలాపాలు, (2) జిల్లా స్థాయి డేటా, రాష్ట్ర GDP కోసం రాష్ట్రాలకు SSS 2.0 సహాయం, (3) గ్రామ పంచాయతీ/వార్డు స్థాయి వరకు వ్యవసాయేతర సంస్థల 8వ ఆర్థిక గణన."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Outlay / period",
+      "te": "వ్యయం / కాలం"
+     },
+     {
+      "en": "₹4,371.10 cr · 2026-27 to 2030-31",
+      "te": "₹4,371.10 కో. · 2026-27 నుంచి 2030-31"
+     }
+    ],
+    [
+     {
+      "en": "Ministry",
+      "te": "మంత్రిత్వ శాఖ"
+     },
+     {
+      "en": "MoSPI (Statistics & Programme Implementation)",
+      "te": "MoSPI (గణాంకాలు & కార్యక్రమాల అమలు)"
+     }
+    ],
+    [
+     {
+      "en": "Surveys",
+      "te": "సర్వేలు"
+     },
+     {
+      "en": "59 (earlier 43)",
+      "te": "59 (గతంలో 43)"
+     }
+    ],
+    [
+     {
+      "en": "Big exercise",
+      "te": "ప్రధాన కార్యక్రమం"
+     },
+     {
+      "en": "8th Economic Census",
+      "te": "8వ ఆర్థిక గణన"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static: Economic Census counts non-farm establishments; the 7th was in 2019. Trap: Economic Census ≠ Population Census (Census 2027 is by the Registrar General, MHA). Prof. P.C. Mahalanobis — father of Indian statistics.",
+    "te": "స్టాటిక్: ఆర్థిక గణన వ్యవసాయేతర సంస్థలను లెక్కిస్తుంది; 7వది 2019లో. ట్రాప్: ఆర్థిక గణన ≠ జనాభా గణన (జనగణన 2027 — రిజిస్ట్రార్ జనరల్, హోంశాఖ). భారత గణాంక శాస్త్ర పితామహుడు — ప్రొ. పి.సి. మహలనోబిస్."
+   },
+   "pics": [
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "VISTAR at a glance",
+      "te": "VISTAR ఒక్క చూపులో"
+     },
+     "c": {
+      "en": "VISTAR ₹4,371 cr",
+      "te": "VISTAR ₹4,371 కో."
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Statistical operations",
+        "te": "గణాంక కార్యకలాపాలు"
+       },
+       "l": [
+        {
+         "en": "59 surveys",
+         "te": "59 సర్వేలు"
+        },
+        {
+         "en": "AI/ML, new data",
+         "te": "AI/ML, కొత్త డేటా"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "SSS 2.0 (States)",
+        "te": "SSS 2.0 (రాష్ట్రాలు)"
+       },
+       "l": [
+        {
+         "en": "District estimates",
+         "te": "జిల్లా అంచనాలు"
+        },
+        {
+         "en": "State GDP, IIP",
+         "te": "రాష్ట్ర GDP, IIP"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "8th Economic Census",
+        "te": "8వ ఆర్థిక గణన"
+       },
+       "l": [
+        {
+         "en": "Up to GP/ward",
+         "te": "GP/వార్డు వరకు"
+        },
+        {
+         "en": "Business register",
+         "te": "వ్యాపార రిజిస్టర్"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "PM India — Cabinet approves 'Viksit Bharat Initiative for Statistical Transformation, Analytics & Research (VISTAR)', 4 Nov 2026",
+     "u": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-viksit-bharat-initiative-for-statistical-transformation-analytics-research-vistar-a-central-sector-scheme-for-the-period-2026-27-to-2030-31/?comment=disable"
+    }
+   ]
+  },
+  {
+   "id": "storage",
+   "cat": "env",
+   "title": {
+    "en": "₹14,500 crore Viability Gap Funding for 92 GWh of grid-scale energy storage",
+    "te": "92 GWh గ్రిడ్ స్థాయి ఇంధన నిల్వ వ్యవస్థల కోసం ₹14,500 కోట్ల వయబిలిటీ గ్యాప్ ఫండింగ్"
+   },
+   "pts": [
+    {
+     "en": "Solar and wind power do not come at all hours, so the grid needs 'storage' that saves extra power and releases it later. The Cabinet approved ₹14,500 crore of Viability Gap Funding (VGF) for 2026-27 to 2030-31.",
+     "te": "సౌర, పవన విద్యుత్ అన్ని గంటలూ రాదు; అదనపు విద్యుత్తును నిల్వ చేసి తర్వాత ఇచ్చే 'నిల్వ' గ్రిడ్‌కు అవసరం. 2026-27 నుంచి 2030-31 వరకు ₹14,500 కోట్ల వయబిలిటీ గ్యాప్ ఫండింగ్ (VGF)ను కేబినెట్ ఆమోదించింది."
+    },
+    {
+     "en": "Target 92 GWh: 60 GWh pumped storage (PSP), 30 GWh battery storage (BESS) and 2 GWh other technologies. Expected investment ₹97,600 crore.",
+     "te": "లక్ష్యం 92 GWh: 60 GWh పంప్డ్ స్టోరేజ్ (PSP), 30 GWh బ్యాటరీ నిల్వ (BESS), 2 GWh ఇతర సాంకేతికతలు. అంచనా పెట్టుబడి ₹97,600 కోట్లు."
+    },
+    {
+     "en": "Projects are given through tariff-based competitive bidding; BESS needs at least 40% domestic content. India will need about 411 GWh of storage by 2031-32.",
+     "te": "టారిఫ్ ఆధారిత పోటీ బిడ్డింగ్ ద్వారా ప్రాజెక్టుల కేటాయింపు; BESSకు కనీసం 40% దేశీయ విడిభాగాలు తప్పనిసరి. 2031-32 నాటికి దేశానికి సుమారు 411 GWh నిల్వ అవసరం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "VGF",
+      "te": "VGF"
+     },
+     {
+      "en": "₹14,500 cr · 2026-27 to 2030-31",
+      "te": "₹14,500 కో. · 2026-27 నుంచి 2030-31"
+     }
+    ],
+    [
+     {
+      "en": "Capacity",
+      "te": "సామర్థ్యం"
+     },
+     {
+      "en": "92 GWh = 60 PSP + 30 BESS + 2 other",
+      "te": "92 GWh = 60 PSP + 30 BESS + 2 ఇతర"
+     }
+    ],
+    [
+     {
+      "en": "Investment",
+      "te": "పెట్టుబడి"
+     },
+     {
+      "en": "₹97,600 cr expected",
+      "te": "₹97,600 కో. అంచనా"
+     }
+    ],
+    [
+     {
+      "en": "Need by 2031-32",
+      "te": "2031-32 నాటి అవసరం"
+     },
+     {
+      "en": "411 GWh",
+      "te": "411 GWh"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Concept: VGF = one-time government grant that makes a useful but not-yet-profitable project viable. Note GWh (energy stored) vs GW (power). AP link: Pinnapuram (Nandyal) is a large pumped-storage project.",
+    "te": "కాన్సెప్ట్: VGF = ఉపయోగకరమైనా ఇంకా లాభదాయకం కాని ప్రాజెక్టును సాధ్యం చేసే ఒకేసారి ప్రభుత్వ గ్రాంట్. GWh (నిల్వ శక్తి) ≠ GW (సామర్థ్యం). ఏపీ లింక్: పిన్నాపురం (నంద్యాల) పెద్ద పంప్డ్ స్టోరేజ్ ప్రాజెక్ట్."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "92 GWh storage target",
+      "te": "92 GWh నిల్వ లక్ష్యం"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Pumped storage (PSP)",
+        "te": "పంప్డ్ స్టోరేజ్ (PSP)"
+       },
+       "v": 60,
+       "vl": "60 GWh"
+      },
+      {
+       "t": {
+        "en": "Battery (BESS)",
+        "te": "బ్యాటరీ (BESS)"
+       },
+       "v": 30,
+       "vl": "30 GWh"
+      },
+      {
+       "t": {
+        "en": "Other technologies",
+        "te": "ఇతర సాంకేతికతలు"
+       },
+       "v": 2,
+       "vl": "2 GWh"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "PM India — Cabinet approves Rs.14,500 crore Viability Gap Funding Scheme for development of 92 GWh Grid-Scale Energy Storage Systems, 4 Nov 2026",
+     "u": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-rs-14500-crore-viability-gap-funding-scheme-for-development-of-92-gwh-grid-scale-energy-storage-systems/"
+    }
+   ]
+  },
+  {
+   "id": "critmin",
+   "cat": "economy",
+   "title": {
+    "en": "₹2,814 crore capex support for lithium and nickel processing plants",
+    "te": "లిథియం, నికెల్ ప్రాసెసింగ్ ప్లాంట్లకు ₹2,814 కోట్ల మూలధన సహాయం"
+   },
+   "pts": [
+    {
+     "en": "India mines little lithium and nickel and imports most processed material needed for EV batteries. The Cabinet approved a ₹2,814 crore Capex Support Scheme (2026-27 to 2030-31) to build processing plants at home.",
+     "te": "ఈవీ బ్యాటరీలకు అవసరమైన లిథియం, నికెల్‌ను భారత్ చాలావరకు దిగుమతి చేసుకుంటోంది. దేశంలోనే ప్రాసెసింగ్ ప్లాంట్ల కోసం ₹2,814 కోట్ల మూలధన సహాయ పథకం (2026-27 నుంచి 2030-31)ను కేబినెట్ ఆమోదించింది."
+    },
+    {
+     "en": "30% capital subsidy for four plants: two lithium plants (at least 30 kt each) and two nickel plants (at least 50 kt each). Caps: ₹500 crore per lithium and ₹900 crore per nickel beneficiary.",
+     "te": "నాలుగు ప్లాంట్లకు 30% మూలధన సబ్సిడీ: రెండు లిథియం (ఒక్కొక్కటి కనీసం 30 kt), రెండు నికెల్ (ఒక్కొక్కటి కనీసం 50 kt). గరిష్ఠ పరిమితి: లిథియంకు ₹500 కోట్లు, నికెల్‌కు ₹900 కోట్లు."
+    },
+    {
+     "en": "Beneficiaries are chosen by technical evaluation and competitive bidding; money is paid in 3 milestone-linked instalments.",
+     "te": "సాంకేతిక మూల్యాంకనం, పోటీ బిడ్డింగ్ ద్వారా లబ్ధిదారుల ఎంపిక; మైలురాళ్లకు అనుసంధానించిన 3 విడతల్లో చెల్లింపు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Outlay",
+      "te": "వ్యయం"
+     },
+     {
+      "en": "₹2,814 cr · 2026-27 to 2030-31",
+      "te": "₹2,814 కో. · 2026-27 నుంచి 2030-31"
+     }
+    ],
+    [
+     {
+      "en": "Subsidy",
+      "te": "సబ్సిడీ"
+     },
+     {
+      "en": "30% of eligible capital investment",
+      "te": "అర్హ మూలధన పెట్టుబడిలో 30%"
+     }
+    ],
+    [
+     {
+      "en": "Plants",
+      "te": "ప్లాంట్లు"
+     },
+     {
+      "en": "2 lithium (≥30 kt) + 2 nickel (≥50 kt)",
+      "te": "2 లిథియం (≥30 kt) + 2 నికెల్ (≥50 kt)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Link: National Critical Mineral Mission (2025) and KABIL (joint venture for overseas lithium assets, e.g. Argentina). Trap: this scheme is for PROCESSING, not mining. Lithium symbol Li, nickel Ni.",
+    "te": "లింక్: నేషనల్ క్రిటికల్ మినరల్ మిషన్ (2025), KABIL (విదేశీ లిథియం ఆస్తుల కోసం జాయింట్ వెంచర్, ఉదా: అర్జెంటీనా). ట్రాప్: ఈ పథకం ప్రాసెసింగ్ కోసం, మైనింగ్ కోసం కాదు. లిథియం Li, నికెల్ Ni."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Two minerals, two caps",
+      "te": "రెండు ఖనిజాలు, రెండు పరిమితులు"
+     },
+     "a": {
+      "h": {
+       "en": "Lithium",
+       "te": "లిథియం"
+      },
+      "l": [
+       {
+        "en": "2 plants, ≥30 kt each",
+        "te": "2 ప్లాంట్లు, ఒక్కొక్కటి ≥30 kt"
+       },
+       {
+        "en": "Cap ₹500 cr each",
+        "te": "గరిష్ఠం ఒక్కొక్కరికి ₹500 కో."
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Nickel",
+       "te": "నికెల్"
+      },
+      "l": [
+       {
+        "en": "2 plants, ≥50 kt each",
+        "te": "2 ప్లాంట్లు, ఒక్కొక్కటి ≥50 kt"
+       },
+       {
+        "en": "Cap ₹900 cr each",
+        "te": "గరిష్ఠం ఒక్కొక్కరికి ₹900 కో."
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "PM India — Cabinet Approves Capex Support Scheme to Promote Critical Mineral Processing with an Outlay of Rs.2,814 Crore for Lithium and Nickel processing, 4 Nov 2026",
+     "u": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-capex-support-scheme-to-promote-critical-mineral-processing-with-an-outlay-of-rs-2814-crore-for-lithium-and-nickel-processing/"
+    }
+   ]
+  },
+  {
+   "id": "vayuyan",
+   "cat": "polity",
+   "title": {
+    "en": "Bharatiya Vayuyan Niyam, 2026: new aviation rulebook replaces Aircraft Rules, 1937 from 1 January 2027",
+    "te": "భారతీయ వాయుయాన్ నియమాలు, 2026: 1 జనవరి 2027 నుంచి ఎయిర్‌క్రాఫ్ట్ రూల్స్, 1937 స్థానంలో కొత్త విమానయాన నిబంధనలు"
+   },
+   "pts": [
+    {
+     "en": "The Ministry of Civil Aviation notified the Bharatiya Vayuyan Niyam, 2026 under the Bharatiya Vayuyan Adhiniyam, 2024. They come into force on 1 January 2027.",
+     "te": "పౌర విమానయాన మంత్రిత్వ శాఖ భారతీయ వాయుయాన్ అధినియం, 2024 కింద భారతీయ వాయుయాన్ నియమాలు, 2026ను నోటిఫై చేసింది. ఇవి 1 జనవరి 2027 నుంచి అమల్లోకి వస్తాయి."
+    },
+    {
+     "en": "They replace the Aircraft Rules, 1937 and Part IX of the Aircraft Rules, 1920. 220 rules in 8 chapters and 6 schedules.",
+     "te": "ఇవి ఎయిర్‌క్రాఫ్ట్ రూల్స్, 1937, ఎయిర్‌క్రాఫ్ట్ రూల్స్, 1920లోని పార్ట్ IX స్థానంలో వస్తాయి. 8 అధ్యాయాలు, 6 షెడ్యూళ్లలో 220 నిబంధనలు."
+    },
+    {
+     "en": "Key points: airlines must show the full fare with break-up (base fare, taxes, cancellation and refund terms); no alcohol for crew within 12 hours before flight; lasers within 10 nautical miles of airports need permission.",
+     "te": "ముఖ్యాంశాలు: విమాన సంస్థలు పూర్తి ఛార్జీని విభజనతో (బేస్ ఫేర్, పన్నులు, రద్దు, రీఫండ్ షరతులు) చూపాలి; విమానానికి 12 గంటల ముందు నుంచి సిబ్బంది మద్యం తాగరాదు; విమానాశ్రయాలకు 10 నాటికల్ మైళ్లలో లేజర్లకు అనుమతి తప్పనిసరి."
+    },
+    {
+     "en": "Penalties in 10 graded levels from ₹10,000 to ₹1 crore; 21 offences can bring up to 2 years' jail and/or ₹1 crore fine.",
+     "te": "₹10,000 నుంచి ₹1 కోటి వరకు 10 స్థాయిల జరిమానాలు; 21 నేరాలకు 2 ఏళ్ల వరకు జైలు మరియు/లేదా ₹1 కోటి జరిమానా."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Parent Act",
+      "te": "మాతృ చట్టం"
+     },
+     {
+      "en": "Bharatiya Vayuyan Adhiniyam, 2024",
+      "te": "భారతీయ వాయుయాన్ అధినియం, 2024"
+     }
+    ],
+    [
+     {
+      "en": "Replaces",
+      "te": "వీటి స్థానంలో"
+     },
+     {
+      "en": "Aircraft Rules, 1937 + Part IX of 1920 Rules",
+      "te": "ఎయిర్‌క్రాఫ్ట్ రూల్స్, 1937 + 1920 రూల్స్ పార్ట్ IX"
+     }
+    ],
+    [
+     {
+      "en": "In force",
+      "te": "అమలు"
+     },
+     {
+      "en": "1 January 2027",
+      "te": "1 జనవరి 2027"
+     }
+    ],
+    [
+     {
+      "en": "Size",
+      "te": "పరిమాణం"
+     },
+     {
+      "en": "220 rules · 8 chapters · 6 schedules",
+      "te": "220 నియమాలు · 8 అధ్యాయాలు · 6 షెడ్యూళ్లు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap pair: ADHINIYAM (2024) = the Act passed by Parliament, which replaced the Aircraft Act, 1934; NIYAM (2026) = the rules made under it. Regulator: DGCA.",
+    "te": "ట్రాప్ జంట: అధినియం (2024) = పార్లమెంట్ చేసిన చట్టం (ఎయిర్‌క్రాఫ్ట్ యాక్ట్, 1934 స్థానంలో); నియమాలు (2026) = దాని కింద చేసిన నిబంధనలు. నియంత్రణ సంస్థ: DGCA."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "India's aviation law over time",
+      "te": "భారత విమానయాన చట్టాల క్రమం"
+     },
+     "items": [
+      {
+       "y": "1934",
+       "t": {
+        "en": "Aircraft Act",
+        "te": "ఎయిర్‌క్రాఫ్ట్ యాక్ట్"
+       }
+      },
+      {
+       "y": "1937",
+       "t": {
+        "en": "Aircraft Rules",
+        "te": "ఎయిర్‌క్రాఫ్ట్ రూల్స్"
+       }
+      },
+      {
+       "y": "2024",
+       "t": {
+        "en": "Bharatiya Vayuyan Adhiniyam (Act)",
+        "te": "భారతీయ వాయుయాన్ అధినియం (చట్టం)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "Bharatiya Vayuyan Niyam (Rules) notified",
+        "te": "భారతీయ వాయుయాన్ నియమాలు నోటిఫై"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2027",
+       "t": {
+        "en": "New rules in force from 1 Jan",
+        "te": "జనవరి 1 నుంచి కొత్త నియమాలు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "TechnologyForYou (PIB backgrounder reproduced) — Bharatiya Vayuyan Niyam, 2026: A Modern Rulebook for India's Skies, 4 Nov 2026",
+     "u": "https://www.technologyforyou.org/bharatiya-vayuyan-niyam-2026-a-modern-rulebook-for-indias-skies/"
+    },
+    {
+     "t": "Business Standard — New aircraft rules to replace 1937 framework, take effect from January 1, 1 Nov 2026",
+     "u": "https://www.business-standard.com/industry/aviation/new-aircraft-rules-to-replace-1937-framework-take-effect-from-january-1-126110100896_1.html"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "apdrought",
+   "q": {
+    "en": "Consider the following about the drought situation in Andhra Pradesh (Nov 2026). Which is/are correct?",
+    "te": "ఆంధ్రప్రదేశ్‌లో కరవు పరిస్థితి (నవం 2026) గురించి కింది వాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. 412 mandals in 21 districts have been declared drought-affected.",
+     "te": "I. 21 జిల్లాల్లోని 412 మండలాలు కరవు ప్రభావితంగా ప్రకటించారు."
+    },
+    {
+     "en": "II. The central team (IMCT) toured only coastal districts.",
+     "te": "II. కేంద్ర బృందం (IMCT) కోస్తా జిల్లాల్లో మాత్రమే పర్యటించింది."
+    },
+    {
+     "en": "III. The CM asked for 200 days of work under the VB-G RAM G scheme.",
+     "te": "III. VB-G RAM G పథకంలో 200 రోజుల పని కావాలని సీఎం కోరారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct. II is wrong: the IMCT visited Kurnool, Nandyal, Anantapur and Sri Sathya Sai — all Rayalaseema districts, not coastal.",
+    "te": "I, III సరైనవి. II తప్పు: IMCT కర్నూలు, నంద్యాల, అనంతపురం, శ్రీ సత్యసాయి — అన్నీ రాయలసీమ జిల్లాలు — సందర్శించింది, కోస్తా కాదు."
+   }
+  },
+  {
+   "topic": "tirumala",
+   "q": {
+    "en": "About the inscription recently copied by ASI at Tirumala temple, which of the following is INCORRECT?",
+    "te": "తిరుమల ఆలయంలో ఇటీవల ASI నకలు తీసిన శాసనం గురించి కింది వాటిలో ఏది తప్పు?"
+   },
+   "o": [
+    {
+     "en": "It is written in Tamil",
+     "te": "ఇది తమిళంలో ఉంది"
+    },
+    {
+     "en": "It belongs to the reign of Krishnadevaraya",
+     "te": "ఇది శ్రీకృష్ణదేవరాయల పాలన కాలం నాటిది"
+    },
+    {
+     "en": "The donor was a commander at Chandragiri Fort",
+     "te": "దాత చంద్రగిరి కోటలో సైన్యాధిపతి"
+    },
+    {
+     "en": "It records a deposit in the temple treasury for food offerings",
+     "te": "నైవేద్యాల కోసం ఆలయ భాండారంలో డిపాజిట్‌ను నమోదు చేస్తుంది"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "(b) is incorrect: the inscription is of Achyutadevaraya, Krishnadevaraya's successor (Tuluva dynasty). The trap is the more famous name. The other three are true.",
+    "te": "(b) తప్పు: శాసనం అచ్యుతదేవరాయలది — శ్రీకృష్ణదేవరాయల తర్వాతి రాజు (తుళువ వంశం). ప్రసిద్ధ పేరే ఇక్కడ ట్రాప్. మిగతా మూడు సరైనవి."
+   }
+  },
+  {
+   "topic": "apdsc",
+   "q": {
+    "en": "Consider the following about AP DSC-2026 (APTRT-2026). Which is/are correct?",
+    "te": "ఏపీ డీఎస్సీ-2026 (APTRT-2026) గురించి కింది వాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. It notifies 2,721 posts in total.",
+     "te": "I. మొత్తం 2,721 పోస్టులు."
+    },
+    {
+     "en": "II. 350 of the posts are for special education.",
+     "te": "II. వాటిలో 350 ప్రత్యేక విద్య పోస్టులు."
+    },
+    {
+     "en": "III. The exam is a pen-and-paper (OMR) test.",
+     "te": "III. పరీక్ష పెన్-పేపర్ (OMR) విధానంలో."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and II are correct (2,721 posts; 150 SA + 200 SGT special education = 350). III is wrong: it is a computer-based test (CBT).",
+    "te": "I, II సరైనవి (2,721 పోస్టులు; 150 SA + 200 SGT ప్రత్యేక విద్య = 350). III తప్పు: ఇది కంప్యూటర్ ఆధారిత పరీక్ష (CBT)."
+   }
+  },
+  {
+   "topic": "twochild",
+   "q": {
+    "en": "With reference to the Supreme Court's 4 Nov 2026 judgment on the two-child norm, consider:",
+    "te": "ఇద్దరు పిల్లల నిబంధనపై సుప్రీంకోర్టు 4 నవం 2026 తీర్పుకు సంబంధించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It overruled Javed v. State of Haryana (2003).",
+     "te": "I. ఇది జావేద్ వర్సెస్ హరియాణా (2003) తీర్పును కొట్టివేసింది."
+    },
+    {
+     "en": "II. It noted India's TFR is now below the replacement level of 2.1.",
+     "te": "II. దేశ TFR ఇప్పుడు భర్తీ స్థాయి 2.1 కంటే తక్కువగా ఉందని పేర్కొంది."
+    },
+    {
+     "en": "III. The case arose from a Maharashtra village panchayat law.",
+     "te": "III. ఈ కేసు మహారాష్ట్ర గ్రామ పంచాయతీ చట్టం నుంచి వచ్చింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "II and III are correct. I is the trap: a two-judge bench cannot overrule a three-judge ruling, so Javed was REFERRED to a larger bench.",
+    "te": "II, III సరైనవి. I ట్రాప్: ఇద్దరు న్యాయమూర్తుల ధర్మాసనం ముగ్గురి తీర్పును కొట్టివేయలేదు; అందుకే జావేద్‌ను విస్తృత ధర్మాసనానికి పంపింది."
+   }
+  },
+  {
+   "topic": "cecimmunity",
+   "q": {
+    "en": "Match List-I with List-II:",
+    "te": "జాబితా-I ని జాబితా-II తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. Article 324 — 1. Immunity to CEC and ECs",
+     "te": "A. ఆర్టికల్ 324 — 1. సీఈసీ, ఈసీలకు రక్షణ"
+    },
+    {
+     "en": "B. Section 16, 2023 Act — 2. Disqualification rules for panchayat members",
+     "te": "B. సెక్షన్ 16, 2023 చట్టం — 2. పంచాయతీ సభ్యుల అనర్హతలు"
+    },
+    {
+     "en": "C. Article 243F — 3. Election Commission of India",
+     "te": "C. ఆర్టికల్ 243F — 3. భారత ఎన్నికల సంఘం"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-3, B-1, C-2",
+     "te": "A-3, B-1, C-2"
+    },
+    {
+     "en": "A-1, B-3, C-2",
+     "te": "A-1, B-3, C-2"
+    },
+    {
+     "en": "A-3, B-2, C-1",
+     "te": "A-3, B-2, C-1"
+    },
+    {
+     "en": "A-2, B-1, C-3",
+     "te": "A-2, B-1, C-3"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Article 324 = ECI; Section 16 of the CEC & ECs Act, 2023 = immunity now challenged in the SC; Article 243F = disqualifications for panchayat membership (linked to the two-child norm case).",
+    "te": "ఆర్టికల్ 324 = ఈసీఐ; సీఈసీ & ఈసీల చట్టం, 2023 సెక్షన్ 16 = ఇప్పుడు సవాలు చేసిన రక్షణ; ఆర్టికల్ 243F = పంచాయతీ సభ్యత్వ అనర్హతలు (ఇద్దరు పిల్లల కేసుకు లింక్)."
+   }
+  },
+  {
+   "topic": "agniveer",
+   "q": {
+    "en": "Consider the following about the change in the Agnipath scheme approved on 4 Nov 2026:",
+    "te": "4 నవం 2026న ఆమోదించిన అగ్నిపథ్ పథకం మార్పు గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The retention of 25% Agniveers for regular service has been raised to 75%.",
+     "te": "I. రెగ్యులర్ సర్వీసుకు 25% అగ్నివీరుల రిటెన్షన్‌ను 75%కి పెంచారు."
+    },
+    {
+     "en": "II. Agniveers not retained can opt for a 2-year extension on merit.",
+     "te": "II. రిటెయిన్ కాని అగ్నివీరులు ప్రతిభ ఆధారంగా 2 ఏళ్ల పొడిగింపు ఎంచుకోవచ్చు."
+    },
+    {
+     "en": "III. With the extension, an Agniveer can serve up to 6 years.",
+     "te": "III. పొడిగింపుతో అగ్నివీర్ 6 ఏళ్ల వరకు సేవ చేయవచ్చు."
+    }
+   ],
+   "o": [
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "II and III are correct. I is wrong: the 25% retention rule is unchanged; the remaining 75% get the optional extension (4 + 2 = 6 years).",
+    "te": "II, III సరైనవి. I తప్పు: 25% రిటెన్షన్ మారలేదు; మిగిలిన 75% మందికి ఐచ్ఛిక పొడిగింపు (4 + 2 = 6 ఏళ్లు)."
+   }
+  },
+  {
+   "topic": "ftsc",
+   "q": {
+    "en": "About the Fast Track Special Courts (FTSC) scheme extended till 2031, which is/are correct?",
+    "te": "2031 వరకు పొడిగించిన ఫాస్ట్ ట్రాక్ ప్రత్యేక కోర్టుల (FTSC) పథకం గురించి ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. It is a central sector scheme fully funded by the Centre.",
+     "te": "I. ఇది పూర్తిగా కేంద్రం నిధులతో నడిచే కేంద్ర రంగ పథకం."
+    },
+    {
+     "en": "II. The Central share comes from the Nirbhaya Fund.",
+     "te": "II. కేంద్ర వాటా నిర్భయ నిధి నుంచి వస్తుంది."
+    },
+    {
+     "en": "III. The number of courts will rise from 779 to 850.",
+     "te": "III. కోర్టుల సంఖ్య 779 నుంచి 850కి పెరుగుతుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "II and III are correct. I is wrong: FTSC is a Centrally SPONSORED scheme — Centre ₹2,353.15 cr + States/UTs ₹1,434.89 cr.",
+    "te": "II, III సరైనవి. I తప్పు: FTSC కేంద్ర ప్రాయోజిత పథకం — కేంద్రం ₹2,353.15 కో. + రాష్ట్రాలు/యూటీలు ₹1,434.89 కో."
+   }
+  },
+  {
+   "topic": "vistar",
+   "q": {
+    "en": "With reference to VISTAR, consider the following:",
+    "te": "VISTAR గురించి కింది వాటిని పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It is implemented by the Ministry of Statistics and Programme Implementation (MoSPI).",
+     "te": "I. దీనిని గణాంకాలు & కార్యక్రమాల అమలు మంత్రిత్వ శాఖ (MoSPI) అమలు చేస్తుంది."
+    },
+    {
+     "en": "II. It includes the 8th Economic Census.",
+     "te": "II. ఇందులో 8వ ఆర్థిక గణన ఉంది."
+    },
+    {
+     "en": "III. It will conduct Census 2027 (population census).",
+     "te": "III. ఇది జనగణన 2027 (జనాభా గణన) నిర్వహిస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and II are correct. III is the trap: the population Census is done by the Registrar General & Census Commissioner (MHA); VISTAR covers the ECONOMIC Census.",
+    "te": "I, II సరైనవి. III ట్రాప్: జనాభా గణనను రిజిస్ట్రార్ జనరల్ & సెన్సస్ కమిషనర్ (హోంశాఖ) చేస్తారు; VISTARలో ఉన్నది ఆర్థిక గణన."
+   }
+  },
+  {
+   "topic": "storage",
+   "q": {
+    "en": "Arrange the components of the 92 GWh energy-storage target in DESCENDING order of capacity:",
+    "te": "92 GWh ఇంధన నిల్వ లక్ష్యంలోని భాగాలను సామర్థ్యం ఆధారంగా అవరోహణ క్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "1. Battery Energy Storage (BESS)",
+     "te": "1. బ్యాటరీ ఇంధన నిల్వ (BESS)"
+    },
+    {
+     "en": "2. Pumped Storage Projects (PSP)",
+     "te": "2. పంప్డ్ స్టోరేజ్ ప్రాజెక్టులు (PSP)"
+    },
+    {
+     "en": "3. Other technologies",
+     "te": "3. ఇతర సాంకేతికతలు"
+    }
+   ],
+   "o": [
+    {
+     "en": "1 – 2 – 3",
+     "te": "1 – 2 – 3"
+    },
+    {
+     "en": "2 – 3 – 1",
+     "te": "2 – 3 – 1"
+    },
+    {
+     "en": "2 – 1 – 3",
+     "te": "2 – 1 – 3"
+    },
+    {
+     "en": "1 – 3 – 2",
+     "te": "1 – 3 – 2"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "PSP 60 GWh > BESS 30 GWh > other 2 GWh. Trap: batteries are in the news more, but pumped storage gets twice the capacity.",
+    "te": "PSP 60 GWh > BESS 30 GWh > ఇతర 2 GWh. ట్రాప్: బ్యాటరీలు వార్తల్లో ఎక్కువ, కానీ పంప్డ్ స్టోరేజ్‌కు రెట్టింపు సామర్థ్యం."
+   }
+  },
+  {
+   "topic": "vayuyan",
+   "q": {
+    "en": "Consider the following about the Bharatiya Vayuyan Niyam, 2026:",
+    "te": "భారతీయ వాయుయాన్ నియమాలు, 2026 గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. They are rules made under the Bharatiya Vayuyan Adhiniyam, 2024.",
+     "te": "I. ఇవి భారతీయ వాయుయాన్ అధినియం, 2024 కింద చేసిన నియమాలు."
+    },
+    {
+     "en": "II. They replace the Aircraft Rules, 1937.",
+     "te": "II. ఇవి ఎయిర్‌క్రాఫ్ట్ రూల్స్, 1937 స్థానంలో వస్తాయి."
+    },
+    {
+     "en": "III. They came into force on the day of notification.",
+     "te": "III. నోటిఫికేషన్ రోజు నుంచే అమల్లోకి వచ్చాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and II are correct. III is wrong: the rules take effect from 1 January 2027, not on notification.",
+    "te": "I, II సరైనవి. III తప్పు: ఈ నియమాలు 1 జనవరి 2027 నుంచి అమల్లోకి వస్తాయి, నోటిఫికేషన్ రోజు నుంచి కాదు."
+   }
+  }
+ ]
+}
