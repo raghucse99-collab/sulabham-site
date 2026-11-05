@@ -5,24 +5,24 @@
   "latest_results": {
     "time-bazar": {
       "name": "Time Bazar",
-      "result": "139-3",
+      "result": "139-31-579",
       "source": "https://dpbossss.com/",
       "source_label": "TIME BAZAR",
-      "result_changed_at": "2026-11-05T08:25:16+00:00"
+      "result_changed_at": "2026-11-05T10:04:04+00:00"
     },
     "milan-day": {
       "name": "Milan Day",
-      "result": "580-37-566",
+      "result": "447-5",
       "source": "https://dpbossss.com/",
       "source_label": "MILAN DAY",
-      "result_changed_at": "2026-11-04T15:20:10+00:00"
+      "result_changed_at": "2026-11-05T10:04:04+00:00"
     },
     "rajdhani-day": {
       "name": "Rajdhani Day",
-      "result": "479-07-467",
+      "result": "345-2",
       "source": "https://dpbossss.com/",
       "source_label": "RAJDHANI DAY",
-      "result_changed_at": "2026-11-04T15:20:10+00:00"
+      "result_changed_at": "2026-11-05T10:04:04+00:00"
     },
     "kalyan": {
       "name": "Kalyan",
@@ -74,7 +74,7 @@
       "result_changed_at": "2026-11-04T15:20:10+00:00"
     }
   },
-  "live_fetched_at": "2026-11-05T08:25:16+00:00",
+  "live_fetched_at": "2026-11-05T10:04:04+00:00",
   "live_source": "https://dpbossss.com/",
   "live_status": "ok",
   "charts": {
