@@ -678,8 +678,8 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
 <footer class="foot"><span>DP 777 · Historical chart archive</span><span id="sourceNote">Data source and last update shown when available.</span></footer>
 </main>
 <script>
-const DATA_URLS=['data/results.json','https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham@main/dp777/data/results.json','https://raw.githubusercontent.com/raghucse99-collab/sulabham/main/dp777/data/results.json'];
-const LIVE_DATA_URLS=['https://raw.githubusercontent.com/raghucse99-collab/sulabham/main/dp777/data/latest_results.json','https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham@main/dp777/data/latest_results.json'];
+const DATA_URLS=['data/results.json','https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham-site@main/dp777/data/results.json','https://raw.githubusercontent.com/raghucse99-collab/sulabham-site/main/dp777/data/results.json'];
+const LIVE_DATA_URLS=['https://raw.githubusercontent.com/raghucse99-collab/sulabham-site/main/dp777/data/latest_results.json','https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham-site@main/dp777/data/latest_results.json'];
 let liveData={latest_results:{},live_fetched_at:null,live_source:'https://dpbossg.mobi/',live_status:'loading'};
 function chartKeyFor(id){return id==='sridevi'?'sridevi-day':id==='sridevi-night'?'sridevi':id;}
 const markets=[
@@ -1135,7 +1135,7 @@ async function fetchData(marketId=selected){
  const file=encodeURIComponent(key)+'.json';
  // Try the page-relative path first (works with GitHub project Pages), then
  // explicit project URL and raw GitHub/CDN mirrors as independent fallbacks.
- const sources=['data/charts/'+file,'/sulabham/dp777/data/charts/'+file,'https://raghucse99-collab.github.io/sulabham/dp777/data/charts/'+file,'https://raw.githubusercontent.com/raghucse99-collab/sulabham/main/dp777/data/charts/'+file,'https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham@main/dp777/data/charts/'+file,...DATA_URLS];
+ const sources=['data/charts/'+file,'/sulabham/dp777/data/charts/'+file,'https://raghucse99-collab.github.io/sulabham-site/dp777/data/charts/'+file,'https://raw.githubusercontent.com/raghucse99-collab/sulabham-site/main/dp777/data/charts/'+file,'https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham-site@main/dp777/data/charts/'+file,...DATA_URLS];
  for(const base of sources){
   const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),12000);
   try{
@@ -1162,7 +1162,7 @@ async function refreshLiveResults(){
    liveData=parsed;liveData.live_status=parsed.live_status||'ok';
    const ids=[...new Set(markets.filter(m=>m.showLive!==false).map(m=>chartKeyFor(m.id)))];
    const loaded=await Promise.all(ids.map(async key=>{
-    const urls=['https://raw.githubusercontent.com/raghucse99-collab/sulabham/main/dp777/data/charts/'+encodeURIComponent(key)+'.json','https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham@main/dp777/data/charts/'+encodeURIComponent(key)+'.json'];
+    const urls=['https://raw.githubusercontent.com/raghucse99-collab/sulabham-site/main/dp777/data/charts/'+encodeURIComponent(key)+'.json','https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham-site@main/dp777/data/charts/'+encodeURIComponent(key)+'.json'];
     for(const url of urls){try{const response=await fetch(url+'?v='+Date.now(),{cache:'no-store'});if(!response.ok)continue;const payload=await response.json();const chart=payload?.charts?.[key]||(payload?.rows?payload:null);if(chart&&Array.isArray(chart.rows))return [key,chart];}catch(e){}}
     return [key,null];
    }));
