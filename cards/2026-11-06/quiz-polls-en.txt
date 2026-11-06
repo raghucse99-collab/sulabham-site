@@ -1,0 +1,226 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-06 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about the Indian satyagraha of 1913 in South Africa:
+I. In March 1913 the Searle judgment refused to recognise Hindu and Muslim marriages.
+II. The Newcastle campaign was against the £3 tax on ex-indentured Indians.
+III. The Great March began on 6 November 1906.
+IV. 2,037 men, 127 women and 57 children took part in the march.
+
+--- QUESTION ---
+Q1. Consider the following statements about the Indian satyagraha of 1913 in South Africa: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the march began on 6 Nov 1913; 1906 is when satyagraha in South Africa began.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Which of the following statements is/are INCORRECT?
+I. The Smuts–Gandhi Agreement was signed in January 1913, before the Great March.
+II. The Indian Relief Act, 1914 abolished the £3 tax.
+III. Gandhi left South Africa in July 1914 and reached India in January 1915.
+
+--- QUESTION ---
+Q2. Which of the following statements is/are INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) II only
+(b) I and III only
+(c) I only
+(d) II and III only
+
+--- CORRECT (tick this) ---
+(c) I only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Only I is incorrect: the Smuts–Gandhi Agreement is dated 30 June 1914, after the march.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements about the International Day observed on 6 November:
+I. It aims at preventing the exploitation of the environment in war and armed conflict.
+II. It was declared through UN General Assembly resolution A/RES/56/4.
+III. It was declared when Ban Ki-moon was UN Secretary-General.
+
+--- QUESTION ---
+Q3. Consider the following statements about the International Day observed on 6 November: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: it was declared in 2001, during Kofi Annan's tenure.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. According to UNEP, consider the following about conflicts and natural resources:
+I. At least 40% of internal conflicts in the last 60 years were linked to natural resources.
+II. Resource-linked conflicts are twice as likely to relapse.
+III. Environmental action is therefore part of conflict prevention and peacebuilding.
+IV. The UN has announced an official theme for this Day in 2026.
+
+--- QUESTION ---
+Q4. According to UNEP, consider the following about conflicts and natural resources: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) I, II, III and IV
+(d) I, II and III only
+
+--- CORRECT (tick this) ---
+(d) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: no official theme has been announced for 2026.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Consider the following statements based on NFHS-5 and nutrition surveys:
+I. NFHS-5 (2019-21) found 57.0% of women aged 15–49 anaemic.
+II. NFHS-5 found 67.1% of children aged 6–59 months anaemic.
+III. The Comprehensive National Nutrition Survey was conducted in 2019-21.
+
+--- QUESTION ---
+Q5. Consider the following statements based on NFHS-5 and nutrition surveys: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: CNNS was 2016-18; 2019-21 is NFHS-5.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. A district plans to give Double Fortified Salt to everyone. Based on The Hindu article, which of the following are valid concerns?
+I. Indians already eat about twice the WHO limit of 5 g of salt a day.
+II. Thalassaemia carriers may face iron overload.
+III. Tea, coffee and milk improve the absorption of non-haem iron.
+IV. Fortified rice and IFA tablets already supply iron, so total exposure is unknown.
+
+--- QUESTION ---
+Q6. A district plans to give Double Fortified Salt to everyone. Based on The Hindu article, which of the following are valid concerns? (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and IV only
+(b) I and III only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: polyphenols (tea, coffee) and calcium (milk) BLOCK iron absorption.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following statements about India's Carbon Credit Trading Scheme (CCTS):
+I. It was launched in 2023 under the Energy Conservation (Amendment) Act, 2022.
+II. It has both a compliance mechanism and an offset mechanism.
+III. Its offsets accept projects started at any time before 2025.
+IV. The UK recognised India's CCTS in August 2026.
+
+--- QUESTION ---
+Q7. Consider the following statements about India's Carbon Credit Trading Scheme (CCTS): (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II, III and IV only
+(c) I, II, III and IV
+(d) I, II and IV only
+
+--- CORRECT (tick this) ---
+(d) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: India accepts only offset projects started after 1 January 2025.
+
+==================== Q8 ====================
+--- QUESTION ---
+Q8. Match List-I (item) with List-II (fact) — A. EU CBAM  B. Brazil's SBCE  C. Article 6.2  D. 18th BRICS Summit; 1. Absolute emission cap  2. Definitive phase from January 2026  3. New Delhi, 12 Sept 2026  4. Paris Agreement route for transferring units
+
+--- OPTIONS ---
+(a) A-1, B-2, C-4, D-3
+(b) A-2, B-1, C-4, D-3
+(c) A-2, B-1, C-3, D-4
+(d) A-4, B-1, C-2, D-3
+
+--- CORRECT (tick this) ---
+(b) A-2, B-1, C-4, D-3
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+CBAM = EU, definitive Jan 2026; Brazil = absolute cap; Article 6.2 = transfers; summit = New Delhi. Trap: (a) swaps CBAM and Brazil.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Consider the following statements about Swachh Bharat Mission (Grameen) Phase-II:
+I. Its approved outlay is ₹1,40,881 crore.
+II. Over 96% of villages had attained ODF Plus status by 31 December 2025.
+III. The Centre:State share for north-eastern and Himalayan States is 60:40.
+
+--- QUESTION ---
+Q9. Consider the following statements about Swachh Bharat Mission (Grameen) Phase-II: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: NE and Himalayan States (incl. J&K) get 90:10; 60:40 is for other States.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. A village is ODF, manages its solid waste but has no system for greywater. Which statements are correct?
+I. It qualifies as an 'Aspiring' ODF Plus village.
+II. It qualifies as a 'Model' ODF Plus village.
+III. To become 'Rising' it must also manage liquid waste.
+
+--- QUESTION ---
+Q10. A village is ODF, manages its solid waste but has no system for greywater. Which statements are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) II only
+(d) I and III only
+
+--- CORRECT (tick this) ---
+(d) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: 'Model' needs both solid and liquid waste management plus visual cleanliness.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-06&tab=quiz

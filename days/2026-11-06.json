@@ -1,0 +1,2022 @@
+{
+ "date": "2026-11-06",
+ "day": {
+  "en": "Friday, 6 November 2026",
+  "te": "శుక్రవారం, 6 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Indentured",
+   "en": "bound by a contract to work for an employer for a fixed number of years",
+   "te": "నిర్ణీత కాలం పని చేసేలా ఒప్పందంతో కట్టుబడిన (ఒప్పంద కూలీ)",
+   "ex": "Ex-indentured Indians in Natal had to pay a £3 tax, which sparked the Great March of 1913.",
+   "topic": "greatmarch"
+  },
+  {
+   "w": "Relapse",
+   "en": "to fall back into a bad state after an improvement",
+   "te": "మెరుగుపడిన తర్వాత మళ్లీ పాత దుస్థితిలోకి జారడం",
+   "ex": "UNEP says conflicts linked to natural resources are twice as likely to relapse.",
+   "topic": "envwar"
+  },
+  {
+   "w": "Fortification",
+   "en": "adding vitamins or minerals to food to make it more nutritious",
+   "te": "ఆహారానికి విటమిన్లు/ఖనిజాలు కలిపి పోషక విలువ పెంచడం",
+   "ex": "The Hindu article warns that universal iron fortification of salt may conflict with salt-reduction goals.",
+   "topic": "anaemia"
+  },
+  {
+   "w": "Harmonise",
+   "en": "to make different rules or systems consistent with each other",
+   "te": "వేర్వేరు నియమాలు/వ్యవస్థల మధ్య పొంతన కుదర్చడం",
+   "ex": "The op-ed asks BRICS to harmonise emission measurement and verification rules first.",
+   "topic": "ccts"
+  },
+  {
+   "w": "Greywater",
+   "en": "used water from kitchens, baths and washing (not from toilets)",
+   "te": "వంటగది, స్నానం, బట్టలు ఉతకడం నుంచి వచ్చే వాడిన నీరు (మరుగుదొడ్డి నీరు కాదు)",
+   "ex": "Under ODF Plus, villages must manage greywater through soak pits and drains.",
+   "topic": "sbmg"
+  }
+ ],
+ "items": [
+  {
+   "id": "greatmarch",
+   "kind": "day",
+   "color": "#9b2c2c",
+   "icon": "calendar",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "tag": {
+    "en": "On this day · 6 Nov 1913",
+    "te": "చరిత్రలో ఈరోజు · 6 నవంబర్ 1913"
+   },
+   "title": {
+    "en": "Gandhi's Great March in South Africa (1913)",
+    "te": "దక్షిణాఫ్రికాలో గాంధీ 'గ్రేట్ మార్చ్' (1913)"
+   },
+   "line": {
+    "en": "On this day in 1913, Gandhi led over 2,000 Indian workers from Natal into the Transvaal against the £3 tax — the climax of his South African satyagraha.",
+    "te": "1913లో ఈరోజే £3 పన్నుకు వ్యతిరేకంగా గాంధీ 2,000 మందికి పైగా భారతీయ కార్మికులతో నాటాల్ నుంచి ట్రాన్స్‌వాల్‌లోకి కవాతు చేశారు — దక్షిణాఫ్రికా సత్యాగ్రహంలో ఇదే శిఖర ఘట్టం."
+   },
+   "easy": [
+    {
+     "en": "Many Indians went to South Africa as indentured labourers — workers bound by a contract for some years. Ex-indentured Indians who stayed on in Natal had to pay a £3 tax. Then in March 1913 Justice Searle of the Cape Supreme Court refused to recognise Hindu and Muslim marriages, so Indian wives were treated as not legally married.",
+     "te": "చాలా మంది భారతీయులు ఒప్పంద (ఇండెంచర్డ్) కూలీలుగా దక్షిణాఫ్రికా వెళ్లారు — అంటే కొన్నేళ్లు ఒప్పందంతో కట్టుబడిన కార్మికులు. ఒప్పందం ముగిసినా నాటాల్‌లోనే ఉండిపోయిన భారతీయులు £3 పన్ను కట్టాల్సి వచ్చేది. 1913 మార్చిలో కేప్ సుప్రీంకోర్టు న్యాయమూర్తి సెర్ల్ హిందూ, ముస్లిం వివాహాలను గుర్తించడానికి నిరాకరించారు — దీంతో భారతీయ భార్యలు చట్టపరంగా భార్యలు కానట్లయింది."
+    },
+    {
+     "en": "Gandhi restarted satyagraha. On 13 October 1913 a campaign began at Newcastle (Natal) against the £3 tax. Coal miners struck work from 16 October, and in two weeks 4,000–5,000 miners had downed their tools.",
+     "te": "గాంధీ మళ్లీ సత్యాగ్రహం ప్రారంభించారు. 1913 అక్టోబర్ 13న £3 పన్నుకు వ్యతిరేకంగా న్యూకాజిల్ (నాటాల్)లో ఉద్యమం మొదలైంది. అక్టోబర్ 16 నుంచి బొగ్గు గని కార్మికులు సమ్మె చేశారు; రెండు వారాల్లో 4,000–5,000 మంది పని ఆపేశారు."
+    },
+    {
+     "en": "On 6 November 1913 at 6.30 am, 2,037 men, 127 women and 57 children marched from Charlestown across the border into the Transvaal, aiming for Tolstoy Farm. Gandhi was arrested and bailed three times on the way, but the march went on. It led to the Smuts–Gandhi Agreement (30 June 1914) and the Indian Relief Act, 1914.",
+     "te": "1913 నవంబర్ 6 ఉదయం 6.30కి 2,037 మంది పురుషులు, 127 మంది మహిళలు, 57 మంది పిల్లలు చార్లెస్‌టౌన్ నుంచి సరిహద్దు దాటి ట్రాన్స్‌వాల్‌లోకి కవాతు ప్రారంభించారు; లక్ష్యం టాల్‌స్టాయ్ ఫార్మ్. దారిలో గాంధీని మూడుసార్లు అరెస్టు చేసి బెయిల్‌పై విడిచారు, అయినా కవాతు ఆగలేదు. దీని ఫలితమే స్మట్స్–గాంధీ ఒప్పందం (30 జూన్ 1914), భారతీయ ఉపశమన చట్టం (Indian Relief Act), 1914."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Date & start",
+      "te": "తేదీ & ప్రారంభం"
+     },
+     {
+      "en": "6 Nov 1913, 6.30 am — from Charlestown (Natal) into the Transvaal",
+      "te": "6 నవంబర్ 1913, ఉదయం 6.30 — చార్లెస్‌టౌన్ (నాటాల్) నుంచి ట్రాన్స్‌వాల్‌లోకి"
+     }
+    ],
+    [
+     {
+      "en": "Marchers",
+      "te": "కవాతులో పాల్గొన్నవారు"
+     },
+     {
+      "en": "2,037 men, 127 women, 57 children",
+      "te": "2,037 పురుషులు, 127 మహిళలు, 57 పిల్లలు"
+     }
+    ],
+    [
+     {
+      "en": "Causes",
+      "te": "కారణాలు"
+     },
+     {
+      "en": "£3 tax on ex-indentured Indians; Searle judgment (March 1913) — Hindu & Muslim marriages not recognised",
+      "te": "ఒప్పందం ముగిసిన భారతీయులపై £3 పన్ను; సెర్ల్ తీర్పు (మార్చి 1913) — హిందూ, ముస్లిం వివాహాలకు గుర్తింపు లేదు"
+     }
+    ],
+    [
+     {
+      "en": "Newcastle strike",
+      "te": "న్యూకాజిల్ సమ్మె"
+     },
+     {
+      "en": "Campaign from 13 Oct 1913; strike from 16 Oct; 4,000–5,000 miners",
+      "te": "ఉద్యమం 13 అక్టోబర్ 1913 నుంచి; సమ్మె 16 అక్టోబర్ నుంచి; 4,000–5,000 గని కార్మికులు"
+     }
+    ],
+    [
+     {
+      "en": "Gandhi's arrests",
+      "te": "గాంధీ అరెస్టులు"
+     },
+     {
+      "en": "Palmford (first night) → bail at Volksrust → re-arrested at Standerton on the 8th; arrested and bailed 3 times",
+      "te": "పామ్‌ఫోర్డ్ (మొదటి రాత్రి) → వోక్స్‌రస్ట్‌లో బెయిల్ → 8వ తేదీన స్టాండర్టన్‌లో మళ్లీ అరెస్టు; మొత్తం 3 సార్లు అరెస్టు, బెయిల్"
+     }
+    ],
+    [
+     {
+      "en": "Result",
+      "te": "ఫలితం"
+     },
+     {
+      "en": "Smuts–Gandhi Agreement (30 June 1914) → Indian Relief Act (July 1914): £3 tax abolished, Hindu & Muslim marriages recognised",
+      "te": "స్మట్స్–గాంధీ ఒప్పందం (30 జూన్ 1914) → భారతీయ ఉపశమన చట్టం (జూలై 1914): £3 పన్ను రద్దు, హిందూ–ముస్లిం వివాహాలకు గుర్తింపు"
+     }
+    ],
+    [
+     {
+      "en": "Leaves South Africa",
+      "te": "దక్షిణాఫ్రికా వీడ్కోలు"
+     },
+     {
+      "en": "18 July 1914 from Cape Town (to England) → India in January 1915",
+      "te": "18 జూలై 1914 కేప్‌టౌన్ నుంచి (ఇంగ్లండ్‌కు) → జనవరి 1915లో భారత్‌కు"
+     }
+    ],
+    [
+     {
+      "en": "Satyagraha in SA",
+      "te": "దక్షిణాఫ్రికాలో సత్యాగ్రహం"
+     },
+     {
+      "en": "1906 to 1914",
+      "te": "1906 నుంచి 1914 వరకు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Gandhi in South Africa",
+     "te": "లింక్ చెయిన్ · దక్షిణాఫ్రికాలో గాంధీ"
+    },
+    "l": [
+     {
+      "en": "Gokhale's visit (Oct–Nov 1912) failed to get a settlement — so satyagraha resumed in 1913",
+      "te": "గోఖలే పర్యటన (అక్టోబర్–నవంబర్ 1912) పరిష్కారం తేలేకపోయింది — అందుకే 1913లో సత్యాగ్రహం మళ్లీ మొదలైంది"
+     },
+     {
+      "en": "Kasturba led a group of 16 satyagrahis; sentenced on 23 Sept 1913 to three months' imprisonment",
+      "te": "కస్తూర్బా 16 మంది సత్యాగ్రహుల బృందానికి నాయకత్వం వహించారు; 23 సెప్టెంబర్ 1913న మూడు నెలల జైలు శిక్ష"
+     },
+     {
+      "en": "Gandhi called the Indian Relief Act the 'Magna Carta of Indian liberty' in South Africa",
+      "te": "భారతీయ ఉపశమన చట్టాన్ని గాంధీ దక్షిణాఫ్రికాలో 'భారతీయుల స్వేచ్ఛకు మాగ్నా కార్టా' అన్నారు"
+     },
+     {
+      "en": "Back in India, the same method was used at Champaran (1917) — his first satyagraha in India",
+      "te": "భారత్‌కు తిరిగొచ్చాక ఇదే పద్ధతిని చంపారన్‌ (1917)లో వాడారు — భారత్‌లో ఆయన తొలి సత్యాగ్రహం"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Satyagraha in South Africa ran from 1906 to 1914 — the Great March is 1913, not 1906. The Smuts–Gandhi Agreement is dated 30 June 1914; the Searle judgment (on marriages) came from the Cape Supreme Court in March 1913. Gandhi left South Africa in July 1914 and reached India in January 1915.",
+    "te": "దక్షిణాఫ్రికా సత్యాగ్రహం 1906–1914 — గ్రేట్ మార్చ్ 1913లో, 1906లో కాదు. స్మట్స్–గాంధీ ఒప్పందం తేదీ 30 జూన్ 1914; వివాహాలపై సెర్ల్ తీర్పు 1913 మార్చిలో కేప్ సుప్రీంకోర్టుది. గాంధీ 1914 జూలైలో దక్షిణాఫ్రికా వీడి, 1915 జనవరిలో భారత్ చేరారు."
+   },
+   "tip": {
+    "en": "Remember '3 + 3': the £3 tax, and Gandhi arrested 3 times on the march.",
+    "te": "'3 + 3' గుర్తుంచుకోండి: £3 పన్ను, కవాతులో గాంధీ 3 సార్లు అరెస్టు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Gandhi's Great March of November 1913 in South Africa, consider the following statements:",
+     "te": "1913 నవంబర్‌లో దక్షిణాఫ్రికాలో గాంధీ చేపట్టిన గ్రేట్ మార్చ్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It was a protest against the £3 tax imposed on ex-indentured Indians.",
+      "te": "I. ఒప్పందం ముగిసిన భారతీయులపై విధించిన £3 పన్నుకు వ్యతిరేకంగా ఇది జరిగింది."
+     },
+     {
+      "en": "II. The marchers crossed from the Transvaal into Natal.",
+      "te": "II. కవాతుదారులు ట్రాన్స్‌వాల్ నుంచి నాటాల్‌లోకి ప్రవేశించారు."
+     },
+     {
+      "en": "III. It was followed by the Indian Relief Act, 1914.",
+      "te": "III. దీని తర్వాత భారతీయ ఉపశమన చట్టం, 1914 వచ్చింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II is wrong: the march went the other way — from Charlestown (Natal) into the Transvaal.",
+     "te": "II తప్పు: కవాతు వ్యతిరేక దిశలో జరిగింది — చార్లెస్‌టౌన్ (నాటాల్) నుంచి ట్రాన్స్‌వాల్‌లోకి."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Satyagraha in South Africa — key dates",
+      "te": "దక్షిణాఫ్రికా సత్యాగ్రహం — ముఖ్య తేదీలు"
+     },
+     "items": [
+      {
+       "y": "1906",
+       "t": {
+        "en": "Satyagraha campaign begins",
+        "te": "సత్యాగ్రహ ఉద్యమం ప్రారంభం"
+       }
+      },
+      {
+       "y": "1912",
+       "t": {
+        "en": "Gokhale's visit — no settlement",
+        "te": "గోఖలే పర్యటన — పరిష్కారం లేదు"
+       }
+      },
+      {
+       "y": "Mar 1913",
+       "t": {
+        "en": "Searle judgment: Indian marriages not recognised",
+        "te": "సెర్ల్ తీర్పు: భారతీయ వివాహాలకు గుర్తింపు లేదు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "16 Oct 1913",
+       "t": {
+        "en": "Newcastle miners' strike",
+        "te": "న్యూకాజిల్ గని కార్మికుల సమ్మె"
+       }
+      },
+      {
+       "y": "6 Nov 1913",
+       "t": {
+        "en": "Great March from Charlestown",
+        "te": "చార్లెస్‌టౌన్ నుంచి గ్రేట్ మార్చ్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "30 Jun 1914",
+       "t": {
+        "en": "Smuts–Gandhi Agreement",
+        "te": "స్మట్స్–గాంధీ ఒప్పందం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "Jul 1914",
+       "t": {
+        "en": "Indian Relief Act; Gandhi leaves (18 July)",
+        "te": "భారతీయ ఉపశమన చట్టం; గాంధీ నిష్క్రమణ (18 జూలై)"
+       }
+      },
+      {
+       "y": "Jan 1915",
+       "t": {
+        "en": "Gandhi returns to India",
+        "te": "గాంధీ భారత్‌కు తిరిగి రాక"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = most-asked dates.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే తేదీలు."
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "From grievance to victory",
+      "te": "సమస్య నుంచి విజయం వరకు"
+     },
+     "items": [
+      {
+       "i": "💷",
+       "t": {
+        "en": "£3 tax + Searle judgment on marriages",
+        "te": "£3 పన్ను + వివాహాలపై సెర్ల్ తీర్పు"
+       }
+      },
+      {
+       "i": "⛏️",
+       "t": {
+        "en": "Newcastle coal miners strike (Oct 1913)",
+        "te": "న్యూకాజిల్ బొగ్గు గని కార్మికుల సమ్మె (అక్టోబర్ 1913)"
+       }
+      },
+      {
+       "i": "🚶",
+       "t": {
+        "en": "Great March into Transvaal (6 Nov)",
+        "te": "ట్రాన్స్‌వాల్‌లోకి గ్రేట్ మార్చ్ (6 నవంబర్)"
+       }
+      },
+      {
+       "i": "⛓️",
+       "t": {
+        "en": "Arrests — marchers choose jail",
+        "te": "అరెస్టులు — జైలుకే సిద్ధమైన కవాతుదారులు"
+       }
+      },
+      {
+       "i": "📜",
+       "t": {
+        "en": "Indian Relief Act 1914: tax abolished, marriages valid",
+        "te": "భారతీయ ఉపశమన చట్టం 1914: పన్ను రద్దు, వివాహాలు చెల్లుబాటు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "M.K. Gandhi, Satyagraha in South Africa — Ch. 43 'Crossing the Border' (mkgandhi.org)",
+     "u": "https://www.mkgandhi.org/satyagraha_safrica/43border.php"
+    },
+    {
+     "t": "M.K. Gandhi, Satyagraha in South Africa — Ch. 44 'The Great March' (mkgandhi.org)",
+     "u": "https://www.mkgandhi.org/satyagraha_safrica/44great_march.php"
+    },
+    {
+     "t": "South African History Online — 1913 Satyagraha Campaign Resumes",
+     "u": "https://sahistory.org.za/article/1913-satyagraha-campaign-resumes"
+    },
+    {
+     "t": "South African History Online — Satyagraha Campaign Ends (Smuts–Gandhi Agreement, Indian Relief Act 1914)",
+     "u": "https://sahistory.org.za/archive/51-satyagraha-campaign-ends"
+    },
+    {
+     "t": "South African History Online — Gandhi leaves South Africa, 18 July 1914",
+     "u": "https://sahistory.org.za/dated-event/gandhi-leaves-south-africa"
+    }
+   ]
+  },
+  {
+   "id": "envwar",
+   "kind": "day",
+   "color": "#1f6f6a",
+   "icon": "leaf",
+   "cf": [
+    0,
+    1,
+    3,
+    4,
+    5
+   ],
+   "tag": {
+    "en": "International Day · 6 November",
+    "te": "అంతర్జాతీయ దినోత్సవం · 6 నవంబర్"
+   },
+   "title": {
+    "en": "International Day for Preventing the Exploitation of the Environment in War and Armed Conflict",
+    "te": "యుద్ధాలు, సాయుధ ఘర్షణల్లో పర్యావరణ దోపిడీ నివారణ అంతర్జాతీయ దినోత్సవం"
+   },
+   "line": {
+    "en": "Wars also destroy water, forests and soil — the UN marks 6 November to say there is no lasting peace if natural resources are ruined.",
+    "te": "యుద్ధాలు నీరు, అడవులు, నేలను కూడా నాశనం చేస్తాయి — సహజ వనరులు ధ్వంసమైతే శాశ్వత శాంతి ఉండదని చెప్పడానికే ఐరాస నవంబర్ 6ను పాటిస్తుంది."
+   },
+   "easy": [
+    {
+     "en": "What is it? On 5 November 2001 the UN General Assembly declared 6 November of every year as this International Day (resolution A/RES/56/4), when Kofi Annan was UN Secretary-General.",
+     "te": "ఇది ఏమిటి? 2001 నవంబర్ 5న ఐరాస సర్వసభ్య సమావేశం (UNGA) ప్రతి సంవత్సరం నవంబర్ 6ను ఈ అంతర్జాతీయ దినోత్సవంగా ప్రకటించింది (తీర్మానం A/RES/56/4). అప్పుడు ఐరాస ప్రధాన కార్యదర్శి కోఫీ అన్నన్."
+    },
+    {
+     "en": "Why? The UN says the environment has often been the 'unpublicized victim of war' — polluted water, burnt fields and damaged land. UNEP found that over the last 60 years at least 40% of all internal conflicts were linked to the exploitation of natural resources, and such conflicts are twice as likely to start again (relapse).",
+     "te": "ఎందుకు? యుద్ధంలో పర్యావరణం తరచూ 'ఎవరూ పట్టించుకోని బాధితురాలు' అని ఐరాస చెబుతుంది — కలుషితమైన నీరు, కాలిపోయిన పొలాలు, దెబ్బతిన్న భూమి. గత 60 ఏళ్లలో అంతర్గత ఘర్షణల్లో కనీసం 40% సహజ వనరుల దోపిడీతో ముడిపడి ఉన్నాయని UNEP గుర్తించింది; ఇలాంటి ఘర్షణలు మళ్లీ మొదలయ్యే అవకాశం రెట్టింపు."
+    },
+    {
+     "en": "So, protecting the environment is part of conflict prevention, peacekeeping and peacebuilding. No official theme has been announced for 2026.",
+     "te": "కాబట్టి పర్యావరణ పరిరక్షణ కూడా ఘర్షణల నివారణ, శాంతి పరిరక్షణ, శాంతి నిర్మాణంలో భాగమే. 2026కు అధికారిక థీమ్ ఏదీ ప్రకటించలేదు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Declared on",
+      "te": "ప్రకటించిన తేదీ"
+     },
+     {
+      "en": "5 November 2001, by the UN General Assembly",
+      "te": "5 నవంబర్ 2001, ఐరాస సర్వసభ్య సమావేశం"
+     }
+    ],
+    [
+     {
+      "en": "Observed on",
+      "te": "పాటించే తేదీ"
+     },
+     {
+      "en": "6 November every year (since 2001)",
+      "te": "ప్రతి సంవత్సరం నవంబర్ 6 (2001 నుంచి)"
+     }
+    ],
+    [
+     {
+      "en": "Resolution",
+      "te": "తీర్మానం"
+     },
+     {
+      "en": "A/RES/56/4",
+      "te": "A/RES/56/4"
+     }
+    ],
+    [
+     {
+      "en": "UN Secretary-General then",
+      "te": "అప్పటి ఐరాస ప్రధాన కార్యదర్శి"
+     },
+     {
+      "en": "Kofi Annan",
+      "te": "కోఫీ అన్నన్"
+     }
+    ],
+    [
+     {
+      "en": "UNEP finding",
+      "te": "UNEP గుర్తింపు"
+     },
+     {
+      "en": "At least 40% of internal conflicts in the last 60 years linked to natural resources",
+      "te": "గత 60 ఏళ్లలో కనీసం 40% అంతర్గత ఘర్షణలు సహజ వనరులతో ముడిపడ్డాయి"
+     }
+    ],
+    [
+     {
+      "en": "Relapse",
+      "te": "మళ్లీ మొదలయ్యే ప్రమాదం"
+     },
+     {
+      "en": "Resource-linked conflicts are twice as likely to relapse",
+      "te": "వనరుల ఘర్షణలు మళ్లీ రాజుకునే అవకాశం రెట్టింపు"
+     }
+    ],
+    [
+     {
+      "en": "2026 theme",
+      "te": "2026 థీమ్"
+     },
+     {
+      "en": "None announced",
+      "te": "ప్రకటించలేదు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · environment days & UNEP",
+     "te": "లింక్ చెయిన్ · పర్యావరణ దినోత్సవాలు & UNEP"
+    },
+    "l": [
+     {
+      "en": "UNEP (UN Environment Programme): set up in 1972 after the Stockholm Conference; HQ Nairobi, Kenya",
+      "te": "UNEP (ఐరాస పర్యావరణ కార్యక్రమం): 1972 స్టాక్‌హోమ్ సదస్సు తర్వాత ఏర్పాటు; ప్రధాన కార్యాలయం నైరోబీ, కెన్యా"
+     },
+     {
+      "en": "World Environment Day — 5 June",
+      "te": "ప్రపంచ పర్యావరణ దినోత్సవం — జూన్ 5"
+     },
+     {
+      "en": "This week: Biosphere Reserves Day (3 Nov), World Tsunami Awareness Day (5 Nov), this day (6 Nov)",
+      "te": "ఈ వారం: జీవావరణ రిజర్వుల దినోత్సవం (నవంబర్ 3), ప్రపంచ సునామీ అవగాహన దినోత్సవం (నవంబర్ 5), ఈ దినోత్సవం (నవంబర్ 6)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Declared on 5 November 2001, but observed on 6 November. It is a UN General Assembly day — not a UNESCO or WHO day. And there is no official 2026 theme — beware of made-up themes on social media.",
+    "te": "ప్రకటించింది 2001 నవంబర్ 5న, కానీ పాటించేది నవంబర్ 6న. ఇది ఐరాస సర్వసభ్య సమావేశం ప్రకటించిన దినోత్సవం — UNESCO లేదా WHOది కాదు. 2026కు అధికారిక థీమ్ లేదు — సోషల్ మీడియాలో కల్పిత థీమ్‌లతో జాగ్రత్త."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the International Day for Preventing the Exploitation of the Environment in War and Armed Conflict:",
+     "te": "యుద్ధాల్లో పర్యావరణ దోపిడీ నివారణ అంతర్జాతీయ దినోత్సవానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It was declared by the UN General Assembly in 2001.",
+      "te": "I. దీనిని 2001లో ఐరాస సర్వసభ్య సమావేశం ప్రకటించింది."
+     },
+     {
+      "en": "II. It is observed on 5 November, the day the resolution was adopted.",
+      "te": "II. తీర్మానం ఆమోదించిన రోజైన నవంబర్ 5న దీనిని పాటిస్తారు."
+     },
+     {
+      "en": "III. UNEP links at least 40% of internal conflicts in the last 60 years to natural resources.",
+      "te": "III. గత 60 ఏళ్లలో కనీసం 40% అంతర్గత ఘర్షణలను UNEP సహజ వనరులతో ముడిపెట్టింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II is wrong: adopted on 5 Nov 2001, but the Day is 6 November.",
+     "te": "II తప్పు: తీర్మానం 5 నవంబర్ 2001న, కానీ దినోత్సవం నవంబర్ 6న."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "Why the environment matters for peace",
+      "te": "శాంతికి పర్యావరణం ఎందుకు ముఖ్యం"
+     },
+     "items": [
+      {
+       "i": "💥",
+       "t": {
+        "en": "War damages water, land, forests",
+        "te": "యుద్ధం నీరు, భూమి, అడవులను దెబ్బతీస్తుంది"
+       }
+      },
+      {
+       "i": "🌾",
+       "t": {
+        "en": "Livelihoods and ecosystems are lost",
+        "te": "జీవనోపాధి, పర్యావరణ వ్యవస్థలు నశిస్తాయి"
+       }
+      },
+      {
+       "i": "🔁",
+       "t": {
+        "en": "Resource conflicts: 2× more likely to relapse",
+        "te": "వనరుల ఘర్షణలు: మళ్లీ రాజుకునే అవకాశం 2 రెట్లు"
+       }
+      },
+      {
+       "i": "🕊️",
+       "t": {
+        "en": "Protect nature = prevent conflict, build peace",
+        "te": "ప్రకృతి రక్షణ = ఘర్షణ నివారణ, శాంతి నిర్మాణం"
+       }
+      }
+     ]
+    },
+    {
+     "type": "dots",
+     "h": {
+      "en": "Out of every 10 internal conflicts (last 60 years)",
+      "te": "ప్రతి 10 అంతర్గత ఘర్షణల్లో (గత 60 ఏళ్లు)"
+     },
+     "groups": [
+      {
+       "n": 4,
+       "color": "#b3322b",
+       "t": {
+        "en": "at least 4 linked to natural resources (UNEP)",
+        "te": "కనీసం 4 సహజ వనరులతో ముడిపడ్డవి (UNEP)"
+       }
+      },
+      {
+       "n": 6,
+       "color": "#9aa9b4",
+       "t": {
+        "en": "other causes",
+        "te": "ఇతర కారణాలు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "United Nations — Int'l Day for Preventing the Exploitation of the Environment in War & Armed Conflict",
+     "u": "https://www.un.org/en/global-ceasefire/international-day-preventing-exploitation-environment-war-and-armed-conflict"
+    },
+    {
+     "t": "Wikipedia — International Day for Preventing the Exploitation of the Environment in War and Armed Conflict",
+     "u": "https://en.wikipedia.org/wiki/International_Day_for_Preventing_the_Exploitation_of_the_Environment_in_War_and_Armed_Conflict"
+    },
+    {
+     "t": "Nature4Climate — event page, 6 November 2026 (UNGA 5 Nov 2001; UNEP 40% figure)",
+     "u": "https://nature4climate.org/event/international-day-for-preventing-the-exploitation-of-the-environment-in-war-and-armed-conflict/"
+    }
+   ]
+  },
+  {
+   "id": "anaemia",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "food",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "src": {
+    "en": "The Hindu · Lead article · 5 Nov 2026",
+    "te": "ది హిందూ · ప్రధాన వ్యాసం · 5 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Health & Nutrition",
+    "te": "వివరణ · GS-II ఆరోగ్యం & పోషణ"
+   },
+   "title": {
+    "en": "Double Fortified Salt for anaemia: why 'iron alone is no solution'",
+    "te": "రక్తహీనతకు డబుల్ ఫోర్టిఫైడ్ ఉప్పు: 'ఒక్క ఐరన్‌తో పరిష్కారం కాదు' ఎందుకు?"
+   },
+   "line": {
+    "en": "A Hindu lead article warns against a nationwide rollout of iron + iodine salt and asks for monitored district pilots first.",
+    "te": "దేశమంతటా ఐరన్ + అయోడిన్ ఉప్పును ఒకేసారి ప్రవేశపెట్టవద్దని, ముందుగా పర్యవేక్షణతో జిల్లా స్థాయి పైలట్లు చేయాలని ది హిందూ వ్యాసం హెచ్చరించింది."
+   },
+   "easy": [
+    {
+     "en": "Anaemia means too little haemoglobin in the blood, so less oxygen reaches the body — causing tiredness and poor learning. NFHS-5 (2019-21): 57.0% of women (15–49 years) and 67.1% of children (6–59 months) are anaemic.",
+     "te": "రక్తహీనత (అనీమియా) అంటే రక్తంలో హిమోగ్లోబిన్ తక్కువగా ఉండటం; దీంతో శరీరానికి ఆక్సిజన్ తక్కువగా అందుతుంది — అలసట, చదువులో వెనుకబాటు. NFHS-5 (2019-21): 15–49 ఏళ్ల మహిళల్లో 57.0%, 6–59 నెలల పిల్లల్లో 67.1% మందికి రక్తహీనత."
+    },
+    {
+     "en": "Double Fortified Salt (DFS) adds iron to iodised salt. Since almost every home already uses iodised salt (over 93% of households), it looks like an easy fix. A chelated DFS formula was developed by the National Institute of Nutrition (NIN), Hyderabad.",
+     "te": "డబుల్ ఫోర్టిఫైడ్ ఉప్పు (DFS) అంటే అయోడిన్ ఉప్పులో ఐరన్ కూడా కలపడం. దాదాపు ప్రతి ఇంట్లో (93%కి పైగా కుటుంబాల్లో) అయోడిన్ ఉప్పు వాడుతున్నారు కాబట్టి ఇది సులువైన పరిష్కారంలా కనిపిస్తుంది. 'చీలేటెడ్' DFS సూత్రాన్ని హైదరాబాద్‌లోని జాతీయ పోషకాహార సంస్థ (NIN) అభివృద్ధి చేసింది."
+    },
+    {
+     "en": "The article's three worries: (1) Salt — Indians already eat about twice the WHO limit of 5 g a day, nearly 1 in 3 adults has high BP, and the NCD plan aims to cut salt by 30%; DFS depends on salt use. (2) Too much iron can harm — the 2006 Pemba trial (Tanzania, a malaria area) saw more hospital cases and deaths; thalassaemia carriers risk iron overload; fortified rice and IFA tablets already add iron. (3) Iron is only one cause — the CNNS 2016-18 found iron deficiency explains only part of anaemia.",
+     "te": "వ్యాసంలోని మూడు ఆందోళనలు: (1) ఉప్పు — భారతీయులు ఇప్పటికే WHO పరిమితి (రోజుకు 5 గ్రా.)కి దాదాపు రెట్టింపు తింటున్నారు; ప్రతి 3 మంది పెద్దల్లో దాదాపు ఒకరికి అధిక రక్తపోటు; ఉప్పును 30% తగ్గించాలన్నది NCD కార్యాచరణ లక్ష్యం — DFS మాత్రం ఉప్పు వాడకంపైనే ఆధారపడుతుంది. (2) అధిక ఐరన్ హానికరం — 2006 పెంబా ట్రయల్ (టాంజానియా, మలేరియా ప్రాంతం)లో ఆసుపత్రి కేసులు, మరణాలు పెరిగాయి; తలసేమియా వాహకులకు ఐరన్ ఎక్కువై ప్రమాదం; ఫోర్టిఫైడ్ బియ్యం, IFA మాత్రలు ఇప్పటికే ఐరన్ ఇస్తున్నాయి. (3) ఐరన్ ఒక్కటే కారణం కాదు — CNNS 2016-18 ప్రకారం రక్తహీనతలో కొంత భాగానికే ఐరన్ లోపం కారణం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "NFHS-5 (2019-21)",
+      "te": "NFHS-5 (2019-21)"
+     },
+     {
+      "en": "Women 15–49: 57.0% · Children 6–59 months: 67.1% anaemic",
+      "te": "మహిళలు 15–49: 57.0% · పిల్లలు 6–59 నెలలు: 67.1% రక్తహీనత"
+     }
+    ],
+    [
+     {
+      "en": "DFS",
+      "te": "DFS"
+     },
+     {
+      "en": "Salt fortified with iodine + iron",
+      "te": "అయోడిన్ + ఐరన్ కలిపిన ఉప్పు"
+     }
+    ],
+    [
+     {
+      "en": "Chelated DFS formula",
+      "te": "చీలేటెడ్ DFS సూత్రం"
+     },
+     {
+      "en": "National Institute of Nutrition (NIN), Hyderabad",
+      "te": "జాతీయ పోషకాహార సంస్థ (NIN), హైదరాబాద్"
+     }
+    ],
+    [
+     {
+      "en": "Salt intake",
+      "te": "ఉప్పు వినియోగం"
+     },
+     {
+      "en": "About 2× the WHO limit of 5 g/day; NCD plan: cut salt by 30%",
+      "te": "WHO పరిమితి 5 గ్రా./రోజుకు దాదాపు 2 రెట్లు; NCD ప్రణాళిక: ఉప్పు 30% తగ్గింపు"
+     }
+    ],
+    [
+     {
+      "en": "Other causes",
+      "te": "ఇతర కారణాలు"
+     },
+     {
+      "en": "Folate & B12 deficiency, malaria, hookworm, infections, poor sanitation, thalassaemia/sickle cell",
+      "te": "ఫోలేట్ & B12 లోపం, మలేరియా, కొక్కెపురుగు (హుక్‌వార్మ్), ఇన్ఫెక్షన్లు, పారిశుద్ధ్య లోపం, తలసేమియా/సికిల్ సెల్"
+     }
+    ],
+    [
+     {
+      "en": "Absorption blockers",
+      "te": "శోషణను అడ్డుకునేవి"
+     },
+     {
+      "en": "Phytates (cereals, millets, pulses), polyphenols (tea, coffee), calcium (milk)",
+      "te": "ఫైటేట్లు (ధాన్యాలు, చిరుధాన్యాలు, పప్పులు), పాలీఫెనాల్స్ (టీ, కాఫీ), కాల్షియం (పాలు)"
+     }
+    ],
+    [
+     {
+      "en": "Article's advice",
+      "te": "వ్యాసం సూచన"
+     },
+     {
+      "en": "Monitored district pilots, not a nationwide rollout now",
+      "te": "ఇప్పుడే దేశవ్యాప్తం కాకుండా పర్యవేక్షణతో జిల్లా పైలట్లు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · nutrition static GK",
+     "te": "లింక్ చెయిన్ · పోషణ స్టాటిక్ GK"
+    },
+    "l": [
+     {
+      "en": "Iodine deficiency → goitre; hence Universal Salt Iodisation",
+      "te": "అయోడిన్ లోపం → గాయిటర్ (గొంతువాపు); అందుకే సార్వత్రిక ఉప్పు అయోడీకరణ"
+     },
+     {
+      "en": "Iron already reaches people through fortified rice (PDS, PM POSHAN, ICDS) and IFA tablets",
+      "te": "ఫోర్టిఫైడ్ బియ్యం (PDS, PM POSHAN, ICDS), IFA మాత్రల ద్వారా ఇప్పటికే ఐరన్ అందుతోంది"
+     },
+     {
+      "en": "Lessons abroad: Peru (child tracking, supplements, cash transfers); Vietnam (weekly IFA, deworming, iron-fortified fish sauce)",
+      "te": "విదేశీ పాఠాలు: పెరూ (పిల్లల ట్రాకింగ్, సప్లిమెంట్లు, నగదు బదిలీ); వియత్నాం (వారానికోసారి IFA, నులిపురుగుల నివారణ, ఐరన్ కలిపిన ఫిష్ సాస్)"
+     },
+     {
+      "en": "Telugu-states link: NIN, the ICMR nutrition institute, is in Hyderabad",
+      "te": "తెలుగు రాష్ట్రాల లింక్: ICMR పోషకాహార సంస్థ NIN హైదరాబాద్‌లో ఉంది"
+     }
+    ]
+   },
+   "trap": {
+    "en": "DFS = iodine + iron (not iron + folic acid). NFHS-5 is 2019-21; CNNS is 2016-18. The Pemba trial (2006) was in Tanzania; the 2015 trial on infant gut bacteria was in Kenya.",
+    "te": "DFS = అయోడిన్ + ఐరన్ (ఐరన్ + ఫోలిక్ యాసిడ్ కాదు). NFHS-5 = 2019-21; CNNS = 2016-18. పెంబా ట్రయల్ (2006) టాంజానియాలో; శిశువుల పేగు బ్యాక్టీరియాపై 2015 ట్రయల్ కెన్యాలో."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Double Fortified Salt (DFS), consider the following statements:",
+     "te": "డబుల్ ఫోర్టిఫైడ్ ఉప్పు (DFS)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. DFS is salt fortified with iodine and iron.",
+      "te": "I. DFS అంటే అయోడిన్, ఐరన్ కలిపిన ఉప్పు."
+     },
+     {
+      "en": "II. Its delivery depends on regular salt intake, which conflicts with salt-reduction goals.",
+      "te": "II. దీని ప్రయోజనం క్రమం తప్పని ఉప్పు వాడకంపై ఆధారపడుతుంది — ఇది ఉప్పు తగ్గింపు లక్ష్యాలకు విరుద్ధం."
+     },
+     {
+      "en": "III. CNNS 2016-18 found iron deficiency to be the only cause of anaemia among children.",
+      "te": "III. పిల్లల్లో రక్తహీనతకు ఐరన్ లోపం ఒక్కటే కారణమని CNNS 2016-18 తేల్చింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "III is wrong: CNNS found iron deficiency explains only part of anaemia.",
+     "te": "III తప్పు: రక్తహీనతలో కొంత భాగానికే ఐరన్ లోపం కారణమని CNNS చెప్పింది."
+    }
+   },
+   "pics": [
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "Anaemia has many causes",
+      "te": "రక్తహీనతకు ఎన్నో కారణాలు"
+     },
+     "c": {
+      "en": "Anaemia",
+      "te": "రక్తహీనత"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Nutrition",
+        "te": "పోషణ"
+       },
+       "l": [
+        {
+         "en": "Iron",
+         "te": "ఐరన్"
+        },
+        {
+         "en": "Folate",
+         "te": "ఫోలేట్"
+        },
+        {
+         "en": "Vitamin B12",
+         "te": "విటమిన్ B12"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Infections",
+        "te": "ఇన్ఫెక్షన్లు"
+       },
+       "l": [
+        {
+         "en": "Malaria",
+         "te": "మలేరియా"
+        },
+        {
+         "en": "Hookworm",
+         "te": "కొక్కెపురుగు"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Environment",
+        "te": "పరిసరాలు"
+       },
+       "l": [
+        {
+         "en": "Poor sanitation",
+         "te": "పారిశుద్ధ్య లోపం"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Genetic",
+        "te": "జన్యుపరమైనవి"
+       },
+       "l": [
+        {
+         "en": "Thalassaemia",
+         "te": "తలసేమియా"
+        },
+        {
+         "en": "Sickle cell",
+         "te": "సికిల్ సెల్"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Life stage",
+        "te": "జీవిత దశ"
+       },
+       "l": [
+        {
+         "en": "Early marriage & pregnancy",
+         "te": "బాల్య వివాహం, గర్భం"
+        },
+        {
+         "en": "Menstrual loss",
+         "te": "రుతుస్రావ నష్టం"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "DFS: promise vs concerns",
+      "te": "DFS: ఆశ vs ఆందోళనలు"
+     },
+     "a": {
+      "h": {
+       "en": "Why it looks easy",
+       "te": "ఎందుకు సులువుగా కనిపిస్తుంది"
+      },
+      "l": [
+       {
+        "en": "Salt reaches almost every home",
+        "te": "ఉప్పు దాదాపు ప్రతి ఇంటికీ చేరుతుంది"
+       },
+       {
+        "en": "Iodised salt network already exists",
+        "te": "అయోడిన్ ఉప్పు వ్యవస్థ ఇప్పటికే ఉంది"
+       },
+       {
+        "en": "No change in food habits needed",
+        "te": "ఆహార అలవాట్లు మార్చనక్కర్లేదు"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Why the article is cautious",
+       "te": "వ్యాసం ఎందుకు జాగ్రత్త చెబుతోంది"
+      },
+      "l": [
+       {
+        "en": "Needs more salt — BP risk",
+        "te": "ఎక్కువ ఉప్పు అవసరం — రక్తపోటు ప్రమాదం"
+       },
+       {
+        "en": "Excess iron risk (malaria, thalassaemia)",
+        "te": "అధిక ఐరన్ ప్రమాదం (మలేరియా, తలసేమియా)"
+       },
+       {
+        "en": "Iron is only one cause",
+        "te": "ఐరన్ ఒక్క కారణమే"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Vajiram & Ravi — Daily Editorial Analysis, 5 Nov 2026 (The Hindu: 'Anaemia burden – iron alone is no solution'; 'What the BRICS carbon market partnership needs')",
+     "u": "https://vajiramandravi.com/current-affairs/daily-editorial-analysis-5-november-2026"
+    },
+    {
+     "t": "SuperKalam — Double Fortified Salt: can it solve India's anaemia crisis? (NFHS-5 figures, NIN formulation)",
+     "u": "https://superkalam.com/current-affairs/articles/double-fortified-salt-anaemia-india"
+    }
+   ],
+   "mains": {
+    "en": "'Anaemia in India is a multidimensional public health challenge, not merely a nutritional deficiency.' In this light, examine the case for and against a nationwide rollout of Double Fortified Salt.",
+    "te": "'భారత్‌లో రక్తహీనత కేవలం పోషకాహార లోపం కాదు, బహుముఖ ప్రజారోగ్య సవాలు.' ఈ నేపథ్యంలో డబుల్ ఫోర్టిఫైడ్ ఉప్పును దేశవ్యాప్తంగా ప్రవేశపెట్టడానికి అనుకూల, ప్రతికూల వాదనలను పరిశీలించండి."
+   }
+  },
+  {
+   "id": "ccts",
+   "kind": "article",
+   "color": "#1d4f91",
+   "icon": "unsc",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "src": {
+    "en": "The Hindu · Op-ed · 5 Nov 2026",
+    "te": "ది హిందూ · వ్యాసం · 5 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-III Environment · GS-II IR",
+    "te": "వివరణ · GS-III పర్యావరణం · GS-II అంతర్జాతీయ సంబంధాలు"
+   },
+   "title": {
+    "en": "BRICS carbon market partnership: common rules first, trading later",
+    "te": "బ్రిక్స్ కార్బన్ మార్కెట్ భాగస్వామ్యం: ముందు ఉమ్మడి నియమాలు, తర్వాతే వ్యాపారం"
+   },
+   "line": {
+    "en": "After the 18th BRICS Summit in New Delhi, an op-ed says India should push a common rulebook for measuring and verifying emissions before any joint carbon market.",
+    "te": "న్యూఢిల్లీలో జరిగిన 18వ బ్రిక్స్ శిఖరాగ్ర సదస్సు తర్వాత — ఉమ్మడి కార్బన్ మార్కెట్ కంటే ముందు ఉద్గారాల కొలత, ధ్రువీకరణకు ఉమ్మడి నియమావళిని భారత్ ముందుకు తేవాలని ఒక వ్యాసం సూచించింది."
+   },
+   "easy": [
+    {
+     "en": "What is a carbon market? A carbon credit is proof that greenhouse-gas emission was cut. A company that does better than its target earns credits and can sell them; one that misses its target must buy credits. So cutting pollution earns money.",
+     "te": "కార్బన్ మార్కెట్ అంటే? కార్బన్ క్రెడిట్ అంటే గ్రీన్‌హౌస్ వాయు ఉద్గారాలను తగ్గించినట్లు రుజువు. లక్ష్యం కంటే మెరుగ్గా చేసిన కంపెనీ క్రెడిట్లు సంపాదించి అమ్మవచ్చు; లక్ష్యం చేరని కంపెనీ క్రెడిట్లు కొనాలి. అంటే కాలుష్యం తగ్గిస్తే డబ్బు వస్తుంది."
+    },
+    {
+     "en": "India's Carbon Credit Trading Scheme (CCTS) was launched in 2023 under the Energy Conservation (Amendment) Act, 2022, with the Bureau of Energy Efficiency (BEE) as a key administrator. It has a compliance mechanism (emission-intensity targets — notified for 490 entities across nine sectors, says the op-ed) and a voluntary offset mechanism. Certificates trade on power exchanges under CERC rules.",
+     "te": "భారత కార్బన్ క్రెడిట్ ట్రేడింగ్ పథకం (CCTS) ఇంధన పరిరక్షణ (సవరణ) చట్టం, 2022 కింద 2023లో ప్రారంభమైంది; ఇంధన సామర్థ్య బ్యూరో (BEE) ప్రధాన నిర్వాహక సంస్థ. ఇందులో నిర్బంధ (కంప్లయన్స్) విధానం — ఉద్గార తీవ్రత లక్ష్యాలు; వ్యాసం ప్రకారం 9 రంగాల్లోని 490 సంస్థలకు నోటిఫై చేశారు — మరియు స్వచ్ఛంద ఆఫ్‌సెట్ విధానం ఉన్నాయి. సర్టిఫికెట్లు CERC నియమాల కింద పవర్ ఎక్స్ఛేంజీల్లో ట్రేడ్ అవుతాయి."
+    },
+    {
+     "en": "The problem: BRICS members follow different rules. China and India use output-based intensity targets; Brazil's SBCE (2024) uses an absolute cap. Meanwhile the EU's CBAM (a carbon charge on imports) entered its definitive phase in January 2026 and the UK's follows in January 2027 — exporters without reliable emission data face high default charges. So the op-ed suggests common MRV rules, mutual recognition of verifiers, matching registries and a small pilot among 2–3 members under Article 6.2 of the Paris Agreement.",
+     "te": "సమస్య: బ్రిక్స్ దేశాల నియమాలు వేర్వేరు. చైనా, భారత్ ఉత్పత్తి ఆధారిత తీవ్రత లక్ష్యాలు పాటిస్తే, బ్రెజిల్ SBCE (2024) మొత్తం ఉద్గారాలపై పరిమితి (అబ్సల్యూట్ క్యాప్) పెడుతుంది. మరోవైపు EU 'CBAM' (దిగుమతులపై కార్బన్ సుంకం) 2026 జనవరి నుంచి పూర్తి దశలోకి వచ్చింది; UK విధానం 2027 జనవరి నుంచి — నమ్మదగిన ఉద్గార డేటా లేని ఎగుమతిదారులపై భారీ డిఫాల్ట్ ఛార్జీలు పడతాయి. అందుకే ఉమ్మడి MRV నియమాలు, వెరిఫైయర్ల పరస్పర గుర్తింపు, సరిపోలే రిజిస్ట్రీలు, పారిస్ ఒప్పందం ఆర్టికల్ 6.2 కింద 2–3 దేశాలతో చిన్న పైలట్‌ను వ్యాసం సూచించింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "18th BRICS Summit",
+      "te": "18వ బ్రిక్స్ సదస్సు"
+     },
+     {
+      "en": "New Delhi, 12 September 2026",
+      "te": "న్యూఢిల్లీ, 12 సెప్టెంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "India's CCTS",
+      "te": "భారత CCTS"
+     },
+     {
+      "en": "2023, under Energy Conservation (Amendment) Act 2022; BEE",
+      "te": "2023, ఇంధన పరిరక్షణ (సవరణ) చట్టం 2022 కింద; BEE"
+     }
+    ],
+    [
+     {
+      "en": "Compliance coverage",
+      "te": "నిర్బంధ పరిధి"
+     },
+     {
+      "en": "Intensity targets for 490 entities in nine sectors (op-ed)",
+      "te": "9 రంగాల్లో 490 సంస్థలకు తీవ్రత లక్ష్యాలు (వ్యాసం)"
+     }
+    ],
+    [
+     {
+      "en": "India's offsets",
+      "te": "భారత ఆఫ్‌సెట్లు"
+     },
+     {
+      "en": "Only projects started after 1 January 2025",
+      "te": "1 జనవరి 2025 తర్వాత ప్రారంభమైన ప్రాజెక్టులకే"
+     }
+    ],
+    [
+     {
+      "en": "EU CBAM",
+      "te": "EU CBAM"
+     },
+     {
+      "en": "Definitive phase Jan 2026 — steel, aluminium, cement, fertilisers, hydrogen; UK's from Jan 2027",
+      "te": "జనవరి 2026 నుంచి పూర్తి దశ — ఉక్కు, అల్యూమినియం, సిమెంట్, ఎరువులు, హైడ్రోజన్; UKది జనవరి 2027 నుంచి"
+     }
+    ],
+    [
+     {
+      "en": "UK & India",
+      "te": "UK & భారత్"
+     },
+     {
+      "en": "UK recognised India's CCTS in August 2026",
+      "te": "ఆగస్టు 2026లో భారత CCTSను UK గుర్తించింది"
+     }
+    ],
+    [
+     {
+      "en": "Legal route for pilot",
+      "te": "పైలట్‌కు చట్ట మార్గం"
+     },
+     {
+      "en": "Article 6.2 of the Paris Agreement (traded units with corresponding adjustments)",
+      "te": "పారిస్ ఒప్పందం ఆర్టికల్ 6.2 (సంబంధిత సర్దుబాట్లతో యూనిట్ల బదిలీ)"
+     }
+    ],
+    [
+     {
+      "en": "India's NDC",
+      "te": "భారత NDC"
+     },
+     {
+      "en": "Cut emission intensity of GDP by 45% by 2030 from 2005 level",
+      "te": "2005 స్థాయి నుంచి 2030 నాటికి GDP ఉద్గార తీవ్రత 45% తగ్గింపు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · climate static GK",
+     "te": "లింక్ చెయిన్ · వాతావరణ స్టాటిక్ GK"
+    },
+    "l": [
+     {
+      "en": "Paris Agreement (2015): Article 6 allows countries to cooperate and transfer emission reductions",
+      "te": "పారిస్ ఒప్పందం (2015): ఆర్టికల్ 6 ప్రకారం దేశాలు సహకరించి ఉద్గార తగ్గింపులను బదిలీ చేసుకోవచ్చు"
+     },
+     {
+      "en": "BEE was set up under the Energy Conservation Act, 2001 (Ministry of Power)",
+      "te": "BEEని ఇంధన పరిరక్షణ చట్టం, 2001 కింద ఏర్పాటు చేశారు (విద్యుత్ మంత్రిత్వ శాఖ)"
+     },
+     {
+      "en": "New Development Bank (BRICS bank) — op-ed suggests it host a shared registry or buy pilot units",
+      "te": "న్యూ డెవలప్‌మెంట్ బ్యాంక్ (బ్రిక్స్ బ్యాంక్) — ఉమ్మడి రిజిస్ట్రీ లేదా పైలట్ యూనిట్ల కొనుగోలు బాధ్యత తీసుకోవాలని వ్యాసం సూచన"
+     },
+     {
+      "en": "MRV = Measurement, Reporting and Verification; the op-ed suggests using ISO 14064",
+      "te": "MRV = కొలత, నివేదన, ధ్రువీకరణ; ISO 14064 ప్రమాణం వాడాలని వ్యాసం సూచన"
+     }
+    ]
+   },
+   "trap": {
+    "en": "India and China = intensity-based targets; Brazil = absolute cap. CBAM is the EU's border carbon tax (definitive phase 2026), the UK's from 2027 — it is not a BRICS mechanism. The pilot is under Article 6.2 of the Paris Agreement.",
+    "te": "భారత్, చైనా = తీవ్రత ఆధారిత లక్ష్యాలు; బ్రెజిల్ = అబ్సల్యూట్ క్యాప్. CBAM అనేది EU సరిహద్దు కార్బన్ పన్ను (2026 పూర్తి దశ), UKది 2027 నుంచి — ఇది బ్రిక్స్ విధానం కాదు. పైలట్ పారిస్ ఒప్పందం ఆర్టికల్ 6.2 కింద."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to carbon markets, consider the following statements:",
+     "te": "కార్బన్ మార్కెట్లకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. India's CCTS sets emission-intensity targets rather than an absolute cap.",
+      "te": "I. భారత CCTS అబ్సల్యూట్ క్యాప్ కాకుండా ఉద్గార తీవ్రత లక్ష్యాలను నిర్దేశిస్తుంది."
+     },
+     {
+      "en": "II. CBAM is a mechanism created by the BRICS Carbon Markets Partnership.",
+      "te": "II. CBAM అనేది బ్రిక్స్ కార్బన్ మార్కెట్ల భాగస్వామ్యం రూపొందించిన విధానం."
+     },
+     {
+      "en": "III. India's CCTS certificates are traded on power exchanges under CERC regulations.",
+      "te": "III. భారత CCTS సర్టిఫికెట్లు CERC నియమాల కింద పవర్ ఎక్స్ఛేంజీల్లో ట్రేడ్ అవుతాయి."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "II is wrong: CBAM is the European Union's Carbon Border Adjustment Mechanism.",
+     "te": "II తప్పు: CBAM యూరోపియన్ యూనియన్ కార్బన్ బోర్డర్ అడ్జస్ట్‌మెంట్ మెకానిజం."
+    }
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Two ways to run a carbon market",
+      "te": "కార్బన్ మార్కెట్‌కు రెండు పద్ధతులు"
+     },
+     "a": {
+      "h": {
+       "en": "Intensity target — India, China",
+       "te": "తీవ్రత లక్ష్యం — భారత్, చైనా"
+      },
+      "l": [
+       {
+        "en": "Limit = emission per unit of output",
+        "te": "పరిమితి = ఉత్పత్తి యూనిట్‌కు ఉద్గారం"
+       },
+       {
+        "en": "Total emission can still grow with output",
+        "te": "ఉత్పత్తి పెరిగితే మొత్తం ఉద్గారం పెరగవచ్చు"
+       },
+       {
+        "en": "India: 490 entities, nine sectors",
+        "te": "భారత్: 490 సంస్థలు, 9 రంగాలు"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Absolute cap — Brazil (SBCE, 2024)",
+       "te": "అబ్సల్యూట్ క్యాప్ — బ్రెజిల్ (SBCE, 2024)"
+      },
+      "l": [
+       {
+        "en": "Limit = total tonnes allowed",
+        "te": "పరిమితి = అనుమతించిన మొత్తం టన్నులు"
+       },
+       {
+        "en": "Total emission fixed by cap",
+        "te": "మొత్తం ఉద్గారం క్యాప్‌తో స్థిరం"
+       },
+       {
+        "en": "Regulated by securities authorities",
+        "te": "సెక్యూరిటీస్ నియంత్రణ సంస్థల పర్యవేక్షణ"
+       }
+      ]
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "The op-ed's step-by-step plan",
+      "te": "వ్యాసం సూచించిన దశలవారీ ప్రణాళిక"
+     },
+     "items": [
+      {
+       "i": "📏",
+       "t": {
+        "en": "Common MRV rules (ISO 14064)",
+        "te": "ఉమ్మడి MRV నియమాలు (ISO 14064)"
+       }
+      },
+      {
+       "i": "🤝",
+       "t": {
+        "en": "Mutual recognition of verifiers",
+        "te": "వెరిఫైయర్ల పరస్పర గుర్తింపు"
+       }
+      },
+      {
+       "i": "🗂️",
+       "t": {
+        "en": "Matching registries",
+        "te": "సరిపోలే రిజిస్ట్రీలు"
+       }
+      },
+      {
+       "i": "🧪",
+       "t": {
+        "en": "Small pilot (2–3 members, Article 6.2)",
+        "te": "చిన్న పైలట్ (2–3 దేశాలు, ఆర్టికల్ 6.2)"
+       }
+      },
+      {
+       "i": "🏦",
+       "t": {
+        "en": "NDB as registry / buyer",
+        "te": "రిజిస్ట్రీ / కొనుగోలుదారుగా NDB"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Vajiram & Ravi — Daily Editorial Analysis, 5 Nov 2026 (The Hindu: 'Anaemia burden – iron alone is no solution'; 'What the BRICS carbon market partnership needs')",
+     "u": "https://vajiramandravi.com/current-affairs/daily-editorial-analysis-5-november-2026"
+    },
+    {
+     "t": "Rau's IAS Compass — Assessing India's Carbon Credit Trading Scheme targets (cross-check)",
+     "u": "https://compass.rauias.com/current-affairs/assessing-india-carbon-credit-trading-scheme-targets/"
+    }
+   ],
+   "mains": {
+    "en": "Differences in rules, not lack of will, block linked carbon markets among BRICS countries. Discuss, and suggest how India can use the BRICS Carbon Markets Partnership while facing the EU's CBAM.",
+    "te": "బ్రిక్స్ దేశాల మధ్య అనుసంధానిత కార్బన్ మార్కెట్లకు అడ్డంకి సంకల్ప లోపం కాదు, నియమాల తేడాలే. చర్చించండి; EU CBAMను ఎదుర్కొంటూ బ్రిక్స్ కార్బన్ మార్కెట్ల భాగస్వామ్యాన్ని భారత్ ఎలా వినియోగించుకోవచ్చో సూచించండి."
+   }
+  },
+  {
+   "id": "sbmg",
+   "kind": "article",
+   "color": "#2f6b2f",
+   "icon": "poverty",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "The Indian Express · 5 Nov 2026",
+    "te": "ది ఇండియన్ ఎక్స్‌ప్రెస్ · 5 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "In the news · GS-II Governance · Schemes",
+    "te": "వార్తల్లో · GS-II పాలన · పథకాలు"
+   },
+   "title": {
+    "en": "Swachh Bharat Mission (Grameen) Phase-II extended till March 2028",
+    "te": "స్వచ్ఛ భారత్ మిషన్ (గ్రామీణ) ఫేజ్-II మార్చి 2028 వరకు పొడిగింపు"
+   },
+   "line": {
+    "en": "The Centre has extended the rural sanitation mission's second phase by one more year; about ₹7,000 crore can now be set aside for it in the 2027-28 Budget.",
+    "te": "గ్రామీణ పారిశుద్ధ్య మిషన్ రెండో దశను కేంద్రం మరో ఏడాది పొడిగించింది; 2027-28 బడ్జెట్‌లో దీనికి సుమారు ₹7,000 కోట్లు కేటాయించే వీలు కలిగింది."
+   },
+   "easy": [
+    {
+     "en": "Swachh Bharat Mission was launched on 2 October 2014 at Rajghat, New Delhi, to make India open-defecation free (ODF) by 2 October 2019 — Gandhi's 150th birth anniversary. Phase 1 lasted till 2 October 2019, and more than 10 crore household toilets were built in rural areas.",
+     "te": "స్వచ్ఛ భారత్ మిషన్‌ను 2014 అక్టోబర్ 2న న్యూఢిల్లీ రాజ్‌ఘాట్‌లో ప్రారంభించారు — 2019 అక్టోబర్ 2 (గాంధీ 150వ జయంతి) నాటికి భారత్‌ను బహిరంగ మలవిసర్జన రహితం (ODF) చేయడం లక్ష్యం. మొదటి దశ 2019 అక్టోబర్ 2 వరకు సాగింది; గ్రామాల్లో 10 కోట్లకు పైగా ఇంటి మరుగుదొడ్లు నిర్మించారు."
+    },
+    {
+     "en": "Phase-II (from 2020-21) moves from 'ODF' to 'ODF Plus': keep the village ODF, manage solid waste (household waste, composting, plastic) and liquid waste (greywater, soak pits, drains), and keep it visibly clean. Approved outlay: ₹1,40,881 crore. Its first end date was 2024-25; it was extended to March 2027 and now to March 2028.",
+     "te": "ఫేజ్-II (2020-21 నుంచి) 'ODF' నుంచి 'ODF ప్లస్'కు మారుతుంది: గ్రామం ODFగానే కొనసాగాలి, ఘన వ్యర్థాల (ఇంటి చెత్త, కంపోస్ట్, ప్లాస్టిక్), ద్రవ వ్యర్థాల (గ్రే వాటర్, ఇంకుడు గుంతలు, కాలువలు) నిర్వహణ, కనిపించే పరిశుభ్రత. ఆమోదిత వ్యయం: ₹1,40,881 కోట్లు. మొదట గడువు 2024-25; తర్వాత మార్చి 2027కు, ఇప్పుడు మార్చి 2028కు పొడిగించారు."
+    },
+    {
+     "en": "Progress: over 96% of villages had reached ODF Plus status by 31 December 2025. Villages are graded Aspiring → Rising → Model. Funding is shared Centre:State 60:40 (90:10 for north-eastern and Himalayan States incl. J&K; 100% Centre for UTs).",
+     "te": "పురోగతి: 2025 డిసెంబర్ 31 నాటికి 96%కి పైగా గ్రామాలు ODF ప్లస్ హోదా పొందాయి. గ్రామాలకు ఆస్పైరింగ్ → రైజింగ్ → మోడల్ అనే స్థాయిలు. నిధుల వాటా కేంద్రం:రాష్ట్రం 60:40 (ఈశాన్య, హిమాలయ రాష్ట్రాలు, J&Kకు 90:10; కేంద్రపాలిత ప్రాంతాలకు 100% కేంద్రం)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Launched",
+      "te": "ప్రారంభం"
+     },
+     {
+      "en": "2 October 2014, Rajghat, New Delhi",
+      "te": "2 అక్టోబర్ 2014, రాజ్‌ఘాట్, న్యూఢిల్లీ"
+     }
+    ],
+    [
+     {
+      "en": "Ministry (Grameen)",
+      "te": "మంత్రిత్వ శాఖ (గ్రామీణ)"
+     },
+     {
+      "en": "Dept of Drinking Water & Sanitation, Ministry of Jal Shakti",
+      "te": "తాగునీరు & పారిశుద్ధ్య విభాగం, జల్ శక్తి మంత్రిత్వ శాఖ"
+     }
+    ],
+    [
+     {
+      "en": "Phase-II extended to",
+      "te": "ఫేజ్-II పొడిగింపు"
+     },
+     {
+      "en": "March 2028 (earlier 2024-25 → March 2027)",
+      "te": "మార్చి 2028 (మొదట 2024-25 → మార్చి 2027)"
+     }
+    ],
+    [
+     {
+      "en": "Outlay",
+      "te": "వ్యయం"
+     },
+     {
+      "en": "₹1,40,881 crore (Phase-II); ~₹7,000 crore possible in 2027-28 Budget",
+      "te": "₹1,40,881 కోట్లు (ఫేజ్-II); 2027-28 బడ్జెట్‌లో సుమారు ₹7,000 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "ODF Plus components",
+      "te": "ODF ప్లస్ అంశాలు"
+     },
+     {
+      "en": "ODF sustainability · solid waste · liquid waste · visual cleanliness",
+      "te": "ODF కొనసాగింపు · ఘన వ్యర్థాలు · ద్రవ వ్యర్థాలు · కనిపించే పరిశుభ్రత"
+     }
+    ],
+    [
+     {
+      "en": "ODF Plus villages",
+      "te": "ODF ప్లస్ గ్రామాలు"
+     },
+     {
+      "en": "Over 96% (as of 31 Dec 2025)",
+      "te": "96%కి పైగా (31 డిసెంబర్ 2025 నాటికి)"
+     }
+    ],
+    [
+     {
+      "en": "Funding",
+      "te": "నిధుల వాటా"
+     },
+     {
+      "en": "60:40; 90:10 NE & Himalayan States incl. J&K; 100:0 UTs",
+      "te": "60:40; ఈశాన్య & హిమాలయ రాష్ట్రాలు, J&Kకు 90:10; UTలకు 100:0"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · sanitation & local bodies",
+     "te": "లింక్ చెయిన్ · పారిశుద్ధ్యం & స్థానిక సంస్థలు"
+    },
+    "l": [
+     {
+      "en": "SBM-Urban is under the Ministry of Housing and Urban Affairs — not Jal Shakti",
+      "te": "SBM-అర్బన్ గృహనిర్మాణ, పట్టణ వ్యవహారాల మంత్రిత్వ శాఖ కింద — జల్ శక్తి కాదు"
+     },
+     {
+      "en": "Sanitation is in the 11th Schedule (73rd Amendment) — a gram panchayat subject",
+      "te": "పారిశుద్ధ్యం 11వ షెడ్యూల్‌ (73వ సవరణ)లో ఉంది — గ్రామ పంచాయతీ అంశం"
+     },
+     {
+      "en": "Gandhi link: SBM's deadline was his 150th birth anniversary — and today is the anniversary of his 1913 Great March",
+      "te": "గాంధీ లింక్: SBM గడువు ఆయన 150వ జయంతి — ఈరోజు ఆయన 1913 గ్రేట్ మార్చ్ వార్షికోత్సవం"
+     },
+     {
+      "en": "Health link: poor sanitation is one cause of anaemia (see today's DFS article)",
+      "te": "ఆరోగ్య లింక్: పారిశుద్ధ్య లోపం రక్తహీనతకు ఒక కారణం (నేటి DFS వ్యాసం చూడండి)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "ODF ≠ ODF Plus. Aspiring = ODF + EITHER solid OR liquid waste management; Rising = ODF + BOTH; Model = BOTH + visual cleanliness. SBM-Grameen = Ministry of Jal Shakti; SBM-Urban = MoHUA.",
+    "te": "ODF ≠ ODF ప్లస్. ఆస్పైరింగ్ = ODF + ఘన లేదా ద్రవ వ్యర్థాల్లో ఏదో ఒకటి; రైజింగ్ = ODF + రెండూ; మోడల్ = రెండూ + కనిపించే పరిశుభ్రత. SBM-గ్రామీణ = జల్ శక్తి శాఖ; SBM-అర్బన్ = MoHUA."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Swachh Bharat Mission (Grameen), consider the following statements:",
+     "te": "స్వచ్ఛ భారత్ మిషన్ (గ్రామీణ)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It is implemented by the Ministry of Housing and Urban Affairs.",
+      "te": "I. దీనిని గృహనిర్మాణ, పట్టణ వ్యవహారాల మంత్రిత్వ శాఖ అమలు చేస్తుంది."
+     },
+     {
+      "en": "II. Phase-II has now been extended up to March 2028.",
+      "te": "II. ఫేజ్-IIను ఇప్పుడు మార్చి 2028 వరకు పొడిగించారు."
+     },
+     {
+      "en": "III. A 'Rising' ODF Plus village manages both solid and liquid waste.",
+      "te": "III. 'రైజింగ్' ODF ప్లస్ గ్రామం ఘన, ద్రవ వ్యర్థాలు రెండింటినీ నిర్వహిస్తుంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "III only",
+      "te": "III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I is wrong: SBM-Grameen is under the Department of Drinking Water & Sanitation, Ministry of Jal Shakti.",
+     "te": "I తప్పు: SBM-గ్రామీణ జల్ శక్తి మంత్రిత్వ శాఖలోని తాగునీరు & పారిశుద్ధ్య విభాగం కింద ఉంది."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "ODF Plus ladder for a village",
+      "te": "గ్రామానికి ODF ప్లస్ నిచ్చెన"
+     },
+     "items": [
+      {
+       "i": "🚻",
+       "t": {
+        "en": "ODF — toilets for all, used by all",
+        "te": "ODF — అందరికీ మరుగుదొడ్లు, అందరూ వాడకం"
+       }
+      },
+      {
+       "i": "🌱",
+       "t": {
+        "en": "Aspiring — ODF + solid OR liquid waste managed",
+        "te": "ఆస్పైరింగ్ — ODF + ఘన లేదా ద్రవ వ్యర్థాల నిర్వహణ"
+       }
+      },
+      {
+       "i": "📈",
+       "t": {
+        "en": "Rising — ODF + solid AND liquid waste managed",
+        "te": "రైజింగ్ — ODF + ఘన మరియు ద్రవ వ్యర్థాల నిర్వహణ"
+       }
+      },
+      {
+       "i": "🏅",
+       "t": {
+        "en": "Model — both + visually clean",
+        "te": "మోడల్ — రెండూ + కనిపించే పరిశుభ్రత"
+       }
+      }
+     ]
+    },
+    {
+     "type": "timeline",
+     "h": {
+      "en": "SBM (Grameen) in dates",
+      "te": "తేదీల్లో SBM (గ్రామీణ)"
+     },
+     "items": [
+      {
+       "y": "2 Oct 2014",
+       "t": {
+        "en": "Mission launched (Rajghat)",
+        "te": "మిషన్ ప్రారంభం (రాజ్‌ఘాట్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2 Oct 2019",
+       "t": {
+        "en": "Phase 1 ends — ODF target date",
+        "te": "మొదటి దశ ముగింపు — ODF లక్ష్య తేదీ"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2020-21",
+       "t": {
+        "en": "Phase-II (ODF Plus) begins",
+        "te": "ఫేజ్-II (ODF ప్లస్) ప్రారంభం"
+       }
+      },
+      {
+       "y": "Dec 2025",
+       "t": {
+        "en": "96%+ villages ODF Plus",
+        "te": "96%+ గ్రామాలు ODF ప్లస్"
+       }
+      },
+      {
+       "y": "Mar 2028",
+       "t": {
+        "en": "Phase-II new end date",
+        "te": "ఫేజ్-II కొత్త గడువు"
+       },
+       "hl": 1
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "NEXT IAS — News in Brief, 05 Nov 2026 (SBM-G Phase-II extended; based on The Indian Express)",
+     "u": "https://nextias.com/ca/current-affairs/05-11-2026/news-in-brief-05-11-2026"
+    },
+    {
+     "t": "NEXT IAS — Headlines of the Day, 05 Nov 2026 (Indian Express p5: SBM-G Phase 2 extended to 2028)",
+     "u": "https://nextias.com/ca/headlines-of-the-day/05-11-2026/88000"
+    },
+    {
+     "t": "C4S Courses — Daily Current Affairs 05 Nov 2026 (SBM-G Phase-II extended to 2028; ₹7,000 crore)",
+     "u": "https://c4scourses.in/current-affairs/daily-current-affairs-dca-05-november-2026/"
+    },
+    {
+     "t": "Wikipedia — Swachh Bharat Mission",
+     "u": "https://en.wikipedia.org/wiki/Swachh_Bharat_Mission"
+    }
+   ],
+   "mains": {
+    "en": "Building toilets was the easier half of Swachh Bharat; sustaining ODF and managing waste is the harder half. Examine the challenges in achieving ODF Plus in rural Andhra Pradesh and the role of gram panchayats.",
+    "te": "మరుగుదొడ్ల నిర్మాణం స్వచ్ఛ భారత్‌లో సులువైన సగం; ODF కొనసాగింపు, వ్యర్థాల నిర్వహణ కష్టమైన సగం. గ్రామీణ ఆంధ్రప్రదేశ్‌లో ODF ప్లస్ సాధనలో సవాళ్లను, గ్రామ పంచాయతీల పాత్రను పరిశీలించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "greatmarch",
+   "q": {
+    "en": "Consider the following statements about the Indian satyagraha of 1913 in South Africa:",
+    "te": "1913 దక్షిణాఫ్రికా భారతీయ సత్యాగ్రహానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. In March 1913 the Searle judgment refused to recognise Hindu and Muslim marriages.",
+     "te": "I. 1913 మార్చిలో సెర్ల్ తీర్పు హిందూ, ముస్లిం వివాహాలను గుర్తించలేదు."
+    },
+    {
+     "en": "II. The Newcastle campaign was against the £3 tax on ex-indentured Indians.",
+     "te": "II. న్యూకాజిల్ ఉద్యమం ఒప్పందం ముగిసిన భారతీయులపై £3 పన్నుకు వ్యతిరేకంగా జరిగింది."
+    },
+    {
+     "en": "III. The Great March began on 6 November 1906.",
+     "te": "III. గ్రేట్ మార్చ్ 1906 నవంబర్ 6న ప్రారంభమైంది."
+    },
+    {
+     "en": "IV. 2,037 men, 127 women and 57 children took part in the march.",
+     "te": "IV. కవాతులో 2,037 పురుషులు, 127 మహిళలు, 57 పిల్లలు పాల్గొన్నారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is wrong: the march began on 6 Nov 1913; 1906 is when satyagraha in South Africa began.",
+    "te": "III తప్పు: కవాతు 6 నవంబర్ 1913న మొదలైంది; 1906 దక్షిణాఫ్రికా సత్యాగ్రహం ప్రారంభ సంవత్సరం."
+   }
+  },
+  {
+   "topic": "greatmarch",
+   "q": {
+    "en": "Which of the following statements is/are INCORRECT?",
+    "te": "కింది వాటిలో తప్పు వాక్యం/వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. The Smuts–Gandhi Agreement was signed in January 1913, before the Great March.",
+     "te": "I. స్మట్స్–గాంధీ ఒప్పందం గ్రేట్ మార్చ్‌కు ముందు, జనవరి 1913లో జరిగింది."
+    },
+    {
+     "en": "II. The Indian Relief Act, 1914 abolished the £3 tax.",
+     "te": "II. భారతీయ ఉపశమన చట్టం, 1914 £3 పన్నును రద్దు చేసింది."
+    },
+    {
+     "en": "III. Gandhi left South Africa in July 1914 and reached India in January 1915.",
+     "te": "III. గాంధీ 1914 జూలైలో దక్షిణాఫ్రికా వీడి, 1915 జనవరిలో భారత్ చేరారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Only I is incorrect: the Smuts–Gandhi Agreement is dated 30 June 1914, after the march.",
+    "te": "I మాత్రమే తప్పు: స్మట్స్–గాంధీ ఒప్పందం 30 జూన్ 1914 — కవాతు తర్వాత."
+   }
+  },
+  {
+   "topic": "envwar",
+   "q": {
+    "en": "Consider the following statements about the International Day observed on 6 November:",
+    "te": "నవంబర్ 6న పాటించే అంతర్జాతీయ దినోత్సవానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It aims at preventing the exploitation of the environment in war and armed conflict.",
+     "te": "I. యుద్ధాలు, సాయుధ ఘర్షణల్లో పర్యావరణ దోపిడీ నివారణ దీని లక్ష్యం."
+    },
+    {
+     "en": "II. It was declared through UN General Assembly resolution A/RES/56/4.",
+     "te": "II. దీనిని ఐరాస సర్వసభ్య సమావేశం తీర్మానం A/RES/56/4 ద్వారా ప్రకటించారు."
+    },
+    {
+     "en": "III. It was declared when Ban Ki-moon was UN Secretary-General.",
+     "te": "III. బాన్ కీ-మూన్ ఐరాస ప్రధాన కార్యదర్శిగా ఉన్నప్పుడు దీనిని ప్రకటించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "III is wrong: it was declared in 2001, during Kofi Annan's tenure.",
+    "te": "III తప్పు: 2001లో కోఫీ అన్నన్ హయాంలో ప్రకటించారు."
+   }
+  },
+  {
+   "topic": "envwar",
+   "q": {
+    "en": "According to UNEP, consider the following about conflicts and natural resources:",
+    "te": "UNEP ప్రకారం ఘర్షణలు, సహజ వనరులకు సంబంధించి కింది వాటిని పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. At least 40% of internal conflicts in the last 60 years were linked to natural resources.",
+     "te": "I. గత 60 ఏళ్లలో కనీసం 40% అంతర్గత ఘర్షణలు సహజ వనరులతో ముడిపడ్డాయి."
+    },
+    {
+     "en": "II. Resource-linked conflicts are twice as likely to relapse.",
+     "te": "II. వనరులతో ముడిపడిన ఘర్షణలు మళ్లీ రాజుకునే అవకాశం రెట్టింపు."
+    },
+    {
+     "en": "III. Environmental action is therefore part of conflict prevention and peacebuilding.",
+     "te": "III. అందుకే పర్యావరణ చర్యలు ఘర్షణ నివారణ, శాంతి నిర్మాణంలో భాగం."
+    },
+    {
+     "en": "IV. The UN has announced an official theme for this Day in 2026.",
+     "te": "IV. 2026లో ఈ దినోత్సవానికి ఐరాస అధికారిక థీమ్ ప్రకటించింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "IV is wrong: no official theme has been announced for 2026.",
+    "te": "IV తప్పు: 2026కు అధికారిక థీమ్ ప్రకటించలేదు."
+   }
+  },
+  {
+   "topic": "anaemia",
+   "q": {
+    "en": "Consider the following statements based on NFHS-5 and nutrition surveys:",
+    "te": "NFHS-5, పోషకాహార సర్వేల ఆధారంగా కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. NFHS-5 (2019-21) found 57.0% of women aged 15–49 anaemic.",
+     "te": "I. NFHS-5 (2019-21) ప్రకారం 15–49 ఏళ్ల మహిళల్లో 57.0% మందికి రక్తహీనత."
+    },
+    {
+     "en": "II. NFHS-5 found 67.1% of children aged 6–59 months anaemic.",
+     "te": "II. NFHS-5 ప్రకారం 6–59 నెలల పిల్లల్లో 67.1% మందికి రక్తహీనత."
+    },
+    {
+     "en": "III. The Comprehensive National Nutrition Survey was conducted in 2019-21.",
+     "te": "III. సమగ్ర జాతీయ పోషకాహార సర్వే (CNNS) 2019-21లో జరిగింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "III is wrong: CNNS was 2016-18; 2019-21 is NFHS-5.",
+    "te": "III తప్పు: CNNS 2016-18లో; 2019-21 అనేది NFHS-5."
+   }
+  },
+  {
+   "topic": "anaemia",
+   "q": {
+    "en": "A district plans to give Double Fortified Salt to everyone. Based on The Hindu article, which of the following are valid concerns?",
+    "te": "ఒక జిల్లా అందరికీ డబుల్ ఫోర్టిఫైడ్ ఉప్పు ఇవ్వాలనుకుంటోంది. ది హిందూ వ్యాసం ప్రకారం కింది వాటిలో సరైన ఆందోళనలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. Indians already eat about twice the WHO limit of 5 g of salt a day.",
+     "te": "I. భారతీయులు ఇప్పటికే WHO పరిమితి 5 గ్రా. ఉప్పుకు దాదాపు రెట్టింపు తింటున్నారు."
+    },
+    {
+     "en": "II. Thalassaemia carriers may face iron overload.",
+     "te": "II. తలసేమియా వాహకులకు ఐరన్ అధికమయ్యే ప్రమాదం ఉంది."
+    },
+    {
+     "en": "III. Tea, coffee and milk improve the absorption of non-haem iron.",
+     "te": "III. టీ, కాఫీ, పాలు నాన్-హీమ్ ఐరన్ శోషణను పెంచుతాయి."
+    },
+    {
+     "en": "IV. Fortified rice and IFA tablets already supply iron, so total exposure is unknown.",
+     "te": "IV. ఫోర్టిఫైడ్ బియ్యం, IFA మాత్రలు ఇప్పటికే ఐరన్ ఇస్తున్నాయి — మొత్తం ఎంత అందుతోందో తెలియదు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "III is wrong: polyphenols (tea, coffee) and calcium (milk) BLOCK iron absorption.",
+    "te": "III తప్పు: పాలీఫెనాల్స్ (టీ, కాఫీ), కాల్షియం (పాలు) ఐరన్ శోషణను అడ్డుకుంటాయి."
+   }
+  },
+  {
+   "topic": "ccts",
+   "q": {
+    "en": "Consider the following statements about India's Carbon Credit Trading Scheme (CCTS):",
+    "te": "భారత కార్బన్ క్రెడిట్ ట్రేడింగ్ పథకం (CCTS)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It was launched in 2023 under the Energy Conservation (Amendment) Act, 2022.",
+     "te": "I. ఇంధన పరిరక్షణ (సవరణ) చట్టం, 2022 కింద 2023లో ప్రారంభమైంది."
+    },
+    {
+     "en": "II. It has both a compliance mechanism and an offset mechanism.",
+     "te": "II. ఇందులో నిర్బంధ విధానం, ఆఫ్‌సెట్ విధానం రెండూ ఉన్నాయి."
+    },
+    {
+     "en": "III. Its offsets accept projects started at any time before 2025.",
+     "te": "III. 2025కు ముందు ఎప్పుడు ప్రారంభించిన ప్రాజెక్టులనైనా దీని ఆఫ్‌సెట్లు అంగీకరిస్తాయి."
+    },
+    {
+     "en": "IV. The UK recognised India's CCTS in August 2026.",
+     "te": "IV. ఆగస్టు 2026లో భారత CCTSను UK గుర్తించింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "III is wrong: India accepts only offset projects started after 1 January 2025.",
+    "te": "III తప్పు: 1 జనవరి 2025 తర్వాత ప్రారంభమైన ఆఫ్‌సెట్ ప్రాజెక్టులనే భారత్ అంగీకరిస్తుంది."
+   }
+  },
+  {
+   "topic": "ccts",
+   "q": {
+    "en": "Match List-I (item) with List-II (fact) — A. EU CBAM  B. Brazil's SBCE  C. Article 6.2  D. 18th BRICS Summit; 1. Absolute emission cap  2. Definitive phase from January 2026  3. New Delhi, 12 Sept 2026  4. Paris Agreement route for transferring units",
+    "te": "జాబితా-I (అంశం)ను జాబితా-II (వాస్తవం)తో జతపరచండి — A. EU CBAM  B. బ్రెజిల్ SBCE  C. ఆర్టికల్ 6.2  D. 18వ బ్రిక్స్ సదస్సు; 1. అబ్సల్యూట్ ఉద్గార పరిమితి  2. జనవరి 2026 నుంచి పూర్తి దశ  3. న్యూఢిల్లీ, 12 సెప్టెంబర్ 2026  4. యూనిట్ల బదిలీకి పారిస్ ఒప్పంద మార్గం"
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "A-1, B-2, C-4, D-3",
+     "te": "A-1, B-2, C-4, D-3"
+    },
+    {
+     "en": "A-2, B-1, C-4, D-3",
+     "te": "A-2, B-1, C-4, D-3"
+    },
+    {
+     "en": "A-2, B-1, C-3, D-4",
+     "te": "A-2, B-1, C-3, D-4"
+    },
+    {
+     "en": "A-4, B-1, C-2, D-3",
+     "te": "A-4, B-1, C-2, D-3"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "CBAM = EU, definitive Jan 2026; Brazil = absolute cap; Article 6.2 = transfers; summit = New Delhi. Trap: (a) swaps CBAM and Brazil.",
+    "te": "CBAM = EU, జనవరి 2026 పూర్తి దశ; బ్రెజిల్ = అబ్సల్యూట్ క్యాప్; ఆర్టికల్ 6.2 = బదిలీలు; సదస్సు = న్యూఢిల్లీ. ఉచ్చు: (a)లో CBAM, బ్రెజిల్ తారుమారు."
+   }
+  },
+  {
+   "topic": "sbmg",
+   "q": {
+    "en": "Consider the following statements about Swachh Bharat Mission (Grameen) Phase-II:",
+    "te": "స్వచ్ఛ భారత్ మిషన్ (గ్రామీణ) ఫేజ్-IIకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Its approved outlay is ₹1,40,881 crore.",
+     "te": "I. దీని ఆమోదిత వ్యయం ₹1,40,881 కోట్లు."
+    },
+    {
+     "en": "II. Over 96% of villages had attained ODF Plus status by 31 December 2025.",
+     "te": "II. 2025 డిసెంబర్ 31 నాటికి 96%కి పైగా గ్రామాలు ODF ప్లస్ హోదా పొందాయి."
+    },
+    {
+     "en": "III. The Centre:State share for north-eastern and Himalayan States is 60:40.",
+     "te": "III. ఈశాన్య, హిమాలయ రాష్ట్రాలకు కేంద్రం:రాష్ట్రం వాటా 60:40."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "III is wrong: NE and Himalayan States (incl. J&K) get 90:10; 60:40 is for other States.",
+    "te": "III తప్పు: ఈశాన్య, హిమాలయ రాష్ట్రాలకు (J&K సహా) 90:10; 60:40 ఇతర రాష్ట్రాలకు."
+   }
+  },
+  {
+   "topic": "sbmg",
+   "q": {
+    "en": "A village is ODF, manages its solid waste but has no system for greywater. Which statements are correct?",
+    "te": "ఒక గ్రామం ODF; ఘన వ్యర్థాలను నిర్వహిస్తోంది కానీ గ్రే వాటర్‌కు ఏర్పాటు లేదు. కింది వాటిలో సరైనవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. It qualifies as an 'Aspiring' ODF Plus village.",
+     "te": "I. ఇది 'ఆస్పైరింగ్' ODF ప్లస్ గ్రామంగా అర్హత పొందుతుంది."
+    },
+    {
+     "en": "II. It qualifies as a 'Model' ODF Plus village.",
+     "te": "II. ఇది 'మోడల్' ODF ప్లస్ గ్రామంగా అర్హత పొందుతుంది."
+    },
+    {
+     "en": "III. To become 'Rising' it must also manage liquid waste.",
+     "te": "III. 'రైజింగ్' కావాలంటే ద్రవ వ్యర్థాలను కూడా నిర్వహించాలి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "II is wrong: 'Model' needs both solid and liquid waste management plus visual cleanliness.",
+    "te": "II తప్పు: 'మోడల్'కు ఘన, ద్రవ వ్యర్థాల నిర్వహణ రెండూ + కనిపించే పరిశుభ్రత కావాలి."
+   }
+  }
+ ]
+}
