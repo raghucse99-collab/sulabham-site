@@ -1278,7 +1278,9 @@ async function load(){
  }
  renderMarkets();renderChart();renderLatestResults();
 }
-// Load the currently selected historical chart immediately; do not wait for the 30-second refresh.\nload();\n// Load Radha Night's historical archive independently of live-result feeds.
+// Load the currently selected historical chart immediately; do not wait for the 30-second refresh.
+load();
+// Load Radha Night's historical archive independently of live-result feeds.
 // This ensures its market card is marked ready before the user opens it.
 async function loadRadhaNightArchive(){
  try{
