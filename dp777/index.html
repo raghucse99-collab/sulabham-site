@@ -1192,20 +1192,23 @@ $('openDigitSummary')?.addEventListener('click',e=>{const b=e.target.closest('[d
 async function fetchData(marketId=selected){
  const key=chartKeyFor(marketId);
  let lastError;
- // Fetch a small per-market JSON file first, rather than requiring the full 1.8 MB archive.
  const file=encodeURIComponent(key)+'.json';
- // Try the page-relative path first (works with GitHub project Pages), then
- // explicit project URL and raw GitHub/CDN mirrors as independent fallbacks.
- const sources=['data/charts/'+file,'/sulabham/dp777/data/charts/'+file,'https://raghucse99-collab.github.io/sulabham-site/dp777/data/charts/'+file,'https://raw.githubusercontent.com/raghucse99-collab/sulabham-site/main/dp777/data/charts/'+file,'https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham-site@main/dp777/data/charts/'+file,...DATA_URLS];
+ // Prefer stable raw-data endpoints first; the site may be opened through a custom domain.
+ const sources=[
+  'https://raw.githubusercontent.com/raghucse99-collab/sulabham-site/main/dp777/data/charts/'+file,
+  'https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham-site@main/dp777/data/charts/'+file,
+  'https://raghucse99-collab.github.io/sulabham-site/dp777/data/charts/'+file,
+  'data/charts/'+file
+ ];
  for(const base of sources){
-  const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),12000);
+  const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),8000);
   try{
-   const res=await fetch(base+(base.includes('?')?'&':'?')+'v='+Date.now(),{cache:'no-store',signal:controller.signal});
+   const res=await fetch(base+'?v='+Date.now(),{cache:'no-store',signal:controller.signal,mode:'cors'});
    if(!res.ok)throw new Error('HTTP '+res.status+' from '+base);
    const parsed=await res.json();
    let normalized=parsed;
-   if(parsed&&parsed.rows&&Array.isArray(parsed.rows))normalized={updated_at:parsed.updated_at||null,charts:{[key]:parsed}};
-   if(!normalized||!normalized.charts||typeof normalized.charts!=='object'||!normalized.charts[key])throw new Error('invalid chart data for '+key);
+   if(parsed&&Array.isArray(parsed.rows))normalized={updated_at:parsed.updated_at||null,charts:{[key]:parsed}};
+   if(!normalized?.charts?.[key]||!Array.isArray(normalized.charts[key].rows))throw new Error('invalid chart data for '+key);
    return normalized;
   }catch(e){lastError=e;console.warn('Chart feed failed:',base,e);}
   finally{clearTimeout(timeout);}
