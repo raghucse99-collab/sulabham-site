@@ -682,6 +682,43 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
   .weekly-chart .result-stack .jodi-line{font-size:20px!important}
   .weekly-chart .result-stack .panel-line{font-size:15px!important}
 }
+
+/* Stronger date labels and higher-contrast chart values */
+.weekly-chart .week-date{
+  width:66px!important;min-width:66px!important;max-width:66px!important;
+  padding:5px 2px!important;background:#e9edff!important;color:#172554!important;
+  font-size:11px!important;font-weight:950!important;line-height:1.3!important;
+  letter-spacing:.1px!important;border-right:2px solid #8998c9!important;
+  font-variant-numeric:tabular-nums!important;
+}
+.weekly-chart th{
+  font-size:11px!important;font-weight:950!important;color:#172554!important;
+}
+.weekly-chart .result-stack span{
+  color:#101b2d!important;font-size:17px!important;font-weight:950!important;
+  text-shadow:0 0 .35px currentColor!important;
+  min-height:24px!important;line-height:1.15!important;
+}
+.weekly-chart .result-stack .jodi-line{
+  color:#a10f45!important;background:#ffe5f0!important;
+  font-size:21px!important;font-weight:1000!important;
+}
+.weekly-chart .result-stack .panel-line{
+  color:#101b2d!important;font-size:15px!important;font-weight:950!important;
+  letter-spacing:.4px!important;
+}
+.weekly-chart .result-stack .pending{
+  color:#596579!important;font-size:15px!important;font-weight:900!important;
+}
+@media(max-width:520px){
+  .weekly-chart .week-date{
+    width:66px!important;min-width:66px!important;max-width:66px!important;
+    font-size:10.5px!important;padding:5px 1px!important;
+  }
+  .weekly-chart .result-stack span{font-size:16px!important;min-height:23px!important}
+  .weekly-chart .result-stack .jodi-line{font-size:20px!important}
+  .weekly-chart .result-stack .panel-line{font-size:14px!important}
+}
 </style>
 </head>
 <body>
