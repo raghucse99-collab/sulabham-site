@@ -1012,7 +1012,12 @@ function renderChart(){
     if(!valid(jodi))return;
     const previous=lastSeen.get(jodi);
     if(previous){
-     events.push({jodi,gap:rowIndex-previous.rowIndex,from:previous,to:{rowIndex,day,date:row.date||('Row '+(rowIndex+1))}});
+     const fromTime=parseWeekStart({date:previous.date}),toTime=parseWeekStart(row);
+     // Measure the gap from the actual week-start dates, not array positions.
+     // This preserves skipped/holiday weeks in the continuous date sequence.
+     const elapsedWeeks=fromTime!==null&&toTime!==null?(toTime-fromTime)/604800000:NaN;
+     const gap=Number.isInteger(elapsedWeeks)&&elapsedWeeks>0?elapsedWeeks:rowIndex-previous.rowIndex;
+     events.push({jodi,gap,from:previous,to:{rowIndex,day,date:row.date||('Row '+(rowIndex+1))}});
     }
     lastSeen.set(jodi,{rowIndex,day,date:row.date||('Row '+(rowIndex+1))});
    });
@@ -1042,7 +1047,11 @@ function renderChart(){
   const cards=filtered.map((p,n)=>{
    const nextGap=p.mode==='same'?p.gaps[p.gaps.length-1]:p.gaps[p.gaps.length-1]+1;
    const rowSet=new Set();
-   p.events.forEach(e=>{rowSet.add(e.from.rowIndex);rowSet.add(e.to.rowIndex);});
+   // Show every available dated row between the first and last occurrence,
+   // not only the highlighted endpoints, so the chart remains continuous.
+   const firstRow=Math.min(...p.events.map(e=>e.from.rowIndex));
+   const lastRow=Math.max(...p.events.map(e=>e.to.rowIndex));
+   for(let ri=firstRow;ri<=lastRow;ri++)rowSet.add(ri);
    const chartRows=[...rowSet].sort((a,b)=>a-b);
    const hitMap=new Map();
    p.events.forEach((e,k)=>{
@@ -1063,9 +1072,9 @@ function renderChart(){
       }).join('')+'</tr>';
     }).join('')+'</tbody></table></div>';
    const eventList=p.events.map((e,k)=>'<li><strong>#'+(k+1)+' · '+e.jodi+'</strong>: '+esc(e.from.day+' '+e.from.date)+' → '+esc(e.to.day+' '+e.to.date)+' <b>(gap '+e.gap+')</b></li>').join('');
-   return '<details class="repeat-pattern-card" '+(n===0?'open':'')+'><summary><span class="repeat-pattern-name">Repeat-gap sequence '+(n+1)+'</span><span class="repeat-pattern-type">'+(p.mode==='same'?'Same gap':'Increasing gap')+'</span><span class="repeat-pattern-gaps">Gaps: '+p.gaps.join(' → ')+'</span><span class="repeat-pattern-status">'+(p.latest?'Touches latest available week':'Historical sequence')+'</span></summary><div class="repeat-chart-note">Whole chart grid scanned across Monday–Sunday. Different Jodis may form consecutive repeat events. Each highlighted cell is one endpoint of a repeat event; # labels link the two matching appearances.</div><ol style="padding:8px 28px;margin:0;font-size:12px;line-height:1.8">'+eventList+'</ol>'+chart+'<div class="repeat-pattern-footer">Next-gap reference: '+nextGap+' weekly rows if this historical pattern continued. This is only a mathematical reference, not a prediction or guaranteed result.</div></details>';
+   return '<details class="repeat-pattern-card" '+(n===0?'open':'')+'><summary><span class="repeat-pattern-name">Repeat-gap sequence '+(n+1)+'</span><span class="repeat-pattern-type">'+(p.mode==='same'?'Same gap':'Increasing gap')+'</span><span class="repeat-pattern-gaps">Gaps: '+p.gaps.join(' → ')+'</span><span class="repeat-pattern-status">'+(p.latest?'Touches latest available week':'Historical sequence')+'</span></summary><div class="repeat-chart-note">Whole chart grid scanned across Monday–Sunday in date order. Gaps are calculated from the actual week-start dates (including weeks absent from the source rows), not simply from row positions. Every available weekly row between the first and last repeat is displayed; highlighted cells are the matching endpoints and # labels link each pair.</div><ol style="padding:8px 28px;margin:0;font-size:12px;line-height:1.8">'+eventList+'</ol>'+chart+'<div class="repeat-pattern-footer">Next-gap reference: '+nextGap+' weekly rows if this historical pattern continued. This is only a mathematical reference, not a prediction or guaranteed result.</div></details>';
   }).join('');
-  $('tableArea').innerHTML='<div class="chart-title-band">WHOLE-GRID JODI REPEAT-GAP ANALYSIS</div><div class="chart-hint">Rows are scanned chronologically from oldest to latest, checking all seven day columns. When any two appearances of the same two-digit Jodi are found, the row-index difference becomes a repeat-event gap. Sequences may contain different Jodis. Both equal-gap (e.g. 3 → 3 → 3 → 3) and +1 increasing-gap (e.g. 3 → 4 → 5 → 6) runs are shown. Minimum: 4 consecutive repeat events. Blanks and *** are ignored, never filled or guessed.</div>'+(filtered.length?'<div class="repeat-pattern-list">'+cards+'</div>':'<div class="empty"><strong>No qualifying repeat-gap sequence found.</strong>Try clearing the Jodi search field or check another chart.</div>');
+  $('tableArea').innerHTML='<div class="chart-title-band">WHOLE-GRID JODI REPEAT-GAP ANALYSIS</div><div class="chart-hint">Rows are scanned chronologically by their actual dates, checking all seven day columns. When any two appearances of the same two-digit Jodi are found, the elapsed number of calendar weeks between their week-start dates becomes the repeat-event gap. Missing source weeks therefore count in the interval. Sequences may contain different Jodis. Both equal-gap (e.g. 3 → 3 → 3 → 3) and +1 increasing-gap (e.g. 3 → 4 → 5 → 6) runs are shown. Minimum: 4 consecutive repeat events. Blanks and *** are ignored, never filled or guessed.</div>'+(filtered.length?'<div class="repeat-pattern-list">'+cards+'</div>':'<div class="empty"><strong>No qualifying repeat-gap sequence found.</strong>Try clearing the Jodi search field or check another chart.</div>');
   return;
  }
  if(targetSearch){
