@@ -702,7 +702,9 @@ const markets=[
  {id:'main-bazar',name:'Main Bazar',url:'https://khabar.bet/main-bazar-matka-chart',open:'21:50',close:'23:58'},
  {id:'radha-night',name:'Radha Night',url:'https://sara777.com/radha-night/pana.html',open:'',close:'',showLive:false},
 ];
-let data={charts:{},updated_at:null},selected=markets[0].id,view='jodi',dataLoadFailed=false;\nconst repeatOpenCharts=new Set();\ndocument.addEventListener('toggle',e=>{if(e.target?.matches?.('.repeat-history[data-repeat-key]')){const k=e.target.dataset.repeatKey;if(e.target.open)repeatOpenCharts.add(k);else repeatOpenCharts.delete(k);}},true);
+let data={charts:{},updated_at:null},selected=markets[0].id,view='jodi',dataLoadFailed=false;
+const repeatOpenCharts=new Set();
+document.addEventListener('toggle',e=>{if(e.target?.matches?.('.repeat-history[data-repeat-key]')){const k=e.target.dataset.repeatKey;if(e.target.open)repeatOpenCharts.add(k);else repeatOpenCharts.delete(k);}},true);
 const $=id=>document.getElementById(id);
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function isRedJodiValue(v){
@@ -1047,10 +1049,13 @@ function renderChart(){
     }});
     const events=path.map((e,k)=>'<div class="repeat-step"><b class="repeat-step-num">STEP '+(k+1)+'</b><strong class="repeat-step-jodi">'+esc(e.jodi)+'</strong><span>Row '+(e.start+1)+' → '+(e.end+1)+'</span><b>GAP '+e.gap+'</b></div>').join('');
     const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:last-first+1},(_,k)=>first+k).map(ix=>'<tr><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+esc(allRows[ix].date||'')+'</small></td>'+days.map(d=>{const v=String(allRows[ix][d+' Jodi']??'').trim(),hit=hits.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table></div>';
-    const current=[...rowSets[last]].sort().join(' · ');\n    const repeatKey=item.mode+':'+path.map(e=>e.start+'-'+e.end+'-'+e.jodi+'-'+e.gap).join('|');
+    const current=[...rowSets[last]].sort().join(' · ');
+    const repeatKey=item.mode+':'+path.map(e=>e.start+'-'+e.end+'-'+e.jodi+'-'+e.gap).join('|');
     return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · '+(item.mode==='same'?'SAME GAP':'INCREASING GAP')+' · NEXT REPEAT IN '+item.wait+' WEEK'+(item.wait===1?'':'S')+'</strong><span>Gaps '+path.map(e=>e.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>NEXT GAP '+item.nextGap+' · TARGET ROW '+(last+item.nextGap+1)+'</b><div>Jodis to watch: <strong>'+esc(current||'None')+'</strong></div><small>Possible continuation only — not a prediction.</small></div><div class="repeat-steps">'+events+'</div><details class="repeat-history"><summary>SHOW WEEKLY CHART · '+(last-first+1)+' WEEKS</summary>'+table+'</details></section>';
   }).join('');
-  const repeatScrollY=window.scrollY;\n  $('tableArea').innerHTML='<div class="repeat-page"><h3>ACTIVE REPEAT SEQUENCES · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Nearest future target first. Two separate pattern types: <b>Same Gap</b> (every gap identical) or <b>Increasing Gap</b> (each gap increases by exactly 1). They are never mixed. Each link repeats the <b>exact same Jodi</b>; broken links are excluded.</p>'+(patterns.length?cards+(patterns.length>100?'<p>Showing the first 100 nearest active patterns. Use Jodi search to narrow results.</p>':''):'<div class="empty"><strong>No active uninterrupted sequence with four or more links found.</strong></div>')+'</div>';\n  requestAnimationFrame(()=>window.scrollTo(0,repeatScrollY));
+  const repeatScrollY=window.scrollY;
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>ACTIVE REPEAT SEQUENCES · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Nearest future target first. Two separate pattern types: <b>Same Gap</b> (every gap identical) or <b>Increasing Gap</b> (each gap increases by exactly 1). They are never mixed. Each link repeats the <b>exact same Jodi</b>; broken links are excluded.</p>'+(patterns.length?cards+(patterns.length>100?'<p>Showing the first 100 nearest active patterns. Use Jodi search to narrow results.</p>':''):'<div class="empty"><strong>No active uninterrupted sequence with four or more links found.</strong></div>')+'</div>';
+  requestAnimationFrame(()=>window.scrollTo(0,repeatScrollY));
   return;
  }
  if(targetSearch){
