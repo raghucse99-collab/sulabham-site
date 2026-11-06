@@ -32,9 +32,10 @@ h1{font-family:var(--f-display);font-size:1.6rem;margin:8px 0 4px}.lede{color:va
 .tag{display:inline-block;font-size:.72rem;border-radius:6px;padding:1px 6px;margin-right:4px;color:#fff}.tag{background:var(--acc)}.tag.pol{background:#1d4f91}.tag.eco{background:#2f6b2f}.tag.his{background:#8a4b12}.tag.geo{background:#0b7285}.tag.soc{background:#862e9c}.tag.aph{background:#a61e4d}.tag.sci{background:#5c7c10}.tag.ma{background:#495057}.tag.prac,.tag.mock,.tag.ca{background:#c92a2a}.ph{margin:22px 0 4px;padding:8px 12px;border-radius:10px;background:#e8eef4;font-family:var(--f-display);font-weight:800}.day .t b{margin:2px 0}
 .btns{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.btns a,.btns button{font:inherit;font-size:15px;border-radius:10px;border:1px solid var(--line);padding:9px 12px;background:#fff;color:var(--ink);text-decoration:none;cursor:pointer}
 .btns .pri{background:var(--acc);color:#fff;border-color:var(--acc)}.btns .ok{background:var(--ok);color:#fff;border-color:var(--ok)}
+.sc .row{display:flex;gap:8px;align-items:center;margin:6px 0}.sc input{font:inherit;width:90px;padding:7px;border:1px solid var(--line);border-radius:8px}.sc textarea{font:inherit;width:100%;border:1px solid var(--line);border-radius:8px;padding:7px;box-sizing:border-box}.sm{font:inherit;font-size:14px;border-radius:8px;border:1px solid var(--line);padding:6px 10px;background:#fff;cursor:pointer}.sm.pri{background:var(--acc);color:#fff;border-color:var(--acc)}.wt{border-collapse:collapse;font-size:.9rem}.wt th,.wt td{border:1px solid var(--line);padding:4px 10px;text-align:center}
 .back{font:inherit;border:0;background:none;color:var(--acc);cursor:pointer;padding:0;margin:4px 0}
 .note{font-size:.85rem;color:var(--muted)}
-@media print{header,.btns,.back,.note,.lede{display:none!important}body{background:#fff}main{padding:0;max-width:none}.box{border:0;padding:0}.nt .fig img{max-height:230px}}</style>
+@media print{.sc,header,.btns,.back,.note,.lede{display:none!important}body{background:#fff}main{padding:0;max-width:none}.box{border:0;padding:0}.nt .fig img{max-height:230px}}</style>
 </head>
 <body>
 <header><a href="index.html">సులభం</a><span class="lang"><button data-l="te">తెలుగు</button> <button data-l="en">English</button></span></header>
@@ -44,9 +45,55 @@ h1{font-family:var(--f-display);font-size:1.6rem;margin:8px 0 4px}.lede{color:va
 var L="en";try{L=localStorage.getItem("sul_lang")||"en"}catch(e){}
 var P={};try{P=JSON.parse(localStorage.getItem("sul_plan2")||"{}")}catch(e){}
 function save(){try{localStorage.setItem("sul_plan2",JSON.stringify(P))}catch(e){}}
+var S={};try{S=JSON.parse(localStorage.getItem("sul_score")||"{}")}catch(e){}
+function saveS(){try{localStorage.setItem("sul_score",JSON.stringify(S))}catch(e){}}
 var T={en:{h:"Day-wise preparation: Group 1 Prelims, Group 2 Screening and Mains",lede:"The whole syllabus, in order, in about 16 weeks. Phase 1 covers everything common to Group 1 Prelims and the Group 2 Screening Test, Phase 2 is the final revision and mock sprint before Group 1 Prelims (24 Jan 2027), Phase 3 covers Andhra Pradesh history, AP economy and Mains answer writing, and Phase 4 is Group 2 mocks. Every day has three slots of about 90 minutes plus current affairs.",how:"How to study each day",steps:["Read the day's notes slowly. Each note starts with what the topic means, why it exists and how it works; the facts table comes last.","Close the notes and write the topic in your own words in 10 lines. That is the real learning; do not skip it.","Answer the day's practice questions at night, then correct them using the notes.","Revise the page on Day 1, 3, 7, 15 and 30. This page reminds you.","Every 7th day: no new topic. Revise the week's pages and take a test."],due:"🔁 Revise today",nodue:"Nothing due today. Continue with your next day.",prog:function(a,b){return a+" of "+b+" days done"},wk:function(w){return"Week "+w},rev:"Revision day: revise this week's notebook pages and take the weekly test",soon:"Notes coming",open:"Open",pdf:"⬇️ Download PDF (diagrams only)",prn:"🖨 Print / Save PDF with photos",done:"✓ Mark day as done",undone:"Done ✓ (tap to undo)",back:"← All days",revon:"Revise on",note:"Your progress is saved only in this browser.",day:"Day",ph:{1:"Phase 1: Core syllabus, common to Group 1 Prelims and Group 2 Screening",2:"Phase 2: Revision and mock sprint before Group 1 Prelims",3:"Phase 3: Andhra Pradesh history and economy, Mains answer writing",4:"Phase 4: Group 2 mocks and final revision"},sub:{pol:"Polity",eco:"Economy",his:"History",geo:"Geography",soc:"Society",aph:"AP History",sci:"Science and Environment",ma:"Reasoning and Maths",prac:"Practice",mock:"Mock",ca:"Current affairs"}},
 te:{h:"రోజువారీ ప్రిపరేషన్: గ్రూప్ 1 ప్రిలిమ్స్, గ్రూప్ 2 స్క్రీనింగ్, మెయిన్స్",lede:"మొత్తం సిలబస్, క్రమంలో, సుమారు 16 వారాల్లో. 1వ దశలో గ్రూప్ 1 ప్రిలిమ్స్, గ్రూప్ 2 స్క్రీనింగ్ టెస్ట్‌కు ఉమ్మడి అంశాలు; 2వ దశ గ్రూప్ 1 ప్రిలిమ్స్ (24 జనవరి 2027)కు ముందు పునశ్చరణ, మాక్ టెస్టులు; 3వ దశలో ఆంధ్రప్రదేశ్ చరిత్ర, ఏపీ ఆర్థికం, మెయిన్స్ సమాధాన రచన; 4వ దశలో గ్రూప్ 2 మాక్‌లు. ప్రతి రోజూ సుమారు 90 నిమిషాల మూడు స్లాట్లు + కరెంట్ అఫైర్స్.",how:"రోజూ ఎలా చదవాలి",steps:["ఆ రోజు నోట్స్ నెమ్మదిగా చదవండి. ప్రతి నోట్ అంశం అర్థం, ఎందుకు ఉంది, ఎలా పనిచేస్తుంది అనేదానితో మొదలవుతుంది; వాస్తవాల పట్టిక చివర ఉంటుంది.","నోట్స్ మూసి, అంశాన్ని మీ మాటల్లో 10 వాక్యాల్లో రాయండి. ఇదే అసలైన నేర్చుకోవడం; దీన్ని వదలకండి.","రాత్రి ఆ రోజు ప్రాక్టీస్ ప్రశ్నలు రాసి, నోట్స్‌తో సరిచూసుకోండి.","ఆ పేజీని 1, 3, 7, 15, 30వ రోజు పునశ్చరణ చేయండి. ఈ పేజీ గుర్తు చేస్తుంది.","ప్రతి 7వ రోజు: కొత్త అంశం వద్దు. వారం పేజీల పునశ్చరణ + టెస్ట్."],due:"🔁 ఈ రోజు పునశ్చరణ",nodue:"ఈ రోజు పునశ్చరణ లేదు. తర్వాతి రోజు కొనసాగించండి.",prog:function(a,b){return b+" రోజుల్లో "+a+" పూర్తి"},wk:function(w){return"వారం "+w},rev:"పునశ్చరణ రోజు: ఈ వారం పేజీల పునశ్చరణ + వారపు టెస్ట్",soon:"నోట్స్ త్వరలో",open:"తెరవండి",pdf:"⬇️ PDF డౌన్‌లోడ్ (చిత్రాలు మాత్రమే)",prn:"🖨 ఫోటోలతో ప్రింట్ / PDF సేవ్",done:"✓ ఈ రోజు పూర్తి",undone:"పూర్తి ✓ (రద్దుకు నొక్కండి)",back:"← అన్ని రోజులు",revon:"పునశ్చరణ తేదీలు",note:"మీ ప్రగతి ఈ బ్రౌజర్‌లోనే సేవ్ అవుతుంది.",day:"రోజు",ph:{1:"1వ దశ: ప్రధాన సిలబస్ (గ్రూప్ 1 ప్రిలిమ్స్, గ్రూప్ 2 స్క్రీనింగ్‌కు ఉమ్మడి)",2:"2వ దశ: గ్రూప్ 1 ప్రిలిమ్స్‌కు ముందు పునశ్చరణ, మాక్ టెస్టులు",3:"3వ దశ: ఆంధ్రప్రదేశ్ చరిత్ర, ఆర్థికం, మెయిన్స్ సమాధాన రచన",4:"4వ దశ: గ్రూప్ 2 మాక్‌లు, తుది పునశ్చరణ"},sub:{pol:"పాలిటీ",eco:"ఆర్థికం",his:"చరిత్ర",geo:"భౌగోళికం",soc:"సమాజం",aph:"ఏపీ చరిత్ర",sci:"సైన్స్, పర్యావరణం",ma:"రీజనింగ్, గణితం",prac:"సాధన",mock:"మాక్",ca:"కరెంట్ అఫైర్స్"}}};
 var D=null,app=document.getElementById("app");
+var TX={en:{sc:"My scores for this day",qz:"Quiz",ans:"answered",cor:"correct",rst:"Reset quiz",rc:"Recall score: close the notes, write the notebook page, then enter your % (correct points ÷ total points × 100)",sv:"Save attempt",att:"Attempts",ph:"Recall %",mi:"My mistakes / weak points on this page",mis:"Save note",saved:"Saved",pr:"My progress",none:"No scores yet. Open a day, take the quiz and save your recall %.",avgr:"Average recall",avgq:"Average quiz",gain:"Average gain on re-checks",days:"days scored",wkly:"Week by week",wk:"Week",weak:"Weak topics (below 60%)",nowk:"None. Keep going.",leg:"Orange: recall %. Blue: quiz %.",tgt:"Target: recall above 80% and quiz above 73% (11 of 15) on the first attempt.",hint:"Re-check on days 1, 3, 7, 15 and 30 and save each attempt: the numbers should rise."},
+te:{sc:"ఈ రోజు నా స్కోర్లు",qz:"క్విజ్",ans:"జవాబిచ్చినవి",cor:"సరైనవి",rst:"క్విజ్ రీసెట్",rc:"రీకాల్ స్కోర్: నోట్స్ మూసి, నోట్‌బుక్ పేజీ రాసి, మీ % నమోదు చేయండి (సరైన పాయింట్లు ÷ మొత్తం పాయింట్లు × 100)",sv:"ప్రయత్నం సేవ్",att:"ప్రయత్నాలు",ph:"రీకాల్ %",mi:"ఈ పేజీలో నా తప్పులు / బలహీన అంశాలు",mis:"నోట్ సేవ్",saved:"సేవ్ అయింది",pr:"నా పురోగతి",none:"ఇంకా స్కోర్లు లేవు. ఒక రోజు తెరిచి, క్విజ్ రాసి, రీకాల్ % సేవ్ చేయండి.",avgr:"సగటు రీకాల్",avgq:"సగటు క్విజ్",gain:"రీ-చెక్‌లలో సగటు పెరుగుదల",days:"రోజుల స్కోర్లు",wkly:"వారం వారీ",wk:"వారం",weak:"బలహీన అంశాలు (60% కంటే తక్కువ)",nowk:"లేవు. కొనసాగించండి.",leg:"నారింజ: రీకాల్ %. నీలం: క్విజ్ %.",tgt:"లక్ష్యం: మొదటి ప్రయత్నంలో రీకాల్ 80% పైన, క్విజ్ 73% పైన (15కి 11).",hint:"1, 3, 7, 15, 30వ రోజుల్లో మళ్లీ చెక్ చేసి ప్రతి ప్రయత్నం సేవ్ చేయండి: సంఖ్యలు పెరగాలి."}};
+function tx(){return TX[L]}
+function qs(){return [].slice.call(document.querySelectorAll("#body .q")).filter(function(q){return q.querySelector(".opts")})}
+function lastR(o){return o&&o.r&&o.r.length?o.r[o.r.length-1].v:null}
+function qPct(o){return o&&o.qt?Math.round(o.qc*100/o.qt):null}
+function avg(a){a=a.filter(function(v){return v!=null});return a.length?Math.round(a.reduce(function(x,y){return x+y},0)/a.length):null}
+function renderScore(n){
+ var el=document.getElementById("sc");if(!el)return;var x=tx(),o=S[n]=S[n]||{},qq=qs(),ans=0,cor=0;
+ qq.forEach(function(q,i){var k=o.a&&o.a[i];if(k!=null){ans++;if(k===+q.querySelector(".opts").dataset.a)cor++}});
+ o.qt=ans;o.qc=cor;if(qq.length)saveS();
+ var h='<h3>'+x.sc+'</h3><p><b>'+x.qz+':</b> '+cor+' / '+qq.length+' '+x.cor+' ('+ans+' '+x.ans+') <button id="qrs" class="sm">'+x.rst+'</button></p>';
+ h+='<p class="note">'+x.rc+'</p><div class="row"><input id="rin" type="number" min="0" max="100" inputmode="numeric" placeholder="%"> <button id="rsv" class="sm pri">'+x.sv+'</button></div>';
+ if(o.r&&o.r.length)h+='<p><b>'+x.att+':</b> '+o.r.map(function(r,i){return(i?' → ':'')+r.v+'% <span class="note">('+r.d.slice(5)+')</span>'}).join("")+'</p>';
+ h+='<p class="note">'+x.mi+'</p><textarea id="min" rows="3">'+esc(o.m||"")+'</textarea><div class="row"><button id="msv" class="sm">'+x.mis+'</button> <span class="note" id="svm"></span></div>';
+ h+='<p class="note">'+x.hint+'</p>';
+ el.innerHTML=h;
+ document.getElementById("qrs").onclick=function(){delete o.a;saveS();day(n)};
+ document.getElementById("rsv").onclick=function(){var v=parseFloat(document.getElementById("rin").value);if(isNaN(v)||v<0||v>100)return;o.r=o.r||[];o.r.push({d:today(),v:Math.round(v)});saveS();renderScore(n)};
+ document.getElementById("msv").onclick=function(){o.m=document.getElementById("min").value;saveS();document.getElementById("svm").textContent=x.saved};
+}
+function restoreQuiz(n){var o=S[n];if(!o||!o.a)return;qs().forEach(function(q,i){var k=o.a[i];if(k==null)return;var ol=q.querySelector(".opts"),a=+ol.dataset.a;ol.children[a].classList.add("ok");if(k!==a)ol.children[k].classList.add("bad");q.classList.add("done")})}
+function chart(rows){
+ var W=600,H=170,L0=30,n=rows.length,xs=function(i){return n>1?L0+i*(W-L0-10)/(n-1):L0+(W-L0-10)/2},ys=function(v){return H-20-v*(H-40)/100};
+ var g='';[0,25,50,75,100].forEach(function(v){g+='<line x1="'+L0+'" x2="'+(W-6)+'" y1="'+ys(v)+'" y2="'+ys(v)+'" stroke="#dde2e7"/><text x="2" y="'+(ys(v)+4)+'" font-size="10" fill="#667">'+v+'</text>'});
+ function line(k,c){var p=[];rows.forEach(function(r,i){if(r[k]!=null)p.push(xs(i)+","+ys(r[k]))});var d=p.length>1?'<polyline fill="none" stroke="'+c+'" stroke-width="2.5" points="'+p.join(" ")+'"/>':'';return d+p.map(function(q){var a=q.split(",");return'<circle cx="'+a[0]+'" cy="'+a[1]+'" r="4" fill="'+c+'"/>'}).join("")}
+ var lb=rows.map(function(r,i){return'<text x="'+xs(i)+'" y="'+(H-4)+'" font-size="10" text-anchor="middle" fill="#667">'+r.n+'</text>'}).join("");
+ return'<svg viewBox="0 0 '+W+' '+H+'" width="100%" role="img">'+g+line("r","#e08a00")+line("q","#1d6fd1")+lb+'</svg>';
+}
+function progBox(){
+ var x=tx(),ns=Object.keys(S).filter(function(k){return D.days.some(function(d){return String(d.n)===k})&&(lastR(S[k])!=null||qPct(S[k])!=null)}).map(Number).sort(function(a,b){return a-b});
+ var h='<div class="box"><h3>'+x.pr+'</h3>';
+ if(!ns.length)return h+'<span class="note">'+x.none+'</span></div>';
+ var rows=ns.map(function(k){var o=S[k];return{n:k,r:lastR(o),q:qPct(o),f:o.r&&o.r.length?o.r[0].v:null,l:o.r&&o.r.length>1?lastR(o):null,m:o.m}});
+ var gains=rows.filter(function(r){return r.l!=null}).map(function(r){return r.l-r.f}),ga=avg(gains);
+ h+='<p><b>'+x.avgr+':</b> '+(avg(rows.map(function(r){return r.r}))??'–')+'% &nbsp; <b>'+x.avgq+':</b> '+(avg(rows.map(function(r){return r.q}))??'–')+'% &nbsp; <b>'+x.gain+':</b> '+(ga==null?'–':(ga>0?'+':'')+ga+'%')+' &nbsp; <span class="note">('+rows.length+' '+x.days+')</span></p>';
+ h+=chart(rows)+'<p class="note">'+x.leg+' '+x.tgt+'</p>';
+ var wk={};rows.forEach(function(r){var d=D.days.filter(function(y){return y.n===r.n})[0];(wk[d.w]=wk[d.w]||[]).push(r)});
+ var ws=Object.keys(wk).map(Number).sort(function(a,b){return a-b}),pv=null;
+ h+='<p><b>'+x.wkly+'</b></p><table class="wt"><tr><th>'+x.wk+'</th><th>'+x.ph+'</th><th>'+x.qz+' %</th></tr>'+ws.map(function(w){var a=avg(wk[w].map(function(r){return r.r})),b=avg(wk[w].map(function(r){return r.q}));var ar=pv!=null&&a!=null?(a>pv?' ▲':a<pv?' ▼':' ='):'';if(a!=null)pv=a;return'<tr><td>'+w+'</td><td>'+(a==null?'–':a+'%'+ar)+'</td><td>'+(b==null?'–':b+'%')+'</td></tr>'}).join("")+'</table>';
+ var wl=rows.filter(function(r){return(r.r!=null&&r.r<60)||(r.q!=null&&r.q<60)});
+ h+='<p><b>'+x.weak+'</b></p>'+(wl.length?wl.map(function(r){var d=D.days.filter(function(y){return y.n===r.n})[0];return'<div>• '+t().day+' '+r.n+': '+d.items.map(function(i){return esc(nm(i))}).join(" · ")+' ('+(r.r==null?'–':r.r+'%')+' / '+(r.q==null?'–':r.q+'%')+')'+(r.m?'<br><span class="note">'+esc(r.m)+'</span>':'')+'</div>'}).join(""):'<span class="note">'+x.nowk+'</span>');
+ return h+'</div>';
+}
 function t(){return T[L]}function nm(o){return o[L]||o.en}
 function iso(d){return d.toISOString().slice(0,10)}
 function addD(s,k){var d=new Date(s+"T00:00:00Z");d.setUTCDate(d.getUTCDate()+k);return iso(d)}
@@ -59,6 +106,7 @@ function list(){
  var tt=t(),h='<h1>'+tt.h+'</h1><p class="lede">'+tt.lede+'</p>';
  var nd=D.days.filter(function(x){return!x.rev}),dn=nd.filter(function(x){return P[x.n]}).length;
  h+='<div class="box"><b>'+tt.prog(dn,nd.length)+'</b><div class="prog"><i style="width:'+Math.round(dn*100/nd.length)+'%"></i></div><span class="note">'+tt.note+'</span></div>';
+ h+=progBox();
  var du=dueList();h+='<div class="box due"><h3>'+tt.due+'</h3>'+(du.length?du.map(function(o){return'<div>• '+tt.day+' '+o.x.n+' (+'+o.k+'): '+o.x.items.map(function(i){return esc(nm(i))}).join(" · ")+'</div>'}).join(""):'<span class="note">'+tt.nodue+'</span>')+'</div>';
  h+='<div class="box how"><h3>'+tt.how+'</h3><ol>'+tt.steps.map(function(s){return'<li>'+s+'</li>'}).join("")+'</ol></div>';
  var w=0,ph=0;D.days.forEach(function(x){
@@ -75,13 +123,13 @@ function day(n){
  var tt=t(),f="plan/day"+pad(n);
  var h='<button class="back">'+tt.back+'</button><h1>'+tt.day+' '+n+'</h1><p class="lede">'+x.items.map(row).join("<br>")+'</p>';
  var rv=P[n]?'<p class="note">'+tt.revon+': '+[1,3,7,15,30].map(function(k){return addD(P[n],k)}).join(" · ")+'</p>':'';
- h+='<div class="btns"><a class="pri" href="'+f+'_'+L+'.pdf" download>'+tt.pdf+'</a><button id="pr">'+tt.prn+'</button><button class="'+(P[n]?'':'ok')+'" id="mk">'+(P[n]?tt.undone:tt.done)+'</button></div>'+rv+'<div id="body" class="box">…</div>';
+ h+='<div class="btns"><a class="pri" href="'+f+'_'+L+'.pdf" download>'+tt.pdf+'</a><button id="pr">'+tt.prn+'</button><button class="'+(P[n]?'':'ok')+'" id="mk">'+(P[n]?tt.undone:tt.done)+'</button></div>'+rv+'<div id="body" class="box">…</div><div id="sc" class="box sc"></div>';
  app.innerHTML=h;window.scrollTo(0,0);
  app.querySelector(".back").onclick=function(){location.hash=""};
  document.getElementById("pr").onclick=function(){window.print()};
  document.getElementById("mk").onclick=function(){if(P[n])delete P[n];else P[n]=today();save();day(n)};
- document.getElementById("body").addEventListener("click",function(e){var li=e.target.closest&&e.target.closest(".nt .opts li");if(!li)return;var q=li.closest(".q");if(q.classList.contains("done"))return;var ol=li.parentNode,k=[].indexOf.call(ol.children,li),a=+ol.dataset.a;[].forEach.call(ol.children,function(c,i){if(i===a)c.classList.add("ok")});if(k!==a)li.classList.add("bad");q.classList.add("done")});
- fetch(f+"_"+L+".html?v="+Date.now()).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(s){document.getElementById("body").innerHTML=s}).catch(function(){document.getElementById("body").textContent=tt.soon});
+ document.getElementById("body").addEventListener("click",function(e){var li=e.target.closest&&e.target.closest(".nt .opts li");if(!li)return;var q=li.closest(".q");if(q.classList.contains("done"))return;var ol=li.parentNode,k=[].indexOf.call(ol.children,li),a=+ol.dataset.a;[].forEach.call(ol.children,function(c,i){if(i===a)c.classList.add("ok")});if(k!==a)li.classList.add("bad");q.classList.add("done");var o=S[n]=S[n]||{};o.a=o.a||{};o.a[qs().indexOf(q)]=k;saveS();renderScore(n)});
+ fetch(f+"_"+L+".html?v="+Date.now()).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(s){document.getElementById("body").innerHTML=s;restoreQuiz(n);renderScore(n)}).catch(function(){document.getElementById("body").textContent=tt.soon});
 }
 function route(){var m=location.hash.match(/^#d(\d+)/);if(m)day(+m[1]);else list()}
 function setL(l){L=l;try{localStorage.setItem("sul_lang",l)}catch(e){}document.documentElement.lang=l;document.querySelectorAll(".lang button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.l===L)});route()}
