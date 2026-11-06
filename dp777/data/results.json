@@ -5,10 +5,10 @@
   "latest_results": {
     "rajdhani-day": {
       "name": "Rajdhani Day",
-      "result": "467-78-125",
+      "result": "250-76-123",
       "source": "https://dpbossss.com/",
       "source_label": "RAJDHANI DAY",
-      "result_changed_at": "2026-11-06T09:15:21+00:00"
+      "result_changed_at": "2026-11-06T14:43:55+00:00"
     },
     "sridevi": {
       "name": "Sridevi",
@@ -25,7 +25,7 @@
       "result_changed_at": "2026-11-06T14:07:54+00:00"
     }
   },
-  "live_fetched_at": "2026-11-06T14:07:54+00:00",
+  "live_fetched_at": "2026-11-06T14:43:55+00:00",
   "live_source": "https://dpbossss.com/",
   "live_status": "partial",
   "charts": {
