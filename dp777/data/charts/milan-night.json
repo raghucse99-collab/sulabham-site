@@ -35688,7 +35688,10 @@
           "Fri Close": "990",
           "Sat Open": "399",
           "Sat Jodi": "14",
-          "Sat Close": "158"
+          "Sat Close": "158",
+          "Sun Open": "",
+          "Sun Jodi": "",
+          "Sun Close": ""
         },
         {
           "date": "31/01/2022 to 06/02/2022",
