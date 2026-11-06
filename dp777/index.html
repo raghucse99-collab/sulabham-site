@@ -1002,79 +1002,50 @@ function renderChart(){
  const yr=$('year').value, q=$('search').value.trim();
  if(view==='repeat'||$('daySearch').value==='repeat-gap'){
   const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
-  const valid=v=>/^\d{2}$/.test(String(v??'').trim());
-  // Scan the complete weekly grid in chronological row order. A Jodi can
-  // repeat in any day column; its previous position is tracked across all days.
-  const lastSeen=new Map(),events=[];
-  allRows.forEach((row,rowIndex)=>{
-   days.forEach(day=>{
-    const jodi=String(row[day+' Jodi']??'').trim();
-    if(!valid(jodi))return;
-    const previous=lastSeen.get(jodi);
-    if(previous){
-     const fromTime=parseWeekStart({date:previous.date}),toTime=parseWeekStart(row);
-     // Measure the gap from the actual week-start dates, not array positions.
-     // This preserves skipped/holiday weeks in the continuous date sequence.
-     const elapsedWeeks=fromTime!==null&&toTime!==null?(toTime-fromTime)/604800000:NaN;
-     const gap=Number.isInteger(elapsedWeeks)&&elapsedWeeks>0?elapsedWeeks:rowIndex-previous.rowIndex;
-     events.push({jodi,gap,from:previous,to:{rowIndex,day,date:row.date||('Row '+(rowIndex+1))}});
+  const valid=v=>/^\\d{2}$/.test(String(v??'').trim());
+  // Each link starts at the previous link's repeat row. The next gap must
+  // increase by exactly one. A broken link ends that chain; never skip over it.
+  const rowSets=allRows.map(row=>new Set(days.map(day=>String(row[day+' Jodi']??'').trim()).filter(valid)));
+  const chains=new Map(),maxStartGap=20;
+  function extendChain(startRow,gap,path){
+   const targetRow=startRow+gap;
+   if(targetRow>=allRows.length){
+    if(path.length>=4){
+     const key=path.map(e=>e.start+':'+e.end+':'+e.jodi+':'+e.gap).join('|');
+     if(!chains.has(key))chains.set(key,path);
     }
-    lastSeen.set(jodi,{rowIndex,day,date:row.date||('Row '+(rowIndex+1))});
-   });
-  });
-  // Find maximal contiguous runs of repeat events: either equal gaps or
-  // gaps increasing by exactly one. Four repeat events is the minimum.
-  const patterns=[];
-  for(let i=0;i<events.length;){
-   let mode='',j=i+1;
-   if(j<events.length&&events[j].gap===events[i].gap)mode='same';
-   else if(j<events.length&&events[j].gap===events[i].gap+1)mode='increasing';
-   if(!mode){i++;continue;}
-   while(j<events.length&&(mode==='same'?events[j].gap===events[i].gap:events[j].gap===events[j-1].gap+1))j++;
-   if(j-i>=4){
-    const run=events.slice(i,j);
-    const key=mode+'|'+run.map(e=>e.from.rowIndex+':'+e.to.rowIndex+':'+e.jodi).join('|');
-    patterns.push({key,mode,events:run,gaps:run.map(e=>e.gap),latest:run.some(e=>e.to.rowIndex===allRows.length-1||e.from.rowIndex===allRows.length-1)});
+    return;
    }
-   i=Math.max(i+1,j-1);
+   const matches=[...rowSets[startRow]].filter(j=>rowSets[targetRow].has(j)).sort();
+   if(!matches.length)return; // the sequence broke here; do not display it
+   for(const jodi of matches){
+    extendChain(targetRow,gap+1,[...path,{jodi,gap,start:startRow,end:targetRow}]);
+   }
   }
-  // If the search box contains a Jodi, retain only sequences containing it.
+  for(let startRow=0;startRow<allRows.length;startRow++){
+   for(let gap=1;gap<=maxStartGap&&startRow+gap<allRows.length;gap++)extendChain(startRow,gap,[]);
+  }
   const queryJodi=q.trim();
-  const filtered=patterns.filter(p=>!queryJodi||p.events.some(e=>e.jodi===queryJodi));
-  filtered.sort((a,b)=>(b.latest-a.latest)||(b.events[b.events.length-1].to.rowIndex-a.events[a.events.length-1].to.rowIndex));
-  $('count').textContent=filtered.length+' qualifying sequences · '+events.length+' repeat events · minimum 4 events';
+  const patterns=[...chains.values()].filter(path=>!queryJodi||path.some(e=>e.jodi===queryJodi));
+  patterns.sort((a,b)=>b.length-a.length||b[b.length-1].end-a[a.length-1].end);
+  $('count').textContent=patterns.length+' uninterrupted active sequences · minimum 4 links';
   stats.hidden=true;
-  const cards=filtered.map((p,n)=>{
-   const nextGap=p.mode==='same'?p.gaps[p.gaps.length-1]:p.gaps[p.gaps.length-1]+1;
-   const rowSet=new Set();
-   // Show every available dated row between the first and last occurrence,
-   // not only the highlighted endpoints, so the chart remains continuous.
-   const firstRow=Math.min(...p.events.map(e=>e.from.rowIndex));
-   const lastRow=Math.max(...p.events.map(e=>e.to.rowIndex));
-   for(let ri=firstRow;ri<=lastRow;ri++)rowSet.add(ri);
-   const chartRows=[...rowSet].sort((a,b)=>a-b);
+  const cards=patterns.map((path,n)=>{
+   const first=path[0].start,last=path[path.length-1].end,nextGap=path[path.length-1].gap+1;
    const hitMap=new Map();
-   p.events.forEach((e,k)=>{
-    for(const pos of [e.from,e.to]){
-     const key=pos.rowIndex+'|'+pos.day;
-     if(!hitMap.has(key))hitMap.set(key,[]);
-     hitMap.get(key).push(k+1);
+   path.forEach((e,k)=>{
+    for(const rowIndex of [e.start,e.end]){
+     if(!hitMap.has(rowIndex))hitMap.set(rowIndex,[]);
+     hitMap.get(rowIndex).push('#'+(k+1)+' '+e.jodi);
     }
    });
-   const chart='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+
-    chartRows.map(i=>{
-     const r=allRows[i];
-     return '<tr><td class="repeat-week-date">'+esc(r.date||('Row '+(i+1)))+'</td>'+
-      days.map(d=>{
-       const value=String(r[d+' Jodi']??'').trim(),labels=hitMap.get(i+'|'+d)||[];
-       const shown=valid(value)?esc(value):'<span class="repeat-blank">'+(value?'*':'—')+'</span>';
-       return '<td class="'+(labels.length?'repeat-hit':'')+'">'+(labels.length?'<strong>'+shown+'</strong><small style="display:block;font-size:9px">#'+labels.join(',')+'</small>':shown)+'</td>';
-      }).join('')+'</tr>';
-    }).join('')+'</tbody></table></div>';
-   const eventList=p.events.map((e,k)=>'<li><strong>#'+(k+1)+' · '+e.jodi+'</strong>: '+esc(e.from.day+' '+e.from.date)+' → '+esc(e.to.day+' '+e.to.date)+' <b>(gap '+e.gap+')</b></li>').join('');
-   return '<details class="repeat-pattern-card" '+(n===0?'open':'')+'><summary><span class="repeat-pattern-name">Repeat-gap sequence '+(n+1)+'</span><span class="repeat-pattern-type">'+(p.mode==='same'?'Same gap':'Increasing gap')+'</span><span class="repeat-pattern-gaps">Gaps: '+p.gaps.join(' → ')+'</span><span class="repeat-pattern-status">'+(p.latest?'Touches latest available week':'Historical sequence')+'</span></summary><div class="repeat-chart-note">Whole chart grid scanned across Monday–Sunday in date order. Gaps are calculated from the actual week-start dates (including weeks absent from the source rows), not simply from row positions. Every available weekly row between the first and last repeat is displayed; highlighted cells are the matching endpoints and # labels link each pair.</div><ol style="padding:8px 28px;margin:0;font-size:12px;line-height:1.8">'+eventList+'</ol>'+chart+'<div class="repeat-pattern-footer">Next-gap reference: '+nextGap+' weekly rows if this historical pattern continued. This is only a mathematical reference, not a prediction or guaranteed result.</div></details>';
+   const eventList=path.map((e,k)=>'<li><strong>#'+(k+1)+' · '+e.jodi+'</strong>: Row '+(e.start+1)+' → Row '+(e.end+1)+' <b>(gap '+e.gap+')</b> · '+esc(allRows[e.start].date||'')+' → '+esc(allRows[e.end].date||'')+'</li>').join('');
+   const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Row / Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:last-first+1},(_,n)=>first+n).map(i=>'<tr><td class="repeat-week-date">Row '+(i+1)+'<br>'+esc(allRows[i].date||'')+'</td>'+days.map(d=>{const v=String(allRows[i][d+' Jodi']??'').trim(),hit=(hitMap.get(i)||[]).filter(x=>x.endsWith(' '+v));return '<td class="'+(hit.length?'repeat-hit':'')+'">'+(valid(v)?(hit.length?'<strong>'+esc(v)+'</strong><small style="display:block;font-size:9px">'+hit.join(', ')+'</small>':esc(v)):'<span class="repeat-blank">'+(v?'*':'—')+'</span>')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table></div>';
+   const latest=last===allRows.length-1;
+   const watch=latest?[...rowSets[last]].sort().join(' · '):'';
+   return '<details class="repeat-pattern-card" '+(n===0?'open':'')+'><summary><span class="repeat-pattern-name">Continuous sequence '+(n+1)+'</span><span class="repeat-pattern-type">Increasing gaps</span><span class="repeat-pattern-gaps">'+path.map(e=>e.gap).join(' → ')+'</span><span class="repeat-pattern-status">Reaches latest row</span></summary><div class="repeat-chart-note">Only uninterrupted chains are shown. Each next link begins on the previous repeat row, and its gap increases by exactly one. If a required repeat is missing, that chain is stopped and excluded. Original chart values are not changed.</div><ol style="padding:8px 28px;margin:0;font-size:12px;line-height:1.8">'+eventList+'</ol>'+table+'<div class="repeat-pattern-footer">Next required gap: '+nextGap+' rows. '+(latest?'Latest-row Jodis to watch for a possible next repeat: <strong>'+esc(watch||'None')+'</strong>. These are historical row values only; any future continuation is uncertain and not a guaranteed result.':'')+'</div></details>';
   }).join('');
-  $('tableArea').innerHTML='<div class="chart-title-band">WHOLE-GRID JODI REPEAT-GAP ANALYSIS</div><div class="chart-hint">Rows are scanned chronologically by their actual dates, checking all seven day columns. When any two appearances of the same two-digit Jodi are found, the elapsed number of calendar weeks between their week-start dates becomes the repeat-event gap. Missing source weeks therefore count in the interval. Sequences may contain different Jodis. Both equal-gap (e.g. 3 → 3 → 3 → 3) and +1 increasing-gap (e.g. 3 → 4 → 5 → 6) runs are shown. Minimum: 4 consecutive repeat events. Blanks and *** are ignored, never filled or guessed.</div>'+(filtered.length?'<div class="repeat-pattern-list">'+cards+'</div>':'<div class="empty"><strong>No qualifying repeat-gap sequence found.</strong>Try clearing the Jodi search field or check another chart.</div>');
+  $('tableArea').innerHTML='<div class="chart-title-band">UNINTERRUPTED INCREASING-GAP CHAINS · '+esc(m?.name||'Selected market').toUpperCase()+'</div><div class="chart-hint">This market is analysed separately. A chain is displayed only when every link follows the exact rule: the next Jodi starts from the previous repeat row and repeats after a gap one row longer. Broken chains are excluded, not bridged. At least four links are required. Leading zeros are preserved; blanks and *** are ignored.</div>'+(patterns.length?'<div class="repeat-pattern-list">'+cards+'</div>':'<div class="empty"><strong>No uninterrupted chain of four or more links currently reaches the latest available row.</strong>Broken historical sequences are intentionally not shown.</div>');
   return;
  }
  if(targetSearch){
