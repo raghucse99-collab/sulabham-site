@@ -651,6 +651,38 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
 /* Mobile-first repeat analysis; avoid desktop-width overflow */
 .repeat-page{width:100%;max-width:100%;box-sizing:border-box;padding:8px;overflow:hidden;font-family:system-ui,Arial,sans-serif}.repeat-page h3{margin:0;padding:12px 8px;background:#263e91;color:white;text-align:center;font-size:17px;line-height:1.35;overflow-wrap:anywhere}.repeat-explain{font-size:13px;line-height:1.55;padding:8px;margin:0}.repeat-pattern-card{display:block;width:100%;box-sizing:border-box;margin:12px 0;border:2px solid #7c3aed;border-radius:12px;overflow:hidden;background:white}.repeat-card-head{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:11px;background:#ede9fe;color:#312e81;font-size:15px;font-weight:900}.repeat-card-head strong{font-size:17px}.repeat-watch{background:#dcfce7;color:#14532d;padding:12px;font-size:15px;line-height:1.7}.repeat-watch strong{font-size:18px;font-weight:950;overflow-wrap:anywhere}.repeat-watch small{display:block;color:#334155;font-size:11px}.repeat-steps{padding:7px}.repeat-step{display:grid;grid-template-columns:58px 42px 1fr auto;align-items:center;gap:5px;padding:8px 4px;border-bottom:1px solid #e5e7eb;font-size:12px;font-weight:750}.repeat-step-num{font-size:10px;color:#4338ca}.repeat-step-jodi{background:#fce7f3;color:#9d174d;border:2px solid #db2777;border-radius:5px;text-align:center;font-size:18px;font-weight:950}.repeat-step>b:last-child{color:#1d4ed8;font-size:12px}.repeat-history{margin:8px;border:1px solid #a5b4fc;border-radius:7px}.repeat-history summary{padding:12px;background:#dbeafe;color:#1e3a8a;font-size:13px;font-weight:900;cursor:pointer}.repeat-chart-scroll{max-width:100%;overflow-x:auto}.repeat-weekly-chart{width:100%;min-width:0;table-layout:fixed;border-collapse:collapse;font-size:11px}.repeat-weekly-chart th{background:#312e81;color:#fff;padding:6px 1px}.repeat-weekly-chart td{padding:7px 1px;text-align:center;border:1px solid #e5e7eb;overflow-wrap:anywhere}.repeat-weekly-chart .repeat-week-date{width:78px;min-width:0;white-space:normal;font-size:9px;background:#f5f3ff}.repeat-week-date small{display:block;font-size:8px}.repeat-weekly-chart .repeat-hit{background:#fce7f3!important;color:#9d174d!important;outline:2px solid #db2777;outline-offset:-2px;font-size:15px;font-weight:950}@media(max-width:520px){.repeat-page{padding:4px}.repeat-step{grid-template-columns:45px 38px 1fr 54px;font-size:11px;gap:3px}.repeat-step-jodi{font-size:16px}.repeat-step>b:last-child{font-size:10px}.repeat-weekly-chart{font-size:10px}.repeat-weekly-chart .repeat-week-date{width:66px;font-size:8px}.repeat-week-date small{font-size:7px}}
 </style>
+<style id="weekly-chart-readable-values">
+/* Make every historical result number clearly readable on mobile. */
+.weekly-chart .result-stack{min-height:66px!important}
+.weekly-chart .result-stack span{
+  font-size:15px!important;
+  font-weight:900!important;
+  line-height:1.15!important;
+  min-height:21px!important;
+  color:#172337!important;
+}
+.weekly-chart .result-stack .jodi-line{
+  font-size:20px!important;
+  font-weight:950!important;
+  color:#c2185b!important;
+  background:#fff0f6!important;
+}
+.weekly-chart .result-stack .panel-line{
+  font-size:15px!important;
+  font-weight:900!important;
+  letter-spacing:.3px!important;
+}
+.weekly-chart .result-stack .pending{
+  font-size:14px!important;
+  font-weight:800!important;
+}
+@media(max-width:520px){
+  .weekly-chart .result-stack{min-height:66px!important}
+  .weekly-chart .result-stack span{font-size:15px!important;min-height:21px!important}
+  .weekly-chart .result-stack .jodi-line{font-size:20px!important}
+  .weekly-chart .result-stack .panel-line{font-size:15px!important}
+}
+</style>
 </head>
 <body>
 <header class="top" id="top"><div class="wrap">
