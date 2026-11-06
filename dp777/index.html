@@ -1002,7 +1002,7 @@ function renderChart(){
  const yr=$('year').value, q=$('search').value.trim();
  if(view==='repeat'||$('daySearch').value==='repeat-gap'){
   const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
-  const valid=v=>/^\\d{2}$/.test(String(v??'').trim());
+  const valid=v=>/^\d{2}$/.test(String(v??'').trim());
   const patterns=[];
   for(const day of days){
    let latest=-1;
@@ -1013,7 +1013,7 @@ function renderChart(){
     if(valid(j)){if(!byJodi.has(j))byJodi.set(j,[]);byJodi.get(j).push(i);}
    }
    for(const [jodi,positions] of byJodi){
-    if(q&&q.replace(/\\s/g,'')!==jodi)continue;
+    if(q&&q.replace(/\s/g,'')!==jodi)continue;
     const gaps=positions.slice(0,-1).map((p,k)=>p-positions[k+1]);
     for(let start=0;start+1<gaps.length;start++){
      const mode=gaps[start]===gaps[start+1]?'same':gaps[start+1]===gaps[start]+1?'increasing':'';
