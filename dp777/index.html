@@ -1002,7 +1002,7 @@ function renderChart(){
  const yr=$('year').value, q=$('search').value.trim();
  if(view==='repeat'||$('daySearch').value==='repeat-gap'){
   const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
-  const valid=v=>/^\\d{2}$/.test(String(v??'').trim());
+  const valid=v=>/^\d{2}$/.test(String(v??'').trim());
   // Each link starts at the previous link's repeat row. The next gap must
   // increase by exactly one. A broken link ends that chain; never skip over it.
   const rowSets=allRows.map(row=>new Set(days.map(day=>String(row[day+' Jodi']??'').trim()).filter(valid)));
