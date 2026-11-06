@@ -1004,7 +1004,7 @@ function renderChart(){
  if(years.includes(prev))$('year').value=prev;
  const yr=$('year').value, q=$('search').value.trim();
  if(view==='repeat'||$('daySearch').value==='repeat-gap'){
-  const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'], valid=v=>/^\\d{2}$/.test(String(v??'').trim());
+  const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'], valid=v=>/^\d{2}$/.test(String(v??'').trim());
   const rowSets=allRows.map(row=>new Set(days.map(day=>String(row[day+' Jodi']??'').trim()).filter(valid)));
   const N=allRows.length,chains=new Map(),minLinks=4;
   // Active means the NEXT required repeat is still in the future.
