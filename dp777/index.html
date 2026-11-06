@@ -1015,7 +1015,7 @@ function renderChart(){
    for(const [jodi,positions] of byJodi){
     if(q&&q.replace(/\s/g,'')!==jodi)continue;
     const gaps=positions.slice(0,-1).map((p,k)=>p-positions[k+1]);
-    for(let start=0;start+1<gaps.length;start++){
+    for(let start=0;start+2<gaps.length;start++){
      const mode=gaps[start]===gaps[start+1]?'same':gaps[start+1]===gaps[start]+1?'increasing':'';
      if(!mode)continue;
      let end=start+1;
@@ -1027,7 +1027,7 @@ function renderChart(){
    }
   }
   patterns.sort((a,b)=>(b.latest-a.latest)||a.day.localeCompare(b.day)||(b.occ[0]-a.occ[0]));
-  $('count').textContent=patterns.length+' valid patterns · minimum 3 occurrences · all 7 days scanned';
+  $('count').textContent=patterns.length+' valid patterns · minimum 4 occurrences · all 7 days scanned';
   stats.hidden=true;
   const cards=patterns.map((p,n)=>{
    const nextGap=p.mode==='same'?p.gaps[0]:p.gaps[p.gaps.length-1]+1;
@@ -1042,7 +1042,7 @@ function renderChart(){
     }).join('')+'</tbody></table></div>';
    return '<details class="repeat-pattern-card" '+(n===0?'open':'')+'><summary><span class="repeat-pattern-name">'+p.day+' · Jodi '+p.jodi+'</span><span class="repeat-pattern-type">'+(p.mode==='same'?'Same gap':'Increasing gap')+'</span><span class="repeat-pattern-gaps">Gaps: '+p.gaps.join(' → ')+'</span><span class="repeat-pattern-status">'+(p.latest?'Latest occurrence is in latest available week':'Historical pattern')+'</span></summary><div class="repeat-chart-note">Highlighted cells show the matching Jodi in the '+p.day+' column. Nearby rows are included so you can compare the original weekly chart. Occurrences are shown oldest to latest.</div>'+chart+'<div class="repeat-pattern-footer">Occurrence dates: '+p.occ.slice().reverse().map(i=>esc(allRows[i].date||'')).join(' → ')+'<br>Next-week reference: '+nextGap+' chart rows (historical sequence only; not a guaranteed result).</div></details>';
   }).join('');
-  $('tableArea').innerHTML='<div class="chart-title-band">JODI REPEAT PATTERNS — ORIGINAL WEEKLY CHART VIEW</div><div class="chart-hint">All seven day columns are checked independently from the latest available records backwards through the full archive. A pattern needs at least 3 occurrences. Same-gap means every gap is equal; increasing-gap means each gap rises by exactly 1. Each pattern below opens its actual weekly chart rows, with matching Jodis highlighted in their own day column. Blank and unpublished cells are not counted.</div>'+(patterns.length?'<div class="repeat-pattern-list">'+cards+'</div>':'<div class="empty"><strong>No qualifying repeat logic found in this chart.</strong>Only patterns with at least 3 occurrences and consistent gaps are displayed.</div>');
+  $('tableArea').innerHTML='<div class="chart-title-band">JODI REPEAT PATTERNS — ORIGINAL WEEKLY CHART VIEW</div><div class="chart-hint">All seven day columns are checked independently from the latest available records backwards through the full archive. A pattern needs at least 4 occurrences. Same-gap means every gap is equal; increasing-gap means each gap rises by exactly 1. Each pattern below opens its actual weekly chart rows, with matching Jodis highlighted in their own day column. Blank and unpublished cells are not counted.</div>'+(patterns.length?'<div class="repeat-pattern-list">'+cards+'</div>':'<div class="empty"><strong>No qualifying repeat logic found in this chart.</strong>Only patterns with at least 4 occurrences and consistent gaps are displayed.</div>');
   return;
  }
  if(targetSearch){
