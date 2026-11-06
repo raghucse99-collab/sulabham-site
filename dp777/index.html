@@ -1230,7 +1230,7 @@ async function refreshLiveResults(){
     for(const url of urls){try{const response=await fetch(url+'?v='+Date.now(),{cache:'no-store'});if(!response.ok)continue;const payload=await response.json();const chart=payload?.charts?.[key]||(payload?.rows?payload:null);if(chart&&Array.isArray(chart.rows))return [key,chart];}catch(e){}}
     return [key,null];
    }));
-   const charts={...(data.charts||{})};for(const [key,chart] of loaded){if(chart)charts[key]=chart;}data={...data,charts};applyLiveResultsToCharts();renderLatestResults();renderChart();return;
+   const charts={...(data.charts||{})};for(const [key,chart] of loaded){if(chart)charts[key]=chart;}data={...data,charts};applyLiveResultsToCharts();renderLatestResults();return; // Do not rebuild the selected chart during background live refresh; keep expanded weekly charts open.
   }catch(e){/* Try the alternate CDN. */}
   finally{clearTimeout(timeout);}
  }
@@ -1261,7 +1261,7 @@ async function loadLiveChartFallbacks(){
   dataLoadFailed=false;
   $('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Historical chart data loaded';
   renderMarkets();
-  renderChart();
+  // Keep the current chart DOM intact. Re-rendering here closes expanded weekly details.
  }
  renderLatestResults();
 }
@@ -1296,8 +1296,8 @@ async function loadRadhaNightArchive(){
 loadRadhaNightArchive();
 // Keep the large historical archive separate from the small live results feed.
 loadLiveChartFallbacks();
-setInterval(loadLiveChartFallbacks,30000);
-setInterval(load,30000);
+setInterval(loadLiveChartFallbacks,30000); // Update data in memory only; never rebuild the open chart.
+// Do not periodically reload and re-render the selected historical chart. User-initiated market changes still call load().
 
 </script>
 </body></html>
