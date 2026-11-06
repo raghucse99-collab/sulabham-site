@@ -1002,7 +1002,7 @@ function renderChart(){
  const yr=$('year').value, q=$('search').value.trim();
  if(view==='repeat'||$('daySearch').value==='repeat-gap'){
   const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
-  const valid=v=>/^\\d{2}$/.test(String(v??'').trim());
+  const valid=v=>/^\d{2}$/.test(String(v??'').trim());
   // Scan the complete weekly grid in chronological row order. A Jodi can
   // repeat in any day column; its previous position is tracked across all days.
   const lastSeen=new Map(),events=[];
