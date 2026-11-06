@@ -1018,16 +1018,17 @@ function renderChart(){
     const target=start+gap;
     if(target>=N){
       if(path.length>=minLinks){
-        const key=mode+':'+path.map(e=>e.start+':'+e.end+':'+e.jodi+':'+e.gap).join('|');
+        const key=mode+':'+path.map(e=>e.start+':'+e.end+':'+e.gap).join('|');
         const wait=target-(N-1);
         if(!chains.has(key))chains.set(key,{path,wait,nextGap:gap,mode});
       }
       return;
     }
     if(path.length<minLinks&&target+(minLinks-path.length-1)*gap>=N)return;
-    const matches=[...rowSets[start]].filter(v=>rowSets[target].has(v));
-    for(const jodi of matches){
-      const next=[...path,{start,end:target,gap,jodi}];
+    const matches=[...rowSets[start]].filter(v=>rowSets[target].has(v)).sort();
+    if(matches.length){
+      // Group all matching Jodis on this same pair of weeks into one link.
+      const next=[...path,{start,end:target,gap,jodis:matches}];
       extend(target,mode==='same'?gap:gap+1,next,mode);
     }
   }
@@ -1039,21 +1040,26 @@ function renderChart(){
     }
   }
   const qJodi=q.trim();
-  const patterns=[...chains.values()].filter(x=>!qJodi||x.path.some(e=>e.jodi===qJodi))
+  let patterns=[...chains.values()];
+  // Suppress shorter paths that are already contained in a longer identical gap path.
+  patterns=patterns.filter(x=>!patterns.some(y=>y!==x&&y.mode===x.mode&&y.path.length>x.path.length&&
+    y.path.some((_,i)=>i+x.path.length<=y.path.length&&
+      x.path.every((e,k)=>e.start===y.path[i+k].start&&e.end===y.path[i+k].end&&e.gap===y.path[i+k].gap))));
+  patterns=patterns.filter(x=>!qJodi||x.path.some(e=>e.jodis.includes(qJodi)))
     .sort((a,b)=>a.wait-b.wait||b.path[b.path.length-1].end-a.path[a.path.length-1].end||b.path.length-a.path.length);
   $('count').textContent=patterns.length+' active continuous patterns · nearest upcoming first';
   stats.hidden=true;
   const cards=patterns.slice(0,100).map((item,n)=>{
     const path=item.path,first=path[0].start,last=path[path.length-1].end;
     const hits=new Map();
-    path.forEach((e,k)=>{for(const ix of [e.start,e.end]){
+    path.forEach(e=>{for(const ix of [e.start,e.end]){
       if(!hits.has(ix))hits.set(ix,new Set());
-      hits.get(ix).add(e.jodi);
+      e.jodis.forEach(j=>hits.get(ix).add(j));
     }});
-    const events=path.map((e,k)=>'<div class="repeat-step"><b class="repeat-step-num">STEP '+(k+1)+'</b><strong class="repeat-step-jodi">'+esc(e.jodi)+'</strong><span>Row '+(e.start+1)+' → '+(e.end+1)+'</span><b>GAP '+e.gap+'</b></div>').join('');
+    const events=path.map((e,k)=>'<div class="repeat-step"><b class="repeat-step-num">STEP '+(k+1)+'</b><strong class="repeat-step-jodi">'+e.jodis.map(esc).join(' · ')+'</strong><span>Row '+(e.start+1)+' → '+(e.end+1)+'</span><b>GAP '+e.gap+'</b></div>').join('');
     const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:last-first+1},(_,k)=>first+k).map(ix=>'<tr><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+esc(repeatRows[ix].date||'')+'</small></td>'+days.map(d=>{const v=String(repeatRows[ix][d+' Jodi']??'').trim(),hit=hits.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table></div>';
     const current=[...rowSets[last]].sort().join(' · ');
-    const repeatKey=item.mode+':'+path.map(e=>e.start+'-'+e.end+'-'+e.jodi+'-'+e.gap).join('|');
+    const repeatKey=item.mode+':'+path.map(e=>e.start+'-'+e.end+'-'+e.gap).join('|');
     return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · '+(item.mode==='same'?'SAME GAP':'INCREASING GAP')+' · NEXT REPEAT IN '+item.wait+' WEEK'+(item.wait===1?'':'S')+'</strong><span>Gaps '+path.map(e=>e.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>NEXT GAP '+item.nextGap+' · TARGET ROW '+(last+item.nextGap+1)+'</b><div>Jodis to watch: <strong>'+esc(current||'None')+'</strong></div><small>Possible continuation only — not a prediction.</small></div><div class="repeat-steps">'+events+'</div><details class="repeat-history"><summary>SHOW WEEKLY CHART · '+(last-first+1)+' WEEKS</summary>'+table+'</details></section>';
   }).join('');
   const repeatScrollY=window.scrollY;
