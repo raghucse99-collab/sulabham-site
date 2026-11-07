@@ -1108,7 +1108,7 @@ function renderChart(){
   function savePattern(start,duplicate,steps,nextGap,nextJodi,failedAt){
    // Keep completed historical chains, plus a fresh duplicate in the latest
    // published row as a pending first link for the About to Come section.
-   if(steps.length<2&&!(steps.length===0&&start===playingRows.length-1&&nextJodi))return;
+   if(steps.length<1&&!(steps.length===0&&start===playingRows.length-1&&nextJodi))return;
    const key=start+':'+duplicate+':'+(nextJodi||'')+':'+steps.map(x=>x.from+'>'+x.to+':'+x.jodi+':'+x.gap).join('|');
    if(!found.has(key))found.set(key,{start,duplicate,steps:steps.slice(),nextGap,nextJodi,failedAt});
   }
