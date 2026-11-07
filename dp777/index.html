@@ -1109,7 +1109,9 @@ function renderChart(){
    // Keep completed historical chains, plus a fresh duplicate in the latest
    // published row as a pending first link for the About to Come section.
    if(steps.length<1)return;
-   const key=start+':'+duplicate+':'+steps.map(x=>x.from+'>'+x.to+':'+x.jodi+':'+x.gap).join('|');
+   const gapMode=steps.length>1?(steps.every(x=>x.gap===steps[0].gap)?'same':steps.every((x,i)=>i===0||x.gap===steps[i-1].gap+1)?'increasing':'mixed'):'single';
+   if(gapMode==='mixed')return;
+   const key=start+':'+duplicate+':'+gapMode+':'+steps.map(x=>x.from+'>'+x.to+':'+x.jodi+':'+x.gap).join('|');
    if(!found.has(key))found.set(key,{start,duplicate,steps:steps.slice(),nextGap,nextJodi,failedAt});
   }
   function walk(start,at,connector,gap,steps,used,duplicate){
@@ -1125,7 +1127,8 @@ function renderChart(){
    if(!available.length){savePattern(start,duplicate,nextSteps,gap+1,'');return;}
    for(const next of available){
     const nextUsed=new Set([...used,connector]);
-    // Search both equal-gap and increasing-gap continuations.
+    // Keep two independent paths: one with a fixed gap, another
+    // with a gap that increases by exactly one at each link.
     walk(start,target,next,gap,nextSteps,nextUsed,duplicate);
     if(visitedNodes<=MAX_NODES)walk(start,target,next,gap+1,nextSteps,nextUsed,duplicate);
     if(visitedNodes>MAX_NODES)break;
@@ -1167,7 +1170,7 @@ function renderChart(){
    const steps='<div class="repeat-steps"><div class="repeat-step"><b class="repeat-step-num">START</b><strong class="repeat-step-jodi">'+esc(p.duplicate)+'</strong><span>Duplicate in same week</span><b>×2+</b></div>'+p.steps.map((step,k)=>'<div class="repeat-step"><b class="repeat-step-num">LINK '+(k+1)+'</b><strong class="repeat-step-jodi">'+esc(step.jodi)+'</strong><span>'+esc(playingRows[step.from].date||'')+' → '+esc(playingRows[step.to].date||'')+'</span><b>GAP '+step.gap+'</b></div>').join('')+'</div>';
    const gapText=p.steps.map(step=>step.gap).join(' → ');
    const pending='';
-   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>Gaps: '+gapText+'</span></div><div class="repeat-watch"><b>START DUPLICATE JODI</b><div><strong>'+esc(p.duplicate)+'</strong></div><small>Each link is taken from the row where the previous Jodi reappears. The next gap may stay the same or increase by one intervening weekly row.</small></div>'+steps+pending+'<details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>Gaps: '+gapText+'</span></div><div class="repeat-watch"><b>START DUPLICATE JODI</b><div><strong>'+esc(p.duplicate)+'</strong></div><small>Each link is taken from the row where the previous Jodi reappears. Separate paths are checked: fixed gap throughout, or increase the gap by exactly one at each link.</small></div>'+steps+pending+'<details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
   }).join('');
   function cardsFor(list,all,rows,dayNames,isValid,escapeHtml){
    return list.slice(0,100).map((p,n)=>{
@@ -1177,10 +1180,10 @@ function renderChart(){
     const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+dayNames.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+tableRows.map((row,k)=>{const ix=p.start+k;return '<tr class="'+(ix===rows.length-1?'repeat-current-week':'')+'"><td class="repeat-week-date">'+escapeHtml(row.date||'')+(ix===rows.length-1?'<em>THIS WEEK</em>':'')+'</td>'+dayNames.map(d=>{const v=String(row[d+' Jodi']??'').trim(),hit=marks.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(isValid(v)?(hit?'<strong>'+escapeHtml(v)+'</strong>':escapeHtml(v)):'·')+'</td>';}).join('')+'</tr>';}).join('')+'</tbody></table></div>';
     const steps='<div class="repeat-steps"><div class="repeat-step"><b class="repeat-step-num">START</b><strong class="repeat-step-jodi">'+escapeHtml(p.duplicate)+'</strong><span>Duplicate in same week</span><b>×2+</b></div>'+p.steps.map((step,k)=>'<div class="repeat-step"><b class="repeat-step-num">LINK '+(k+1)+'</b><strong class="repeat-step-jodi">'+escapeHtml(step.jodi)+'</strong><span>'+escapeHtml(rows[step.from].date||'')+' → '+escapeHtml(rows[step.to].date||'')+'</span><b>GAP '+step.gap+'</b></div>').join('')+'</div>';
     const next='';
-    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>Gaps: '+p.steps.map(x=>x.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>START DUPLICATE JODI</b><div><strong>'+escapeHtml(p.duplicate)+'</strong></div><small>Same gaps or increasing gaps: 0, 0, 1, 1, 2… intervening weekly rows</small></div>'+steps+next+'<details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
+    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>Gaps: '+p.steps.map(x=>x.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>START DUPLICATE JODI</b><div><strong>'+escapeHtml(p.duplicate)+'</strong></div><small>Separate patterns: either the same gap at every link, or gaps increasing by exactly one at every link</small></div>'+steps+next+'<details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
    }).join('');
   }
-  const linkedIntro=view==='linked'?'Only active sequences are shown. Present Running includes a link found or due in the latest chart week. About to Come includes sequences whose next scheduled link falls in the next chart week.':'Start with any Jodi duplicated in a week. From that same row, any Jodi (including the duplicate) must appear in the immediately following weekly row. From the matching row, take any Jodi and find it again with either the same intervening-row gap or a gap increased by one. Equal-gap and increasing-gap chains are both included. Matches may be in any day column. Fully closed weeks are skipped. Existing repeat searches are unchanged.';
+  const linkedIntro=view==='linked'?'Only active sequences are shown. Present Running includes a link found or due in the latest chart week. About to Come includes sequences whose next scheduled link falls in the next chart week.':'Start with any Jodi duplicated in a week. From that same row, any Jodi (including the duplicate) must appear in the immediately following weekly row. From the matching row, take any Jodi and find it again with either the same intervening-row gap or a gap increased by one. Only fixed-gap chains and strictly increasing-by-one chains are included; mixed-gap chains are excluded. Matches may be in any day column. Fully closed weeks are skipped. Existing repeat searches are unchanged.';
   $('tableArea').innerHTML='<div class="repeat-page"><h3>'+(view==='linked'?'ACTIVE LINKED JODI SEQUENCES':'SEPARATE LINKED JODI SEARCH')+' · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">'+linkedIntro+'</p>'+(view==='linked'?'<h3 style="margin-top:10px;background:#166534">PRESENT RUNNING · '+running.length+'</h3>':'')+(view==='linked'?(running.length?cardsFor(running,activePatterns,playingRows,days,valid,esc):'<div class="empty">No linked sequence is running in the latest chart week.</div>'):'')+(view==='linked'?'<h3 style="margin-top:10px;background:#1d4ed8">ABOUT TO COME · '+upcoming.length+'</h3>':'')+(view==='linked'?(upcoming.length?cardsFor(upcoming,activePatterns,playingRows,days,valid,esc):'<div class="empty">No linked sequence is due in the next chart week.</div>'):(cards||'<div class="empty"><strong>No linked patterns found for this increasing-gap sequence.</strong></div>'))+'</div>';
   return;
  }
