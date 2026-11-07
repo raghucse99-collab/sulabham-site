@@ -1094,10 +1094,9 @@ function renderChart(){
  const yr=$('year').value, q=$('search').value.trim();
 
  if($('daySearch').value==='linked-increasing'){
-  // Independent linked-chain search. The legacy repeat-gap branch below is untouched.
-  // Start with a duplicated Jodi; choose a different Jodi from that same row.
-  // When that Jodi appears again, choose the next link from its recurrence row.
-  // Each recurrence gap must be strictly longer than the previous recurrence gap.
+  // Independent linked-chain search. Legacy repeat-gap logic below is untouched.
+  // Gap is counted by intervening appearances of relevant chain Jodis, not calendar weeks.
+  // Required successive gaps are exactly 1, 2, 3, 4... relevant appearances.
   const days=repeatDays,valid=v=>/^\d{2}$/.test(String(v??'').trim());
   const playingRows=sortOldestFirst(chartRows.filter(row=>days.some(day=>valid(row[day+' Jodi']))));
   const rowValues=playingRows.map(row=>days.map(day=>String(row[day+' Jodi']??'').trim()).filter(valid));
@@ -1107,22 +1106,26 @@ function renderChart(){
   let visitedNodes=0;
   function savePattern(start,steps,duplicate){
    if(steps.length<2)return;
-   const key=start+':'+duplicate+':'+steps.map(x=>x.from+'>'+x.to+':'+x.jodi).join('|');
+   const key=start+':'+duplicate+':'+steps.map(x=>x.from+'>'+x.to+':'+x.jodi+':'+x.gap).join('|');
    if(!found.has(key))found.set(key,{start,duplicate,steps:steps.slice()});
   }
-  function walk(start,at,connector,previousGap,steps,used,duplicate){
+  function walk(start,at,connector,steps,used,duplicate){
    if(++visitedNodes>MAX_NODES){savePattern(start,steps,duplicate);return;}
-   let extended=false;
+   const requiredGap=steps.length+1;
+   const relevant=new Set([...used,connector]);
+   let intervening=0,extended=false;
    for(let target=at+1;target<playingRows.length;target++){
-    if(!rowSets[target].has(connector))continue;
-    const gap=target-at;
-    if(gap<=previousGap)continue;
+    if(target>at+1){
+     const between=rowValues[target-1];
+     intervening+=between.filter(v=>relevant.has(v)).length;
+    }
+    if(!rowSets[target].has(connector)||intervening!==requiredGap)continue;
     extended=true;
-    const nextSteps=steps.concat([{from:at,to:target,jodi:connector,gap}]);
+    const nextSteps=steps.concat([{from:at,to:target,jodi:connector,gap:intervening}]);
     const available=[...rowSets[target]].filter(v=>v!==connector&&!used.has(v));
     if(!available.length)savePattern(start,nextSteps,duplicate);
     for(const next of available){
-     walk(start,target,next,gap,nextSteps,new Set([...used,connector]),duplicate);
+     walk(start,target,next,nextSteps,new Set([...used,connector]),duplicate);
      if(visitedNodes>MAX_NODES)break;
     }
     if(visitedNodes>MAX_NODES)break;
@@ -1133,7 +1136,7 @@ function renderChart(){
    for(const duplicate of duplicateValues[i]){
     const starters=[...rowSets[i]].filter(v=>v!==duplicate);
     for(const connector of starters){
-     walk(i,i,connector,0,[],new Set([duplicate]),duplicate);
+     walk(i,i,connector,[],new Set([duplicate]),duplicate);
      if(visitedNodes>MAX_NODES)break;
     }
     if(visitedNodes>MAX_NODES)break;
@@ -1152,9 +1155,9 @@ function renderChart(){
    const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+tableRows.map((row,k)=>{const ix=first+k;return '<tr><td class="repeat-week-date">'+esc(row.date||'')+'</td>'+days.map(d=>{const v=String(row[d+' Jodi']??'').trim(),hit=marks.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?esc(v):'·')+'</td>';}).join('')+'</tr>';}).join('')+'</tbody></table></div>';
    const steps='<div class="repeat-steps"><div class="repeat-step"><b class="repeat-step-num">START</b><strong class="repeat-step-jodi">'+esc(p.duplicate)+'</strong><span>Duplicate in same week</span><b>×2+</b></div>'+p.steps.map((step,k)=>'<div class="repeat-step"><b class="repeat-step-num">LINK '+(k+1)+'</b><strong class="repeat-step-jodi">'+esc(step.jodi)+'</strong><span>'+esc(playingRows[step.from].date||'')+' → '+esc(playingRows[step.to].date||'')+'</span><b>GAP '+step.gap+'</b></div>').join('')+'</div>';
    const gapText=p.steps.map(step=>step.gap).join(' → ');
-   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>Increasing gaps: '+gapText+'</span></div><div class="repeat-watch"><b>START DUPLICATE JODI</b><div><strong>'+esc(p.duplicate)+'</strong></div><small>Each next Jodi is selected from the row where the previous Jodi reappears. Every new gap must be longer than the one before it.</small></div>'+steps+'<details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>Relevant gaps: '+gapText+'</span></div><div class="repeat-watch"><b>START DUPLICATE JODI</b><div><strong>'+esc(p.duplicate)+'</strong></div><small>From each link to its next recurrence, count only appearances of Jodis already in this chain. The required counts are 1, then 2, then 3, and so on.</small></div>'+steps+'<details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
   }).join('');
-  $('tableArea').innerHTML='<div class="repeat-page"><h3>SEPARATE LINKED JODI SEARCH · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Starts when a Jodi appears at least twice in one weekly row. Choose a different Jodi from that same row. Find a later row where it reappears, then choose the next linked Jodi from that recurrence row. The gap between each pair of linked appearances must be strictly longer than the previous gap. Any active day/column may match. Full closed weeks are skipped. Existing repeat searches are unchanged.</p>'+(cards||'<div class="empty"><strong>No linked patterns found with the increasing-gap rule.</strong></div>')+'</div>';
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>SEPARATE LINKED JODI SEARCH · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Starts when a Jodi appears at least twice in one weekly row. Choose a different Jodi from that same row. Find a later row where it reappears, then choose the next linked Jodi from that recurrence row. Count only intervening appearances of Jodis already in the chain: the required successive counts are exactly 1, 2, 3, 4… Calendar-week distance is not used as the gap. Any active day/column may match. Full closed weeks are skipped. Existing repeat searches are unchanged.</p>'+(cards||'<div class="empty"><strong>No linked patterns found with the successive relevant-occurrence rule.</strong></div>')+'</div>';
   return;
  }
  if(view==='repeat'||$('daySearch').value==='repeat-gap'){
