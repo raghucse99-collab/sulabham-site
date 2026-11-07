@@ -938,12 +938,12 @@ function sortOldestFirst(rows){return rows.slice().sort((a,b)=>{
  if(da===null&&db===null)return 0;if(da===null)return 1;if(db===null)return -1;return da-db;
 });}
 function rowsFor(){let c=data.charts?.[chartKeyFor(selected)];return Array.isArray(c?.rows)?sortOldestFirst(collapseChartWeeks(c.rows)):[];}
-function targetJodiSearch(rows, query){
+function targetJodiSearch(rows, query, activeDays=['Mon','Tue','Wed','Thu','Fri','Sat','Sun']){
  const match=String(query||'').trim().match(/^(\d{1,2})\s*\+\s*(\d{1,2})$/);
  if(!match)return null;
  const target=String(Number(match[1])).padStart(2,'0'), offset=Number(match[2]);
  if(offset<1)return {error:'Offset must be 1 or greater.'};
- const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+ const days=activeDays;
  const hasTarget=row=>days.some(day=>String(row[day+' Jodi']??'').trim().padStart(2,'0')===target);
  const targetIndexes=[];
  rows.forEach((row,i)=>{if(hasTarget(row))targetIndexes.push(i);});
@@ -1085,14 +1085,15 @@ function renderChart(){
   ?allRows.filter(r=>String(r.date||'').trim()!=='23/10/2000 to 29/10/2000')
   :allRows;
  const displayRows=sortOldestFirst(chartRows);
- const targetSearch=targetJodiSearch(displayRows,$('search').value);
+ const repeatDays=selected==='milan-night'?['Mon','Tue','Wed','Thu','Fri','Sat']:['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+ const targetSearch=targetJodiSearch(displayRows,$('search').value,repeatDays);
  const years=[...new Set(allRows.map(r=>String(r.date||'').match(/\b(?:19|20)\d{2}\b/)?.[0]).filter(Boolean))].sort().reverse();
  const prev=$('year').value;
  $('year').innerHTML='<option value="all">All years</option>'+years.map(y=>'<option value="'+y+'">'+y+'</option>').join('');
  if(years.includes(prev))$('year').value=prev;
  const yr=$('year').value, q=$('search').value.trim();
  if(view==='repeat'||$('daySearch').value==='repeat-gap'){
-  const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'], valid=v=>/^\d{2}$/.test(String(v??'').trim());
+  const days=repeatDays, valid=v=>/^\d{2}$/.test(String(v??'').trim());
   // Exclude fully closed weeks (blank, dots, stars or other placeholders) from
   // the playing-week sequence. Keep the original archive untouched.
   const repeatRows=chartRows.filter(row=>days.some(day=>valid(row[day+' Jodi'])));
