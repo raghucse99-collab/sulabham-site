@@ -1,0 +1,2328 @@
+{
+ "date": "2026-11-07",
+ "day": {
+  "en": "Saturday, 7 November 2026",
+  "te": "శనివారం, 7 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Commemoration",
+   "en": "a ceremony or event held to remember and honour something",
+   "te": "స్మారకోత్సవం (గుర్తుచేసుకుని గౌరవించే వేడుక)",
+   "ex": "The year-long commemoration of 150 years of Vande Mataram concludes on 7 November 2026.",
+   "topic": "vandemataram"
+  },
+  {
+   "w": "Scattering",
+   "en": "light or particles being thrown off in different directions after hitting something",
+   "te": "పరిక్షేపణం (కాంతి వేర్వేరు దిశల్లో చెదరడం)",
+   "ex": "Raman won the 1930 Nobel Prize for his work on the scattering of light.",
+   "topic": "cvraman"
+  },
+  {
+   "w": "Rationalisation",
+   "en": "making a system fairer and more efficient, often by removing excess",
+   "te": "హేతుబద్ధీకరణ (అదనపు భారం తొలగించి సక్రమం చేయడం)",
+   "ex": "NPPA's trade margin rationalisation is expected to cut the MRP of some cancer drugs by up to 70%.",
+   "topic": "cancerday"
+  },
+  {
+   "w": "Interoperability",
+   "en": "the ability of different forces or systems to work together smoothly",
+   "te": "పరస్పర సమన్వయ సామర్థ్యం (కలిసి పనిచేసే సామర్థ్యం)",
+   "ex": "Tiger Triumph 2026 aimed to improve India–US interoperability for disaster response.",
+   "topic": "tigertriumph"
+  },
+  {
+   "w": "Overreach",
+   "en": "going beyond what is proper, necessary or allowed",
+   "te": "మితిమీరిన చర్య (హద్దు దాటడం)",
+   "ex": "The Supreme Court said checking the age of every internet user would be an overreach.",
+   "topic": "internetright"
+  }
+ ],
+ "items": [
+  {
+   "id": "vandemataram",
+   "kind": "day",
+   "color": "#9b2c2c",
+   "icon": "calendar",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "tag": {
+    "en": "150 years · written 7 Nov 1875",
+    "te": "150 ఏళ్లు · రచన 7 నవంబర్ 1875"
+   },
+   "title": {
+    "en": "Vande Mataram at 150 — the year-long celebration ends today",
+    "te": "వందేమాతరం 150 ఏళ్లు — ఏడాది పొడవునా వేడుకలు నేటితో ముగింపు"
+   },
+   "line": {
+    "en": "Our National Song was written on 7 November 1875; the national commemoration that began on 7 Nov 2025 concludes on 7 Nov 2026.",
+    "te": "మన జాతీయ గేయం (National Song) 1875 నవంబర్ 7న రచించబడింది; 2025 నవంబర్ 7న మొదలైన జాతీయ స్మారకోత్సవం 2026 నవంబర్ 7తో ముగుస్తుంది."
+   },
+   "easy": [
+    {
+     "en": "Vande Mataram means 'Mother, I bow to thee'. Bankim Chandra Chatterjee wrote it on Akshaya Navami, which fell on 7 November 1875. It first appeared in his literary journal Bangadarshan and was later made part of his novel Anandamath (1882).",
+     "te": "వందేమాతరం అంటే 'తల్లీ, నీకు నమస్కరిస్తున్నాను'. బంకిం చంద్ర చటర్జీ దీన్ని అక్షయ నవమి రోజున — 1875 నవంబర్ 7న — రాశారు. మొదట ఆయన సాహిత్య పత్రిక 'బంగదర్శన్'లో వచ్చింది; తర్వాత ఆయన నవల 'ఆనందమఠ్' (1882)లో భాగమైంది."
+    },
+    {
+     "en": "Rabindranath Tagore set it to music and sang it at the 1896 Congress session in Calcutta. In the Swadeshi movement against the Partition of Bengal (1905) it became the slogan of protest. On 24 January 1950, Dr Rajendra Prasad announced in the Constituent Assembly that Vande Mataram shall be honoured equally with Jana Gana Mana and have equal status.",
+     "te": "రవీంద్రనాథ్ ఠాగూర్ దీనికి సంగీతం సమకూర్చి 1896 కలకత్తా కాంగ్రెస్ సమావేశంలో పాడారు. బెంగాల్ విభజన (1905) వ్యతిరేక స్వదేశీ ఉద్యమంలో ఇది నిరసన నినాదంగా మారింది. 1950 జనవరి 24న రాజ్యాంగ పరిషత్‌లో డా. రాజేంద్ర ప్రసాద్ — వందేమాతరాన్ని జనగణమనతో సమానంగా గౌరవించాలని, దానికి సమాన హోదా ఉంటుందని ప్రకటించారు."
+    },
+    {
+     "en": "For the 150th year, the PM inaugurated a year-long commemoration on 7 Nov 2025 (New Delhi), with a stamp and a coin. In 2026 the Home Ministry's guideline asked for the full six-stanza version, and Akashvani began broadcasting it.",
+     "te": "150వ ఏడాది సందర్భంగా 2025 నవంబర్ 7న ప్రధాని న్యూఢిల్లీలో ఏడాది పొడవునా వేడుకలను ప్రారంభించారు; తపాలా బిళ్ళ, నాణెం విడుదలయ్యాయి. 2026లో కేంద్ర హోంశాఖ మార్గదర్శకం పూర్తి ఆరు చరణాల గీతాన్ని పాడాలని సూచించింది; ఆకాశవాణి దాన్నే ప్రసారం చేస్తోంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Written",
+      "te": "రచన"
+     },
+     {
+      "en": "7 Nov 1875 (Akshaya Navami) — Bankim Chandra Chatterjee",
+      "te": "7 నవంబర్ 1875 (అక్షయ నవమి) — బంకిం చంద్ర చటర్జీ"
+     }
+    ],
+    [
+     {
+      "en": "First published",
+      "te": "తొలి ప్రచురణ"
+     },
+     {
+      "en": "Bangadarshan journal; later in the novel Anandamath (1882)",
+      "te": "బంగదర్శన్ పత్రిక; తర్వాత 'ఆనందమఠ్' నవల (1882)"
+     }
+    ],
+    [
+     {
+      "en": "First sung at INC",
+      "te": "కాంగ్రెస్‌లో తొలిసారి"
+     },
+     {
+      "en": "Rabindranath Tagore, Calcutta session, 1896",
+      "te": "రవీంద్రనాథ్ ఠాగూర్, కలకత్తా సమావేశం, 1896"
+     }
+    ],
+    [
+     {
+      "en": "Political slogan",
+      "te": "రాజకీయ నినాదం"
+     },
+     {
+      "en": "From 7 Aug 1905 — Swadeshi / anti-Partition of Bengal",
+      "te": "7 ఆగస్టు 1905 నుంచి — స్వదేశీ / బెంగాల్ విభజన వ్యతిరేకత"
+     }
+    ],
+    [
+     {
+      "en": "24 Jan 1950",
+      "te": "24 జనవరి 1950"
+     },
+     {
+      "en": "Rajendra Prasad: equal honour and status with Jana Gana Mana",
+      "te": "రాజేంద్ర ప్రసాద్: జనగణమనతో సమాన గౌరవం, సమాన హోదా"
+     }
+    ],
+    [
+     {
+      "en": "150-year celebration",
+      "te": "150 ఏళ్ల వేడుక"
+     },
+     {
+      "en": "7 Nov 2025 → 7 Nov 2026; stamp + coin released",
+      "te": "7 నవంబర్ 2025 → 7 నవంబర్ 2026; తపాలా బిళ్ళ + నాణెం విడుదల"
+     }
+    ],
+    [
+     {
+      "en": "2026 guideline",
+      "te": "2026 మార్గదర్శకం"
+     },
+     {
+      "en": "MHA (28 Jan 2026): full six-stanza version; Akashvani from 26 Mar 2026 (3 min 10 s)",
+      "te": "హోంశాఖ (28 జనవరి 2026): పూర్తి ఆరు చరణాలు; ఆకాశవాణిలో 26 మార్చి 2026 నుంచి (3 ని. 10 సె.)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · national symbols & freedom struggle",
+     "te": "లింక్ చెయిన్ · జాతీయ చిహ్నాలు & స్వాతంత్ర్య పోరాటం"
+    },
+    "l": [
+     {
+      "en": "Partition of Bengal 1905 → Swadeshi movement → 'Vande Mataram' as the protest cry (Barisal conference)",
+      "te": "బెంగాల్ విభజన 1905 → స్వదేశీ ఉద్యమం → నిరసన నినాదంగా 'వందేమాతరం' (బారిసాల్ సమావేశం)"
+     },
+     {
+      "en": "Bhikaiji Cama's flag had 'Vande Mataram' written in the middle",
+      "te": "భికాజీ కామా రూపొందించిన జెండా మధ్యలో 'వందేమాతరం' అని రాసి ఉంది"
+     },
+     {
+      "en": "Republic Day 2026 theme: '150 Years of Vande Mataram'",
+      "te": "2026 గణతంత్ర దినోత్సవ థీమ్: '150 ఏళ్ల వందేమాతరం'"
+     },
+     {
+      "en": "Prevention of Insults to National Honour (Amendment) Bill, 2026 proposes to cover the National Song too (the 1971 Act covers the National Anthem)",
+      "te": "జాతీయ గౌరవ అవమాన నిరోధక (సవరణ) బిల్లు, 2026 — జాతీయ గీతాన్ని (National Song) కూడా చేర్చాలని ప్రతిపాదన (1971 చట్టం జాతీయ గీతం/Anthemకు వర్తిస్తుంది)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Written in 1875, but Anandamath came in 1882 — don't mix the two dates. Vande Mataram = National SONG (Bankim); Jana Gana Mana = National ANTHEM (Tagore). Tagore only SANG Vande Mataram in 1896.",
+    "te": "రచన 1875లో; 'ఆనందమఠ్' 1882లో — రెండు తేదీలు కలపకండి. వందేమాతరం = జాతీయ గేయం/National Song (బంకిం); జనగణమన = జాతీయ గీతం/National Anthem (ఠాగూర్). ఠాగూర్ 1896లో వందేమాతరాన్ని పాడారు మాత్రమే, రాయలేదు."
+   },
+   "tip": {
+    "en": "75 → 82 → 96 → 1905 → 1950: Written, Novel, Sung, Slogan, Status.",
+    "te": "75 → 82 → 96 → 1905 → 1950: రచన, నవల, గానం, నినాదం, హోదా."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the National Song 'Vande Mataram', consider the following statements:",
+     "te": "జాతీయ గేయం 'వందేమాతరం'కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It first appeared in the journal Bangadarshan.",
+      "te": "I. ఇది మొదట 'బంగదర్శన్' పత్రికలో వచ్చింది."
+     },
+     {
+      "en": "II. It was composed by Rabindranath Tagore for the 1896 Congress session.",
+      "te": "II. 1896 కాంగ్రెస్ సమావేశం కోసం రవీంద్రనాథ్ ఠాగూర్ దీన్ని రచించారు."
+     },
+     {
+      "en": "III. On 24 January 1950 it was given equal status with Jana Gana Mana.",
+      "te": "III. 1950 జనవరి 24న దీనికి జనగణమనతో సమాన హోదా ఇచ్చారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II is wrong: Bankim Chandra Chatterjee wrote it (1875); Tagore set it to music and sang it in 1896.",
+     "te": "II తప్పు: దీన్ని బంకిం చంద్ర చటర్జీ రాశారు (1875); ఠాగూర్ సంగీతం సమకూర్చి 1896లో పాడారు."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "150 years in dates",
+      "te": "తేదీల్లో 150 ఏళ్లు"
+     },
+     "items": [
+      {
+       "y": "1875",
+       "t": {
+        "en": "Written by Bankim (7 Nov) · Bangadarshan",
+        "te": "బంకిం రచన (7 నవంబర్) · బంగదర్శన్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1882",
+       "t": {
+        "en": "Part of the novel Anandamath",
+        "te": "'ఆనందమఠ్' నవలలో భాగం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1896",
+       "t": {
+        "en": "Tagore sings it — INC Calcutta",
+        "te": "ఠాగూర్ గానం — కలకత్తా కాంగ్రెస్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1905",
+       "t": {
+        "en": "Slogan of Swadeshi (7 Aug)",
+        "te": "స్వదేశీ నినాదం (7 ఆగస్టు)"
+       }
+      },
+      {
+       "y": "1950",
+       "t": {
+        "en": "Equal status with the Anthem (24 Jan)",
+        "te": "జాతీయ గీతంతో సమాన హోదా (24 జనవరి)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2025",
+       "t": {
+        "en": "150-year celebration begins (7 Nov)",
+        "te": "150 ఏళ్ల వేడుకలు ప్రారంభం (7 నవంబర్)"
+       }
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "Six-stanza version on Akashvani; celebration ends (7 Nov)",
+        "te": "ఆకాశవాణిలో ఆరు చరణాలు; వేడుకల ముగింపు (7 నవంబర్)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = most-asked dates.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే తేదీలు."
+     }
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "National Song vs National Anthem",
+      "te": "జాతీయ గేయం vs జాతీయ గీతం"
+     },
+     "a": {
+      "h": {
+       "en": "Vande Mataram — Song",
+       "te": "వందేమాతరం — గేయం"
+      },
+      "l": [
+       {
+        "en": "Bankim Chandra Chatterjee",
+        "te": "బంకిం చంద్ర చటర్జీ"
+       },
+       {
+        "en": "Written 1875",
+        "te": "రచన 1875"
+       },
+       {
+        "en": "First sung at INC 1896",
+        "te": "కాంగ్రెస్‌లో తొలి గానం 1896"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Jana Gana Mana — Anthem",
+       "te": "జనగణమన — గీతం"
+      },
+      "l": [
+       {
+        "en": "Rabindranath Tagore",
+        "te": "రవీంద్రనాథ్ ఠాగూర్"
+       },
+       {
+        "en": "Adopted as Anthem 24 Jan 1950",
+        "te": "24 జనవరి 1950న జాతీయ గీతంగా"
+       },
+       {
+        "en": "Same day: equal status for the Song",
+        "te": "అదే రోజు: గేయానికి సమాన హోదా"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB — PM to inaugurate year-long Commemoration of 150 Years of the National Song 'Vande Mataram', 6 Nov 2025",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2186906"
+    },
+    {
+     "t": "PIB — PM inaugurates year-long Commemoration of 150 Years of 'Vande Mataram', 7 Nov 2025",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2187215&reg=48&lang=2"
+    },
+    {
+     "t": "PIB — English rendering of PM's address at the Vande Mataram 150 inauguration, 7 Nov 2025",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2187270"
+    },
+    {
+     "t": "PIB Factsheet — The Prevention of Insults to National Honour (Amendment) Bill, 2026",
+     "u": "https://www.pib.gov.in/FactsheetDetails.aspx?id=150796&NoteId=150796&ModuleId=16&reg=48&lang=1"
+    },
+    {
+     "t": "PIB — Akashvani to broadcast full version of National Song 'Vande Mataram' from 26th March, 25 Mar 2026",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2244935&reg=3&lang=1"
+    },
+    {
+     "t": "Constitution of India — Constituent Assembly debates, 24 Jan 1950",
+     "u": "https://constitutionofindia.net/debates/24-jan-1950"
+    },
+    {
+     "t": "PIB Press Note — Republic Day 2026 ('150 Years of Vande Mataram')",
+     "u": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=157078&ModuleId=2&reg=3&lang=1"
+    }
+   ]
+  },
+  {
+   "id": "cvraman",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "rocket",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "tag": {
+    "en": "Birth anniversary · 7 Nov 1888",
+    "te": "జయంతి · 7 నవంబర్ 1888"
+   },
+   "title": {
+    "en": "Sir C.V. Raman — the Raman Effect",
+    "te": "సర్ సి.వి. రామన్ — రామన్ ఎఫెక్ట్"
+   },
+   "line": {
+    "en": "First Asian to win a Nobel Prize in science (Physics, 1930) — National Science Day (28 Feb) marks his discovery.",
+    "te": "సైన్స్‌లో నోబెల్ పొందిన తొలి ఆసియా వాసి (భౌతికశాస్త్రం, 1930) — ఆయన ఆవిష్కరణ గుర్తుగానే జాతీయ సైన్స్ దినోత్సవం (ఫిబ్రవరి 28)."
+   },
+   "easy": [
+    {
+     "en": "When light passes through a transparent liquid, most of it scatters with the same colour. Raman found that a very small part comes out with a changed wavelength (colour). This change tells us about the molecules of that substance. This is the Raman Effect, discovered on 28 February 1928 with his student K.S. Krishnan.",
+     "te": "కాంతి పారదర్శక ద్రవం గుండా వెళ్ళినప్పుడు ఎక్కువ భాగం అదే రంగుతో చెదురుతుంది (scattering). అయితే చాలా కొద్ది భాగం మారిన తరంగదైర్ఘ్యం (రంగు)తో బయటకు వస్తుందని రామన్ కనుగొన్నారు. ఈ మార్పు ఆ పదార్థంలోని అణువుల గురించి చెబుతుంది. ఇదే రామన్ ఎఫెక్ట్ — 1928 ఫిబ్రవరి 28న ఆయన విద్యార్థి కె.ఎస్. కృష్ణన్‌తో కలిసి కనుగొన్నారు."
+    },
+    {
+     "en": "He did this research in Calcutta (IACS and Calcutta University) while also working in the Indian Finance Department early in his career. He won the 1930 Nobel Prize in Physics alone (full share). Later he became the first Indian Director of IISc, Bangalore (1933) and founded the Raman Research Institute (1948).",
+     "te": "కెరీర్ ప్రారంభంలో భారత ఆర్థిక శాఖలో ఉద్యోగం చేస్తూనే కలకత్తాలో (IACS, కలకత్తా విశ్వవిద్యాలయం) పరిశోధన చేశారు. 1930 భౌతికశాస్త్ర నోబెల్‌ను ఒంటరిగా (పూర్తి వాటా) పొందారు. తర్వాత IISc బెంగళూరుకు తొలి భారతీయ డైరెక్టర్ (1933) అయ్యారు; రామన్ రీసెర్చ్ ఇన్‌స్టిట్యూట్‌ను (1948) స్థాపించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "7 Nov 1888, Tiruchirappalli (Tamil Nadu)",
+      "te": "7 నవంబర్ 1888, తిరుచిరాపల్లి (తమిళనాడు)"
+     }
+    ],
+    [
+     {
+      "en": "Raman Effect",
+      "te": "రామన్ ఎఫెక్ట్"
+     },
+     {
+      "en": "Discovered 28 Feb 1928 (with K.S. Krishnan) → National Science Day",
+      "te": "28 ఫిబ్రవరి 1928న ఆవిష్కరణ (కె.ఎస్. కృష్ణన్‌తో) → జాతీయ సైన్స్ దినోత్సవం"
+     }
+    ],
+    [
+     {
+      "en": "Nobel Prize",
+      "te": "నోబెల్ బహుమతి"
+     },
+     {
+      "en": "Physics 1930 — 'for his work on the scattering of light'; affiliation: Calcutta University",
+      "te": "భౌతికశాస్త్రం 1930 — 'కాంతి పరిక్షేపణం (scattering)పై కృషికి'; అప్పటి సంస్థ: కలకత్తా విశ్వవిద్యాలయం"
+     }
+    ],
+    [
+     {
+      "en": "Honours",
+      "te": "గౌరవాలు"
+     },
+     {
+      "en": "FRS 1924 · Knighted 1929 · Bharat Ratna 1954",
+      "te": "FRS 1924 · నైట్‌హుడ్ 1929 · భారతరత్న 1954"
+     }
+    ],
+    [
+     {
+      "en": "Journal",
+      "te": "పత్రిక"
+     },
+     {
+      "en": "Founded the Indian Journal of Physics (1926)",
+      "te": "ఇండియన్ జర్నల్ ఆఫ్ ఫిజిక్స్ స్థాపన (1926)"
+     }
+    ],
+    [
+     {
+      "en": "Institutions",
+      "te": "సంస్థలు"
+     },
+     {
+      "en": "IISc: first Indian Director (1933) · Raman Research Institute, Bangalore (1948)",
+      "te": "IISc: తొలి భారతీయ డైరెక్టర్ (1933) · రామన్ రీసెర్చ్ ఇన్‌స్టిట్యూట్, బెంగళూరు (1948)"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "21 Nov 1970, Bangalore",
+      "te": "21 నవంబర్ 1970, బెంగళూరు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · science static GK",
+     "te": "లింక్ చెయిన్ · సైన్స్ స్టాటిక్ GK"
+    },
+    "l": [
+     {
+      "en": "National Science Day = 28 Feb (discovery date), NOT his birthday; 2026 theme: 'Women in Science: Catalysing Viksit Bharat'",
+      "te": "జాతీయ సైన్స్ దినోత్సవం = ఫిబ్రవరి 28 (ఆవిష్కరణ తేదీ), జన్మదినం కాదు; 2026 థీమ్: 'Women in Science: Catalysing Viksit Bharat'"
+     },
+     {
+      "en": "Bharat Ratna 1954 — the first year, with C. Rajagopalachari and S. Radhakrishnan",
+      "te": "భారతరత్న 1954 — తొలి ఏడాది; సి. రాజగోపాలాచారి, ఎస్. రాధాకృష్ణన్‌లతో పాటు"
+     },
+     {
+      "en": "Rabindranath Tagore (Literature, 1913) was the first Asian Nobel laureate; Raman was the first Asian in a science",
+      "te": "రవీంద్రనాథ్ ఠాగూర్ (సాహిత్యం, 1913) తొలి ఆసియా నోబెల్ గ్రహీత; సైన్స్‌లో తొలి ఆసియా వాసి రామన్"
+     },
+     {
+      "en": "Physics link: scattering of light — blue sky is Rayleigh scattering (no change of colour); Raman scattering changes the wavelength",
+      "te": "భౌతికశాస్త్ర లింక్: కాంతి పరిక్షేపణం — నీలి ఆకాశం రేలీ పరిక్షేపణం (రంగు మారదు); రామన్ పరిక్షేపణంలో తరంగదైర్ఘ్యం మారుతుంది"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Discovery 1928, Nobel 1930, knighthood 1929 — three different years. His Nobel affiliation was Calcutta University, not IISc (he moved to IISc only in 1933).",
+    "te": "ఆవిష్కరణ 1928, నోబెల్ 1930, నైట్‌హుడ్ 1929 — మూడు వేర్వేరు సంవత్సరాలు. నోబెల్ సమయంలో ఆయన కలకత్తా విశ్వవిద్యాలయంలో ఉన్నారు, IIScలో కాదు (IIScకి 1933లోనే వెళ్ళారు)."
+   },
+   "tip": {
+    "en": "'28 – 29 – 30': Effect (Feb 1928) → Knight (1929) → Nobel (1930).",
+    "te": "'28 – 29 – 30': ఎఫెక్ట్ (ఫిబ్ర. 1928) → నైట్ (1929) → నోబెల్ (1930)."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Sir C.V. Raman, consider the following statements:",
+     "te": "సర్ సి.వి. రామన్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. National Science Day is celebrated on his birthday.",
+      "te": "I. ఆయన జన్మదినాన జాతీయ సైన్స్ దినోత్సవం జరుపుకుంటారు."
+     },
+     {
+      "en": "II. He received the Nobel Prize in Physics in 1930 without sharing it.",
+      "te": "II. 1930 భౌతికశాస్త్ర నోబెల్‌ను ఆయన ఎవరితోనూ పంచుకోకుండా పొందారు."
+     },
+     {
+      "en": "III. He was the first Indian Director of the Indian Institute of Science.",
+      "te": "III. భారతీయ విజ్ఞాన సంస్థ (IISc)కు ఆయన తొలి భారతీయ డైరెక్టర్."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "I is wrong: National Science Day (28 Feb) marks the discovery of the Raman Effect in 1928; he was born on 7 Nov.",
+     "te": "I తప్పు: జాతీయ సైన్స్ దినోత్సవం (ఫిబ్రవరి 28) 1928 రామన్ ఎఫెక్ట్ ఆవిష్కరణకు గుర్తు; ఆయన జన్మదినం నవంబర్ 7."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "His life in dates",
+      "te": "తేదీల్లో ఆయన జీవితం"
+     },
+     "items": [
+      {
+       "y": "1888",
+       "t": {
+        "en": "Born, Tiruchirappalli (7 Nov)",
+        "te": "తిరుచిరాపల్లిలో జననం (7 నవంబర్)"
+       }
+      },
+      {
+       "y": "1907",
+       "t": {
+        "en": "Finance Dept job; research at IACS Calcutta",
+        "te": "ఆర్థిక శాఖ ఉద్యోగం; IACS కలకత్తాలో పరిశోధన"
+       }
+      },
+      {
+       "y": "1917",
+       "t": {
+        "en": "Palit Professor of Physics, Calcutta University",
+        "te": "కలకత్తా విశ్వవిద్యాలయంలో పాలిత్ ఫిజిక్స్ ప్రొఫెసర్"
+       }
+      },
+      {
+       "y": "1928",
+       "t": {
+        "en": "Raman Effect (28 Feb)",
+        "te": "రామన్ ఎఫెక్ట్ (28 ఫిబ్రవరి)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1930",
+       "t": {
+        "en": "Nobel Prize in Physics",
+        "te": "భౌతికశాస్త్ర నోబెల్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1933",
+       "t": {
+        "en": "First Indian Director, IISc",
+        "te": "IISc తొలి భారతీయ డైరెక్టర్"
+       }
+      },
+      {
+       "y": "1948",
+       "t": {
+        "en": "Founds Raman Research Institute",
+        "te": "రామన్ రీసెర్చ్ ఇన్‌స్టిట్యూట్ స్థాపన"
+       }
+      },
+      {
+       "y": "1954",
+       "t": {
+        "en": "Bharat Ratna",
+        "te": "భారతరత్న"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1970",
+       "t": {
+        "en": "Died, Bangalore (21 Nov)",
+        "te": "బెంగళూరులో మరణం (21 నవంబర్)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = most-asked dates.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే తేదీలు."
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "What is the Raman Effect?",
+      "te": "రామన్ ఎఫెక్ట్ అంటే ఏమిటి?"
+     },
+     "items": [
+      {
+       "i": "🔦",
+       "t": {
+        "en": "Light of one colour enters a liquid",
+        "te": "ఒకే రంగు కాంతి ద్రవంలోకి"
+       }
+      },
+      {
+       "i": "💧",
+       "t": {
+        "en": "Molecules scatter the light",
+        "te": "అణువులు కాంతిని చెదరగొడతాయి"
+       }
+      },
+      {
+       "i": "🌈",
+       "t": {
+        "en": "A tiny part comes out with changed wavelength",
+        "te": "చిన్న భాగం మారిన తరంగదైర్ఘ్యంతో"
+       }
+      },
+      {
+       "i": "🔬",
+       "t": {
+        "en": "The change identifies the molecule",
+        "te": "ఆ మార్పుతో అణువును గుర్తించవచ్చు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "NobelPrize.org — Sir Chandrasekhara Venkata Raman, Facts (Physics 1930)",
+     "u": "https://www.nobelprize.org/prizes/physics/1930/raman/facts/"
+    },
+    {
+     "t": "NobelPrize.org — C.V. Raman, Biographical",
+     "u": "https://www.nobelprize.org/prizes/physics/1930/raman/biographical/"
+    },
+    {
+     "t": "IISc — History",
+     "u": "https://www.iisc.ac.in/about/history/"
+    },
+    {
+     "t": "Raman Research Institute — Overview",
+     "u": "https://www.rri.res.in/about/overview"
+    },
+    {
+     "t": "Britannica — C.V. Raman",
+     "u": "https://britannica.com/biography/Venkata-Raman"
+    },
+    {
+     "t": "Wikipedia — C. V. Raman (Bharat Ratna 1954, cross-check)",
+     "u": "https://en.wikipedia.org/wiki/C._V._Raman"
+    },
+    {
+     "t": "All India Radio — National Science Day 2026, 28 Feb 2026",
+     "u": "https://www.newsonair.gov.in/national-science-day-2026/"
+    }
+   ]
+  },
+  {
+   "id": "cancerday",
+   "kind": "day",
+   "color": "#7a3b8f",
+   "icon": "shield",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "tag": {
+    "en": "National Cancer Awareness Day · 7 Nov",
+    "te": "జాతీయ క్యాన్సర్ అవగాహన దినోత్సవం · 7 నవంబర్"
+   },
+   "title": {
+    "en": "Cancer Awareness Day — Marie Curie's birthday & cheaper cancer medicines",
+    "te": "క్యాన్సర్ అవగాహన దినం — మేరీ క్యూరీ జయంతి & చౌకగా క్యాన్సర్ మందులు"
+   },
+   "line": {
+    "en": "Observed since 2014 on Marie Curie's birth anniversary; from 9 Nov 2026 trade margins on 137 anti-cancer drugs are capped at 30%.",
+    "te": "2014 నుంచి మేరీ క్యూరీ జయంతి రోజున జరుపుకుంటున్నారు; 2026 నవంబర్ 9 నుంచి 137 క్యాన్సర్ మందులపై ట్రేడ్ మార్జిన్ 30%కి పరిమితం."
+   },
+   "easy": [
+    {
+     "en": "India started National Cancer Awareness Day in 2014 (announced by the then Union Health Minister Dr Harsh Vardhan). The aim: early detection, because many cancers can be treated if found early. No official theme for 2026 has been announced in the sources we checked.",
+     "te": "భారత్ 2014లో జాతీయ క్యాన్సర్ అవగాహన దినోత్సవాన్ని ప్రారంభించింది (అప్పటి కేంద్ర ఆరోగ్య మంత్రి డా. హర్షవర్ధన్ ప్రకటన). లక్ష్యం: ముందుగా గుర్తించడం — త్వరగా గుర్తిస్తే చాలా క్యాన్సర్లకు చికిత్స సాధ్యం. మేము చూసిన అధికారిక వనరుల్లో 2026కు ప్రత్యేక థీమ్ ప్రకటించలేదు."
+    },
+    {
+     "en": "Why 7 November? It is the birthday of Marie Curie (born 1867, Warsaw). With Pierre Curie she discovered polonium and radium (1898); radiation from radium later helped cancer treatment. She is the only person to win Nobel Prizes in two different sciences — Physics 1903 and Chemistry 1911.",
+     "te": "నవంబర్ 7 ఎందుకు? అది మేరీ క్యూరీ జన్మదినం (1867, వార్సా). పియరీ క్యూరీతో కలిసి ఆమె పొలోనియం, రేడియం (1898) కనుగొన్నారు; రేడియం వికిరణం తర్వాత క్యాన్సర్ చికిత్సకు ఉపయోగపడింది. రెండు వేర్వేరు సైన్స్ విభాగాల్లో నోబెల్ పొందిన ఏకైక వ్యక్తి ఆమె — భౌతికశాస్త్రం 1903, రసాయనశాస్త్రం 1911."
+    },
+    {
+     "en": "In the news: NPPA used Paragraph 19 of the Drugs (Prices Control) Order, 2013 to cap the trade margin (the extra added by distributors and shops) at 30% on 137 non-scheduled anti-cancer drugs. Revised prices apply from 9 Nov 2026; MRPs may fall by up to 70%.",
+     "te": "వార్తల్లో: ఔషధ ధరల నియంత్రణ ఉత్తర్వు (DPCO), 2013లోని పేరా 19ని ఉపయోగించి NPPA — 137 నాన్-షెడ్యూల్డ్ క్యాన్సర్ మందులపై ట్రేడ్ మార్జిన్‌ను (డిస్ట్రిబ్యూటర్లు, దుకాణాలు కలిపే అదనపు మొత్తం) 30%కి పరిమితం చేసింది. సవరించిన ధరలు 2026 నవంబర్ 9 నుంచి; MRP 70% వరకు తగ్గవచ్చు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Day started",
+      "te": "ప్రారంభం"
+     },
+     {
+      "en": "2014 — announced by Union Health Minister Dr Harsh Vardhan",
+      "te": "2014 — కేంద్ర ఆరోగ్య మంత్రి డా. హర్షవర్ధన్ ప్రకటన"
+     }
+    ],
+    [
+     {
+      "en": "Why 7 Nov",
+      "te": "ఎందుకు 7 నవంబర్"
+     },
+     {
+      "en": "Marie Curie born 7 Nov 1867, Warsaw",
+      "te": "మేరీ క్యూరీ జననం 7 నవంబర్ 1867, వార్సా"
+     }
+    ],
+    [
+     {
+      "en": "Curie's Nobels",
+      "te": "క్యూరీ నోబెల్స్"
+     },
+     {
+      "en": "Physics 1903 (with Pierre Curie & Henri Becquerel) · Chemistry 1911 (radium, polonium)",
+      "te": "భౌతికశాస్త్రం 1903 (పియరీ క్యూరీ & హెన్రీ బెక్వెరెల్‌తో) · రసాయనశాస్త్రం 1911 (రేడియం, పొలోనియం)"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "4 July 1934, France — aplastic anaemia, likely from radiation",
+      "te": "4 జూలై 1934, ఫ్రాన్స్ — వికిరణం వల్ల వచ్చిన అప్లాస్టిక్ అనీమియా"
+     }
+    ],
+    [
+     {
+      "en": "NPPA order",
+      "te": "NPPA ఉత్తర్వు"
+     },
+     {
+      "en": "17 Oct 2026, Para 19 of DPCO 2013 — 30% trade-margin cap, 137 anti-cancer drugs",
+      "te": "17 అక్టోబర్ 2026, DPCO 2013 పేరా 19 — 30% ట్రేడ్ మార్జిన్ పరిమితి, 137 క్యాన్సర్ మందులు"
+     }
+    ],
+    [
+     {
+      "en": "Effect",
+      "te": "ప్రభావం"
+     },
+     {
+      "en": "New prices from 9 Nov 2026 · MRP down up to 70% · est. saving ₹2,500 crore a year",
+      "te": "కొత్త ధరలు 9 నవంబర్ 2026 నుంచి · MRP 70% వరకు తగ్గుదల · ఏటా సుమారు ₹2,500 కోట్ల ఆదా"
+     }
+    ],
+    [
+     {
+      "en": "Earlier step",
+      "te": "గత చర్య"
+     },
+     {
+      "en": "Feb 2019: same method for 42 anti-cancer drugs ('proof of concept')",
+      "te": "ఫిబ్రవరి 2019: ఇదే పద్ధతిలో 42 క్యాన్సర్ మందులు ('ప్రూఫ్ ఆఫ్ కాన్సెప్ట్')"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · health governance",
+     "te": "లింక్ చెయిన్ · ఆరోగ్య పాలన"
+    },
+    "l": [
+     {
+      "en": "NPPA (National Pharmaceutical Pricing Authority) works under the Department of Pharmaceuticals, Ministry of Chemicals & Fertilizers — not the Health Ministry",
+      "te": "NPPA (జాతీయ ఔషధ ధరల సంస్థ) రసాయనాలు & ఎరువుల మంత్రిత్వ శాఖలోని ఫార్మాస్యూటికల్స్ విభాగం కింద పనిచేస్తుంది — ఆరోగ్య శాఖ కింద కాదు"
+     },
+     {
+      "en": "Scheduled drugs = price-controlled under DPCO; Para 19 lets the government act in 'public interest' even for non-scheduled drugs",
+      "te": "షెడ్యూల్డ్ మందులు = DPCO కింద ధర నియంత్రణ; 'ప్రజా ప్రయోజనం' కోసం నాన్-షెడ్యూల్డ్ మందులపైనా చర్య తీసుకునే అధికారం పేరా 19 ఇస్తుంది"
+     },
+     {
+      "en": "Consumers can check prices on the 'Pharma Sahi Daam' app and NPPA website",
+      "te": "'ఫార్మా సహీ దామ్' యాప్, NPPA వెబ్‌సైట్‌లో ధరలు చూడవచ్చు"
+     },
+     {
+      "en": "World Cancer Day is different — 4 February",
+      "te": "ప్రపంచ క్యాన్సర్ దినోత్సవం వేరు — ఫిబ్రవరి 4"
+     }
+    ]
+   },
+   "trap": {
+    "en": "National Cancer Awareness Day = 7 Nov (India); World Cancer Day = 4 Feb. Marie Curie's 1903 prize was Physics (shared), the 1911 prize was Chemistry (alone). The cap is on the trade MARGIN, not a fixed price.",
+    "te": "జాతీయ క్యాన్సర్ అవగాహన దినం = నవంబర్ 7 (భారత్); ప్రపంచ క్యాన్సర్ దినం = ఫిబ్రవరి 4. మేరీ క్యూరీ 1903 బహుమతి భౌతికశాస్త్రం (పంచుకున్నది), 1911 బహుమతి రసాయనశాస్త్రం (ఒంటరిగా). పరిమితి ట్రేడ్ మార్జిన్‌పై, స్థిర ధరపై కాదు."
+   },
+   "tip": {
+    "en": "Curie: 'P before C' — Physics 1903, then Chemistry 1911.",
+    "te": "క్యూరీ: 'P తర్వాత C' — ఫిజిక్స్ 1903, తర్వాత కెమిస్ట్రీ 1911."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements regarding the recent NPPA decision on anti-cancer drugs:",
+     "te": "క్యాన్సర్ మందులపై ఇటీవలి NPPA నిర్ణయానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It caps the trade margin at 30% for 137 non-scheduled anti-cancer drugs.",
+      "te": "I. 137 నాన్-షెడ్యూల్డ్ క్యాన్సర్ మందులపై ట్రేడ్ మార్జిన్‌ను 30%కి పరిమితం చేసింది."
+     },
+     {
+      "en": "II. It was issued under Paragraph 19 of the DPCO, 2013.",
+      "te": "II. ఇది DPCO, 2013లోని పేరా 19 కింద జారీ అయింది."
+     },
+     {
+      "en": "III. NPPA functions under the Union Ministry of Health and Family Welfare.",
+      "te": "III. NPPA కేంద్ర ఆరోగ్య, కుటుంబ సంక్షేమ శాఖ కింద పనిచేస్తుంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "III is wrong: NPPA is under the Department of Pharmaceuticals, Ministry of Chemicals & Fertilizers.",
+     "te": "III తప్పు: NPPA రసాయనాలు & ఎరువుల మంత్రిత్వ శాఖలోని ఫార్మాస్యూటికల్స్ విభాగం కింద ఉంది."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "How a trade-margin cap lowers MRP",
+      "te": "ట్రేడ్ మార్జిన్ పరిమితితో MRP ఎలా తగ్గుతుంది"
+     },
+     "items": [
+      {
+       "i": "🏭",
+       "t": {
+        "en": "Company sells to distributor",
+        "te": "కంపెనీ డిస్ట్రిబ్యూటర్‌కు అమ్మకం"
+       }
+      },
+      {
+       "i": "📦",
+       "t": {
+        "en": "Distributors + shops add a margin",
+        "te": "డిస్ట్రిబ్యూటర్లు + దుకాణాలు మార్జిన్ కలుపుతాయి"
+       }
+      },
+      {
+       "i": "⚠️",
+       "t": {
+        "en": "NPPA found ~170% average mark-up",
+        "te": "సగటున ~170% అదనపు ధర గుర్తించిన NPPA"
+       }
+      },
+      {
+       "i": "✂️",
+       "t": {
+        "en": "Cap: margin ≤ 30% of MRP",
+        "te": "పరిమితి: మార్జిన్ ≤ MRPలో 30%"
+       }
+      },
+      {
+       "i": "💊",
+       "t": {
+        "en": "MRP falls up to 70% (from 9 Nov)",
+        "te": "MRP 70% వరకు తగ్గుదల (9 నవంబర్ నుంచి)"
+       }
+      }
+     ]
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "Anti-cancer drugs under trade-margin cap",
+      "te": "ట్రేడ్ మార్జిన్ పరిమితిలో క్యాన్సర్ మందులు"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "2019 order",
+        "te": "2019 ఉత్తర్వు"
+       },
+       "v": 42,
+       "vl": "42"
+      },
+      {
+       "t": {
+        "en": "2026 order",
+        "te": "2026 ఉత్తర్వు"
+       },
+       "v": 137,
+       "vl": "137"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "All India Radio — National Cancer Awareness Day: November 7",
+     "u": "https://www.newsonair.gov.in/today-is-national-cancer-awareness-day-november-7"
+    },
+    {
+     "t": "PIB Press Note — National Cancer Awareness Day in India, 7 Nov 2024",
+     "u": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=153396&ModuleId=3&reg=3&lang=1"
+    },
+    {
+     "t": "NobelPrize.org — Marie Curie: Questions and answers",
+     "u": "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/questions-and-answers/"
+    },
+    {
+     "t": "NobelPrize.org — Women who changed science: Marie Curie",
+     "u": "https://www.nobelprize.org/stories/women-who-changed-science/marie-curie/"
+    },
+    {
+     "t": "PIB — Trade Margin Rationalisation on 137 Anti-Cancer Drugs, 17 Oct 2026",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2324743&reg=48&lang=1"
+    },
+    {
+     "t": "PIB — Government Expands Cancer Medicine Price Controls; patients expected to save ₹2,500 crore annually, 8 Oct 2026",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2321092&reg=48&lang=2"
+    },
+    {
+     "t": "PIB — NPPA releases revised MRP for 543 brands of anti-cancer medicines; new prices from 9 Nov 2026",
+     "u": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329698&reg=48&lang=2"
+    },
+    {
+     "t": "PIB — Significant Reduction in Cancer Drug Prices due to Trade Margin Capping, 28 Feb 2019",
+     "u": "https://pib.gov.in/PressReleasePage.aspx?PRID=1566632"
+    }
+   ]
+  },
+  {
+   "id": "critmin",
+   "kind": "article",
+   "color": "#2f6b2f",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "PIB · Ministry of Mines · 5 Nov 2026",
+    "te": "PIB · గనుల మంత్రిత్వ శాఖ · 5 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-III Economy & Resources",
+    "te": "వివరణ · GS-III ఆర్థిక వ్యవస్థ & వనరులు"
+   },
+   "title": {
+    "en": "₹2,814-crore scheme to process lithium and nickel in India",
+    "te": "భారత్‌లోనే లిథియం, నికెల్ శుద్ధికి ₹2,814 కోట్ల పథకం"
+   },
+   "line": {
+    "en": "Cabinet (4 Nov) approved a 30% capital subsidy for four plants — the 'missing link' between mining and EV batteries.",
+    "te": "క్యాబినెట్ (4 నవంబర్) నాలుగు ప్లాంట్లకు 30% మూలధన సబ్సిడీ ఆమోదించింది — గనుల తవ్వకం, EV బ్యాటరీల మధ్య 'తప్పిపోయిన లింక్' ఇదే."
+   },
+   "easy": [
+    {
+     "en": "Lithium and nickel are critical minerals — needed for electric vehicles, battery storage, electronics, defence and special steel. Digging the ore is only step one; it must be processed into battery-grade material. India's needs for such refined, high-purity materials are met largely through imports.",
+     "te": "లిథియం, నికెల్ కీలక ఖనిజాలు (critical minerals) — ఎలక్ట్రిక్ వాహనాలు, బ్యాటరీ నిల్వ, ఎలక్ట్రానిక్స్, రక్షణ, ప్రత్యేక ఉక్కుకు అవసరం. ఖనిజం తవ్వడం మొదటి అడుగు మాత్రమే; దాన్ని బ్యాటరీ గ్రేడ్ పదార్థంగా శుద్ధి చేయాలి. ఇలాంటి శుద్ధి చేసిన, అధిక స్వచ్ఛత పదార్థాల అవసరాలను భారత్ ఎక్కువగా దిగుమతులతోనే తీర్చుకుంటోంది."
+    },
+    {
+     "en": "The new CAPEX Support Scheme pays 30% of the plant cost (capital subsidy) for two lithium plants (at least 30 kt each) and two nickel plants (at least 50 kt each). Companies are first checked on technical criteria; then the one asking for the LEAST support wins (reverse bidding). Money is released in three milestone-linked tranches.",
+     "te": "కొత్త CAPEX సపోర్ట్ పథకం — రెండు లిథియం ప్లాంట్లు (ఒక్కొక్కటి కనీసం 30 kt), రెండు నికెల్ ప్లాంట్లు (ఒక్కొక్కటి కనీసం 50 kt) ఖర్చులో 30% (మూలధన సబ్సిడీ) భరిస్తుంది. ముందుగా సాంకేతిక అర్హత పరిశీలన; తర్వాత అతి తక్కువ సాయం కోరిన సంస్థకే అవకాశం (రివర్స్ బిడ్డింగ్). నిధులు మైలురాళ్లకు అనుసంధానమైన మూడు విడతల్లో విడుదల."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Approved",
+      "te": "ఆమోదం"
+     },
+     {
+      "en": "Union Cabinet, 4 Nov 2026 · Ministry of Mines",
+      "te": "కేంద్ర క్యాబినెట్, 4 నవంబర్ 2026 · గనుల శాఖ"
+     }
+    ],
+    [
+     {
+      "en": "Outlay & period",
+      "te": "వ్యయం & కాలం"
+     },
+     {
+      "en": "₹2,814 crore · FY 2026-27 to 2030-31",
+      "te": "₹2,814 కోట్లు · 2026-27 నుంచి 2030-31"
+     }
+    ],
+    [
+     {
+      "en": "Support",
+      "te": "సాయం"
+     },
+     {
+      "en": "30% capital subsidy; cap ₹500 cr per lithium and ₹900 cr per nickel beneficiary",
+      "te": "30% మూలధన సబ్సిడీ; గరిష్ఠం లిథియంకు ₹500 కోట్లు, నికెల్‌కు ₹900 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Plants",
+      "te": "ప్లాంట్లు"
+     },
+     {
+      "en": "2 lithium (≥30 kt each) + 2 nickel (≥50 kt each, Class-1 / battery-grade nickel sulphate)",
+      "te": "2 లిథియం (ఒక్కొక్కటి ≥30 kt) + 2 నికెల్ (ఒక్కొక్కటి ≥50 kt, క్లాస్-1 / బ్యాటరీ గ్రేడ్ నికెల్ సల్ఫేట్)"
+     }
+    ],
+    [
+     {
+      "en": "Selection",
+      "te": "ఎంపిక"
+     },
+     {
+      "en": "Technical qualification → least-CAPEX-support bid",
+      "te": "సాంకేతిక అర్హత → అతి తక్కువ సాయం కోరిన బిడ్"
+     }
+    ],
+    [
+     {
+      "en": "Targets by 2030",
+      "te": "2030 నాటికి లక్ష్యం"
+     },
+     {
+      "en": "60 kt lithium + 100 kt nickel capacity; ~₹10,000 crore investment",
+      "te": "60 kt లిథియం + 100 kt నికెల్ సామర్థ్యం; సుమారు ₹10,000 కోట్ల పెట్టుబడి"
+     }
+    ],
+    [
+     {
+      "en": "Deadline",
+      "te": "గడువు"
+     },
+     {
+      "en": "Commission within 3 years of award (max 5 years)",
+      "te": "అవార్డు నుంచి 3 ఏళ్లలో ప్రారంభం (గరిష్ఠం 5 ఏళ్లు)"
+     }
+    ],
+    [
+     {
+      "en": "Governance",
+      "te": "పర్యవేక్షణ"
+     },
+     {
+      "en": "Governing Council chaired by Secretary, Ministry of Mines",
+      "te": "గనుల శాఖ కార్యదర్శి అధ్యక్షతన గవర్నింగ్ కౌన్సిల్"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · critical minerals policy",
+     "te": "లింక్ చెయిన్ · కీలక ఖనిజాల విధానం"
+    },
+    "l": [
+     {
+      "en": "National Critical Mineral Mission (NCMM) — launched January 2025",
+      "te": "జాతీయ కీలక ఖనిజాల మిషన్ (NCMM) — జనవరి 2025లో ప్రారంభం"
+     },
+     {
+      "en": "Under NCMM: ₹1,500-crore recycling scheme (Cabinet, 3 Sept 2025) — e-waste, spent Li-ion batteries, scrap",
+      "te": "NCMM కింద: ₹1,500 కోట్ల రీసైక్లింగ్ పథకం (క్యాబినెట్, 3 సెప్టెంబర్ 2025) — ఈ-వ్యర్థాలు, వాడిన Li-ion బ్యాటరీలు, స్క్రాప్"
+     },
+     {
+      "en": "Same Cabinet (4 Nov 2026): ₹14,500-crore viability gap funding for 92 GWh grid-scale energy storage",
+      "te": "అదే క్యాబినెట్ (4 నవంబర్ 2026): 92 GWh గ్రిడ్ స్థాయి ఎనర్జీ స్టోరేజీకి ₹14,500 కోట్ల వయబిలిటీ గ్యాప్ ఫండింగ్"
+     },
+     {
+      "en": "Static link: CAPEX = capital expenditure (assets like plants); OPEX = running costs",
+      "te": "స్టాటిక్ లింక్: CAPEX = మూలధన వ్యయం (ప్లాంట్ల వంటి ఆస్తులు); OPEX = నిర్వహణ ఖర్చులు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The subsidy is 30% of capital cost — not a production-linked incentive (PLI) on sales. Nickel plants are 50 kt and lithium 30 kt (don't swap). Winner = LOWEST support sought, not highest capacity.",
+    "te": "సబ్సిడీ మూలధన వ్యయంలో 30% — అమ్మకాలపై ఇచ్చే PLI కాదు. నికెల్ ప్లాంట్లు 50 kt, లిథియం 30 kt (తారుమారు చేయకండి). విజేత = అతి తక్కువ సాయం కోరినవారు, అత్యధిక సామర్థ్యం కాదు."
+   },
+   "tip": {
+    "en": "'2-2-30': 2 lithium + 2 nickel plants, 30% subsidy; Li 30 kt, Ni 50 kt.",
+    "te": "'2-2-30': 2 లిథియం + 2 నికెల్ ప్లాంట్లు, 30% సబ్సిడీ; Li 30 kt, Ni 50 kt."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the CAPEX Support Scheme to Promote Critical Mineral Processing (2026), consider the following statements:",
+     "te": "కీలక ఖనిజాల శుద్ధి ప్రోత్సాహానికి CAPEX సపోర్ట్ పథకం (2026)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It gives a production-linked incentive on the sales of lithium-ion cells.",
+      "te": "I. ఇది లిథియం-అయాన్ సెల్స్ అమ్మకాలపై ఉత్పత్తి అనుసంధాన ప్రోత్సాహకం (PLI) ఇస్తుంది."
+     },
+     {
+      "en": "II. It supports two lithium and two nickel processing plants.",
+      "te": "II. ఇది రెండు లిథియం, రెండు నికెల్ శుద్ధి ప్లాంట్లకు సాయం చేస్తుంది."
+     },
+     {
+      "en": "III. Beneficiaries are finally chosen by the lowest capital support sought.",
+      "te": "III. చివరకు అతి తక్కువ మూలధన సాయం కోరిన వారినే లబ్ధిదారులుగా ఎంపిక చేస్తారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "I is wrong: it is a 30% capital (CAPEX) subsidy for processing plants, not a PLI on cell sales.",
+     "te": "I తప్పు: ఇది శుద్ధి ప్లాంట్లకు 30% మూలధన (CAPEX) సబ్సిడీ, సెల్స్ అమ్మకాలపై PLI కాదు."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "Where the 'missing link' is",
+      "te": "'తప్పిపోయిన లింక్' ఎక్కడ"
+     },
+     "items": [
+      {
+       "i": "⛏️",
+       "t": {
+        "en": "Mine the ore",
+        "te": "ఖనిజం తవ్వకం"
+       }
+      },
+      {
+       "i": "⚗️",
+       "t": {
+        "en": "PROCESS to battery grade — the missing link",
+        "te": "బ్యాటరీ గ్రేడ్‌గా శుద్ధి — తప్పిపోయిన లింక్"
+       }
+      },
+      {
+       "i": "🔋",
+       "t": {
+        "en": "Battery cells & storage",
+        "te": "బ్యాటరీ సెల్స్ & నిల్వ"
+       }
+      },
+      {
+       "i": "🚗",
+       "t": {
+        "en": "EVs, electronics, defence",
+        "te": "EVలు, ఎలక్ట్రానిక్స్, రక్షణ"
+       }
+      }
+     ]
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "Processing capacity targeted by 2030",
+      "te": "2030 నాటికి లక్ష్యిత శుద్ధి సామర్థ్యం"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Lithium",
+        "te": "లిథియం"
+       },
+       "v": 60,
+       "vl": "60 kt"
+      },
+      {
+       "t": {
+        "en": "Nickel",
+        "te": "నికెల్"
+       },
+       "v": 100,
+       "vl": "100 kt"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB — CAPEX Support Scheme to Promote Critical Mineral Processing, Ministry of Mines, 5 Nov 2026",
+     "u": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2332964&reg=1&lang=1"
+    },
+    {
+     "t": "PIB — All releases, November 2026 (Cabinet decisions of 4 Nov 2026)",
+     "u": "https://www.pib.gov.in/allrelease.aspx?reg=3&lang=1"
+    },
+    {
+     "t": "Strive Edge IAS — PIB Snippets, 6 Nov 2026 (cross-check)",
+     "u": "https://striveedgeias.in/pib-snippets-november-6-2026/"
+    }
+   ],
+   "mains": {
+    "en": "'Mining alone cannot secure India's clean-energy future; processing is the missing link.' Discuss with reference to the 2026 CAPEX support scheme for lithium and nickel.",
+    "te": "'కేవలం గనుల తవ్వకంతో భారత్ స్వచ్ఛ ఇంధన భవిష్యత్తు భద్రం కాదు; శుద్ధి ప్రక్రియే తప్పిపోయిన లింక్.' లిథియం, నికెల్ కోసం 2026 CAPEX సపోర్ట్ పథకం నేపథ్యంలో చర్చించండి."
+   }
+  },
+  {
+   "id": "tigertriumph",
+   "kind": "article",
+   "color": "#1f6f6a",
+   "icon": "unsc",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "PIB · Ministry of Defence · 6 Nov 2026",
+    "te": "PIB · రక్షణ మంత్రిత్వ శాఖ · 6 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "In the news · GS-II IR / GS-III Security · AP link",
+    "te": "వార్తల్లో · GS-II అంతర్జాతీయ సంబంధాలు / GS-III భద్రత · AP లింక్"
+   },
+   "title": {
+    "en": "Tiger Triumph 2026: India–US disaster-relief exercise at Visakhapatnam",
+    "te": "టైగర్ ట్రయంఫ్ 2026: విశాఖపట్నంలో భారత్–అమెరికా విపత్తు సహాయ విన్యాసం"
+   },
+   "line": {
+    "en": "Fifth edition of the India–US tri-service HADR exercise ended on 5 Nov — NDRF joined for the first time.",
+    "te": "భారత్–అమెరికా త్రివిధ దళాల HADR విన్యాసం ఐదో ఎడిషన్ నవంబర్ 5న ముగిసింది — తొలిసారి NDRF పాల్గొంది."
+   },
+   "easy": [
+    {
+     "en": "HADR = Humanitarian Assistance and Disaster Relief — how armed forces help people after cyclones, floods or earthquakes. 'Tri-service' means Army, Navy and Air Force together. Tiger Triumph trains Indian and US forces to plan such operations together, especially joint amphibious (sea-to-land) operations.",
+     "te": "HADR = మానవతా సహాయం & విపత్తు ఉపశమనం — తుపానులు, వరదలు, భూకంపాల తర్వాత సాయుధ దళాలు ప్రజలకు ఎలా సాయం చేస్తాయో. 'త్రివిధ దళాలు' అంటే సైన్యం, నౌకాదళం, వైమానిక దళం కలిసి. భారత్, అమెరికా దళాలు ఇలాంటి ఆపరేషన్లను కలిసి ప్లాన్ చేయడం — ముఖ్యంగా సముద్రం నుంచి తీరానికి (amphibious) ఆపరేషన్లు — టైగర్ ట్రయంఫ్ లక్ష్యం."
+    },
+    {
+     "en": "The 2026 edition (31 Oct – 5 Nov) at Visakhapatnam was a Staff Exercise (STAFFEX: planning, lectures, expert exchanges incl. cyber and medical) followed by a Tabletop Exercise (TTX: plans tested in a simulated setting). Earlier editions had a sea phase off Kakinada.",
+     "te": "2026 ఎడిషన్ (అక్టోబర్ 31 – నవంబర్ 5) విశాఖపట్నంలో — మొదట స్టాఫ్ ఎక్సర్‌సైజ్ (STAFFEX: ప్రణాళిక, ఉపన్యాసాలు, సైబర్, వైద్యం సహా నిపుణుల చర్చలు), తర్వాత టేబుల్‌టాప్ ఎక్సర్‌సైజ్ (TTX: అనుకరణ వాతావరణంలో ప్రణాళికల పరీక్ష). గత ఎడిషన్లలో కాకినాడ తీరంలో సముద్ర దశ జరిగింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Edition & dates",
+      "te": "ఎడిషన్ & తేదీలు"
+     },
+     {
+      "en": "5th edition · 31 Oct – 5 Nov 2026 · first held 2019",
+      "te": "5వ ఎడిషన్ · 31 అక్టోబర్ – 5 నవంబర్ 2026 · తొలిసారి 2019"
+     }
+    ],
+    [
+     {
+      "en": "Place",
+      "te": "ప్రదేశం"
+     },
+     {
+      "en": "Visakhapatnam (opening at the Maritime Warfare Centre)",
+      "te": "విశాఖపట్నం (మారిటైమ్ వార్‌ఫేర్ సెంటర్‌లో ప్రారంభం)"
+     }
+    ],
+    [
+     {
+      "en": "Format",
+      "te": "విధానం"
+     },
+     {
+      "en": "STAFFEX + Tabletop Exercise (TTX)",
+      "te": "STAFFEX + టేబుల్‌టాప్ ఎక్సర్‌సైజ్ (TTX)"
+     }
+    ],
+    [
+     {
+      "en": "India",
+      "te": "భారత్"
+     },
+     {
+      "en": "Navy, Army, IAF, Special Forces of all three services; NDRF for the first time",
+      "te": "నౌకాదళం, సైన్యం, వైమానిక దళం, మూడు దళాల ప్రత్యేక బలగాలు; తొలిసారి NDRF"
+     }
+    ],
+    [
+     {
+      "en": "USA",
+      "te": "అమెరికా"
+     },
+     {
+      "en": "Air Force, Army, Marine Corps, Navy + space, cyber, medical, EOD experts",
+      "te": "ఎయిర్ ఫోర్స్, ఆర్మీ, మెరైన్ కోర్, నేవీ + అంతరిక్ష, సైబర్, వైద్య, EOD నిపుణులు"
+     }
+    ],
+    [
+     {
+      "en": "Same week",
+      "te": "అదే వారం"
+     },
+     {
+      "en": "Pralay test (5 Nov) · Malabar 2026 in Japan · Rahat Mitra with Myanmar (Chennai)",
+      "te": "ప్రళయ్ పరీక్ష (5 నవంబర్) · జపాన్‌లో మలబార్ 2026 · మయన్మార్‌తో రాహత్ మిత్ర (చెన్నై)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · exercises & missiles in the news",
+     "te": "లింక్ చెయిన్ · వార్తల్లో విన్యాసాలు & క్షిపణులు"
+    },
+    "l": [
+     {
+      "en": "Malabar 2026 — India, US, Japan, Australia; INS Sahyadri reached Yokosuka (Japan) on 4 Nov. Began 1992 as India–US; Japan permanent 2015; Australia rejoined 2020",
+      "te": "మలబార్ 2026 — భారత్, అమెరికా, జపాన్, ఆస్ట్రేలియా; INS సహ్యాద్రి నవంబర్ 4న యోకోసుకా (జపాన్) చేరింది. 1992లో భారత్–అమెరికాగా ప్రారంభం; 2015లో జపాన్ శాశ్వత సభ్యత్వం; 2020లో ఆస్ట్రేలియా తిరిగి చేరిక"
+     },
+     {
+      "en": "Pralay quasi-ballistic missile — user-evaluation trial on 5 Nov from Dr APJ Abdul Kalam Island (Odisha); developed by RCI Hyderabad; BDL is production partner",
+      "te": "ప్రళయ్ క్వాసీ-బాలిస్టిక్ క్షిపణి — నవంబర్ 5న డా. APJ అబ్దుల్ కలాం దీవి (ఒడిశా) నుంచి యూజర్ ఎవాల్యుయేషన్ ట్రయల్; RCI హైదరాబాద్ అభివృద్ధి; BDL ఉత్పత్తి భాగస్వామి"
+     },
+     {
+      "en": "Rahat Mitra — first tri-service HADR exercise with Myanmar, Chennai, 5–6 Nov",
+      "te": "రాహత్ మిత్ర — మయన్మార్‌తో తొలి త్రివిధ దళాల HADR విన్యాసం, చెన్నై, నవంబర్ 5–6"
+     },
+     {
+      "en": "AP link: Visakhapatnam = HQ of the Eastern Naval Command; cyclone-prone coast makes HADR skills vital",
+      "te": "AP లింక్: విశాఖపట్నం = తూర్పు నౌకాదళ కమాండ్ ప్రధాన కేంద్రం; తుపానులు వచ్చే తీరం కాబట్టి HADR నైపుణ్యాలు కీలకం"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Tiger Triumph = India–US, tri-service, HADR (not a war-fighting naval drill like Malabar, which is four-nation). Yudh Abhyas is the India–US ARMY exercise — don't confuse.",
+    "te": "టైగర్ ట్రయంఫ్ = భారత్–అమెరికా, త్రివిధ దళాలు, HADR (నాలుగు దేశాల మలబార్ లాంటి నౌకా యుద్ధ విన్యాసం కాదు). యుద్ధ్ అభ్యాస్ భారత్–అమెరికా సైన్య (Army) విన్యాసం — కలపకండి."
+   },
+   "tip": {
+    "en": "'Tiger = Three services, Two nations, Triumph over disasters'.",
+    "te": "'టైగర్ = మూడు దళాలు, రెండు దేశాలు, విపత్తులపై విజయం'."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Exercise Tiger Triumph 2026, consider the following statements:",
+     "te": "టైగర్ ట్రయంఫ్ 2026 విన్యాసానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It is a bilateral tri-service exercise between India and the USA focused on HADR.",
+      "te": "I. ఇది HADRపై దృష్టి పెట్టిన భారత్–అమెరికా ద్వైపాక్షిక త్రివిధ దళాల విన్యాసం."
+     },
+     {
+      "en": "II. The 2026 edition was held in Visakhapatnam with a staff exercise and a tabletop exercise.",
+      "te": "II. 2026 ఎడిషన్ విశాఖపట్నంలో స్టాఫ్ ఎక్సర్‌సైజ్, టేబుల్‌టాప్ ఎక్సర్‌సైజ్‌లతో జరిగింది."
+     },
+     {
+      "en": "III. Japan and Australia also took part in it in 2026.",
+      "te": "III. 2026లో జపాన్, ఆస్ట్రేలియా కూడా ఇందులో పాల్గొన్నాయి."
+     },
+     {
+      "en": "IV. The NDRF took part in it for the first time.",
+      "te": "IV. ఇందులో NDRF తొలిసారి పాల్గొంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I, II and IV only",
+      "te": "I, II, IV మాత్రమే"
+     },
+     {
+      "en": "II, III and IV only",
+      "te": "II, III, IV మాత్రమే"
+     },
+     {
+      "en": "I, II, III and IV",
+      "te": "I, II, III, IV"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "III is wrong: Japan and Australia are partners in Malabar (four-nation), not in the bilateral Tiger Triumph.",
+     "te": "III తప్పు: జపాన్, ఆస్ట్రేలియా నాలుగు దేశాల మలబార్‌లో భాగస్వాములు; ద్వైపాక్షిక టైగర్ ట్రయంఫ్‌లో కాదు."
+    }
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Defence news on the east coast this week",
+      "te": "ఈ వారం తూర్పు తీరంలో రక్షణ వార్తలు"
+     },
+     "view": [
+      76.0,
+      10.5,
+      90.5,
+      23.0
+     ],
+     "hl": [
+      "Andhra Pradesh",
+      "Odisha",
+      "Tamil Nadu"
+     ],
+     "hlc": "#1f6f6a",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        17.69,
+        83.22
+       ],
+       "t": {
+        "en": "Visakhapatnam — Tiger Triumph",
+        "te": "విశాఖపట్నం — టైగర్ ట్రయంఫ్"
+       },
+       "a": "r"
+      },
+      {
+       "ll": [
+        20.76,
+        87.08
+       ],
+       "t": {
+        "en": "Abdul Kalam Island — Pralay",
+        "te": "అబ్దుల్ కలాం దీవి — ప్రళయ్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        13.08,
+        80.27
+       ],
+       "t": {
+        "en": "Chennai — Rahat Mitra",
+        "te": "చెన్నై — రాహత్ మిత్ర"
+       },
+       "a": "r"
+      }
+     ],
+     "cap": {
+      "en": "All three events of this week were on India's east coast. Earlier Tiger Triumph editions had a sea phase off Kakinada.",
+      "te": "ఈ వారం మూడు ఘటనలూ భారత తూర్పు తీరంలోనే. గత టైగర్ ట్రయంఫ్ ఎడిషన్లలో కాకినాడ తీరంలో సముద్ర దశ జరిగింది."
+     },
+     "src": "cards/2026-11-07/map-tigertriumph-1-{m}.svg"
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Tiger Triumph vs Malabar",
+      "te": "టైగర్ ట్రయంఫ్ vs మలబార్"
+     },
+     "a": {
+      "h": {
+       "en": "Tiger Triumph",
+       "te": "టైగర్ ట్రయంఫ్"
+      },
+      "l": [
+       {
+        "en": "India + USA",
+        "te": "భారత్ + అమెరికా"
+       },
+       {
+        "en": "Tri-service, HADR",
+        "te": "త్రివిధ దళాలు, HADR"
+       },
+       {
+        "en": "Since 2019 · Visakhapatnam",
+        "te": "2019 నుంచి · విశాఖపట్నం"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Malabar",
+       "te": "మలబార్"
+      },
+      "l": [
+       {
+        "en": "India, USA, Japan, Australia",
+        "te": "భారత్, అమెరికా, జపాన్, ఆస్ట్రేలియా"
+       },
+       {
+        "en": "Naval exercise",
+        "te": "నౌకాదళ విన్యాసం"
+       },
+       {
+        "en": "Since 1992 · 2026 in Japan",
+        "te": "1992 నుంచి · 2026లో జపాన్"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB (reproduced by Nyaya Portal) — Exercise Tiger Triumph 2026 culminates with closing ceremony, PRID 2333530, 6 Nov 2026",
+     "u": "https://www.nyayaportal.com/news/exercise-tiger-triumph-2026-culminates-with-closing-ceremony-2333530"
+    },
+    {
+     "t": "DD India — India-US tri-service exercise Tiger Triumph 2026 opens in Visakhapatnam, 3 Nov 2026",
+     "u": "https://ddindia.co.in/2026/11/india-us-tri-service-exercise-tiger-triumph-2026-opens-in-visakhapatnam/"
+    },
+    {
+     "t": "The Tribune (ANI) — Indian, US forces conclude Exercise Tiger Triumph 2026 in Visakhapatnam, 6 Nov 2026",
+     "u": "https://www.tribuneindia.com/news/world/indian-us-forces-conclude-exercise-tiger-triumph-2026-in-visakhapatnam"
+    },
+    {
+     "t": "PIB — DRDO conducts successful flight-test of quasi-ballistic missile 'Pralay', 5 Nov 2026",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2333276&reg=48&lang=2"
+    },
+    {
+     "t": "PIB — INS Sahyadri arrives at Yokosuka Naval Base, Japan for Exercise Malabar 2026",
+     "u": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2333046&reg=17&lang=1"
+    },
+    {
+     "t": "Adda247 — Exercise Malabar 2026: India, Australia, Japan and US begin multilateral naval exercise (cross-check)",
+     "u": "https://currentaffairs.adda247.com/exercise-malabar-2026-india-australia-japan-and-us-begin-multilateral-naval-exercise-in-japan"
+    },
+    {
+     "t": "CrackTarget — Current Affairs 6 November 2026 (Rahat Mitra; cross-check)",
+     "u": "https://cracktarget.com/current-affairs-6-november-2026/"
+    }
+   ],
+   "mains": {
+    "en": "How do HADR exercises like Tiger Triumph strengthen India's role as a 'first responder' in the Indian Ocean Region? Illustrate with Andhra Pradesh's cyclone-prone coast.",
+    "te": "టైగర్ ట్రయంఫ్ వంటి HADR విన్యాసాలు హిందూ మహాసముద్ర ప్రాంతంలో భారత్‌ను 'ఫస్ట్ రెస్పాండర్'గా ఎలా బలపరుస్తాయి? తుపానులు వచ్చే ఆంధ్రప్రదేశ్ తీరాన్ని ఉదాహరణగా వివరించండి."
+   }
+  },
+  {
+   "id": "internetright",
+   "kind": "article",
+   "color": "#a86b00",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "The Hindu · Letter & Spirit · 6 Nov 2026 (SC judgment of 15 Oct 2026)",
+    "te": "ది హిందూ · లెటర్ & స్పిరిట్ · 6 నవంబర్ 2026 (15 అక్టోబర్ 2026 సుప్రీంకోర్టు తీర్పు)"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity — Fundamental Rights",
+    "te": "వివరణ · GS-II పాలిటీ — ప్రాథమిక హక్కులు"
+   },
+   "title": {
+    "en": "Internet access is a fundamental right — children included, says Supreme Court",
+    "te": "ఇంటర్నెట్ వినియోగం ప్రాథమిక హక్కు — పిల్లలకూ వర్తిస్తుంది: సుప్రీంకోర్టు"
+   },
+   "line": {
+    "en": "The Court refused blanket age-based bans on children's internet use and asked for safer design instead.",
+    "te": "పిల్లల ఇంటర్నెట్ వినియోగంపై వయసు ఆధారిత పూర్తి నిషేధాన్ని కోర్టు తిరస్కరించింది; బదులుగా సురక్షిత ఏర్పాట్లు సూచించింది."
+   },
+   "easy": [
+    {
+     "en": "In Just Rights for Children Alliance v. S. Harish (judgment of 15 Oct 2026, Justices J.B. Pardiwala and K. Vinod Chandran), the Supreme Court said the right to access and use the internet is a fundamental right of every individual, including children, irrespective of age. It flows from Article 21 (life and liberty) read with Article 19(1)(a) (speech and expression, which includes the right to receive information).",
+     "te": "జస్ట్ రైట్స్ ఫర్ చిల్డ్రన్ అలయన్స్ vs ఎస్. హరీష్ కేసులో (15 అక్టోబర్ 2026 తీర్పు, జస్టిస్ జె.బి. పార్దీవాలా, జస్టిస్ కె. వినోద్ చంద్రన్) — ఇంటర్నెట్‌ను పొందడం, వాడుకోవడం ప్రతి వ్యక్తికీ, వయసుతో సంబంధం లేకుండా పిల్లలకూ ప్రాథమిక హక్కు అని సుప్రీంకోర్టు చెప్పింది. ఇది ఆర్టికల్ 21 (జీవించే, వ్యక్తిగత స్వేచ్ఛ హక్కు)ను ఆర్టికల్ 19(1)(a) (వాక్ స్వాతంత్ర్యం — సమాచారం పొందే హక్కు సహా)తో కలిపి చదివితే వస్తుంది."
+    },
+    {
+     "en": "The Court called blanket bans 'unproven measures' — no country has shown children are safer because of them — and said checking the age of every user would be an overreach with surveillance risk. Instead it suggested parental consent, a 'child mode', private accounts by default for pre-teens and limits on contact from unknown adults. It also gave strict directions to remove child sexual exploitation and abuse material (CSEAM).",
+     "te": "పూర్తి నిషేధాలు 'నిరూపితం కాని చర్యలు' అని కోర్టు పేర్కొంది — వాటి వల్ల పిల్లలు సురక్షితంగా ఉన్నారని ఏ దేశమూ చూపలేదు; ప్రతి యూజర్ వయసు తనిఖీ చేయడం మితిమీరిన చర్య, నిఘా ప్రమాదం ఉంది అని చెప్పింది. బదులుగా తల్లిదండ్రుల సమ్మతి, 'చైల్డ్ మోడ్', ప్రీ-టీన్లకు డిఫాల్ట్‌గా ప్రైవేట్ ఖాతాలు, తెలియని పెద్దల నుంచి సంప్రదింపులపై పరిమితులు సూచించింది. పిల్లలపై లైంగిక దోపిడీ, వేధింపుల కంటెంట్ (CSEAM) తొలగింపుకు కఠిన ఆదేశాలు ఇచ్చింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Case",
+      "te": "కేసు"
+     },
+     {
+      "en": "Just Rights for Children Alliance v. S. Harish · 15 Oct 2026 · 2026 INSC 1149",
+      "te": "జస్ట్ రైట్స్ ఫర్ చిల్డ్రన్ అలయన్స్ vs ఎస్. హరీష్ · 15 అక్టోబర్ 2026 · 2026 INSC 1149"
+     }
+    ],
+    [
+     {
+      "en": "Bench",
+      "te": "ధర్మాసనం"
+     },
+     {
+      "en": "Justices J.B. Pardiwala and K. Vinod Chandran (two judges)",
+      "te": "జస్టిస్ జె.బి. పార్దీవాలా, జస్టిస్ కె. వినోద్ చంద్రన్ (ఇద్దరు న్యాయమూర్తులు)"
+     }
+    ],
+    [
+     {
+      "en": "Basis",
+      "te": "ఆధారం"
+     },
+     {
+      "en": "Article 21 read with Article 19(1)(a)",
+      "te": "ఆర్టికల్ 21 + ఆర్టికల్ 19(1)(a)"
+     }
+    ],
+    [
+     {
+      "en": "On bans",
+      "te": "నిషేధాలపై"
+     },
+     {
+      "en": "No blanket age-based ban; universal age verification = overreach",
+      "te": "వయసు ఆధారిత పూర్తి నిషేధం వద్దు; అందరికీ వయసు తనిఖీ = మితిమీరిన చర్య"
+     }
+    ],
+    [
+     {
+      "en": "Safeguards",
+      "te": "రక్షణలు"
+     },
+     {
+      "en": "Parental consent, child mode, private-by-default accounts; Centre to set modalities",
+      "te": "తల్లిదండ్రుల సమ్మతి, చైల్డ్ మోడ్, డిఫాల్ట్ ప్రైవేట్ ఖాతాలు; విధివిధానాలు కేంద్రం రూపొందిస్తుంది"
+     }
+    ],
+    [
+     {
+      "en": "CSEAM directions",
+      "te": "CSEAM ఆదేశాలు"
+     },
+     {
+      "en": "National hash/URL database; 2-hour window to report material of unknown origin",
+      "te": "జాతీయ హాష్/URL డేటాబేస్; తెలియని మూలం కంటెంట్‌ను 2 గంటల్లో నివేదించాలి"
+     }
+    ],
+    [
+     {
+      "en": "Earlier rulings",
+      "te": "గత తీర్పులు"
+     },
+     {
+      "en": "Anuradha Bhasin (2020): speech & trade via internet protected, but did not decide if access itself is an FR · Kerala HC, Faheema Shirin (2019)",
+      "te": "అనురాధా భాసిన్ (2020): ఇంటర్నెట్ ద్వారా వాక్కు, వ్యాపారానికి రక్షణ; కానీ ఇంటర్నెట్ వినియోగమే ప్రాథమిక హక్కా అని తేల్చలేదు · కేరళ హైకోర్టు, ఫహీమా షిరిన్ (2019)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Article 21 and digital rights",
+     "te": "లింక్ చెయిన్ · ఆర్టికల్ 21 & డిజిటల్ హక్కులు"
+    },
+    "l": [
+     {
+      "en": "Article 21 has grown through cases: privacy (Puttaswamy, 2017), now internet access (2026)",
+      "te": "తీర్పుల ద్వారా ఆర్టికల్ 21 విస్తరణ: గోప్యత (పుట్టస్వామి, 2017), ఇప్పుడు ఇంటర్నెట్ వినియోగం (2026)"
+     },
+     {
+      "en": "Fundamental rights are not absolute — Article 19(2) allows reasonable restrictions; the Court still allows blocking inherently harmful content",
+      "te": "ప్రాథమిక హక్కులు అపరిమితం కావు — ఆర్టికల్ 19(2) సహేతుక పరిమితులను అనుమతిస్తుంది; హానికర కంటెంట్‌ను నిరోధించే అవకాశం కోర్టు ఉంచింది"
+     },
+     {
+      "en": "DPDP Act 2023: 'child' = under 18; Section 9 needs verifiable parental consent to process a child's data",
+      "te": "DPDP చట్టం 2023: 'పిల్లవాడు' = 18 ఏళ్లలోపు; పిల్లల డేటా ప్రాసెసింగ్‌కు సెక్షన్ 9 ప్రకారం తల్లిదండ్రుల ధృవీకృత సమ్మతి అవసరం"
+     },
+     {
+      "en": "IT Act Section 79 'safe harbour': platforms lose it if they fail to report CSEAM (2024 SC judgment)",
+      "te": "IT చట్టం సెక్షన్ 79 'సేఫ్ హార్బర్': CSEAMను నివేదించకపోతే ప్లాట్‌ఫామ్‌లు ఈ రక్షణ కోల్పోతాయి (2024 సుప్రీంకోర్టు తీర్పు)"
+     },
+     {
+      "en": "Contrast: Australia's law bars under-16s from social-media accounts (in force 10 Dec 2025)",
+      "te": "పోలిక: ఆస్ట్రేలియా చట్టం 16 ఏళ్లలోపు వారికి సోషల్ మీడియా ఖాతాలు నిషేధించింది (10 డిసెంబర్ 2025 నుంచి)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The right comes from Article 21 + 19(1)(a) — NOT Article 21A (education). Anuradha Bhasin (2020) did NOT declare internet access itself a fundamental right; the 2026 judgment does. The Court did not ban social media for children — it rejected a blanket ban.",
+    "te": "ఈ హక్కు ఆర్టికల్ 21 + 19(1)(a) నుంచి — ఆర్టికల్ 21A (విద్య) నుంచి కాదు. అనురాధా భాసిన్ (2020) ఇంటర్నెట్ వినియోగాన్నే ప్రాథమిక హక్కుగా ప్రకటించలేదు; 2026 తీర్పు ప్రకటించింది. కోర్టు పిల్లలకు సోషల్ మీడియాను నిషేధించలేదు — పూర్తి నిషేధాన్ని తిరస్కరించింది."
+   },
+   "tip": {
+    "en": "'21 + 19 = Net': life + speech together give the right to the internet.",
+    "te": "'21 + 19 = నెట్': జీవించే హక్కు + వాక్ స్వాతంత్ర్యం కలిస్తే ఇంటర్నెట్ హక్కు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the Supreme Court's judgment of October 2026 on internet access, consider the following statements:",
+     "te": "ఇంటర్నెట్ వినియోగంపై అక్టోబర్ 2026 సుప్రీంకోర్టు తీర్పుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It held internet access to be a fundamental right, including for children.",
+      "te": "I. పిల్లలతో సహా అందరికీ ఇంటర్నెట్ వినియోగం ప్రాథమిక హక్కు అని ప్రకటించింది."
+     },
+     {
+      "en": "II. It traced the right mainly to Article 21A.",
+      "te": "II. ఈ హక్కుకు ప్రధాన ఆధారం ఆర్టికల్ 21A అని చెప్పింది."
+     },
+     {
+      "en": "III. It directed a ban on social-media accounts for all children below 16.",
+      "te": "III. 16 ఏళ్లలోపు పిల్లలందరికీ సోషల్ మీడియా ఖాతాలను నిషేధించాలని ఆదేశించింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "II is wrong: the basis is Article 21 read with 19(1)(a). III is wrong: the Court rejected blanket age-based bans (an under-16 ban is Australia's law).",
+     "te": "II తప్పు: ఆధారం ఆర్టికల్ 21 + 19(1)(a). III తప్పు: వయసు ఆధారిత పూర్తి నిషేధాన్ని కోర్టు తిరస్కరించింది (16 ఏళ్లలోపు నిషేధం ఆస్ట్రేలియా చట్టం)."
+    }
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Blanket ban vs the Court's approach",
+      "te": "పూర్తి నిషేధం vs కోర్టు సూచించిన మార్గం"
+     },
+     "a": {
+      "h": {
+       "en": "Blanket age ban (rejected)",
+       "te": "వయసు ఆధారిత పూర్తి నిషేధం (తిరస్కరణ)"
+      },
+      "l": [
+       {
+        "en": "Age check of every user",
+        "te": "ప్రతి యూజర్ వయసు తనిఖీ"
+       },
+       {
+        "en": "Surveillance risk",
+        "te": "నిఘా ప్రమాదం"
+       },
+       {
+        "en": "No proof children are safer",
+        "te": "పిల్లలు సురక్షితమన్న రుజువు లేదు"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Safety by design (suggested)",
+       "te": "డిజైన్‌లోనే భద్రత (సూచన)"
+      },
+      "l": [
+       {
+        "en": "Parental consent & oversight",
+        "te": "తల్లిదండ్రుల సమ్మతి & పర్యవేక్షణ"
+       },
+       {
+        "en": "Child mode, private accounts",
+        "te": "చైల్డ్ మోడ్, ప్రైవేట్ ఖాతాలు"
+       },
+       {
+        "en": "Fast removal of CSEAM",
+        "te": "CSEAM వేగంగా తొలగింపు"
+       }
+      ]
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How the right grew",
+      "te": "ఈ హక్కు ఎలా ఎదిగింది"
+     },
+     "items": [
+      {
+       "i": "🏫",
+       "t": {
+        "en": "Kerala HC 2019 (Faheema Shirin): internet in a hostel",
+        "te": "కేరళ HC 2019 (ఫహీమా షిరిన్): హాస్టల్‌లో ఇంటర్నెట్"
+       }
+      },
+      {
+       "i": "📵",
+       "t": {
+        "en": "SC 2020 (Anuradha Bhasin): shutdowns need proportionality",
+        "te": "SC 2020 (అనురాధా భాసిన్): షట్‌డౌన్‌లకు అనుపాత పరీక్ష"
+       }
+      },
+      {
+       "i": "🛡️",
+       "t": {
+        "en": "SC 2024: platforms must report CSEAM",
+        "te": "SC 2024: ప్లాట్‌ఫామ్‌లు CSEAM నివేదించాలి"
+       }
+      },
+      {
+       "i": "🌐",
+       "t": {
+        "en": "SC 2026: internet access = fundamental right for all, children too",
+        "te": "SC 2026: ఇంటర్నెట్ వినియోగం = అందరికీ, పిల్లలకూ ప్రాథమిక హక్కు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Legacy IAS — Current Affairs 06 November 2026 (The Hindu, Letter & Spirit: internet access as a fundamental right)",
+     "u": "https://www.legacyias.com/current-affairs-06-november-2026/"
+    },
+    {
+     "t": "Verdictum — Just Rights for Children Alliance v. S. Harish, 2026 INSC 1149, 17 Oct 2026",
+     "u": "https://www.verdictum.in/app-lite/supreme-court/just-rights-for-children-alliance-v-s-harish-2026-insc-1149-children-irrespective-of-age-fundamental-right-social-media-1624185"
+    },
+    {
+     "t": "Business Standard — Children have fundamental right to access internet; no blanket ban: SC, 17 Oct 2026",
+     "u": "https://www.business-standard.com/india-news/children-have-fundamental-right-to-access-internet-no-blanket-ban-sc-126101700766_1.html"
+    },
+    {
+     "t": "LiveLaw — Right to access & use internet a fundamental right of every individual including children: Supreme Court, 17 Oct 2026",
+     "u": "https://livelaw.in/supreme-court/right-to-access-use-internet-a-fundamental-right-of-every-individual-including-children-supreme-court-555139"
+    },
+    {
+     "t": "LawyersClubIndia — The Supreme Court's recognition of internet access as a fundamental right (commentary), 30 Oct 2026",
+     "u": "https://www.lawyersclubindia.com/articles/the-supreme-court-s-recognition-of-internet-access-as-a-fundamental-right-and-the-place-of-children-in-india-s-digital-constitution-18848.asp"
+    },
+    {
+     "t": "SuperKalam — Parental consent makes right to internet conditional (Indian Express summary), 20 Oct 2026",
+     "u": "https://superkalam.com/current-affairs/20-10-2026/parental-consent-makes-right-to-internet-conditional-pg10-44bad138-1dd3-4191-82b3-27afd2dccb5a"
+    }
+   ],
+   "mains": {
+    "en": "'Protecting children online should not mean shutting them out.' Examine the Supreme Court's 2026 view on internet access as a fundamental right and its preference for safety-by-design over blanket bans.",
+    "te": "'ఆన్‌లైన్‌లో పిల్లల రక్షణ అంటే వారిని బయటకు నెట్టడం కాదు.' ఇంటర్నెట్ వినియోగం ప్రాథమిక హక్కు అన్న 2026 సుప్రీంకోర్టు అభిప్రాయాన్ని, పూర్తి నిషేధం కంటే డిజైన్‌లో భద్రతకు అది ఇచ్చిన ప్రాధాన్యతను పరిశీలించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "vandemataram",
+   "q": {
+    "en": "Arrange the following events related to 'Vande Mataram' in chronological order:",
+    "te": "'వందేమాతరం'కు సంబంధించిన కింది ఘటనలను కాలక్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "I. Included in the novel Anandamath",
+     "te": "I. 'ఆనందమఠ్' నవలలో చేర్చడం"
+    },
+    {
+     "en": "II. Sung by Tagore at the Calcutta session of the INC",
+     "te": "II. కలకత్తా కాంగ్రెస్ సమావేశంలో ఠాగూర్ గానం"
+    },
+    {
+     "en": "III. Used as a political slogan in the Swadeshi movement",
+     "te": "III. స్వదేశీ ఉద్యమంలో రాజకీయ నినాదంగా వాడకం"
+    },
+    {
+     "en": "IV. Given equal status with Jana Gana Mana",
+     "te": "IV. జనగణమనతో సమాన హోదా"
+    }
+   ],
+   "o": [
+    {
+     "en": "II – I – III – IV",
+     "te": "II – I – III – IV"
+    },
+    {
+     "en": "I – II – III – IV",
+     "te": "I – II – III – IV"
+    },
+    {
+     "en": "I – III – II – IV",
+     "te": "I – III – II – IV"
+    },
+    {
+     "en": "II – III – I – IV",
+     "te": "II – III – I – IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Anandamath 1882 → Tagore sang it 1896 → Swadeshi slogan 1905 → equal status 24 Jan 1950. Trap: the song was written in 1875 but Anandamath came only in 1882, so Tagore's 1896 rendition is after it.",
+    "te": "ఆనందమఠ్ 1882 → ఠాగూర్ గానం 1896 → స్వదేశీ నినాదం 1905 → సమాన హోదా 24 జనవరి 1950. ఉచ్చు: గీతం 1875లో రాసినా 'ఆనందమఠ్' 1882లోనే వచ్చింది, కాబట్టి 1896 గానం దాని తర్వాతే."
+   }
+  },
+  {
+   "topic": "vandemataram",
+   "q": {
+    "en": "Which of the following statements about the 150th-year commemoration of Vande Mataram is INCORRECT?",
+    "te": "వందేమాతరం 150వ ఏడాది స్మారకోత్సవానికి సంబంధించి కింది వాటిలో తప్పు వాక్యం ఏది?"
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "It ran from 7 November 2025 to 7 November 2026.",
+     "te": "ఇది 2025 నవంబర్ 7 నుంచి 2026 నవంబర్ 7 వరకు జరిగింది."
+    },
+    {
+     "en": "A commemorative stamp and coin were released at its inauguration.",
+     "te": "ప్రారంభోత్సవంలో స్మారక తపాలా బిళ్ళ, నాణెం విడుదలయ్యాయి."
+    },
+    {
+     "en": "Akashvani switched to broadcasting the full six-stanza version in 2026.",
+     "te": "2026లో ఆకాశవాణి పూర్తి ఆరు చరణాల గీతాన్ని ప్రసారం చేయడం మొదలుపెట్టింది."
+    },
+    {
+     "en": "The 1971 Prevention of Insults to National Honour Act has always covered the National Song.",
+     "te": "1971 జాతీయ గౌరవ అవమాన నిరోధక చట్టం మొదటి నుంచీ జాతీయ గేయానికి వర్తిస్తోంది."
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "(d) is incorrect: the 1971 Act covers the National Anthem; the 2026 Amendment Bill proposes to add the National Song. (a), (b) and (c) are correct.",
+    "te": "(d) తప్పు: 1971 చట్టం జాతీయ గీతానికి (Anthem) వర్తిస్తుంది; జాతీయ గేయాన్ని చేర్చాలని 2026 సవరణ బిల్లు ప్రతిపాదిస్తోంది. (a), (b), (c) సరైనవి."
+   }
+  },
+  {
+   "topic": "cvraman",
+   "q": {
+    "en": "Consider the following pairs about Sir C.V. Raman:",
+    "te": "సర్ సి.వి. రామన్‌కు సంబంధించి కింది జతలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Discovery of the Raman Effect — 28 February 1928",
+     "te": "I. రామన్ ఎఫెక్ట్ ఆవిష్కరణ — 28 ఫిబ్రవరి 1928"
+    },
+    {
+     "en": "II. Nobel Prize in Physics — 1929",
+     "te": "II. భౌతికశాస్త్ర నోబెల్ — 1929"
+    },
+    {
+     "en": "III. Raman Research Institute founded — 1948",
+     "te": "III. రామన్ రీసెర్చ్ ఇన్‌స్టిట్యూట్ స్థాపన — 1948"
+    },
+    {
+     "en": "IV. Bharat Ratna — 1954",
+     "te": "IV. భారతరత్న — 1954"
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II is wrongly matched: 1929 was his knighthood; the Nobel Prize came in 1930. The other three pairs are correct.",
+    "te": "II తప్పు జత: 1929లో నైట్‌హుడ్; నోబెల్ 1930లో వచ్చింది. మిగతా మూడు జతలు సరైనవి."
+   }
+  },
+  {
+   "topic": "cvraman",
+   "q": {
+    "en": "A student says: 'Raman won the Nobel for work done at IISc Bangalore, and National Science Day falls on his birthday.' Consider:",
+    "te": "ఒక విద్యార్థి: 'రామన్ IISc బెంగళూరులో చేసిన పరిశోధనకు నోబెల్ పొందారు; జాతీయ సైన్స్ దినోత్సవం ఆయన జన్మదినం' అన్నాడు. పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. His affiliation at the time of the Nobel Prize was Calcutta University.",
+     "te": "I. నోబెల్ సమయంలో ఆయన కలకత్తా విశ్వవిద్యాలయంలో ఉన్నారు."
+    },
+    {
+     "en": "II. He joined IISc only in 1933, as its first Indian Director.",
+     "te": "II. ఆయన IISc తొలి భారతీయ డైరెక్టర్‌గా 1933లోనే చేరారు."
+    },
+    {
+     "en": "III. National Science Day marks the date of the discovery, not his birthday.",
+     "te": "III. జాతీయ సైన్స్ దినోత్సవం ఆవిష్కరణ తేదీకి గుర్తు, ఆయన జన్మదినానికి కాదు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "III only",
+     "te": "III మాత్రమే"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "All three are correct, so the student is wrong on both counts: the Nobel work was in Calcutta (affiliation Calcutta University), IISc came in 1933, and 28 Feb is the discovery date (birthday 7 Nov).",
+    "te": "మూడూ సరైనవే — కాబట్టి విద్యార్థి రెండు విషయాల్లోనూ తప్పు: నోబెల్ పరిశోధన కలకత్తాలో (కలకత్తా విశ్వవిద్యాలయం), IISc 1933లో, ఫిబ్రవరి 28 ఆవిష్కరణ తేదీ (జన్మదినం నవంబర్ 7)."
+   }
+  },
+  {
+   "topic": "cancerday",
+   "q": {
+    "en": "With reference to National Cancer Awareness Day and Marie Curie, consider the following statements:",
+    "te": "జాతీయ క్యాన్సర్ అవగాహన దినోత్సవం, మేరీ క్యూరీకి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The Day is observed on 7 November, Marie Curie's birth anniversary.",
+     "te": "I. మేరీ క్యూరీ జయంతి అయిన నవంబర్ 7న ఈ దినోత్సవం జరుపుకుంటారు."
+    },
+    {
+     "en": "II. Marie Curie's 1903 Nobel Prize was in Chemistry, and the 1911 prize was in Physics.",
+     "te": "II. మేరీ క్యూరీ 1903 నోబెల్ రసాయనశాస్త్రంలో, 1911 బహుమతి భౌతికశాస్త్రంలో వచ్చాయి."
+    },
+    {
+     "en": "III. She discovered polonium and radium with Pierre Curie.",
+     "te": "III. పియరీ క్యూరీతో కలిసి ఆమె పొలోనియం, రేడియం కనుగొన్నారు."
+    },
+    {
+     "en": "IV. India observes it since 2014.",
+     "te": "IV. భారత్ దీన్ని 2014 నుంచి జరుపుకుంటోంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "II is wrong (reversed): 1903 = Physics (shared with Pierre Curie and Becquerel), 1911 = Chemistry (radium and polonium). I, III and IV are correct.",
+    "te": "II తప్పు (తారుమారు): 1903 = భౌతికశాస్త్రం (పియరీ క్యూరీ, బెక్వెరెల్‌తో), 1911 = రసాయనశాస్త్రం (రేడియం, పొలోనియం). I, III, IV సరైనవి."
+   }
+  },
+  {
+   "topic": "critmin",
+   "q": {
+    "en": "Consider the following statements about the CAPEX Support Scheme for critical mineral processing approved in November 2026:",
+    "te": "నవంబర్ 2026లో ఆమోదించిన కీలక ఖనిజాల శుద్ధి CAPEX సపోర్ట్ పథకానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Its outlay is ₹2,814 crore for FY 2026-27 to 2030-31.",
+     "te": "I. దీని వ్యయం 2026-27 నుంచి 2030-31 వరకు ₹2,814 కోట్లు."
+    },
+    {
+     "en": "II. Each lithium plant must have a capacity of at least 50 kt.",
+     "te": "II. ప్రతి లిథియం ప్లాంట్ సామర్థ్యం కనీసం 50 kt ఉండాలి."
+    },
+    {
+     "en": "III. Support per nickel beneficiary is capped at ₹900 crore.",
+     "te": "III. ఒక్కో నికెల్ లబ్ధిదారుకు సాయం గరిష్ఠంగా ₹900 కోట్లు."
+    },
+    {
+     "en": "IV. Plants must be commissioned within 3 years of the Letter of Award, and in no case later than 5 years.",
+     "te": "IV. లెటర్ ఆఫ్ అవార్డు నుంచి 3 ఏళ్లలో, ఎట్టి పరిస్థితుల్లోనూ 5 ఏళ్లలోపు ప్లాంట్లు ప్రారంభించాలి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "II is wrong: lithium plants are at least 30 kt; 50 kt is the minimum for nickel plants. I, III and IV are correct.",
+    "te": "II తప్పు: లిథియం ప్లాంట్లు కనీసం 30 kt; 50 kt అనేది నికెల్ ప్లాంట్ల కనీస సామర్థ్యం. I, III, IV సరైనవి."
+   }
+  },
+  {
+   "topic": "critmin",
+   "q": {
+    "en": "A company wants support under the 2026 critical-mineral CAPEX scheme. Which of the following correctly describes how it can win?",
+    "te": "2026 కీలక ఖనిజాల CAPEX పథకం కింద ఒక కంపెనీ సాయం కోరుతోంది. అది ఎలా గెలుస్తుందో సరిగ్గా వివరించేది ఏది?"
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "By offering the largest plant capacity in a single round",
+     "te": "ఒకే దశలో అత్యధిక ప్లాంట్ సామర్థ్యాన్ని చూపడం ద్వారా"
+    },
+    {
+     "en": "By committing the highest sales, which earn a production-linked incentive",
+     "te": "అత్యధిక అమ్మకాలు హామీ ఇచ్చి PLI పొందడం ద్వారా"
+    },
+    {
+     "en": "By passing technical qualification and then seeking the lowest CAPEX support",
+     "te": "సాంకేతిక అర్హత సాధించి, తర్వాత అతి తక్కువ CAPEX సాయం కోరడం ద్వారా"
+    },
+    {
+     "en": "By being nominated directly by the State government",
+     "te": "రాష్ట్ర ప్రభుత్వం నేరుగా నామినేట్ చేయడం ద్వారా"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "(c): selection is two-stage — technical criteria, then financial bidding where the lowest support sought wins. It is a capital subsidy (30%), not a PLI; capacity alone or State nomination does not decide.",
+    "te": "(c): ఎంపిక రెండు దశల్లో — సాంకేతిక ప్రమాణాలు, తర్వాత అతి తక్కువ సాయం కోరిన వారు గెలిచే ఆర్థిక బిడ్డింగ్. ఇది మూలధన సబ్సిడీ (30%), PLI కాదు; కేవలం సామర్థ్యం లేదా రాష్ట్ర నామినేషన్ నిర్ణయించవు."
+   }
+  },
+  {
+   "topic": "tigertriumph",
+   "q": {
+    "en": "Match List-I (exercise/event, Nov 2026) with List-II (feature):",
+    "te": "జాబితా-I (విన్యాసం/ఘటన, నవంబర్ 2026)ను జాబితా-II (లక్షణం)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "I. Tiger Triumph — (1) India, US, Japan, Australia naval exercise",
+     "te": "I. టైగర్ ట్రయంఫ్ — (1) భారత్, అమెరికా, జపాన్, ఆస్ట్రేలియా నౌకా విన్యాసం"
+    },
+    {
+     "en": "II. Malabar — (2) First tri-service HADR exercise with Myanmar",
+     "te": "II. మలబార్ — (2) మయన్మార్‌తో తొలి త్రివిధ దళాల HADR విన్యాసం"
+    },
+    {
+     "en": "III. Rahat Mitra — (3) India–US tri-service HADR exercise at Visakhapatnam",
+     "te": "III. రాహత్ మిత్ర — (3) విశాఖపట్నంలో భారత్–అమెరికా త్రివిధ దళాల HADR విన్యాసం"
+    },
+    {
+     "en": "IV. Pralay — (4) Quasi-ballistic missile developed by RCI Hyderabad",
+     "te": "IV. ప్రళయ్ — (4) RCI హైదరాబాద్ అభివృద్ధి చేసిన క్వాసీ-బాలిస్టిక్ క్షిపణి"
+    }
+   ],
+   "o": [
+    {
+     "en": "I-3, II-1, III-2, IV-4",
+     "te": "I-3, II-1, III-2, IV-4"
+    },
+    {
+     "en": "I-1, II-3, III-2, IV-4",
+     "te": "I-1, II-3, III-2, IV-4"
+    },
+    {
+     "en": "I-3, II-2, III-1, IV-4",
+     "te": "I-3, II-2, III-1, IV-4"
+    },
+    {
+     "en": "I-2, II-1, III-3, IV-4",
+     "te": "I-2, II-1, III-3, IV-4"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Tiger Triumph = India–US HADR (Visakhapatnam); Malabar = four-nation naval; Rahat Mitra = with Myanmar; Pralay = RCI Hyderabad missile. Trap in (b): swapping Tiger Triumph and Malabar.",
+    "te": "టైగర్ ట్రయంఫ్ = భారత్–అమెరికా HADR (విశాఖపట్నం); మలబార్ = నాలుగు దేశాల నౌకా విన్యాసం; రాహత్ మిత్ర = మయన్మార్‌తో; ప్రళయ్ = RCI హైదరాబాద్ క్షిపణి. (b)లో ఉచ్చు: టైగర్ ట్రయంఫ్, మలబార్ తారుమారు."
+   }
+  },
+  {
+   "topic": "internetright",
+   "q": {
+    "en": "With reference to the right to internet access in India, consider the following statements:",
+    "te": "భారత్‌లో ఇంటర్నెట్ వినియోగ హక్కుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. In Anuradha Bhasin (2020) the Supreme Court declared internet access itself a fundamental right.",
+     "te": "I. అనురాధా భాసిన్ (2020) కేసులో ఇంటర్నెట్ వినియోగమే ప్రాథమిక హక్కు అని సుప్రీంకోర్టు ప్రకటించింది."
+    },
+    {
+     "en": "II. In 2026 the Supreme Court held that the right applies to children irrespective of age.",
+     "te": "II. ఈ హక్కు వయసుతో సంబంధం లేకుండా పిల్లలకూ వర్తిస్తుందని 2026లో సుప్రీంకోర్టు చెప్పింది."
+    },
+    {
+     "en": "III. The 2026 judgment still allows the government to restrict categories of inherently harmful content.",
+     "te": "III. హానికరమైన కంటెంట్ వర్గాలను ప్రభుత్వం నిరోధించే అవకాశాన్ని 2026 తీర్పు ఇంకా అనుమతిస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I is wrong: Anuradha Bhasin protected speech and trade through the internet and required proportionality for shutdowns, but did not decide whether access itself is a fundamental right. II and III are correct.",
+    "te": "I తప్పు: అనురాధా భాసిన్ ఇంటర్నెట్ ద్వారా వాక్కు, వ్యాపారానికి రక్షణ ఇచ్చి షట్‌డౌన్‌లకు అనుపాత పరీక్ష తప్పనిసరి చేసింది; కానీ వినియోగమే ప్రాథమిక హక్కా అని తేల్చలేదు. II, III సరైనవి."
+   }
+  },
+  {
+   "topic": "internetright",
+   "q": {
+    "en": "A State plans to make every social-media user upload an ID to prove age and to bar all children. In the light of the Supreme Court's 2026 judgment, which of the following is most appropriate?",
+    "te": "ప్రతి సోషల్ మీడియా యూజర్ వయసు నిరూపణకు ID అప్‌లోడ్ చేయాలని, పిల్లలందరినీ నిషేధించాలని ఒక రాష్ట్రం ప్రణాళిక. 2026 సుప్రీంకోర్టు తీర్పు దృష్ట్యా కింది వాటిలో అత్యంత సరైనది ఏది?"
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "It is valid because children have no fundamental rights online",
+     "te": "ఆన్‌లైన్‌లో పిల్లలకు ప్రాథమిక హక్కులు లేవు కాబట్టి ఇది చెల్లుతుంది"
+    },
+    {
+     "en": "It is valid under Article 21A, which governs children's education",
+     "te": "పిల్లల విద్యకు సంబంధించిన ఆర్టికల్ 21A కింద ఇది చెల్లుతుంది"
+    },
+    {
+     "en": "It must be replaced by an under-16 ban, as the Court directed",
+     "te": "కోర్టు ఆదేశించినట్లు దీని బదులు 16 ఏళ్లలోపు నిషేధం పెట్టాలి"
+    },
+    {
+     "en": "It is likely disproportionate; safeguards like parental consent and child mode are preferred",
+     "te": "ఇది అనుపాతం దాటినదిగా భావించే అవకాశం ఎక్కువ; తల్లిదండ్రుల సమ్మతి, చైల్డ్ మోడ్ వంటి రక్షణలకే ప్రాధాన్యం"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "(d): the Court called blanket bans unproven and universal age verification an overreach, and preferred safety-by-design. (a) is wrong — the right covers children; (b) — the basis is Art 21 + 19(1)(a); (c) — the Court gave no under-16 ban (that is Australia's law).",
+    "te": "(d): పూర్తి నిషేధాలు నిరూపితం కానివి, అందరికీ వయసు తనిఖీ మితిమీరిన చర్య అని కోర్టు చెప్పి, డిజైన్‌లో భద్రతకు ప్రాధాన్యం ఇచ్చింది. (a) తప్పు — హక్కు పిల్లలకూ వర్తిస్తుంది; (b) — ఆధారం ఆర్టి. 21 + 19(1)(a); (c) — కోర్టు 16 ఏళ్లలోపు నిషేధం ఇవ్వలేదు (అది ఆస్ట్రేలియా చట్టం)."
+   }
+  }
+ ]
+}
