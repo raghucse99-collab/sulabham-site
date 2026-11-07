@@ -1172,17 +1172,6 @@ function renderChart(){
   activeUnique.sort((a,b)=>{const rank=p=>p.steps.some(x=>x.to===latestIndex)?0:p.failedAt===latestIndex?1:2;return rank(a)-rank(b)||b.steps.length-a.steps.length;});
   $('count').textContent=view==='linked'?(patterns.length+' historical · '+running.length+' present running · '+upcoming.length+' about to come'):patterns.length+' linked patterns';
   stats.hidden=true;
-  const cards=activePatterns.slice(0,100).map((p,n)=>{
-   const end=p.steps[p.steps.length-1]?.to??p.start;
-   const marks=new Map();marks.set(p.start,new Set([p.duplicate]));
-   p.steps.forEach(step=>{if(!marks.has(step.from))marks.set(step.from,new Set());if(!marks.has(step.to))marks.set(step.to,new Set());marks.get(step.from).add(step.jodi);marks.get(step.to).add(step.jodi);});
-   const first=p.start,tableRows=playingRows.slice(first,end+1);
-   const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+tableRows.map((row,k)=>{const ix=first+k;return '<tr><td class="repeat-week-date">'+esc(row.date||'')+'</td>'+days.map(d=>{const v=String(row[d+' Jodi']??'').trim(),hit=marks.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?esc(v):'·')+'</td>';}).join('')+'</tr>';}).join('')+'</tbody></table></div>';
-   const steps='<div class="repeat-steps"><div class="repeat-step"><b class="repeat-step-num">START</b><strong class="repeat-step-jodi">'+esc(p.duplicate)+'</strong><span>Duplicate in same week</span><b>×2+</b></div>'+p.steps.map((step,k)=>'<div class="repeat-step"><b class="repeat-step-num">LINK '+(k+1)+'</b><strong class="repeat-step-jodi">'+esc(step.jodi)+'</strong><span>'+esc(playingRows[step.from].date||'')+' → '+esc(playingRows[step.to].date||'')+'</span><b>GAP '+step.gap+'</b></div>').join('')+'</div>';
-   const gapText=p.steps.map(step=>step.gap).join(' → ');
-   const pending='';
-   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>Gaps: '+gapText+'</span></div><div class="repeat-watch"><b>START DUPLICATE JODI</b><div><strong>'+esc(p.duplicate)+'</strong></div><small>Each link is taken from the row where the previous Jodi reappears. Separate paths are checked: fixed gap throughout, or increase the gap by exactly one at each link.</small></div>'+steps+pending+'<details class="repeat-history"><summary>SHOW WEEKLY CHART · '+tableRows.length+' WEEKS'+(tableEnd===latestWeek?' · INCLUDING THIS WEEK':'')+'</summary>'+table+'</details></section>';
-  }).join('');
   function cardsFor(list,all,rows,dayNames,isValid,escapeHtml){
    return list.slice(0,500).map((p,n)=>{
     const end=p.steps[p.steps.length-1]?.to??p.start,marks=new Map();marks.set(p.start,new Set([p.duplicate]));
