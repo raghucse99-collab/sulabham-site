@@ -719,6 +719,23 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
   .weekly-chart .result-stack .jodi-line{font-size:20px!important}
   .weekly-chart .result-stack .panel-line{font-size:14px!important}
 }
+
+/* Stronger weight for ordinary Jodi values, without changing date styling */
+.weekly-chart .jodi-only{font-weight:950!important;color:#111c2e!important}
+.weekly-chart .jodi-line{font-size:17px!important;font-weight:950!important;color:#14213a!important;text-shadow:0 0 .45px currentColor!important}
+.weekly-chart .day-cell{color:#14213a!important;font-weight:900!important}
+.repeat-weekly-chart td{font-size:13px!important;font-weight:900!important;color:#172337!important}
+.repeat-weekly-chart .repeat-hit{font-size:15px!important;font-weight:1000!important}
+.repeat-weekly-chart .repeat-current-week td{background:#eff6ff!important;border-top:3px solid #2563eb!important;border-bottom:3px solid #2563eb!important}
+.repeat-weekly-chart .repeat-current-week .repeat-week-date{background:#dbeafe!important;color:#1e3a8a!important}
+.repeat-weekly-chart .repeat-week-date em{display:block;margin-top:3px;color:#1d4ed8;font-size:9px;font-style:normal;font-weight:1000}
+.repeat-this-week{margin-top:8px;padding:8px 10px;border-left:4px solid #2563eb;background:#eff6ff;color:#17365d;font-size:14px;font-weight:850}
+.repeat-this-week strong{font-size:16px;font-weight:1000;letter-spacing:.4px}
+@media(max-width:520px){
+ .weekly-chart .jodi-line{font-size:17px!important;font-weight:950!important}
+ .repeat-weekly-chart td{font-size:13px!important;font-weight:900!important}
+ .repeat-this-week strong{font-size:16px!important}
+}
 </style>
 </head>
 <body>
@@ -1130,10 +1147,13 @@ function renderChart(){
       e.jodis.forEach(j=>hits.get(ix).add(j));
     }});
     const events=path.map((e,k)=>'<div class="repeat-step"><b class="repeat-step-num">STEP '+(k+1)+'</b><strong class="repeat-step-jodi">'+e.jodis.map(esc).join(' · ')+'</strong><span>Row '+(e.start+1)+' → '+(e.end+1)+'</span><b>GAP '+e.gap+'</b></div>').join('');
-    const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:last-first+1},(_,k)=>first+k).map(ix=>'<tr><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+esc(repeatRows[ix].date||'')+'</small></td>'+days.map(d=>{const v=String(repeatRows[ix][d+' Jodi']??'').trim(),hit=hits.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table></div>';
+    // Include the current running week in the historical detail for due patterns.
+    const tableEnd=(item.dueThisWeek||item.occurredThisWeek)?N-1:last;
+    const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:tableEnd-first+1},(_,k)=>first+k).map(ix=>'<tr class="'+(ix===N-1?'repeat-current-week':'')+'"><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+esc(repeatRows[ix].date||'')+'</small>'+(ix===N-1?'<em>THIS WEEK</em>':'')+'</td>'+days.map(d=>{const v=String(repeatRows[ix][d+' Jodi']??'').trim(),hit=hits.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table></div>';
     const current=[...rowSets[last]].sort().join(' · ');
+    const thisWeek=[...rowSets[N-1]].sort().join(' · ');
     const repeatKey=item.mode+':'+path.map(e=>e.start+'-'+e.end+'-'+e.gap).join('|');
-    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · '+(item.mode==='same'?'SAME GAP':'INCREASING GAP')+' · '+(item.dueThisWeek?'DUE THIS WEEK':item.occurredThisWeek?'OCCURRED THIS WEEK · NEXT REPEAT IN '+item.wait+' WEEK'+(item.wait===1?'':'S'):'NEXT REPEAT IN '+item.wait+' WEEK'+(item.wait===1?'':'S'))+'</strong><span>Gaps '+path.map(e=>e.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>NEXT GAP '+item.nextGap+' · TARGET ROW '+(last+item.nextGap+1)+'</b><div>Jodis to watch: <strong>'+esc(current||'None')+'</strong></div><small>Possible continuation only — not a prediction.</small></div><div class="repeat-steps">'+events+'</div><details class="repeat-history"><summary>SHOW WEEKLY CHART · '+(last-first+1)+' WEEKS</summary>'+table+'</details></section>';
+    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · '+(item.mode==='same'?'SAME GAP':'INCREASING GAP')+' · '+(item.dueThisWeek?'DUE THIS WEEK':item.occurredThisWeek?'OCCURRED THIS WEEK · NEXT REPEAT IN '+item.wait+' WEEK'+(item.wait===1?'':'S'):'NEXT REPEAT IN '+item.wait+' WEEK'+(item.wait===1?'':'S'))+'</strong><span>Gaps '+path.map(e=>e.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>NEXT GAP '+item.nextGap+' · TARGET ROW '+(last+item.nextGap+1)+'</b><div>Jodis to watch: <strong>'+esc(current||'None')+'</strong></div>'+(item.dueThisWeek||item.occurredThisWeek?'<div class="repeat-this-week"><b>THIS WEEK NUMBERS (SO FAR):</b> <strong>'+esc(thisWeek||'No results published yet')+'</strong></div>':'')+'<small>Possible continuation only — not a prediction.</small></div><div class="repeat-steps">'+events+'</div><details class="repeat-history"><summary>SHOW WEEKLY CHART · '+(tableEnd-first+1)+' WEEKS'+(tableEnd>last?' · INCLUDING THIS WEEK':'')+'</summary>'+table+'</details></section>';
   }).join('');
   const repeatScrollY=window.scrollY;
   $('tableArea').innerHTML='<div class="repeat-page"><h3>ACTIVE REPEAT SEQUENCES · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Nearest future target first. Two separate pattern types: <b>Same Gap</b> (every gap identical) or <b>Increasing Gap</b> (each gap increases by exactly 1). They are never mixed. Each link repeats the <b>exact same Jodi</b>; broken links are excluded.</p>'+(patterns.length?cards+(patterns.length>100?'<p>Showing the first 100 nearest active patterns. Use Jodi search to narrow results.</p>':''):'<div class="empty"><strong>No active uninterrupted sequence with four or more links found.</strong></div>')+'</div>';
