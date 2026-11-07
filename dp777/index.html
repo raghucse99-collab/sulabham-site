@@ -1142,9 +1142,15 @@ function renderChart(){
   if(query)patterns=patterns.filter(p=>p.duplicate===query||p.steps.some(step=>step.jodi===query));
   patterns.sort((a,b)=>b.steps.length-a.steps.length||a.start-b.start);
   const latestIndex=playingRows.length-1;
-  const isRunning=p=>p.failedAt===latestIndex||p.steps.some(step=>step.to===latestIndex);
-  const running=patterns.filter(isRunning);
-  const upcoming=patterns.filter(p=>!isRunning(p)&&p.failedAt===undefined&&((p.steps[p.steps.length-1]?.to??p.start)+p.nextGap+1===playingRows.length));
+  // A running sequence has its scheduled Jodi actually present in the latest
+  // published row. A sequence whose next scheduled row is still beyond the
+  // archive is upcoming; any sequence that missed a scheduled row is broken.
+  const running=patterns.filter(p=>p.failedAt===undefined&&p.steps.some(step=>step.to===latestIndex));
+  const upcoming=patterns.filter(p=>{
+   if(p.failedAt!==undefined||!p.nextJodi)return false;
+   const last=p.steps[p.steps.length-1]?.to??p.start;
+   return last+p.nextGap+1>latestIndex;
+  });
   const activePatterns=view==='linked'?[...running,...upcoming]:patterns;
   $('count').textContent=view==='linked'?(running.length+' present running · '+upcoming.length+' about to come'):patterns.length+' linked patterns';
   stats.hidden=true;
