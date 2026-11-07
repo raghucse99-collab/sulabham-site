@@ -1150,7 +1150,7 @@ function renderChart(){
   const upcoming=patterns.filter(p=>{
    if(p.failedAt!==undefined||!p.nextJodi)return false;
    const last=p.steps[p.steps.length-1]?.to??p.start;
-   return last+p.nextGap+1>latestIndex;
+   return last+p.nextGap+1===latestIndex+1;
   });
   const activePatterns=view==='linked'?[...running,...upcoming]:patterns;
   $('count').textContent=view==='linked'?(running.length+' present running · '+upcoming.length+' about to come'):patterns.length+' linked patterns';
