@@ -1158,7 +1158,7 @@ function renderChart(){
   // A running sequence has its scheduled Jodi actually present in the latest
   // published row. A sequence whose next scheduled row is still beyond the
   // archive is upcoming; any sequence that missed a scheduled row is broken.
-  const running=patterns.filter(p=>p.steps.length>=2&&p.failedAt===undefined&&p.steps.some(step=>step.to===latestIndex));
+  const running=patterns.filter(p=>p.steps.length>=2&&((p.failedAt===undefined&&p.steps.some(step=>step.to===latestIndex))||(p.failedAt===latestIndex&&(p.steps[p.steps.length-1]?.to??p.start)+p.nextGap+1===latestIndex)));
   const upcoming=patterns.filter(p=>{
    if(p.steps.length<2)return false;
    if(p.failedAt!==undefined||!p.nextJodi)return false;
