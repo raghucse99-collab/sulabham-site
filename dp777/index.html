@@ -1173,7 +1173,7 @@ function renderChart(){
    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>Gaps: '+gapText+'</span></div><div class="repeat-watch"><b>START DUPLICATE JODI</b><div><strong>'+esc(p.duplicate)+'</strong></div><small>Each link is taken from the row where the previous Jodi reappears. Separate paths are checked: fixed gap throughout, or increase the gap by exactly one at each link.</small></div>'+steps+pending+'<details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
   }).join('');
   function cardsFor(list,all,rows,dayNames,isValid,escapeHtml){
-   return list.slice(0,100).map((p,n)=>{
+   return list.slice(0,500).map((p,n)=>{
     const end=p.steps[p.steps.length-1]?.to??p.start,marks=new Map();marks.set(p.start,new Set([p.duplicate]));
     p.steps.forEach(step=>{if(!marks.has(step.from))marks.set(step.from,new Set());if(!marks.has(step.to))marks.set(step.to,new Set());marks.get(step.from).add(step.jodi);marks.get(step.to).add(step.jodi);});
     const tableRows=rows.slice(p.start,end+1);
