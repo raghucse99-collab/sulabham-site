@@ -1171,9 +1171,6 @@ function renderChart(){
    }).join('');
   }
   const linkedIntro=view==='linked'?'Only active sequences are shown. Present Running includes a link found or due in the latest chart week. About to Come includes sequences whose next scheduled link falls in the next chart week.':'Start with any Jodi duplicated in a week. From that same row, any Jodi (including the duplicate) must appear in the immediately following weekly row. From the matching row, take any Jodi and find it again after one intervening weekly row; continue with two, three, four intervening rows, successively. Matches may be in any day column. Fully closed weeks are skipped. Existing repeat searches are unchanged.';
-  const runningCards=running.slice(0,100).map((p,n)=>cards&&activePatterns.indexOf(p)>=0?cards.split('</section>')[activePatterns.indexOf(p)]: '').join('');
-  const cardByPattern=new Map();
-  activePatterns.forEach((p,i)=>{const start=cards.indexOf('<section class="repeat-pattern-card">');void start;});
   $('tableArea').innerHTML='<div class="repeat-page"><h3>'+(view==='linked'?'ACTIVE LINKED JODI SEQUENCES':'SEPARATE LINKED JODI SEARCH')+' · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">'+linkedIntro+'</p>'+(view==='linked'?'<h3 style="margin-top:10px;background:#166534">PRESENT RUNNING · '+running.length+'</h3>':'')+(view==='linked'?(running.length?cardsFor(running,activePatterns,playingRows,days,valid,esc):'<div class="empty">No linked sequence is running in the latest chart week.</div>'):'')+(view==='linked'?'<h3 style="margin-top:10px;background:#1d4ed8">ABOUT TO COME · '+upcoming.length+'</h3>':'')+(view==='linked'?(upcoming.length?cardsFor(upcoming,activePatterns,playingRows,days,valid,esc):'<div class="empty">No linked sequence is due in the next chart week.</div>'):(cards||'<div class="empty"><strong>No linked patterns found for this increasing-gap sequence.</strong></div>'))+'</div>';
   return;
  }
