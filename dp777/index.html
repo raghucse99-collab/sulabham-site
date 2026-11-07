@@ -1204,9 +1204,24 @@ function renderChart(){
    }).join('');
   }
   const linkedIntro=view==='linked'?'Historical Patterns shows all confirmed sequences found in the archive. Present Running shows sequences with a confirmed link in the latest playing week. About to Come shows sequences whose next required link is due in the immediately next playing week.':'Start with any Jodi duplicated in a week. From that same row, any Jodi (including the duplicate) may first reappear in the next playing week or after one or more intervening playing weeks. From that first match, separate fixed-gap and increasing-by-one continuations are checked. From the matching row, take any Jodi and find it again with either the same intervening-row gap or a gap increased by one. Only fixed-gap chains and strictly increasing-by-one chains are included; mixed-gap chains are excluded. Matches may be in any day column. Fully closed weeks are skipped. Existing repeat searches are unchanged.';
-   const activeHeading='<h3 style="margin-top:10px;background:#166534">PRESENT RUNNING &amp; ABOUT TO COME · '+mergedActive.length+'</h3>';
-   const historicalHeading='<h3 style="margin-top:10px;background:#475569">HISTORICAL PATTERNS · '+historicalOnly.length+'</h3>';
-   const linkedContent=activeHeading+(mergedActive.length?cardsFor(mergedActive,mergedActive,playingRows,days,valid,esc):'<div class="empty">No currently active linked sequences found.</div>')+historicalHeading+(historicalOnly.length?cardsFor(historicalOnly,historicalOnly,playingRows,days,valid,esc):'<div class="empty">No additional historical linked patterns.</div>');
+   const strategyType=p=>{
+    const gaps=p.steps.map(x=>x.gap);
+    if(gaps.length<2||gaps.every(g=>g===gaps[0]))return 'same';
+    if(gaps.every((g,i)=>i===0||g===gaps[i-1]+1))return 'increasing';
+    return 'other';
+   };
+   const strategySection=(heading,list,all,color)=>{
+    const same=list.filter(p=>strategyType(p)==='same');
+    const increasing=list.filter(p=>strategyType(p)==='increasing');
+    const other=list.filter(p=>strategyType(p)==='other');
+    const group=(label,items,tone)=>'<h4 style="margin:12px 0 8px;padding:12px;background:'+tone+';color:white;border-radius:8px">'+label+' · '+items.length+'</h4>'+(items.length?cardsFor(items,all,playingRows,days,valid,esc):'<div class="empty">No '+label.toLowerCase()+' patterns.</div>');
+    return '<h3 style="margin-top:10px;background:'+color+'">'+heading+' · '+list.length+'</h3>'+
+     group('SAME GAP',same,'#334155')+
+     group('INCREASING GAP',increasing,'#4c1d95')+
+     (other.length?group('OTHER GAP',other,'#475569'):'');
+   };
+   const linkedContent=strategySection('PRESENT RUNNING &amp; ABOUT TO COME',mergedActive,mergedActive,'#166534')+
+    strategySection('HISTORICAL PATTERNS',historicalOnly,historicalOnly,'#475569');
    $('tableArea').innerHTML='<div class="repeat-page"><h3>'+(view==='linked'?'LINKED JODI SEQUENCES':'SEPARATE LINKED JODI SEARCH')+' · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">'+linkedIntro+'</p>'+(view==='linked'?linkedContent:(cards||'<div class="empty">No linked patterns found.</div>'))+'</div>';
   return;
  }
