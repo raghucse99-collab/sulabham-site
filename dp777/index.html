@@ -1138,7 +1138,13 @@ function renderChart(){
    for(const duplicate of duplicateValues[i]){
     // "Any number from that line" may be the duplicate itself or another Jodi.
     for(const connector of rowSets[i]){
-     walk(i,i,connector,0,[],new Set([duplicate]),duplicate);
+     // The first recurrence may be in the next playing week or farther ahead.
+     // For each possible first gap, later links branch into fixed-gap and
+     // increasing-by-one sequences.
+     for(let firstGap=0;i+firstGap+1<playingRows.length;firstGap++){
+      walk(i,i,connector,firstGap,[],new Set([duplicate]),duplicate);
+      if(visitedNodes>MAX_NODES)break;
+     }
      if(visitedNodes>MAX_NODES)break;
     }
     if(visitedNodes>MAX_NODES)break;
@@ -1183,7 +1189,7 @@ function renderChart(){
     return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>Gaps: '+p.steps.map(x=>x.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>START DUPLICATE JODI</b><div><strong>'+escapeHtml(p.duplicate)+'</strong></div><small>Separate patterns: either the same gap at every link, or gaps increasing by exactly one at every link</small></div>'+steps+next+'<details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
    }).join('');
   }
-  const linkedIntro=view==='linked'?'Historical Patterns shows all confirmed sequences found in the archive. Present Running shows sequences with a confirmed link in the latest playing week. About to Come shows sequences whose next required link is due in the immediately next playing week.':'Start with any Jodi duplicated in a week. From that same row, any Jodi (including the duplicate) must appear in the immediately following weekly row. From the matching row, take any Jodi and find it again with either the same intervening-row gap or a gap increased by one. Only fixed-gap chains and strictly increasing-by-one chains are included; mixed-gap chains are excluded. Matches may be in any day column. Fully closed weeks are skipped. Existing repeat searches are unchanged.';
+  const linkedIntro=view==='linked'?'Historical Patterns shows all confirmed sequences found in the archive. Present Running shows sequences with a confirmed link in the latest playing week. About to Come shows sequences whose next required link is due in the immediately next playing week.':'Start with any Jodi duplicated in a week. From that same row, any Jodi (including the duplicate) may first reappear in the next playing week or after one or more intervening playing weeks. From that first match, separate fixed-gap and increasing-by-one continuations are checked. From the matching row, take any Jodi and find it again with either the same intervening-row gap or a gap increased by one. Only fixed-gap chains and strictly increasing-by-one chains are included; mixed-gap chains are excluded. Matches may be in any day column. Fully closed weeks are skipped. Existing repeat searches are unchanged.';
   $('tableArea').innerHTML='<div class="repeat-page"><h3>'+(view==='linked'?'LINKED JODI SEQUENCES':'SEPARATE LINKED JODI SEARCH')+' · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">'+linkedIntro+'</p>'+(view==='linked'?'<h3 style="margin-top:10px;background:#475569">HISTORICAL PATTERNS · '+patterns.length+'</h3>':'')+(view==='linked'?(patterns.length?cardsFor(patterns,patterns,playingRows,days,valid,esc):'<div class="empty">No historical linked patterns found.</div>'):'')+(view==='linked'?'<h3 style="margin-top:10px;background:#166534">PRESENT RUNNING · '+running.length+'</h3>':'')+(view==='linked'?(running.length?cardsFor(running,activePatterns,playingRows,days,valid,esc):'<div class="empty">No linked sequence is running in the latest chart week.</div>'):'')+(view==='linked'?'<h3 style="margin-top:10px;background:#1d4ed8">ABOUT TO COME · '+upcoming.length+'</h3>':'')+(view==='linked'?(upcoming.length?cardsFor(upcoming,activePatterns,playingRows,days,valid,esc):'<div class="empty">No linked sequence is due in the next chart week.</div>'):(cards||'<div class="empty"><strong>No linked patterns found for this increasing-gap sequence.</strong></div>'))+'</div>';
   return;
  }
