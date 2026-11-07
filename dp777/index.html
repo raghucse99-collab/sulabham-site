@@ -1168,7 +1168,10 @@ function renderChart(){
   running.sort((a,b)=>b.steps.length-a.steps.length||b.start-a.start);
   upcoming.sort((a,b)=>((a.steps[a.steps.length-1]?.to??a.start)+a.nextGap+1)-((b.steps[b.steps.length-1]?.to??b.start)+b.nextGap+1)||b.steps.length-a.steps.length);
   const activePatterns=view==='linked'?[...running,...upcoming]:patterns;
-  const activeUnique=[...new Map(activePatterns.map(p=>[p.start+':'+p.duplicate+':'+p.steps.map(x=>x.from+'-'+x.to+'-'+x.jodi+'-'+x.gap).join('|'),p])).values()];
+  const patternKey=p=>p.start+':'+p.duplicate+':'+p.steps.map(x=>x.from+'-'+x.to+'-'+x.jodi+'-'+x.gap).join('|');
+  const activeUnique=[...new Map(activePatterns.map(p=>[patternKey(p),p])).values()];
+  const activeKeys=new Set(activeUnique.map(patternKey));
+  const historicalOnly=patterns.filter(p=>!activeKeys.has(patternKey(p)));
   activeUnique.sort((a,b)=>{const rank=p=>p.steps.some(x=>x.to===latestIndex)?0:p.failedAt===latestIndex?1:2;return rank(a)-rank(b)||b.steps.length-a.steps.length;});
   $('count').textContent=view==='linked'?(patterns.length+' historical · '+running.length+' present running · '+upcoming.length+' about to come'):patterns.length+' linked patterns';
   stats.hidden=true;
@@ -1190,8 +1193,8 @@ function renderChart(){
   }
   const linkedIntro=view==='linked'?'Historical Patterns shows all confirmed sequences found in the archive. Present Running shows sequences with a confirmed link in the latest playing week. About to Come shows sequences whose next required link is due in the immediately next playing week.':'Start with any Jodi duplicated in a week. From that same row, any Jodi (including the duplicate) may first reappear in the next playing week or after one or more intervening playing weeks. From that first match, separate fixed-gap and increasing-by-one continuations are checked. From the matching row, take any Jodi and find it again with either the same intervening-row gap or a gap increased by one. Only fixed-gap chains and strictly increasing-by-one chains are included; mixed-gap chains are excluded. Matches may be in any day column. Fully closed weeks are skipped. Existing repeat searches are unchanged.';
    const activeHeading='<h3 style="margin-top:10px;background:#166534">PRESENT RUNNING &amp; ABOUT TO COME · '+activeUnique.length+'</h3>';
-   const historicalHeading='<h3 style="margin-top:10px;background:#475569">HISTORICAL PATTERNS · '+patterns.length+'</h3>';
-   const linkedContent=activeHeading+(activeUnique.length?cardsFor(activeUnique,activeUnique,playingRows,days,valid,esc):'<div class="empty">No currently active linked sequences found.</div>')+historicalHeading+(patterns.length?cardsFor(patterns,patterns,playingRows,days,valid,esc):'<div class="empty">No historical linked patterns found.</div>');
+   const historicalHeading='<h3 style="margin-top:10px;background:#475569">HISTORICAL PATTERNS · '+historicalOnly.length+'</h3>';
+   const linkedContent=activeHeading+(activeUnique.length?cardsFor(activeUnique,activeUnique,playingRows,days,valid,esc):'<div class="empty">No currently active linked sequences found.</div>')+historicalHeading+(historicalOnly.length?cardsFor(historicalOnly,historicalOnly,playingRows,days,valid,esc):'<div class="empty">No additional historical linked patterns.</div>');
    $('tableArea').innerHTML='<div class="repeat-page"><h3>'+(view==='linked'?'LINKED JODI SEQUENCES':'SEPARATE LINKED JODI SEARCH')+' · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">'+linkedIntro+'</p>'+(view==='linked'?linkedContent:(cards||'<div class="empty">No linked patterns found.</div>'))+'</div>';
   return;
  }
