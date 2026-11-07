@@ -1109,7 +1109,7 @@ function renderChart(){
    // Keep completed historical chains, plus a fresh duplicate in the latest
    // published row as a pending first link for the About to Come section.
    if(steps.length<1&&!(steps.length===0&&start===playingRows.length-1&&nextJodi))return;
-   const key=start+':'+duplicate+':'+(nextJodi||'')+':'+steps.map(x=>x.from+'>'+x.to+':'+x.jodi+':'+x.gap).join('|');
+   const key=start+':'+duplicate+':'+steps.map(x=>x.from+'>'+x.to+':'+x.jodi+':'+x.gap).join('|');
    if(!found.has(key))found.set(key,{start,duplicate,steps:steps.slice(),nextGap,nextJodi,failedAt});
   }
   function walk(start,at,connector,gap,steps,used,duplicate){
@@ -1163,7 +1163,7 @@ function renderChart(){
    const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+tableRows.map((row,k)=>{const ix=first+k;return '<tr><td class="repeat-week-date">'+esc(row.date||'')+'</td>'+days.map(d=>{const v=String(row[d+' Jodi']??'').trim(),hit=marks.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?esc(v):'·')+'</td>';}).join('')+'</tr>';}).join('')+'</tbody></table></div>';
    const steps='<div class="repeat-steps"><div class="repeat-step"><b class="repeat-step-num">START</b><strong class="repeat-step-jodi">'+esc(p.duplicate)+'</strong><span>Duplicate in same week</span><b>×2+</b></div>'+p.steps.map((step,k)=>'<div class="repeat-step"><b class="repeat-step-num">LINK '+(k+1)+'</b><strong class="repeat-step-jodi">'+esc(step.jodi)+'</strong><span>'+esc(playingRows[step.from].date||'')+' → '+esc(playingRows[step.to].date||'')+'</span><b>GAP '+step.gap+'</b></div>').join('')+'</div>';
    const gapText=p.steps.map(step=>step.gap).join(' → ');
-   const pending=p.failedAt!==undefined?'<div class="repeat-pattern-footer">SEQUENCE STOPPED: JODI '+esc(p.nextJodi)+' was not found in required row '+(p.failedAt+1)+' · gap '+p.nextGap+'</div>':p.nextJodi?'<div class="repeat-pattern-footer">NEXT EXPECTED: JODI '+esc(p.nextJodi)+' · after '+p.nextGap+' intervening weekly row(s)</div>':'<div class="repeat-pattern-footer">NEXT LINK: waiting for the next expected weekly row · gap '+p.nextGap+'</div>';
+   const pending='';
    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>Gaps: '+gapText+'</span></div><div class="repeat-watch"><b>START DUPLICATE JODI</b><div><strong>'+esc(p.duplicate)+'</strong></div><small>Each link is taken from the row where the previous Jodi reappears. Required gaps: 0, 1, 2, 3… intervening weekly rows.</small></div>'+steps+pending+'<details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
   }).join('');
   function cardsFor(list,all,rows,dayNames,isValid,escapeHtml){
@@ -1173,7 +1173,7 @@ function renderChart(){
     const tableRows=rows.slice(p.start,end+1);
     const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+dayNames.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+tableRows.map((row,k)=>{const ix=p.start+k;return '<tr class="'+(ix===rows.length-1?'repeat-current-week':'')+'"><td class="repeat-week-date">'+escapeHtml(row.date||'')+(ix===rows.length-1?'<em>THIS WEEK</em>':'')+'</td>'+dayNames.map(d=>{const v=String(row[d+' Jodi']??'').trim(),hit=marks.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(isValid(v)?(hit?'<strong>'+escapeHtml(v)+'</strong>':escapeHtml(v)):'·')+'</td>';}).join('')+'</tr>';}).join('')+'</tbody></table></div>';
     const steps='<div class="repeat-steps"><div class="repeat-step"><b class="repeat-step-num">START</b><strong class="repeat-step-jodi">'+escapeHtml(p.duplicate)+'</strong><span>Duplicate in same week</span><b>×2+</b></div>'+p.steps.map((step,k)=>'<div class="repeat-step"><b class="repeat-step-num">LINK '+(k+1)+'</b><strong class="repeat-step-jodi">'+escapeHtml(step.jodi)+'</strong><span>'+escapeHtml(rows[step.from].date||'')+' → '+escapeHtml(rows[step.to].date||'')+'</span><b>GAP '+step.gap+'</b></div>').join('')+'</div>';
-    const next=p.nextJodi?'<div class="repeat-pattern-footer">NEXT EXPECTED: JODI '+escapeHtml(p.nextJodi)+' · after '+p.nextGap+' intervening weekly row(s)</div>':'<div class="repeat-pattern-footer">NEXT LINK: waiting for the next expected weekly row · gap '+p.nextGap+'</div>';
+    const next='';
     return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>Gaps: '+p.steps.map(x=>x.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>START DUPLICATE JODI</b><div><strong>'+escapeHtml(p.duplicate)+'</strong></div><small>Increasing gaps: 0, 1, 2, 3… intervening weekly rows</small></div>'+steps+next+'<details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
    }).join('');
   }
