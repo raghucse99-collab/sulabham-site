@@ -1147,6 +1147,7 @@ function renderChart(){
   const due=relevant.filter(p=>p.status==='due');
   const futureBuckets=new Map();
   relevant.filter(p=>p.status==='future').forEach(p=>{if(!futureBuckets.has(p.wait))futureBuckets.set(p.wait,[]);futureBuckets.get(p.wait).push(p);});
+  const historical=[...new Map(paths.filter(p=>p.status==='history').sort((a,b)=>b.to-a.to||b.from-a.from).map(p=>[p.from+':'+p.to,p])).values()].slice(0,5);
   const labels={occurred:'THIS WEEK · ALREADY OCCURRED',due:'THIS WEEK · STILL DUE'};
   const escDate=v=>esc(String(v||''));
   function linkedCard(p,index){
@@ -1160,7 +1161,7 @@ function renderChart(){
      return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(value)?(hit?'<strong>'+esc(value)+'</strong>':esc(value)):'·')+'</td>';
     }).join('')+'</tr>';
    }).join('')+'</tbody></table></div>';
-   const targetLabel=p.status==='future'?'IN '+p.wait+' PLAYING WEEK'+(p.wait===1?'':'S'):p.status==='due'?'DUE THIS WEEK':'OCCURRED THIS WEEK';
+   const targetLabel=p.status==='future'?'IN '+p.wait+' PLAYING WEEK'+(p.wait===1?'':'S'):p.status==='due'?'DUE THIS WEEK':p.status==='history'?'HISTORICAL TARGET ROW': 'OCCURRED THIS WEEK';
    const gapLabel=gap+' playing week row'+(gap===1?'':'s')+' ahead';
    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(index+1)+' · '+esc(targetJodi)+' → TARGET ROW '+(target+1)+' · '+targetLabel+'</strong></div><div class="repeat-watch"><b>SEARCH</b><div><strong>'+esc(targetJodi)+' + '+gap+'</strong></div><small>'+gapLabel+' · same rule as normal Jodi Search</small><div style="margin-top:7px"><b>SOURCE ROW:</b> '+(source+1)+' · '+escDate(playingRows[source]?.date||'')+'<br><b>TARGET ROW:</b> '+(target+1)+' · '+(target<=latest?escDate(playingRows[target]?.date||''):'Future scheduled row')+'<br><b>JODI TO WATCH:</b> <strong>'+esc(targetJodi)+'</strong></div></div>'+table+'</section>';
   }
@@ -1172,7 +1173,8 @@ function renderChart(){
   stats.hidden=true;
   $('tableArea').innerHTML='<div class="repeat-page"><h3>LINKED JODI LOGIC · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Using your entered search <b>'+esc(targetJodi)+'+'+gap+'</b>. Each occurrence of '+esc(targetJodi)+' links to the row '+gap+' playing weeks ahead. If '+esc(targetJodi)+' appears again in that target row, the same link continues. Only this week and the next three target weeks are listed below.</p>'+
    section(labels.occurred,occurred)+section(labels.due,due)+section('NEXT WEEK · FUTURE TARGETS',futureBuckets.get(1)||[])+section('2 WEEKS LATER · FUTURE TARGETS',futureBuckets.get(2)||[])+section('3 WEEKS LATER · FUTURE TARGETS',futureBuckets.get(3)||[])+
-   (relevant.length?'':'<div class="empty"><strong>No current or near-future links found for '+esc(targetJodi)+'+'+gap+'.</strong>Historical matches may exist, but there is no target row in this week or the next three playing weeks.</div>')+'</div>';
+   section('RECENT HISTORICAL TARGET ROWS · LATEST FIRST',historical)+
+   (relevant.length?'':'<div class="empty"><strong>No current or near-future links found for '+esc(targetJodi)+'+'+gap+'.</strong>See the recent historical target rows below to understand the latest completed archive links.</div>')+'</div>';
   return;
  }
  if(targetSearch){
