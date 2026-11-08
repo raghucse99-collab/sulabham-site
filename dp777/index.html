@@ -1093,7 +1093,54 @@ function renderChart(){
  if(years.includes(prev))$('year').value=prev;
  const yr=$('year').value, q=$('search').value.trim();
 
- if(view==='repeat'||view==='linked'){
+ if($('daySearch').value==='repeat-gap'){
+  // Restore the original uninterrupted Repeat-gap chain search as a separate mode.
+  // It scans the selected market's own history; it does not depend on Number/Jodi search.
+  const days=repeatDays,valid=v=>/^\\d{2}$/.test(String(v??'').trim());
+  const analysisRows=displayRows.filter(row=>yr==='all'||String(row.date||'').includes(yr));
+  const lastIndex=analysisRows.length-1;
+  const rowSets=analysisRows.map(row=>new Set(days.map(day=>String(row[day+' Jodi']??'').trim()).filter(valid)));
+  const chains=new Map();
+  function extendChain(startRow,gap,path){
+   const targetRow=startRow+gap;
+   if(targetRow>lastIndex){
+    if(startRow===lastIndex&&path.length>=4){
+     const key=path.map(e=>e.start+':'+e.end+':'+e.jodi+':'+e.gap).join('|');
+     if(!chains.has(key))chains.set(key,path);
+    }
+    return;
+   }
+   const matches=[...rowSets[startRow]].filter(j=>rowSets[targetRow].has(j)).sort();
+   if(!matches.length)return;
+   for(const jodi of matches){
+    const nextPath=[...path,{jodi,gap,start:startRow,end:targetRow}];
+    if(nextPath.length<4&&targetRow+3*gap>lastIndex)continue;
+    extendChain(targetRow,gap,nextPath);
+    if(gap<lastIndex-targetRow)extendChain(targetRow,gap+1,nextPath);
+   }
+  }
+  for(let startRow=0;startRow<lastIndex;startRow++){
+   const maxStartGap=Math.floor((lastIndex-startRow)/4);
+   for(let gap=1;gap<=maxStartGap;gap++)extendChain(startRow,gap,[]);
+  }
+  const queryJodi=q.replace(/\\s+/g,'');
+  const patterns=[...chains.values()].filter(path=>!/^\\d{2}$/.test(queryJodi)||path.some(e=>e.jodi===queryJodi));
+  patterns.sort((a,b)=>b.length-a.length||b[b.length-1].end-a[a.length-1].end);
+  $('count').textContent=patterns.length+' uninterrupted active sequences · minimum 4 links';
+  stats.hidden=true;
+  const cards=patterns.map((path,n)=>{
+   const first=path[0].start,last=path[path.length-1].end,nextGap=path[path.length-1].gap;
+   const hitMap=new Map();
+   path.forEach((e,k)=>{for(const ix of [e.start,e.end]){if(!hitMap.has(ix))hitMap.set(ix,[]);hitMap.get(ix).push('#'+(k+1)+' '+e.jodi);}});
+   const events=path.map((e,k)=>'<li><strong>#'+(k+1)+' · '+esc(e.jodi)+'</strong>: Row '+(e.start+1)+' → Row '+(e.end+1)+' <b>(gap '+e.gap+')</b> · '+esc(analysisRows[e.start]?.date||'')+' → '+esc(analysisRows[e.end]?.date||'')+'</li>').join('');
+   const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Row / Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:last-first+1},(_,n)=>first+n).map(i=>'<tr><td class="repeat-week-date">Row '+(i+1)+'<br>'+esc(analysisRows[i]?.date||'')+'</td>'+days.map(d=>{const v=String(analysisRows[i]?.[d+' Jodi']??'').trim(),hit=(hitMap.get(i)||[]).filter(x=>x.endsWith(' '+v));return '<td class="'+(hit.length?'repeat-hit':'')+'">'+(valid(v)?(hit.length?'<strong>'+esc(v)+'</strong><small style="display:block;font-size:9px">'+hit.join(', ')+'</small>':esc(v)):'<span class="repeat-blank">'+(v?'*':'—')+'</span>')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table></div>';
+   const latest=last===lastIndex,watch=latest?[...rowSets[last]].sort().join(' · '):'';
+   return '<details class="repeat-pattern-card" '+(n===0?'open':'')+'><summary><span class="repeat-pattern-name">Continuous sequence '+(n+1)+'</span><span class="repeat-pattern-type">Same / +1 gaps</span><span class="repeat-pattern-gaps">'+path.map(e=>e.gap).join(' → ')+'</span><span class="repeat-pattern-status">Reaches latest row</span></summary><div class="repeat-chart-note">Only uninterrupted chains reaching the latest available row are shown. Each link repeats the exact same Jodi; the next gap may stay the same or increase by one. Missing repeats break the chain. Original chart values are unchanged.</div><ol style="padding:8px 28px;margin:0;font-size:12px;line-height:1.8">'+events+'</ol>'+table+'<div class="repeat-pattern-footer">Next allowed gap: '+nextGap+' or '+(nextGap+1)+' rows. '+(latest?'Latest-row Jodis: <strong>'+esc(watch||'None')+'</strong>. Historical values only.':'')+'</div></details>';
+  }).join('');
+  $('tableArea').innerHTML='<div class="chart-title-band">UNINTERRUPTED SAME / INCREASING-GAP CHAINS · '+esc(m?.name||'Selected market').toUpperCase()+'</div><div class="chart-hint">Independent historical Repeat-gap search. Every link repeats the same exact Jodi from its starting row to its target row. Gaps may stay equal or increase by one. Broken chains are excluded. Minimum four links, reaching the latest available row. Leading zeros are preserved; blanks and stars are ignored.</div>'+(cards?'<div class="repeat-pattern-list">'+cards+'</div>':'<div class="empty"><strong>No uninterrupted chain of four or more links currently reaches the latest available row.</strong></div>');
+  return;
+ }
+ if(view==='repeat'||view==='linked'||$('daySearch').value==='linked-increasing'){
   // These analysis modes are independent of the normal Jodi+gap search input.
   const days=repeatDays,valid=v=>/^\d{2}$/.test(String(v??'').trim());
   const analysisRows=displayRows.filter(row=>yr==='all'||String(row.date||'').includes(yr));
