@@ -749,13 +749,13 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
 <main class="wrap main">
 <section class="today-panel" aria-label="Latest published results above chart"><div class="today-heading">◔ UPDATED RESULTS</div><div id="todayResults" class="today-results"><div class="today-loading">Checking published results…</div></div></section>
 <section class="panel" id="chartPanel" aria-label="Chart records">
-<div class="panel-head"><div><h2 id="chartTitle">Time Bazar</h2><p id="chartDesc">Weekly historical records</p></div><div class="controls search-controls"><label class="search-field"><span>Number / Jodi</span><input id="search" class="field search" type="search" placeholder="e.g. 23+1" aria-label="Search Jodi number or target+offset"></label><label class="search-field"><span>Day</span><select id="daySearch" class="field"><option value="all">All days</option><option value="Mon">Monday</option><option value="Tue">Tuesday</option><option value="Wed">Wednesday</option><option value="mon-wed">Monday = Wednesday</option><option value="tue-thu">Tuesday = Thursday</option><option value="mon-tue-repeat">Repeat Monday–Tuesday Pair</option><option value="mon-tue-reverse">Monday → Tuesday Reverse Jodi</option><option value="tue-mon-reverse">Tuesday → Monday Reverse Jodi</option><option value="target-linked">Any Number+n Linked Jodi Logic (Filtered Results)</option><option value="Thu">Thursday</option><option value="Fri">Friday</option><option value="Sat">Saturday</option><option value="Sun">Sunday</option><option value="repeat-gap">Latest Jodi Repeat Pattern (bottom ↑)</option><option value="linked-increasing">Duplicate → Linked Jodis (Increasing Gaps)</option></select></label><label class="search-field year-field"><span>Year</span><select id="year" class="field" aria-label="Filter by year"><option value="all">All years</option></select></label></div></div>
+<div class="panel-head"><div><h2 id="chartTitle">Time Bazar</h2><p id="chartDesc">Weekly historical records</p></div><div class="controls search-controls"><label class="search-field"><span>Number / Jodi</span><input id="search" class="field search" type="search" placeholder="e.g. 23+1" aria-label="Search Jodi number or target+offset"></label><label class="search-field"><span>Day</span><select id="daySearch" class="field"><option value="all">All days</option><option value="Mon">Monday</option><option value="Tue">Tuesday</option><option value="Wed">Wednesday</option><option value="mon-wed">Monday = Wednesday</option><option value="tue-thu">Tuesday = Thursday</option><option value="mon-tue-repeat">Repeat Monday–Tuesday Pair</option><option value="mon-tue-reverse">Monday → Tuesday Reverse Jodi</option><option value="tue-mon-reverse">Tuesday → Monday Reverse Jodi</option><option value="Thu">Thursday</option><option value="Fri">Friday</option><option value="Sat">Saturday</option><option value="Sun">Sunday</option><option value="repeat-gap">Latest Jodi Repeat Pattern (bottom ↑)</option><option value="linked-increasing">Duplicate → Linked Jodis (Increasing Gaps)</option></select></label><label class="search-field year-field"><span>Year</span><select id="year" class="field" aria-label="Filter by year"><option value="all">All years</option></select></label></div></div>
 <div id="openDigitTool" class="open-digit-tool" hidden>
  <div class="open-digit-head"><strong>Open Digit Historical Lookup</strong><span>Explore matching Jodis in the selected chart history</span></div>
  <div class="open-digit-controls"><label for="openDigit">Open digit</label><select id="openDigit" class="field"><option value="0" selected>0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select><button type="button" id="runOpenDigitSearch" class="primary-btn">Search 10 Jodis</button></div>
  <div id="openDigitSummary" class="open-digit-summary" aria-live="polite">Choose an open digit to view its matching historical Jodis.</div>
 </div>
-<div class="tabs"><button class="tab active" data-view="jodi">Jodi Chart</button><button class="tab" data-view="panel">Panel Chart</button><button class="tab" data-view="guess">Guess Chart</button><button class="tab" data-view="repeat">Repeat Logic</button><button class="tab" data-view="linked">Linked Jodi Logic</button></div>
+<div class="tabs"><button class="tab active" data-view="jodi">Jodi Chart</button><button class="tab" data-view="panel">Panel Chart</button><button class="tab" data-view="target-linked">Number+n Search</button><button class="tab" data-view="repeat">Repeat Logic</button><button class="tab" data-view="linked">Linked Jodi Logic</button></div>
 <div class="summary"><span class="pill" id="count">0 records</span><span class="pill" id="targetStats" hidden></span></div>
 <div id="tableArea" class="table-wrap"><div class="empty"><strong>Loading chart records…</strong>Please wait while the latest published data is loaded.</div></div>
 <div id="currentChartLabel" class="current-chart-label" aria-live="polite">Time Bazar</div>
@@ -1025,7 +1025,7 @@ function matchesChartSearch(row,query){
  if(/^\d{1,3}$/.test(q))return ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].some(d=>String(row[d+' Jodi']??'').trim()===q);
  return JSON.stringify(row).toLowerCase().includes(q);
 }
-function updateCurrentChartLabel(){const market=markets.find(m=>m.id===selected);const label=$('currentChartLabel');if(!label||!market)return;const type=({jodi:'Jodi Chart',panel:'Panel Chart',guess:'Guess Chart',repeat:'Repeat Logic',linked:'Linked Jodi Logic'})[view]||'Jodi Chart';label.textContent=market.name;}
+function updateCurrentChartLabel(){const market=markets.find(m=>m.id===selected);const label=$('currentChartLabel');if(!label||!market)return;const type=({jodi:'Jodi Chart',panel:'Panel Chart','target-linked':'Number+n Search',repeat:'Repeat Logic',linked:'Linked Jodi Logic'})[view]||'Jodi Chart';label.textContent=market.name;}
 function renderChart(){
  const stats=$('targetStats');
  if(dataLoadFailed&&!data.charts?.[chartKeyFor(selected)]){
@@ -1093,7 +1093,7 @@ function renderChart(){
  if(years.includes(prev))$('year').value=prev;
  const yr=$('year').value, q=$('search').value.trim();
 
- if($('daySearch').value==='target-linked'){
+ if(view==='target-linked'||$('daySearch').value==='target-linked'){
   // Separate 28+n follow-up analysis. It uses ONLY the rows selected by targetJodiSearch.
   // Row gaps are positions within that filtered result list, not original chart rows.
   stats.hidden=true;
@@ -1432,7 +1432,7 @@ function renderChart(){
  }
  $('count').textContent=rows.length+' records';
  if(view==='source'){$('tableArea').innerHTML='<div class="empty"><strong>Original source chart</strong><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open '+esc(m.name)+' original chart ↗</a><p>Source page opens separately.</p></div>';return;}
- if(view==='guess'){$('tableArea').innerHTML='<div class="empty"><strong>Guess Chart</strong>This archive focuses on published historical results and does not generate predictions.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original chart page ↗</a></p></div>';return;}
+ 
  if(rows.length && Object.keys(rows[0]).some(k=>/^(Mon|Tue|Wed|Thu|Fri|Sat|Sun) (Open|Jodi|Close|Panel|result)$/i.test(k))){
   const jodiOnly=Object.keys(rows[0]).some(k=>/^(Mon|Tue|Wed|Thu|Fri|Sat|Sun) Jodi$/i.test(k))&&!Object.keys(rows[0]).some(k=>/^(Mon|Tue|Wed|Thu|Fri|Sat|Sun) (Open|Close)$/i.test(k));
   const repeatPairMode=$('daySearch').value==='mon-tue-repeat';
