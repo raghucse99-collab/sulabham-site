@@ -1269,7 +1269,7 @@ function renderChart(){
    };
    const linkedContent=strategySection('PRESENT RUNNING &amp; ABOUT TO COME',mergedActive,mergedActive,'#166534')+
     strategySection('HISTORICAL PATTERNS',historicalOnly,historicalOnly,'#475569');
-   $('tableArea').innerHTML='<div class="repeat-page"><h3>'+(view==='linked'?'LINKED JODI SEQUENCES':'SEPARATE LINKED JODI SEARCH')+' · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">'+linkedIntro+'</p>'+(view==='linked'?linkedContent:(cards||'<div class="empty">No linked patterns found.</div>'))+'</div>';
+   $('tableArea').innerHTML='<div class="repeat-page"><h3>'+(view==='linked'?'LINKED JODI SEQUENCES':'SEPARATE LINKED JODI SEARCH')+' · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">'+linkedIntro+'</p>'+(view==='linked'?linkedContent:(cardsFor(patterns,patterns,playingRows,days,valid,esc)||'<div class="empty">No linked patterns found.</div>'))+'</div>';
   return;
  }
  
