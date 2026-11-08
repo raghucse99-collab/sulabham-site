@@ -749,7 +749,7 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
 <main class="wrap main">
 <section class="today-panel" aria-label="Latest published results above chart"><div class="today-heading">◔ UPDATED RESULTS</div><div id="todayResults" class="today-results"><div class="today-loading">Checking published results…</div></div></section>
 <section class="panel" id="chartPanel" aria-label="Chart records">
-<div class="panel-head"><div><h2 id="chartTitle">Time Bazar</h2><p id="chartDesc">Weekly historical records</p></div><div class="controls search-controls"><label class="search-field"><span>Number / Jodi</span><input id="search" class="field search" type="search" placeholder="e.g. 23+1" aria-label="Search Jodi number or target+offset"></label><label class="search-field"><span>Day</span><select id="daySearch" class="field"><option value="all">All days</option><option value="Mon">Monday</option><option value="Tue">Tuesday</option><option value="Wed">Wednesday</option><option value="mon-wed">Monday = Wednesday</option><option value="tue-thu">Tuesday = Thursday</option><option value="mon-tue-repeat">Repeat Monday–Tuesday Pair</option><option value="mon-tue-reverse">Monday → Tuesday Reverse Jodi</option><option value="tue-mon-reverse">Tuesday → Monday Reverse Jodi</option><option value="Thu">Thursday</option><option value="Fri">Friday</option><option value="Sat">Saturday</option><option value="Sun">Sunday</option><option value="repeat-gap">Latest Jodi Repeat Pattern (bottom ↑)</option><option value="linked-increasing">Duplicate → Linked Jodis (Increasing Gaps)</option></select></label><label class="search-field year-field"><span>Year</span><select id="year" class="field" aria-label="Filter by year"><option value="all">All years</option></select></label></div></div>
+<div class="panel-head"><div><h2 id="chartTitle">Time Bazar</h2><p id="chartDesc">Weekly historical records</p></div><div class="controls search-controls"><label class="search-field"><span>Number / Jodi</span><input id="search" class="field search" type="search" placeholder="e.g. 23+1" aria-label="Search Jodi number or target+offset"></label><label class="search-field"><span>Day</span><select id="daySearch" class="field"><option value="all">All days</option><option value="Mon">Monday</option><option value="Tue">Tuesday</option><option value="Wed">Wednesday</option><option value="mon-wed">Monday = Wednesday</option><option value="tue-thu">Tuesday = Thursday</option><option value="mon-tue-repeat">Repeat Monday–Tuesday Pair</option><option value="mon-tue-reverse">Monday → Tuesday Reverse Jodi</option><option value="tue-mon-reverse">Tuesday → Monday Reverse Jodi</option><option value="target-linked">28+n Linked Jodi Logic (Filtered Results)</option><option value="Thu">Thursday</option><option value="Fri">Friday</option><option value="Sat">Saturday</option><option value="Sun">Sunday</option><option value="repeat-gap">Latest Jodi Repeat Pattern (bottom ↑)</option><option value="linked-increasing">Duplicate → Linked Jodis (Increasing Gaps)</option></select></label><label class="search-field year-field"><span>Year</span><select id="year" class="field" aria-label="Filter by year"><option value="all">All years</option></select></label></div></div>
 <div id="openDigitTool" class="open-digit-tool" hidden>
  <div class="open-digit-head"><strong>Open Digit Historical Lookup</strong><span>Explore matching Jodis in the selected chart history</span></div>
  <div class="open-digit-controls"><label for="openDigit">Open digit</label><select id="openDigit" class="field"><option value="0" selected>0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select><button type="button" id="runOpenDigitSearch" class="primary-btn">Search 10 Jodis</button></div>
@@ -1092,6 +1092,77 @@ function renderChart(){
  $('year').innerHTML='<option value="all">All years</option>'+years.map(y=>'<option value="'+y+'">'+y+'</option>').join('');
  if(years.includes(prev))$('year').value=prev;
  const yr=$('year').value, q=$('search').value.trim();
+
+ if($('daySearch').value==='target-linked'){
+  // Separate 28+n follow-up analysis. It uses ONLY the rows selected by targetJodiSearch.
+  // Row gaps are positions within that filtered result list, not original chart rows.
+  stats.hidden=true;
+  if(!targetSearch){
+   $('count').textContent='28+n search required';
+   $('tableArea').innerHTML='<div class="empty"><strong>Enter a 28+n search first.</strong>For example, enter 28+7 in Number / Jodi, then choose this search option.</div>';
+   return;
+  }
+  if(targetSearch.error){
+   $('count').textContent='Invalid 28+n search';
+   $('tableArea').innerHTML='<div class="empty"><strong>'+esc(targetSearch.error)+'</strong>Use a search such as 28+7.</div>';
+   return;
+  }
+  const filteredRows=targetSearch.selectedIndexes
+   .map(i=>({row:displayRows[i],sourceIndex:i}))
+   .filter(x=>x.row&&(yr==='all'||String(x.row.date||'').includes(yr)));
+  const days=repeatDays,valid=v=>/^\d{2}$/.test(String(v??'').trim());
+  const values=filteredRows.map(x=>days.map(d=>String(x.row[d+' Jodi']??'').trim()).filter(valid));
+  const rowSets=values.map(v=>new Set(v));
+  const duplicates=values.map(v=>[...new Set(v.filter((j,i)=>v.indexOf(j)!==i))]);
+  const found=new Map();let visited=0;const MAX_NODES=50000,MAX_LINKS=8;
+  function walk(start,at,duplicate,used,steps){
+   if(++visited>MAX_NODES||steps.length>=MAX_LINKS)return;
+   for(const jodi of rowSets[at]){
+    if(used.has(jodi))continue;
+    // Follow this Jodi to its nearest later occurrence in the filtered result list.
+    let target=-1;
+    for(let k=at+1;k<rowSets.length;k++){
+     if(rowSets[k].has(jodi)){target=k;break;}
+    }
+    if(target<0)continue;
+    const step={from:at,to:target,jodi,gap:target-at};
+    const next=[...steps,step];
+    if(next.length>=2){
+     const key=start+':'+duplicate+':'+next.map(x=>x.from+'>'+x.to+':'+x.jodi).join('|');
+     if(!found.has(key))found.set(key,{start,duplicate,steps:next});
+    }
+    walk(start,target,duplicate,new Set([...used,jodi]),next);
+    if(visited>MAX_NODES)return;
+   }
+  }
+  for(let i=0;i<filteredRows.length;i++){
+   for(const duplicate of duplicates[i]){
+    walk(i,i,duplicate,new Set([duplicate]),[]);
+    if(visited>MAX_NODES)break;
+   }
+   if(visited>MAX_NODES)break;
+  }
+  const patterns=[...found.values()].sort((a,b)=>b.steps.length-a.steps.length||a.start-b.start||
+   a.steps.reduce((n,x)=>n+x.gap,0)-b.steps.reduce((n,x)=>n+x.gap,0));
+  $('count').textContent=patterns.length+' linked chains · '+filteredRows.length+' filtered weeks from '+targetSearch.target+'+'+targetSearch.offset;
+  const cards=patterns.slice(0,300).map((p,n)=>{
+   const end=p.steps[p.steps.length-1].to,marks=new Map();
+   marks.set(p.start,new Set([p.duplicate]));
+   p.steps.forEach(st=>{
+    if(!marks.has(st.from))marks.set(st.from,new Set());
+    if(!marks.has(st.to))marks.set(st.to,new Set());
+    marks.get(st.from).add(st.jodi);marks.get(st.to).add(st.jodi);
+   });
+   const links=p.steps.map((st,k)=>'<div class="repeat-step"><b class="repeat-step-num">LINK '+(k+1)+'</b><strong class="repeat-step-jodi">'+esc(st.jodi)+'</strong><span>Filtered row '+(st.from+1)+' → '+(st.to+1)+'<br>'+esc(filteredRows[st.from].row.date||'')+' → '+esc(filteredRows[st.to].row.date||'')+'</span><b>GAP '+st.gap+'</b></div>').join('');
+   const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Filtered row / Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:end-p.start+1},(_,k)=>p.start+k).map(ix=>{
+    const item=filteredRows[ix],r=item.row;
+    return '<tr><td class="repeat-week-date"><b>Result '+(ix+1)+'</b><small>Chart row '+(item.sourceIndex+1)+'<br>'+esc(r.date||'')+'</small></td>'+days.map(d=>{const v=String(r[d+' Jodi']??'').trim(),hit=marks.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';}).join('')+'</tr>';
+   }).join('')+'</tbody></table></div>';
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>Filtered-result gaps: '+p.steps.map(x=>x.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>START DUPLICATE JODI</b><div><strong>'+esc(p.duplicate)+'</strong></div><small>Starting filtered result row '+(p.start+1)+' · '+esc(filteredRows[p.start].row.date||'')+'</small></div><div class="repeat-steps">'+links+'</div><details class="repeat-history"><summary>SHOW MATCHED FILTERED WEEKLY LINES</summary>'+table+'</details></section>';
+  }).join('');
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>28+n FILTERED-RESULT LINKED JODIS · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">This separate analysis starts only from the weeks returned by the 28+n search. A start Jodi must appear at least twice in the same filtered week. From that week, each unused Jodi is followed to its nearest later occurrence in the filtered result list. The next link starts from the matched week. Gaps are measured in filtered-result rows; no original chart weeks are inserted and no values are calculated or changed.</p>'+(cards||'<div class="empty"><strong>No duplicate-start chain with at least two links was found in these filtered results.</strong>Check that the 28+n search returned enough matching weeks.</div>')+(patterns.length>300?'<p>Showing the first 300 chains.</p>':'')+'</div>';
+  return;
+ }
 
  if(view==='repeat'||$('daySearch').value==='repeat-gap'){
   const days=repeatDays, valid=v=>/^\d{2}$/.test(String(v??'').trim());
