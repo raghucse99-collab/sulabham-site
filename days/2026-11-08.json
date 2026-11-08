@@ -1,0 +1,2016 @@
+{
+ "date": "2026-11-08",
+ "day": {
+  "en": "Sunday, 8 November 2026",
+  "te": "ఆదివారం, 8 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Proportionality",
+   "en": "a test of whether a government step is balanced — not more than needed for its goal",
+   "te": "అనుపాత సూత్రం (లక్ష్యానికి అవసరమైనంత మేరకే చర్య ఉందా అని చూసే పరీక్ష)",
+   "ex": "In 2023 the Supreme Court majority held that the demonetisation notification satisfied the test of proportionality.",
+   "topic": "demonet"
+  },
+  {
+   "w": "Fluorescence",
+   "en": "glowing of a substance when rays fall on it",
+   "te": "ప్రతిదీప్తి (కిరణాలు పడినప్పుడు పదార్థం మెరవడం)",
+   "ex": "The fluorescence of a barium platinocyanide screen, far from the tube, led Röntgen to X-rays in 1895.",
+   "topic": "xray"
+  },
+  {
+   "w": "Recension",
+   "en": "one version of an old text, as handed down in a region or tradition",
+   "te": "పాఠాంతరం (ఒక ప్రాంతంలో/సంప్రదాయంలో కొనసాగిన ప్రాచీన గ్రంథ రూపం)",
+   "ex": "The BORI manuscript preserves the Kashmiri recension of the Mahabharata on birch bark.",
+   "topic": "mow"
+  },
+  {
+   "w": "Dehors",
+   "en": "outside of; apart from (legal word)",
+   "te": "వెలుపల; సంబంధం లేకుండా (న్యాయ పదం)",
+   "ex": "The Supreme Court said the Constitution does not recognise any detention dehors arrest.",
+   "topic": "art22"
+  },
+  {
+   "w": "Anchor tenant",
+   "en": "the first big unit in an industrial zone around which smaller units grow",
+   "te": "యాంకర్ యూనిట్ (పారిశ్రామిక ప్రాంతంలో మిగతా పరిశ్రమలను ఆకర్షించే ప్రధాన భారీ సంస్థ)",
+   "ex": "The official table shows the anchor tenant for the Visakhapatnam–Kakinada PCPIR as 'yet to be finalized'.",
+   "topic": "pcpir"
+  }
+ ],
+ "items": [
+  {
+   "id": "demonet",
+   "kind": "day",
+   "color": "#8a4b14",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "tag": {
+    "en": "10 years ago · 8 Nov 2016",
+    "te": "పదేళ్ల క్రితం · 8 నవంబర్ 2016"
+   },
+   "title": {
+    "en": "Demonetisation at 10: ₹500 and ₹1,000 notes withdrawn",
+    "te": "నోట్ల రద్దుకు 10 ఏళ్లు: ₹500, ₹1,000 నోట్ల ఉపసంహరణ"
+   },
+   "line": {
+    "en": "On 8 Nov 2016 old ₹500 and ₹1,000 notes stopped being legal tender; 99.31% of their value came back to banks.",
+    "te": "8 నవంబర్ 2016న పాత ₹500, ₹1,000 నోట్లు చట్టబద్ధ చెల్లుబాటు కోల్పోయాయి; వాటి విలువలో 99.31% బ్యాంకులకు తిరిగి వచ్చింది."
+   },
+   "easy": [
+    {
+     "en": "Demonetisation means a currency note stops being valid money. In a surprise announcement on 8 November 2016, Prime Minister Modi said all old ₹500 and ₹1,000 notes — officially called Specified Bank Notes (SBNs) — would no longer be valid. People had to deposit or exchange them in banks.",
+     "te": "నోట్ల రద్దు (Demonetisation) అంటే ఒక కరెన్సీ నోటు చెల్లుబాటు కోల్పోవడం. 2016 నవంబర్ 8న అనూహ్య ప్రకటనలో ప్రధాని మోదీ పాత ₹500, ₹1,000 నోట్లు — అధికారికంగా 'స్పెసిఫైడ్ బ్యాంక్ నోట్లు' (SBNs) — ఇక చెల్లవని ప్రకటించారు. ప్రజలు వాటిని బ్యాంకుల్లో జమ చేయాలి లేదా మార్చుకోవాలి."
+    },
+    {
+     "en": "The government's stated aims were to fight fake currency, black money and terror funding. Notes worth ₹15.41 lakh crore were in circulation; ₹15.31 lakh crore (99.31%) returned. In January 2023 the Supreme Court upheld the decision by 4:1.",
+     "te": "నకిలీ నోట్లు, నల్లధనం, ఉగ్రవాద నిధులను అరికట్టడం ప్రభుత్వం చెప్పిన లక్ష్యాలు. చలామణిలో ₹15.41 లక్షల కోట్ల విలువైన నోట్లు ఉండగా ₹15.31 లక్షల కోట్లు (99.31%) తిరిగి వచ్చాయి. 2023 జనవరిలో సుప్రీంకోర్టు 4:1 మెజారిటీతో ఈ నిర్ణయాన్ని సమర్థించింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Announced",
+      "te": "ప్రకటన"
+     },
+     {
+      "en": "8 November 2016, by PM Narendra Modi",
+      "te": "8 నవంబర్ 2016, ప్రధాని నరేంద్ర మోదీ"
+     }
+    ],
+    [
+     {
+      "en": "SBNs in circulation",
+      "te": "చలామణిలో SBNలు"
+     },
+     {
+      "en": "₹15,41,793 crore (₹500: ₹8,56,445 cr · ₹1,000: ₹6,85,348 cr)",
+      "te": "₹15,41,793 కోట్లు (₹500: ₹8,56,445 కోట్లు · ₹1,000: ₹6,85,348 కోట్లు)"
+     }
+    ],
+    [
+     {
+      "en": "Returned",
+      "te": "తిరిగి వచ్చినవి"
+     },
+     {
+      "en": "₹15,31,073 crore = 99.31% (as on 30 June 2018)",
+      "te": "₹15,31,073 కోట్లు = 99.31% (30 జూన్ 2018 నాటికి)"
+     }
+    ],
+    [
+     {
+      "en": "Not returned",
+      "te": "తిరిగి రానివి"
+     },
+     {
+      "en": "₹10,720 crore (0.69%)",
+      "te": "₹10,720 కోట్లు (0.69%)"
+     }
+    ],
+    [
+     {
+      "en": "Legal power",
+      "te": "చట్టపరమైన అధికారం"
+     },
+     {
+      "en": "Section 26(2), RBI Act 1934 — Centre can declare 'any series' of notes not legal tender, on RBI Central Board's recommendation",
+      "te": "RBI చట్టం 1934 సెక్షన్ 26(2) — RBI సెంట్రల్ బోర్డు సిఫార్సుతో ఏ సిరీస్ నోట్లనైనా చెల్లవని కేంద్రం ప్రకటించవచ్చు"
+     }
+    ],
+    [
+     {
+      "en": "Supreme Court",
+      "te": "సుప్రీంకోర్టు"
+     },
+     {
+      "en": "Vivek Narayan Sharma v. Union of India, 2 Jan 2023 — 5 judges, 4:1, upheld; Justice B.V. Nagarathna dissented",
+      "te": "వివేక్ నారాయణ్ శర్మ v. యూనియన్ ఆఫ్ ఇండియా, 2 జనవరి 2023 — 5 మంది న్యాయమూర్తులు, 4:1తో సమర్థన; జస్టిస్ బి.వి. నాగరత్న భిన్నాభిప్రాయం"
+     }
+    ],
+    [
+     {
+      "en": "Exchange window",
+      "te": "మార్పిడి గడువు"
+     },
+     {
+      "en": "52 days — Court said it was not unreasonable",
+      "te": "52 రోజులు — అసమంజసం కాదని కోర్టు చెప్పింది"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Money, RBI and the courts",
+     "te": "లింక్ చెయిన్ · కరెన్సీ, RBI, న్యాయస్థానాలు"
+    },
+    "l": [
+     {
+      "en": "Currency and coinage is a Union subject — Entry 36, List I (Union List), Seventh Schedule",
+      "te": "కరెన్సీ, నాణేలు కేంద్ర అంశం — ఏడో షెడ్యూల్, జాబితా I (కేంద్ర జాబితా) ఎంట్రీ 36"
+     },
+     {
+      "en": "Majority: the process was not flawed as the Centre consulted the RBI; whether the aims were achieved is not relevant to legality",
+      "te": "మెజారిటీ: కేంద్రం RBIని సంప్రదించినందున ప్రక్రియలో లోపం లేదు; లక్ష్యాలు నెరవేరాయా లేదా అనేది చట్టబద్ధతకు సంబంధం లేదు"
+     },
+     {
+      "en": "Dissent (Nagarathna J.): scrapping ALL series needed a law of Parliament (or an ordinance), not a gazette notification",
+      "te": "భిన్నాభిప్రాయం (జస్టిస్ నాగరత్న): అన్ని సిరీస్‌లను రద్దు చేయాలంటే గెజిట్ నోటిఫికేషన్ కాదు, పార్లమెంటు చట్టం (లేదా ఆర్డినెన్స్) కావాలి"
+     },
+     {
+      "en": "RBI 2017-18: 5,22,783 counterfeit notes detected in the banking system",
+      "te": "RBI 2017-18: బ్యాంకింగ్ వ్యవస్థలో 5,22,783 నకిలీ నోట్లు గుర్తింపు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The SC (2023) did NOT judge whether demonetisation achieved its aims — it only tested the legality of the decision-making. And the dissent was by Justice B.V. Nagarathna, not Justice B.R. Gavai (who read out the majority).",
+    "te": "నోట్ల రద్దు లక్ష్యాలు నెరవేరాయా అని సుప్రీంకోర్టు (2023) తేల్చలేదు — నిర్ణయ ప్రక్రియ చట్టబద్ధతనే పరిశీలించింది. భిన్నాభిప్రాయం జస్టిస్ బి.వి. నాగరత్నది; జస్టిస్ బి.ఆర్. గవాయ్ మెజారిటీ తీర్పు చదివారు."
+   },
+   "tip": {
+    "en": "'8-11, 26(2), 99.31, 4:1' — date, section, % returned, verdict.",
+    "te": "'8-11, 26(2), 99.31, 4:1' — తేదీ, సెక్షన్, తిరిగి వచ్చిన %, తీర్పు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the demonetisation of 2016, consider the following statements:",
+     "te": "2016 నోట్ల రద్దుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The power was used under Section 26(2) of the RBI Act, 1934.",
+      "te": "I. RBI చట్టం 1934 సెక్షన్ 26(2) కింద ఈ అధికారం వినియోగించారు."
+     },
+     {
+      "en": "II. About 99.3% of the value of the specified bank notes returned to the banking system.",
+      "te": "II. స్పెసిఫైడ్ బ్యాంక్ నోట్ల విలువలో సుమారు 99.3% బ్యాంకింగ్ వ్యవస్థకు తిరిగి వచ్చింది."
+     },
+     {
+      "en": "III. The Supreme Court struck down the decision by a 4:1 majority in 2023.",
+      "te": "III. 2023లో సుప్రీంకోర్టు 4:1 మెజారిటీతో ఈ నిర్ణయాన్ని కొట్టివేసింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and II are correct. III is wrong: the 4:1 majority UPHELD the decision; only Justice Nagarathna held it unlawful.",
+     "te": "I, II సరైనవి. III తప్పు: 4:1 మెజారిటీ నిర్ణయాన్ని సమర్థించింది; జస్టిస్ నాగరత్న ఒక్కరే చట్టవిరుద్ధమన్నారు."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Old notes in circulation on 8 Nov 2016 (₹ crore)",
+      "te": "8 నవంబర్ 2016న చలామణిలో పాత నోట్లు (₹ కోట్లు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "₹500 notes",
+        "te": "₹500 నోట్లు"
+       },
+       "v": 856445,
+       "vl": "8,56,445"
+      },
+      {
+       "t": {
+        "en": "₹1,000 notes",
+        "te": "₹1,000 నోట్లు"
+       },
+       "v": 685348,
+       "vl": "6,85,348"
+      },
+      {
+       "t": {
+        "en": "Total returned",
+        "te": "మొత్తం తిరిగి వచ్చినవి"
+       },
+       "v": 1531073,
+       "vl": "15,31,073 (99.31%)"
+      },
+      {
+       "t": {
+        "en": "Not returned",
+        "te": "తిరిగి రానివి"
+       },
+       "v": 10720,
+       "vl": "10,720"
+      }
+     ]
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "From announcement to verdict",
+      "te": "ప్రకటన నుంచి తీర్పు వరకు"
+     },
+     "items": [
+      {
+       "i": "📢",
+       "t": {
+        "en": "8 Nov 2016: ₹500 & ₹1,000 notes cease to be legal tender",
+        "te": "8 నవంబర్ 2016: ₹500, ₹1,000 నోట్లు చెల్లుబాటు రద్దు"
+       }
+      },
+      {
+       "i": "🏦",
+       "t": {
+        "en": "52-day window to deposit / exchange",
+        "te": "జమ / మార్పిడికి 52 రోజుల గడువు"
+       }
+      },
+      {
+       "i": "📊",
+       "t": {
+        "en": "99.31% of value returns to banks",
+        "te": "విలువలో 99.31% బ్యాంకులకు"
+       }
+      },
+      {
+       "i": "⚖️",
+       "t": {
+        "en": "2 Jan 2023: SC upholds, 4:1",
+        "te": "2 జనవరి 2023: సుప్రీంకోర్టు 4:1తో సమర్థన"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Moneylife — Finance Ministry: 99.31% of money returned after demonetisation (Rajya Sabha reply), 23 Dec 2021",
+     "u": "https://www.moneylife.in/article/finance-ministry-9931-percentage-of-money-returned-to-circulation-after-demonetisation/65940.html"
+    },
+    {
+     "t": "Business Today — RBI says 99.3% demonetised notes returned: points from the 2017-18 annual report, 29 Aug 2018",
+     "u": "https://www.businesstoday.in/amp/latest/economy-politics/story/rbi-says-99pc-demonetised-notes-were-returned-10-major-points-108971-2018-08-29"
+    },
+    {
+     "t": "LiveLaw — Demonetisation decision-making lawful, SC holds by 4:1; Justice Nagarathna dissents, 2 Jan 2023",
+     "u": "https://www.livelaw.in/amp/top-stories/demonetisation-supreme-court-uphold-reasonable-nexus-rbi-act-217846"
+    },
+    {
+     "t": "The South First (PTI) — In 4:1 verdict SC upholds 2016 demonetisation decision, 2 Jan 2023",
+     "u": "https://thesouthfirst.com/pti/in-41-verdict-sc-upholds-2016-demonetisation-decision-saying-process-was-not-flawed/"
+    }
+   ]
+  },
+  {
+   "id": "xray",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "trophy",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    6
+   ],
+   "tag": {
+    "en": "World Radiography Day · 8 November",
+    "te": "ప్రపంచ రేడియోగ్రఫీ దినోత్సవం · 8 నవంబర్"
+   },
+   "title": {
+    "en": "Röntgen and the discovery of X-rays (8 Nov 1895)",
+    "te": "రాంట్‌జెన్, ఎక్స్-కిరణాల ఆవిష్కరణ (8 నవంబర్ 1895)"
+   },
+   "line": {
+    "en": "The discovery that won the FIRST Nobel Prize in Physics (1901) and changed medicine — today is World Radiography Day.",
+    "te": "తొలి భౌతికశాస్త్ర నోబెల్ (1901) గెలిచి వైద్యాన్ని మార్చేసిన ఆవిష్కరణ — ఈ రోజు ప్రపంచ రేడియోగ్రఫీ దినోత్సవం."
+   },
+   "easy": [
+    {
+     "en": "On 8 November 1895 Wilhelm Conrad Röntgen, a professor at Würzburg (Germany), was passing electric current through a partly evacuated glass tube (cathode-ray tube) wrapped in black cardboard. A screen coated with barium platinocyanide, far from the tube, began to glow. Some unknown rays were passing through the cardboard. Because their nature was unknown, he called them 'X' rays.",
+     "te": "1895 నవంబర్ 8న జర్మనీలోని వుర్జ్‌బర్గ్ ప్రొఫెసర్ విల్‌హెల్మ్ కాన్రాడ్ రాంట్‌జెన్ నల్ల అట్టతో చుట్టిన, పాక్షికంగా గాలి తీసిన గాజు గొట్టం (కాథోడ్ కిరణ నాళం) ద్వారా విద్యుత్ ప్రవహింపజేస్తున్నారు. దూరంగా ఉన్న బేరియం ప్లాటినోసైనైడ్ పూత తెర మెరవడం మొదలైంది. ఏవో తెలియని కిరణాలు అట్టను దాటి వెళ్తున్నాయి. వాటి స్వభావం తెలియనందున 'X' కిరణాలు అని పేరు పెట్టారు."
+    },
+    {
+     "en": "Within weeks he took the first X-ray photographs — including the bones of his wife's hand. Doctors could now see inside the body without cutting it. That is radiography. He refused to patent the discovery because he felt it should benefit all.",
+     "te": "కొన్ని వారాల్లోనే ఆయన తొలి ఎక్స్-రే చిత్రాలు తీశారు — భార్య చేతి ఎముకల చిత్రం సహా. శరీరాన్ని కోయకుండానే లోపల చూడడం వైద్యులకు సాధ్యమైంది. అదే రేడియోగ్రఫీ. ఈ ఆవిష్కరణ అందరికీ ఉపయోగపడాలని ఆయన పేటెంట్ తీసుకోలేదు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Discovery",
+      "te": "ఆవిష్కరణ"
+     },
+     {
+      "en": "8 November 1895, University of Würzburg, Germany",
+      "te": "8 నవంబర్ 1895, వుర్జ్‌బర్గ్ విశ్వవిద్యాలయం, జర్మనీ"
+     }
+    ],
+    [
+     {
+      "en": "Apparatus",
+      "te": "పరికరం"
+     },
+     {
+      "en": "Cathode-ray (Crookes) tube in black cardboard + barium platinocyanide screen",
+      "te": "నల్ల అట్టలో కాథోడ్ కిరణ (క్రూక్స్) నాళం + బేరియం ప్లాటినోసైనైడ్ తెర"
+     }
+    ],
+    [
+     {
+      "en": "Nobel Prize",
+      "te": "నోబెల్ బహుమతి"
+     },
+     {
+      "en": "First Nobel Prize in Physics, 1901 — he gave the prize money to Würzburg University",
+      "te": "తొలి భౌతికశాస్త్ర నోబెల్, 1901 — బహుమతి మొత్తాన్ని వుర్జ్‌బర్గ్ విశ్వవిద్యాలయానికి ఇచ్చారు"
+     }
+    ],
+    [
+     {
+      "en": "First paper",
+      "te": "తొలి పరిశోధన పత్రం"
+     },
+     {
+      "en": "'Eine neue Art von Strahlen' (On a New Kind of Rays), end of December 1895",
+      "te": "'ఐనె నోయె ఆర్ట్ ఫొన్ ష్ట్రాలెన్' (కొత్త రకం కిరణాలు), డిసెంబర్ 1895 చివర"
+     }
+    ],
+    [
+     {
+      "en": "Famous image",
+      "te": "ప్రసిద్ధ చిత్రం"
+     },
+     {
+      "en": "'Hand mit Ringen' — his wife's hand, 22 Dec 1895",
+      "te": "'హ్యాండ్ మిట్ రింగెన్' — ఆయన భార్య చేయి, 22 డిసెంబర్ 1895"
+     }
+    ],
+    [
+     {
+      "en": "Life",
+      "te": "జీవితం"
+     },
+     {
+      "en": "Born 27 Mar 1845, Lennep (now Remscheid), Prussia · died 10 Feb 1923, Munich",
+      "te": "జననం 27 మార్చి 1845, లెన్నెప్ (ఇప్పుడు రెమ్‌షైడ్), ప్రష్యా · మరణం 10 ఫిబ్రవరి 1923, మ్యూనిక్"
+     }
+    ],
+    [
+     {
+      "en": "The Day",
+      "te": "దినోత్సవం"
+     },
+     {
+      "en": "ISRRT has marked 8 Nov as World Radiography Day since 2007; ESR's International Day of Radiology is also 8 Nov (15th edition in 2026)",
+      "te": "ISRRT 2007 నుంచి 8 నవంబర్‌ను ప్రపంచ రేడియోగ్రఫీ దినోత్సవంగా పాటిస్తోంది; ESR అంతర్జాతీయ రేడియాలజీ దినోత్సవం కూడా 8 నవంబరే (2026లో 15వది)"
+     }
+    ],
+    [
+     {
+      "en": "2026 focus",
+      "te": "2026 ప్రత్యేకత"
+     },
+     {
+      "en": "IDoR 2026: emergency radiology · UK SoR's WRD 2026 focus: 'Professionalism in Radiography'",
+      "te": "IDoR 2026: అత్యవసర రేడియాలజీ · బ్రిటన్ SoR WRD 2026 దృష్టి: 'Professionalism in Radiography'"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Rays and medical imaging",
+     "te": "లింక్ చెయిన్ · కిరణాలు, వైద్య చిత్రీకరణ"
+    },
+    "l": [
+     {
+      "en": "Röntgen thought the rays were unrelated to light — wrong: X-rays are electromagnetic waves like light, but of much shorter wavelength",
+      "te": "ఈ కిరణాలకు కాంతితో సంబంధం లేదని రాంట్‌జెన్ భావించారు — అది తప్పు: ఎక్స్-కిరణాలు కూడా కాంతి లాంటి విద్యుదయస్కాంత తరంగాలే, కానీ తరంగదైర్ఘ్యం చాలా తక్కువ"
+     },
+     {
+      "en": "Bones absorb more X-rays than soft tissue, so bones look white on the film",
+      "te": "మెత్తని కణజాలం కంటే ఎముకలు ఎక్కువ ఎక్స్-కిరణాలను గ్రహిస్తాయి — అందుకే ఫిల్మ్‌పై ఎముకలు తెల్లగా కనిపిస్తాయి"
+     },
+     {
+      "en": "X-rays are also called Röntgen radiation",
+      "te": "ఎక్స్-కిరణాలను రాంట్‌జెన్ వికిరణం అని కూడా అంటారు"
+     },
+     {
+      "en": "Same week: 7 Nov = C.V. Raman's birthday (Raman Effect, Nobel 1930) — two light/ray discoveries back to back",
+      "te": "అదే వారం: 7 నవంబర్ = సి.వి. రామన్ జయంతి (రామన్ ఫలితం, నోబెల్ 1930) — వరుసగా రెండు కాంతి/కిరణ ఆవిష్కరణలు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Radiography Day (8 Nov) ≠ Röntgen's birthday (27 March). And the first Physics Nobel (1901) went to Röntgen alone — not to the Curies (they shared the 1903 Physics prize).",
+    "te": "రేడియోగ్రఫీ దినోత్సవం (8 నవంబర్) ≠ రాంట్‌జెన్ జయంతి (27 మార్చి). తొలి భౌతికశాస్త్ర నోబెల్ (1901) రాంట్‌జెన్ ఒక్కరికే — క్యూరీ దంపతులకు కాదు (వారు 1903 భౌతిక నోబెల్ పంచుకున్నారు)."
+   },
+   "tip": {
+    "en": "'X = unknown' — 1895 found, 1901 first Nobel; 8-11 = Radiography Day.",
+    "te": "'X = తెలియనిది' — 1895 ఆవిష్కరణ, 1901 తొలి నోబెల్; 8-11 = రేడియోగ్రఫీ దినోత్సవం."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the discovery of X-rays:",
+     "te": "ఎక్స్-కిరణాల ఆవిష్కరణకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. Röntgen noticed a barium platinocyanide screen glowing while working with a cathode-ray tube.",
+      "te": "I. కాథోడ్ కిరణ నాళంతో ప్రయోగం చేస్తుండగా బేరియం ప్లాటినోసైనైడ్ తెర మెరవడాన్ని రాంట్‌జెన్ గమనించారు."
+     },
+     {
+      "en": "II. He patented the discovery and used the income for his laboratory.",
+      "te": "II. ఆయన ఆవిష్కరణపై పేటెంట్ తీసుకుని ఆదాయాన్ని ప్రయోగశాలకు వాడారు."
+     },
+     {
+      "en": "III. He received the first Nobel Prize in Physics in 1901.",
+      "te": "III. 1901లో తొలి భౌతికశాస్త్ర నోబెల్ బహుమతి పొందారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II is wrong: Röntgen did NOT take a patent — he felt the discovery should benefit all.",
+     "te": "II తప్పు: రాంట్‌జెన్ పేటెంట్ తీసుకోలేదు — ఆవిష్కరణ అందరికీ ఉపయోగపడాలని భావించారు."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Röntgen and X-rays in dates",
+      "te": "తేదీల్లో రాంట్‌జెన్, ఎక్స్-కిరణాలు"
+     },
+     "items": [
+      {
+       "y": "1845",
+       "t": {
+        "en": "Born at Lennep, Prussia (27 Mar)",
+        "te": "ప్రష్యాలోని లెన్నెప్‌లో జననం (27 మార్చి)"
+       }
+      },
+      {
+       "y": "1888",
+       "t": {
+        "en": "Professor at Würzburg (till 1900)",
+        "te": "వుర్జ్‌బర్గ్‌లో ప్రొఫెసర్ (1900 వరకు)"
+       }
+      },
+      {
+       "y": "1895",
+       "t": {
+        "en": "8 Nov: discovers X-rays",
+        "te": "8 నవంబర్: ఎక్స్-కిరణాల ఆవిష్కరణ"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1895",
+       "t": {
+        "en": "22 Dec: X-ray of wife's hand; paper at year-end",
+        "te": "22 డిసెంబర్: భార్య చేతి ఎక్స్-రే; ఏడాది చివర పరిశోధన పత్రం"
+       }
+      },
+      {
+       "y": "1901",
+       "t": {
+        "en": "First Nobel Prize in Physics",
+        "te": "తొలి భౌతికశాస్త్ర నోబెల్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1923",
+       "t": {
+        "en": "Dies at Munich (10 Feb)",
+        "te": "మ్యూనిక్‌లో మరణం (10 ఫిబ్రవరి)"
+       }
+      },
+      {
+       "y": "2007",
+       "t": {
+        "en": "ISRRT starts World Radiography Day on 8 Nov",
+        "te": "8 నవంబర్ ప్రపంచ రేడియోగ్రఫీ దినోత్సవం ISRRT ప్రారంభం"
+       },
+       "hl": 1
+      }
+     ],
+     "cap": {
+      "en": "Bold = most-asked: 1895 discovery, 1901 first Nobel, 8 Nov the Day.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగేవి: 1895 ఆవిష్కరణ, 1901 తొలి నోబెల్, 8 నవంబర్ దినోత్సవం."
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How the discovery happened",
+      "te": "ఆవిష్కరణ ఎలా జరిగింది"
+     },
+     "items": [
+      {
+       "i": "⚡",
+       "t": {
+        "en": "Current through a cathode-ray tube covered in black card",
+        "te": "నల్ల అట్టతో కప్పిన కాథోడ్ కిరణ నాళంలో విద్యుత్"
+       }
+      },
+      {
+       "i": "✨",
+       "t": {
+        "en": "A distant barium platinocyanide screen glows",
+        "te": "దూరంగా ఉన్న బేరియం ప్లాటినోసైనైడ్ తెర మెరుస్తుంది"
+       }
+      },
+      {
+       "i": "❓",
+       "t": {
+        "en": "Unknown rays pass through card → named 'X'",
+        "te": "తెలియని కిరణాలు అట్టను దాటాయి → 'X' అని పేరు"
+       }
+      },
+      {
+       "i": "🦴",
+       "t": {
+        "en": "Bones show up → medical radiography begins",
+        "te": "ఎముకలు కనిపించాయి → వైద్య రేడియోగ్రఫీ మొదలు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Britannica — Wilhelm Conrad Röntgen",
+     "u": "https://britannica.com/biography/Wilhelm-Rontgen"
+    },
+    {
+     "t": "History of Information — Röntgen discovers X-rays",
+     "u": "https://www.historyofinformation.com/detail.php?entryid=655"
+    },
+    {
+     "t": "Wikipedia — World Radiography Day",
+     "u": "https://en.wikipedia.org/wiki/World_Radiography_Day"
+    },
+    {
+     "t": "Society of Radiographers (UK) — World Radiography Day portal (WRD 2026)",
+     "u": "https://www.sor.org/about/about-radiography/world-radiography-day-portal"
+    },
+    {
+     "t": "European Society of Radiology — International Day of Radiology 2026",
+     "u": "https://internationaldayofradiology.com/"
+    }
+   ]
+  },
+  {
+   "id": "mow",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "sirsyed",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "In the news · Culture · PTI / IGNCA · 5 Nov 2026",
+    "te": "వార్తల్లో · సంస్కృతి · PTI / IGNCA · 5 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-I Art & Culture",
+    "te": "వివరణ · GS-I కళలు & సంస్కృతి"
+   },
+   "title": {
+    "en": "Mahabharata, Arthashastra, Rajatarangini manuscripts enter UNESCO's Asia-Pacific memory register",
+    "te": "మహాభారతం, అర్థశాస్త్రం, రాజతరంగిణి తాళపత్ర/భూర్జపత్ర ప్రతులు యునెస్కో ఆసియా-పసిఫిక్ స్మృతి రిజిస్టర్‌లో"
+   },
+   "line": {
+    "en": "Added at the 11th session of the Memory of the World Asia-Pacific Regional Register, Jakarta — India now has 6 entries on this regional list.",
+    "te": "జకార్తాలో జరిగిన మెమరీ ఆఫ్ ది వరల్డ్ ఆసియా-పసిఫిక్ ప్రాంతీయ రిజిస్టర్ 11వ సమావేశంలో చేరిక — ఈ ప్రాంతీయ జాబితాలో భారత్ ఎంట్రీలు ఇప్పుడు 6."
+   },
+   "easy": [
+    {
+     "en": "UNESCO's Memory of the World (MoW) programme (1992) protects documents — manuscripts, archives, records — that are important for human memory. It is about documentary heritage, not monuments (those are World Heritage Sites). It keeps an International Register and separate regional registers, like the Asia-Pacific one run by MOWCAP.",
+     "te": "యునెస్కో 'మెమరీ ఆఫ్ ది వరల్డ్' (MoW) కార్యక్రమం (1992) మానవ జ్ఞాపకానికి ముఖ్యమైన దస్తావేజులను — రాతప్రతులు, ఆర్కైవ్‌లు, రికార్డులు — రక్షిస్తుంది. ఇది డాక్యుమెంటరీ వారసత్వం కోసం, కట్టడాల కోసం కాదు (అవి ప్రపంచ వారసత్వ ప్రదేశాలు). దీనికి ఒక అంతర్జాతీయ రిజిస్టర్, వేరుగా ప్రాంతీయ రిజిస్టర్లు ఉన్నాయి — ఉదా. MOWCAP నిర్వహించే ఆసియా-పసిఫిక్ రిజిస్టర్."
+    },
+    {
+     "en": "Three Indian manuscripts were added to the Asia-Pacific register: a Kashmiri birch-bark Mahabharata (BORI, Pune), a 16th-century palm-leaf Arthashastra in Grantha script (Oriental Research Institute, Mysuru) and Kalhana's Rajatarangini in Sharada script (Oriental Research Library, Srinagar). The IGNCA prepared the nomination dossiers.",
+     "te": "ఆసియా-పసిఫిక్ రిజిస్టర్‌లో మూడు భారతీయ ప్రతులు చేరాయి: కశ్మీరీ భూర్జపత్ర మహాభారతం (BORI, పుణె), గ్రంథ లిపిలో 16వ శతాబ్దపు తాళపత్ర అర్థశాస్త్రం (ఓరియంటల్ రీసెర్చ్ ఇన్‌స్టిట్యూట్, మైసూరు), శారదా లిపిలో కల్హణుడి రాజతరంగిణి (ఓరియంటల్ రీసెర్చ్ లైబ్రరీ, శ్రీనగర్). నామినేషన్ పత్రాలను IGNCA సిద్ధం చేసింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Decision",
+      "te": "నిర్ణయం"
+     },
+     {
+      "en": "11th Session, MoW Asia-Pacific Regional Register, Jakarta (Indonesia); announced 5 Nov 2026",
+      "te": "MoW ఆసియా-పసిఫిక్ ప్రాంతీయ రిజిస్టర్ 11వ సమావేశం, జకార్తా (ఇండోనేషియా); ప్రకటన 5 నవంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Mahabharata",
+      "te": "మహాభారతం"
+     },
+     {
+      "en": "~400-year-old birch-bark, Kashmiri recension, Sharada script · BORI Pune · acquired in Kashmir by Georg Bühler, 1875",
+      "te": "సుమారు 400 ఏళ్ల భూర్జపత్ర ప్రతి, కశ్మీరీ పాఠాంతరం, శారదా లిపి · BORI పుణె · 1875లో జార్జ్ బ్యూలర్ కశ్మీర్‌లో సేకరణ"
+     }
+    ],
+    [
+     {
+      "en": "Arthashastra",
+      "te": "అర్థశాస్త్రం"
+     },
+     {
+      "en": "Kautilya · 16th-century palm leaf, 168 folios, Grantha script · ORI Mysuru",
+      "te": "కౌటిల్యుడు · 16వ శతాబ్దపు తాళపత్రం, 168 పత్రాలు, గ్రంథ లిపి · ORI మైసూరు"
+     }
+    ],
+    [
+     {
+      "en": "Rajatarangini",
+      "te": "రాజతరంగిణి"
+     },
+     {
+      "en": "Kalhana, 12th-century Kashmiri historian · Sharada script · Oriental Research Library, Srinagar",
+      "te": "కల్హణుడు, 12వ శతాబ్దపు కశ్మీరీ చరిత్రకారుడు · శారదా లిపి · ఓరియంటల్ రీసెర్చ్ లైబ్రరీ, శ్రీనగర్"
+     }
+    ],
+    [
+     {
+      "en": "India's regional total",
+      "te": "ప్రాంతీయ రిజిస్టర్‌లో భారత్"
+     },
+     {
+      "en": "6 — earlier 3: Ramcharitmanas, Panchatantra, Sahrdayaloka-Locana",
+      "te": "6 — ముందున్న 3: రామచరితమానస్, పంచతంత్రం, సహృదయాలోక-లోచనం"
+     }
+    ],
+    [
+     {
+      "en": "Nodal agency",
+      "te": "నోడల్ సంస్థ"
+     },
+     {
+      "en": "IGNCA (Indira Gandhi National Centre for the Arts) prepared all three dossiers",
+      "te": "IGNCA (ఇందిరా గాంధీ నేషనల్ సెంటర్ ఫర్ ది ఆర్ట్స్) మూడు నామినేషన్లూ సిద్ధం చేసింది"
+     }
+    ],
+    [
+     {
+      "en": "International Register (2025)",
+      "te": "అంతర్జాతీయ రిజిస్టర్ (2025)"
+     },
+     {
+      "en": "Bhagavad Gita and Natyashastra manuscripts (BORI Pune) — a different, global list",
+      "te": "భగవద్గీత, నాట్యశాస్త్రం ప్రతులు (BORI పుణె) — ఇది వేరే, ప్రపంచ జాబితా"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Ancient texts in the syllabus",
+     "te": "లింక్ చెయిన్ · సిలబస్‌లో ప్రాచీన గ్రంథాలు"
+    },
+    "l": [
+     {
+      "en": "Arthashastra (Kautilya) — the classic text on statecraft and economy of the Mauryan age",
+      "te": "అర్థశాస్త్రం (కౌటిల్యుడు) — మౌర్య యుగపు రాజనీతి, అర్థవ్యవస్థపై ప్రామాణిక గ్రంథం"
+     },
+     {
+      "en": "Rajatarangini (Kalhana, 12th c.) — chronicle of the kings of Kashmir; often called India's first historical work",
+      "te": "రాజతరంగిణి (కల్హణుడు, 12వ శతాబ్దం) — కశ్మీర్ రాజుల చరిత్ర; భారత తొలి చారిత్రక గ్రంథంగా పేరు"
+     },
+     {
+      "en": "Scripts: Sharada (Kashmir) and Grantha (South India, used to write Sanskrit)",
+      "te": "లిపులు: శారదా (కశ్మీర్), గ్రంథ (దక్షిణ భారతం, సంస్కృతం రాయడానికి)"
+     },
+     {
+      "en": "BORI Pune also holds the Rigveda manuscripts on the International Register (2007)",
+      "te": "అంతర్జాతీయ రిజిస్టర్‌లోని ఋగ్వేద ప్రతులు (2007) కూడా BORI పుణెలోనే"
+     }
+    ]
+   },
+   "trap": {
+    "en": "These three are on the REGIONAL (Asia-Pacific) register, not the International Register. Bhagavad Gita and Natyashastra went to the International Register in 2025. MoW = documents; World Heritage = sites.",
+    "te": "ఈ మూడూ ప్రాంతీయ (ఆసియా-పసిఫిక్) రిజిస్టర్‌లో చేరాయి, అంతర్జాతీయ రిజిస్టర్‌లో కాదు. భగవద్గీత, నాట్యశాస్త్రం 2025లో అంతర్జాతీయ రిజిస్టర్‌లో చేరాయి. MoW = దస్తావేజులు; ప్రపంచ వారసత్వం = ప్రదేశాలు."
+   },
+   "tip": {
+    "en": "'Pune–Mysuru–Srinagar = Mahabharata–Artha–Raja' (MAR): West, South, North.",
+    "te": "'పుణె–మైసూరు–శ్రీనగర్ = మహాభారతం–అర్థ–రాజ' (MAR): పడమర, దక్షిణం, ఉత్తరం."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the manuscripts added to UNESCO's Memory of the World Asia-Pacific Regional Register in 2026, consider the following pairs (manuscript : where kept):",
+     "te": "2026లో యునెస్కో మెమరీ ఆఫ్ ది వరల్డ్ ఆసియా-పసిఫిక్ ప్రాంతీయ రిజిస్టర్‌లో చేరిన ప్రతులకు సంబంధించి కింది జతలను (ప్రతి : భద్రపరిచిన చోటు) పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. Mahabharata (Kashmiri recension) : Bhandarkar Oriental Research Institute, Pune",
+      "te": "I. మహాభారతం (కశ్మీరీ పాఠాంతరం) : భండార్కర్ ఓరియంటల్ రీసెర్చ్ ఇన్‌స్టిట్యూట్, పుణె"
+     },
+     {
+      "en": "II. Arthashastra : Oriental Research Library, Srinagar",
+      "te": "II. అర్థశాస్త్రం : ఓరియంటల్ రీసెర్చ్ లైబ్రరీ, శ్రీనగర్"
+     },
+     {
+      "en": "III. Rajatarangini : Oriental Research Institute, Mysuru",
+      "te": "III. రాజతరంగిణి : ఓరియంటల్ రీసెర్చ్ ఇన్‌స్టిట్యూట్, మైసూరు"
+     }
+    ],
+    "o": [
+     {
+      "en": "Only one pair",
+      "te": "ఒక జత మాత్రమే"
+     },
+     {
+      "en": "Only two pairs",
+      "te": "రెండు జతలు మాత్రమే"
+     },
+     {
+      "en": "All three pairs",
+      "te": "మూడు జతలూ"
+     },
+     {
+      "en": "None of the pairs",
+      "te": "ఏ జతా కాదు"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "Only I is correct. II and III are swapped: Arthashastra is at ORI Mysuru; Rajatarangini is at the Oriental Research Library, Srinagar.",
+     "te": "I మాత్రమే సరైనది. II, III తారుమారు: అర్థశాస్త్రం ORI మైసూరులో; రాజతరంగిణి శ్రీనగర్ ఓరియంటల్ రీసెర్చ్ లైబ్రరీలో ఉన్నాయి."
+    }
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Where the three manuscripts are kept",
+      "te": "మూడు ప్రతులు ఎక్కడ భద్రంగా ఉన్నాయి"
+     },
+     "view": "india",
+     "hl": [
+      "Maharashtra",
+      "Karnataka",
+      "Jammu & Kashmir"
+     ],
+     "hlc": "#7a3b8f",
+     "pts": [
+      {
+       "ll": [
+        34.08,
+        74.8
+       ],
+       "t": {
+        "en": "Srinagar: Rajatarangini",
+        "te": "శ్రీనగర్: రాజతరంగిణి"
+       }
+      },
+      {
+       "ll": [
+        18.52,
+        73.86
+       ],
+       "t": {
+        "en": "Pune: Mahabharata",
+        "te": "పుణె: మహాభారతం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        12.3,
+        76.64
+       ],
+       "t": {
+        "en": "Mysuru: Arthashastra",
+        "te": "మైసూరు: అర్థశాస్త్రం"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "North = Rajatarangini (Sharada) · West = Mahabharata (Sharada, birch bark) · South = Arthashastra (Grantha, palm leaf).",
+      "te": "ఉత్తరం = రాజతరంగిణి (శారదా) · పడమర = మహాభారతం (శారదా, భూర్జపత్రం) · దక్షిణం = అర్థశాస్త్రం (గ్రంథ, తాళపత్రం)."
+     },
+     "src": "cards/2026-11-08/map-mow-1-{m}.svg"
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Two UNESCO lists — don't mix them",
+      "te": "యునెస్కో రెండు జాబితాలు — కలపొద్దు"
+     },
+     "a": {
+      "h": {
+       "en": "Asia-Pacific Regional Register (MOWCAP)",
+       "te": "ఆసియా-పసిఫిక్ ప్రాంతీయ రిజిస్టర్ (MOWCAP)"
+      },
+      "l": [
+       {
+        "en": "2026: Mahabharata, Arthashastra, Rajatarangini",
+        "te": "2026: మహాభారతం, అర్థశాస్త్రం, రాజతరంగిణి"
+       },
+       {
+        "en": "Earlier: Ramcharitmanas, Panchatantra, Sahrdayaloka-Locana",
+        "te": "ముందు: రామచరితమానస్, పంచతంత్రం, సహృదయాలోక-లోచనం"
+       },
+       {
+        "en": "India total: 6",
+        "te": "భారత్ మొత్తం: 6"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "International Register (global)",
+       "te": "అంతర్జాతీయ రిజిస్టర్ (ప్రపంచ)"
+      },
+      "l": [
+       {
+        "en": "2025: Bhagavad Gita, Natyashastra (BORI)",
+        "te": "2025: భగవద్గీత, నాట్యశాస్త్రం (BORI)"
+       },
+       {
+        "en": "2007: Rigveda (BORI)",
+        "te": "2007: ఋగ్వేదం (BORI)"
+       },
+       {
+        "en": "2017: Gilgit Manuscript",
+        "te": "2017: గిల్గిట్ ప్రతి"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Deccan Chronicle (PTI) — Mahabharata, Arthashastra, Rajatarangini manuscripts enter UNESCO memory register, 5 Nov 2026",
+     "u": "https://www.deccanchronicle.com/nation/mahabharata-arthashastra-rajatarangini-manuscripts-enter-unesco-memory-register-2002000"
+    },
+    {
+     "t": "Republic World — Mahabharata, Arthashastra and Rajatarangini manuscripts added to UNESCO Memory register, 5 Nov 2026",
+     "u": "https://www.republicworld.com/india/proud-moment-for-india-as-mahabharata-arthashastra-and-rajatarangini-manuscripts-added-to-unesco-memory-register-2026-11-05-140511"
+    },
+    {
+     "t": "Wikipedia — Memory of the World Register in Asia and the Pacific (International Register table)",
+     "u": "https://en.wikipedia.org/wiki/Memory_of_the_World_Register_in_Asia_and_the_Pacific"
+    },
+    {
+     "t": "Shankar IAS Parliament — Bhagavad Gita & Natyashastra added to UNESCO's Memory of the World Register, Apr 2025",
+     "u": "https://www.shankariasparliament.com/current-affairs/manuscripts-of-bhagavad-gita-natyashastra-added-to-unescos-memory-of-the-world-register"
+    }
+   ],
+   "mains": {
+    "en": "Documentary heritage is as important as monuments. Discuss the significance of UNESCO's Memory of the World programme for India, with reference to the 2026 inscription of the Mahabharata, Arthashastra and Rajatarangini manuscripts.",
+    "te": "కట్టడాలంత ముఖ్యమైనదే దస్తావేజు వారసత్వం. 2026లో మహాభారతం, అర్థశాస్త్రం, రాజతరంగిణి ప్రతుల చేరికను ఉదహరిస్తూ యునెస్కో మెమరీ ఆఫ్ ది వరల్డ్ కార్యక్రమం భారత్‌కు ఎంత ముఖ్యమో చర్చించండి."
+   }
+  },
+  {
+   "id": "art22",
+   "kind": "article",
+   "color": "#9b2c2c",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "All India Radio / LiveLaw-Verdictum · SC judgment of 5 Nov 2026",
+    "te": "ఆకాశవాణి / వర్డిక్టమ్ · 5 నవంబర్ 2026 సుప్రీంకోర్టు తీర్పు"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity — Fundamental Rights",
+    "te": "వివరణ · GS-II పాలిటీ — ప్రాథమిక హక్కులు"
+   },
+   "title": {
+    "en": "Article 22(2): the 24-hour clock starts at detention, not at 'formal arrest'",
+    "te": "ఆర్టికల్ 22(2): 24 గంటల గడువు నిర్బంధం నుంచే, 'అధికారిక అరెస్టు' నుంచి కాదు"
+   },
+   "line": {
+    "en": "Supreme Court (5 Nov): police cannot keep a person for hours and show the arrest later to stretch the 24-hour limit.",
+    "te": "సుప్రీంకోర్టు (5 నవంబర్): మనిషిని గంటల తరబడి నిర్బంధించి, తర్వాత అరెస్టు చూపి 24 గంటల గడువును పెంచుకోవడం పోలీసులకు కుదరదు."
+   },
+   "easy": [
+    {
+     "en": "Article 22(2) of the Constitution says a person who is arrested and detained must be produced before the nearest magistrate within 24 hours — only the journey time to the court is excluded. This puts a judge's eye on police custody quickly.",
+     "te": "రాజ్యాంగంలోని ఆర్టికల్ 22(2) ప్రకారం అరెస్టై నిర్బంధంలో ఉన్న వ్యక్తిని 24 గంటల్లోగా సమీప మేజిస్ట్రేట్ ముందు హాజరుపరచాలి — కోర్టుకు ప్రయాణ సమయం మాత్రమే మినహాయింపు. దీనివల్ల పోలీసు కస్టడీపై త్వరగా న్యాయమూర్తి పర్యవేక్షణ వస్తుంది."
+    },
+    {
+     "en": "In a Tripura NDPS (drugs) case, the accused were held from 2 pm on 29 Sep 2025, shown 'arrested' only at 11 am the next day and produced at 4:45 pm. The police said the first hours were only 'detention'. The Court said 'arrest' and 'detained' in Article 22(2) go together — the clock starts the moment liberty is curtailed. Since the limit was crossed, it ordered release.",
+     "te": "త్రిపురలోని ఒక NDPS (మాదకద్రవ్యాల) కేసులో నిందితులను 2025 సెప్టెంబర్ 29 మధ్యాహ్నం 2 గంటల నుంచి నిర్బంధించి, మరుసటి రోజు ఉదయం 11 గంటలకు 'అరెస్టు' చూపి, సాయంత్రం 4:45కు హాజరుపరిచారు. మొదటి గంటలు కేవలం 'నిర్బంధం' అని పోలీసులు వాదించారు. ఆర్టికల్ 22(2)లో 'అరెస్టు', 'నిర్బంధం' కలిపే చదవాలి — స్వేచ్ఛ కోల్పోయిన క్షణం నుంచే గడువు మొదలవుతుందని కోర్టు చెప్పింది. గడువు దాటినందున విడుదలకు ఆదేశించింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Case",
+      "te": "కేసు"
+     },
+     {
+      "en": "Sujit Das & Ors. v. Union of India, 2026 INSC 1195 · 5 Nov 2026",
+      "te": "సుజిత్ దాస్ & ఇతరులు v. యూనియన్ ఆఫ్ ఇండియా, 2026 INSC 1195 · 5 నవంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Bench",
+      "te": "ధర్మాసనం"
+     },
+     {
+      "en": "Justices Ujjal Bhuyan and Atul S. Chandurkar",
+      "te": "జస్టిస్ ఉజ్జల్ భూయాన్, జస్టిస్ అతుల్ ఎస్. చందూర్కర్"
+     }
+    ],
+    [
+     {
+      "en": "Held",
+      "te": "తీర్పు"
+     },
+     {
+      "en": "24 hours run from actual detention; only journey time excluded; beyond 24 hours → release forthwith",
+      "te": "24 గంటలు అసలు నిర్బంధం నుంచే; ప్రయాణ సమయం మాత్రమే మినహాయింపు; 24 గంటలు దాటితే → వెంటనే విడుదల"
+     }
+    ],
+    [
+     {
+      "en": "Magistrate's duty",
+      "te": "మేజిస్ట్రేట్ బాధ్యత"
+     },
+     {
+      "en": "Record actual date & time of detention; may refuse remand if detention was unreasonably long even within 24 h",
+      "te": "నిర్బంధపు అసలు తేదీ, సమయం నమోదు చేయాలి; 24 గంటల్లోపైనా అనవసరంగా ఎక్కువసేపు ఉంచితే రిమాండ్ నిరాకరించవచ్చు"
+     }
+    ],
+    [
+     {
+      "en": "Statute",
+      "te": "చట్టం"
+     },
+     {
+      "en": "Section 58 BNSS (old Section 57 CrPC) — detention only for a reasonable period",
+      "te": "BNSS సెక్షన్ 58 (పాత CrPC సెక్షన్ 57) — సహేతుక కాలం మాత్రమే నిర్బంధం"
+     }
+    ],
+    [
+     {
+      "en": "Overruled",
+      "te": "తప్పని తేల్చినవి"
+     },
+     {
+      "en": "Orissa, Madras and Kerala High Court rulings that allowed a gap between detention and arrest",
+      "te": "నిర్బంధం–అరెస్టు మధ్య వ్యవధిని అనుమతించిన ఒడిశా, మద్రాస్, కేరళ హైకోర్టు తీర్పులు"
+     }
+    ],
+    [
+     {
+      "en": "Follow-up",
+      "te": "తదుపరి"
+     },
+     {
+      "en": "Copy sent to all DGPs, High Court Registrars General and State Judicial Academies",
+      "te": "ప్రతిని అన్ని రాష్ట్రాల DGPలు, హైకోర్టుల రిజిస్ట్రార్ జనరల్‌లు, రాష్ట్ర జ్యుడీషియల్ అకాడమీలకు పంపారు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Personal liberty",
+     "te": "లింక్ చెయిన్ · వ్యక్తిగత స్వేచ్ఛ"
+    },
+    "l": [
+     {
+      "en": "Article 21 (life and personal liberty) + Article 22 (protection against arrest and detention) — both in Part III",
+      "te": "ఆర్టికల్ 21 (జీవించే హక్కు, వ్యక్తిగత స్వేచ్ఛ) + ఆర్టికల్ 22 (అరెస్టు, నిర్బంధం నుంచి రక్షణ) — రెండూ భాగం IIIలో"
+     },
+     {
+      "en": "The Court relied on D.K. Basu's concern about custodial abuse",
+      "te": "కస్టడీ హింసపై డి.కె. బసు తీర్పులోని ఆందోళనను కోర్టు ఆధారం చేసుకుంది"
+     },
+     {
+      "en": "'A statute, special or otherwise, cannot be a guide to the Constitution' — strict NDPS bail rules (Section 37) do not dilute Article 22(2)",
+      "te": "'ఏ ప్రత్యేక చట్టమూ రాజ్యాంగానికి మార్గదర్శి కాదు' — NDPS కఠిన బెయిల్ నిబంధనలు (సెక్షన్ 37) ఆర్టికల్ 22(2)ను బలహీనపరచవు"
+     },
+     {
+      "en": "CrPC was replaced by the Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023",
+      "te": "CrPC స్థానంలో భారతీయ నాగరిక్ సురక్షా సంహిత (BNSS), 2023 వచ్చింది"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The 24 hours exclude ONLY the journey time to the magistrate — not time spent on search, seizure or paperwork. And there is no 'detention before arrest' buffer: the Court said the Constitution does not recognise detention dehors arrest.",
+    "te": "24 గంటల్లో మేజిస్ట్రేట్ దగ్గరకు ప్రయాణ సమయం మాత్రమే మినహాయింపు — సోదాలు, స్వాధీనం, కాగితపు పనుల సమయం కాదు. 'అరెస్టుకు ముందు నిర్బంధం' అనే బఫర్ లేదు: అరెస్టు వెలుపల నిర్బంధాన్ని రాజ్యాంగం గుర్తించదని కోర్టు చెప్పింది."
+   },
+   "tip": {
+    "en": "'22-24': Article 22 → 24 hours → clock starts when liberty stops.",
+    "te": "'22-24': ఆర్టికల్ 22 → 24 గంటలు → స్వేచ్ఛ ఆగిన క్షణమే గడియారం మొదలు."
+   },
+   "mcq": {
+    "q": {
+     "en": "In the light of the Supreme Court's judgment of 5 November 2026 on Article 22(2), consider the following statements:",
+     "te": "ఆర్టికల్ 22(2)పై 2026 నవంబర్ 5 సుప్రీంకోర్టు తీర్పు ఆధారంగా కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The 24-hour period begins from the time a person is actually detained.",
+      "te": "I. వ్యక్తిని అసలు నిర్బంధించిన సమయం నుంచే 24 గంటల గడువు మొదలవుతుంది."
+     },
+     {
+      "en": "II. Time spent on search and seizure formalities can be excluded from the 24 hours.",
+      "te": "II. సోదా, స్వాధీన లాంఛనాల సమయాన్ని 24 గంటల నుంచి మినహాయించవచ్చు."
+     },
+     {
+      "en": "III. The Magistrate must record the actual date and time of detention.",
+      "te": "III. నిర్బంధపు అసలు తేదీ, సమయాన్ని మేజిస్ట్రేట్ నమోదు చేయాలి."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "II is wrong: only the journey time from the place of arrest to the magistrate's court is excluded.",
+     "te": "II తప్పు: అరెస్టు ప్రదేశం నుంచి మేజిస్ట్రేట్ కోర్టుకు ప్రయాణ సమయం మాత్రమే మినహాయింపు."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "The Tripura case clock",
+      "te": "త్రిపుర కేసు గడియారం"
+     },
+     "items": [
+      {
+       "i": "🚓",
+       "t": {
+        "en": "29 Sep, 2:00 pm: intercepted and held",
+        "te": "29 సెప్టెంబర్, మ. 2:00: అడ్డగించి నిర్బంధం"
+       }
+      },
+      {
+       "i": "📝",
+       "t": {
+        "en": "30 Sep, 11:00 am: 'arrest' shown on paper",
+        "te": "30 సెప్టెంబర్, ఉ. 11:00: కాగితంపై 'అరెస్టు'"
+       }
+      },
+      {
+       "i": "👨‍⚖️",
+       "t": {
+        "en": "30 Sep, 4:45 pm: produced before magistrate",
+        "te": "30 సెప్టెంబర్, సా. 4:45: మేజిస్ట్రేట్ ముందు హాజరు"
+       }
+      },
+      {
+       "i": "⏱️",
+       "t": {
+        "en": "Counted from 2 pm → more than 24 h",
+        "te": "మ. 2 నుంచి లెక్కిస్తే → 24 గంటలు దాటింది"
+       }
+      },
+      {
+       "i": "🔓",
+       "t": {
+        "en": "SC: Article 22(2) breached → release",
+        "te": "సుప్రీంకోర్టు: 22(2) ఉల్లంఘన → విడుదల"
+       }
+      }
+     ]
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Two views of the 24-hour rule",
+      "te": "24 గంటల నియమంపై రెండు వాదనలు"
+     },
+     "a": {
+      "h": {
+       "en": "Union's argument (rejected)",
+       "te": "కేంద్రం వాదన (తిరస్కరణ)"
+      },
+      "l": [
+       {
+        "en": "Interception is not arrest",
+        "te": "అడ్డగించడం అరెస్టు కాదు"
+       },
+       {
+        "en": "Hours spent on legal formalities",
+        "te": "చట్టపర లాంఛనాలకు గంటలు పట్టాయి"
+       },
+       {
+        "en": "Clock from formal arrest",
+        "te": "అధికారిక అరెస్టు నుంచి లెక్క"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Supreme Court (5 Nov 2026)",
+       "te": "సుప్రీంకోర్టు (5 నవంబర్ 2026)"
+      },
+      "l": [
+       {
+        "en": "'Arrested and detained' read together",
+        "te": "'అరెస్టు, నిర్బంధం' కలిపి చదవాలి"
+       },
+       {
+        "en": "Clock from actual detention",
+        "te": "అసలు నిర్బంధం నుంచి లెక్క"
+       },
+       {
+        "en": "Only journey time excluded",
+        "te": "ప్రయాణ సమయం మాత్రమే మినహాయింపు"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "All India Radio — SC rules 24-hour custody limit starts from moment of actual detention, 5 Nov 2026",
+     "u": "https://newsonair.gov.in/sc-rules-24-hour-custody-limit-starts-from-moment-of-actual-detention-not-formal-arrest/"
+    },
+    {
+     "t": "Verdictum — Sujit Das v. Union of India, 2026 INSC 1195: 24-hour timeline under Article 22(2) starts from detention",
+     "u": "https://www.verdictum.in/supreme-court/sujit-das-v-union-of-india-2026-insc-1195-1625208"
+    },
+    {
+     "t": "Outlook — SC says 24-hour custody clock starts when liberty is curtailed, 5 Nov 2026",
+     "u": "https://www.outlookindia.com/national/sc-says-24-hour-custody-clock-starts-when-liberty-is-curtailed-rejects-distinction-between-detention-and-arrest"
+    }
+   ],
+   "mains": {
+    "en": "'The 24-hour rule in Article 22(2) is a guarantee, not a formality.' Examine the Supreme Court's November 2026 ruling that the clock starts from actual detention, and its impact on police practice and personal liberty.",
+    "te": "'ఆర్టికల్ 22(2)లోని 24 గంటల నియమం ఒక హామీ, లాంఛనం కాదు.' అసలు నిర్బంధం నుంచే గడువు మొదలవుతుందన్న 2026 నవంబర్ సుప్రీంకోర్టు తీర్పును, పోలీసు విధానాలు–వ్యక్తిగత స్వేచ్ఛపై దాని ప్రభావాన్ని పరిశీలించండి."
+   }
+  },
+  {
+   "id": "pcpir",
+   "kind": "article",
+   "color": "#2c5d63",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "In the news · Economy · PIB backgrounder on chemicals, 7 Nov 2026",
+    "te": "వార్తల్లో · ఆర్థిక వ్యవస్థ · రసాయనాల రంగంపై PIB నేపథ్య పత్రం, 7 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-III Economy · AP",
+    "te": "వివరణ · GS-III ఆర్థిక వ్యవస్థ · ఆంధ్రప్రదేశ్"
+   },
+   "title": {
+    "en": "PCPIRs: India's chemical hubs — and AP's Visakhapatnam–Kakinada region",
+    "te": "PCPIRలు: భారత రసాయన కేంద్రాలు — ఏపీలోని విశాఖపట్నం–కాకినాడ ప్రాంతం"
+   },
+   "line": {
+    "en": "Three PCPIRs (Dahej, Vizag–Kakinada, Paradeep) have drawn about ₹3.49 lakh crore and 3.7 lakh jobs; AP's is the largest by area.",
+    "te": "మూడు PCPIRలు (దహేజ్, విశాఖ–కాకినాడ, పారాదీప్) సుమారు ₹3.49 లక్షల కోట్ల పెట్టుబడి, 3.7 లక్షల ఉద్యోగాలు తెచ్చాయి; విస్తీర్ణంలో ఏపీదే అతిపెద్దది."
+   },
+   "easy": [
+    {
+     "en": "A PCPIR (Petroleum, Chemicals and Petrochemicals Investment Region) is a large, planned industrial region. One big 'anchor' unit — a refinery or cracker — supplies raw material, and many smaller chemical factories grow around it, sharing roads, ports, power and water. This cluster idea cuts costs.",
+     "te": "PCPIR (పెట్రోలియం, కెమికల్స్ & పెట్రోకెమికల్స్ ఇన్వెస్ట్‌మెంట్ రీజియన్) అంటే ప్రణాళికతో రూపొందించిన భారీ పారిశ్రామిక ప్రాంతం. ఒక పెద్ద 'యాంకర్' యూనిట్ — రిఫైనరీ లేదా క్రాకర్ — ముడిపదార్థం అందిస్తే, దాని చుట్టూ ఎన్నో చిన్న రసాయన పరిశ్రమలు ఏర్పడి రోడ్లు, ఓడరేవులు, విద్యుత్, నీటిని పంచుకుంటాయి. ఈ క్లస్టర్ విధానం ఖర్చు తగ్గిస్తుంది."
+    },
+    {
+     "en": "Three PCPIRs are operational: Dahej (Gujarat), Visakhapatnam–Kakinada (AP) and Paradeep (Odisha). AP's region (640 sq km) has the biggest proposed investment (₹3.43 lakh crore), but the official table (updated Feb 2025) shows its anchor unit as 'yet to be finalized' — so actual investment there (₹18,148 crore) is still small. A PIB backgrounder on the chemicals sector (7 Nov) highlighted these regions.",
+     "te": "మూడు PCPIRలు పనిచేస్తున్నాయి: దహేజ్ (గుజరాత్), విశాఖపట్నం–కాకినాడ (ఏపీ), పారాదీప్ (ఒడిశా). ఏపీ ప్రాంతం (640 చ.కి.మీ.)లో ప్రతిపాదిత పెట్టుబడి అత్యధికం (₹3.43 లక్షల కోట్లు); కానీ అధికారిక పట్టిక (ఫిబ్రవరి 2025 నవీకరణ) ప్రకారం దాని యాంకర్ యూనిట్ 'ఇంకా ఖరారు కాలేదు' — అందుకే అక్కడ వాస్తవ పెట్టుబడి (₹18,148 కోట్లు) ఇంకా తక్కువే. రసాయనాల రంగంపై PIB నేపథ్య పత్రం (7 నవంబర్) ఈ ప్రాంతాలను ప్రస్తావించింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Three PCPIRs",
+      "te": "మూడు PCPIRలు"
+     },
+     {
+      "en": "Dahej (Gujarat) · Visakhapatnam–Kakinada (AP) · Paradeep (Odisha)",
+      "te": "దహేజ్ (గుజరాత్) · విశాఖపట్నం–కాకినాడ (ఏపీ) · పారాదీప్ (ఒడిశా)"
+     }
+    ],
+    [
+     {
+      "en": "Approved",
+      "te": "ఆమోదం"
+     },
+     {
+      "en": "Dahej & Vizag–Kakinada: Feb 2009 · Paradeep: Dec 2010",
+      "te": "దహేజ్, విశాఖ–కాకినాడ: ఫిబ్రవరి 2009 · పారాదీప్: డిసెంబర్ 2010"
+     }
+    ],
+    [
+     {
+      "en": "Total area",
+      "te": "మొత్తం విస్తీర్ణం"
+     },
+     {
+      "en": "Vizag–Kakinada 640 · Dahej 453 · Paradeep 284.15 sq km",
+      "te": "విశాఖ–కాకినాడ 640 · దహేజ్ 453 · పారాదీప్ 284.15 చ.కి.మీ."
+     }
+    ],
+    [
+     {
+      "en": "Anchor tenant",
+      "te": "యాంకర్ యూనిట్"
+     },
+     {
+      "en": "Dahej: ONGC Petro Additions (OPaL) · Paradeep: Indian Oil · Vizag–Kakinada: yet to be finalized",
+      "te": "దహేజ్: ONGC పెట్రో అడిషన్స్ (OPaL) · పారాదీప్: ఇండియన్ ఆయిల్ · విశాఖ–కాకినాడ: ఇంకా ఖరారు కాలేదు"
+     }
+    ],
+    [
+     {
+      "en": "AP PCPIR (official table)",
+      "te": "ఏపీ PCPIR (అధికారిక పట్టిక)"
+     },
+     {
+      "en": "Proposed ₹3,43,000 cr · made ₹18,148 cr · jobs projected 11.98 lakh, generated 1.41 lakh",
+      "te": "ప్రతిపాదిత ₹3,43,000 కోట్లు · వచ్చినది ₹18,148 కోట్లు · ఉద్యోగాలు అంచనా 11.98 లక్షలు, వచ్చినవి 1.41 లక్షలు"
+     }
+    ],
+    [
+     {
+      "en": "All three together",
+      "te": "మూడు కలిపి"
+     },
+     {
+      "en": "₹3,49,192 crore investment · 3.7 lakh jobs · 2,246 units (Aug 2026)",
+      "te": "₹3,49,192 కోట్ల పెట్టుబడి · 3.7 లక్షల ఉద్యోగాలు · 2,246 యూనిట్లు (ఆగస్టు 2026)"
+     }
+    ],
+    [
+     {
+      "en": "FDI",
+      "te": "ఎఫ్‌డీఐ"
+     },
+     {
+      "en": "100% under the automatic route for most chemical sectors",
+      "te": "చాలా రసాయన రంగాల్లో ఆటోమేటిక్ మార్గంలో 100%"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · AP's coastal industrial story",
+     "te": "లింక్ చెయిన్ · ఏపీ తీర పారిశ్రామిక కథ"
+    },
+    "l": [
+     {
+      "en": "Krishna–Godavari (KG) basin gas off the Kakinada coast is the natural feedstock link for petrochemicals",
+      "te": "కాకినాడ తీరంలోని కృష్ణా–గోదావరి (KG) బేసిన్ గ్యాస్ పెట్రోకెమికల్స్‌కు సహజ ముడిపదార్థ అనుసంధానం"
+     },
+     {
+      "en": "Ports: Visakhapatnam (major port) and Kakinada — needed to import crude and export chemicals",
+      "te": "ఓడరేవులు: విశాఖపట్నం (మేజర్ పోర్ట్), కాకినాడ — ముడిచమురు దిగుమతి, రసాయనాల ఎగుమతికి అవసరం"
+     },
+     {
+      "en": "Cluster model = same idea as industrial corridors and SEZs: shared infrastructure, lower cost",
+      "te": "క్లస్టర్ నమూనా = పారిశ్రామిక కారిడార్లు, SEZల లాంటిదే: ఉమ్మడి మౌలిక వసతులు, తక్కువ ఖర్చు"
+     },
+     {
+      "en": "Centre gave viability gap funding (VGF) for PCPIR infrastructure — ₹1,206.80 crore for AP's region",
+      "te": "PCPIR మౌలిక వసతులకు కేంద్రం వయబిలిటీ గ్యాప్ ఫండింగ్ (VGF) ఇచ్చింది — ఏపీ ప్రాంతానికి ₹1,206.80 కోట్లు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Largest PCPIR by AREA and by PROPOSED investment = Visakhapatnam–Kakinada (AP); largest by investment actually MADE = Dahej (Gujarat). Paradeep was approved later (Dec 2010), not in 2009.",
+    "te": "విస్తీర్ణం, ప్రతిపాదిత పెట్టుబడిలో అతిపెద్ద PCPIR = విశాఖపట్నం–కాకినాడ (ఏపీ); వాస్తవంగా వచ్చిన పెట్టుబడిలో అతిపెద్దది = దహేజ్ (గుజరాత్). పారాదీప్ ఆమోదం తర్వాత (డిసెంబర్ 2010), 2009లో కాదు."
+   },
+   "tip": {
+    "en": "'D-V-P' west to east along the coast: Dahej (Gujarat) → Vizag (AP) → Paradeep (Odisha); AP = 640 = biggest.",
+    "te": "'D-V-P' — దహేజ్ (గుజరాత్), విశాఖ (ఏపీ), పారాదీప్ (ఒడిశా); ఏపీ = 640 = అతిపెద్దది."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about Petroleum, Chemicals and Petrochemicals Investment Regions (PCPIRs):",
+     "te": "పెట్రోలియం, కెమికల్స్ & పెట్రోకెమికల్స్ ఇన్వెస్ట్‌మెంట్ రీజియన్ల (PCPIRలు)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The Visakhapatnam–Kakinada PCPIR has the largest total area among the three PCPIRs.",
+      "te": "I. మూడు PCPIRలలో విశాఖపట్నం–కాకినాడ PCPIR మొత్తం విస్తీర్ణం అత్యధికం."
+     },
+     {
+      "en": "II. Indian Oil Corporation is the anchor tenant of the Visakhapatnam–Kakinada PCPIR.",
+      "te": "II. విశాఖపట్నం–కాకినాడ PCPIRకు ఇండియన్ ఆయిల్ కార్పొరేషన్ యాంకర్ యూనిట్."
+     },
+     {
+      "en": "III. The Paradeep PCPIR was approved after the Dahej PCPIR.",
+      "te": "III. దహేజ్ PCPIR తర్వాత పారాదీప్ PCPIR ఆమోదం పొందింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II is wrong: Indian Oil is the anchor at Paradeep; the anchor for Vizag–Kakinada is 'yet to be finalized' in the official table.",
+     "te": "II తప్పు: ఇండియన్ ఆయిల్ పారాదీప్‌కు యాంకర్; విశాఖ–కాకినాడ యాంకర్ అధికారిక పట్టికలో 'ఇంకా ఖరారు కాలేదు'."
+    }
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "India's three PCPIRs — all on the coast",
+      "te": "భారత్‌లోని మూడు PCPIRలు — అన్నీ తీరంలోనే"
+     },
+     "view": "india",
+     "hl": [
+      "Gujarat",
+      "Andhra Pradesh",
+      "Odisha"
+     ],
+     "hlc": "#2c5d63",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        21.7,
+        72.58
+       ],
+       "t": {
+        "en": "Dahej",
+        "te": "దహేజ్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        17.69,
+        83.22
+       ],
+       "t": {
+        "en": "Visakhapatnam",
+        "te": "విశాఖపట్నం"
+       }
+      },
+      {
+       "ll": [
+        16.99,
+        82.25
+       ],
+       "t": {
+        "en": "Kakinada",
+        "te": "కాకినాడ"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        20.32,
+        86.61
+       ],
+       "t": {
+        "en": "Paradeep",
+        "te": "పారాదీప్"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Coastal sites = easy import of crude oil and export of chemicals. AP's region stretches between Visakhapatnam and Kakinada.",
+      "te": "తీర ప్రాంతాలు = ముడిచమురు దిగుమతి, రసాయనాల ఎగుమతి సులభం. ఏపీ ప్రాంతం విశాఖపట్నం–కాకినాడ మధ్య విస్తరించింది."
+     },
+     "src": "cards/2026-11-08/map-pcpir-1-{m}.svg"
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "Total area of each PCPIR (sq km)",
+      "te": "ఒక్కో PCPIR మొత్తం విస్తీర్ణం (చ.కి.మీ.)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Visakhapatnam–Kakinada (AP)",
+        "te": "విశాఖ–కాకినాడ (ఏపీ)"
+       },
+       "v": 640,
+       "vl": "640"
+      },
+      {
+       "t": {
+        "en": "Dahej (Gujarat)",
+        "te": "దహేజ్ (గుజరాత్)"
+       },
+       "v": 453,
+       "vl": "453"
+      },
+      {
+       "t": {
+        "en": "Paradeep (Odisha)",
+        "te": "పారాదీప్ (ఒడిశా)"
+       },
+       "v": 284.15,
+       "vl": "284.15"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Department of Chemicals & Petrochemicals — PCPIR status table (last updated 3 Feb 2025)",
+     "u": "https://chemicals.gov.in/pcpir"
+    },
+    {
+     "t": "Indian Chemical News — Dahej, Vizag and Paradeep PCPIRs attract ₹3,49,192 crore investment, 6 Aug 2026",
+     "u": "https://www.indianchemicalnews.com/chemical/dahej-vizag-and-paradeep-pcpirs-attract-rs-349192-crore-investment-31397"
+    },
+    {
+     "t": "CrackTarget — Current Affairs 7 Nov 2026 (summary of PIB chemicals backgrounder; cross-check only)",
+     "u": "https://cracktarget.com/current-affairs-7-november-2026/"
+    }
+   ],
+   "mains": {
+    "en": "The Visakhapatnam–Kakinada PCPIR has the largest planned investment but limited actual investment so far. Discuss the role of an anchor unit in cluster-based industrialisation and suggest steps to make AP's PCPIR succeed.",
+    "te": "విశాఖపట్నం–కాకినాడ PCPIRలో ప్రణాళికాబద్ధ పెట్టుబడి అత్యధికమైనా వాస్తవ పెట్టుబడి ఇప్పటివరకు పరిమితం. క్లస్టర్ ఆధారిత పారిశ్రామికీకరణలో యాంకర్ యూనిట్ పాత్రను చర్చించి, ఏపీ PCPIR విజయానికి చర్యలు సూచించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "demonet",
+   "q": {
+    "en": "Consider the following statements about the Supreme Court's 2023 verdict on demonetisation:",
+    "te": "నోట్ల రద్దుపై 2023 సుప్రీంకోర్టు తీర్పుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. A five-judge bench upheld the decision by a 4:1 majority.",
+     "te": "I. ఐదుగురు న్యాయమూర్తుల ధర్మాసనం 4:1 మెజారిటీతో నిర్ణయాన్ని సమర్థించింది."
+    },
+    {
+     "en": "II. The majority held that the decision was illegal because its objectives were not achieved.",
+     "te": "II. లక్ష్యాలు నెరవేరనందున నిర్ణయం చట్టవిరుద్ధమని మెజారిటీ తేల్చింది."
+    },
+    {
+     "en": "III. The dissenting judge said scrapping all series needed a law of Parliament, not a gazette notification.",
+     "te": "III. అన్ని సిరీస్‌ల రద్దుకు గెజిట్ నోటిఫికేషన్ కాదు, పార్లమెంటు చట్టం కావాలని భిన్నాభిప్రాయ న్యాయమూర్తి అన్నారు."
+    },
+    {
+     "en": "IV. The 52-day exchange window was held to be not unreasonable.",
+     "te": "IV. 52 రోజుల మార్పిడి గడువు అసమంజసం కాదని కోర్టు చెప్పింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is wrong: the majority said whether the aims were achieved is NOT relevant to legality; it found a reasonable nexus with the aims and upheld the decision.",
+    "te": "II తప్పు: లక్ష్యాలు నెరవేరాయా అనేది చట్టబద్ధతకు సంబంధం లేదని మెజారిటీ చెప్పింది; లక్ష్యాలతో సహేతుక సంబంధం ఉందని నిర్ణయాన్ని సమర్థించింది."
+   }
+  },
+  {
+   "topic": "demonet",
+   "q": {
+    "en": "Which of the following statements about demonetisation (2016) is/are INCORRECT?",
+    "te": "నోట్ల రద్దు (2016)కు సంబంధించి కింది వాటిలో తప్పు వాక్యం/వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. Old ₹1,000 notes in circulation were worth more than old ₹500 notes.",
+     "te": "I. చలామణిలో పాత ₹500 నోట్ల కంటే పాత ₹1,000 నోట్ల విలువ ఎక్కువ."
+    },
+    {
+     "en": "II. Notes worth about ₹10,720 crore did not return to the banking system.",
+     "te": "II. సుమారు ₹10,720 కోట్ల విలువైన నోట్లు బ్యాంకింగ్ వ్యవస్థకు తిరిగి రాలేదు."
+    },
+    {
+     "en": "III. The power used is in the Reserve Bank of India Act, 1934.",
+     "te": "III. వినియోగించిన అధికారం రిజర్వ్ బ్యాంక్ ఆఫ్ ఇండియా చట్టం, 1934లో ఉంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "None of the above",
+     "te": "ఏదీ కాదు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Only I is incorrect: ₹500 SBNs were worth ₹8,56,445 crore, more than ₹1,000 SBNs (₹6,85,348 crore). II and III are correct (Section 26(2), RBI Act).",
+    "te": "I మాత్రమే తప్పు: ₹500 SBNల విలువ ₹8,56,445 కోట్లు — ₹1,000 SBNల (₹6,85,348 కోట్లు) కంటే ఎక్కువ. II, III సరైనవి (RBI చట్టం సెక్షన్ 26(2))."
+   }
+  },
+  {
+   "topic": "xray",
+   "q": {
+    "en": "Consider the following statements about Wilhelm Röntgen:",
+    "te": "విల్‌హెల్మ్ రాంట్‌జెన్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. He discovered X-rays at the University of Würzburg in November 1895.",
+     "te": "I. 1895 నవంబర్‌లో వుర్జ్‌బర్గ్ విశ్వవిద్యాలయంలో ఎక్స్-కిరణాలను కనుగొన్నారు."
+    },
+    {
+     "en": "II. He named them 'X' because their nature was unknown.",
+     "te": "II. వాటి స్వభావం తెలియనందున 'X' అని పేరు పెట్టారు."
+    },
+    {
+     "en": "III. He shared the first Nobel Prize in Physics with Marie Curie.",
+     "te": "III. తొలి భౌతికశాస్త్ర నోబెల్‌ను మేరీ క్యూరీతో పంచుకున్నారు."
+    },
+    {
+     "en": "IV. World Radiography Day is observed on his birthday.",
+     "te": "IV. ఆయన జయంతి రోజున ప్రపంచ రేడియోగ్రఫీ దినోత్సవం జరుపుతారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "III is wrong: the 1901 Physics Nobel went to Röntgen alone. IV is wrong: 8 Nov marks the discovery; his birthday is 27 March.",
+    "te": "III తప్పు: 1901 భౌతిక నోబెల్ రాంట్‌జెన్ ఒక్కరికే. IV తప్పు: 8 నవంబర్ ఆవిష్కరణ దినం; ఆయన జయంతి 27 మార్చి."
+   }
+  },
+  {
+   "topic": "xray",
+   "q": {
+    "en": "Match List-I with List-II:",
+    "te": "జాబితా-I ని జాబితా-II తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. 1895 — 1. First Nobel Prize in Physics",
+     "te": "A. 1895 — 1. తొలి భౌతికశాస్త్ర నోబెల్"
+    },
+    {
+     "en": "B. 1901 — 2. ISRRT begins World Radiography Day",
+     "te": "B. 1901 — 2. ISRRT ప్రపంచ రేడియోగ్రఫీ దినోత్సవం ప్రారంభం"
+    },
+    {
+     "en": "C. 2007 — 3. 'Hand mit Ringen' X-ray photograph",
+     "te": "C. 2007 — 3. 'హ్యాండ్ మిట్ రింగెన్' ఎక్స్-రే చిత్రం"
+    },
+    {
+     "en": "D. 2026 — 4. 15th International Day of Radiology (emergency radiology)",
+     "te": "D. 2026 — 4. 15వ అంతర్జాతీయ రేడియాలజీ దినోత్సవం (అత్యవసర రేడియాలజీ)"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-1, B-3, C-2, D-4",
+     "te": "A-1, B-3, C-2, D-4"
+    },
+    {
+     "en": "A-3, B-2, C-1, D-4",
+     "te": "A-3, B-2, C-1, D-4"
+    },
+    {
+     "en": "A-2, B-1, C-3, D-4",
+     "te": "A-2, B-1, C-3, D-4"
+    },
+    {
+     "en": "A-3, B-1, C-2, D-4",
+     "te": "A-3, B-1, C-2, D-4"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "1895 = wife's-hand X-ray (22 Dec); 1901 = first Physics Nobel; 2007 = ISRRT's World Radiography Day; 2026 = 15th IDoR. Trap: 1895 is not the Nobel year.",
+    "te": "1895 = భార్య చేతి ఎక్స్-రే (22 డిసెంబర్); 1901 = తొలి భౌతిక నోబెల్; 2007 = ISRRT రేడియోగ్రఫీ దినోత్సవం; 2026 = 15వ IDoR. ఉచ్చు: 1895 నోబెల్ సంవత్సరం కాదు."
+   }
+  },
+  {
+   "topic": "mow",
+   "q": {
+    "en": "Consider the following statements about UNESCO's Memory of the World (MoW) programme:",
+    "te": "యునెస్కో మెమరీ ఆఫ్ ది వరల్డ్ (MoW) కార్యక్రమానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It protects documentary heritage such as manuscripts and archives.",
+     "te": "I. ఇది రాతప్రతులు, ఆర్కైవ్‌ల వంటి డాక్యుమెంటరీ వారసత్వాన్ని రక్షిస్తుంది."
+    },
+    {
+     "en": "II. In 2026 the Mahabharata, Arthashastra and Rajatarangini manuscripts were added to its International Register.",
+     "te": "II. 2026లో మహాభారతం, అర్థశాస్త్రం, రాజతరంగిణి ప్రతులు దీని అంతర్జాతీయ రిజిస్టర్‌లో చేరాయి."
+    },
+    {
+     "en": "III. The Bhagavad Gita and Natyashastra manuscripts were added to the International Register in 2025.",
+     "te": "III. భగవద్గీత, నాట్యశాస్త్రం ప్రతులు 2025లో అంతర్జాతీయ రిజిస్టర్‌లో చేరాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II is wrong: the 2026 additions are on the Asia-Pacific REGIONAL register (11th session, Jakarta), not the International Register.",
+    "te": "II తప్పు: 2026 చేరికలు ఆసియా-పసిఫిక్ ప్రాంతీయ రిజిస్టర్‌లో (11వ సమావేశం, జకార్తా), అంతర్జాతీయ రిజిస్టర్‌లో కాదు."
+   }
+  },
+  {
+   "topic": "mow",
+   "q": {
+    "en": "With reference to the three Indian manuscripts added to the Asia-Pacific register in 2026, which of the following statements is/are correct?",
+    "te": "2026లో ఆసియా-పసిఫిక్ రిజిస్టర్‌లో చేరిన మూడు భారతీయ ప్రతులకు సంబంధించి కింది వాటిలో సరైనది/సరైనవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. The Arthashastra manuscript is a palm-leaf text in Grantha script.",
+     "te": "I. అర్థశాస్త్ర ప్రతి గ్రంథ లిపిలోని తాళపత్ర గ్రంథం."
+    },
+    {
+     "en": "II. The Mahabharata manuscript is on birch bark and was acquired in Kashmir by Georg Bühler.",
+     "te": "II. మహాభారత ప్రతి భూర్జపత్రంపై ఉంది; దీన్ని జార్జ్ బ్యూలర్ కశ్మీర్‌లో సేకరించారు."
+    },
+    {
+     "en": "III. The Rajatarangini was composed by Kautilya in the 12th century.",
+     "te": "III. రాజతరంగిణిని 12వ శతాబ్దంలో కౌటిల్యుడు రచించాడు."
+    },
+    {
+     "en": "IV. India now has six entries on the Asia-Pacific regional register.",
+     "te": "IV. ఆసియా-పసిఫిక్ ప్రాంతీయ రిజిస్టర్‌లో భారత్ ఎంట్రీలు ఇప్పుడు ఆరు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "III is wrong: Rajatarangini is by Kalhana (12th-century Kashmiri historian); Kautilya is linked with the Arthashastra.",
+    "te": "III తప్పు: రాజతరంగిణి కల్హణుడిది (12వ శతాబ్దపు కశ్మీరీ చరిత్రకారుడు); కౌటిల్యుడు అర్థశాస్త్ర రచయిత."
+   }
+  },
+  {
+   "topic": "art22",
+   "q": {
+    "en": "Consider the following statements about the Supreme Court's ruling in Sujit Das v. Union of India (2026):",
+    "te": "సుజిత్ దాస్ v. యూనియన్ ఆఫ్ ఇండియా (2026) సుప్రీంకోర్టు తీర్పుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The words 'arrested' and 'detained' in Article 22(2) must be read together.",
+     "te": "I. ఆర్టికల్ 22(2)లోని 'అరెస్టు', 'నిర్బంధం' పదాలను కలిపి చదవాలి."
+    },
+    {
+     "en": "II. If a person is not produced within 24 hours of detention, he must be released forthwith.",
+     "te": "II. నిర్బంధం నుంచి 24 గంటల్లో హాజరుపరచకపోతే వెంటనే విడుదల చేయాలి."
+    },
+    {
+     "en": "III. Under special laws like the NDPS Act, the 24-hour period can be extended by the police.",
+     "te": "III. NDPS వంటి ప్రత్యేక చట్టాల కింద 24 గంటల గడువును పోలీసులు పొడిగించవచ్చు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is wrong: the Court said a statute, special or otherwise, cannot be a guide to the Constitution — the NDPS Act cannot stretch Article 22(2).",
+    "te": "III తప్పు: ప్రత్యేకమైనదైనా ఏ చట్టమూ రాజ్యాంగానికి మార్గదర్శి కాదని కోర్టు చెప్పింది — NDPS చట్టం ఆర్టికల్ 22(2)ను సాగదీయలేదు."
+   }
+  },
+  {
+   "topic": "art22",
+   "q": {
+    "en": "A person is detained by police at 10 am on Monday during a search, shown as arrested at 6 am on Tuesday, and produced before a magistrate at 1 pm on Tuesday. The journey to court took 1 hour. Applying the Supreme Court's 2026 ruling, which of the following is/are correct?",
+    "te": "సోదా సమయంలో సోమవారం ఉదయం 10 గంటలకు ఒక వ్యక్తిని పోలీసులు నిర్బంధించారు, మంగళవారం ఉదయం 6 గంటలకు అరెస్టు చూపారు, మంగళవారం మధ్యాహ్నం 1 గంటకు మేజిస్ట్రేట్ ముందు హాజరుపరిచారు. కోర్టుకు ప్రయాణం 1 గంట. 2026 సుప్రీంకోర్టు తీర్పు ప్రకారం కింది వాటిలో సరైనది/సరైనవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. The clock starts at 6 am on Tuesday, so the production is within time.",
+     "te": "I. గడువు మంగళవారం ఉదయం 6 నుంచి మొదలవుతుంది, కాబట్టి హాజరు సకాలంలోనే."
+    },
+    {
+     "en": "II. Even after excluding the 1-hour journey, the detention exceeded 24 hours.",
+     "te": "II. 1 గంట ప్రయాణం మినహాయించినా నిర్బంధం 24 గంటలు దాటింది."
+    },
+    {
+     "en": "III. The magistrate should record the actual time of detention (10 am Monday).",
+     "te": "III. మేజిస్ట్రేట్ అసలు నిర్బంధ సమయాన్ని (సోమవారం ఉ. 10) నమోదు చేయాలి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "III only",
+     "te": "III మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "10 am Mon to 1 pm Tue = 27 h; minus 1 h journey = 26 h > 24 h. I is wrong because the clock runs from actual detention, not the 'arrest' shown on paper.",
+    "te": "సోమ ఉ. 10 నుంచి మంగళ మ. 1 = 27 గంటలు; 1 గంట ప్రయాణం తీసేస్తే 26 గంటలు > 24. I తప్పు — గడువు కాగితంపై చూపిన 'అరెస్టు' నుంచి కాదు, అసలు నిర్బంధం నుంచే."
+   }
+  },
+  {
+   "topic": "pcpir",
+   "q": {
+    "en": "Which of the following statements about the Visakhapatnam–Kakinada PCPIR is/are correct, as per the Department of Chemicals & Petrochemicals table?",
+    "te": "రసాయనాల & పెట్రోకెమికల్స్ శాఖ పట్టిక ప్రకారం విశాఖపట్నం–కాకినాడ PCPIRకు సంబంధించి కింది వాటిలో సరైనది/సరైనవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. It was approved in February 2009.",
+     "te": "I. ఇది ఫిబ్రవరి 2009లో ఆమోదం పొందింది."
+    },
+    {
+     "en": "II. Its proposed investment is the highest among the three PCPIRs.",
+     "te": "II. మూడు PCPIRలలో దీని ప్రతిపాదిత పెట్టుబడి అత్యధికం."
+    },
+    {
+     "en": "III. It has attracted the highest actual investment among the three PCPIRs.",
+     "te": "III. మూడు PCPIRలలో దీనికే అత్యధిక వాస్తవ పెట్టుబడి వచ్చింది."
+    },
+    {
+     "en": "IV. Its anchor tenant is yet to be finalised.",
+     "te": "IV. దీని యాంకర్ యూనిట్ ఇంకా ఖరారు కాలేదు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "III is wrong: actual investment made is highest at Dahej (₹1,24,137 cr); Vizag–Kakinada has ₹18,148 cr made against ₹3,43,000 cr proposed.",
+    "te": "III తప్పు: వాస్తవ పెట్టుబడి దహేజ్‌లో అత్యధికం (₹1,24,137 కోట్లు); విశాఖ–కాకినాడలో ప్రతిపాదిత ₹3,43,000 కోట్లకు గాను వచ్చింది ₹18,148 కోట్లు."
+   }
+  },
+  {
+   "topic": "pcpir",
+   "q": {
+    "en": "Match the PCPIR (List-I) with its State/feature (List-II):",
+    "te": "PCPIR (జాబితా-I)ను దాని రాష్ట్రం/ప్రత్యేకత (జాబితా-II)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. Dahej — 1. Odisha; anchor Indian Oil; approved Dec 2010",
+     "te": "A. దహేజ్ — 1. ఒడిశా; యాంకర్ ఇండియన్ ఆయిల్; ఆమోదం డిసెంబర్ 2010"
+    },
+    {
+     "en": "B. Visakhapatnam–Kakinada — 2. Gujarat; anchor ONGC Petro Additions (OPaL)",
+     "te": "B. విశాఖపట్నం–కాకినాడ — 2. గుజరాత్; యాంకర్ ONGC పెట్రో అడిషన్స్ (OPaL)"
+    },
+    {
+     "en": "C. Paradeep — 3. Andhra Pradesh; largest area, 640 sq km",
+     "te": "C. పారాదీప్ — 3. ఆంధ్రప్రదేశ్; అతిపెద్ద విస్తీర్ణం, 640 చ.కి.మీ."
+    }
+   ],
+   "o": [
+    {
+     "en": "A-1, B-3, C-2",
+     "te": "A-1, B-3, C-2"
+    },
+    {
+     "en": "A-2, B-3, C-1",
+     "te": "A-2, B-3, C-1"
+    },
+    {
+     "en": "A-3, B-2, C-1",
+     "te": "A-3, B-2, C-1"
+    },
+    {
+     "en": "A-2, B-1, C-3",
+     "te": "A-2, B-1, C-3"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Dahej = Gujarat (OPaL); Vizag–Kakinada = AP (640 sq km, largest); Paradeep = Odisha (Indian Oil, approved Dec 2010). Trap: Indian Oil is at Paradeep, not in AP.",
+    "te": "దహేజ్ = గుజరాత్ (OPaL); విశాఖ–కాకినాడ = ఏపీ (640 చ.కి.మీ., అతిపెద్దది); పారాదీప్ = ఒడిశా (ఇండియన్ ఆయిల్, ఆమోదం డిసెంబర్ 2010). ఉచ్చు: ఇండియన్ ఆయిల్ పారాదీప్‌లో, ఏపీలో కాదు."
+   }
+  }
+ ]
+}
