@@ -944,7 +944,7 @@ function targetJodiSearch(rows, query, activeDays=['Mon','Tue','Wed','Thu','Fri'
  const target=String(Number(match[1])).padStart(2,'0'), offset=Number(match[2]);
  if(offset<1)return {error:'Offset must be 1 or greater.'};
  const days=activeDays;
- const hasTarget=row=>days.some(day=>{const value=String(row[day+' Jodi']??'').trim();return /^\\d{2}$/.test(value)&&value===target;});
+ const hasTarget=row=>days.some(day=>{const value=String(row[day+' Jodi']??'').trim();return /^\d{2}$/.test(value)&&value===target;});
  const targetIndexes=[];
  rows.forEach((row,i)=>{if(hasTarget(row))targetIndexes.push(i);});
  const selected=new Set();
@@ -1097,7 +1097,7 @@ function renderChart(){
   // Linked Jodi Logic follows the exact same Jodi+gap rule as normal search.
   // The search value is always read from the input; no Jodi or gap is hardcoded.
   const days=repeatDays,valid=v=>/^\d{2}$/.test(String(v??'').trim());
-  const match=q.match(/^(\d{1,2})\\+(\d{1,2})$/);
+  const match=q.replace(/\s+/g,'').match(/^(\d{1,2})\+(\d{1,2})$/);
   if(!match){
    $('count').textContent='Enter Jodi + gap';
    stats.hidden=true;
