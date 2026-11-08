@@ -1108,7 +1108,7 @@ function renderChart(){
   function savePattern(start,duplicate,steps,nextGap,nextJodi,failedAt){
    // Keep completed historical chains, plus a fresh duplicate in the latest
    // published row as a pending first link for the About to Come section.
-   if(steps.length<1)return;
+   if(steps.length<2)return;
    const gapMode=steps.length>1?(steps.every(x=>x.gap===steps[0].gap)?'same':steps.every((x,i)=>i===0||x.gap===steps[i-1].gap+1)?'increasing':'mixed'):'single';
    if(gapMode==='mixed')return;
    const key=start+':'+duplicate+':'+gapMode+':'+steps.map(x=>x.from+'>'+x.to+':'+x.jodi+':'+x.gap).join('|');
@@ -1208,11 +1208,6 @@ function renderChart(){
   };
   const linkedContent=timingSection('THIS WEEK · ALREADY OCCURRED',occurred,'#166534')+timingSection('THIS WEEK · STILL DUE',due,'#b45309')+[...futureBuckets.keys()].sort((a,b)=>a-b).map(n=>timingSection(n===1?'NEXT WEEK':n+' WEEKS LATER',futureBuckets.get(n),'#1d4ed8')).join('');
    $('tableArea').innerHTML='<div class="repeat-page"><h3>'+(view==='linked'?'LINKED JODI SEQUENCES':'SEPARATE LINKED JODI SEARCH')+' · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">'+linkedIntro+'</p>'+(view==='linked'?linkedContent:(cards||'<div class="empty">No linked patterns found.</div>'))+'</div>';
-  return;
- }
- if(view==='repeat'||$('daySearch').value==='repeat-gap'){
-  const days=repeatDays, valid=v=>/^\d{2}$/.test(String(v??'').trim());
-  // Exclude fully closed weeks (blank, dots, stars or other placeholders) fr   $('tableArea').innerHTML='<div class="repeat-page"><h3>LINKED JODI SEQUENCES · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">'+linkedIntro+'</p>'+linkedContent+'</div>';
   return;
  }
  if(view==='repeat'||$('daySearch').value==='repeat-gap'){
