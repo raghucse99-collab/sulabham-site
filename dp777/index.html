@@ -1094,192 +1094,85 @@ function renderChart(){
  const yr=$('year').value, q=$('search').value.trim();
 
  if(view==='linked'||$('daySearch').value==='linked-increasing'){
-  // Independent linked-chain search. Existing repeat searches remain untouched.
-  // Start at a weekly row containing a duplicated Jodi. A Jodi from that row
-  // must recur in the next row (0 intervening rows). From that recurrence row,
-  // the next link must recur with 1 intervening row, then 2, then 3, etc.
-  const days=repeatDays,valid=v=>/^\d{2}$/.test(String(v??'').trim());
-  const playingRows=sortOldestFirst(chartRows.filter(row=>days.some(day=>valid(row[day+' Jodi']))));
-  const rowValues=playingRows.map(row=>days.map(day=>String(row[day+' Jodi']??'').trim()).filter(valid));
-  const rowSets=rowValues.map(values=>new Set(values));
-  const duplicateValues=rowValues.map(values=>[...new Set(values.filter((v,i)=>values.indexOf(v)!==i))]);
-  const found=new Map(),query=q.replace(/\s+/g,''),MAX_NODES=250000;
-  let visitedNodes=0;
-  function savePattern(start,duplicate,steps,nextGap,nextJodi,failedAt){
-   // Keep completed historical chains, plus a fresh duplicate in the latest
-   // published row as a pending first link for the About to Come section.
-   if(steps.length<2)return;
-   const gapMode=steps.length>1?(steps.every(x=>x.gap===steps[0].gap)?'same':steps.every((x,i)=>i===0||x.gap===steps[i-1].gap+1)?'increasing':'mixed'):'single';
-   if(gapMode==='mixed')return;
-   const key=start+':'+duplicate+':'+gapMode+':'+steps.map(x=>x.from+'>'+x.to+':'+x.jodi+':'+x.gap).join('|');
-   if(!found.has(key))found.set(key,{start,duplicate,steps:steps.slice(),nextGap,nextJodi,failedAt});
+  // Linked Jodi Logic follows the exact same Jodi+gap rule as normal search.
+  // The search value is always read from the input; no Jodi or gap is hardcoded.
+  const days=repeatDays,valid=v=>/^\\d{2}$/.test(String(v??'').trim());
+  const match=q.match(/^(\\d{1,2})\\+(\\d{1,2})$/);
+  if(!match){
+   $('count').textContent='Enter Jodi + gap';
+   stats.hidden=true;
+   $('tableArea').innerHTML='<div class="empty"><strong>Enter a Jodi + gap search first.</strong>Examples: 28+7, 10+2, 45+3, 00+5. Linked Jodi Logic uses the same target-row method as normal Jodi Search.</div>';
+   return;
   }
-  function walk(start,at,connector,gap,steps,used,duplicate){
-   if(++visitedNodes>MAX_NODES){savePattern(start,duplicate,steps,gap,connector);return;}
-   const target=at+gap+1;
-   if(target>=playingRows.length){savePattern(start,duplicate,steps,gap,connector);return;}
-   if(!rowSets[target].has(connector)){
-    savePattern(start,duplicate,steps,gap,connector,target);
-    return;
-   }
-   const nextSteps=steps.concat([{from:at,to:target,jodi:connector,gap}]);
-   const available=[...rowSets[target]].filter(v=>!used.has(v));
-   if(!available.length){savePattern(start,duplicate,nextSteps,gap+1,'');return;}
-   for(const next of available){
-    const nextUsed=new Set([...used,connector]);
-    // Keep two independent paths: one with a fixed gap, another
-    // with a gap that increases by exactly one at each link.
-    walk(start,target,next,gap,nextSteps,nextUsed,duplicate);
-    if(visitedNodes<=MAX_NODES)walk(start,target,next,gap+1,nextSteps,nextUsed,duplicate);
-    if(visitedNodes>MAX_NODES)break;
-   }
+  const targetJodi=String(Number(match[1])).padStart(2,'0'),gap=Number(match[2]);
+  if(gap<1){
+   $('count').textContent='Invalid gap';stats.hidden=true;
+   $('tableArea').innerHTML='<div class="empty"><strong>Gap must be 1 or greater.</strong>Enter a search such as 28+7 or 10+2.</div>';
+   return;
   }
-  for(let i=0;i<playingRows.length;i++){
-   for(const duplicate of duplicateValues[i]){
-    // "Any number from that line" may be the duplicate itself or another Jodi.
-    for(const connector of rowSets[i]){
-     // The first recurrence may be in the next playing week or farther ahead.
-     // For each possible first gap, later links branch into fixed-gap and
-     // increasing-by-one sequences.
-     for(let firstGap=0;i+firstGap+1<playingRows.length;firstGap++){
-      walk(i,i,connector,firstGap,[],new Set([duplicate]),duplicate);
-      if(visitedNodes>MAX_NODES)break;
-     }
-     if(visitedNodes>MAX_NODES)break;
+  const playingRows=displayRows;
+  const latest=playingRows.length-1;
+  const hasTarget=row=>days.some(day=>String(row?.[day+' Jodi']??'').trim().padStart(2,'0')===targetJodi);
+  const sourceIndexes=[];
+  playingRows.forEach((row,i)=>{if(hasTarget(row))sourceIndexes.push(i);});
+  const paths=[];
+  sourceIndexes.forEach(source=>{
+   let from=source,guard=new Set();
+   while(!guard.has(from)){
+    guard.add(from);
+    const to=from+gap;
+    const item={source,from,to,sourceDate:playingRows[from]?.date||'',targetDate:playingRows[to]?.date||'',targetJodi};
+    if(to>latest){
+     item.status=to-latest<=3?'future':'outside';
+     item.wait=to-latest;
+     paths.push(item);
+     break;
     }
-    if(visitedNodes>MAX_NODES)break;
-   }
-   if(visitedNodes>MAX_NODES)break;
-  }
-  let patterns=[...found.values()];
-  if(query)patterns=patterns.filter(p=>p.duplicate===query||p.steps.some(step=>step.jodi===query));
-  patterns.sort((a,b)=>b.steps.length-a.steps.length||a.start-b.start);
-  function mergeFinalJodiSiblings(list){
-   const groups=new Map();
-   list.forEach(p=>{
-    const key=p.start+':'+p.duplicate+':'+p.steps.map(x=>x.from+'-'+x.to+'-'+x.gap).join('|');
-    if(!groups.has(key)){
-     groups.set(key,{...p,steps:p.steps.map(x=>({...x,jodis:[x.jodi]}))});
+    if(to===latest){
+     item.status=hasTarget(playingRows[to])?'occurred':'due';
+     paths.push(item);
+    }else if(hasTarget(playingRows[to])){
+     item.status='history';
+     paths.push(item);
+     from=to;
     }else{
-     const g=groups.get(key);
-     p.steps.forEach((step,i)=>{
-      const values=g.steps[i].jodis;
-      if(!values.includes(step.jodi))values.push(step.jodi);
-     });
-     // Retain the continuation state from the branch with the furthest valid continuation.
-     if((p.steps.length||0)>(g.steps.length||0)){g.nextGap=p.nextGap;g.nextJodi=p.nextJodi;g.failedAt=p.failedAt;}
+     item.status='history';
+     paths.push(item);
+     break;
     }
-   });
-   return [...groups.values()];
-  }
-  patterns=mergeFinalJodiSiblings(patterns);
-  const latestIndex=playingRows.length-1;
-  const patternKey=p=>p.start+':'+p.duplicate+':'+p.steps.map(x=>x.from+'-'+x.to+'-'+x.gap).join('|');
-  const uniquePatterns=[...new Map(patterns.map(p=>[patternKey(p),p])).values()];
-  const occurred=uniquePatterns.filter(p=>p.steps.some(step=>step.to===latestIndex));
-  const due=uniquePatterns.filter(p=>p.failedAt===latestIndex&&!p.steps.some(step=>step.to===latestIndex));
+   }
+  });
+  const relevant=paths.filter(p=>p.status==='occurred'||p.status==='due'||p.status==='future');
+  const occurred=relevant.filter(p=>p.status==='occurred');
+  const due=relevant.filter(p=>p.status==='due');
   const futureBuckets=new Map();
-  uniquePatterns.forEach(p=>{if(p.failedAt!==undefined||p.steps.some(step=>step.to===latestIndex)||!p.nextJodi)return;const last=p.steps[p.steps.length-1]?.to??p.start,target=last+p.nextGap+1,wait=target-latestIndex;if(wait>=1&&wait<=3){if(!futureBuckets.has(wait))futureBuckets.set(wait,[]);futureBuckets.get(wait).push(p);}});
-  const activeAll=mergeFinalJodiSiblings([...occurred,...due,...[...futureBuckets.values()].flat()]);
-  $('count').textContent=view==='linked'?('ఈ వారం వచ్చింది: '+occurred.length+' · ఈ వారం రావాల్సి ఉంది: '+due.length+' · Next week: '+(futureBuckets.get(1)?.length||0)+' · 2 weeks: '+(futureBuckets.get(2)?.length||0)+' · 3 weeks: '+(futureBuckets.get(3)?.length||0)):patterns.length+' linked patterns';
+  relevant.filter(p=>p.status==='future').forEach(p=>{if(!futureBuckets.has(p.wait))futureBuckets.set(p.wait,[]);futureBuckets.get(p.wait).push(p);});
+  const labels={occurred:'THIS WEEK · ALREADY OCCURRED',due:'THIS WEEK · STILL DUE'};
+  const escDate=v=>esc(String(v||''));
+  function linkedCard(p,index){
+   const source=p.from,target=p.to,shownStart=Math.max(0,Math.min(source,latest)-2),shownEnd=Math.min(latest,Math.max(source,Math.min(target,latest))+2);
+   const rows=playingRows.slice(shownStart,shownEnd+1);
+   const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+rows.map((row,k)=>{
+    const ix=shownStart+k,sourceRow=ix===source,targetRow=ix===target;
+    const date=escDate(row.date||'');
+    return '<tr class="'+(ix===latest?'repeat-current-week':'')+'"><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+date+'</small>'+(ix===latest?'<em>THIS WEEK</em>':'')+'</td>'+days.map(d=>{
+     const value=String(row[d+' Jodi']??'').trim(),hit=valid(value)&&value===targetJodi&&(sourceRow||targetRow);
+     return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(value)?(hit?'<strong>'+esc(value)+'</strong>':esc(value)):'·')+'</td>';
+    }).join('')+'</tr>';
+   }).join('')+'</tbody></table></div>';
+   const targetLabel=p.status==='future'?'IN '+p.wait+' PLAYING WEEK'+(p.wait===1?'':'S'):p.status==='due'?'DUE THIS WEEK':'OCCURRED THIS WEEK';
+   const gapLabel=gap+' playing week row'+(gap===1?'':'s')+' ahead';
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(index+1)+' · '+esc(targetJodi)+' → TARGET ROW '+(target+1)+' · '+targetLabel+'</strong></div><div class="repeat-watch"><b>SEARCH</b><div><strong>'+esc(targetJodi)+' + '+gap+'</strong></div><small>'+gapLabel+' · same rule as normal Jodi Search</small><div style="margin-top:7px"><b>SOURCE ROW:</b> '+(source+1)+' · '+escDate(playingRows[source]?.date||'')+'<br><b>TARGET ROW:</b> '+(target+1)+' · '+(target<=latest?escDate(playingRows[target]?.date||''):'Future scheduled row')+'<br><b>JODI TO WATCH:</b> <strong>'+esc(targetJodi)+'</strong></div></div>'+table+'</section>';
+  }
+  function section(title,list){
+   if(!list.length)return '';
+   return '<h3 class="linked-section-title">'+title+' ('+list.length+')</h3><div class="repeat-pattern-list">'+list.slice(0,30).map(linkedCard).join('')+'</div>';
+  }
+  $('count').textContent='Jodi '+targetJodi+' + '+gap+' · Occurred '+occurred.length+' · Due '+due.length+' · Next week '+(futureBuckets.get(1)?.length||0)+' · 2 weeks '+(futureBuckets.get(2)?.length||0)+' · 3 weeks '+(futureBuckets.get(3)?.length||0);
   stats.hidden=true;
-  function cardsFor(list,all,rows,dayNames,isValid,escapeHtml){
-   return list.slice(0,40).map((p,n)=>{
-    const end=p.steps[p.steps.length-1]?.to??p.start,marks=new Map();marks.set(p.start,new Set([p.duplicate]));
-    const latestWeek=rows.length-1,occurredThisWeek=p.steps.some(step=>step.to===latestWeek),dueThisWeek=p.failedAt===latestWeek;
-    const thisWeekNumbers=[...new Set(dayNames.map(d=>String(rows[latestWeek]?.[d+' Jodi']??'').trim()).filter(isValid))].sort();
-    const lastSource=p.steps[p.steps.length-1]?.to??p.start;
-    const nextTarget=dueThisWeek?p.failedAt:lastSource+p.nextGap+1;
-    const usedJodis=new Set([p.duplicate,...p.steps.map(step=>step.jodi)]);
-    const watchJodis=dueThisWeek?(p.nextJodi?[p.nextJodi]:[]):[...new Set(dayNames.map(d=>String(rows[lastSource]?.[d+' Jodi']??'').trim()).filter(v=>isValid(v)&&!usedJodis.has(v)))].sort();
-    const weekStatus=occurredThisWeek?'ఈ వారంలో వచ్చింది':dueThisWeek?'ఈ వారంలో రావాల్సి ఉంది':nextTarget>latestWeek?'తదుపరి వారాల్లో రావాల్సి ఉంది':'చారిత్రక నమూనా';
-    p.steps.forEach(step=>{if(!marks.has(step.from))marks.set(step.from,new Set());if(!marks.has(step.to))marks.set(step.to,new Set());(step.jodis||[step.jodi]).forEach(j=>{marks.get(step.from).add(j);marks.get(step.to).add(j);});});
-    const tableEnd=Math.max(end,(occurredThisWeek||dueThisWeek||nextTarget>latestWeek&&all===activeAll)?latestWeek:end);
-    const tableRows=rows.slice(p.start,tableEnd+1);
-    const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+dayNames.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+tableRows.map((row,k)=>{const ix=p.start+k,parts=String(row.date||'').match(/(\d{1,2})[-/](\d{1,2})[-/](\d{4})/g)||[],shortDate=parts.slice(0,2).map(v=>{const q=v.split(/[-/]/);return q[0].padStart(2,'0')+'/'+q[1].padStart(2,'0')+'/'+q[2].slice(-2);}).join('<br>');return '<tr class="'+(ix===rows.length-1?'repeat-current-week':'')+'"><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+(shortDate||escapeHtml(row.date||''))+'</small>'+(ix===rows.length-1?'<em>THIS WEEK</em>':'')+'</td>'+dayNames.map(d=>{const v=String(row[d+' Jodi']??'').trim(),hit=marks.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(isValid(v)?(hit?'<strong>'+escapeHtml(v)+'</strong>':escapeHtml(v)):'·')+'</td>';}).join('')+'</tr>';}).join('')+'</tbody></table></div>';
-    const steps='<div class="repeat-steps"><div class="repeat-step"><b class="repeat-step-num">START</b><strong class="repeat-step-jodi">'+escapeHtml(p.duplicate)+'</strong><span>Duplicate in same week</span><b>×2+</b></div>'+p.steps.map((step,k)=>'<div class="repeat-step"><b class="repeat-step-num">LINK '+(k+1)+'</b><strong class="repeat-step-jodi">'+escapeHtml((step.jodis||[step.jodi]).join(' · '))+'</strong><span>'+escapeHtml(rows[step.from].date||'')+' → '+escapeHtml(rows[step.to].date||'')+'</span><b>GAP '+step.gap+'</b></div>').join('')+'</div>';
-    const next='<div class="repeat-watch"><b>NEXT GAP '+(dueThisWeek?'DUE THIS WEEK':p.nextGap)+' · TARGET ROW '+(nextTarget+1)+'</b><div>Jodis to watch: <strong>'+escapeHtml(watchJodis.join(' · ')||p.nextJodi||'No eligible Jodis')+'</strong></div><small>Possible continuation only — not a prediction.</small></div>';
-    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS · '+weekStatus+'</strong><span>Gaps: '+p.steps.map(x=>x.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>START DUPLICATE JODI</b><div><strong>'+escapeHtml(p.duplicate)+'</strong></div><small>Separate patterns: same gap throughout, or increasing gap by exactly one.</small>'+(dueThisWeek||occurredThisWeek?'<div class="repeat-this-week"><b>THIS WEEK NUMBERS (SO FAR):</b> <strong>'+escapeHtml(thisWeekNumbers.join(' · ')||'No results published yet')+'</strong></div>':'')+'</div>'+next+steps+'<details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
-   }).join('');
-  }
-  const linkedIntro=view==='linked'?'Only current and future sequences are shown: Jodis already occurred this week, Jodis still due this week, and future targets grouped by the number of playing weeks away. Historical-only patterns are hidden.':'Start with any Jodi duplicated in a week. Continuations are either same-gap or increasing-gap by exactly one. Matches may be in any day column. Fully closed weeks are skipped. Existing repeat searches are unchanged.';
-  const strategyType=p=>{const gaps=p.steps.map(x=>x.gap);return gaps.length<2||gaps.every(g=>g===gaps[0])?'same':gaps.every((g,i)=>i===0||g===gaps[i-1]+1)?'increasing':'other';};
-  const timingSection=(heading,list,color)=>{
-   const grouped=mergeFinalJodiSiblings(list);const same=grouped.filter(p=>strategyType(p)==='same'),increasing=grouped.filter(p=>strategyType(p)==='increasing');
-   const group=(label,items,tone)=>'<h4 style="margin:10px 0 7px;padding:10px;background:'+tone+';color:white;border-radius:8px">'+label+' · '+items.length+'</h4>'+(items.length?cardsFor(items,activeAll,playingRows,days,valid,esc):'<div class="empty">No '+label.toLowerCase()+' patterns.</div>');
-   return '<h3 style="margin-top:12px;background:'+color+'">'+heading+' · '+list.length+'</h3>'+group('SAME GAP',same,'#334155')+group('INCREASING GAP',increasing,'#4c1d95');
-  };
-  const linkedContent=timingSection('THIS WEEK · ALREADY OCCURRED',occurred,'#166534')+timingSection('THIS WEEK · STILL DUE',due,'#b45309')+[...futureBuckets.keys()].sort((a,b)=>a-b).map(n=>timingSection(n===1?'NEXT WEEK':n+' WEEKS LATER',futureBuckets.get(n),'#1d4ed8')).join('');
-   $('tableArea').innerHTML='<div class="repeat-page"><h3>'+(view==='linked'?'LINKED JODI SEQUENCES':'SEPARATE LINKED JODI SEARCH')+' · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">'+linkedIntro+'</p>'+(view==='linked'?linkedContent:(cards||'<div class="empty">No linked patterns found.</div>'))+'</div>';
-  return;
- }
- if(view==='repeat'||$('daySearch').value==='repeat-gap'){
-  const days=repeatDays, valid=v=>/^\d{2}$/.test(String(v??'').trim());
-  // Exclude fully closed weeks (blank, dots, stars or other placeholders) from
-  // the playing-week sequence. Keep the original archive untouched.
-  const repeatRows=chartRows.filter(row=>days.some(day=>valid(row[day+' Jodi'])));
-  const rowSets=repeatRows.map(row=>new Set(days.map(day=>String(row[day+' Jodi']??'').trim()).filter(valid)));
-  const N=repeatRows.length,chains=new Map(),minLinks=4;
-  // Two independent modes only: constant gap, or strictly +1 each link.
-  // Mixed gap patterns (e.g. 4,5,5,6) are never accepted.
-  function extend(start,gap,path,mode){
-    const target=start+gap;
-    if(target>=N){
-      if(path.length>=minLinks){
-        const key=mode+':'+path.map(e=>e.start+':'+e.end+':'+e.gap).join('|');
-        const wait=target-(N-1);
-        if(!chains.has(key))chains.set(key,{path,wait,nextGap:gap,mode,occurredThisWeek:path.some(e=>e.end===N-1)});
-      }
-      return;
-    }
-    if(path.length<minLinks&&target+(minLinks-path.length-1)*gap>=N)return;
-    const matches=[...rowSets[start]].filter(v=>rowSets[target].has(v)).sort();
-    if(matches.length){
-      // Group all matching Jodis on this same pair of weeks into one link.
-      const next=[...path,{start,end:target,gap,jodis:matches}];
-      extend(target,mode==='same'?gap:gap+1,next,mode);
-    }else if(target===N-1&&path.length>=minLinks){
-      // Expected occurrence falls in the current partial week; show it as due now.
-      const key=mode+':'+path.map(e=>e.start+':'+e.end+':'+e.gap).join('|')+':DUE';
-      if(!chains.has(key))chains.set(key,{path,wait:0,nextGap:gap,mode,dueThisWeek:true});
-    }
-  }
-  for(let start=0;start<N-1;start++){
-    const maxGap=Math.floor((N-1-start)/minLinks);
-    for(let gap=1;gap<=maxGap;gap++){
-      extend(start,gap,[],'same');
-      extend(start,gap,[],'increasing');
-    }
-  }
-  const qJodi=q.trim();
-  let patterns=[...chains.values()];
-  // Suppress shorter paths that are already contained in a longer identical gap path.
-  patterns=patterns.filter(x=>!patterns.some(y=>y!==x&&y.mode===x.mode&&y.path.length>x.path.length&&
-    y.path.some((_,i)=>i+x.path.length<=y.path.length&&
-      x.path.every((e,k)=>e.start===y.path[i+k].start&&e.end===y.path[i+k].end&&e.gap===y.path[i+k].gap))));
-  patterns=patterns.filter(x=>!qJodi||x.path.some(e=>e.jodis.includes(qJodi)))
-    .sort((a,b)=>Number(!!(b.dueThisWeek||b.occurredThisWeek))-Number(!!(a.dueThisWeek||a.occurredThisWeek))||a.wait-b.wait||b.path[b.path.length-1].end-a.path[a.path.length-1].end||b.path.length-a.path.length);
-  $('count').textContent=patterns.length+' active patterns · present-week matches and due patterns first';
-  stats.hidden=true;
-  const cards=patterns.slice(0,100).map((item,n)=>{
-    const path=item.path,first=path[0].start,last=path[path.length-1].end;
-    const hits=new Map();
-    path.forEach(e=>{for(const ix of [e.start,e.end]){
-      if(!hits.has(ix))hits.set(ix,new Set());
-      e.jodis.forEach(j=>hits.get(ix).add(j));
-    }});
-    const events=path.map((e,k)=>'<div class="repeat-step"><b class="repeat-step-num">STEP '+(k+1)+'</b><strong class="repeat-step-jodi">'+e.jodis.map(esc).join(' · ')+'</strong><span>Row '+(e.start+1)+' → '+(e.end+1)+'</span><b>GAP '+e.gap+'</b></div>').join('');
-    // Include the current running week in the historical detail for due patterns.
-    const tableEnd=(item.dueThisWeek||item.occurredThisWeek)?N-1:last;
-    const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:tableEnd-first+1},(_,k)=>first+k).map(ix=>'<tr class="'+(ix===N-1?'repeat-current-week':'')+'"><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+esc(repeatRows[ix].date||'')+'</small>'+(ix===N-1?'<em>THIS WEEK</em>':'')+'</td>'+days.map(d=>{const v=String(repeatRows[ix][d+' Jodi']??'').trim(),hit=hits.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table></div>';
-    const current=[...rowSets[last]].sort().join(' · ');
-    const thisWeek=[...rowSets[N-1]].sort().join(' · ');
-    const repeatKey=item.mode+':'+path.map(e=>e.start+'-'+e.end+'-'+e.gap).join('|');
-    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · '+(item.mode==='same'?'SAME GAP':'INCREASING GAP')+' · '+(item.dueThisWeek?'ఈ వారంలో రావాల్సి ఉంది':item.occurredThisWeek?'ఈ వారంలో వచ్చింది · తదుపరి పునరావృతం: '+item.wait+' వారాల తర్వాత':'తదుపరి పునరావృతం: '+item.wait+' వారాల తర్వాత')+'</strong><span>Gaps '+path.map(e=>e.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>NEXT GAP '+item.nextGap+' · TARGET ROW '+(last+item.nextGap+1)+'</b><div>Jodis to watch: <strong>'+esc(current||'None')+'</strong></div>'+(item.dueThisWeek||item.occurredThisWeek?'<div class="repeat-this-week"><b>THIS WEEK NUMBERS (SO FAR):</b> <strong>'+esc(thisWeek||'No results published yet')+'</strong></div>':'')+'<small>Possible continuation only — not a prediction.</small></div><div class="repeat-steps">'+events+'</div><details class="repeat-history"><summary>SHOW WEEKLY CHART · '+(tableEnd-first+1)+' WEEKS'+(tableEnd>last?' · INCLUDING THIS WEEK':'')+'</summary>'+table+'</details></section>';
-  }).join('');
-  const repeatScrollY=window.scrollY;
-  $('tableArea').innerHTML='<div class="repeat-page"><h3>ACTIVE REPEAT SEQUENCES · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Nearest future target first. Two separate pattern types: <b>Same Gap</b> (every gap identical) or <b>Increasing Gap</b> (each gap increases by exactly 1). They are never mixed. Each link repeats the <b>exact same Jodi</b>; broken links are excluded.</p>'+(patterns.length?cards+(patterns.length>100?'<p>Showing the first 100 nearest active patterns. Use Jodi search to narrow results.</p>':''):'<div class="empty"><strong>No active uninterrupted sequence with four or more links found.</strong></div>')+'</div>';
-  requestAnimationFrame(()=>window.scrollTo(0,repeatScrollY));
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>LINKED JODI LOGIC · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Using your entered search <b>'+esc(targetJodi)+'+'+gap+'</b>. Each occurrence of '+esc(targetJodi)+' links to the row '+gap+' playing weeks ahead. If '+esc(targetJodi)+' appears again in that target row, the same link continues. Only this week and the next three target weeks are listed below.</p>'+
+   section(labels.occurred,occurred)+section(labels.due,due)+section('NEXT WEEK · FUTURE TARGETS',futureBuckets.get(1)||[])+section('2 WEEKS LATER · FUTURE TARGETS',futureBuckets.get(2)||[])+section('3 WEEKS LATER · FUTURE TARGETS',futureBuckets.get(3)||[])+
+   (relevant.length?'':'<div class="empty"><strong>No current or near-future links found for '+esc(targetJodi)+'+'+gap+'.</strong>Historical matches may exist, but there is no target row in this week or the next three playing weeks.</div>')+'</div>';
   return;
  }
  if(targetSearch){
