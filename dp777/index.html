@@ -1115,7 +1115,7 @@ function renderChart(){
   const rowSets=values.map(v=>new Set(v));
   const duplicates=values.map(v=>[...new Set(v.filter((j,i)=>v.indexOf(j)!==i))]);
   const found=new Map();let visited=0;const MAX_NODES=50000,MAX_LINKS=8;
-  function walk(start,at,duplicate,used,steps){
+  function walk(start,at,duplicate,used,steps,mode){
    if(++visited>MAX_NODES||steps.length>=MAX_LINKS)return;
    for(const jodi of rowSets[at]){
     if(used.has(jodi))continue;
@@ -1126,18 +1126,28 @@ function renderChart(){
     }
     if(target<0)continue;
     const step={from:at,to:target,jodi,gap:target-at};
+    let nextMode=mode;
+    if(steps.length===1){
+     // Decide the chain type on link 2: constant OR +1, never a mixture.
+     if(step.gap===steps[0].gap)nextMode='same';
+     else if(step.gap===steps[0].gap+1)nextMode='increasing';
+     else continue;
+    }else if(steps.length>=2){
+     const expected=mode==='same'?steps[0].gap:steps[steps.length-1].gap+1;
+     if(step.gap!==expected)continue;
+    }
     const next=[...steps,step];
     if(next.length>=2){
-     const key=start+':'+duplicate+':'+next.map(x=>x.from+'>'+x.to+':'+x.jodi).join('|');
-     if(!found.has(key))found.set(key,{start,duplicate,steps:next});
+     const key=start+':'+duplicate+':'+nextMode+':'+next.map(x=>x.from+'>'+x.to+':'+x.jodi).join('|');
+     if(!found.has(key))found.set(key,{start,duplicate,steps:next,mode:nextMode});
     }
-    walk(start,target,duplicate,new Set([...used,jodi]),next);
+    walk(start,target,duplicate,new Set([...used,jodi]),next,nextMode);
     if(visited>MAX_NODES)return;
    }
   }
   for(let i=0;i<filteredRows.length;i++){
    for(const duplicate of duplicates[i]){
-    walk(i,i,duplicate,new Set([duplicate]),[]);
+    walk(i,i,duplicate,new Set([duplicate]),[],null);
     if(visited>MAX_NODES)break;
    }
    if(visited>MAX_NODES)break;
@@ -1158,9 +1168,9 @@ function renderChart(){
     const item=filteredRows[ix],r=item.row;
     return '<tr><td class="repeat-week-date"><b>Result '+(ix+1)+'</b><small>Chart row '+(item.sourceIndex+1)+'<br>'+esc(r.date||'')+'</small></td>'+days.map(d=>{const v=String(r[d+' Jodi']??'').trim(),hit=marks.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';}).join('')+'</tr>';
    }).join('')+'</tbody></table></div>';
-   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>Filtered-result gaps: '+p.steps.map(x=>x.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>START DUPLICATE JODI</b><div><strong>'+esc(p.duplicate)+'</strong></div><small>Starting filtered result row '+(p.start+1)+' · '+esc(filteredRows[p.start].row.date||'')+'</small></div><div class="repeat-steps">'+links+'</div><details class="repeat-history"><summary>SHOW MATCHED FILTERED WEEKLY LINES</summary>'+table+'</details></section>';
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>'+(p.mode==='same'?'SAME GAP':'SYSTEMATIC +1 GAPS')+' · '+p.steps.map(x=>x.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>START DUPLICATE JODI</b><div><strong>'+esc(p.duplicate)+'</strong></div><small>Starting filtered result row '+(p.start+1)+' · '+esc(filteredRows[p.start].row.date||'')+'</small></div><div class="repeat-steps">'+links+'</div><details class="repeat-history"><summary>SHOW MATCHED FILTERED WEEKLY LINES</summary>'+table+'</details></section>';
   }).join('');
-  $('tableArea').innerHTML='<div class="repeat-page"><h3>28+n FILTERED-RESULT LINKED JODIS · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">This separate analysis starts only from the weeks returned by the 28+n search. A start Jodi must appear at least twice in the same filtered week. From that week, each unused Jodi is followed to its nearest later occurrence in the filtered result list. The next link starts from the matched week. Gaps are measured in filtered-result rows; no original chart weeks are inserted and no values are calculated or changed.</p>'+(cards||'<div class="empty"><strong>No duplicate-start chain with at least two links was found in these filtered results.</strong>Check that the 28+n search returned enough matching weeks.</div>')+(patterns.length>300?'<p>Showing the first 300 chains.</p>':'')+'</div>';
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>28+n FILTERED-RESULT LINKED JODIS · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">This separate analysis starts only from the weeks returned by any Number+n search. A start Jodi must appear at least twice in the same filtered week. Each next Jodi is followed to its nearest later occurrence in the filtered result list. Chains are separated into two exclusive types: SAME GAP (e.g. 10 → 10 → 10) or SYSTEMATIC +1 GAPS (e.g. 20 → 21 → 22 → 23). A chain can never switch between these types. Gaps are measured in filtered-result rows; no original chart weeks are inserted and no values are calculated or changed.</p>'+(cards||'<div class="empty"><strong>No duplicate-start chain with at least two links was found in these filtered results.</strong>Check that the 28+n search returned enough matching weeks.</div>')+(patterns.length>300?'<p>Showing the first 300 chains.</p>':'')+'</div>';
   return;
  }
 
