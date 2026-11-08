@@ -1,8 +1,8 @@
 {
- "date": "2026-11-08",
+ "date": "2026-11-07",
  "day": {
-  "en": "Sunday, 8 November 2026",
-  "te": "ఆదివారం, 8 నవంబర్ 2026"
+  "en": "Saturday, 7 November 2026",
+  "te": "శనివారం, 7 నవంబర్ 2026"
  },
  "items": [
   {
@@ -161,7 +161,7 @@
       "en": "Visakhapatnam, on the Bay of Bengal coast in north AP, hosts the summit.",
       "te": "ఉత్తర ఏపీలో బంగాళాఖాత తీరంలోని విశాఖపట్నం ఆతిథ్యం ఇస్తోంది."
      },
-     "src": "cards/cad/2026-11-08/map-apcii-1-{m}.svg"
+     "src": "cards/cad/2026-11-07/map-apcii-1-{m}.svg"
     }
    ],
    "refs": [
@@ -438,7 +438,7 @@
       "en": "All five are southern states; the limits can stay till 31 January 2027.",
       "te": "ఐదూ దక్షిణాది రాష్ట్రాలే; పరిమితులు 2027 జనవరి 31 వరకు."
      },
-     "src": "cards/cad/2026-11-08/map-ricestock-1-{m}.svg"
+     "src": "cards/cad/2026-11-07/map-ricestock-1-{m}.svg"
     },
     {
      "type": "bars",
@@ -807,7 +807,7 @@
       "en": "The ceremony was held in Dehradun, the capital of Uttarakhand.",
       "te": "ఉత్తరాఖండ్ రాజధాని డెహ్రాడూన్‌లో కార్యక్రమం జరిగింది."
      },
-     "src": "cards/cad/2026-11-08/map-policecolour-1-{m}.svg"
+     "src": "cards/cad/2026-11-07/map-policecolour-1-{m}.svg"
     }
    ],
    "refs": [
@@ -1029,7 +1029,7 @@
       "en": "Nyoma lies south-east of Leh, about 25 km from the LAC with China.",
       "te": "న్యోమా లేహ్‌కు ఆగ్నేయంగా, చైనాతో LACకు సుమారు 25 కి.మీ. దూరంలో ఉంది."
      },
-     "src": "cards/cad/2026-11-08/map-nyoma-1-{m}.svg"
+     "src": "cards/cad/2026-11-07/map-nyoma-1-{m}.svg"
     },
     {
      "type": "timeline",

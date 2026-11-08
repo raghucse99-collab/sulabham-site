@@ -1,4 +1,4 @@
-######## WhatsApp / Telegram QUIZ POLLS | 2026-11-08 ########
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-07 ########
 For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
 WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
 
@@ -209,4 +209,4 @@ II and III are correct. I is the trap: Shami retired only from Tests and will ke
 ==================== END ====================
 Last message (after Q10):
 ✅ Full quiz with explanations & your score:
-👉 https://sulabham.in/current.html?d=2026-11-08
+👉 https://sulabham.in/current.html?d=2026-11-07
