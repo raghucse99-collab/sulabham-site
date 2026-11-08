@@ -1095,7 +1095,7 @@ function renderChart(){
 
  if(view==='repeat'||view==='linked'){
   // These analysis modes are independent of the normal Jodi+gap search input.
-  const days=repeatDays,valid=v=>/^\\d{2}$/.test(String(v??'').trim());
+  const days=repeatDays,valid=v=>/^\d{2}$/.test(String(v??'').trim());
   const analysisRows=displayRows.filter(row=>yr==='all'||String(row.date||'').includes(yr));
   const hits=new Map();
   analysisRows.forEach((row,rowIndex)=>{
