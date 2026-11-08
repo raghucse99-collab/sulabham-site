@@ -1096,7 +1096,7 @@ function renderChart(){
  if(view==='repeat'||$('daySearch').value==='repeat-gap'){
   // Restore the original uninterrupted Repeat-gap chain search as a separate mode.
   // It scans the selected market's own history; it does not depend on Number/Jodi search.
-  const days=repeatDays,valid=v=>/^\\d{2}$/.test(String(v??'').trim());
+  const days=repeatDays,valid=v=>/^\d{2}$/.test(String(v??'').trim());
   const analysisRows=displayRows.filter(row=>yr==='all'||String(row.date||'').includes(yr));
   const lastIndex=analysisRows.length-1;
   const rowSets=analysisRows.map(row=>new Set(days.map(day=>String(row[day+' Jodi']??'').trim()).filter(valid)));
@@ -1123,8 +1123,8 @@ function renderChart(){
    const maxStartGap=Math.floor((lastIndex-startRow)/4);
    for(let gap=1;gap<=maxStartGap;gap++)extendChain(startRow,gap,[]);
   }
-  const queryJodi=q.replace(/\\s+/g,'');
-  const patterns=[...chains.values()].filter(path=>!/^\\d{2}$/.test(queryJodi)||path.some(e=>e.jodi===queryJodi));
+  const queryJodi=q.replace(/\s+/g,'');
+  const patterns=[...chains.values()].filter(path=>!/^\d{2}$/.test(queryJodi)||path.some(e=>e.jodi===queryJodi));
   patterns.sort((a,b)=>b.length-a.length||b[b.length-1].end-a[a.length-1].end);
   $('count').textContent=patterns.length+' uninterrupted active sequences · minimum 4 links';
   stats.hidden=true;
