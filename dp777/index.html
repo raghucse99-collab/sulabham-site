@@ -1154,8 +1154,16 @@ function renderChart(){
   }
   const patterns=[...found.values()].sort((a,b)=>b.steps.length-a.steps.length||a.start-b.start||
    a.steps.reduce((n,x)=>n+x.gap,0)-b.steps.reduce((n,x)=>n+x.gap,0));
-  $('count').textContent=patterns.length+' linked chains · '+filteredRows.length+' filtered weeks from '+targetSearch.target+'+'+targetSearch.offset;
-  const cards=patterns.slice(0,300).map((p,n)=>{
+  const latestChartIndex=displayRows.length-1;
+  const currentFilteredPosition=filteredRows.findIndex(x=>x.sourceIndex===latestChartIndex);
+  const chainEnd=p=>p.steps[p.steps.length-1].to;
+  const nextGapFor=p=>p.mode==='same'?p.steps[0].gap:p.steps[p.steps.length-1].gap+1;
+  const thisWeekPatterns=currentFilteredPosition>=0?patterns.filter(p=>chainEnd(p)===currentFilteredPosition):[];
+  const nextWeekPatterns=thisWeekPatterns.filter(p=>nextGapFor(p)===1);
+  const presentRunningPatterns=thisWeekPatterns.filter(p=>nextGapFor(p)>1);
+  const historicalPatterns=patterns.filter(p=>chainEnd(p)!==currentFilteredPosition);
+  $('count').textContent=thisWeekPatterns.length+' current-week chains · '+nextWeekPatterns.length+' due next filtered week · '+historicalPatterns.length+' historical';
+  const renderCards=(list)=>list.slice(0,300).map((p,n)=>{
    const end=p.steps[p.steps.length-1].to,marks=new Map();
    marks.set(p.start,new Set([p.duplicate]));
    p.steps.forEach(st=>{
@@ -1168,9 +1176,11 @@ function renderChart(){
     const item=filteredRows[ix],r=item.row;
     return '<tr><td class="repeat-week-date"><b>Result '+(ix+1)+'</b><small>Chart row '+(item.sourceIndex+1)+'<br>'+esc(r.date||'')+'</small></td>'+days.map(d=>{const v=String(r[d+' Jodi']??'').trim(),hit=marks.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';}).join('')+'</tr>';
    }).join('')+'</tbody></table></div>';
-   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>'+(p.mode==='same'?'SAME GAP':'SYSTEMATIC +1 GAPS')+' · '+p.steps.map(x=>x.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>START DUPLICATE JODI</b><div><strong>'+esc(p.duplicate)+'</strong></div><small>Starting filtered result row '+(p.start+1)+' · '+esc(filteredRows[p.start].row.date||'')+'</small></div><div class="repeat-steps">'+links+'</div><details class="repeat-history"><summary>SHOW MATCHED FILTERED WEEKLY LINES</summary>'+table+'</details></section>';
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>'+(p.mode==='same'?'SAME GAP':'SYSTEMATIC +1 GAPS')+' · '+p.steps.map(x=>x.gap).join(' → ')+' · NEXT '+nextGapFor(p)+'</span></div><div class="repeat-watch"><b>START DUPLICATE JODI</b><div><strong>'+esc(p.duplicate)+'</strong></div><small>Starting filtered result row '+(p.start+1)+' · '+esc(filteredRows[p.start].row.date||'')+'</small></div><div class="repeat-steps">'+links+'</div><details class="repeat-history"><summary>SHOW MATCHED FILTERED WEEKLY LINES</summary>'+table+'</details></section>';
   }).join('');
-  $('tableArea').innerHTML='<div class="repeat-page"><h3>28+n FILTERED-RESULT LINKED JODIS · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">This separate analysis starts only from the weeks returned by any Number+n search. A start Jodi must appear at least twice in the same filtered week. Each next Jodi is followed to its nearest later occurrence in the filtered result list. Chains are separated into two exclusive types: SAME GAP (e.g. 10 → 10 → 10) or SYSTEMATIC +1 GAPS (e.g. 20 → 21 → 22 → 23). A chain can never switch between these types. Gaps are measured in filtered-result rows; no original chart weeks are inserted and no values are calculated or changed.</p>'+(cards||'<div class="empty"><strong>No duplicate-start chain with at least two links was found in these filtered results.</strong>Check that the 28+n search returned enough matching weeks.</div>')+(patterns.length>300?'<p>Showing the first 300 chains.</p>':'')+'</div>';
+  const section=(title,subtitle,list)=>'<section class="repeat-live-section"><h3>'+title+'</h3><p>'+subtitle+'</p>'+(list.length?renderCards(list):'<div class="empty">No confirmed chains in this category.</div>')+'</section>';
+  const noCurrent=currentFilteredPosition<0?'<div class="empty"><strong>The latest chart week is not included in this Number+n filtered result.</strong>Current-week status cannot be confirmed until the search includes a match from the latest playing week.</div>':'';
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>ANY NUMBER+n · CURRENT &amp; UPCOMING LINKED JODIS · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Only weeks returned by the Number+n search are analysed. Same-gap and systematic +1 chains remain separate. Current status is assigned only when a confirmed chain reaches the latest chart week. “Next week” means the next filtered-result week (gap 1), not a guaranteed outcome.</p>'+noCurrent+section('THIS WEEK ALREADY CAME','Confirmed links whose final matched occurrence is in the latest chart week.',thisWeekPatterns)+section('NEXT WEEK · DUE IN NEXT FILTERED WEEK','Current chains whose next required filtered-result gap is exactly 1.',nextWeekPatterns)+section('PRESENT RUNNING','Current chains continuing beyond the next filtered-result week; the next required gap is shown in each card.',presentRunningPatterns)+section('HISTORICAL PATTERNS','Older completed chains, kept separate from current-week results.',historicalPatterns)+(patterns.length>300?'<p>Showing up to 300 chains per section.</p>':'')+'</div>';
   return;
  }
 
