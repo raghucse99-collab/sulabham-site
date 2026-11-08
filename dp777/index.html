@@ -1096,8 +1096,8 @@ function renderChart(){
  if(view==='linked'||$('daySearch').value==='linked-increasing'){
   // Linked Jodi Logic follows the exact same Jodi+gap rule as normal search.
   // The search value is always read from the input; no Jodi or gap is hardcoded.
-  const days=repeatDays,valid=v=>/^\\d{2}$/.test(String(v??'').trim());
-  const match=q.match(/^(\\d{1,2})\\+(\\d{1,2})$/);
+  const days=repeatDays,valid=v=>/^\d{2}$/.test(String(v??'').trim());
+  const match=q.match(/^(\d{1,2})\\+(\d{1,2})$/);
   if(!match){
    $('count').textContent='Enter Jodi + gap';
    stats.hidden=true;
