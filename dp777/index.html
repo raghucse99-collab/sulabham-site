@@ -944,7 +944,7 @@ function targetJodiSearch(rows, query, activeDays=['Mon','Tue','Wed','Thu','Fri'
  const target=String(Number(match[1])).padStart(2,'0'), offset=Number(match[2]);
  if(offset<1)return {error:'Offset must be 1 or greater.'};
  const days=activeDays;
- const hasTarget=row=>days.some(day=>String(row[day+' Jodi']??'').trim().padStart(2,'0')===target);
+ const hasTarget=row=>days.some(day=>{const value=String(row[day+' Jodi']??'').trim();return /^\\d{2}$/.test(value)&&value===target;});
  const targetIndexes=[];
  rows.forEach((row,i)=>{if(hasTarget(row))targetIndexes.push(i);});
  const selected=new Set();
@@ -1112,7 +1112,7 @@ function renderChart(){
   }
   const playingRows=displayRows;
   const latest=playingRows.length-1;
-  const hasTarget=row=>days.some(day=>String(row?.[day+' Jodi']??'').trim().padStart(2,'0')===targetJodi);
+  const hasTarget=row=>days.some(day=>{const value=String(row?.[day+' Jodi']??'').trim();return valid(value)&&value===targetJodi;});
   const sourceIndexes=[];
   playingRows.forEach((row,i)=>{if(hasTarget(row))sourceIndexes.push(i);});
   const paths=[];
