@@ -1157,10 +1157,18 @@ function renderChart(){
   function mergeFinalJodiSiblings(list){
    const groups=new Map();
    list.forEach(p=>{
-    if(!p.steps.length){groups.set(p.start+':'+p.duplicate,p);return;}
-    const last=p.steps[p.steps.length-1],key=p.start+':'+p.duplicate+':'+p.steps.slice(0,-1).map(x=>x.from+'-'+x.to+'-'+x.jodi+'-'+x.gap).join('|')+'|LAST:'+last.from+'-'+last.to+'-'+last.gap;
-    if(!groups.has(key))groups.set(key,{...p,steps:p.steps.map((x,i)=>i===p.steps.length-1?{...x,jodis:[x.jodi]}:{...x})});
-    else{const g=groups.get(key),tail=g.steps[g.steps.length-1];if(!tail.jodis.includes(last.jodi))tail.jodis.push(last.jodi);}
+    const key=p.start+':'+p.duplicate+':'+p.steps.map(x=>x.from+'-'+x.to+'-'+x.gap).join('|');
+    if(!groups.has(key)){
+     groups.set(key,{...p,steps:p.steps.map(x=>({...x,jodis:[x.jodi]}))});
+    }else{
+     const g=groups.get(key);
+     p.steps.forEach((step,i)=>{
+      const values=g.steps[i].jodis;
+      if(!values.includes(step.jodi))values.push(step.jodi);
+     });
+     // Retain the continuation state from the branch with the furthest valid continuation.
+     if((p.steps.length||0)>(g.steps.length||0)){g.nextGap=p.nextGap;g.nextJodi=p.nextJodi;g.failedAt=p.failedAt;}
+    }
    });
    return [...groups.values()];
   }
