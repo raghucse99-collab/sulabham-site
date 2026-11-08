@@ -1,0 +1,1474 @@
+{
+ "date": "2026-11-08",
+ "day": {
+  "en": "Sunday, 8 November 2026",
+  "te": "ఆదివారం, 8 నవంబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "apswachh",
+   "cat": "ap",
+   "title": {
+    "en": "Andhra Pradesh wins six Swachh Survekshan awards; President to present them on 11 November",
+    "te": "ఏపీకి ఆరు స్వచ్ఛ సర్వేక్షణ్ అవార్డులు; నవంబర్ 11న రాష్ట్రపతి ప్రదానం"
+   },
+   "pts": [
+    {
+     "en": "Andhra Pradesh has won six national Swachh Survekshan (cleanliness survey) awards.",
+     "te": "ఆంధ్రప్రదేశ్ ఆరు జాతీయ స్వచ్ఛ సర్వేక్షణ్ (పరిశుభ్రత సర్వే) అవార్డులు గెలుచుకుంది."
+    },
+    {
+     "en": "Winners: five municipal corporations — Visakhapatnam, Vijayawada, Guntur, Rajahmundry and Tirupati — and Kuppam Municipality.",
+     "te": "విజేతలు: ఐదు నగరపాలక సంస్థలు — విశాఖపట్నం, విజయవాడ, గుంటూరు, రాజమహేంద్రవరం, తిరుపతి — మరియు కుప్పం పురపాలక సంఘం."
+    },
+    {
+     "en": "President Droupadi Murmu will present the awards at a ceremony in New Delhi on 11 November.",
+     "te": "నవంబర్ 11న న్యూఢిల్లీలో జరిగే కార్యక్రమంలో రాష్ట్రపతి ద్రౌపది ముర్ము అవార్డులు అందజేస్తారు."
+    },
+    {
+     "en": "Municipal Administration Minister Dr P. Narayana credited the state's 'Swarna Andhra–Swachh Andhra' programme; cleanliness drives are held on the third Saturday of every month.",
+     "te": "పురపాలక శాఖ మంత్రి డా. పి. నారాయణ ఈ ఘనతను 'స్వర్ణాంధ్ర–స్వచ్ఛాంధ్ర' కార్యక్రమానికి ఆపాదించారు; ప్రతి నెల మూడో శనివారం పరిశుభ్రత కార్యక్రమాలు జరుగుతాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Awards",
+      "te": "అవార్డులు"
+     },
+     {
+      "en": "6 (5 corporations + 1 municipality)",
+      "te": "6 (5 కార్పొరేషన్లు + 1 మున్సిపాలిటీ)"
+     }
+    ],
+    [
+     {
+      "en": "Ceremony",
+      "te": "కార్యక్రమం"
+     },
+     {
+      "en": "11 Nov · New Delhi · President Murmu",
+      "te": "నవం 11 · న్యూఢిల్లీ · రాష్ట్రపతి ముర్ము"
+     }
+    ],
+    [
+     {
+      "en": "Survey run by",
+      "te": "సర్వే నిర్వహణ"
+     },
+     {
+      "en": "Union Ministry of Housing & Urban Affairs",
+      "te": "కేంద్ర గృహనిర్మాణ, పట్టణ వ్యవహారాల శాఖ"
+     }
+    ],
+    [
+     {
+      "en": "State programme",
+      "te": "రాష్ట్ర కార్యక్రమం"
+     },
+     {
+      "en": "Swarna Andhra–Swachh Andhra",
+      "te": "స్వర్ణాంధ్ర–స్వచ్ఛాంధ్ర"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: Kuppam is a MUNICIPALITY, not a municipal corporation. Swachh Survekshan is run by the Housing & Urban Affairs Ministry (urban) — not the Jal Shakti Ministry, which handles SBM-Grameen.",
+    "te": "ట్రాప్: కుప్పం మున్సిపాలిటీ — నగరపాలక సంస్థ కాదు. స్వచ్ఛ సర్వేక్షణ్‌ను నిర్వహించేది గృహనిర్మాణ, పట్టణ వ్యవహారాల శాఖ (పట్టణ) — SBM-గ్రామీణ్ చూసే జల్ శక్తి శాఖ కాదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "AP's six award winners",
+      "te": "ఏపీలో ఆరు అవార్డు విజేతలు"
+     },
+     "view": "ap",
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#2f6b2f",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        17.69,
+        83.22
+       ],
+       "t": {
+        "en": "Visakhapatnam",
+        "te": "విశాఖపట్నం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        17.0,
+        81.8
+       ],
+       "t": {
+        "en": "Rajahmundry",
+        "te": "రాజమహేంద్రవరం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.51,
+        80.65
+       ],
+       "t": {
+        "en": "Vijayawada",
+        "te": "విజయవాడ"
+       }
+      },
+      {
+       "ll": [
+        16.31,
+        80.44
+       ],
+       "t": {
+        "en": "Guntur",
+        "te": "గుంటూరు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        13.63,
+        79.42
+       ],
+       "t": {
+        "en": "Tirupati",
+        "te": "తిరుపతి"
+       }
+      },
+      {
+       "ll": [
+        12.75,
+        78.34
+       ],
+       "t": {
+        "en": "Kuppam",
+        "te": "కుప్పం"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "Winners are spread from Visakhapatnam in the north to Kuppam in the south.",
+      "te": "విజేతలు ఉత్తరాన విశాఖపట్నం నుంచి దక్షిణాన కుప్పం వరకు ఉన్నాయి."
+     },
+     "src": "cards/cad/2026-11-08/map-apswachh-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Deccan Chronicle — Andhra Pradesh bags six Swachh Survekshan awards, 7 Nov 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/andhra-pradesh-bags-six-swachh-survekshan-awards-2002573"
+    },
+    {
+     "t": "ETV Bharat (Telugu) — AP live updates, 8 Nov 2026",
+     "u": "https://www.etvbharat.com/te/state/live-blog--8th-november-2026-news-today-ap-live-news-updates-telugu-breaking-news-aps26110800373"
+    }
+   ]
+  },
+  {
+   "id": "scfra",
+   "cat": "polity",
+   "title": {
+    "en": "Supreme Court: commercial crop cultivation is not a 'forest right' in a tiger reserve",
+    "te": "సుప్రీంకోర్టు: పులుల అభయారణ్యంలో వాణిజ్య పంటల సాగు 'అటవీ హక్కు' కాదు"
+   },
+   "pts": [
+    {
+     "en": "On 6 November a bench of Justices Vikram Nath and Sandeep Mehta ruled in A. John Kennedy v. State of Tamil Nadu (Megamalai area, Srivilliputhur–Megamalai Tiger Reserve).",
+     "te": "నవంబర్ 6న జస్టిస్ విక్రమ్ నాథ్, జస్టిస్ సందీప్ మెహతా ధర్మాసనం A. జాన్ కెన్నెడీ vs తమిళనాడు కేసులో (శ్రీవిల్లిపుత్తూర్–మేఘమలై టైగర్ రిజర్వ్‌లోని మేఘమలై ప్రాంతం) తీర్పు ఇచ్చింది."
+    },
+    {
+     "en": "Planned cultivation of a commercial crop like silk cotton is not a right under the Forest Rights Act (FRA), 2006. Minor forest produce must be naturally occurring.",
+     "te": "సిల్క్ కాటన్ (బూరుగ దూది) వంటి వాణిజ్య పంటను ప్రణాళికాబద్ధంగా సాగు చేయడం అటవీ హక్కుల చట్టం (FRA) 2006 కింద హక్కు కాదు. చిన్న అటవీ ఉత్పత్తి సహజంగా లభించేదై ఉండాలి."
+    },
+    {
+     "en": "People who only live there temporarily, or who live outside the forest and just cultivate inside, cannot be 'forest dwellers'. The sanctity of critical tiger habitat gets primacy.",
+     "te": "అడవిలో తాత్కాలికంగా మాత్రమే ఉండేవారు, లేదా బయట నివసిస్తూ లోపల సాగు చేసేవారు 'అటవీవాసులు' కారు. కీలక పులుల ఆవాసం (critical tiger habitat) పవిత్రతకే ప్రాధాన్యం."
+    },
+    {
+     "en": "A Special Committee headed by former CJI B.R. Gavai will scrutinise claims. Remaining Gram Sabhas must be formed within 30 days; next hearing 1 February 2027.",
+     "te": "క్లెయిమ్‌లను పరిశీలించేందుకు మాజీ CJI బి.ఆర్. గవాయ్ నేతృత్వంలో ప్రత్యేక కమిటీ. మిగిలిన గ్రామసభలను 30 రోజుల్లో ఏర్పాటు చేయాలి; తదుపరి విచారణ 2027 ఫిబ్రవరి 1."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Law",
+      "te": "చట్టం"
+     },
+     {
+      "en": "Forest Rights Act, 2006 — Sec 2(c), 2(o), 2(i), 3(1)(c)",
+      "te": "అటవీ హక్కుల చట్టం 2006 — సెక్షన్ 2(c), 2(o), 2(i), 3(1)(c)"
+     }
+    ],
+    [
+     {
+      "en": "OTFD condition",
+      "te": "OTFD షరతు"
+     },
+     {
+      "en": "3 generations (75 years) before 13 Dec 2005",
+      "te": "13 డిసెం 2005కు ముందు 3 తరాలు (75 ఏళ్లు)"
+     }
+    ],
+    [
+     {
+      "en": "Tiger reserve",
+      "te": "టైగర్ రిజర్వ్"
+     },
+     {
+      "en": "Srivilliputhur–Megamalai (TN) — India's 51st, 2021",
+      "te": "శ్రీవిల్లిపుత్తూర్–మేఘమలై (TN) — దేశంలో 51వది, 2021"
+     }
+    ],
+    [
+     {
+      "en": "Excluded categories",
+      "te": "మినహాయించిన వర్గాలు"
+     },
+     {
+      "en": "232 temporary residents + 2,767 living outside",
+      "te": "232 తాత్కాలిక నివాసులు + 2,767 బయట నివసించేవారు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "FRA 2006 recognises rights of forest-dwelling STs and Other Traditional Forest Dwellers (OTFD = 3 generations/75 years before 13 Dec 2005). Trap: FRA protects naturally occurring minor forest produce — not planned commercial plantations.",
+    "te": "FRA 2006 అడవుల్లో నివసించే ST లు, ఇతర సంప్రదాయ అటవీవాసుల (OTFD = 13 డిసెం 2005కు ముందు 3 తరాలు/75 ఏళ్లు) హక్కులను గుర్తిస్తుంది. ట్రాప్: FRA సహజ చిన్న అటవీ ఉత్పత్తులను రక్షిస్తుంది — ప్రణాళికాబద్ధ వాణిజ్య తోటలను కాదు."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Who is protected under FRA?",
+      "te": "FRA కింద ఎవరికి రక్షణ?"
+     },
+     "a": {
+      "h": {
+       "en": "Recognised",
+       "te": "గుర్తింపు ఉంది"
+      },
+      "l": [
+       {
+        "en": "Lives mainly in the forest",
+        "te": "ప్రధానంగా అడవిలోనే నివాసం"
+       },
+       {
+        "en": "Depends on forest for livelihood",
+        "te": "జీవనానికి అడవిపై ఆధారం"
+       },
+       {
+        "en": "Collects naturally growing produce",
+        "te": "సహజంగా పెరిగే ఉత్పత్తుల సేకరణ"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Not recognised (this ruling)",
+       "te": "గుర్తింపు లేదు (ఈ తీర్పు)"
+      },
+      "l": [
+       {
+        "en": "Only temporary stay",
+        "te": "తాత్కాలిక నివాసం మాత్రమే"
+       },
+       {
+        "en": "Lives outside, farms inside",
+        "te": "బయట నివాసం, లోపల సాగు"
+       },
+       {
+        "en": "Planned silk-cotton plantation",
+        "te": "ప్రణాళికాబద్ధ సిల్క్ కాటన్ తోట"
+       }
+      ]
+     }
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Megamalai in the Western Ghats",
+      "te": "పశ్చిమ కనుమల్లో మేఘమలై"
+     },
+     "view": "south",
+     "hl": [
+      "Tamil Nadu"
+     ],
+     "hlc": "#1f6f6a",
+     "regions": [
+      "Western Ghats"
+     ],
+     "pts": [
+      {
+       "ll": [
+        9.67,
+        77.4
+       ],
+       "t": {
+        "en": "Megamalai",
+        "te": "మేఘమలై"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "The tiger reserve lies in the Western Ghats of southern Tamil Nadu.",
+      "te": "ఈ టైగర్ రిజర్వ్ దక్షిణ తమిళనాడులోని పశ్చిమ కనుమల్లో ఉంది."
+     },
+     "src": "cards/cad/2026-11-08/map-scfra-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "LiveLaw — Commercial crop cultivation cannot be recognized as forest right, 6 Nov 2026",
+     "u": "https://www.livelaw.in/supreme-court/commercial-crop-cultivation-cannot-be-recognized-as-forest-right-to-justify-presence-in-forest-area-supreme-court-557685"
+    },
+    {
+     "t": "Verdictum — A. John Kennedy v. State of Tamil Nadu, 2026 INSC 1204, 7 Nov 2026",
+     "u": "https://www.verdictum.in/supreme-court/a-john-kennedy-v-state-of-tamil-nadu-2026-insc-1204-forest-rights-act-1625339"
+    },
+    {
+     "t": "Wikipedia — Srivilliputhur-Megamalai Tiger Reserve (static facts)",
+     "u": "https://en.wikipedia.org/wiki/Srivilliputhur-Megamalai_Tiger_Reserve"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "cat": "economy",
+   "title": {
+    "en": "Petroleum Ministry: E20 petrol meets BIS standard IS 17021, including in Karnataka",
+    "te": "పెట్రోలియం శాఖ: కర్ణాటకతో సహా E20 పెట్రోల్ BIS ప్రమాణం IS 17021కు అనుగుణంగా ఉంది"
+   },
+   "pts": [
+    {
+     "en": "E20 = petrol blended with 20% ethanol. The Karnataka Government had claimed some outlets sold petrol with excess ethanol.",
+     "te": "E20 అంటే 20% ఇథనాల్ కలిపిన పెట్రోల్. కొన్ని బంకుల్లో ఇథనాల్ ఎక్కువగా ఉందని కర్ణాటక ప్రభుత్వం ఆరోపించింది."
+    },
+    {
+     "en": "The Ministry said 893 samples from 27 States/UTs met the specification. In Karnataka, all 56 samples conformed, with ethanol at 19–20%.",
+     "te": "27 రాష్ట్రాలు/UTల నుంచి సేకరించిన 893 నమూనాలు ప్రమాణాలకు సరిపోయాయని శాఖ తెలిపింది. కర్ణాటకలో 56 నమూనాలూ సరిపోయాయి; ఇథనాల్ 19–20%."
+    },
+    {
+     "en": "IOCL, BPCL and HPCL asked Karnataka to share its sampling records, outlet-wise lab reports and test method.",
+     "te": "IOCL, BPCL, HPCL సంస్థలు కర్ణాటక నుంచి నమూనా రికార్డులు, బంకు వారీ ల్యాబ్ నివేదికలు, పరీక్ష విధానం కోరాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Standard",
+      "te": "ప్రమాణం"
+     },
+     {
+      "en": "IS 17021 (BIS) — ethanol-blended petrol",
+      "te": "IS 17021 (BIS) — ఇథనాల్ మిశ్రమ పెట్రోల్"
+     }
+    ],
+    [
+     {
+      "en": "Samples",
+      "te": "నమూనాలు"
+     },
+     {
+      "en": "893 in 27 States/UTs",
+      "te": "27 రాష్ట్రాలు/UTల్లో 893"
+     }
+    ],
+    [
+     {
+      "en": "Karnataka",
+      "te": "కర్ణాటక"
+     },
+     {
+      "en": "56 samples · 19–20% ethanol",
+      "te": "56 నమూనాలు · 19–20% ఇథనాల్"
+     }
+    ],
+    [
+     {
+      "en": "Policy",
+      "te": "విధానం"
+     },
+     {
+      "en": "National Policy on Biofuels 2018 (amended 2022)",
+      "te": "జాతీయ జీవ ఇంధన విధానం 2018 (2022 సవరణ)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: the 2022 amendment to the National Policy on Biofuels advanced the 20% blending target from 2030 to 2025-26. Trap: IS standards are set by BIS (under the Consumer Affairs Ministry), not by the Petroleum Ministry.",
+    "te": "స్టాటిక్ లింక్: జాతీయ జీవ ఇంధన విధానం 2022 సవరణ 20% మిశ్రమ లక్ష్యాన్ని 2030 నుంచి 2025-26కు ముందుకు తెచ్చింది. ట్రాప్: IS ప్రమాణాలను నిర్ణయించేది BIS (వినియోగదారుల వ్యవహారాల శాఖ కింద) — పెట్రోలియం శాఖ కాదు."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "How the dispute moved",
+      "te": "వివాదం ఎలా సాగింది"
+     },
+     "items": [
+      {
+       "i": "⛽",
+       "t": {
+        "en": "Karnataka: excess ethanol claim",
+        "te": "కర్ణాటక: అధిక ఇథనాల్ ఆరోపణ"
+       }
+      },
+      {
+       "i": "🧪",
+       "t": {
+        "en": "893 samples, 27 States/UTs tested",
+        "te": "27 రాష్ట్రాలు/UTల్లో 893 నమూనాల పరీక్ష"
+       }
+      },
+      {
+       "i": "✅",
+       "t": {
+        "en": "All meet IS 17021; Karnataka 19–20%",
+        "te": "అన్నీ IS 17021కు సరి; కర్ణాటక 19–20%"
+       }
+      },
+      {
+       "i": "📄",
+       "t": {
+        "en": "OMCs seek Karnataka's lab reports",
+        "te": "కర్ణాటక ల్యాబ్ నివేదికలు కోరిన OMCలు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "News On AIR — Petroleum Ministry says E20 petrol across India meets prescribed quality standards, 8 Nov 2026",
+     "u": "https://newsonair.gov.in/petroleum-ministry-says-e20-petrol-across-india-meets-prescribed-quality-standards/"
+    }
+   ]
+  },
+  {
+   "id": "kts5",
+   "cat": "schemes",
+   "title": {
+    "en": "Kashi Tamil Sangamam 5.0: 1,000 institutions invited; students to study Thirukkural",
+    "te": "కాశీ తమిళ సంగమం 5.0: 1,000 సంస్థలకు ఆహ్వానం; విద్యార్థులకు తిరుక్కురళ్ అధ్యయనం"
+   },
+   "pts": [
+    {
+     "en": "The Ministry of Education invited 1,000 higher education institutions to register for Kashi Tamil Sangamam 5.0 and nominate one student each.",
+     "te": "కాశీ తమిళ సంగమం 5.0 కోసం 1,000 ఉన్నత విద్యా సంస్థలు నమోదు చేసుకుని ఒక్కో విద్యార్థిని నామినేట్ చేయాలని విద్యా మంత్రిత్వ శాఖ ఆహ్వానించింది."
+    },
+    {
+     "en": "Students will study verses of the Thirukkural in a language of their choice; selected students get an internship with a ₹10,000 stipend.",
+     "te": "విద్యార్థులు తమకు నచ్చిన భాషలో తిరుక్కురళ్ పద్యాలను అధ్యయనం చేస్తారు; ఎంపికైనవారికి ₹10,000 స్టైపెండ్‌తో ఇంటర్న్‌షిప్."
+    },
+    {
+     "en": "Kashi Tamil Sangamam links Varanasi (Kashi) and Tamil Nadu — two ancient centres of learning — in the spirit of 'Ek Bharat Shreshtha Bharat'.",
+     "te": "కాశీ తమిళ సంగమం వారణాసి (కాశీ), తమిళనాడు — రెండు ప్రాచీన విద్యాకేంద్రాలను — 'ఏక్ భారత్ శ్రేష్ఠ భారత్' స్ఫూర్తితో కలుపుతుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Ministry",
+      "te": "మంత్రిత్వ శాఖ"
+     },
+     {
+      "en": "Education",
+      "te": "విద్య"
+     }
+    ],
+    [
+     {
+      "en": "Edition",
+      "te": "ఎడిషన్"
+     },
+     {
+      "en": "5.0",
+      "te": "5.0"
+     }
+    ],
+    [
+     {
+      "en": "Stipend",
+      "te": "స్టైపెండ్"
+     },
+     {
+      "en": "₹10,000 internship",
+      "te": "₹10,000 ఇంటర్న్‌షిప్"
+     }
+    ],
+    [
+     {
+      "en": "Thirukkural",
+      "te": "తిరుక్కురళ్"
+     },
+     {
+      "en": "Tamil classic by Thiruvalluvar",
+      "te": "తిరువళ్లువర్ రచించిన తమిళ కావ్యం"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: Kashi Tamil Sangamam is organised by the Ministry of EDUCATION (not Culture). Thirukkural = Thiruvalluvar; 1,330 couplets in 3 parts — Aram (virtue), Porul (wealth), Inbam (love).",
+    "te": "ట్రాప్: కాశీ తమిళ సంగమాన్ని నిర్వహించేది విద్యా శాఖ (సాంస్కృతిక శాఖ కాదు). తిరుక్కురళ్ = తిరువళ్లువర్; 3 భాగాల్లో 1,330 ద్విపదలు — అరమ్ (ధర్మం), పొరుల్ (అర్థం), ఇన్బమ్ (కామం)."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Kashi ↔ Tamil Nadu",
+      "te": "కాశీ ↔ తమిళనాడు"
+     },
+     "view": "india",
+     "hl": [
+      "Uttar Pradesh",
+      "Tamil Nadu"
+     ],
+     "hlc": "#a86b00",
+     "pts": [
+      {
+       "ll": [
+        25.32,
+        82.97
+       ],
+       "t": {
+        "en": "Varanasi (Kashi)",
+        "te": "వారణాసి (కాశీ)"
+       }
+      },
+      {
+       "ll": [
+        13.08,
+        80.27
+       ],
+       "t": {
+        "en": "Chennai",
+        "te": "చెన్నై"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         25.32,
+         82.97
+        ],
+        [
+         13.08,
+         80.27
+        ]
+       ],
+       "dash": 1
+      }
+     ],
+     "cap": {
+      "en": "The Sangamam connects the Ganga city of Kashi with Tamil Nadu.",
+      "te": "గంగాతీర కాశీని తమిళనాడుతో ఈ సంగమం కలుపుతుంది."
+     },
+     "src": "cards/cad/2026-11-08/map-kts5-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "News On AIR — Education Ministry invites 1,000 institutions to join Kashi Tamil Sangamam 5.0, 7 Nov 2026",
+     "u": "https://newsonair.gov.in/education-ministry-invites-1000-institutions-to-join-kashi-tamil-sangamam-5-0/"
+    }
+   ]
+  },
+  {
+   "id": "piprahwa",
+   "cat": "schemes",
+   "title": {
+    "en": "Piprahwa relics of the Buddha move to Bomdila (8–13 Nov) on their Arunachal Pradesh tour",
+    "te": "బుద్ధుని పిప్రహ్వా అవశేషాలు అరుణాచల్ పర్యటనలో బోమ్‌డిలాకు (నవం 8–13)"
+   },
+   "pts": [
+    {
+     "en": "The holy Piprahwa relics of Lord Buddha, kept at the National Museum, New Delhi, are on public view in Arunachal Pradesh from 31 Oct to 21 Nov 2026.",
+     "te": "న్యూఢిల్లీ జాతీయ మ్యూజియంలోని బుద్ధుని పవిత్ర పిప్రహ్వా అవశేషాలు 2026 అక్టోబర్ 31 నుంచి నవంబర్ 21 వరకు అరుణాచల్ ప్రదేశ్‌లో ప్రజల దర్శనానికి ఉన్నాయి."
+    },
+    {
+     "en": "Venues: Tawang Monastery (1–7 Nov) → TGL Monastery, Bomdila (8–13 Nov) → Golden Pagoda, Namsai (14–20 Nov); back to Delhi on 21 Nov.",
+     "te": "వేదికలు: తవాంగ్ మఠం (నవం 1–7) → బోమ్‌డిలా TGL మఠం (నవం 8–13) → నామ్‌సాయ్ గోల్డెన్ పగోడా (నవం 14–20); నవం 21న ఢిల్లీకి తిరిగి."
+    },
+    {
+     "en": "Organised by the Ministry of Culture with the Arunachal government, the International Buddhist Confederation (IBC) and the National Museum.",
+     "te": "సాంస్కృతిక శాఖ, అరుణాచల్ ప్రభుత్వం, అంతర్జాతీయ బౌద్ధ సమాఖ్య (IBC), జాతీయ మ్యూజియం కలిసి నిర్వహిస్తున్నాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Found at",
+      "te": "లభించిన చోటు"
+     },
+     {
+      "en": "Piprahwa, Siddharthnagar district, UP (1898, W.C. Peppé)",
+      "te": "పిప్రహ్వా, సిద్ధార్థనగర్ జిల్లా, UP (1898, W.C. పెప్పే)"
+     }
+    ],
+    [
+     {
+      "en": "Now",
+      "te": "ఇప్పుడు"
+     },
+     {
+      "en": "Bomdila, 8–13 Nov",
+      "te": "బోమ్‌డిలా, నవం 8–13"
+     }
+    ],
+    [
+     {
+      "en": "Exhibition",
+      "te": "ప్రదర్శన"
+     },
+     {
+      "en": "'Unearthing the Sacred Piprahwa'",
+      "te": "'Unearthing the Sacred Piprahwa'"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Order trap: Tawang → Bomdila → Namsai (west to east). Piprahwa is in Uttar Pradesh near the Nepal border — not in Bihar.",
+    "te": "క్రమం ట్రాప్: తవాంగ్ → బోమ్‌డిలా → నామ్‌సాయ్ (పడమర నుంచి తూర్పు). పిప్రహ్వా నేపాల్ సరిహద్దు సమీపంలోని ఉత్తరప్రదేశ్‌లో ఉంది — బిహార్‌లో కాదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "The relics' route in Arunachal",
+      "te": "అరుణాచల్‌లో అవశేషాల మార్గం"
+     },
+     "view": "northeast",
+     "hl": [
+      "Arunachal Pradesh"
+     ],
+     "hlc": "#7a3b8f",
+     "pts": [
+      {
+       "ll": [
+        27.59,
+        91.86
+       ],
+       "t": {
+        "en": "Tawang 1–7",
+        "te": "తవాంగ్ 1–7"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        27.26,
+        92.42
+       ],
+       "t": {
+        "en": "Bomdila 8–13",
+        "te": "బోమ్‌డిలా 8–13"
+       }
+      },
+      {
+       "ll": [
+        27.67,
+        95.86
+       ],
+       "t": {
+        "en": "Namsai 14–20",
+        "te": "నామ్‌సాయ్ 14–20"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         27.59,
+         91.86
+        ],
+        [
+         27.26,
+         92.42
+        ],
+        [
+         27.67,
+         95.86
+        ]
+       ],
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "The relics travel west to east across Arunachal Pradesh.",
+      "te": "అవశేషాలు అరుణాచల్‌లో పడమర నుంచి తూర్పుకు ప్రయాణిస్తాయి."
+     },
+     "src": "cards/cad/2026-11-08/map-piprahwa-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "DD News — Sacred relics of Lord Buddha arrive at Tawang Monastery for public veneration, 2 Nov 2026",
+     "u": "https://ddnews.gov.in/en/sacred-relics-of-lord-buddha-arrive-at-tawang-monastery-for-public-veneration/"
+    },
+    {
+     "t": "Legacy IAS — PIB Summaries 07 November 2026 (Piprahwa itinerary, 1898 discovery)",
+     "u": "https://www.legacyias.com/pib-summaries-07-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "rahatmitra",
+   "cat": "defence",
+   "title": {
+    "en": "'Rahat Mitra': first India–Myanmar tri-services disaster-relief exercise held in Chennai",
+    "te": "'రాహత్ మిత్ర': చెన్నైలో తొలి భారత్–మయన్మార్ త్రివిధ దళాల విపత్తు సహాయ విన్యాసం"
+   },
+   "pts": [
+    {
+     "en": "Rahat Mitra is the first India–Myanmar tri-services (Army, Navy, Air Force) exercise on Humanitarian Assistance and Disaster Relief (HADR). It began in Chennai on 5 November under the aegis of the Indian Navy.",
+     "te": "రాహత్ మిత్ర — మానవతా సహాయం, విపత్తు సహాయం (HADR)పై తొలి భారత్–మయన్మార్ త్రివిధ దళాల (సైన్యం, నౌకాదళం, వైమానిక దళం) విన్యాసం. భారత నౌకాదళం ఆధ్వర్యంలో నవంబర్ 5న చెన్నైలో ప్రారంభమైంది."
+    },
+    {
+     "en": "More than 300 personnel took part. The scenario was flood relief: rescue, dewatering and bridge laying to restore connectivity.",
+     "te": "300 మందికి పైగా సిబ్బంది పాల్గొన్నారు. దృశ్యం: వరద సహాయం — రక్షణ, నీటి తొలగింపు, రవాణా పునరుద్ధరణకు వంతెనల ఏర్పాటు."
+    },
+    {
+     "en": "It supports India's 'Neighbourhood First' policy and the MAHASAGAR vision (Mutual and Holistic Advancement for Security and Growth Across Regions).",
+     "te": "ఇది భారత 'నైబర్‌హుడ్ ఫస్ట్' విధానానికి, MAHASAGAR దృక్పథానికి (Mutual and Holistic Advancement for Security and Growth Across Regions) తోడ్పడుతుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Type",
+      "te": "రకం"
+     },
+     {
+      "en": "Tri-services HADR, 1st edition",
+      "te": "త్రివిధ దళాల HADR, తొలి ఎడిషన్"
+     }
+    ],
+    [
+     {
+      "en": "Venue · Start",
+      "te": "వేదిక · ప్రారంభం"
+     },
+     {
+      "en": "Chennai · 5 Nov 2026",
+      "te": "చెన్నై · నవం 5, 2026"
+     }
+    ],
+    [
+     {
+      "en": "Personnel",
+      "te": "సిబ్బంది"
+     },
+     {
+      "en": "300+",
+      "te": "300+"
+     }
+    ],
+    [
+     {
+      "en": "India–Myanmar border states",
+      "te": "భారత్–మయన్మార్ సరిహద్దు రాష్ట్రాలు"
+     },
+     {
+      "en": "Arunachal, Nagaland, Manipur, Mizoram",
+      "te": "అరుణాచల్, నాగాలాండ్, మణిపూర్, మిజోరం"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: Rahat Mitra was held in CHENNAI (India), not in Myanmar. MAHASAGAR (2025) builds on SAGAR (2015). Four Indian states border Myanmar.",
+    "te": "ట్రాప్: రాహత్ మిత్ర చెన్నై (భారత్)లో జరిగింది — మయన్మార్‌లో కాదు. MAHASAGAR (2025) — SAGAR (2015)కు విస్తరణ. మయన్మార్‌తో 4 భారత రాష్ట్రాలకు సరిహద్దు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "India–Myanmar: exercise venue and border states",
+      "te": "భారత్–మయన్మార్: విన్యాస వేదిక, సరిహద్దు రాష్ట్రాలు"
+     },
+     "view": "india",
+     "hl": [
+      "Arunachal Pradesh",
+      "Nagaland",
+      "Manipur",
+      "Mizoram"
+     ],
+     "hlc": "#1d4f91",
+     "ctry": [
+      "Myanmar"
+     ],
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        13.08,
+        80.27
+       ],
+       "t": {
+        "en": "Chennai",
+        "te": "చెన్నై"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "Exercise in Chennai; four north-eastern states share the border with Myanmar.",
+      "te": "విన్యాసం చెన్నైలో; నాలుగు ఈశాన్య రాష్ట్రాలు మయన్మార్‌తో సరిహద్దు పంచుకుంటాయి."
+     },
+     "src": "cards/cad/2026-11-08/map-rahatmitra-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Rahnuma (IANS) — Over 300 personnel take part in inaugural India-Myanmar tri-services HADR exercise Rahat Mitra, 6 Nov 2026",
+     "u": "https://therahnuma.com/over-300-personnel-take-part-in-inaugural-india-myanmar-tri-services-hadr-exercise-rahat-mitra/"
+    },
+    {
+     "t": "Telangana Today (IANS) — India, Myanmar participate in Exercise Rahat Mitra in Chennai, 6 Nov 2026",
+     "u": "https://telanganatoday.com/india-myanmar-participate-in-exercise-rahat-mitra-in-chennai"
+    }
+   ]
+  },
+  {
+   "id": "dalela",
+   "cat": "ir",
+   "title": {
+    "en": "Sudhakar Dalela takes up post as India's Ambassador to Nepal",
+    "te": "నేపాల్‌లో భారత రాయబారిగా సుధాకర్ దలేలా బాధ్యతలు"
+   },
+   "pts": [
+    {
+     "en": "Senior diplomat Sudhakar Dalela arrived in Kathmandu on 3 November to take up his post as India's Ambassador to Nepal. He succeeds Naveen Srivastava.",
+     "te": "సీనియర్ దౌత్యవేత్త సుధాకర్ దలేలా నేపాల్‌లో భారత రాయబారిగా బాధ్యతలు చేపట్టేందుకు నవంబర్ 3న కాఠ్మండు చేరుకున్నారు. ఆయన నవీన్ శ్రీవాస్తవ స్థానంలో వచ్చారు."
+    },
+    {
+     "en": "He was earlier India's Ambassador to Bhutan (2022–25) and then Secretary (Economic Relations) in the Ministry of External Affairs.",
+     "te": "ఆయన గతంలో భూటాన్‌లో భారత రాయబారి (2022–25), తర్వాత విదేశాంగ శాఖలో కార్యదర్శి (ఆర్థిక సంబంధాలు)."
+    },
+    {
+     "en": "Nepal is a landlocked neighbour; India–Nepal ties rest on the 1950 Treaty of Peace and Friendship and an open border.",
+     "te": "నేపాల్ భూపరివేష్టిత పొరుగు దేశం; భారత్–నేపాల్ సంబంధాలకు 1950 శాంతి, స్నేహ ఒప్పందం, బహిరంగ సరిహద్దు పునాది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "New envoy",
+      "te": "కొత్త రాయబారి"
+     },
+     {
+      "en": "Sudhakar Dalela",
+      "te": "సుధాకర్ దలేలా"
+     }
+    ],
+    [
+     {
+      "en": "Predecessor",
+      "te": "పూర్వ రాయబారి"
+     },
+     {
+      "en": "Naveen Srivastava",
+      "te": "నవీన్ శ్రీవాస్తవ"
+     }
+    ],
+    [
+     {
+      "en": "Earlier post",
+      "te": "గత పదవి"
+     },
+     {
+      "en": "Ambassador to Bhutan 2022–25",
+      "te": "భూటాన్ రాయబారి 2022–25"
+     }
+    ],
+    [
+     {
+      "en": "Border states",
+      "te": "సరిహద్దు రాష్ట్రాలు"
+     },
+     {
+      "en": "Uttarakhand, UP, Bihar, West Bengal, Sikkim",
+      "te": "ఉత్తరాఖండ్, UP, బిహార్, పశ్చిమ బెంగాల్, సిక్కిం"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Five Indian states border Nepal: Uttarakhand, Uttar Pradesh, Bihar, West Bengal, Sikkim. Trap: Himachal Pradesh does NOT border Nepal.",
+    "te": "నేపాల్‌తో 5 భారత రాష్ట్రాలకు సరిహద్దు: ఉత్తరాఖండ్, ఉత్తరప్రదేశ్, బిహార్, పశ్చిమ బెంగాల్, సిక్కిం. ట్రాప్: హిమాచల్ ప్రదేశ్‌కు నేపాల్‌తో సరిహద్దు లేదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Nepal and its five Indian border states",
+      "te": "నేపాల్, దానితో సరిహద్దు ఉన్న ఐదు భారత రాష్ట్రాలు"
+     },
+     "view": "north",
+     "hl": [
+      "Uttarakhand",
+      "Uttar Pradesh",
+      "Bihar",
+      "West Bengal",
+      "Sikkim"
+     ],
+     "hlc": "#9b2c2c",
+     "ctry": [
+      "Nepal"
+     ],
+     "pts": [
+      {
+       "ll": [
+        27.72,
+        85.32
+       ],
+       "t": {
+        "en": "Kathmandu",
+        "te": "కాఠ్మండు"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Nepal touches five Indian states, from Uttarakhand in the west to Sikkim in the east.",
+      "te": "నేపాల్ పడమర ఉత్తరాఖండ్ నుంచి తూర్పు సిక్కిం వరకు ఐదు భారత రాష్ట్రాలను తాకుతుంది."
+     },
+     "src": "cards/cad/2026-11-08/map-dalela-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Himalayan Times — India's newly appointed ambassador Dalela arrives in Kathmandu, 3 Nov 2026",
+     "u": "https://thehimalayantimes.com/kathmandu/indias-newly-appointed-ambassador-dalela-arrives-in-kathmandu"
+    },
+    {
+     "t": "CareerIndia — School assembly news headlines, 8 Nov 2026",
+     "u": "https://www.careerindia.com/news/school-assembly-news-headlines-today-november-8-2026-national-international-education-sport-068313.html"
+    }
+   ]
+  },
+  {
+   "id": "pranav",
+   "cat": "sports",
+   "title": {
+    "en": "India's V. Pranav wins the World Junior Blitz Chess Championship in Al Ain",
+    "te": "అల్ ఐన్‌లో ప్రపంచ జూనియర్ బ్లిట్జ్ చెస్ ఛాంపియన్‌గా భారత్‌కు చెందిన వి. ప్రణవ్"
+   },
+   "pts": [
+    {
+     "en": "Grandmaster V. Pranav (Pranav Venkatesh, 20, from Chennai) won the FIDE World Junior Blitz title with 10.5 points from 13 rounds — a full point clear.",
+     "te": "గ్రాండ్‌మాస్టర్ వి. ప్రణవ్ (ప్రణవ్ వెంకటేశ్, 20, చెన్నై) 13 రౌండ్లలో 10.5 పాయింట్లతో FIDE ప్రపంచ జూనియర్ బ్లిట్జ్ టైటిల్ గెలిచారు — ఒక పూర్తి పాయింట్ ఆధిక్యంతో."
+    },
+    {
+     "en": "He also won silver in the Rapid section. He is already the World Junior Champion in classical chess.",
+     "te": "ర్యాపిడ్ విభాగంలో రజతం కూడా గెలిచారు. ఆయన ఇప్పటికే క్లాసికల్ చెస్‌లో ప్రపంచ జూనియర్ ఛాంపియన్."
+    },
+    {
+     "en": "The World Junior Rapid & Blitz Championships were held in Al Ain, UAE, from 1 to 7 November with 185 players from 40 countries. Women's blitz: Valeria Kleymenova (Russia).",
+     "te": "ప్రపంచ జూనియర్ ర్యాపిడ్ & బ్లిట్జ్ ఛాంపియన్‌షిప్‌లు నవంబర్ 1–7 మధ్య UAEలోని అల్ ఐన్‌లో జరిగాయి — 40 దేశాల నుంచి 185 మంది. మహిళల బ్లిట్జ్: వలేరియా క్లేమెనోవా (రష్యా)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Score",
+      "te": "స్కోరు"
+     },
+     {
+      "en": "10.5 / 13",
+      "te": "10.5 / 13"
+     }
+    ],
+    [
+     {
+      "en": "Silver · Bronze",
+      "te": "రజతం · కాంస్యం"
+     },
+     {
+      "en": "E. Orozbaev (Kyrgyzstan) · R. Piliposyan (Armenia)",
+      "te": "ఇ. ఒరోజ్‌బయేవ్ (కిర్గిజ్‌స్తాన్) · ఆర్. పిలిపోస్యాన్ (ఆర్మేనియా)"
+     }
+    ],
+    [
+     {
+      "en": "Venue · Dates",
+      "te": "వేదిక · తేదీలు"
+     },
+     {
+      "en": "Al Ain, UAE · 1–7 Nov 2026",
+      "te": "అల్ ఐన్, UAE · నవం 1–7, 2026"
+     }
+    ],
+    [
+     {
+      "en": "Organiser",
+      "te": "నిర్వాహకులు"
+     },
+     {
+      "en": "FIDE (HQ Lausanne)",
+      "te": "FIDE (ప్రధాన కార్యాలయం లోసానే)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: Pranav won BLITZ gold but RAPID silver. Formats by time: classical (slowest) > rapid > blitz (fastest).",
+    "te": "ట్రాప్: ప్రణవ్‌కు బ్లిట్జ్‌లో స్వర్ణం, ర్యాపిడ్‌లో రజతం. సమయం ప్రకారం: క్లాసికల్ (నెమ్మది) > ర్యాపిడ్ > బ్లిట్జ్ (వేగవంతం)."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "World Junior Blitz 2026 — top scores",
+      "te": "ప్రపంచ జూనియర్ బ్లిట్జ్ 2026 — అగ్ర స్కోర్లు"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "V. Pranav (India)",
+        "te": "వి. ప్రణవ్ (భారత్)"
+       },
+       "v": 10.5,
+       "vl": "10.5"
+      },
+      {
+       "t": {
+        "en": "Orozbaev (Kyrgyzstan)",
+        "te": "ఒరోజ్‌బయేవ్ (కిర్గిజ్‌స్తాన్)"
+       },
+       "v": 9.5,
+       "vl": "9.5"
+      },
+      {
+       "t": {
+        "en": "Piliposyan (Armenia)",
+        "te": "పిలిపోస్యాన్ (ఆర్మేనియా)"
+       },
+       "v": 9.5,
+       "vl": "9.5"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "FIDE — World Junior Blitz Championship 2026: Pranav V and Kleymenova claim titles in Al Ain, 8 Nov 2026",
+     "u": "https://www.fide.com/world-junior-blitz-championship-2026-pranav-v-and-kleymenova-claim-titles-in-al-ain/"
+    },
+    {
+     "t": "The Bridge — Pranav Venkatesh crowned world junior blitz champion, 7 Nov 2026",
+     "u": "https://thebridge.in/chess/pranav-venkatesh-world-junior-blitz-champion-58297"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "apswachh",
+   "q": {
+    "en": "Consider the following about AP's Swachh Survekshan awards announced in November 2026. Which is/are correct?",
+    "te": "2026 నవంబర్‌లో ప్రకటించిన ఏపీ స్వచ్ఛ సర్వేక్షణ్ అవార్డుల గురించి కిందివాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. AP won six awards, including one for Kuppam Municipality.",
+     "te": "I. ఏపీ ఆరు అవార్డులు గెలిచింది; వాటిలో ఒకటి కుప్పం మున్సిపాలిటీకి."
+    },
+    {
+     "en": "II. The awards will be presented by the Vice-President.",
+     "te": "II. అవార్డులను ఉపరాష్ట్రపతి అందజేస్తారు."
+    },
+    {
+     "en": "III. Swachh Survekshan is conducted by the Ministry of Jal Shakti.",
+     "te": "III. స్వచ్ఛ సర్వేక్షణ్‌ను జల్ శక్తి శాఖ నిర్వహిస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Only I. II is wrong: President Droupadi Murmu presents them (11 Nov, New Delhi). III is the trap: Swachh Survekshan (urban) is run by the Housing & Urban Affairs Ministry; Jal Shakti handles SBM-Grameen.",
+    "te": "I మాత్రమే. II తప్పు: అవార్డులు రాష్ట్రపతి ద్రౌపది ముర్ము అందజేస్తారు (నవం 11, న్యూఢిల్లీ). III ట్రాప్: స్వచ్ఛ సర్వేక్షణ్ (పట్టణ)ను గృహనిర్మాణ, పట్టణ వ్యవహారాల శాఖ నిర్వహిస్తుంది; SBM-గ్రామీణ్ జల్ శక్తి శాఖది."
+   }
+  },
+  {
+   "topic": "apswachh",
+   "q": {
+    "en": "Which one of the following AP winners of the 2026 Swachh Survekshan awards is NOT a municipal corporation?",
+    "te": "2026 స్వచ్ఛ సర్వేక్షణ్ అవార్డులు గెలిచిన కింది ఏపీ పట్టణాల్లో నగరపాలక సంస్థ కానిది ఏది?"
+   },
+   "o": [
+    {
+     "en": "Rajahmundry",
+     "te": "రాజమహేంద్రవరం"
+    },
+    {
+     "en": "Tirupati",
+     "te": "తిరుపతి"
+    },
+    {
+     "en": "Kuppam",
+     "te": "కుప్పం"
+    },
+    {
+     "en": "Guntur",
+     "te": "గుంటూరు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Kuppam is a municipality. Visakhapatnam, Vijayawada, Guntur, Rajahmundry and Tirupati are the five municipal corporations that won.",
+    "te": "కుప్పం మున్సిపాలిటీ. విశాఖపట్నం, విజయవాడ, గుంటూరు, రాజమహేంద్రవరం, తిరుపతి — గెలిచిన ఐదు నగరపాలక సంస్థలు."
+   }
+  },
+  {
+   "topic": "scfra",
+   "q": {
+    "en": "With reference to the Supreme Court ruling of 6 Nov 2026 on the Megamalai area, consider the statements. Which is/are correct?",
+    "te": "మేఘమలై ప్రాంతంపై 2026 నవం 6 సుప్రీంకోర్టు తీర్పుకు సంబంధించి కింది వాక్యాల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. Planned cultivation of silk cotton was held not to be a right under the FRA, 2006.",
+     "te": "I. సిల్క్ కాటన్ ప్రణాళికాబద్ధ సాగు FRA 2006 కింద హక్కు కాదని తీర్పు చెప్పింది."
+    },
+    {
+     "en": "II. People living outside the forest who only cultivate inside it can qualify as forest dwellers.",
+     "te": "II. అడవి బయట నివసిస్తూ లోపల సాగు మాత్రమే చేసేవారు అటవీవాసులుగా అర్హులు."
+    },
+    {
+     "en": "III. A Special Committee headed by former CJI B.R. Gavai will scrutinise the claims.",
+     "te": "III. మాజీ CJI బి.ఆర్. గవాయ్ నేతృత్వంలోని ప్రత్యేక కమిటీ క్లెయిమ్‌లను పరిశీలిస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct. II is the trap: the Court said those living outside the forest (and temporary residents) cannot become forest dwellers just by cultivating.",
+    "te": "I, III సరైనవి. II ట్రాప్: అడవి బయట నివసించేవారు (తాత్కాలిక నివాసులు కూడా) కేవలం సాగుతో అటవీవాసులు కాలేరని కోర్టు చెప్పింది."
+   }
+  },
+  {
+   "topic": "scfra",
+   "q": {
+    "en": "Under the Forest Rights Act, 2006, an 'Other Traditional Forest Dweller' must have primarily resided in the forest for:",
+    "te": "అటవీ హక్కుల చట్టం 2006 ప్రకారం 'ఇతర సంప్రదాయ అటవీవాసి' అడవిలో ప్రధానంగా ఎంతకాలం నివసించి ఉండాలి?"
+   },
+   "o": [
+    {
+     "en": "2 generations (50 years) before 13 Dec 2005",
+     "te": "13 డిసెం 2005కు ముందు 2 తరాలు (50 ఏళ్లు)"
+    },
+    {
+     "en": "3 generations (75 years) before 26 Jan 1950",
+     "te": "26 జన 1950కు ముందు 3 తరాలు (75 ఏళ్లు)"
+    },
+    {
+     "en": "25 years before 13 Dec 2005",
+     "te": "13 డిసెం 2005కు ముందు 25 ఏళ్లు"
+    },
+    {
+     "en": "3 generations (75 years) before 13 Dec 2005",
+     "te": "13 డిసెం 2005కు ముందు 3 తరాలు (75 ఏళ్లు)"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "OTFD = at least 3 generations (one generation = 25 years, so 75 years) before the cut-off date 13 December 2005. Option (b) has the right period but the wrong cut-off date.",
+    "te": "OTFD = కట్-ఆఫ్ తేదీ 2005 డిసెంబర్ 13కు ముందు కనీసం 3 తరాలు (ఒక తరం = 25 ఏళ్లు, అంటే 75 ఏళ్లు). (b)లో కాలం సరైనదే కానీ కట్-ఆఫ్ తేదీ తప్పు."
+   }
+  },
+  {
+   "topic": "e20",
+   "q": {
+    "en": "Consider the following about the E20 petrol quality issue (Nov 2026). Which is/are correct?",
+    "te": "E20 పెట్రోల్ నాణ్యత అంశం (నవం 2026) గురించి కింది వాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. E20 petrol must conform to the BIS standard IS 17021.",
+     "te": "I. E20 పెట్రోల్ BIS ప్రమాణం IS 17021కు అనుగుణంగా ఉండాలి."
+    },
+    {
+     "en": "II. The Ministry said 893 samples from 27 States/UTs met the specification.",
+     "te": "II. 27 రాష్ట్రాలు/UTల నుంచి 893 నమూనాలు ప్రమాణాలకు సరిపోయాయని శాఖ తెలిపింది."
+    },
+    {
+     "en": "III. Karnataka samples showed 25–30% ethanol, so sales were stopped.",
+     "te": "III. కర్ణాటక నమూనాల్లో 25–30% ఇథనాల్ ఉండటంతో అమ్మకాలు నిలిపివేశారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and II are correct. III is wrong: the Ministry said all 56 Karnataka samples conformed, with ethanol at 19–20%; it rejected the state's excess-ethanol claim.",
+    "te": "I, II సరైనవి. III తప్పు: కర్ణాటకలో 56 నమూనాలూ సరిపోయాయని, ఇథనాల్ 19–20% అని శాఖ చెప్పింది; అధిక ఇథనాల్ ఆరోపణను తిరస్కరించింది."
+   }
+  },
+  {
+   "topic": "kts5",
+   "q": {
+    "en": "Consider the following about Kashi Tamil Sangamam 5.0. Which is/are correct?",
+    "te": "కాశీ తమిళ సంగమం 5.0 గురించి కింది వాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. It is organised by the Ministry of Culture.",
+     "te": "I. దీనిని సాంస్కృతిక శాఖ నిర్వహిస్తుంది."
+    },
+    {
+     "en": "II. 1,000 higher education institutions were invited to nominate one student each.",
+     "te": "II. 1,000 ఉన్నత విద్యా సంస్థలను ఒక్కో విద్యార్థిని నామినేట్ చేయమని ఆహ్వానించారు."
+    },
+    {
+     "en": "III. Students will study the Thirukkural, written by Thiruvalluvar.",
+     "te": "III. విద్యార్థులు తిరువళ్లువర్ రచించిన తిరుక్కురళ్‌ను అధ్యయనం చేస్తారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II and III are correct. I is the trap: the Ministry of EDUCATION organises Kashi Tamil Sangamam.",
+    "te": "II, III సరైనవి. I ట్రాప్: కాశీ తమిళ సంగమాన్ని నిర్వహించేది విద్యా శాఖ."
+   }
+  },
+  {
+   "topic": "piprahwa",
+   "q": {
+    "en": "Arrange the venues of the Piprahwa relics exposition in Arunachal Pradesh (Nov 2026) in the correct order:",
+    "te": "అరుణాచల్ ప్రదేశ్‌లో పిప్రహ్వా అవశేషాల ప్రదర్శన (నవం 2026) వేదికలను సరైన క్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "1. Golden Pagoda, Namsai",
+     "te": "1. గోల్డెన్ పగోడా, నామ్‌సాయ్"
+    },
+    {
+     "en": "2. Tawang Monastery",
+     "te": "2. తవాంగ్ మఠం"
+    },
+    {
+     "en": "3. TGL Monastery, Bomdila",
+     "te": "3. TGL మఠం, బోమ్‌డిలా"
+    }
+   ],
+   "o": [
+    {
+     "en": "2 – 1 – 3",
+     "te": "2 – 1 – 3"
+    },
+    {
+     "en": "3 – 2 – 1",
+     "te": "3 – 2 – 1"
+    },
+    {
+     "en": "2 – 3 – 1",
+     "te": "2 – 3 – 1"
+    },
+    {
+     "en": "1 – 3 – 2",
+     "te": "1 – 3 – 2"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Tawang (1–7 Nov) → Bomdila (8–13 Nov) → Namsai (14–20 Nov), west to east; the relics return to the National Museum, Delhi, on 21 Nov.",
+    "te": "తవాంగ్ (నవం 1–7) → బోమ్‌డిలా (నవం 8–13) → నామ్‌సాయ్ (నవం 14–20), పడమర నుంచి తూర్పు; నవం 21న ఢిల్లీ జాతీయ మ్యూజియంకు తిరిగి."
+   }
+  },
+  {
+   "topic": "rahatmitra",
+   "q": {
+    "en": "Consider the following about Exercise 'Rahat Mitra'. Which is/are correct?",
+    "te": "'రాహత్ మిత్ర' విన్యాసం గురించి కింది వాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. It is the first tri-services HADR exercise between India and Myanmar.",
+     "te": "I. ఇది భారత్–మయన్మార్ మధ్య తొలి త్రివిధ దళాల HADR విన్యాసం."
+    },
+    {
+     "en": "II. It was held in Chennai under the aegis of the Indian Navy.",
+     "te": "II. ఇది భారత నౌకాదళ ఆధ్వర్యంలో చెన్నైలో జరిగింది."
+    },
+    {
+     "en": "III. Its scenario was flood relief.",
+     "te": "III. దాని దృశ్యం వరద సహాయం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct. Trap to avoid: thinking it was held in Myanmar or that it was a combat exercise — it was a disaster-relief (HADR) exercise in Chennai.",
+    "te": "మూడూ సరైనవే. ట్రాప్: ఇది మయన్మార్‌లో జరిగిందని లేదా యుద్ధ విన్యాసమని అనుకోవడం — ఇది చెన్నైలో జరిగిన విపత్తు సహాయ (HADR) విన్యాసం."
+   }
+  },
+  {
+   "topic": "dalela",
+   "q": {
+    "en": "Which one of the following Indian states does NOT share a border with Nepal, where Sudhakar Dalela is the new Indian Ambassador?",
+    "te": "సుధాకర్ దలేలా కొత్త భారత రాయబారిగా ఉన్న నేపాల్‌తో కింది భారత రాష్ట్రాల్లో సరిహద్దు లేనిది ఏది?"
+   },
+   "o": [
+    {
+     "en": "Himachal Pradesh",
+     "te": "హిమాచల్ ప్రదేశ్"
+    },
+    {
+     "en": "Sikkim",
+     "te": "సిక్కిం"
+    },
+    {
+     "en": "Uttarakhand",
+     "te": "ఉత్తరాఖండ్"
+    },
+    {
+     "en": "Bihar",
+     "te": "బిహార్"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Nepal borders five Indian states: Uttarakhand, Uttar Pradesh, Bihar, West Bengal and Sikkim. Himachal Pradesh borders China (Tibet), not Nepal.",
+    "te": "నేపాల్‌కు ఐదు భారత రాష్ట్రాలతో సరిహద్దు: ఉత్తరాఖండ్, ఉత్తరప్రదేశ్, బిహార్, పశ్చిమ బెంగాల్, సిక్కిం. హిమాచల్‌కు చైనా (టిబెట్)తో సరిహద్దు — నేపాల్‌తో కాదు."
+   }
+  },
+  {
+   "topic": "pranav",
+   "q": {
+    "en": "Match List-I (player) with List-II (2026 World Junior Rapid & Blitz result):",
+    "te": "జాబితా-I (ఆటగాడు)ను జాబితా-II (2026 ప్రపంచ జూనియర్ ర్యాపిడ్ & బ్లిట్జ్ ఫలితం)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. V. Pranav — 1. Women's blitz gold",
+     "te": "A. వి. ప్రణవ్ — 1. మహిళల బ్లిట్జ్ స్వర్ణం"
+    },
+    {
+     "en": "B. Valeria Kleymenova — 2. Open blitz silver",
+     "te": "B. వలేరియా క్లేమెనోవా — 2. ఓపెన్ బ్లిట్జ్ రజతం"
+    },
+    {
+     "en": "C. Eldiyar Orozbaev — 3. Open blitz gold",
+     "te": "C. ఎల్దియార్ ఒరోజ్‌బయేవ్ — 3. ఓపెన్ బ్లిట్జ్ స్వర్ణం"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-1, B-3, C-2",
+     "te": "A-1, B-3, C-2"
+    },
+    {
+     "en": "A-3, B-1, C-2",
+     "te": "A-3, B-1, C-2"
+    },
+    {
+     "en": "A-2, B-1, C-3",
+     "te": "A-2, B-1, C-3"
+    },
+    {
+     "en": "A-3, B-2, C-1",
+     "te": "A-3, B-2, C-1"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Pranav (India) won open blitz gold with 10.5/13; Kleymenova (Russia) women's blitz gold; Orozbaev (Kyrgyzstan) silver. Trap: Pranav's medal in RAPID was silver, not gold.",
+    "te": "ప్రణవ్ (భారత్) 10.5/13తో ఓపెన్ బ్లిట్జ్ స్వర్ణం; క్లేమెనోవా (రష్యా) మహిళల బ్లిట్జ్ స్వర్ణం; ఒరోజ్‌బయేవ్ (కిర్గిజ్‌స్తాన్) రజతం. ట్రాప్: ర్యాపిడ్‌లో ప్రణవ్‌కు రజతం — స్వర్ణం కాదు."
+   }
+  }
+ ]
+}

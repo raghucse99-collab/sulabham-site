@@ -1,0 +1,201 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-08 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following about AP's Swachh Survekshan awards announced in November 2026. Which is/are correct?
+I. AP won six awards, including one for Kuppam Municipality.
+II. The awards will be presented by the Vice-President.
+III. Swachh Survekshan is conducted by the Ministry of Jal Shakti.
+
+--- QUESTION ---
+Q1. Consider the following about AP's Swachh Survekshan awards announced in November 2026. Which is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Only I. II is wrong: President Droupadi Murmu presents them (11 Nov, New Delhi). III is the trap: Swachh Survekshan (urban) is run by the Housing & Urban Affairs Ministry; Jal Shakti handles SBM-Gr...
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Which one of the following AP winners of the 2026 Swachh Survekshan awards is NOT a municipal corporation?
+
+--- OPTIONS ---
+(a) Rajahmundry
+(b) Tirupati
+(c) Kuppam
+(d) Guntur
+
+--- CORRECT (tick this) ---
+(c) Kuppam
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Kuppam is a municipality. Visakhapatnam, Vijayawada, Guntur, Rajahmundry and Tirupati are the five municipal corporations that won.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. With reference to the Supreme Court ruling of 6 Nov 2026 on the Megamalai area, consider the statements. Which is/are correct?
+I. Planned cultivation of silk cotton was held not to be a right under the FRA, 2006.
+II. People living outside the forest who only cultivate inside it can qualify as forest dwellers.
+III. A Special Committee headed by former CJI B.R. Gavai will scrutinise the claims.
+
+--- QUESTION ---
+Q3. With reference to the Supreme Court ruling of 6 Nov 2026 on the Megamalai area, consider the statements. Which is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct. II is the trap: the Court said those living outside the forest (and temporary residents) cannot become forest dwellers just by cultivating.
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Under the Forest Rights Act, 2006, an 'Other Traditional Forest Dweller' must have primarily resided in the forest for:
+
+--- OPTIONS ---
+(a) 2 generations (50 years) before 13 Dec 2005
+(b) 3 generations (75 years) before 26 Jan 1950
+(c) 25 years before 13 Dec 2005
+(d) 3 generations (75 years) before 13 Dec 2005
+
+--- CORRECT (tick this) ---
+(d) 3 generations (75 years) before 13 Dec 2005
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+OTFD = at least 3 generations (one generation = 25 years, so 75 years) before the cut-off date 13 December 2005. Option (b) has the right period but the wrong cut-off date.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Consider the following about the E20 petrol quality issue (Nov 2026). Which is/are correct?
+I. E20 petrol must conform to the BIS standard IS 17021.
+II. The Ministry said 893 samples from 27 States/UTs met the specification.
+III. Karnataka samples showed 25–30% ethanol, so sales were stopped.
+
+--- QUESTION ---
+Q5. Consider the following about the E20 petrol quality issue (Nov 2026). Which is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: the Ministry said all 56 Karnataka samples conformed, with ethanol at 19–20%; it rejected the state's excess-ethanol claim.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following about Kashi Tamil Sangamam 5.0. Which is/are correct?
+I. It is organised by the Ministry of Culture.
+II. 1,000 higher education institutions were invited to nominate one student each.
+III. Students will study the Thirukkural, written by Thiruvalluvar.
+
+--- QUESTION ---
+Q6. Consider the following about Kashi Tamil Sangamam 5.0. Which is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II and III are correct. I is the trap: the Ministry of EDUCATION organises Kashi Tamil Sangamam.
+
+==================== Q7 ====================
+--- QUESTION ---
+Q7. Arrange the venues of the Piprahwa relics exposition in Arunachal Pradesh (Nov 2026) in the correct order:
+1. Golden Pagoda, Namsai
+2. Tawang Monastery
+3. TGL Monastery, Bomdila
+
+--- OPTIONS ---
+(a) 2 – 1 – 3
+(b) 3 – 2 – 1
+(c) 2 – 3 – 1
+(d) 1 – 3 – 2
+
+--- CORRECT (tick this) ---
+(c) 2 – 3 – 1
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Tawang (1–7 Nov) → Bomdila (8–13 Nov) → Namsai (14–20 Nov), west to east; the relics return to the National Museum, Delhi, on 21 Nov.
+
+==================== Q8 ====================
+--- QUESTION ---
+Q8. Consider the following about Exercise 'Rahat Mitra'. Which is/are correct?
+I. It is the first tri-services HADR exercise between India and Myanmar.
+II. It was held in Chennai under the aegis of the Indian Navy.
+III. Its scenario was flood relief.
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(d) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+All three are correct. Trap to avoid: thinking it was held in Myanmar or that it was a combat exercise — it was a disaster-relief (HADR) exercise in Chennai.
+
+==================== Q9 ====================
+--- QUESTION ---
+Q9. Which one of the following Indian states does NOT share a border with Nepal, where Sudhakar Dalela is the new Indian Ambassador?
+
+--- OPTIONS ---
+(a) Himachal Pradesh
+(b) Sikkim
+(c) Uttarakhand
+(d) Bihar
+
+--- CORRECT (tick this) ---
+(a) Himachal Pradesh
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Nepal borders five Indian states: Uttarakhand, Uttar Pradesh, Bihar, West Bengal and Sikkim. Himachal Pradesh borders China (Tibet), not Nepal.
+
+==================== Q10 ====================
+--- QUESTION ---
+Q10. Match List-I (player) with List-II (2026 World Junior Rapid & Blitz result):
+A. V. Pranav — 1. Women's blitz gold
+B. Valeria Kleymenova — 2. Open blitz silver
+C. Eldiyar Orozbaev — 3. Open blitz gold
+
+--- OPTIONS ---
+(a) A-1, B-3, C-2
+(b) A-3, B-1, C-2
+(c) A-2, B-1, C-3
+(d) A-3, B-2, C-1
+
+--- CORRECT (tick this) ---
+(b) A-3, B-1, C-2
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Pranav (India) won open blitz gold with 10.5/13; Kleymenova (Russia) women's blitz gold; Orozbaev (Kyrgyzstan) silver. Trap: Pranav's medal in RAPID was silver, not gold.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/current.html?d=2026-11-08
