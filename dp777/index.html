@@ -755,7 +755,7 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
  <div class="open-digit-controls"><label for="openDigit">Open digit</label><select id="openDigit" class="field"><option value="0" selected>0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select><button type="button" id="runOpenDigitSearch" class="primary-btn">Search 10 Jodis</button></div>
  <div id="openDigitSummary" class="open-digit-summary" aria-live="polite">Choose an open digit to view its matching historical Jodis.</div>
 </div>
-<div class="tabs"><button class="tab active" data-view="jodi">Jodi Chart</button><button class="tab" data-view="panel">Panel Chart</button><button class="tab" data-view="target-linked">Number+n Search</button><button class="tab" data-view="repeat">Repeat Logic</button><button class="tab" data-view="linked">Linked Jodi Logic</button></div>
+<div class="tabs"><button class="tab active" data-view="jodi">Jodi Chart</button><button class="tab" data-view="panel">Panel Chart</button><button class="tab" data-view="target-linked">Number+n Search</button><button class="tab" data-view="friday-monday">Friday–Monday Progression</button><button class="tab" data-view="repeat">Repeat Logic</button><button class="tab" data-view="linked">Linked Jodi Logic</button></div>
 <div class="summary"><span class="pill" id="count">0 records</span><span class="pill" id="targetStats" hidden></span></div>
 <div id="tableArea" class="table-wrap"><div class="empty"><strong>Loading chart records…</strong>Please wait while the latest published data is loaded.</div></div>
 <div id="currentChartLabel" class="current-chart-label" aria-live="polite">Time Bazar</div>
@@ -1025,7 +1025,7 @@ function matchesChartSearch(row,query){
  if(/^\d{1,3}$/.test(q))return ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].some(d=>String(row[d+' Jodi']??'').trim()===q);
  return JSON.stringify(row).toLowerCase().includes(q);
 }
-function updateCurrentChartLabel(){const market=markets.find(m=>m.id===selected);const label=$('currentChartLabel');if(!label||!market)return;const type=({jodi:'Jodi Chart',panel:'Panel Chart','target-linked':'Number+n Search',repeat:'Repeat Logic',linked:'Linked Jodi Logic'})[view]||'Jodi Chart';label.textContent=market.name;}
+function updateCurrentChartLabel(){const market=markets.find(m=>m.id===selected);const label=$('currentChartLabel');if(!label||!market)return;const type=({jodi:'Jodi Chart',panel:'Panel Chart','target-linked':'Number+n Search','friday-monday':'Friday–Monday Progression',repeat:'Repeat Logic',linked:'Linked Jodi Logic'})[view]||'Jodi Chart';label.textContent=market.name;}
 function renderChart(){
  const stats=$('targetStats');
  if(dataLoadFailed&&!data.charts?.[chartKeyFor(selected)]){
@@ -1092,6 +1092,66 @@ function renderChart(){
  $('year').innerHTML='<option value="all">All years</option>'+years.map(y=>'<option value="'+y+'">'+y+'</option>').join('');
  if(years.includes(prev))$('year').value=prev;
  const yr=$('year').value, q=$('search').value.trim();
+
+ if(view==='friday-monday'){
+  // Independent Friday-to-Monday progression search.
+  // It deliberately ignores Number/Jodi input, Day filter, Year filter, and Number+n state.
+  stats.hidden=true;
+  const progressionRows=sortOldestFirst(allRows);
+  const fridayJodis=['85','95','05','15','25','35'];
+  const gaps=[5,4,3,2,1,0];
+  const validJodi=v=>/^\d{2}$/.test(String(v??'').trim());
+  const occurrences=new Map(fridayJodis.map(j=>[j,[]]));
+  progressionRows.forEach((row,index)=>{
+   const friday=String(row['Fri Jodi']??'').trim();
+   if(occurrences.has(friday))occurrences.get(friday).push(index);
+  });
+  const mondayAt=(fridayIndex,gap)=>{
+   // Gap 0 means the immediately following weekly row.
+   const mondayIndex=fridayIndex+gap+1;
+   if(mondayIndex>=progressionRows.length)return null;
+   const result=String(progressionRows[mondayIndex]['Mon Jodi']??'').trim();
+   if(!validJodi(result))return null;
+   return {index:mondayIndex,result,row:progressionRows[mondayIndex]};
+  };
+  const matches=[];
+  let checked=0,truncated=false;
+  const MAX_CHECKS=250000,MAX_MATCHES=2000;
+  function extend(stage,chosen){
+   if(matches.length>=MAX_MATCHES){truncated=true;return;}
+   if(stage===fridayJodis.length){
+    matches.push(chosen.slice());return;
+   }
+   const jodi=fridayJodis[stage],gap=gaps[stage];
+   const previous=chosen[chosen.length-1];
+   const candidates=occurrences.get(jodi)||[];
+   for(const fridayIndex of candidates){
+    if(previous&&fridayIndex<=previous.fridayIndex)continue;
+    if(++checked>MAX_CHECKS){truncated=true;return;}
+    const monday=mondayAt(fridayIndex,gap);
+    if(!monday)continue;
+    // Each two-Friday step has its own identical Monday result.
+    // Step 1, Step 2 and Step 3 targets are not forced to equal one another.
+    if(stage%2===1&&monday.result!==chosen[stage-1].monday.result)continue;
+    chosen.push({stage,jodi,gap,fridayIndex,fridayRow:progressionRows[fridayIndex],mondayIndex:monday.index,mondayRow:monday.row,monday:monday.result});
+    extend(stage+1,chosen);
+    chosen.pop();
+    if(truncated&&matches.length>=MAX_MATCHES)return;
+   }
+  }
+  extend(0,[]);
+  matches.sort((a,b)=>b[5].fridayIndex-a[5].fridayIndex||a[0].fridayIndex-b[0].fridayIndex);
+  $('count').textContent=matches.length+' six-stage progressions · '+progressionRows.length+' chart weeks checked';
+  const card=(chain,n)=>{
+   const stepCards=[0,1,2].map(step=>{
+    const a=chain[step*2],b=chain[step*2+1];
+    return '<div class="repeat-live-section"><h3>STEP '+(step+1)+' · FRIDAY '+a.jodi+' → '+b.jodi+'</h3><p>Both Monday target results must be identical.</p><div class="repeat-steps">'+[a,b].map(x=>'<div class="repeat-step"><b class="repeat-step-num">FRIDAY '+x.jodi+'</b><strong class="repeat-step-jodi">'+x.monday+'</strong><span>Friday row '+(x.fridayIndex+1)+' · '+esc(x.fridayRow.date||'')+'<br>Monday target row '+(x.mondayIndex+1)+' · '+esc(x.mondayRow.date||'')+'</span><b>GAP '+x.gap+'</b></div>').join('')+'</div><div class="repeat-pattern-footer">STEP '+(step+1)+' MATCHED MONDAY JODI: '+a.monday+' = '+b.monday+'</div></div>';
+   }).join('');
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · SIX-STAGE FRIDAY–MONDAY PROGRESSION</strong><span>85 → 95 → 05 → 15 → 25 → 35</span></div><div class="repeat-watch"><b>THREE SEPARATE MONDAY MATCH CHECKS</b><div><strong>'+chain[0].monday+' · '+chain[2].monday+' · '+chain[4].monday+'</strong></div><small>Each pair must match internally; different steps may have different Monday targets.</small></div>'+stepCards+'</section>';
+  };
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>FRIDAY–MONDAY SIX-STAGE PROGRESSION · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Independent scan of the complete selected-market chart. Friday Jodis must progress exactly 85 → 95 → 05 → 15 → 25 → 35. Their Monday targets are checked at gaps 5, 4, 3, 2, 1 and 0 respectively. Gap 0 means the Monday result in the immediately following weekly row. Within each step, the two Monday targets must be identical. The three step targets are checked separately and are not forced to equal one another. Number/Jodi search, Number+n search, Day filter and Year filter are ignored.</p>'+(matches.length?matches.map(card).join(''):'<div class="empty"><strong>No complete six-stage progression found.</strong>A match requires all six Friday Jodis in chronological order and identical Monday targets within each of the three pairs.</div>')+(truncated?'<p class="repeat-pattern-footer">Search limit reached; showing the first '+matches.length+' complete matches.</p>':'')+'</div>';
+  return;
+ }
 
  if(view==='target-linked'||$('daySearch').value==='target-linked'){
   // Separate 28+n follow-up analysis. It uses ONLY the rows selected by targetJodiSearch.
