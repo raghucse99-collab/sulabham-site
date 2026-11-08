@@ -1093,51 +1093,51 @@ function renderChart(){
  if(years.includes(prev))$('year').value=prev;
  const yr=$('year').value, q=$('search').value.trim();
 
- if(view==='linked'||$('daySearch').value==='linked-increasing'){
-  // Linked logic is derived from the normal Jodi+gap search result set.
-  // Gap positions are counted among selected search results (A), not all chart rows.
-  if(!targetSearch||targetSearch.error){
-   $('count').textContent='Enter Jodi + gap';stats.hidden=true;
-   $('tableArea').innerHTML='<div class="empty"><strong>Enter a valid Jodi + gap search.</strong>Examples: 28+5, 27+1, 10+2.</div>';
-   return;
-  }
-  const days=repeatDays,selectedIndexes=targetSearch.selectedIndexes||[],targetJodi=targetSearch.target,gap=targetSearch.offset;
-  const selectedRows=selectedIndexes.map((rowIndex,position)=>({row:displayRows[rowIndex],rowIndex,position}));
-  const occurrences=new Map();
-  selectedRows.forEach(item=>{
-   days.forEach(day=>{
-    const value=String(item.row?.[day+' Jodi']??'').trim();
-    if(!/^\\d{2}$/.test(value))return;
-    if(!occurrences.has(value))occurrences.set(value,[]);
-    occurrences.get(value).push({position:item.position,rowIndex:item.rowIndex,date:item.row?.date||'',day});
+ if(view==='repeat'||view==='linked'){
+  // These analysis modes are independent of the normal Jodi+gap search input.
+  const days=repeatDays,valid=v=>/^\\d{2}$/.test(String(v??'').trim());
+  const analysisRows=displayRows.filter(row=>yr==='all'||String(row.date||'').includes(yr));
+  const hits=new Map();
+  analysisRows.forEach((row,rowIndex)=>{
+   const values=[...new Set(days.map(day=>String(row[day+' Jodi']??'').trim()).filter(valid))];
+   values.forEach(jodi=>{
+    if(!hits.has(jodi))hits.set(jodi,[]);
+    hits.get(jodi).push({rowIndex,date:row.date||'',row});
    });
   });
-  const repeated=[...occurrences.entries()].filter(([,items])=>items.length>=2).map(([jodi,items])=>{
-   const positions=[...new Set(items.map(x=>x.position))].sort((x,y)=>x-y);
-   const gaps=positions.slice(1).map((p,i)=>p-positions[i]);
-   const mode=gaps.length>1&&gaps.every(x=>x===gaps[0])?'SAME GAP':gaps.length>1&&gaps.every((x,i)=>i===0||x===gaps[i-1]+1)?'INCREASING GAP':gaps.length===1?'ONE REPEAT':'MIXED GAPS';
+  const repeats=[...hits.entries()].filter(([,items])=>items.length>1).map(([jodi,items])=>{
+   const gaps=items.slice(1).map((item,i)=>item.rowIndex-items[i].rowIndex);
+   const mode=gaps.length>1&&gaps.every(g=>g===gaps[0])?'SAME GAP':gaps.length>1&&gaps.every((g,i)=>i===0||g===gaps[i-1]+1)?'INCREASING GAP':gaps.length===1?'ONE REPEAT':'MIXED GAPS';
+   return {jodi,items,gaps,mode};
+  }).sort((a,b)=>b.items.length-a.items.length||a.jodi.localeCompare(b.jodi));
+  const selectedRepeatRows=[...new Set(repeats.flatMap(p=>p.items.map(x=>x.rowIndex)))].sort((a,b)=>a-b).map(rowIndex=>({row:analysisRows[rowIndex],rowIndex,position:0}));
+  selectedRepeatRows.forEach((x,i)=>x.position=i);
+  const linkedMap=new Map();
+  selectedRepeatRows.forEach(item=>days.forEach(day=>{
+   const jodi=String(item.row?.[day+' Jodi']??'').trim();if(!valid(jodi))return;
+   if(!linkedMap.has(jodi))linkedMap.set(jodi,[]);
+   linkedMap.get(jodi).push({position:item.position,rowIndex:item.rowIndex,date:item.row?.date||'',day});
+  }));
+  const linked=[...linkedMap.entries()].filter(([,items])=>new Set(items.map(x=>x.position)).size>1).map(([jodi,items])=>{
+   const positions=[...new Set(items.map(x=>x.position))].sort((a,b)=>a-b),gaps=positions.slice(1).map((p,i)=>p-positions[i]);
+   const mode=gaps.length>1&&gaps.every(g=>g===gaps[0])?'SAME GAP':gaps.length>1&&gaps.every((g,i)=>i===0||g===gaps[i-1]+1)?'INCREASING GAP':'MIXED / SINGLE GAP';
    return {jodi,items,positions,gaps,mode};
   }).sort((a,b)=>b.positions.length-a.positions.length||a.jodi.localeCompare(b.jodi));
-  const repeatedRows=new Set(repeated.flatMap(p=>p.items.map(x=>x.rowIndex)));
-  function linkedRepeatCard(p,index){
-   const rowsText=p.items.map(x=>'Result '+(x.position+1)+' · Chart row '+(x.rowIndex+1)+' · '+esc(x.date)+' · '+x.day).join('<br>');
-   const gapText=p.gaps.length?p.gaps.join(' → '):'—';
-   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(index+1)+' · JODI '+esc(p.jodi)+' · '+p.mode+'</strong></div><div class="repeat-watch"><b>SELECTED-RESULT POSITIONS</b><div><strong>'+p.positions.map(x=>x+1).join(' → ')+'</strong></div><small>Gap between selected results: '+gapText+'</small><div style="margin-top:7px">'+rowsText+'</div></div></section>';
-  }
-  function selectedWeekTable(list){
-   return '<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>RESULT</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+list.map(item=>{
-    const row=item.row,values=days.map(d=>String(row?.[d+' Jodi']??'').trim());
-    return '<tr><td class="repeat-week-date"><b>#'+(item.position+1)+'</b><small>Chart #'+(item.rowIndex+1)+'</small><small>'+esc(row?.date||'')+'</small></td>'+values.map(v=>'<td>'+(/^\\d{2}$/.test(v)?(repeated.some(p=>p.jodi===v)?'<strong class="repeat-hit">'+esc(v)+'</strong>':esc(v)):'·')+'</td>').join('')+'</tr>';
-   }).join('')+'</tbody></table></div>';
-  }
-  $('count').textContent='Search '+targetJodi+' + '+gap+' · Selected weeks '+selectedRows.length+' · Repeated Jodis '+repeated.length;
+  const list=view==='repeat'?repeats:linked;
+  $('count').textContent=(view==='repeat'?'Repeated Jodis ':'Linked Jodis ')+list.length+' · '+(view==='repeat'?analysisRows.length:selectedRepeatRows.length)+' analysed weeks';
   stats.hidden=true;
-  $('tableArea').innerHTML='<div class="repeat-page"><h3>LINKED JODI LOGIC · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">First, the normal <b>'+esc(targetJodi)+'+'+gap+'</b> search selects '+selectedRows.length+' weekly rows. Linked Jodi Logic now checks repeated Jodis only inside those selected results. Gap positions count selected results (1st, 2nd, 3rd…), not every original chart row.</p>'+
-   (repeated.length?'<h3 class="linked-section-title">REPEATED JODIS IN SELECTED RESULTS ('+repeated.length+')</h3><div class="repeat-pattern-list">'+repeated.slice(0,50).map(linkedRepeatCard).join('')+'</div>':'<div class="empty"><strong>No repeated Jodis found across the selected search results.</strong></div>')+
-   '<h3 class="linked-section-title">SELECTED SEARCH WEEKS ('+selectedRows.length+')</h3>'+selectedWeekTable(selectedRows)+'</div>';
+  const cards=list.slice(0,100).map((p,i)=>{
+   const items=view==='repeat'?p.items:p.positions.map(pos=>selectedRepeatRows[pos]).flatMap(x=>days.map(day=>({position:pos,rowIndex:x.rowIndex,date:x.row?.date||'',day,jodi:String(x.row?.[day+' Jodi']??'').trim()})).filter(x=>x.jodi===p.jodi));
+   const positions=view==='repeat'?p.items.map(x=>x.rowIndex+1):p.positions.map(x=>x+1);
+   const gapText=(p.gaps||[]).join(' → ')||'—';
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(i+1)+' · JODI '+esc(p.jodi)+' · '+esc(p.mode)+'</strong></div><div class="repeat-watch"><b>'+(view==='repeat'?'ORIGINAL CHART ROWS':'SELECTED REPEAT-RESULT POSITIONS')+'</b><div><strong>'+positions.join(' → ')+'</strong></div><small>Gap sequence: '+gapText+'</small><div style="margin-top:7px">'+items.map(x=>'Row '+(x.rowIndex+1)+' · '+esc(x.date)+' · '+esc(x.day)).join('<br>')+'</div></div></section>';
+  }).join('');
+  const tableRows=view==='repeat'?analysisRows.map((row,rowIndex)=>({row,rowIndex,position:rowIndex})):selectedRepeatRows;
+  const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>WEEK</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+tableRows.map(item=>'<tr><td class="repeat-week-date">#'+(item.position+1)+'<small>Chart #'+(item.rowIndex+1)+'</small><small>'+esc(item.row?.date||'')+'</small></td>'+days.map(day=>{const v=String(item.row?.[day+' Jodi']??'').trim();const hit=list.some(p=>p.jodi===v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?esc(v):'·')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table></div>';
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>'+(view==='repeat'?'REPEAT LOGIC':'LINKED JODI LOGIC')+' · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">'+(view==='repeat'?'Analysing the selected market history independently of the Number / Jodi search. Each Jodi is listed when it occurs in more than one playing week. Gaps are counted in original playing-week rows.':'Linked analysis uses the weeks containing repeated Jodis from Repeat Logic. Gap positions are counted among those selected repeat-result weeks, not original chart rows.')+'</p>'+(cards?'<h3 class="linked-section-title">'+(view==='repeat'?'REPEATED JODIS':'LINKED JODIS')+' ('+list.length+')</h3><div class="repeat-pattern-list">'+cards+'</div>':'<div class="empty"><strong>No repeated Jodis found in this selection.</strong></div>')+'<h3 class="linked-section-title">'+(view==='repeat'?'HISTORICAL WEEKS':'SELECTED REPEAT-RESULT WEEKS')+' ('+tableRows.length+')</h3>'+table+'</div>';
   return;
  }
-if(targetSearch){
+ if(targetSearch){
   if(targetSearch.error){
    $('count').textContent='Invalid search';stats.hidden=true;
    $('tableArea').innerHTML='<div class="empty"><strong>'+esc(targetSearch.error)+'</strong>Use a search such as 23+1, 23+2 or 23+3.</div>';return;
