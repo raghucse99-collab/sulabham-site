@@ -1093,7 +1093,7 @@ function renderChart(){
  if(years.includes(prev))$('year').value=prev;
  const yr=$('year').value, q=$('search').value.trim();
 
- if($('daySearch').value==='repeat-gap'){
+ if(view==='repeat'||$('daySearch').value==='repeat-gap'){
   // Restore the original uninterrupted Repeat-gap chain search as a separate mode.
   // It scans the selected market's own history; it does not depend on Number/Jodi search.
   const days=repeatDays,valid=v=>/^\\d{2}$/.test(String(v??'').trim());
