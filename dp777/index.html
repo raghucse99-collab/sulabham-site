@@ -1086,7 +1086,12 @@ function renderChart(){
   :allRows;
  const displayRows=sortOldestFirst(chartRows);
  const repeatDays=selected==='milan-night'?['Mon','Tue','Wed','Thu','Fri','Sat']:['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
- const targetSearch=targetJodiSearch(displayRows,$('search').value,repeatDays);
+ // Search offsets count actual playing weeks only. Fully closed holiday weeks
+ // stay in the archive data but do not consume a Number+n gap.
+ const targetSearchRowsWithSource=displayRows.map((row,index)=>({row,index}))
+  .filter(item=>repeatDays.some(day=>/^\d{2}$/.test(String(item.row[day+' Jodi']??'').trim())));
+ const targetSearchRows=targetSearchRowsWithSource.map(item=>item.row);
+ const targetSearch=targetJodiSearch(targetSearchRows,$('search').value,repeatDays);
  const years=[...new Set(allRows.map(r=>String(r.date||'').match(/\b(?:19|20)\d{2}\b/)?.[0]).filter(Boolean))].sort().reverse();
  const prev=$('year').value;
  $('year').innerHTML='<option value="all">All years</option>'+years.map(y=>'<option value="'+y+'">'+y+'</option>').join('');
@@ -1248,7 +1253,7 @@ function renderChart(){
    return;
   }
   const filteredRows=targetSearch.selectedIndexes
-   .map(i=>({row:displayRows[i],sourceIndex:i}))
+   .map(i=>({row:targetSearchRows[i],sourceIndex:targetSearchRowsWithSource[i]?.index??i}))
    .filter(x=>x.row&&(yr==='all'||String(x.row.date||'').includes(yr)));
   const days=repeatDays,valid=v=>/^\d{2}$/.test(String(v??'').trim());
   const values=filteredRows.map(x=>days.map(d=>String(x.row[d+' Jodi']??'').trim()).filter(valid));
