@@ -1804,23 +1804,18 @@ async function openMarketChart(target,chosenView){
 }
 document.querySelectorAll('.quick-links-list button').forEach(b=>b.addEventListener('click',()=>openMarketChart(b.dataset.market,b.dataset.view||'panel')));
 document.querySelectorAll('.today-actions button').forEach(b=>b.addEventListener('click',()=>openMarketChart(b.dataset.market,b.dataset.view)));
-document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{view=t.dataset.view;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));updateCurrentChartLabel();renderChart();}));
-// Dedicated capture-phase handler for Monday 00. Set both the view and the
-// day-search selector so the search branch cannot fall back to the normal chart.
-document.addEventListener('click',e=>{
- const tab=e.target.closest('.tab[data-view="monday-00"]');
- if(!tab)return;
- e.preventDefault();
- e.stopImmediatePropagation();
- view='monday-00';
- $('daySearch').value='monday-00';
- $('search').value='';
- $('year').value='all';
- document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===tab));
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
+ view=t.dataset.view;
+ if(view==='monday-00'){
+  $('daySearch').value='monday-00';
+  $('search').value='';
+  $('year').value='all';
+ }
+ document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));
  updateCurrentChartLabel();
  renderChart();
- document.querySelector('.panel').scrollIntoView({behavior:'smooth',block:'start'});
-},true);
+ if(view==='monday-00')document.querySelector('.panel').scrollIntoView({behavior:'smooth',block:'start'});
+}));
 $('search').addEventListener('input',renderChart);$('daySearch').addEventListener('change',renderChart);$('year').addEventListener('change',renderChart);
 $('runOpenDigitSearch')?.addEventListener('click',()=>{$('runOpenDigitSearch').dataset.run='yes';renderChart();});
 $('openDigitSummary')?.addEventListener('click',e=>{const b=e.target.closest('[data-jodi]');if(!b)return;const tool=$('openDigitTool');tool.dataset.selectedJodi=tool.dataset.selectedJodi===b.dataset.jodi?'':b.dataset.jodi;renderChart();});
