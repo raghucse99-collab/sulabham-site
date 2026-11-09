@@ -1659,30 +1659,29 @@ $('search').addEventListener('input',renderChart);$('daySearch').addEventListene
 $('runOpenDigitSearch')?.addEventListener('click',()=>{$('runOpenDigitSearch').dataset.run='yes';renderChart();});
 $('openDigitSummary')?.addEventListener('click',e=>{const b=e.target.closest('[data-jodi]');if(!b)return;const tool=$('openDigitTool');tool.dataset.selectedJodi=tool.dataset.selectedJodi===b.dataset.jodi?'':b.dataset.jodi;renderChart();});
 async function fetchData(marketId=selected){
- const key=chartKeyFor(marketId);
- let lastError;
- const file=encodeURIComponent(key)+'.json';
- // Prefer stable raw-data endpoints first; the site may be opened through a custom domain.
+ const key=chartKeyFor(marketId),file=encodeURIComponent(key)+'.json';
+ // Try all mirrors together. A slow first host must not block the chart while
+ // later mirrors are already capable of serving the same historical JSON.
  const sources=[
   'https://raw.githubusercontent.com/raghucse99-collab/sulabham-site/main/dp777/data/charts/'+file,
   'https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham-site@main/dp777/data/charts/'+file,
   'https://raghucse99-collab.github.io/sulabham-site/dp777/data/charts/'+file,
   'data/charts/'+file
  ];
- for(const base of sources){
-  const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),8000);
+ const attempts=sources.map(async base=>{
+  const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),12000);
   try{
    const res=await fetch(base+'?v='+Date.now(),{cache:'no-store',signal:controller.signal,mode:'cors'});
    if(!res.ok)throw new Error('HTTP '+res.status+' from '+base);
    const parsed=await res.json();
-   let normalized=parsed;
-   if(parsed&&Array.isArray(parsed.rows))normalized={updated_at:parsed.updated_at||null,charts:{[key]:parsed}};
-   if(!normalized?.charts?.[key]||!Array.isArray(normalized.charts[key].rows))throw new Error('invalid chart data for '+key);
+   const normalized=parsed&&Array.isArray(parsed.rows)?{updated_at:parsed.updated_at||null,charts:{[key]:parsed}}:parsed;
+   if(!normalized?.charts?.[key]||!Array.isArray(normalized.charts[key].rows))throw new Error('invalid chart data for '+key+' from '+base);
    return normalized;
-  }catch(e){lastError=e;console.warn('Chart feed failed:',base,e);}
+  }catch(e){console.warn('Chart mirror failed:',base,e);throw e;}
   finally{clearTimeout(timeout);}
- }
- throw lastError||new Error('data source unavailable');
+ });
+ try{return await Promise.any(attempts);}
+ catch(e){throw new Error('All chart data mirrors failed for '+key+': '+(e.errors||[]).map(x=>x.message).join(' | '));}
 }
 async function refreshLiveResults(){
  for(const base of LIVE_DATA_URLS){
@@ -1708,7 +1707,6 @@ async function refreshLiveResults(){
 // Render the market navigation immediately; a slow or malformed data feed
 // must never leave the page looking completely blank.
 /* Start the గత నమూనాలు-data request before optional UI rendering. This ensures a UI rendering error cannot leave the initial loading placeholder on screen forever. */
-load();
 try{renderMarkets();}catch(e){console.error('Market navigation render failed',e);}
 try{renderChart();}catch(e){console.error('Initial chart render failed',e);$('count').textContent='Chart loading';$('tableArea').innerHTML='<div class="empty"><strong>Chart view is recovering.</strong>Historical data is being loaded. Please refresh this page if it does not recover.</div>';}
 try{renderLatestResults();}catch(e){console.error('Live results render failed',e);}
