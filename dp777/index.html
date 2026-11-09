@@ -1025,7 +1025,7 @@ function matchesChartSearch(row,query){
  if(/^\d{1,3}$/.test(q))return ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].some(d=>String(row[d+' Jodi']??'').trim()===q);
  return JSON.stringify(row).toLowerCase().includes(q);
 }
-function updateCurrentChartLabel(){const market=markets.find(m=>m.id===selected);const label=$('currentChartLabel');if(!label||!market)return;const type=({jodi:'Jodi Chart',panel:'Panel Chart','target-linked':'Number+n Search','friday-monday':'Friday–Monday Progression',repeat:'Repeat Logic',linked:'Linked Jodi Logic'})[view]||'Jodi Chart';label.textContent=market.name;}
+function updateCurrentChartLabel(){const market=markets.find(m=>m.id===selected);const label=$('currentChartLabel');if(!label||!market)return;const type=({jodi:'Jodi Chart',panel:'Panel Chart','target-linked':'Number+n Search','friday-monday':'Friday–Monday Progression',repeat:'Repeat Logic',linked:'Linked Jodi Logic','monday-00':'Monday 00 Progression'})[view]||'Jodi Chart';label.textContent=market.name;}
 function renderChart(){
  const stats=$('targetStats');
  if(dataLoadFailed&&!data.charts?.[chartKeyFor(selected)]){
@@ -1805,6 +1805,22 @@ async function openMarketChart(target,chosenView){
 document.querySelectorAll('.quick-links-list button').forEach(b=>b.addEventListener('click',()=>openMarketChart(b.dataset.market,b.dataset.view||'panel')));
 document.querySelectorAll('.today-actions button').forEach(b=>b.addEventListener('click',()=>openMarketChart(b.dataset.market,b.dataset.view)));
 document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{view=t.dataset.view;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));updateCurrentChartLabel();renderChart();}));
+// Dedicated capture-phase handler for Monday 00. Set both the view and the
+// day-search selector so the search branch cannot fall back to the normal chart.
+document.addEventListener('click',e=>{
+ const tab=e.target.closest('.tab[data-view="monday-00"]');
+ if(!tab)return;
+ e.preventDefault();
+ e.stopImmediatePropagation();
+ view='monday-00';
+ $('daySearch').value='monday-00';
+ $('search').value='';
+ $('year').value='all';
+ document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===tab));
+ updateCurrentChartLabel();
+ renderChart();
+ document.querySelector('.panel').scrollIntoView({behavior:'smooth',block:'start'});
+},true);
 $('search').addEventListener('input',renderChart);$('daySearch').addEventListener('change',renderChart);$('year').addEventListener('change',renderChart);
 $('runOpenDigitSearch')?.addEventListener('click',()=>{$('runOpenDigitSearch').dataset.run='yes';renderChart();});
 $('openDigitSummary')?.addEventListener('click',e=>{const b=e.target.closest('[data-jodi]');if(!b)return;const tool=$('openDigitTool');tool.dataset.selectedJodi=tool.dataset.selectedJodi===b.dataset.jodi?'':b.dataset.jodi;renderChart();});
