@@ -1158,7 +1158,7 @@ function renderChart(){
   step1.sort((a,b)=>b.steps[1].fridayIndex-a.steps[1].fridayIndex||a.steps[0].fridayIndex-b.steps[0].fridayIndex);
   step2.sort((a,b)=>b.steps[3].fridayIndex-a.steps[3].fridayIndex||a.steps[0].fridayIndex-b.steps[0].fridayIndex);
   $('count').textContent=step1.length+' Step 1 matches · '+step2.length+' Step 2 extensions · '+progressionRows.length+' chart weeks checked';
-  const dateOnly=row=>String(row?.date||'').split(/\\s+to\\s+/i)[0].trim()||'—';
+  const dateOnly=row=>String(row?.date||'').split(/\s+to\s+/i)[0].trim()||'—';
   const resultTable=(pairs,stepNo)=>{
    const stages=pairs.map(pair=>pair.map((x,i)=>{
     return '<div class="repeat-step" style="display:block;min-width:0;padding:12px;margin:8px 0"><div style="display:flex;justify-content:space-between;gap:8px;align-items:center"><b>FRIDAY · '+(i===0?'FIRST':'SECOND')+'</b><strong style="font-size:22px">'+x.jodi+'</strong></div><div style="margin-top:8px;display:grid;grid-template-columns:1fr 1fr;gap:8px"><div><small>Friday date</small><div><b>'+esc(dateOnly(x.fridayRow))+'</b></div></div><div><small>Monday gap</small><div><b>'+x.gap+'</b></div></div><div><small>Monday target date</small><div><b>'+esc(dateOnly(x.mondayRow))+'</b></div></div><div><small>Monday Jodi</small><div><b style="font-size:22px">'+x.monday+'</b></div></div></div></div>';
