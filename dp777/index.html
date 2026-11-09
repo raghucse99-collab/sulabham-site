@@ -1601,17 +1601,25 @@ function renderChart(){
   let patterns=[...found.values()];
   if(query)patterns=patterns.filter(p=>p.duplicate===query||p.steps.some(step=>step.jodi===query));
   patterns.sort((a,b)=>b.steps.length-a.steps.length||a.start-b.start);
-  function mergeFinalJodiSiblings(list){
+  function mergeSameSchedulePaths(list){
+   // Paths with the same duplicate, exact weekly link positions and gap
+   // sequence are one pattern. Collect all Jodis found at each link instead
+   // of rendering a confusing separate card for every Jodi branch.
    const groups=new Map();
    list.forEach(p=>{
-    if(!p.steps.length){groups.set(p.start+':'+p.duplicate,p);return;}
-    const last=p.steps[p.steps.length-1],key=p.start+':'+p.duplicate+':'+p.steps.slice(0,-1).map(x=>x.from+'-'+x.to+'-'+x.jodi+'-'+x.gap).join('|')+'|LAST:'+last.from+'-'+last.to+'-'+last.gap;
-    if(!groups.has(key))groups.set(key,{...p,steps:p.steps.map((x,i)=>i===p.steps.length-1?{...x,jodis:[x.jodi]}:{...x})});
-    else{const g=groups.get(key),tail=g.steps[g.steps.length-1];if(!tail.jodis.includes(last.jodi))tail.jodis.push(last.jodi);}
+    const schedule=p.steps.map(x=>x.from+'-'+x.to+'-'+x.gap).join('|');
+    const key=p.start+':'+p.duplicate+':'+schedule+':NEXT'+p.nextGap+':FAIL'+(p.failedAt??'none');
+    if(!groups.has(key)){
+     groups.set(key,{...p,steps:p.steps.map(x=>({...x,jodis:[...(x.jodis||[x.jodi])]})),nextJodis:p.nextJodi?[p.nextJodi]:[]});
+     return;
+    }
+    const g=groups.get(key);
+    p.steps.forEach((step,i)=>{const target=g.steps[i].jodis;if(!target.includes(step.jodi))target.push(step.jodi);(step.jodis||[]).forEach(j=>{if(!target.includes(j))target.push(j);});});
+    if(p.nextJodi&&!g.nextJodis.includes(p.nextJodi))g.nextJodis.push(p.nextJodi);
    });
    return [...groups.values()];
   }
-  patterns=mergeFinalJodiSiblings(patterns);
+  patterns=mergeSameSchedulePaths(patterns);
   const latestIndex=playingRows.length-1;
   // Actual India-local calendar week, independent of the last archive row.
   const linkedCurrentWeek=currentWeekDayKey().weekStart;
@@ -1658,8 +1666,10 @@ function renderChart(){
     const tableRows=rows.slice(p.start,tableEnd+1);
     const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+dayNames.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+tableRows.map((row,k)=>{const ix=p.start+k,parts=String(row.date||'').match(/(\d{1,2})[-/](\d{1,2})[-/](\d{4})/g)||[],shortDate=parts.slice(0,2).map(v=>{const q=v.split(/[-/]/);return q[0].padStart(2,'0')+'/'+q[1].padStart(2,'0')+'/'+q[2].slice(-2);}).join('<br>');return '<tr class="'+(ix===rows.length-1?'repeat-current-week':'')+'"><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+(shortDate||escapeHtml(row.date||''))+'</small>'+(ix===rows.length-1?'<em>ఈ వారం</em>':'')+'</td>'+dayNames.map(d=>{const v=String(row[d+' Jodi']??'').trim(),hit=marks.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(isValid(v)?(hit?'<strong>'+escapeHtml(v)+'</strong>':escapeHtml(v)):'·')+'</td>';}).join('')+'</tr>';}).join('')+'</tbody></table></div>';
     const steps='<div class="repeat-steps"><div class="repeat-step"><b class="repeat-step-num">START</b><strong class="repeat-step-jodi">'+escapeHtml(p.duplicate)+'</strong><span>Duplicate in same week</span><b>×2+</b></div>'+p.steps.map((step,k)=>'<div class="repeat-step"><b class="repeat-step-num">లింక్ '+(k+1)+'</b><strong class="repeat-step-jodi">'+escapeHtml((step.jodis||[step.jodi]).join(' · '))+'</strong><span>'+escapeHtml(rows[step.from].date||'')+' → '+escapeHtml(rows[step.to].date||'')+'</span><b>గ్యాప్ '+step.gap+'</b></div>').join('')+'</div>';
-    const next='';
-    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS · '+weekStatus+'</strong><span>Gaps: '+p.steps.map(x=>x.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>ప్రారంభ డూప్లికేట్ జోడి</b><div><strong>'+escapeHtml(p.duplicate)+'</strong></div><small>Separate patterns: same gap throughout, or increasing gap by exactly one.</small>'+(dueThisWeek||occurredThisWeek?'<div class="repeat-this-week"><b>ఈ వారం వచ్చిన జోడీలు:</b> <strong>'+escapeHtml(thisWeekNumbers.join(' · ')||'No results published yet')+'</strong></div>':'')+'</div>'+steps+next+'<details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
+    const nextJodis=p.nextJodis|| (p.nextJodi?[p.nextJodi]:[]);
+    const nextTargetLabel=rows[nextTarget]?.date||'తదుపరి ఆడే వారం';
+    const next='<div class="repeat-next-target"><b>తదుపరి లింక్ లక్ష్యం:</b> <strong>'+escapeHtml(nextJodis.join(' · ')||'—')+'</strong><small>గ్యాప్ '+p.nextGap+' · '+escapeHtml(nextTargetLabel)+'</small></div>';
+    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS · '+weekStatus+'</strong><span>Gaps: '+p.steps.map(x=>x.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>ప్రారంభ డూప్లికేట్ జోడి</b><div><strong>'+escapeHtml(p.duplicate)+'</strong></div><small>Same weekly link positions and gap sequence are grouped together. Different Jodis at the same link are shown together.</small>'+(dueThisWeek||occurredThisWeek?'<div class="repeat-this-week"><b>ఈ వారం వచ్చిన జోడీలు:</b> <strong>'+escapeHtml(thisWeekNumbers.join(' · ')||'No results published yet')+'</strong></div>':'')+'</div>'+steps+next+'<details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
    }).join('');
   }
   const linkedIntro=view==='linked'?'Historical Patterns shows all confirmed sequences found in the archive. Present Running shows sequences with a confirmed link in the latest playing week. About to Come shows sequences whose next required link is due in the immediately next playing week.':'Start with any Jodi duplicated in a week. From that same row, any Jodi (including the duplicate) may first reappear in the next playing week or after one or more intervening playing weeks. From that first match, separate fixed-gap and increasing-by-one continuations are checked. From the matching row, take any Jodi and find it again with either the same intervening-row gap or a gap increased by one. Only fixed-gap chains and strictly increasing-by-one chains are included; mixed-gap chains are excluded. Matches may be in any day column. Fully closed weeks are skipped. Existing repeat searches are unchanged.';
