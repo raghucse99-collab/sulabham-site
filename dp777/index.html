@@ -1116,42 +1116,40 @@ function renderChart(){
   const step1=[],step2=[];
   let checked=0,truncated=false;
   const MAX_CHECKS=500000,MAX_RESULTS=2500;
+  const nextOccurrence=(list,after)=>list.find(index=>index>after);
   for(const startJodi of fridayStarts){
    const seq=[0,1,2,3].map(n=>String((Number(startJodi)+n*10)%100).padStart(2,'0'));
    const [list1,list2,list3,list4]=seq.map(j=>occurrences.get(j)||[]);
    for(const i of list1){
-    const m1=mondayAt(i,5);if(!m1)continue;
-    for(const j of list2){
-     if(j<=i)continue;
-     if(++checked>MAX_CHECKS){truncated=true;break;}
-     const m2=mondayAt(j,4);
-     if(!m2||m1.result!==m2.result)continue;
-     const first={startJodi,steps:[
-      {jodi:seq[0],gap:5,fridayIndex:i,fridayRow:progressionRows[i],mondayIndex:m1.index,mondayRow:m1.row,monday:m1.result},
-      {jodi:seq[1],gap:4,fridayIndex:j,fridayRow:progressionRows[j],mondayIndex:m2.index,mondayRow:m2.row,monday:m2.result}
-     ],extensions:[]};
-     step1.push(first);
-     for(const k of list3){
-      if(k<=j)continue;
-      if(++checked>MAX_CHECKS){truncated=true;break;}
-      const m3=mondayAt(k,3);if(!m3)continue;
-      for(const l of list4){
-       if(l<=k)continue;
-       if(++checked>MAX_CHECKS){truncated=true;break;}
-       const m4=mondayAt(l,2);
-       if(!m4||m3.result!==m4.result)continue;
-       first.extensions.push([
+    if(++checked>MAX_CHECKS){truncated=true;break;}
+    const j=nextOccurrence(list2,i);
+    if(j===undefined)continue;
+    const m1=mondayAt(i,5),m2=mondayAt(j,4);
+    if(!m1||!m2||m1.result!==m2.result)continue;
+    const first={startJodi,steps:[
+     {jodi:seq[0],gap:5,fridayIndex:i,fridayRow:progressionRows[i],mondayIndex:m1.index,mondayRow:m1.row,monday:m1.result},
+     {jodi:seq[1],gap:4,fridayIndex:j,fridayRow:progressionRows[j],mondayIndex:m2.index,mondayRow:m2.row,monday:m2.result}
+    ],extensions:[]};
+    step1.push(first);
+    // Step 2 must follow the immediate next occurrences too; never skip a
+    // failed +20 or +30 Friday occurrence to find a later Monday match.
+    const k=nextOccurrence(list3,j);
+    if(k!==undefined){
+     const m3=mondayAt(k,3);
+     const l=nextOccurrence(list4,k);
+     if(m3&&l!==undefined){
+      const m4=mondayAt(l,2);
+      if(m4&&m3.result===m4.result){
+       const pair=[
         {jodi:seq[2],gap:3,fridayIndex:k,fridayRow:progressionRows[k],mondayIndex:m3.index,mondayRow:m3.row,monday:m3.result},
         {jodi:seq[3],gap:2,fridayIndex:l,fridayRow:progressionRows[l],mondayIndex:m4.index,mondayRow:m4.row,monday:m4.result}
-       ]);
-       if(step2.length<MAX_RESULTS)step2.push({startJodi,steps:[...first.steps,...first.extensions[first.extensions.length-1]]});
+       ];
+       first.extensions.push(pair);
+       if(step2.length<MAX_RESULTS)step2.push({startJodi,steps:[...first.steps,...pair]});
       }
-      if(truncated)break;
      }
-     if(truncated)break;
-     if(step1.length>=MAX_RESULTS){truncated=true;break;}
     }
-    if(truncated)break;
+    if(step1.length>=MAX_RESULTS){truncated=true;break;}
    }
    if(truncated)break;
   }
