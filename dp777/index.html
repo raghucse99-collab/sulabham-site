@@ -1158,18 +1158,34 @@ function renderChart(){
   step1.sort((a,b)=>b.steps[1].fridayIndex-a.steps[1].fridayIndex||a.steps[0].fridayIndex-b.steps[0].fridayIndex);
   step2.sort((a,b)=>b.steps[3].fridayIndex-a.steps[3].fridayIndex||a.steps[0].fridayIndex-b.steps[0].fridayIndex);
   $('count').textContent=step1.length+' Step 1 matches · '+step2.length+' Step 2 extensions · '+progressionRows.length+' chart weeks checked';
-  const dateOnly=row=>String(row?.date||'').split(/\s+to\s+/i)[0].trim()||'—';
-  const resultTable=(pairs,stepNo)=>{
-   const stages=pairs.map(pair=>pair.map((x,i)=>{
-    return '<div class="repeat-step" style="display:block;min-width:0;padding:12px;margin:8px 0"><div style="display:flex;justify-content:space-between;gap:8px;align-items:center"><b>FRIDAY · '+(i===0?'FIRST':'SECOND')+'</b><strong style="font-size:22px">'+x.jodi+'</strong></div><div style="margin-top:8px;display:grid;grid-template-columns:1fr 1fr;gap:8px"><div><small>Friday date</small><div><b>'+esc(dateOnly(x.fridayRow))+'</b></div></div><div><small>Monday gap</small><div><b>'+x.gap+'</b></div></div><div><small>Monday target date</small><div><b>'+esc(dateOnly(x.mondayRow))+'</b></div></div><div><small>Monday Jodi</small><div><b style="font-size:22px">'+x.monday+'</b></div></div></div></div>';
-   }).join('')).join('');
-   const first=pairs[0]?.[0],second=pairs[0]?.[1];
-   return '<section style="margin:10px 0 18px;padding:10px;border:1px solid #d7dced;border-radius:12px;overflow:hidden"><h4 style="margin:0 0 8px;background:#263f87;color:white;padding:10px;border-radius:7px">STEP '+stepNo+' · FRIDAY '+(first?.jodi||'')+' → '+(second?.jodi||'')+'</h4>'+stages+'<div style="padding:10px;background:#f1efff;border-radius:8px;font-weight:700;text-align:center">MONDAY MATCH: '+(first?.monday||'—')+' = '+(second?.monday||'—')+'</div></section>';
+  const dateOnly=row=>String(row?.date||'').split(/\\s+to\\s+/i)[0].trim()||'—';
+  const stepCard=(a,b,stepNo)=>{
+   return '<div class="repeat-steps"><div class="repeat-step"><b class="repeat-step-num">STEP '+stepNo+' · FRIDAY '+a.jodi+'</b><strong class="repeat-step-jodi">'+a.monday+'</strong><span>Friday row '+(a.fridayIndex+1)+' · '+esc(dateOnly(a.fridayRow))+'<br>Monday target row '+(a.mondayIndex+1)+' · '+esc(dateOnly(a.mondayRow))+'</span><b>GAP '+a.gap+'</b></div><div class="repeat-step"><b class="repeat-step-num">STEP '+stepNo+' · FRIDAY '+b.jodi+'</b><strong class="repeat-step-jodi">'+b.monday+'</strong><span>Friday row '+(b.fridayIndex+1)+' · '+esc(dateOnly(b.fridayRow))+'<br>Monday target row '+(b.mondayIndex+1)+' · '+esc(dateOnly(b.mondayRow))+'</span><b>GAP '+b.gap+'</b></div></div><div class="repeat-pattern-footer">STEP '+stepNo+' MONDAY MATCH: '+a.monday+' = '+b.monday+'</div>';
+  };
+  const weeklyChart=(pattern,extraPairs=[])=>{
+   const chain=[...pattern.steps,...extraPairs.flat()];
+   const first=Math.min(...chain.map(x=>x.fridayIndex)),last=Math.max(...chain.map(x=>x.mondayIndex));
+   const hits=new Map();
+   chain.forEach(x=>{
+    if(!hits.has(x.fridayIndex))hits.set(x.fridayIndex,new Map());
+    hits.get(x.fridayIndex).set('Fri',x.jodi);
+    if(!hits.has(x.mondayIndex))hits.set(x.mondayIndex,new Map());
+    hits.get(x.mondayIndex).set('Mon',x.monday);
+   });
+   const days=['Mon','Tue','Wed','Thu','Fri','Sat'];
+   const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:last-first+1},(_,k)=>first+k).map(ix=>{
+    const row=progressionRows[ix],marked=hits.get(ix)||new Map();
+    return '<tr class="'+(marked.size?'repeat-occurrence-row':'')+'"><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+esc(row.date||'')+'</small></td>'+days.map(d=>{
+     const v=String(row[d+' Jodi']??'').trim(),hit=marked.get(d)===v;
+     return '<td class="'+(hit?'repeat-hit':'')+'">'+(validJodi(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';
+    }).join('')+'</tr>';
+   }).join('')+'</tbody></table></div>';
+   return '<details class="repeat-history"><summary>SHOW WEEKLY CHART · '+(last-first+1)+' WEEKS</summary>'+table+'</details>';
   };
   const cards=step1.map((p,n)=>{
-   const step1Table=resultTable([[p.steps[0],p.steps[1]]],1);
-   const step2Tables=p.extensions.length?p.extensions.map(pair=>resultTable([pair],2)).join(''):'<div class="empty" style="margin:8px 0 16px"><strong>Step 1 matched; no Step 2 extension found.</strong>The next two Friday Jodis (+20 and +30) have not yet produced a matching Monday pair.</div>';
-   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · STEP 1 MATCH</strong><span>'+p.steps.map(x=>x.jodi).join(' → ')+'</span></div>'+step1Table+'<div class="repeat-pattern-footer">STEP 1 MONDAY MATCH: '+p.steps[0].monday+' = '+p.steps[1].monday+' · '+p.extensions.length+' Step 2 extensions</div>'+step2Tables+'</section>';
+   const step2=p.extensions.map(pair=>stepCard(pair[0],pair[1],2)).join('');
+   const extra=p.extensions.length?step2:'<div class="empty"><strong>Step 1 matched; no Step 2 extension found.</strong></div>';
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · FRIDAY–MONDAY STEP 1 MATCH</strong><span>Friday Jodis '+p.steps.map(x=>x.jodi).join(' → ')+'</span></div><div class="repeat-watch"><b>STEP 1 · MONDAY TARGET MATCH</b><div>Matched Monday Jodi: <strong>'+p.steps[0].monday+'</strong></div><small>Friday progression +10 · gaps '+p.steps.map(x=>x.gap).join(' → ')+'</small></div>'+stepCard(p.steps[0],p.steps[1],1)+extra+weeklyChart(p,p.extensions)+'</section>';
   }).join('');
   $('tableArea').innerHTML='<div class="repeat-page"><h3>FRIDAY–MONDAY PROGRESSION · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Friday column only. Search all starting Jodis from 00 to 99; each next matching Friday Jodi is +10, wrapping after 99. Any number of other Friday results may occur between matching occurrences. Step 1 checks Monday at gaps 5 and 4 (same Monday Jodi required). Step 2 extends the same progression with Friday Jodis +20 and +30, checking Monday at gaps 3 and 2 (same Monday Jodi required). Step 1 and Step 2 Monday targets need not equal each other. Other searches and filters are ignored.</p>'+(cards||'<div class="empty"><strong>No Step 1 matches found.</strong>Both Friday progression and the paired Monday Jodi must match.</div>')+(truncated?'<p class="repeat-pattern-footer">Search limit reached; showing up to '+MAX_RESULTS+' results.</p>':'')+'</div>';
   return;
