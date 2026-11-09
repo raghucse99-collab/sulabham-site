@@ -749,13 +749,13 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
 <main class="wrap main">
 <section class="today-panel" aria-label="Latest published results above chart"><div class="today-heading">◔ UPDATED RESULTS</div><div id="todayResults" class="today-results"><div class="today-loading">Checking published results…</div></div></section>
 <section class="panel" id="chartPanel" aria-label="Chart records">
-<div class="panel-head"><div><h2 id="chartTitle">Time Bazar</h2><p id="chartDesc">Weekly historical chart records</p></div><div class="controls search-controls"><label class="search-field"><span>Number / Jodi</span><input id="search" class="field search" type="search" placeholder="e.g. 23+1" aria-label="Search Jodi number or target+offset"></label><label class="search-field"><span>Day</span><select id="daySearch" class="field"><option value="all">All days</option><option value="Mon">Monday</option><option value="Tue">Tuesday</option><option value="Wed">Wednesday</option><option value="mon-wed">Monday = Wednesday</option><option value="tue-thu">Tuesday = Thursday</option><option value="mon-tue-repeat">Repeat Monday–Tuesday Pair</option><option value="mon-tue-reverse">Monday → Tuesday Reverse Jodi</option><option value="tue-mon-reverse">Tuesday → Monday Reverse Jodi</option><option value="Thu">Thursday</option><option value="Fri">Friday</option><option value="Sat">Saturday</option><option value="Sun">Sunday</option><option value="repeat-gap">Latest Jodi Repeat Pattern (bottom ↑)</option><option value="linked-increasing">Duplicate → Linked Jodis (Increasing Gaps)</option></select></label><label class="search-field year-field"><span>Year</span><select id="year" class="field" aria-label="Filter by year"><option value="all">All years</option></select></label></div></div>
+<div class="panel-head"><div><h2 id="chartTitle">Time Bazar</h2><p id="chartDesc">Weekly historical chart records</p></div><div class="controls search-controls"><label class="search-field"><span>Number / Jodi</span><input id="search" class="field search" type="search" placeholder="e.g. 23+1" aria-label="Search Jodi number or target+offset"></label><label class="search-field"><span>Day</span><select id="daySearch" class="field"><option value="all">All days</option><option value="Mon">Monday</option><option value="Tue">Tuesday</option><option value="Wed">Wednesday</option><option value="mon-wed">Monday = Wednesday</option><option value="tue-thu">Tuesday = Thursday</option><option value="mon-tue-repeat">Repeat Monday–Tuesday Pair</option><option value="mon-tue-reverse">Monday → Tuesday Reverse Jodi</option><option value="tue-mon-reverse">Tuesday → Monday Reverse Jodi</option><option value="Thu">Thursday</option><option value="Fri">Friday</option><option value="Sat">Saturday</option><option value="Sun">Sunday</option><option value="repeat-gap">Latest Jodi Repeat Pattern (bottom ↑)</option><option value="linked-increasing">Duplicate → Linked Jodis (Increasing Gaps)</option><option value="monday-00">Monday 00 · Equal Distance (5+ occurrences)</option></select></label><label class="search-field year-field"><span>Year</span><select id="year" class="field" aria-label="Filter by year"><option value="all">All years</option></select></label></div></div>
 <div id="openDigitTool" class="open-digit-tool" hidden>
  <div class="open-digit-head"><strong>Open Digit Historical Lookup</strong><span>Explore matching Jodis in the selected chart history</span></div>
  <div class="open-digit-controls"><label for="openDigit">Open digit</label><select id="openDigit" class="field"><option value="0" selected>0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select><button type="button" id="runOpenDigitSearch" class="primary-btn">Search 10 Jodis</button></div>
  <div id="openDigitSummary" class="open-digit-summary" aria-live="polite">Choose an open digit to view its matching గత నమూనాలు Jodis.</div>
 </div>
-<div class="tabs"><button class="tab active" data-view="jodi">Jodi Chart</button><button class="tab" data-view="panel">Panel Chart</button><button class="tab" data-view="target-linked">Number+n Search</button><button class="tab" data-view="friday-monday">Friday–Monday Progression</button><button class="tab" data-view="repeat">Repeat Logic</button><button class="tab" data-view="linked">Linked Jodi Logic</button></div>
+<div class="tabs"><button class="tab active" data-view="jodi">Jodi Chart</button><button class="tab" data-view="panel">Panel Chart</button><button class="tab" data-view="target-linked">Number+n Search</button><button class="tab" data-view="friday-monday">Friday–Monday Progression</button><button class="tab" data-view="repeat">Repeat Logic</button><button class="tab" data-view="linked">Linked Jodi Logic</button><button class="tab" data-view="monday-00">Monday 00 Equal Distance</button></div>
 <div class="summary"><span class="pill" id="count">0 records</span><span class="pill" id="targetStats" hidden></span></div>
 <div id="tableArea" class="table-wrap"><div class="empty"><strong>Loading chart records…</strong>Please wait while the latest published data is loaded.</div></div>
 <div id="currentChartLabel" class="current-chart-label" aria-live="polite">Time Bazar</div>
@@ -1098,6 +1098,42 @@ function renderChart(){
  if(years.includes(prev))$('year').value=prev;
  const yr=$('year').value, q=$('search').value.trim();
 
+ if(view==='monday-00'||$('daySearch').value==='monday-00'){
+  // Independent Monday-only 00 search. At least five 00 occurrences are
+  // required, with exactly equal distances between consecutive occurrences.
+  // Other Monday Jodis between the 00 results are allowed and do not break it.
+  stats.hidden=true;
+  const marketDays=['Mon','Tue','Wed','Thu','Fri','Sat'];
+  const valid=v=>/^\\d{2}$/.test(String(v??'').trim());
+  const playingRows=sortOldestFirst(chartRows.filter(row=>marketDays.some(day=>valid(row[day+' Jodi']))));
+  const occurrences=[];
+  playingRows.forEach((row,index)=>{
+   if(String(row['Mon Jodi']??'').trim()==='00')occurrences.push({index,row});
+  });
+  const matches=[];
+  // Enumerate consecutive 00 occurrences only. A run qualifies when all
+  // consecutive distances are identical and there are at least five 00s.
+  for(let start=0;start<=occurrences.length-5;start++){
+   const distance=occurrences[start+1].index-occurrences[start].index;
+   if(distance<1)continue;
+   let end=start+1;
+   while(end+1<occurrences.length&&occurrences[end+1].index-occurrences[end].index===distance)end++;
+   if(end-start+1>=5){
+    matches.push({start,end,distance,items:occurrences.slice(start,end+1)});
+    start=end-1;
+   }
+  }
+  $('count').textContent=matches.length+' equal-distance patterns · '+occurrences.length+' Monday 00 occurrences checked · minimum 5 occurrences';
+  const cards=matches.map((p,n)=>{
+   const first=p.items[0].index,last=p.items[p.items.length-1].index;
+   const links=p.items.map((item,k)=>'<div class="repeat-step"><b class="repeat-step-num">Occurrence '+(k+1)+'</b><strong class="repeat-step-jodi">00</strong><span>Playing week '+(item.index+1)+' · '+esc(item.row.date||'')+'</span><b>Distance '+(k?' '+p.distance+' weeks':'START')+'</b></div>').join('');
+   const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Playing week</th><th>Monday Jodi</th></tr></thead><tbody>'+playingRows.slice(first,last+1).map((row,k)=>{const ix=first+k,hit=String(row['Mon Jodi']??'').trim()==='00';return '<tr class="'+(hit?'repeat-occurrence-row':'')+'"><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+esc(row.date||'')+'</small></td><td class="'+(hit?'repeat-hit':'')+'">'+(valid(row['Mon Jodi'])?(hit?'<strong>00</strong>':esc(String(row['Mon Jodi']).trim())):'·')+'</td></tr>';}).join('')+'</tbody></table></div>';
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · MONDAY 00 · EQUAL DISTANCE</strong><span>'+p.items.length+' occurrences · '+p.distance+' playing weeks apart</span></div><div class="repeat-watch"><b>00 occurrences: '+p.items.length+'</b><div>Equal distance: <strong>'+p.distance+' playing weeks</strong></div><small>Only Monday Jodi 00 is counted. Other Monday numbers between occurrences are allowed.</small></div><div class="repeat-steps">'+links+'</div><details class="repeat-history"><summary>Show Monday rows between occurrences</summary>'+table+'</details></section>';
+  }).join('');
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>MONDAY 00 · EQUAL DISTANCE SEARCH</h3><p class="repeat-explain">Monday column only. Finds five or more consecutive occurrences of 00 at the same distance in playing weeks. Any other Jodi numbers may fall between the 00 occurrences; they do not break the sequence. Fully closed weeks are skipped. This is historical pattern analysis, not a prediction.</p>'+(cards||'<div class="empty"><strong>No equal-distance Monday 00 sequence with at least five occurrences was found.</strong>Only Monday 00 occurrences are counted.</div>')+'</div>';
+  return;
+ }
+ 
  if(view==='friday-monday'){
   // Friday Jodis progress by +10 in chronological order. Intervening Friday
   // results may be anything. Monday targets are checked at the specified offsets.
