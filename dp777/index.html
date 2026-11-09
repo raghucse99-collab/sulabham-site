@@ -1019,13 +1019,9 @@ function matchesChartSearch(row,query){
   const value=String(row[day+' Jodi']??'').trim().replace(/\s+/g,'');
   // A star/blank means the market did not run; never include it as a search hit.
   if(!/^\d{2}$/.test(value))return false;
-  // Number+n query with a selected weekday: match the base Jodi on that
-  // weekday (e.g. query 00+1 + Monday filter => Monday 00 only).
-  const numberN=q.match(/^(\d{1,2})\+(\d{1,2})$/);
-  if(numberN){
-   const base=String(Number(numberN[1])).padStart(2,'0');
-   return value===base;
-  }
+  // Number+n searches are handled by targetJodiSearch before this
+  // ordinary single-Jodi row filter. Never reduce 00+1 to a plain 00 search.
+  if(/^\d{1,2}\+\d{1,2}$/.test(q))return false;
   return !q||value.toLowerCase()===q;
  }
  if(!q)return true;
@@ -1372,8 +1368,10 @@ function renderChart(){
   const filteredRows=targetSearch.selectedIndexes
    .map(i=>({row:targetSearchRows[i],sourceIndex:targetSearchRowsWithSource[i]?.index??i}))
    .filter(x=>x.row&&(yr==='all'||String(x.row.date||'').includes(yr)));
-  const days=repeatDays,valid=v=>/^\d{2}$/.test(String(v??'').trim());
-  const values=filteredRows.map(x=>days.map(d=>String(x.row[d+' Jodi']??'').trim()).filter(valid));
+  // The selected weekday controls which Jodis feed linked-pattern analysis.
+  // Keep the expandable result chart as a full Monday–Sunday week below.
+  const days=repeatDays,analysisDays=targetSearchDays,valid=v=>/^\d{2}$/.test(String(v??'').trim());
+  const values=filteredRows.map(x=>analysisDays.map(d=>String(x.row[d+' Jodi']??'').trim()).filter(valid));
   const rowSets=values.map(v=>new Set(v));
   const duplicates=values.map(v=>[...new Set(v.filter((j,i)=>v.indexOf(j)!==i))]);
   const found=new Map();let visited=0;const MAX_NODES=50000,MAX_LINKS=8;
