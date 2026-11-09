@@ -1158,10 +1158,13 @@ function renderChart(){
   step1.sort((a,b)=>b.steps[1].fridayIndex-a.steps[1].fridayIndex||a.steps[0].fridayIndex-b.steps[0].fridayIndex);
   step2.sort((a,b)=>b.steps[3].fridayIndex-a.steps[3].fridayIndex||a.steps[0].fridayIndex-b.steps[0].fridayIndex);
   $('count').textContent=step1.length+' Step 1 matches · '+step2.length+' Step 2 extensions · '+progressionRows.length+' chart weeks checked';
-  const dateOnly=row=>String(row?.date||'').split(/\\s+to\\s+/i)[0]||'—';
+  const dateOnly=row=>String(row?.date||'').split(/\\s+to\\s+/i)[0].trim()||'—';
   const resultTable=(pairs,stepNo)=>{
-   const rows=pairs.map((pair,n)=>pair.map((x,i)=>'<tr><td>Step '+stepNo+' · '+(i===0?'First':'Second')+'</td><td>'+esc(dateOnly(x.fridayRow))+'</td><td><strong>'+x.jodi+'</strong></td><td>'+x.gap+'</td><td>'+esc(dateOnly(x.mondayRow))+'</td><td><strong>'+x.monday+'</strong></td><td><span class="pill">Matched</span></td></tr>').join('')).join('');
-   return '<div class="table-wrap" style="overflow-x:auto;margin:10px 0 18px"><table style="width:100%;border-collapse:collapse;min-width:650px;font-size:14px"><thead><tr><th colspan="7" style="text-align:left;padding:10px;background:#263f87;color:white">STEP '+stepNo+' · FRIDAY PROGRESSION +10 · MONDAY PAIR MUST MATCH</th></tr><tr><th style="padding:9px;text-align:left">Stage</th><th style="padding:9px;text-align:left">Friday date</th><th style="padding:9px">Friday Jodi</th><th style="padding:9px">Gap</th><th style="padding:9px;text-align:left">Monday date</th><th style="padding:9px">Monday Jodi</th><th style="padding:9px">Status</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
+   const stages=pairs.map(pair=>pair.map((x,i)=>{
+    return '<div class="repeat-step" style="display:block;min-width:0;padding:12px;margin:8px 0"><div style="display:flex;justify-content:space-between;gap:8px;align-items:center"><b>FRIDAY · '+(i===0?'FIRST':'SECOND')+'</b><strong style="font-size:22px">'+x.jodi+'</strong></div><div style="margin-top:8px;display:grid;grid-template-columns:1fr 1fr;gap:8px"><div><small>Friday date</small><div><b>'+esc(dateOnly(x.fridayRow))+'</b></div></div><div><small>Monday gap</small><div><b>'+x.gap+'</b></div></div><div><small>Monday target date</small><div><b>'+esc(dateOnly(x.mondayRow))+'</b></div></div><div><small>Monday Jodi</small><div><b style="font-size:22px">'+x.monday+'</b></div></div></div></div>';
+   }).join('')).join('');
+   const first=pairs[0]?.[0],second=pairs[0]?.[1];
+   return '<section style="margin:10px 0 18px;padding:10px;border:1px solid #d7dced;border-radius:12px;overflow:hidden"><h4 style="margin:0 0 8px;background:#263f87;color:white;padding:10px;border-radius:7px">STEP '+stepNo+' · FRIDAY '+(first?.jodi||'')+' → '+(second?.jodi||'')+'</h4>'+stages+'<div style="padding:10px;background:#f1efff;border-radius:8px;font-weight:700;text-align:center">MONDAY MATCH: '+(first?.monday||'—')+' = '+(second?.monday||'—')+'</div></section>';
   };
   const cards=step1.map((p,n)=>{
    const step1Table=resultTable([[p.steps[0],p.steps[1]]],1);
