@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Educational Psychology, Day 3: Learning</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf8f3;--paper:#fff;--ink:#2b2118;--muted:#6f6254;--rule:#e6ddd0;--accent:#8a4b1f;--tint:#f4e9dc;--th:#f1e6d8}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1713;--paper:#231e19;--ink:#efe6da;--muted:#b3a593;--rule:#3a322a;--accent:#e0a36f;--tint:#3a2b1e;--th:#2e2620}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Noto Sans","Noto Sans Telugu",system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+header.top{border-bottom:3px solid var(--accent);margin-bottom:8px}
+h1{font-size:1.75rem;line-height:1.25;margin:8px 0 4px;color:var(--accent)}
+h1+p em{color:var(--muted);font-style:normal;font-size:.9rem}
+h2{font-size:1.35rem;margin:40px 0 10px;padding:8px 12px;background:var(--tint);border-left:5px solid var(--accent);border-radius:4px}
+h3{font-size:1.1rem;margin:26px 0 8px;color:var(--accent)}
+p{margin:8px 0}
+ul,ol{padding-left:24px;margin:8px 0}
+li{margin:4px 0}
+strong{color:var(--ink)}
+.tbl{overflow-x:auto;margin:12px 0;border:1px solid var(--rule);border-radius:8px;background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:.94rem}
+th,td{padding:8px 10px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+th{background:var(--th);font-weight:600}
+tr:last-child td{border-bottom:0}
+.formula{margin:12px 0;padding:12px 16px;background:var(--paper);border:1px dashed var(--accent);border-radius:8px;font-weight:600;text-align:center}
+nav.toc{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:12px 16px;margin:16px 0}
+nav.toc b{display:block;margin-bottom:6px}
+nav.toc a{color:var(--accent);text-decoration:none}
+nav.toc ol{margin:0}
+figure.diagram{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:8px;color:var(--muted)}
+figure.diagram{overflow-x:auto;-webkit-overflow-scrolling:touch}
+figure.diagram svg{width:100%;min-width:600px;height:auto;display:block}
+figcaption{font-size:.85rem;color:var(--muted);text-align:center;padding:4px}
+svg .t{font-size:15px;font-weight:600;fill:var(--ink)}
+svg .n{font-size:12.5px;font-weight:600;fill:var(--ink)}
+svg .b{font-size:11.5px;fill:var(--ink)}
+svg .q{font-size:11.5px;fill:var(--muted)}
+svg .box{fill:none;stroke:var(--muted);stroke-width:1.25}
+svg .box.hi{fill:var(--tint);stroke:var(--accent);stroke-width:2}
+svg .ln{stroke:var(--muted);stroke-width:1.25;fill:none}
+details.ans{margin:16px 0;background:var(--paper);border:1px solid var(--accent);border-radius:8px;padding:10px 14px}
+details.ans summary{cursor:pointer;font-weight:600;color:var(--accent)}
+.key{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px;margin-top:10px}
+.key span{background:var(--tint);border-radius:6px;padding:4px;text-align:center;font-weight:600}
+.lang-switch{display:inline-block;margin:4px 0 12px;padding:6px 14px;border:1px solid var(--accent);border-radius:999px;color:var(--accent);text-decoration:none;font-weight:600;font-size:.9rem}
+.lang-switch:hover{background:var(--tint)}
+footer{margin-top:48px;font-size:.85rem;color:var(--muted);border-top:1px solid var(--rule);padding-top:12px}
+@media print{body{background:#fff;font-size:11pt}main{max-width:none;padding:0}h2{break-after:avoid}nav.toc{display:none}details.ans{display:block}details.ans>*{display:block}@page{size:A4;margin:14mm}}
+
+figure.photo{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:10px;overflow:hidden}
+figure.photo img{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;background:var(--tint)}
+figure.photo figcaption{padding:8px 12px;font-size:.86rem;color:var(--muted);text-align:left}
+figure.photo figcaption a{color:var(--accent)}
+ol.tl{list-style:none;padding:0 0 0 22px;margin:14px 0;border-left:3px solid var(--accent)}
+ol.tl li{position:relative;margin:0 0 12px;padding-left:10px}
+ol.tl li::before{content:"";position:absolute;left:-31px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--paper);border:3px solid var(--accent)}
+ol.tl .yr{font-weight:700;color:var(--accent);margin-right:6px}
+h3{border-bottom:1px dashed var(--rule);padding-bottom:4px}
+.box{background:var(--paper);border:1px solid var(--rule);border-left:5px solid var(--accent);border-radius:8px;padding:10px 14px;margin:12px 0}
+.quiz{background:var(--paper);border:2px solid var(--accent);border-radius:12px;padding:12px 14px;margin:18px 0}
+.quiz h4{margin:0 0 4px;color:var(--accent);font-size:1.05rem}
+.quiz .hint{margin:0 0 8px;color:var(--muted);font-size:.88rem}
+.mcq{border-top:1px solid var(--rule);padding:12px 0}
+.mcq .stem{margin-bottom:8px}
+.mcq .n{color:var(--accent);font-weight:700;margin-right:6px}
+.mcq ol.stm{list-style:lower-roman;margin:6px 0;padding-left:30px}
+.mcq table.mt{border-collapse:collapse;margin:8px 0;width:100%;font-size:.93rem}
+.mcq table.mt th,.mcq table.mt td{border:1px solid var(--rule);padding:6px 8px;text-align:left}
+.mcq table.mt th{background:var(--th)}
+.opts{display:grid;gap:6px}
+button.opt{all:unset;box-sizing:border-box;display:flex;gap:10px;width:100%;padding:9px 12px;border:1px solid var(--rule);border-radius:8px;cursor:pointer;color:var(--ink);background:var(--bg)}
+button.opt:hover,button.opt:focus-visible{background:var(--tint);outline:2px solid var(--accent);outline-offset:1px}
+button.opt .k{font-weight:700;min-width:20px}
+.mcq.done button.opt{cursor:default}
+button.opt.ok{border-color:#2e7d32;background:rgba(46,125,50,.14)}
+button.opt.bad{border-color:#c62828;background:rgba(198,40,40,.12)}
+.why{display:none;margin-top:8px;padding:8px 12px;background:var(--tint);border-radius:6px;font-size:.92rem}
+.mcq.done .why{display:block}
+.why .verdict{font-weight:700;margin:0 0 4px}
+.why ul{margin:4px 0;padding-left:18px}
+.why li.c{font-weight:600}
+.qscore{font-weight:700;color:var(--accent);margin-top:6px}
+@media print{.why{display:block}button.opt{border:1px solid #999}}
+</style><noscript><style>.why{display:block}</style></noscript></head>
+<body><main>
+<header class="top"><h1>Educational Psychology, Day 3: Learning</h1><a class="lang-switch" href="dsc-sgt-psychology-day3-te.html" hreflang="te">తెలుగులో చదవండి</a></header>
+<p><em>AP DSC-2026 (APTRT) · SGT · Part III: Educational Psychology · Unit 3 of 4</em></p>
+<p>Day 3 covers the Learning unit in two topics: theories of learning (Topic 5) and the learning process (Topic 6). Memory, forgetting and motivation come on Day 4.</p>
+<div class="box"><b>Exam link:</b> the 19 June 2025 paper asked "children can learn violent behaviour through the internet" (social learning theory) and "Which is NOT related to the psychomotor domain?" (answer: Response). Both are here.</div>
+
+<nav class="toc"><b>Contents</b><ol><li><a href="#s1">Topic 5: Theories of Learning</a></li><li><a href="#s2">Topic 6: The Learning Process: Factors, Types, Dimensions, Curves, Transfer and Assessment</a></li><li><a href="#s3">Notebook page: Day 3</a></li><li><a href="#s4">Sources</a></li></ol></nav><h2 id="s1">Topic 5: Theories of Learning</h2>
+<h3>1. Basic idea</h3>
+<p><strong>Learning</strong> (అభ్యసనం) is a fairly permanent change in behaviour that comes from experience or practice. A change caused by tiredness, illness or drugs is not learning. Theories of learning explain <em>how</em> this change happens. <strong>Behaviourists</strong> (Thorndike, Pavlov, Skinner) say learning is building links between a stimulus and a response. <strong>Cognitive</strong> theorists (Kohler, Bruner) say learning is understanding. <strong>Social learning</strong> (Bandura) says we learn by watching others.</p>
+<h3>2. Why it exists</h3>
+<p>Every teaching decision rests on a learning theory, whether the teacher knows it or not: praising correct answers (Skinner), drilling tables (Thorndike), showing the whole picture first (Kohler), or modelling good behaviour (Bandura). DSC questions give a classroom situation and ask which theory or law explains it.</p>
+<h3>3. How it works</h3>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Psychologist</th>
+<th>Theory</th>
+<th>Experiment</th>
+<th>Key ideas</th>
+<th>Classroom use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E.L. <strong>Thorndike</strong></td>
+<td>Trial and error (connectionism, S-R bond)</td>
+<td>Hungry <strong>cat in a puzzle box</strong></td>
+<td>Laws of <strong>readiness, exercise, effect</strong></td>
+<td>Drill and practice; praise; start when pupils are ready</td>
+</tr>
+<tr>
+<td>Ivan <strong>Pavlov</strong></td>
+<td><strong>Classical conditioning</strong></td>
+<td><strong>Dog, bell and food</strong></td>
+<td>UCS, CS, UCR, CR; extinction, spontaneous recovery, generalisation, discrimination</td>
+<td>Habits (bell = line up); removing fear by pleasant experiences</td>
+</tr>
+<tr>
+<td>B.F. <strong>Skinner</strong></td>
+<td><strong>Operant (instrumental) conditioning</strong></td>
+<td><strong>Rat (and pigeon) in a Skinner box</strong></td>
+<td>Reinforcement (positive/negative), punishment, shaping, schedules</td>
+<td><strong>Programmed instruction</strong>, teaching machines, immediate feedback</td>
+</tr>
+<tr>
+<td>Wolfgang <strong>Kohler</strong></td>
+<td><strong>Insight learning</strong> (Gestalt)</td>
+<td>Chimpanzee <strong>Sultan</strong>, sticks and boxes</td>
+<td>Sudden "aha" from seeing the whole</td>
+<td>Show the whole first; problems that need understanding</td>
+</tr>
+<tr>
+<td>Albert <strong>Bandura</strong></td>
+<td><strong>Social / observational learning</strong></td>
+<td><strong>Bobo doll</strong></td>
+<td>Attention → retention → reproduction → motivation</td>
+<td>Teacher as model; children copy what they see (including violence on screens)</td>
+</tr>
+<tr>
+<td>Jerome <strong>Bruner</strong></td>
+<td><strong>Discovery learning</strong></td>
+<td>—</td>
+<td>Enactive → iconic → symbolic; spiral curriculum</td>
+<td>Let children find rules; concrete → picture → symbol</td>
+</tr>
+</tbody>
+</table></div>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Puzzle_box.jpg?width=900" alt="Thorndike's puzzle box (1898). A hungry cat inside had to press a lever or pull a loop to open the door and reach food outside." loading="lazy"><figcaption>Thorndike's puzzle box (1898). A hungry cat inside had to press a lever or pull a loop to open the door and reach food outside. · Photo: <a href="https://commons.wikimedia.org/wiki/File:Puzzle_box.jpg" target="_blank" rel="noopener">Wikimedia Commons</a> (see the file page for author and licence)</figcaption></figure>
+<p><strong>Thorndike's three primary laws</strong></p>
+<ol>
+<li><strong>Readiness</strong>: learning is satisfying when the learner is ready; forcing an unready learner annoys them.</li>
+<li><strong>Exercise</strong>: practice strengthens a bond (use); lack of practice weakens it (disuse).</li>
+<li><strong>Effect</strong>: a response followed by satisfaction is repeated; one followed by discomfort is dropped. This is the most important law.</li>
+</ol>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pavlov_experiments_with_dog_Wellcome_M0014738.jpg?width=900" alt="Pavlov's experiment: the dog's saliva was collected and measured while a sound was paired with food." loading="lazy"><figcaption>Pavlov's experiment: the dog's saliva was collected and measured while a sound was paired with food. · Photo: <a href="https://commons.wikimedia.org/wiki/File:Pavlov_experiments_with_dog_Wellcome_M0014738.jpg" target="_blank" rel="noopener">Wikimedia Commons</a> (see the file page for author and licence)</figcaption></figure>
+<p><strong>Pavlov's terms</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Term</th>
+<th>In the experiment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unconditioned stimulus (UCS)</td>
+<td>Food</td>
+</tr>
+<tr>
+<td>Unconditioned response (UCR)</td>
+<td>Saliva to food (natural)</td>
+</tr>
+<tr>
+<td>Conditioned stimulus (CS)</td>
+<td>Bell (after pairing)</td>
+</tr>
+<tr>
+<td>Conditioned response (CR)</td>
+<td>Saliva to the bell (learned)</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li><strong>Extinction</strong>: bell again and again without food → salivation stops.</li>
+<li><strong>Spontaneous recovery</strong>: after a rest, the bell again brings some saliva.</li>
+<li><strong>Generalisation</strong>: a similar sound also brings saliva.</li>
+<li><strong>Discrimination</strong>: the dog responds only to one particular bell.</li>
+</ul>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Skinner_box_scheme_01.svg?width=900" alt="A Skinner box: pressing the lever releases food (reinforcement); lights and a speaker give signals; some boxes have an electric grid floor." loading="lazy"><figcaption>A Skinner box: pressing the lever releases food (reinforcement); lights and a speaker give signals; some boxes have an electric grid floor. · Photo: <a href="https://commons.wikimedia.org/wiki/File:Skinner_box_scheme_01.svg" target="_blank" rel="noopener">Wikimedia Commons</a> (see the file page for author and licence)</figcaption></figure>
+<p><strong>Skinner's terms</strong></p>
+<ul>
+<li><strong>Positive reinforcement</strong>: add something pleasant (praise, a star) → behaviour increases.</li>
+<li><strong>Negative reinforcement</strong>: remove something unpleasant (no homework) → behaviour increases. It is NOT punishment.</li>
+<li><strong>Punishment</strong>: behaviour decreases.</li>
+<li><strong>Shaping</strong>: rewarding small steps towards the final behaviour.</li>
+<li><strong>Schedules</strong>: continuous (every time) and partial: fixed ratio, variable ratio, fixed interval, variable interval.</li>
+</ul>
+<h3>4. Everyday analogy</h3>
+<p>Think of a child learning to use a mobile phone. Pressing buttons at random until the screen opens is <strong>Thorndike</strong> (trial and error). Feeling happy at the ringtone because it always means a call from mother is <strong>Pavlov</strong>. Using a game more because it gives coins is <strong>Skinner</strong>. Suddenly understanding how all the settings connect is <strong>Kohler</strong>. Copying how an elder brother swipes is <strong>Bandura</strong>. Exploring and working out the rules alone is <strong>Bruner</strong>.</p>
+<h3>5. Breaking the difficult parts</h3>
+<ol>
+<li><strong>Classical vs operant</strong>: in classical conditioning the stimulus comes first and the response is automatic (saliva). In operant conditioning the learner acts first (presses the lever) and the consequence follows (food).</li>
+<li><strong>Negative reinforcement vs punishment</strong>: negative reinforcement <em>removes</em> something unpleasant to <em>increase</em> behaviour; punishment <em>decreases</em> behaviour.</li>
+<li><strong>Generalisation vs discrimination</strong>: generalisation = responding to similar stimuli; discrimination = responding only to the exact one.</li>
+<li><strong>Insight</strong>: after failing, Sultan sat quietly and then suddenly joined two sticks (or piled boxes) to reach the banana. Gestalt = "whole".</li>
+<li><strong>Bandura's four processes</strong>: attention (watch the model) → retention (remember) → reproduction (do it) → motivation (reward or praise).</li>
+<li><strong>Bruner's three modes</strong>: enactive (doing with objects) → iconic (pictures) → symbolic (words and numbers). The <strong>spiral curriculum</strong> revisits a topic at higher levels each year.</li>
+</ol>
+<h3>6. Exceptions and confusing areas</h3>
+<ul>
+<li><strong>Experiments</strong>: cat = Thorndike; dog = Pavlov; rat/pigeon = Skinner; chimpanzee = Kohler; Bobo doll = Bandura. A "pigeon with Kohler" pair is wrong.</li>
+<li><strong>Programmed instruction</strong> comes from Skinner, not Thorndike.</li>
+<li><strong>The most important law</strong> of Thorndike is the law of effect.</li>
+<li><strong>Violent behaviour copied from the internet</strong> is social learning (Bandura), the 2025 answer.</li>
+<li><strong>Discovery learning</strong> is Bruner; <strong>insight</strong> is Kohler; both are cognitive, but they are not the same.</li>
+</ul>
+<h3>7. Connections to other topics</h3>
+<ul>
+<li><strong>Day 1</strong>: Vygotsky's scaffolding and Bruner's discovery fit together; Bruner also used the word "scaffolding".</li>
+<li><strong>Topic 6</strong>: Thorndike's laws link to habit formation and transfer (identical elements).</li>
+<li><strong>Methodology</strong>: inductive method and discovery (Bruner); drill (Thorndike); reinforcement (Skinner).</li>
+<li><strong>Perspectives</strong>: NCF 2005's constructivism goes beyond behaviourism.</li>
+</ul>
+<h3>8. Memory technique</h3>
+<p><strong>Animal chain: "Cat, Dog, Rat, Chimp, Doll"</strong> → <strong>T</strong>horndike, <strong>P</strong>avlov, <strong>S</strong>kinner, <strong>K</strong>ohler, <strong>B</strong>andura → "<strong>T</strong>he <strong>P</strong>ets <strong>S</strong>tay <strong>K</strong>ind <strong>B</strong>y nature".</p>
+<p><strong>Thorndike's laws: "R-E-E"</strong> → "<strong>R</strong>eady, <strong>E</strong>xercise, <strong>E</strong>ffect": first get ready, then exercise, then enjoy the effect.</p>
+<p><strong>Bandura: "A-R-R-M"</strong> → "<strong>A</strong>lways <strong>R</strong>emember <strong>R</strong>ole <strong>M</strong>odels".</p>
+<h3>9. Test your understanding</h3>
+<p><strong>Self-recall:</strong></p>
+<ol>
+<li>Name the experiment and the animal for each of the five behaviour/cognitive theorists.</li>
+<li>Explain the difference between negative reinforcement and punishment.</li>
+<li>List Bandura's four processes in order.</li>
+</ol>
+<div class="quiz" id="quiz-t5"><h4>Quick check: 5 questions</h4><p class="hint">Tap an option to check your answer.</p><div class="mcq" data-a="3"><div class="stem"><span class="n">1.</span>A teacher begins a new lesson only after the children are curious and settled; when she forces it earlier, they become irritated and learn little. This illustrates Thorndike's</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Law of exercise</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Law of effect</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Law of readiness</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Law of disuse</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Exercise is about practice and repetition.</li><li class=""><b>2.</b> Effect is about satisfaction after a response.</li><li class="c"><b>3.</b> Correct. Readiness: when the learner is ready, learning is satisfying; forcing an unready learner annoys them.</li><li class=""><b>4.</b> Disuse (part of exercise) is about forgetting through lack of practice.</li></ul></div></div><div class="mcq" data-a="2"><div class="stem"><span class="n">2.</span>Match the terms of Pavlov's experiment:<table class="mt"><thead><tr><th>Term (List-I)</th><th>In the experiment (List-II)</th></tr></thead><tbody><tr><td>i. Unconditioned stimulus</td><td>a. Bell (after pairing)</td></tr><tr><td>ii. Conditioned stimulus</td><td>b. Saliva to the bell</td></tr><tr><td>iii. Unconditioned response</td><td>c. Food</td></tr><tr><td>iv. Conditioned response</td><td>d. Saliva to the food</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-a, ii-c, iii-d, iv-b</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-c, ii-a, iii-d, iv-b</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-c, ii-a, iii-b, iv-d</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-d, ii-a, iii-c, iv-b</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Swaps the two stimuli: food is natural (unconditioned), the bell is learned (conditioned).</li><li class="c"><b>2.</b> Correct. UCS food; CS bell; UCR saliva to food; CR saliva to bell.</li><li class=""><b>3.</b> Swaps the two responses.</li><li class=""><b>4.</b> Mixes a response into the stimulus column.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">3.</span>Which of the following statements about Skinner's operant conditioning are correct?<ol class="stm"><li>A behaviour followed by reinforcement is more likely to be repeated.</li><li>Shaping rewards small steps towards the final behaviour.</li><li>His work led to programmed instruction and teaching machines.</li><li>The response is drawn out automatically by a stimulus, as with Pavlov's bell.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i and ii only</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>ii, iii and iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i, ii, iii and iv</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, ii and iii</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Leaves out iii, which is true.</li><li class=""><b>2.</b> Includes iv: in operant conditioning the learner ACTS first (presses the lever) and the consequence follows. Automatic responses to a stimulus are classical conditioning.</li><li class=""><b>3.</b> Includes the false statement iv.</li><li class="c"><b>4.</b> Correct. i, ii and iii are true.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">4.</span><b>Assertion (A):</b> In Kohler's experiment, the chimpanzee Sultan solved the problem suddenly after a pause, not by slow trial and error.<br><b>Reason (R):</b> Insight comes from seeing the relationship between the parts of the whole situation.</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Both A and R are true, and R is the correct explanation of A</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Both A and R are true, but R is not the correct explanation of A</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>A is true, but R is false</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>A is false, but R is true</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> Correct. Both are true, and R (the Gestalt idea of seeing the whole) explains the sudden solution in A.</li><li class=""><b>2.</b> R is the explanation of A, not a separate truth.</li><li class=""><b>3.</b> R is true: it is the core Gestalt principle.</li><li class=""><b>4.</b> A is true: the "aha" solution after a pause is the defining feature of insight learning.</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">5.</span>A boy starts saying "thank you" after repeatedly seeing his teacher thank people, and the teacher praises him for it. Which theory explains this best?</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Trial and error learning</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Classical conditioning</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Social (observational) learning</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Insight learning</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> There were no random attempts and failures.</li><li class=""><b>2.</b> No neutral stimulus was paired with a natural one.</li><li class="c"><b>3.</b> Correct. Bandura: the boy observed a model (attention), remembered it (retention), copied it (reproduction), and praise strengthened it (motivation).</li><li class=""><b>4.</b> There was no sudden solution to a problem.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>Revision note (5 lines)</b><br>
+1. Thorndike: cat, puzzle box; laws of readiness, exercise, effect (most important).<br>
+2. Pavlov: dog, bell; UCS food, CS bell; extinction, spontaneous recovery, generalisation, discrimination.<br>
+3. Skinner: rat/pigeon; reinforcement (+/−), punishment, shaping, schedules; programmed instruction.<br>
+4. Kohler: chimpanzee Sultan; insight (Gestalt). Bruner: discovery; enactive → iconic → symbolic; spiral curriculum.<br>
+5. Bandura: Bobo doll; attention → retention → reproduction → motivation; teacher as model.</div>
+
+<h2 id="s2">Topic 6: The Learning Process: Factors, Types, Dimensions, Curves, Transfer and Assessment</h2>
+<h3>1. Basic idea</h3>
+<p>Topic 5 explained <em>how</em> learning happens. This topic looks at the learning <strong>process</strong> in the classroom: what helps or blocks it (<strong>factors</strong>), the steps a learner goes through (<strong>phases</strong>), the kinds of learning (<strong>types</strong>), the areas of learning (<strong>dimensions</strong>: cognitive, affective, psychomotor), how progress looks on a graph (<strong>learning curves</strong>), how one learning affects another (<strong>transfer</strong>), and how we check it (<strong>assessment</strong>).</p>
+<h3>2. Why it exists</h3>
+<p>A teacher needs to diagnose why learning is slow and plan for all three areas of growth: knowledge, feelings and skills. The SCERT syllabus lists all these under "Learning", and the 2025 paper asked about the psychomotor domain.</p>
+<h3>3. How it works</h3>
+<p><strong>Factors affecting learning</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Group</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Learner</td>
+<td>Health, intelligence, motivation, readiness, interest, attention</td>
+</tr>
+<tr>
+<td>Teacher</td>
+<td>Knowledge, method, behaviour, use of teaching-learning material</td>
+</tr>
+<tr>
+<td>Content</td>
+<td>Difficulty, meaningfulness, length, sequence</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Light, air, seating, noise, home support, peer group</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Gagné's phases of learning (8):</strong> motivation → apprehending (attention) → acquisition → retention → recall → generalisation → performance → feedback.</p>
+<p><strong>Gagné's types of learning (8, simplest to most complex):</strong> (1) signal learning, (2) stimulus–response learning, (3) <strong>chaining</strong> (motor sequences), (4) verbal association, (5) multiple discrimination, (6) <strong>concept learning</strong>, (7) principle (rule) learning, (8) <strong>problem solving</strong>.</p>
+<p><strong>Dimensions of learning: Bloom's three domains</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Domain</th>
+<th>Area</th>
+<th>Levels</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Cognitive</strong> (Bloom, 1956)</td>
+<td>Thinking</td>
+<td>Knowledge → Comprehension → Application → Analysis → Synthesis → Evaluation</td>
+</tr>
+<tr>
+<td>Revised cognitive (<strong>Anderson &amp; Krathwohl</strong>, 2001)</td>
+<td>Thinking</td>
+<td>Remember → Understand → Apply → Analyse → Evaluate → <strong>Create</strong></td>
+</tr>
+<tr>
+<td><strong>Affective</strong> (<strong>Krathwohl</strong>, 1964)</td>
+<td>Feelings, attitudes, values</td>
+<td>Receiving → <strong>Responding</strong> → Valuing → Organisation → Characterisation</td>
+</tr>
+<tr>
+<td><strong>Psychomotor</strong> (<strong>R.H. Dave</strong>, 1970)</td>
+<td>Physical skills</td>
+<td><strong>Imitation</strong> → <strong>Manipulation</strong> → <strong>Precision</strong> → <strong>Articulation</strong> → <strong>Naturalisation</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Learning curves</strong></p>
+<ul>
+<li><strong>Convex</strong> (negatively accelerated): fast at first, then slow (easy tasks).</li>
+<li><strong>Concave</strong> (positively accelerated): slow at first, then fast (difficult tasks).</li>
+<li><strong>Mixed / S-shaped</strong>: a combination of both.</li>
+<li><strong>Plateau</strong> (పీఠభూమి): a flat stretch with no visible progress. Causes: fatigue, low interest, wrong method, or moving to a higher level of skill. Remedies: rest, motivation, a change of method.</li>
+</ul>
+<p><strong>Transfer of learning</strong> (అభ్యసన బదలాయింపు)</p>
+<ul>
+<li><strong>Positive</strong>: one learning helps another (cycling → motorbike).</li>
+<li><strong>Negative</strong>: one learning blocks another (driving on the left → driving on the right).</li>
+<li><strong>Zero</strong>: no effect.</li>
+<li><strong>Theories</strong>: mental (formal) discipline (the mind is a muscle); <strong>identical elements</strong> (Thorndike); <strong>generalisation</strong> (Judd); <strong>transposition</strong> (Gestalt).</li>
+</ul>
+<p><strong>Learning and assessment</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Type</th>
+<th>When</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Formative</strong> (assessment <em>for</em> learning)</td>
+<td>During teaching</td>
+<td>Find gaps and improve teaching</td>
+</tr>
+<tr>
+<td><strong>Summative</strong> (assessment <em>of</em> learning)</td>
+<td>End of a unit or term</td>
+<td>Grade and certify</td>
+</tr>
+<tr>
+<td>Assessment <em>as</em> learning</td>
+<td>During learning, by the pupil</td>
+<td>Self-assessment and reflection</td>
+</tr>
+<tr>
+<td><strong>Diagnostic</strong></td>
+<td>When a problem shows</td>
+<td>Find the exact difficulty → <strong>remedial teaching</strong></td>
+</tr>
+<tr>
+<td>Placement</td>
+<td>At the start</td>
+<td>Decide the right group or level</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CCE</strong> (Continuous and Comprehensive Evaluation): continuous = throughout the year; comprehensive = both scholastic and co-scholastic areas.</p>
+<h3>4. Everyday analogy</h3>
+<p>Learning to cook shows every part of this topic. <strong>Factors</strong>: a good teacher, a clean kitchen, interest in food. <strong>Phases</strong>: you want to cook, watch carefully, learn the steps, remember them, recall them next week, try a new dish, cook for guests, and hear their comments. <strong>Domains</strong>: knowing the recipe (cognitive), enjoying cooking (affective), cutting vegetables evenly (psychomotor). <strong>Plateau</strong>: your chapatis stop improving for a week. <strong>Transfer</strong>: making chapati helps with making paratha (positive).</p>
+<h3>5. Breaking the difficult parts</h3>
+<ol>
+<li><strong>Krathwohl's affective levels</strong>: receiving (paying attention) → responding (taking part; the 2025 trap) → valuing (accepting a value) → organisation (fitting values together) → characterisation (living by them).</li>
+<li><strong>Dave's psychomotor levels</strong>: imitation (copying) → manipulation (doing from instructions) → precision (accuracy) → articulation (combining skills) → naturalisation (automatic, expert).</li>
+<li><strong>Gagné's hierarchy</strong>: a higher type needs the lower ones first. You cannot solve problems (8) without rules (7) and concepts (6).</li>
+<li><strong>Convex vs concave</strong>: easy task → quick start (convex); hard task → slow start (concave).</li>
+<li><strong>Identical elements (Thorndike)</strong>: transfer happens when the two tasks share common parts (Telugu grammar helps Sanskrit).</li>
+<li><strong>Diagnostic → remedial</strong>: diagnose the exact difficulty first, then teach to remove it.</li>
+</ol>
+<h3>6. Exceptions and confusing areas</h3>
+<ul>
+<li><strong>"Response/responding" is affective, not psychomotor</strong>, even though the word sounds like action (2025 paper).</li>
+<li><strong>"Valuing" is affective.</strong> Imitation, manipulation, precision, articulation and naturalisation are psychomotor.</li>
+<li><strong>The revised Bloom's taxonomy</strong> puts <strong>Create</strong> at the top; the original put Evaluation at the top.</li>
+<li><strong>A plateau is not the end of learning</strong>; progress usually resumes.</li>
+<li><strong>Formative vs summative</strong>: <em>during</em> vs <em>end</em>; <em>improve</em> vs <em>grade</em>.</li>
+</ul>
+<h3>7. Connections to other topics</h3>
+<ul>
+<li><strong>Topic 5</strong>: Thorndike → identical elements; Skinner → immediate feedback in formative assessment.</li>
+<li><strong>Day 4</strong>: memory and forgetting are the retention and recall phases.</li>
+<li><strong>Methodology</strong>: writing lesson objectives in all three domains; CCE; remedial teaching.</li>
+<li><strong>Perspectives</strong>: RTE Section 29 (CCE) and NEP's competency-based assessment.</li>
+</ul>
+<h3>8. Memory technique</h3>
+<p><strong>Krathwohl: "R-R-V-O-C"</strong> → "<strong>R</strong>ama <strong>R</strong>eads <strong>V</strong>edas <strong>O</strong>n <strong>C</strong>ourse".</p>
+<p><strong>Dave: "I-M-P-A-N"</strong> → "<strong>I M</strong>ake <strong>P</strong>erfect <strong>A</strong>rt <strong>N</strong>aturally".</p>
+<p><strong>Gagné types: "S-S-C-V-M-C-P-P"</strong> → "<strong>S</strong>ignal, <strong>S</strong>-R, <strong>C</strong>haining, <strong>V</strong>erbal, <strong>M</strong>ultiple discrimination, <strong>C</strong>oncept, <strong>P</strong>rinciple, <strong>P</strong>roblem solving": "<strong>S</strong>ita <strong>S</strong>aw <strong>C</strong>hildren <strong>V</strong>isit <strong>M</strong>any <strong>C</strong>ities <strong>P</strong>lanning <strong>P</strong>icnics".</p>
+<p><strong>Curves: "Easy = conVEX = fast first; hard = conCAVE = slow first"</strong> (you walk slowly into a cave).</p>
+<h3>9. Test your understanding</h3>
+<p><strong>Self-recall:</strong></p>
+<ol>
+<li>Name the levels of Krathwohl's affective domain and Dave's psychomotor domain.</li>
+<li>What is a plateau? Give two causes and two remedies.</li>
+<li>Explain formative, summative and diagnostic assessment with one example each.</li>
+</ol>
+<div class="quiz" id="quiz-t6"><h4>Quick check: 5 questions</h4><p class="hint">Tap an option to check your answer.</p><div class="mcq" data-a="2"><div class="stem"><span class="n">1.</span>Which of the following is NOT a level of R.H. Dave's psychomotor domain?</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Precision</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Valuing</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Naturalisation</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Manipulation</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Precision IS a Dave level (the third).</li><li class="c"><b>2.</b> Correct. Valuing belongs to the AFFECTIVE domain (Krathwohl). The 2025 paper used "Response" the same way.</li><li class=""><b>3.</b> Naturalisation IS the highest Dave level.</li><li class=""><b>4.</b> Manipulation IS a Dave level (the second).</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">2.</span>Match the domain with the person linked to it:<table class="mt"><thead><tr><th>Domain (List-I)</th><th>Person (List-II)</th></tr></thead><tbody><tr><td>i. Cognitive domain (1956)</td><td>a. Krathwohl</td></tr><tr><td>ii. Affective domain</td><td>b. R.H. Dave</td></tr><tr><td>iii. Psychomotor domain</td><td>c. Benjamin Bloom</td></tr><tr><td>iv. Revised cognitive taxonomy (2001)</td><td>d. Anderson and Krathwohl</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-c, ii-b, iii-a, iv-d</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-a, ii-c, iii-b, iv-d</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-c, ii-a, iii-d, iv-b</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-c, ii-a, iii-b, iv-d</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Swaps affective (Krathwohl) and psychomotor (Dave).</li><li class=""><b>2.</b> Swaps cognitive (Bloom) and affective (Krathwohl).</li><li class=""><b>3.</b> Swaps psychomotor and the revised taxonomy.</li><li class="c"><b>4.</b> Correct. Bloom → cognitive; Krathwohl → affective; Dave (also Simpson) → psychomotor; Anderson & Krathwohl → revised taxonomy.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">3.</span>Arrange these types of learning from Gagné's hierarchy, from the simplest to the most complex:<ol class="stm"><li>Concept learning</li><li>Signal learning</li><li>Problem solving</li><li>Chaining</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>ii, iv, i, iii</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>iv, ii, i, iii</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>ii, i, iv, iii</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>ii, iv, iii, i</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> Correct. Signal (1) → chaining (3) → concept (6) → problem solving (8, the highest).</li><li class=""><b>2.</b> Signal learning is the lowest type, so it must come first.</li><li class=""><b>3.</b> Chaining (a motor sequence) comes before concept learning.</li><li class=""><b>4.</b> Problem solving is the highest type; it cannot come before concept learning.</li></ul></div></div><div class="mcq" data-a="2"><div class="stem"><span class="n">4.</span>While learning a difficult skill, a learner progresses slowly at first and then faster. The learning curve formed is</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Convex (negatively accelerated)</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Concave (positively accelerated)</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>A straight line</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>A plateau</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Convex is fast at first, then slow (easy tasks).</li><li class="c"><b>2.</b> Correct. Concave: slow start, faster later (difficult tasks).</li><li class=""><b>3.</b> A straight line means equal progress all the time, which rarely happens.</li><li class=""><b>4.</b> A plateau is a flat stretch with no visible progress.</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">5.</span>During a lesson, a teacher gives a short quiz to find out what the pupils have not understood, and then changes how she teaches. This is</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Summative assessment (assessment of learning)</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Placement assessment</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Formative assessment (assessment for learning)</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>A board examination</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Summative assessment comes at the end of a unit or term, to grade.</li><li class=""><b>2.</b> Placement decides which group or class a child should start in.</li><li class="c"><b>3.</b> Correct. Formative assessment happens during learning and is used to improve teaching and learning.</li><li class=""><b>4.</b> A board exam is an external summative exam.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>Revision note (5 lines)</b><br>
+1. Factors: learner, teacher, content, environment. Gagné: 8 phases (motivation → feedback) and 8 types (signal → problem solving).<br>
+2. Domains: cognitive (Bloom 1956; revised 2001 with Create at top); affective (Krathwohl: R-R-V-O-C); psychomotor (Dave: I-M-P-A-N).<br>
+3. Curves: convex (easy), concave (hard), S-shaped; plateau = flat stretch.<br>
+4. Transfer: positive, negative, zero; identical elements (Thorndike), generalisation (Judd), transposition (Gestalt).<br>
+5. Assessment: formative (for), summative (of), as learning, diagnostic → remedial; CCE.</div>
+
+<h2 id="s3">Notebook page: Day 3</h2>
+<p>Close this page and write the following in your notebook <strong>from memory</strong>, in this order. Then check and fill gaps in a different colour.</p>
+<ol>
+<li>The six-theory table: psychologist, theory, experiment, key idea, classroom use.</li>
+<li>Thorndike's three laws (R-E-E) with one classroom example each.</li>
+<li>Pavlov's four terms with the experiment, plus extinction, spontaneous recovery, generalisation and discrimination.</li>
+<li>Skinner: positive and negative reinforcement, punishment, shaping, schedules, programmed instruction.</li>
+<li>Kohler's Sultan story in three lines; Bandura's A-R-R-M; Bruner's three modes and spiral curriculum.</li>
+<li>Factors of learning (four groups).</li>
+<li>Gagné's 8 phases and 8 types.</li>
+<li>Bloom's three domains with all levels; star "Responding" (affective) and "Create" (top of the revised taxonomy).</li>
+<li>Learning curves and the plateau; transfer types and four theories.</li>
+<li>Assessment table: formative, summative, as learning, diagnostic, placement; CCE.</li>
+</ol>
+<h2 id="s4">Sources</h2>
+<ul>
+<li>Directorate of School Education, Andhra Pradesh: <a href="https://apdsc2024.apcfss.in/Documents/MEGA_DSC_2024_Suggestive_Syllabus-27-11-2024.pdf">Mega DSC 2024 Suggestive Syllabus</a> (SGT Part III unit list; checked 9 Nov 2026).</li>
+<li>AP DSC SGT question paper, 19 June 2025, Shift 1 (Section III), supplied by you.</li>
+<li>Photos: Wikimedia Commons (credit and licence on each file page).</li>
+</ul>
+<footer>Sulabham · AP DSC-2026 (APTRT) SGT · Educational Psychology. Based on the official SCERT SGT syllabus (Unit 3: Learning).</footer>
+</main>
+<script>
+(function(){
+var T={"right": "Correct!", "wrong": "Not quite. Correct answer:", "score": "Your score"};
+document.querySelectorAll('.quiz').forEach(function(qz){
+  var mcqs=qz.querySelectorAll('.mcq'), done=0, ok=0;
+  mcqs.forEach(function(m){
+    var a=m.getAttribute('data-a');
+    m.querySelectorAll('button.opt').forEach(function(b){
+      b.addEventListener('click',function(){
+        if(m.classList.contains('done'))return;
+        m.classList.add('done');
+        var right=b.getAttribute('data-o')===a;
+        b.classList.add(right?'ok':'bad');
+        m.querySelector('button.opt[data-o="'+a+'"]').classList.add('ok');
+        m.querySelectorAll('button.opt').forEach(function(x){x.setAttribute('aria-disabled','true');});
+        m.querySelector('.verdict').textContent=right?T.right:(T.wrong+' '+a);
+        done++; if(right)ok++;
+        if(done===mcqs.length){qz.querySelector('.qscore').textContent=T.score+': '+ok+' / '+mcqs.length;}
+      });
+    });
+  });
+});
+})();
+</script>
+</body></html>

@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Educational Psychology, Day 4: Memory and Motivation; Personality and Special Needs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf8f3;--paper:#fff;--ink:#2b2118;--muted:#6f6254;--rule:#e6ddd0;--accent:#8a4b1f;--tint:#f4e9dc;--th:#f1e6d8}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1713;--paper:#231e19;--ink:#efe6da;--muted:#b3a593;--rule:#3a322a;--accent:#e0a36f;--tint:#3a2b1e;--th:#2e2620}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Noto Sans","Noto Sans Telugu",system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+header.top{border-bottom:3px solid var(--accent);margin-bottom:8px}
+h1{font-size:1.75rem;line-height:1.25;margin:8px 0 4px;color:var(--accent)}
+h1+p em{color:var(--muted);font-style:normal;font-size:.9rem}
+h2{font-size:1.35rem;margin:40px 0 10px;padding:8px 12px;background:var(--tint);border-left:5px solid var(--accent);border-radius:4px}
+h3{font-size:1.1rem;margin:26px 0 8px;color:var(--accent)}
+p{margin:8px 0}
+ul,ol{padding-left:24px;margin:8px 0}
+li{margin:4px 0}
+strong{color:var(--ink)}
+.tbl{overflow-x:auto;margin:12px 0;border:1px solid var(--rule);border-radius:8px;background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:.94rem}
+th,td{padding:8px 10px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+th{background:var(--th);font-weight:600}
+tr:last-child td{border-bottom:0}
+.formula{margin:12px 0;padding:12px 16px;background:var(--paper);border:1px dashed var(--accent);border-radius:8px;font-weight:600;text-align:center}
+nav.toc{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:12px 16px;margin:16px 0}
+nav.toc b{display:block;margin-bottom:6px}
+nav.toc a{color:var(--accent);text-decoration:none}
+nav.toc ol{margin:0}
+figure.diagram{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:8px;color:var(--muted)}
+figure.diagram{overflow-x:auto;-webkit-overflow-scrolling:touch}
+figure.diagram svg{width:100%;min-width:600px;height:auto;display:block}
+figcaption{font-size:.85rem;color:var(--muted);text-align:center;padding:4px}
+svg .t{font-size:15px;font-weight:600;fill:var(--ink)}
+svg .n{font-size:12.5px;font-weight:600;fill:var(--ink)}
+svg .b{font-size:11.5px;fill:var(--ink)}
+svg .q{font-size:11.5px;fill:var(--muted)}
+svg .box{fill:none;stroke:var(--muted);stroke-width:1.25}
+svg .box.hi{fill:var(--tint);stroke:var(--accent);stroke-width:2}
+svg .ln{stroke:var(--muted);stroke-width:1.25;fill:none}
+details.ans{margin:16px 0;background:var(--paper);border:1px solid var(--accent);border-radius:8px;padding:10px 14px}
+details.ans summary{cursor:pointer;font-weight:600;color:var(--accent)}
+.key{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px;margin-top:10px}
+.key span{background:var(--tint);border-radius:6px;padding:4px;text-align:center;font-weight:600}
+.lang-switch{display:inline-block;margin:4px 0 12px;padding:6px 14px;border:1px solid var(--accent);border-radius:999px;color:var(--accent);text-decoration:none;font-weight:600;font-size:.9rem}
+.lang-switch:hover{background:var(--tint)}
+footer{margin-top:48px;font-size:.85rem;color:var(--muted);border-top:1px solid var(--rule);padding-top:12px}
+@media print{body{background:#fff;font-size:11pt}main{max-width:none;padding:0}h2{break-after:avoid}nav.toc{display:none}details.ans{display:block}details.ans>*{display:block}@page{size:A4;margin:14mm}}
+
+figure.photo{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:10px;overflow:hidden}
+figure.photo img{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;background:var(--tint)}
+figure.photo figcaption{padding:8px 12px;font-size:.86rem;color:var(--muted);text-align:left}
+figure.photo figcaption a{color:var(--accent)}
+ol.tl{list-style:none;padding:0 0 0 22px;margin:14px 0;border-left:3px solid var(--accent)}
+ol.tl li{position:relative;margin:0 0 12px;padding-left:10px}
+ol.tl li::before{content:"";position:absolute;left:-31px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--paper);border:3px solid var(--accent)}
+ol.tl .yr{font-weight:700;color:var(--accent);margin-right:6px}
+h3{border-bottom:1px dashed var(--rule);padding-bottom:4px}
+.box{background:var(--paper);border:1px solid var(--rule);border-left:5px solid var(--accent);border-radius:8px;padding:10px 14px;margin:12px 0}
+.quiz{background:var(--paper);border:2px solid var(--accent);border-radius:12px;padding:12px 14px;margin:18px 0}
+.quiz h4{margin:0 0 4px;color:var(--accent);font-size:1.05rem}
+.quiz .hint{margin:0 0 8px;color:var(--muted);font-size:.88rem}
+.mcq{border-top:1px solid var(--rule);padding:12px 0}
+.mcq .stem{margin-bottom:8px}
+.mcq .n{color:var(--accent);font-weight:700;margin-right:6px}
+.mcq ol.stm{list-style:lower-roman;margin:6px 0;padding-left:30px}
+.mcq table.mt{border-collapse:collapse;margin:8px 0;width:100%;font-size:.93rem}
+.mcq table.mt th,.mcq table.mt td{border:1px solid var(--rule);padding:6px 8px;text-align:left}
+.mcq table.mt th{background:var(--th)}
+.opts{display:grid;gap:6px}
+button.opt{all:unset;box-sizing:border-box;display:flex;gap:10px;width:100%;padding:9px 12px;border:1px solid var(--rule);border-radius:8px;cursor:pointer;color:var(--ink);background:var(--bg)}
+button.opt:hover,button.opt:focus-visible{background:var(--tint);outline:2px solid var(--accent);outline-offset:1px}
+button.opt .k{font-weight:700;min-width:20px}
+.mcq.done button.opt{cursor:default}
+button.opt.ok{border-color:#2e7d32;background:rgba(46,125,50,.14)}
+button.opt.bad{border-color:#c62828;background:rgba(198,40,40,.12)}
+.why{display:none;margin-top:8px;padding:8px 12px;background:var(--tint);border-radius:6px;font-size:.92rem}
+.mcq.done .why{display:block}
+.why .verdict{font-weight:700;margin:0 0 4px}
+.why ul{margin:4px 0;padding-left:18px}
+.why li.c{font-weight:600}
+.qscore{font-weight:700;color:var(--accent);margin-top:6px}
+@media print{.why{display:block}button.opt{border:1px solid #999}}
+</style><noscript><style>.why{display:block}</style></noscript></head>
+<body><main>
+<header class="top"><h1>Educational Psychology, Day 4: Memory and Motivation; Personality and Special Needs</h1><a class="lang-switch" href="dsc-sgt-psychology-day4-te.html" hreflang="te">తెలుగులో చదవండి</a></header>
+<p><em>AP DSC-2026 (APTRT) · SGT · Part III: Educational Psychology · Unit 3 (end) and Unit 4</em></p>
+<p>Day 4 completes the Learning unit with memory, forgetting and motivation (Topic 7), and covers the Personality unit together with children with special needs (Topic 8).</p>
+<div class="box"><b>Exam link:</b> the 19 June 2025 paper asked about logical memory (writing answers in your own words), developing achievement motivation, a wrongly matched defence mechanism, type and trait theories (Hippocrates, Sheldon, Spranger; Allport, Cattell, Eysenck) and a "mental hindrance" situation. All are here.</div>
+
+<nav class="toc"><b>Contents</b><ol><li><a href="#s1">Topic 7: Memory, Forgetting and Motivation</a></li><li><a href="#s2">Topic 8: Personality, Mental Health and Children with Special Needs</a></li><li><a href="#s3">Notebook page: Day 4</a></li><li><a href="#s4">Sources</a></li></ol></nav><h2 id="s1">Topic 7: Memory, Forgetting and Motivation</h2>
+<h3>1. Basic idea</h3>
+<p><strong>Memory</strong> (జ్ఞాపకశక్తి / స్మృతి) is the ability to take in, keep and bring back what we learn. <strong>Forgetting</strong> (విస్మృతి) is the failure to bring it back. <strong>Motivation</strong> (ప్రేరణ) is the inner force that starts, directs and keeps up behaviour towards a goal. A child who forgets everything, or who doesn't want to learn, learns little, however good the teaching.</p>
+<h3>2. Why it exists</h3>
+<p>Exam success depends on remembering, and classroom success depends on wanting to learn. Knowing how memory works tells the teacher <em>when</em> to revise. Knowing what motivates children tells the teacher <em>how</em> to make them want to learn.</p>
+<h3>3. How it works</h3>
+<p><strong>Three stages of memory:</strong> <strong>encoding</strong> (taking in) → <strong>storage</strong> (keeping) → <strong>retrieval</strong> (bringing out).</p>
+<p><strong>Atkinson–Shiffrin model (three stores)</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Store</th>
+<th>How long</th>
+<th>Capacity</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sensory memory</td>
+<td>Under 1 second (sight) to 2–4 seconds (sound)</td>
+<td>Large</td>
+<td>A flash of light you just saw</td>
+</tr>
+<tr>
+<td>Short-term memory (STM)</td>
+<td>About 20–30 seconds without rehearsal</td>
+<td><strong>7 ± 2 items</strong> (George Miller)</td>
+<td>Holding an OTP in mind</td>
+</tr>
+<tr>
+<td>Long-term memory (LTM)</td>
+<td>Years, lifelong</td>
+<td>Practically unlimited</td>
+<td>Your mother tongue</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Types of memory to know:</strong> <strong>rote memory</strong> (mechanical repetition without meaning) vs <strong>logical memory</strong> (based on understanding; for example, writing answers in your own words, the 2025 answer); <strong>recall</strong> (bringing out without help, like fill-in-the-blanks) vs <strong>recognition</strong> (identifying from options, like MCQs; this is easier).</p>
+<p><strong>Forgetting</strong></p>
+<ul>
+<li><strong>Hermann Ebbinghaus</strong> used <strong>nonsense syllables</strong> (ZOK, DAX). His <strong>forgetting curve</strong> shows that most forgetting happens soon after learning, then it slows down.</li>
+<li><strong>Causes</strong>: <strong>decay</strong> (disuse); <strong>interference</strong>: <strong>proactive</strong> (old learning blocks new) and <strong>retroactive</strong> (new learning blocks old); <strong>repression</strong> (Freud: painful memories pushed out).</li>
+<li><strong>To remember better</strong>: spaced revision (especially the same day), understanding meaning, mnemonics (e.g. VIBGYOR), overlearning, enough sleep, linking new to old knowledge.</li>
+</ul>
+<p><strong>Motivation</strong></p>
+<ul>
+<li><strong>Intrinsic</strong> (from inside: the story is interesting) vs <strong>extrinsic</strong> (from outside: marks, prizes, praise, fear). Intrinsic motivation lasts longer.</li>
+<li><strong>Motivation cycle</strong>: need → drive → incentive → goal (hunger → restlessness → food → eating).</li>
+<li><strong>Achievement motivation (David McClelland)</strong>: the desire to succeed and do well. High achievers prefer <strong>moderately difficult goals that match their ability</strong>. Teachers develop it by <strong>setting goals according to each child's ability</strong>, the 2025 answer.</li>
+<li><strong>Level of aspiration</strong>: the goal a child sets for themselves. It should be neither too high (frustration) nor too low (no effort).</li>
+</ul>
+<p><strong>Abraham Maslow's hierarchy of needs</strong></p>
+<figure class="diagram"><svg viewBox="0 0 760 380" role="img" aria-label="Maslow hierarchy of needs"><text x="24" y="30" class="t">A child must meet lower needs before higher ones</text><rect x="270.0" y="52" width="220" height="52" rx="8" class="box hi"/><text x="380" y="74" text-anchor="middle" class="n">5. Self-actualisation</text><text x="380" y="93" text-anchor="middle" class="q">Becoming your best</text><rect x="220.0" y="110" width="320" height="52" rx="8" class="box"/><text x="380" y="132" text-anchor="middle" class="n">4. Esteem</text><text x="380" y="151" text-anchor="middle" class="q">Praise, respect, prizes</text><rect x="160.0" y="168" width="440" height="52" rx="8" class="box"/><text x="380" y="190" text-anchor="middle" class="n">3. Love and belonging</text><text x="380" y="209" text-anchor="middle" class="q">Friends, family, being part of the class</text><rect x="110.0" y="226" width="540" height="52" rx="8" class="box"/><text x="380" y="248" text-anchor="middle" class="n">2. Safety</text><text x="380" y="267" text-anchor="middle" class="q">A safe classroom, no fear of punishment</text><rect x="60.0" y="284" width="640" height="52" rx="8" class="box"/><text x="380" y="306" text-anchor="middle" class="n">1. Physiological</text><text x="380" y="325" text-anchor="middle" class="q">Food, water, sleep, rest</text><text x="24" y="368" class="q">Levels 1-4 are deficiency needs; level 5 is a growth need. This is why mid-day meals improve learning.</text></svg><figcaption>Maslow's hierarchy of needs · 5 levels</figcaption></figure>
+<h3>4. Everyday analogy</h3>
+<p>Memory is like a <strong>mobile phone</strong>. The screen is sensory memory: whatever flashes on it is gone in a moment unless you notice it. The notification bar is short-term memory: it holds a few items for a short time. The gallery is long-term memory: it stores a great deal, but you must save things there (encoding) and know where to find them (retrieval). Motivation is the <strong>battery charge</strong>: a fully loaded phone with no charge is useless.</p>
+<h3>5. Breaking the difficult parts</h3>
+<ol>
+<li><strong>Rote vs logical memory</strong>: repeating "7 × 8 = 56" fifty times (rote) vs understanding that 7 × 8 is seven eights (logical). Logical memory lasts longer and adapts to new questions.</li>
+<li><strong>Proactive vs retroactive interference</strong>: "pro" = forward: the old blocks the new. "Retro" = backward: the new blocks the old.</li>
+<li><strong>Recall vs recognition</strong>: an essay answer needs recall; a multiple-choice question needs only recognition.</li>
+<li><strong>Why same-day revision works</strong>: the forgetting curve is steepest in the first hours, so a short revision then saves much more than a long one a week later.</li>
+<li><strong>Intrinsic vs extrinsic in class</strong>: praise and prizes (extrinsic) can start interest; aim to move children towards curiosity and enjoyment (intrinsic).</li>
+<li><strong>Deficiency vs growth needs (Maslow)</strong>: levels 1–4 are deficiency needs; level 5 (self-actualisation) is a growth need. A hungry child cannot focus on learning, which is why mid-day meals matter.</li>
+</ol>
+<h3>6. Exceptions and confusing areas</h3>
+<ul>
+<li><strong>7 ± 2 is the STM limit</strong>, not the long-term one.</li>
+<li><strong>Ebbinghaus</strong> studied <em>forgetting</em> with nonsense syllables; <strong>Miller</strong> gave 7 ± 2.</li>
+<li><strong>Recognition is easier than recall.</strong></li>
+<li><strong>Achievement motivation</strong>: very easy or impossible goals are chosen by children who <em>fear failure</em>, not by high achievers.</li>
+<li><strong>Maslow's lowest need is physiological</strong>, not safety.</li>
+</ul>
+<h3>7. Connections to other topics</h3>
+<ul>
+<li><strong>Day 3</strong>: memory is the retention and recall phases of Gagné; Thorndike's law of exercise and disuse.</li>
+<li><strong>Topic 8</strong>: repression is also a defence mechanism.</li>
+<li><strong>Methodology</strong>: recapitulation, revision periods, spaced practice, use of mnemonics.</li>
+<li><strong>Perspectives</strong>: mid-day meals and Maslow's physiological needs.</li>
+</ul>
+<h3>8. Memory technique</h3>
+<p><strong>Memory stages: "E-S-R" = "Every Student Remembers".</strong></p>
+<p><strong>Interference: "PRO = Past ruins Present; RETRO = Recent ruins Remembered."</strong></p>
+<p><strong>Maslow from the bottom: "P-S-L-E-S" → "Please Save Little Eggs Safely":</strong> Physiological, Safety, Love, Esteem, Self-actualisation.</p>
+<h3>9. Test your understanding</h3>
+<p><strong>Self-recall:</strong></p>
+<ol>
+<li>Give the three memory stores with duration and capacity.</li>
+<li>Explain proactive and retroactive interference with one example each.</li>
+<li>How can a teacher develop achievement motivation?</li>
+</ol>
+<div class="quiz" id="quiz-t7"><h4>Quick check: 5 questions</h4><p class="hint">Tap an option to check your answer.</p><div class="mcq" data-a="2"><div class="stem"><span class="n">1.</span>A student repeats a multiplication table fifty times without understanding it, and later cannot answer when the questions are asked in a different order. This shows</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Logical memory</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Rote memory</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Sensory memory</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Long-term memory built by understanding</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Logical memory comes from understanding meaning, like writing answers in your own words (the 2025 answer).</li><li class="c"><b>2.</b> Correct. Rote memory is mechanical repetition without meaning, so it breaks when the order changes.</li><li class=""><b>3.</b> Sensory memory lasts only a second or two.</li><li class=""><b>4.</b> There was no understanding here.</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">2.</span>Which of the following statements about memory are correct?<ol class="stm"><li>Sensory memory holds information for only a few seconds or less.</li><li>Short-term memory holds information for about 20–30 seconds without rehearsal.</li><li>Long-term memory can hold only about 7 items.</li><li>Encoding, storage and retrieval are the three stages of memory.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, ii and iii</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>ii, iii and iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i, ii and iv</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, ii, iii and iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Includes iii: 7 ± 2 items is the limit of SHORT-term memory; long-term memory is practically unlimited.</li><li class=""><b>2.</b> Includes iii and leaves out i.</li><li class="c"><b>3.</b> Correct. i, ii and iv are true.</li><li class=""><b>4.</b> Includes the false statement iii.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">3.</span><b>Assertion (A):</b> Revising a lesson on the same day it is taught reduces forgetting.<br><b>Reason (R):</b> According to Ebbinghaus, most forgetting takes place soon after learning.</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Both A and R are true, and R is the correct explanation of A</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Both A and R are true, but R is not the correct explanation of A</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>A is true, but R is false</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>A is false, but R is true</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> Correct. Both are true, and the steep early fall in the forgetting curve (R) is exactly why same-day revision (A) works.</li><li class=""><b>2.</b> R directly explains A.</li><li class=""><b>3.</b> R is true: the forgetting curve falls fastest at the start.</li><li class=""><b>4.</b> A is true: early spaced revision is the best remedy for forgetting.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">4.</span>According to McClelland, a child with high achievement motivation prefers tasks that are</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>very easy, so that success is certain</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>impossible, so that failure has an excuse</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>done only when a reward is promised</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>moderately difficult, matching his ability</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Very easy tasks give no sense of achievement.</li><li class=""><b>2.</b> Impossible tasks are chosen by those who FEAR failure.</li><li class=""><b>3.</b> Needing rewards shows extrinsic motivation, not achievement motivation.</li><li class="c"><b>4.</b> Correct. High achievers choose realistic, moderately hard goals, which is why "setting goals as per the abilities of children" was the 2025 answer.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">5.</span>Arrange Maslow's needs from the lowest to the highest:<ol class="stm"><li>Esteem</li><li>Safety</li><li>Self-actualisation</li><li>Love and belonging</li><li>Physiological</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>v, ii, iv, i, iii</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>ii, v, iv, i, iii</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>v, iv, ii, i, iii</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>v, ii, i, iv, iii</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> Correct. Physiological → safety → love and belonging → esteem → self-actualisation.</li><li class=""><b>2.</b> Physiological needs (food, water, sleep) come before safety.</li><li class=""><b>3.</b> Safety comes before love and belonging.</li><li class=""><b>4.</b> Love and belonging come before esteem.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>Revision note (5 lines)</b><br>
+1. Memory: encoding → storage → retrieval; sensory, STM (20–30 s, 7 ± 2, Miller), LTM (unlimited).<br>
+2. Rote vs logical memory; recall vs recognition (recognition is easier).<br>
+3. Ebbinghaus: forgetting curve, nonsense syllables; decay, proactive/retroactive interference, repression.<br>
+4. Motivation: intrinsic vs extrinsic; need → drive → incentive → goal; achievement motivation (McClelland): moderate, ability-matched goals.<br>
+5. Maslow: physiological → safety → love → esteem → self-actualisation.</div>
+
+<h2 id="s2">Topic 8: Personality, Mental Health and Children with Special Needs</h2>
+<h3>1. Basic idea</h3>
+<p><strong>Personality</strong> (మూర్తిమత్వం) is the total pattern of a person's thinking, feeling and behaving that makes them unique. The word comes from the Latin <strong>"persona"</strong>, the mask worn by actors. <strong>Mental health</strong> is the ability to face problems, adjust and live happily with others. <strong>Children with special needs (CWSN)</strong> are children who need extra support to learn: those with disabilities, learning disabilities, or giftedness. <strong>Inclusive education</strong> teaches them in regular classrooms.</p>
+<h3>2. Why it exists</h3>
+<p>Children in one class differ in temperament: shy or bold, calm or anxious. Some face stress at home; some have a disability or learning difficulty. A teacher who understands personality, adjustment and special needs can support every child instead of labelling some as "lazy" or "naughty".</p>
+<h3>3. How it works</h3>
+<p><strong>Theories of personality</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Given by</th>
+<th>Basis</th>
+<th>Types or traits</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Type</strong></td>
+<td>Hippocrates</td>
+<td>Body fluids</td>
+<td>Sanguine (cheerful), choleric (angry), melancholic (sad), phlegmatic (calm, slow)</td>
+</tr>
+<tr>
+<td>Type</td>
+<td>Kretschmer</td>
+<td>Body build</td>
+<td>Pyknic (short, round), asthenic (thin), athletic</td>
+</tr>
+<tr>
+<td>Type</td>
+<td><strong>W.H. Sheldon</strong></td>
+<td>Body build</td>
+<td>Endomorph (soft, relaxed), mesomorph (muscular, active), ectomorph (thin, sensitive)</td>
+</tr>
+<tr>
+<td>Type</td>
+<td>Carl <strong>Jung</strong></td>
+<td>Social nature</td>
+<td>Introvert, extrovert, ambivert</td>
+</tr>
+<tr>
+<td>Type</td>
+<td>Eduard <strong>Spranger</strong></td>
+<td>Values</td>
+<td>Theoretical, economic, aesthetic, social, political, religious</td>
+</tr>
+<tr>
+<td><strong>Trait</strong></td>
+<td>G.W. <strong>Allport</strong></td>
+<td>Traits</td>
+<td>Cardinal, central, secondary traits</td>
+</tr>
+<tr>
+<td>Trait</td>
+<td>R.B. <strong>Cattell</strong></td>
+<td>Traits</td>
+<td>16 source traits; <strong>16 PF</strong> questionnaire</td>
+</tr>
+<tr>
+<td>Trait/type</td>
+<td>H.J. <strong>Eysenck</strong></td>
+<td>Dimensions</td>
+<td>Introversion–extraversion, neuroticism–stability, psychoticism</td>
+</tr>
+<tr>
+<td>Trait</td>
+<td>Big Five (OCEAN)</td>
+<td>Traits</td>
+<td>Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism</td>
+</tr>
+<tr>
+<td>Psychoanalytic</td>
+<td>Sigmund <strong>Freud</strong></td>
+<td>Structure of mind</td>
+<td><strong>Id</strong> (pleasure), <strong>ego</strong> (reality), <strong>superego</strong> (conscience)</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Factors of personality:</strong> biological (heredity, glands, physique, health), psychological (intelligence, emotions, self-concept) and social (family, school, peer group, culture, media).</p>
+<p><strong>Assessing personality</strong></p>
+<ul>
+<li><strong>Subjective</strong>: interview, autobiography, case history.</li>
+<li><strong>Objective</strong>: questionnaires (16 PF), rating scales, observation, situational tests.</li>
+<li><strong>Projective</strong>: <strong>Rorschach Ink-Blot Test</strong> (10 cards); <strong>TAT</strong> (Murray and Morgan); <strong>CAT</strong> (Leopold Bellak, for ages 3–10); <strong>Word Association Test</strong> (Jung); sentence completion.</li>
+</ul>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Rorschach_blot_01.jpg?width=900" alt="Card I of the Rorschach Ink-Blot Test (1921). The person says what they see, and the answers are read for hidden feelings: a projective test." loading="lazy"><figcaption>Card I of the Rorschach Ink-Blot Test (1921). The person says what they see, and the answers are read for hidden feelings: a projective test. · Photo: <a href="https://commons.wikimedia.org/wiki/File:Rorschach_blot_01.jpg" target="_blank" rel="noopener">Wikimedia Commons</a> (see the file page for author and licence)</figcaption></figure>
+<p><strong>Mental health, adjustment and stress</strong></p>
+<ul>
+<li><strong>Adjustment</strong>: balancing one's needs with the demands of the environment.</li>
+<li><strong>Conflicts (Kurt Lewin)</strong>: approach–approach (two good choices), avoidance–avoidance (two bad choices), approach–avoidance (one choice with good and bad sides).</li>
+<li><strong>Stress</strong>: the body and mind's reaction to pressure. Symptoms: headache, irritability, poor sleep, low concentration, loss of appetite. Management: exercise, rest, talking to others, time planning, relaxation, realistic goals.</li>
+<li><strong>Emotional intelligence and managing emotions</strong> (Goleman, Day 2): recognise the feeling → pause → express it in a healthy way.</li>
+</ul>
+<p><strong>Defence mechanisms (Freud)</strong>: unconscious ways the mind protects itself from anxiety.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Mechanism</th>
+<th>Meaning</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rationalisation</td>
+<td>A good-sounding excuse</td>
+<td>"The paper was out of syllabus."</td>
+</tr>
+<tr>
+<td>Projection</td>
+<td>Putting your own faults on others</td>
+<td>A lazy student calls others lazy</td>
+</tr>
+<tr>
+<td>Repression</td>
+<td>Pushing painful memories out of mind</td>
+<td>Forgetting a frightening accident</td>
+</tr>
+<tr>
+<td><strong>Denial</strong></td>
+<td>Refusing to accept an unpleasant reality</td>
+<td>"I didn't fail; the results are wrong."</td>
+</tr>
+<tr>
+<td>Displacement</td>
+<td>Venting anger on a safer target</td>
+<td>Scolded by father, the child beats his younger brother</td>
+</tr>
+<tr>
+<td>Regression</td>
+<td>Going back to childish behaviour</td>
+<td>A 7-year-old sucks his thumb when a new baby arrives</td>
+</tr>
+<tr>
+<td>Sublimation</td>
+<td>Turning energy into useful activity</td>
+<td>Channelling anger into sports</td>
+</tr>
+<tr>
+<td>Compensation</td>
+<td>Making up for a weakness with a strength</td>
+<td>Weak in studies, excels in sports</td>
+</tr>
+<tr>
+<td>Identification</td>
+<td>Copying someone admired</td>
+<td>A boy copies his cricket hero</td>
+</tr>
+<tr>
+<td><strong>Fantasy / day-dreaming</strong></td>
+<td>Escaping into imagination</td>
+<td>Dreaming of being a topper instead of studying</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Children with special needs and inclusive education</strong></p>
+<ul>
+<li><strong>Inclusive education</strong>: all children, including CWSN, learn together in regular schools with support; <strong>the school changes</strong> to suit the child. Basis: RPwD Act 2016 (<strong>21 disabilities</strong>) and RTE 2009.</li>
+<li><strong>Learning disabilities</strong>: <strong>dyslexia</strong> (reading), <strong>dysgraphia</strong> (writing), <strong>dyscalculia</strong> (maths), <strong>dyspraxia</strong> (motor coordination). <strong>ADHD</strong>: inattention, over-activity, impulsiveness.</li>
+<li><strong>Gifted children</strong> (IQ above about 130): enrichment and challenge. <strong>Slow learners</strong> (IQ about 70–89): repetition, concrete examples and patience.</li>
+<li><strong>Hindrances to learning</strong> (asked in 2025): <strong>physical</strong> (poor health, sense defects), <strong>mental</strong> (low intelligence, poor attention), <strong>physical-environmental</strong> (poor light, noise, bad seating) and <strong>social-environmental</strong> (family conflict, poverty, peer problems).</li>
+<li><strong>Teacher's role</strong>: identify early, seat near the board, give simple instructions, use peer support and aids, teach remedially, and never label or mock.</li>
+</ul>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Inclusive_education_makes_it_possible_for_kid_with_visual_impairment_to_exercise_right_to_education.jpg?width=900" alt="Inclusive education: a child with a visual impairment learning in a regular classroom with the right support." loading="lazy"><figcaption>Inclusive education: a child with a visual impairment learning in a regular classroom with the right support. · Photo: <a href="https://commons.wikimedia.org/wiki/File:Inclusive_education_makes_it_possible_for_kid_with_visual_impairment_to_exercise_right_to_education.jpg" target="_blank" rel="noopener">Wikimedia Commons</a> (see the file page for author and licence)</figcaption></figure>
+<h3>4. Everyday analogy</h3>
+<p>Personality is like a <strong>house</strong>. The foundation is heredity, the walls are habits and traits, and the paint is the way we behave in public. Freud's id, ego and superego are like a <strong>child, a parent and a grandmother</strong> in the house. The child (id) wants sweets now, the grandmother (superego) says "that's wrong", and the parent (ego) finds a sensible middle way. Defence mechanisms are the <strong>curtains</strong> we pull so that others, and we ourselves, don't see the mess inside.</p>
+<h3>5. Breaking the difficult parts</h3>
+<ol>
+<li><strong>Type vs trait</strong>: a type puts people into boxes (introvert or extrovert); a trait measures how much of a quality each person has (a scale of sociability).</li>
+<li><strong>Spranger</strong> is a <em>type</em> theorist (values); <strong>Eysenck</strong> works with <em>dimensions</em>. The 2025 paper grouped Hippocrates, Sheldon and Spranger as type theories, and Allport, Cattell and Eysenck as trait theories.</li>
+<li><strong>Id, ego, superego</strong>: pleasure principle, reality principle, morality.</li>
+<li><strong>Fantasy vs denial</strong>: fantasy = escaping into day-dreams; denial = refusing to accept reality. The 2025 paper's wrongly matched pair was "Fantasy – refusing unpleasant aspects".</li>
+<li><strong>Inclusive vs integrated vs special</strong>: special = separate school; integrated = placed in a regular school with little change; inclusive = the school adapts.</li>
+<li><strong>Mental vs social-environmental hindrance</strong>: low intelligence = mental; home problems = social-environmental.</li>
+</ol>
+<h3>6. Exceptions and confusing areas</h3>
+<ul>
+<li><strong>Freud is not a type or trait theorist.</strong> In the 2025 paper, the "structure theories: Freud, Vygotsky, Erikson" option was wrong (Vygotsky is not a personality theorist).</li>
+<li><strong>Jung gave introvert/extrovert and the Word Association Test.</strong> Rorschach gave the ink-blot test.</li>
+<li><strong>TAT = Murray and Morgan; CAT = Bellak.</strong></li>
+<li><strong>Rationalisation ≠ sublimation</strong>: an excuse vs useful redirection of energy.</li>
+<li><strong>RPwD 2016 = 21 disabilities</strong>; the old PwD Act 1995 had 7.</li>
+</ul>
+<h3>7. Connections to other topics</h3>
+<ul>
+<li><strong>Day 1</strong>: Erikson's psychosocial stages are also a personality theory; adolescence and stress.</li>
+<li><strong>Day 2</strong>: emotional intelligence; intellectual disability and gifted children.</li>
+<li><strong>Perspectives</strong>: inclusive education, RPwD 2016, RTE.</li>
+<li><strong>Methodology</strong>: remedial teaching, individual attention, multi-level activities.</li>
+</ul>
+<h3>8. Memory technique</h3>
+<p><strong>Hippocrates: "Sunny, Cross, Moody, Placid"</strong> → <strong>S</strong>anguine (cheerful), <strong>C</strong>holeric (angry), <strong>M</strong>elancholic (sad), <strong>P</strong>hlegmatic (calm, slow).</p>
+<p><strong>Sheldon: "Endo = round belly (food), Meso = muscles, Ecto = thin edges".</strong></p>
+<p><strong>Spranger's six values: "T-E-A-S-P-R" → "Teachers Earn Applause Serving People Respectfully"</strong> (theoretical, economic, aesthetic, social, political, religious).</p>
+<p><strong>Projective tests: "Ink–Rorschach, TAT–Murray, CAT–Bellak, Words–Jung."</strong></p>
+<p><strong>Hindrances: "Body, Brain, Building, Background"</strong> = physical, mental, physical-environmental, social-environmental.</p>
+<h3>9. Test your understanding</h3>
+<p><strong>Self-recall:</strong></p>
+<ol>
+<li>Separate these into type and trait theorists: Hippocrates, Allport, Sheldon, Cattell, Spranger, Eysenck.</li>
+<li>Name four projective tests with their authors.</li>
+<li>Give the four hindrances to learning with one example each.</li>
+</ol>
+<div class="quiz" id="quiz-t8"><h4>Quick check: 5 questions</h4><p class="hint">Tap an option to check your answer.</p><div class="mcq" data-a="4"><div class="stem"><span class="n">1.</span>A bright child cannot concentrate in class because of daily quarrels and poverty at home. The hindrance to learning here is</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Physical hindrance</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Mental hindrance</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Physical-environmental hindrance</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Social-environmental hindrance</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Physical hindrances are poor health or sense defects; the child is healthy.</li><li class=""><b>2.</b> A mental hindrance is low intelligence (the 2025 answer for a low-IQ child); this child is bright.</li><li class=""><b>3.</b> Physical-environmental means poor light, noise or seating in the room.</li><li class="c"><b>4.</b> Correct. Family conflict and poverty are social-environmental hindrances.</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">2.</span>A hungry child sees sweets in a shop and thinks, "I want to grab them now!", but an inner voice says, "Stealing is wrong." According to Freud, the inner voice is the</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Id</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Ego</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Superego</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Libido</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> The id is the "I want it now" part (pleasure principle).</li><li class=""><b>2.</b> The ego balances wishes with reality ("I'll ask my mother to buy some").</li><li class="c"><b>3.</b> Correct. The superego is the conscience: the moral rules learnt from parents and society.</li><li class=""><b>4.</b> Libido is the life energy behind the id, not a conscience.</li></ul></div></div><div class="mcq" data-a="2"><div class="stem"><span class="n">3.</span>Match the projective test with the person who developed it:<table class="mt"><thead><tr><th>Test (List-I)</th><th>Developed by (List-II)</th></tr></thead><tbody><tr><td>i. Ink-Blot Test</td><td>a. Murray and Morgan</td></tr><tr><td>ii. Thematic Apperception Test (TAT)</td><td>b. Leopold Bellak</td></tr><tr><td>iii. Children's Apperception Test (CAT)</td><td>c. Hermann Rorschach</td></tr><tr><td>iv. Word Association Test</td><td>d. Carl Jung</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-a, ii-c, iii-b, iv-d</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-c, ii-a, iii-b, iv-d</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-c, ii-b, iii-a, iv-d</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-d, ii-a, iii-b, iv-c</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Swaps Rorschach and Murray.</li><li class="c"><b>2.</b> Correct. Ink-blot → Rorschach; TAT → Murray and Morgan; CAT → Bellak; word association → Jung.</li><li class=""><b>3.</b> Swaps TAT and CAT.</li><li class=""><b>4.</b> Swaps the ink-blot test and word association.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">4.</span>Ravi has to choose between two films he likes equally, both showing at the same time. According to Kurt Lewin, this conflict is</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Approach–approach</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Avoidance–avoidance</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Approach–avoidance</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>There is no conflict</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> Correct. Two attractive choices of which only one can be taken: approach–approach (the mildest conflict).</li><li class=""><b>2.</b> Avoidance–avoidance is two unpleasant choices (study or be punished).</li><li class=""><b>3.</b> Approach–avoidance is one choice with both good and bad sides.</li><li class=""><b>4.</b> Having to give up one of two wanted things IS a conflict.</li></ul></div></div><div class="mcq" data-a="2"><div class="stem"><span class="n">5.</span>Which of the following statements are correct?<ol class="stm"><li>Inclusive education changes the school to suit every child.</li><li>The RPwD Act, 2016 recognises 21 disabilities.</li><li>Headache, irritability and poor sleep can be symptoms of stress.</li><li>In inclusive education, children with disabilities are sent to separate special schools.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i and ii only</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i, ii and iii</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>ii, iii and iv</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, ii, iii and iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Leaves out iii, which is true.</li><li class="c"><b>2.</b> Correct. i, ii and iii are true.</li><li class=""><b>3.</b> Includes iv: separate special schools are SPECIAL education, the opposite of inclusion.</li><li class=""><b>4.</b> Includes the false statement iv.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>Revision note (5 lines)</b><br>
+1. Type: Hippocrates, Kretschmer, Sheldon, Jung, Spranger. Trait: Allport, Cattell (16 PF), Eysenck, Big Five.<br>
+2. Freud: id (pleasure), ego (reality), superego (conscience); defence mechanisms incl. denial vs fantasy.<br>
+3. Assessment: subjective, objective, projective (Rorschach, TAT–Murray & Morgan, CAT–Bellak, word association–Jung).<br>
+4. Mental health: adjustment; Lewin's three conflicts; stress symptoms and management; managing emotions.<br>
+5. CWSN: inclusive education (school adapts; RPwD 21 disabilities); dyslexia/dysgraphia/dyscalculia/dyspraxia; four hindrances.</div>
+
+<h2 id="s3">Notebook page: Day 4</h2>
+<p>Close this page and write the following in your notebook <strong>from memory</strong>, in this order. Then check and fill gaps in a different colour.</p>
+<ol>
+<li>Memory stages (E-S-R) and the three-store table.</li>
+<li>Rote vs logical memory; recall vs recognition.</li>
+<li>Ebbinghaus, the forgetting curve, the causes of forgetting, and five ways to remember better.</li>
+<li>Intrinsic vs extrinsic motivation; the motivation cycle; achievement motivation (McClelland) and how to develop it.</li>
+<li>Maslow's pyramid (P-S-L-E-S), with deficiency vs growth needs.</li>
+<li>The personality theory table: type vs trait, with names.</li>
+<li>Freud: id, ego, superego, with the sweets example.</li>
+<li>Ten defence mechanisms with one example each; circle denial and fantasy.</li>
+<li>Projective tests and authors; Lewin's three conflicts; stress symptoms and management.</li>
+<li>CWSN: inclusive vs integrated vs special; the four learning disabilities; the four hindrances; the teacher's role.</li>
+</ol>
+<h2 id="s4">Sources</h2>
+<ul>
+<li>Directorate of School Education, Andhra Pradesh: <a href="https://apdsc2024.apcfss.in/Documents/MEGA_DSC_2024_Suggestive_Syllabus-27-11-2024.pdf">Mega DSC 2024 Suggestive Syllabus</a> (SGT Part III unit list; checked 9 Nov 2026).</li>
+<li>AP DSC SGT question paper, 19 June 2025, Shift 1 (Section III), supplied by you.</li>
+<li>Photos: Wikimedia Commons (credit and licence on each file page).</li>
+</ul>
+<footer>Sulabham · AP DSC-2026 (APTRT) SGT · Educational Psychology. Based on the official SCERT SGT syllabus (Unit 3: Learning; Unit 4: Personality).</footer>
+</main>
+<script>
+(function(){
+var T={"right": "Correct!", "wrong": "Not quite. Correct answer:", "score": "Your score"};
+document.querySelectorAll('.quiz').forEach(function(qz){
+  var mcqs=qz.querySelectorAll('.mcq'), done=0, ok=0;
+  mcqs.forEach(function(m){
+    var a=m.getAttribute('data-a');
+    m.querySelectorAll('button.opt').forEach(function(b){
+      b.addEventListener('click',function(){
+        if(m.classList.contains('done'))return;
+        m.classList.add('done');
+        var right=b.getAttribute('data-o')===a;
+        b.classList.add(right?'ok':'bad');
+        m.querySelector('button.opt[data-o="'+a+'"]').classList.add('ok');
+        m.querySelectorAll('button.opt').forEach(function(x){x.setAttribute('aria-disabled','true');});
+        m.querySelector('.verdict').textContent=right?T.right:(T.wrong+' '+a);
+        done++; if(right)ok++;
+        if(done===mcqs.length){qz.querySelector('.qscore').textContent=T.score+': '+ok+' / '+mcqs.length;}
+      });
+    });
+  });
+});
+})();
+</script>
+</body></html>

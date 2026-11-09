@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Educational Psychology, Day 1: Development of the Child</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf8f3;--paper:#fff;--ink:#2b2118;--muted:#6f6254;--rule:#e6ddd0;--accent:#8a4b1f;--tint:#f4e9dc;--th:#f1e6d8}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1713;--paper:#231e19;--ink:#efe6da;--muted:#b3a593;--rule:#3a322a;--accent:#e0a36f;--tint:#3a2b1e;--th:#2e2620}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Noto Sans","Noto Sans Telugu",system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+header.top{border-bottom:3px solid var(--accent);margin-bottom:8px}
+h1{font-size:1.75rem;line-height:1.25;margin:8px 0 4px;color:var(--accent)}
+h1+p em{color:var(--muted);font-style:normal;font-size:.9rem}
+h2{font-size:1.35rem;margin:40px 0 10px;padding:8px 12px;background:var(--tint);border-left:5px solid var(--accent);border-radius:4px}
+h3{font-size:1.1rem;margin:26px 0 8px;color:var(--accent)}
+p{margin:8px 0}
+ul,ol{padding-left:24px;margin:8px 0}
+li{margin:4px 0}
+strong{color:var(--ink)}
+.tbl{overflow-x:auto;margin:12px 0;border:1px solid var(--rule);border-radius:8px;background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:.94rem}
+th,td{padding:8px 10px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+th{background:var(--th);font-weight:600}
+tr:last-child td{border-bottom:0}
+.formula{margin:12px 0;padding:12px 16px;background:var(--paper);border:1px dashed var(--accent);border-radius:8px;font-weight:600;text-align:center}
+nav.toc{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:12px 16px;margin:16px 0}
+nav.toc b{display:block;margin-bottom:6px}
+nav.toc a{color:var(--accent);text-decoration:none}
+nav.toc ol{margin:0}
+figure.diagram{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:8px;color:var(--muted)}
+figure.diagram{overflow-x:auto;-webkit-overflow-scrolling:touch}
+figure.diagram svg{width:100%;min-width:600px;height:auto;display:block}
+figcaption{font-size:.85rem;color:var(--muted);text-align:center;padding:4px}
+svg .t{font-size:15px;font-weight:600;fill:var(--ink)}
+svg .n{font-size:12.5px;font-weight:600;fill:var(--ink)}
+svg .b{font-size:11.5px;fill:var(--ink)}
+svg .q{font-size:11.5px;fill:var(--muted)}
+svg .box{fill:none;stroke:var(--muted);stroke-width:1.25}
+svg .box.hi{fill:var(--tint);stroke:var(--accent);stroke-width:2}
+svg .ln{stroke:var(--muted);stroke-width:1.25;fill:none}
+details.ans{margin:16px 0;background:var(--paper);border:1px solid var(--accent);border-radius:8px;padding:10px 14px}
+details.ans summary{cursor:pointer;font-weight:600;color:var(--accent)}
+.key{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px;margin-top:10px}
+.key span{background:var(--tint);border-radius:6px;padding:4px;text-align:center;font-weight:600}
+.lang-switch{display:inline-block;margin:4px 0 12px;padding:6px 14px;border:1px solid var(--accent);border-radius:999px;color:var(--accent);text-decoration:none;font-weight:600;font-size:.9rem}
+.lang-switch:hover{background:var(--tint)}
+footer{margin-top:48px;font-size:.85rem;color:var(--muted);border-top:1px solid var(--rule);padding-top:12px}
+@media print{body{background:#fff;font-size:11pt}main{max-width:none;padding:0}h2{break-after:avoid}nav.toc{display:none}details.ans{display:block}details.ans>*{display:block}@page{size:A4;margin:14mm}}
+
+figure.photo{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:10px;overflow:hidden}
+figure.photo img{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;background:var(--tint)}
+figure.photo figcaption{padding:8px 12px;font-size:.86rem;color:var(--muted);text-align:left}
+figure.photo figcaption a{color:var(--accent)}
+ol.tl{list-style:none;padding:0 0 0 22px;margin:14px 0;border-left:3px solid var(--accent)}
+ol.tl li{position:relative;margin:0 0 12px;padding-left:10px}
+ol.tl li::before{content:"";position:absolute;left:-31px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--paper);border:3px solid var(--accent)}
+ol.tl .yr{font-weight:700;color:var(--accent);margin-right:6px}
+h3{border-bottom:1px dashed var(--rule);padding-bottom:4px}
+.box{background:var(--paper);border:1px solid var(--rule);border-left:5px solid var(--accent);border-radius:8px;padding:10px 14px;margin:12px 0}
+.quiz{background:var(--paper);border:2px solid var(--accent);border-radius:12px;padding:12px 14px;margin:18px 0}
+.quiz h4{margin:0 0 4px;color:var(--accent);font-size:1.05rem}
+.quiz .hint{margin:0 0 8px;color:var(--muted);font-size:.88rem}
+.mcq{border-top:1px solid var(--rule);padding:12px 0}
+.mcq .stem{margin-bottom:8px}
+.mcq .n{color:var(--accent);font-weight:700;margin-right:6px}
+.mcq ol.stm{list-style:lower-roman;margin:6px 0;padding-left:30px}
+.mcq table.mt{border-collapse:collapse;margin:8px 0;width:100%;font-size:.93rem}
+.mcq table.mt th,.mcq table.mt td{border:1px solid var(--rule);padding:6px 8px;text-align:left}
+.mcq table.mt th{background:var(--th)}
+.opts{display:grid;gap:6px}
+button.opt{all:unset;box-sizing:border-box;display:flex;gap:10px;width:100%;padding:9px 12px;border:1px solid var(--rule);border-radius:8px;cursor:pointer;color:var(--ink);background:var(--bg)}
+button.opt:hover,button.opt:focus-visible{background:var(--tint);outline:2px solid var(--accent);outline-offset:1px}
+button.opt .k{font-weight:700;min-width:20px}
+.mcq.done button.opt{cursor:default}
+button.opt.ok{border-color:#2e7d32;background:rgba(46,125,50,.14)}
+button.opt.bad{border-color:#c62828;background:rgba(198,40,40,.12)}
+.why{display:none;margin-top:8px;padding:8px 12px;background:var(--tint);border-radius:6px;font-size:.92rem}
+.mcq.done .why{display:block}
+.why .verdict{font-weight:700;margin:0 0 4px}
+.why ul{margin:4px 0;padding-left:18px}
+.why li.c{font-weight:600}
+.qscore{font-weight:700;color:var(--accent);margin-top:6px}
+@media print{.why{display:block}button.opt{border:1px solid #999}}
+</style><noscript><style>.why{display:block}</style></noscript></head>
+<body><main>
+<header class="top"><h1>Educational Psychology, Day 1: Development of the Child</h1><a class="lang-switch" href="dsc-sgt-psychology-day1-te.html" hreflang="te">తెలుగులో చదవండి</a></header>
+<p><em>AP DSC-2026 (APTRT) · SGT · Part III: Educational Psychology (16 questions, 8 marks) · Unit 1 of 4</em></p>
+<p>Day 1 covers the first syllabus unit, Development of the Child, in two topics. For each topic: read the nine steps, close the page and recall, then take the 5-question quick check. End the day by writing the Notebook page from memory.</p>
+<div class="box"><b>Exam link:</b> the 19 June 2025 paper asked "In proximodistal development, development proceeds from…", "Sensory development is more at which stage?", a Kohlberg classroom situation (not copying for fear of being debarred) and "Which is NOT related to Chomsky?". All four are below.</div>
+
+<nav class="toc"><b>Contents</b><ol><li><a href="#s1">Topic 1: Growth, Development and Maturation</a></li><li><a href="#s2">Topic 2: Theories of Development</a></li><li><a href="#s3">Notebook page: Day 1</a></li><li><a href="#s4">Sources</a></li></ol></nav><h2 id="s1">Topic 1: Growth, Development and Maturation</h2>
+<h3>1. Basic idea</h3>
+<p>A child changes every day: taller, smarter, more social. Psychology separates this change into three ideas. <strong>Growth</strong> (పెరుగుదల) is the increase in body size, which you can measure. <strong>Development</strong> (వికాసం) is the change in the whole person: body, mind, emotions and behaviour. <strong>Maturation</strong> (పరిపక్వత) is the change that happens from inside, by nature, without any training.</p>
+<h3>2. Why it exists</h3>
+<p>A teacher must know what a child of a given age is ready for. Teaching before the child is ready wastes effort and causes frustration; teaching too little wastes the child's ability. Knowing the principles and stages of development lets the teacher match lessons to the child.</p>
+<h3>3. How it works</h3>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th></th>
+<th>Growth</th>
+<th>Development</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>What changes</td>
+<td>Size of body: height, weight</td>
+<td>Whole person: body, mind, emotions, behaviour</td>
+</tr>
+<tr>
+<td>Type</td>
+<td>Quantitative (measured in numbers)</td>
+<td>Qualitative and quantitative</td>
+</tr>
+<tr>
+<td>When it stops</td>
+<td>After adolescence</td>
+<td>Continues through life ("womb to tomb")</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>Height goes from 110 cm to 120 cm</td>
+<td>Child starts sharing toys and solving puzzles</td>
+</tr>
+<tr>
+<td>Relation</td>
+<td>A part of development</td>
+<td>Wider; growth is included in it</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Development = Maturation + Learning.</strong> Maturation unfolds from inside; learning comes from practice and experience.</p>
+<p><strong>Principles of development (most asked)</strong></p>
+<ol>
+<li><strong>Continuity</strong>: development never stops; it goes step by step.</li>
+<li><strong>Uniform sequence</strong>: every child passes through the same stages in the same order (crawl → stand → walk), though at different speeds.</li>
+<li><strong>Cephalocaudal</strong> (శిరః పాదాభిముఖ): from head to toe. Head control comes first, then the trunk, then the legs.</li>
+<li><strong>Proximodistal</strong> (సమీప దూరాభిముఖ): from the centre of the body outward. Shoulder before arm, arm before fingers.</li>
+<li><strong>General to specific</strong>: a baby first moves the whole body to reach a toy; later only the hand.</li>
+<li><strong>Individual differences</strong>: each child has their own rate.</li>
+<li><strong>Heredity × environment</strong>: both work together; neither alone is enough.</li>
+<li><strong>Predictable</strong>: we can roughly say when a child will walk or talk.</li>
+<li><strong>Interrelated aspects</strong>: a sick child (physical) becomes irritable (emotional) and falls behind in studies (cognitive).</li>
+</ol>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Talky_baby_crawling.jpg?width=900" alt="A baby crawling. Head control comes first, then the trunk, then the legs: development runs head to toe (cephalocaudal)." loading="lazy"><figcaption>A baby crawling. Head control comes first, then the trunk, then the legs: development runs head to toe (cephalocaudal). · Photo: <a href="https://commons.wikimedia.org/wiki/File:Talky_baby_crawling.jpg" target="_blank" rel="noopener">Wikimedia Commons</a> (see the file page for author and licence)</figcaption></figure>
+<p><strong>Factors influencing development (four groups in the syllabus)</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Factor</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Biological</td>
+<td>Heredity (genes on 23 pairs of chromosomes), health, nutrition, glands (hormones), physical defects</td>
+</tr>
+<tr>
+<td>Psychological</td>
+<td>Intelligence, motivation, self-concept, interests</td>
+</tr>
+<tr>
+<td>Sociological</td>
+<td>Family, peer group, school, culture, socio-economic status, media</td>
+</tr>
+<tr>
+<td>Emotional</td>
+<td>Love and security at home, fear, anxiety, emotional stability</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Stages and their features</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Age</th>
+<th>Main features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Infancy</td>
+<td>0–2</td>
+<td>Fastest growth; learns through the <strong>senses</strong> (sensory development is highest); attachment to the mother</td>
+</tr>
+<tr>
+<td>Early childhood</td>
+<td>2–6</td>
+<td>"Pre-gang age", "toy age"; many questions; language grows fast; egocentric</td>
+</tr>
+<tr>
+<td>Later childhood</td>
+<td>6–12</td>
+<td><strong>"Gang age"</strong>; school age; logical thinking with real objects; group loyalty; curiosity</td>
+</tr>
+<tr>
+<td>Adolescence</td>
+<td>12–18</td>
+<td>"Period of stress and storm" (<strong>Stanley Hall</strong>); puberty; search for identity; strong emotions; hero worship</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Dimensions of development:</strong> physical and motor (gross: running, jumping; fine: holding a pencil, buttoning); cognitive (thinking, memory, reasoning); emotional (K.M.B. Bridges: a newborn shows only general excitement, and emotions separate out by about age 2); social (from self-centred to cooperative); moral (sense of right and wrong); language (crying → cooing → babbling → one word → two words → sentences).</p>
+<h3>4. Everyday analogy</h3>
+<p>A child's development is like a <strong>mango tree</strong>. The tree getting taller and thicker is <em>growth</em>. The tree flowering and bearing fruit at the right season is <em>development</em>. The flowering happens on its own when the tree is ready (<em>maturation</em>), but water and manure (<em>learning and environment</em>) decide how good the fruit is. Plucking flowers early to "help" the tree only harms it, just as forcing writing on a 2-year-old does.</p>
+<h3>5. Breaking the difficult parts</h3>
+<ol>
+<li><strong>Growth vs development</strong>: growth = size (quantitative); development = quality and quantity, the whole person.</li>
+<li><strong>Maturation vs learning</strong>: a baby walks without lessons (maturation); a child rides a cycle after practice (learning).</li>
+<li><strong>Readiness</strong>: the state when maturation makes learning possible. Teaching works only after readiness.</li>
+<li><strong>Cephalocaudal vs proximodistal</strong>: "cephalo" = head, "caudal" = tail → head to toe. "Proximo" = near, "distal" = far → centre to edges.</li>
+<li><strong>Heredity vs environment</strong>: heredity = nature (genes from parents); environment = nurture (everything after conception). <strong>Twin studies</strong> compare them, because identical twins share the same genes.</li>
+<li><strong>Gang age</strong>: in later childhood children form groups, love games with rules and want their friends' approval. This is why group work suits Classes 3–5.</li>
+</ol>
+<h3>6. Exceptions and confusing areas</h3>
+<ul>
+<li><strong>Same sequence, different speed.</strong> "All children develop at the same rate" is a common wrong statement.</li>
+<li><strong>Proximodistal</strong> is the one asked most, and the 2025 answer was "centre of the body to the periphery". Don't pick "head to toe" for it.</li>
+<li><strong>Infancy</strong> is the stage of the most rapid growth and sensory learning, not early childhood.</li>
+<li><strong>"Stress and storm"</strong> is Stanley Hall's phrase for adolescence, not Erikson's.</li>
+<li><strong>Development stops?</strong> Growth stops; development continues lifelong.</li>
+</ul>
+<h3>7. Connections to other topics</h3>
+<ul>
+<li><strong>Topic 2</strong>: Piaget's stages are the cognitive side of these age stages.</li>
+<li><strong>Unit 3 (Learning)</strong>: readiness is Thorndike's <strong>law of readiness</strong>.</li>
+<li><strong>Methodology</strong>: the maxims "simple to complex" and "concrete to abstract" follow the principles of development.</li>
+<li><strong>Perspectives</strong>: NEP 2020's 5+3+3+4 stages match the stages of development.</li>
+</ul>
+<h3>8. Memory technique</h3>
+<p><strong>"C-U-P-G-I-H-P-I"</strong> for the principles → "<strong>C</strong>hildren <strong>U</strong>se <strong>P</strong>encils <strong>G</strong>ently <strong>I</strong>n <strong>H</strong>appy <strong>P</strong>rimary <strong>I</strong>nstitutions": <strong>C</strong>ontinuity, <strong>U</strong>niform sequence, <strong>P</strong>roximodistal (and cephalocaudal), <strong>G</strong>eneral to specific, <strong>I</strong>ndividual differences, <strong>H</strong>eredity × environment, <strong>P</strong>redictable, <strong>I</strong>nterrelated.</p>
+<p><strong>Stages by "S-T-G-S"</strong>: infancy = <strong>S</strong>enses, early childhood = <strong>T</strong>oys, later childhood = <strong>G</strong>ang, adolescence = <strong>S</strong>torm.</p>
+<h3>9. Test your understanding</h3>
+<p><strong>Self-recall (answer without notes):</strong></p>
+<ol>
+<li>Give three differences between growth and development.</li>
+<li>Explain cephalocaudal and proximodistal development with one example each.</li>
+<li>Name the four factors that influence development, with two examples each.</li>
+</ol>
+<div class="quiz" id="quiz-t1"><h4>Quick check: 5 questions</h4><p class="hint">Tap an option to check your answer.</p><div class="mcq" data-a="2"><div class="stem"><span class="n">1.</span>Which of the following principles of development are correct?<ol class="stm"><li>Development proceeds from general to specific responses.</li><li>All children develop at the same rate.</li><li>Development follows a predictable sequence.</li><li>Development is the product of heredity and environment working together.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, ii and iii</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i, iii and iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>ii, iii and iv</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, ii, iii and iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Includes ii: the SEQUENCE is the same for all, but the RATE differs (individual differences).</li><li class="c"><b>2.</b> Correct. i, iii and iv are principles of development.</li><li class=""><b>3.</b> Includes the false statement ii.</li><li class=""><b>4.</b> Includes ii, which is false.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">2.</span>Match the stage of development with its feature:<table class="mt"><thead><tr><th>Stage (List-I)</th><th>Feature (List-II)</th></tr></thead><tbody><tr><td>i. Infancy</td><td>a. Gang age</td></tr><tr><td>ii. Early childhood</td><td>b. Period of stress and storm</td></tr><tr><td>iii. Later childhood</td><td>c. Fastest growth; learning through the senses</td></tr><tr><td>iv. Adolescence</td><td>d. Toy age; many "why" questions</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-c, ii-a, iii-d, iv-b</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-d, ii-c, iii-a, iv-b</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-c, ii-d, iii-b, iv-a</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-c, ii-d, iii-a, iv-b</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Swaps early and later childhood.</li><li class=""><b>2.</b> Swaps infancy and early childhood.</li><li class=""><b>3.</b> Swaps later childhood and adolescence.</li><li class="c"><b>4.</b> Correct. Infancy → senses and fastest growth (the 2025 paper asked "sensory development is more at this stage"); early childhood → toy age; later childhood → gang age; adolescence → stress and storm.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">3.</span><b>Assertion (A):</b> Teaching a child to write before the finger muscles are ready gives poor results.<br><b>Reason (R):</b> Learning depends on maturation.</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Both A and R are true, and R is the correct explanation of A</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Both A and R are true, but R is not the correct explanation of A</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>A is true, but R is false</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>A is false, but R is true</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> Correct. Both are true, and R explains A: training before maturation is wasted effort.</li><li class=""><b>2.</b> R is the direct reason for A, not an unrelated truth.</li><li class=""><b>3.</b> R is true: readiness depends on maturation.</li><li class=""><b>4.</b> A is true: early forced writing leads to poor grip and frustration.</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">4.</span>A child born with a hearing impairment is slow in language development. The factor mainly affecting this child's development is</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Sociological</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Emotional</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Biological</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Psychological</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Sociological factors are family, peers, school and culture; nothing here points to them.</li><li class=""><b>2.</b> Emotional factors are fear, anxiety or love; the cause here is physical.</li><li class="c"><b>3.</b> Correct. A defect present from birth in a sense organ is a biological factor.</li><li class=""><b>4.</b> Psychological factors are intelligence, motivation and so on; the root cause here is the ear.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">5.</span>Which of the following statements is INCORRECT?</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Gross motor skills include running and jumping.</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Fine motor skills include holding a pencil and buttoning a shirt.</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>According to Bridges, a newborn shows only general excitement.</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Language development begins with the two-word stage, followed by babbling.</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> True: large-muscle movements are gross motor skills.</li><li class=""><b>2.</b> True: small-muscle, hand–eye skills are fine motor skills.</li><li class=""><b>3.</b> True: K.M.B. Bridges said emotions separate out from general excitement by about age 2.</li><li class="c"><b>4.</b> INCORRECT, so this is the answer. The order is crying → cooing → babbling → one word → two words → sentences.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>Revision note (5 lines)</b><br>
+1. Growth = size (quantitative, stops); development = whole person (qualitative + quantitative, lifelong); development = maturation + learning.<br>
+2. Principles: continuous, same sequence, cephalocaudal, proximodistal, general → specific, individual differences, heredity × environment.<br>
+3. Factors: biological, psychological, sociological, emotional.<br>
+4. Stages: infancy (senses), early childhood (toy age), later childhood (gang age), adolescence (stress and storm, Stanley Hall).<br>
+5. Dimensions: physical-motor, cognitive, emotional (Bridges), social, moral, language.</div>
+
+<h2 id="s2">Topic 2: Theories of Development</h2>
+<h3>1. Basic idea</h3>
+<p>Several psychologists explained <em>how</em> children develop, each from a different angle. <strong>Piaget</strong>: how thinking develops in stages. <strong>Vygotsky</strong>: how other people help a child learn. <strong>Kohlberg</strong>: how the sense of right and wrong develops. <strong>Erikson</strong>: how personality develops through a crisis at each stage. <strong>Chomsky</strong>: how language develops. <strong>Carl Rogers</strong>: how a child grows when accepted and valued.</p>
+<h3>2. Why it exists</h3>
+<p>Teachers face questions like "Why can't my Class 2 child understand that 5 + 3 and 3 + 5 are the same?" or "Why do Class 5 children care so much about fairness?" Each theory answers one kind of question, and DSC questions usually present a classroom situation and ask which theory or stage it shows.</p>
+<h3>3. How it works</h3>
+<p><strong>Piaget: cognitive development.</strong> A child builds mental files called <strong>schemas</strong>. New information is fitted into an old schema (<strong>assimilation</strong>) or the schema is changed (<strong>accommodation</strong>). The balance between them is <strong>equilibration</strong>.</p>
+<figure class="diagram"><svg viewBox="0 0 760 210" role="img" aria-label="Piaget's four stages of cognitive development">
+<defs><marker id="pa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
+<text x="24" y="30" class="t">Piaget: SGT children are in the concrete operational stage</text>
+<rect x="24" y="56" width="160" height="104" rx="8" class="box"/><text x="36" y="82" class="n">Sensorimotor</text><text x="36" y="102" class="q">0-2 years</text><text x="36" y="124" class="b">Learns through senses</text><text x="36" y="142" class="b">Object permanence</text><path d="M186 108H206" class="ln" marker-end="url(#pa)"/><rect x="208" y="56" width="160" height="104" rx="8" class="box"/><text x="220" y="82" class="n">Pre-operational</text><text x="220" y="102" class="q">2-7 years</text><text x="220" y="124" class="b">Egocentrism, animism</text><text x="220" y="142" class="b">No conservation yet</text><path d="M370 108H390" class="ln" marker-end="url(#pa)"/><rect x="392" y="56" width="160" height="104" rx="8" class="box hi"/><text x="404" y="82" class="n">Concrete operational</text><text x="404" y="102" class="q">7-11 years</text><text x="404" y="124" class="b">Logic on real things</text><text x="404" y="142" class="b">Conservation appears</text><path d="M554 108H574" class="ln" marker-end="url(#pa)"/><rect x="576" y="56" width="160" height="104" rx="8" class="box"/><text x="588" y="82" class="n">Formal operational</text><text x="588" y="102" class="q">11 years onwards</text><text x="588" y="124" class="b">Abstract thinking</text><text x="588" y="142" class="b">Hypothesis, reasoning</text>
+<text x="24" y="196" class="q">Highlighted: the stage of most primary-school children. Teach with real objects and examples.</text>
+</svg><figcaption>Piaget's 4 stages of cognitive development</figcaption></figure>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Age</th>
+<th>Key words for the exam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sensorimotor</td>
+<td>0–2</td>
+<td>Learns through senses and movement; <strong>object permanence</strong></td>
+</tr>
+<tr>
+<td>Pre-operational</td>
+<td>2–7</td>
+<td>Symbols and pretend play; <strong>egocentrism</strong>, <strong>animism</strong>, <strong>centration</strong>; no conservation</td>
+</tr>
+<tr>
+<td>Concrete operational</td>
+<td>7–11</td>
+<td>Logic with real objects; <strong>conservation</strong>, <strong>reversibility</strong>, classification, seriation</td>
+</tr>
+<tr>
+<td>Formal operational</td>
+<td>11+</td>
+<td>Abstract and hypothetical thinking; <strong>hypothetico-deductive reasoning</strong></td>
+</tr>
+</tbody>
+</table></div>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Conservation_of_Liquid.png?width=900" alt="Piaget's conservation task: the same water in a short wide glass and a tall thin glass. A child who says "same amount" has conservation." loading="lazy"><figcaption>Piaget's conservation task: the same water in a short wide glass and a tall thin glass. A child who says "same amount" has conservation. · Photo: <a href="https://commons.wikimedia.org/wiki/File:Conservation_of_Liquid.png" target="_blank" rel="noopener">Wikimedia Commons</a> (see the file page for author and licence)</figcaption></figure>
+<p><strong>Vygotsky: social-cultural development.</strong> Learning happens first with others, then inside the child. The <strong>Zone of Proximal Development (ZPD)</strong> is the gap between what a child can do alone and what they can do with help. <strong>Scaffolding</strong> is help given inside the ZPD and slowly withdrawn. An <strong>MKO (More Knowledgeable Other)</strong> is anyone who knows more: teacher, parent or classmate. Children's self-talk is <strong>private speech</strong>.</p>
+<p><strong>Kohlberg: moral development</strong> (the Heinz dilemma; he studied the <em>reason</em> given, not the yes/no answer).</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Stage</th>
+<th>Typical reasoning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Pre-conventional</td>
+<td>1. Obedience and punishment</td>
+<td>"Don't, or you'll be punished."</td>
+</tr>
+<tr>
+<td></td>
+<td>2. Self-interest / instrumental exchange</td>
+<td>"Help her, she helped me."</td>
+</tr>
+<tr>
+<td>2. Conventional</td>
+<td>3. Good boy – good girl</td>
+<td>"Good students help others."</td>
+</tr>
+<tr>
+<td></td>
+<td>4. Authority and social-order maintaining (law and order)</td>
+<td>"It is the rule."</td>
+</tr>
+<tr>
+<td>3. Post-conventional</td>
+<td>5. Social contract</td>
+<td>"Laws should serve people."</td>
+</tr>
+<tr>
+<td></td>
+<td>6. Universal ethical principles</td>
+<td>"Human life is above everything."</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Erikson: psychosocial development</strong> (8 stages, each a crisis between two opposites).</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Age</th>
+<th>Crisis</th>
+<th>Strength</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0–1</td>
+<td>Trust vs Mistrust</td>
+<td>Hope</td>
+</tr>
+<tr>
+<td>1–3</td>
+<td>Autonomy vs Shame and doubt</td>
+<td>Will</td>
+</tr>
+<tr>
+<td>3–6</td>
+<td>Initiative vs Guilt</td>
+<td>Purpose</td>
+</tr>
+<tr>
+<td><strong>6–12</strong></td>
+<td><strong>Industry vs Inferiority</strong></td>
+<td><strong>Competence</strong></td>
+</tr>
+<tr>
+<td>12–18</td>
+<td>Identity vs Role confusion</td>
+<td>Fidelity</td>
+</tr>
+<tr>
+<td>Young adult</td>
+<td>Intimacy vs Isolation</td>
+<td>Love</td>
+</tr>
+<tr>
+<td>Middle adult</td>
+<td>Generativity vs Stagnation</td>
+<td>Care</td>
+</tr>
+<tr>
+<td>Old age</td>
+<td>Integrity vs Despair</td>
+<td>Wisdom</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Chomsky: language.</strong> Every child is born with a <strong>Language Acquisition Device (LAD)</strong>, an inborn ability for language with a universal grammar. That is why any child can learn any language. Learning language <em>only by imitation</em> is <strong>Skinner's</strong> view, not Chomsky's.</p>
+<p><strong>Carl Rogers: self theory (humanistic).</strong> Every child has a <strong>self-concept</strong> and a drive to grow (self-actualisation). Children grow best when given <strong>unconditional positive regard</strong> (acceptance without conditions), empathy and genuineness. In school this means <strong>child-centred, non-directive</strong> teaching, with the teacher as <strong>facilitator</strong>.</p>
+<p><strong>Also useful:</strong> <strong>Freud</strong> gave the psychosexual stages (oral, anal, phallic, <strong>latency</strong> for 6–12, a calm period, and genital). <strong>Bronfenbrenner's</strong> ecological systems theory says the child sits inside layers: family, school, community and culture.</p>
+<h3>4. Everyday analogy</h3>
+<p>Learning to ride a cycle shows all six theories. Piaget: the child must first be ready, and a 2-year-old can't. Vygotsky: an elder holds the seat (scaffolding) and slowly lets go. Kohlberg: the child stops at the signal "because the policeman is there" (stage 1) and later "because rules keep everyone safe" (stage 4). Erikson: a child who succeeds feels competent; one who is laughed at feels inferior. Chomsky: the child picks up the word "brake" without being drilled. Rogers: the child keeps trying when the family accepts the falls kindly.</p>
+<h3>5. Breaking the difficult parts</h3>
+<ol>
+<li><strong>Assimilation vs accommodation</strong>: a child who knows "dog" calls a goat "dog" (assimilation: fits the old file). When told "this is a goat", the child makes a new file (accommodation).</li>
+<li><strong>Egocentrism vs animism vs centration</strong>: egocentrism = "everyone sees what I see"; animism = "the moon is alive and follows me"; centration = looking at only one feature (height of water).</li>
+<li><strong>Conservation and reversibility</strong>: understanding that quantity stays the same when shape changes, because the change can be undone (pour the water back).</li>
+<li><strong>ZPD and scaffolding in class</strong>: work a sum fully, give hints for the next one, then let the child do the third alone.</li>
+<li><strong>Kohlberg stage 2 vs stage 3</strong>: stage 2 = "what do I get?" (exchange); stage 3 = "what will people think of me?" (approval).</li>
+<li><strong>Erikson for SGTs</strong>: 6–12 is Industry vs Inferiority. Give tasks children can complete, and praise effort.</li>
+</ol>
+<h3>6. Exceptions and confusing areas</h3>
+<ul>
+<li><strong>Object permanence</strong> belongs to the sensorimotor stage, not pre-operational.</li>
+<li><strong>Conservation</strong> appears in the concrete operational stage (7–11).</li>
+<li><strong>Private speech</strong> is Vygotsky's term; <strong>egocentric speech</strong> is Piaget's for the same self-talk.</li>
+<li><strong>Kohlberg's 2025 question</strong>: not copying "for fear of being debarred" is <strong>obedience and punishment</strong> (stage 1).</li>
+<li><strong>Chomsky ≠ imitation.</strong> The 2025 paper asked which is NOT Chomsky's idea, and the answer was "learning a language through imitation".</li>
+<li><strong>Rogers vs Maslow</strong>: both are humanistic; Rogers = self-concept and unconditional positive regard; Maslow = hierarchy of needs.</li>
+<li><strong>Carol Gilligan</strong> criticised Kohlberg for ignoring the "ethics of care".</li>
+</ul>
+<h3>7. Connections to other topics</h3>
+<ul>
+<li><strong>Topic 1</strong>: Piaget's stages match the age stages; Erikson's 6–12 crisis is the "gang age".</li>
+<li><strong>Perspectives (NCF 2005)</strong>: constructivism (Piaget) and social constructivism (Vygotsky) are the theory behind child-centred teaching.</li>
+<li><strong>Methodology</strong>: concrete materials for Classes 1–5 (concrete operational stage); group work and peer tutoring (ZPD).</li>
+<li><strong>Unit 3 (Learning)</strong>: Bruner's scaffolding and discovery learning grew from these ideas.</li>
+</ul>
+<h3>8. Memory technique</h3>
+<p><strong>Piaget: "S-P-C-F, 2-7-11"</strong>: <strong>S</strong>ee and touch (0–2), <strong>P</strong>retend (2–7), <strong>C</strong>oncrete (7–11), <strong>F</strong>ormal (11+).</p>
+<p><strong>Kohlberg: "Pain, Price, Praise, Police, Promise, Principle"</strong>: 1 punishment, 2 exchange price, 3 praise and approval, 4 law (police), 5 social contract (promise), 6 universal principle.</p>
+<p><strong>Erikson's middle three: "I-I-I"</strong>: <strong>I</strong>nitiative (3–6), <strong>I</strong>ndustry (6–12), <strong>I</strong>dentity (12–18).</p>
+<h3>9. Test your understanding</h3>
+<p><strong>Self-recall:</strong></p>
+<ol>
+<li>Name Piaget's four stages with ages and one key word each.</li>
+<li>What is the ZPD? Give a classroom example of scaffolding.</li>
+<li>Which Kohlberg stage is "I'll follow the rule because rules keep order"?</li>
+</ol>
+<div class="quiz" id="quiz-t2"><h4>Quick check: 5 questions</h4><p class="hint">Tap an option to check your answer.</p><div class="mcq" data-a="2"><div class="stem"><span class="n">1.</span>A student helps a classmate during a group test "because she helped me last week". According to Kohlberg, this student is at the</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Obedience and punishment orientation</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Self-interest (instrumental exchange) orientation</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Good boy – good girl orientation</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Social contract orientation</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Stage 1 is about avoiding punishment; there is no fear of punishment here.</li><li class="c"><b>2.</b> Correct. Stage 2: "you help me, I help you": fair exchange for personal benefit.</li><li class=""><b>3.</b> Stage 3 is about being seen as good and winning approval, not repaying a favour.</li><li class=""><b>4.</b> Stage 5 is about laws serving people's welfare: a much higher level.</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">2.</span>Match Erikson's stages with their age periods:<table class="mt"><thead><tr><th>Stage (List-I)</th><th>Age (List-II)</th></tr></thead><tbody><tr><td>i. Trust vs Mistrust</td><td>a. 6-12 years</td></tr><tr><td>ii. Initiative vs Guilt</td><td>b. 0-1 year</td></tr><tr><td>iii. Industry vs Inferiority</td><td>c. 12-18 years</td></tr><tr><td>iv. Identity vs Role confusion</td><td>d. 3-6 years</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-b, ii-a, iii-d, iv-c</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-d, ii-b, iii-a, iv-c</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-b, ii-d, iii-a, iv-c</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-b, ii-d, iii-c, iv-a</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Swaps Initiative (3-6) and Industry (6-12).</li><li class=""><b>2.</b> Swaps Trust (0-1) and Initiative (3-6).</li><li class="c"><b>3.</b> Correct. Trust 0-1; Initiative 3-6; Industry 6-12 (the SGT years); Identity 12-18.</li><li class=""><b>4.</b> Swaps Industry and Identity.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">3.</span>Which of the following statements are correct?<ol class="stm"><li>Piaget: development comes before learning.</li><li>Vygotsky: learning, through social interaction, leads development.</li><li>Children's self-talk was called "egocentric speech" by Piaget and "private speech" by Vygotsky.</li><li>Both Piaget and Vygotsky said language plays no role in thinking.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, ii and iii</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>ii, iii and iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i and iv</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, ii, iii and iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> Correct. i, ii and iii are true.</li><li class=""><b>2.</b> Includes iv: Vygotsky gave language a central role in thinking.</li><li class=""><b>3.</b> Includes iv and leaves out ii and iii.</li><li class=""><b>4.</b> Includes the false statement iv.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">4.</span>Carl Rogers' view of teaching is best described as</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Teacher-centred and reward-based</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Stimulus–response drill and practice</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Stage-wise cognitive conflict</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Child-centred and non-directive, with unconditional positive regard</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Teacher-centred, reward-based teaching is closer to behaviourism (Skinner).</li><li class=""><b>2.</b> Drill and practice is Thorndike's law of exercise.</li><li class=""><b>3.</b> Cognitive conflict and stages are Piaget's ideas.</li><li class="c"><b>4.</b> Correct. Rogers (humanistic): the teacher is a facilitator who accepts every child; the child directs learning.</li></ul></div></div><div class="mcq" data-a="2"><div class="stem"><span class="n">5.</span>A 4-year-old covers her own eyes and says, "Now you can't see me!" According to Piaget, this shows</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Animism</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Egocentrism</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Centration</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Object permanence</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Animism is believing that objects are alive (for example, "the moon follows me").</li><li class="c"><b>2.</b> Correct. She assumes others see what she sees: egocentrism (pre-operational stage).</li><li class=""><b>3.</b> Centration is noticing only one feature, such as the height of the water.</li><li class=""><b>4.</b> Object permanence is knowing a hidden object still exists (sensorimotor stage).</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>Revision note (5 lines)</b><br>
+1. Piaget: schema, assimilation, accommodation, equilibration; sensorimotor (object permanence), pre-operational (egocentrism, animism), concrete (conservation), formal (hypothesis).<br>
+2. Vygotsky: ZPD, scaffolding, MKO, private speech; learning leads development.<br>
+3. Kohlberg: 3 levels × 2 stages; Heinz dilemma; fear of punishment = stage 1.<br>
+4. Erikson: 8 crises; 6–12 = Industry vs Inferiority → competence.<br>
+5. Chomsky = LAD (not imitation); Rogers = self-concept, unconditional positive regard, child-centred.</div>
+
+<h2 id="s3">Notebook page: Day 1</h2>
+<p>Close this page and write the following in your notebook <strong>from memory</strong>, in this order. Then check and fill gaps in a different colour.</p>
+<ol>
+<li>Growth vs development table (five rows); development = maturation + learning.</li>
+<li>Nine principles of development (C-U-P-G-I-H-P-I), with an example for cephalocaudal and proximodistal.</li>
+<li>Four factors of development, with two examples each.</li>
+<li>Four stages with ages and the S-T-G-S features.</li>
+<li>Six dimensions of development; Bridges on emotions; the order of language development.</li>
+<li>Piaget: four terms (schema, assimilation, accommodation, equilibration) + the four-stage table.</li>
+<li>Vygotsky: ZPD, scaffolding, MKO, private speech.</li>
+<li>Kohlberg: the six stages with one line of reasoning each.</li>
+<li>Erikson: the eight crises with ages; star the 6–12 stage.</li>
+<li>Chomsky (LAD, not imitation) and Rogers (self-concept, unconditional positive regard).</li>
+</ol>
+<h2 id="s4">Sources</h2>
+<ul>
+<li>Directorate of School Education, Andhra Pradesh: <a href="https://apdsc2024.apcfss.in/Documents/MEGA_DSC_2024_Suggestive_Syllabus-27-11-2024.pdf">Mega DSC 2024 Suggestive Syllabus</a> (SGT Part III unit list; checked 9 Nov 2026).</li>
+<li>AP DSC SGT question paper, 19 June 2025, Shift 1 (Section III), supplied by you.</li>
+<li>Photos: Wikimedia Commons (credit and licence on each file page).</li>
+</ul>
+<footer>Sulabham · AP DSC-2026 (APTRT) SGT · Educational Psychology. Based on the official SCERT SGT syllabus (Unit 1: Development of the Child).</footer>
+</main>
+<script>
+(function(){
+var T={"right": "Correct!", "wrong": "Not quite. Correct answer:", "score": "Your score"};
+document.querySelectorAll('.quiz').forEach(function(qz){
+  var mcqs=qz.querySelectorAll('.mcq'), done=0, ok=0;
+  mcqs.forEach(function(m){
+    var a=m.getAttribute('data-a');
+    m.querySelectorAll('button.opt').forEach(function(b){
+      b.addEventListener('click',function(){
+        if(m.classList.contains('done'))return;
+        m.classList.add('done');
+        var right=b.getAttribute('data-o')===a;
+        b.classList.add(right?'ok':'bad');
+        m.querySelector('button.opt[data-o="'+a+'"]').classList.add('ok');
+        m.querySelectorAll('button.opt').forEach(function(x){x.setAttribute('aria-disabled','true');});
+        m.querySelector('.verdict').textContent=right?T.right:(T.wrong+' '+a);
+        done++; if(right)ok++;
+        if(done===mcqs.length){qz.querySelector('.qscore').textContent=T.score+': '+ok+' / '+mcqs.length;}
+      });
+    });
+  });
+});
+})();
+</script>
+</body></html>

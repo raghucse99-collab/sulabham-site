@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="te"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>విద్యా దృక్పథాలు, 1వ రోజు: విద్యా చరిత్ర</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf8f3;--paper:#fff;--ink:#2b2118;--muted:#6f6254;--rule:#e6ddd0;--accent:#8a4b1f;--tint:#f4e9dc;--th:#f1e6d8}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1713;--paper:#231e19;--ink:#efe6da;--muted:#b3a593;--rule:#3a322a;--accent:#e0a36f;--tint:#3a2b1e;--th:#2e2620}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Noto Sans","Noto Sans Telugu",system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+header.top{border-bottom:3px solid var(--accent);margin-bottom:8px}
+h1{font-size:1.75rem;line-height:1.25;margin:8px 0 4px;color:var(--accent)}
+h1+p em{color:var(--muted);font-style:normal;font-size:.9rem}
+h2{font-size:1.35rem;margin:40px 0 10px;padding:8px 12px;background:var(--tint);border-left:5px solid var(--accent);border-radius:4px}
+h3{font-size:1.1rem;margin:26px 0 8px;color:var(--accent)}
+p{margin:8px 0}
+ul,ol{padding-left:24px;margin:8px 0}
+li{margin:4px 0}
+strong{color:var(--ink)}
+.tbl{overflow-x:auto;margin:12px 0;border:1px solid var(--rule);border-radius:8px;background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:.94rem}
+th,td{padding:8px 10px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+th{background:var(--th);font-weight:600}
+tr:last-child td{border-bottom:0}
+.formula{margin:12px 0;padding:12px 16px;background:var(--paper);border:1px dashed var(--accent);border-radius:8px;font-weight:600;text-align:center}
+nav.toc{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:12px 16px;margin:16px 0}
+nav.toc b{display:block;margin-bottom:6px}
+nav.toc a{color:var(--accent);text-decoration:none}
+nav.toc ol{margin:0}
+figure.diagram{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:8px;color:var(--muted)}
+figure.diagram{overflow-x:auto;-webkit-overflow-scrolling:touch}
+figure.diagram svg{width:100%;min-width:600px;height:auto;display:block}
+figcaption{font-size:.85rem;color:var(--muted);text-align:center;padding:4px}
+svg .t{font-size:15px;font-weight:600;fill:var(--ink)}
+svg .n{font-size:12.5px;font-weight:600;fill:var(--ink)}
+svg .b{font-size:11.5px;fill:var(--ink)}
+svg .q{font-size:11.5px;fill:var(--muted)}
+svg .box{fill:none;stroke:var(--muted);stroke-width:1.25}
+svg .box.hi{fill:var(--tint);stroke:var(--accent);stroke-width:2}
+svg .ln{stroke:var(--muted);stroke-width:1.25;fill:none}
+details.ans{margin:16px 0;background:var(--paper);border:1px solid var(--accent);border-radius:8px;padding:10px 14px}
+details.ans summary{cursor:pointer;font-weight:600;color:var(--accent)}
+.key{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px;margin-top:10px}
+.key span{background:var(--tint);border-radius:6px;padding:4px;text-align:center;font-weight:600}
+.lang-switch{display:inline-block;margin:4px 0 12px;padding:6px 14px;border:1px solid var(--accent);border-radius:999px;color:var(--accent);text-decoration:none;font-weight:600;font-size:.9rem}
+.lang-switch:hover{background:var(--tint)}
+footer{margin-top:48px;font-size:.85rem;color:var(--muted);border-top:1px solid var(--rule);padding-top:12px}
+@media print{body{background:#fff;font-size:11pt}main{max-width:none;padding:0}h2{break-after:avoid}nav.toc{display:none}details.ans{display:block}details.ans>*{display:block}@page{size:A4;margin:14mm}}
+
+figure.photo{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:10px;overflow:hidden}
+figure.photo img{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;background:var(--tint)}
+figure.photo figcaption{padding:8px 12px;font-size:.86rem;color:var(--muted);text-align:left}
+figure.photo figcaption a{color:var(--accent)}
+ol.tl{list-style:none;padding:0 0 0 22px;margin:14px 0;border-left:3px solid var(--accent)}
+ol.tl li{position:relative;margin:0 0 12px;padding-left:10px}
+ol.tl li::before{content:"";position:absolute;left:-31px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--paper);border:3px solid var(--accent)}
+ol.tl .yr{font-weight:700;color:var(--accent);margin-right:6px}
+h3{border-bottom:1px dashed var(--rule);padding-bottom:4px}
+.box{background:var(--paper);border:1px solid var(--rule);border-left:5px solid var(--accent);border-radius:8px;padding:10px 14px;margin:12px 0}
+.quiz{background:var(--paper);border:2px solid var(--accent);border-radius:12px;padding:12px 14px;margin:18px 0}
+.quiz h4{margin:0 0 4px;color:var(--accent);font-size:1.05rem}
+.quiz .hint{margin:0 0 8px;color:var(--muted);font-size:.88rem}
+.mcq{border-top:1px solid var(--rule);padding:12px 0}
+.mcq .stem{margin-bottom:8px}
+.mcq .n{color:var(--accent);font-weight:700;margin-right:6px}
+.mcq ol.stm{list-style:lower-roman;margin:6px 0;padding-left:30px}
+.mcq table.mt{border-collapse:collapse;margin:8px 0;width:100%;font-size:.93rem}
+.mcq table.mt th,.mcq table.mt td{border:1px solid var(--rule);padding:6px 8px;text-align:left}
+.mcq table.mt th{background:var(--th)}
+.opts{display:grid;gap:6px}
+button.opt{all:unset;box-sizing:border-box;display:flex;gap:10px;width:100%;padding:9px 12px;border:1px solid var(--rule);border-radius:8px;cursor:pointer;color:var(--ink);background:var(--bg)}
+button.opt:hover,button.opt:focus-visible{background:var(--tint);outline:2px solid var(--accent);outline-offset:1px}
+button.opt .k{font-weight:700;min-width:20px}
+.mcq.done button.opt{cursor:default}
+button.opt.ok{border-color:#2e7d32;background:rgba(46,125,50,.14)}
+button.opt.bad{border-color:#c62828;background:rgba(198,40,40,.12)}
+.why{display:none;margin-top:8px;padding:8px 12px;background:var(--tint);border-radius:6px;font-size:.92rem}
+.mcq.done .why{display:block}
+.why .verdict{font-weight:700;margin:0 0 4px}
+.why ul{margin:4px 0;padding-left:18px}
+.why li.c{font-weight:600}
+.qscore{font-weight:700;color:var(--accent);margin-top:6px}
+@media print{.why{display:block}button.opt{border:1px solid #999}}
+</style><noscript><style>.why{display:block}</style></noscript></head>
+<body><main>
+<header class="top"><h1>విద్యా దృక్పథాలు, 1వ రోజు: విద్యా చరిత్ర</h1><a class="lang-switch" href="dsc-sgt-perspectives-day1.html" hreflang="en">Read in English</a></header>
+<p><em>AP DSC-2026 (APTRT) · SGT · భాగం II: విద్యా దృక్పథాలు (8 ప్రశ్నలు, 4 మార్కులు)</em></p>
+<p>1వ రోజు సిలబస్‌లోని మొదటి యూనిట్ "విద్యా చరిత్ర" ను మూడు అంశాలుగా చదువుతాం. ప్రతి అంశానికి: తొమ్మిది దశలు చదవండి, పేజీ మూసి గుర్తుచేసుకోండి, తర్వాత 5 ప్రశ్నల త్వరిత పరీక్ష రాయండి. రోజు చివర్లో "నోట్‌బుక్ పేజీ" ని జ్ఞాపకం నుంచి రాయండి.</p>
+<div class="box"><b>పరీక్షతో సంబంధం:</b> 19 జూన్ 2025 SGT పేపర్‌లో ప్రాచీన విద్యా విధానాలపై (వైదిక, బౌద్ధ, జైన, ఇస్లామిక్) జతపరిచే ప్రశ్న వచ్చింది. కమిషన్లపై ప్రశ్నలు సాధారణంగా "ఏ సంవత్సరం", "అధ్యక్షుడు ఎవరు", "ఏం సిఫార్సు చేసింది" అని అడుగుతాయి.</div>
+
+<nav class="toc"><b>విషయ సూచిక</b><ol><li><a href="#s1">అంశం 1: ప్రాచీన, మధ్యయుగ భారతదేశంలో విద్య</a></li><li><a href="#s2">అంశం 2: స్వాతంత్ర్యానికి ముందు విద్యా నివేదికలు (1813–1944)</a></li><li><a href="#s3">అంశం 3: స్వాతంత్ర్యం తర్వాత కమిషన్లు, విధానాలు (1948–1992)</a></li><li><a href="#s4">నోట్‌బుక్ పేజీ: 1వ రోజు</a></li><li><a href="#s5">ఆధారాలు</a></li></ol></nav><h2 id="s1">అంశం 1: ప్రాచీన, మధ్యయుగ భారతదేశంలో విద్య</h2>
+<h3>1. ప్రాథమిక భావన</h3>
+<p>ఇప్పటి పాఠశాలలు, విశ్వవిద్యాలయాల కంటే ముందు భారతదేశంలో నాలుగు ప్రధాన విద్యా సంప్రదాయాలు ఉండేవి. <strong>వైదిక</strong> సంప్రదాయంలో విద్యార్థి గురువు ఇంట్లోనే (<em>గురుకులం</em>) నివసించేవాడు. <strong>బౌద్ధ</strong> విద్య <em>విహారాలు</em> అనే ఆరామాల్లో జరిగేది; కొన్ని నలంద వంటి పెద్ద విశ్వవిద్యాలయాలుగా ఎదిగాయి. <strong>జైన</strong> విద్య సరైన విశ్వాసం, జ్ఞానం, ప్రవర్తనను బోధించేది. మధ్యయుగంలో <strong>ఇస్లామిక్</strong> విద్య <em>మక్తబ్‌లు</em> (ప్రాథమిక), <em>మదర్సాలు</em> (ఉన్నత) ద్వారా సాగేది.</p>
+<h3>2. ఇది ఎందుకు ఏర్పడింది</h3>
+<p>ప్రతి సంప్రదాయం తన మతం, విలువలు, ఆచరణాత్మక జ్ఞానాన్ని తర్వాతి తరానికి అందించాలనుకుంది. ముద్రిత పుస్తకాలు లేనందున అభ్యసనం గురు-శిష్య సాన్నిహిత్యం, జ్ఞాపకశక్తి, చర్చపై ఆధారపడింది. గురుకుల పాఠశాలలు, ఆదర్శంగా ఉపాధ్యాయుడు, చర్చ ద్వారా అభ్యసనం వంటి ఆధునిక భావనల మూలాలు ఇక్కడే ఉన్నాయి కాబట్టి పరీక్షలో ఈ ప్రశ్నలు అడుగుతారు.</p>
+<h3>3. ఇది ఎలా పనిచేసేది</h3>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>సంప్రదాయం</th>
+<th>ఎక్కడ</th>
+<th>చదువు మొదలు, ముగింపు</th>
+<th>పద్ధతి</th>
+<th>భాష</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>వైదిక</td>
+<td>గురుకులం / ఆశ్రమం</td>
+<td><strong>ఉపనయనం</strong> (దీక్ష) → <strong>సమావర్తనం</strong> (స్నాతకోత్సవం, ఇంటికి తిరిగి రావడం)</td>
+<td>మౌఖికం: <strong>శ్రవణం → మననం → నిదిధ్యాసనం</strong></td>
+<td>సంస్కృతం</td>
+</tr>
+<tr>
+<td>బౌద్ధ</td>
+<td>విహారం (ఆరామం), మహావిహారం (విశ్వవిద్యాలయం)</td>
+<td><strong>ప్రవజ్య / పబ్బజ్జ</strong> (మొదటి దీక్ష, సుమారు 8 ఏళ్లు) → <strong>ఉపసంపద</strong> (20 ఏళ్లకు పూర్తి దీక్ష)</td>
+<td>చర్చ, వాదన, బృంద బోధన</td>
+<td><strong>పాళీ</strong> (ప్రజల భాష)</td>
+</tr>
+<tr>
+<td>జైన</td>
+<td>బసదులు, ఉపాశ్రయాలు (ఆలయ మందిరాలు)</td>
+<td>జీవితాంతం క్రమశిక్షణ</td>
+<td>నైతిక శిక్షణ: <strong>త్రిరత్నాలు</strong></td>
+<td>ప్రాకృతం</td>
+</tr>
+<tr>
+<td>ఇస్లామిక్</td>
+<td><strong>మక్తబ్</strong> (ప్రాథమిక, మసీదుకు అనుబంధం) → <strong>మదర్సా</strong> (ఉన్నత)</td>
+<td>4 ఏళ్లు 4 నెలలు 4 రోజుల వయసులో <strong>బిస్మిల్లా</strong> సంస్కారం</td>
+<td>కంఠస్థం, చదవడం, రాయడం, గణితం; తర్వాత న్యాయశాస్త్రం, సాహిత్యం, శాస్త్రాలు</td>
+<td>అరబిక్, పర్షియన్</td>
+</tr>
+</tbody>
+</table></div>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jaulian_Buddhist_Monastery_in_Taxila.jpg?width=900" alt="తక్షశిల (టాక్సిలా, ప్రస్తుతం పాకిస్తాన్) లోని జౌలియన్ విహార శిథిలాలు, అతి ప్రాచీన విద్యా కేంద్రాల్లో ఒకటి." loading="lazy"><figcaption>తక్షశిల (టాక్సిలా, ప్రస్తుతం పాకిస్తాన్) లోని జౌలియన్ విహార శిథిలాలు, అతి ప్రాచీన విద్యా కేంద్రాల్లో ఒకటి. · ఫోటో: <a href="https://commons.wikimedia.org/wiki/File:Jaulian_Buddhist_Monastery_in_Taxila.jpg" target="_blank" rel="noopener">వికీమీడియా కామన్స్</a> (రచయిత, లైసెన్స్ కోసం ఫైల్ పేజీ చూడండి)</figcaption></figure>
+<p><strong>ప్రసిద్ధ విద్యా కేంద్రాలు</strong></p>
+<ul>
+<li><strong>తక్షశిల (టాక్సిలా)</strong>: అతి ప్రాచీనమైనది; వ్యాకరణవేత్త పాణిని, చాణక్యుడు (కౌటిల్యుడు) దీనితో ముడిపడి ఉన్నారు. ఇప్పుడు పాకిస్తాన్‌లో ఉంది.</li>
+<li><strong>నలంద</strong> (బీహార్): <strong>కుమారగుప్తుడు-I</strong> (గుప్త వంశం, క్రీ.శ. 5వ శతాబ్దం) స్థాపించాడు. చైనా యాత్రికుడు <strong>హ్యూయాన్‌త్సాంగ్ (Xuanzang)</strong> 7వ శతాబ్దంలో ఇక్కడ చదివాడు. బఖ్తియార్ ఖిల్జీ (సుమారు 1193) ధ్వంసం చేశాడు. 2016 నుంచి యునెస్కో ప్రపంచ వారసత్వ ప్రదేశం.</li>
+<li><strong>విక్రమశిల</strong> (బీహార్): పాల రాజు <strong>ధర్మపాలుడు</strong> (8వ శతాబ్దం చివర) స్థాపించాడు.</li>
+<li><strong>వల్లభి</strong> (గుజరాత్): మైత్రకుల కాలంలో బౌద్ధ కేంద్రం.</li>
+<li><strong>నాగార్జునకొండ</strong> (ఆంధ్రప్రదేశ్): <strong>ఇక్ష్వాకుల</strong> కాలంలో (క్రీ.శ. 3-4 శతాబ్దాలు) బౌద్ధ విహార కేంద్రం; తత్వవేత్త <strong>ఆచార్య నాగార్జునుడితో</strong> ముడిపడి ఉంది.</li>
+</ul>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nalanda_University_India_ruins.jpg?width=900" alt="బీహార్‌లోని నలంద మహావిహార శిథిలాలు. విద్యార్థులు ఈ ఇటుక విహారాల్లో నివసిస్తూ చదువుకునేవారు; ఇప్పుడు యునెస్కో ప్రపంచ వారసత్వ ప్రదేశం." loading="lazy"><figcaption>బీహార్‌లోని నలంద మహావిహార శిథిలాలు. విద్యార్థులు ఈ ఇటుక విహారాల్లో నివసిస్తూ చదువుకునేవారు; ఇప్పుడు యునెస్కో ప్రపంచ వారసత్వ ప్రదేశం. · ఫోటో: <a href="https://commons.wikimedia.org/wiki/File:Nalanda_University_India_ruins.jpg" target="_blank" rel="noopener">వికీమీడియా కామన్స్</a> (రచయిత, లైసెన్స్ కోసం ఫైల్ పేజీ చూడండి)</figcaption></figure>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/1st_to_4th_century_Mahayana_Buddhist_site,_Nagarjunakonda_Andhra_Pradesh,_India_-_10.jpg?width=900" alt="ఆంధ్రప్రదేశ్‌లోని నాగార్జునకొండ బౌద్ధ క్షేత్రం (క్రీ.శ. 1-4 శతాబ్దాలు) అవశేషాలు; ఇక్ష్వాకుల కాలంలో విహార విద్యా కేంద్రం." loading="lazy"><figcaption>ఆంధ్రప్రదేశ్‌లోని నాగార్జునకొండ బౌద్ధ క్షేత్రం (క్రీ.శ. 1-4 శతాబ్దాలు) అవశేషాలు; ఇక్ష్వాకుల కాలంలో విహార విద్యా కేంద్రం. · ఫోటో: <a href="https://commons.wikimedia.org/wiki/File:1st_to_4th_century_Mahayana_Buddhist_site,_Nagarjunakonda_Andhra_Pradesh,_India_-_10.jpg" target="_blank" rel="noopener">వికీమీడియా కామన్స్</a> (రచయిత, లైసెన్స్ కోసం ఫైల్ పేజీ చూడండి)</figcaption></figure>
+<h3>4. నిత్యజీవిత ఉదాహరణ</h3>
+<p>వైదిక గురుకులం ఇప్పటి <strong>గురుకుల (రెసిడెన్షియల్) పాఠశాల</strong> లాంటిది: విద్యార్థి గురువు దగ్గరే ఉంటూ పనులు చేస్తాడు, "స్నాతకోత్సవం" (సమావర్తనం) తర్వాత వెళ్లిపోతాడు. నలంద వంటి బౌద్ధ మహావిహారం <strong>హాస్టళ్లు ఉన్న విశ్వవిద్యాలయ ప్రాంగణం</strong> లాంటిది. మసీదు పక్కన మక్తబ్ అంటే <strong>గుడి లేదా పంచాయతీ ఆఫీసు పక్కన ఉండే గ్రామ ప్రాథమిక పాఠశాల</strong> లాంటిది; మదర్సా అంటే <strong>పట్టణంలోని కళాశాల</strong> లాంటిది.</p>
+<h3>5. కష్టమైన భాగాలను విడదీద్దాం</h3>
+<ol>
+<li><strong>ఉపనయనం</strong>: వైదిక విద్యను ప్రారంభించే "యజ్ఞోపవీత" దీక్ష. <em>ఉప</em> = దగ్గరకు, <em>నయనం</em> = తీసుకెళ్లడం: పిల్లవాడిని గురువు దగ్గరకు తీసుకెళ్లడం.</li>
+<li><strong>సమావర్తనం</strong>: చదువు ముగిసి విద్యార్థి ఇంటికి తిరిగి వచ్చే సంస్కారం. దీన్ని స్నాతకోత్సవం (convocation) అనుకోండి.</li>
+<li><strong>శ్రవణం-మననం-నిదిధ్యాసనం</strong>: గురువు చెప్పింది వినడం → ఆలోచించి సందేహాలు తీర్చుకోవడం → భావన సొంతమయ్యే వరకు లోతుగా ధ్యానించడం.</li>
+<li><strong>ప్రవజ్య → ఉపసంపద</strong>: బౌద్ధంలో మొదటి దీక్ష (శ్రామణేరుడు) → 20 ఏళ్లకు పూర్తి భిక్షువుగా సభ్యత్వం.</li>
+<li><strong>అష్టాంగ మార్గం</strong>: సరైన జీవనానికి బౌద్ధ మార్గం. 2025 పేపర్‌లో "బౌద్ధ విద్య"ను "అష్టాంగ మార్గం"తో జతపరిచారు.</li>
+<li><strong>త్రిరత్నాలు</strong>: జైన ఆదర్శాలు: సమ్యక్ దర్శనం (సరైన విశ్వాసం), సమ్యక్ జ్ఞానం, సమ్యక్ చరిత్ర (సరైన ప్రవర్తన). గుర్తుంచుకోండి: <em>త్రిరత్నాలు = జైనులు</em>, బౌద్ధులు కాదు.</li>
+<li><strong>మక్తబ్ vs మదర్సా</strong>: మక్తబ్ = ప్రాథమిక (అక్షరాలు, చదవడం, ప్రార్థనలు). మదర్సా = ఉన్నత విద్య. బీదర్‌లోని <strong>మహమూద్ గవాన్</strong> మదర్సా (1472) ప్రసిద్ధ ఉదాహరణ.</li>
+<li><strong>వేదాలకు ముందు కాలం</strong>: సింధు (హరప్పా) నగరాల్లో ప్రణాళిక, లిపి ఉన్నాయి కాబట్టి ఏదో ఒక వ్యవస్థీకృత శిక్షణ ఉండేది. కానీ లిపిని ఇంకా చదవలేదు కాబట్టి వారి విద్య గురించి ప్రత్యక్ష ఆధారాలు లేవు.</li>
+</ol>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/02_Bidar_Mohamad_Gawan_Madrasa.JPG?width=900" alt="బీదర్‌లోని మహమూద్ గవాన్ మదర్సా (1472, బహమనీ కాలం), ఉన్నత ఇస్లామిక్ విద్యా కేంద్రం." loading="lazy"><figcaption>బీదర్‌లోని మహమూద్ గవాన్ మదర్సా (1472, బహమనీ కాలం), ఉన్నత ఇస్లామిక్ విద్యా కేంద్రం. · ఫోటో: <a href="https://commons.wikimedia.org/wiki/File:02_Bidar_Mohamad_Gawan_Madrasa.JPG" target="_blank" rel="noopener">వికీమీడియా కామన్స్</a> (రచయిత, లైసెన్స్ కోసం ఫైల్ పేజీ చూడండి)</figcaption></figure>
+<h3>6. మినహాయింపులు, గందరగోళ అంశాలు</h3>
+<ul>
+<li><strong>నలంద vs విక్రమశిల స్థాపకులు</strong>: నలంద = కుమారగుప్తుడు-I (గుప్తులు). విక్రమశిల = ధర్మపాలుడు (పాలులు). పరీక్షకులు వీటిని తారుమారు చేస్తారు.</li>
+<li><strong>ప్రవజ్య vs ఉపసంపద</strong>: ప్రవజ్య <em>మొదటి</em> దశ, చివరిది కాదు.</li>
+<li><strong>జైన త్రిరత్నాలు vs బౌద్ధ త్రిరత్నాలు</strong>: బౌద్ధంలోనూ "మూడు రత్నాలు" (బుద్ధ, ధమ్మ, సంఘ) ఉన్నాయి. కానీ DSC ప్రశ్నల్లో <strong>సరైన విశ్వాసం, జ్ఞానం, ప్రవర్తన అనే త్రిరత్నాలు జైనులవి</strong>.</li>
+<li><strong>మక్తబ్ vs మదర్సా</strong>: మక్తబ్ దిగువ స్థాయి, మదర్సా ఉన్నత స్థాయి. వీటిని తారుమారు చేయడం సాధారణ "తప్పు ప్రవచనం".</li>
+<li>వైదిక కాలంలో స్త్రీలు: <strong>గార్గి</strong>, <strong>మైత్రేయి</strong> వంటి విదుషీమణులు స్త్రీలు చదువుకోగలిగారని చూపిస్తారు; తర్వాతి కాలంలో ఇది అరుదైంది.</li>
+</ul>
+<h3>7. ఇతర అంశాలతో సంబంధం</h3>
+<ul>
+<li><strong>చరిత్ర (GK)</strong>: గుప్తులు నలందను, పాలులు విక్రమశిలను స్థాపించారు; ఇక్ష్వాకులు విజయపురి (నాగార్జునకొండ) నుంచి పాలించారు; బహమనీ మంత్రి మహమూద్ గవాన్ బీదర్ మదర్సాను కట్టించాడు.</li>
+<li><strong>మనోవిజ్ఞాన శాస్త్రం</strong>: విని, ఆలోచించి నేర్చుకోవడం ఇప్పటి <strong>అర్థవంతమైన (బట్టీ కాని) అభ్యసనం</strong>తో సరిపోతుంది; ఆదర్శంగా గురువు <strong>బండూరా పరిశీలనాత్మక అభ్యసనం</strong>తో సరిపోతుంది.</li>
+<li><strong>ఆంధ్రప్రదేశ్</strong>: నాగార్జునకొండ, అమరావతి ప్రధాన బౌద్ధ కేంద్రాలు; ఆచార్య నాగార్జున విశ్వవిద్యాలయానికి ఆ తత్వవేత్త పేరే పెట్టారు.</li>
+<li><strong>NEP 2020</strong>: "ప్రాచీన నలంద, తక్షశిల వంటి" పెద్ద బహుళ విభాగ విశ్వవిద్యాలయాల భావనను పునరుద్ధరిస్తుంది.</li>
+</ul>
+<h3>8. జ్ఞాపక సూత్రం</h3>
+<p><strong>"వేదాలకు ఉ-స, బుద్ధుడికి ప్ర-ఉ, జైనులకు 3, ఇస్లాంకు మ-మ"</strong></p>
+<ul>
+<li>వైదిక = <strong>ఉ</strong>పనయనం → <strong>స</strong>మావర్తనం ("ఉ"దయం గురువు దగ్గరకు, "స"ాయంత్రం ఇంటికి).</li>
+<li>బౌద్ధ = <strong>ప్ర</strong>వజ్య → <strong>ఉ</strong>పసంపద (ప్రాథమిక పాఠశాల తర్వాత ఉన్నత విద్య లాగా: ప్ర తర్వాత ఉ).</li>
+<li>జైన = <strong>3</strong> రత్నాలు (త్రిరత్నాలు).</li>
+<li>ఇస్లామిక్ = <strong>మ</strong>క్తబ్ → <strong>మ</strong>దర్సా (చిన్న "మ" బడి ముందు, పెద్ద "మ" బడి తర్వాత).</li>
+</ul>
+<p>స్థాపకులు: <strong>"గుప్తుడు నలంద, పాలుడు విక్రమ"</strong>: గు–న, పా–వి.</p>
+<h3>9. మీ అవగాహనను పరీక్షించుకోండి</h3>
+<p><strong>స్వీయ జ్ఞాపకం (నోట్స్ చూడకుండా జవాబు ఇవ్వండి):</strong></p>
+<ol>
+<li>ఉపనయనం, సమావర్తనంలో ఏం జరుగుతుంది?</li>
+<li>నలందను ఎవరు స్థాపించారు? విక్రమశిలను ఎవరు స్థాపించారు?</li>
+<li>ఏ సంప్రదాయం పాళీలో బోధించింది? అది ఎందుకు ముఖ్యం?</li>
+</ol>
+<div class="quiz" id="quiz-t1"><h4>త్వరిత పరీక్ష: 5 ప్రశ్నలు</h4><p class="hint">మీ జవాబు సరిచూసుకోవడానికి ఒక ఆప్షన్‌ను నొక్కండి.</p><div class="mcq" data-a="4"><div class="stem"><span class="n">1.</span>జాబితా-I ని జాబితా-II తో జతపరచండి:<table class="mt"><thead><tr><th>జాబితా-I</th><th>జాబితా-II</th></tr></thead><tbody><tr><td>i. వైదిక విద్య</td><td>a. త్రిరత్నాలు</td></tr><tr><td>ii. బౌద్ధ విద్య</td><td>b. మక్తబ్, మదర్సా</td></tr><tr><td>iii. జైన విద్య</td><td>c. ఉపనయనం, సమావర్తనం</td></tr><tr><td>iv. ఇస్లామిక్ విద్య</td><td>d. ప్రవజ్య (పబ్బజ్జ), ఉపసంపద</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-c, ii-a, iii-d, iv-b</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-d, ii-c, iii-a, iv-b</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-c, ii-d, iii-b, iv-a</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-c, ii-d, iii-a, iv-b</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> బౌద్ధ, జైన తారుమారు: త్రిరత్నాలు జైనులవి.</li><li class=""><b>2.</b> ఉచ్చు: ఉపనయనాన్ని బౌద్ధంలో పెట్టింది. ఉపనయనం/సమావర్తనం వైదిక సంస్కారాలు.</li><li class=""><b>3.</b> జైన, ఇస్లామిక్ తారుమారు: మక్తబ్/మదర్సా ఇస్లామిక్ సంస్థలు.</li><li class="c"><b>4.</b> సరైనది. వైదిక → ఉపనయనం/సమావర్తనం; బౌద్ధ → ప్రవజ్య/ఉపసంపద; జైన → త్రిరత్నాలు; ఇస్లామిక్ → మక్తబ్/మదర్సా.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">2.</span>బౌద్ధ విద్య గురించి కింది వాటిలో సరైన ప్రవచనాలు ఏవి?<ol class="stm"><li>ఇది అన్ని కులాల విద్యార్థులకు తెరిచి ఉండేది.</li><li>ప్రవజ్య (పబ్బజ్జ) 20 ఏళ్ల వయసులో తీసుకునే చివరి దీక్ష.</li><li>సామాన్య ప్రజల భాష అయిన పాళీలో బోధన జరిగేది.</li><li>నలందను పాల రాజు ధర్మపాలుడు స్థాపించాడు.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, iii మాత్రమే</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i, ii, iii</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>ii, iv</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, iii, iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> సరైనది. i, iii మాత్రమే నిజం.</li><li class=""><b>2.</b> తప్పైన ii ని కలిపింది: ప్రవజ్య మొదటి దీక్ష (సుమారు 8 ఏళ్లు); ఉపసంపద 20 ఏళ్లకు చివరి దీక్ష.</li><li class=""><b>3.</b> ii, iv రెండూ తప్పు.</li><li class=""><b>4.</b> తప్పైన iv ని కలిపింది: నలందను కుమారగుప్తుడు-I (గుప్తులు) స్థాపించాడు. ధర్మపాలుడు విక్రమశిలను స్థాపించాడు.</li></ul></div></div><div class="mcq" data-a="2"><div class="stem"><span class="n">3.</span>వైదిక పద్ధతిలో అభ్యసనంలోని మూడు దశల సరైన క్రమం</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>మననం → శ్రవణం → నిదిధ్యాసనం</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>శ్రవణం → మననం → నిదిధ్యాసనం</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>శ్రవణం → నిదిధ్యాసనం → మననం</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>నిదిధ్యాసనం → శ్రవణం → మననం</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> వినకముందే (శ్రవణం) మననం చేయలేం.</li><li class="c"><b>2.</b> సరైనది. వినడం (శ్రవణం) → ఆలోచించడం (మననం) → సొంతం అయ్యేవరకు ధ్యానించడం (నిదిధ్యాసనం).</li><li class=""><b>3.</b> లోతైన ధ్యానం మననం తర్వాత, చివర్లో వస్తుంది.</li><li class=""><b>4.</b> పాఠం వినకముందే ధ్యానం రాదు.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">4.</span>కింది వాటిలో తప్పు ప్రవచనం ఏది?</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>సమావర్తనం గురుకులంలో విద్యార్థి నివాసానికి ముగింపును సూచించేది.</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>ఆంధ్రప్రదేశ్‌లోని నాగార్జునకొండ ఇక్ష్వాకుల కాలంలో బౌద్ధ విద్యా కేంద్రం.</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>ఇస్లామిక్ విద్యలో బిస్మిల్లా సంస్కారం పిల్లవాడి చదువు ప్రారంభాన్ని సూచించేది.</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>మదర్సాలు ప్రాథమిక విద్య, మక్తబ్‌లు ఉన్నత విద్య అందించేవి.</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> నిజం: సమావర్తనం విద్యార్థి ఇంటికి తిరిగి వెళ్లే "స్నాతకోత్సవం".</li><li class=""><b>2.</b> నిజం: ఇక్ష్వాకుల కాలంలో (క్రీ.శ. 3-4 శ.) నాగార్జునకొండ ప్రధాన బౌద్ధ కేంద్రం.</li><li class=""><b>3.</b> నిజం: బిస్మిల్లాతో చదువు మొదలయ్యేది, సంప్రదాయంగా 4 ఏళ్లు 4 నెలలు 4 రోజుల వయసులో.</li><li class="c"><b>4.</b> తప్పు, కాబట్టి ఇదే జవాబు. ఇది తారుమారు: మక్తబ్ = ప్రాథమిక (మసీదుకు అనుబంధం); మదర్సా = ఉన్నత.</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">5.</span>ఉపాధ్యాయుడు ముందు పిల్లలను పాఠం వినమని, తర్వాత ఆలోచించి సందేహాలు తీర్చుకోమని, చివరికి ఆ భావన సొంతమయ్యే వరకు నిశ్శబ్దంగా ధ్యానించమని చెబుతాడు. ఇది దేనిని అనుసరిస్తుంది</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>బౌద్ధ వాద-వివాద పద్ధతి</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>మక్తబ్‌లో బట్టీ పఠనం</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>వైదిక శ్రవణ-మనన-నిదిధ్యాసన పద్ధతి</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>జైన త్రిరత్నాలు</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> బౌద్ధ కేంద్రాల్లో వాదనలు సాధారణమే, కానీ వివరించిన మూడు దశలు వైదికం.</li><li class=""><b>2.</b> బట్టీ పఠనంలో మననం, ధ్యానం దశలు లేవు.</li><li class="c"><b>3.</b> సరైనది. వినడం → ఆలోచించడం → ధ్యానించడం అంటే శ్రవణం → మననం → నిదిధ్యాసనం.</li><li class=""><b>4.</b> త్రిరత్నాలు (సమ్యక్ దర్శనం, జ్ఞానం, చరిత్ర) ఆదర్శాలు, బోధనా పద్ధతి కాదు.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>పునశ్చరణ నోట్ (5 వాక్యాలు)</b><br>
+1. వైదిక: గురుకులం; ఉపనయనం → సమావర్తనం; శ్రవణం → మననం → నిదిధ్యాసనం; సంస్కృతం.<br>
+2. బౌద్ధ: విహారాలు; అన్ని కులాలకు ప్రవేశం; పాళీ; ప్రవజ్య (≈8 ఏళ్లు) → ఉపసంపద (20 ఏళ్లు).<br>
+3. కేంద్రాలు: తక్షశిల (అతి ప్రాచీనం), నలంద (కుమారగుప్తుడు-I), విక్రమశిల (ధర్మపాలుడు), నాగార్జునకొండ (AP, ఇక్ష్వాకులు).<br>
+4. జైన: త్రిరత్నాలు: సమ్యక్ దర్శనం, సమ్యక్ జ్ఞానం, సమ్యక్ చరిత్ర.<br>
+5. ఇస్లామిక్: బిస్మిల్లా; మక్తబ్ (ప్రాథమిక) → మదర్సా (ఉన్నత); మహమూద్ గవాన్ మదర్సా, బీదర్ (1472).</div>
+
+<h2 id="s2">అంశం 2: స్వాతంత్ర్యానికి ముందు విద్యా నివేదికలు (1813–1944)</h2>
+<h3>1. ప్రాథమిక భావన</h3>
+<p>బ్రిటిష్ పాలనలో విద్యా విధానాన్ని కొన్ని అధికారిక పత్రాలు రూపొందించాయి: ఒక చట్టం (1813), ఒక మినిట్ (1835), ఒక డిస్పాచ్ (1854), పలు కమిషన్లు, కమిటీలు, గోఖలే, గాంధీ వంటి భారతీయుల ప్రణాళికలు. ఎంత ఖర్చు పెట్టాలి, ఏ భాషలో బోధించాలి, పాఠశాలలను ఎవరు నడపాలి, ప్రతి పిల్లవాడికి విద్య ఎలా అందించాలి అనే ఆ కాలపు ప్రశ్నలకు ఒక్కోటి సమాధానం ఇచ్చింది.</p>
+<h3>2. ఇది ఎందుకు ఏర్పడింది</h3>
+<p>ఈస్ట్ ఇండియా కంపెనీ మొదట విద్యను పట్టించుకోలేదు. తర్వాత గుమాస్తాలు, అధికారులుగా పనిచేయడానికి ఆంగ్లం చదివిన భారతీయులు అవసరమయ్యారు; భారతీయ సంస్కర్తలు ప్రజలందరికీ విద్య కావాలని కోరారు. అందుకే ప్రభుత్వం కొన్ని దశాబ్దాలకు ఒకసారి సమస్యను అధ్యయనం చేసి మార్పులు సూచించడానికి ఒక సంఘాన్ని నియమించేది. అందుకే 2024 SCERT సిలబస్ "1854 నుంచి 1944 వరకు విద్యా నివేదికలు, కమిటీలు" అని పేర్కొంది.</p>
+<h3>3. ఇది ఎలా పనిచేసింది</h3>
+<ol class="tl"><li><span class="yr">1813</span><b>చార్టర్ చట్టం</b>: విద్యపై ఏడాదికి ₹1 లక్ష ఖర్చు (మొదటి అధికారిక బాధ్యత).</li><li><span class="yr">1835</span><b>మెకాలే మినిట్</b> (2 ఫిబ్రవరి), బెంటింక్ తీర్మానం: ఉన్నత విద్యకు ఆంగ్లం మాధ్యమం.</li><li><span class="yr">1854</span><b>వుడ్స్ డిస్పాచ్</b>: "ఆంగ్ల విద్యకు మాగ్నాకార్టా"; విద్యాశాఖలు, విశ్వవిద్యాలయాలు (1857).</li><li><span class="yr">1882</span><b>హంటర్ కమిషన్</b>: మొదటి భారతీయ విద్యా కమిషన్; ప్రాథమిక విద్య స్థానిక బోర్డులకు.</li><li><span class="yr">1902-04</span><b>భారతీయ విశ్వవిద్యాలయాల కమిషన్</b> (రాలీ), <b>భారతీయ విశ్వవిద్యాలయాల చట్టం 1904</b> (కర్జన్).</li><li><span class="yr">1911</span>ఉచిత, నిర్బంధ ప్రాథమిక విద్య కోసం <b>గోఖలే బిల్లు</b>: తిరస్కరణ.</li><li><span class="yr">1917-19</span><b>శాడ్లర్ (కలకత్తా విశ్వవిద్యాలయ) కమిషన్</b>: ఇంటర్మీడియట్ కళాశాలలు, సెకండరీ బోర్డులు.</li><li><span class="yr">1929</span><b>హార్టాగ్ కమిటీ</b>: ప్రాథమిక విద్యలో "వృథా, స్తబ్దత".</li><li><span class="yr">1937</span><b>వార్ధా ప్రణాళిక</b> (ప్రాథమిక విద్య / నయీ తాలీం): గాంధీ; చేతివృత్తి కేంద్రం, మాతృభాష, 7 ఏళ్లు.</li><li><span class="yr">1944</span><b>సార్జెంట్ ప్రణాళిక</b>: 40 ఏళ్లలో 6-14 ఏళ్ల వారికి ఉచిత, నిర్బంధ విద్య.</li></ol>
+<p><strong>గుర్తుంచుకోవాల్సిన ముఖ్య సిఫార్సులు</strong></p>
+<ul>
+<li><strong>వుడ్స్ డిస్పాచ్ (1854)</strong>, బోర్డ్ ఆఫ్ కంట్రోల్ అధ్యక్షుడు సర్ చార్లెస్ వుడ్: ప్రతి ప్రావిన్సులో ప్రజా బోధనా శాఖ (DPI); లండన్ విశ్వవిద్యాలయ నమూనాలో కలకత్తా, బొంబాయి, మద్రాసు విశ్వవిద్యాలయాలు (1857లో ఏర్పాటు); ప్రైవేట్ పాఠశాలలకు <strong>సహాయ గ్రాంట్లు (grants-in-aid)</strong>; ప్రాథమిక స్థాయిలో మాతృభాష, ఉన్నత స్థాయిలో ఆంగ్లం; ఉపాధ్యాయ శిక్షణ, స్త్రీ విద్య. ఇది <strong>అధోముఖ వడపోత సిద్ధాంతాన్ని తిరస్కరించి</strong> ప్రజా విద్యను కోరింది.</li>
+<li><strong>హంటర్ కమిషన్ (1882)</strong>, సర్ <strong>విలియం విల్సన్ హంటర్</strong> అధ్యక్షత, లార్డ్ <strong>రిప్పన్</strong> నియమించాడు: మొదటి భారతీయ విద్యా కమిషన్. ప్రాథమిక విద్యను <strong>స్థానిక సంస్థలకు</strong> (జిల్లా, మునిసిపల్ బోర్డులు) అప్పగించింది; గ్రాంట్లతో ప్రైవేట్ పాఠశాలలను ప్రోత్సహించింది; సెకండరీ విద్యలో రెండు స్రవంతులు (సాహిత్య, ఆచరణాత్మక) సూచించింది.</li>
+<li><strong>శాడ్లర్ కమిషన్ (1917–19)</strong>, కలకత్తా విశ్వవిద్యాలయంపై, <strong>మైఖేల్ శాడ్లర్</strong> అధ్యక్షత: డిగ్రీకి ముందు 12 ఏళ్ల పాఠశాల విద్య, ప్రత్యేక <strong>ఇంటర్మీడియట్ కళాశాలలు</strong>, <strong>సెకండరీ, ఇంటర్మీడియట్ విద్యా బోర్డులు</strong>.</li>
+<li><strong>హార్టాగ్ కమిటీ (1929)</strong>, <strong>ఫిలిప్ హార్టాగ్</strong> అధ్యక్షత: భారీ <strong>వృథా</strong> (పిల్లలు ముందుగానే బడి మానేయడం), <strong>స్తబ్దత</strong> (ఫెయిలై అదే తరగతిలో ఉండిపోవడం) గుర్తించింది. విస్తరణకు ముందు నాణ్యత మెరుగుపరచాలని (సంఘటితం - consolidation) సూచించింది.</li>
+<li><strong>వార్ధా ప్రణాళిక (1937)</strong>, గాంధీజీ <strong>ప్రాథమిక విద్య (నయీ తాలీం - Basic Education)</strong>: 7 ఏళ్ల (7–14 వయసు) ఉచిత, నిర్బంధ విద్య; మాతృభాషలో; ఉత్పాదక చేతివృత్తి కేంద్రంగా; స్వయం పోషకం. వివరాలను <strong>జాకీర్ హుస్సేన్ కమిటీ</strong> రూపొందించింది.</li>
+<li><strong>సార్జెంట్ ప్రణాళిక (1944)</strong>, విద్యా సలహాదారు <strong>జాన్ సార్జెంట్</strong>: "యుద్ధానంతర విద్యాభివృద్ధి ప్రణాళిక". 6–14 ఏళ్ల వారికి ఉచిత, నిర్బంధ విద్యను <strong>40 ఏళ్లలో</strong> సాధించాలని, 3–6 ఏళ్ల వారికి పూర్వ ప్రాథమిక విద్య ఇవ్వాలని ప్రతిపాదించింది.</li>
+</ul>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bapu_Kuti_in_Sevagram_Ashram1-Wardha-Maharashtra.jpg?width=900" alt="గాంధీజీ నివసించిన వార్ధాలోని సేవాగ్రామ్ ఆశ్రమంలో బాపు కుటీ. వార్ధా ప్రాథమిక విద్యా ప్రణాళిక (1937) ఇక్కడి నుంచే వచ్చింది." loading="lazy"><figcaption>గాంధీజీ నివసించిన వార్ధాలోని సేవాగ్రామ్ ఆశ్రమంలో బాపు కుటీ. వార్ధా ప్రాథమిక విద్యా ప్రణాళిక (1937) ఇక్కడి నుంచే వచ్చింది. · ఫోటో: <a href="https://commons.wikimedia.org/wiki/File:Bapu_Kuti_in_Sevagram_Ashram1-Wardha-Maharashtra.jpg" target="_blank" rel="noopener">వికీమీడియా కామన్స్</a> (రచయిత, లైసెన్స్ కోసం ఫైల్ పేజీ చూడండి)</figcaption></figure>
+<h3>4. నిత్యజీవిత ఉదాహరణ</h3>
+<p>తన బడిలో సమస్యలు చూస్తూ ఉండే ఒక గ్రామాన్ని ఊహించుకోండి. మొదట పంచాయతీ కొంత డబ్బు కేటాయిస్తుంది (<strong>1813</strong>). తర్వాత తెలుగులో బోధించాలా, ఆంగ్లంలోనా అని వాదిస్తుంది (<strong>1835</strong>). పూర్తి అభివృద్ధి ప్రణాళిక రాస్తుంది (<strong>1854</strong>). ప్రాథమిక పాఠశాలను గ్రామ పంచాయతీకి అప్పగిస్తుంది (<strong>1882</strong>). పిల్లలు బడి మానేయడం, అదే తరగతిలో ఉండిపోవడం గమనిస్తుంది (<strong>1929</strong>). చివరికి ప్రతి పిల్లవాడినీ బడిలో చేర్చడానికి 40 ఏళ్ల ప్రణాళిక వేస్తుంది (<strong>1944</strong>).</p>
+<h3>5. కష్టమైన భాగాలను విడదీద్దాం</h3>
+<ol>
+<li><strong>చార్టర్ చట్టం 1813</strong>: విద్యపై ఖర్చు చేయాల్సిన బాధ్యతను కంపెనీ మొదటిసారి అంగీకరించింది: ఏడాదికి ₹1 లక్ష.</li>
+<li><strong>ప్రాచ్యవాదులు vs ఆంగ్లవాదులు</strong>: ప్రాచ్యవాదులు (Orientalists) సంస్కృతం, పర్షియన్ విద్యను కోరారు; ఆంగ్లవాదులు (Anglicists) ఆంగ్లాన్ని కోరారు. <strong>మెకాలే మినిట్ (2 ఫిబ్రవరి 1835)</strong> ఆంగ్లం వైపు నిలిచింది; <strong>బెంటింక్ తీర్మానం</strong> (మార్చి 1835) దాన్ని విధానంగా మార్చింది.</li>
+<li><strong>అధోముఖ వడపోత సిద్ధాంతం (Downward Filtration)</strong>: కొద్దిమంది ఉన్నత వర్గాలకు ఆంగ్లంలో విద్య ఇస్తే, జ్ఞానం కిందికి ప్రజలకు "వడపోతగా" చేరుతుంది. మెకాలే కాలం దీన్ని అనుసరించింది; <strong>వుడ్స్ డిస్పాచ్ దీన్ని తిరస్కరించింది</strong>.</li>
+<li><strong>సహాయ గ్రాంట్లు (Grants-in-aid)</strong>: ప్రమాణాలు పాటించే ప్రైవేట్ పాఠశాలలకు ప్రభుత్వ నిధులు. వుడ్ (1854) తో మొదలై, హంటర్ (1882) దీన్ని విస్తరించాడు.</li>
+<li><strong>వృథా vs స్తబ్దత</strong> (హార్టాగ్): వృథా = పూర్తిచేయకముందే బడి మానేయడం; స్తబ్దత = ఫెయిలై అదే తరగతిలో ఉండిపోవడం.</li>
+<li><strong>గోఖలే బిల్లు (1911)</strong>: ఉచిత, నిర్బంధ ప్రాథమిక విద్య కోసం గోపాలకృష్ణ గోఖలే బిల్లు. తిరస్కరించబడింది, కానీ ఆ భావన సార్జెంట్ ప్రణాళికలో, చివరికి RTE చట్టం 2009 లో తిరిగి వచ్చింది.</li>
+<li><strong>భారతీయ విశ్వవిద్యాలయాల చట్టం 1904</strong> (లార్డ్ కర్జన్), <strong>రాలీ కమిషన్ (1902)</strong> తర్వాత: విశ్వవిద్యాలయాలపై ప్రభుత్వ నియంత్రణను పెంచింది.</li>
+</ol>
+<h3>6. మినహాయింపులు, గందరగోళ అంశాలు</h3>
+<ul>
+<li><strong>చార్లెస్ వుడ్ ≠ విలియం హంటర్</strong>: వుడ్ = డిస్పాచ్, 1854. హంటర్ = కమిషన్, 1882.</li>
+<li><strong>"మాగ్నాకార్టా"</strong>: ఈ బిరుదు <strong>వుడ్స్ డిస్పాచ్</strong>‌ది, మెకాలే మినిట్‌ది కాదు.</li>
+<li><strong>శాడ్లర్ vs సార్జెంట్</strong>: శాడ్లర్ (1917) = కలకత్తా విశ్వవిద్యాలయం, ఇంటర్మీడియట్ కళాశాలలు. సార్జెంట్ (1944) = నిర్బంధ విద్యకు 40 ఏళ్ల ప్రణాళిక.</li>
+<li><strong>హార్టాగ్</strong> సైమన్ కమిషన్‌కు అనుబంధ కమిటీ; దాని దృష్టి విస్తరణపై కాదు, <em>నాణ్యత</em> (వృథా, స్తబ్దత) పై.</li>
+<li><strong>వార్ధా ప్రణాళిక వయసు</strong>: 7 నుంచి 14 (7 ఏళ్లు). సార్జెంట్ ప్రణాళిక నిర్బంధ వయసు 6 నుంచి 14.</li>
+</ul>
+<h3>7. ఇతర అంశాలతో సంబంధం</h3>
+<ul>
+<li><strong>ఆధునిక చరిత్ర</strong>: రిప్పన్ (స్థానిక స్వపరిపాలన) → హంటర్ కమిషన్ పాఠశాలలను స్థానిక బోర్డులకు ఇచ్చింది. కర్జన్ → విశ్వవిద్యాలయాల చట్టం 1904 (బెంగాల్ విభజన 1905 కూడా). గాంధీ → నయీ తాలీం.</li>
+<li><strong>పాలిటీ</strong>: ఉచిత, నిర్బంధ విద్య అనే గోఖలే కల <strong>ఆర్టికల్ 45</strong> (ఆదేశిక సూత్రం) గా, తర్వాత <strong>ఆర్టికల్ 21A</strong>, RTE చట్టం 2009 గా మారింది.</li>
+<li><strong>మనోవిజ్ఞానం, బోధనా పద్ధతులు</strong>: ప్రాథమిక విద్యలోని "చేస్తూ నేర్చుకోవడం" <strong>ప్రాజెక్టు పద్ధతి</strong>, <strong>కృత్యాధార అభ్యసనం</strong>తో సరిపోతుంది.</li>
+</ul>
+<h3>8. జ్ఞాపక సూత్రం</h3>
+<p><strong>సంవత్సరాలతో కథ:</strong> "<strong>1813</strong> లో కంపెనీ పర్సు తెరిచింది (₹1 లక్ష). <strong>1835</strong> లో మెకాలే ఆంగ్లం ఎంచుకున్నాడు. <strong>1854</strong> లో వుడ్ మాగ్నాకార్టా రాశాడు. <strong>1882</strong> లో హంటర్ బడులను పంచాయతీకి ఇచ్చాడు. <strong>1917</strong> లో శాడ్లర్ ఇంటర్ కళాశాలలు కట్టాడు. <strong>1929</strong> లో హార్టాగ్ పిల్లలు బడి మానేయడం, ఉండిపోవడం చూశాడు. <strong>1937</strong> లో గాంధీ వార్ధాలో వారికి రాట్నం ఇచ్చాడు. <strong>1944</strong> లో సార్జెంట్ ప్రతి పిల్లవాడినీ చేరడానికి 40 ఏళ్లు ఇచ్చాడు."</p>
+<p>క్రమ సూత్రం: <strong>చా-మె-వు-హం-శా-హా-వా-సా</strong> → "<strong>చా</strong>యి <strong>మె</strong>చ్చిన <strong>వు</strong>డ్, <strong>హం</strong>టర్‌తో <strong>శా</strong>డ్లర్, <strong>హా</strong>ర్టాగ్ <strong>వా</strong>ర్ధా <strong>సా</strong>ర్జెంట్".</p>
+<h3>9. మీ అవగాహనను పరీక్షించుకోండి</h3>
+<p><strong>స్వీయ జ్ఞాపకం:</strong></p>
+<ol>
+<li>వుడ్స్ డిస్పాచ్‌ను ఆంగ్ల విద్యకు మాగ్నాకార్టా అని ఎందుకు అంటారు? మూడు సిఫార్సులు చెప్పండి.</li>
+<li>వృథా, స్తబ్దత మధ్య తేడా ఏమిటి?</li>
+<li>గాంధీ ప్రాథమిక విద్యలోని నాలుగు లక్షణాలు చెప్పండి.</li>
+</ol>
+<div class="quiz" id="quiz-t2"><h4>త్వరిత పరీక్ష: 5 ప్రశ్నలు</h4><p class="hint">మీ జవాబు సరిచూసుకోవడానికి ఒక ఆప్షన్‌ను నొక్కండి.</p><div class="mcq" data-a="2"><div class="stem"><span class="n">1.</span>కింది వాటిని కాలక్రమంలో అమర్చండి:<ol class="stm"><li>హంటర్ కమిషన్</li><li>వుడ్స్ డిస్పాచ్</li><li>శాడ్లర్ కమిషన్</li><li>హార్టాగ్ కమిటీ</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, ii, iii, iv</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>ii, i, iii, iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>ii, i, iv, iii</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>ii, iii, i, iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> హంటర్ (1882) వుడ్స్ డిస్పాచ్ (1854) తర్వాత వచ్చింది.</li><li class="c"><b>2.</b> సరైనది. వుడ్స్ డిస్పాచ్ 1854 → హంటర్ 1882 → శాడ్లర్ 1917 → హార్టాగ్ 1929.</li><li class=""><b>3.</b> హార్టాగ్ (1929) శాడ్లర్ (1917) తర్వాత.</li><li class=""><b>4.</b> శాడ్లర్ (1917) హంటర్ (1882) తర్వాత.</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">2.</span>వుడ్స్ డిస్పాచ్ (1854) గురించి కింది వాటిలో సరైన ప్రవచనాలు ఏవి?<ol class="stm"><li>దీనిని భారతదేశంలో ఆంగ్ల విద్యకు మాగ్నాకార్టా అంటారు.</li><li>ప్రతి ప్రావిన్సులో ప్రజా బోధనా శాఖను సిఫార్సు చేసింది.</li><li>లండన్ విశ్వవిద్యాలయ నమూనాలో విశ్వవిద్యాలయాలను ప్రతిపాదించింది.</li><li>అధోముఖ వడపోత సిద్ధాంతాన్ని (Downward Filtration) గట్టిగా సమర్థించింది.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, ii మాత్రమే</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i, ii, iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i, ii, iii</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, ii, iii, iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> నిజమైన iii ని వదిలేసింది (కలకత్తా, బొంబాయి, మద్రాసు విశ్వవిద్యాలయాలు, 1857).</li><li class=""><b>2.</b> తప్పైన iv ని కలిపింది: డిస్పాచ్ అధోముఖ వడపోతను తిరస్కరించి ప్రజా విద్యను కోరింది.</li><li class="c"><b>3.</b> సరైనది. i, ii, iii నిజం; iv ఉచ్చు.</li><li class=""><b>4.</b> తప్పైన iv ని కలిపింది.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">3.</span>జాబితా-I ని జాబితా-II తో జతపరచండి:<table class="mt"><thead><tr><th>జాబితా-I</th><th>జాబితా-II</th></tr></thead><tbody><tr><td>i. హంటర్ కమిషన్ (1882)</td><td>a. వృథా, స్తబ్దత</td></tr><tr><td>ii. శాడ్లర్ కమిషన్ (1917)</td><td>b. ప్రాథమిక విద్య స్థానిక బోర్డులకు అప్పగింత</td></tr><tr><td>iii. హార్టాగ్ కమిటీ (1929)</td><td>c. 40 ఏళ్లలో 6-14 వారికి సార్వత్రిక విద్య</td></tr><tr><td>iv. సార్జెంట్ ప్రణాళిక (1944)</td><td>d. ఇంటర్మీడియట్ కళాశాలలు, సెకండరీ బోర్డులు</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-a, ii-d, iii-b, iv-c</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-b, ii-c, iii-a, iv-d</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-b, ii-d, iii-c, iv-a</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-b, ii-d, iii-a, iv-c</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> హంటర్, హార్టాగ్ తారుమారు.</li><li class=""><b>2.</b> శాడ్లర్, సార్జెంట్ తారుమారు.</li><li class=""><b>3.</b> హార్టాగ్, సార్జెంట్ తారుమారు.</li><li class="c"><b>4.</b> సరైనది. హంటర్ → స్థానిక బోర్డులు; శాడ్లర్ → ఇంటర్ కళాశాలలు; హార్టాగ్ → వృథా, స్తబ్దత; సార్జెంట్ → 40 ఏళ్ల ప్రణాళిక.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">4.</span><b>ప్రతిపాదన (A):</b> వార్ధా ప్రణాళిక (1937) ఉత్పాదక చేతివృత్తిని విద్యకు కేంద్రంగా చేసింది.<br><b>కారణం (R):</b> విద్య స్వయం పోషకంగా, గ్రామ జీవితంతో ముడిపడి ఉండాలని గాంధీ కోరుకున్నారు.</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>A, R రెండూ నిజం; A కి R సరైన వివరణ</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>A, R రెండూ నిజం; కానీ A కి R సరైన వివరణ కాదు</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>A నిజం, R తప్పు</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>A తప్పు, R నిజం</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> సరైనది. రెండూ నిజం; చేతివృత్తిని కేంద్రంగా చేయడానికి R యే కారణం (నేర్చుకుంటూ సంపాదించడం, గ్రామ స్వావలంబన).</li><li class=""><b>2.</b> R నిజమే కాదు, A కి అదే అసలు కారణం.</li><li class=""><b>3.</b> R నిజం: స్వయం పోషక విద్యే ముఖ్య భావన.</li><li class=""><b>4.</b> A నిజం: చేతివృత్తి కేంద్రిత అభ్యసనం ప్రాథమిక విద్యకు ముఖ్య లక్షణం.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">5.</span>"మంచి యూరోపియన్ గ్రంథాలయంలోని ఒక్క అర భారత, అరేబియా స్థానిక సాహిత్యం మొత్తానికి సమానం" అని గవర్నర్ జనరల్ కౌన్సిల్ సభ్యుడు ఒక మినిట్‌లో రాశాడు; దాంతో ఉన్నత విద్యకు ఆంగ్లం మాధ్యమమైంది. ఇది దేనికి సంబంధించినది</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>వుడ్స్ డిస్పాచ్, 1854</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>చార్టర్ చట్టం, 1813</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>హంటర్ కమిషన్, 1882</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>మెకాలే మినిట్, 1835</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> వుడ్స్ డిస్పాచ్ లండన్ నుంచి వచ్చిన పత్రం, కౌన్సిల్ సభ్యుడి మినిట్ కాదు.</li><li class=""><b>2.</b> 1813 చార్టర్ చట్టం ₹1 లక్ష మాత్రమే కేటాయించింది; మాధ్యమాన్ని నిర్ణయించలేదు.</li><li class=""><b>3.</b> హంటర్ కమిషన్ దశాబ్దాల తర్వాత ప్రాథమిక విద్యపై పనిచేసింది.</li><li class="c"><b>4.</b> సరైనది. న్యాయ సభ్యుడు టి.బి. మెకాలే 2 ఫిబ్రవరి 1835న మినిట్ రాశాడు; తర్వాత బెంటింక్ తీర్మానం.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>పునశ్చరణ నోట్ (5 వాక్యాలు)</b><br>
+1. 1813 చార్టర్ చట్టం (₹1 లక్ష) → 1835 మెకాలే (ఆంగ్లం; అధోముఖ వడపోత).<br>
+2. 1854 వుడ్స్ డిస్పాచ్: మాగ్నాకార్టా; DPI; విశ్వవిద్యాలయాలు 1857; సహాయ గ్రాంట్లు; అధోముఖ వడపోత తిరస్కరణ.<br>
+3. 1882 హంటర్ (రిప్పన్): ప్రాథమిక విద్య స్థానిక బోర్డులకు. 1902/1904 రాలీ/కర్జన్. 1911 గోఖలే బిల్లు తిరస్కరణ.<br>
+4. 1917 శాడ్లర్: ఇంటర్మీడియట్ కళాశాలలు. 1929 హార్టాగ్: వృథా, స్తబ్దత.<br>
+5. 1937 వార్ధా (గాంధీ, జాకీర్ హుస్సేన్): చేతివృత్తి కేంద్రం, 7–14, మాతృభాష. 1944 సార్జెంట్: 40 ఏళ్లలో 6–14.</div>
+
+<h2 id="s3">అంశం 3: స్వాతంత్ర్యం తర్వాత కమిషన్లు, విధానాలు (1948–1992)</h2>
+<h3>1. ప్రాథమిక భావన</h3>
+<p>1947 తర్వాత స్వతంత్ర భారతదేశం విద్యను స్థాయిలవారీగా పునర్నిర్మించడానికి కమిషన్లను నియమించింది: ముందు విశ్వవిద్యాలయాలు (రాధాకృష్ణన్, 1948), తర్వాత సెకండరీ పాఠశాలలు (మొదలియార్, 1952), తర్వాత మొత్తం వ్యవస్థ (కొఠారి, 1964). వాటి నివేదికలు <strong>జాతీయ విద్యా విధానాలు</strong> (1968, 1986) గా మారాయి; 1986 విధానాన్ని <strong>1992</strong> లో <strong>కార్యాచరణ కార్యక్రమం (POA)</strong> తో సవరించారు.</p>
+<h3>2. ఇది ఎందుకు ఏర్పడింది</h3>
+<p>రాజ్యాంగం పిల్లలకు ఉచిత, నిర్బంధ విద్యను వాగ్దానం చేసింది (ఆర్టికల్ 45). దేశానికి శాస్త్రవేత్తలు, ఉపాధ్యాయులు, నైపుణ్యం ఉన్న కార్మికులు కావాలి; రాష్ట్రాల్లో వేర్వేరు వ్యవస్థల బదులు ఉమ్మడి జాతీయ నిర్మాణం కావాలి. ప్రతి కమిషన్ ఒక స్థాయిని అధ్యయనం చేసింది; జాతీయ విధానాలు వాటి ఆలోచనలను ప్రభుత్వ నిర్ణయాలు, పథకాలుగా మార్చాయి.</p>
+<h3>3. ఇది ఎలా పనిచేసింది</h3>
+<ol class="tl"><li><span class="yr">1948-49</span><b>విశ్వవిద్యాలయ విద్యా కమిషన్</b>: డా. ఎస్. రాధాకృష్ణన్; UGC ఏర్పాటుకు దారి.</li><li><span class="yr">1952-53</span><b>సెకండరీ విద్యా కమిషన్</b>: డా. ఎ. లక్ష్మణస్వామి మొదలియార్; బహుళార్థ పాఠశాలలు.</li><li><span class="yr">1964-66</span><b>కొఠారి కమిషన్</b>: "విద్య, జాతీయాభివృద్ధి"; 10+2+3, ఉమ్మడి పాఠశాల విధానం.</li><li><span class="yr">1968</span><b>జాతీయ విద్యా విధానం 1968</b>: మొదటి జాతీయ విధానం; త్రిభాషా సూత్రం.</li><li><span class="yr">1977</span><b>ఈశ్వరభాయ్ పటేల్ కమిటీ</b>: SUPW (సామాజికంగా ఉపయోగకర ఉత్పాదక పని).</li><li><span class="yr">1986</span><b>జాతీయ విద్యా విధానం 1986</b>: నవోదయ విద్యాలయాలు, ఆపరేషన్ బ్లాక్‌బోర్డ్ (1987), DIET లు.</li><li><span class="yr">1990</span><b>ఆచార్య రామమూర్తి కమిటీ</b>: NPE 1986 సమీక్ష.</li><li><span class="yr">1992</span><b>సవరించిన NPE, కార్యాచరణ కార్యక్రమం (POA)</b>, జనార్ధన రెడ్డి కమిటీ (1991) తర్వాత.</li><li><span class="yr">1993</span><b>యశ్‌పాల్ కమిటీ</b>: "భారం లేని అభ్యసనం" (Learning without Burden).</li></ol>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>సంస్థ</th>
+<th>అధ్యక్షుడు</th>
+<th>స్థాయి</th>
+<th>దేనికి గుర్తుంచుకోవాలి</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>విశ్వవిద్యాలయ విద్యా కమిషన్ (1948–49)</td>
+<td>డా. ఎస్. రాధాకృష్ణన్</td>
+<td>ఉన్నత</td>
+<td>UGC (1953 ఏర్పాటు, 1956 చట్టబద్ధం)</td>
+</tr>
+<tr>
+<td>సెకండరీ విద్యా కమిషన్ (1952–53)</td>
+<td>డా. ఎ. లక్ష్మణస్వామి మొదలియార్</td>
+<td>సెకండరీ</td>
+<td>బహుళార్థ పాఠశాలలు, వైవిధ్యమైన కోర్సులు</td>
+</tr>
+<tr>
+<td>విద్యా కమిషన్ (1964–66)</td>
+<td>డా. డి.ఎస్. కొఠారి</td>
+<td>అన్ని స్థాయిలు</td>
+<td>"విద్య, జాతీయాభివృద్ధి"; 10+2+3; ఉమ్మడి పాఠశాల విధానం; పని అనుభవం; జాతీయ ఆదాయంలో 6%; త్రిభాషా సూత్రం</td>
+</tr>
+<tr>
+<td>NPE 1968</td>
+<td>ఇందిరా గాంధీ ప్రభుత్వం</td>
+<td>అన్నీ</td>
+<td>మొదటి జాతీయ విధానం; కొఠారి ఆధారం</td>
+</tr>
+<tr>
+<td>ఈశ్వరభాయ్ పటేల్ కమిటీ (1977)</td>
+<td>ఈశ్వరభాయ్ పటేల్</td>
+<td>పాఠశాల పాఠ్యప్రణాళిక</td>
+<td>SUPW</td>
+</tr>
+<tr>
+<td>NPE 1986</td>
+<td>రాజీవ్ గాంధీ ప్రభుత్వం</td>
+<td>అన్నీ</td>
+<td>నవోదయ విద్యాలయాలు (1986), ఆపరేషన్ బ్లాక్‌బోర్డ్ (1987), DIET లు, శిశు కేంద్రిత విధానం</td>
+</tr>
+<tr>
+<td>ఆచార్య రామమూర్తి కమిటీ (1990)</td>
+<td>ఆచార్య రామమూర్తి</td>
+<td>సమీక్ష</td>
+<td>NPE 1986 సమీక్ష</td>
+</tr>
+<tr>
+<td>సవరించిన NPE + POA (1992)</td>
+<td>జనార్ధన రెడ్డి కమిటీ (1991) తర్వాత</td>
+<td>అన్నీ</td>
+<td>NPE 1986 అమలు ప్రణాళిక</td>
+</tr>
+</tbody>
+</table></div>
+<h3>4. నిత్యజీవిత ఉదాహరణ</h3>
+<p>వరద తర్వాత మూడంతస్తుల ఇల్లు కట్టడం ఊహించుకోండి. ముందు పై అంతస్తు బాగుచేస్తారు (విశ్వవిద్యాలయాలు, 1948), తర్వాత మధ్య అంతస్తు (సెకండరీ, 1952), తర్వాత మొత్తం ఇంటిని పునఃరూపకల్పన చేయడానికి ఇంజనీర్‌ను పిలుస్తారు (కొఠారి, 1964). ఇంజనీర్ ప్లాన్ అధికారిక ఇంటి ప్లాన్ అవుతుంది (NPE 1968). ఇరవై ఏళ్ల తర్వాత మరమ్మతులు చేస్తారు (NPE 1986), పనిని తనిఖీ చేస్తారు (రామమూర్తి, 1990), దశలవారీ పని షెడ్యూల్ రాస్తారు (POA 1992).</p>
+<h3>5. కష్టమైన భాగాలను విడదీద్దాం</h3>
+<ol>
+<li><strong>బహుళార్థ పాఠశాలలు</strong> (మొదలియార్): ఒకే పాఠశాలలో పలు స్రవంతులు (విద్యా, సాంకేతిక, వ్యవసాయ, వాణిజ్య), విద్యార్థులు ఆసక్తిని బట్టి ఎంచుకోవచ్చు.</li>
+<li><strong>ఉమ్మడి పాఠశాల విధానం</strong> (కొఠారి): కుటుంబ ఆదాయం, కులంతో సంబంధం లేకుండా ఒక ప్రాంతంలోని పిల్లలందరూ ఒకే ప్రభుత్వ పాఠశాలకు వెళ్లడం. ఇది సమానత్వాన్ని పెంచుతుంది.</li>
+<li><strong>10+2+3</strong> (కొఠారి): 10 ఏళ్ల సాధారణ పాఠశాల, 2 ఏళ్ల ఉన్నత సెకండరీ, 3 ఏళ్ల డిగ్రీ. ఇప్పటికీ చాలా డిగ్రీ కోర్సులకు ఇదే ఆధారం; కానీ NEP 2020 పాఠశాల దశలను 5+3+3+4 గా మార్చింది.</li>
+<li><strong>త్రిభాషా సూత్రం</strong> (కొఠారి; NPE 1968): మాతృభాష లేదా ప్రాంతీయ భాష, హిందీ, ఆంగ్లం (హిందీ రాష్ట్రాల్లో హిందీ బదులు మరో ఆధునిక భారతీయ భాష).</li>
+<li><strong>జాతీయ ఆదాయంలో 6%</strong>: విద్యపై కొఠారి ఖర్చు లక్ష్యం; NPE 1968, 1986, NEP 2020 (GDP లో 6% గా) లో పునరావృతమైంది.</li>
+<li><strong>ఆపరేషన్ బ్లాక్‌బోర్డ్ (1987)</strong>: ప్రతి ప్రాథమిక పాఠశాలకు కనీస సౌకర్యాలు: కనీసం రెండు గదులు, ఇద్దరు ఉపాధ్యాయులు (వీలైతే ఒకరు మహిళ), ప్రాథమిక బోధనోపకరణాలు.</li>
+<li><strong>DIET</strong>: జిల్లా విద్యా శిక్షణ సంస్థ; జిల్లా స్థాయిలో ప్రాథమిక ఉపాధ్యాయుల శిక్షణ కోసం.</li>
+<li><strong>నవోదయ విద్యాలయాలు</strong>: ప్రతిభావంతులైన గ్రామీణ పిల్లలకు జిల్లాకు ఒకటి చొప్పున ఉచిత గురుకుల పాఠశాలలు.</li>
+<li><strong>కొఠారి మొదటి వాక్యం</strong>: "భారతదేశ భవిష్యత్తు ఇప్పుడు ఆమె తరగతి గదుల్లో రూపొందుతోంది" (The destiny of India is now being shaped in her classrooms).</li>
+</ol>
+<h3>6. మినహాయింపులు, గందరగోళ అంశాలు</h3>
+<ul>
+<li><strong>రాధాకృష్ణన్ = విశ్వవిద్యాలయాలు</strong>, <strong>మొదలియార్ = సెకండరీ</strong>. పరీక్షల్లో అతి సాధారణ తారుమారు ఇదే.</li>
+<li><strong>కొఠారి కమిషన్</strong> అధికారిక పేరు "విద్యా కమిషన్" (కొన్నిసార్లు "జాతీయ విద్యా కమిషన్"). దాని నివేదిక <strong>"విద్య, జాతీయాభివృద్ధి" (1966)</strong>.</li>
+<li><strong>NPE 1968 vs NPE 1986</strong>: 1968 మొదటి విధానం (ఇందిరా గాంధీ); 1986 నవోదయ, ఆపరేషన్ బ్లాక్‌బోర్డ్, DIET లు తెచ్చింది (రాజీవ్ గాంధీ).</li>
+<li><strong>1992 కొత్త విధానం కాదు</strong>: అది NPE 1986 యొక్క <em>సవరణ</em>, దానితో పాటు కార్యాచరణ కార్యక్రమం.</li>
+<li><strong>SUPW</strong> ఈశ్వరభాయ్ పటేల్ కమిటీ (1977) నుంచి వచ్చింది, కొఠారి నుంచి కాదు; కొఠారి పదం "పని అనుభవం" (work experience).</li>
+<li><strong>"భారం లేని అభ్యసనం" (1993)</strong> బరువైన స్కూల్ బ్యాగులు, బట్టీ విధానంపై <strong>యశ్‌పాల్ కమిటీ</strong> నుంచి వచ్చింది.</li>
+</ul>
+<h3>7. ఇతర అంశాలతో సంబంధం</h3>
+<ul>
+<li><strong>పాలిటీ</strong>: 42వ సవరణ (1976) విద్యను రాష్ట్ర జాబితా నుంచి <strong>ఉమ్మడి జాబితాకు</strong> మార్చింది. అందుకే కేంద్రం, రాష్ట్రాలు రెండూ విద్యా విధానం చేస్తాయి.</li>
+<li><strong>NEP 2020</strong>: NPE 1986 స్థానంలో వచ్చింది; 6% లక్ష్యాన్ని కొనసాగించింది; 10+2 స్థానంలో 5+3+3+4 తెచ్చింది.</li>
+<li><strong>2వ రోజు (సమకాలీన అంశాలు)</strong>: ఈ విధానాల నుంచి పుట్టిన పథకాలు (ఆపరేషన్ బ్లాక్‌బోర్డ్, DPEP, SSA, సమగ్ర శిక్ష).</li>
+<li><strong>బోధనా పద్ధతులు</strong>: ఈశ్వరభాయ్ పటేల్ SUPW, కొఠారి పని అనుభవం కృత్యాధార, ప్రాజెక్టు అభ్యసనంతో ముడిపడి ఉన్నాయి.</li>
+</ul>
+<h3>8. జ్ఞాపక సూత్రం</h3>
+<p><strong>స్థాయి నిచ్చెన: "వి-సె-అ"</strong> కాలక్రమంలో. <strong>వి</strong>శ్వవిద్యాలయం (రాధాకృష్ణన్, 1948) → <strong>సె</strong>కండరీ (మొదలియార్, 1952) → <strong>అ</strong>న్ని స్థాయిలు (కొఠారి, 1964).</p>
+<p><strong>విధానాలకు సంఖ్యా గొలుసు: 68 → 86.</strong> అంకెలు తిరగబడతాయి: NPE 1968 → NPE 1986. సవరణ, POA కోసం ఆరు ఏళ్లు కలపండి: 1986 + 6 = 1992.</p>
+<p><strong>కొఠారి "10-2-3-6-3" కోడ్</strong>: 10+2+3 నిర్మాణం, 6% ఖర్చు, 3 భాషల సూత్రం.</p>
+<h3>9. మీ అవగాహనను పరీక్షించుకోండి</h3>
+<p><strong>స్వీయ జ్ఞాపకం:</strong></p>
+<ol>
+<li>రాధాకృష్ణన్, మొదలియార్, కొఠారి: ఏ కమిషన్ ఏ స్థాయిపై పనిచేసింది?</li>
+<li>కొఠారి కమిషన్ నాలుగు సిఫార్సులు చెప్పండి.</li>
+<li>NPE 1986 మూడు ఫలితాలు చెప్పండి.</li>
+</ol>
+<div class="quiz" id="quiz-t3"><h4>త్వరిత పరీక్ష: 5 ప్రశ్నలు</h4><p class="hint">మీ జవాబు సరిచూసుకోవడానికి ఒక ఆప్షన్‌ను నొక్కండి.</p><div class="mcq" data-a="3"><div class="stem"><span class="n">1.</span>జాబితా-I ని జాబితా-II తో జతపరచండి:<table class="mt"><thead><tr><th>జాబితా-I</th><th>జాబితా-II</th></tr></thead><tbody><tr><td>i. రాధాకృష్ణన్ కమిషన్</td><td>a. సెకండరీ విద్య, బహుళార్థ పాఠశాలలు</td></tr><tr><td>ii. మొదలియార్ కమిషన్</td><td>b. విశ్వవిద్యాలయ (ఉన్నత) విద్య</td></tr><tr><td>iii. కొఠారి కమిషన్</td><td>c. ఆపరేషన్ బ్లాక్‌బోర్డ్</td></tr><tr><td>iv. NPE 1986</td><td>d. 10+2+3, ఉమ్మడి పాఠశాల విధానం</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-a, ii-b, iii-d, iv-c</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-b, ii-a, iii-c, iv-d</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-b, ii-a, iii-d, iv-c</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-d, ii-a, iii-b, iv-c</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> రాధాకృష్ణన్ (విశ్వవిద్యాలయ), మొదలియార్ (సెకండరీ) తారుమారు: సాధారణ ఉచ్చు.</li><li class=""><b>2.</b> కొఠారి, NPE 1986 తారుమారు.</li><li class="c"><b>3.</b> సరైనది. రాధాకృష్ణన్ → విశ్వవిద్యాలయ; మొదలియార్ → సెకండరీ; కొఠారి → 10+2+3; NPE 1986 → ఆపరేషన్ బ్లాక్‌బోర్డ్.</li><li class=""><b>4.</b> 10+2+3 ని రాధాకృష్ణన్‌కు పెట్టింది; అది కొఠారిది.</li></ul></div></div><div class="mcq" data-a="2"><div class="stem"><span class="n">2.</span>కొఠారి కమిషన్ గురించి కింది వాటిలో సరైన ప్రవచనాలు ఏవి?<ol class="stm"><li>దాని నివేదిక పేరు "విద్య, జాతీయాభివృద్ధి" (Education and National Development).</li><li>విద్యపై జాతీయ ఆదాయంలో 6% ఖర్చు చేయాలని సిఫార్సు చేసింది.</li><li>దీనికి ఎ. లక్ష్మణస్వామి మొదలియార్ అధ్యక్షత వహించారు.</li><li>త్రిభాషా సూత్రం, పని అనుభవాన్ని సిఫార్సు చేసింది.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, ii, iii</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i, ii, iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>ii, iii, iv</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, iv మాత్రమే</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> iii ని కలిపింది: మొదలియార్ సెకండరీ విద్యా కమిషన్ (1952-53) అధ్యక్షుడు; కొఠారి కమిషన్‌కు డి.ఎస్. కొఠారి అధ్యక్షుడు.</li><li class="c"><b>2.</b> సరైనది. i, ii, iv నిజం.</li><li class=""><b>3.</b> తప్పైన iii ని కలిపింది.</li><li class=""><b>4.</b> నిజమైన ii (6% లక్ష్యం) ని వదిలేసింది.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">3.</span>కింది వాటిని కాలక్రమంలో అమర్చండి:<ol class="stm"><li>జాతీయ విద్యా విధానం 1968</li><li>ఈశ్వరభాయ్ పటేల్ కమిటీ</li><li>ఆచార్య రామమూర్తి కమిటీ</li><li>కార్యాచరణ కార్యక్రమం (POA)</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, ii, iii, iv</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>ii, i, iii, iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i, iii, ii, iv</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, ii, iv, iii</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> సరైనది. 1968 → 1977 → 1990 → 1992.</li><li class=""><b>2.</b> పటేల్ కమిటీ (1977) NPE 1968 తర్వాత.</li><li class=""><b>3.</b> రామమూర్తి (1990) పటేల్ (1977) తర్వాత.</li><li class=""><b>4.</b> POA (1992) రామమూర్తి సమీక్ష (1990) తర్వాత.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">4.</span>కింది వాటిలో తప్పు ప్రవచనం ఏది?</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>NPE 1986 నవోదయ విద్యాలయాల ఏర్పాటుకు దారితీసింది.</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>NPE 1986 తర్వాత జిల్లా విద్యా శిక్షణ సంస్థలు (DIETs) ఏర్పడ్డాయి.</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>స్వతంత్ర భారతదేశపు మొదటి జాతీయ విద్యా విధానం NPE 1968.</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>కార్యాచరణ కార్యక్రమం 1992, 10+2+3 స్థానంలో 5+3+3+4 ను ప్రవేశపెట్టింది.</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> నిజం: NPE 1986 కింద 1986లో నవోదయ విద్యాలయాలు మొదలయ్యాయి.</li><li class=""><b>2.</b> నిజం: DIET లు NPE 1986 ముఖ్య ఉపాధ్యాయ విద్యా సంస్కరణ.</li><li class=""><b>3.</b> నిజం: కొఠారి కమిషన్ ఆధారంగా వచ్చిన మొదటి విధానం NPE 1968.</li><li class="c"><b>4.</b> తప్పు, కాబట్టి ఇదే జవాబు. 5+3+3+4 NEP 2020 తో వచ్చింది, POA 1992 తో కాదు.</li></ul></div></div><div class="mcq" data-a="2"><div class="stem"><span class="n">5.</span>బరువైన స్కూల్ బ్యాగులు, అతిగా బట్టీ పట్టడం పిల్లలను అసంతోషంగా ఉంచుతున్నాయని ఒక కమిటీ గుర్తించి, తేలికైన సిలబస్, ఆనందకర అభ్యసనాన్ని సిఫార్సు చేసింది. ఆ కమిటీ</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>కొఠారి కమిషన్</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>యశ్‌పాల్ కమిటీ</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>మొదలియార్ కమిషన్</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>ఆచార్య రామమూర్తి కమిటీ</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> కొఠారి మొత్తం వ్యవస్థపై (10+2+3, జాతీయ ఆదాయంలో 6%) పనిచేసింది, బ్యాగు బరువుపై కాదు.</li><li class="c"><b>2.</b> సరైనది. యశ్‌పాల్ కమిటీ నివేదిక "భారం లేని అభ్యసనం" (1993).</li><li class=""><b>3.</b> మొదలియార్ సెకండరీ విద్యా నిర్మాణంపై (1952-53).</li><li class=""><b>4.</b> రామమూర్తి NPE 1986 ను సమీక్షించింది (1990); "భారం లేని అభ్యసనం" యశ్‌పాల్‌ది.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>పునశ్చరణ నోట్ (5 వాక్యాలు)</b><br>
+1. 1948–49 రాధాకృష్ణన్ (విశ్వవిద్యాలయాలు → UGC); 1952–53 మొదలియార్ (సెకండరీ; బహుళార్థ పాఠశాలలు).<br>
+2. 1964–66 కొఠారి: "విద్య, జాతీయాభివృద్ధి"; 10+2+3; ఉమ్మడి పాఠశాల; పని అనుభవం; 6%; మూడు భాషలు.<br>
+3. NPE 1968 = మొదటి విధానం (కొఠారి ఆధారం). 1977 ఈశ్వరభాయ్ పటేల్ = SUPW.<br>
+4. NPE 1986: నవోదయ (1986), ఆపరేషన్ బ్లాక్‌బోర్డ్ (1987), DIET లు.<br>
+5. 1990 రామమూర్తి సమీక్ష → 1991 జనార్ధన రెడ్డి → 1992 సవరించిన NPE + POA; 1993 యశ్‌పాల్ "భారం లేని అభ్యసనం".</div>
+
+<h2 id="s4">నోట్‌బుక్ పేజీ: 1వ రోజు</h2>
+<p>ఈ పేజీని మూసి, కింది వాటిని <strong>జ్ఞాపకం నుంచి</strong> ఈ క్రమంలో మీ నోట్‌బుక్‌లో రాయండి. తర్వాత పేజీ తెరిచి సరిగా రాసినవాటికి టిక్ పెట్టండి; వదిలినవాటిని వేరే రంగులో పూరించండి.</p>
+<ol>
+<li>నాలుగు సంప్రదాయాల పట్టిక: వైదిక / బౌద్ధ / జైన / ఇస్లామిక్ → ప్రదేశం, మొదలు–ముగింపు సంస్కారం, పద్ధతి, భాష.</li>
+<li>స్థాపకుడు లేదా వంశంతో ఐదు కేంద్రాలు: తక్షశిల, నలంద (కుమారగుప్తుడు-I), విక్రమశిల (ధర్మపాలుడు), వల్లభి (మైత్రకులు), నాగార్జునకొండ (ఇక్ష్వాకులు, AP).</li>
+<li>వైదిక దశలు: శ్రవణం → మననం → నిదిధ్యాసనం; ఉపనయనం, సమావర్తనం అర్థాలు.</li>
+<li>స్వాతంత్ర్యానికి ముందు కాలరేఖ: 1813, 1835, 1854, 1882, 1902/04, 1911, 1917, 1929, 1937, 1944, ఒక్కోదానికి ఒక ముఖ్య అంశం.</li>
+<li>వుడ్స్ డిస్పాచ్: ఐదు సిఫార్సులు, "అధోముఖ వడపోత తిరస్కరణ".</li>
+<li>హార్టాగ్: వృథా, స్తబ్దత నిర్వచనాలు.</li>
+<li>వార్ధా ప్రణాళిక: నాలుగు లక్షణాలు (చేతివృత్తి కేంద్రం, 7–14, మాతృభాష, స్వయం పోషకం) + జాకీర్ హుస్సేన్ కమిటీ.</li>
+<li>స్వాతంత్ర్యం తర్వాత పట్టిక: రాధాకృష్ణన్ / మొదలియార్ / కొఠారి / NPE 1968 / పటేల్ 1977 / NPE 1986 / రామమూర్తి 1990 / POA 1992 / యశ్‌పాల్ 1993.</li>
+<li>కొఠారి "10-2-3-6-3" కోడ్‌ను పూర్తిగా రాయండి.</li>
+<li>NPE 1986 మూడు ఫలితాలు: నవోదయ, ఆపరేషన్ బ్లాక్‌బోర్డ్, DIET లు.</li>
+</ol>
+<h2 id="s5">ఆధారాలు</h2>
+<ul>
+<li>పాఠశాల విద్యా సంచాలకత్వం, ఆంధ్రప్రదేశ్: <a href="https://apdsc2024.apcfss.in/Documents/MEGA_DSC_2024_Suggestive_Syllabus-27-11-2024.pdf">మెగా DSC 2024 సూచనాత్మక సిలబస్</a> (విద్యా దృక్పథాల యూనిట్ జాబితా; 9 నవంబర్ 2026న సరిచూసినది).</li>
+<li>పాఠశాల విద్యా సంచాలకత్వం, ఆంధ్రప్రదేశ్: 5 నవంబర్ 2026 నాటి AP DSC-2026 నోటిఫికేషన్, <a href="https://images.assettype.com/edexlive/2026-11-05/gfb2hrs8/School_Education_Notification.pdf">ది న్యూ ఇండియన్ ఎక్స్‌ప్రెస్ / ఎడెక్స్‌లైవ్</a> ప్రచురించినది (9 నవంబర్ 2026న సరిచూసినది).</li>
+<li>AP DSC SGT ప్రశ్నాపత్రం, 19 జూన్ 2025, షిఫ్ట్ 1 (విభాగం II), మీరు అందించినది.</li>
+<li>ఫోటోలు: వికీమీడియా కామన్స్ (ప్రతి ఫైల్ పేజీలో క్రెడిట్, లైసెన్స్).</li>
+</ul>
+<footer>సులభం · AP DSC-2026 (APTRT) SGT · విద్యా దృక్పథాలు. అధికారిక SCERT సిలబస్, AP DSC-2026 నోటిఫికేషన్‌తో సరిచూసినది; పథకాల వివరాలు నవంబర్ 2026 నాటివి.</footer>
+</main>
+<script>
+(function(){
+var T={"right": "సరైనది!", "wrong": "కాదు. సరైన జవాబు:", "score": "మీ స్కోరు"};
+document.querySelectorAll('.quiz').forEach(function(qz){
+  var mcqs=qz.querySelectorAll('.mcq'), done=0, ok=0;
+  mcqs.forEach(function(m){
+    var a=m.getAttribute('data-a');
+    m.querySelectorAll('button.opt').forEach(function(b){
+      b.addEventListener('click',function(){
+        if(m.classList.contains('done'))return;
+        m.classList.add('done');
+        var right=b.getAttribute('data-o')===a;
+        b.classList.add(right?'ok':'bad');
+        m.querySelector('button.opt[data-o="'+a+'"]').classList.add('ok');
+        m.querySelectorAll('button.opt').forEach(function(x){x.setAttribute('aria-disabled','true');});
+        m.querySelector('.verdict').textContent=right?T.right:(T.wrong+' '+a);
+        done++; if(right)ok++;
+        if(done===mcqs.length){qz.querySelector('.qscore').textContent=T.score+': '+ok+' / '+mcqs.length;}
+      });
+    });
+  });
+});
+})();
+</script>
+</body></html>

@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="te"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>విద్యా మనోవిజ్ఞాన శాస్త్రం, 2వ రోజు: వైయక్తిక భేదాలు</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf8f3;--paper:#fff;--ink:#2b2118;--muted:#6f6254;--rule:#e6ddd0;--accent:#8a4b1f;--tint:#f4e9dc;--th:#f1e6d8}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1713;--paper:#231e19;--ink:#efe6da;--muted:#b3a593;--rule:#3a322a;--accent:#e0a36f;--tint:#3a2b1e;--th:#2e2620}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Noto Sans","Noto Sans Telugu",system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+header.top{border-bottom:3px solid var(--accent);margin-bottom:8px}
+h1{font-size:1.75rem;line-height:1.25;margin:8px 0 4px;color:var(--accent)}
+h1+p em{color:var(--muted);font-style:normal;font-size:.9rem}
+h2{font-size:1.35rem;margin:40px 0 10px;padding:8px 12px;background:var(--tint);border-left:5px solid var(--accent);border-radius:4px}
+h3{font-size:1.1rem;margin:26px 0 8px;color:var(--accent)}
+p{margin:8px 0}
+ul,ol{padding-left:24px;margin:8px 0}
+li{margin:4px 0}
+strong{color:var(--ink)}
+.tbl{overflow-x:auto;margin:12px 0;border:1px solid var(--rule);border-radius:8px;background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:.94rem}
+th,td{padding:8px 10px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+th{background:var(--th);font-weight:600}
+tr:last-child td{border-bottom:0}
+.formula{margin:12px 0;padding:12px 16px;background:var(--paper);border:1px dashed var(--accent);border-radius:8px;font-weight:600;text-align:center}
+nav.toc{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:12px 16px;margin:16px 0}
+nav.toc b{display:block;margin-bottom:6px}
+nav.toc a{color:var(--accent);text-decoration:none}
+nav.toc ol{margin:0}
+figure.diagram{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:8px;color:var(--muted)}
+figure.diagram{overflow-x:auto;-webkit-overflow-scrolling:touch}
+figure.diagram svg{width:100%;min-width:600px;height:auto;display:block}
+figcaption{font-size:.85rem;color:var(--muted);text-align:center;padding:4px}
+svg .t{font-size:15px;font-weight:600;fill:var(--ink)}
+svg .n{font-size:12.5px;font-weight:600;fill:var(--ink)}
+svg .b{font-size:11.5px;fill:var(--ink)}
+svg .q{font-size:11.5px;fill:var(--muted)}
+svg .box{fill:none;stroke:var(--muted);stroke-width:1.25}
+svg .box.hi{fill:var(--tint);stroke:var(--accent);stroke-width:2}
+svg .ln{stroke:var(--muted);stroke-width:1.25;fill:none}
+details.ans{margin:16px 0;background:var(--paper);border:1px solid var(--accent);border-radius:8px;padding:10px 14px}
+details.ans summary{cursor:pointer;font-weight:600;color:var(--accent)}
+.key{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px;margin-top:10px}
+.key span{background:var(--tint);border-radius:6px;padding:4px;text-align:center;font-weight:600}
+.lang-switch{display:inline-block;margin:4px 0 12px;padding:6px 14px;border:1px solid var(--accent);border-radius:999px;color:var(--accent);text-decoration:none;font-weight:600;font-size:.9rem}
+.lang-switch:hover{background:var(--tint)}
+footer{margin-top:48px;font-size:.85rem;color:var(--muted);border-top:1px solid var(--rule);padding-top:12px}
+@media print{body{background:#fff;font-size:11pt}main{max-width:none;padding:0}h2{break-after:avoid}nav.toc{display:none}details.ans{display:block}details.ans>*{display:block}@page{size:A4;margin:14mm}}
+
+figure.photo{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:10px;overflow:hidden}
+figure.photo img{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;background:var(--tint)}
+figure.photo figcaption{padding:8px 12px;font-size:.86rem;color:var(--muted);text-align:left}
+figure.photo figcaption a{color:var(--accent)}
+ol.tl{list-style:none;padding:0 0 0 22px;margin:14px 0;border-left:3px solid var(--accent)}
+ol.tl li{position:relative;margin:0 0 12px;padding-left:10px}
+ol.tl li::before{content:"";position:absolute;left:-31px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--paper);border:3px solid var(--accent)}
+ol.tl .yr{font-weight:700;color:var(--accent);margin-right:6px}
+h3{border-bottom:1px dashed var(--rule);padding-bottom:4px}
+.box{background:var(--paper);border:1px solid var(--rule);border-left:5px solid var(--accent);border-radius:8px;padding:10px 14px;margin:12px 0}
+.quiz{background:var(--paper);border:2px solid var(--accent);border-radius:12px;padding:12px 14px;margin:18px 0}
+.quiz h4{margin:0 0 4px;color:var(--accent);font-size:1.05rem}
+.quiz .hint{margin:0 0 8px;color:var(--muted);font-size:.88rem}
+.mcq{border-top:1px solid var(--rule);padding:12px 0}
+.mcq .stem{margin-bottom:8px}
+.mcq .n{color:var(--accent);font-weight:700;margin-right:6px}
+.mcq ol.stm{list-style:lower-roman;margin:6px 0;padding-left:30px}
+.mcq table.mt{border-collapse:collapse;margin:8px 0;width:100%;font-size:.93rem}
+.mcq table.mt th,.mcq table.mt td{border:1px solid var(--rule);padding:6px 8px;text-align:left}
+.mcq table.mt th{background:var(--th)}
+.opts{display:grid;gap:6px}
+button.opt{all:unset;box-sizing:border-box;display:flex;gap:10px;width:100%;padding:9px 12px;border:1px solid var(--rule);border-radius:8px;cursor:pointer;color:var(--ink);background:var(--bg)}
+button.opt:hover,button.opt:focus-visible{background:var(--tint);outline:2px solid var(--accent);outline-offset:1px}
+button.opt .k{font-weight:700;min-width:20px}
+.mcq.done button.opt{cursor:default}
+button.opt.ok{border-color:#2e7d32;background:rgba(46,125,50,.14)}
+button.opt.bad{border-color:#c62828;background:rgba(198,40,40,.12)}
+.why{display:none;margin-top:8px;padding:8px 12px;background:var(--tint);border-radius:6px;font-size:.92rem}
+.mcq.done .why{display:block}
+.why .verdict{font-weight:700;margin:0 0 4px}
+.why ul{margin:4px 0;padding-left:18px}
+.why li.c{font-weight:600}
+.qscore{font-weight:700;color:var(--accent);margin-top:6px}
+@media print{.why{display:block}button.opt{border:1px solid #999}}
+</style><noscript><style>.why{display:block}</style></noscript></head>
+<body><main>
+<header class="top"><h1>విద్యా మనోవిజ్ఞాన శాస్త్రం, 2వ రోజు: వైయక్తిక భేదాలు</h1><a class="lang-switch" href="dsc-sgt-psychology-day2.html" hreflang="en">Read in English</a></header>
+<p><em>AP DSC-2026 (APTRT) · SGT · భాగం III: విద్యా మనోవిజ్ఞాన శాస్త్రం · 4 యూనిట్లలో 2వది</em></p>
+<p>2వ రోజు సిలబస్‌లోని రెండో యూనిట్ "వైయక్తిక భేదాలు" ను రెండు అంశాలుగా (అంశాలు 3, 4) చదువుతాం. అదే క్రమం: తొమ్మిది దశలు చదవండి, గుర్తుచేసుకోండి, త్వరిత పరీక్ష, చివర్లో నోట్‌బుక్ పేజీ.</p>
+<div class="box"><b>పరీక్షతో సంబంధం:</b> 19 జూన్ 2025 పేపర్‌లో "శిక్షణ పొందగల" బుద్ధిమాంద్యం, థార్న్‌డైక్ CAVD పరీక్ష, గోల్‌మన్ ఉద్వేగ ప్రజ్ఞ అంశాలు, వక్తృత్వ పోటీ సన్నివేశం (భాషా ప్రజ్ఞ), మెహ్రాన్ వైఖరి నిర్వచనం అడిగారు. అన్నీ ఇక్కడ ఉన్నాయి.</div>
+
+<nav class="toc"><b>విషయ సూచిక</b><ol><li><a href="#s1">అంశం 3: వైయక్తిక భేదాలు, ప్రజ్ఞ</a></li><li><a href="#s2">అంశం 4: ఉద్వేగ ప్రజ్ఞ, సృజనాత్మకత, సహజ సామర్థ్యం, వైఖరి, అభిరుచి, అలవాటు</a></li><li><a href="#s3">నోట్‌బుక్ పేజీ: 2వ రోజు</a></li><li><a href="#s4">ఆధారాలు</a></li></ol></nav><h2 id="s1">అంశం 3: వైయక్తిక భేదాలు, ప్రజ్ఞ</h2>
+<h3>1. ప్రాథమిక భావన</h3>
+<p>ఏ ఇద్దరు పిల్లలూ ఒకేలా ఉండరు, కవలలు కూడా. <strong>వైయక్తిక భేదాలు</strong> (Individual differences) అంటే సామర్థ్యాలు, అభిరుచులు, ప్రవర్తనలో వ్యక్తుల మధ్య, ఒకే వ్యక్తిలోనూ ఉండే తేడాలు. <strong>ప్రజ్ఞ</strong> (Intelligence) అంటే నేర్చుకోవడం, కొత్త సమస్యలను పరిష్కరించడం, కొత్త పరిస్థితులకు సర్దుకోగల సామర్థ్యం. ప్రజ్ఞ అంటే ఏమిటో మనోవిజ్ఞానవేత్తలు సిద్ధాంతాలు రూపొందించారు; దాన్ని కొలవడానికి పరీక్షలు (IQ) తయారుచేశారు.</p>
+<h3>2. ఇది ఎందుకు ముఖ్యం</h3>
+<p>30 మంది పిల్లల తరగతిలో 30 రకాల అభ్యాసకులు ఉంటారు. ఉపాధ్యాయుడు అందరికీ ఒకే వేగంతో ఒకేలా బోధిస్తే నెమ్మదిగా నేర్చుకునేవారు వెనుకబడతారు, ప్రతిభావంతులకు విసుగు వస్తుంది. వైయక్తిక భేదాలు, ప్రజ్ఞ గురించి తెలిస్తే ఉపాధ్యాయుడు బృందాలు, నివారణ బోధన, సుసంపన్న కృత్యాలను ప్లాన్ చేయగలడు.</p>
+<h3>3. ఇది ఎలా పనిచేస్తుంది</h3>
+<p><strong>రెండు రకాల వైయక్తిక భేదాలు</strong></p>
+<ul>
+<li><strong>అంతర్-వైయక్తిక</strong> (Inter-individual): ఇద్దరు వ్యక్తుల మధ్య (రవి సీత కంటే గణితంలో మెరుగు).</li>
+<li><strong>అంతః-వైయక్తిక</strong> (Intra-individual): ఒకే వ్యక్తి లోపల (రవి గణితంలో మెరుగు, బొమ్మలు గీయడంలో బలహీనం).</li>
+<li><strong>రంగాలు</strong>: ప్రజ్ఞ, సహజ సామర్థ్యం, అభిరుచి, వైఖరి, మూర్తిమత్వం, శారీరక లక్షణాలు, సాధన.</li>
+<li><strong>కారణాలు</strong>: అనువంశికత, పరిసరాలు, వయస్సు, లింగం, కుటుంబ నేపథ్యం, సామాజిక-ఆర్థిక స్థితి.</li>
+</ul>
+<p><strong>ప్రజ్ఞా సిద్ధాంతాలు</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>సిద్ధాంతం</th>
+<th>ప్రతిపాదకుడు</th>
+<th>సులభమైన అర్థం</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ఏకకారక (రాజరిక)</td>
+<td>బినే, టెర్మన్</td>
+<td>ప్రజ్ఞ ఒకే ఒక్క సామర్థ్యం</td>
+</tr>
+<tr>
+<td>ద్వికారక</td>
+<td>చార్లెస్ <strong>స్పియర్‌మన్</strong></td>
+<td><strong>g</strong> = అన్ని పనుల్లో వాడే సాధారణ సామర్థ్యం; <strong>s</strong> = ఒక పనికి ప్రత్యేక సామర్థ్యం</td>
+</tr>
+<tr>
+<td>బహుకారక</td>
+<td>ఇ.ఎల్. <strong>థార్న్‌డైక్</strong></td>
+<td>అనేక వేర్వేరు సామర్థ్యాలు: అమూర్త, సాంఘిక, యాంత్రిక</td>
+</tr>
+<tr>
+<td>ప్రాథమిక మానసిక సామర్థ్యాలు (సమూహ కారక)</td>
+<td>ఎల్.ఎల్. <strong>థర్‌స్టన్</strong></td>
+<td><strong>7</strong>: శాబ్దిక అవగాహన, పద ధారాళత, సంఖ్యా, ప్రాదేశిక, జ్ఞాపకం, ప్రత్యక్షం, తర్కం</td>
+</tr>
+<tr>
+<td>ప్రజ్ఞా నిర్మాణ నమూనా (త్రిమితీయ)</td>
+<td>జె.పి. <strong>గిల్‌ఫర్డ్</strong></td>
+<td>ప్రక్రియలు × విషయాలు × ఫలితాలు = <strong>180</strong> సామర్థ్యాలు; అభిసారి, అపసారి ఆలోచన ఇచ్చారు</td>
+</tr>
+<tr>
+<td><strong>బహుళ ప్రజ్ఞలు</strong> (సిలబస్ ప్రాధాన్యం)</td>
+<td>హోవార్డ్ <strong>గార్డ్‌నర్</strong> (1983)</td>
+<td><strong>8</strong>: భాషా, తార్కిక-గణిత, ప్రాదేశిక, సంగీత, శారీరక-చలనాత్మక, అంతర్‌వ్యక్తిగత, అంతఃవ్యక్తిగత, ప్రకృతి</td>
+</tr>
+<tr>
+<td>త్రిస్తర</td>
+<td>రాబర్ట్ <strong>స్టెర్న్‌బర్గ్</strong></td>
+<td>విశ్లేషణాత్మక, సృజనాత్మక, ఆచరణాత్మక</td>
+</tr>
+<tr>
+<td>ద్రవ, స్ఫటిక</td>
+<td>ఆర్.బి. <strong>కాటెల్</strong></td>
+<td>ద్రవ = కొత్త సమస్యలపై తర్కం; స్ఫటిక = అనుభవం నుంచి వచ్చిన జ్ఞానం</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>తరగతిలో గార్డ్‌నర్:</strong> వక్తృత్వ పోటీలో అనర్గళంగా మాట్లాడే పిల్లవాడు → <strong>భాషా</strong> ప్రజ్ఞ (2025 జవాబు); క్రికెటర్ → శారీరక-చలనాత్మక; గొడవలు తీర్చే క్లాస్ లీడర్ → అంతర్‌వ్యక్తిగత; తన బలాలు తెలిసిన పిల్లవాడు → అంతఃవ్యక్తిగత; పక్షులు, మొక్కలు తెలిసిన పిల్లవాడు → ప్రకృతి.</p>
+<p><strong>ప్రజ్ఞను కొలవడం (IQ)</strong></p>
+<ul>
+<li>మొదటి ప్రజ్ఞా పరీక్షను <strong>ఆల్‌ఫ్రెడ్ బినే, థియోడర్ సైమన్ (1905)</strong>, ఫ్రాన్స్ రూపొందించారు; <strong>మానసిక వయస్సు (MA)</strong> ను ప్రవేశపెట్టారు.</li>
+<li><strong>విలియం స్టెర్న్</strong> (1912) <strong>IQ</strong> పదం ఇచ్చారు; <strong>టెర్మన్</strong> దాన్ని <strong>స్టాన్‌ఫర్డ్-బినే</strong> మాపనిగా సవరించారు (1916).</li>
+<li><strong>IQ = (మానసిక వయస్సు ÷ శారీరక వయస్సు) × 100.</strong> ఉదాహరణ: MA 12, CA 10 → IQ 120. సంవత్సరాలు, నెలలను ఎప్పుడూ ముందుగా నెలల్లోకి మార్చండి.</li>
+</ul>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>IQ (టెర్మన్)</th>
+<th>వర్గం</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>140 పైన</td>
+<td>మేధావి / దాదాపు మేధావి</td>
+</tr>
+<tr>
+<td>120–139</td>
+<td>అత్యుత్తమ</td>
+</tr>
+<tr>
+<td>110–119</td>
+<td>ఉత్తమ</td>
+</tr>
+<tr>
+<td>90–109</td>
+<td>సగటు</td>
+</tr>
+<tr>
+<td>80–89</td>
+<td>మందబుద్ధి</td>
+</tr>
+<tr>
+<td>70–79</td>
+<td>సరిహద్దు</td>
+</tr>
+<tr>
+<td>70 కంటే తక్కువ</td>
+<td>బుద్ధిమాంద్యం</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>పరీక్షల రకాలు:</strong> శాబ్దిక vs <strong>అశాబ్దిక (నిష్పాదన)</strong>; వ్యక్తిగత vs సామూహిక. ఉదాహరణలు: <strong>వెక్స్‌లర్</strong> మాపనులు; <strong>భాటియా నిష్పాదన పరీక్షల మాల</strong> (భారతీయ); ప్రజ్ఞను కొలిచే <strong>థార్న్‌డైక్ CAVD</strong> (పూరణ, అంకగణితం, పదజాలం, సూచనలు). చదవలేని, వేరే భాష మాట్లాడే పిల్లలకు అశాబ్దిక పరీక్షలు తగినవి.</p>
+<p><strong>బుద్ధిమాంద్య స్థాయిలు</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>స్థాయి</th>
+<th>IQ (సుమారు)</th>
+<th>పాత విద్యా పేరు</th>
+<th>ఏం నేర్చుకోగలరు</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>స్వల్ప</td>
+<td>50–70</td>
+<td><strong>విద్యనేర్చుకోగలవారు</strong> (Educable)</td>
+<td>సుమారు 5–6 తరగతుల వరకు చదవడం, రాయడం, లెక్కలు; స్వతంత్రంగా జీవించగలరు</td>
+</tr>
+<tr>
+<td>మిత</td>
+<td>35–50</td>
+<td><strong>శిక్షణ పొందగలవారు</strong> (Trainable)</td>
+<td>సహాయంతో స్వీయ సంరక్షణ, సులభ పని నైపుణ్యాలు</td>
+</tr>
+<tr>
+<td>తీవ్ర</td>
+<td>20–35</td>
+<td>సంరక్షణ అవసరం (Custodial)</td>
+<td>దగ్గరి పర్యవేక్షణతో ప్రాథమిక స్వీయ సంరక్షణ</td>
+</tr>
+<tr>
+<td>సంపూర్ణ</td>
+<td>20 కంటే తక్కువ</td>
+<td>సంరక్షణ అవసరం</td>
+<td>జీవితాంతం సంరక్షణ కావాలి</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>ప్రతిభావంతులు</strong> (IQ సుమారు 130 పైన): సుసంపన్న కృత్యాలు, అదనపు సవాళ్లు, వేగవంతమైన అభ్యసనం కావాలి. <strong>నెమ్మదిగా నేర్చుకునేవారు</strong> (IQ సుమారు 70–89): పునరావృతం, మూర్త ఉదాహరణలు, ఓర్పు కావాలి.</p>
+<h3>4. నిత్యజీవిత ఉదాహరణ</h3>
+<p>తరగతి <strong>కూరగాయల మార్కెట్</strong> లాంటిది. ప్రతి కూరగాయ వేరు (అంతర్-వైయక్తిక); ఒకే కూరగాయలోనూ మంచి, బలహీన గుణాలు ఉంటాయి (అంతః-వైయక్తిక: మామిడి తీపి కానీ త్వరగా పాడవుతుంది). మంచి వంటవాడు అన్నింటినీ ఒకేలా వండడు. అలాగే మంచి ఉపాధ్యాయుడు వేర్వేరు అభ్యాసకులకు వేర్వేరు మార్గాలు ప్లాన్ చేస్తాడు: కొందరికి నెమ్మదైన అడుగులు, మరికొందరికి కష్టమైన పజిల్స్.</p>
+<h3>5. కష్టమైన భాగాలను విడదీద్దాం</h3>
+<ol>
+<li><strong>స్పియర్‌మన్ g, s</strong>: g ప్రతి ప్రయాణానికీ పనిచేసే కారు ఇంజన్ లాంటిది; s ఒక రకం రోడ్డుకు ప్రత్యేక టైరు లాంటిది.</li>
+<li><strong>థర్‌స్టన్ vs గిల్‌ఫర్డ్</strong>: థర్‌స్టన్ = <strong>7</strong> ప్రాథమిక మానసిక సామర్థ్యాలు; గిల్‌ఫర్డ్ = త్రిమితీయ క్యూబ్‌లో <strong>180</strong> సామర్థ్యాలు. చిన్న సంఖ్య → థర్‌స్టన్; పెద్ద సంఖ్య → గిల్‌ఫర్డ్.</li>
+<li><strong>గార్డ్‌నర్ 8</strong>: "<strong>భా-తా-ప్రా-సం-శా-అం-అం-ప్ర</strong>": భాషా, తార్కిక, ప్రాదేశిక, సంగీత, శారీరక, అంతర్‌వ్యక్తిగత, అంతఃవ్యక్తిగత, ప్రకృతి.</li>
+<li><strong>నెలలతో IQ</strong>: CA 8 ఏళ్ల 4 నెలలు = 100 నెలలు; MA 10 ఏళ్లు = 120 నెలలు → IQ 120.</li>
+<li><strong>విద్యనేర్చుకోగల vs శిక్షణ పొందగల</strong>: విద్యనేర్చుకోగలవారు (స్వల్ప) పాఠశాల విషయాలు నెమ్మదిగా నేర్చుకుంటారు; శిక్షణ పొందగలవారు (మిత) స్వీయ సంరక్షణ, నైపుణ్యాలు నేర్చుకుంటారు.</li>
+<li><strong>తరగతి అమలు</strong>: సామర్థ్య ఆధారిత బృందాలు, నెమ్మదిగా నేర్చుకునేవారికి నివారణ బోధన, ప్రతిభావంతులకు సుసంపన్న కృత్యాలు, వ్యక్తిగత శ్రద్ధ, వివిధ పద్ధతులు, సామగ్రి, వేర్వేరు వేగాలకు తగిన గతి.</li>
+</ol>
+<h3>6. మినహాయింపులు, గందరగోళ అంశాలు</h3>
+<ul>
+<li><strong>థార్న్‌డైక్</strong> రెండుసార్లు వస్తారు: <strong>బహుకారక</strong> సిద్ధాంతం, <strong>CAVD</strong> పరీక్ష (3వ రోజు అభ్యసన నియమాల్లోనూ).</li>
+<li><strong>మొదటి పరీక్ష బినే ది, కానీ IQ పదం స్టెర్న్ ది.</strong></li>
+<li><strong>IQ 90–109 సగటు</strong>; 110–119 ఉత్తమ; 120–139 అత్యుత్తమ.</li>
+<li><strong>అంతర్ vs అంతః</strong>: "అంతర్" = వ్యక్తుల మధ్య; "అంతః" = ఒక వ్యక్తి లోపల.</li>
+<li><strong>శిక్షణ పొందగలవారు = మిత</strong>, స్వల్ప కాదు (స్వల్ప = విద్యనేర్చుకోగలవారు).</li>
+</ul>
+<h3>7. ఇతర అంశాలతో సంబంధం</h3>
+<ul>
+<li><strong>1వ రోజు</strong>: అనువంశికత × పరిసరాలు వైయక్తిక భేదాలను వివరిస్తాయి.</li>
+<li><strong>4వ రోజు (ప్రత్యేక అవసరాలు)</strong>: బుద్ధిమాంద్యం, ప్రతిభావంతులు, సమ్మిళిత విద్య.</li>
+<li><strong>బోధనా పద్ధతులు</strong>: విభేదాత్మక బోధన, నివారణ బోధన, బహుళ స్థాయి కృత్యాలు.</li>
+<li><strong>విద్యా దృక్పథాలు</strong>: విద్యలో సమన్యాయం అంటే వ్యక్తిగత అవసరాలను బట్టి అదనపు సహాయం.</li>
+</ul>
+<h3>8. జ్ఞాపక సూత్రం</h3>
+<p><strong>సిద్ధాంతాలకు సంఖ్యా గొలుసు: "2-7-8-180-3".</strong> స్పియర్‌మన్ <strong>2</strong> కారకాలు; థర్‌స్టన్ <strong>7</strong>; గార్డ్‌నర్ <strong>8</strong>; గిల్‌ఫర్డ్ <strong>180</strong>; స్టెర్న్‌బర్గ్ <strong>3</strong> (త్రిస్తర).</p>
+<p><strong>పై నుంచి IQ నిచ్చెన: "140 మేధావి, 120 అత్యుత్తమ, 110 ఉత్తమ, 90 సగటు, 80 మంద, 70 సరిహద్దు".</strong></p>
+<p><strong>వైకల్య స్థాయిలు: "స్వల్ప–విద్య, మిత–శిక్షణ"</strong> ("స్వ-వి, మి-శి").</p>
+<h3>9. మీ అవగాహనను పరీక్షించుకోండి</h3>
+<p><strong>స్వీయ జ్ఞాపకం:</strong></p>
+<ol>
+<li>అంతర్-వైయక్తిక, అంతః-వైయక్తిక భేదాలకు ఒక్కో ఉదాహరణ ఇవ్వండి.</li>
+<li>8 బహుళ ప్రజ్ఞలను చెప్పండి.</li>
+<li>IQ లెక్కించండి: CA 9 ఏళ్లు, MA 7 ఏళ్ల 6 నెలలు.</li>
+</ol>
+<div class="quiz" id="quiz-t3"><h4>త్వరిత పరీక్ష: 5 ప్రశ్నలు</h4><p class="hint">మీ జవాబు సరిచూసుకోవడానికి ఒక ఆప్షన్‌ను నొక్కండి.</p><div class="mcq" data-a="2"><div class="stem"><span class="n">1.</span>మనోవిజ్ఞానవేత్తను ప్రజ్ఞా సిద్ధాంతంతో జతపరచండి:<table class="mt"><thead><tr><th>మనోవిజ్ఞానవేత్త (జాబితా-I)</th><th>సిద్ధాంతం (జాబితా-II)</th></tr></thead><tbody><tr><td>i. థర్‌స్టన్</td><td>a. ప్రజ్ఞా నిర్మాణ నమూనా (180 సామర్థ్యాలు)</td></tr><tr><td>ii. గిల్‌ఫర్డ్</td><td>b. త్రిస్తర సిద్ధాంతం</td></tr><tr><td>iii. స్టెర్న్‌బర్గ్</td><td>c. ప్రాథమిక మానసిక సామర్థ్యాలు (7)</td></tr><tr><td>iv. కాటెల్</td><td>d. ద్రవ, స్ఫటిక ప్రజ్ఞ</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-a, ii-c, iii-b, iv-d</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-c, ii-a, iii-b, iv-d</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-c, ii-b, iii-a, iv-d</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-d, ii-a, iii-b, iv-c</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> థర్‌స్టన్, గిల్‌ఫర్డ్ తారుమారు: అతి సాధారణ ఉచ్చు.</li><li class="c"><b>2.</b> సరైనది. థర్‌స్టన్ → 7 PMA లు; గిల్‌ఫర్డ్ → 180 సామర్థ్యాల నిర్మాణం; స్టెర్న్‌బర్గ్ → త్రిస్తర; కాటెల్ → ద్రవ, స్ఫటిక.</li><li class=""><b>3.</b> గిల్‌ఫర్డ్, స్టెర్న్‌బర్గ్ తారుమారు.</li><li class=""><b>4.</b> థర్‌స్టన్, కాటెల్ తారుమారు.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">2.</span>ఇ.ఎల్. థార్న్‌డైక్ CAVD ప్రజ్ఞా పరీక్షలోని నాలుగు భాగాలు</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>పూరణ (Completion), అంకగణితం (Arithmetic), పదజాలం (Vocabulary), సూచనలు (Directions)</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>భావన, విశ్లేషణ, శాబ్దిక, డిజైన్</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>జ్ఞానం, సహజ సామర్థ్యం, విలువలు, క్రమశిక్షణ</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>పూరణ, వైఖరి, శాబ్దిక, బొమ్మ</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> సరైనది. CAVD = వాక్య పూరణ, అంకగణితం, పదజాలం, సూచనల పాలన. ఇది ప్రజ్ఞను (మానసిక సామర్థ్యాలు) కొలుస్తుంది; ఏం కొలుస్తుందో 2025 పేపర్ అడిగింది.</li><li class=""><b>2.</b> కల్పిత విస్తరణ.</li><li class=""><b>3.</b> సహజ సామర్థ్యం, విలువలు ప్రజ్ఞా పరీక్ష భాగాలు కావు.</li><li class=""><b>4.</b> వైఖరి ప్రజ్ఞా పరీక్షలో భాగం కాదు.</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">3.</span>బుద్ధిమాంద్యం స్థాయిల గురించి కింది వాటిలో సరైన ప్రవచనాలు ఏవి?<ol class="stm"><li>స్వల్ప (IQ సుమారు 50-70) పిల్లలను "విద్యనేర్చుకోగలవారు" (educable) అంటారు.</li><li>మిత (IQ సుమారు 35-50) పిల్లలను "శిక్షణ పొందగలవారు" (trainable) అంటారు.</li><li>తీవ్ర, సంపూర్ణ స్థాయిలకు జీవితాంతం సంరక్షణ, పర్యవేక్షణ అవసరం.</li><li>"శిక్షణ పొందగల" పిల్లలు పూర్తి సాధారణ విద్యా పాఠ్యప్రణాళికను పూర్తిచేయగలరు.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, ii మాత్రమే</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>ii, iii, iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i, ii, iii</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, ii, iii, iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> నిజమైన iii ని వదిలేసింది.</li><li class=""><b>2.</b> తప్పైన iv ని కలిపింది.</li><li class="c"><b>3.</b> సరైనది. శిక్షణ పొందగల (మిత) పిల్లలు స్వీయ సంరక్షణ, సులభ నైపుణ్యాలు నేర్చుకుంటారు, పూర్తి పాఠ్యప్రణాళిక కాదు. "శిక్షణ పొందగలవారు = మిత" అని 2025 పేపర్ అడిగింది.</li><li class=""><b>4.</b> తప్పైన iv ని కలిపింది.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">4.</span>రవి తన తరగతిలో గణితంలో అందరికంటే మెరుగు, కానీ బొమ్మలు గీయడంలో బలహీనుల్లో ఒకడు. ఇది దేనికి ఉదాహరణ</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>అంతర్-వైయక్తిక భేదం</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>సమూహ భేదం</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>అనువంశికత వల్ల మాత్రమే వచ్చే భేదం</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>అంతః-వైయక్తిక భేదం</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> అంతర్-వైయక్తికం ఇద్దరు వేర్వేరు వ్యక్తులను పోలుస్తుంది (రవి vs సీత).</li><li class=""><b>2.</b> సమూహ భేదాలు సమూహాలను పోలుస్తాయి (బాలురు vs బాలికలు, గ్రామీణ vs పట్టణ).</li><li class=""><b>3.</b> సన్నివేశంలో కారణం కనిపించదు; సామర్థ్యాలు అనువంశికత, పరిసరాలు రెండింటిపై ఆధారపడతాయి.</li><li class="c"><b>4.</b> సరైనది. ఒకే వ్యక్తిలో వేర్వేరు సామర్థ్యాల మధ్య భేదాలు అంతః-వైయక్తికం.</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">5.</span>ఇంకా చదవలేని పెద్ద సంఖ్యలోని పిల్లల ప్రజ్ఞను పరీక్షించడానికి అత్యంత తగిన పరీక్ష</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>వ్యక్తిగత శాబ్దిక పరీక్ష</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>సామూహిక శాబ్దిక పరీక్ష</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>సామూహిక అశాబ్దిక (నిష్పాదన) పరీక్ష</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>సాధన పరీక్ష</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> పెద్ద సమూహానికి వ్యక్తిగత పరీక్షలు ఎక్కువ సమయం తీసుకుంటాయి; శాబ్దిక పరీక్షలకు చదవడం కావాలి.</li><li class=""><b>2.</b> శాబ్దిక పరీక్షలకు చదవడం, భాష కావాలి; ఈ పిల్లలకు అవి లేవు.</li><li class="c"><b>3.</b> సరైనది. అశాబ్దిక పరీక్షలు బొమ్మలు, దిమ్మెలు, పజిల్స్ వాడతాయి; సామూహిక పరీక్ష సమయం ఆదా చేస్తుంది.</li><li class=""><b>4.</b> సాధన పరీక్ష నేర్చుకున్నదాన్ని కొలుస్తుంది, ప్రజ్ఞను కాదు.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>పునశ్చరణ నోట్ (5 వాక్యాలు)</b><br>
+1. అంతర్ = వ్యక్తుల మధ్య; అంతః = ఒక వ్యక్తి లోపల; కారణాలు: అనువంశికత, పరిసరాలు, వయస్సు, లింగం, సామాజిక-ఆర్థిక స్థితి.<br>
+2. స్పియర్‌మన్ g/s; థార్న్‌డైక్ బహుకారక + CAVD; థర్‌స్టన్ 7 PMA లు; గిల్‌ఫర్డ్ 180; గార్డ్‌నర్ 8; స్టెర్న్‌బర్గ్ త్రిస్తర; కాటెల్ ద్రవ/స్ఫటిక.<br>
+3. బినే–సైమన్ 1905 (MA); స్టెర్న్ 1912 (IQ); స్టాన్‌ఫర్డ్–బినే 1916; IQ = MA/CA × 100 (నెలల్లో).<br>
+4. టెర్మన్: 90–109 సగటు … 140+ మేధావి; 70 కంటే తక్కువ బుద్ధిమాంద్యం.<br>
+5. స్వల్ప = విద్యనేర్చుకోగలవారు; మిత = శిక్షణ పొందగలవారు; తీవ్ర/సంపూర్ణ = సంరక్షణ; ప్రతిభావంతులు → సుసంపన్న కృత్యాలు.</div>
+
+<h2 id="s2">అంశం 4: ఉద్వేగ ప్రజ్ఞ, సృజనాత్మకత, సహజ సామర్థ్యం, వైఖరి, అభిరుచి, అలవాటు</h2>
+<h3>1. ప్రాథమిక భావన</h3>
+<p>విజయాన్ని ప్రజ్ఞ ఒక్కటే నిర్ణయించదు. <strong>ఉద్వేగ ప్రజ్ఞ (EQ)</strong> అంటే తన, ఇతరుల భావాలను అర్థం చేసుకుని నిర్వహించగల సామర్థ్యం. <strong>సృజనాత్మకత</strong> అంటే కొత్తదైన, ఉపయోగకరమైనదాన్ని సృష్టించడం. <strong>సహజ సామర్థ్యం</strong> (aptitude) ఒక నైపుణ్యాన్ని నేర్చుకోగల సహజ శక్తి; <strong>వైఖరి</strong> (attitude) దేనికైనా అనుకూలంగా లేదా ప్రతికూలంగా స్పందించే నేర్చుకున్న సంసిద్ధత; <strong>అభిరుచి</strong> (interest) శ్రద్ధను ఆకర్షించే ఇష్టం; <strong>అలవాటు</strong> (habit) యాంత్రికమయ్యే వరకు పదే పదే చేసిన చర్య.</p>
+<h3>2. ఇవి ఎందుకు ముఖ్యం</h3>
+<p>ఒకే IQ ఉన్న ఇద్దరు పిల్లలు చాలా వేర్వేరుగా రాణించవచ్చు: ఒకరు వదిలేస్తారు, మరొకరు ప్రయత్నిస్తూనే ఉంటారు; ఒకరికి సైన్స్ అంటే ఇష్టం, మరొకరికి భయం. IQ పెద్దగా మారదు, కానీ ఉపాధ్యాయుడు వైఖరులను మార్చగలడు, అభిరుచి పెంచగలడు, మంచి అలవాట్లు ఏర్పరచగలడు. అందుకే ఇవి ప్రజ్ఞ, సాధనను ఎలా ప్రభావితం చేస్తాయో సిలబస్ అడుగుతుంది.</p>
+<h3>3. ఇవి ఎలా పనిచేస్తాయి</h3>
+<p><strong>ఉద్వేగ ప్రజ్ఞ</strong></p>
+<ul>
+<li>ఈ పదాన్ని <strong>సలోవే, మేయర్ (1990)</strong> ఇచ్చారు; <strong>డేనియల్ గోల్‌మన్ (1995)</strong> ప్రాచుర్యం కల్పించారు.</li>
+<li><strong>గోల్‌మన్ ఐదు భాగాలు</strong>: <strong>స్వీయ అవగాహన</strong>, <strong>స్వీయ నియంత్రణ</strong>, <strong>ప్రేరణ</strong>, <strong>సహానుభూతి</strong> (empathy), <strong>సాంఘిక నైపుణ్యాలు</strong>.</li>
+</ul>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>భాగం</th>
+<th>తరగతిలో ఉదాహరణ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>స్వీయ అవగాహన</td>
+<td>"నాకు కోపం వస్తోంది."</td>
+</tr>
+<tr>
+<td>స్వీయ నియంత్రణ</td>
+<td>జవాబు ఇచ్చే ముందు పది వరకు లెక్కపెట్టడం</td>
+</tr>
+<tr>
+<td>ప్రేరణ</td>
+<td>బహుమతులు లేకుండా లక్ష్యం కోసం పనిచేయడం</td>
+</tr>
+<tr>
+<td><strong>సహానుభూతి</strong></td>
+<td>ఏడుస్తున్న స్నేహితుడు ఎలా భావిస్తున్నాడో అర్థం చేసుకోవడం</td>
+</tr>
+<tr>
+<td>సాంఘిక నైపుణ్యాలు</td>
+<td>బృందంలో బాగా పనిచేయడం, గొడవలు తీర్చడం</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>సృజనాత్మకత</strong></p>
+<ul>
+<li>ఇది <strong>అపసారి ఆలోచన</strong> (ఎన్నో జవాబులు) పై ఆధారపడుతుంది; అభిసారి ఆలోచన ఒకే సరైన జవాబును లక్ష్యంగా పెట్టుకుంటుంది. రెండు పదాలూ <strong>గిల్‌ఫర్డ్</strong> నుంచి వచ్చాయి.</li>
+<li><strong>లక్షణాలు</strong>: <strong>ధారాళత</strong> (ఎన్నో ఆలోచనలు), <strong>నమ్యత</strong> (వివిధ రకాల ఆలోచనలు), <strong>మౌలికత</strong> (అసాధారణ ఆలోచనలు), <strong>విస్తరణ</strong> (వివరాలు జోడించడం).</li>
+<li><strong>దశలు (గ్రాహం వాలస్)</strong>: సన్నాహం → పొదుగుదల → ప్రకాశనం → నిర్ధారణ.</li>
+<li><strong>పరీక్షలు</strong>: టోరెన్స్ సృజనాత్మక ఆలోచనా పరీక్షలు; భారత్‌లో <strong>బాకర్ మెహదీ</strong> పరీక్ష.</li>
+<li><strong>ప్రోత్సహించడానికి</strong>: ముక్త ప్రశ్నలు, అసాధారణ జవాబుల అంగీకారం, తప్పుల భయం లేకపోవడం, స్వేచ్ఛ, ఆలోచనల మథనం (brainstorming), కళలు, ప్రాజెక్టు పని.</li>
+</ul>
+<p><strong>సహజ సామర్థ్యం, వైఖరి, అభిరుచి, అలవాటు</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>పదం</th>
+<th>అర్థం</th>
+<th>కొలిచే విధానం / ఉదాహరణ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>సహజ సామర్థ్యం</strong> (Aptitude)</td>
+<td>శిక్షణతో ఒక నైపుణ్యాన్ని సాధించగల శక్తి; భవిష్యత్ విజయాన్ని ఊహిస్తుంది</td>
+<td><strong>DAT</strong> (విభేదాత్మక సహజ సామర్థ్య పరీక్ష)</td>
+</tr>
+<tr>
+<td><strong>వైఖరి</strong> (Attitude)</td>
+<td>అనుకూలంగా లేదా ప్రతికూలంగా స్పందించే నేర్చుకున్న సంసిద్ధత. మెహ్రాన్: "సాంఘిక విషయాలకు బాహ్యంగా ప్రతిస్పందించే సంసిద్ధత" (2025లో అడిగారు)</td>
+<td><strong>లికర్ట్</strong>, <strong>థర్‌స్టన్</strong> మాపనులు</td>
+</tr>
+<tr>
+<td><strong>అభిరుచి</strong> (Interest)</td>
+<td>ఒక కృత్యం వైపు శ్రద్ధను ఆకర్షించే ఇష్టం</td>
+<td>స్ట్రాంగ్ అభిరుచి జాబితా; కూడర్ ప్రాధాన్య రికార్డు</td>
+</tr>
+<tr>
+<td><strong>అలవాటు</strong> (Habit)</td>
+<td>యాంత్రికమయ్యే వరకు పదే పదే చేసిన చర్య</td>
+<td>పునరావృతం, బహుమతి ద్వారా ఏర్పడుతుంది</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>ప్రజ్ఞ, సాధనపై వీటి ప్రభావం:</strong> సానుకూల వైఖరి, బలమైన అభిరుచి శ్రద్ధను, ప్రయత్నాన్ని పెంచుతాయి; కాబట్టి పిల్లవాడు తన ప్రజ్ఞను ఎక్కువగా వాడుకుంటాడు. తగిన సహజ సామర్థ్యం ఆ రంగంలో అభ్యసనాన్ని వేగవంతం చేస్తుంది. మంచి అలవాట్లు (క్రమం తప్పని చదువు, శుభ్రమైన పని) సమయం, శ్రమను ఆదా చేస్తాయి; చెడు అలవాట్లు సామర్థ్యాన్ని వృథా చేస్తాయి.</p>
+<h3>4. నిత్యజీవిత ఉదాహరణ</h3>
+<p>ప్రజ్ఞ <strong>బైక్ ఇంజన్</strong> లాంటిది. సహజ సామర్థ్యం ఆ ఇంజన్ ఏ రకం రోడ్డుకు (కొండలు లేదా హైవే) సరిపోతుందో అది. వైఖరి అంటే నడిపేవాడికి నడపాలని <em>ఉందా</em> లేదా. అభిరుచి అంటే అతన్ని ముందుకు లాగే గమ్యం. అలవాటు అంటే ప్రతి గేర్ మార్పు గురించి ఆలోచించకుండానే నడపడం. EQ అంటే ట్రాఫిక్‌లో ప్రశాంతంగా ఉండటం; సృజనాత్మకత అంటే కొత్త దగ్గరి దారి కనుగొనడం. శక్తివంతమైన ఇంజన్ ఉన్నా నడిపేవాడికి ఇష్టం లేకపోతే బండి ఎక్కడికీ వెళ్లదు.</p>
+<h3>5. కష్టమైన భాగాలను విడదీద్దాం</h3>
+<ol>
+<li><strong>సహజ సామర్థ్యం vs వైఖరి</strong>: ఇంగ్లీష్‌లో ఒకేలా కనిపిస్తాయి. A<strong>p</strong>titude = <strong>p</strong>otential (శక్తి); a<strong>tt</strong>itude = ఒకదాని పట్ల భావన.</li>
+<li><strong>సహానుభూతి vs సానుభూతి</strong>: సహానుభూతి (empathy) = ఎదుటివారి వైపు నుంచి అర్థం చేసుకోవడం; సానుభూతి (sympathy) = వారి పట్ల జాలి. గోల్‌మన్ భాగం <strong>సహానుభూతి</strong>.</li>
+<li><strong>ధారాళత vs మౌలికత</strong>: 15 ఆలోచనలు = ధారాళత; ఇంకెవరూ ఇవ్వని ఆలోచనలు = మౌలికత.</li>
+<li><strong>వాలస్ క్రమం</strong>: సిద్ధం కావడం → విశ్రాంతి (పొదుగుదల) → ఆకస్మిక ఆలోచన (ప్రకాశనం) → సరిచూడటం (నిర్ధారణ).</li>
+<li><strong>అలవాటు ఏర్పాటు</strong>: పునరావృతం + సంతృప్తి (థార్న్‌డైక్ అభ్యాస, ఫలిత నియమాలు) + తొందరగా మొదలుపెట్టడం.</li>
+</ol>
+<h3>6. మినహాయింపులు, గందరగోళ అంశాలు</h3>
+<ul>
+<li><strong>EQ పదం: సలోవే, మేయర్</strong>; గోల్‌మన్ ప్రాచుర్యం కల్పించారు.</li>
+<li><strong>గోల్‌మన్ ఐదింటిలో సానుభూతి, ప్రజ్ఞ లేవు</strong>; <strong>సహానుభూతి</strong> ఉంది.</li>
+<li><strong>సృజనాత్మకత ≠ అధిక IQ.</strong> సృజనాత్మకతకు కనీస ప్రజ్ఞ కావాలి, కానీ అధిక IQ సృజనాత్మకతకు హామీ కాదు.</li>
+<li><strong>వైఖరి మాపనులు లికర్ట్, థర్‌స్టన్.</strong> DAT సహజ సామర్థ్యాన్ని కొలుస్తుంది.</li>
+<li><strong>అభిరుచి స్థిరమైన సామర్థ్యం కాదు</strong>; ఉపాధ్యాయుడు దాన్ని పెంచగలడు.</li>
+</ul>
+<h3>7. ఇతర అంశాలతో సంబంధం</h3>
+<ul>
+<li><strong>4వ రోజు (మూర్తిమత్వం)</strong>: ఉద్వేగ ప్రజ్ఞ, ఉద్వేగ నిర్వహణ మూర్తిమత్వ యూనిట్‌లోనూ వస్తాయి.</li>
+<li><strong>3వ రోజు (అభ్యసనం)</strong>: అలవాటు ఏర్పాటుకు థార్న్‌డైక్ నియమాలు; అభిరుచి ప్రేరణతో ముడిపడి ఉంది.</li>
+<li><strong>బోధనా పద్ధతులు</strong>: ఆలోచనల మథనం, ప్రాజెక్టు పని, ముక్త ప్రశ్నలు సృజనాత్మకతను పెంచుతాయి.</li>
+<li><strong>విద్యా దృక్పథాలు</strong>: జీవన నైపుణ్యాలు (సహానుభూతి, సృజనాత్మక ఆలోచన, ఉద్వేగాలను ఎదుర్కోవడం).</li>
+</ul>
+<h3>8. జ్ఞాపక సూత్రం</h3>
+<p><strong>గోల్‌మన్: "స్వ-స్వ-ప్రే-స-సా"</strong> = <strong>స్వ</strong>ీయ అవగాహన, <strong>స్వ</strong>ీయ నియంత్రణ, <strong>ప్రే</strong>రణ, <strong>స</strong>హానుభూతి, <strong>సా</strong>ంఘిక నైపుణ్యాలు → "<strong>స్వ</strong>ర్ణ <strong>స్వ</strong>రం <strong>ప్రే</strong>మగా <strong>స</strong>దా <strong>సా</strong>గుతుంది".</p>
+<p><strong>సృజనాత్మకత లక్షణాలు: "ధా-న-మౌ-వి"</strong> → "<strong>ధా</strong>రాళంగా <strong>న</strong>వ్వే <strong>మౌ</strong>న <strong>వి</strong>ద్యార్థి".</p>
+<p><strong>వాలస్: "స-పొ-ప్ర-ని"</strong> → "<strong>స</strong>న్నాహం, <strong>పొ</strong>దుగుదల, <strong>ప్ర</strong>కాశనం, <strong>ని</strong>ర్ధారణ".</p>
+<p><strong>నాలుగు పదాలు: "సహజ = శక్తి; వైఖరి = స్పందన; అభిరుచి = ఆకర్షణ; అలవాటు = తనంతట తానే".</strong></p>
+<h3>9. మీ అవగాహనను పరీక్షించుకోండి</h3>
+<p><strong>స్వీయ జ్ఞాపకం:</strong></p>
+<ol>
+<li>గోల్‌మన్ ఐదు భాగాలను ఒక్కోదానికి తరగతి ఉదాహరణతో చెప్పండి.</li>
+<li>సృజనాత్మకత నాలుగు లక్షణాలు ఏవి? "అసాధారణ ఆలోచనలు" ఏది?</li>
+<li>సహజ సామర్థ్యం, వైఖరి మధ్య తేడాను ఒక్కో ఉదాహరణతో చెప్పండి.</li>
+</ol>
+<div class="quiz" id="quiz-t4"><h4>త్వరిత పరీక్ష: 5 ప్రశ్నలు</h4><p class="hint">మీ జవాబు సరిచూసుకోవడానికి ఒక ఆప్షన్‌ను నొక్కండి.</p><div class="mcq" data-a="2"><div class="stem"><span class="n">1.</span>గోల్‌మన్ ఉద్వేగ ప్రజ్ఞా నమూనాలో <b>స్వీయ నియంత్రణ</b> కు ఉదాహరణ ఏది?</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>తనకు కోపం వస్తోందని విద్యార్థిని గమనిస్తుంది.</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>తోటి విద్యార్థిపై కోపం వచ్చిన విద్యార్థి పది వరకు లెక్కపెట్టి ప్రశాంతంగా మాట్లాడుతుంది.</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>ఏడుస్తున్న స్నేహితురాలు ఎలా భావిస్తోందో విద్యార్థిని అర్థం చేసుకుంటుంది.</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>ఏ బహుమతీ లేకుండా విద్యార్థిని లక్ష్యం కోసం పనిచేస్తూనే ఉంటుంది.</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> తన ఉద్వేగాన్ని గమనించడం స్వీయ అవగాహన.</li><li class="c"><b>2.</b> సరైనది. ఉద్వేగాన్ని అదుపు చేసి నిర్వహించడం స్వీయ నియంత్రణ.</li><li class=""><b>3.</b> ఇతరుల భావాలు అర్థం చేసుకోవడం సహానుభూతి (empathy); "సానుభూతి" (sympathy) కాదు. 2025 పేపర్ సానుభూతిని తప్పు ఆప్షన్‌గా వాడింది.</li><li class=""><b>4.</b> బయటి బహుమతి లేకుండా పనిచేయడం (స్వీయ) ప్రేరణ.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">2.</span>పదాన్ని దాని అర్థంతో జతపరచండి:<table class="mt"><thead><tr><th>పదం (జాబితా-I)</th><th>అర్థం (జాబితా-II)</th></tr></thead><tbody><tr><td>i. సహజ సామర్థ్యం</td><td>a. వ్యక్తులు, వస్తువులు, పరిస్థితుల పట్ల అనుకూలంగా లేదా ప్రతికూలంగా స్పందించే నేర్చుకున్న సంసిద్ధత</td></tr><tr><td>ii. వైఖరి</td><td>b. యాంత్రికమయ్యే వరకు పదే పదే చేసిన చర్య</td></tr><tr><td>iii. అభిరుచి</td><td>c. శిక్షణతో ఒక నైపుణ్యాన్ని సాధించగల శక్తి</td></tr><tr><td>iv. అలవాటు</td><td>d. ఒక కృత్యం వైపు శ్రద్ధను ఆకర్షించే ఇష్టం</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-a, ii-c, iii-d, iv-b</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-c, ii-d, iii-a, iv-b</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-c, ii-a, iii-b, iv-d</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-c, ii-a, iii-d, iv-b</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> సహజ సామర్థ్యం, వైఖరి తారుమారు: ఒకేలా ఉండే పదాల ఉచ్చు.</li><li class=""><b>2.</b> వైఖరి, అభిరుచి తారుమారు.</li><li class=""><b>3.</b> అభిరుచి, అలవాటు తారుమారు.</li><li class="c"><b>4.</b> సరైనది. సహజ సామర్థ్యం = శక్తి; వైఖరి = స్పందించే సంసిద్ధత (మెహ్రాన్ నిర్వచనం 2025లో అడిగారు); అభిరుచి = ఇష్టం; అలవాటు = యాంత్రిక పునరావృత చర్య.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">3.</span>కింది వాటిలో సరైన ప్రవచనాలు ఏవి?<ol class="stm"><li>అపసారి ఆలోచన ఒక ప్రశ్నకు ఎన్నో సాధ్యమైన జవాబులు ఇస్తుంది.</li><li>అభిసారి ఆలోచన ఒకే సరైన జవాబును లక్ష్యంగా పెట్టుకుంటుంది.</li><li>అభిసారి, అపసారి ఆలోచన అనే పదాలను గిల్‌ఫర్డ్ ప్రవేశపెట్టారు.</li><li>సృజనాత్మకత పరీక్షలు ప్రధానంగా అభిసారి ఆలోచనను కొలుస్తాయి.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, ii, iii</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i, iii, iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>ii, iv</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, ii, iii, iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> సరైనది. i, ii, iii నిజం.</li><li class=""><b>2.</b> iv ని కలిపింది: సృజనాత్మకత పరీక్షలు అపసారి ఆలోచనను (ధారాళత, నమ్యత, మౌలికత) కొలుస్తాయి.</li><li class=""><b>3.</b> iv ని కలిపి, i, iii లను వదిలేసింది.</li><li class=""><b>4.</b> తప్పైన iv ని కలిపింది.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">4.</span><b>ప్రతిపాదన (A):</b> పిల్లవాడు ఎంత బాగా నేర్చుకుంటాడనే దానిపై అభిరుచి ప్రభావం ఉండదు.<br><b>కారణం (R):</b> అభిరుచి ఒక కృత్యం వైపు శ్రద్ధను మళ్లిస్తుంది.</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>A, R రెండూ నిజం; A కి R సరైన వివరణ</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>A, R రెండూ నిజం; కానీ A కి R సరైన వివరణ కాదు</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>A నిజం, R తప్పు</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>A తప్పు, R నిజం</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> A తప్పు, కాబట్టి రెండూ నిజం కావు.</li><li class=""><b>2.</b> A తప్పు.</li><li class=""><b>3.</b> ఇది వ్యతిరేకం: A తప్పు, R నిజం.</li><li class="c"><b>4.</b> సరైనది. A తప్పు: అభిరుచి శ్రద్ధను, అభ్యసనాన్ని బాగా పెంచుతుంది. R నిజం; నిజానికి A ఎందుకు తప్పో R యే చూపిస్తుంది.</li></ul></div></div><div class="mcq" data-a="2"><div class="stem"><span class="n">5.</span>తరగతి గదిలో సృజనాత్మకతను అత్యధికంగా ప్రోత్సహించే ఉపాధ్యాయ చర్య ఏది?</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>పాఠ్యపుస్తకంలోని జవాబును మాత్రమే అంగీకరించడం</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>"ఖాళీ ప్లాస్టిక్ సీసాను ఎన్ని రకాలుగా వాడవచ్చు?" అని అడిగి, అసాధారణ జవాబులను స్వాగతించడం</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>ప్రతి అసాధారణ జవాబునూ తప్పుగా గుర్తించడం</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>పిల్లలు కంఠస్థం చేయడానికి నమూనా జవాబులు ఇవ్వడం</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> ఒకే స్థిర జవాబు అభిసారి ఆలోచనకు శిక్షణ, సృజనాత్మకతకు కాదు.</li><li class="c"><b>2.</b> సరైనది. ముక్త ప్రశ్న, అసాధారణ ఆలోచనల అంగీకారం ధారాళత, నమ్యత, మౌలికతను పెంచుతాయి.</li><li class=""><b>3.</b> అసాధారణ జవాబులను శిక్షించడం సృజనాత్మకతను చంపుతుంది.</li><li class=""><b>4.</b> నమూనా జవాబులు కంఠస్థం చేయడం బట్టీ అభ్యసనం.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>పునశ్చరణ నోట్ (5 వాక్యాలు)</b><br>
+1. EQ: పదం సలోవే & మేయర్ (1990); గోల్‌మన్ (1995): స్వీయ అవగాహన, స్వీయ నియంత్రణ, ప్రేరణ, సహానుభూతి, సాంఘిక నైపుణ్యాలు.<br>
+2. సృజనాత్మకత = అపసారి ఆలోచన (గిల్‌ఫర్డ్); ధారాళత, నమ్యత, మౌలికత, విస్తరణ; వాలస్: స → పొ → ప్ర → ని.<br>
+3. పరీక్షలు: టోరెన్స్; బాకర్ మెహదీ (భారత్).<br>
+4. సహజ సామర్థ్యం = శక్తి (DAT); వైఖరి = స్పందించే సంసిద్ధత (లికర్ట్, థర్‌స్టన్; మెహ్రాన్); అభిరుచి = ఇష్టం; అలవాటు = యాంత్రిక చర్య.<br>
+5. పిల్లవాడు తన ప్రజ్ఞను ఎంతవరకు వాడుకుంటాడో ఈ నాలుగూ నిర్ణయిస్తాయి.</div>
+
+<h2 id="s3">నోట్‌బుక్ పేజీ: 2వ రోజు</h2>
+<p>ఈ పేజీని మూసి, కింది వాటిని <strong>జ్ఞాపకం నుంచి</strong> ఈ క్రమంలో మీ నోట్‌బుక్‌లో రాయండి. తర్వాత సరిచూసి, వదిలినవాటిని వేరే రంగులో పూరించండి.</p>
+<ol>
+<li>అంతర్ vs అంతః-వైయక్తిక భేదాలు ఉదాహరణలతో; రంగాలు, కారణాలు.</li>
+<li>ప్రజ్ఞా సిద్ధాంతాల పట్టిక: ఎనిమిది వరుసలు, సంఖ్యా గొలుసు 2-7-8-180-3 తో.</li>
+<li>గార్డ్‌నర్ 8 ప్రజ్ఞలు, ఒక్కోదానికి తరగతి ఉదాహరణ.</li>
+<li>IQ సూత్రం; బినే–సైమన్ 1905, స్టెర్న్ 1912, స్టాన్‌ఫర్డ్–బినే 1916; నెలల్లో ఒక సాధించిన ఉదాహరణ.</li>
+<li>టెర్మన్ IQ నిచ్చెన.</li>
+<li>పరీక్షల రకాలు: శాబ్దిక/అశాబ్దిక, వ్యక్తిగత/సామూహిక; CAVD విస్తరణ; భాటియా మాల.</li>
+<li>IQ పరిధులతో బుద్ధిమాంద్య స్థాయిలు, విద్యనేర్చుకోగల/శిక్షణ పొందగల పేర్లు.</li>
+<li>గోల్‌మన్ ఐదు భాగాలు (స్వ-స్వ-ప్రే-స-సా), సహానుభూతి vs సానుభూతి ఉచ్చు.</li>
+<li>సృజనాత్మకత: అపసారి ఆలోచన, ధా-న-మౌ-వి, వాలస్ స-పొ-ప్ర-ని, టోరెన్స్, బాకర్ మెహదీ.</li>
+<li>సహజ సామర్థ్యం / వైఖరి / అభిరుచి / అలవాటు పట్టిక, ఒక్కోదాన్ని ఎలా కొలుస్తారో.</li>
+</ol>
+<h2 id="s4">ఆధారాలు</h2>
+<ul>
+<li>పాఠశాల విద్యా సంచాలకత్వం, ఆంధ్రప్రదేశ్: <a href="https://apdsc2024.apcfss.in/Documents/MEGA_DSC_2024_Suggestive_Syllabus-27-11-2024.pdf">మెగా DSC 2024 సూచనాత్మక సిలబస్</a> (SGT భాగం III యూనిట్ జాబితా; 9 నవంబర్ 2026న సరిచూసినది).</li>
+<li>AP DSC SGT ప్రశ్నాపత్రం, 19 జూన్ 2025, షిఫ్ట్ 1 (విభాగం III), మీరు అందించినది.</li>
+</ul>
+<footer>సులభం · AP DSC-2026 (APTRT) SGT · విద్యా మనోవిజ్ఞాన శాస్త్రం. అధికారిక SCERT SGT సిలబస్ (యూనిట్ 2: వైయక్తిక భేదాలు) ఆధారంగా.</footer>
+</main>
+<script>
+(function(){
+var T={"right": "సరైనది!", "wrong": "కాదు. సరైన జవాబు:", "score": "మీ స్కోరు"};
+document.querySelectorAll('.quiz').forEach(function(qz){
+  var mcqs=qz.querySelectorAll('.mcq'), done=0, ok=0;
+  mcqs.forEach(function(m){
+    var a=m.getAttribute('data-a');
+    m.querySelectorAll('button.opt').forEach(function(b){
+      b.addEventListener('click',function(){
+        if(m.classList.contains('done'))return;
+        m.classList.add('done');
+        var right=b.getAttribute('data-o')===a;
+        b.classList.add(right?'ok':'bad');
+        m.querySelector('button.opt[data-o="'+a+'"]').classList.add('ok');
+        m.querySelectorAll('button.opt').forEach(function(x){x.setAttribute('aria-disabled','true');});
+        m.querySelector('.verdict').textContent=right?T.right:(T.wrong+' '+a);
+        done++; if(right)ok++;
+        if(done===mcqs.length){qz.querySelector('.qscore').textContent=T.score+': '+ok+' / '+mcqs.length;}
+      });
+    });
+  });
+});
+})();
+</script>
+</body></html>

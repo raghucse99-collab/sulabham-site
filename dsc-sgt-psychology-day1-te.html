@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="te"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>విద్యా మనోవిజ్ఞాన శాస్త్రం, 1వ రోజు: శిశు వికాసం</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf8f3;--paper:#fff;--ink:#2b2118;--muted:#6f6254;--rule:#e6ddd0;--accent:#8a4b1f;--tint:#f4e9dc;--th:#f1e6d8}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1713;--paper:#231e19;--ink:#efe6da;--muted:#b3a593;--rule:#3a322a;--accent:#e0a36f;--tint:#3a2b1e;--th:#2e2620}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Noto Sans","Noto Sans Telugu",system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+header.top{border-bottom:3px solid var(--accent);margin-bottom:8px}
+h1{font-size:1.75rem;line-height:1.25;margin:8px 0 4px;color:var(--accent)}
+h1+p em{color:var(--muted);font-style:normal;font-size:.9rem}
+h2{font-size:1.35rem;margin:40px 0 10px;padding:8px 12px;background:var(--tint);border-left:5px solid var(--accent);border-radius:4px}
+h3{font-size:1.1rem;margin:26px 0 8px;color:var(--accent)}
+p{margin:8px 0}
+ul,ol{padding-left:24px;margin:8px 0}
+li{margin:4px 0}
+strong{color:var(--ink)}
+.tbl{overflow-x:auto;margin:12px 0;border:1px solid var(--rule);border-radius:8px;background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:.94rem}
+th,td{padding:8px 10px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+th{background:var(--th);font-weight:600}
+tr:last-child td{border-bottom:0}
+.formula{margin:12px 0;padding:12px 16px;background:var(--paper);border:1px dashed var(--accent);border-radius:8px;font-weight:600;text-align:center}
+nav.toc{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:12px 16px;margin:16px 0}
+nav.toc b{display:block;margin-bottom:6px}
+nav.toc a{color:var(--accent);text-decoration:none}
+nav.toc ol{margin:0}
+figure.diagram{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:8px;color:var(--muted)}
+figure.diagram{overflow-x:auto;-webkit-overflow-scrolling:touch}
+figure.diagram svg{width:100%;min-width:600px;height:auto;display:block}
+figcaption{font-size:.85rem;color:var(--muted);text-align:center;padding:4px}
+svg .t{font-size:15px;font-weight:600;fill:var(--ink)}
+svg .n{font-size:12.5px;font-weight:600;fill:var(--ink)}
+svg .b{font-size:11.5px;fill:var(--ink)}
+svg .q{font-size:11.5px;fill:var(--muted)}
+svg .box{fill:none;stroke:var(--muted);stroke-width:1.25}
+svg .box.hi{fill:var(--tint);stroke:var(--accent);stroke-width:2}
+svg .ln{stroke:var(--muted);stroke-width:1.25;fill:none}
+details.ans{margin:16px 0;background:var(--paper);border:1px solid var(--accent);border-radius:8px;padding:10px 14px}
+details.ans summary{cursor:pointer;font-weight:600;color:var(--accent)}
+.key{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px;margin-top:10px}
+.key span{background:var(--tint);border-radius:6px;padding:4px;text-align:center;font-weight:600}
+.lang-switch{display:inline-block;margin:4px 0 12px;padding:6px 14px;border:1px solid var(--accent);border-radius:999px;color:var(--accent);text-decoration:none;font-weight:600;font-size:.9rem}
+.lang-switch:hover{background:var(--tint)}
+footer{margin-top:48px;font-size:.85rem;color:var(--muted);border-top:1px solid var(--rule);padding-top:12px}
+@media print{body{background:#fff;font-size:11pt}main{max-width:none;padding:0}h2{break-after:avoid}nav.toc{display:none}details.ans{display:block}details.ans>*{display:block}@page{size:A4;margin:14mm}}
+
+figure.photo{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:10px;overflow:hidden}
+figure.photo img{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;background:var(--tint)}
+figure.photo figcaption{padding:8px 12px;font-size:.86rem;color:var(--muted);text-align:left}
+figure.photo figcaption a{color:var(--accent)}
+ol.tl{list-style:none;padding:0 0 0 22px;margin:14px 0;border-left:3px solid var(--accent)}
+ol.tl li{position:relative;margin:0 0 12px;padding-left:10px}
+ol.tl li::before{content:"";position:absolute;left:-31px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--paper);border:3px solid var(--accent)}
+ol.tl .yr{font-weight:700;color:var(--accent);margin-right:6px}
+h3{border-bottom:1px dashed var(--rule);padding-bottom:4px}
+.box{background:var(--paper);border:1px solid var(--rule);border-left:5px solid var(--accent);border-radius:8px;padding:10px 14px;margin:12px 0}
+.quiz{background:var(--paper);border:2px solid var(--accent);border-radius:12px;padding:12px 14px;margin:18px 0}
+.quiz h4{margin:0 0 4px;color:var(--accent);font-size:1.05rem}
+.quiz .hint{margin:0 0 8px;color:var(--muted);font-size:.88rem}
+.mcq{border-top:1px solid var(--rule);padding:12px 0}
+.mcq .stem{margin-bottom:8px}
+.mcq .n{color:var(--accent);font-weight:700;margin-right:6px}
+.mcq ol.stm{list-style:lower-roman;margin:6px 0;padding-left:30px}
+.mcq table.mt{border-collapse:collapse;margin:8px 0;width:100%;font-size:.93rem}
+.mcq table.mt th,.mcq table.mt td{border:1px solid var(--rule);padding:6px 8px;text-align:left}
+.mcq table.mt th{background:var(--th)}
+.opts{display:grid;gap:6px}
+button.opt{all:unset;box-sizing:border-box;display:flex;gap:10px;width:100%;padding:9px 12px;border:1px solid var(--rule);border-radius:8px;cursor:pointer;color:var(--ink);background:var(--bg)}
+button.opt:hover,button.opt:focus-visible{background:var(--tint);outline:2px solid var(--accent);outline-offset:1px}
+button.opt .k{font-weight:700;min-width:20px}
+.mcq.done button.opt{cursor:default}
+button.opt.ok{border-color:#2e7d32;background:rgba(46,125,50,.14)}
+button.opt.bad{border-color:#c62828;background:rgba(198,40,40,.12)}
+.why{display:none;margin-top:8px;padding:8px 12px;background:var(--tint);border-radius:6px;font-size:.92rem}
+.mcq.done .why{display:block}
+.why .verdict{font-weight:700;margin:0 0 4px}
+.why ul{margin:4px 0;padding-left:18px}
+.why li.c{font-weight:600}
+.qscore{font-weight:700;color:var(--accent);margin-top:6px}
+@media print{.why{display:block}button.opt{border:1px solid #999}}
+</style><noscript><style>.why{display:block}</style></noscript></head>
+<body><main>
+<header class="top"><h1>విద్యా మనోవిజ్ఞాన శాస్త్రం, 1వ రోజు: శిశు వికాసం</h1><a class="lang-switch" href="dsc-sgt-psychology-day1.html" hreflang="en">Read in English</a></header>
+<p><em>AP DSC-2026 (APTRT) · SGT · భాగం III: విద్యా మనోవిజ్ఞాన శాస్త్రం (16 ప్రశ్నలు, 8 మార్కులు) · 4 యూనిట్లలో 1వది</em></p>
+<p>1వ రోజు సిలబస్‌లోని మొదటి యూనిట్ "శిశు వికాసం" ను రెండు అంశాలుగా చదువుతాం. ప్రతి అంశానికి: తొమ్మిది దశలు చదవండి, పేజీ మూసి గుర్తుచేసుకోండి, తర్వాత 5 ప్రశ్నల త్వరిత పరీక్ష రాయండి. రోజు చివర్లో నోట్‌బుక్ పేజీని జ్ఞాపకం నుంచి రాయండి.</p>
+<div class="box"><b>పరీక్షతో సంబంధం:</b> 19 జూన్ 2025 పేపర్‌లో "సమీప దూరాభిముఖ వికాసంలో వికాసం దేని నుంచి దేనికి జరుగుతుంది", "జ్ఞానేంద్రియ వికాసం ఏ దశలో ఎక్కువ", కోల్‌బర్గ్ తరగతి సన్నివేశం (డిబార్ భయంతో కాపీ కొట్టకపోవడం), "చామ్‌స్కీకి సంబంధం లేనిది ఏది" అని అడిగారు. ఈ నాలుగూ కింద ఉన్నాయి.</div>
+
+<nav class="toc"><b>విషయ సూచిక</b><ol><li><a href="#s1">అంశం 1: పెరుగుదల, వికాసం, పరిపక్వత</a></li><li><a href="#s2">అంశం 2: వికాస సిద్ధాంతాలు</a></li><li><a href="#s3">నోట్‌బుక్ పేజీ: 1వ రోజు</a></li><li><a href="#s4">ఆధారాలు</a></li></ol></nav><h2 id="s1">అంశం 1: పెరుగుదల, వికాసం, పరిపక్వత</h2>
+<h3>1. ప్రాథమిక భావన</h3>
+<p>పిల్లవాడు రోజూ మారుతుంటాడు: ఎత్తు పెరుగుతాడు, తెలివి పెరుగుతుంది, అందరితో కలుస్తాడు. మనోవిజ్ఞాన శాస్త్రం ఈ మార్పును మూడు భావనలుగా విభజిస్తుంది. <strong>పెరుగుదల</strong> (Growth) అంటే కొలవగలిగే శరీర పరిమాణం పెరగడం. <strong>వికాసం</strong> (Development) అంటే మొత్తం వ్యక్తిలో మార్పు: శరీరం, మనస్సు, ఉద్వేగాలు, ప్రవర్తన. <strong>పరిపక్వత</strong> (Maturation) అంటే శిక్షణ లేకుండా, సహజంగా లోపలి నుంచి జరిగే మార్పు.</p>
+<h3>2. ఇది ఎందుకు ముఖ్యం</h3>
+<p>ఒక వయసు పిల్లవాడు దేనికి సిద్ధంగా ఉన్నాడో ఉపాధ్యాయుడికి తెలియాలి. సిద్ధం కాకముందే బోధిస్తే శ్రమ వృథా, నిరాశ కలుగుతుంది; అతి తక్కువ బోధిస్తే పిల్లవాడి సామర్థ్యం వృథా అవుతుంది. వికాస సూత్రాలు, దశలు తెలిస్తే ఉపాధ్యాయుడు పాఠాలను పిల్లవాడికి తగ్గట్టు మలచగలడు.</p>
+<h3>3. ఇది ఎలా పనిచేస్తుంది</h3>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th></th>
+<th>పెరుగుదల</th>
+<th>వికాసం</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ఏం మారుతుంది</td>
+<td>శరీర పరిమాణం: ఎత్తు, బరువు</td>
+<td>మొత్తం వ్యక్తి: శరీరం, మనస్సు, ఉద్వేగాలు, ప్రవర్తన</td>
+</tr>
+<tr>
+<td>స్వభావం</td>
+<td>పరిమాణాత్మకం (సంఖ్యల్లో కొలవగలం)</td>
+<td>గుణాత్మకం, పరిమాణాత్మకం</td>
+</tr>
+<tr>
+<td>ఎప్పుడు ఆగుతుంది</td>
+<td>కౌమారం తర్వాత</td>
+<td>జీవితాంతం కొనసాగుతుంది ("గర్భం నుంచి సమాధి వరకు")</td>
+</tr>
+<tr>
+<td>ఉదాహరణ</td>
+<td>ఎత్తు 110 సెం.మీ. నుంచి 120 సెం.మీ.కి</td>
+<td>పిల్లవాడు బొమ్మలు పంచుకోవడం, పజిల్స్ పరిష్కరించడం మొదలుపెట్టడం</td>
+</tr>
+<tr>
+<td>సంబంధం</td>
+<td>వికాసంలో ఒక భాగం</td>
+<td>విస్తృతమైనది; పెరుగుదల దీనిలో ఇమిడి ఉంటుంది</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>వికాసం = పరిపక్వత + అభ్యసనం.</strong> పరిపక్వత లోపలి నుంచి వస్తుంది; అభ్యసనం సాధన, అనుభవం నుంచి వస్తుంది.</p>
+<p><strong>వికాస సూత్రాలు (ఎక్కువగా అడిగేవి)</strong></p>
+<ol>
+<li><strong>నిరంతరత</strong>: వికాసం ఎప్పుడూ ఆగదు; దశలవారీగా సాగుతుంది.</li>
+<li><strong>ఏకరీతి క్రమం</strong>: వేగం వేరైనా, ప్రతి పిల్లవాడు అవే దశలను అదే క్రమంలో దాటుతాడు (పాకడం → నిలబడటం → నడవడం).</li>
+<li><strong>శిరః పాదాభిముఖ</strong> (Cephalocaudal): తల నుంచి పాదాలకు. ముందు తలపై, తర్వాత మొండెంపై, తర్వాత కాళ్లపై నియంత్రణ.</li>
+<li><strong>సమీప దూరాభిముఖ</strong> (Proximodistal): శరీర కేంద్రం నుంచి బయటికి. చేతి కంటే ముందు భుజం, వేళ్ల కంటే ముందు చేయి.</li>
+<li><strong>సాధారణం నుంచి నిర్దిష్టానికి</strong>: బొమ్మ అందుకోవడానికి శిశువు మొదట శరీరమంతా కదిలిస్తుంది; తర్వాత చేతిని మాత్రమే.</li>
+<li><strong>వైయక్తిక భేదాలు</strong>: ప్రతి పిల్లవాడికి తన సొంత వేగం ఉంటుంది.</li>
+<li><strong>అనువంశికత × పరిసరాలు</strong>: రెండూ కలిసి పనిచేస్తాయి; ఏ ఒక్కటీ ఒంటరిగా సరిపోదు.</li>
+<li><strong>ఊహించదగినది</strong>: పిల్లవాడు ఎప్పుడు నడుస్తాడో, మాట్లాడతాడో సుమారుగా చెప్పగలం.</li>
+<li><strong>పరస్పర సంబంధిత అంశాలు</strong>: అనారోగ్యంతో ఉన్న పిల్లవాడు (శారీరక) చిరాకుగా ఉంటాడు (ఉద్వేగ), చదువులో వెనుకబడతాడు (జ్ఞానాత్మక).</li>
+</ol>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Talky_baby_crawling.jpg?width=900" alt="పాకుతున్న శిశువు. ముందు తల, తర్వాత మొండెం, తర్వాత కాళ్లపై నియంత్రణ: వికాసం తల నుంచి పాదాలకు (శిరః పాదాభిముఖ)." loading="lazy"><figcaption>పాకుతున్న శిశువు. ముందు తల, తర్వాత మొండెం, తర్వాత కాళ్లపై నియంత్రణ: వికాసం తల నుంచి పాదాలకు (శిరః పాదాభిముఖ). · ఫోటో: <a href="https://commons.wikimedia.org/wiki/File:Talky_baby_crawling.jpg" target="_blank" rel="noopener">వికీమీడియా కామన్స్</a> (రచయిత, లైసెన్స్ కోసం ఫైల్ పేజీ చూడండి)</figcaption></figure>
+<p><strong>వికాసాన్ని ప్రభావితం చేసే కారకాలు (సిలబస్‌లోని నాలుగు సమూహాలు)</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>కారకం</th>
+<th>ఉదాహరణలు</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>జీవ సంబంధ</td>
+<td>అనువంశికత (23 జతల క్రోమోజోముల్లోని జన్యువులు), ఆరోగ్యం, పోషణ, గ్రంథులు (హార్మోన్లు), శారీరక లోపాలు</td>
+</tr>
+<tr>
+<td>మానసిక</td>
+<td>ప్రజ్ఞ, ప్రేరణ, స్వీయ భావన, అభిరుచులు</td>
+</tr>
+<tr>
+<td>సామాజిక</td>
+<td>కుటుంబం, స్నేహ బృందం, పాఠశాల, సంస్కృతి, సామాజిక-ఆర్థిక స్థితి, మీడియా</td>
+</tr>
+<tr>
+<td>ఉద్వేగ</td>
+<td>ఇంట్లో ప్రేమ, భద్రత, భయం, ఆందోళన, ఉద్వేగ స్థిరత్వం</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>దశలు, వాటి లక్షణాలు</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>దశ</th>
+<th>వయస్సు</th>
+<th>ముఖ్య లక్షణాలు</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>శైశవం</td>
+<td>0–2</td>
+<td>అత్యంత వేగవంతమైన పెరుగుదల; <strong>ఇంద్రియాల</strong> ద్వారా నేర్చుకోవడం (జ్ఞానేంద్రియ వికాసం అత్యధికం); తల్లితో అనుబంధం</td>
+</tr>
+<tr>
+<td>పూర్వ బాల్యం</td>
+<td>2–6</td>
+<td>"ముఠాకు ముందు వయస్సు", "బొమ్మల వయస్సు"; ఎన్నో ప్రశ్నలు; భాష వేగంగా పెరుగుతుంది; అహం కేంద్రీకృతం</td>
+</tr>
+<tr>
+<td>ఉత్తర బాల్యం</td>
+<td>6–12</td>
+<td><strong>"ముఠా వయస్సు"</strong>; పాఠశాల వయస్సు; మూర్త వస్తువులతో తార్కిక ఆలోచన; ముఠా విధేయత; కుతూహలం</td>
+</tr>
+<tr>
+<td>కౌమారం</td>
+<td>12–18</td>
+<td>"ఒత్తిడి, సంఘర్షణల దశ" (<strong>స్టాన్లీ హాల్</strong>); యుక్తవయస్సు; గుర్తింపు కోసం అన్వేషణ; తీవ్ర ఉద్వేగాలు; వీరారాధన</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>వికాస కోణాలు:</strong> శారీరక, చలనాత్మక (స్థూల: పరుగెత్తడం, దూకడం; సూక్ష్మ: పెన్సిల్ పట్టుకోవడం, గుండీలు పెట్టడం); జ్ఞానాత్మక (ఆలోచన, జ్ఞాపకం, తర్కం); ఉద్వేగ (కె.ఎం.బి. బ్రిడ్జెస్: నవజాత శిశువులో సాధారణ ఉద్రేకం మాత్రమే; సుమారు 2 ఏళ్లకు ఉద్వేగాలు విడిపోతాయి); సాంఘిక (స్వార్థం నుంచి సహకారం వైపు); నైతిక (మంచి-చెడుల గ్రహింపు); భాషా (ఏడుపు → కూయడం → ముద్దుమాటలు → ఒక్క పదం → రెండు పదాలు → వాక్యాలు).</p>
+<h3>4. నిత్యజీవిత ఉదాహరణ</h3>
+<p>పిల్లవాడి వికాసం <strong>మామిడి చెట్టు</strong> లాంటిది. చెట్టు ఎత్తుగా, లావుగా పెరగడం <em>పెరుగుదల</em>. సరైన కాలంలో పూత పూసి కాయలు కాయడం <em>వికాసం</em>. చెట్టు సిద్ధమైనప్పుడు పూత దానంతటదే వస్తుంది (<em>పరిపక్వత</em>); కానీ నీరు, ఎరువు (<em>అభ్యసనం, పరిసరాలు</em>) పండు నాణ్యతను నిర్ణయిస్తాయి. "సహాయం" కోసం ముందే పూలు కోస్తే చెట్టుకు హాని; 2 ఏళ్ల పిల్లవాడిపై రాయడం రుద్దడం కూడా అంతే.</p>
+<h3>5. కష్టమైన భాగాలను విడదీద్దాం</h3>
+<ol>
+<li><strong>పెరుగుదల vs వికాసం</strong>: పెరుగుదల = పరిమాణం (పరిమాణాత్మకం); వికాసం = గుణం, పరిమాణం రెండూ, మొత్తం వ్యక్తి.</li>
+<li><strong>పరిపక్వత vs అభ్యసనం</strong>: పాఠాలు లేకుండా శిశువు నడుస్తుంది (పరిపక్వత); సాధన తర్వాత పిల్లవాడు సైకిల్ తొక్కుతాడు (అభ్యసనం).</li>
+<li><strong>సంసిద్ధత</strong>: పరిపక్వత అభ్యసనాన్ని సాధ్యం చేసే స్థితి. సంసిద్ధత తర్వాతే బోధన ఫలిస్తుంది.</li>
+<li><strong>శిరః పాదాభిముఖ vs సమీప దూరాభిముఖ</strong>: "శిరః" = తల → తల నుంచి పాదాలకు. "సమీప" = దగ్గర, "దూర" = దూరం → కేంద్రం నుంచి అంచులకు.</li>
+<li><strong>అనువంశికత vs పరిసరాలు</strong>: అనువంశికత = ప్రకృతి (తల్లిదండ్రుల జన్యువులు); పరిసరాలు = పోషణ (గర్భధారణ తర్వాత ఉన్నదంతా). సమరూప కవలలకు ఒకే జన్యువులు ఉంటాయి కాబట్టి <strong>కవలల అధ్యయనాలు</strong> వీటిని పోలుస్తాయి.</li>
+<li><strong>ముఠా వయస్సు</strong>: ఉత్తర బాల్యంలో పిల్లలు ముఠాలుగా ఏర్పడతారు, నియమాలున్న ఆటలు ఇష్టపడతారు, స్నేహితుల ఆమోదం కోరుకుంటారు. అందుకే 3–5 తరగతులకు బృంద కృత్యాలు తగినవి.</li>
+</ol>
+<h3>6. మినహాయింపులు, గందరగోళ అంశాలు</h3>
+<ul>
+<li><strong>క్రమం ఒకటే, వేగం వేరు.</strong> "పిల్లలందరూ ఒకే వేగంతో వికసిస్తారు" అనేది సాధారణ తప్పు ప్రవచనం.</li>
+<li><strong>సమీప దూరాభిముఖ</strong> ఎక్కువగా అడుగుతారు; 2025 జవాబు "శరీర కేంద్రం నుంచి భాగాలకు". దీనికి "తల నుంచి పాదాలకు" ఎంచుకోకండి.</li>
+<li><strong>శైశవం</strong> అత్యంత వేగవంతమైన పెరుగుదల, ఇంద్రియ అభ్యసన దశ; పూర్వ బాల్యం కాదు.</li>
+<li><strong>"ఒత్తిడి, సంఘర్షణ"</strong> కౌమారానికి స్టాన్లీ హాల్ పదం, ఎరిక్‌సన్‌ది కాదు.</li>
+<li><strong>వికాసం ఆగుతుందా?</strong> పెరుగుదల ఆగుతుంది; వికాసం జీవితాంతం కొనసాగుతుంది.</li>
+</ul>
+<h3>7. ఇతర అంశాలతో సంబంధం</h3>
+<ul>
+<li><strong>అంశం 2</strong>: పియాజే దశలు ఈ వయో దశల జ్ఞానాత్మక కోణం.</li>
+<li><strong>యూనిట్ 3 (అభ్యసనం)</strong>: సంసిద్ధత అంటే థార్న్‌డైక్ <strong>సంసిద్ధతా నియమం</strong>.</li>
+<li><strong>బోధనా పద్ధతులు</strong>: "సులభం నుంచి కఠినానికి", "మూర్తం నుంచి అమూర్తానికి" అనే సూత్రాలు వికాస సూత్రాల నుంచే వచ్చాయి.</li>
+<li><strong>విద్యా దృక్పథాలు</strong>: NEP 2020 లోని 5+3+3+4 దశలు వికాస దశలకు సరిపోతాయి.</li>
+</ul>
+<h3>8. జ్ఞాపక సూత్రం</h3>
+<p>సూత్రాలకు <strong>"ని-ఏ-స-సా-వై-అ-ఊ-ప"</strong> → "<strong>ని</strong>త్యం <strong>ఏ</strong>కాగ్రతతో <strong>స</strong>రదాగా <strong>సా</strong>గే <strong>వై</strong>భవ <strong>అ</strong>క్షర <strong>ఊ</strong>రి <strong>ప</strong>ాఠశాల": <strong>ని</strong>రంతరత, <strong>ఏ</strong>కరీతి క్రమం, <strong>స</strong>మీప దూరాభిముఖ (శిరః పాదాభిముఖ కూడా), <strong>సా</strong>ధారణం → నిర్దిష్టం, <strong>వై</strong>యక్తిక భేదాలు, <strong>అ</strong>నువంశికత × పరిసరాలు, <strong>ఊ</strong>హించదగినది, <strong>ప</strong>రస్పర సంబంధం.</p>
+<p>దశలకు <strong>"ఇం-బొ-ము-ఒ"</strong>: శైశవం = <strong>ఇం</strong>ద్రియాలు, పూర్వ బాల్యం = <strong>బొ</strong>మ్మలు, ఉత్తర బాల్యం = <strong>ము</strong>ఠా, కౌమారం = <strong>ఒ</strong>త్తిడి.</p>
+<h3>9. మీ అవగాహనను పరీక్షించుకోండి</h3>
+<p><strong>స్వీయ జ్ఞాపకం (నోట్స్ చూడకుండా):</strong></p>
+<ol>
+<li>పెరుగుదల, వికాసం మధ్య మూడు తేడాలు చెప్పండి.</li>
+<li>శిరః పాదాభిముఖ, సమీప దూరాభిముఖ వికాసాలను ఒక్కో ఉదాహరణతో వివరించండి.</li>
+<li>వికాసాన్ని ప్రభావితం చేసే నాలుగు కారకాలను ఒక్కోదానికి రెండు ఉదాహరణలతో చెప్పండి.</li>
+</ol>
+<div class="quiz" id="quiz-t1"><h4>త్వరిత పరీక్ష: 5 ప్రశ్నలు</h4><p class="hint">మీ జవాబు సరిచూసుకోవడానికి ఒక ఆప్షన్‌ను నొక్కండి.</p><div class="mcq" data-a="2"><div class="stem"><span class="n">1.</span>కింది వికాస సూత్రాల్లో సరైనవి ఏవి?<ol class="stm"><li>వికాసం సాధారణ ప్రతిస్పందనల నుంచి నిర్దిష్ట ప్రతిస్పందనల వైపు సాగుతుంది.</li><li>పిల్లలందరూ ఒకే వేగంతో వికసిస్తారు.</li><li>వికాసం ఊహించదగిన క్రమాన్ని అనుసరిస్తుంది.</li><li>వికాసం అనువంశికత, పరిసరాలు కలిసి పనిచేసిన ఫలితం.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, ii, iii</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i, iii, iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>ii, iii, iv</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, ii, iii, iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> ii ని కలిపింది: క్రమం అందరికీ ఒకటే, కానీ వేగం వేరు (వైయక్తిక భేదాలు).</li><li class="c"><b>2.</b> సరైనది. i, iii, iv వికాస సూత్రాలు.</li><li class=""><b>3.</b> తప్పైన ii ని కలిపింది.</li><li class=""><b>4.</b> తప్పైన ii ని కలిపింది.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">2.</span>వికాస దశను దాని లక్షణంతో జతపరచండి:<table class="mt"><thead><tr><th>దశ (జాబితా-I)</th><th>లక్షణం (జాబితా-II)</th></tr></thead><tbody><tr><td>i. శైశవం</td><td>a. ముఠా వయస్సు</td></tr><tr><td>ii. పూర్వ బాల్యం</td><td>b. ఒత్తిడి, సంఘర్షణల దశ</td></tr><tr><td>iii. ఉత్తర బాల్యం</td><td>c. అత్యంత వేగవంతమైన పెరుగుదల; ఇంద్రియాల ద్వారా అభ్యసనం</td></tr><tr><td>iv. కౌమారం</td><td>d. బొమ్మల వయస్సు; ఎన్నో "ఎందుకు" ప్రశ్నలు</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-c, ii-a, iii-d, iv-b</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-d, ii-c, iii-a, iv-b</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-c, ii-d, iii-b, iv-a</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-c, ii-d, iii-a, iv-b</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> పూర్వ, ఉత్తర బాల్యం తారుమారు.</li><li class=""><b>2.</b> శైశవం, పూర్వ బాల్యం తారుమారు.</li><li class=""><b>3.</b> ఉత్తర బాల్యం, కౌమారం తారుమారు.</li><li class="c"><b>4.</b> సరైనది. శైశవం → ఇంద్రియాలు, వేగవంతమైన పెరుగుదల (2025 పేపర్ "జ్ఞానేంద్రియ వికాసం ఏ దశలో ఎక్కువ" అని అడిగింది); పూర్వ బాల్యం → బొమ్మల వయస్సు; ఉత్తర బాల్యం → ముఠా వయస్సు; కౌమారం → ఒత్తిడి, సంఘర్షణ.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">3.</span><b>ప్రతిపాదన (A):</b> వేళ్ల కండరాలు సిద్ధం కాకముందే పిల్లవాడికి రాయడం నేర్పితే ఫలితం తక్కువ.<br><b>కారణం (R):</b> అభ్యసనం పరిపక్వతపై ఆధారపడుతుంది.</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>A, R రెండూ నిజం; A కి R సరైన వివరణ</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>A, R రెండూ నిజం; కానీ A కి R సరైన వివరణ కాదు</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>A నిజం, R తప్పు</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>A తప్పు, R నిజం</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> సరైనది. రెండూ నిజం; A కి R వివరణ: పరిపక్వతకు ముందు శిక్షణ వృథా.</li><li class=""><b>2.</b> R యే A కి నేరుగా కారణం, సంబంధం లేని నిజం కాదు.</li><li class=""><b>3.</b> R నిజం: సంసిద్ధత పరిపక్వతపై ఆధారపడుతుంది.</li><li class=""><b>4.</b> A నిజం: ముందే బలవంతంగా రాయిస్తే పట్టు సరిగా రాదు, నిరాశ కలుగుతుంది.</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">4.</span>వినికిడి లోపంతో పుట్టిన పిల్లవాడి భాషా వికాసం నెమ్మదిగా ఉంది. ఈ పిల్లవాడి వికాసాన్ని ప్రధానంగా ప్రభావితం చేస్తున్న కారకం</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>సామాజిక</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>ఉద్వేగ</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>జీవ సంబంధ</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>మానసిక</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> సామాజిక కారకాలు కుటుంబం, స్నేహితులు, బడి, సంస్కృతి; ఇక్కడ అవి లేవు.</li><li class=""><b>2.</b> ఉద్వేగ కారకాలు భయం, ఆందోళన, ప్రేమ; ఇక్కడ కారణం శారీరకం.</li><li class="c"><b>3.</b> సరైనది. పుట్టుకతో ఇంద్రియంలో ఉన్న లోపం జీవ సంబంధ కారకం.</li><li class=""><b>4.</b> మానసిక కారకాలు ప్రజ్ఞ, ప్రేరణ మొదలైనవి; ఇక్కడ మూల కారణం చెవి.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">5.</span>కింది వాటిలో తప్పు ప్రవచనం ఏది?</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>స్థూల చలన నైపుణ్యాల్లో పరుగెత్తడం, దూకడం ఉంటాయి.</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>సూక్ష్మ చలన నైపుణ్యాల్లో పెన్సిల్ పట్టుకోవడం, చొక్కా గుండీలు పెట్టడం ఉంటాయి.</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>బ్రిడ్జెస్ ప్రకారం నవజాత శిశువు సాధారణ ఉద్రేకాన్ని మాత్రమే చూపుతుంది.</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>భాషా వికాసం రెండు పదాల దశతో మొదలై, తర్వాత ముద్దుమాటలు వస్తాయి.</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> నిజం: పెద్ద కండరాల కదలికలు స్థూల చలన నైపుణ్యాలు.</li><li class=""><b>2.</b> నిజం: చిన్న కండరాల, చేయి-కన్ను సమన్వయ నైపుణ్యాలు సూక్ష్మ చలన నైపుణ్యాలు.</li><li class=""><b>3.</b> నిజం: సాధారణ ఉద్రేకం నుంచి సుమారు 2 ఏళ్లకు ఉద్వేగాలు విడిపోతాయని కె.ఎం.బి. బ్రిడ్జెస్ చెప్పారు.</li><li class="c"><b>4.</b> తప్పు, కాబట్టి ఇదే జవాబు. క్రమం: ఏడుపు → కూయడం → ముద్దుమాటలు → ఒక్క పదం → రెండు పదాలు → వాక్యాలు.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>పునశ్చరణ నోట్ (5 వాక్యాలు)</b><br>
+1. పెరుగుదల = పరిమాణం (పరిమాణాత్మకం, ఆగుతుంది); వికాసం = మొత్తం వ్యక్తి (గుణ + పరిమాణాత్మకం, జీవితాంతం); వికాసం = పరిపక్వత + అభ్యసనం.<br>
+2. సూత్రాలు: నిరంతరం, ఒకే క్రమం, శిరః పాదాభిముఖ, సమీప దూరాభిముఖ, సాధారణం → నిర్దిష్టం, వైయక్తిక భేదాలు, అనువంశికత × పరిసరాలు.<br>
+3. కారకాలు: జీవ సంబంధ, మానసిక, సామాజిక, ఉద్వేగ.<br>
+4. దశలు: శైశవం (ఇంద్రియాలు), పూర్వ బాల్యం (బొమ్మల వయస్సు), ఉత్తర బాల్యం (ముఠా వయస్సు), కౌమారం (ఒత్తిడి-సంఘర్షణ, స్టాన్లీ హాల్).<br>
+5. కోణాలు: శారీరక-చలనాత్మక, జ్ఞానాత్మక, ఉద్వేగ (బ్రిడ్జెస్), సాంఘిక, నైతిక, భాషా.</div>
+
+<h2 id="s2">అంశం 2: వికాస సిద్ధాంతాలు</h2>
+<h3>1. ప్రాథమిక భావన</h3>
+<p>పిల్లలు <em>ఎలా</em> వికసిస్తారో పలువురు మనోవిజ్ఞానవేత్తలు వేర్వేరు కోణాల్లో వివరించారు. <strong>పియాజే</strong>: ఆలోచన దశలవారీగా ఎలా పెరుగుతుంది. <strong>వైగోట్స్కీ</strong>: ఇతరులు పిల్లవాడికి నేర్చుకోవడంలో ఎలా సహాయపడతారు. <strong>కోల్‌బర్గ్</strong>: మంచి-చెడుల గ్రహింపు ఎలా వికసిస్తుంది. <strong>ఎరిక్‌సన్</strong>: ప్రతి దశలోని సంక్షోభం ద్వారా మూర్తిమత్వం ఎలా రూపొందుతుంది. <strong>చామ్‌స్కీ</strong>: భాష ఎలా వికసిస్తుంది. <strong>కార్ల్ రోజర్స్</strong>: అంగీకారం, విలువ పొందిన పిల్లవాడు ఎలా ఎదుగుతాడు.</p>
+<h3>2. ఇవి ఎందుకు ముఖ్యం</h3>
+<p>"2వ తరగతి పిల్లవాడికి 5 + 3, 3 + 5 ఒకటే అని ఎందుకు అర్థం కాదు?" లేదా "5వ తరగతి పిల్లలు న్యాయం గురించి ఎందుకు అంతగా పట్టించుకుంటారు?" వంటి ప్రశ్నలు ఉపాధ్యాయులకు ఎదురవుతాయి. ప్రతి సిద్ధాంతం ఒక రకం ప్రశ్నకు జవాబిస్తుంది. DSC ప్రశ్నలు సాధారణంగా ఒక తరగతి సన్నివేశాన్ని ఇచ్చి అది ఏ సిద్ధాంతం లేదా దశను సూచిస్తుందో అడుగుతాయి.</p>
+<h3>3. ఇవి ఎలా పనిచేస్తాయి</h3>
+<p><strong>పియాజే: జ్ఞానాత్మక వికాసం.</strong> పిల్లవాడు మనసులో <strong>స్కీమాలు</strong> అనే ఫైళ్లు నిర్మించుకుంటాడు. కొత్త సమాచారాన్ని పాత స్కీమాలో ఇమిడ్చడం <strong>సాంశీకరణం</strong> (assimilation); స్కీమాను మార్చుకోవడం <strong>అనుగుణ్యత</strong> (accommodation); వాటి మధ్య సమతుల్యత <strong>సమతుల్యీకరణ</strong> (equilibration).</p>
+<figure class="diagram"><svg viewBox="0 0 760 210" role="img" aria-label="Piaget's four stages of cognitive development">
+<defs><marker id="pa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="currentColor"/></marker></defs>
+<text x="24" y="30" class="t">పియాజే: SGT విద్యార్థులు మూర్త ప్రచాలక దశలో ఉంటారు</text>
+<rect x="24" y="56" width="160" height="104" rx="8" class="box"/><text x="36" y="82" class="n">ఇంద్రియ చాలక దశ</text><text x="36" y="102" class="q">0-2 సంవత్సరాలు</text><text x="36" y="124" class="b">ఇంద్రియాలతో అభ్యసనం</text><text x="36" y="142" class="b">వస్తు స్థిరత్వం</text><path d="M186 108H206" class="ln" marker-end="url(#pa)"/><rect x="208" y="56" width="160" height="104" rx="8" class="box"/><text x="220" y="82" class="n">పూర్వ ప్రచాలక దశ</text><text x="220" y="102" class="q">2-7 సంవత్సరాలు</text><text x="220" y="124" class="b">అహం కేంద్రీకృతం</text><text x="220" y="142" class="b">నిత్యత్వం ఉండదు</text><path d="M370 108H390" class="ln" marker-end="url(#pa)"/><rect x="392" y="56" width="160" height="104" rx="8" class="box hi"/><text x="404" y="82" class="n">మూర్త ప్రచాలక దశ</text><text x="404" y="102" class="q">7-11 సంవత్సరాలు</text><text x="404" y="124" class="b">వస్తువులతో తర్కం</text><text x="404" y="142" class="b">నిత్యత్వం వస్తుంది</text><path d="M554 108H574" class="ln" marker-end="url(#pa)"/><rect x="576" y="56" width="160" height="104" rx="8" class="box"/><text x="588" y="82" class="n">అమూర్త ప్రచాలక దశ</text><text x="588" y="102" class="q">11 ఏళ్ల నుంచి</text><text x="588" y="124" class="b">అమూర్త ఆలోచన</text><text x="588" y="142" class="b">పరికల్పన, తర్కం</text>
+<text x="24" y="196" class="q">హైలైట్ చేసిన దశలోనే ఎక్కువ మంది ప్రాథమిక పాఠశాల పిల్లలు ఉంటారు. నిజమైన వస్తువులు, ఉదాహరణలతో బోధించండి.</text>
+</svg><figcaption>పియాజే జ్ఞానాత్మక వికాస 4 దశలు</figcaption></figure>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>దశ</th>
+<th>వయస్సు</th>
+<th>పరీక్ష కోసం ముఖ్య పదాలు</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ఇంద్రియ చాలక</td>
+<td>0–2</td>
+<td>ఇంద్రియాలు, కదలికల ద్వారా అభ్యసనం; <strong>వస్తు స్థిరత్వం</strong></td>
+</tr>
+<tr>
+<td>పూర్వ ప్రచాలక</td>
+<td>2–7</td>
+<td>చిహ్నాలు, నటనాత్మక ఆట; <strong>అహం కేంద్రీకృతం</strong>, <strong>సజీవ భావన</strong>, <strong>కేంద్రీకరణ</strong>; నిత్యత్వం ఉండదు</td>
+</tr>
+<tr>
+<td>మూర్త ప్రచాలక</td>
+<td>7–11</td>
+<td>నిజమైన వస్తువులతో తర్కం; <strong>నిత్యత్వం</strong>, <strong>విపర్యయత</strong>, వర్గీకరణ, క్రమబద్ధీకరణ</td>
+</tr>
+<tr>
+<td>అమూర్త ప్రచాలక</td>
+<td>11+</td>
+<td>అమూర్త, ఊహాత్మక ఆలోచన; <strong>పరికల్పనాత్మక-నిగమన తర్కం</strong></td>
+</tr>
+</tbody>
+</table></div>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Conservation_of_Liquid.png?width=900" alt="పియాజే నిత్యత్వ ప్రయోగం: పొట్టి వెడల్పాటి గ్లాసులో, పొడవాటి సన్నని గ్లాసులో అదే నీరు. "రెండూ సమానం" అనే పిల్లవాడికి నిత్యత్వం ఉంది." loading="lazy"><figcaption>పియాజే నిత్యత్వ ప్రయోగం: పొట్టి వెడల్పాటి గ్లాసులో, పొడవాటి సన్నని గ్లాసులో అదే నీరు. "రెండూ సమానం" అనే పిల్లవాడికి నిత్యత్వం ఉంది. · ఫోటో: <a href="https://commons.wikimedia.org/wiki/File:Conservation_of_Liquid.png" target="_blank" rel="noopener">వికీమీడియా కామన్స్</a> (రచయిత, లైసెన్స్ కోసం ఫైల్ పేజీ చూడండి)</figcaption></figure>
+<p><strong>వైగోట్స్కీ: సామాజిక-సాంస్కృతిక వికాసం.</strong> అభ్యసనం మొదట ఇతరులతో, తర్వాత పిల్లవాడి లోపల జరుగుతుంది. పిల్లవాడు ఒంటరిగా చేయగలిగేదానికి, సహాయంతో చేయగలిగేదానికి మధ్య అంతరం <strong>సమీప వికాస మండలం (ZPD)</strong>. ZPD లో ఇచ్చి క్రమంగా తొలగించే సహాయం <strong>పరంజా</strong> (Scaffolding). ఎక్కువ తెలిసిన ఎవరైనా (ఉపాధ్యాయుడు, తల్లిదండ్రులు, సహవిద్యార్థి) <strong>MKO</strong>. పిల్లలు తమతో తాము మాట్లాడుకోవడం <strong>స్వగత భాషణ</strong> (private speech).</p>
+<p><strong>కోల్‌బర్గ్: నైతిక వికాసం</strong> (హైంజ్ సందిగ్ధత; అవును/కాదు జవాబు కాదు, ఇచ్చిన <em>కారణాన్ని</em> అధ్యయనం చేశారు).</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>స్థాయి</th>
+<th>దశ</th>
+<th>సాధారణ ఆలోచన</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. పూర్వ సాంప్రదాయ</td>
+<td>1. విధేయత - శిక్ష</td>
+<td>"చేయకు, శిక్ష పడుతుంది."</td>
+</tr>
+<tr>
+<td></td>
+<td>2. స్వప్రయోజనం / పరస్పర మార్పిడి</td>
+<td>"ఆమె నాకు సహాయం చేసింది, నేనూ చేస్తా."</td>
+</tr>
+<tr>
+<td>2. సాంప్రదాయ</td>
+<td>3. మంచి అబ్బాయి - మంచి అమ్మాయి</td>
+<td>"మంచి విద్యార్థులు ఇతరులకు సహాయం చేస్తారు."</td>
+</tr>
+<tr>
+<td></td>
+<td>4. అధికారం - సామాజిక క్రమ నిర్వహణ (శాంతిభద్రతలు)</td>
+<td>"ఇది నియమం."</td>
+</tr>
+<tr>
+<td>3. ఉత్తర సాంప్రదాయ</td>
+<td>5. సామాజిక ఒప్పందం</td>
+<td>"చట్టాలు ప్రజల కోసం ఉండాలి."</td>
+</tr>
+<tr>
+<td></td>
+<td>6. సార్వత్రిక నైతిక సూత్రాలు</td>
+<td>"మానవ ప్రాణం అన్నింటికంటే గొప్పది."</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>ఎరిక్‌సన్: మనో-సామాజిక వికాసం</strong> (8 దశలు, ప్రతిదానిలో రెండు వ్యతిరేకాల మధ్య సంక్షోభం).</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>వయస్సు</th>
+<th>సంక్షోభం</th>
+<th>బలం</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0–1</td>
+<td>నమ్మకం vs అపనమ్మకం</td>
+<td>ఆశ</td>
+</tr>
+<tr>
+<td>1–3</td>
+<td>స్వయంప్రతిపత్తి vs సిగ్గు, సందేహం</td>
+<td>సంకల్పం</td>
+</tr>
+<tr>
+<td>3–6</td>
+<td>చొరవ vs అపరాధ భావం</td>
+<td>ఉద్దేశం</td>
+</tr>
+<tr>
+<td><strong>6–12</strong></td>
+<td><strong>శ్రమ vs న్యూనతా భావం</strong></td>
+<td><strong>సమర్థత</strong></td>
+</tr>
+<tr>
+<td>12–18</td>
+<td>గుర్తింపు vs పాత్ర గందరగోళం</td>
+<td>విశ్వసనీయత</td>
+</tr>
+<tr>
+<td>యువ వయోజనులు</td>
+<td>సాన్నిహిత్యం vs ఏకాంతం</td>
+<td>ప్రేమ</td>
+</tr>
+<tr>
+<td>మధ్య వయస్కులు</td>
+<td>ఉత్పాదకత vs స్తబ్దత</td>
+<td>సంరక్షణ</td>
+</tr>
+<tr>
+<td>వృద్ధాప్యం</td>
+<td>సమగ్రత vs నిరాశ</td>
+<td>వివేకం</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>చామ్‌స్కీ: భాష.</strong> ప్రతి పిల్లవాడు <strong>భాషా సముపార్జన సాధనం (LAD)</strong> తో పుడతాడు: సార్వత్రిక వ్యాకరణం ఉన్న పుట్టుకతో వచ్చే భాషా సామర్థ్యం. అందుకే ఏ పిల్లవాడైనా ఏ భాషైనా నేర్చుకోగలడు. <em>అనుకరణ ద్వారా మాత్రమే</em> భాష నేర్చుకోవడం <strong>స్కిన్నర్</strong> అభిప్రాయం, చామ్‌స్కీది కాదు.</p>
+<p><strong>కార్ల్ రోజర్స్: స్వీయ సిద్ధాంతం (మానవతావాదం).</strong> ప్రతి పిల్లవాడికి <strong>స్వీయ భావన</strong> (self-concept), ఎదగాలనే తపన (ఆత్మ సాక్షాత్కారం) ఉంటాయి. <strong>షరతులు లేని సానుకూల గౌరవం</strong> (unconditional positive regard), సహానుభూతి, నిజాయితీ లభించినప్పుడు పిల్లలు బాగా ఎదుగుతారు. బడిలో దీని అర్థం <strong>శిశు కేంద్రిత, నిర్దేశ రహిత</strong> బోధన; ఉపాధ్యాయుడు <strong>సులభతరం చేసేవాడు</strong>.</p>
+<p><strong>ఇవి కూడా ఉపయోగపడతాయి:</strong> <strong>ఫ్రాయిడ్</strong> మనోలైంగిక దశలు ఇచ్చారు (నోటి, గుద, లైంగికాంగ, <strong>సుప్త</strong> (6–12, ప్రశాంత దశ), జననేంద్రియ). <strong>బ్రాన్‌ఫెన్‌బ్రెన్నర్</strong> పర్యావరణ వ్యవస్థల సిద్ధాంతం ప్రకారం పిల్లవాడు కుటుంబం, పాఠశాల, సమాజం, సంస్కృతి అనే పొరల మధ్య ఉంటాడు.</p>
+<h3>4. నిత్యజీవిత ఉదాహరణ</h3>
+<p>సైకిల్ తొక్కడం నేర్చుకోవడంలో ఆరు సిద్ధాంతాలూ కనిపిస్తాయి. పియాజే: ముందు పిల్లవాడు సిద్ధంగా ఉండాలి; 2 ఏళ్ల పిల్లవాడు చేయలేడు. వైగోట్స్కీ: పెద్దవాళ్లు సీటు పట్టుకుని (పరంజా) క్రమంగా వదిలేస్తారు. కోల్‌బర్గ్: "పోలీసు ఉన్నాడు కాబట్టి" (దశ 1) సిగ్నల్ దగ్గర ఆగుతాడు; తర్వాత "నియమాలు అందరినీ సురక్షితంగా ఉంచుతాయి" (దశ 4) కాబట్టి. ఎరిక్‌సన్: విజయం సాధించిన పిల్లవాడు సమర్థుడిగా, ఎగతాళి చేయబడినవాడు న్యూనతగా భావిస్తాడు. చామ్‌స్కీ: డ్రిల్ లేకుండానే "బ్రేక్" అనే పదం నేర్చుకుంటాడు. రోజర్స్: పడిపోయినప్పుడు కుటుంబం దయతో అంగీకరిస్తే పిల్లవాడు ప్రయత్నిస్తూనే ఉంటాడు.</p>
+<h3>5. కష్టమైన భాగాలను విడదీద్దాం</h3>
+<ol>
+<li><strong>సాంశీకరణం vs అనుగుణ్యత</strong>: "కుక్క" తెలిసిన పిల్లవాడు మేకను "కుక్క" అంటాడు (సాంశీకరణం: పాత ఫైల్‌లో ఇమిడ్చడం). "ఇది మేక" అని చెప్పాక కొత్త ఫైల్ తయారుచేసుకుంటాడు (అనుగుణ్యత).</li>
+<li><strong>అహం కేంద్రీకృతం vs సజీవ భావన vs కేంద్రీకరణ</strong>: అహం కేంద్రీకృతం = "నేను చూసేదే అందరూ చూస్తారు"; సజీవ భావన = "చంద్రుడు బతికి ఉన్నాడు, నన్ను అనుసరిస్తున్నాడు"; కేంద్రీకరణ = ఒక్క లక్షణాన్నే చూడటం (నీటి ఎత్తు).</li>
+<li><strong>నిత్యత్వం, విపర్యయత</strong>: ఆకారం మారినా పరిమాణం మారదని, ఆ మార్పును తిరిగి చేయవచ్చని (నీటిని తిరిగి పోయడం) అర్థం చేసుకోవడం.</li>
+<li><strong>తరగతిలో ZPD, పరంజా</strong>: ఒక లెక్కను పూర్తిగా చేసి, తర్వాతి దానికి సూచనలు ఇచ్చి, మూడోదాన్ని పిల్లవాడే చేసేలా వదిలేయడం.</li>
+<li><strong>కోల్‌బర్గ్ దశ 2 vs దశ 3</strong>: దశ 2 = "నాకేం వస్తుంది?" (మార్పిడి); దశ 3 = "ప్రజలు నా గురించి ఏమనుకుంటారు?" (ఆమోదం).</li>
+<li><strong>SGT లకు ఎరిక్‌సన్</strong>: 6–12 శ్రమ vs న్యూనతా భావం. పిల్లలు పూర్తిచేయగల పనులు ఇవ్వండి, ప్రయత్నాన్ని ప్రశంసించండి.</li>
+</ol>
+<h3>6. మినహాయింపులు, గందరగోళ అంశాలు</h3>
+<ul>
+<li><strong>వస్తు స్థిరత్వం</strong> ఇంద్రియ చాలక దశది, పూర్వ ప్రచాలక దశది కాదు.</li>
+<li><strong>నిత్యత్వం</strong> మూర్త ప్రచాలక దశలో (7–11) వస్తుంది.</li>
+<li><strong>స్వగత భాషణ (private speech)</strong> వైగోట్స్కీ పదం; అదే దానికి పియాజే పదం <strong>అహం కేంద్రిత భాషణ</strong>.</li>
+<li><strong>కోల్‌బర్గ్ 2025 ప్రశ్న</strong>: "డిబార్ అవుతాననే భయంతో" కాపీ కొట్టకపోవడం <strong>విధేయత - శిక్ష</strong> (దశ 1).</li>
+<li><strong>చామ్‌స్కీ ≠ అనుకరణ.</strong> చామ్‌స్కీ భావన కానిది ఏదని 2025 పేపర్ అడిగింది; జవాబు "అనుకరణ ద్వారా భాషాభ్యసనం".</li>
+<li><strong>రోజర్స్ vs మాస్లో</strong>: ఇద్దరూ మానవతావాదులు; రోజర్స్ = స్వీయ భావన, షరతులు లేని సానుకూల గౌరవం; మాస్లో = అవసరాల అనుక్రమం.</li>
+<li><strong>కరోల్ గిల్లిగన్</strong> "సంరక్షణా నీతి" ని విస్మరించారని కోల్‌బర్గ్‌ను విమర్శించారు.</li>
+</ul>
+<h3>7. ఇతర అంశాలతో సంబంధం</h3>
+<ul>
+<li><strong>అంశం 1</strong>: పియాజే దశలు వయో దశలకు సరిపోతాయి; ఎరిక్‌సన్ 6–12 సంక్షోభమే "ముఠా వయస్సు".</li>
+<li><strong>విద్యా దృక్పథాలు (NCF 2005)</strong>: నిర్మాణాత్మకవాదం (పియాజే), సామాజిక నిర్మాణాత్మకవాదం (వైగోట్స్కీ) శిశు కేంద్రిత బోధనకు సిద్ధాంత ఆధారం.</li>
+<li><strong>బోధనా పద్ధతులు</strong>: 1–5 తరగతులకు మూర్త సామగ్రి (మూర్త ప్రచాలక దశ); బృంద కృత్యాలు, సహవిద్యార్థి బోధన (ZPD).</li>
+<li><strong>యూనిట్ 3 (అభ్యసనం)</strong>: బ్రూనర్ పరంజా, అన్వేషణ అభ్యసనం ఈ భావనల నుంచే పుట్టాయి.</li>
+</ul>
+<h3>8. జ్ఞాపక సూత్రం</h3>
+<p><strong>పియాజే: "ఇం-పూ-మూ-అ, 2-7-11"</strong>: <strong>ఇం</strong>ద్రియం (0–2), <strong>పూ</strong>ర్వ ప్రచాలక / నటన (2–7), <strong>మూ</strong>ర్తం (7–11), <strong>అ</strong>మూర్తం (11+).</p>
+<p><strong>కోల్‌బర్గ్: "శిక్ష, బేరం, మెప్పు, పోలీసు, ఒప్పందం, ధర్మం"</strong>: 1 శిక్ష, 2 మార్పిడి బేరం, 3 మెప్పు/ఆమోదం, 4 చట్టం (పోలీసు), 5 సామాజిక ఒప్పందం, 6 సార్వత్రిక ధర్మం.</p>
+<p><strong>ఎరిక్‌సన్ మధ్య మూడు: "చొ-శ్ర-గు"</strong>: <strong>చొ</strong>రవ (3–6), <strong>శ్ర</strong>మ (6–12), <strong>గు</strong>ర్తింపు (12–18).</p>
+<h3>9. మీ అవగాహనను పరీక్షించుకోండి</h3>
+<p><strong>స్వీయ జ్ఞాపకం:</strong></p>
+<ol>
+<li>పియాజే నాలుగు దశలను వయస్సు, ఒక్కో ముఖ్య పదంతో చెప్పండి.</li>
+<li>ZPD అంటే ఏమిటి? పరంజాకు ఒక తరగతి ఉదాహరణ ఇవ్వండి.</li>
+<li>"నియమాలు క్రమాన్ని కాపాడతాయి కాబట్టి పాటిస్తాను" అనేది కోల్‌బర్గ్ ఏ దశ?</li>
+</ol>
+<div class="quiz" id="quiz-t2"><h4>త్వరిత పరీక్ష: 5 ప్రశ్నలు</h4><p class="hint">మీ జవాబు సరిచూసుకోవడానికి ఒక ఆప్షన్‌ను నొక్కండి.</p><div class="mcq" data-a="2"><div class="stem"><span class="n">1.</span>"గత వారం ఆమె నాకు సహాయం చేసింది కాబట్టి" అని ఒక విద్యార్థి బృంద పరీక్షలో తోటి విద్యార్థికి సహాయం చేస్తాడు. కోల్‌బర్గ్ ప్రకారం ఈ విద్యార్థి ఉన్న దశ</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>విధేయత - శిక్ష నేపథ్య నీతి</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>స్వప్రయోజన (పరస్పర మార్పిడి) నేపథ్య నీతి</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>మంచి అబ్బాయి - మంచి అమ్మాయి నేపథ్య నీతి</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>సామాజిక ఒప్పంద నేపథ్య నీతి</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> దశ 1 శిక్ష తప్పించుకోవడం; ఇక్కడ శిక్ష భయం లేదు.</li><li class="c"><b>2.</b> సరైనది. దశ 2: "నువ్వు నాకు సహాయం చేస్తే, నేను నీకు": సొంత ప్రయోజనం కోసం సమాన మార్పిడి.</li><li class=""><b>3.</b> దశ 3 మంచివాడిగా కనిపించి ఆమోదం పొందడం, ఉపకారం తీర్చుకోవడం కాదు.</li><li class=""><b>4.</b> దశ 5 చట్టాలు ప్రజల సంక్షేమం కోసం అనే ఉన్నత స్థాయి.</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">2.</span>ఎరిక్‌సన్ దశలను వాటి వయస్సుతో జతపరచండి:<table class="mt"><thead><tr><th>దశ (జాబితా-I)</th><th>వయస్సు (జాబితా-II)</th></tr></thead><tbody><tr><td>i. నమ్మకం vs అపనమ్మకం</td><td>a. 6-12 ఏళ్లు</td></tr><tr><td>ii. చొరవ vs అపరాధ భావం</td><td>b. 0-1 ఏడాది</td></tr><tr><td>iii. శ్రమ vs న్యూనతా భావం</td><td>c. 12-18 ఏళ్లు</td></tr><tr><td>iv. గుర్తింపు vs పాత్ర గందరగోళం</td><td>d. 3-6 ఏళ్లు</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-b, ii-a, iii-d, iv-c</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-d, ii-b, iii-a, iv-c</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-b, ii-d, iii-a, iv-c</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-b, ii-d, iii-c, iv-a</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> చొరవ (3-6), శ్రమ (6-12) తారుమారు.</li><li class=""><b>2.</b> నమ్మకం (0-1), చొరవ (3-6) తారుమారు.</li><li class="c"><b>3.</b> సరైనది. నమ్మకం 0-1; చొరవ 3-6; శ్రమ 6-12 (SGT వయస్సు); గుర్తింపు 12-18.</li><li class=""><b>4.</b> శ్రమ, గుర్తింపు తారుమారు.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">3.</span>కింది వాటిలో సరైన ప్రవచనాలు ఏవి?<ol class="stm"><li>పియాజే: వికాసం అభ్యసనానికి ముందు వస్తుంది.</li><li>వైగోట్స్కీ: సామాజిక పరస్పర చర్య ద్వారా అభ్యసనం వికాసాన్ని నడిపిస్తుంది.</li><li>పిల్లల స్వగత భాషణను పియాజే "అహం కేంద్రిత భాషణ" అని, వైగోట్స్కీ "స్వగత భాషణ" (private speech) అని అన్నారు.</li><li>ఆలోచనలో భాషకు పాత్ర లేదని పియాజే, వైగోట్స్కీ ఇద్దరూ చెప్పారు.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, ii, iii</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>ii, iii, iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i, iv</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, ii, iii, iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> సరైనది. i, ii, iii నిజం.</li><li class=""><b>2.</b> iv ని కలిపింది: వైగోట్స్కీ ఆలోచనలో భాషకు కేంద్ర పాత్ర ఇచ్చారు.</li><li class=""><b>3.</b> iv ని కలిపి, ii, iii లను వదిలేసింది.</li><li class=""><b>4.</b> తప్పైన iv ని కలిపింది.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">4.</span>కార్ల్ రోజర్స్ బోధనా దృక్పథాన్ని ఉత్తమంగా వివరించేది</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>ఉపాధ్యాయ కేంద్రితం, బహుమతి ఆధారితం</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>ఉద్దీపన-ప్రతిస్పందన డ్రిల్, సాధన</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>దశలవారీ జ్ఞానాత్మక సంఘర్షణ</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>శిశు కేంద్రితం, నిర్దేశ రహితం, షరతులు లేని సానుకూల గౌరవంతో</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> ఉపాధ్యాయ కేంద్రిత, బహుమతి ఆధారిత బోధన ప్రవర్తనావాదానికి (స్కిన్నర్) దగ్గర.</li><li class=""><b>2.</b> డ్రిల్, సాధన థార్న్‌డైక్ అభ్యాస నియమం.</li><li class=""><b>3.</b> జ్ఞానాత్మక సంఘర్షణ, దశలు పియాజే భావనలు.</li><li class="c"><b>4.</b> సరైనది. రోజర్స్ (మానవతావాదం): ఉపాధ్యాయుడు ప్రతి పిల్లవాడినీ అంగీకరించే సులభతరం చేసేవాడు; అభ్యసనాన్ని పిల్లవాడే నడుపుతాడు.</li></ul></div></div><div class="mcq" data-a="2"><div class="stem"><span class="n">5.</span>4 ఏళ్ల పాప తన కళ్లు మూసుకుని "ఇప్పుడు నువ్వు నన్ను చూడలేవు!" అంటుంది. పియాజే ప్రకారం ఇది దేనిని సూచిస్తుంది</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>సజీవ భావన</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>అహం కేంద్రీకృతం</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>కేంద్రీకరణ</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>వస్తు స్థిరత్వం</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> సజీవ భావన అంటే వస్తువులు బతికి ఉన్నాయని నమ్మడం (ఉదా: "చంద్రుడు నన్ను అనుసరిస్తున్నాడు").</li><li class="c"><b>2.</b> సరైనది. తను చూసేదే ఇతరులూ చూస్తారని అనుకుంటుంది: అహం కేంద్రీకృతం (పూర్వ ప్రచాలక దశ).</li><li class=""><b>3.</b> కేంద్రీకరణ అంటే నీటి ఎత్తు వంటి ఒక్క లక్షణాన్నే గమనించడం.</li><li class=""><b>4.</b> వస్తు స్థిరత్వం అంటే దాచిన వస్తువు ఇంకా ఉందని తెలుసుకోవడం (ఇంద్రియ చాలక దశ).</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>పునశ్చరణ నోట్ (5 వాక్యాలు)</b><br>
+1. పియాజే: స్కీమా, సాంశీకరణం, అనుగుణ్యత, సమతుల్యీకరణ; ఇంద్రియ చాలక (వస్తు స్థిరత్వం), పూర్వ ప్రచాలక (అహం కేంద్రీకృతం, సజీవ భావన), మూర్త (నిత్యత్వం), అమూర్త (పరికల్పన).<br>
+2. వైగోట్స్కీ: ZPD, పరంజా, MKO, స్వగత భాషణ; అభ్యసనం వికాసాన్ని నడిపిస్తుంది.<br>
+3. కోల్‌బర్గ్: 3 స్థాయిలు × 2 దశలు; హైంజ్ సందిగ్ధత; శిక్ష భయం = దశ 1.<br>
+4. ఎరిక్‌సన్: 8 సంక్షోభాలు; 6–12 = శ్రమ vs న్యూనతా భావం → సమర్థత.<br>
+5. చామ్‌స్కీ = LAD (అనుకరణ కాదు); రోజర్స్ = స్వీయ భావన, షరతులు లేని సానుకూల గౌరవం, శిశు కేంద్రితం.</div>
+
+<h2 id="s3">నోట్‌బుక్ పేజీ: 1వ రోజు</h2>
+<p>ఈ పేజీని మూసి, కింది వాటిని <strong>జ్ఞాపకం నుంచి</strong> ఈ క్రమంలో మీ నోట్‌బుక్‌లో రాయండి. తర్వాత సరిచూసి, వదిలినవాటిని వేరే రంగులో పూరించండి.</p>
+<ol>
+<li>పెరుగుదల vs వికాసం పట్టిక (ఐదు వరుసలు); వికాసం = పరిపక్వత + అభ్యసనం.</li>
+<li>తొమ్మిది వికాస సూత్రాలు (ని-ఏ-స-సా-వై-అ-ఊ-ప); శిరః పాదాభిముఖ, సమీప దూరాభిముఖలకు ఉదాహరణ.</li>
+<li>వికాసానికి నాలుగు కారకాలు, ఒక్కోదానికి రెండు ఉదాహరణలు.</li>
+<li>వయస్సుతో నాలుగు దశలు, ఇం-బొ-ము-ఒ లక్షణాలు.</li>
+<li>ఆరు వికాస కోణాలు; ఉద్వేగాలపై బ్రిడ్జెస్; భాషా వికాస క్రమం.</li>
+<li>పియాజే: నాలుగు పదాలు (స్కీమా, సాంశీకరణం, అనుగుణ్యత, సమతుల్యీకరణ) + నాలుగు దశల పట్టిక.</li>
+<li>వైగోట్స్కీ: ZPD, పరంజా, MKO, స్వగత భాషణ.</li>
+<li>కోల్‌బర్గ్: ఆరు దశలు, ఒక్కోదానికి ఒక వాక్యం ఆలోచన.</li>
+<li>ఎరిక్‌సన్: వయస్సుతో ఎనిమిది సంక్షోభాలు; 6–12 దశకు నక్షత్రం గుర్తు.</li>
+<li>చామ్‌స్కీ (LAD, అనుకరణ కాదు), రోజర్స్ (స్వీయ భావన, షరతులు లేని సానుకూల గౌరవం).</li>
+</ol>
+<h2 id="s4">ఆధారాలు</h2>
+<ul>
+<li>పాఠశాల విద్యా సంచాలకత్వం, ఆంధ్రప్రదేశ్: <a href="https://apdsc2024.apcfss.in/Documents/MEGA_DSC_2024_Suggestive_Syllabus-27-11-2024.pdf">మెగా DSC 2024 సూచనాత్మక సిలబస్</a> (SGT భాగం III యూనిట్ జాబితా; 9 నవంబర్ 2026న సరిచూసినది).</li>
+<li>AP DSC SGT ప్రశ్నాపత్రం, 19 జూన్ 2025, షిఫ్ట్ 1 (విభాగం III), మీరు అందించినది.</li>
+<li>ఫోటోలు: వికీమీడియా కామన్స్ (ప్రతి ఫైల్ పేజీలో క్రెడిట్, లైసెన్స్).</li>
+</ul>
+<footer>సులభం · AP DSC-2026 (APTRT) SGT · విద్యా మనోవిజ్ఞాన శాస్త్రం. అధికారిక SCERT SGT సిలబస్ (యూనిట్ 1: శిశు వికాసం) ఆధారంగా.</footer>
+</main>
+<script>
+(function(){
+var T={"right": "సరైనది!", "wrong": "కాదు. సరైన జవాబు:", "score": "మీ స్కోరు"};
+document.querySelectorAll('.quiz').forEach(function(qz){
+  var mcqs=qz.querySelectorAll('.mcq'), done=0, ok=0;
+  mcqs.forEach(function(m){
+    var a=m.getAttribute('data-a');
+    m.querySelectorAll('button.opt').forEach(function(b){
+      b.addEventListener('click',function(){
+        if(m.classList.contains('done'))return;
+        m.classList.add('done');
+        var right=b.getAttribute('data-o')===a;
+        b.classList.add(right?'ok':'bad');
+        m.querySelector('button.opt[data-o="'+a+'"]').classList.add('ok');
+        m.querySelectorAll('button.opt').forEach(function(x){x.setAttribute('aria-disabled','true');});
+        m.querySelector('.verdict').textContent=right?T.right:(T.wrong+' '+a);
+        done++; if(right)ok++;
+        if(done===mcqs.length){qz.querySelector('.qscore').textContent=T.score+': '+ok+' / '+mcqs.length;}
+      });
+    });
+  });
+});
+})();
+</script>
+</body></html>

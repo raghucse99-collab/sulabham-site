@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Perspectives in Education, Day 1: History of Education</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf8f3;--paper:#fff;--ink:#2b2118;--muted:#6f6254;--rule:#e6ddd0;--accent:#8a4b1f;--tint:#f4e9dc;--th:#f1e6d8}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1713;--paper:#231e19;--ink:#efe6da;--muted:#b3a593;--rule:#3a322a;--accent:#e0a36f;--tint:#3a2b1e;--th:#2e2620}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Noto Sans","Noto Sans Telugu",system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+header.top{border-bottom:3px solid var(--accent);margin-bottom:8px}
+h1{font-size:1.75rem;line-height:1.25;margin:8px 0 4px;color:var(--accent)}
+h1+p em{color:var(--muted);font-style:normal;font-size:.9rem}
+h2{font-size:1.35rem;margin:40px 0 10px;padding:8px 12px;background:var(--tint);border-left:5px solid var(--accent);border-radius:4px}
+h3{font-size:1.1rem;margin:26px 0 8px;color:var(--accent)}
+p{margin:8px 0}
+ul,ol{padding-left:24px;margin:8px 0}
+li{margin:4px 0}
+strong{color:var(--ink)}
+.tbl{overflow-x:auto;margin:12px 0;border:1px solid var(--rule);border-radius:8px;background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:.94rem}
+th,td{padding:8px 10px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+th{background:var(--th);font-weight:600}
+tr:last-child td{border-bottom:0}
+.formula{margin:12px 0;padding:12px 16px;background:var(--paper);border:1px dashed var(--accent);border-radius:8px;font-weight:600;text-align:center}
+nav.toc{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:12px 16px;margin:16px 0}
+nav.toc b{display:block;margin-bottom:6px}
+nav.toc a{color:var(--accent);text-decoration:none}
+nav.toc ol{margin:0}
+figure.diagram{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:8px;color:var(--muted)}
+figure.diagram{overflow-x:auto;-webkit-overflow-scrolling:touch}
+figure.diagram svg{width:100%;min-width:600px;height:auto;display:block}
+figcaption{font-size:.85rem;color:var(--muted);text-align:center;padding:4px}
+svg .t{font-size:15px;font-weight:600;fill:var(--ink)}
+svg .n{font-size:12.5px;font-weight:600;fill:var(--ink)}
+svg .b{font-size:11.5px;fill:var(--ink)}
+svg .q{font-size:11.5px;fill:var(--muted)}
+svg .box{fill:none;stroke:var(--muted);stroke-width:1.25}
+svg .box.hi{fill:var(--tint);stroke:var(--accent);stroke-width:2}
+svg .ln{stroke:var(--muted);stroke-width:1.25;fill:none}
+details.ans{margin:16px 0;background:var(--paper);border:1px solid var(--accent);border-radius:8px;padding:10px 14px}
+details.ans summary{cursor:pointer;font-weight:600;color:var(--accent)}
+.key{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px;margin-top:10px}
+.key span{background:var(--tint);border-radius:6px;padding:4px;text-align:center;font-weight:600}
+.lang-switch{display:inline-block;margin:4px 0 12px;padding:6px 14px;border:1px solid var(--accent);border-radius:999px;color:var(--accent);text-decoration:none;font-weight:600;font-size:.9rem}
+.lang-switch:hover{background:var(--tint)}
+footer{margin-top:48px;font-size:.85rem;color:var(--muted);border-top:1px solid var(--rule);padding-top:12px}
+@media print{body{background:#fff;font-size:11pt}main{max-width:none;padding:0}h2{break-after:avoid}nav.toc{display:none}details.ans{display:block}details.ans>*{display:block}@page{size:A4;margin:14mm}}
+
+figure.photo{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:10px;overflow:hidden}
+figure.photo img{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;background:var(--tint)}
+figure.photo figcaption{padding:8px 12px;font-size:.86rem;color:var(--muted);text-align:left}
+figure.photo figcaption a{color:var(--accent)}
+ol.tl{list-style:none;padding:0 0 0 22px;margin:14px 0;border-left:3px solid var(--accent)}
+ol.tl li{position:relative;margin:0 0 12px;padding-left:10px}
+ol.tl li::before{content:"";position:absolute;left:-31px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--paper);border:3px solid var(--accent)}
+ol.tl .yr{font-weight:700;color:var(--accent);margin-right:6px}
+h3{border-bottom:1px dashed var(--rule);padding-bottom:4px}
+.box{background:var(--paper);border:1px solid var(--rule);border-left:5px solid var(--accent);border-radius:8px;padding:10px 14px;margin:12px 0}
+.quiz{background:var(--paper);border:2px solid var(--accent);border-radius:12px;padding:12px 14px;margin:18px 0}
+.quiz h4{margin:0 0 4px;color:var(--accent);font-size:1.05rem}
+.quiz .hint{margin:0 0 8px;color:var(--muted);font-size:.88rem}
+.mcq{border-top:1px solid var(--rule);padding:12px 0}
+.mcq .stem{margin-bottom:8px}
+.mcq .n{color:var(--accent);font-weight:700;margin-right:6px}
+.mcq ol.stm{list-style:lower-roman;margin:6px 0;padding-left:30px}
+.mcq table.mt{border-collapse:collapse;margin:8px 0;width:100%;font-size:.93rem}
+.mcq table.mt th,.mcq table.mt td{border:1px solid var(--rule);padding:6px 8px;text-align:left}
+.mcq table.mt th{background:var(--th)}
+.opts{display:grid;gap:6px}
+button.opt{all:unset;box-sizing:border-box;display:flex;gap:10px;width:100%;padding:9px 12px;border:1px solid var(--rule);border-radius:8px;cursor:pointer;color:var(--ink);background:var(--bg)}
+button.opt:hover,button.opt:focus-visible{background:var(--tint);outline:2px solid var(--accent);outline-offset:1px}
+button.opt .k{font-weight:700;min-width:20px}
+.mcq.done button.opt{cursor:default}
+button.opt.ok{border-color:#2e7d32;background:rgba(46,125,50,.14)}
+button.opt.bad{border-color:#c62828;background:rgba(198,40,40,.12)}
+.why{display:none;margin-top:8px;padding:8px 12px;background:var(--tint);border-radius:6px;font-size:.92rem}
+.mcq.done .why{display:block}
+.why .verdict{font-weight:700;margin:0 0 4px}
+.why ul{margin:4px 0;padding-left:18px}
+.why li.c{font-weight:600}
+.qscore{font-weight:700;color:var(--accent);margin-top:6px}
+@media print{.why{display:block}button.opt{border:1px solid #999}}
+</style><noscript><style>.why{display:block}</style></noscript></head>
+<body><main>
+<header class="top"><h1>Perspectives in Education, Day 1: History of Education</h1><a class="lang-switch" href="dsc-sgt-perspectives-day1-te.html" hreflang="te">తెలుగులో చదవండి</a></header>
+<p><em>AP DSC-2026 (APTRT) · SGT · Part II: Perspectives in Education (8 questions, 4 marks)</em></p>
+<p>Day 1 covers the first syllabus unit, History of Education, in three topics. For each topic: read the nine steps, close the page and recall, then take the 5-question quick check. Finish the day by writing the Notebook page from memory.</p>
+<div class="box"><b>Exam link:</b> the 19 June 2025 SGT paper asked a match-the-list on ancient education systems (Vedic, Buddhist, Jain, Islamic). Questions on commissions usually ask "which year", "who chaired" and "what did it recommend".</div>
+
+<nav class="toc"><b>Contents</b><ol><li><a href="#s1">Topic 1: Education in Ancient and Medieval India</a></li><li><a href="#s2">Topic 2: Education Reports before Independence (1813–1944)</a></li><li><a href="#s3">Topic 3: Commissions and Policies after Independence (1948–1992)</a></li><li><a href="#s4">Notebook page: Day 1</a></li><li><a href="#s5">Sources</a></li></ol></nav><h2 id="s1">Topic 1: Education in Ancient and Medieval India</h2>
+<h3>1. Basic idea</h3>
+<p>Before schools and universities as we know them, India had four main traditions of education. In the <strong>Vedic</strong> tradition a student lived with the teacher in a <em>gurukula</em> (teacher's home). <strong>Buddhist</strong> education happened in monasteries called <em>viharas</em>, and some grew into large universities like Nalanda. <strong>Jain</strong> education taught right faith, knowledge and conduct. In the medieval period, <strong>Islamic</strong> education ran through <em>maktabs</em> (primary) and <em>madrasas</em> (higher).</p>
+<h3>2. Why it exists</h3>
+<p>Each tradition wanted to pass on its religion, values and practical knowledge to the next generation. There were no printed books, so learning depended on a close teacher–student bond, memory and discussion. The examiner asks these questions because modern ideas such as residential schools, the teacher as a role model and learning by discussion have roots here.</p>
+<h3>3. How it works</h3>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Tradition</th>
+<th>Where</th>
+<th>Start and end of study</th>
+<th>Method</th>
+<th>Language</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vedic</td>
+<td>Gurukula / ashrama</td>
+<td><strong>Upanayana</strong> (initiation) → <strong>Samavartana</strong> (graduation, return home)</td>
+<td>Oral: <strong>Sravana → Manana → Nidhidhyasana</strong></td>
+<td>Sanskrit</td>
+</tr>
+<tr>
+<td>Buddhist</td>
+<td>Vihara (monastery), Mahavihara (university)</td>
+<td><strong>Pabbajja / Pravrajya</strong> (first ordination, about age 8) → <strong>Upasampada</strong> (full ordination at 20)</td>
+<td>Discussion, debate, teaching in groups</td>
+<td><strong>Pali</strong> (people's language)</td>
+</tr>
+<tr>
+<td>Jain</td>
+<td>Basadis, upashrayas (temple halls)</td>
+<td>Lifelong discipline</td>
+<td>Ethical training: <strong>Tri-ratnas</strong></td>
+<td>Prakrit</td>
+</tr>
+<tr>
+<td>Islamic</td>
+<td><strong>Maktab</strong> (primary, attached to a mosque) → <strong>Madrasa</strong> (higher)</td>
+<td><strong>Bismillah</strong> ceremony at 4 years, 4 months, 4 days</td>
+<td>Memorising, reading, writing, arithmetic; later law, literature, sciences</td>
+<td>Arabic, Persian</td>
+</tr>
+</tbody>
+</table></div>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jaulian_Buddhist_Monastery_in_Taxila.jpg?width=900" alt="Ruins of the Jaulian monastery at Takshashila (Taxila, now in Pakistan), one of the oldest centres of learning." loading="lazy"><figcaption>Ruins of the Jaulian monastery at Takshashila (Taxila, now in Pakistan), one of the oldest centres of learning. · Photo: <a href="https://commons.wikimedia.org/wiki/File:Jaulian_Buddhist_Monastery_in_Taxila.jpg" target="_blank" rel="noopener">Wikimedia Commons</a> (see the file page for author and licence)</figcaption></figure>
+<p><strong>Famous centres of learning</strong></p>
+<ul>
+<li><strong>Takshashila (Taxila)</strong>: one of the oldest; the grammarian Panini and Chanakya (Kautilya) are linked to it. Today it is in Pakistan.</li>
+<li><strong>Nalanda</strong> (Bihar): founded by <strong>Kumaragupta I</strong> (Gupta dynasty, 5th century CE). The Chinese traveller <strong>Xuanzang (Hiuen Tsang)</strong> studied here in the 7th century. Destroyed by Bakhtiyar Khilji (around 1193). A UNESCO World Heritage Site since 2016.</li>
+<li><strong>Vikramashila</strong> (Bihar): founded by the Pala king <strong>Dharmapala</strong> (late 8th century).</li>
+<li><strong>Valabhi</strong> (Gujarat): a Buddhist centre under the Maitrakas.</li>
+<li><strong>Nagarjunakonda</strong> (Andhra Pradesh): Buddhist monastic centre under the <strong>Ikshvakus</strong> (3rd–4th century CE), linked with the philosopher <strong>Acharya Nagarjuna</strong>.</li>
+</ul>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nalanda_University_India_ruins.jpg?width=900" alt="Ruins of Nalanda Mahavihara, Bihar. Students lived and studied in these brick monasteries; it is now a UNESCO World Heritage Site." loading="lazy"><figcaption>Ruins of Nalanda Mahavihara, Bihar. Students lived and studied in these brick monasteries; it is now a UNESCO World Heritage Site. · Photo: <a href="https://commons.wikimedia.org/wiki/File:Nalanda_University_India_ruins.jpg" target="_blank" rel="noopener">Wikimedia Commons</a> (see the file page for author and licence)</figcaption></figure>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/1st_to_4th_century_Mahayana_Buddhist_site,_Nagarjunakonda_Andhra_Pradesh,_India_-_10.jpg?width=900" alt="Remains of the Buddhist site at Nagarjunakonda, Andhra Pradesh (1st-4th century CE), a monastic centre of learning under the Ikshvakus." loading="lazy"><figcaption>Remains of the Buddhist site at Nagarjunakonda, Andhra Pradesh (1st-4th century CE), a monastic centre of learning under the Ikshvakus. · Photo: <a href="https://commons.wikimedia.org/wiki/File:1st_to_4th_century_Mahayana_Buddhist_site,_Nagarjunakonda_Andhra_Pradesh,_India_-_10.jpg" target="_blank" rel="noopener">Wikimedia Commons</a> (see the file page for author and licence)</figcaption></figure>
+<h3>4. Everyday analogy</h3>
+<p>A Vedic gurukula is like a <strong>residential school</strong> today: the student stays with the teacher, does chores, and leaves after a "graduation day" (Samavartana). A Buddhist mahavihara like Nalanda is like a <strong>university campus with hostels</strong>. A maktab next to a mosque is like a <strong>village primary school next to the temple or panchayat office</strong>, and a madrasa is like a <strong>college in the town</strong>.</p>
+<h3>5. Breaking the difficult parts</h3>
+<ol>
+<li><strong>Upanayana</strong>: the "sacred thread" initiation that started Vedic study. <em>Upa</em> = near, <em>nayana</em> = to lead: leading the child near the teacher.</li>
+<li><strong>Samavartana</strong>: the ceremony when study ended and the student returned home. Think of it as convocation.</li>
+<li><strong>Sravana–Manana–Nidhidhyasana</strong>: listening to the teacher → reflecting and clearing doubts → deep meditation until the idea becomes your own.</li>
+<li><strong>Pabbajja → Upasampada</strong>: Buddhist first ordination (novice, <em>samanera</em>) → full membership as a monk (<em>bhikkhu</em>) at 20.</li>
+<li><strong>Ashtanga marga (Eightfold Path)</strong>: the Buddhist path of right living. The 2025 paper matched "Buddhist education" with "Ashtanga margam".</li>
+<li><strong>Tri-ratnas (Three Jewels)</strong>: Jain ideals of right faith, right knowledge and right conduct. Remember: <em>Tri-ratnas = Jain</em>, not Buddhist.</li>
+<li><strong>Maktab vs Madrasa</strong>: Maktab = primary (the alphabet, reading, prayers). Madrasa = higher learning. The Madrasa of <strong>Mahmud Gawan</strong> at Bidar (1472) is a famous example.</li>
+<li><strong>Pre-Vedic period</strong>: the Indus (Harappan) cities show planning and a script, so some organised training existed. But the script is not deciphered, so we have no direct record of their education.</li>
+</ol>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/02_Bidar_Mohamad_Gawan_Madrasa.JPG?width=900" alt="Madrasa of Mahmud Gawan, Bidar (built 1472, Bahmani period), a centre of higher Islamic learning." loading="lazy"><figcaption>Madrasa of Mahmud Gawan, Bidar (built 1472, Bahmani period), a centre of higher Islamic learning. · Photo: <a href="https://commons.wikimedia.org/wiki/File:02_Bidar_Mohamad_Gawan_Madrasa.JPG" target="_blank" rel="noopener">Wikimedia Commons</a> (see the file page for author and licence)</figcaption></figure>
+<h3>6. Exceptions and confusing areas</h3>
+<ul>
+<li><strong>Nalanda vs Vikramashila founders</strong>: Nalanda = Kumaragupta I (Gupta). Vikramashila = Dharmapala (Pala). Examiners swap these.</li>
+<li><strong>Pabbajja vs Upasampada</strong>: Pabbajja is the <em>first</em> step, not the final one.</li>
+<li><strong>Tri-ratnas vs Triratna of Buddhism</strong>: Buddhism also has "Three Jewels" (Buddha, Dhamma, Sangha), but in DSC questions the <strong>Tri-ratnas of right faith, knowledge and conduct are Jain</strong>.</li>
+<li><strong>Maktab vs Madrasa</strong>: maktab is lower, madrasa is higher. Reversing them is a common "incorrect statement".</li>
+<li>Women in Vedic times: scholars like <strong>Gargi</strong> and <strong>Maitreyi</strong> show that women could study, though later this became rare.</li>
+</ul>
+<h3>7. Connections to other topics</h3>
+<ul>
+<li><strong>History (GK)</strong>: Guptas founded Nalanda; Palas founded Vikramashila; Ikshvakus ruled from Vijayapuri (Nagarjunakonda); Bahmani minister Mahmud Gawan built the Bidar madrasa.</li>
+<li><strong>Psychology</strong>: learning by listening and reflecting matches today's idea of <strong>meaningful (not rote) learning</strong>; the guru as model matches <strong>Bandura's observational learning</strong>.</li>
+<li><strong>Andhra Pradesh</strong>: Nagarjunakonda and Amaravati were major Buddhist centres; today Acharya Nagarjuna University is named after the philosopher.</li>
+<li><strong>NEP 2020</strong>: revives the idea of large multidisciplinary universities "like ancient Nalanda and Takshashila".</li>
+</ul>
+<h3>8. Memory technique</h3>
+<p><strong>"U-S for Vedas, P-U for Buddha, 3 for Jains, M-M for Islam"</strong></p>
+<ul>
+<li>Vedic = <strong>U</strong>panayana → <strong>S</strong>amavartana (Up and Sit: you go <em>up</em> to the teacher and <em>sit</em> back at home).</li>
+<li>Buddhist = <strong>P</strong>abbajja → <strong>U</strong>pasampada (P before U, like Primary before University).</li>
+<li>Jain = <strong>3</strong> jewels (Tri-ratnas).</li>
+<li>Islamic = <strong>M</strong>aktab → <strong>M</strong>adrasa (small M school first, big M school later).</li>
+</ul>
+<p>Founders: <strong>"Gupta built Nalanda, Pala built Vikrama"</strong>: G–N, P–V.</p>
+<h3>9. Test your understanding</h3>
+<p><strong>Self-recall (answer without notes):</strong></p>
+<ol>
+<li>What happens at Upanayana and at Samavartana?</li>
+<li>Who founded Nalanda, and who founded Vikramashila?</li>
+<li>Which tradition taught in Pali, and why did that matter?</li>
+</ol>
+<div class="quiz" id="quiz-t1"><h4>Quick check: 5 questions</h4><p class="hint">Tap an option to check your answer.</p><div class="mcq" data-a="4"><div class="stem"><span class="n">1.</span>Match List-I with List-II:<table class="mt"><thead><tr><th>List-I</th><th>List-II</th></tr></thead><tbody><tr><td>i. Vedic education</td><td>a. Tri-ratnas</td></tr><tr><td>ii. Buddhist education</td><td>b. Maktab and Madrasa</td></tr><tr><td>iii. Jain education</td><td>c. Upanayana and Samavartana</td></tr><tr><td>iv. Islamic education</td><td>d. Pabbajja and Upasampada</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-c, ii-a, iii-d, iv-b</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-d, ii-c, iii-a, iv-b</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-c, ii-d, iii-b, iv-a</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-c, ii-d, iii-a, iv-b</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Swaps Buddhist and Jain: Tri-ratnas are Jain, not Buddhist.</li><li class=""><b>2.</b> Trap: puts Upanayana under Buddhism. Upanayana/Samavartana are Vedic ceremonies.</li><li class=""><b>3.</b> Swaps Jain and Islamic: Maktab/Madrasa are Islamic institutions.</li><li class="c"><b>4.</b> Correct. Vedic → Upanayana/Samavartana; Buddhist → Pabbajja/Upasampada; Jain → Tri-ratnas; Islamic → Maktab/Madrasa.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">2.</span>Which of the following statements about Buddhist education are correct?<ol class="stm"><li>It was open to students of all castes.</li><li>Pabbajja was the final ordination, taken at the age of 20.</li><li>Teaching was done in Pali, the language of the common people.</li><li>Nalanda was founded by the Pala king Dharmapala.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i and iii only</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i, ii and iii</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>ii and iv</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, iii and iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> Correct. Only i and iii are true.</li><li class=""><b>2.</b> Includes ii, which is wrong: Pabbajja is the FIRST ordination (about age 8); Upasampada is the final one at 20.</li><li class=""><b>3.</b> Both ii and iv are wrong.</li><li class=""><b>4.</b> Includes iv, which is wrong: Nalanda was founded by Kumaragupta I (Gupta). Dharmapala founded Vikramashila.</li></ul></div></div><div class="mcq" data-a="2"><div class="stem"><span class="n">3.</span>The correct order of the three steps of learning in the Vedic method is</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Manana → Sravana → Nidhidhyasana</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Sravana → Manana → Nidhidhyasana</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Sravana → Nidhidhyasana → Manana</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Nidhidhyasana → Sravana → Manana</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> You cannot reflect (manana) before you have heard (sravana).</li><li class="c"><b>2.</b> Correct. Listen (sravana) → think it over (manana) → meditate until it becomes your own (nidhidhyasana).</li><li class=""><b>3.</b> Deep meditation comes last, after reflection.</li><li class=""><b>4.</b> Meditation cannot come before hearing the lesson.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">4.</span>Which of the following statements is INCORRECT?</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Samavartana marked the end of a student's stay in the gurukula.</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Nagarjunakonda in Andhra Pradesh was a centre of Buddhist learning under the Ikshvakus.</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>In Islamic education, the Bismillah ceremony marked the start of a child's learning.</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Madrasas gave primary education, while Maktabs gave higher education.</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> True: Samavartana was the "convocation" when the student returned home.</li><li class=""><b>2.</b> True: Nagarjunakonda was a major Buddhist centre under the Ikshvakus (3rd-4th c. CE).</li><li class=""><b>3.</b> True: Bismillah began education, traditionally at 4 years, 4 months and 4 days.</li><li class="c"><b>4.</b> INCORRECT, so this is the answer. It is the reverse: Maktab = primary (attached to a mosque); Madrasa = higher.</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">5.</span>A teacher first lets pupils listen to a lesson, then asks them to think it over and clear doubts, and finally to reflect quietly until the idea becomes their own. This follows</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>The Buddhist method of debate</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Rote recitation in the Maktab</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>The Vedic Sravana–Manana–Nidhidhyasana method</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>The Jain Tri-ratnas</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Debate was common in Buddhist centres, but the three steps described are Vedic.</li><li class=""><b>2.</b> Rote recitation has no reflection or meditation step.</li><li class="c"><b>3.</b> Correct. Listen → reflect → meditate is exactly Sravana → Manana → Nidhidhyasana.</li><li class=""><b>4.</b> Tri-ratnas (right faith, knowledge, conduct) are ideals, not a teaching method.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>Revision note (5 lines)</b><br>
+1. Vedic: gurukula; Upanayana → Samavartana; Sravana → Manana → Nidhidhyasana; Sanskrit.<br>
+2. Buddhist: viharas; open to all castes; Pali; Pabbajja (≈8 yrs) → Upasampada (20 yrs).<br>
+3. Centres: Takshashila (oldest), Nalanda (Kumaragupta I), Vikramashila (Dharmapala), Nagarjunakonda (AP, Ikshvakus).<br>
+4. Jain: Tri-ratnas: right faith, right knowledge, right conduct.<br>
+5. Islamic: Bismillah; Maktab (primary) → Madrasa (higher); Mahmud Gawan madrasa, Bidar (1472).</div>
+
+<h2 id="s2">Topic 2: Education Reports before Independence (1813–1944)</h2>
+<h3>1. Basic idea</h3>
+<p>Under British rule, education policy was shaped by a series of official documents: an Act (1813), a Minute (1835), a Despatch (1854), several Commissions and Committees, and plans by Indians such as Gokhale and Gandhi. Each one answered a question of its time: how much to spend, which language to teach in, who should run schools, and how to reach every child.</p>
+<h3>2. Why it exists</h3>
+<p>The East India Company first ignored education. Later it needed English-educated Indians to work as clerks and officials, and Indian reformers demanded education for the masses. So every few decades the government appointed a body to study the problem and recommend changes. The 2024 SCERT syllabus lists "education reports and committees from 1854 to 1944" for this reason.</p>
+<h3>3. How it works</h3>
+<ol class="tl"><li><span class="yr">1813</span><b>Charter Act</b>: Company to spend ₹1 lakh a year on education (first official responsibility).</li><li><span class="yr">1835</span><b>Macaulay's Minute</b> (2 Feb) and Bentinck's resolution: English becomes the medium of higher education.</li><li><span class="yr">1854</span><b>Wood's Despatch</b>: "Magna Carta of English education"; education departments, universities (1857).</li><li><span class="yr">1882</span><b>Hunter Commission</b>: first Indian Education Commission; primary education to local boards.</li><li><span class="yr">1902-04</span><b>Indian Universities Commission</b> (Raleigh) and <b>Indian Universities Act 1904</b> (Curzon).</li><li><span class="yr">1911</span><b>Gokhale's Bill</b> for free and compulsory primary education: rejected.</li><li><span class="yr">1917-19</span><b>Sadler (Calcutta University) Commission</b>: intermediate colleges, Secondary Boards.</li><li><span class="yr">1929</span><b>Hartog Committee</b>: "wastage and stagnation" in primary education.</li><li><span class="yr">1937</span><b>Wardha Scheme</b> (Basic Education / Nai Talim): Gandhi; craft-centred, mother tongue, 7 years.</li><li><span class="yr">1944</span><b>Sargent Plan</b>: free, compulsory education for 6-14 within 40 years.</li></ol>
+<p><strong>Key recommendations to remember</strong></p>
+<ul>
+<li><strong>Wood's Despatch (1854)</strong>, by Sir Charles Wood, President of the Board of Control: a Department of Public Instruction in each province; universities at Calcutta, Bombay and Madras on the London University model (set up in 1857); <strong>grants-in-aid</strong> to private schools; mother tongue at primary level and English at higher level; teacher training and women's education. It <strong>rejected the Downward Filtration Theory</strong> and wanted mass education.</li>
+<li><strong>Hunter Commission (1882)</strong>, chaired by Sir <strong>William Wilson Hunter</strong> and appointed by Lord <strong>Ripon</strong>: the first Indian Education Commission. It gave primary education to <strong>local bodies</strong> (district and municipal boards), encouraged private schools with grants, and suggested two streams in secondary education (literary and practical).</li>
+<li><strong>Sadler Commission (1917–19)</strong>, on Calcutta University, chaired by <strong>Michael Sadler</strong>: 12 years of schooling before a degree, separate <strong>intermediate colleges</strong> and <strong>Boards of Secondary and Intermediate Education</strong>.</li>
+<li><strong>Hartog Committee (1929)</strong>, chaired by <strong>Philip Hartog</strong>: found huge <strong>wastage</strong> (children leaving school early) and <strong>stagnation</strong> (children failing and repeating the same class). It advised improving quality (consolidation) before expanding.</li>
+<li><strong>Wardha Scheme (1937)</strong>, Gandhi's <strong>Basic Education (Nai Talim)</strong>: free and compulsory education for 7 years (ages 7–14), in the mother tongue, built around a productive craft, and self-supporting. The <strong>Zakir Hussain Committee</strong> drew up the details.</li>
+<li><strong>Sargent Plan (1944)</strong>, by <strong>John Sargent</strong>, Educational Adviser: the "Post-War Plan of Educational Development". It proposed free, compulsory education for ages 6–14 to be reached in <strong>40 years</strong>, with pre-primary education for ages 3–6.</li>
+</ul>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bapu_Kuti_in_Sevagram_Ashram1-Wardha-Maharashtra.jpg?width=900" alt="Bapu Kuti at Sevagram Ashram, Wardha, where Gandhi lived. The Wardha Scheme of Basic Education (1937) came from here." loading="lazy"><figcaption>Bapu Kuti at Sevagram Ashram, Wardha, where Gandhi lived. The Wardha Scheme of Basic Education (1937) came from here. · Photo: <a href="https://commons.wikimedia.org/wiki/File:Bapu_Kuti_in_Sevagram_Ashram1-Wardha-Maharashtra.jpg" target="_blank" rel="noopener">Wikimedia Commons</a> (see the file page for author and licence)</figcaption></figure>
+<h3>4. Everyday analogy</h3>
+<p>Think of a village that keeps finding problems in its school. First the panchayat sets aside money (<strong>1813</strong>). Then it argues about whether to teach in Telugu or English (<strong>1835</strong>). It writes a full development plan (<strong>1854</strong>). It hands the primary school to the gram panchayat (<strong>1882</strong>). It notices children dropping out and repeating classes (<strong>1929</strong>). And finally it makes a 40-year plan to get every child into school (<strong>1944</strong>).</p>
+<h3>5. Breaking the difficult parts</h3>
+<ol>
+<li><strong>Charter Act 1813</strong>: the first time the Company accepted a duty to spend on education: ₹1 lakh a year.</li>
+<li><strong>Orientalists vs Anglicists</strong>: Orientalists wanted Sanskrit and Persian learning; Anglicists wanted English. <strong>Macaulay's Minute (2 February 1835)</strong> sided with English, and <strong>Bentinck's resolution</strong> (March 1835) made it policy.</li>
+<li><strong>Downward Filtration Theory</strong>: educate a small upper class in English, and knowledge will "filter down" to the masses. Macaulay's period followed it; <strong>Wood's Despatch rejected it</strong>.</li>
+<li><strong>Grants-in-aid</strong>: government money given to private schools that meet standards. It started with Wood (1854) and was expanded by Hunter (1882).</li>
+<li><strong>Wastage vs stagnation</strong> (Hartog): wastage = dropping out before completing; stagnation = staying in the same class by failing.</li>
+<li><strong>Gokhale's Bill (1911)</strong>: Gopal Krishna Gokhale's bill for free, compulsory primary education. It was rejected, but the idea came back in the Sargent Plan and finally in the RTE Act 2009.</li>
+<li><strong>Indian Universities Act 1904</strong> (Lord Curzon), after the <strong>Raleigh Commission (1902)</strong>: it increased government control over universities.</li>
+</ol>
+<h3>6. Exceptions and confusing areas</h3>
+<ul>
+<li><strong>Charles Wood ≠ William Hunter</strong>: Wood = Despatch, 1854. Hunter = Commission, 1882.</li>
+<li><strong>"Magna Carta"</strong>: the title goes to <strong>Wood's Despatch</strong>, not Macaulay's Minute.</li>
+<li><strong>Sadler vs Sargent</strong>: Sadler (1917) = Calcutta University and intermediate colleges. Sargent (1944) = the 40-year plan for compulsory education.</li>
+<li><strong>Hartog</strong> was an auxiliary committee of the Simon Commission, and its focus was <em>quality</em> (wastage and stagnation), not expansion.</li>
+<li><strong>Wardha Scheme ages</strong>: 7 to 14 (7 years). The Sargent Plan's compulsory age is 6 to 14.</li>
+</ul>
+<h3>7. Connections to other topics</h3>
+<ul>
+<li><strong>Modern History</strong>: Ripon (local self-government) → Hunter Commission gave schools to local boards. Curzon → Universities Act 1904 (also the partition of Bengal, 1905). Gandhi → Nai Talim.</li>
+<li><strong>Polity</strong>: Gokhale's dream of free, compulsory education became <strong>Article 45</strong> (Directive Principle) and later <strong>Article 21A</strong> and the RTE Act 2009.</li>
+<li><strong>Psychology and methodology</strong>: Basic Education's "learning by doing" matches the <strong>project method</strong> and <strong>activity-based learning</strong>.</li>
+</ul>
+<h3>8. Memory technique</h3>
+<p><strong>Chain story with years:</strong> "In <strong>1813</strong> the Company opened its purse (₹1 lakh). In <strong>1835</strong> Macaulay chose English. In <strong>1854</strong> Wood wrote the Magna Carta. In <strong>1882</strong> Hunter handed schools to the panchayat. In <strong>1917</strong> Sadler built intermediate colleges. In <strong>1929</strong> Hartog saw children wasting and stagnating. In <strong>1937</strong> Gandhi gave them a spinning wheel at Wardha. In <strong>1944</strong> Sargent gave them 40 years to reach every child."</p>
+<p>Order code: <strong>C-M-W-H-S-H-W-S</strong> → "<strong>C</strong>ompany <strong>M</strong>akes <strong>W</strong>ood <strong>H</strong>unt; <strong>S</strong>adler <strong>H</strong>elps <strong>W</strong>ardha <strong>S</strong>chools".</p>
+<h3>9. Test your understanding</h3>
+<p><strong>Self-recall:</strong></p>
+<ol>
+<li>Why is Wood's Despatch called the Magna Carta of English education? Give three recommendations.</li>
+<li>What is the difference between wastage and stagnation?</li>
+<li>Give four features of Gandhi's Basic Education.</li>
+</ol>
+<div class="quiz" id="quiz-t2"><h4>Quick check: 5 questions</h4><p class="hint">Tap an option to check your answer.</p><div class="mcq" data-a="2"><div class="stem"><span class="n">1.</span>Arrange the following in chronological order:<ol class="stm"><li>Hunter Commission</li><li>Wood's Despatch</li><li>Sadler Commission</li><li>Hartog Committee</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, ii, iii, iv</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>ii, i, iii, iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>ii, i, iv, iii</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>ii, iii, i, iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Hunter (1882) came after Wood's Despatch (1854).</li><li class="c"><b>2.</b> Correct. Wood's Despatch 1854 → Hunter 1882 → Sadler 1917 → Hartog 1929.</li><li class=""><b>3.</b> Hartog (1929) came after Sadler (1917).</li><li class=""><b>4.</b> Sadler (1917) came after Hunter (1882).</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">2.</span>Which of the following statements about Wood's Despatch (1854) are correct?<ol class="stm"><li>It is called the Magna Carta of English education in India.</li><li>It recommended a Department of Public Instruction in every province.</li><li>It proposed universities on the model of London University.</li><li>It strongly supported the Downward Filtration Theory.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i and ii only</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i, ii and iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i, ii and iii</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, ii, iii and iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Leaves out iii, which is also true (Calcutta, Bombay and Madras universities, 1857).</li><li class=""><b>2.</b> Includes iv, which is wrong: the Despatch REJECTED downward filtration and called for mass education.</li><li class="c"><b>3.</b> Correct. i, ii and iii are true; iv is the trap.</li><li class=""><b>4.</b> Includes iv, which is false.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">3.</span>Match List-I with List-II:<table class="mt"><thead><tr><th>List-I</th><th>List-II</th></tr></thead><tbody><tr><td>i. Hunter Commission (1882)</td><td>a. Wastage and stagnation</td></tr><tr><td>ii. Sadler Commission (1917)</td><td>b. Primary education handed to local boards</td></tr><tr><td>iii. Hartog Committee (1929)</td><td>c. Universal education for 6-14 within 40 years</td></tr><tr><td>iv. Sargent Plan (1944)</td><td>d. Intermediate colleges and Secondary Boards</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-a, ii-d, iii-b, iv-c</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-b, ii-c, iii-a, iv-d</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-b, ii-d, iii-c, iv-a</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-b, ii-d, iii-a, iv-c</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Swaps Hunter and Hartog.</li><li class=""><b>2.</b> Swaps Sadler and Sargent.</li><li class=""><b>3.</b> Swaps Hartog and Sargent.</li><li class="c"><b>4.</b> Correct. Hunter → local boards; Sadler → intermediate colleges; Hartog → wastage & stagnation; Sargent → 40-year plan.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">4.</span><b>Assertion (A):</b> The Wardha Scheme (1937) placed a productive craft at the centre of education.<br><b>Reason (R):</b> Gandhi wanted education to be self-supporting and linked to the life of the village.</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Both A and R are true, and R is the correct explanation of A</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Both A and R are true, but R is not the correct explanation of A</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>A is true, but R is false</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>A is false, but R is true</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> Correct. Both are true, and R is exactly why the craft was made central (earn while you learn, village self-reliance).</li><li class=""><b>2.</b> R is not just true but is the very reason for A.</li><li class=""><b>3.</b> R is true: self-supporting education was the core idea.</li><li class=""><b>4.</b> A is true: craft-centred learning is the defining feature of Basic Education.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">5.</span>A minute written by a member of the Governor-General's Council said that "a single shelf of a good European library was worth the whole native literature of India and Arabia", and English became the medium of higher education. This refers to</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Wood's Despatch, 1854</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Charter Act, 1813</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Hunter Commission, 1882</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Macaulay's Minute, 1835</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Wood's Despatch was a despatch from London, not a council member's minute.</li><li class=""><b>2.</b> The 1813 Charter Act only granted ₹1 lakh; it did not decide the medium.</li><li class=""><b>3.</b> Hunter Commission dealt with primary education, decades later.</li><li class="c"><b>4.</b> Correct. T.B. Macaulay, Law Member, wrote the Minute on 2 February 1835; Bentinck's resolution followed.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>Revision note (5 lines)</b><br>
+1. 1813 Charter Act (₹1 lakh) → 1835 Macaulay (English; downward filtration).<br>
+2. 1854 Wood's Despatch: Magna Carta; DPI; universities 1857; grants-in-aid; rejected downward filtration.<br>
+3. 1882 Hunter (Ripon): primary to local boards. 1902/1904 Raleigh/Curzon. 1911 Gokhale Bill rejected.<br>
+4. 1917 Sadler: intermediate colleges. 1929 Hartog: wastage and stagnation.<br>
+5. 1937 Wardha (Gandhi, Zakir Hussain): craft-centred, 7–14, mother tongue. 1944 Sargent: 6–14 in 40 years.</div>
+
+<h2 id="s3">Topic 3: Commissions and Policies after Independence (1948–1992)</h2>
+<h3>1. Basic idea</h3>
+<p>After 1947, free India set up commissions to rebuild education level by level: universities first (Radhakrishnan, 1948), then secondary schools (Mudaliar, 1952), then the whole system (Kothari, 1964). Their reports became <strong>National Policies on Education</strong> (1968 and 1986), and the 1986 policy was revised in <strong>1992</strong> with a <strong>Programme of Action (POA)</strong>.</p>
+<h3>2. Why it exists</h3>
+<p>The Constitution promised free and compulsory education for children (Article 45). The country needed scientists, teachers and skilled workers, and a common national structure instead of many different state systems. Each commission studied one level, and the national policies turned their ideas into government decisions and schemes.</p>
+<h3>3. How it works</h3>
+<ol class="tl"><li><span class="yr">1948-49</span><b>University Education Commission</b>: Dr S. Radhakrishnan; led to the UGC.</li><li><span class="yr">1952-53</span><b>Secondary Education Commission</b>: Dr A. Lakshmanaswami Mudaliar; multipurpose schools.</li><li><span class="yr">1964-66</span><b>Kothari Commission</b>: "Education and National Development"; 10+2+3, common school system.</li><li><span class="yr">1968</span><b>National Policy on Education 1968</b>: first national policy; three-language formula.</li><li><span class="yr">1977</span><b>Ishwarbhai Patel Committee</b>: SUPW (Socially Useful Productive Work).</li><li><span class="yr">1986</span><b>National Policy on Education 1986</b>: Navodaya Vidyalayas, Operation Blackboard (1987), DIETs.</li><li><span class="yr">1990</span><b>Acharya Ramamurti Committee</b>: review of NPE 1986.</li><li><span class="yr">1992</span><b>Revised NPE and Programme of Action (POA)</b>, after the Janardhana Reddy Committee (1991).</li><li><span class="yr">1993</span><b>Yash Pal Committee</b>: "Learning without Burden".</li></ol>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Body</th>
+<th>Chair</th>
+<th>Level</th>
+<th>Remember for</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>University Education Commission (1948–49)</td>
+<td>Dr S. Radhakrishnan</td>
+<td>Higher</td>
+<td>UGC (set up 1953, statutory 1956)</td>
+</tr>
+<tr>
+<td>Secondary Education Commission (1952–53)</td>
+<td>Dr A. Lakshmanaswami Mudaliar</td>
+<td>Secondary</td>
+<td>Multipurpose schools, diversified courses</td>
+</tr>
+<tr>
+<td>Education Commission (1964–66)</td>
+<td>Dr D.S. Kothari</td>
+<td>All levels</td>
+<td>"Education and National Development"; 10+2+3; common school system; work experience; 6% of national income; three-language formula</td>
+</tr>
+<tr>
+<td>NPE 1968</td>
+<td>Indira Gandhi government</td>
+<td>All</td>
+<td>First national policy; based on Kothari</td>
+</tr>
+<tr>
+<td>Ishwarbhai Patel Committee (1977)</td>
+<td>Ishwarbhai Patel</td>
+<td>School curriculum</td>
+<td>SUPW</td>
+</tr>
+<tr>
+<td>NPE 1986</td>
+<td>Rajiv Gandhi government</td>
+<td>All</td>
+<td>Navodaya Vidyalayas (1986), Operation Blackboard (1987), DIETs, child-centred approach</td>
+</tr>
+<tr>
+<td>Acharya Ramamurti Committee (1990)</td>
+<td>Acharya Ramamurti</td>
+<td>Review</td>
+<td>Reviewed NPE 1986</td>
+</tr>
+<tr>
+<td>Revised NPE + POA (1992)</td>
+<td>After the Janardhana Reddy Committee (1991)</td>
+<td>All</td>
+<td>Plan to implement NPE 1986</td>
+</tr>
+</tbody>
+</table></div>
+<h3>4. Everyday analogy</h3>
+<p>Think of building a three-storey house after a flood. First you repair the top floor (universities, 1948), then the middle floor (secondary, 1952), then you call an engineer to redesign the whole house (Kothari, 1964). The engineer's plan becomes the official house plan (NPE 1968). Twenty years later you renovate (NPE 1986), check the work (Ramamurti, 1990) and write a step-by-step work schedule (POA 1992).</p>
+<h3>5. Breaking the difficult parts</h3>
+<ol>
+<li><strong>Multipurpose schools</strong> (Mudaliar): one school offering several streams (academic, technical, agriculture, commerce) so that students can choose by interest.</li>
+<li><strong>Common School System</strong> (Kothari): every child in a neighbourhood goes to the same public school, whatever the family's income or caste. This promotes equality.</li>
+<li><strong>10+2+3</strong> (Kothari): 10 years of general school, 2 years of higher secondary, 3 years of degree. It is still the base of most degree courses, though NEP 2020 changed the school stages to 5+3+3+4.</li>
+<li><strong>Three-language formula</strong> (Kothari; NPE 1968): the mother tongue or regional language, Hindi, and English (in Hindi states, a modern Indian language instead of Hindi).</li>
+<li><strong>6% of national income</strong>: Kothari's spending target for education, repeated in NPE 1968, 1986 and NEP 2020 (as 6% of GDP).</li>
+<li><strong>Operation Blackboard (1987)</strong>: minimum facilities for every primary school: at least two rooms, two teachers (one a woman, where possible), and basic teaching aids.</li>
+<li><strong>DIET</strong>: District Institute of Education and Training, for training primary teachers at district level.</li>
+<li><strong>Navodaya Vidyalayas</strong>: free residential schools for talented rural children, one per district.</li>
+<li><strong>Kothari's opening line</strong>: "The destiny of India is now being shaped in her classrooms."</li>
+</ol>
+<h3>6. Exceptions and confusing areas</h3>
+<ul>
+<li><strong>Radhakrishnan = universities</strong>, <strong>Mudaliar = secondary</strong>. This is the most common swap in exams.</li>
+<li><strong>The Kothari Commission</strong> was officially called the "Education Commission" (sometimes "National Education Commission"). Its report is <strong>"Education and National Development" (1966)</strong>.</li>
+<li><strong>NPE 1968 vs NPE 1986</strong>: 1968 is the first policy (Indira Gandhi); 1986 brought Navodaya, Operation Blackboard and DIETs (Rajiv Gandhi).</li>
+<li><strong>1992 is not a new policy</strong>: it was a <em>revision</em> of NPE 1986, plus a Programme of Action.</li>
+<li><strong>SUPW</strong> comes from the Ishwarbhai Patel Committee (1977), not from Kothari, whose term was "work experience".</li>
+<li><strong>"Learning without Burden" (1993)</strong> comes from the <strong>Yash Pal Committee</strong>, about heavy school bags and rote learning.</li>
+</ul>
+<h3>7. Connections to other topics</h3>
+<ul>
+<li><strong>Polity</strong>: the 42nd Amendment (1976) moved education from the State List to the <strong>Concurrent List</strong>. This is why both the Centre and the States make education policy.</li>
+<li><strong>NEP 2020</strong>: replaces NPE 1986; keeps the 6% target; replaces 10+2 with 5+3+3+4.</li>
+<li><strong>Day 2 (Contemporary concerns)</strong>: the schemes born from these policies (Operation Blackboard, DPEP, SSA, Samagra Shiksha).</li>
+<li><strong>Methodology</strong>: Ishwarbhai Patel's SUPW and Kothari's work experience link to activity-based and project learning.</li>
+</ul>
+<h3>8. Memory technique</h3>
+<p><strong>Level ladder: "U-S-A"</strong> in time order. <strong>U</strong>niversity (Radhakrishnan, 1948) → <strong>S</strong>econdary (Mudaliar, 1952) → <strong>A</strong>ll levels (Kothari, 1964).</p>
+<p><strong>Number chain for policies: 68 → 86.</strong> The digits flip: NPE 1968 → NPE 1986. Then add six years for the revision and POA: 1986 + 6 = 1992.</p>
+<p><strong>Kothari's "10-2-3-6-3" code</strong>: 10+2+3 structure, 6% spending, 3-language formula.</p>
+<h3>9. Test your understanding</h3>
+<p><strong>Self-recall:</strong></p>
+<ol>
+<li>Which commission dealt with which level: Radhakrishnan, Mudaliar, Kothari?</li>
+<li>Give four recommendations of the Kothari Commission.</li>
+<li>Name three outcomes of NPE 1986.</li>
+</ol>
+<div class="quiz" id="quiz-t3"><h4>Quick check: 5 questions</h4><p class="hint">Tap an option to check your answer.</p><div class="mcq" data-a="3"><div class="stem"><span class="n">1.</span>Match List-I with List-II:<table class="mt"><thead><tr><th>List-I</th><th>List-II</th></tr></thead><tbody><tr><td>i. Radhakrishnan Commission</td><td>a. Secondary education, multipurpose schools</td></tr><tr><td>ii. Mudaliar Commission</td><td>b. University (higher) education</td></tr><tr><td>iii. Kothari Commission</td><td>c. Operation Blackboard</td></tr><tr><td>iv. NPE 1986</td><td>d. 10+2+3 and the common school system</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-a, ii-b, iii-d, iv-c</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-b, ii-a, iii-c, iv-d</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-b, ii-a, iii-d, iv-c</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-d, ii-a, iii-b, iv-c</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Swaps Radhakrishnan (university) and Mudaliar (secondary): the classic trap.</li><li class=""><b>2.</b> Swaps Kothari and NPE 1986.</li><li class="c"><b>3.</b> Correct. Radhakrishnan → university; Mudaliar → secondary; Kothari → 10+2+3; NPE 1986 → Operation Blackboard.</li><li class=""><b>4.</b> Puts 10+2+3 under Radhakrishnan; it is Kothari's.</li></ul></div></div><div class="mcq" data-a="2"><div class="stem"><span class="n">2.</span>Which of the following statements about the Kothari Commission are correct?<ol class="stm"><li>Its report was titled "Education and National Development".</li><li>It recommended spending 6% of national income on education.</li><li>It was chaired by A. Lakshmanaswami Mudaliar.</li><li>It recommended the three-language formula and work experience.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, ii and iii</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i, ii and iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>ii, iii and iv</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i and iv only</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Includes iii: Mudaliar chaired the Secondary Education Commission (1952-53); Kothari was chaired by D.S. Kothari.</li><li class="c"><b>2.</b> Correct. i, ii and iv are true.</li><li class=""><b>3.</b> Includes iii, which is false.</li><li class=""><b>4.</b> Leaves out ii, which is true (6% target).</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">3.</span>Arrange the following in chronological order:<ol class="stm"><li>National Policy on Education 1968</li><li>Ishwarbhai Patel Committee</li><li>Acharya Ramamurti Committee</li><li>Programme of Action</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, ii, iii, iv</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>ii, i, iii, iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i, iii, ii, iv</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, ii, iv, iii</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> Correct. 1968 → 1977 → 1990 → 1992.</li><li class=""><b>2.</b> The Patel Committee (1977) came after NPE 1968.</li><li class=""><b>3.</b> Ramamurti (1990) came after Patel (1977).</li><li class=""><b>4.</b> The POA (1992) followed the Ramamurti review (1990).</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">4.</span>Which of the following statements is INCORRECT?</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>NPE 1986 led to the setting up of Navodaya Vidyalayas.</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>District Institutes of Education and Training (DIETs) were set up after NPE 1986.</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>NPE 1968 was the first national policy on education of independent India.</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>The Programme of Action 1992 replaced the 10+2+3 pattern with 5+3+3+4.</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> True: Navodaya Vidyalayas began in 1986 under NPE 1986.</li><li class=""><b>2.</b> True: DIETs were a key teacher-education reform of NPE 1986.</li><li class=""><b>3.</b> True: NPE 1968 was the first, based on the Kothari Commission.</li><li class="c"><b>4.</b> INCORRECT, so this is the answer. 5+3+3+4 came with NEP 2020, not the POA 1992.</li></ul></div></div><div class="mcq" data-a="2"><div class="stem"><span class="n">5.</span>A committee found that heavy school bags and too much memorising were making children unhappy, and recommended lighter syllabi and joyful learning. This committee was</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Kothari Commission</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Yash Pal Committee</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Mudaliar Commission</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Acharya Ramamurti Committee</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Kothari dealt with the whole system (10+2+3, 6% of national income), not school-bag load.</li><li class="c"><b>2.</b> Correct. The Yash Pal Committee report "Learning without Burden" (1993).</li><li class=""><b>3.</b> Mudaliar dealt with secondary education structure (1952-53).</li><li class=""><b>4.</b> Ramamurti reviewed NPE 1986 (1990); "Learning without Burden" was Yash Pal.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>Revision note (5 lines)</b><br>
+1. 1948–49 Radhakrishnan (universities → UGC); 1952–53 Mudaliar (secondary; multipurpose schools).<br>
+2. 1964–66 Kothari: "Education and National Development"; 10+2+3; common school; work experience; 6%; three languages.<br>
+3. NPE 1968 = first policy (Kothari-based). 1977 Ishwarbhai Patel = SUPW.<br>
+4. NPE 1986: Navodaya (1986), Operation Blackboard (1987), DIETs.<br>
+5. 1990 Ramamurti review → 1991 Janardhana Reddy → 1992 revised NPE + POA; 1993 Yash Pal "Learning without Burden".</div>
+
+<h2 id="s4">Notebook page: Day 1</h2>
+<p>Close this page and write the following in your notebook <strong>from memory</strong>, in this order. Then open the page and tick what you got right; fill gaps in a different colour.</p>
+<ol>
+<li>Table of four traditions: Vedic / Buddhist / Jain / Islamic → place, start–end ceremony, method, language.</li>
+<li>Five centres with founder or dynasty: Takshashila, Nalanda (Kumaragupta I), Vikramashila (Dharmapala), Valabhi (Maitrakas), Nagarjunakonda (Ikshvakus, AP).</li>
+<li>Vedic steps: Sravana → Manana → Nidhidhyasana; and the meaning of Upanayana and Samavartana.</li>
+<li>Pre-independence timeline: 1813, 1835, 1854, 1882, 1902/04, 1911, 1917, 1929, 1937, 1944, with one key point each.</li>
+<li>Wood's Despatch: five recommendations, and "rejected downward filtration".</li>
+<li>Hartog: definitions of wastage and stagnation.</li>
+<li>Wardha Scheme: four features (craft-centred, 7–14, mother tongue, self-supporting) + Zakir Hussain Committee.</li>
+<li>Post-independence table: Radhakrishnan / Mudaliar / Kothari / NPE 1968 / Patel 1977 / NPE 1986 / Ramamurti 1990 / POA 1992 / Yash Pal 1993.</li>
+<li>Kothari code "10-2-3-6-3" written out in full.</li>
+<li>Three outcomes of NPE 1986: Navodaya, Operation Blackboard, DIETs.</li>
+</ol>
+<h2 id="s5">Sources</h2>
+<ul>
+<li>Directorate of School Education, Andhra Pradesh: <a href="https://apdsc2024.apcfss.in/Documents/MEGA_DSC_2024_Suggestive_Syllabus-27-11-2024.pdf">Mega DSC 2024 Suggestive Syllabus</a> (Perspectives in Education unit list; checked 9 Nov 2026).</li>
+<li>Directorate of School Education, Andhra Pradesh: AP DSC-2026 notification dated 5 Nov 2026, as published by <a href="https://images.assettype.com/edexlive/2026-11-05/gfb2hrs8/School_Education_Notification.pdf">The New Indian Express / EdexLive</a> (checked 9 Nov 2026).</li>
+<li>AP DSC SGT question paper, 19 June 2025, Shift 1 (Section II), supplied by you.</li>
+<li>Photos: Wikimedia Commons (credit and licence on each file page).</li>
+</ul>
+<footer>Sulabham · AP DSC-2026 (APTRT) SGT · Perspectives in Education. Facts checked against the official SCERT syllabus and AP DSC-2026 notification; scheme details are as of November 2026.</footer>
+</main>
+<script>
+(function(){
+var T={"right": "Correct!", "wrong": "Not quite. Correct answer:", "score": "Your score"};
+document.querySelectorAll('.quiz').forEach(function(qz){
+  var mcqs=qz.querySelectorAll('.mcq'), done=0, ok=0;
+  mcqs.forEach(function(m){
+    var a=m.getAttribute('data-a');
+    m.querySelectorAll('button.opt').forEach(function(b){
+      b.addEventListener('click',function(){
+        if(m.classList.contains('done'))return;
+        m.classList.add('done');
+        var right=b.getAttribute('data-o')===a;
+        b.classList.add(right?'ok':'bad');
+        m.querySelector('button.opt[data-o="'+a+'"]').classList.add('ok');
+        m.querySelectorAll('button.opt').forEach(function(x){x.setAttribute('aria-disabled','true');});
+        m.querySelector('.verdict').textContent=right?T.right:(T.wrong+' '+a);
+        done++; if(right)ok++;
+        if(done===mcqs.length){qz.querySelector('.qscore').textContent=T.score+': '+ok+' / '+mcqs.length;}
+      });
+    });
+  });
+});
+})();
+</script>
+</body></html>

@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="te"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>విద్యా మనోవిజ్ఞాన శాస్త్రం, 4వ రోజు: జ్ఞాపకం, ప్రేరణ; మూర్తిమత్వం, ప్రత్యేక అవసరాలు</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf8f3;--paper:#fff;--ink:#2b2118;--muted:#6f6254;--rule:#e6ddd0;--accent:#8a4b1f;--tint:#f4e9dc;--th:#f1e6d8}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1713;--paper:#231e19;--ink:#efe6da;--muted:#b3a593;--rule:#3a322a;--accent:#e0a36f;--tint:#3a2b1e;--th:#2e2620}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Noto Sans","Noto Sans Telugu",system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+header.top{border-bottom:3px solid var(--accent);margin-bottom:8px}
+h1{font-size:1.75rem;line-height:1.25;margin:8px 0 4px;color:var(--accent)}
+h1+p em{color:var(--muted);font-style:normal;font-size:.9rem}
+h2{font-size:1.35rem;margin:40px 0 10px;padding:8px 12px;background:var(--tint);border-left:5px solid var(--accent);border-radius:4px}
+h3{font-size:1.1rem;margin:26px 0 8px;color:var(--accent)}
+p{margin:8px 0}
+ul,ol{padding-left:24px;margin:8px 0}
+li{margin:4px 0}
+strong{color:var(--ink)}
+.tbl{overflow-x:auto;margin:12px 0;border:1px solid var(--rule);border-radius:8px;background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:.94rem}
+th,td{padding:8px 10px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+th{background:var(--th);font-weight:600}
+tr:last-child td{border-bottom:0}
+.formula{margin:12px 0;padding:12px 16px;background:var(--paper);border:1px dashed var(--accent);border-radius:8px;font-weight:600;text-align:center}
+nav.toc{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:12px 16px;margin:16px 0}
+nav.toc b{display:block;margin-bottom:6px}
+nav.toc a{color:var(--accent);text-decoration:none}
+nav.toc ol{margin:0}
+figure.diagram{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:8px;color:var(--muted)}
+figure.diagram{overflow-x:auto;-webkit-overflow-scrolling:touch}
+figure.diagram svg{width:100%;min-width:600px;height:auto;display:block}
+figcaption{font-size:.85rem;color:var(--muted);text-align:center;padding:4px}
+svg .t{font-size:15px;font-weight:600;fill:var(--ink)}
+svg .n{font-size:12.5px;font-weight:600;fill:var(--ink)}
+svg .b{font-size:11.5px;fill:var(--ink)}
+svg .q{font-size:11.5px;fill:var(--muted)}
+svg .box{fill:none;stroke:var(--muted);stroke-width:1.25}
+svg .box.hi{fill:var(--tint);stroke:var(--accent);stroke-width:2}
+svg .ln{stroke:var(--muted);stroke-width:1.25;fill:none}
+details.ans{margin:16px 0;background:var(--paper);border:1px solid var(--accent);border-radius:8px;padding:10px 14px}
+details.ans summary{cursor:pointer;font-weight:600;color:var(--accent)}
+.key{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px;margin-top:10px}
+.key span{background:var(--tint);border-radius:6px;padding:4px;text-align:center;font-weight:600}
+.lang-switch{display:inline-block;margin:4px 0 12px;padding:6px 14px;border:1px solid var(--accent);border-radius:999px;color:var(--accent);text-decoration:none;font-weight:600;font-size:.9rem}
+.lang-switch:hover{background:var(--tint)}
+footer{margin-top:48px;font-size:.85rem;color:var(--muted);border-top:1px solid var(--rule);padding-top:12px}
+@media print{body{background:#fff;font-size:11pt}main{max-width:none;padding:0}h2{break-after:avoid}nav.toc{display:none}details.ans{display:block}details.ans>*{display:block}@page{size:A4;margin:14mm}}
+
+figure.photo{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:10px;overflow:hidden}
+figure.photo img{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;background:var(--tint)}
+figure.photo figcaption{padding:8px 12px;font-size:.86rem;color:var(--muted);text-align:left}
+figure.photo figcaption a{color:var(--accent)}
+ol.tl{list-style:none;padding:0 0 0 22px;margin:14px 0;border-left:3px solid var(--accent)}
+ol.tl li{position:relative;margin:0 0 12px;padding-left:10px}
+ol.tl li::before{content:"";position:absolute;left:-31px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--paper);border:3px solid var(--accent)}
+ol.tl .yr{font-weight:700;color:var(--accent);margin-right:6px}
+h3{border-bottom:1px dashed var(--rule);padding-bottom:4px}
+.box{background:var(--paper);border:1px solid var(--rule);border-left:5px solid var(--accent);border-radius:8px;padding:10px 14px;margin:12px 0}
+.quiz{background:var(--paper);border:2px solid var(--accent);border-radius:12px;padding:12px 14px;margin:18px 0}
+.quiz h4{margin:0 0 4px;color:var(--accent);font-size:1.05rem}
+.quiz .hint{margin:0 0 8px;color:var(--muted);font-size:.88rem}
+.mcq{border-top:1px solid var(--rule);padding:12px 0}
+.mcq .stem{margin-bottom:8px}
+.mcq .n{color:var(--accent);font-weight:700;margin-right:6px}
+.mcq ol.stm{list-style:lower-roman;margin:6px 0;padding-left:30px}
+.mcq table.mt{border-collapse:collapse;margin:8px 0;width:100%;font-size:.93rem}
+.mcq table.mt th,.mcq table.mt td{border:1px solid var(--rule);padding:6px 8px;text-align:left}
+.mcq table.mt th{background:var(--th)}
+.opts{display:grid;gap:6px}
+button.opt{all:unset;box-sizing:border-box;display:flex;gap:10px;width:100%;padding:9px 12px;border:1px solid var(--rule);border-radius:8px;cursor:pointer;color:var(--ink);background:var(--bg)}
+button.opt:hover,button.opt:focus-visible{background:var(--tint);outline:2px solid var(--accent);outline-offset:1px}
+button.opt .k{font-weight:700;min-width:20px}
+.mcq.done button.opt{cursor:default}
+button.opt.ok{border-color:#2e7d32;background:rgba(46,125,50,.14)}
+button.opt.bad{border-color:#c62828;background:rgba(198,40,40,.12)}
+.why{display:none;margin-top:8px;padding:8px 12px;background:var(--tint);border-radius:6px;font-size:.92rem}
+.mcq.done .why{display:block}
+.why .verdict{font-weight:700;margin:0 0 4px}
+.why ul{margin:4px 0;padding-left:18px}
+.why li.c{font-weight:600}
+.qscore{font-weight:700;color:var(--accent);margin-top:6px}
+@media print{.why{display:block}button.opt{border:1px solid #999}}
+</style><noscript><style>.why{display:block}</style></noscript></head>
+<body><main>
+<header class="top"><h1>విద్యా మనోవిజ్ఞాన శాస్త్రం, 4వ రోజు: జ్ఞాపకం, ప్రేరణ; మూర్తిమత్వం, ప్రత్యేక అవసరాలు</h1><a class="lang-switch" href="dsc-sgt-psychology-day4.html" hreflang="en">Read in English</a></header>
+<p><em>AP DSC-2026 (APTRT) · SGT · భాగం III: విద్యా మనోవిజ్ఞాన శాస్త్రం · యూనిట్ 3 (చివరి భాగం), యూనిట్ 4</em></p>
+<p>4వ రోజు అభ్యసన యూనిట్‌ను జ్ఞాపకం, విస్మృతి, ప్రేరణతో పూర్తిచేస్తుంది (అంశం 7); మూర్తిమత్వ యూనిట్‌ను ప్రత్యేక అవసరాల పిల్లలతో కలిపి చదువుతుంది (అంశం 8).</p>
+<div class="box"><b>పరీక్షతో సంబంధం:</b> 19 జూన్ 2025 పేపర్‌లో తార్కిక స్మృతి (సొంత మాటల్లో జవాబులు), సాధనా ప్రేరణ పెంపొందించడం, తప్పుగా జతపరిచిన రక్షక తంత్రం, రూప, లక్షణాంశ సిద్ధాంతాలు (హిపోక్రటీస్, షెల్డన్, స్ప్రాంగర్; ఆల్‌పోర్ట్, కాటెల్, ఐసెంక్), "మానసిక ఆటంకం" సన్నివేశం అడిగారు. అన్నీ ఇక్కడ ఉన్నాయి.</div>
+
+<nav class="toc"><b>విషయ సూచిక</b><ol><li><a href="#s1">అంశం 7: జ్ఞాపకం, విస్మృతి, ప్రేరణ</a></li><li><a href="#s2">అంశం 8: మూర్తిమత్వం, మానసిక ఆరోగ్యం, ప్రత్యేక అవసరాల పిల్లలు</a></li><li><a href="#s3">నోట్‌బుక్ పేజీ: 4వ రోజు</a></li><li><a href="#s4">ఆధారాలు</a></li></ol></nav><h2 id="s1">అంశం 7: జ్ఞాపకం, విస్మృతి, ప్రేరణ</h2>
+<h3>1. ప్రాథమిక భావన</h3>
+<p><strong>జ్ఞాపకశక్తి / స్మృతి</strong> (Memory) అంటే నేర్చుకున్నదాన్ని తీసుకుని, నిల్వ చేసి, తిరిగి తెచ్చుకునే సామర్థ్యం. <strong>విస్మృతి</strong> (Forgetting) అంటే దాన్ని తిరిగి తెచ్చుకోలేకపోవడం. <strong>ప్రేరణ</strong> (Motivation) అంటే ఒక లక్ష్యం వైపు ప్రవర్తనను మొదలుపెట్టి, నడిపించి, కొనసాగించే అంతర్గత శక్తి. బోధన ఎంత బాగున్నా, అన్నీ మరచిపోయే లేదా నేర్చుకోవాలనుకోని పిల్లవాడు తక్కువే నేర్చుకుంటాడు.</p>
+<h3>2. ఇవి ఎందుకు ముఖ్యం</h3>
+<p>పరీక్షలో విజయం గుర్తుంచుకోవడంపై, తరగతిలో విజయం నేర్చుకోవాలనే కోరికపై ఆధారపడతాయి. జ్ఞాపకం ఎలా పనిచేస్తుందో తెలిస్తే <em>ఎప్పుడు</em> రివైజ్ చేయాలో ఉపాధ్యాయుడికి తెలుస్తుంది. పిల్లలను ఏది ప్రేరేపిస్తుందో తెలిస్తే వారు నేర్చుకోవాలని కోరుకునేలా <em>ఎలా</em> చేయాలో తెలుస్తుంది.</p>
+<h3>3. ఇవి ఎలా పనిచేస్తాయి</h3>
+<p><strong>జ్ఞాపకంలో మూడు దశలు:</strong> <strong>సంకేతీకరణ</strong> (తీసుకోవడం) → <strong>నిల్వ</strong> (ఉంచుకోవడం) → <strong>పునఃప్రాప్తి</strong> (తిరిగి తెచ్చుకోవడం).</p>
+<p><strong>అట్కిన్‌సన్–షిఫ్రిన్ నమూనా (మూడు నిల్వలు)</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>నిల్వ</th>
+<th>ఎంతసేపు</th>
+<th>సామర్థ్యం</th>
+<th>ఉదాహరణ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>సంవేదన స్మృతి</td>
+<td>1 సెకను లోపు (దృశ్యం) నుంచి 2–4 సెకన్లు (శబ్దం)</td>
+<td>ఎక్కువ</td>
+<td>ఇప్పుడే చూసిన కాంతి మెరుపు</td>
+</tr>
+<tr>
+<td>స్వల్పకాలిక స్మృతి (STM)</td>
+<td>పునశ్చరణ లేకుండా సుమారు 20–30 సెకన్లు</td>
+<td><strong>7 ± 2 అంశాలు</strong> (జార్జ్ మిల్లర్)</td>
+<td>OTP ని మనసులో ఉంచుకోవడం</td>
+</tr>
+<tr>
+<td>దీర్ఘకాలిక స్మృతి (LTM)</td>
+<td>ఏళ్లు, జీవితాంతం</td>
+<td>దాదాపు అపరిమితం</td>
+<td>మీ మాతృభాష</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>తెలుసుకోవాల్సిన స్మృతి రకాలు:</strong> <strong>బట్టీ స్మృతి</strong> (అర్థం లేని యాంత్రిక పునరావృతం) vs <strong>తార్కిక స్మృతి</strong> (అవగాహన ఆధారం; ఉదా: సొంత మాటల్లో జవాబులు రాయడం, 2025 జవాబు); <strong>ప్రత్యాహ్వానం</strong> (సహాయం లేకుండా తెచ్చుకోవడం, ఖాళీలు పూరించడంలా) vs <strong>గుర్తింపు</strong> (ఆప్షన్ల నుంచి గుర్తించడం, MCQ లా; ఇది సులభం).</p>
+<p><strong>విస్మృతి</strong></p>
+<ul>
+<li><strong>హెర్మన్ ఎబ్బింగ్‌హాస్</strong> <strong>అర్థరహిత అక్షరాలు</strong> (ZOK, DAX) వాడారు. ఆయన <strong>విస్మృతి వక్రం</strong> ప్రకారం నేర్చుకున్న కొద్దిసేపటికే ఎక్కువ విస్మృతి జరుగుతుంది; తర్వాత నెమ్మదిస్తుంది.</li>
+<li><strong>కారణాలు</strong>: <strong>క్షయం</strong> (నిరుపయోగం); <strong>అవరోధం</strong>: <strong>పురోగామి</strong> (పాత అభ్యసనం కొత్తదాన్ని అడ్డుకోవడం), <strong>తిరోగామి</strong> (కొత్త అభ్యసనం పాతదాన్ని అడ్డుకోవడం); <strong>అణచివేత</strong> (ఫ్రాయిడ్: బాధాకర జ్ఞాపకాలను బయటికి నెట్టడం).</li>
+<li><strong>బాగా గుర్తుంచుకోవడానికి</strong>: విరామాలతో రివిజన్ (ముఖ్యంగా అదే రోజు), అర్థం గ్రహించడం, జ్ఞాపక సూత్రాలు (ఉదా: VIBGYOR), అధిక అభ్యసనం, తగినంత నిద్ర, కొత్తదాన్ని పాత జ్ఞానంతో ముడిపెట్టడం.</li>
+</ul>
+<p><strong>ప్రేరణ</strong></p>
+<ul>
+<li><strong>అంతర్గత</strong> (లోపలి నుంచి: కథ ఆసక్తికరంగా ఉంది) vs <strong>బాహ్య</strong> (బయటి నుంచి: మార్కులు, బహుమతులు, ప్రశంస, భయం). అంతర్గత ప్రేరణ ఎక్కువ కాలం ఉంటుంది.</li>
+<li><strong>ప్రేరణ చక్రం</strong>: అవసరం → చోదకం → ప్రోత్సాహకం → లక్ష్యం (ఆకలి → అశాంతి → ఆహారం → తినడం).</li>
+<li><strong>సాధనా ప్రేరణ (డేవిడ్ మెక్‌క్లెల్లాండ్)</strong>: విజయం సాధించాలనే, బాగా చేయాలనే కోరిక. అధిక సాధకులు <strong>తమ సామర్థ్యానికి తగిన మధ్యస్థ కఠిన లక్ష్యాలను</strong> ఇష్టపడతారు. ఉపాధ్యాయులు <strong>ప్రతి పిల్లవాడి సామర్థ్యానికి అనుగుణంగా లక్ష్యాలు నిర్దేశించడం</strong> ద్వారా దీన్ని పెంచుతారు; ఇదే 2025 జవాబు.</li>
+<li><strong>ఆకాంక్షా స్థాయి</strong>: పిల్లవాడు తనకు తాను పెట్టుకునే లక్ష్యం. మరీ ఎక్కువ (నిరాశ) గానీ, మరీ తక్కువ (ప్రయత్నం ఉండదు) గానీ ఉండకూడదు.</li>
+</ul>
+<p><strong>అబ్రహం మాస్లో అవసరాల అనుక్రమం</strong></p>
+<figure class="diagram"><svg viewBox="0 0 760 380" role="img" aria-label="Maslow hierarchy of needs"><text x="24" y="30" class="t">కింది అవసరాలు తీరాకే పై అవసరాల వైపు</text><rect x="270.0" y="52" width="220" height="52" rx="8" class="box hi"/><text x="380" y="74" text-anchor="middle" class="n">5. ఆత్మ సాక్షాత్కారం</text><text x="380" y="93" text-anchor="middle" class="q">ఉత్తమ స్థాయికి ఎదగడం</text><rect x="220.0" y="110" width="320" height="52" rx="8" class="box"/><text x="380" y="132" text-anchor="middle" class="n">4. గౌరవం</text><text x="380" y="151" text-anchor="middle" class="q">ప్రశంస, గౌరవం, బహుమతులు</text><rect x="160.0" y="168" width="440" height="52" rx="8" class="box"/><text x="380" y="190" text-anchor="middle" class="n">3. ప్రేమ, అనుబంధం</text><text x="380" y="209" text-anchor="middle" class="q">స్నేహితులు, కుటుంబం, తరగతిలో భాగం కావడం</text><rect x="110.0" y="226" width="540" height="52" rx="8" class="box"/><text x="380" y="248" text-anchor="middle" class="n">2. భద్రత</text><text x="380" y="267" text-anchor="middle" class="q">సురక్షిత తరగతి, శిక్ష భయం లేకపోవడం</text><rect x="60.0" y="284" width="640" height="52" rx="8" class="box"/><text x="380" y="306" text-anchor="middle" class="n">1. శారీరక అవసరాలు</text><text x="380" y="325" text-anchor="middle" class="q">ఆహారం, నీరు, నిద్ర, విశ్రాంతి</text><text x="24" y="368" class="q">1-4 లోప అవసరాలు; 5 వృద్ధి అవసరం. అందుకే మధ్యాహ్న భోజనం అభ్యసనాన్ని మెరుగుపరుస్తుంది.</text></svg><figcaption>మాస్లో అవసరాల అనుక్రమం · 5 స్థాయిలు</figcaption></figure>
+<h3>4. నిత్యజీవిత ఉదాహరణ</h3>
+<p>జ్ఞాపకం <strong>మొబైల్ ఫోన్</strong> లాంటిది. స్క్రీన్ సంవేదన స్మృతి: గమనించకపోతే దానిపై మెరిసేది క్షణంలో పోతుంది. నోటిఫికేషన్ బార్ స్వల్పకాలిక స్మృతి: కొన్ని అంశాలను కొద్దిసేపు ఉంచుతుంది. గ్యాలరీ దీర్ఘకాలిక స్మృతి: చాలా నిల్వ చేస్తుంది, కానీ అక్కడ సేవ్ చేయాలి (సంకేతీకరణ), ఎక్కడుందో తెలియాలి (పునఃప్రాప్తి). ప్రేరణ <strong>బ్యాటరీ చార్జ్</strong>: ఎంత మంచి ఫోన్ అయినా చార్జ్ లేకపోతే పనికిరాదు.</p>
+<h3>5. కష్టమైన భాగాలను విడదీద్దాం</h3>
+<ol>
+<li><strong>బట్టీ vs తార్కిక స్మృతి</strong>: "7 × 8 = 56" ని యాభై సార్లు వల్లె వేయడం (బట్టీ) vs 7 × 8 అంటే ఏడు ఎనిమిదులు అని అర్థం చేసుకోవడం (తార్కిక). తార్కిక స్మృతి ఎక్కువ కాలం ఉంటుంది, కొత్త ప్రశ్నలకూ సరిపోతుంది.</li>
+<li><strong>పురోగామి vs తిరోగామి అవరోధం</strong>: "పురో" = ముందుకు: పాతది కొత్తదాన్ని అడ్డుకుంటుంది. "తిరో" = వెనక్కి: కొత్తది పాతదాన్ని అడ్డుకుంటుంది.</li>
+<li><strong>ప్రత్యాహ్వానం vs గుర్తింపు</strong>: వ్యాస ప్రశ్నకు ప్రత్యాహ్వానం కావాలి; బహుళైచ్ఛిక ప్రశ్నకు గుర్తింపు చాలు.</li>
+<li><strong>అదే రోజు రివిజన్ ఎందుకు పనిచేస్తుంది</strong>: మొదటి గంటల్లో విస్మృతి వక్రం అత్యంత నిటారుగా ఉంటుంది; కాబట్టి అప్పుడు చేసే చిన్న రివిజన్ వారం తర్వాత చేసే పెద్ద రివిజన్ కంటే ఎక్కువ కాపాడుతుంది.</li>
+<li><strong>తరగతిలో అంతర్గత vs బాహ్య</strong>: ప్రశంస, బహుమతులు (బాహ్య) ఆసక్తిని మొదలుపెట్టగలవు; క్రమంగా పిల్లలను కుతూహలం, ఆనందం (అంతర్గత) వైపు నడిపించండి.</li>
+<li><strong>లోప vs వృద్ధి అవసరాలు (మాస్లో)</strong>: 1–4 స్థాయిలు లోప అవసరాలు; 5వ స్థాయి (ఆత్మ సాక్షాత్కారం) వృద్ధి అవసరం. ఆకలితో ఉన్న పిల్లవాడు చదువుపై దృష్టి పెట్టలేడు; అందుకే మధ్యాహ్న భోజనం ముఖ్యం.</li>
+</ol>
+<h3>6. మినహాయింపులు, గందరగోళ అంశాలు</h3>
+<ul>
+<li><strong>7 ± 2 అనేది STM పరిమితి</strong>, దీర్ఘకాలికది కాదు.</li>
+<li><strong>ఎబ్బింగ్‌హాస్</strong> అర్థరహిత అక్షరాలతో <em>విస్మృతి</em> అధ్యయనం చేశారు; <strong>మిల్లర్</strong> 7 ± 2 ఇచ్చారు.</li>
+<li><strong>గుర్తింపు ప్రత్యాహ్వానం కంటే సులభం.</strong></li>
+<li><strong>సాధనా ప్రేరణ</strong>: చాలా సులభ లేదా అసాధ్య లక్ష్యాలను <em>వైఫల్యానికి భయపడే</em> పిల్లలు ఎంచుకుంటారు, అధిక సాధకులు కాదు.</li>
+<li><strong>మాస్లో అత్యల్ప అవసరం శారీరకం</strong>, భద్రత కాదు.</li>
+</ul>
+<h3>7. ఇతర అంశాలతో సంబంధం</h3>
+<ul>
+<li><strong>3వ రోజు</strong>: జ్ఞాపకం అంటే గాన్యే నిలుపుదల, పునఃస్మరణ దశలు; థార్న్‌డైక్ అభ్యాస, నిరుపయోగ నియమం.</li>
+<li><strong>అంశం 8</strong>: అణచివేత రక్షక తంత్రం కూడా.</li>
+<li><strong>బోధనా పద్ధతులు</strong>: పునశ్చరణ, రివిజన్ పీరియడ్లు, విరామాలతో సాధన, జ్ఞాపక సూత్రాల వినియోగం.</li>
+<li><strong>విద్యా దృక్పథాలు</strong>: మధ్యాహ్న భోజనం, మాస్లో శారీరక అవసరాలు.</li>
+</ul>
+<h3>8. జ్ఞాపక సూత్రం</h3>
+<p><strong>జ్ఞాపక దశలు: "సం-ని-పు" = "సంతోషంగా నిత్యం పుస్తకం".</strong></p>
+<p><strong>అవరోధం: "పురో = పాతది ప్రస్తుతాన్ని చెడుపుతుంది; తిరో = తాజాది తొలిదాన్ని చెడుపుతుంది".</strong></p>
+<p><strong>కింది నుంచి మాస్లో: "శా-భ-ప్రే-గౌ-ఆ" → "శాంతంగా భద్రంగా ప్రేమగా గౌరవంగా ఆనందంగా"</strong>: శారీరక, భద్రత, ప్రేమ, గౌరవం, ఆత్మ సాక్షాత్కారం.</p>
+<h3>9. మీ అవగాహనను పరీక్షించుకోండి</h3>
+<p><strong>స్వీయ జ్ఞాపకం:</strong></p>
+<ol>
+<li>మూడు స్మృతి నిల్వలను కాలపరిమితి, సామర్థ్యంతో చెప్పండి.</li>
+<li>పురోగామి, తిరోగామి అవరోధాలను ఒక్కో ఉదాహరణతో వివరించండి.</li>
+<li>ఉపాధ్యాయుడు సాధనా ప్రేరణను ఎలా పెంచగలడు?</li>
+</ol>
+<div class="quiz" id="quiz-t7"><h4>త్వరిత పరీక్ష: 5 ప్రశ్నలు</h4><p class="hint">మీ జవాబు సరిచూసుకోవడానికి ఒక ఆప్షన్‌ను నొక్కండి.</p><div class="mcq" data-a="2"><div class="stem"><span class="n">1.</span>ఒక విద్యార్థి ఎక్కాన్ని అర్థం చేసుకోకుండా యాభై సార్లు వల్లె వేస్తాడు; తర్వాత ప్రశ్నలు వేరే క్రమంలో అడిగితే జవాబు ఇవ్వలేకపోతాడు. ఇది దేనిని సూచిస్తుంది</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>తార్కిక స్మృతి</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>బట్టీ స్మృతి</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>సంవేదన స్మృతి</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>అవగాహనతో ఏర్పడిన దీర్ఘకాలిక స్మృతి</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> తార్కిక స్మృతి అర్థం గ్రహించడం వల్ల వస్తుంది, సొంత మాటల్లో జవాబులు రాసినట్టు (2025 జవాబు).</li><li class="c"><b>2.</b> సరైనది. బట్టీ స్మృతి అర్థం లేకుండా యాంత్రిక పునరావృతం; క్రమం మారితే అది విఫలమవుతుంది.</li><li class=""><b>3.</b> సంవేదన స్మృతి ఒకటి రెండు సెకన్లే ఉంటుంది.</li><li class=""><b>4.</b> ఇక్కడ అవగాహన లేదు.</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">2.</span>జ్ఞాపకం గురించి కింది వాటిలో సరైన ప్రవచనాలు ఏవి?<ol class="stm"><li>సంవేదన స్మృతి సమాచారాన్ని కొన్ని సెకన్లు లేదా అంతకంటే తక్కువ సేపు మాత్రమే ఉంచుతుంది.</li><li>పునశ్చరణ లేకుండా స్వల్పకాలిక స్మృతి సమాచారాన్ని సుమారు 20–30 సెకన్లు ఉంచుతుంది.</li><li>దీర్ఘకాలిక స్మృతి సుమారు 7 అంశాలను మాత్రమే ఉంచగలదు.</li><li>సంకేతీకరణ, నిల్వ, పునఃప్రాప్తి జ్ఞాపకంలోని మూడు దశలు.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, ii, iii</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>ii, iii, iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i, ii, iv</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, ii, iii, iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> iii ని కలిపింది: 7 ± 2 అంశాలు స్వల్పకాలిక స్మృతి పరిమితి; దీర్ఘకాలిక స్మృతి దాదాపు అపరిమితం.</li><li class=""><b>2.</b> iii ని కలిపి, i ని వదిలేసింది.</li><li class="c"><b>3.</b> సరైనది. i, ii, iv నిజం.</li><li class=""><b>4.</b> తప్పైన iii ని కలిపింది.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">3.</span><b>ప్రతిపాదన (A):</b> పాఠం చెప్పిన రోజే రివిజన్ చేస్తే విస్మృతి తగ్గుతుంది.<br><b>కారణం (R):</b> ఎబ్బింగ్‌హాస్ ప్రకారం నేర్చుకున్న కొద్దిసేపటికే ఎక్కువ విస్మృతి జరుగుతుంది.</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>A, R రెండూ నిజం; A కి R సరైన వివరణ</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>A, R రెండూ నిజం; కానీ A కి R సరైన వివరణ కాదు</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>A నిజం, R తప్పు</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>A తప్పు, R నిజం</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> సరైనది. రెండూ నిజం; విస్మృతి వక్రంలో మొదట్లో వేగమైన పతనం (R) వల్లే అదే రోజు రివిజన్ (A) పనిచేస్తుంది.</li><li class=""><b>2.</b> R నేరుగా A ని వివరిస్తుంది.</li><li class=""><b>3.</b> R నిజం: విస్మృతి వక్రం మొదట్లో అత్యంత వేగంగా పడిపోతుంది.</li><li class=""><b>4.</b> A నిజం: తొందరగా, విరామాలతో రివిజన్ విస్మృతికి ఉత్తమ పరిష్కారం.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">4.</span>మెక్‌క్లెల్లాండ్ ప్రకారం అధిక సాధనా ప్రేరణ ఉన్న పిల్లవాడు ఇష్టపడే పనులు</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>చాలా సులభమైనవి, విజయం ఖాయం కాబట్టి</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>అసాధ్యమైనవి, వైఫల్యానికి సాకు ఉంటుంది కాబట్టి</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>బహుమతి వాగ్దానం చేసినప్పుడే చేసేవి</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>తన సామర్థ్యానికి తగిన, మధ్యస్థ కఠినత్వం ఉన్నవి</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> చాలా సులభ పనుల్లో సాధించిన భావన ఉండదు.</li><li class=""><b>2.</b> వైఫల్యానికి భయపడేవారు అసాధ్య పనులు ఎంచుకుంటారు.</li><li class=""><b>3.</b> బహుమతులు కావాలనడం బాహ్య ప్రేరణ, సాధనా ప్రేరణ కాదు.</li><li class="c"><b>4.</b> సరైనది. అధిక సాధకులు వాస్తవికమైన, మధ్యస్థ కఠిన లక్ష్యాలు ఎంచుకుంటారు; అందుకే "పిల్లల సామర్థ్యాలకు అనుగుణంగా లక్ష్యాలు నిర్దేశించడం" 2025 జవాబు.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">5.</span>మాస్లో అవసరాలను అత్యల్పం నుంచి అత్యున్నతం వరకు అమర్చండి:<ol class="stm"><li>గౌరవం</li><li>భద్రత</li><li>ఆత్మ సాక్షాత్కారం</li><li>ప్రేమ, అనుబంధం</li><li>శారీరక</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>v, ii, iv, i, iii</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>ii, v, iv, i, iii</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>v, iv, ii, i, iii</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>v, ii, i, iv, iii</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> సరైనది. శారీరక → భద్రత → ప్రేమ, అనుబంధం → గౌరవం → ఆత్మ సాక్షాత్కారం.</li><li class=""><b>2.</b> శారీరక అవసరాలు (ఆహారం, నీరు, నిద్ర) భద్రత కంటే ముందు.</li><li class=""><b>3.</b> ప్రేమ, అనుబంధం కంటే ముందు భద్రత.</li><li class=""><b>4.</b> గౌరవం కంటే ముందు ప్రేమ, అనుబంధం.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>పునశ్చరణ నోట్ (5 వాక్యాలు)</b><br>
+1. జ్ఞాపకం: సంకేతీకరణ → నిల్వ → పునఃప్రాప్తి; సంవేదన, STM (20–30 సె., 7 ± 2, మిల్లర్), LTM (అపరిమితం).<br>
+2. బట్టీ vs తార్కిక స్మృతి; ప్రత్యాహ్వానం vs గుర్తింపు (గుర్తింపు సులభం).<br>
+3. ఎబ్బింగ్‌హాస్: విస్మృతి వక్రం, అర్థరహిత అక్షరాలు; క్షయం, పురోగామి/తిరోగామి అవరోధం, అణచివేత.<br>
+4. ప్రేరణ: అంతర్గత vs బాహ్య; అవసరం → చోదకం → ప్రోత్సాహకం → లక్ష్యం; సాధనా ప్రేరణ (మెక్‌క్లెల్లాండ్): సామర్థ్యానికి తగిన మధ్యస్థ లక్ష్యాలు.<br>
+5. మాస్లో: శారీరక → భద్రత → ప్రేమ → గౌరవం → ఆత్మ సాక్షాత్కారం.</div>
+
+<h2 id="s2">అంశం 8: మూర్తిమత్వం, మానసిక ఆరోగ్యం, ప్రత్యేక అవసరాల పిల్లలు</h2>
+<h3>1. ప్రాథమిక భావన</h3>
+<p><strong>మూర్తిమత్వం</strong> (Personality) అంటే ఒక వ్యక్తిని ప్రత్యేకంగా నిలిపే ఆలోచన, భావన, ప్రవర్తనల మొత్తం నమూనా. ఈ పదం లాటిన్ <strong>"పర్సోనా"</strong> నుంచి వచ్చింది: నటులు ధరించే ముసుగు. <strong>మానసిక ఆరోగ్యం</strong> అంటే సమస్యలను ఎదుర్కోవడం, సర్దుకోవడం, ఇతరులతో సంతోషంగా జీవించగల సామర్థ్యం. <strong>ప్రత్యేక అవసరాల పిల్లలు (CWSN)</strong> అంటే నేర్చుకోవడానికి అదనపు సహాయం కావాల్సిన పిల్లలు: వైకల్యం, అభ్యసన వైకల్యం ఉన్నవారు లేదా ప్రతిభావంతులు. <strong>సమ్మిళిత విద్య</strong> వారికి సాధారణ తరగతుల్లోనే బోధిస్తుంది.</p>
+<h3>2. ఇది ఎందుకు ముఖ్యం</h3>
+<p>ఒకే తరగతిలోని పిల్లల స్వభావాలు వేరు: సిగ్గరి లేదా ధైర్యవంతుడు, ప్రశాంతుడు లేదా ఆందోళన చెందేవాడు. కొందరు ఇంట్లో ఒత్తిడి ఎదుర్కొంటారు; కొందరికి వైకల్యం లేదా అభ్యసన కష్టం ఉంటుంది. మూర్తిమత్వం, సర్దుబాటు, ప్రత్యేక అవసరాలు అర్థం చేసుకున్న ఉపాధ్యాయుడు కొందరిని "సోమరి" లేదా "అల్లరి" అని ముద్ర వేయకుండా ప్రతి పిల్లవాడికీ సహాయపడగలడు.</p>
+<h3>3. ఇది ఎలా పనిచేస్తుంది</h3>
+<p><strong>మూర్తిమత్వ సిద్ధాంతాలు</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>రకం</th>
+<th>ప్రతిపాదకుడు</th>
+<th>ఆధారం</th>
+<th>రకాలు లేదా లక్షణాలు</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>రూప</strong> (Type)</td>
+<td>హిపోక్రటీస్</td>
+<td>శరీర ద్రవాలు</td>
+<td>ఆశావాది (ఉల్లాసం), కోపిష్టి, విషాదవాది (విచారం), మందకొడి (ప్రశాంతం, నెమ్మది)</td>
+</tr>
+<tr>
+<td>రూప</td>
+<td>క్రెష్మర్</td>
+<td>శరీర నిర్మాణం</td>
+<td>పిక్నిక్ (పొట్టి, గుండ్రం), ఆస్థెనిక్ (సన్నం), అథ్లెటిక్</td>
+</tr>
+<tr>
+<td>రూప</td>
+<td><strong>డబ్ల్యు.హెచ్. షెల్డన్</strong></td>
+<td>శరీర నిర్మాణం</td>
+<td>ఎండోమార్ఫ్ (మెత్తని, విశ్రాంతి), మీసోమార్ఫ్ (కండలు, చురుకు), ఎక్టోమార్ఫ్ (సన్నని, సున్నితం)</td>
+</tr>
+<tr>
+<td>రూప</td>
+<td>కార్ల్ <strong>యుంగ్</strong></td>
+<td>సాంఘిక స్వభావం</td>
+<td>అంతర్ముఖులు, బహిర్ముఖులు, ఉభయముఖులు</td>
+</tr>
+<tr>
+<td>రూప</td>
+<td>ఎడ్వర్డ్ <strong>స్ప్రాంగర్</strong></td>
+<td>విలువలు</td>
+<td>సైద్ధాంతిక, ఆర్థిక, సౌందర్య, సాంఘిక, రాజకీయ, మత</td>
+</tr>
+<tr>
+<td><strong>లక్షణాంశ</strong> (Trait)</td>
+<td>జి.డబ్ల్యు. <strong>ఆల్‌పోర్ట్</strong></td>
+<td>లక్షణాలు</td>
+<td>ప్రధాన, కేంద్ర, ద్వితీయ లక్షణాలు</td>
+</tr>
+<tr>
+<td>లక్షణాంశ</td>
+<td>ఆర్.బి. <strong>కాటెల్</strong></td>
+<td>లక్షణాలు</td>
+<td>16 మూల లక్షణాలు; <strong>16 PF</strong> ప్రశ్నావళి</td>
+</tr>
+<tr>
+<td>లక్షణాంశ/రూప</td>
+<td>హెచ్.జె. <strong>ఐసెంక్</strong></td>
+<td>కోణాలు</td>
+<td>అంతర్ముఖత–బహిర్ముఖత, ఉద్వేగ అస్థిరత–స్థిరత్వం, మనోవైకల్య ధోరణి</td>
+</tr>
+<tr>
+<td>లక్షణాంశ</td>
+<td>బిగ్ ఫైవ్ (OCEAN)</td>
+<td>లక్షణాలు</td>
+<td>అనుభవాలకు సుముఖత, కర్తవ్యనిష్ఠ, బహిర్ముఖత, సహకార స్వభావం, ఉద్వేగ అస్థిరత</td>
+</tr>
+<tr>
+<td>మనో విశ్లేషణ</td>
+<td>సిగ్మండ్ <strong>ఫ్రాయిడ్</strong></td>
+<td>మనస్సు నిర్మాణం</td>
+<td><strong>ఇడ్</strong> (సుఖం), <strong>ఇగో</strong> (వాస్తవం), <strong>సూపర్ ఇగో</strong> (అంతరాత్మ)</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>మూర్తిమత్వ కారకాలు:</strong> జీవ సంబంధ (అనువంశికత, గ్రంథులు, శరీర నిర్మాణం, ఆరోగ్యం), మానసిక (ప్రజ్ఞ, ఉద్వేగాలు, స్వీయ భావన), సామాజిక (కుటుంబం, పాఠశాల, స్నేహ బృందం, సంస్కృతి, మీడియా).</p>
+<p><strong>మూర్తిమత్వ మాపనం</strong></p>
+<ul>
+<li><strong>వ్యక్తినిష్ఠ</strong>: ముఖాముఖి, ఆత్మకథ, వ్యక్తి చరిత్ర.</li>
+<li><strong>వస్తునిష్ఠ</strong>: ప్రశ్నావళులు (16 PF), నిర్ధారణ మాపనులు, పరిశీలన, సన్నివేశ పరీక్షలు.</li>
+<li><strong>ప్రక్షేపక</strong>: <strong>రోర్షా సిరామరక పరీక్ష</strong> (10 కార్డులు); <strong>TAT</strong> (ముర్రే, మోర్గాన్); <strong>CAT</strong> (లియోపోల్డ్ బెల్లాక్, 3–10 ఏళ్ల పిల్లలకు); <strong>పద సాహచర్య పరీక్ష</strong> (యుంగ్); వాక్య పూరణ.</li>
+</ul>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Rorschach_blot_01.jpg?width=900" alt="రోర్షా సిరామరక పరీక్షలోని మొదటి కార్డు (1921). వ్యక్తి తనకు ఏం కనిపిస్తుందో చెబుతాడు; ఆ జవాబుల ద్వారా దాగిన భావాలను గ్రహిస్తారు: ఇది ప్రక్షేపక పరీక్ష." loading="lazy"><figcaption>రోర్షా సిరామరక పరీక్షలోని మొదటి కార్డు (1921). వ్యక్తి తనకు ఏం కనిపిస్తుందో చెబుతాడు; ఆ జవాబుల ద్వారా దాగిన భావాలను గ్రహిస్తారు: ఇది ప్రక్షేపక పరీక్ష. · ఫోటో: <a href="https://commons.wikimedia.org/wiki/File:Rorschach_blot_01.jpg" target="_blank" rel="noopener">వికీమీడియా కామన్స్</a> (రచయిత, లైసెన్స్ కోసం ఫైల్ పేజీ చూడండి)</figcaption></figure>
+<p><strong>మానసిక ఆరోగ్యం, సర్దుబాటు, ఒత్తిడి</strong></p>
+<ul>
+<li><strong>సర్దుబాటు</strong>: తన అవసరాలను పరిసరాల డిమాండ్లతో సమతుల్యం చేసుకోవడం.</li>
+<li><strong>సంఘర్షణలు (కర్ట్ లెవిన్)</strong>: ఉపగమ–ఉపగమ (రెండు మంచి ఎంపికలు), పరిహార–పరిహార (రెండు చెడు ఎంపికలు), ఉపగమ–పరిహార (మంచి, చెడు రెండూ ఉన్న ఒకే ఎంపిక).</li>
+<li><strong>ఒత్తిడి</strong>: ఒత్తిడికి శరీరం, మనస్సు ప్రతిస్పందన. లక్షణాలు: తలనొప్పి, చిరాకు, నిద్రలేమి, ఏకాగ్రత లోపం, ఆకలి తగ్గడం. నిర్వహణ: వ్యాయామం, విశ్రాంతి, ఇతరులతో మాట్లాడటం, సమయ ప్రణాళిక, సడలింపు, వాస్తవిక లక్ష్యాలు.</li>
+<li><strong>ఉద్వేగ ప్రజ్ఞ, ఉద్వేగ నిర్వహణ</strong> (గోల్‌మన్, 2వ రోజు): భావనను గుర్తించడం → ఆగడం → ఆరోగ్యకరంగా వ్యక్తపరచడం.</li>
+</ul>
+<p><strong>రక్షక తంత్రాలు (ఫ్రాయిడ్)</strong>: ఆందోళన నుంచి మనస్సు తనను తాను కాపాడుకునే అచేతన మార్గాలు.</p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>తంత్రం</th>
+<th>అర్థం</th>
+<th>ఉదాహరణ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>హేతుకీకరణ</td>
+<td>మంచిగా వినిపించే సాకు</td>
+<td>"పేపర్ సిలబస్ బయటిది."</td>
+</tr>
+<tr>
+<td>ప్రక్షేపణం</td>
+<td>తన లోపాలను ఇతరులపై మోపడం</td>
+<td>సోమరి విద్యార్థి ఇతరులను సోమరులు అనడం</td>
+</tr>
+<tr>
+<td>అణచివేత</td>
+<td>బాధాకర జ్ఞాపకాలను మనసులోంచి నెట్టేయడం</td>
+<td>భయంకర ప్రమాదాన్ని మరచిపోవడం</td>
+</tr>
+<tr>
+<td><strong>నిరాకరణ</strong> (Denial)</td>
+<td>అసౌకర్య వాస్తవాన్ని అంగీకరించకపోవడం</td>
+<td>"నేను ఫెయిల్ కాలేదు; ఫలితాలు తప్పు."</td>
+</tr>
+<tr>
+<td>స్థానభ్రంశం</td>
+<td>కోపాన్ని సురక్షితమైనవారిపై చూపడం</td>
+<td>తండ్రి తిట్టాక పిల్లవాడు తమ్ముడిని కొట్టడం</td>
+</tr>
+<tr>
+<td>తిరోగమనం</td>
+<td>చిన్నపిల్లల ప్రవర్తనకు తిరిగి వెళ్లడం</td>
+<td>ఇంట్లో కొత్త పాప వచ్చాక 7 ఏళ్ల పిల్లవాడు బొటనవేలు చీకడం</td>
+</tr>
+<tr>
+<td>ఉదాత్తీకరణ</td>
+<td>శక్తిని ఉపయోగకర కార్యంలోకి మళ్లించడం</td>
+<td>కోపాన్ని ఆటల్లోకి మళ్లించడం</td>
+</tr>
+<tr>
+<td>పరిహారం</td>
+<td>ఒక బలహీనతను మరో బలంతో పూడ్చడం</td>
+<td>చదువులో బలహీనుడు ఆటల్లో రాణించడం</td>
+</tr>
+<tr>
+<td>తాదాత్మ్యం</td>
+<td>మెచ్చుకునే వ్యక్తిని అనుకరించడం</td>
+<td>అబ్బాయి తన క్రికెట్ హీరోను అనుకరించడం</td>
+</tr>
+<tr>
+<td><strong>స్వైరకల్పన / దివాస్వప్నం</strong> (Fantasy)</td>
+<td>ఊహల్లోకి పారిపోవడం</td>
+<td>చదవకుండా టాపర్ అయినట్లు కలలు కనడం</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>ప్రత్యేక అవసరాల పిల్లలు, సమ్మిళిత విద్య</strong></p>
+<ul>
+<li><strong>సమ్మిళిత విద్య</strong>: CWSN సహా పిల్లలందరూ సహాయంతో సాధారణ పాఠశాలల్లో కలిసి నేర్చుకోవడం; <strong>పాఠశాలే పిల్లవాడికి తగ్గట్టు మారుతుంది</strong>. ఆధారం: RPwD చట్టం 2016 (<strong>21 వైకల్యాలు</strong>), RTE 2009.</li>
+<li><strong>అభ్యసన వైకల్యాలు</strong>: <strong>డిస్లెక్సియా</strong> (చదవడం), <strong>డిస్‌గ్రాఫియా</strong> (రాయడం), <strong>డిస్‌కాల్క్యులియా</strong> (గణితం), <strong>డిస్‌ప్రాక్సియా</strong> (చలన సమన్వయం). <strong>ADHD</strong>: అవధాన లోపం, అతి చురుకుదనం, ఆవేశపూరిత ప్రవర్తన.</li>
+<li><strong>ప్రతిభావంతులు</strong> (IQ సుమారు 130 పైన): సుసంపన్న కృత్యాలు, సవాళ్లు. <strong>నెమ్మదిగా నేర్చుకునేవారు</strong> (IQ సుమారు 70–89): పునరావృతం, మూర్త ఉదాహరణలు, ఓర్పు.</li>
+<li><strong>అభ్యసనానికి ఆటంకాలు</strong> (2025లో అడిగారు): <strong>శారీరక</strong> (అనారోగ్యం, ఇంద్రియ లోపాలు), <strong>మానసిక</strong> (తక్కువ ప్రజ్ఞ, అవధాన లోపం), <strong>భౌతిక పరిసర</strong> (తక్కువ వెలుతురు, శబ్దం, సరిలేని కూర్చునే ఏర్పాటు), <strong>సాంఘిక పరిసర</strong> (కుటుంబ కలహాలు, పేదరికం, స్నేహితుల సమస్యలు).</li>
+<li><strong>ఉపాధ్యాయుడి పాత్ర</strong>: ముందుగానే గుర్తించడం, బోర్డు దగ్గర కూర్చోబెట్టడం, సులభ సూచనలు, సహవిద్యార్థుల సహాయం, ఉపకరణాలు, నివారణ బోధన; ఎప్పుడూ ముద్ర వేయకపోవడం, ఎగతాళి చేయకపోవడం.</li>
+</ul>
+<figure class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Inclusive_education_makes_it_possible_for_kid_with_visual_impairment_to_exercise_right_to_education.jpg?width=900" alt="సమ్మిళిత విద్య: దృష్టి లోపం ఉన్న పిల్లవాడు సరైన సహకారంతో సాధారణ తరగతి గదిలో నేర్చుకోవడం." loading="lazy"><figcaption>సమ్మిళిత విద్య: దృష్టి లోపం ఉన్న పిల్లవాడు సరైన సహకారంతో సాధారణ తరగతి గదిలో నేర్చుకోవడం. · ఫోటో: <a href="https://commons.wikimedia.org/wiki/File:Inclusive_education_makes_it_possible_for_kid_with_visual_impairment_to_exercise_right_to_education.jpg" target="_blank" rel="noopener">వికీమీడియా కామన్స్</a> (రచయిత, లైసెన్స్ కోసం ఫైల్ పేజీ చూడండి)</figcaption></figure>
+<h3>4. నిత్యజీవిత ఉదాహరణ</h3>
+<p>మూర్తిమత్వం <strong>ఒక ఇల్లు</strong> లాంటిది. పునాది అనువంశికత, గోడలు అలవాట్లు, లక్షణాలు, రంగు బయట మనం ప్రవర్తించే తీరు. ఫ్రాయిడ్ ఇడ్, ఇగో, సూపర్ ఇగో ఆ ఇంట్లోని <strong>పిల్లవాడు, తల్లిదండ్రి, నానమ్మ</strong> లాంటివారు. పిల్లవాడు (ఇడ్) ఇప్పుడే స్వీట్లు కావాలంటాడు, నానమ్మ (సూపర్ ఇగో) "అది తప్పు" అంటుంది, తల్లిదండ్రి (ఇగో) సరైన మధ్యేమార్గం కనుగొంటారు. రక్షక తంత్రాలు లోపలి గందరగోళం ఇతరులకు, మనకూ కనిపించకుండా మనం లాగే <strong>తెరలు</strong>.</p>
+<h3>5. కష్టమైన భాగాలను విడదీద్దాం</h3>
+<ol>
+<li><strong>రూప vs లక్షణాంశ</strong>: రూపం మనుషులను పెట్టెల్లో పెడుతుంది (అంతర్ముఖుడు లేదా బహిర్ముఖుడు); లక్షణాంశం ప్రతి వ్యక్తిలో ఒక గుణం ఎంత ఉందో కొలుస్తుంది (సాంఘికత మాపని).</li>
+<li><strong>స్ప్రాంగర్</strong> <em>రూప</em> సిద్ధాంతకర్త (విలువలు); <strong>ఐసెంక్</strong> <em>కోణాలతో</em> పనిచేశారు. 2025 పేపర్ హిపోక్రటీస్, షెల్డన్, స్ప్రాంగర్‌ను రూప సిద్ధాంతాలుగా, ఆల్‌పోర్ట్, కాటెల్, ఐసెంక్‌ను లక్షణాంశ సిద్ధాంతాలుగా పేర్కొంది.</li>
+<li><strong>ఇడ్, ఇగో, సూపర్ ఇగో</strong>: సుఖ సూత్రం, వాస్తవిక సూత్రం, నైతికత.</li>
+<li><strong>స్వైరకల్పన vs నిరాకరణ</strong>: స్వైరకల్పన = దివాస్వప్నాల్లోకి పారిపోవడం; నిరాకరణ = వాస్తవాన్ని అంగీకరించకపోవడం. 2025 పేపర్‌లో తప్పుగా జతపరిచినది "స్వైరకల్పనం – సహించలేని వాస్తవాలను తోసేయడం".</li>
+<li><strong>సమ్మిళిత vs సమైక్య vs ప్రత్యేక</strong>: ప్రత్యేక = వేరే పాఠశాల; సమైక్య = పెద్దగా మార్పు లేకుండా సాధారణ పాఠశాలలో ఉంచడం; సమ్మిళిత = పాఠశాలే మారుతుంది.</li>
+<li><strong>మానసిక vs సాంఘిక పరిసర ఆటంకం</strong>: తక్కువ ప్రజ్ఞ = మానసిక; ఇంటి సమస్యలు = సాంఘిక పరిసర.</li>
+</ol>
+<h3>6. మినహాయింపులు, గందరగోళ అంశాలు</h3>
+<ul>
+<li><strong>ఫ్రాయిడ్ రూప లేదా లక్షణాంశ సిద్ధాంతకర్త కాదు.</strong> 2025 పేపర్‌లో "నిర్మిత సిద్ధాంతాలు: ఫ్రాయిడ్, వైగోట్స్కీ, ఎరిక్‌సన్" ఆప్షన్ తప్పు (వైగోట్స్కీ మూర్తిమత్వ సిద్ధాంతకర్త కాదు).</li>
+<li><strong>యుంగ్ అంతర్ముఖ/బహిర్ముఖ, పద సాహచర్య పరీక్ష ఇచ్చారు.</strong> రోర్షా సిరామరక పరీక్ష ఇచ్చారు.</li>
+<li><strong>TAT = ముర్రే, మోర్గాన్; CAT = బెల్లాక్.</strong></li>
+<li><strong>హేతుకీకరణ ≠ ఉదాత్తీకరణ</strong>: సాకు vs శక్తిని ఉపయోగకరంగా మళ్లించడం.</li>
+<li><strong>RPwD 2016 = 21 వైకల్యాలు</strong>; పాత PwD చట్టం 1995 లో 7.</li>
+</ul>
+<h3>7. ఇతర అంశాలతో సంబంధం</h3>
+<ul>
+<li><strong>1వ రోజు</strong>: ఎరిక్‌సన్ మనో-సామాజిక దశలు కూడా మూర్తిమత్వ సిద్ధాంతమే; కౌమారం, ఒత్తిడి.</li>
+<li><strong>2వ రోజు</strong>: ఉద్వేగ ప్రజ్ఞ; బుద్ధిమాంద్యం, ప్రతిభావంతులు.</li>
+<li><strong>విద్యా దృక్పథాలు</strong>: సమ్మిళిత విద్య, RPwD 2016, RTE.</li>
+<li><strong>బోధనా పద్ధతులు</strong>: నివారణ బోధన, వ్యక్తిగత శ్రద్ధ, బహుళ స్థాయి కృత్యాలు.</li>
+</ul>
+<h3>8. జ్ఞాపక సూత్రం</h3>
+<p><strong>హిపోక్రటీస్: "ఉల్లాసం, కోపం, విచారం, నెమ్మది"</strong> → <strong>ఆ</strong>శావాది, <strong>కో</strong>పిష్టి, <strong>వి</strong>షాదవాది, <strong>మం</strong>దకొడి ("<strong>ఆ</strong>కాశంలో <strong>కో</strong>యిల <strong>వి</strong>ని <strong>మం</strong>త్రముగ్ధులయ్యాం").</p>
+<p><strong>షెల్డన్: "ఎండో = గుండ్రని పొట్ట (ఆహారం), మీసో = కండలు, ఎక్టో = సన్నని అంచులు".</strong></p>
+<p><strong>స్ప్రాంగర్ ఆరు విలువలు: "సై-ఆ-సౌ-సాం-రా-మ"</strong> → సైద్ధాంతిక, ఆర్థిక, సౌందర్య, సాంఘిక, రాజకీయ, మత ("<strong>సై</strong>కిల్ <strong>ఆ</strong>గింది <strong>సౌ</strong>ధం <strong>సాం</strong>తం <strong>రా</strong>జు <strong>మ</strong>హలు").</p>
+<p><strong>ప్రక్షేపక పరీక్షలు: "సిరా–రోర్షా, TAT–ముర్రే, CAT–బెల్లాక్, పదాలు–యుంగ్".</strong></p>
+<p><strong>ఆటంకాలు: "శరీరం, మెదడు, భవనం, నేపథ్యం"</strong> = శారీరక, మానసిక, భౌతిక పరిసర, సాంఘిక పరిసర.</p>
+<h3>9. మీ అవగాహనను పరీక్షించుకోండి</h3>
+<p><strong>స్వీయ జ్ఞాపకం:</strong></p>
+<ol>
+<li>వీరిని రూప, లక్షణాంశ సిద్ధాంతకర్తలుగా విభజించండి: హిపోక్రటీస్, ఆల్‌పోర్ట్, షెల్డన్, కాటెల్, స్ప్రాంగర్, ఐసెంక్.</li>
+<li>నాలుగు ప్రక్షేపక పరీక్షలను రూపొందించినవారితో చెప్పండి.</li>
+<li>అభ్యసనానికి నాలుగు ఆటంకాలను ఒక్కో ఉదాహరణతో చెప్పండి.</li>
+</ol>
+<div class="quiz" id="quiz-t8"><h4>త్వరిత పరీక్ష: 5 ప్రశ్నలు</h4><p class="hint">మీ జవాబు సరిచూసుకోవడానికి ఒక ఆప్షన్‌ను నొక్కండి.</p><div class="mcq" data-a="4"><div class="stem"><span class="n">1.</span>ఇంట్లో రోజూ గొడవలు, పేదరికం వల్ల ఒక తెలివైన పిల్లవాడు తరగతిలో ఏకాగ్రత చూపలేకపోతున్నాడు. ఇక్కడ అభ్యసనానికి ఆటంకం</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>శారీరక ఆటంకం</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>మానసిక ఆటంకం</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>భౌతిక పరిసర ఆటంకం</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>సాంఘిక పరిసర ఆటంకం</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> శారీరక ఆటంకాలు అనారోగ్యం, ఇంద్రియ లోపాలు; ఈ పిల్లవాడు ఆరోగ్యంగా ఉన్నాడు.</li><li class=""><b>2.</b> మానసిక ఆటంకం అంటే తక్కువ ప్రజ్ఞ (తక్కువ IQ పిల్లవాడికి 2025 జవాబు); ఈ పిల్లవాడు తెలివైనవాడు.</li><li class=""><b>3.</b> భౌతిక పరిసర ఆటంకం అంటే గదిలో తక్కువ వెలుతురు, శబ్దం, కూర్చునే ఏర్పాటు.</li><li class="c"><b>4.</b> సరైనది. కుటుంబ కలహాలు, పేదరికం సాంఘిక పరిసర ఆటంకాలు.</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">2.</span>ఆకలితో ఉన్న పిల్లవాడు దుకాణంలో స్వీట్లు చూసి "ఇప్పుడే లాక్కోవాలి!" అనుకుంటాడు; కానీ లోపలి గొంతు "దొంగతనం తప్పు" అంటుంది. ఫ్రాయిడ్ ప్రకారం ఆ లోపలి గొంతు</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>ఇడ్</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>ఇగో</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>సూపర్ ఇగో</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>లిబిడో</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> ఇడ్ అంటే "నాకు ఇప్పుడే కావాలి" భాగం (సుఖ సూత్రం).</li><li class=""><b>2.</b> ఇగో కోరికలను వాస్తవంతో సమతుల్యం చేస్తుంది ("అమ్మను కొనమని అడుగుతా").</li><li class="c"><b>3.</b> సరైనది. సూపర్ ఇగో అంతరాత్మ: తల్లిదండ్రులు, సమాజం నుంచి నేర్చుకున్న నైతిక నియమాలు.</li><li class=""><b>4.</b> లిబిడో ఇడ్ వెనుక ఉన్న జీవశక్తి, అంతరాత్మ కాదు.</li></ul></div></div><div class="mcq" data-a="2"><div class="stem"><span class="n">3.</span>ప్రక్షేపక పరీక్షను దాన్ని రూపొందించినవారితో జతపరచండి:<table class="mt"><thead><tr><th>పరీక్ష (జాబితా-I)</th><th>రూపొందించినవారు (జాబితా-II)</th></tr></thead><tbody><tr><td>i. సిరామరక పరీక్ష</td><td>a. ముర్రే, మోర్గాన్</td></tr><tr><td>ii. విషయ అవబోధ పరీక్ష (TAT)</td><td>b. లియోపోల్డ్ బెల్లాక్</td></tr><tr><td>iii. శిశు అవబోధ పరీక్ష (CAT)</td><td>c. హెర్మన్ రోర్షా</td></tr><tr><td>iv. పద సాహచర్య పరీక్ష</td><td>d. కార్ల్ యుంగ్</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-a, ii-c, iii-b, iv-d</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-c, ii-a, iii-b, iv-d</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-c, ii-b, iii-a, iv-d</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-d, ii-a, iii-b, iv-c</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> రోర్షా, ముర్రే తారుమారు.</li><li class="c"><b>2.</b> సరైనది. సిరామరక → రోర్షా; TAT → ముర్రే, మోర్గాన్; CAT → బెల్లాక్; పద సాహచర్యం → యుంగ్.</li><li class=""><b>3.</b> TAT, CAT తారుమారు.</li><li class=""><b>4.</b> సిరామరక పరీక్ష, పద సాహచర్యం తారుమారు.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">4.</span>రవి తనకు సమానంగా ఇష్టమైన, ఒకే సమయంలో ప్రదర్శించే రెండు సినిమాల్లో ఒకటి ఎంచుకోవాలి. కర్ట్ లెవిన్ ప్రకారం ఈ సంఘర్షణ</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>ఉపగమ–ఉపగమ</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>పరిహార–పరిహార</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>ఉపగమ–పరిహార</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>సంఘర్షణ లేదు</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> సరైనది. రెండు ఆకర్షణీయ ఎంపికల్లో ఒకటే తీసుకోగలగడం: ఉపగమ–ఉపగమ (అత్యంత తేలికైన సంఘర్షణ).</li><li class=""><b>2.</b> పరిహార–పరిహార అంటే రెండు అసౌకర్య ఎంపికలు (చదవాలి లేదా శిక్ష).</li><li class=""><b>3.</b> ఉపగమ–పరిహార అంటే మంచి, చెడు రెండూ ఉన్న ఒకే ఎంపిక.</li><li class=""><b>4.</b> ఇష్టమైన రెండింటిలో ఒకటి వదులుకోవాల్సి రావడం సంఘర్షణే.</li></ul></div></div><div class="mcq" data-a="2"><div class="stem"><span class="n">5.</span>కింది వాటిలో సరైన ప్రవచనాలు ఏవి?<ol class="stm"><li>సమ్మిళిత విద్య ప్రతి పిల్లవాడికి తగ్గట్టు పాఠశాలనే మారుస్తుంది.</li><li>RPwD చట్టం, 2016 21 వైకల్యాలను గుర్తిస్తుంది.</li><li>తలనొప్పి, చిరాకు, నిద్రలేమి ఒత్తిడి లక్షణాలు కావచ్చు.</li><li>సమ్మిళిత విద్యలో వైకల్యం ఉన్న పిల్లలను వేరే ప్రత్యేక పాఠశాలలకు పంపుతారు.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, ii మాత్రమే</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i, ii, iii</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>ii, iii, iv</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, ii, iii, iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> నిజమైన iii ని వదిలేసింది.</li><li class="c"><b>2.</b> సరైనది. i, ii, iii నిజం.</li><li class=""><b>3.</b> iv ని కలిపింది: వేరే ప్రత్యేక పాఠశాలలు ప్రత్యేక విద్య, సమ్మిళితానికి వ్యతిరేకం.</li><li class=""><b>4.</b> తప్పైన iv ని కలిపింది.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>పునశ్చరణ నోట్ (5 వాక్యాలు)</b><br>
+1. రూప: హిపోక్రటీస్, క్రెష్మర్, షెల్డన్, యుంగ్, స్ప్రాంగర్. లక్షణాంశ: ఆల్‌పోర్ట్, కాటెల్ (16 PF), ఐసెంక్, బిగ్ ఫైవ్.<br>
+2. ఫ్రాయిడ్: ఇడ్ (సుఖం), ఇగో (వాస్తవం), సూపర్ ఇగో (అంతరాత్మ); రక్షక తంత్రాలు, నిరాకరణ vs స్వైరకల్పన.<br>
+3. మాపనం: వ్యక్తినిష్ఠ, వస్తునిష్ఠ, ప్రక్షేపక (రోర్షా, TAT–ముర్రే & మోర్గాన్, CAT–బెల్లాక్, పద సాహచర్యం–యుంగ్).<br>
+4. మానసిక ఆరోగ్యం: సర్దుబాటు; లెవిన్ మూడు సంఘర్షణలు; ఒత్తిడి లక్షణాలు, నిర్వహణ; ఉద్వేగ నిర్వహణ.<br>
+5. CWSN: సమ్మిళిత విద్య (పాఠశాలే మారుతుంది; RPwD 21 వైకల్యాలు); డిస్లెక్సియా/డిస్‌గ్రాఫియా/డిస్‌కాల్క్యులియా/డిస్‌ప్రాక్సియా; నాలుగు ఆటంకాలు.</div>
+
+<h2 id="s3">నోట్‌బుక్ పేజీ: 4వ రోజు</h2>
+<p>ఈ పేజీని మూసి, కింది వాటిని <strong>జ్ఞాపకం నుంచి</strong> ఈ క్రమంలో మీ నోట్‌బుక్‌లో రాయండి. తర్వాత సరిచూసి, వదిలినవాటిని వేరే రంగులో పూరించండి.</p>
+<ol>
+<li>జ్ఞాపక దశలు (సం-ని-పు), మూడు నిల్వల పట్టిక.</li>
+<li>బట్టీ vs తార్కిక స్మృతి; ప్రత్యాహ్వానం vs గుర్తింపు.</li>
+<li>ఎబ్బింగ్‌హాస్, విస్మృతి వక్రం, విస్మృతి కారణాలు, బాగా గుర్తుంచుకోవడానికి ఐదు మార్గాలు.</li>
+<li>అంతర్గత vs బాహ్య ప్రేరణ; ప్రేరణ చక్రం; సాధనా ప్రేరణ (మెక్‌క్లెల్లాండ్), దాన్ని పెంచే విధానం.</li>
+<li>మాస్లో పిరమిడ్ (శా-భ-ప్రే-గౌ-ఆ), లోప vs వృద్ధి అవసరాలతో.</li>
+<li>మూర్తిమత్వ సిద్ధాంత పట్టిక: రూప vs లక్షణాంశ, పేర్లతో.</li>
+<li>ఫ్రాయిడ్: ఇడ్, ఇగో, సూపర్ ఇగో, స్వీట్ల ఉదాహరణతో.</li>
+<li>పది రక్షక తంత్రాలు, ఒక్కోదానికి ఉదాహరణ; నిరాకరణ, స్వైరకల్పనకు వృత్తం గీయండి.</li>
+<li>ప్రక్షేపక పరీక్షలు, రూపకర్తలు; లెవిన్ మూడు సంఘర్షణలు; ఒత్తిడి లక్షణాలు, నిర్వహణ.</li>
+<li>CWSN: సమ్మిళిత vs సమైక్య vs ప్రత్యేక; నాలుగు అభ్యసన వైకల్యాలు; నాలుగు ఆటంకాలు; ఉపాధ్యాయుడి పాత్ర.</li>
+</ol>
+<h2 id="s4">ఆధారాలు</h2>
+<ul>
+<li>పాఠశాల విద్యా సంచాలకత్వం, ఆంధ్రప్రదేశ్: <a href="https://apdsc2024.apcfss.in/Documents/MEGA_DSC_2024_Suggestive_Syllabus-27-11-2024.pdf">మెగా DSC 2024 సూచనాత్మక సిలబస్</a> (SGT భాగం III యూనిట్ జాబితా; 9 నవంబర్ 2026న సరిచూసినది).</li>
+<li>AP DSC SGT ప్రశ్నాపత్రం, 19 జూన్ 2025, షిఫ్ట్ 1 (విభాగం III), మీరు అందించినది.</li>
+<li>ఫోటోలు: వికీమీడియా కామన్స్ (ప్రతి ఫైల్ పేజీలో క్రెడిట్, లైసెన్స్).</li>
+</ul>
+<footer>సులభం · AP DSC-2026 (APTRT) SGT · విద్యా మనోవిజ్ఞాన శాస్త్రం. అధికారిక SCERT SGT సిలబస్ (యూనిట్ 3: అభ్యసనం; యూనిట్ 4: మూర్తిమత్వం) ఆధారంగా.</footer>
+</main>
+<script>
+(function(){
+var T={"right": "సరైనది!", "wrong": "కాదు. సరైన జవాబు:", "score": "మీ స్కోరు"};
+document.querySelectorAll('.quiz').forEach(function(qz){
+  var mcqs=qz.querySelectorAll('.mcq'), done=0, ok=0;
+  mcqs.forEach(function(m){
+    var a=m.getAttribute('data-a');
+    m.querySelectorAll('button.opt').forEach(function(b){
+      b.addEventListener('click',function(){
+        if(m.classList.contains('done'))return;
+        m.classList.add('done');
+        var right=b.getAttribute('data-o')===a;
+        b.classList.add(right?'ok':'bad');
+        m.querySelector('button.opt[data-o="'+a+'"]').classList.add('ok');
+        m.querySelectorAll('button.opt').forEach(function(x){x.setAttribute('aria-disabled','true');});
+        m.querySelector('.verdict').textContent=right?T.right:(T.wrong+' '+a);
+        done++; if(right)ok++;
+        if(done===mcqs.length){qz.querySelector('.qscore').textContent=T.score+': '+ok+' / '+mcqs.length;}
+      });
+    });
+  });
+});
+})();
+</script>
+</body></html>

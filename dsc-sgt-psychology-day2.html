@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Educational Psychology, Day 2: Individual Differences</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf8f3;--paper:#fff;--ink:#2b2118;--muted:#6f6254;--rule:#e6ddd0;--accent:#8a4b1f;--tint:#f4e9dc;--th:#f1e6d8}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1713;--paper:#231e19;--ink:#efe6da;--muted:#b3a593;--rule:#3a322a;--accent:#e0a36f;--tint:#3a2b1e;--th:#2e2620}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Noto Sans","Noto Sans Telugu",system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+header.top{border-bottom:3px solid var(--accent);margin-bottom:8px}
+h1{font-size:1.75rem;line-height:1.25;margin:8px 0 4px;color:var(--accent)}
+h1+p em{color:var(--muted);font-style:normal;font-size:.9rem}
+h2{font-size:1.35rem;margin:40px 0 10px;padding:8px 12px;background:var(--tint);border-left:5px solid var(--accent);border-radius:4px}
+h3{font-size:1.1rem;margin:26px 0 8px;color:var(--accent)}
+p{margin:8px 0}
+ul,ol{padding-left:24px;margin:8px 0}
+li{margin:4px 0}
+strong{color:var(--ink)}
+.tbl{overflow-x:auto;margin:12px 0;border:1px solid var(--rule);border-radius:8px;background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:.94rem}
+th,td{padding:8px 10px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+th{background:var(--th);font-weight:600}
+tr:last-child td{border-bottom:0}
+.formula{margin:12px 0;padding:12px 16px;background:var(--paper);border:1px dashed var(--accent);border-radius:8px;font-weight:600;text-align:center}
+nav.toc{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:12px 16px;margin:16px 0}
+nav.toc b{display:block;margin-bottom:6px}
+nav.toc a{color:var(--accent);text-decoration:none}
+nav.toc ol{margin:0}
+figure.diagram{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:8px;color:var(--muted)}
+figure.diagram{overflow-x:auto;-webkit-overflow-scrolling:touch}
+figure.diagram svg{width:100%;min-width:600px;height:auto;display:block}
+figcaption{font-size:.85rem;color:var(--muted);text-align:center;padding:4px}
+svg .t{font-size:15px;font-weight:600;fill:var(--ink)}
+svg .n{font-size:12.5px;font-weight:600;fill:var(--ink)}
+svg .b{font-size:11.5px;fill:var(--ink)}
+svg .q{font-size:11.5px;fill:var(--muted)}
+svg .box{fill:none;stroke:var(--muted);stroke-width:1.25}
+svg .box.hi{fill:var(--tint);stroke:var(--accent);stroke-width:2}
+svg .ln{stroke:var(--muted);stroke-width:1.25;fill:none}
+details.ans{margin:16px 0;background:var(--paper);border:1px solid var(--accent);border-radius:8px;padding:10px 14px}
+details.ans summary{cursor:pointer;font-weight:600;color:var(--accent)}
+.key{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px;margin-top:10px}
+.key span{background:var(--tint);border-radius:6px;padding:4px;text-align:center;font-weight:600}
+.lang-switch{display:inline-block;margin:4px 0 12px;padding:6px 14px;border:1px solid var(--accent);border-radius:999px;color:var(--accent);text-decoration:none;font-weight:600;font-size:.9rem}
+.lang-switch:hover{background:var(--tint)}
+footer{margin-top:48px;font-size:.85rem;color:var(--muted);border-top:1px solid var(--rule);padding-top:12px}
+@media print{body{background:#fff;font-size:11pt}main{max-width:none;padding:0}h2{break-after:avoid}nav.toc{display:none}details.ans{display:block}details.ans>*{display:block}@page{size:A4;margin:14mm}}
+
+figure.photo{margin:16px 0;background:var(--paper);border:1px solid var(--rule);border-radius:10px;overflow:hidden}
+figure.photo img{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;background:var(--tint)}
+figure.photo figcaption{padding:8px 12px;font-size:.86rem;color:var(--muted);text-align:left}
+figure.photo figcaption a{color:var(--accent)}
+ol.tl{list-style:none;padding:0 0 0 22px;margin:14px 0;border-left:3px solid var(--accent)}
+ol.tl li{position:relative;margin:0 0 12px;padding-left:10px}
+ol.tl li::before{content:"";position:absolute;left:-31px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--paper);border:3px solid var(--accent)}
+ol.tl .yr{font-weight:700;color:var(--accent);margin-right:6px}
+h3{border-bottom:1px dashed var(--rule);padding-bottom:4px}
+.box{background:var(--paper);border:1px solid var(--rule);border-left:5px solid var(--accent);border-radius:8px;padding:10px 14px;margin:12px 0}
+.quiz{background:var(--paper);border:2px solid var(--accent);border-radius:12px;padding:12px 14px;margin:18px 0}
+.quiz h4{margin:0 0 4px;color:var(--accent);font-size:1.05rem}
+.quiz .hint{margin:0 0 8px;color:var(--muted);font-size:.88rem}
+.mcq{border-top:1px solid var(--rule);padding:12px 0}
+.mcq .stem{margin-bottom:8px}
+.mcq .n{color:var(--accent);font-weight:700;margin-right:6px}
+.mcq ol.stm{list-style:lower-roman;margin:6px 0;padding-left:30px}
+.mcq table.mt{border-collapse:collapse;margin:8px 0;width:100%;font-size:.93rem}
+.mcq table.mt th,.mcq table.mt td{border:1px solid var(--rule);padding:6px 8px;text-align:left}
+.mcq table.mt th{background:var(--th)}
+.opts{display:grid;gap:6px}
+button.opt{all:unset;box-sizing:border-box;display:flex;gap:10px;width:100%;padding:9px 12px;border:1px solid var(--rule);border-radius:8px;cursor:pointer;color:var(--ink);background:var(--bg)}
+button.opt:hover,button.opt:focus-visible{background:var(--tint);outline:2px solid var(--accent);outline-offset:1px}
+button.opt .k{font-weight:700;min-width:20px}
+.mcq.done button.opt{cursor:default}
+button.opt.ok{border-color:#2e7d32;background:rgba(46,125,50,.14)}
+button.opt.bad{border-color:#c62828;background:rgba(198,40,40,.12)}
+.why{display:none;margin-top:8px;padding:8px 12px;background:var(--tint);border-radius:6px;font-size:.92rem}
+.mcq.done .why{display:block}
+.why .verdict{font-weight:700;margin:0 0 4px}
+.why ul{margin:4px 0;padding-left:18px}
+.why li.c{font-weight:600}
+.qscore{font-weight:700;color:var(--accent);margin-top:6px}
+@media print{.why{display:block}button.opt{border:1px solid #999}}
+</style><noscript><style>.why{display:block}</style></noscript></head>
+<body><main>
+<header class="top"><h1>Educational Psychology, Day 2: Individual Differences</h1><a class="lang-switch" href="dsc-sgt-psychology-day2-te.html" hreflang="te">తెలుగులో చదవండి</a></header>
+<p><em>AP DSC-2026 (APTRT) · SGT · Part III: Educational Psychology · Unit 2 of 4</em></p>
+<p>Day 2 covers the second syllabus unit, Individual Differences, in two topics (Topics 3 and 4). Same routine: read the nine steps, recall, quick check, and the Notebook page at the end.</p>
+<div class="box"><b>Exam link:</b> the 19 June 2025 paper asked about "trainable" intellectual disability, Thorndike's CAVD test, Goleman's components of emotional intelligence, an elocution-contest situation (linguistic intelligence) and Mehran's definition of attitude. All are covered here.</div>
+
+<nav class="toc"><b>Contents</b><ol><li><a href="#s1">Topic 3: Individual Differences and Intelligence</a></li><li><a href="#s2">Topic 4: Emotional Intelligence, Creativity, Aptitude, Attitude, Interest and Habit</a></li><li><a href="#s3">Notebook page: Day 2</a></li><li><a href="#s4">Sources</a></li></ol></nav><h2 id="s1">Topic 3: Individual Differences and Intelligence</h2>
+<h3>1. Basic idea</h3>
+<p>No two children are the same, not even twins. <strong>Individual differences</strong> (వైయక్తిక భేదాలు) are the differences between people, and within one person, in abilities, interests and behaviour. <strong>Intelligence</strong> (ప్రజ్ఞ) is the ability to learn, solve new problems and adjust to new situations. Psychologists have built theories of what intelligence is, and tests (IQ) to measure it.</p>
+<h3>2. Why it exists</h3>
+<p>A class of 30 children has 30 different learners. If the teacher teaches everyone the same way at the same speed, the slow learners fall behind and the gifted get bored. Knowing about individual differences and intelligence helps the teacher plan grouping, remedial teaching and enrichment.</p>
+<h3>3. How it works</h3>
+<p><strong>Two kinds of individual differences</strong></p>
+<ul>
+<li><strong>Inter-individual</strong>: between two people (Ravi is better at Maths than Sita).</li>
+<li><strong>Intra-individual</strong>: within one person (Ravi is good at Maths but weak in drawing).</li>
+<li><strong>Areas</strong>: intelligence, aptitude, interest, attitude, personality, physical features, achievement.</li>
+<li><strong>Causes</strong>: heredity, environment, age, sex, family background, socio-economic status.</li>
+</ul>
+<p><strong>Theories of intelligence</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Theory</th>
+<th>Given by</th>
+<th>Simple meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Uni-factor (monarchic)</td>
+<td>Binet, Terman</td>
+<td>Intelligence is one single ability</td>
+</tr>
+<tr>
+<td>Two-factor</td>
+<td>Charles <strong>Spearman</strong></td>
+<td><strong>g</strong> = general ability used in all tasks; <strong>s</strong> = specific ability for one task</td>
+</tr>
+<tr>
+<td>Multi-factor</td>
+<td>E.L. <strong>Thorndike</strong></td>
+<td>Many separate abilities: abstract, social, mechanical</td>
+</tr>
+<tr>
+<td>Primary Mental Abilities (group factor)</td>
+<td>L.L. <strong>Thurstone</strong></td>
+<td><strong>7</strong>: verbal comprehension, word fluency, number, space, memory, perception, reasoning</td>
+</tr>
+<tr>
+<td>Structure of Intellect (3-D model)</td>
+<td>J.P. <strong>Guilford</strong></td>
+<td>Operations × Contents × Products = <strong>180</strong> abilities; gave convergent and divergent thinking</td>
+</tr>
+<tr>
+<td><strong>Multiple Intelligences</strong> (syllabus emphasis)</td>
+<td>Howard <strong>Gardner</strong> (1983)</td>
+<td><strong>8</strong>: linguistic, logical-mathematical, spatial, musical, bodily-kinesthetic, interpersonal, intrapersonal, naturalistic</td>
+</tr>
+<tr>
+<td>Triarchic</td>
+<td>Robert <strong>Sternberg</strong></td>
+<td>Analytical, creative, practical</td>
+</tr>
+<tr>
+<td>Fluid and crystallised</td>
+<td>R.B. <strong>Cattell</strong></td>
+<td>Fluid = reasoning with new problems; crystallised = knowledge from experience</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Gardner in class:</strong> a child who speaks fluently at an elocution contest → <strong>linguistic</strong> (the 2025 answer); a cricketer → bodily-kinesthetic; a class leader who settles quarrels → interpersonal; a child who knows their own strengths → intrapersonal; a child who knows birds and plants → naturalistic.</p>
+<p><strong>Measuring intelligence (IQ)</strong></p>
+<ul>
+<li>The first intelligence test was made by <strong>Alfred Binet and Theodore Simon (1905)</strong>, France, who introduced <strong>Mental Age (MA)</strong>.</li>
+<li><strong>William Stern</strong> (1912) gave the term <strong>IQ</strong>; <strong>Terman</strong> revised the test as the <strong>Stanford-Binet</strong> scale (1916).</li>
+<li><strong>IQ = (Mental Age ÷ Chronological Age) × 100.</strong> Example: MA 12, CA 10 → IQ 120. Always change years and months into months first.</li>
+</ul>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>IQ (Terman)</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>140 and above</td>
+<td>Genius / near genius</td>
+</tr>
+<tr>
+<td>120–139</td>
+<td>Very superior</td>
+</tr>
+<tr>
+<td>110–119</td>
+<td>Superior</td>
+</tr>
+<tr>
+<td>90–109</td>
+<td>Average</td>
+</tr>
+<tr>
+<td>80–89</td>
+<td>Dull</td>
+</tr>
+<tr>
+<td>70–79</td>
+<td>Borderline</td>
+</tr>
+<tr>
+<td>Below 70</td>
+<td>Intellectual disability</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Types of tests:</strong> verbal vs <strong>non-verbal (performance)</strong>; individual vs group. Examples: <strong>Wechsler</strong> scales; <strong>Bhatia's Battery of Performance Tests</strong> (Indian); <strong>Thorndike's CAVD</strong> (Completion, Arithmetic, Vocabulary, Directions), which measures intelligence. Non-verbal tests suit children who cannot read or who speak a different language.</p>
+<p><strong>Levels of intellectual disability</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Level</th>
+<th>IQ (about)</th>
+<th>Old educational label</th>
+<th>What they can learn</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mild</td>
+<td>50–70</td>
+<td><strong>Educable</strong></td>
+<td>Basic reading, writing, arithmetic up to about Class 5–6; can live independently</td>
+</tr>
+<tr>
+<td>Moderate</td>
+<td>35–50</td>
+<td><strong>Trainable</strong></td>
+<td>Self-care, simple work skills, with support</td>
+</tr>
+<tr>
+<td>Severe</td>
+<td>20–35</td>
+<td>Custodial</td>
+<td>Basic self-care with close supervision</td>
+</tr>
+<tr>
+<td>Profound</td>
+<td>Below 20</td>
+<td>Custodial</td>
+<td>Needs lifelong care</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Gifted children</strong> (IQ above about 130): need enrichment, extra challenge and acceleration. <strong>Slow learners</strong> (IQ about 70–89): need repetition, concrete examples and patience.</p>
+<h3>4. Everyday analogy</h3>
+<p>A class is like a <strong>vegetable market</strong>. Every vegetable is different (inter-individual), and even one vegetable has good and weak points (intra-individual: a mango is sweet but goes bad fast). A good cook does not cook them all the same way. A good teacher, likewise, plans different routes for different learners: slower steps for some, harder puzzles for others.</p>
+<h3>5. Breaking the difficult parts</h3>
+<ol>
+<li><strong>Spearman's g and s</strong>: g is like a car's engine that works for every trip; s is like a special tyre for one kind of road.</li>
+<li><strong>Thurstone vs Guilford</strong>: Thurstone = <strong>7</strong> primary mental abilities; Guilford = <strong>180</strong> abilities in a 3-D cube. Small number → Thurstone; big number → Guilford.</li>
+<li><strong>Gardner's 8</strong>: think "<strong>L-L-S-M-B-I-I-N</strong>": Linguistic, Logical, Spatial, Musical, Bodily, Interpersonal, Intrapersonal, Naturalistic.</li>
+<li><strong>IQ with months</strong>: CA 8 years 4 months = 100 months; MA 10 years = 120 months → IQ 120.</li>
+<li><strong>Educable vs trainable</strong>: educable (mild) learn school subjects slowly; trainable (moderate) learn self-care and skills.</li>
+<li><strong>Classroom implementation</strong>: ability grouping, remedial teaching for slow learners, enrichment for the gifted, individual attention, varied methods and materials, and pacing for different speeds.</li>
+</ol>
+<h3>6. Exceptions and confusing areas</h3>
+<ul>
+<li><strong>Thorndike</strong> appears twice: the <strong>multi-factor</strong> theory and the <strong>CAVD</strong> test (and also the laws of learning on Day 3).</li>
+<li><strong>Binet made the first test, but Stern gave the word IQ.</strong></li>
+<li><strong>IQ 90–109 is average</strong>; 110–119 superior; 120–139 very superior.</li>
+<li><strong>Inter vs intra</strong>: "inter" = between people; "intra" = inside one person.</li>
+<li><strong>Trainable = moderate</strong>, not mild (mild = educable).</li>
+</ul>
+<h3>7. Connections to other topics</h3>
+<ul>
+<li><strong>Day 1</strong>: heredity × environment explains individual differences.</li>
+<li><strong>Day 4 (Special needs)</strong>: intellectual disability, gifted children and inclusive education.</li>
+<li><strong>Methodology</strong>: differentiated instruction, remedial teaching, multi-level activities.</li>
+<li><strong>Perspectives</strong>: equity in education means extra help based on individual needs.</li>
+</ul>
+<h3>8. Memory technique</h3>
+<p><strong>Number chain for theories: "2-7-8-180-3".</strong> Spearman <strong>2</strong> factors; Thurstone <strong>7</strong>; Gardner <strong>8</strong>; Guilford <strong>180</strong>; Sternberg <strong>3</strong> (triarchic).</p>
+<p><strong>IQ ladder from the top: "140 Genius, 120 Very, 110 Superior, 90 Average, 80 Dull, 70 Border".</strong></p>
+<p><strong>Disability levels: "Mild–Educable, Moderate–Trainable" (M-E, M-T)</strong>: say "<strong>ME</strong> first, then <strong>MT</strong>".</p>
+<h3>9. Test your understanding</h3>
+<p><strong>Self-recall:</strong></p>
+<ol>
+<li>Give one example each of inter-individual and intra-individual differences.</li>
+<li>Name the 8 multiple intelligences.</li>
+<li>Work out the IQ: CA 9 years, MA 7 years 6 months.</li>
+</ol>
+<div class="quiz" id="quiz-t3"><h4>Quick check: 5 questions</h4><p class="hint">Tap an option to check your answer.</p><div class="mcq" data-a="2"><div class="stem"><span class="n">1.</span>Match the psychologist with the theory of intelligence:<table class="mt"><thead><tr><th>Psychologist (List-I)</th><th>Theory (List-II)</th></tr></thead><tbody><tr><td>i. Thurstone</td><td>a. Structure of Intellect (180 abilities)</td></tr><tr><td>ii. Guilford</td><td>b. Triarchic theory</td></tr><tr><td>iii. Sternberg</td><td>c. Primary Mental Abilities (7)</td></tr><tr><td>iv. Cattell</td><td>d. Fluid and crystallised intelligence</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-a, ii-c, iii-b, iv-d</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-c, ii-a, iii-b, iv-d</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-c, ii-b, iii-a, iv-d</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-d, ii-a, iii-b, iv-c</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Swaps Thurstone and Guilford: the most common trap.</li><li class="c"><b>2.</b> Correct. Thurstone → 7 PMAs; Guilford → 180-ability structure; Sternberg → triarchic; Cattell → fluid and crystallised.</li><li class=""><b>3.</b> Swaps Guilford and Sternberg.</li><li class=""><b>4.</b> Swaps Thurstone and Cattell.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">2.</span>The four parts of E.L. Thorndike's CAVD intelligence test are</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Completion, Arithmetic, Vocabulary, Directions</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Concept, Analysis, Verbal, Design</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Cognition, Aptitude, Values, Discipline</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Completion, Attitude, Verbal, Drawing</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> Correct. CAVD = sentence Completion, Arithmetic, Vocabulary, following Directions. It measures intelligence (mental abilities); the 2025 paper asked what it measures.</li><li class=""><b>2.</b> Made-up expansion.</li><li class=""><b>3.</b> Aptitude and values are not intelligence-test parts.</li><li class=""><b>4.</b> Attitude is not part of an intelligence test.</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">3.</span>Which of the following statements about levels of intellectual disability are correct?<ol class="stm"><li>Mild (IQ about 50-70) children are called "educable".</li><li>Moderate (IQ about 35-50) children are called "trainable".</li><li>Severe and profound levels need lifelong care and supervision.</li><li>"Trainable" children can complete the full regular academic curriculum.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i and ii only</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>ii, iii and iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i, ii and iii</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, ii, iii and iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Leaves out iii, which is true.</li><li class=""><b>2.</b> Includes iv, which is false.</li><li class="c"><b>3.</b> Correct. Trainable (moderate) children learn self-care and simple skills, not the full curriculum. The 2025 paper asked "trainable = moderate".</li><li class=""><b>4.</b> Includes the false statement iv.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">4.</span>Ravi is the best in his class in Mathematics but among the weakest in drawing. This is an example of</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Inter-individual difference</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Group difference</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>A difference due to heredity only</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Intra-individual difference</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Inter-individual compares two different people (Ravi vs Sita).</li><li class=""><b>2.</b> Group differences compare groups (boys vs girls, rural vs urban).</li><li class=""><b>3.</b> Nothing in the situation shows the cause; abilities depend on heredity and environment.</li><li class="c"><b>4.</b> Correct. Differences WITHIN one person across abilities are intra-individual.</li></ul></div></div><div class="mcq" data-a="3"><div class="stem"><span class="n">5.</span>To test the intelligence of a large group of children who cannot yet read, the most suitable test is a</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Individual verbal test</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Group verbal test</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Group non-verbal (performance) test</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Achievement test</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Individual tests take too long for a large group, and verbal tests need reading.</li><li class=""><b>2.</b> Verbal tests need reading and language, which these children lack.</li><li class="c"><b>3.</b> Correct. Non-verbal tests use pictures, blocks and puzzles, and a group test saves time.</li><li class=""><b>4.</b> An achievement test measures what was learnt, not intelligence.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>Revision note (5 lines)</b><br>
+1. Inter = between people; intra = within one person; causes: heredity, environment, age, sex, SES.<br>
+2. Spearman g/s; Thorndike multi-factor + CAVD; Thurstone 7 PMAs; Guilford 180; Gardner 8; Sternberg triarchic; Cattell fluid/crystallised.<br>
+3. Binet–Simon 1905 (MA); Stern 1912 (IQ); Stanford–Binet 1916; IQ = MA/CA × 100 (in months).<br>
+4. Terman: 90–109 average … 140+ genius; below 70 intellectual disability.<br>
+5. Mild = educable; moderate = trainable; severe/profound = custodial; gifted → enrichment.</div>
+
+<h2 id="s2">Topic 4: Emotional Intelligence, Creativity, Aptitude, Attitude, Interest and Habit</h2>
+<h3>1. Basic idea</h3>
+<p>Intelligence is not the only thing that decides success. <strong>Emotional intelligence (EQ)</strong> is the ability to understand and manage your own feelings and other people's. <strong>Creativity</strong> is producing something new and useful. <strong>Aptitude</strong> is a natural potential to learn a skill; <strong>attitude</strong> is a learned readiness to respond for or against something; <strong>interest</strong> is a liking that pulls your attention; <strong>habit</strong> is an action repeated until it becomes automatic.</p>
+<h3>2. Why it exists</h3>
+<p>Two children with the same IQ can do very differently: one gives up, the other keeps trying; one has a liking for science, the other fears it. The syllabus asks how these factors influence intelligence and achievement, because a teacher can change attitudes, build interest and form good habits, while IQ changes little.</p>
+<h3>3. How it works</h3>
+<p><strong>Emotional intelligence</strong></p>
+<ul>
+<li>The term was given by <strong>Salovey and Mayer (1990)</strong> and made popular by <strong>Daniel Goleman (1995)</strong>.</li>
+<li><strong>Goleman's five components</strong>: <strong>self-awareness</strong>, <strong>self-regulation</strong>, <strong>motivation</strong>, <strong>empathy</strong>, <strong>social skills</strong>.</li>
+</ul>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Example in class</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Self-awareness</td>
+<td>"I am getting angry."</td>
+</tr>
+<tr>
+<td>Self-regulation</td>
+<td>Counting to ten before replying</td>
+</tr>
+<tr>
+<td>Motivation</td>
+<td>Working for a goal without rewards</td>
+</tr>
+<tr>
+<td><strong>Empathy</strong></td>
+<td>Understanding how a crying friend feels</td>
+</tr>
+<tr>
+<td>Social skills</td>
+<td>Working well in a group, settling disputes</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Creativity</strong> (సృజనాత్మకత)</p>
+<ul>
+<li>Depends on <strong>divergent thinking</strong> (many answers); convergent thinking aims at one correct answer. Both terms come from <strong>Guilford</strong>.</li>
+<li><strong>Features</strong>: <strong>fluency</strong> (many ideas), <strong>flexibility</strong> (different kinds of ideas), <strong>originality</strong> (unusual ideas), <strong>elaboration</strong> (adding detail).</li>
+<li><strong>Stages (Graham Wallas)</strong>: preparation → incubation → illumination → verification.</li>
+<li><strong>Tests</strong>: Torrance Tests of Creative Thinking; in India, <strong>Baqer Mehdi's</strong> test.</li>
+<li><strong>To encourage it</strong>: open-ended questions, accepting unusual answers, no fear of mistakes, freedom, brainstorming, art and project work.</li>
+</ul>
+<p><strong>Aptitude, attitude, interest, habit</strong></p>
+<div class="tbl"><table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Meaning</th>
+<th>Measured by / example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Aptitude</strong> (సహజ సామర్థ్యం)</td>
+<td>Potential to acquire a skill with training; it predicts future success</td>
+<td><strong>DAT</strong> (Differential Aptitude Test)</td>
+</tr>
+<tr>
+<td><strong>Attitude</strong> (వైఖరి)</td>
+<td>Learned readiness to respond favourably or unfavourably. Mehran: "readiness to respond externally to social situations" (asked in 2025)</td>
+<td><strong>Likert</strong> and <strong>Thurstone</strong> scales</td>
+</tr>
+<tr>
+<td><strong>Interest</strong> (అభిరుచి)</td>
+<td>A liking that draws attention to an activity</td>
+<td>Strong Interest Inventory; Kuder Preference Record</td>
+</tr>
+<tr>
+<td><strong>Habit</strong> (అలవాటు)</td>
+<td>An action repeated until it becomes automatic</td>
+<td>Formed by repetition and reward</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>How they influence intelligence and achievement:</strong> a positive attitude and strong interest raise attention and effort, so the child uses more of their intelligence. A matching aptitude makes learning in that area faster. Good habits (regular study, neat work) save time and effort, while bad habits waste ability.</p>
+<h3>4. Everyday analogy</h3>
+<p>Intelligence is like a <strong>bike's engine</strong>. Aptitude is how well that engine suits a certain road (hills or highway). Attitude is whether the rider <em>wants</em> to ride. Interest is the destination that pulls the rider forward. Habit is riding without thinking about each gear change. EQ is staying calm in traffic, and creativity is finding a new shortcut. A powerful engine with an unwilling rider still goes nowhere.</p>
+<h3>5. Breaking the difficult parts</h3>
+<ol>
+<li><strong>Aptitude vs attitude</strong>: they look similar. A<strong>p</strong>titude = <strong>p</strong>otential (ability); a<strong>tt</strong>itude = feeling <strong>t</strong>owards something.</li>
+<li><strong>Empathy vs sympathy</strong>: empathy = feeling <em>with</em> someone (understanding from their side); sympathy = feeling sorry <em>for</em> them. Goleman's component is <strong>empathy</strong>.</li>
+<li><strong>Fluency vs originality</strong>: 15 ideas = fluency; ideas no one else gave = originality.</li>
+<li><strong>Wallas order</strong>: prepare → let it rest (incubation) → sudden idea (illumination) → check it (verification).</li>
+<li><strong>Habit formation</strong>: repetition + satisfaction (Thorndike's laws of exercise and effect) + starting early.</li>
+</ol>
+<h3>6. Exceptions and confusing areas</h3>
+<ul>
+<li><strong>EQ term: Salovey and Mayer</strong>; Goleman popularised it.</li>
+<li><strong>Goleman's five do NOT include sympathy or intelligence</strong>; they include <strong>empathy</strong>.</li>
+<li><strong>Creativity ≠ high IQ.</strong> Creativity needs a minimum level of intelligence, but a high IQ does not guarantee creativity.</li>
+<li><strong>Attitude scales are Likert and Thurstone.</strong> DAT measures aptitude.</li>
+<li><strong>Interest is not a fixed ability</strong>; it can be built by the teacher.</li>
+</ul>
+<h3>7. Connections to other topics</h3>
+<ul>
+<li><strong>Day 4 (Personality)</strong>: emotional intelligence and managing emotions also appear in the personality unit.</li>
+<li><strong>Day 3 (Learning)</strong>: habit formation uses Thorndike's laws; interest links to motivation.</li>
+<li><strong>Methodology</strong>: brainstorming, project work and open-ended questions build creativity.</li>
+<li><strong>Perspectives</strong>: life skills (empathy, creative thinking, coping with emotions).</li>
+</ul>
+<h3>8. Memory technique</h3>
+<p><strong>Goleman: "S-S-M-E-S"</strong> = <strong>S</strong>elf-awareness, <strong>S</strong>elf-regulation, <strong>M</strong>otivation, <strong>E</strong>mpathy, <strong>S</strong>ocial skills → "<strong>S</strong>ita <strong>S</strong>ings <strong>M</strong>usic <strong>E</strong>very <strong>S</strong>unday".</p>
+<p><strong>Creativity features: "F-F-O-E"</strong> → "<strong>F</strong>ive <strong>F</strong>resh <strong>O</strong>riginal <strong>E</strong>xamples".</p>
+<p><strong>Wallas: "P-I-I-V"</strong> → "<strong>P</strong>lease <strong>I</strong>ncubate <strong>I</strong>deas <strong>V</strong>ery well".</p>
+<p><strong>The four terms: "A-P-T = Potential; A-T-T = Tendency; I = Interest pulls; H = Habit runs on its own".</strong></p>
+<h3>9. Test your understanding</h3>
+<p><strong>Self-recall:</strong></p>
+<ol>
+<li>Name Goleman's five components with a classroom example of each.</li>
+<li>What are the four features of creativity? Which one is "unusual ideas"?</li>
+<li>Give the difference between aptitude and attitude, with one example each.</li>
+</ol>
+<div class="quiz" id="quiz-t4"><h4>Quick check: 5 questions</h4><p class="hint">Tap an option to check your answer.</p><div class="mcq" data-a="2"><div class="stem"><span class="n">1.</span>Which of the following is an example of <b>self-regulation</b> in Goleman's model of emotional intelligence?</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>A student notices that she is getting angry.</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>A student who is angry with a classmate counts to ten and then speaks calmly.</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>A student understands how a crying friend feels.</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>A student keeps working towards a goal without any reward.</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Noticing your own emotion is self-awareness.</li><li class="c"><b>2.</b> Correct. Controlling and managing an emotion is self-regulation.</li><li class=""><b>3.</b> Understanding others' feelings is empathy (not 'sympathy'; the 2025 paper used sympathy as the wrong option).</li><li class=""><b>4.</b> Working without outside reward is (self-)motivation.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">2.</span>Match the term with its meaning:<table class="mt"><thead><tr><th>Term (List-I)</th><th>Meaning (List-II)</th></tr></thead><tbody><tr><td>i. Aptitude</td><td>a. Learned readiness to respond favourably or unfavourably to people, objects or situations</td></tr><tr><td>ii. Attitude</td><td>b. An action repeated until it becomes automatic</td></tr><tr><td>iii. Interest</td><td>c. Potential to acquire a skill with training</td></tr><tr><td>iv. Habit</td><td>d. A liking that draws attention towards an activity</td></tr></tbody></table></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i-a, ii-c, iii-d, iv-b</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i-c, ii-d, iii-a, iv-b</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>i-c, ii-a, iii-b, iv-d</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i-c, ii-a, iii-d, iv-b</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> Swaps aptitude and attitude, the classic look-alike trap.</li><li class=""><b>2.</b> Swaps attitude and interest.</li><li class=""><b>3.</b> Swaps interest and habit.</li><li class="c"><b>4.</b> Correct. Aptitude = potential; attitude = readiness to respond (Mehran's definition was asked in 2025); interest = liking; habit = automatic repeated action.</li></ul></div></div><div class="mcq" data-a="1"><div class="stem"><span class="n">3.</span>Which of the following statements are correct?<ol class="stm"><li>Divergent thinking produces many possible answers to one question.</li><li>Convergent thinking aims at one correct answer.</li><li>Guilford introduced the terms convergent and divergent thinking.</li><li>Creativity tests mainly measure convergent thinking.</li></ol></div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>i, ii and iii</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>i, iii and iv</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>ii and iv</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>i, ii, iii and iv</span></button></div><div class="why"><p class="verdict"></p><ul><li class="c"><b>1.</b> Correct. i, ii and iii are true.</li><li class=""><b>2.</b> Includes iv: creativity tests measure DIVERGENT thinking (fluency, flexibility, originality).</li><li class=""><b>3.</b> Includes iv and leaves out i and iii.</li><li class=""><b>4.</b> Includes the false statement iv.</li></ul></div></div><div class="mcq" data-a="4"><div class="stem"><span class="n">4.</span><b>Assertion (A):</b> Interest has no effect on how well a child learns.<br><b>Reason (R):</b> Interest directs attention towards an activity.</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Both A and R are true, and R is the correct explanation of A</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Both A and R are true, but R is not the correct explanation of A</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>A is true, but R is false</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>A is false, but R is true</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> A is false, so both cannot be true.</li><li class=""><b>2.</b> A is false.</li><li class=""><b>3.</b> It is the other way round: A is false and R is true.</li><li class="c"><b>4.</b> Correct. A is false: interest strongly improves attention and learning. R is true, and R actually shows why A is wrong.</li></ul></div></div><div class="mcq" data-a="2"><div class="stem"><span class="n">5.</span>Which teacher action most encourages creativity in the classroom?</div><div class="opts"><button type="button" class="opt" data-o="1"><span class="k">1.</span><span>Accepting only the answer given in the textbook</span></button><button type="button" class="opt" data-o="2"><span class="k">2.</span><span>Asking "In how many ways can we use an empty plastic bottle?" and welcoming unusual answers</span></button><button type="button" class="opt" data-o="3"><span class="k">3.</span><span>Marking down every unusual answer as wrong</span></button><button type="button" class="opt" data-o="4"><span class="k">4.</span><span>Giving model answers for children to memorise</span></button></div><div class="why"><p class="verdict"></p><ul><li class=""><b>1.</b> A single fixed answer trains convergent, not creative, thinking.</li><li class="c"><b>2.</b> Correct. An open-ended question plus acceptance of unusual ideas builds fluency, flexibility and originality.</li><li class=""><b>3.</b> Punishing unusual answers kills creativity.</li><li class=""><b>4.</b> Memorising model answers is rote learning.</li></ul></div></div><div class="qscore" aria-live="polite"></div></div>
+<div class="box"><b>Revision note (5 lines)</b><br>
+1. EQ: term by Salovey & Mayer (1990); Goleman (1995): self-awareness, self-regulation, motivation, empathy, social skills.<br>
+2. Creativity = divergent thinking (Guilford); fluency, flexibility, originality, elaboration; Wallas: P → I → I → V.<br>
+3. Tests: Torrance; Baqer Mehdi (India).<br>
+4. Aptitude = potential (DAT); attitude = readiness to respond (Likert, Thurstone; Mehran); interest = liking; habit = automatic action.<br>
+5. All four shape how much of their intelligence a child actually uses.</div>
+
+<h2 id="s3">Notebook page: Day 2</h2>
+<p>Close this page and write the following in your notebook <strong>from memory</strong>, in this order. Then check and fill gaps in a different colour.</p>
+<ol>
+<li>Inter vs intra-individual differences with examples; areas and causes.</li>
+<li>Theories of intelligence table: eight rows, with the number chain 2-7-8-180-3.</li>
+<li>Gardner's 8 intelligences with one classroom example each.</li>
+<li>IQ formula; Binet–Simon 1905, Stern 1912, Stanford–Binet 1916; one worked example in months.</li>
+<li>Terman's IQ ladder.</li>
+<li>Test types: verbal/non-verbal, individual/group; CAVD expansion; Bhatia's battery.</li>
+<li>Levels of intellectual disability with IQ ranges and educable/trainable labels.</li>
+<li>Goleman's five components (S-S-M-E-S) and the empathy vs sympathy trap.</li>
+<li>Creativity: divergent thinking, F-F-O-E, Wallas P-I-I-V, Torrance, Baqer Mehdi.</li>
+<li>Aptitude / attitude / interest / habit table with how each is measured.</li>
+</ol>
+<h2 id="s4">Sources</h2>
+<ul>
+<li>Directorate of School Education, Andhra Pradesh: <a href="https://apdsc2024.apcfss.in/Documents/MEGA_DSC_2024_Suggestive_Syllabus-27-11-2024.pdf">Mega DSC 2024 Suggestive Syllabus</a> (SGT Part III unit list; checked 9 Nov 2026).</li>
+<li>AP DSC SGT question paper, 19 June 2025, Shift 1 (Section III), supplied by you.</li>
+</ul>
+<footer>Sulabham · AP DSC-2026 (APTRT) SGT · Educational Psychology. Based on the official SCERT SGT syllabus (Unit 2: Individual Differences).</footer>
+</main>
+<script>
+(function(){
+var T={"right": "Correct!", "wrong": "Not quite. Correct answer:", "score": "Your score"};
+document.querySelectorAll('.quiz').forEach(function(qz){
+  var mcqs=qz.querySelectorAll('.mcq'), done=0, ok=0;
+  mcqs.forEach(function(m){
+    var a=m.getAttribute('data-a');
+    m.querySelectorAll('button.opt').forEach(function(b){
+      b.addEventListener('click',function(){
+        if(m.classList.contains('done'))return;
+        m.classList.add('done');
+        var right=b.getAttribute('data-o')===a;
+        b.classList.add(right?'ok':'bad');
+        m.querySelector('button.opt[data-o="'+a+'"]').classList.add('ok');
+        m.querySelectorAll('button.opt').forEach(function(x){x.setAttribute('aria-disabled','true');});
+        m.querySelector('.verdict').textContent=right?T.right:(T.wrong+' '+a);
+        done++; if(right)ok++;
+        if(done===mcqs.length){qz.querySelector('.qscore').textContent=T.score+': '+ok+' / '+mcqs.length;}
+      });
+    });
+  });
+});
+})();
+</script>
+</body></html>
