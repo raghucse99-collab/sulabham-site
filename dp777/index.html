@@ -1660,28 +1660,29 @@ $('runOpenDigitSearch')?.addEventListener('click',()=>{$('runOpenDigitSearch').d
 $('openDigitSummary')?.addEventListener('click',e=>{const b=e.target.closest('[data-jodi]');if(!b)return;const tool=$('openDigitTool');tool.dataset.selectedJodi=tool.dataset.selectedJodi===b.dataset.jodi?'':b.dataset.jodi;renderChart();});
 async function fetchData(marketId=selected){
  const key=chartKeyFor(marketId),file=encodeURIComponent(key)+'.json';
- // Try all mirrors together. A slow first host must not block the chart while
- // later mirrors are already capable of serving the same historical JSON.
+ // Prefer same-origin first, then public mirrors. Avoid Promise.any for older mobile WebViews.
  const sources=[
+  '/dp777/data/charts/'+file,
   'https://raw.githubusercontent.com/raghucse99-collab/sulabham-site/main/dp777/data/charts/'+file,
   'https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham-site@main/dp777/data/charts/'+file,
-  'https://raghucse99-collab.github.io/sulabham-site/dp777/data/charts/'+file,
-  '/dp777/data/charts/'+file
+  'https://raghucse99-collab.github.io/sulabham-site/dp777/data/charts/'+file
  ];
- const attempts=sources.map(async base=>{
-  const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),12000);
-  try{
-   const res=await fetch(base+'?v='+Date.now(),{cache:'no-store',signal:controller.signal,mode:'cors'});
-   if(!res.ok)throw new Error('HTTP '+res.status+' from '+base);
-   const parsed=await res.json();
-   const normalized=parsed&&Array.isArray(parsed.rows)?{updated_at:parsed.updated_at||null,charts:{[key]:parsed}}:parsed;
-   if(!normalized?.charts?.[key]||!Array.isArray(normalized.charts[key].rows))throw new Error('invalid chart data for '+key+' from '+base);
-   return normalized;
-  }catch(e){console.warn('Chart mirror failed:',base,e);throw e;}
-  finally{clearTimeout(timeout);}
+ const errors=[];
+ return new Promise((resolve,reject)=>{
+  let pending=sources.length,finished=false;
+  sources.forEach(base=>{
+   const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),15000);
+   fetch(base+'?v='+Date.now(),{cache:'no-store',signal:controller.signal,mode:'cors'})
+    .then(res=>{if(!res.ok)throw new Error('HTTP '+res.status+' '+base);return res.json();})
+    .then(parsed=>{
+     const normalized=parsed&&Array.isArray(parsed.rows)?{updated_at:parsed.updated_at||null,charts:{[key]:parsed}}:parsed;
+     if(!normalized||!normalized.charts||!normalized.charts[key]||!Array.isArray(normalized.charts[key].rows))throw new Error('Invalid JSON structure from '+base);
+     if(!finished){finished=true;resolve(normalized);}
+    })
+    .catch(e=>{errors.push((e&&e.message)||String(e));pending--;if(!finished&&pending===0)reject(new Error('All chart sources failed for '+key+': '+errors.join(' | ')));})
+    .finally(()=>clearTimeout(timeout));
+  });
  });
- try{return await Promise.any(attempts);}
- catch(e){throw new Error('All chart data mirrors failed for '+key+': '+(e.errors||[]).map(x=>x.message).join(' | '));}
 }
 async function refreshLiveResults(){
  for(const base of LIVE_DATA_URLS){
@@ -1744,7 +1745,7 @@ async function load(){
  }catch(e){
   console.error('Historical chart data failed to load',e);
   dataLoadFailed=true;
-  $('updated').textContent='Could not load '+requestedMarket+' chart data. Retrying shortly.';
+  $('updated').textContent='Could not load '+requestedMarket+' chart data: '+(e&&e.message?e.message:'network error');
  }
  renderMarkets();renderChart();renderLatestResults();
 }
