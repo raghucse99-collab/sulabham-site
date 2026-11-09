@@ -1354,6 +1354,11 @@ function renderChart(){
   const repeatRows=chartRows.filter(row=>days.some(day=>valid(row[day+' Jodi'])));
   const rowSets=repeatRows.map(row=>new Set(days.map(day=>String(row[day+' Jodi']??'').trim()).filter(valid)));
   const N=repeatRows.length,chains=new Map(),minLinks=4;
+  // Use the India-local Monday-Sunday calendar week, not the last archive row.
+  // parseWeekStart returns YYYY-MM-DD (a string), so compare date keys directly.
+  const currentRepeatWeek=currentWeekDayKey().weekStart;
+  const repeatWeekKey=index=>parseWeekStart(repeatRows[index]?.date);
+  const repeatRowIsThisWeek=index=>!!currentRepeatWeek&&repeatWeekKey(index)===currentRepeatWeek;
   // Two independent modes only: constant gap, or strictly +1 each link.
   // Mixed gap patterns (e.g. 4,5,5,6) are never accepted.
   function extend(start,gap,path,mode){
@@ -1362,7 +1367,7 @@ function renderChart(){
       if(path.length>=minLinks){
         const key=mode+':'+path.map(e=>e.start+':'+e.end+':'+e.gap).join('|');
         const wait=target-(N-1);
-        if(!chains.has(key))chains.set(key,{path,wait,nextGap:gap,mode,occurredThisWeek:path.some(e=>e.end===N-1)});
+        if(!chains.has(key))chains.set(key,{path,wait,nextGap:gap,mode,occurredThisWeek:repeatRowIsThisWeek(path[path.length-1].end)});
       }
       return;
     }
@@ -1372,8 +1377,9 @@ function renderChart(){
       // Group all matching Jodis on this same pair of weeks into one link.
       const next=[...path,{start,end:target,gap,jodis:matches}];
       extend(target,mode==='same'?gap:gap+1,next,mode);
-    }else if(target===N-1&&path.length>=minLinks){
-      // Expected occurrence falls in the current partial week; show it as due now.
+    }else if(target===N-1&&path.length>=minLinks&&repeatRowIsThisWeek(target)){
+      // Only call it due this week when the target archive row is actually in
+      // the current India-local calendar week. A completed prior week is not due.
       const key=mode+':'+path.map(e=>e.start+':'+e.end+':'+e.gap).join('|')+':DUE';
       if(!chains.has(key))chains.set(key,{path,wait:0,nextGap:gap,mode,dueThisWeek:true});
     }
@@ -1405,11 +1411,12 @@ function renderChart(){
     const events=path.map((e,k)=>'<div class="repeat-step"><b class="repeat-step-num">దశ '+(k+1)+'</b><strong class="repeat-step-jodi">'+e.jodis.map(esc).join(' · ')+'</strong><span>Row '+(e.start+1)+' → '+(e.end+1)+'</span><b>గ్యాప్ '+e.gap+'</b></div>').join('');
     // Include the current running week in the గత నమూనాలు detail for due patterns.
     const tableEnd=(item.dueThisWeek||item.occurredThisWeek)?N-1:last;
-    const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:tableEnd-first+1},(_,k)=>first+k).map(ix=>'<tr class="'+(ix===N-1?'repeat-current-week':'')+'"><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+esc(repeatRows[ix].date||'')+'</small>'+(ix===N-1?'<em>ఈ వారం</em>':'')+'</td>'+days.map(d=>{const v=String(repeatRows[ix][d+' Jodi']??'').trim(),hit=hits.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table></div>';
+    const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:tableEnd-first+1},(_,k)=>first+k).map(ix=>'<tr class="'+(repeatRowIsThisWeek(ix)?'repeat-current-week':'')+'"><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+esc(repeatRows[ix].date||'')+'</small>'+(repeatRowIsThisWeek(ix)?'<em>ఈ వారం</em>':'')+'</td>'+days.map(d=>{const v=String(repeatRows[ix][d+' Jodi']??'').trim(),hit=hits.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table></div>';
     const current=[...rowSets[last]].sort().join(' · ');
-    const thisWeek=[...rowSets[N-1]].sort().join(' · ');
+    const thisWeek=repeatRows.reduce((acc,row,ix)=>{if(repeatRowIsThisWeek(ix))days.forEach(d=>{const v=String(row[d+' Jodi']??'').trim();if(valid(v))acc.add(v);});return acc;},new Set());
+    const thisWeekText=[...thisWeek].sort().join(' · ');
     const repeatKey=item.mode+':'+path.map(e=>e.start+'-'+e.end+'-'+e.gap).join('|');
-    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · '+(item.mode==='same'?'ఒకే గ్యాప్':'పెరుగుతున్న గ్యాప్')+' · '+(item.dueThisWeek?'ఈ వారం రావాల్సి ఉంది':item.occurredThisWeek?'ఈ వారం వచ్చింది · తదుపరి పునరావృతం: '+item.wait+' వారాల తర్వాత':'తదుపరి పునరావృతం: '+item.wait+' వారాల తర్వాత')+'</strong><span>Gaps '+path.map(e=>e.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>తదుపరి గ్యాప్ '+item.nextGap+' · లక్ష్య వరుస '+(last+item.nextGap+1)+'</b><div>గమనించాల్సిన జోడీలు: <strong>'+esc(current||'None')+'</strong></div>'+(item.dueThisWeek||item.occurredThisWeek?'<div class="repeat-this-week"><b>ఈ వారం వచ్చిన జోడీలు:</b> <strong>'+esc(thisWeek||'No results published yet')+'</strong></div>':'')+'<small>Possible continuation only — not a prediction.</small></div><div class="repeat-steps">'+events+'</div><details class="repeat-history"><summary>వారపు చార్ట్ చూపించు · '+(tableEnd-first+1)+' WEEKS'+(tableEnd>last?' · INCLUDING ఈ వారం':'')+'</summary>'+table+'</details></section>';
+    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · '+(item.mode==='same'?'ఒకే గ్యాప్':'పెరుగుతున్న గ్యాప్')+' · '+(item.dueThisWeek?'ఈ వారం రావాల్సి ఉంది':item.occurredThisWeek?'ఈ వారం వచ్చింది · తదుపరి పునరావృతం: '+item.wait+' వారాల తర్వాత':'తదుపరి పునరావృతం: '+item.wait+' వారాల తర్వాత')+'</strong><span>Gaps '+path.map(e=>e.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>తదుపరి గ్యాప్ '+item.nextGap+' · లక్ష్య వరుస '+(last+item.nextGap+1)+'</b><div>గమనించాల్సిన జోడీలు: <strong>'+esc(current||'None')+'</strong></div>'+(item.dueThisWeek||item.occurredThisWeek?'<div class="repeat-this-week"><b>ఈ వారం వచ్చిన జోడీలు:</b> <strong>'+esc(thisWeekText||'ఈ వారం ఇంకా ఫలితాలు లేవు')+'</strong></div>':'')+'<small>Possible continuation only — not a prediction.</small></div><div class="repeat-steps">'+events+'</div><details class="repeat-history"><summary>వారపు చార్ట్ చూపించు · '+(tableEnd-first+1)+' WEEKS'+(tableEnd>last?' · INCLUDING ఈ వారం':'')+'</summary>'+table+'</details></section>';
   }).join('');
   const repeatScrollY=window.scrollY;
   $('tableArea').innerHTML='<div class="repeat-page"><h3>రిపీట్ నమూనాలు · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Nearest future target first. Two separate pattern types: <b>Same Gap</b> (every gap identical) or <b>Increasing Gap</b> (each gap increases by exactly 1). They are never mixed. Each link repeats the <b>exact same Jodi</b>; broken links are excluded.</p>'+(patterns.length?cards+(patterns.length>100?'<p>Showing the first 100 nearest active patterns. Use Jodi search to narrow results.</p>':''):'<div class="empty"><strong>No active uninterrupted sequence with four or more links found.</strong></div>')+'</div>';
