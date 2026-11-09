@@ -1019,6 +1019,13 @@ function matchesChartSearch(row,query){
   const value=String(row[day+' Jodi']??'').trim().replace(/\s+/g,'');
   // A star/blank means the market did not run; never include it as a search hit.
   if(!/^\d{2}$/.test(value))return false;
+  // Number+n query with a selected weekday: match the base Jodi on that
+  // weekday (e.g. query 00+1 + Monday filter => Monday 00 only).
+  const numberN=q.match(/^(\d{1,2})\+(\d{1,2})$/);
+  if(numberN){
+   const base=String(Number(numberN[1])).padStart(2,'0');
+   return value===base;
+  }
   return !q||value.toLowerCase()===q;
  }
  if(!q)return true;
