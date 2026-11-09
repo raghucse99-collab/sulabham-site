@@ -1547,6 +1547,19 @@ function renderChart(){
   // the next link must recur with 1 intervening row, then 2, then 3, etc.
   const days=repeatDays,valid=v=>/^\d{2}$/.test(String(v??'').trim());
   const playingRows=sortOldestFirst(chartRows.filter(row=>days.some(day=>valid(row[day+' Jodi']))));
+  // Add the real calendar week as a blank display/sequence row when the
+  // archive still ends in the previous completed week. This lets Linked
+  // Jodi classify a missed result as "due this week" on Monday, and gives
+  // the expandable weekly lines the correct current-week row. Blank weeks
+  // are never added to the stored archive or assigned invented results.
+  const calendarWeek=currentWeekDayKey().weekStart;
+  const latestPlayingStart=playingRows.length?parseWeekStart(playingRows[playingRows.length-1].date):'';
+  if(calendarWeek&&latestPlayingStart&&latestPlayingStart<calendarWeek){
+   const start=new Date(calendarWeek+'T00:00:00Z'),end=new Date(start);end.setUTCDate(end.getUTCDate()+6);
+   const fmt=d=>String(d.getUTCDate()).padStart(2,'0')+'/'+String(d.getUTCMonth()+1).padStart(2,'0')+'/'+d.getUTCFullYear();
+   const blankWeek={date:fmt(start)+' to '+fmt(end)};
+   playingRows.push(blankWeek);
+  }
   const rowValues=playingRows.map(row=>days.map(day=>String(row[day+' Jodi']??'').trim()).filter(valid));
   const rowSets=rowValues.map(values=>new Set(values));
   const duplicateValues=rowValues.map(values=>[...new Set(values.filter((v,i)=>values.indexOf(v)!==i))]);
