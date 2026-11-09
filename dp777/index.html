@@ -1648,7 +1648,7 @@ function renderChart(){
   const activeKeys=new Set(activeUnique.map(patternKey));
   const historicalOnly=patterns.filter(p=>!activeKeys.has(patternKey(p)));
   mergedActive.sort((a,b)=>{const rank=p=>p.steps.some(x=>x.to===latestIndex)?0:p.failedAt===latestIndex?1:2;return rank(a)-rank(b)||b.steps.length-a.steps.length;});
-  $('count').textContent=view==='linked'?(patterns.length+' గత నమూనాలు · '+running.length+' ప్రస్తుతం కొనసాగుతోంది · '+upcoming.length+' త్వరలో రావచ్చు'):patterns.length+' linked patterns';
+  $('count').textContent=view==='linked'?(patterns.length+' మొత్తం నమూనాలు · '+running.length+' తాజా లింకులు · '+upcoming.length+' వెంటనే వచ్చే ఆడే వారం లక్ష్యాలు'):patterns.length+' linked patterns';
   stats.hidden=true;
   function cardsFor(list,all,rows,dayNames,isValid,escapeHtml){
    return list.slice(0,500).map((p,n)=>{
@@ -1658,17 +1658,24 @@ function renderChart(){
     const thisWeekNumbers=linkedThisWeekNumbers;
     const nextTarget=endIndex+p.nextGap+1;
     const nextTargetWeek=nextTarget<rows.length&&linkedIsThisWeek(nextTarget);
-    const latestDate=linkedWeekKey(latestIndex),latestMonth=latestDate?latestDate.slice(0,7):'';
+    const calendarWeekStart=currentWeekDayKey().weekStart;
     const endDate=linkedWeekKey(endIndex);
-    const weekStatus=occurredThisWeek?(endDate&&endDate.slice(0,7)===latestMonth?'ఈ నెలలో వచ్చింది':'తాజాగా వచ్చింది'):dueThisWeek?'ఈ నెలలో రావాల్సిన లక్ష్యం':nextTargetWeek?'ఈ నెలలో లక్ష్యం':nextTarget>latestWeek?'తదుపరి ఆడే వారాల్లో లక్ష్యం':'గత నమూనా';
+    const endWeekStart=endDate?mondayDateKey(endDate):'';
+    const isCalendarThisWeek=endWeekStart===calendarWeekStart;
+    const isNextCalendarWeek=endWeekStart&&(()=>{const d=new Date(calendarWeekStart+'T00:00:00Z');d.setUTCDate(d.getUTCDate()+7);return d.toISOString().slice(0,10)===endWeekStart;})();
+    const weekStatus=isCalendarThisWeek?'ఈ వారం వచ్చింది':isNextCalendarWeek?'వచ్చే వారం వచ్చింది':occurredThisWeek?'తాజాగా వచ్చిన ఫలితం':dueThisWeek?'ఈ వారం లక్ష్యం':nextTarget===latestIndex+1?'వచ్చే ఆడే వారం లక్ష్యం':nextTarget>latestWeek?'దూరపు లక్ష్యం · గ్యాప్ '+nextGapNumber:'గత నమూనా';
     p.steps.forEach(step=>{if(!marks.has(step.from))marks.set(step.from,new Set());if(!marks.has(step.to))marks.set(step.to,new Set());(step.jodis||[step.jodi]).forEach(j=>{marks.get(step.from).add(j);marks.get(step.to).add(j);});});
     const tableEnd=Math.max(end,(occurredThisWeek||dueThisWeek||nextTarget>latestWeek&&all===activeUnique)?latestWeek:end);
     const tableRows=rows.slice(p.start,tableEnd+1);
     const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+dayNames.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+tableRows.map((row,k)=>{const ix=p.start+k,parts=String(row.date||'').match(/(\d{1,2})[-/](\d{1,2})[-/](\d{4})/g)||[],shortDate=parts.slice(0,2).map(v=>{const q=v.split(/[-/]/);return q[0].padStart(2,'0')+'/'+q[1].padStart(2,'0')+'/'+q[2].slice(-2);}).join('<br>');return '<tr class="'+(ix===rows.length-1?'repeat-current-week':'')+'"><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+(shortDate||escapeHtml(row.date||''))+'</small>'+(ix===rows.length-1?'<em>ఈ వారం</em>':'')+'</td>'+dayNames.map(d=>{const v=String(row[d+' Jodi']??'').trim(),hit=marks.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(isValid(v)?(hit?'<strong>'+escapeHtml(v)+'</strong>':escapeHtml(v)):'·')+'</td>';}).join('')+'</tr>';}).join('')+'</tbody></table></div>';
     const steps='<div class="repeat-steps"><div class="repeat-step"><b class="repeat-step-num">START</b><strong class="repeat-step-jodi">'+escapeHtml(p.duplicate)+'</strong><span>Duplicate in same week</span><b>×2+</b></div>'+p.steps.map((step,k)=>'<div class="repeat-step"><b class="repeat-step-num">లింక్ '+(k+1)+'</b><strong class="repeat-step-jodi">'+escapeHtml((step.jodis||[step.jodi]).join(' · '))+'</strong><span>'+escapeHtml(rows[step.from].date||'')+' → '+escapeHtml(rows[step.to].date||'')+'</span><b>గ్యాప్ '+step.gap+'</b></div>').join('')+'</div>';
     const nextJodis=p.nextJodis|| (p.nextJodi?[p.nextJodi]:[]);
-    const nextTargetLabel=rows[nextTarget]?.date||'తదుపరి ఆడే వారం';
-    const next='<div class="repeat-next-target"><b>తదుపరి లింక్ లక్ష్యం:</b> <strong>'+escapeHtml(nextJodis.join(' · ')||'—')+'</strong><small>గ్యాప్ '+p.nextGap+' · '+escapeHtml(nextTargetLabel)+'</small></div>';
+    const nextGapNumber=Math.max(0,Number(p.nextGap)||0);
+    const nextTargetExists=nextTarget<rows.length;
+    const nextTargetIsImmediate=nextTarget===latestIndex+1;
+    const nextTargetLabel=nextTargetExists?(nextTarget===latestIndex?'ఈ వారం · '+(rows[nextTarget]?.date||''):'చార్ట్‌లోని లక్ష్య వారం · '+(rows[nextTarget]?.date||'')):
+      (nextTargetIsImmediate?'తదుపరి ఆడే వారం':'ఇంకా '+nextGapNumber+' మధ్యవర్తి ఆడే వారాల తర్వాత (సుమారు '+(nextGapNumber+1)+'వ ఆడే వారం)');
+    const next='<div class="repeat-next-target"><b>తదుపరి లింక్‌లో రావాల్సిన జోడి:</b> <strong>'+escapeHtml(nextJodis.join(' · ')||'—')+'</strong><small>గ్యాప్ '+nextGapNumber+' = మధ్యలో '+nextGapNumber+' ఆడే వారాలు ఖాళీ · '+escapeHtml(nextTargetLabel)+'</small></div>';
     return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS · '+weekStatus+'</strong><span>Gaps: '+p.steps.map(x=>x.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>ప్రారంభ డూప్లికేట్ జోడి</b><div><strong>'+escapeHtml(p.duplicate)+'</strong></div><small>Same weekly link positions and gap sequence are grouped together. Different Jodis at the same link are shown together.</small>'+(dueThisWeek||occurredThisWeek?'<div class="repeat-this-week"><b>ఈ వారం వచ్చిన జోడీలు:</b> <strong>'+escapeHtml(thisWeekNumbers.join(' · ')||'No results published yet')+'</strong></div>':'')+'</div>'+steps+next+'<details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
    }).join('');
   }
