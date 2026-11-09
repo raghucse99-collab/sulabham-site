@@ -1104,7 +1104,7 @@ function renderChart(){
   // Other Monday Jodis between the 00 results are allowed and do not break it.
   stats.hidden=true;
   const marketDays=['Mon','Tue','Wed','Thu','Fri','Sat'];
-  const valid=v=>/^\\d{2}$/.test(String(v??'').trim());
+  const valid=v=>/^\d{2}$/.test(String(v??'').trim());
   const playingRows=sortOldestFirst(chartRows.filter(row=>marketDays.some(day=>valid(row[day+' Jodi']))));
   const occurrences=[];
   playingRows.forEach((row,index)=>{
