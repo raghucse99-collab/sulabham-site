@@ -1648,7 +1648,7 @@ function renderChart(){
   const activePatterns=view==='linked'?[...running,...upcoming]:patterns;
   const patternKey=p=>p.start+':'+p.duplicate+':'+p.steps.map(x=>x.from+'-'+x.to+'-'+x.jodi+'-'+x.gap).join('|');
   const activeUnique=[...new Map(activePatterns.map(p=>[patternKey(p),p])).values()];
-  const mergedActive=mergeFinalJodiSiblings(activeUnique);
+  const mergedActive=mergeSameSchedulePaths(activeUnique);
   const activeKeys=new Set(activeUnique.map(patternKey));
   const historicalOnly=patterns.filter(p=>!activeKeys.has(patternKey(p)));
   mergedActive.sort((a,b)=>{const rank=p=>p.steps.some(x=>x.to===latestIndex)?0:p.failedAt===latestIndex?1:2;return rank(a)-rank(b)||b.steps.length-a.steps.length;});
