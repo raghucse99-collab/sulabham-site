@@ -1038,7 +1038,7 @@ function renderChart(){
  const openTool=$('openDigitTool');
  if(openTool)openTool.hidden=false;
  // Open-digit lookup for every market: గత నమూనాలు lookup only, not a prediction.
- if(openTool&&$('runOpenDigitSearch')?.dataset.run==='yes'){
+ if(openTool&&$('runOpenDigitSearch')?.dataset.run==='yes'&&view!=='monday-00'&&$('daySearch').value!=='monday-00'){
   const digit=String($('openDigit')?.value??'0');
   const pairs=Array.from({length:10},(_,i)=>digit+String(i));
   const valid=new Set(pairs);
@@ -1810,6 +1810,8 @@ document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
   $('daySearch').value='monday-00';
   $('search').value='';
   $('year').value='all';
+  const openTool=$('openDigitTool');
+  if(openTool){openTool.dataset.run='no';openTool.dataset.selectedJodi='';}
  }
  document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));
  updateCurrentChartLabel();
