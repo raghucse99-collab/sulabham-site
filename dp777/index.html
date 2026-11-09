@@ -1325,7 +1325,7 @@ function renderChart(){
   const twoWeekPatterns=thisWeekPatterns.filter(p=>nextGapFor(p)===2);
   const furtherPatterns=thisWeekPatterns.filter(p=>nextGapFor(p)>2);
   const historicalPatterns=patterns.filter(p=>weekStartForFilteredRow(chainEnd(p))!==currentWeekStart);
-  $('count').textContent=thisWeekPatterns.length+' ఈ వారం జరిగినవి · '+nextWeekPatterns.length+' వచ్చే వారం లక్ష్యాలు · '+twoWeekPatterns.length+' రెండు వారాల లక్ష్యాలు · '+historicalPatterns.length+' పాత నమూనాలు';
+  $('count').textContent=thisWeekPatterns.length+' ఈ వారం వచ్చినవి · '+nextWeekPatterns.length+' వచ్చే వారం లక్ష్యాలు · '+twoWeekPatterns.length+' రెండు వారాల లక్ష్యాలు · '+furtherPatterns.length+' ప్రస్తుతం కొనసాగుతున్నవి · '+historicalPatterns.length+' గత నమూనాలు';
   const renderCards=(list)=>list.slice(0,300).map((p,n)=>{
    const end=p.steps[p.steps.length-1].to,marks=new Map();
    marks.set(p.start,new Set([p.duplicate]));
@@ -1343,7 +1343,7 @@ function renderChart(){
   }).join('');
   const section=(title,subtitle,list)=>'<section class="repeat-live-section"><h3>'+title+'</h3><p>'+subtitle+'</p>'+(list.length?renderCards(list):'<div class="empty">No confirmed chains in this category.</div>')+'</section>';
   const noCurrent=!thisWeekPatterns.length?'<div class="empty"><strong>ఈ క్యాలెండర్ వారంలో సరిపోలిన లింక్ ఇంకా లేదు.</strong>ప్రస్తుత వారం తేదీ ఆధారంగా మాత్రమే వర్గీకరణ జరుగుతుంది; చివరి filtered row ఆధారంగా కాదు.</div>':'';
-  $('tableArea').innerHTML='<div class="repeat-page"><h3>ANY NUMBER+n · CURRENT &amp; UPCOMING LINKED JODIS · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">వారం వర్గీకరణ నిజమైన సోమవారం–ఆదివారం క్యాలెండర్ వారంతో జరుగుతుంది. గ్యాప్‌లు మాత్రం మీ Number+n filtered-result వరుసల ఆధారంగా లెక్కించబడతాయి. ఇవి చారిత్రక నమూనాలు మాత్రమే; భవిష్యత్ ఫలితాల హామీ కావు.</p>'+noCurrent+section('ఈ వారం జరిగినవి','ప్రస్తుత క్యాలెండర్ వారంలో చివరి లింక్ నమోదైన నమూనాలు.',thisWeekPatterns)+section('వచ్చే వారం లక్ష్యాలు','ప్రస్తుత వారపు నమూనా నుంచి తదుపరి filtered-result gap 1 ఉన్న లింకులు.',nextWeekPatterns)+section('రెండు వారాల లక్ష్యాలు','తదుపరి filtered-result gap 2 ఉన్న లింకులు.',twoWeekPatterns)+section('ఇంకా తర్వాత కొనసాగేవి','తదుపరి filtered-result gap 2 కంటే ఎక్కువగా ఉన్న నమూనాలు.',furtherPatterns)+section('పాత నమూనాలు','ప్రస్తుత క్యాలెండర్ వారానికి ముందు ముగిసిన నమూనాలు.',historicalPatterns)+(patterns.length>300?'<p>Showing up to 300 chains per section.</p>':'')+'</div>';
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>ANY NUMBER+n · CURRENT &amp; UPCOMING LINKED JODIS · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">వారం వర్గీకరణ నిజమైన సోమవారం–ఆదివారం క్యాలెండర్ వారంతో జరుగుతుంది. గ్యాప్‌లు మాత్రం మీ Number+n filtered-result వరుసల ఆధారంగా లెక్కించబడతాయి. ఇవి చారిత్రక నమూనాలు మాత్రమే; భవిష్యత్ ఫలితాల హామీ కావు.</p>'+noCurrent+section('ఈ వారం జరిగినవి','ప్రస్తుత క్యాలెండర్ వారంలో చివరి లింక్ నమోదైన నమూనాలు.',thisWeekPatterns)+section('వచ్చే వారం లక్ష్యాలు','ప్రస్తుత వారపు నమూనా నుంచి తదుపరి filtered-result gap 1 ఉన్న లింకులు.',nextWeekPatterns)+section('రెండు వారాల లక్ష్యాలు','తదుపరి filtered-result gap 2 ఉన్న లింకులు.',twoWeekPatterns)+section('ప్రస్తుతం కొనసాగుతోంది','తదుపరి filtered-result gap 3 లేదా అంతకంటే ఎక్కువగా ఉన్న నమూనాలు; ప్రతి కార్డులో తదుపరి గ్యాప్ చూపబడుతుంది.',furtherPatterns)+section('పాత నమూనాలు','ప్రస్తుత క్యాలెండర్ వారానికి ముందు ముగిసిన నమూనాలు.',historicalPatterns)+(patterns.length>300?'<p>Showing up to 300 chains per section.</p>':'')+'</div>';
   return;
  }
 
