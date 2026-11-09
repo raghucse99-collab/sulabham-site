@@ -1622,16 +1622,12 @@ function renderChart(){
    return [...groups.values()];
   }
   patterns=mergeSameSchedulePaths(patterns);
+  // Use the newest week actually present in this archive as the current
+  // reference. The published chart can lag the phone's calendar week; using
+  // today's date incorrectly labels a result in the newest row as upcoming.
   const latestIndex=playingRows.length-1;
-  // Actual India-local calendar week, independent of the last archive row.
-  const linkedCurrentWeek=currentWeekDayKey().weekStart;
   const linkedWeekKey=index=>parseWeekStart(playingRows[index]?.date);
-  const linkedIsThisWeek=index=>{
-   const key=linkedWeekKey(index);if(!key||!linkedCurrentWeek)return false;
-   const d=new Date(key+'T00:00:00Z');
-   d.setUTCDate(d.getUTCDate()-((d.getUTCDay()+6)%7));
-   return d.toISOString().slice(0,10)===linkedCurrentWeek;
-  };
+  const linkedIsThisWeek=index=>index===latestIndex;
   const linkedThisWeekNumbers=[...new Set(playingRows.flatMap((row,index)=>linkedIsThisWeek(index)?days.map(day=>String(row[day+' Jodi']??'').trim()).filter(valid):[]))].sort();
   // A running sequence has its scheduled Jodi actually present in the latest
   // published row. A sequence whose next scheduled row is still beyond the
@@ -1643,7 +1639,7 @@ function renderChart(){
    const last=p.steps[p.steps.length-1]?.to??p.start;
    return last+p.nextGap+1===latestIndex+1;
   });
-  running.sort((a,b)=>b.steps.length-a.steps.length||b.start-a.start);
+  running.sort((a,b)=>(b.steps[b.steps.length-1]?.to??b.start)-(a.steps[a.steps.length-1]?.to??a.start)||b.steps.length-a.steps.length||b.start-a.start);
   upcoming.sort((a,b)=>((a.steps[a.steps.length-1]?.to??a.start)+a.nextGap+1)-((b.steps[b.steps.length-1]?.to??b.start)+b.nextGap+1)||b.steps.length-a.steps.length);
   const activePatterns=view==='linked'?[...running,...upcoming]:patterns;
   const patternKey=p=>p.start+':'+p.duplicate+':'+p.steps.map(x=>x.from+'-'+x.to+'-'+x.jodi+'-'+x.gap).join('|');
@@ -1662,7 +1658,9 @@ function renderChart(){
     const thisWeekNumbers=linkedThisWeekNumbers;
     const nextTarget=endIndex+p.nextGap+1;
     const nextTargetWeek=nextTarget<rows.length&&linkedIsThisWeek(nextTarget);
-    const weekStatus=occurredThisWeek?'ఈ వారం వచ్చింది':dueThisWeek?'ఈ వారం లక్ష్యంగా ఉంది':nextTargetWeek?'ఈ వారం లక్ష్యం':nextTarget>latestWeek?'తదుపరి ఆడే వారాల్లో లక్ష్యం':'గత నమూనా';
+    const latestDate=linkedWeekKey(latestIndex),latestMonth=latestDate?latestDate.slice(0,7):'';
+    const endDate=linkedWeekKey(endIndex);
+    const weekStatus=occurredThisWeek?(endDate&&endDate.slice(0,7)===latestMonth?'ఈ నెలలో వచ్చింది':'తాజాగా వచ్చింది'):dueThisWeek?'ఈ నెలలో రావాల్సిన లక్ష్యం':nextTargetWeek?'ఈ నెలలో లక్ష్యం':nextTarget>latestWeek?'తదుపరి ఆడే వారాల్లో లక్ష్యం':'గత నమూనా';
     p.steps.forEach(step=>{if(!marks.has(step.from))marks.set(step.from,new Set());if(!marks.has(step.to))marks.set(step.to,new Set());(step.jodis||[step.jodi]).forEach(j=>{marks.get(step.from).add(j);marks.get(step.to).add(j);});});
     const tableEnd=Math.max(end,(occurredThisWeek||dueThisWeek||nextTarget>latestWeek&&all===activeUnique)?latestWeek:end);
     const tableRows=rows.slice(p.start,tableEnd+1);
@@ -1674,7 +1672,7 @@ function renderChart(){
     return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS · '+weekStatus+'</strong><span>Gaps: '+p.steps.map(x=>x.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>ప్రారంభ డూప్లికేట్ జోడి</b><div><strong>'+escapeHtml(p.duplicate)+'</strong></div><small>Same weekly link positions and gap sequence are grouped together. Different Jodis at the same link are shown together.</small>'+(dueThisWeek||occurredThisWeek?'<div class="repeat-this-week"><b>ఈ వారం వచ్చిన జోడీలు:</b> <strong>'+escapeHtml(thisWeekNumbers.join(' · ')||'No results published yet')+'</strong></div>':'')+'</div>'+steps+next+'<details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
    }).join('');
   }
-  const linkedIntro=view==='linked'?'Historical Patterns shows all confirmed sequences found in the archive. Present Running shows sequences with a confirmed link in the latest playing week. About to Come shows sequences whose next required link is due in the immediately next playing week.':'Start with any Jodi duplicated in a week. From that same row, any Jodi (including the duplicate) may first reappear in the next playing week or after one or more intervening playing weeks. From that first match, separate fixed-gap and increasing-by-one continuations are checked. From the matching row, take any Jodi and find it again with either the same intervening-row gap or a gap increased by one. Only fixed-gap chains and strictly increasing-by-one chains are included; mixed-gap chains are excluded. Matches may be in any day column. Fully closed weeks are skipped. Existing repeat searches are unchanged.';
+  const linkedIntro=view==='linked'?'తాజాగా వచ్చిన ఫలితాలు ముందుగా చూపబడతాయి. ఈ నెలలో రావాల్సినవి అంటే ఆర్కైవ్‌లో తదుపరి ఆడే వారానికి లక్ష్యంగా ఉన్న లింకులు. గత నమూనాలు వేరుగా చూపబడతాయి.':'Start with any Jodi duplicated in a week. From that same row, any Jodi (including the duplicate) may first reappear in the next playing week or after one or more intervening playing weeks. From that first match, separate fixed-gap and increasing-by-one continuations are checked. From the matching row, take any Jodi and find it again with either the same intervening-row gap or a gap increased by one. Only fixed-gap chains and strictly increasing-by-one chains are included; mixed-gap chains are excluded. Matches may be in any day column. Fully closed weeks are skipped. Existing repeat searches are unchanged.';
    const strategyType=p=>{
     const gaps=p.steps.map(x=>x.gap);
     if(gaps.length<2||gaps.every(g=>g===gaps[0]))return 'same';
@@ -1691,7 +1689,7 @@ function renderChart(){
      group('పెరుగుతున్న గ్యాప్',increasing,'#4c1d95')+
      (other.length?group('OTHER GAP',other,'#475569'):'');
    };
-   const linkedContent=strategySection('ప్రస్తుతం కొనసాగుతోంది &amp; ABOUT TO COME',mergedActive,mergedActive,'#166534')+
+   const linkedContent=strategySection('ఈ నెలలో రావాల్సినవి &amp; తాజాగా వచ్చినవి',mergedActive,mergedActive,'#166534')+
     strategySection('గత నమూనాలు',historicalOnly,historicalOnly,'#475569');
    $('tableArea').innerHTML='<div class="repeat-page"><h3>'+(view==='linked'?'LINKED JODI SEQUENCES':'SEPARATE LINKED JODI SEARCH')+' · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">'+linkedIntro+'</p>'+(view==='linked'?linkedContent:(cardsFor(patterns,patterns,playingRows,days,valid,esc)||'<div class="empty">No linked patterns found.</div>'))+'</div>';
   return;
