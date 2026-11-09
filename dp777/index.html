@@ -1153,7 +1153,8 @@ function renderChart(){
    }
    if(truncated)break;
   }
-  step1.sort((a,b)=>b.steps[1].fridayIndex-a.steps[1].fridayIndex||a.steps[0].fridayIndex-b.steps[0].fridayIndex);
+  // Prioritize complete Step 1 + Step 2 chains; Step 1-only matches follow.
+  step1.sort((a,b)=>(b.extensions.length>0?1:0)-(a.extensions.length>0?1:0)||b.extensions.length-a.extensions.length||b.steps[1].fridayIndex-a.steps[1].fridayIndex||a.steps[0].fridayIndex-b.steps[0].fridayIndex);
   step2.sort((a,b)=>b.steps[3].fridayIndex-a.steps[3].fridayIndex||a.steps[0].fridayIndex-b.steps[0].fridayIndex);
   $('count').textContent=step1.length+' Step 1 matches · '+step2.length+' Step 2 extensions · '+progressionRows.length+' chart weeks checked';
   const dateOnly=row=>String(row?.date||'').split(/\\s+to\\s+/i)[0].trim()||'—';
