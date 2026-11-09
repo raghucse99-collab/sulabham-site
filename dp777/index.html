@@ -1099,7 +1099,7 @@ function renderChart(){
   stats.hidden=true;
   const progressionRows=allRows.slice().sort((a,b)=>String(parseWeekStart(a?.date)||'').localeCompare(String(parseWeekStart(b?.date)||'')));
   const fridayStarts=Array.from({length:100},(_,i)=>String(i).padStart(2,'0'));
-  const validJodi=v=>/^\\d{2}$/.test(String(v??'').trim());
+  const validJodi=v=>/^\d{2}$/.test(String(v??'').trim());
   const occurrences=new Map(fridayStarts.map(j=>[j,[]]));
   progressionRows.forEach((row,index)=>{
    const friday=String(row['Fri Jodi']??'').trim();
