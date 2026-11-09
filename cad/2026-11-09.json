@@ -1,0 +1,1449 @@
+{
+ "date": "2026-11-09",
+ "day": {
+  "en": "Monday, 9 November 2026",
+  "te": "సోమవారం, 9 నవంబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "appanchayat",
+   "cat": "ap",
+   "title": {
+    "en": "AP gram panchayat polls in three phases — 26 Nov, 29 Nov and 2 Dec; schedule on 13 November",
+    "te": "ఏపీ గ్రామ పంచాయతీ ఎన్నికలు మూడు దశల్లో — నవం 26, 29, డిసెం 2; షెడ్యూల్ నవంబర్ 13న"
+   },
+   "pts": [
+    {
+     "en": "The Andhra Pradesh State Election Commission (SEC) has fixed the dates for elections to about 13,219 gram panchayats.",
+     "te": "ఆంధ్రప్రదేశ్ రాష్ట్ర ఎన్నికల సంఘం (SEC) సుమారు 13,219 గ్రామ పంచాయతీల ఎన్నికల తేదీలు ఖరారు చేసింది."
+    },
+    {
+     "en": "Polling will be in three phases: 26 November, 29 November and 2 December 2026. The formal schedule is due on 13 November.",
+     "te": "పోలింగ్ మూడు దశల్లో: 2026 నవంబర్ 26, నవంబర్ 29, డిసెంబర్ 2. అధికారిక షెడ్యూల్ నవంబర్ 13న విడుదల."
+    },
+    {
+     "en": "Notifications: phase 1 on 13 Nov, phase 2 on 16 Nov, phase 3 on 19 Nov.",
+     "te": "నోటిఫికేషన్లు: మొదటి దశ నవం 13, రెండో దశ నవం 16, మూడో దశ నవం 19."
+    },
+    {
+     "en": "This completes the 2026 local-body cycle: urban bodies voted on 1 Nov and MPTC/ZPTC on 5 Nov (results 7 Nov).",
+     "te": "దీంతో 2026 స్థానిక ఎన్నికల చక్రం పూర్తవుతుంది: పట్టణ సంస్థలకు నవం 1న, MPTC/ZPTCలకు నవం 5న పోలింగ్ జరిగింది (ఫలితాలు నవం 7)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Gram panchayats",
+      "te": "గ్రామ పంచాయతీలు"
+     },
+     {
+      "en": "13,219 (as reported)",
+      "te": "13,219 (వార్తల ప్రకారం)"
+     }
+    ],
+    [
+     {
+      "en": "Polling",
+      "te": "పోలింగ్"
+     },
+     {
+      "en": "26 Nov · 29 Nov · 2 Dec",
+      "te": "నవం 26 · నవం 29 · డిసెం 2"
+     }
+    ],
+    [
+     {
+      "en": "Conducted by",
+      "te": "నిర్వహణ"
+     },
+     {
+      "en": "AP State Election Commission (Art. 243K)",
+      "te": "ఏపీ రాష్ట్ర ఎన్నికల సంఘం (ఆర్టికల్ 243K)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: panchayat polls are run by the State Election Commission under Article 243K (73rd Amendment) — NOT the Election Commission of India (Art. 324).",
+    "te": "స్టాటిక్ లింక్: పంచాయతీ ఎన్నికలను ఆర్టికల్ 243K (73వ సవరణ) కింద రాష్ట్ర ఎన్నికల సంఘం నిర్వహిస్తుంది — భారత ఎన్నికల సంఘం (ఆర్టికల్ 324) కాదు."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "AP local-body polls 2026",
+      "te": "ఏపీ స్థానిక ఎన్నికలు 2026"
+     },
+     "items": [
+      {
+       "y": "1 Nov",
+       "t": {
+        "en": "Urban local bodies vote",
+        "te": "పట్టణ స్థానిక సంస్థల పోలింగ్"
+       }
+      },
+      {
+       "y": "5 Nov",
+       "t": {
+        "en": "MPTC / ZPTC vote",
+        "te": "MPTC / ZPTC పోలింగ్"
+       }
+      },
+      {
+       "y": "13 Nov",
+       "t": {
+        "en": "Panchayat schedule + phase-1 notification",
+        "te": "పంచాయతీ షెడ్యూల్ + 1వ దశ నోటిఫికేషన్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "26 Nov",
+       "t": {
+        "en": "Phase 1 polling",
+        "te": "1వ దశ పోలింగ్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "29 Nov",
+       "t": {
+        "en": "Phase 2 polling",
+        "te": "2వ దశ పోలింగ్"
+       }
+      },
+      {
+       "y": "2 Dec",
+       "t": {
+        "en": "Phase 3 polling",
+        "te": "3వ దశ పోలింగ్"
+       },
+       "hl": 1
+      }
+     ],
+     "cap": {
+      "en": "Read top to bottom: towns first, then mandal/district bodies, then villages.",
+      "te": "పై నుంచి కిందకు చదవండి: ముందు పట్టణాలు, తర్వాత మండల/జిల్లా పరిషత్‌లు, చివరగా గ్రామాలు."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India — AP sets dates for panchayat elections, schedule on 13 Nov, 8 Nov 2026",
+     "u": "https://www.thehansindia.com/andhra-pradesh/ap-sets-dates-for-panchayat-elections-schedule-on-13-nov-1140379"
+    },
+    {
+     "t": "Telangana Today (PTI) — Naidu says NDA government will continue efforts to attract investments, 9 Nov 2026",
+     "u": "https://telanganatoday.com/naidu-says-nda-government-will-continue-efforts-to-attract-investments"
+    }
+   ]
+  },
+  {
+   "id": "apaqi",
+   "cat": "ap",
+   "title": {
+    "en": "Air quality worsens in AP after Deepavali: Visakhapatnam (AQI 264) and Rajamahendravaram (220) 'poor'",
+    "te": "దీపావళి తర్వాత ఏపీలో గాలి నాణ్యత క్షీణత: విశాఖ (AQI 264), రాజమహేంద్రవరం (220) 'పూర్'"
+   },
+   "pts": [
+    {
+     "en": "The AP Pollution Control Board (APPCB) bulletin of 9 November covered 17 cities.",
+     "te": "నవంబర్ 9న ఏపీ కాలుష్య నియంత్రణ మండలి (APPCB) 17 నగరాల బులెటిన్ విడుదల చేసింది."
+    },
+    {
+     "en": "Visakhapatnam had the highest AQI, 264 (up from 229). Rajamahendravaram jumped from 104 to 220 — from 'moderate' to 'poor'.",
+     "te": "విశాఖపట్నంలో అత్యధిక AQI 264 (229 నుంచి పెరిగింది). రాజమహేంద్రవరం 104 నుంచి 220కి — 'మోడరేట్' నుంచి 'పూర్'కి చేరింది."
+    },
+    {
+     "en": "The other 15 cities were 'moderate' (101–200): Tirupati 191, Nellore 175, Srikakulam 170, lowest Eluru 118.",
+     "te": "మిగతా 15 నగరాలు 'మోడరేట్' (101–200): తిరుపతి 191, నెల్లూరు 175, శ్రీకాకుళం 170, అత్యల్పం ఏలూరు 118."
+    },
+    {
+     "en": "Main pollutant: PM2.5 in most cities; PM10 in Amaravati, Eluru and Kakinada.",
+     "te": "ప్రధాన కాలుష్యకారకం: చాలా నగరాల్లో PM2.5; అమరావతి, ఏలూరు, కాకినాడలో PM10."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Agency",
+      "te": "సంస్థ"
+     },
+     {
+      "en": "APPCB (chairman P. Krishnayya)",
+      "te": "APPCB (చైర్మన్ పి. కృష్ణయ్య)"
+     }
+    ],
+    [
+     {
+      "en": "Poor band",
+      "te": "'పూర్' శ్రేణి"
+     },
+     {
+      "en": "AQI 201–300",
+      "te": "AQI 201–300"
+     }
+    ],
+    [
+     {
+      "en": "Moderate band",
+      "te": "'మోడరేట్' శ్రేణి"
+     },
+     {
+      "en": "AQI 101–200",
+      "te": "AQI 101–200"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: PM2.5 (fine particles, ≤2.5 micrometres) — not PM10 — was the main pollutant in Visakhapatnam. AQI 201–300 = 'poor', 101–200 = 'moderate'.",
+    "te": "ట్రాప్: విశాఖలో ప్రధాన కాలుష్యకారకం PM2.5 (2.5 మైక్రోమీటర్ల లోపు సూక్ష్మ కణాలు) — PM10 కాదు. AQI 201–300 = 'పూర్', 101–200 = 'మోడరేట్'."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "AQI on 9 November",
+      "te": "నవంబర్ 9 AQI"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Visakhapatnam",
+        "te": "విశాఖపట్నం"
+       },
+       "v": 264,
+       "vl": "264 poor"
+      },
+      {
+       "t": {
+        "en": "Rajamahendravaram",
+        "te": "రాజమహేంద్రవరం"
+       },
+       "v": 220,
+       "vl": "220 poor"
+      },
+      {
+       "t": {
+        "en": "Tirupati",
+        "te": "తిరుపతి"
+       },
+       "v": 191,
+       "vl": "191"
+      },
+      {
+       "t": {
+        "en": "Nellore",
+        "te": "నెల్లూరు"
+       },
+       "v": 175,
+       "vl": "175"
+      },
+      {
+       "t": {
+        "en": "Srikakulam",
+        "te": "శ్రీకాకుళం"
+       },
+       "v": 170,
+       "vl": "170"
+      },
+      {
+       "t": {
+        "en": "Eluru",
+        "te": "ఏలూరు"
+       },
+       "v": 118,
+       "vl": "118"
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Where the air was worst",
+      "te": "గాలి ఎక్కువ కలుషితమైన చోట్లు"
+     },
+     "view": "ap",
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#8a4b14",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        17.69,
+        83.22
+       ],
+       "t": {
+        "en": "Visakhapatnam 264",
+        "te": "విశాఖ 264"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        17.0,
+        81.8
+       ],
+       "t": {
+        "en": "Rajamahendravaram 220",
+        "te": "రాజమహేంద్రవరం 220"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.71,
+        81.1
+       ],
+       "t": {
+        "en": "Eluru 118",
+        "te": "ఏలూరు 118"
+       }
+      },
+      {
+       "ll": [
+        14.44,
+        79.99
+       ],
+       "t": {
+        "en": "Nellore 175",
+        "te": "నెల్లూరు 175"
+       }
+      },
+      {
+       "ll": [
+        13.63,
+        79.42
+       ],
+       "t": {
+        "en": "Tirupati 191",
+        "te": "తిరుపతి 191"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "Both 'poor' cities are in the north-coastal / Godavari belt.",
+      "te": "'పూర్' నమోదైన రెండు నగరాలూ ఉత్తర కోస్తా / గోదావరి ప్రాంతంలోనే."
+     },
+     "src": "cards/cad/2026-11-09/map-apaqi-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "ThePrint (PTI) — Air quality worsens across Andhra after Deepavali; Visakhapatnam, Rajamahendravaram 'poor', 9 Nov 2026",
+     "u": "https://theprint.in/india/air-quality-worsens-across-andhra-after-deepavali-visakhapatnam-rajamahendravaram-poor/3094332/"
+    }
+   ]
+  },
+  {
+   "id": "cancerdrugs",
+   "cat": "health",
+   "title": {
+    "en": "Lower MRPs for 1,364 anti-cancer medicines come into force; patients to save ₹3,540 crore a year",
+    "te": "1,364 క్యాన్సర్ మందుల తగ్గిన MRPలు అమల్లోకి; రోగులకు ఏటా ₹3,540 కోట్ల ఆదా"
+   },
+   "pts": [
+    {
+     "en": "The National Pharmaceutical Pricing Authority (NPPA) capped trade margins on 137 anti-cancer drugs (notification S.O. 5690(E), 17 Oct 2026).",
+     "te": "జాతీయ ఔషధ ధరల ప్రాధికార సంస్థ (NPPA) 137 క్యాన్సర్ మందులపై ట్రేడ్ మార్జిన్‌కు పరిమితి విధించింది (నోటిఫికేషన్ S.O. 5690(E), 17 అక్టో 2026)."
+    },
+    {
+     "en": "Trade margin = the gap between the price a distributor pays and the MRP. Capping it cuts the MRP without touching the maker's price.",
+     "te": "ట్రేడ్ మార్జిన్ = పంపిణీదారు కొనే ధరకు, MRPకి మధ్య తేడా. దాన్ని పరిమితం చేస్తే తయారీదారు ధర మారకుండానే MRP తగ్గుతుంది."
+    },
+    {
+     "en": "85 companies revised MRPs of 1,364 formulations (121 drugs); 679 brands cut prices by more than 50%, the highest cut being 96.45%. New MRPs apply from 9 November.",
+     "te": "85 కంపెనీలు 1,364 ఫార్ములేషన్ల (121 మందులు) MRP సవరించాయి; 679 బ్రాండ్లు 50% కంటే ఎక్కువ తగ్గించాయి, అత్యధిక తగ్గింపు 96.45%. కొత్త MRPలు నవంబర్ 9 నుంచి."
+    },
+    {
+     "en": "No chemist or hospital pharmacy may charge more. Check prices on the 'Pharma Sahi Daam' app; complaints on 'Pharma Jan Samadhan' or helpline 1800-111-255.",
+     "te": "ఏ మెడికల్ షాపు, ఆసుపత్రి ఫార్మసీ ఎక్కువ వసూలు చేయకూడదు. ధరలు 'Pharma Sahi Daam' యాప్‌లో చూడొచ్చు; ఫిర్యాదులు 'Pharma Jan Samadhan' లేదా 1800-111-255కి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Regulator",
+      "te": "నియంత్రణ సంస్థ"
+     },
+     {
+      "en": "NPPA — Dept of Pharmaceuticals, Min. of Chemicals & Fertilisers",
+      "te": "NPPA — ఫార్మాస్యూటికల్స్ విభాగం, రసాయనాలు & ఎరువుల మంత్రిత్వ శాఖ"
+     }
+    ],
+    [
+     {
+      "en": "Basis",
+      "te": "ఆధారం"
+     },
+     {
+      "en": "DGHS expert committee (Health Ministry)",
+      "te": "DGHS నిపుణుల కమిటీ (ఆరోగ్య శాఖ)"
+     }
+    ],
+    [
+     {
+      "en": "Saving",
+      "te": "ఆదా"
+     },
+     {
+      "en": "₹3,540.38 crore a year",
+      "te": "ఏటా ₹3,540.38 కోట్లు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: NPPA is under the Ministry of Chemicals & Fertilisers (Dept of Pharmaceuticals), not the Health Ministry; prices are controlled under the Drugs (Prices Control) Order, 2013.",
+    "te": "ట్రాప్: NPPA ఆరోగ్య శాఖ కింద కాదు — రసాయనాలు & ఎరువుల మంత్రిత్వ శాఖ (ఫార్మాస్యూటికల్స్ విభాగం) కింద ఉంది; ధరల నియంత్రణ ఔషధ (ధరల నియంత్రణ) ఉత్తర్వు, 2013 కింద జరుగుతుంది."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "How the price cut reached patients",
+      "te": "ధర తగ్గింపు రోగులకు ఎలా చేరింది"
+     },
+     "items": [
+      {
+       "i": "🩺",
+       "t": {
+        "en": "DGHS expert committee recommends",
+        "te": "DGHS నిపుణుల కమిటీ సిఫారసు"
+       }
+      },
+      {
+       "i": "📜",
+       "t": {
+        "en": "NPPA caps trade margin · 137 drugs (17 Oct)",
+        "te": "NPPA ట్రేడ్ మార్జిన్ పరిమితి · 137 మందులు (అక్టో 17)"
+       }
+      },
+      {
+       "i": "🏭",
+       "t": {
+        "en": "85 firms revise MRP of 1,364 formulations",
+        "te": "85 కంపెనీలు 1,364 ఫార్ములేషన్ల MRP సవరణ"
+       }
+      },
+      {
+       "i": "💊",
+       "t": {
+        "en": "New MRP from 9 Nov · ₹3,540 cr saved/yr",
+        "te": "నవం 9 నుంచి కొత్త MRP · ఏటా ₹3,540 కో ఆదా"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ANI — Revised MRPs of 1,364 anti-cancer formulations come into effect from today, 9 Nov 2026",
+     "u": "https://aninews.in/news/national/general-news/revised-mrps-of-1364-anti-cancer-formulations-come-into-effect-from-today20261109124145/"
+    },
+    {
+     "t": "DT Next (PTI) — Revised MRPs of 1,364 anti-cancer formulations come into effect; consumers to save Rs 3,540 cr/year, 9 Nov 2026",
+     "u": "https://www.dtnext.in/news/business/revised-mrps-of-1364-anti-cancer-formulations-come-into-effect-consumers-to-save-rs-3540-cryear"
+    }
+   ]
+  },
+  {
+   "id": "cop31",
+   "cat": "env",
+   "title": {
+    "en": "COP31 climate summit opens in Antalya, Türkiye (9–20 Nov); Australia leads the negotiations",
+    "te": "తుర్కియేలోని అంటాల్యలో COP31 వాతావరణ సదస్సు ప్రారంభం (నవం 9–20); చర్చలకు ఆస్ట్రేలియా నాయకత్వం"
+   },
+   "pts": [
+    {
+     "en": "The 31st UN Climate Change Conference (COP31) began on 9 November at the Antalya Expo Center and runs till 20 November. Türkiye is hosting a COP for the first time.",
+     "te": "31వ ఐరాస వాతావరణ మార్పుల సదస్సు (COP31) నవంబర్ 9న అంటాల్యా ఎక్స్‌పో సెంటర్‌లో ప్రారంభమైంది, నవంబర్ 20 వరకు. తుర్కియే COPకి ఆతిథ్యం ఇవ్వడం ఇదే తొలిసారి."
+    },
+    {
+     "en": "Under a compromise, Türkiye shares leadership with Australia: Australia's minister Chris Bowen is 'President of Negotiations'. The World Leaders' Summit is on 11–12 November.",
+     "te": "ఒక రాజీ ఒప్పందం ప్రకారం తుర్కియే నాయకత్వాన్ని ఆస్ట్రేలియాతో పంచుకుంటోంది: ఆస్ట్రేలియా మంత్రి క్రిస్ బోవెన్ 'చర్చల అధ్యక్షుడు'. ప్రపంచ నేతల సదస్సు నవం 11–12న."
+    },
+    {
+     "en": "Host's theme: an 'implementation COP'. Delegates from 197 countries and the EU attend.",
+     "te": "ఆతిథ్య దేశం థీమ్: 'అమలు COP' (implementation COP). 197 దేశాలు, EU ప్రతినిధులు హాజరు."
+    },
+    {
+     "en": "India wants a Climate Finance Work Programme, finance from developed countries under Article 9.1 of the Paris Agreement, and no new top-down targets.",
+     "te": "భారత్ డిమాండ్లు: క్లైమేట్ ఫైనాన్స్ వర్క్ ప్రోగ్రామ్ ప్రారంభం, పారిస్ ఒప్పందం ఆర్టికల్ 9.1 కింద అభివృద్ధి చెందిన దేశాల నుంచి నిధులు, కొత్త 'పై నుంచి విధించే' లక్ష్యాలు వద్దు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Dates · venue",
+      "te": "తేదీలు · వేదిక"
+     },
+     {
+      "en": "9–20 Nov 2026 · Antalya Expo Center",
+      "te": "నవం 9–20, 2026 · అంటాల్యా ఎక్స్‌పో సెంటర్"
+     }
+    ],
+    [
+     {
+      "en": "Host minister",
+      "te": "ఆతిథ్య మంత్రి"
+     },
+     {
+      "en": "Murat Kurum (Türkiye)",
+      "te": "మురాత్ కురుమ్ (తుర్కియే)"
+     }
+    ],
+    [
+     {
+      "en": "President of Negotiations",
+      "te": "చర్చల అధ్యక్షుడు"
+     },
+     {
+      "en": "Chris Bowen (Australia)",
+      "te": "క్రిస్ బోవెన్ (ఆస్ట్రేలియా)"
+     }
+    ],
+    [
+     {
+      "en": "India's minister",
+      "te": "భారత మంత్రి"
+     },
+     {
+      "en": "Bhupender Yadav (Environment)",
+      "te": "భూపేందర్ యాదవ్ (పర్యావరణం)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: COP = Conference of the Parties to the UNFCCC (1992, Rio). Article 9.1 of the Paris Agreement (2015) says developed countries shall provide finance to developing countries.",
+    "te": "స్టాటిక్ లింక్: COP = UNFCCC (1992, రియో) భాగస్వామ్య దేశాల సదస్సు. పారిస్ ఒప్పందం (2015) ఆర్టికల్ 9.1: అభివృద్ధి చెందిన దేశాలు అభివృద్ధి చెందుతున్న దేశాలకు నిధులు ఇవ్వాలి."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "COP31 host city",
+      "te": "COP31 ఆతిథ్య నగరం"
+     },
+     "view": "world",
+     "ctry": [
+      "Turkey"
+     ],
+     "hlc": "#2f6b2f",
+     "pts": [
+      {
+       "ll": [
+        36.9,
+        30.7
+       ],
+       "t": {
+        "en": "Antalya",
+        "te": "అంటాల్యా"
+       }
+      }
+     ],
+     "labels": [
+      {
+       "ll": [
+        34.0,
+        18.0
+       ],
+       "t": {
+        "en": "Mediterranean Sea",
+        "te": "మధ్యధరా సముద్రం"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Antalya is on Türkiye's Mediterranean coast.",
+      "te": "అంటాల్యా తుర్కియే మధ్యధరా తీరంలో ఉంది."
+     },
+     "src": "cards/cad/2026-11-09/map-cop31-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Week — COP31 opens in Turkey: Decoding India's push for climate finance, adaptation support and tech transfer, 9 Nov 2026",
+     "u": "https://www.theweek.in/news/world/2026/11/09/cop31-climate-summit-antalya-begins-india.html"
+    },
+    {
+     "t": "Türkiye Today — COP31 opens in Antalya on Nov. 9 with focus on implementation, 8 Nov 2026",
+     "u": "https://www.turkiyetoday.com/nation/cop31-opens-in-antalya-on-monday-with-focus-on-implementation-3231969"
+    }
+   ]
+  },
+  {
+   "id": "agniveer",
+   "cat": "defence",
+   "title": {
+    "en": "Navy's largest-ever Agniveer batch — over 3,300 trainees — to pass out at INS Chilka on 13 November",
+    "te": "నౌకాదళ అతిపెద్ద అగ్నివీర్ బ్యాచ్ — 3,300 మందికి పైగా — నవంబర్ 13న INS చిల్కాలో పాసింగ్ ఔట్"
+   },
+   "pts": [
+    {
+     "en": "The passing-out parade (POP) of the 9th batch of Agniveers, along with Naviks of the Indian Coast Guard, will be held at INS Chilka, Odisha, on 13 November.",
+     "te": "9వ బ్యాచ్ అగ్నివీర్‌లు, భారత తీర రక్షక దళ (Coast Guard) నావిక్‌ల పాసింగ్ ఔట్ పరేడ్ నవంబర్ 13న ఒడిశాలోని INS చిల్కాలో జరుగుతుంది."
+    },
+    {
+     "en": "Over 3,300 trainees finish 16 weeks of training — the largest batch ever from this establishment.",
+     "te": "3,300 మందికి పైగా శిక్షణార్థులు 16 వారాల శిక్షణ పూర్తి చేశారు — ఈ కేంద్రం నుంచి ఇదే అతిపెద్ద బ్యాచ్."
+    },
+    {
+     "en": "Chief of the Naval Staff Admiral Krishna Swaminathan will be Chief Guest and Reviewing Officer. A trainees' bilingual magazine 'Ankur' will be released.",
+     "te": "నౌకాదళ ప్రధానాధికారి అడ్మిరల్ కృష్ణ స్వామినాథన్ ముఖ్య అతిథి, సమీక్షాధికారి. శిక్షణార్థులు తయారు చేసిన ద్విభాషా పత్రిక 'అంకుర్' ఆవిష్కరణ."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Batch",
+      "te": "బ్యాచ్"
+     },
+     {
+      "en": "9th Agniveer batch + Coast Guard Naviks",
+      "te": "9వ అగ్నివీర్ బ్యాచ్ + కోస్ట్ గార్డ్ నావిక్‌లు"
+     }
+    ],
+    [
+     {
+      "en": "Trainees",
+      "te": "శిక్షణార్థులు"
+     },
+     {
+      "en": "3,300+ · 16 weeks",
+      "te": "3,300+ · 16 వారాలు"
+     }
+    ],
+    [
+     {
+      "en": "Valedictory",
+      "te": "ముగింపు"
+     },
+     {
+      "en": "Vice Adm Sameer Saxena, FOC-in-C Southern Naval Command",
+      "te": "వైస్ అడ్మిరల్ సమీర్ సక్సేనా, దక్షిణ నౌకాదళ కమాండ్ చీఫ్"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Link: Agnipath scheme (2022) recruits Agniveers into the armed forces. Trap: INS Chilka is in Odisha, under the Southern Naval Command — not in Kerala.",
+    "te": "లింక్: అగ్నిపథ్ పథకం (2022) ద్వారా సాయుధ దళాల్లో అగ్నివీర్‌ల నియామకం. ట్రాప్: INS చిల్కా ఒడిశాలో ఉంది, దక్షిణ నౌకాదళ కమాండ్ పరిధిలో — కేరళలో కాదు."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "From recruit to sailor",
+      "te": "నియామకం నుంచి నావికుడి వరకు"
+     },
+     "items": [
+      {
+       "i": "📝",
+       "t": {
+        "en": "Recruited under Agnipath",
+        "te": "అగ్నిపథ్ కింద నియామకం"
+       }
+      },
+      {
+       "i": "🏋️",
+       "t": {
+        "en": "16 weeks training · INS Chilka",
+        "te": "16 వారాల శిక్షణ · INS చిల్కా"
+       }
+      },
+      {
+       "i": "🎖️",
+       "t": {
+        "en": "POP on 13 Nov · CNS reviews",
+        "te": "నవం 13 POP · నౌకాదళ చీఫ్ సమీక్ష"
+       }
+      },
+      {
+       "i": "⚓",
+       "t": {
+        "en": "Join ships & units",
+        "te": "నౌకలు, యూనిట్లలో చేరిక"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ANI — Indian Navy to hold Passing Out Parade of largest-ever Agniveer batch at INS Chilka, 9 Nov 2026",
+     "u": "https://www.aninews.in/news/national/general-news/indian-navy-to-hold-passing-out-parade-of-largest-ever-agniveer-batch-at-ins-chilka20261109170403/"
+    }
+   ]
+  },
+  {
+   "id": "yamunacruise",
+   "cat": "schemes",
+   "title": {
+    "en": "Delhi gets its first recreational Yamuna river cruise (Sonia Vihar–Jagatpur) with electric vessels",
+    "te": "ఢిల్లీలో తొలి యమునా నది వినోద క్రూయిజ్ (సోనియా విహార్–జగత్‌పూర్) — విద్యుత్ నౌకలతో"
+   },
+   "pts": [
+    {
+     "en": "A recreational cruise service on the Sonia Vihar–Jagatpur stretch of the Yamuna in Delhi is to be inaugurated on 10 November by Union Ports, Shipping & Waterways Minister Sarbananda Sonowal.",
+     "te": "ఢిల్లీలో యమునా నది సోనియా విహార్–జగత్‌పూర్ మార్గంలో వినోద క్రూయిజ్ సేవను నవంబర్ 10న కేంద్ర ఓడరేవులు, షిప్పింగ్, జలమార్గాల మంత్రి సర్బానంద సోనోవాల్ ప్రారంభిస్తారు."
+    },
+    {
+     "en": "It uses electric-powered cruise vessels. Trial runs were held last month.",
+     "te": "ఇందులో విద్యుత్‌తో నడిచే క్రూయిజ్ నౌకలు వాడుతారు. గత నెల ట్రయల్ రన్‌లు జరిగాయి."
+    },
+    {
+     "en": "The Inland Waterways Authority of India (IWAI) runs it with DDA, DTTDC, Delhi Jal Board and Delhi's Irrigation & Flood Control Department.",
+     "te": "భారత అంతర్గత జలమార్గాల ప్రాధికార సంస్థ (IWAI) దీన్ని DDA, DTTDC, ఢిల్లీ జల్ బోర్డు, ఢిల్లీ నీటిపారుదల & వరద నియంత్రణ విభాగంతో కలిసి నిర్వహిస్తుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Waterway",
+      "te": "జలమార్గం"
+     },
+     {
+      "en": "Yamuna = National Waterway-110",
+      "te": "యమునా = జాతీయ జలమార్గం-110"
+     }
+    ],
+    [
+     {
+      "en": "Law",
+      "te": "చట్టం"
+     },
+     {
+      "en": "National Waterways Act, 2016",
+      "te": "జాతీయ జలమార్గాల చట్టం, 2016"
+     }
+    ],
+    [
+     {
+      "en": "Agency",
+      "te": "సంస్థ"
+     },
+     {
+      "en": "IWAI (Ministry of Ports, Shipping & Waterways)",
+      "te": "IWAI (ఓడరేవులు, షిప్పింగ్, జలమార్గాల శాఖ)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: the National Waterways Act, 2016 declared 111 national waterways (incl. 5 earlier ones). NW-1 = Ganga (Haldia–Prayagraj); NW-4 includes Krishna & Godavari in AP. Yamuna = NW-110.",
+    "te": "స్టాటిక్ లింక్: జాతీయ జలమార్గాల చట్టం, 2016 ద్వారా 111 జాతీయ జలమార్గాలు (పాత 5తో కలిపి). NW-1 = గంగా (హల్దియా–ప్రయాగ్‌రాజ్); NW-4లో ఏపీలోని కృష్ణా, గోదావరి. యమునా = NW-110."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Yamuna cruise in Delhi",
+      "te": "ఢిల్లీలో యమునా క్రూయిజ్"
+     },
+     "view": "north",
+     "hl": [
+      "Delhi"
+     ],
+     "hlc": "#1d4f91",
+     "rivers": [
+      "Yamuna",
+      "Ganga"
+     ],
+     "pts": [
+      {
+       "ll": [
+        28.73,
+        77.25
+       ],
+       "t": {
+        "en": "Sonia Vihar (Delhi)",
+        "te": "సోనియా విహార్ (ఢిల్లీ)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "The cruise runs on the Yamuna, a tributary of the Ganga, in north Delhi.",
+      "te": "క్రూయిజ్ ఉత్తర ఢిల్లీలో గంగా ఉపనది యమునపై నడుస్తుంది."
+     },
+     "src": "cards/cad/2026-11-09/map-yamunacruise-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "ANI — Delhi set to get its first recreational Yamuna Cruise service, 9 Nov 2026",
+     "u": "https://www.aninews.in/news/national/general-news/delhi-set-to-get-its-first-recreational-yamuna-cruise-service20261109184217/"
+    }
+   ]
+  },
+  {
+   "id": "shrivatri",
+   "cat": "sports",
+   "title": {
+    "en": "Anuj Shrivatri becomes India's 100th chess Grandmaster — the first from Madhya Pradesh",
+    "te": "భారత 100వ చెస్ గ్రాండ్‌మాస్టర్‌గా అనుజ్ శ్రీవత్రి — మధ్యప్రదేశ్ నుంచి తొలి GM"
+   },
+   "pts": [
+    {
+     "en": "IM Anuj Shrivatri (22) of Madhya Pradesh won the 7th ASEAN Plus Individual Open Chess Championship at Ozamiz City, Philippines, on 8 November.",
+     "te": "మధ్యప్రదేశ్‌కు చెందిన IM అనుజ్ శ్రీవత్రి (22) నవంబర్ 8న ఫిలిప్పీన్స్‌లోని ఒజామిజ్ సిటీలో 7వ ASEAN ప్లస్ వ్యక్తిగత ఓపెన్ చెస్ ఛాంపియన్‌షిప్ గెలిచాడు."
+    },
+    {
+     "en": "The title made him India's 100th Grandmaster and MP's first GM. Vietnam's GM Nguyen Duc Hoa was second.",
+     "te": "ఈ విజయంతో అతను భారత 100వ గ్రాండ్‌మాస్టర్, మధ్యప్రదేశ్ తొలి GM అయ్యాడు. వియత్నాం GM న్గుయెన్ డుక్ హోవా రెండో స్థానం."
+    },
+    {
+     "en": "India's GM journey began in 1988 with Viswanathan Anand, the first Indian GM. A GM title needs a 2500 rating and three GM norms.",
+     "te": "భారత GM ప్రయాణం 1988లో విశ్వనాథన్ ఆనంద్‌తో (తొలి భారత GM) మొదలైంది. GM టైటిల్‌కు 2500 రేటింగ్, మూడు GM నార్మ్‌లు అవసరం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Milestone",
+      "te": "మైలురాయి"
+     },
+     {
+      "en": "India's 100th GM · MP's 1st GM",
+      "te": "భారత 100వ GM · మధ్యప్రదేశ్ తొలి GM"
+     }
+    ],
+    [
+     {
+      "en": "Event",
+      "te": "టోర్నీ"
+     },
+     {
+      "en": "7th ASEAN Plus Individual Open, Ozamiz City (Philippines)",
+      "te": "7వ ASEAN ప్లస్ ఓపెన్, ఒజామిజ్ సిటీ (ఫిలిప్పీన్స్)"
+     }
+    ],
+    [
+     {
+      "en": "1st Indian GM",
+      "te": "తొలి భారత GM"
+     },
+     {
+      "en": "Viswanathan Anand, 1988",
+      "te": "విశ్వనాథన్ ఆనంద్, 1988"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: the 100th GM is Anuj Shrivatri (MP), not V. Pranav (World Junior Blitz champion, 7 Nov). Titles (GM, IM) are awarded by FIDE.",
+    "te": "ట్రాప్: 100వ GM అనుజ్ శ్రీవత్రి (మధ్యప్రదేశ్) — వి. ప్రణవ్ కాదు (ప్రపంచ జూనియర్ బ్లిట్జ్ ఛాంపియన్). GM, IM టైటిళ్లను FIDE ఇస్తుంది."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "India's Grandmaster journey",
+      "te": "భారత గ్రాండ్‌మాస్టర్ ప్రయాణం"
+     },
+     "items": [
+      {
+       "y": "1988",
+       "t": {
+        "en": "Viswanathan Anand — 1st GM",
+        "te": "విశ్వనాథన్ ఆనంద్ — తొలి GM"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "Anuj Shrivatri — 100th GM",
+        "te": "అనుజ్ శ్రీవత్రి — 100వ GM"
+       },
+       "hl": 1
+      }
+     ],
+     "cap": {
+      "en": "100 GMs in 38 years.",
+      "te": "38 ఏళ్లలో 100 మంది GMలు."
+     }
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Where he won",
+      "te": "ఎక్కడ గెలిచాడు"
+     },
+     "view": "world",
+     "ctry": [
+      "Philippines"
+     ],
+     "hl": [
+      "Madhya Pradesh"
+     ],
+     "hlc": "#7a3b8f",
+     "pts": [
+      {
+       "ll": [
+        8.15,
+        123.84
+       ],
+       "t": {
+        "en": "Ozamiz City",
+        "te": "ఒజామిజ్ సిటీ"
+       }
+      },
+      {
+       "ll": [
+        23.83,
+        80.39
+       ],
+       "t": {
+        "en": "Katni (MP)",
+        "te": "కట్నీ (మ.ప్ర.)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "From Katni region in Madhya Pradesh to the title in the Philippines.",
+      "te": "మధ్యప్రదేశ్‌లోని కట్నీ ప్రాంతం నుంచి ఫిలిప్పీన్స్‌లో టైటిల్ వరకు."
+     },
+     "src": "cards/cad/2026-11-09/map-shrivatri-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "ChessBase India — Anuj Shrivatri becomes India's 100th Grandmaster, 8 Nov 2026",
+     "u": "https://chessbase.in/news/anuj-shrivatri-becomes-indias-100th-grandmaster"
+    },
+    {
+     "t": "The Week — Anuj Shrivatri becomes India's 100th chess Grandmaster, 8 Nov 2026",
+     "u": "https://www.theweek.in/news/sports/2026/11/08/anuj-shrivatri-india-100th-chess-grandmaster.html"
+    },
+    {
+     "t": "Indian Opinion — Today in India: 8 November 2026",
+     "u": "https://indianopinion.org/today-in-india-8-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "ukday",
+   "cat": "days",
+   "title": {
+    "en": "9 November: Uttarakhand Statehood Day — the state turns 26",
+    "te": "నవంబర్ 9: ఉత్తరాఖండ్ రాష్ట్ర అవతరణ దినోత్సవం — రాష్ట్రానికి 26 ఏళ్లు"
+   },
+   "pts": [
+    {
+     "en": "Uttarakhand was formed on 9 November 2000, carved out of Uttar Pradesh, as the 27th state of India. PM Modi greeted the people on Statehood Day.",
+     "te": "ఉత్తరాఖండ్ 2000 నవంబర్ 9న ఉత్తరప్రదేశ్ నుంచి విడిపోయి భారతదేశ 27వ రాష్ట్రంగా ఏర్పడింది. రాష్ట్ర అవతరణ దినోత్సవం సందర్భంగా ప్రధాని మోదీ శుభాకాంక్షలు తెలిపారు."
+    },
+    {
+     "en": "It was first named 'Uttaranchal' and renamed Uttarakhand in 2007.",
+     "te": "మొదట దీని పేరు 'ఉత్తరాంచల్'; 2007లో ఉత్తరాఖండ్‌గా మార్చారు."
+    },
+    {
+     "en": "Dehradun is the winter capital; Bhararisain (Gairsain) is the summer capital.",
+     "te": "డెహ్రాడూన్ శీతాకాల రాజధాని; భరారిసైన్ (గైర్‌సైన్) వేసవి రాజధాని."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Formed",
+      "te": "ఏర్పాటు"
+     },
+     {
+      "en": "9 Nov 2000 · 27th state",
+      "te": "9 నవం 2000 · 27వ రాష్ట్రం"
+     }
+    ],
+    [
+     {
+      "en": "Parent state",
+      "te": "మాతృ రాష్ట్రం"
+     },
+     {
+      "en": "Uttar Pradesh",
+      "te": "ఉత్తరప్రదేశ్"
+     }
+    ],
+    [
+     {
+      "en": "Capitals",
+      "te": "రాజధానులు"
+     },
+     {
+      "en": "Dehradun (winter) · Bhararisain (summer)",
+      "te": "డెహ్రాడూన్ (శీతాకాలం) · భరారిసైన్ (వేసవి)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: Bhararisain (Gairsain) is the SUMMER capital, Dehradun the WINTER capital. Old name Uttaranchal changed in 2007.",
+    "te": "ట్రాప్: భరారిసైన్ (గైర్‌సైన్) వేసవి రాజధాని, డెహ్రాడూన్ శీతాకాల రాజధాని. పాత పేరు ఉత్తరాంచల్ 2007లో మారింది."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Uttarakhand and its capitals",
+      "te": "ఉత్తరాఖండ్, దాని రాజధానులు"
+     },
+     "view": "north",
+     "hl": [
+      "Uttarakhand",
+      "Uttar Pradesh"
+     ],
+     "hlc": "#2c5d63",
+     "pts": [
+      {
+       "ll": [
+        30.32,
+        78.03
+       ],
+       "t": {
+        "en": "Dehradun (winter)",
+        "te": "డెహ్రాడూన్ (శీతాకాలం)"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        30.05,
+        79.29
+       ],
+       "t": {
+        "en": "Bhararisain (summer)",
+        "te": "భరారిసైన్ (వేసవి)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Uttarakhand (north) was carved out of Uttar Pradesh (south) in 2000.",
+      "te": "ఉత్తరాఖండ్ (ఉత్తరం) 2000లో ఉత్తరప్రదేశ్ (దక్షిణం) నుంచి విడిపోయింది."
+     },
+     "src": "cards/cad/2026-11-09/map-ukday-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB — Prime Minister extends greetings to the people of Uttarakhand on Statehood Day, 9 Nov 2026",
+     "u": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2334234"
+    },
+    {
+     "t": "Adda247 — Uttarakhand Foundation Day: Celebrating History and Heritage",
+     "u": "https://currentaffairs.adda247.com/uttarakhand-foundation-day-celebrating-history-and-heritage/"
+    },
+    {
+     "t": "PW — Uttarakhand Foundation Day",
+     "u": "https://www.pw.live/upsc/exams/uttarakhand-foundation-day"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "appanchayat",
+   "q": {
+    "en": "Consider the following about the 2026 gram panchayat elections in Andhra Pradesh. Which of the statements is/are correct?",
+    "te": "2026 ఆంధ్రప్రదేశ్ గ్రామ పంచాయతీ ఎన్నికల గురించి కింది ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. Polling is in three phases, the last on 2 December 2026.",
+     "te": "I. పోలింగ్ మూడు దశల్లో; చివరి దశ 2026 డిసెంబర్ 2న."
+    },
+    {
+     "en": "II. The elections are conducted by the Election Commission of India.",
+     "te": "II. ఈ ఎన్నికలను భారత ఎన్నికల సంఘం నిర్వహిస్తుంది."
+    },
+    {
+     "en": "III. The phase-1 notification is due on 13 November.",
+     "te": "III. మొదటి దశ నోటిఫికేషన్ నవంబర్ 13న."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct. II is the trap: panchayat polls are run by the State Election Commission (Art. 243K), not the ECI (Art. 324 — Parliament, Assemblies, President, VP).",
+    "te": "I, III సరైనవి. II ట్రాప్: పంచాయతీ ఎన్నికలను రాష్ట్ర ఎన్నికల సంఘం (ఆర్టి. 243K) నిర్వహిస్తుంది — ECI (ఆర్టి. 324 — పార్లమెంట్, అసెంబ్లీ, రాష్ట్రపతి, ఉపరాష్ట్రపతి) కాదు."
+   }
+  },
+  {
+   "topic": "apaqi",
+   "q": {
+    "en": "With reference to the APPCB air-quality bulletin of 9 November 2026, which of the statements is/are correct?",
+    "te": "2026 నవంబర్ 9 APPCB గాలి నాణ్యత బులెటిన్ గురించి కింది ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. Visakhapatnam recorded the highest AQI (264) among 17 cities.",
+     "te": "I. 17 నగరాల్లో విశాఖపట్నంలో అత్యధిక AQI (264) నమోదైంది."
+    },
+    {
+     "en": "II. Rajamahendravaram moved from 'moderate' to 'poor'.",
+     "te": "II. రాజమహేంద్రవరం 'మోడరేట్' నుంచి 'పూర్'కి మారింది."
+    },
+    {
+     "en": "III. PM10 was the main pollutant in Visakhapatnam.",
+     "te": "III. విశాఖలో ప్రధాన కాలుష్యకారకం PM10."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and II are correct (264; 104 → 220). III is wrong: PM2.5 was the main pollutant in Visakhapatnam and Rajamahendravaram; PM10 led only in Amaravati, Eluru and Kakinada.",
+    "te": "I, II సరైనవి (264; 104 → 220). III తప్పు: విశాఖ, రాజమహేంద్రవరంలో ప్రధాన కాలుష్యకారకం PM2.5; PM10 అమరావతి, ఏలూరు, కాకినాడలో మాత్రమే."
+   }
+  },
+  {
+   "topic": "apaqi",
+   "q": {
+    "en": "Arrange these AP cities in DESCENDING order of AQI on 9 November 2026: 1. Tirupati 2. Eluru 3. Visakhapatnam 4. Rajamahendravaram",
+    "te": "2026 నవంబర్ 9 AQI ప్రకారం ఈ ఏపీ నగరాలను అవరోహణ క్రమంలో అమర్చండి: 1. తిరుపతి 2. ఏలూరు 3. విశాఖపట్నం 4. రాజమహేంద్రవరం"
+   },
+   "o": [
+    {
+     "en": "4-3-1-2",
+     "te": "4-3-1-2"
+    },
+    {
+     "en": "3-4-2-1",
+     "te": "3-4-2-1"
+    },
+    {
+     "en": "3-4-1-2",
+     "te": "3-4-1-2"
+    },
+    {
+     "en": "3-1-4-2",
+     "te": "3-1-4-2"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Visakhapatnam 264 > Rajamahendravaram 220 > Tirupati 191 > Eluru 118. Trap: Tirupati (191) was the worst 'moderate' city but still below both 'poor' cities.",
+    "te": "విశాఖ 264 > రాజమహేంద్రవరం 220 > తిరుపతి 191 > ఏలూరు 118. ట్రాప్: 'మోడరేట్' నగరాల్లో తిరుపతి (191) అత్యధికం, కానీ రెండు 'పూర్' నగరాల కంటే తక్కువే."
+   }
+  },
+  {
+   "topic": "cancerdrugs",
+   "q": {
+    "en": "Which of the following statements about the anti-cancer drug price revision effective 9 November 2026 is INCORRECT?",
+    "te": "2026 నవంబర్ 9 నుంచి అమల్లోకి వచ్చిన క్యాన్సర్ మందుల ధరల సవరణ గురించి కిందివాటిలో తప్పు ప్రకటన ఏది?"
+   },
+   "o": [
+    {
+     "en": "NPPA works under the Ministry of Chemicals & Fertilisers",
+     "te": "NPPA రసాయనాలు & ఎరువుల మంత్రిత్వ శాఖ కింద పనిచేస్తుంది"
+    },
+    {
+     "en": "Trade margins were capped on 137 drugs on a DGHS expert committee's advice",
+     "te": "DGHS నిపుణుల కమిటీ సలహాతో 137 మందులపై ట్రేడ్ మార్జిన్ పరిమితి"
+    },
+    {
+     "en": "MRPs of 1,364 formulations were revised; saving about ₹3,540 crore a year",
+     "te": "1,364 ఫార్ములేషన్ల MRP సవరణ; ఏటా సుమారు ₹3,540 కోట్ల ఆదా"
+    },
+    {
+     "en": "Revised MRPs bind only government hospitals, not private chemists",
+     "te": "సవరించిన MRPలు ప్రభుత్వ ఆసుపత్రులకే; ప్రైవేట్ మెడికల్ షాపులకు కాదు"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "(d) is incorrect: no chemist or hospital pharmacy — private or public — may charge above the revised MRP. (a), (b), (c) are correct; the common trap is putting NPPA under the Health Ministry.",
+    "te": "(d) తప్పు: ప్రైవేట్ అయినా, ప్రభుత్వ అయినా ఏ మెడికల్ షాపు/ఆసుపత్రి ఫార్మసీ సవరించిన MRP కంటే ఎక్కువ వసూలు చేయకూడదు. (a), (b), (c) సరైనవి; NPPAను ఆరోగ్య శాఖ కింద అనుకోవడం సాధారణ ట్రాప్."
+   }
+  },
+  {
+   "topic": "cop31",
+   "q": {
+    "en": "Consider the following about COP31 (2026). Which of the statements is/are correct?",
+    "te": "COP31 (2026) గురించి కింది ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. It is being held in Antalya and is Türkiye's first time hosting a COP.",
+     "te": "I. ఇది అంటాల్యాలో జరుగుతోంది; తుర్కియే COPకి ఆతిథ్యం ఇవ్వడం ఇదే తొలిసారి."
+    },
+    {
+     "en": "II. India is pressing for new binding top-down emission targets for all countries.",
+     "te": "II. అన్ని దేశాలకు కొత్త, తప్పనిసరి 'పై నుంచి' ఉద్గార లక్ష్యాలు కావాలని భారత్ ఒత్తిడి చేస్తోంది."
+    },
+    {
+     "en": "III. India cites Article 9.1 of the Paris Agreement on finance from developed countries.",
+     "te": "III. అభివృద్ధి చెందిన దేశాల నిధుల విషయంలో భారత్ పారిస్ ఒప్పందం ఆర్టికల్ 9.1ను ప్రస్తావిస్తోంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct. II is the opposite of India's stand: India rules out new top-down targets and wants mitigation to stay party-driven and non-punitive.",
+    "te": "I, III సరైనవి. II భారత వైఖరికి విరుద్ధం: కొత్త 'పై నుంచి' లక్ష్యాలను భారత్ వ్యతిరేకిస్తుంది; ఉపశమన చర్యలు దేశాల స్వంత నిర్ణయంగానే ఉండాలంటుంది."
+   }
+  },
+  {
+   "topic": "cop31",
+   "q": {
+    "en": "Match List-I (COP31 role/event) with List-II:",
+    "te": "జాబితా-I (COP31 పాత్ర/కార్యక్రమం)ను జాబితా-IIతో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. President of Negotiations   B. Host minister   C. World Leaders' Summit   D. Venue",
+     "te": "A. చర్చల అధ్యక్షుడు   B. ఆతిథ్య మంత్రి   C. ప్రపంచ నేతల సదస్సు   D. వేదిక"
+    },
+    {
+     "en": "1. Murat Kurum   2. Antalya Expo Center   3. Chris Bowen   4. 11–12 November",
+     "te": "1. మురాత్ కురుమ్   2. అంటాల్యా ఎక్స్‌పో సెంటర్   3. క్రిస్ బోవెన్   4. నవంబర్ 11–12"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-1, B-3, C-4, D-2",
+     "te": "A-1, B-3, C-4, D-2"
+    },
+    {
+     "en": "A-3, B-1, C-2, D-4",
+     "te": "A-3, B-1, C-2, D-4"
+    },
+    {
+     "en": "A-3, B-1, C-4, D-2",
+     "te": "A-3, B-1, C-4, D-2"
+    },
+    {
+     "en": "A-1, B-3, C-2, D-4",
+     "te": "A-1, B-3, C-2, D-4"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "A-3: Australia's Chris Bowen is President of Negotiations; B-1: Türkiye's Murat Kurum speaks for the host; C-4: leaders meet on 11–12 Nov; D-2: Antalya Expo Center. Trap: swapping the two leaders — Türkiye hosts, Australia steers the texts.",
+    "te": "A-3: ఆస్ట్రేలియాకు చెందిన క్రిస్ బోవెన్ చర్చల అధ్యక్షుడు; B-1: తుర్కియే మంత్రి మురాత్ కురుమ్; C-4: నేతల సదస్సు నవం 11–12; D-2: అంటాల్యా ఎక్స్‌పో సెంటర్. ట్రాప్: ఇద్దరు నేతలను తారుమారు చేయడం — ఆతిథ్యం తుర్కియే, చర్చలు ఆస్ట్రేలియా."
+   }
+  },
+  {
+   "topic": "agniveer",
+   "q": {
+    "en": "With reference to the passing-out parade at INS Chilka on 13 November 2026, which of the statements is/are correct?",
+    "te": "2026 నవంబర్ 13న INS చిల్కాలో పాసింగ్ ఔట్ పరేడ్ గురించి కింది ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. Over 3,300 trainees of the 9th Agniveer batch and Coast Guard Naviks pass out.",
+     "te": "I. 9వ అగ్నివీర్ బ్యాచ్, కోస్ట్ గార్డ్ నావిక్‌లు కలిపి 3,300 మందికి పైగా పాస్ అవుతారు."
+    },
+    {
+     "en": "II. The Chief of the Naval Staff is the Reviewing Officer.",
+     "te": "II. నౌకాదళ ప్రధానాధికారి సమీక్షాధికారి."
+    },
+    {
+     "en": "III. INS Chilka is a training establishment in Kerala.",
+     "te": "III. INS చిల్కా కేరళలోని శిక్షణ కేంద్రం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and II are correct (Admiral Krishna Swaminathan reviews). III is wrong: INS Chilka is in Odisha. Trap: confusing it with INS Venduruthy / Ezhimala (Indian Naval Academy) in Kerala.",
+    "te": "I, II సరైనవి (అడ్మిరల్ కృష్ణ స్వామినాథన్ సమీక్ష). III తప్పు: INS చిల్కా ఒడిశాలో ఉంది. ట్రాప్: కేరళలోని INS వెందురుత్తి / ఎళిమల (ఇండియన్ నేవల్ అకాడమీ)తో గందరగోళం."
+   }
+  },
+  {
+   "topic": "yamunacruise",
+   "q": {
+    "en": "Consider the following about Delhi's first recreational Yamuna cruise. Which of the statements is/are correct?",
+    "te": "ఢిల్లీ తొలి యమునా వినోద క్రూయిజ్ గురించి కింది ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. The Yamuna is National Waterway-110 under the National Waterways Act, 2016.",
+     "te": "I. జాతీయ జలమార్గాల చట్టం, 2016 కింద యమునా జాతీయ జలమార్గం-110."
+    },
+    {
+     "en": "II. The service is implemented by the Inland Waterways Authority of India.",
+     "te": "II. ఈ సేవను భారత అంతర్గత జలమార్గాల ప్రాధికార సంస్థ (IWAI) అమలు చేస్తుంది."
+    },
+    {
+     "en": "III. It runs on the Sonia Vihar–Jagatpur stretch using electric vessels.",
+     "te": "III. ఇది సోనియా విహార్–జగత్‌పూర్ మార్గంలో విద్యుత్ నౌకలతో నడుస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct. Trap: thinking the Delhi government alone runs it — IWAI (Ministry of Ports, Shipping & Waterways) runs it with DDA, DTTDC and Delhi Jal Board.",
+    "te": "మూడూ సరైనవి. ట్రాప్: ఢిల్లీ ప్రభుత్వమే నడుపుతుందనుకోవడం — IWAI (ఓడరేవులు, షిప్పింగ్, జలమార్గాల శాఖ) DDA, DTTDC, ఢిల్లీ జల్ బోర్డుతో కలిసి నడుపుతుంది."
+   }
+  },
+  {
+   "topic": "shrivatri",
+   "q": {
+    "en": "Consider the following about India's 100th chess Grandmaster. Which of the statements is/are correct?",
+    "te": "భారత 100వ చెస్ గ్రాండ్‌మాస్టర్ గురించి కింది ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. Anuj Shrivatri is the first Grandmaster from Madhya Pradesh.",
+     "te": "I. అనుజ్ శ్రీవత్రి మధ్యప్రదేశ్ తొలి గ్రాండ్‌మాస్టర్."
+    },
+    {
+     "en": "II. He completed the title by winning an open championship in the Philippines.",
+     "te": "II. ఫిలిప్పీన్స్‌లో ఓపెన్ ఛాంపియన్‌షిప్ గెలిచి టైటిల్ సాధించాడు."
+    },
+    {
+     "en": "III. India's first Grandmaster, Viswanathan Anand, got the title in 1998.",
+     "te": "III. భారత తొలి గ్రాండ్‌మాస్టర్ విశ్వనాథన్ ఆనంద్ 1998లో టైటిల్ పొందాడు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and II are correct (7th ASEAN Plus Individual Open, Ozamiz City). III is the date trap: Anand became India's first GM in 1988, not 1998.",
+    "te": "I, II సరైనవి (7వ ASEAN ప్లస్ ఓపెన్, ఒజామిజ్ సిటీ). III తేదీ ట్రాప్: ఆనంద్ భారత తొలి GM అయింది 1988లో — 1998లో కాదు."
+   }
+  },
+  {
+   "topic": "ukday",
+   "q": {
+    "en": "Which of the following statements about Uttarakhand is/are correct?",
+    "te": "ఉత్తరాఖండ్ గురించి కింది ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. It was formed on 9 November 2000 as the 27th state, carved out of Uttar Pradesh.",
+     "te": "I. ఇది 2000 నవంబర్ 9న ఉత్తరప్రదేశ్ నుంచి విడిపోయి 27వ రాష్ట్రంగా ఏర్పడింది."
+    },
+    {
+     "en": "II. Its original name, Uttaranchal, was changed in 2007.",
+     "te": "II. దాని అసలు పేరు ఉత్తరాంచల్ 2007లో మారింది."
+    },
+    {
+     "en": "III. Bhararisain (Gairsain) is its winter capital.",
+     "te": "III. భరారిసైన్ (గైర్‌సైన్) దాని శీతాకాల రాజధాని."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and II are correct. III is reversed: Bhararisain (Gairsain) is the SUMMER capital; Dehradun is the WINTER capital.",
+    "te": "I, II సరైనవి. III తారుమారు: భరారిసైన్ (గైర్‌సైన్) వేసవి రాజధాని; డెహ్రాడూన్ శీతాకాల రాజధాని."
+   }
+  }
+ ]
+}
