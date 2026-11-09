@@ -1301,8 +1301,8 @@ function renderChart(){
   const thisWeekPatterns=currentFilteredPosition>=0?patterns.filter(p=>chainEnd(p)===currentFilteredPosition):[];
   const nextWeekPatterns=thisWeekPatterns.filter(p=>nextGapFor(p)===1);
   const presentRunningPatterns=thisWeekPatterns.filter(p=>nextGapFor(p)>1);
-  const గత నమూనాలుPatterns=patterns.filter(p=>chainEnd(p)!==currentFilteredPosition);
-  $('count').textContent=thisWeekPatterns.length+' ఈ వారం వచ్చిన నమూనాలు · '+nextWeekPatterns.length+' వచ్చే వారం రావాల్సి ఉంది · '+గత నమూనాలుPatterns.length+' గత నమూనాలు';
+  const historicalPatterns=patterns.filter(p=>chainEnd(p)!==currentFilteredPosition);
+  $('count').textContent=thisWeekPatterns.length+' ఈ వారం వచ్చిన నమూనాలు · '+nextWeekPatterns.length+' వచ్చే వారం రావాల్సి ఉంది · '+historicalPatterns.length+' గత నమూనాలు';
   const renderCards=(list)=>list.slice(0,300).map((p,n)=>{
    const end=p.steps[p.steps.length-1].to,marks=new Map();
    marks.set(p.start,new Set([p.duplicate]));
@@ -1320,7 +1320,7 @@ function renderChart(){
   }).join('');
   const section=(title,subtitle,list)=>'<section class="repeat-live-section"><h3>'+title+'</h3><p>'+subtitle+'</p>'+(list.length?renderCards(list):'<div class="empty">No confirmed chains in this category.</div>')+'</section>';
   const noCurrent=currentFilteredPosition<0?'<div class="empty"><strong>The latest chart week is not included in this Number+n filtered result.</strong>Current-week status cannot be confirmed until the search includes a match from the latest playing week.</div>':'';
-  $('tableArea').innerHTML='<div class="repeat-page"><h3>ANY NUMBER+n · CURRENT &amp; UPCOMING LINKED JODIS · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Only weeks returned by the Number+n search are analysed. Same-gap and systematic +1 chains remain separate. Current status is assigned only when a confirmed chain reaches the latest chart week. “Next week” means the next filtered-result week (gap 1), not a guaranteed outcome.</p>'+noCurrent+section('ఈ వారం వచ్చింది','Confirmed links whose final matched occurrence is in the latest chart week.',thisWeekPatterns)+section('వచ్చే వారం రావాల్సి ఉంది','Current chains whose next required filtered-result gap is exactly 1.',nextWeekPatterns)+section('ప్రస్తుతం కొనసాగుతోంది','Current chains continuing beyond the next filtered-result week; the next required gap is shown in each card.',presentRunningPatterns)+section('గత నమూనాలు','Older completed chains, kept separate from current-week results.',గత నమూనాలుPatterns)+(patterns.length>300?'<p>Showing up to 300 chains per section.</p>':'')+'</div>';
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>ANY NUMBER+n · CURRENT &amp; UPCOMING LINKED JODIS · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Only weeks returned by the Number+n search are analysed. Same-gap and systematic +1 chains remain separate. Current status is assigned only when a confirmed chain reaches the latest chart week. “Next week” means the next filtered-result week (gap 1), not a guaranteed outcome.</p>'+noCurrent+section('ఈ వారం వచ్చింది','Confirmed links whose final matched occurrence is in the latest chart week.',thisWeekPatterns)+section('వచ్చే వారం రావాల్సి ఉంది','Current chains whose next required filtered-result gap is exactly 1.',nextWeekPatterns)+section('ప్రస్తుతం కొనసాగుతోంది','Current chains continuing beyond the next filtered-result week; the next required gap is shown in each card.',presentRunningPatterns)+section('గత నమూనాలు','Older completed chains, kept separate from current-week results.',historicalPatterns)+(patterns.length>300?'<p>Showing up to 300 chains per section.</p>':'')+'</div>';
   return;
  }
 
@@ -1484,7 +1484,7 @@ function renderChart(){
   const activeUnique=[...new Map(activePatterns.map(p=>[patternKey(p),p])).values()];
   const mergedActive=mergeFinalJodiSiblings(activeUnique);
   const activeKeys=new Set(activeUnique.map(patternKey));
-  const గత నమూనాలుOnly=patterns.filter(p=>!activeKeys.has(patternKey(p)));
+  const historicalOnly=patterns.filter(p=>!activeKeys.has(patternKey(p)));
   mergedActive.sort((a,b)=>{const rank=p=>p.steps.some(x=>x.to===latestIndex)?0:p.failedAt===latestIndex?1:2;return rank(a)-rank(b)||b.steps.length-a.steps.length;});
   $('count').textContent=view==='linked'?(patterns.length+' గత నమూనాలు · '+running.length+' ప్రస్తుతం కొనసాగుతోంది · '+upcoming.length+' త్వరలో రావచ్చు'):patterns.length+' linked patterns';
   stats.hidden=true;
@@ -1522,7 +1522,7 @@ function renderChart(){
      (other.length?group('OTHER GAP',other,'#475569'):'');
    };
    const linkedContent=strategySection('ప్రస్తుతం కొనసాగుతోంది &amp; ABOUT TO COME',mergedActive,mergedActive,'#166534')+
-    strategySection('గత నమూనాలు',గత నమూనాలుOnly,గత నమూనాలుOnly,'#475569');
+    strategySection('గత నమూనాలు',historicalOnly,historicalOnly,'#475569');
    $('tableArea').innerHTML='<div class="repeat-page"><h3>'+(view==='linked'?'LINKED JODI SEQUENCES':'SEPARATE LINKED JODI SEARCH')+' · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">'+linkedIntro+'</p>'+(view==='linked'?linkedContent:(cardsFor(patterns,patterns,playingRows,days,valid,esc)||'<div class="empty">No linked patterns found.</div>'))+'</div>';
   return;
  }
