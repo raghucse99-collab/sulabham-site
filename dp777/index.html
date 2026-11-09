@@ -1091,7 +1091,10 @@ function renderChart(){
  const targetSearchRowsWithSource=displayRows.map((row,index)=>({row,index}))
   .filter(item=>repeatDays.some(day=>/^\d{2}$/.test(String(item.row[day+' Jodi']??'').trim())));
  const targetSearchRows=targetSearchRowsWithSource.map(item=>item.row);
- const targetSearch=targetJodiSearch(targetSearchRows,$('search').value,repeatDays);
+ const selectedSearchDay=$('daySearch').value;
+ const targetSearchDays=selectedSearchDay==='all'?repeatDays:
+  (['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].includes(selectedSearchDay)?[selectedSearchDay]:repeatDays);
+ const targetSearch=targetJodiSearch(targetSearchRows,$('search').value,targetSearchDays);
  const years=[...new Set(allRows.map(r=>String(r.date||'').match(/\b(?:19|20)\d{2}\b/)?.[0]).filter(Boolean))].sort().reverse();
  const prev=$('year').value;
  $('year').innerHTML='<option value="all">All years</option>'+years.map(y=>'<option value="'+y+'">'+y+'</option>').join('');
