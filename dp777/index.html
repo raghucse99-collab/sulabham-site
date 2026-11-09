@@ -1097,7 +1097,11 @@ function renderChart(){
   // Friday Jodis progress by +10 in chronological order. Intervening Friday
   // results may be anything. Monday targets are checked at the specified offsets.
   stats.hidden=true;
-  const progressionRows=allRows.slice().sort((a,b)=>String(parseWeekStart(a?.date)||'').localeCompare(String(parseWeekStart(b?.date)||'')));
+  const marketDays=['Mon','Tue','Wed','Thu','Fri','Sat'];
+  const hasAnyMarketResult=row=>marketDays.some(day=>/^\\d{2}$/.test(String(row?.[day+' Jodi']??'').trim()));
+  // A fully closed week is not a market week: omit it from progression,
+  // gap counting, and the expandable weekly chart for every selected market.
+  const progressionRows=allRows.filter(hasAnyMarketResult).slice().sort((a,b)=>String(parseWeekStart(a?.date)||'').localeCompare(String(parseWeekStart(b?.date)||'')));
   const fridayStarts=Array.from({length:100},(_,i)=>String(i).padStart(2,'0'));
   const validJodi=v=>/^\d{2}$/.test(String(v??'').trim());
   const occurrences=new Map(fridayStarts.map(j=>[j,[]]));
