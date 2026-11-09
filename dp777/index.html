@@ -1167,7 +1167,7 @@ function renderChart(){
   // Display the actual result chart after every Monday 00 anchor.
   // Each column is a published Jodi-result position after the anchor.
   const chartGapLimit=12;
-  const chartRows=anchors.map((a,i)=>{
+  const mondayResultChartRows=anchors.map((a,i)=>{
    const cells=Array.from({length:chartGapLimit},(_,k)=>{
     const hit=resultSequence[a.index+k+1];
     return '<td>'+(hit?'<strong>'+esc(hit.value)+'</strong><small>'+esc(hit.day)+'</small>':'·')+'</td>';
@@ -1175,7 +1175,7 @@ function renderChart(){
    return '<tr><th class="repeat-week-date"><b>#'+(i+1)+'</b><small>'+esc(a.item.row.date||'')+'</small></th><td class="repeat-hit"><strong>00</strong><small>Mon</small></td>'+cells+'</tr>';
   }).join('');
   const chartHeaders=Array.from({length:chartGapLimit},(_,k)=>'<th>Gap '+(k+1)+'</th>').join('');
-  const auditTable='<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>MONDAY 00 · RESULT PROGRESSION CHART</strong><span>'+anchors.length+' anchors</span></div><p class="repeat-explain">Each row starts at a real Monday 00. Read across the row: Gap 1, Gap 2, Gap 3… are the next published Jodi results in chart order, regardless of weekday. Compare the same gap column down the rows to check +10 progression.</p><div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Monday 00 date</th><th>Anchor</th>'+chartHeaders+'</tr></thead><tbody>'+chartRows+'</tbody></table></div></section>';
+  const auditTable='<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>MONDAY 00 · RESULT PROGRESSION CHART</strong><span>'+anchors.length+' anchors</span></div><p class="repeat-explain">Each row starts at a real Monday 00. Read across the row: Gap 1, Gap 2, Gap 3… are the next published Jodi results in chart order, regardless of weekday. Compare the same gap column down the rows to check +10 progression.</p><div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Monday 00 date</th><th>Anchor</th>'+chartHeaders+'</tr></thead><tbody>'+mondayResultChartRows+'</tbody></table></div></section>';
   // Enumerate consecutive 00 occurrences only. A run qualifies when all
   // consecutive distances are identical and there are at least five 00s.
   for(let start=0;start<=occurrences.length-5;start++){
