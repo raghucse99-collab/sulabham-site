@@ -1128,13 +1128,13 @@ function renderChart(){
   });
   const sameJodiRuns=[];
   for(let start=0;start<anchors.length;start++){
-   for(let gap=1;gap<100;gap++){
-    const firstTarget=resultSequence[anchors[start].index+gap];
+   for(let gap=0;gap<99;gap++){
+    const firstTarget=resultSequence[anchors[start].index+gap+1];
     if(!firstTarget||!valid(firstTarget.value)||firstTarget.value==='00')continue;
     const jodi=firstTarget.value,items=[{anchor:anchors[start],target:firstTarget,gap}];
     let next=start+1;
     while(next<anchors.length){
-     const target=resultSequence[anchors[next].index+gap];
+     const target=resultSequence[anchors[next].index+gap+1];
      if(!target||target.value!==jodi)break;
      items.push({anchor:anchors[next],target,gap});
      next++;
@@ -1155,7 +1155,7 @@ function renderChart(){
     const isAnchor=x.day==='Mon'&&x.value==='00',isTarget=x.value===p.jodi&&p.items.some(y=>y.target===x);
     return '<tr><td>'+(i+1)+'</td><td>'+esc(x.row.date||'')+'</td><td>'+esc(x.day)+'</td><td class="'+(isAnchor||isTarget?'repeat-hit':'')+'">'+esc(x.value)+'</td><td>'+(isAnchor?'MONDAY 00':isTarget?'SAME JODI':'Gap result')+'</td></tr>';
    }).join('')+'</tbody></table></div>';
-   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · MONDAY 00 → SAME JODI</strong><span>'+p.items.length+' anchors · Jodi '+esc(p.jodi)+' · gap '+p.gap+'</span></div><div class="repeat-watch"><b>00 → '+esc(p.jodi)+'</b><div>Same Jodi appears at result position '+p.gap+' after each Monday 00 anchor.</div><small>At least 4 Monday 00 occurrences are required. Count published result entries across weekdays, not calendar days or weeks.</small></div><div class="repeat-steps">'+steps+'</div><details class="repeat-history"><summary>Show result-by-result gap sequence</summary>'+table+'</details></section>';
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · MONDAY 00 → SAME JODI</strong><span>'+p.items.length+' anchors · Jodi '+esc(p.jodi)+' · gap '+p.gap+'</span></div><div class="repeat-watch"><b>00 → '+esc(p.jodi)+'</b><div>Same Jodi appears after '+p.gap+' intervening result gaps after each Monday 00 anchor.</div><small>At least 4 Monday 00 occurrences are required. Count published result entries across weekdays, not calendar days or weeks.</small></div><div class="repeat-steps">'+steps+'</div><details class="repeat-history"><summary>Show result-by-result gap sequence</summary>'+table+'</details></section>';
   }).join('');
   // Enumerate consecutive 00 occurrences only. A run qualifies when all
   // consecutive distances are identical and there are at least five 00s.
@@ -1176,7 +1176,7 @@ function renderChart(){
    const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Playing week</th><th>Monday Jodi</th></tr></thead><tbody>'+playingRows.slice(first,last+1).map((row,k)=>{const ix=first+k,hit=String(row['Mon Jodi']??'').trim()==='00';return '<tr class="'+(hit?'repeat-occurrence-row':'')+'"><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+esc(row.date||'')+'</small></td><td class="'+(hit?'repeat-hit':'')+'">'+(valid(row['Mon Jodi'])?(hit?'<strong>00</strong>':esc(String(row['Mon Jodi']).trim())):'·')+'</td></tr>';}).join('')+'</tbody></table></div>';
    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · MONDAY 00 · EQUAL DISTANCE</strong><span>'+p.items.length+' occurrences · '+p.distance+' playing weeks apart</span></div><div class="repeat-watch"><b>00 occurrences: '+p.items.length+'</b><div>Equal distance: <strong>'+p.distance+' playing weeks</strong></div><small>Only Monday Jodi 00 is counted. Other Monday numbers between occurrences are allowed.</small></div><div class="repeat-steps">'+links+'</div><details class="repeat-history"><summary>Show Monday rows between occurrences</summary>'+table+'</details></section>';
   }).join('');
-  $('tableArea').innerHTML='<div class="repeat-page"><h3>MONDAY 00 · SEPARATE PATTERN SEARCHES</h3><p class="repeat-explain">Search A: Monday 00 occurrences at equal playing-week distances. Search B: between consecutive Monday 00 anchors, the same Jodi must appear at the same result-position gap anywhere Monday–Sunday. Check up to at least 4 Monday 00 occurrences; the gap counts published Jodi results, not days or weeks. Fully blank/closed result cells are skipped. Historical pattern analysis only.</p><h3 style="margin-top:10px">A · MONDAY 00 EQUAL WEEK DISTANCE</h3>'+(cards||'<div class="empty">No equal-distance Monday 00 sequence with at least five occurrences was found.</div>')+'<h3 style="margin-top:14px">B · MONDAY 00 → SAME JODI AFTER 3 RESULT GAPS</h3>'+(sameJodiCards||'<div class="empty"><strong>No matching same-Jodi sequence with at least four Monday 00 anchors was found.</strong></div>')+'</div>';
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>MONDAY 00 · SEPARATE PATTERN SEARCHES</h3><p class="repeat-explain">Search A: Monday 00 occurrences at equal playing-week distances. Search B: between consecutive Monday 00 anchors, the same Jodi must appear at the same result-position gap anywhere Monday–Sunday. Require at least 4 Monday 00 occurrences; the gap counts published Jodi results, not days or weeks. Fully blank/closed result cells are skipped. Historical pattern analysis only.</p><h3 style="margin-top:10px">A · MONDAY 00 EQUAL WEEK DISTANCE</h3>'+(cards||'<div class="empty">No equal-distance Monday 00 sequence with at least five occurrences was found.</div>')+'<h3 style="margin-top:14px">B · MONDAY 00 → SAME JODI AT THE SAME RESULT GAP</h3>'+(sameJodiCards||'<div class="empty"><strong>No matching same-Jodi sequence with at least four Monday 00 anchors was found.</strong></div>')+'</div>';
   return;
  }
  
