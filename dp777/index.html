@@ -1752,6 +1752,19 @@ function renderChart(){
    return (newestByPair.get(pb)-newestByPair.get(pa))||((parseWeekStart(b)||0)-(parseWeekStart(a)||0));
   });
  }
+ // On a new Monday, show a fresh blank current-week line even before the
+ // first result is published. The previous completed week remains historical.
+ // Apply only to the unfiltered chart view; never inject synthetic rows into searches.
+ if(yr==='all'&&!q&&activeDay==='all'&&['jodi','panel'].includes(view)&&rows.length){
+  const current=currentWeekDayKey(),latest=rows[rows.length-1],latestStart=parseWeekStart(latest.date);
+  if(latestStart&&latestStart<current.weekStart){
+   const start=new Date(current.weekStart+'T00:00:00Z'),end=new Date(start);end.setUTCDate(end.getUTCDate()+6);
+   const fmt=d=>String(d.getUTCDate()).padStart(2,'0')+'/'+String(d.getUTCMonth()+1).padStart(2,'0')+'/'+d.getUTCFullYear();
+   const fresh={date:fmt(start)+' to '+fmt(end)};
+   Object.keys(latest).forEach(k=>{if(k!=='date'&&k!=='week')fresh[k]='';});
+   rows=rows.concat([fresh]);
+  }
+ }
  $('count').textContent=rows.length+' records';
  if(view==='source'){$('tableArea').innerHTML='<div class="empty"><strong>Original source chart</strong><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open '+esc(m.name)+' original chart ↗</a><p>Source page opens separately.</p></div>';return;}
  
