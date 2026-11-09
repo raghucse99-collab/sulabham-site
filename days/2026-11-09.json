@@ -1,0 +1,2026 @@
+{
+ "date": "2026-11-09",
+ "day": {
+  "en": "Monday, 9 November 2026",
+  "te": "సోమవారం, 9 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Legal aid",
+   "en": "free help from a lawyer for people who cannot pay",
+   "te": "న్యాయ సహాయం (ఫీజు చెల్లించలేని వారికి ఉచితంగా న్యాయవాది సహాయం)",
+   "ex": "Persons in custody and SC/ST members are entitled to free legal aid under the 1987 Act.",
+   "topic": "legalday"
+  },
+  {
+   "w": "Reunification",
+   "en": "joining again into one after being divided",
+   "te": "పునరేకీకరణ (విడిపోయిన తర్వాత మళ్లీ ఒక్కటవడం)",
+   "ex": "The fall of the Berlin Wall paved the way for German reunification on 3 October 1990.",
+   "topic": "berlinwall"
+  },
+  {
+   "w": "Viability gap",
+   "en": "the shortfall that makes a useful project not profitable enough",
+   "te": "లాభసాటి లోటు (ఉపయోగకరమైన ప్రాజెక్టు లాభసాటి కాకపోవడానికి కారణమైన లోటు)",
+   "ex": "The ₹14,500-crore scheme fills the viability gap of new battery and pumped storage projects.",
+   "topic": "storagevgf"
+  },
+  {
+   "w": "Pendency",
+   "en": "cases waiting to be decided",
+   "te": "పెండింగ్ (పరిష్కారం కాని కేసుల సంఖ్య)",
+   "ex": "Even as High Court vacancies fall, pendency of cases remains high.",
+   "topic": "hcjudges"
+  },
+  {
+   "w": "Consortium",
+   "en": "a group of organisations working together on one project",
+   "te": "కన్సార్టియం (ఒకే ప్రాజెక్టుపై కలిసి పనిచేసే సంస్థల సమూహం)",
+   "ex": "After association, Indian scientists could lead a Horizon Europe research consortium.",
+   "topic": "horizon"
+  }
+ ],
+ "items": [
+  {
+   "id": "legalday",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "tag": {
+    "en": "National Legal Services Day · 9 November",
+    "te": "జాతీయ న్యాయ సేవల దినోత్సవం · 9 నవంబర్"
+   },
+   "title": {
+    "en": "National Legal Services Day — free legal aid for those who cannot pay",
+    "te": "జాతీయ న్యాయ సేవల దినోత్సవం — ఖర్చు భరించలేని వారికి ఉచిత న్యాయ సహాయం"
+   },
+   "line": {
+    "en": "Marks the day the Legal Services Authorities Act, 1987 came into force (9 Nov 1995) — justice should not depend on money.",
+    "te": "న్యాయ సేవల ప్రాధికార సంస్థల చట్టం, 1987 అమల్లోకి వచ్చిన రోజు (9 నవంబర్ 1995) — న్యాయం డబ్బుపై ఆధారపడకూడదు."
+   },
+   "easy": [
+    {
+     "en": "A poor labourer whose land is taken, or a woman facing violence at home, may not be able to pay a lawyer. If only those with money can go to court, 'equality before law' stays on paper. So the Constitution asks the State to give free legal aid.",
+     "te": "భూమి కోల్పోయిన పేద కూలీ లేదా ఇంట్లో హింస ఎదుర్కొంటున్న మహిళ న్యాయవాదికి ఫీజు చెల్లించలేకపోవచ్చు. డబ్బున్న వాళ్లే కోర్టుకు వెళ్లగలిగితే 'చట్టం ముందు అందరూ సమానం' అనేది కాగితానికే పరిమితం. అందుకే ఉచిత న్యాయ సహాయం అందించాలని రాజ్యాంగం ప్రభుత్వాన్ని కోరుతుంది."
+    },
+    {
+     "en": "Article 39A (added by the 42nd Amendment, 1976) is a Directive Principle on equal justice and free legal aid. To put it into practice, Parliament passed the Legal Services Authorities Act in 1987, but it came into force only on 9 November 1995. That is why 9 November is National Legal Services Day.",
+     "te": "ఆర్టికల్ 39A (42వ సవరణ, 1976 ద్వారా చేర్చారు) సమాన న్యాయం, ఉచిత న్యాయ సహాయంపై ఆదేశిక సూత్రం. దీన్ని అమలు చేయడానికి పార్లమెంటు 1987లో న్యాయ సేవల ప్రాధికార సంస్థల చట్టం చేసింది; కానీ అది 1995 నవంబర్ 9న మాత్రమే అమల్లోకి వచ్చింది. అందుకే నవంబర్ 9 జాతీయ న్యాయ సేవల దినోత్సవం."
+    },
+    {
+     "en": "The Act built a ladder of bodies from Delhi to the taluk, and gave legal status to Lok Adalats — 'people's courts' that settle disputes by compromise.",
+     "te": "ఈ చట్టం ఢిల్లీ నుంచి తాలూకా వరకు సంస్థల నిచ్చెనను ఏర్పాటు చేసింది; రాజీ ద్వారా వివాదాలను పరిష్కరించే 'ప్రజా కోర్టులు' అయిన లోక్ అదాలత్‌లకు చట్టబద్ధ హోదా ఇచ్చింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Act",
+      "te": "చట్టం"
+     },
+     {
+      "en": "Legal Services Authorities Act, 1987 — in force from 9 November 1995",
+      "te": "న్యాయ సేవల ప్రాధికార సంస్థల చట్టం, 1987 — 1995 నవంబర్ 9 నుంచి అమలు"
+     }
+    ],
+    [
+     {
+      "en": "Constitution",
+      "te": "రాజ్యాంగం"
+     },
+     {
+      "en": "Article 39A (Directive Principle) — inserted by the 42nd Amendment, 1976",
+      "te": "ఆర్టికల్ 39A (ఆదేశిక సూత్రం) — 42వ సవరణ, 1976 ద్వారా చేర్పు"
+     }
+    ],
+    [
+     {
+      "en": "NALSA",
+      "te": "NALSA"
+     },
+     {
+      "en": "National Legal Services Authority — Patron-in-Chief: Chief Justice of India",
+      "te": "జాతీయ న్యాయ సేవల ప్రాధికార సంస్థ — ప్యాట్రన్-ఇన్-చీఫ్: భారత ప్రధాన న్యాయమూర్తి"
+     }
+    ],
+    [
+     {
+      "en": "State / District",
+      "te": "రాష్ట్రం / జిల్లా"
+     },
+     {
+      "en": "SLSA — Patron-in-Chief: Chief Justice of the High Court; DLSA — headed by the District Judge",
+      "te": "SLSA — ప్యాట్రన్-ఇన్-చీఫ్: హైకోర్టు ప్రధాన న్యాయమూర్తి; DLSA — జిల్లా జడ్జి నేతృత్వం"
+     }
+    ],
+    [
+     {
+      "en": "Network (PIB, 2022)",
+      "te": "నెట్‌వర్క్ (PIB, 2022)"
+     },
+     {
+      "en": "37 SLSAs, 673 DLSAs, 2,465 Taluk Legal Services Committees",
+      "te": "37 SLSAలు, 673 DLSAలు, 2,465 తాలూకా న్యాయ సేవల కమిటీలు"
+     }
+    ],
+    [
+     {
+      "en": "Who gets free aid",
+      "te": "ఉచిత సహాయం ఎవరికి"
+     },
+     {
+      "en": "SC/ST, women, children, victims of trafficking or disaster, persons with disability, industrial workmen, persons in custody, low-income persons",
+      "te": "SC/ST, మహిళలు, పిల్లలు, అక్రమ రవాణా/విపత్తు బాధితులు, దివ్యాంగులు, పారిశ్రామిక కార్మికులు, కస్టడీలో ఉన్నవారు, తక్కువ ఆదాయం ఉన్నవారు"
+     }
+    ],
+    [
+     {
+      "en": "Lok Adalat award",
+      "te": "లోక్ అదాలత్ అవార్డు"
+     },
+     {
+      "en": "Final and binding — no appeal; has the effect of a civil court decree",
+      "te": "తుది, కట్టుబడే నిర్ణయం — అప్పీలు లేదు; సివిల్ కోర్టు డిక్రీతో సమాన ప్రభావం"
+     }
+    ],
+    [
+     {
+      "en": "Criminal defence",
+      "te": "క్రిమినల్ డిఫెన్స్"
+     },
+     {
+      "en": "Legal Aid Defense Counsel System (LADCS) under NALSA",
+      "te": "NALSA కింద లీగల్ ఎయిడ్ డిఫెన్స్ కౌన్సెల్ సిస్టమ్ (LADCS)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Polity",
+     "te": "లింక్ చెయిన్ · పాలిటీ"
+    },
+    "l": [
+     {
+      "en": "Article 14 — equality before law; Article 39A — makes that equality real for the poor",
+      "te": "ఆర్టికల్ 14 — చట్టం ముందు సమానత్వం; ఆర్టికల్ 39A — పేదలకు ఆ సమానత్వాన్ని నిజం చేస్తుంది"
+     },
+     {
+      "en": "Article 22(1) — an arrested person has the right to consult a lawyer; legal aid makes this usable for the poor",
+      "te": "ఆర్టికల్ 22(1) — అరెస్టయిన వ్యక్తికి న్యాయవాదిని సంప్రదించే హక్కు; పేదలకు ఈ హక్కు ఉపయోగపడేలా చేసేది న్యాయ సహాయమే"
+     },
+     {
+      "en": "AP: AP State Legal Services Authority (Patron-in-Chief: Chief Justice of AP High Court) and a DLSA in every district",
+      "te": "ఏపీ: ఏపీ రాష్ట్ర న్యాయ సేవల ప్రాధికార సంస్థ (ప్యాట్రన్-ఇన్-చీఫ్: ఏపీ హైకోర్టు ప్రధాన న్యాయమూర్తి), ప్రతి జిల్లాలో DLSA"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Act passed in 1987 but came into force in 1995 — the Day marks 1995. Article 39A is a Directive Principle (Part IV), not a Fundamental Right, and it was not in the original Constitution.",
+    "te": "చట్టం 1987లో ఆమోదం, 1995లో అమలు — దినోత్సవం 1995 అమలు తేదీకి గుర్తు. ఆర్టికల్ 39A ఆదేశిక సూత్రం (భాగం IV), ప్రాథమిక హక్కు కాదు; మూల రాజ్యాంగంలో లేదు."
+   },
+   "tip": {
+    "en": "'39A = Aid': 42 → 87 → 95 (Amendment → Act → in force).",
+    "te": "'39A = Aid (సహాయం)': 42 → 87 → 95 (సవరణ → చట్టం → అమలు)."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to legal aid in India, consider the following statements:",
+     "te": "భారత్‌లో న్యాయ సహాయానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. Article 39A was part of the original Constitution of 1950.",
+      "te": "I. ఆర్టికల్ 39A 1950 మూల రాజ్యాంగంలోనే ఉంది."
+     },
+     {
+      "en": "II. National Legal Services Day marks the date the Legal Services Authorities Act came into force.",
+      "te": "II. న్యాయ సేవల ప్రాధికార సంస్థల చట్టం అమల్లోకి వచ్చిన తేదీకి గుర్తుగా జాతీయ న్యాయ సేవల దినోత్సవం జరుపుతారు."
+     },
+     {
+      "en": "III. An award of a Lok Adalat can be challenged in appeal before the District Court.",
+      "te": "III. లోక్ అదాలత్ అవార్డుపై జిల్లా కోర్టులో అప్పీలు చేయవచ్చు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "Only II is correct. I is wrong: Article 39A came through the 42nd Amendment, 1976. III is wrong: a Lok Adalat award is final — no appeal lies against it.",
+     "te": "II మాత్రమే సరైనది. I తప్పు: ఆర్టికల్ 39A 42వ సవరణ (1976) ద్వారా వచ్చింది. III తప్పు: లోక్ అదాలత్ అవార్డు తుది నిర్ణయం — దానిపై అప్పీలు లేదు."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "From Constitution to your district",
+      "te": "రాజ్యాంగం నుంచి మీ జిల్లా వరకు"
+     },
+     "items": [
+      {
+       "i": "📜",
+       "t": {
+        "en": "1976: Art. 39A (42nd Amendment)",
+        "te": "1976: ఆర్టి. 39A (42వ సవరణ)"
+       }
+      },
+      {
+       "i": "🏛️",
+       "t": {
+        "en": "1987: Legal Services Authorities Act passed",
+        "te": "1987: న్యాయ సేవల ప్రాధికార చట్టం ఆమోదం"
+       }
+      },
+      {
+       "i": "📅",
+       "t": {
+        "en": "9 Nov 1995: Act in force",
+        "te": "9 నవంబర్ 1995: చట్టం అమలు"
+       }
+      },
+      {
+       "i": "⚖️",
+       "t": {
+        "en": "NALSA → SLSA → DLSA → Taluk committee",
+        "te": "NALSA → SLSA → DLSA → తాలూకా కమిటీ"
+       }
+      },
+      {
+       "i": "🤝",
+       "t": {
+        "en": "Free lawyer + Lok Adalat for the needy",
+        "te": "అవసరమైనవారికి ఉచిత న్యాయవాది + లోక్ అదాలత్"
+       }
+      }
+     ]
+    },
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "Legal services network",
+      "te": "న్యాయ సేవల నెట్‌వర్క్"
+     },
+     "c": {
+      "en": "Legal Services Authorities Act, 1987",
+      "te": "న్యాయ సేవల ప్రాధికార సంస్థల చట్టం, 1987"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "NALSA (national)",
+        "te": "NALSA (జాతీయ)"
+       },
+       "l": [
+        {
+         "en": "Patron-in-Chief: CJI",
+         "te": "ప్యాట్రన్-ఇన్-చీఫ్: CJI"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "SLSA (State)",
+        "te": "SLSA (రాష్ట్రం)"
+       },
+       "l": [
+        {
+         "en": "Patron-in-Chief: HC Chief Justice",
+         "te": "ప్యాట్రన్-ఇన్-చీఫ్: హైకోర్టు CJ"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "DLSA (District)",
+        "te": "DLSA (జిల్లా)"
+       },
+       "l": [
+        {
+         "en": "Headed by District Judge",
+         "te": "జిల్లా జడ్జి నేతృత్వం"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Lok Adalat",
+        "te": "లోక్ అదాలత్"
+       },
+       "l": [
+        {
+         "en": "Compromise",
+         "te": "రాజీ"
+        },
+        {
+         "en": "No appeal",
+         "te": "అప్పీలు లేదు"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Free aid for",
+        "te": "ఉచిత సహాయం"
+       },
+       "l": [
+        {
+         "en": "SC/ST, women, children",
+         "te": "SC/ST, మహిళలు, పిల్లలు"
+        },
+        {
+         "en": "Persons in custody",
+         "te": "కస్టడీలో ఉన్నవారు"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB (Ministry of Law & Justice) — National Legal Service Day, 11 Feb 2022",
+     "u": "https://pib.gov.in/PressReleasePage.aspx?PRID=1797658"
+    },
+    {
+     "t": "All India Radio — National Legal Services Day is being observed across country today, 9 Nov 2024",
+     "u": "https://www.newsonair.gov.in/national-legal-services-day-is-being-observed-across-country-today"
+    },
+    {
+     "t": "Vajiram & Ravi — National Legal Services Day 2026 (cross-check)",
+     "u": "https://vajiramandravi.com/current-affairs/national-legal-services-day-2026/"
+    },
+    {
+     "t": "Vision IAS — Legal Services Authorities Act, 1987 marks 30 years of implementation, 10 Nov 2025 (cross-check)",
+     "u": "https://dce.visionias.in/news-today/2025-11-10/polity-and-governance/legal-services-authorities-act-1987-marks-30-years-of-implementation"
+    }
+   ]
+  },
+  {
+   "id": "berlinwall",
+   "kind": "day",
+   "color": "#7a3b8f",
+   "icon": "unsc",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "tag": {
+    "en": "Anniversary · 9 Nov 1989",
+    "te": "వార్షికోత్సవం · 9 నవంబర్ 1989"
+   },
+   "title": {
+    "en": "Fall of the Berlin Wall (9 November 1989)",
+    "te": "బెర్లిన్ గోడ పతనం (9 నవంబర్ 1989)"
+   },
+   "line": {
+    "en": "The symbol of the Cold War fell; Germany reunited on 3 October 1990 — a turning point of world history.",
+    "te": "ప్రచ్ఛన్న యుద్ధానికి గుర్తు అయిన గోడ కూలింది; 1990 అక్టోబర్ 3న జర్మనీ తిరిగి ఏకమైంది — ప్రపంచ చరిత్రలో మలుపు."
+   },
+   "easy": [
+    {
+     "en": "After the Second World War, Germany was split. East Germany (German Democratic Republic, GDR) was a communist state in the Soviet bloc; West Germany was with the US-supported West. Berlin city was also divided, and many East Germans were escaping to the West through West Berlin.",
+     "te": "రెండో ప్రపంచ యుద్ధం తర్వాత జర్మనీ రెండుగా విడిపోయింది. తూర్పు జర్మనీ (జర్మన్ డెమోక్రటిక్ రిపబ్లిక్, GDR) సోవియట్ కూటమిలోని కమ్యూనిస్టు దేశం; పశ్చిమ జర్మనీ అమెరికా మద్దతున్న పశ్చిమ కూటమిలో ఉంది. బెర్లిన్ నగరం కూడా విడిపోయింది; చాలా మంది తూర్పు జర్మన్లు పశ్చిమ బెర్లిన్ ద్వారా పశ్చిమానికి పారిపోతున్నారు."
+    },
+    {
+     "en": "To stop this exodus, East Germany built a wall around West Berlin in 1961 — about 155 km long. At least 140 people were killed trying to cross it.",
+     "te": "ఈ వలసను ఆపడానికి తూర్పు జర్మనీ 1961లో పశ్చిమ బెర్లిన్ చుట్టూ సుమారు 155 కి.మీ. పొడవైన గోడ కట్టింది. దాటడానికి ప్రయత్నించి కనీసం 140 మంది చనిపోయారు."
+    },
+    {
+     "en": "On the evening of 9 November 1989, GDR party official Günter Schabowski announced — in a confusing statement — that East Germans could travel freely. Huge crowds reached the checkpoints, guards opened the gates and people climbed the Wall. Less than a year later, on 3 October 1990, Germany was reunified.",
+     "te": "1989 నవంబర్ 9 సాయంత్రం GDR పార్టీ అధికారి గుంటర్ షాబోవ్‌స్కీ గందరగోళంగా చేసిన ప్రకటనలో తూర్పు జర్మన్లు స్వేచ్ఛగా ప్రయాణించవచ్చని చెప్పారు. భారీ జనం చెక్‌పాయింట్ల వద్దకు చేరారు; గార్డులు గేట్లు తెరిచారు; ప్రజలు గోడ ఎక్కారు. ఏడాది లోపే, 1990 అక్టోబర్ 3న జర్మనీ ఏకీకరణ జరిగింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Built",
+      "te": "నిర్మాణం"
+     },
+     {
+      "en": "1961, by East Germany (GDR) — around West Berlin",
+      "te": "1961, తూర్పు జర్మనీ (GDR) — పశ్చిమ బెర్లిన్ చుట్టూ"
+     }
+    ],
+    [
+     {
+      "en": "Why",
+      "te": "ఎందుకు"
+     },
+     {
+      "en": "To stop East Germans escaping to the West",
+      "te": "తూర్పు జర్మన్లు పశ్చిమానికి పారిపోకుండా ఆపడానికి"
+     }
+    ],
+    [
+     {
+      "en": "Length",
+      "te": "పొడవు"
+     },
+     {
+      "en": "About 155 km",
+      "te": "సుమారు 155 కి.మీ."
+     }
+    ],
+    [
+     {
+      "en": "Fall",
+      "te": "పతనం"
+     },
+     {
+      "en": "Evening of 9 November 1989 — after Günter Schabowski's travel announcement",
+      "te": "1989 నవంబర్ 9 సాయంత్రం — గుంటర్ షాబోవ్‌స్కీ ప్రయాణ ప్రకటన తర్వాత"
+     }
+    ],
+    [
+     {
+      "en": "Reunification",
+      "te": "ఏకీకరణ"
+     },
+     {
+      "en": "3 October 1990",
+      "te": "3 అక్టోబర్ 1990"
+     }
+    ],
+    [
+     {
+      "en": "Deaths",
+      "te": "మరణాలు"
+     },
+     {
+      "en": "At least 140 people killed trying to flee",
+      "te": "పారిపోయే ప్రయత్నంలో కనీసం 140 మంది మృతి"
+     }
+    ],
+    [
+     {
+      "en": "Landmark",
+      "te": "గుర్తు"
+     },
+     {
+      "en": "Brandenburg Gate stands on the Wall's former path",
+      "te": "గోడ ఉండిన మార్గంలోనే బ్రాండెన్‌బర్గ్ గేట్"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · World history",
+     "te": "లింక్ చెయిన్ · ప్రపంచ చరిత్ర"
+    },
+    "l": [
+     {
+      "en": "Cold War = US-led West vs Soviet-controlled communist bloc; the Wall was its symbol",
+      "te": "ప్రచ్ఛన్న యుద్ధం = అమెరికా నేతృత్వ పశ్చిమ కూటమి vs సోవియట్ కమ్యూనిస్టు కూటమి; గోడ దానికి గుర్తు"
+     },
+     {
+      "en": "Soviet leader then: Mikhail Gorbachev (wrote to West German Chancellor Helmut Kohl on 10 Nov 1989)",
+      "te": "అప్పటి సోవియట్ నేత: మిఖాయిల్ గోర్బచేవ్ (1989 నవంబర్ 10న పశ్చిమ జర్మనీ ఛాన్సలర్ హెల్మట్ కోల్‌కు సందేశం)"
+     },
+     {
+      "en": "The fall opened the way to the collapse of communism in Eastern Europe",
+      "te": "గోడ పతనం తూర్పు ఐరోపాలో కమ్యూనిజం పతనానికి దారి తీసింది"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Two different dates: the Wall FELL on 9 Nov 1989; Germany REUNIFIED on 3 Oct 1990. The Wall was built by East Germany (not by the Western Allies) and it went around West Berlin.",
+    "te": "రెండు వేర్వేరు తేదీలు: గోడ పతనం 9 నవంబర్ 1989; జర్మనీ ఏకీకరణ 3 అక్టోబర్ 1990. గోడను కట్టింది తూర్పు జర్మనీ (పశ్చిమ దేశాలు కాదు); అది పశ్చిమ బెర్లిన్ చుట్టూ ఉంది."
+   },
+   "tip": {
+    "en": "'61 up, 89 down, 90 one' — built, fell, one Germany.",
+    "te": "'61 లేచింది, 89 కూలింది, 90 ఒక్కటైంది' — నిర్మాణం, పతనం, ఏకీకరణ."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the Berlin Wall:",
+     "te": "బెర్లిన్ గోడకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It was built in 1961 by East Germany to stop people leaving for the West.",
+      "te": "I. ప్రజలు పశ్చిమానికి వెళ్లకుండా ఆపేందుకు 1961లో తూర్పు జర్మనీ దీనిని నిర్మించింది."
+     },
+     {
+      "en": "II. Germany was reunified on the same day the Wall was opened.",
+      "te": "II. గోడ తెరిచిన రోజునే జర్మనీ ఏకీకరణ జరిగింది."
+     },
+     {
+      "en": "III. The Wall was opened after a GDR official announced freedom to travel.",
+      "te": "III. ప్రయాణ స్వేచ్ఛ ఉంటుందని GDR అధికారి ప్రకటించిన తర్వాత గోడ తెరుచుకుంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "I and III are correct. II is wrong: the Wall opened on 9 Nov 1989; reunification came on 3 Oct 1990.",
+     "te": "I, III సరైనవి. II తప్పు: గోడ 1989 నవంబర్ 9న తెరుచుకుంది; ఏకీకరణ 1990 అక్టోబర్ 3న జరిగింది."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "The Wall in dates",
+      "te": "తేదీల్లో బెర్లిన్ గోడ"
+     },
+     "items": [
+      {
+       "y": "1961",
+       "t": {
+        "en": "East Germany builds the Wall (~155 km) around West Berlin",
+        "te": "తూర్పు జర్మనీ పశ్చిమ బెర్లిన్ చుట్టూ గోడ (~155 కి.మీ.) నిర్మాణం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1961–89",
+       "t": {
+        "en": "At least 140 killed trying to flee",
+        "te": "పారిపోయే ప్రయత్నంలో కనీసం 140 మంది మృతి"
+       }
+      },
+      {
+       "y": "1 Nov 1989",
+       "t": {
+        "en": "GDR leader Krenz meets Gorbachev",
+        "te": "GDR నేత క్రెంజ్ – గోర్బచేవ్ భేటీ"
+       }
+      },
+      {
+       "y": "9 Nov 1989",
+       "t": {
+        "en": "Schabowski's announcement → gates open",
+        "te": "షాబోవ్‌స్కీ ప్రకటన → గేట్లు తెరుచుకున్నాయి"
+       },
+       "hl": 1
+      },
+      {
+       "y": "3 Oct 1990",
+       "t": {
+        "en": "German reunification",
+        "te": "జర్మనీ ఏకీకరణ"
+       },
+       "hl": 1
+      }
+     ],
+     "cap": {
+      "en": "Remember the gap: fall (1989) and reunification (1990) are different events.",
+      "te": "తేడా గుర్తుంచుకోండి: పతనం (1989), ఏకీకరణ (1990) వేర్వేరు ఘటనలు."
+     }
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Where: Berlin, Germany",
+      "te": "ఎక్కడ: బెర్లిన్, జర్మనీ"
+     },
+     "view": [
+      -2,
+      44,
+      25,
+      58
+     ],
+     "ctry": [
+      "Germany"
+     ],
+     "hlc": "#7a3b8f",
+     "pts": [
+      {
+       "ll": [
+        52.52,
+        13.405
+       ],
+       "t": {
+        "en": "Berlin",
+        "te": "బెర్లిన్"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Berlin lay deep inside East Germany, so West Berlin was an island of the West — the Wall went around it.",
+      "te": "బెర్లిన్ తూర్పు జర్మనీ లోపల ఉండేది; అందుకే పశ్చిమ బెర్లిన్ పశ్చిమ కూటమికి 'దీవి' లాంటిది — గోడ దాని చుట్టూ ఉంది."
+     },
+     "src": "cards/2026-11-09/map-berlinwall-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "NATO — Fall of the Berlin Wall (declassified archives)",
+     "u": "https://www.nato.int/cps/en/natohq/declassified_136297.htm"
+    },
+    {
+     "t": "Wilson Center — Twenty-Fifth Anniversary of the Fall of the Berlin Wall, 9 Nov 2014",
+     "u": "https://wilsoncenter.org/article/twenty-fifth-anniversary-the-fall-the-berlin-wall"
+    },
+    {
+     "t": "Dawn (AFP) — Germany marks 1989 Berlin Wall fall with 'Preserve Freedom' party, 9 Nov 2024",
+     "u": "https://www.dawn.com/news/1871275"
+    },
+    {
+     "t": "The Brussels Times — A Germany in crisis commemorates 35 years since fall of Berlin Wall, 9 Nov 2024",
+     "u": "https://www.brusselstimes.com/1305608/under-gloomy-skies-germany-commemorates-35-years-since-fall-of-berlin-wall"
+    }
+   ]
+  },
+  {
+   "id": "storagevgf",
+   "kind": "article",
+   "color": "#2f6b2f",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "In the news · Energy & Economy · Union Cabinet decision, 4 Nov 2026",
+    "te": "వార్తల్లో · ఇంధనం & ఆర్థిక వ్యవస్థ · కేంద్ర మంత్రివర్గ నిర్ణయం, 4 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-III Economy / Infrastructure",
+    "te": "వివరణ · GS-III ఆర్థిక వ్యవస్థ / మౌలిక వసతులు"
+   },
+   "title": {
+    "en": "₹14,500-crore VGF scheme for 92 GWh of grid-scale energy storage",
+    "te": "92 GWh గ్రిడ్ స్థాయి ఇంధన నిల్వకు ₹14,500 కోట్ల VGF పథకం"
+   },
+   "line": {
+    "en": "Solar power is cheap but stops at sunset; storage keeps renewable power available when people need it.",
+    "te": "సౌర విద్యుత్ చౌక, కానీ సూర్యాస్తమయంతో ఆగిపోతుంది; అవసరమైన సమయంలో పునరుత్పాదక విద్యుత్ అందేలా చేసేది నిల్వ (స్టోరేజ్)."
+   },
+   "easy": [
+    {
+     "en": "Think of a water tank on a house: water is filled when supply comes and used later. Energy storage does the same for electricity — it stores extra solar/wind power and releases it in the evening peak.",
+     "te": "ఇంటిపై నీటి ట్యాంక్‌ను ఊహించండి: సరఫరా ఉన్నప్పుడు నింపి, తర్వాత వాడుకుంటాం. ఇంధన నిల్వ విద్యుత్తుకు అదే పని చేస్తుంది — అదనపు సౌర/పవన విద్యుత్తును నిల్వ చేసి సాయంత్రం గరిష్ఠ డిమాండ్ సమయంలో విడుదల చేస్తుంది."
+    },
+    {
+     "en": "Two main ways: Battery Energy Storage Systems (BESS) and Pumped Storage Plants (PSP) — water is pumped up to a higher reservoir when power is surplus and released through turbines when power is needed.",
+     "te": "రెండు ప్రధాన పద్ధతులు: బ్యాటరీ ఇంధన నిల్వ వ్యవస్థలు (BESS), పంప్డ్ స్టోరేజ్ ప్లాంట్లు (PSP) — విద్యుత్ మిగులుగా ఉన్నప్పుడు నీటిని ఎగువ జలాశయానికి పంప్ చేసి, అవసరమైనప్పుడు టర్బైన్ల ద్వారా వదులుతారు."
+    },
+    {
+     "en": "These projects are costly at the start. Viability Gap Funding (VGF) is a one-time government grant that fills the 'gap' so that a useful project becomes commercially viable. On 4 Nov 2026 the Union Cabinet approved ₹14,500 crore of VGF for 92 GWh of new storage.",
+     "te": "ఈ ప్రాజెక్టులకు ప్రారంభ ఖర్చు ఎక్కువ. ఉపయోగకరమైన ప్రాజెక్టు వాణిజ్యపరంగా లాభసాటిగా మారేలా ఆ 'లోటు'ను పూడ్చే ప్రభుత్వ గ్రాంటే వయబిలిటీ గ్యాప్ ఫండింగ్ (VGF). 2026 నవంబర్ 4న కేంద్ర మంత్రివర్గం 92 GWh కొత్త నిల్వ కోసం ₹14,500 కోట్ల VGFను ఆమోదించింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Support",
+      "te": "సహాయం"
+     },
+     {
+      "en": "₹14,500 crore VGF, FY 2026-27 to FY 2030-31",
+      "te": "₹14,500 కోట్ల VGF, 2026-27 నుంచి 2030-31 వరకు"
+     }
+    ],
+    [
+     {
+      "en": "Capacity",
+      "te": "సామర్థ్యం"
+     },
+     {
+      "en": "92 GWh = 60 GWh pumped storage + 30 GWh battery + 2 GWh emerging technologies",
+      "te": "92 GWh = 60 GWh పంప్డ్ స్టోరేజ్ + 30 GWh బ్యాటరీ + 2 GWh కొత్త సాంకేతికతలు"
+     }
+    ],
+    [
+     {
+      "en": "Investment",
+      "te": "పెట్టుబడి"
+     },
+     {
+      "en": "About ₹97,600 crore expected",
+      "te": "సుమారు ₹97,600 కోట్లు అంచనా"
+     }
+    ],
+    [
+     {
+      "en": "Make in India",
+      "te": "మేక్ ఇన్ ఇండియా"
+     },
+     {
+      "en": "Minimum 40% domestic content for battery (BESS) projects",
+      "te": "బ్యాటరీ (BESS) ప్రాజెక్టులకు కనీసం 40% దేశీయ విడిభాగాలు"
+     }
+    ],
+    [
+     {
+      "en": "Allocation",
+      "te": "కేటాయింపు"
+     },
+     {
+      "en": "Tariff-based competitive bidding; public & private discoms eligible",
+      "te": "టారిఫ్ ఆధారిత పోటీ బిడ్డింగ్; ప్రభుత్వ, ప్రైవేట్ డిస్కమ్‌లు అర్హం"
+     }
+    ],
+    [
+     {
+      "en": "Need",
+      "te": "అవసరం"
+     },
+     {
+      "en": "411 GWh of grid-scale storage needed by 2031-32",
+      "te": "2031-32 నాటికి 411 GWh గ్రిడ్ స్థాయి నిల్వ అవసరం"
+     }
+    ],
+    [
+     {
+      "en": "Scale",
+      "te": "స్థాయి"
+     },
+     {
+      "en": "New capacity = 170% of today's grid-scale storage",
+      "te": "కొత్త సామర్థ్యం = ప్రస్తుత గ్రిడ్ నిల్వలో 170%"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Economy & Energy",
+     "te": "లింక్ చెయిన్ · ఆర్థిక వ్యవస్థ & ఇంధనం"
+    },
+    "l": [
+     {
+      "en": "VGF is a PPP tool: grant for projects that are socially useful but not viable on tariffs alone",
+      "te": "VGF ఒక PPP సాధనం: సామాజికంగా ఉపయోగకరమైనా టారిఫ్‌తోనే లాభసాటి కాని ప్రాజెక్టులకు గ్రాంట్"
+     },
+     {
+      "en": "GW = power (how fast); GWh = energy (how much stored) — storage targets are in GWh",
+      "te": "GW = శక్తి వేగం (పవర్); GWh = నిల్వ అయిన శక్తి పరిమాణం — నిల్వ లక్ష్యాలు GWhలో"
+     },
+     {
+      "en": "Domestic content rule links to Atmanirbhar Bharat and less import dependence",
+      "te": "దేశీయ విడిభాగాల నిబంధన ఆత్మనిర్భర్ భారత్, దిగుమతులపై ఆధారం తగ్గింపుతో ముడిపడింది"
+     }
+    ]
+   },
+   "trap": {
+    "en": "92 GWh is not split only between batteries and pumped storage — 2 GWh is for emerging technologies. The 40% domestic content condition is stated for BESS (battery) projects. Units: GWh (energy), not GW.",
+    "te": "92 GWh కేవలం బ్యాటరీ, పంప్డ్ స్టోరేజ్ మధ్యే కాదు — 2 GWh కొత్త సాంకేతికతలకు. 40% దేశీయ విడిభాగాల షరతు BESS (బ్యాటరీ) ప్రాజెక్టులకు. యూనిట్: GWh (శక్తి), GW కాదు."
+   },
+   "tip": {
+    "en": "60-30-2 = 92: 'Pump 60, Battery 30, New 2'.",
+    "te": "60-30-2 = 92: 'పంప్ 60, బ్యాటరీ 30, కొత్తవి 2'."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the VGF scheme for grid-scale energy storage approved in November 2026:",
+     "te": "2026 నవంబర్‌లో ఆమోదించిన గ్రిడ్ స్థాయి ఇంధన నిల్వ VGF పథకానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. Pumped storage forms the largest part of the 92 GWh target.",
+      "te": "I. 92 GWh లక్ష్యంలో పంప్డ్ స్టోరేజ్ వాటా అత్యధికం."
+     },
+     {
+      "en": "II. VGF is a loan that the developer must repay with interest.",
+      "te": "II. VGF అనేది డెవలపర్ వడ్డీతో తిరిగి చెల్లించాల్సిన రుణం."
+     },
+     {
+      "en": "III. Capacity will be allocated through tariff-based competitive bidding.",
+      "te": "III. టారిఫ్ ఆధారిత పోటీ బిడ్డింగ్ ద్వారా సామర్థ్యం కేటాయిస్తారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "I and III are correct (60 of 92 GWh is pumped storage). II is wrong: VGF is a grant to bridge the viability gap, not a loan.",
+     "te": "I, III సరైనవి (92లో 60 GWh పంప్డ్ స్టోరేజ్). II తప్పు: VGF లాభసాటి లోటు పూడ్చే గ్రాంట్, రుణం కాదు."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "What the 92 GWh is made of",
+      "te": "92 GWh లో ఏమేమి"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Pumped storage (PSP)",
+        "te": "పంప్డ్ స్టోరేజ్ (PSP)"
+       },
+       "v": 60,
+       "vl": "60 GWh"
+      },
+      {
+       "t": {
+        "en": "Battery (BESS)",
+        "te": "బ్యాటరీ (BESS)"
+       },
+       "v": 30,
+       "vl": "30 GWh"
+      },
+      {
+       "t": {
+        "en": "Emerging technologies",
+        "te": "కొత్త సాంకేతికతలు"
+       },
+       "v": 2,
+       "vl": "2 GWh"
+      }
+     ]
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How storage helps the grid",
+      "te": "నిల్వ గ్రిడ్‌కు ఎలా సహాయం చేస్తుంది"
+     },
+     "items": [
+      {
+       "i": "☀️",
+       "t": {
+        "en": "Midday: surplus solar power",
+        "te": "మధ్యాహ్నం: మిగులు సౌర విద్యుత్"
+       }
+      },
+      {
+       "i": "🔋",
+       "t": {
+        "en": "Charge batteries / pump water uphill",
+        "te": "బ్యాటరీ చార్జ్ / నీటిని ఎగువకు పంప్"
+       }
+      },
+      {
+       "i": "🌇",
+       "t": {
+        "en": "Evening peak demand",
+        "te": "సాయంత్రం గరిష్ఠ డిమాండ్"
+       }
+      },
+      {
+       "i": "⚡",
+       "t": {
+        "en": "Release stored power",
+        "te": "నిల్వ విద్యుత్ విడుదల"
+       }
+      },
+      {
+       "i": "🌱",
+       "t": {
+        "en": "More renewables, fewer imports",
+        "te": "ఎక్కువ పునరుత్పాదక, తక్కువ దిగుమతులు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "PSU Watch — Cabinet approves Rs 14,500 cr viability gap funding for 92 GWh grid-scale energy storage, 4 Nov 2026",
+     "u": "https://psuwatch.com/newsupdates/cabinet-approves-rs-14500-cr-viability-gap-funding-for-92-gwh-grid-scale-energy-storage"
+    },
+    {
+     "t": "UNI — Cabinet clears Rs 14,500-crore scheme to add 92 GWh of energy storage capacity, 4 Nov 2026",
+     "u": "https://www.uniindia.com/national/cabinet-viability-gap-funding-scheme/235589"
+    },
+    {
+     "t": "BioEnergy Times — Cabinet approves Rs.14,500 crore VGF Scheme for 92 GWh Grid-Scale Energy Storage Systems (quotes PIB release), 4 Nov 2026",
+     "u": "https://bioenergytimes.com/cabinet-approves-rs-14500-crore-viability-gap-funding-scheme-for-development-of-92-gwh-grid-scale-energy-storage-systems/"
+    },
+    {
+     "t": "SuperKalam — Cabinet approves Rs.14,500 crore VGF scheme (PIB summary, 5 Nov 2026; cross-check)",
+     "u": "https://superkalam.com/current-affairs/05-11-2026/cabinet-approves-rs-14-500-crore-viability-gap-funding-scheme-for-development-of-92-gwh-grid-scale-energy-storage-systems-de4d40b6-5ff5-4c23-bebb-50058b1bd68d"
+    }
+   ],
+   "mains": {
+    "en": "Why is energy storage essential for India's renewable energy transition? Examine how Viability Gap Funding and domestic content requirements can help, and the challenges involved.",
+    "te": "భారత పునరుత్పాదక ఇంధన పరివర్తనకు ఇంధన నిల్వ ఎందుకు అవసరం? వయబిలిటీ గ్యాప్ ఫండింగ్, దేశీయ విడిభాగాల నిబంధనలు ఎలా సహాయపడతాయో, ఎదురయ్యే సవాళ్లను పరిశీలించండి."
+   }
+  },
+  {
+   "id": "hcjudges",
+   "kind": "article",
+   "color": "#9b2c2c",
+   "icon": "shield",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "In the news · Polity · Law Ministry data (Rajya Sabha reply) & reports of 7–8 Nov 2026",
+    "te": "వార్తల్లో · పాలిటీ · న్యాయ శాఖ గణాంకాలు (రాజ్యసభ సమాధానం), 7–8 నవంబర్ 2026 నివేదికలు"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity — Judiciary",
+    "te": "వివరణ · GS-II పాలిటీ — న్యాయవ్యవస్థ"
+   },
+   "title": {
+    "en": "High Court judge vacancies: how judges are appointed and why posts stay empty",
+    "te": "హైకోర్టు జడ్జీల ఖాళీలు: నియామకం ఎలా, పోస్టులు ఎందుకు ఖాళీగా ఉంటాయి"
+   },
+   "line": {
+    "en": "Fewer judges means longer waits for justice — reports this week say vacancies have come down, but lakhs of cases are still pending.",
+    "te": "జడ్జీలు తక్కువైతే న్యాయం ఆలస్యం — ఖాళీలు తగ్గాయని ఈ వారం నివేదికలు చెబుతున్నా, లక్షలాది కేసులు ఇంకా పెండింగ్‌లో ఉన్నాయి."
+   },
+   "easy": [
+    {
+     "en": "Every High Court has a 'sanctioned strength' — the number of judge posts allowed. 'Working strength' is how many judges are actually in office. The difference is the vacancy.",
+     "te": "ప్రతి హైకోర్టుకు 'మంజూరైన సంఖ్య' (శాంక్షన్డ్ స్ట్రెంగ్త్) — అనుమతించిన జడ్జి పోస్టులు — ఉంటుంది. ప్రస్తుతం పదవిలో ఉన్న జడ్జీల సంఖ్య 'పని చేస్తున్న సంఖ్య'. రెండింటి తేడానే ఖాళీ."
+    },
+    {
+     "en": "As per the Law Ministry's reply in the Rajya Sabha (data as of 1 July 2026), the 25 High Courts had 1,122 sanctioned posts, 781 working judges and 341 vacancies — over 30%. Reports on 7–8 November say the vacancy rate has since come down to its lowest level in a decade, but pendency is still very high.",
+     "te": "రాజ్యసభలో న్యాయ శాఖ ఇచ్చిన సమాధానం ప్రకారం (2026 జూలై 1 నాటి గణాంకాలు), 25 హైకోర్టుల్లో 1,122 మంజూరైన పోస్టులు, 781 మంది పనిచేస్తున్న జడ్జీలు, 341 ఖాళీలు — 30% కంటే ఎక్కువ. ఆ తర్వాత ఖాళీల రేటు దశాబ్దంలోనే అత్యల్ప స్థాయికి తగ్గిందని నవంబర్ 7–8 నివేదికలు చెబుతున్నాయి; అయినా పెండింగ్ కేసులు చాలా ఎక్కువే."
+    },
+    {
+     "en": "Appointment is a long chain: the High Court collegium recommends names → the Government processes them → the Supreme Court collegium approves → the President appoints. A delay at any step keeps a post empty.",
+     "te": "నియామకం పొడవైన గొలుసు: హైకోర్టు కొలీజియం పేర్లు సిఫార్సు చేస్తుంది → ప్రభుత్వం పరిశీలిస్తుంది → సుప్రీంకోర్టు కొలీజియం ఆమోదిస్తుంది → రాష్ట్రపతి నియమిస్తారు. ఏ దశలో ఆలస్యమైనా పోస్టు ఖాళీగానే ఉంటుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Sanctioned strength",
+      "te": "మంజూరైన సంఖ్య"
+     },
+     {
+      "en": "1,122 judges in 25 High Courts (1 July 2026)",
+      "te": "25 హైకోర్టుల్లో 1,122 జడ్జీలు (1 జూలై 2026)"
+     }
+    ],
+    [
+     {
+      "en": "Working / vacant",
+      "te": "పనిచేస్తున్నవారు / ఖాళీ"
+     },
+     {
+      "en": "781 working, 341 vacant (over 30%) on 1 July 2026",
+      "te": "2026 జూలై 1న 781 మంది, 341 ఖాళీలు (30% పైగా)"
+     }
+    ],
+    [
+     {
+      "en": "Largest gap",
+      "te": "అత్యధిక ఖాళీ"
+     },
+     {
+      "en": "Allahabad HC: 160 sanctioned, 108 working, 52 vacant",
+      "te": "అలహాబాద్ హైకోర్టు: 160 మంజూరు, 108 మంది, 52 ఖాళీ"
+     }
+    ],
+    [
+     {
+      "en": "Constitution",
+      "te": "రాజ్యాంగం"
+     },
+     {
+      "en": "Article 217 — permanent HC judges; Article 224 — additional judges",
+      "te": "ఆర్టికల్ 217 — శాశ్వత హైకోర్టు జడ్జీలు; ఆర్టికల్ 224 — అదనపు జడ్జీలు"
+     }
+    ],
+    [
+     {
+      "en": "Process document",
+      "te": "ప్రక్రియ పత్రం"
+     },
+     {
+      "en": "Memorandum of Procedure (MoP) guides appointments",
+      "te": "మెమోరాండం ఆఫ్ ప్రొసీజర్ (MoP) ప్రకారం నియామకాలు"
+     }
+    ],
+    [
+     {
+      "en": "Earlier",
+      "te": "గతంలో"
+     },
+     {
+      "en": "352 vacancies of 1,114 posts on 1 Oct 2024",
+      "te": "2024 అక్టోబర్ 1న 1,114 పోస్టుల్లో 352 ఖాళీలు"
+     }
+    ],
+    [
+     {
+      "en": "Full strength",
+      "te": "పూర్తి సంఖ్య"
+     },
+     {
+      "en": "Meghalaya HC was at full strength (1 July 2026)",
+      "te": "మేఘాలయ హైకోర్టు పూర్తి సంఖ్యతో పనిచేస్తోంది (1 జూలై 2026)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Polity",
+     "te": "లింక్ చెయిన్ · పాలిటీ"
+    },
+    "l": [
+     {
+      "en": "Article 214 — a High Court for each State; Andhra Pradesh High Court is at Amaravati",
+      "te": "ఆర్టికల్ 214 — ప్రతి రాష్ట్రానికి హైకోర్టు; ఆంధ్రప్రదేశ్ హైకోర్టు అమరావతిలో ఉంది"
+     },
+     {
+      "en": "Fewer judges → more pending cases → links to Article 39A (equal justice) and Article 21 (speedy trial as part of life & liberty)",
+      "te": "జడ్జీలు తక్కువ → పెండింగ్ కేసులు ఎక్కువ → ఆర్టికల్ 39A (సమాన న్యాయం), ఆర్టికల్ 21 (వేగవంతమైన విచారణ)తో సంబంధం"
+     },
+     {
+      "en": "Today's link: Lok Adalats under the Legal Services Authorities Act reduce the load on courts",
+      "te": "నేటి లింక్: న్యాయ సేవల చట్టం కింది లోక్ అదాలత్‌లు కోర్టులపై భారం తగ్గిస్తాయి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Article 224 is about ADDITIONAL and acting judges, not about the appointment of permanent judges (Article 217). Sanctioned strength ≠ working strength. The largest number of vacancies is at Allahabad (52 of 160).",
+    "te": "ఆర్టికల్ 224 అదనపు, తాత్కాలిక జడ్జీలకు సంబంధించినది; శాశ్వత జడ్జీల నియామకం ఆర్టికల్ 217. మంజూరైన సంఖ్య ≠ పనిచేస్తున్న సంఖ్య. అత్యధిక ఖాళీలు అలహాబాద్‌లో (160లో 52)."
+   },
+   "tip": {
+    "en": "'217 = Permanent, 224 = Plus (additional)'.",
+    "te": "'217 = శాశ్వతం, 224 = అదనం'."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about High Court judges (data as of 1 July 2026):",
+     "te": "హైకోర్టు జడ్జీలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి (2026 జూలై 1 నాటి గణాంకాలు):"
+    },
+    "st": [
+     {
+      "en": "I. More than 30% of sanctioned High Court judge posts were vacant.",
+      "te": "I. మంజూరైన హైకోర్టు జడ్జి పోస్టుల్లో 30% కంటే ఎక్కువ ఖాళీగా ఉన్నాయి."
+     },
+     {
+      "en": "II. Additional judges of a High Court are appointed under Article 224.",
+      "te": "II. హైకోర్టు అదనపు జడ్జీలను ఆర్టికల్ 224 కింద నియమిస్తారు."
+     },
+     {
+      "en": "III. The Allahabad High Court had the fewest vacancies.",
+      "te": "III. అలహాబాద్ హైకోర్టులో అతి తక్కువ ఖాళీలు ఉన్నాయి."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "I and II are correct (341 of 1,122 vacant). III is wrong: Allahabad had the LARGEST number of vacancies (52).",
+     "te": "I, II సరైనవి (1,122లో 341 ఖాళీ). III తప్పు: అలహాబాద్‌లోనే అత్యధిక ఖాళీలు (52)."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "High Courts with the most vacancies (1 July 2026)",
+      "te": "అత్యధిక ఖాళీలున్న హైకోర్టులు (1 జూలై 2026)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Allahabad",
+        "te": "అలహాబాద్"
+       },
+       "v": 52,
+       "vl": "52"
+      },
+      {
+       "t": {
+        "en": "Calcutta",
+        "te": "కలకత్తా"
+       },
+       "v": 31,
+       "vl": "31"
+      },
+      {
+       "t": {
+        "en": "Punjab & Haryana",
+        "te": "పంజాబ్ & హరియాణా"
+       },
+       "v": 30,
+       "vl": "30"
+      },
+      {
+       "t": {
+        "en": "Madras",
+        "te": "మద్రాస్"
+       },
+       "v": 24,
+       "vl": "24"
+      },
+      {
+       "t": {
+        "en": "Bombay",
+        "te": "బాంబే"
+       },
+       "v": 19,
+       "vl": "19"
+      },
+      {
+       "t": {
+        "en": "Gujarat",
+        "te": "గుజరాత్"
+       },
+       "v": 18,
+       "vl": "18"
+      }
+     ]
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How a High Court judge is appointed",
+      "te": "హైకోర్టు జడ్జి నియామకం ఎలా"
+     },
+     "items": [
+      {
+       "i": "⚖️",
+       "t": {
+        "en": "HC collegium recommends names",
+        "te": "హైకోర్టు కొలీజియం సిఫార్సు"
+       }
+      },
+      {
+       "i": "🏛️",
+       "t": {
+        "en": "State & Union Government process",
+        "te": "రాష్ట్ర, కేంద్ర ప్రభుత్వ పరిశీలన"
+       }
+      },
+      {
+       "i": "👨‍⚖️",
+       "t": {
+        "en": "Supreme Court collegium approves",
+        "te": "సుప్రీంకోర్టు కొలీజియం ఆమోదం"
+       }
+      },
+      {
+       "i": "📜",
+       "t": {
+        "en": "President appoints (Art. 217)",
+        "te": "రాష్ట్రపతి నియామకం (ఆర్టి. 217)"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ThePrint — Over 30% judges' posts lying vacant in high courts, shows law ministry data (Rajya Sabha reply, data as of 1 July 2026), 29 Jul 2026",
+     "u": "https://theprint.in/judiciary/over-30-judges-posts-lying-vacant-in-high-courts-shows-law-ministry-data-which-hcs-are-hit-hardest/2999383/"
+    },
+    {
+     "t": "C4S Courses — Daily Current Affairs 07&08 November 2026 (HC vacancies decline; cross-check)",
+     "u": "https://c4scourses.in/current-affairs/daily-current-affairs-dca-0708-november-2026/"
+    },
+    {
+     "t": "Supreme Court Observer — High Court vacancies remain unaddressed (DoJ data, 1 Apr 2024; background)",
+     "u": "https://www.scobserver.in/journal/high-court-vacancies-remain-unaddressed-only-three-out-of-25-functioning-at-full-strength/"
+    }
+   ],
+   "mains": {
+    "en": "Vacancies in High Courts directly affect pendency and access to justice. Discuss the reasons for delays in judicial appointments and suggest reforms to the appointment process.",
+    "te": "హైకోర్టుల్లోని ఖాళీలు పెండింగ్ కేసులపై, న్యాయం అందుబాటుపై నేరుగా ప్రభావం చూపుతాయి. న్యాయ నియామకాల్లో జాప్యానికి కారణాలను చర్చించి, నియామక ప్రక్రియలో సంస్కరణలు సూచించండి."
+   }
+  },
+  {
+   "id": "horizon",
+   "kind": "article",
+   "color": "#1f6f6a",
+   "icon": "rocket",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "In the news · IR / Science · PTI, ANI & Times Higher Education, 6 Nov 2026",
+    "te": "వార్తల్లో · అంతర్జాతీయ సంబంధాలు / సైన్స్ · PTI, ANI, టైమ్స్ హయ్యర్ ఎడ్యుకేషన్, 6 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II International Relations",
+    "te": "వివరణ · GS-II అంతర్జాతీయ సంబంధాలు"
+   },
+   "title": {
+    "en": "India to join the EU's €93.5-billion Horizon Europe research programme",
+    "te": "EU €93.5 బిలియన్ల 'హొరైజన్ యూరప్' పరిశోధన కార్యక్రమంలో భారత్ చేరిక"
+   },
+   "line": {
+    "en": "Indian scientists and institutions could get EU research funding directly and lead big global projects — from January 2027 if signed.",
+    "te": "భారత శాస్త్రవేత్తలు, సంస్థలు EU పరిశోధన నిధులు నేరుగా పొంది, పెద్ద అంతర్జాతీయ ప్రాజెక్టులకు నాయకత్వం వహించవచ్చు — ఒప్పందం సంతకమైతే 2027 జనవరి నుంచి."
+   },
+   "easy": [
+    {
+     "en": "Horizon Europe is the European Union's main programme for funding research and innovation. It runs from 2021 to 2027 with a budget of €93.5 billion.",
+     "te": "హొరైజన్ యూరప్ అనేది పరిశోధన, ఆవిష్కరణలకు నిధులు ఇచ్చే యూరోపియన్ యూనియన్ ప్రధాన కార్యక్రమం. ఇది 2021 నుంచి 2027 వరకు, €93.5 బిలియన్ల బడ్జెట్‌తో నడుస్తుంది."
+    },
+    {
+     "en": "On 6 November 2026 the EU announced that negotiations on India's 'association' have concluded. Association means Indian organisations can take part on equal terms with EU ones in the covered parts of the programme; in return India contributes money to it.",
+     "te": "భారత్ 'అసోసియేషన్'పై చర్చలు ముగిశాయని 2026 నవంబర్ 6న EU ప్రకటించింది. అసోసియేషన్ అంటే — కార్యక్రమంలోని వర్తించే భాగాల్లో భారత సంస్థలు EU సంస్థలతో సమాన షరతులపై పాల్గొనవచ్చు; ప్రతిగా భారత్ ఆర్థికంగా వాటా చెల్లిస్తుంది."
+    },
+    {
+     "en": "India will join only Pillar II — 'Global Challenges and European Industrial Competitiveness' (health, digital, industry, space, climate, energy, bioeconomy). It is not access to the whole programme. The agreement still has to be signed and approved; it is expected to take effect in January 2027.",
+     "te": "భారత్ కేవలం పిల్లర్ II — 'గ్లోబల్ ఛాలెంజెస్ అండ్ యూరోపియన్ ఇండస్ట్రియల్ కాంపిటీటివ్‌నెస్' (ఆరోగ్యం, డిజిటల్, పరిశ్రమ, అంతరిక్షం, వాతావరణం, ఇంధనం, బయో-ఎకానమీ)లో మాత్రమే చేరుతుంది. మొత్తం కార్యక్రమం అందుబాటులోకి రాదు. ఒప్పందంపై ఇంకా సంతకం, ఆమోదం జరగాలి; 2027 జనవరి నుంచి అమల్లోకి వస్తుందని అంచనా."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Programme",
+      "te": "కార్యక్రమం"
+     },
+     {
+      "en": "Horizon Europe — EU research & innovation programme, 2021–2027",
+      "te": "హొరైజన్ యూరప్ — EU పరిశోధన & ఆవిష్కరణ కార్యక్రమం, 2021–2027"
+     }
+    ],
+    [
+     {
+      "en": "Budget",
+      "te": "బడ్జెట్"
+     },
+     {
+      "en": "€93.5 billion",
+      "te": "€93.5 బిలియన్లు"
+     }
+    ],
+    [
+     {
+      "en": "India's part",
+      "te": "భారత్ భాగం"
+     },
+     {
+      "en": "Pillar II only — Global Challenges & European Industrial Competitiveness",
+      "te": "పిల్లర్ II మాత్రమే — గ్లోబల్ ఛాలెంజెస్ & యూరోపియన్ ఇండస్ట్రియల్ కాంపిటీటివ్‌నెస్"
+     }
+    ],
+    [
+     {
+      "en": "Status",
+      "te": "స్థితి"
+     },
+     {
+      "en": "Negotiations concluded (announced 6 Nov 2026); signing and approvals pending",
+      "te": "చర్చలు ముగిశాయి (6 నవంబర్ 2026 ప్రకటన); సంతకం, ఆమోదాలు మిగిలాయి"
+     }
+    ],
+    [
+     {
+      "en": "Start",
+      "te": "ప్రారంభం"
+     },
+     {
+      "en": "Expected January 2027",
+      "te": "2027 జనవరి అంచనా"
+     }
+    ],
+    [
+     {
+      "en": "Timeline",
+      "te": "కాలక్రమం"
+     },
+     {
+      "en": "Exploratory talks Feb 2026 → formal negotiations July 2026 → concluded Nov 2026",
+      "te": "ప్రాథమిక చర్చలు ఫిబ్రవరి 2026 → అధికారిక చర్చలు జూలై 2026 → నవంబర్ 2026లో ముగింపు"
+     }
+    ],
+    [
+     {
+      "en": "Older base",
+      "te": "పాత పునాది"
+     },
+     {
+      "en": "EU–India S&T cooperation agreement signed 2001, renewed till 2030",
+      "te": "EU–భారత్ శాస్త్ర-సాంకేతిక సహకార ఒప్పందం 2001లో సంతకం, 2030 వరకు పొడిగింపు"
+     }
+    ],
+    [
+     {
+      "en": "Other associates",
+      "te": "ఇతర అసోసియేట్ దేశాలు"
+     },
+     {
+      "en": "23 non-EU countries incl. UK, Japan, Canada, Korea, New Zealand, Switzerland, Norway",
+      "te": "UK, జపాన్, కెనడా, కొరియా, న్యూజిలాండ్, స్విట్జర్లాండ్, నార్వే సహా 23 EU యేతర దేశాలు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · India–EU",
+     "te": "లింక్ చెయిన్ · భారత్–EU"
+    },
+    "l": [
+     {
+      "en": "EU–India Trade and Technology Council — AI, digital public infrastructure, semiconductors, 6G",
+      "te": "EU–భారత్ ట్రేడ్ అండ్ టెక్నాలజీ కౌన్సిల్ — AI, డిజిటల్ పబ్లిక్ ఇన్‌ఫ్రాస్ట్రక్చర్, సెమీకండక్టర్లు, 6G"
+     },
+     {
+      "en": "Joint EU–India Comprehensive Strategic Agenda towards 2030 — adopted at the New Delhi summit, 27 January 2026",
+      "te": "'2030 దిశగా' EU–భారత్ సమగ్ర వ్యూహాత్మక అజెండా — 2026 జనవరి 27న న్యూఢిల్లీ శిఖరాగ్ర సదస్సులో ఆమోదం"
+     },
+     {
+      "en": "India–EU free trade agreement — the two sides are set to sign it soon (reported for December 2026)",
+      "te": "భారత్–EU స్వేచ్ఛా వాణిజ్య ఒప్పందం — త్వరలో సంతకం (2026 డిసెంబర్‌లో అని నివేదికలు)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "India is NOT joining the whole of Horizon Europe — only Pillar II. 'Negotiations concluded' ≠ 'agreement signed'. Association is not free: the associated country pays a financial contribution.",
+    "te": "భారత్ మొత్తం హొరైజన్ యూరప్‌లో చేరడం లేదు — పిల్లర్ II మాత్రమే. 'చర్చలు ముగిశాయి' ≠ 'ఒప్పందం సంతకమైంది'. అసోసియేషన్ ఉచితం కాదు: అసోసియేట్ దేశం ఆర్థిక వాటా చెల్లిస్తుంది."
+   },
+   "tip": {
+    "en": "'Horizon 93.5 — 21 to 27 — Pillar 2'.",
+    "te": "'హొరైజన్ 93.5 — 21 నుంచి 27 — పిల్లర్ 2'."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to India's association with Horizon Europe, consider the following statements:",
+     "te": "హొరైజన్ యూరప్‌తో భారత్ అసోసియేషన్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. Horizon Europe runs from 2021 to 2027.",
+      "te": "I. హొరైజన్ యూరప్ 2021 నుంచి 2027 వరకు నడుస్తుంది."
+     },
+     {
+      "en": "II. India will get access to all parts of the programme.",
+      "te": "II. కార్యక్రమంలోని అన్ని భాగాలు భారత్‌కు అందుబాటులోకి వస్తాయి."
+     },
+     {
+      "en": "III. The association agreement came into force on 6 November 2026.",
+      "te": "III. అసోసియేషన్ ఒప్పందం 2026 నవంబర్ 6న అమల్లోకి వచ్చింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "Only I is correct. II is wrong: India joins Pillar II only. III is wrong: only negotiations concluded on 6 Nov; signing is pending and it is expected to take effect in January 2027.",
+     "te": "I మాత్రమే సరైనది. II తప్పు: భారత్ పిల్లర్ IIలో మాత్రమే చేరుతుంది. III తప్పు: నవంబర్ 6న చర్చలు మాత్రమే ముగిశాయి; సంతకం మిగిలింది, 2027 జనవరి నుంచి అమలు అంచనా."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "Road to association",
+      "te": "అసోసియేషన్ దిశగా ప్రయాణం"
+     },
+     "items": [
+      {
+       "i": "🤝",
+       "t": {
+        "en": "27 Jan 2026: India–EU summit, Strategic Agenda 2030",
+        "te": "27 జనవరి 2026: భారత్–EU సదస్సు, వ్యూహాత్మక అజెండా 2030"
+       }
+      },
+      {
+       "i": "🔎",
+       "t": {
+        "en": "Feb 2026: exploratory talks",
+        "te": "ఫిబ్రవరి 2026: ప్రాథమిక చర్చలు"
+       }
+      },
+      {
+       "i": "📝",
+       "t": {
+        "en": "July 2026: formal negotiations",
+        "te": "జూలై 2026: అధికారిక చర్చలు"
+       }
+      },
+      {
+       "i": "✅",
+       "t": {
+        "en": "6 Nov 2026: negotiations concluded",
+        "te": "6 నవంబర్ 2026: చర్చలు ముగింపు"
+       }
+      },
+      {
+       "i": "🚀",
+       "t": {
+        "en": "Jan 2027 (expected): sign & take effect",
+        "te": "జనవరి 2027 (అంచనా): సంతకం & అమలు"
+       }
+      }
+     ]
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "What association gives — and what it doesn't",
+      "te": "అసోసియేషన్ ఏమిస్తుంది — ఏమివ్వదు"
+     },
+     "a": {
+      "h": {
+       "en": "India gets",
+       "te": "భారత్‌కు లభించేది"
+      },
+      "l": [
+       {
+        "en": "Equal terms with EU bodies in Pillar II",
+        "te": "పిల్లర్ IIలో EU సంస్థలతో సమాన షరతులు"
+       },
+       {
+        "en": "Direct EU funding for Indian institutions",
+        "te": "భారత సంస్థలకు నేరుగా EU నిధులు"
+       },
+       {
+        "en": "Indian scientists can lead consortia",
+        "te": "భారత శాస్త్రవేత్తలు కన్సార్టియాకు నాయకత్వం"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Limits / conditions",
+       "te": "పరిమితులు / షరతులు"
+      },
+      "l": [
+       {
+        "en": "Not the whole programme",
+        "te": "మొత్తం కార్యక్రమం కాదు"
+       },
+       {
+        "en": "India pays a financial contribution",
+        "te": "భారత్ ఆర్థిక వాటా చెల్లిస్తుంది"
+       },
+       {
+        "en": "Needs signing and approvals",
+        "te": "సంతకం, ఆమోదాలు అవసరం"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Week (PTI) — India, EU conclude multi-billion Euro global innovation programme, 6 Nov 2026",
+     "u": "https://www.theweek.in/wire-updates/business/2026/11/06/india-eu-conclude-multi-billion-euro-global-innovation-programme.html"
+    },
+    {
+     "t": "Times Higher Education — India set to join Horizon Europe in January 2027, 6 Nov 2026",
+     "u": "https://www.timeshighereducation.com/news/india-set-join-horizon-europe-january-2027"
+    },
+    {
+     "t": "Devdiscourse (ANI) — EU and India conclude negotiations on EUR 93.5 billion Horizon Europe Programme, 6 Nov 2026",
+     "u": "https://www.devdiscourse.com/article/international/4002798-eu-and-india-conclude-negotiations-on-eur-935-billion-horizon-europe-programme"
+    }
+   ],
+   "mains": {
+    "en": "India's association with Horizon Europe can deepen India–EU ties beyond trade. Discuss its significance for Indian research and the India–EU strategic partnership.",
+    "te": "హొరైజన్ యూరప్‌తో భారత్ అసోసియేషన్ వాణిజ్యాన్ని మించి భారత్–EU సంబంధాలను బలోపేతం చేయగలదు. భారత పరిశోధనకు, భారత్–EU వ్యూహాత్మక భాగస్వామ్యానికి దాని ప్రాముఖ్యతను చర్చించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "legalday",
+   "q": {
+    "en": "Consider the following statements about the Legal Services Authorities Act, 1987:",
+    "te": "న్యాయ సేవల ప్రాధికార సంస్థల చట్టం, 1987కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It came into force on 9 November 1995.",
+     "te": "I. ఇది 1995 నవంబర్ 9న అమల్లోకి వచ్చింది."
+    },
+    {
+     "en": "II. It gives effect to Article 39A, a Fundamental Right in Part III.",
+     "te": "II. ఇది భాగం IIIలోని ప్రాథమిక హక్కు అయిన ఆర్టికల్ 39Aను అమలు చేస్తుంది."
+    },
+    {
+     "en": "III. Under it, the Chief Justice of India is the Patron-in-Chief of NALSA.",
+     "te": "III. దీని కింద భారత ప్రధాన న్యాయమూర్తి NALSA ప్యాట్రన్-ఇన్-చీఫ్."
+    },
+    {
+     "en": "IV. Persons in custody are among those entitled to free legal services.",
+     "te": "IV. కస్టడీలో ఉన్న వ్యక్తులు ఉచిత న్యాయ సేవలకు అర్హులు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I, III and IV are correct. II is wrong: Article 39A is a Directive Principle (Part IV), added by the 42nd Amendment, 1976 — not a Fundamental Right.",
+    "te": "I, III, IV సరైనవి. II తప్పు: ఆర్టికల్ 39A ఆదేశిక సూత్రం (భాగం IV), 42వ సవరణ (1976) ద్వారా చేర్చారు — ప్రాథమిక హక్కు కాదు."
+   }
+  },
+  {
+   "topic": "legalday",
+   "q": {
+    "en": "Match List-I (body) with List-II (head):  A. NALSA  B. State Legal Services Authority  C. District Legal Services Authority.  1. District Judge  2. Chief Justice of India (Patron-in-Chief)  3. Chief Justice of the High Court (Patron-in-Chief). Consider the following matchings:",
+    "te": "జాబితా-I (సంస్థ)ను జాబితా-II (అధిపతి)తో జతపరచండి:  A. NALSA  B. రాష్ట్ర న్యాయ సేవల ప్రాధికార సంస్థ  C. జిల్లా న్యాయ సేవల ప్రాధికార సంస్థ.  1. జిల్లా జడ్జి  2. భారత ప్రధాన న్యాయమూర్తి (ప్యాట్రన్-ఇన్-చీఫ్)  3. హైకోర్టు ప్రధాన న్యాయమూర్తి (ప్యాట్రన్-ఇన్-చీఫ్). కింది జతలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. A – 2",
+     "te": "I. A – 2"
+    },
+    {
+     "en": "II. B – 1",
+     "te": "II. B – 1"
+    },
+    {
+     "en": "III. C – 1",
+     "te": "III. C – 1"
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and III are correct (NALSA – CJI; DLSA – District Judge). II is wrong: the SLSA's Patron-in-Chief is the Chief Justice of the High Court, so B – 3.",
+    "te": "I, III సరైనవి (NALSA – CJI; DLSA – జిల్లా జడ్జి). II తప్పు: SLSA ప్యాట్రన్-ఇన్-చీఫ్ హైకోర్టు ప్రధాన న్యాయమూర్తి, కాబట్టి B – 3."
+   }
+  },
+  {
+   "topic": "berlinwall",
+   "q": {
+    "en": "Consider the following statements about the Berlin Wall:",
+    "te": "బెర్లిన్ గోడకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It was built by the Western Allies to keep communism out of West Berlin.",
+     "te": "I. పశ్చిమ బెర్లిన్‌లోకి కమ్యూనిజం రాకుండా పశ్చిమ మిత్రదేశాలు దీనిని కట్టాయి."
+    },
+    {
+     "en": "II. It was about 155 km long and went around West Berlin.",
+     "te": "II. ఇది సుమారు 155 కి.మీ. పొడవుతో పశ్చిమ బెర్లిన్ చుట్టూ ఉండేది."
+    },
+    {
+     "en": "III. At least 140 people were killed trying to flee across it.",
+     "te": "III. దీనిని దాటి పారిపోయే ప్రయత్నంలో కనీసం 140 మంది చనిపోయారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II and III are correct. I is wrong: East Germany (GDR) built it in 1961 to stop its own citizens escaping to the West.",
+    "te": "II, III సరైనవి. I తప్పు: తన పౌరులు పశ్చిమానికి పారిపోకుండా ఆపడానికి 1961లో తూర్పు జర్మనీ (GDR) దీనిని కట్టింది."
+   }
+  },
+  {
+   "topic": "berlinwall",
+   "q": {
+    "en": "Arrange the following events in chronological order (earliest first):",
+    "te": "కింది ఘటనలను కాలక్రమంలో (మొదటిది ముందు) అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "I. German reunification",
+     "te": "I. జర్మనీ ఏకీకరణ"
+    },
+    {
+     "en": "II. Construction of the Berlin Wall",
+     "te": "II. బెర్లిన్ గోడ నిర్మాణం"
+    },
+    {
+     "en": "III. Schabowski's travel announcement and opening of the Wall",
+     "te": "III. షాబోవ్‌స్కీ ప్రయాణ ప్రకటన, గోడ తెరుచుకోవడం"
+    },
+    {
+     "en": "IV. Krenz–Gorbachev meeting (memorandum of 1 Nov 1989)",
+     "te": "IV. క్రెంజ్–గోర్బచేవ్ భేటీ (1 నవంబర్ 1989 మెమోరాండం)"
+    }
+   ],
+   "o": [
+    {
+     "en": "II – III – IV – I",
+     "te": "II – III – IV – I"
+    },
+    {
+     "en": "II – IV – I – III",
+     "te": "II – IV – I – III"
+    },
+    {
+     "en": "IV – II – III – I",
+     "te": "IV – II – III – I"
+    },
+    {
+     "en": "II – IV – III – I",
+     "te": "II – IV – III – I"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Correct order: II (1961) → IV (1 Nov 1989) → III (9 Nov 1989) → I (3 Oct 1990). Option (a) wrongly puts the Wall's opening before the Krenz–Gorbachev meeting; (b) puts reunification before the opening.",
+    "te": "సరైన క్రమం: II (1961) → IV (1 నవంబర్ 1989) → III (9 నవంబర్ 1989) → I (3 అక్టోబర్ 1990). (a)లో గోడ తెరుచుకోవడం భేటీకి ముందుంది — తప్పు; (b)లో ఏకీకరణ గోడ తెరుచుకోవడానికి ముందుంది — తప్పు."
+   }
+  },
+  {
+   "topic": "storagevgf",
+   "q": {
+    "en": "Consider the following statements about the Viability Gap Funding scheme for grid-scale energy storage (Nov 2026):",
+    "te": "గ్రిడ్ స్థాయి ఇంధన నిల్వ కోసం వయబిలిటీ గ్యాప్ ఫండింగ్ పథకం (నవంబర్ 2026)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It provides ₹14,500 crore of support from FY 2026-27 to FY 2030-31.",
+     "te": "I. ఇది 2026-27 నుంచి 2030-31 వరకు ₹14,500 కోట్ల సహాయం అందిస్తుంది."
+    },
+    {
+     "en": "II. The 92 GWh target is shared only between battery storage and pumped storage.",
+     "te": "II. 92 GWh లక్ష్యం బ్యాటరీ, పంప్డ్ స్టోరేజ్ మధ్య మాత్రమే పంచబడింది."
+    },
+    {
+     "en": "III. Battery projects must have at least 40% domestic content.",
+     "te": "III. బ్యాటరీ ప్రాజెక్టుల్లో కనీసం 40% దేశీయ విడిభాగాలు ఉండాలి."
+    },
+    {
+     "en": "IV. Total investment of about ₹97,600 crore is expected.",
+     "te": "IV. మొత్తం సుమారు ₹97,600 కోట్ల పెట్టుబడి అంచనా."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I, III and IV are correct. II is wrong: 92 GWh = 60 GWh pumped storage + 30 GWh battery + 2 GWh emerging technologies.",
+    "te": "I, III, IV సరైనవి. II తప్పు: 92 GWh = 60 GWh పంప్డ్ స్టోరేజ్ + 30 GWh బ్యాటరీ + 2 GWh కొత్త సాంకేతికతలు."
+   }
+  },
+  {
+   "topic": "storagevgf",
+   "q": {
+    "en": "A State's grid has surplus solar power at noon and shortage in the evening peak. Which of the following would directly address this problem?",
+    "te": "ఒక రాష్ట్ర గ్రిడ్‌లో మధ్యాహ్నం సౌర విద్యుత్ మిగులు, సాయంత్రం గరిష్ఠ సమయంలో కొరత ఉంది. కింది వాటిలో ఏవి ఈ సమస్యను నేరుగా పరిష్కరిస్తాయి?"
+   },
+   "st": [
+    {
+     "en": "I. Charging batteries at noon and discharging them in the evening.",
+     "te": "I. మధ్యాహ్నం బ్యాటరీలు చార్జ్ చేసి సాయంత్రం విడుదల చేయడం."
+    },
+    {
+     "en": "II. Pumping water to an upper reservoir at noon and generating power in the evening.",
+     "te": "II. మధ్యాహ్నం నీటిని ఎగువ జలాశయానికి పంప్ చేసి సాయంత్రం విద్యుత్ ఉత్పత్తి చేయడం."
+    },
+    {
+     "en": "III. Adding more solar panels without any storage.",
+     "te": "III. నిల్వ లేకుండానే మరిన్ని సోలార్ ప్యానెళ్లు పెట్టడం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "I and II are correct — both are storage (BESS and PSP). III is wrong: more panels add more noon power but do nothing for the evening, when the sun has set.",
+    "te": "I, II సరైనవి — రెండూ నిల్వ పద్ధతులే (BESS, PSP). III తప్పు: ఎక్కువ ప్యానెళ్లు మధ్యాహ్నం విద్యుత్తునే పెంచుతాయి; సూర్యుడు అస్తమించిన సాయంత్రానికి ఉపయోగం లేదు."
+   }
+  },
+  {
+   "topic": "hcjudges",
+   "q": {
+    "en": "Which of the following statements about High Court judges is/are INCORRECT?",
+    "te": "హైకోర్టు జడ్జీలకు సంబంధించి కింది వాటిలో తప్పు వాక్యం/వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. Permanent judges of a High Court are appointed under Article 224.",
+     "te": "I. హైకోర్టు శాశ్వత జడ్జీలను ఆర్టికల్ 224 కింద నియమిస్తారు."
+    },
+    {
+     "en": "II. 'Working strength' is always equal to 'sanctioned strength'.",
+     "te": "II. 'పనిచేస్తున్న సంఖ్య' ఎప్పుడూ 'మంజూరైన సంఖ్య'కు సమానం."
+    },
+    {
+     "en": "III. The Memorandum of Procedure guides the appointment process.",
+     "te": "III. నియామక ప్రక్రియకు మెమోరాండం ఆఫ్ ప్రొసీజర్ మార్గదర్శి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and II are incorrect. Permanent judges come under Article 217 (Article 224 is for additional judges); working strength is usually lower — on 1 July 2026 it was 781 against 1,122 sanctioned. III is correct.",
+    "te": "I, II తప్పు. శాశ్వత జడ్జీలు ఆర్టికల్ 217 కింద (224 అదనపు జడ్జీలకు); పనిచేస్తున్న సంఖ్య సాధారణంగా తక్కువ — 2026 జూలై 1న 1,122కు గానూ 781. III సరైనది."
+   }
+  },
+  {
+   "topic": "hcjudges",
+   "q": {
+    "en": "Consider the following statements based on Law Ministry data (as of 1 July 2026):",
+    "te": "న్యాయ శాఖ గణాంకాల (2026 జూలై 1 నాటికి) ఆధారంగా కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The 25 High Courts had 1,122 sanctioned judge posts.",
+     "te": "I. 25 హైకోర్టుల్లో 1,122 మంజూరైన జడ్జి పోస్టులు ఉన్నాయి."
+    },
+    {
+     "en": "II. Allahabad High Court had 52 vacancies against 160 sanctioned posts.",
+     "te": "II. అలహాబాద్ హైకోర్టులో 160 మంజూరైన పోస్టులకు 52 ఖాళీలు."
+    },
+    {
+     "en": "III. Vacancies were lower than on 1 October 2024, when 352 of 1,114 posts were vacant.",
+     "te": "III. 1,114 పోస్టుల్లో 352 ఖాళీలున్న 2024 అక్టోబర్ 1 కంటే ఖాళీలు తక్కువ."
+    },
+    {
+     "en": "IV. Meghalaya High Court had the highest vacancy rate.",
+     "te": "IV. మేఘాలయ హైకోర్టులో ఖాళీల రేటు అత్యధికం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I, II and III are correct (341 < 352). IV is wrong: Meghalaya HC was at full strength; J&K and Ladakh HC had about 52% vacancy.",
+    "te": "I, II, III సరైనవి (341 < 352). IV తప్పు: మేఘాలయ హైకోర్టు పూర్తి సంఖ్యతో పనిచేస్తోంది; జమ్మూ కశ్మీర్ & లద్దాఖ్ హైకోర్టులో సుమారు 52% ఖాళీ."
+   }
+  },
+  {
+   "topic": "horizon",
+   "q": {
+    "en": "Consider the following statements about Horizon Europe and India:",
+    "te": "హొరైజన్ యూరప్, భారత్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Horizon Europe has a budget of €93.5 billion.",
+     "te": "I. హొరైజన్ యూరప్ బడ్జెట్ €93.5 బిలియన్లు."
+    },
+    {
+     "en": "II. India will associate only with Pillar II — Global Challenges and European Industrial Competitiveness.",
+     "te": "II. భారత్ కేవలం పిల్లర్ II — గ్లోబల్ ఛాలెంజెస్ & యూరోపియన్ ఇండస్ట్రియల్ కాంపిటీటివ్‌నెస్‌తో మాత్రమే అసోసియేట్ అవుతుంది."
+    },
+    {
+     "en": "III. As an associated country, India will not have to make any financial contribution.",
+     "te": "III. అసోసియేట్ దేశంగా భారత్ ఎలాంటి ఆర్థిక వాటా చెల్లించనవసరం లేదు."
+    },
+    {
+     "en": "IV. Indian scientists could lead collaborative projects after the agreement takes effect.",
+     "te": "IV. ఒప్పందం అమల్లోకి వచ్చిన తర్వాత భారత శాస్త్రవేత్తలు సహకార ప్రాజెక్టులకు నాయకత్వం వహించవచ్చు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "I, II and IV are correct. III is wrong: associated countries contribute financially in return for equal participation.",
+    "te": "I, II, IV సరైనవి. III తప్పు: సమాన భాగస్వామ్యానికి ప్రతిగా అసోసియేట్ దేశాలు ఆర్థిక వాటా చెల్లిస్తాయి."
+   }
+  },
+  {
+   "topic": "horizon",
+   "q": {
+    "en": "Which of the following statements about India–EU cooperation is/are correct?",
+    "te": "భారత్–EU సహకారానికి సంబంధించి కింది వాటిలో సరైన వాక్యం/వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. The EU–India science and technology cooperation agreement was first signed in 2001.",
+     "te": "I. EU–భారత్ శాస్త్ర-సాంకేతిక సహకార ఒప్పందం మొదట 2001లో సంతకమైంది."
+    },
+    {
+     "en": "II. India became the first non-European country to associate with Horizon Europe.",
+     "te": "II. హొరైజన్ యూరప్‌తో అసోసియేట్ అయిన మొదటి ఐరోపాయేతర దేశం భారత్."
+    },
+    {
+     "en": "III. The Joint Comprehensive Strategic Agenda towards 2030 was adopted at a summit in New Delhi.",
+     "te": "III. '2030 దిశగా' సమగ్ర వ్యూహాత్మక అజెండాను న్యూఢిల్లీ సదస్సులో ఆమోదించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and III are correct. II is wrong: non-European countries such as Japan, Canada, Korea and New Zealand are already associated.",
+    "te": "I, III సరైనవి. II తప్పు: జపాన్, కెనడా, కొరియా, న్యూజిలాండ్ వంటి ఐరోపాయేతర దేశాలు ఇప్పటికే అసోసియేట్ అయ్యాయి."
+   }
+  }
+ ]
+}

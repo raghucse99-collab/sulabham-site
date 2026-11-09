@@ -1,0 +1,130 @@
+===== Post 1 of 2 =====
+📝 *SULABHAM · DAILY QUIZ* | 9 NOV 2026
+10 questions · APPSC pattern · based on today's topics · Part 1/2
+
+*1.* Consider the following statements about the Legal Services Authorities Act, 1987:
+I. It came into force on 9 November 1995.
+II. It gives effect to Article 39A, a Fundamental Right in Part III.
+III. Under it, the Chief Justice of India is the Patron-in-Chief of NALSA.
+IV. Persons in custody are among those entitled to free legal services.
+(a) I and II only
+(b) I, III and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+*2.* Match List-I (body) with List-II (head):  A. NALSA  B. State Legal Services Authority  C. District Legal Services Authority.  1. District Judge  2. Chief Justice of India (Patron-in-Chief)  3. Chief Justice of the High Court (Patron-in-Chief). Consider the following matchings:
+I. A – 2
+II. B – 1
+III. C – 1
+(a) I only
+(b) I and II only
+(c) I and III only
+(d) II and III only
+
+*3.* Consider the following statements about the Berlin Wall:
+I. It was built by the Western Allies to keep communism out of West Berlin.
+II. It was about 155 km long and went around West Berlin.
+III. At least 140 people were killed trying to flee across it.
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+*4.* Arrange the following events in chronological order (earliest first):
+I. German reunification
+II. Construction of the Berlin Wall
+III. Schabowski's travel announcement and opening of the Wall
+IV. Krenz–Gorbachev meeting (memorandum of 1 Nov 1989)
+(a) II – III – IV – I
+(b) II – IV – I – III
+(c) IV – II – III – I
+(d) II – IV – III – I
+
+*5.* Consider the following statements about the Viability Gap Funding scheme for grid-scale energy storage (Nov 2026):
+I. It provides ₹14,500 crore of support from FY 2026-27 to FY 2030-31.
+II. The 92 GWh target is shared only between battery storage and pumped storage.
+III. Battery projects must have at least 40% domestic content.
+IV. Total investment of about ₹97,600 crore is expected.
+(a) I, III and IV only
+(b) I and II only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+*6.* A State's grid has surplus solar power at noon and shortage in the evening peak. Which of the following would directly address this problem?
+I. Charging batteries at noon and discharging them in the evening.
+II. Pumping water to an upper reservoir at noon and generating power in the evening.
+III. Adding more solar panels without any storage.
+(a) I only
+(b) II and III only
+(c) I, II and III
+(d) I and II only
+
+*7.* Which of the following statements about High Court judges is/are INCORRECT?
+I. Permanent judges of a High Court are appointed under Article 224.
+II. 'Working strength' is always equal to 'sanctioned strength'.
+III. The Memorandum of Procedure guides the appointment process.
+(a) I and II only
+(b) I only
+(c) I and III only
+(d) I, II and III
+
+*8.* Consider the following statements based on Law Ministry data (as of 1 July 2026):
+I. The 25 High Courts had 1,122 sanctioned judge posts.
+II. Allahabad High Court had 52 vacancies against 160 sanctioned posts.
+III. Vacancies were lower than on 1 October 2024, when 352 of 1,114 posts were vacant.
+IV. Meghalaya High Court had the highest vacancy rate.
+(a) I and II only
+(b) I, II and III only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+✅ Answers, explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-09&tab=quiz
+
+#APPSC #Group1 #Group2 #DailyQuiz #Sulabham
+
+===== Post 2 of 2 =====
+📝 *SULABHAM · DAILY QUIZ* | 9 NOV 2026
+10 questions · APPSC pattern · based on today's topics · Part 2/2
+
+*9.* Consider the following statements about Horizon Europe and India:
+I. Horizon Europe has a budget of €93.5 billion.
+II. India will associate only with Pillar II — Global Challenges and European Industrial Competitiveness.
+III. As an associated country, India will not have to make any financial contribution.
+IV. Indian scientists could lead collaborative projects after the agreement takes effect.
+(a) I and II only
+(b) I, III and IV only
+(c) I, II, III and IV
+(d) I, II and IV only
+
+*10.* Which of the following statements about India–EU cooperation is/are correct?
+I. The EU–India science and technology cooperation agreement was first signed in 2001.
+II. India became the first non-European country to associate with Horizon Europe.
+III. The Joint Comprehensive Strategic Agenda towards 2030 was adopted at a summit in New Delhi.
+(a) I only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+✅ Answers, explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-09&tab=quiz
+
+#APPSC #Group1 #Group2 #DailyQuiz #Sulabham
+
+===== Answers post (send in the evening) =====
+🔑 *Answers — Daily Quiz* | 9 NOV 2026
+1-(b) · 2-(c) · 3-(c) · 4-(d) · 5-(a) · 6-(d) · 7-(a) · 8-(b) · 9-(d) · 10-(c)
+
+📖 Explanations:
+1. (b) I, III and IV are correct. II is wrong: Article 39A is a Directive Principle (Part IV), added by the 42nd Amendment, 1976 — not a Fundamental Right.
+2. (c) I and III are correct (NALSA – CJI; DLSA – District Judge). II is wrong: the SLSA's Patron-in-Chief is the Chief Justice of the High Court, so B – 3.
+3. (c) II and III are correct. I is wrong: East Germany (GDR) built it in 1961 to stop its own citizens escaping to the West.
+4. (d) Correct order: II (1961) → IV (1 Nov 1989) → III (9 Nov 1989) → I (3 Oct 1990). Option (a) wrongly puts the Wall's opening before the Krenz–Gorbachev meeting; (b) puts reunification before the opening.
+5. (a) I, III and IV are correct. II is wrong: 92 GWh = 60 GWh pumped storage + 30 GWh battery + 2 GWh emerging technologies.
+6. (d) I and II are correct — both are storage (BESS and PSP). III is wrong: more panels add more noon power but do nothing for the evening, when the sun has set.
+7. (a) I and II are incorrect. Permanent judges come under Article 217 (Article 224 is for additional judges); working strength is usually lower — on 1 July 2026 it was 781 against 1,122 sanctioned. III is correct.
+8. (b) I, II and III are correct (341 < 352). IV is wrong: Meghalaya HC was at full strength; J&K and Ladakh HC had about 52% vacancy.
+9. (d) I, II and IV are correct. III is wrong: associated countries contribute financially in return for equal participation.
+10. (c) I and III are correct. II is wrong: non-European countries such as Japan, Canada, Korea and New Zealand are already associated.
+
+👉 https://sulabham.in/today.html?d=2026-11-09&tab=quiz
