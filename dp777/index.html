@@ -1158,11 +1158,18 @@ function renderChart(){
    }).join('')+'</tbody></table></div>';
    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · MONDAY 00 → +10 PROGRESSION</strong><span>'+p.items.length+' anchors · gap '+p.gap+'</span></div><div class="repeat-watch"><b>'+p.items.map(x=>esc(x.target.value)).join(' → ')+'</b><div>Jodi increases by 10 at the same result gap after each Monday 00.</div><small>Wraps after 99: 99 → 09. At least 4 Monday 00 occurrences are required. Count published result entries, not days or weeks.</small></div><div class="repeat-steps">'+steps+'</div><details class="repeat-history"><summary>Show result-by-result progression</summary>'+table+'</details></section>';
   }).join('');
-  const anchorAudit=anchors.map((a,i)=>{
-   const first=resultSequence[a.index+1];
-   return '<tr><td>'+(i+1)+'</td><td>'+esc(a.item.row.date||'')+'</td><td>00</td><td>'+(first?esc(first.value)+' ('+esc(first.day)+')':'No following result')+'</td></tr>';
+  // Display the actual result chart after every Monday 00 anchor.
+  // Each column is a published Jodi-result position after the anchor.
+  const chartGapLimit=12;
+  const chartRows=anchors.map((a,i)=>{
+   const cells=Array.from({length:chartGapLimit},(_,k)=>{
+    const hit=resultSequence[a.index+k+1];
+    return '<td>'+(hit?'<strong>'+esc(hit.value)+'</strong><small>'+esc(hit.day)+'</small>':'·')+'</td>';
+   }).join('');
+   return '<tr><th class="repeat-week-date"><b>#'+(i+1)+'</b><small>'+esc(a.item.row.date||'')+'</small></th><td class="repeat-hit"><strong>00</strong><small>Mon</small></td>'+cells+'</tr>';
   }).join('');
-  const auditTable='<details class="repeat-history"><summary>Show all Monday 00 anchors checked ('+anchors.length+')</summary><div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>#</th><th>Week</th><th>Monday anchor</th><th>Next result</th></tr></thead><tbody>'+anchorAudit+'</tbody></table></div><p class="repeat-explain">The full search checks every possible result gap after each anchor, then compares the Jodis at the same gap for +10 progression.</p></details>';
+  const chartHeaders=Array.from({length:chartGapLimit},(_,k)=>'<th>Gap '+(k+1)+'</th>').join('');
+  const auditTable='<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>MONDAY 00 · RESULT PROGRESSION CHART</strong><span>'+anchors.length+' anchors</span></div><p class="repeat-explain">Each row starts at a real Monday 00. Read across the row: Gap 1, Gap 2, Gap 3… are the next published Jodi results in chart order, regardless of weekday. Compare the same gap column down the rows to check +10 progression.</p><div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Monday 00 date</th><th>Anchor</th>'+chartHeaders+'</tr></thead><tbody>'+chartRows+'</tbody></table></div></section>';
   // Enumerate consecutive 00 occurrences only. A run qualifies when all
   // consecutive distances are identical and there are at least five 00s.
   for(let start=0;start<=occurrences.length-5;start++){
