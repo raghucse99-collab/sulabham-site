@@ -1294,15 +1294,33 @@ function renderChart(){
   }
   const patterns=[...found.values()].sort((a,b)=>b.steps.length-a.steps.length||a.start-b.start||
    a.steps.reduce((n,x)=>n+x.gap,0)-b.steps.reduce((n,x)=>n+x.gap,0));
-  const latestChartIndex=displayRows.length-1;
-  const currentFilteredPosition=filteredRows.findIndex(x=>x.sourceIndex===latestChartIndex);
+  // Classify by the real calendar week (Monday-Sunday), not by the final
+  // position in the filtered search. A filtered search can omit the latest
+  // chart row, so "last result row" is not a reliable current-week test.
+  const mondayOfWeek=timestamp=>{
+   if(!Number.isFinite(timestamp))return null;
+   const d=new Date(timestamp);d.setHours(0,0,0,0);
+   d.setDate(d.getDate()-((d.getDay()+6)%7));
+   return d.getTime();
+  };
+  const now=new Date();
+  const currentWeekStart=mondayOfWeek(now.getTime());
+  const weekStartForFilteredRow=index=>{
+   const item=filteredRows[index];
+   const parsed=item?parseWeekStart(item.row.date):null;
+   return parsed===null?null:mondayOfWeek(parsed);
+  };
   const chainEnd=p=>p.steps[p.steps.length-1].to;
   const nextGapFor=p=>p.mode==='same'?p.steps[0].gap:p.steps[p.steps.length-1].gap+1;
-  const thisWeekPatterns=currentFilteredPosition>=0?patterns.filter(p=>chainEnd(p)===currentFilteredPosition):[];
+  const thisWeekPatterns=patterns.filter(p=>weekStartForFilteredRow(chainEnd(p))===currentWeekStart);
+  // Gap 1 and gap 2 are the next and second-next rows in the target-filtered
+  // weekly sequence; fully closed market weeks have already been removed from
+  // the selected result sequence by the source search.
   const nextWeekPatterns=thisWeekPatterns.filter(p=>nextGapFor(p)===1);
-  const presentRunningPatterns=thisWeekPatterns.filter(p=>nextGapFor(p)>1);
-  const historicalPatterns=patterns.filter(p=>chainEnd(p)!==currentFilteredPosition);
-  $('count').textContent=thisWeekPatterns.length+' ఈ వారం వచ్చిన నమూనాలు · '+nextWeekPatterns.length+' వచ్చే వారం రావాల్సి ఉంది · '+historicalPatterns.length+' గత నమూనాలు';
+  const twoWeekPatterns=thisWeekPatterns.filter(p=>nextGapFor(p)===2);
+  const furtherPatterns=thisWeekPatterns.filter(p=>nextGapFor(p)>2);
+  const historicalPatterns=patterns.filter(p=>weekStartForFilteredRow(chainEnd(p))!==currentWeekStart);
+  $('count').textContent=thisWeekPatterns.length+' ఈ వారం జరిగినవి · '+nextWeekPatterns.length+' వచ్చే వారం లక్ష్యాలు · '+twoWeekPatterns.length+' రెండు వారాల లక్ష్యాలు · '+historicalPatterns.length+' పాత నమూనాలు';
   const renderCards=(list)=>list.slice(0,300).map((p,n)=>{
    const end=p.steps[p.steps.length-1].to,marks=new Map();
    marks.set(p.start,new Set([p.duplicate]));
@@ -1319,8 +1337,8 @@ function renderChart(){
    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>'+(p.mode==='same'?'ఒకే గ్యాప్':'క్రమంగా +1 గ్యాప్‌లు')+' · '+p.steps.map(x=>x.gap).join(' → ')+' · NEXT '+nextGapFor(p)+'</span></div><div class="repeat-watch"><b>ప్రారంభ డూప్లికేట్ జోడి</b><div><strong>'+esc(p.duplicate)+'</strong></div><small>Starting filtered result row '+(p.start+1)+' · '+esc(filteredRows[p.start].row.date||'')+'</small></div><div class="repeat-steps">'+links+'</div><details class="repeat-history"><summary>సరిపోలిన వారపు వరుసలు చూపించు</summary>'+table+'</details></section>';
   }).join('');
   const section=(title,subtitle,list)=>'<section class="repeat-live-section"><h3>'+title+'</h3><p>'+subtitle+'</p>'+(list.length?renderCards(list):'<div class="empty">No confirmed chains in this category.</div>')+'</section>';
-  const noCurrent=currentFilteredPosition<0?'<div class="empty"><strong>The latest chart week is not included in this Number+n filtered result.</strong>Current-week status cannot be confirmed until the search includes a match from the latest playing week.</div>':'';
-  $('tableArea').innerHTML='<div class="repeat-page"><h3>ANY NUMBER+n · CURRENT &amp; UPCOMING LINKED JODIS · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Only weeks returned by the Number+n search are analysed. Same-gap and systematic +1 chains remain separate. Current status is assigned only when a confirmed chain reaches the latest chart week. “Next week” means the next filtered-result week (gap 1), not a guaranteed outcome.</p>'+noCurrent+section('ఈ వారం వచ్చింది','Confirmed links whose final matched occurrence is in the latest chart week.',thisWeekPatterns)+section('వచ్చే వారం రావాల్సి ఉంది','Current chains whose next required filtered-result gap is exactly 1.',nextWeekPatterns)+section('ప్రస్తుతం కొనసాగుతోంది','Current chains continuing beyond the next filtered-result week; the next required gap is shown in each card.',presentRunningPatterns)+section('గత నమూనాలు','Older completed chains, kept separate from current-week results.',historicalPatterns)+(patterns.length>300?'<p>Showing up to 300 chains per section.</p>':'')+'</div>';
+  const noCurrent=!thisWeekPatterns.length?'<div class="empty"><strong>ఈ క్యాలెండర్ వారంలో సరిపోలిన లింక్ ఇంకా లేదు.</strong>ప్రస్తుత వారం తేదీ ఆధారంగా మాత్రమే వర్గీకరణ జరుగుతుంది; చివరి filtered row ఆధారంగా కాదు.</div>':'';
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>ANY NUMBER+n · CURRENT &amp; UPCOMING LINKED JODIS · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">వారం వర్గీకరణ నిజమైన సోమవారం–ఆదివారం క్యాలెండర్ వారంతో జరుగుతుంది. గ్యాప్‌లు మాత్రం మీ Number+n filtered-result వరుసల ఆధారంగా లెక్కించబడతాయి. ఇవి చారిత్రక నమూనాలు మాత్రమే; భవిష్యత్ ఫలితాల హామీ కావు.</p>'+noCurrent+section('ఈ వారం జరిగినవి','ప్రస్తుత క్యాలెండర్ వారంలో చివరి లింక్ నమోదైన నమూనాలు.',thisWeekPatterns)+section('వచ్చే వారం లక్ష్యాలు','ప్రస్తుత వారపు నమూనా నుంచి తదుపరి filtered-result gap 1 ఉన్న లింకులు.',nextWeekPatterns)+section('రెండు వారాల లక్ష్యాలు','తదుపరి filtered-result gap 2 ఉన్న లింకులు.',twoWeekPatterns)+section('ఇంకా తర్వాత కొనసాగేవి','తదుపరి filtered-result gap 2 కంటే ఎక్కువగా ఉన్న నమూనాలు.',furtherPatterns)+section('పాత నమూనాలు','ప్రస్తుత క్యాలెండర్ వారానికి ముందు ముగిసిన నమూనాలు.',historicalPatterns)+(patterns.length>300?'<p>Showing up to 300 chains per section.</p>':'')+'</div>';
   return;
  }
 
