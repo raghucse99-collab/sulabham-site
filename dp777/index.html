@@ -1225,8 +1225,14 @@ function renderChart(){
     }else{
      const m3=mondayAt(k,3);
      const l=nextOccurrence(list4,k);
-     if(m3&&l===undefined){
-      nearStep2.push({startJodi,steps:[...first.steps,{jodi:seq[2],gap:3,fridayIndex:k,fridayRow:progressionRows[k],mondayIndex:m3.index,mondayRow:m3.row,monday:m3.result}],waiting:seq[3],stage:'step2'});
+     if(m3){
+      const step2Partial={startJodi,steps:[...first.steps,{jodi:seq[2],gap:3,fridayIndex:k,fridayRow:progressionRows[k],mondayIndex:m3.index,mondayRow:m3.row,monday:m3.result}],waiting:seq[3],stage:'step2'};
+      if(l===undefined){
+       nearStep2.push(step2Partial);
+      }else{
+       const pendingFinalMonday=mondayAt(l,2);
+       if(!pendingFinalMonday)nearStep2.push({...step2Partial,pendingFridayRow:progressionRows[l],pendingFridayIndex:l,pendingMonday:true});
+      }
      }
      if(m3&&l!==undefined){
       const m4=mondayAt(l,2);
@@ -1331,7 +1337,7 @@ function renderChart(){
   const renderNearCards=list=>list.map((p,n)=>{
    const a=p.steps[0],b=p.steps[1],c=p.steps[2];
    const label=p.stage==='step1'?'దశ 1 పూర్తయింది · '+p.waiting+' రావాల్సి ఉంది':'దశ 2 మొదటి భాగం పూర్తయింది · '+p.waiting+' రావాల్సి ఉంది';
-   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · NEAR MATCH · '+esc(m?.name||selected).toUpperCase()+'</strong><span>'+p.steps.map(x=>x.jodi).join(' → ')+'</span></div><div class="repeat-watch"><b>'+label+'</b><div>Step 1 Monday match: <strong>'+a.monday+' = '+b.monday+'</strong></div>'+(c?'<div>Step 2 first Monday target: <strong>'+c.monday+'</strong> · gap 3</div>':'')+'<small>Next Friday Jodi required: '+p.waiting+' · No result is predicted or assumed.</small></div>'+stepCard(a,b,1)+(c?'<div class="repeat-steps"><div class="repeat-step"><b class="repeat-step-num">దశ 2 · FRIDAY '+c.jodi+'</b><strong class="repeat-step-jodi">'+c.monday+'</strong><span>Friday · '+esc(dateOnly(c.fridayRow))+'<br>Monday target · '+esc(dateOnly(c.mondayRow))+'</span><b>గ్యాప్ '+c.gap+'</b></div></div>':'')+'</section>';
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · NEAR MATCH · '+esc(m?.name||selected).toUpperCase()+'</strong><span>'+p.steps.map(x=>x.jodi).join(' → ')+'</span></div><div class="repeat-watch"><b>'+label+'</b><div>Step 1 Monday match: <strong>'+a.monday+' = '+b.monday+'</strong></div>'+(c?'<div>Step 2 first Monday target: <strong>'+c.monday+'</strong> · gap 3</div>':'')+(p.pendingMonday?'<div>Final Friday Jodi '+p.waiting+' occurred · '+esc(dateOnly(p.pendingFridayRow))+'; its Monday target at gap 2 is not yet available.</div>':'')+'<small>'+(p.pendingMonday?'Waiting for the final Monday target':'Next Friday Jodi required: '+p.waiting)+' · No result is predicted or assumed.</small></div>'+stepCard(a,b,1)+(c?'<div class="repeat-steps"><div class="repeat-step"><b class="repeat-step-num">దశ 2 · FRIDAY '+c.jodi+'</b><strong class="repeat-step-jodi">'+c.monday+'</strong><span>Friday · '+esc(dateOnly(c.fridayRow))+'<br>Monday target · '+esc(dateOnly(c.mondayRow))+'</span><b>గ్యాప్ '+c.gap+'</b></div></div>':'')+weeklyChart({steps:p.steps},[])+'</section>';
   }).join('');
   const nearSection='<h3 class="repeat-section-title">NEAR MATCHES · దశ 2 పెండింగ్ · '+(nearStep1.length+nearStep2.length)+'</h3><p class="repeat-explain">These are incomplete historical chains. The next required Friday Jodi has not yet appeared in the available chart data. They are watch candidates, not predictions.</p><h3 class="repeat-section-title">దశ 1 పూర్తయింది · +20 రావాల్సి ఉంది · '+nearStep1.length+'</h3>'+(nearStep1.length?renderNearCards(nearStep1):'<div class="empty">No candidates.</div>')+'<h3 class="repeat-section-title">దశ 2 మొదటి భాగం పూర్తయింది · +30 రావాల్సి ఉంది · '+nearStep2.length+'</h3>'+(nearStep2.length?renderNearCards(nearStep2):'<div class="empty">No candidates.</div>');
   const cards='<h3 class="repeat-section-title">ఈ వారం జరిగినవి · '+currentFridayPatterns.length+'</h3>'+(currentFridayPatterns.length?renderFridayCards(currentFridayPatterns):'<div class="empty">ఈ క్యాలెండర్ వారంలో సరిపోలిన Monday target లేదు.</div>')+'<h3 class="repeat-section-title">గత నమూనాలు · '+historicalFridayPatterns.length+'</h3>'+(historicalFridayPatterns.length?renderFridayCards(historicalFridayPatterns):'<div class="empty">గత నమూనాలు లేవు.</div>');
