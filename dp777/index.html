@@ -1637,7 +1637,9 @@ function renderChart(){
    if(p.steps.length<2)return false;
    if(p.failedAt!==undefined||!p.nextJodi)return false;
    const last=p.steps[p.steps.length-1]?.to??p.start;
-   return last+p.nextGap+1===latestIndex+1;
+   const target=last+p.nextGap+1;
+   // Show the next one or two playing-week targets as separate actionable groups.
+   return target===latestIndex+1||target===latestIndex+2;
   });
   running.sort((a,b)=>(b.steps[b.steps.length-1]?.to??b.start)-(a.steps[a.steps.length-1]?.to??a.start)||b.steps.length-a.steps.length||b.start-a.start);
   upcoming.sort((a,b)=>((a.steps[a.steps.length-1]?.to??a.start)+a.nextGap+1)-((b.steps[b.steps.length-1]?.to??b.start)+b.nextGap+1)||b.steps.length-a.steps.length);
@@ -1648,7 +1650,10 @@ function renderChart(){
   const activeKeys=new Set(activeUnique.map(patternKey));
   const historicalOnly=patterns.filter(p=>!activeKeys.has(patternKey(p)));
   mergedActive.sort((a,b)=>{const rank=p=>p.steps.some(x=>x.to===latestIndex)?0:p.failedAt===latestIndex?1:2;return rank(a)-rank(b)||b.steps.length-a.steps.length;});
-  $('count').textContent=view==='linked'?(patterns.length+' మొత్తం నమూనాలు · '+running.length+' తాజా లింకులు · '+upcoming.length+' వెంటనే వచ్చే ఆడే వారం లక్ష్యాలు'):patterns.length+' linked patterns';
+  const dueCount=patterns.filter(p=>p.failedAt===latestIndex).length;
+  const nextOneCount=upcoming.filter(p=>(p.steps[p.steps.length-1]?.to??p.start)+p.nextGap+1===latestIndex+1).length;
+  const nextTwoCount=upcoming.filter(p=>(p.steps[p.steps.length-1]?.to??p.start)+p.nextGap+1===latestIndex+2).length;
+  $('count').textContent=view==='linked'?(dueCount+' ఈ వారం పడాల్సి ఉంది · '+running.length+' ఈ వారం పడింది · '+nextOneCount+' వచ్చే వారం–1 · '+nextTwoCount+' వచ్చే వారం–2'):patterns.length+' linked patterns';
   stats.hidden=true;
   function cardsFor(list,all,rows,dayNames,isValid,escapeHtml){
    return list.slice(0,500).map((p,n)=>{
@@ -1657,13 +1662,12 @@ function renderChart(){
     const occurredThisWeek=linkedIsThisWeek(endIndex),dueThisWeek=p.failedAt!==undefined&&linkedIsThisWeek(p.failedAt);
     const thisWeekNumbers=linkedThisWeekNumbers;
     const nextTarget=endIndex+p.nextGap+1;
-    const nextTargetWeek=nextTarget<rows.length&&linkedIsThisWeek(nextTarget);
-    const calendarWeekStart=currentWeekDayKey().weekStart;
-    const endDate=linkedWeekKey(endIndex);
-    const endWeekStart=endDate?mondayDateKey(endDate):'';
-    const isCalendarThisWeek=endWeekStart===calendarWeekStart;
-    const isNextCalendarWeek=endWeekStart&&(()=>{const d=new Date(calendarWeekStart+'T00:00:00Z');d.setUTCDate(d.getUTCDate()+7);return d.toISOString().slice(0,10)===endWeekStart;})();
-    const weekStatus=isCalendarThisWeek?'ఈ వారం వచ్చింది':isNextCalendarWeek?'వచ్చే వారం వచ్చింది':occurredThisWeek?'తాజాగా వచ్చిన ఫలితం':dueThisWeek?'ఈ వారం లక్ష్యం':nextTarget===latestIndex+1?'వచ్చే ఆడే వారం లక్ష్యం':nextTarget>latestWeek?'దూరపు లక్ష్యం · గ్యాప్ '+nextGapNumber:'గత నమూనా';
+    const weeksAhead=nextTarget-latestIndex;
+    const weekStatus=occurredThisWeek?'ఈ వారం పడింది':
+      dueThisWeek?'ఈ వారం పడాల్సి ఉంది':
+      weeksAhead===1?'వచ్చే వారం–1':
+      weeksAhead===2?'వచ్చే వారం–2':
+      'గత నమూనా';
     p.steps.forEach(step=>{if(!marks.has(step.from))marks.set(step.from,new Set());if(!marks.has(step.to))marks.set(step.to,new Set());(step.jodis||[step.jodi]).forEach(j=>{marks.get(step.from).add(j);marks.get(step.to).add(j);});});
     const tableEnd=Math.max(end,(occurredThisWeek||dueThisWeek||nextTarget>latestWeek&&all===activeUnique)?latestWeek:end);
     const tableRows=rows.slice(p.start,tableEnd+1);
@@ -1696,7 +1700,7 @@ function renderChart(){
      group('పెరుగుతున్న గ్యాప్',increasing,'#4c1d95')+
      (other.length?group('OTHER GAP',other,'#475569'):'');
    };
-   const linkedContent=strategySection('ఈ నెలలో రావాల్సినవి &amp; తాజాగా వచ్చినవి',mergedActive,mergedActive,'#166534')+
+   const linkedContent=strategySection('ఈ వారం పడాల్సినవి · ఈ వారం పడినవి · వచ్చే వారం 1 / 2',mergedActive,mergedActive,'#166534')+
     strategySection('గత నమూనాలు',historicalOnly,historicalOnly,'#475569');
    $('tableArea').innerHTML='<div class="repeat-page"><h3>'+(view==='linked'?'LINKED JODI SEQUENCES':'SEPARATE LINKED JODI SEARCH')+' · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">'+linkedIntro+'</p>'+(view==='linked'?linkedContent:(cardsFor(patterns,patterns,playingRows,days,valid,esc)||'<div class="empty">No linked patterns found.</div>'))+'</div>';
   return;
