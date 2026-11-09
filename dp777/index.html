@@ -1690,8 +1690,11 @@ function renderChart(){
    $('count').textContent='Invalid search';stats.hidden=true;
    $('tableArea').innerHTML='<div class="empty"><strong>'+esc(targetSearch.error)+'</strong>Use a search such as 23+1, 23+2 or 23+3.</div>';return;
   }
-  const picked=targetSearch.selectedIndexes.map(i=>displayRows[i]).filter(r=>yr==='all'||String(r.date||'').includes(yr));
-  const targetCount=targetSearch.targetIndexes.filter(i=>yr==='all'||String(displayRows[i].date||'').includes(yr)).length;
+  // targetSearch indexes refer to targetSearchRows, which excludes fully
+  // closed weeks. Never index displayRows here: that shifts every result
+  // whenever the archive contains a closed/holiday week.
+  const picked=targetSearch.selectedIndexes.map(i=>targetSearchRows[i]).filter(r=>r&&(yr==='all'||String(r.date||'').includes(yr)));
+  const targetCount=targetSearch.targetIndexes.filter(i=>yr==='all'||String(targetSearchRows[i]?.date||'').includes(yr)).length;
   $('count').textContent=picked.length+' selected weeks';
   stats.hidden=false;stats.textContent='Target '+targetSearch.target+' · target weeks '+targetCount+' · unique selected weeks '+picked.length;
   if(view==='source'||view==='guess')view='jodi';
