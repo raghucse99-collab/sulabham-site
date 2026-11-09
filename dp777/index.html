@@ -1497,6 +1497,16 @@ function renderChart(){
   }
   patterns=mergeFinalJodiSiblings(patterns);
   const latestIndex=playingRows.length-1;
+  // Actual India-local calendar week, independent of the last archive row.
+  const linkedCurrentWeek=currentWeekDayKey().weekStart;
+  const linkedWeekKey=index=>parseWeekStart(playingRows[index]?.date);
+  const linkedIsThisWeek=index=>{
+   const key=linkedWeekKey(index);if(!key||!linkedCurrentWeek)return false;
+   const d=new Date(key+'T00:00:00Z');
+   d.setUTCDate(d.getUTCDate()-((d.getUTCDay()+6)%7));
+   return d.toISOString().slice(0,10)===linkedCurrentWeek;
+  };
+  const linkedThisWeekNumbers=[...new Set(playingRows.flatMap((row,index)=>linkedIsThisWeek(index)?days.map(day=>String(row[day+' Jodi']??'').trim()).filter(valid):[]))].sort();
   // A running sequence has its scheduled Jodi actually present in the latest
   // published row. A sequence whose next scheduled row is still beyond the
   // archive is upcoming; any sequence that missed a scheduled row is broken.
@@ -1521,10 +1531,12 @@ function renderChart(){
   function cardsFor(list,all,rows,dayNames,isValid,escapeHtml){
    return list.slice(0,500).map((p,n)=>{
     const end=p.steps[p.steps.length-1]?.to??p.start,marks=new Map();marks.set(p.start,new Set([p.duplicate]));
-    const latestWeek=rows.length-1,occurredThisWeek=p.steps.some(step=>step.to===latestWeek),dueThisWeek=p.failedAt===latestWeek;
-    const thisWeekNumbers=[...new Set(dayNames.map(d=>String(rows[latestWeek]?.[d+' Jodi']??'').trim()).filter(isValid))].sort();
-    const nextTarget=(p.steps[p.steps.length-1]?.to??p.start)+p.nextGap+1;
-    const weekStatus=occurredThisWeek?'ఈ వారం వచ్చింది':dueThisWeek?'ఈ వారం రావాల్సి ఉంది':nextTarget>latestWeek?'వచ్చే వారాల్లో రావాల్సి ఉంది':'గత నమూనా';
+    const latestWeek=rows.length-1,endIndex=p.steps[p.steps.length-1]?.to??p.start;
+    const occurredThisWeek=linkedIsThisWeek(endIndex),dueThisWeek=p.failedAt!==undefined&&linkedIsThisWeek(p.failedAt);
+    const thisWeekNumbers=linkedThisWeekNumbers;
+    const nextTarget=endIndex+p.nextGap+1;
+    const nextTargetWeek=nextTarget<rows.length&&linkedIsThisWeek(nextTarget);
+    const weekStatus=occurredThisWeek?'ఈ వారం వచ్చింది':dueThisWeek?'ఈ వారం లక్ష్యంగా ఉంది':nextTargetWeek?'ఈ వారం లక్ష్యం':nextTarget>latestWeek?'తదుపరి ఆడే వారాల్లో లక్ష్యం':'గత నమూనా';
     p.steps.forEach(step=>{if(!marks.has(step.from))marks.set(step.from,new Set());if(!marks.has(step.to))marks.set(step.to,new Set());(step.jodis||[step.jodi]).forEach(j=>{marks.get(step.from).add(j);marks.get(step.to).add(j);});});
     const tableEnd=Math.max(end,(occurredThisWeek||dueThisWeek||nextTarget>latestWeek&&all===activeUnique)?latestWeek:end);
     const tableRows=rows.slice(p.start,tableEnd+1);
