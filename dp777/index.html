@@ -1160,7 +1160,7 @@ function renderChart(){
   // Prioritize complete Step 1 + Step 2 chains; Step 1-only matches follow.
   step1.sort((a,b)=>(b.extensions.length>0?1:0)-(a.extensions.length>0?1:0)||b.extensions.length-a.extensions.length||b.steps[1].fridayIndex-a.steps[1].fridayIndex||a.steps[0].fridayIndex-b.steps[0].fridayIndex);
   step2.sort((a,b)=>b.steps[3].fridayIndex-a.steps[3].fridayIndex||a.steps[0].fridayIndex-b.steps[0].fridayIndex);
-  $('count').textContent=step1.length+' standard Step 1 matches · '+step2.length+' standard Step 2 extensions · '+sameGapStep1.length+' same-gap Step 1 · '+sameGapStep2.length+' same-gap Step 2 · '+progressionRows.length+' chart weeks checked';
+
   const dateOnly=row=>String(row?.date||'').split(/\\s+to\\s+/i)[0].trim()||'—';
   const stepCard=(a,b,stepNo)=>{
    return '<div class="repeat-steps"><div class="repeat-step"><b class="repeat-step-num">STEP '+stepNo+' · FRIDAY '+a.jodi+'</b><strong class="repeat-step-jodi">'+a.monday+'</strong><span>Friday row '+(a.fridayIndex+1)+' · '+esc(dateOnly(a.fridayRow))+'<br>Monday target row '+(a.mondayIndex+1)+' · '+esc(dateOnly(a.mondayRow))+'</span><b>GAP '+a.gap+'</b></div><div class="repeat-step"><b class="repeat-step-num">STEP '+stepNo+' · FRIDAY '+b.jodi+'</b><strong class="repeat-step-jodi">'+b.monday+'</strong><span>Friday row '+(b.fridayIndex+1)+' · '+esc(dateOnly(b.fridayRow))+'<br>Monday target row '+(b.mondayIndex+1)+' · '+esc(dateOnly(b.mondayRow))+'</span><b>GAP '+b.gap+'</b></div></div><div class="repeat-pattern-footer">STEP '+stepNo+' MONDAY MATCH: '+a.monday+' = '+b.monday+'</div>';
@@ -1224,6 +1224,7 @@ function renderChart(){
   }
   sameGapStep1.sort((a,b)=>(b.extensions.length>0?1:0)-(a.extensions.length>0?1:0)||b.steps[1].fridayIndex-a.steps[1].fridayIndex||a.steps[0].fridayIndex-b.steps[0].fridayIndex);
   sameGapStep2.sort((a,b)=>b.steps[3].fridayIndex-a.steps[3].fridayIndex||a.steps[0].fridayIndex-b.steps[0].fridayIndex);
+  $('count').textContent=step1.length+' standard Step 1 matches · '+step2.length+' standard Step 2 extensions · '+sameGapStep1.length+' same-gap Step 1 · '+sameGapStep2.length+' same-gap Step 2 · '+progressionRows.length+' chart weeks checked';
   const cards=step1.map((p,n)=>{
    const step2=p.extensions.map(pair=>stepCard(pair[0],pair[1],2)).join('');
    const extra=p.extensions.length?step2:'<div class="empty"><strong>Step 1 matched; no Step 2 extension found.</strong></div>';
