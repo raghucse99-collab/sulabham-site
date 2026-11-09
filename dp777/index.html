@@ -1302,18 +1302,19 @@ function renderChart(){
   // Classify by the real calendar week (Monday-Sunday), not by the final
   // position in the filtered search. A filtered search can omit the latest
   // chart row, so "last result row" is not a reliable current-week test.
-  const mondayOfWeek=timestamp=>{
-   if(!Number.isFinite(timestamp))return null;
-   const d=new Date(timestamp);d.setHours(0,0,0,0);
-   d.setDate(d.getDate()-((d.getDay()+6)%7));
-   return d.getTime();
+  const mondayDateKey=value=>{
+   if(!value)return '';
+   const d=new Date(String(value).slice(0,10)+'T00:00:00Z');
+   if(!Number.isFinite(d.getTime()))return '';
+   d.setUTCDate(d.getUTCDate()-((d.getUTCDay()+6)%7));
+   return d.toISOString().slice(0,10);
   };
-  const now=new Date();
-  const currentWeekStart=mondayOfWeek(now.getTime());
+  // Both sides are YYYY-MM-DD strings. parseWeekStart returns a date string,
+  // not a timestamp; comparing numeric timestamps here made every match fail.
+  const currentWeekStart=currentWeekDayKey().weekStart;
   const weekStartForFilteredRow=index=>{
    const item=filteredRows[index];
-   const parsed=item?parseWeekStart(item.row.date):null;
-   return parsed===null?null:mondayOfWeek(parsed);
+   return mondayDateKey(item?parseWeekStart(item.row.date):'');
   };
   const chainEnd=p=>p.steps[p.steps.length-1].to;
   const nextGapFor=p=>p.mode==='same'?p.steps[0].gap:p.steps[p.steps.length-1].gap+1;
