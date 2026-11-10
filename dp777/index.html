@@ -1125,7 +1125,7 @@ function renderChart(){
   playingRows.forEach(row=>{
    for(const day of marketDays){
     const value=String(row[day+' Jodi']??'').trim();
-    if(valid(value))resultSequence.push({value,row,day});
+    if(valid(value))resultSequence.push({value,row,day,index:resultSequence.length});
    }
   });
   const anchors=[];
