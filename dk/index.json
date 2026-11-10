@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "M1iId3fIyqYDue3YLUqMXw==",
 "iter": 200000,
-"check": "bzWJIsJrbZqjCJ1iEuptEGlyiUEnTo5zdpoMCHiK6B8lMgXmzChYVD2IzA==",
+"check": "evz+hznuiiP/xihI9Kr6KKerXdkIeI02HGMM9Erc4D9q8rLQFuS/LYIjIQ==",
 "lessons": {
 "dsc-sgt-perspectives-day2": "Perspectives in Education, Day 2: Teachers, Rights, Concerns, NCF and NEP",
 "dsc-sgt-perspectives-day2-te": "విద్యా దృక్పథాలు, 2వ రోజు: ఉపాధ్యాయులు, హక్కులు, సమకాలీన అంశాలు, NCF, NEP",
@@ -19,6 +19,8 @@
 "dsc-sgt-maths-day1": "Mathematics, Day 1: Numbers and Numeration; Factors, Primes, HCF and LCM",
 "dsc-sgt-maths-day1-te": "గణితం, రోజు 1: సంఖ్యలు, సంఖ్యామానం; కారణాంకాలు, ప్రధాన సంఖ్యలు, గ.సా.భా, క.సా.గు",
 "dsc-sgt-maths-day2": "Mathematics, Day 2: Integers, Fractions, Decimals and Rational Numbers; Squares, Cubes and Roots",
-"dsc-sgt-maths-day2-te": "గణితం, రోజు 2: పూర్ణాంకాలు, భిన్నాలు, దశాంశాలు, అకరణీయ సంఖ్యలు; వర్గాలు, ఘనాలు, మూలాలు"
+"dsc-sgt-maths-day2-te": "గణితం, రోజు 2: పూర్ణాంకాలు, భిన్నాలు, దశాంశాలు, అకరణీయ సంఖ్యలు; వర్గాలు, ఘనాలు, మూలాలు",
+"dsc-sgt-maths-day3": "Mathematics, Day 3: Ratio, Proportion and Percentage; Profit–Loss, Discount, GST and Interest",
+"dsc-sgt-maths-day3-te": "గణితం, రోజు 3: నిష్పత్తి, అనుపాతం, శాతం; లాభ–నష్టాలు, రాయితీ, GST, వడ్డీ"
 }
 }
