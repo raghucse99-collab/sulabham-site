@@ -1177,7 +1177,12 @@ function renderChart(){
    interval.items.forEach((target,index)=>{
     const gap=target.gap,key=target.value+'@'+gap;
     if(!sameJodiGroups.has(key))sameJodiGroups.set(key,{jodi:target.value,gap,items:[]});
-    sameJodiGroups.get(key).items.push({anchor:interval.anchor,target,gap});
+    // Count each Monday 00 interval only once, even if that Jodi appears
+    // on multiple weekdays in the same weekly row at the same row gap.
+    const group=sameJodiGroups.get(key);
+    if(!group.items.some(existing=>existing.anchor.index===interval.anchor.index)){
+     group.items.push({anchor:interval.anchor,target,gap});
+    }
    });
   });
   const sameJodiRuns=[...sameJodiGroups.values()]
