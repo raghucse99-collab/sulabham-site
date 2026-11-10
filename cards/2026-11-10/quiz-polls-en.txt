@@ -1,0 +1,224 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-10 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about World Science Day for Peace and Development:
+I. It is observed on 10 November every year.
+II. It was proclaimed by the UN General Assembly in 2002.
+III. Its 2026 theme is 'Common ground through science diplomacy'.
+
+--- QUESTION ---
+Q1. Consider the following statements about World Science Day for Peace and Development: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct. II is wrong twice: it was proclaimed by UNESCO, and in 2001; 2002 was the first celebration.
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Match List-I with List-II. List-II: A. 28 February   B. 4 November 1946   C. 10 November
+I. World Science Day for Peace and Development
+II. India's National Science Day
+III. UNESCO Constitution comes into force
+
+--- OPTIONS ---
+(a) I-C, II-A, III-B
+(b) I-A, II-C, III-B
+(c) I-C, II-B, III-A
+(d) I-B, II-A, III-C
+
+--- CORRECT (tick this) ---
+(a) I-C, II-A, III-B
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+World Science Day = 10 Nov; National Science Day (Raman Effect) = 28 Feb; UNESCO Constitution in force = 4 Nov 1946 (it was signed in Nov 1945 — the trap).
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements. Which of them is/are INCORRECT?
+I. Afzal Khan was a Mughal general sent by Aurangzeb.
+II. Pratapgad fort is in Satara district of Maharashtra.
+III. The Treaty of Purandar (1665) was signed with Jai Singh I.
+IV. Shivaji was crowned Chhatrapati at Raigad in 1674.
+
+--- QUESTION ---
+Q3. Consider the following statements. Which of them is/are INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) II only
+(b) II and IV only
+(c) I and III only
+(d) I only
+
+--- CORRECT (tick this) ---
+(d) I only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Only I is incorrect: Afzal Khan was a general of Ali Adil Shah II of Bijapur, not of the Mughals. II, III and IV are correct.
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Arrange the following events in chronological order (earliest first):
+I. Treaty of Purandar
+II. Battle of Pratapgad
+III. Coronation at Raigad
+IV. Maratha capture of Panhala fort
+
+--- OPTIONS ---
+(a) II – I – IV – III
+(b) II – IV – I – III
+(c) IV – II – I – III
+(d) II – IV – III – I
+
+--- CORRECT (tick this) ---
+(b) II – IV – I – III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Pratapgad (10 Nov 1659) → Panhala (28 Nov 1659, just 18 days later) → Purandar (1665) → Raigad coronation (1674). Trap: Panhala is placed after Purandar in option (a).
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. With reference to recent UN climate conferences, consider the following statements:
+I. The goal of US$300 billion a year by 2035 for developing countries was set at COP29 in Baku.
+II. COP30 at Belém committed to triple adaptation finance by 2035.
+III. India is preparing to host COP33 in 2028.
+
+--- QUESTION ---
+Q5. With reference to recent UN climate conferences, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: India withdrew its COP33 bid by a letter to the UNFCCC dated 2 April 2026.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Which of the following are among India's stated priorities for COP31?
+I. Developed countries must meet their finance obligations under Article 9.1 of the Paris Agreement.
+II. Adaptation indicators should be made conditions for receiving climate finance.
+III. Carbon markets should remain voluntary.
+IV. Technology transfer is an obligation of developed countries.
+
+--- QUESTION ---
+Q6. Which of the following are among India's stated priorities for COP31? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) II and IV only
+(c) I, II and IV only
+(d) I, III and IV only
+
+--- CORRECT (tick this) ---
+(d) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I, III and IV are India's positions. II is the opposite: India wants the Global Goal on Adaptation indicators to stay voluntary and NOT become conditions for finance.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. With reference to the Supreme Court's judgment of 6 November 2026 on the Srivilliputhur–Megamalai Tiger Reserve, consider the following statements:
+I. Planned cultivation of a commercial crop was held not to be 'minor forest produce'.
+II. The Court allowed forest rights to be recognised on the basis of present occupation alone.
+III. The Court said the sanctity of the critical tiger habitat must be given primacy.
+
+--- QUESTION ---
+Q7. With reference to the Supreme Court's judgment of 6 November 2026 on the Srivilliputhur–Megamalai Tiger Reserve, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct. II is wrong: the Court said claims must be decided strictly under Section 6 (Gram Sabha first), 'not merely on the basis of present occupation'.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. A non-tribal family has lived in a forest village since 1960 and depends on the forest. Under the Forest Rights Act, 2006, consider the following statements:
+I. It qualifies as an 'Other Traditional Forest Dweller' because it lived there before 13 December 2005.
+II. It does not meet the OTFD test, which needs three generations (75 years) of residence before 13 December 2005.
+III. Any claim it makes must first go to the Gram Sabha.
+
+--- QUESTION ---
+Q8. A non-tribal family has lived in a forest village since 1960 and depends on the forest. Under the Forest Rights Act, 2006, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I only
+(c) II and III only
+(d) II only
+
+--- CORRECT (tick this) ---
+(c) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II and III are correct. 1960 to 2005 is only 45 years — less than the 75 years (3 generations) required for OTFDs, so I is wrong. Under Section 6, the Gram Sabha is the first tier.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. With reference to the cut in anti-cancer medicine prices from 9 November 2026, consider the following statements:
+I. Revised MRPs apply to 1,364 formulations.
+II. The trade margin was capped at 30% for 137 drugs.
+III. The 137 drugs are scheduled medicines whose ceiling prices are fixed under the NLEM.
+IV. The estimated saving for consumers is about ₹3,540 crore a year.
+
+--- QUESTION ---
+Q9. With reference to the cut in anti-cancer medicine prices from 9 November 2026, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II, III and IV only
+(c) I, II, III and IV
+(d) I, II and IV only
+
+--- CORRECT (tick this) ---
+(d) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I, II and IV are correct. III is wrong: the 137 are NON-scheduled anti-cancer drugs; prices fell through trade-margin capping (DPCO 2013, Para 19), not NLEM ceiling prices.
+
+==================== Q10 ====================
+--- QUESTION ---
+Q10. Consider the following pairs. Which of them are correctly matched?
+I. NPPA — Ministry of Chemicals & Fertilizers
+II. DGHS — Ministry of Health and Family Welfare
+III. NPPA set up — 2013
+IV. Drugs (Prices Control) Order — 2013
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I, II and IV are correct. III is wrong: NPPA was set up on 29 August 1997; 2013 is the year of the DPCO it enforces.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-10&tab=quiz

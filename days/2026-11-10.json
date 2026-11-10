@@ -1,0 +1,2084 @@
+{
+ "date": "2026-11-10",
+ "day": {
+  "en": "Tuesday, 10 November 2026",
+  "te": "మంగళవారం, 10 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Diplomacy",
+   "en": "managing relations between countries by talks and agreement",
+   "te": "దౌత్యం (చర్చలు, ఒప్పందాల ద్వారా దేశాల మధ్య సంబంధాల నిర్వహణ)",
+   "ex": "The 2026 theme of World Science Day is 'Common ground through science diplomacy'.",
+   "topic": "sciday"
+  },
+  {
+   "w": "Ambush",
+   "en": "a surprise attack from a hidden position",
+   "te": "మెరుపుదాడి (దాగి ఉండి అకస్మాత్తుగా దాడి)",
+   "ex": "After Afzal Khan was killed, the Marathas ambushed his army in the forests of Jawali.",
+   "topic": "pratapgad"
+  },
+  {
+   "w": "Adaptation",
+   "en": "adjusting to the effects of climate change",
+   "te": "అనుకూలన (వాతావరణ మార్పు ప్రభావాలకు తగినట్లు మారడం)",
+   "ex": "COP30 agreed to triple adaptation finance by 2035, and COP31 continues the debate.",
+   "topic": "cop31"
+  },
+  {
+   "w": "Inviolate",
+   "en": "kept completely safe from harm or interference",
+   "te": "చెక్కుచెదరని (ఏ జోక్యమూ లేకుండా పూర్తిగా రక్షించిన)",
+   "ex": "Critical tiger habitats must be kept inviolate under Section 38V of the Wildlife (Protection) Act.",
+   "topic": "fraverdict"
+  },
+  {
+   "w": "Trade margin",
+   "en": "the profit share of wholesalers and retailers in a product's price",
+   "te": "ట్రేడ్ మార్జిన్ (టోకు, చిల్లర వ్యాపారుల లాభ వాటా)",
+   "ex": "The government capped the trade margin on 137 anti-cancer drugs at 30%.",
+   "topic": "cancermrp"
+  }
+ ],
+ "items": [
+  {
+   "id": "sciday",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "unsc",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "tag": {
+    "en": "International day · 10 November",
+    "te": "అంతర్జాతీయ దినోత్సవం · 10 నవంబర్"
+   },
+   "title": {
+    "en": "World Science Day for Peace and Development",
+    "te": "శాంతి, అభివృద్ధి కోసం ప్రపంచ సైన్స్ దినోత్సవం"
+   },
+   "line": {
+    "en": "A UNESCO day that reminds us science should serve peace and people — 2026 theme: 'Common ground through science diplomacy'.",
+    "te": "సైన్స్ శాంతికి, ప్రజలకు ఉపయోగపడాలని గుర్తుచేసే యునెస్కో దినోత్సవం — 2026 థీమ్: 'Common ground through science diplomacy'."
+   },
+   "easy": [
+    {
+     "en": "Science changes our daily life — medicines, phones, weather warnings. But people often do not know how new science works. This day asks scientists and governments to explain science to the public and to use it for peace and development.",
+     "te": "మందులు, ఫోన్లు, వాతావరణ హెచ్చరికలు — సైన్స్ మన రోజువారీ జీవితాన్ని మారుస్తోంది. కానీ కొత్త సైన్స్ ఎలా పనిచేస్తుందో చాలామందికి తెలియదు. సైన్స్‌ను ప్రజలకు వివరించాలని, దాన్ని శాంతి-అభివృద్ధి కోసం వాడాలని ఈ దినోత్సవం శాస్త్రవేత్తలను, ప్రభుత్వాలను కోరుతుంది."
+    },
+    {
+     "en": "'Science diplomacy' means countries working together through science — sharing data, joint research, common rules — even when they disagree on politics. Climate change and pandemics cannot be solved by one country alone.",
+     "te": "'సైన్స్ దౌత్యం' అంటే రాజకీయంగా విభేదాలున్నా సైన్స్ ద్వారా దేశాలు కలిసి పనిచేయడం — డేటా పంచుకోవడం, ఉమ్మడి పరిశోధన, ఉమ్మడి నియమాలు. వాతావరణ మార్పు, మహమ్మారులను ఒక్క దేశమే పరిష్కరించలేదు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Proclaimed by",
+      "te": "ప్రకటించింది"
+     },
+     {
+      "en": "UNESCO, in 2001",
+      "te": "యునెస్కో, 2001లో"
+     }
+    ],
+    [
+     {
+      "en": "First celebrated",
+      "te": "మొదటిసారి నిర్వహణ"
+     },
+     {
+      "en": "10 November 2002",
+      "te": "10 నవంబర్ 2002"
+     }
+    ],
+    [
+     {
+      "en": "2026 theme",
+      "te": "2026 థీమ్"
+     },
+     {
+      "en": "Common ground through science diplomacy",
+      "te": "Common ground through science diplomacy (సైన్స్ దౌత్యం ద్వారా ఉమ్మడి వేదిక)"
+     }
+    ],
+    [
+     {
+      "en": "Aim",
+      "te": "లక్ష్యం"
+     },
+     {
+      "en": "Show science's role in society; involve the public in debates on new science; keep citizens informed",
+      "te": "సమాజంలో సైన్స్ పాత్రను చూపడం; కొత్త సైన్స్ అంశాలపై చర్చల్లో ప్రజలను భాగస్వాములను చేయడం; పౌరులకు తాజా సమాచారం"
+     }
+    ],
+    [
+     {
+      "en": "UNESCO Constitution",
+      "te": "యునెస్కో రాజ్యాంగం"
+     },
+     {
+      "en": "Signed in London, Nov 1945 (41 States); in force 4 Nov 1946",
+      "te": "లండన్‌లో నవంబర్ 1945లో సంతకం (41 దేశాలు); 4 నవంబర్ 1946 నుంచి అమలు"
+     }
+    ],
+    [
+     {
+      "en": "India's own day",
+      "te": "భారత్ దినోత్సవం"
+     },
+     {
+      "en": "National Science Day — 28 February (Raman Effect)",
+      "te": "జాతీయ సైన్స్ దినోత్సవం — 28 ఫిబ్రవరి (రామన్ ఎఫెక్ట్)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Science days & UN years",
+     "te": "లింక్ చెయిన్ · సైన్స్ దినోత్సవాలు & UN సంవత్సరాలు"
+    },
+    "l": [
+     {
+      "en": "National Science Day (28 Feb) marks C.V. Raman's discovery of the Raman Effect — 2026 was its 98th anniversary",
+      "te": "జాతీయ సైన్స్ దినోత్సవం (28 ఫిబ్రవరి) సి.వి. రామన్ 'రామన్ ఎఫెక్ట్' ఆవిష్కరణకు గుర్తు — 2026లో 98వ వార్షికోత్సవం"
+     },
+     {
+      "en": "UN International Years 2026: Woman Farmer; Volunteers for Sustainable Development; Rangelands and Pastoralists",
+      "te": "UN అంతర్జాతీయ సంవత్సరాలు 2026: మహిళా రైతు; సుస్థిర అభివృద్ధి కోసం స్వచ్ఛంద సేవకులు; పచ్చిక బయళ్లు, పశుపోషకులు"
+     },
+     {
+      "en": "Science diplomacy in today's news: COP31 climate talks (see the article below)",
+      "te": "నేటి వార్తల్లో సైన్స్ దౌత్యం: COP31 వాతావరణ చర్చలు (కింది వ్యాసం చూడండి)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "World Science Day (10 Nov, UNESCO) is not India's National Science Day (28 Feb). Proclaimed in 2001 but first celebrated in 2002 — examiners swap these years.",
+    "te": "ప్రపంచ సైన్స్ దినోత్సవం (10 నవంబర్, యునెస్కో) భారత జాతీయ సైన్స్ దినోత్సవం (28 ఫిబ్రవరి) కాదు. 2001లో ప్రకటన, 2002లో తొలి నిర్వహణ — ఈ రెండు సంవత్సరాలను పరీక్షల్లో తారుమారు చేస్తారు."
+   },
+   "tip": {
+    "en": "'1-2 step': proclaimed 2001 → celebrated 2002. World = November 10, India = February 28.",
+    "te": "'1-2 అడుగు': 2001 ప్రకటన → 2002 నిర్వహణ. ప్రపంచం = నవంబర్ 10, భారత్ = ఫిబ్రవరి 28."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about World Science Day for Peace and Development:",
+     "te": "శాంతి, అభివృద్ధి కోసం ప్రపంచ సైన్స్ దినోత్సవం గురించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "It was proclaimed by UNESCO in 2001.",
+      "te": "దీనిని 2001లో యునెస్కో ప్రకటించింది."
+     },
+     {
+      "en": "It was first celebrated in 2001.",
+      "te": "దీనిని మొదటిసారి 2001లో నిర్వహించారు."
+     },
+     {
+      "en": "Its 2026 theme is about science diplomacy.",
+      "te": "దీని 2026 థీమ్ సైన్స్ దౌత్యానికి సంబంధించినది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and III are correct. II is wrong: the first celebration was on 10 November 2002.",
+     "te": "I, III సరైనవి. II తప్పు: తొలి నిర్వహణ 10 నవంబర్ 2002న జరిగింది."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "From UNESCO to this year's theme",
+      "te": "యునెస్కో నుంచి ఈ ఏడాది థీమ్ వరకు"
+     },
+     "items": [
+      {
+       "y": "1945",
+       "t": {
+        "en": "UNESCO Constitution signed in London (Nov)",
+        "te": "లండన్‌లో యునెస్కో రాజ్యాంగంపై సంతకం (నవంబర్)"
+       }
+      },
+      {
+       "y": "1946",
+       "t": {
+        "en": "Constitution comes into force (4 Nov)",
+        "te": "రాజ్యాంగం అమలులోకి (4 నవంబర్)"
+       }
+      },
+      {
+       "y": "2001",
+       "t": {
+        "en": "UNESCO proclaims World Science Day",
+        "te": "ప్రపంచ సైన్స్ దినోత్సవాన్ని యునెస్కో ప్రకటించింది"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2002",
+       "t": {
+        "en": "First celebration, 10 Nov",
+        "te": "తొలి నిర్వహణ, 10 నవంబర్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "Theme: Common ground through science diplomacy",
+        "te": "థీమ్: Common ground through science diplomacy"
+       },
+       "hl": 1
+      }
+     ],
+     "cap": {
+      "en": "Bold = the years and theme most likely to be asked.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే సంవత్సరాలు, థీమ్."
+     }
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Two science days — do not mix them",
+      "te": "రెండు సైన్స్ దినోత్సవాలు — కలపకండి"
+     },
+     "a": {
+      "h": {
+       "en": "World Science Day",
+       "te": "ప్రపంచ సైన్స్ దినోత్సవం"
+      },
+      "l": [
+       {
+        "en": "10 November",
+        "te": "10 నవంబర్"
+       },
+       {
+        "en": "UNESCO (proclaimed 2001)",
+        "te": "యునెస్కో (2001 ప్రకటన)"
+       },
+       {
+        "en": "Science for peace & development",
+        "te": "శాంతి, అభివృద్ధి కోసం సైన్స్"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "National Science Day",
+       "te": "జాతీయ సైన్స్ దినోత్సవం"
+      },
+      "l": [
+       {
+        "en": "28 February",
+        "te": "28 ఫిబ్రవరి"
+       },
+       {
+        "en": "India",
+        "te": "భారత్"
+       },
+       {
+        "en": "C.V. Raman's Raman Effect",
+        "te": "సి.వి. రామన్ 'రామన్ ఎఫెక్ట్'"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "United Nations — World Science Day for Peace and Development (2026 theme)",
+     "u": "https://www.un.org/en/observances/world-science-day"
+    },
+    {
+     "t": "UNESCO — 75 years ago, UNESCO's Constitution adopted",
+     "u": "https://www.unesco.org/en/articles/75-years-ago-unescos-constitution-adopted"
+    },
+    {
+     "t": "United Nations — International Years",
+     "u": "https://www.un.org/en/observances/international-years"
+    },
+    {
+     "t": "PIB — Raman Research Institute to celebrate National Science Day, 98 years of the Raman Effect",
+     "u": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2232654&reg=3&lang=2"
+    }
+   ]
+  },
+  {
+   "id": "pratapgad",
+   "kind": "day",
+   "color": "#8a4b14",
+   "icon": "shield",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "tag": {
+    "en": "History · 10 November 1659",
+    "te": "చరిత్ర · 10 నవంబర్ 1659"
+   },
+   "title": {
+    "en": "Battle of Pratapgad — Shivaji defeats Afzal Khan",
+    "te": "ప్రతాప్‌గఢ్ యుద్ధం — అఫ్జల్ ఖాన్‌పై శివాజీ విజయం"
+   },
+   "line": {
+    "en": "A small Maratha force beat a big Bijapur army by using hills and forests — the turning point that made Shivaji a major power.",
+    "te": "కొండలు, అడవులను వాడుకొని చిన్న మరాఠా దళం పెద్ద బీజాపూర్ సైన్యాన్ని ఓడించింది — శివాజీని బలమైన శక్తిగా మార్చిన మలుపు."
+   },
+   "easy": [
+    {
+     "en": "Shivaji was taking forts that belonged to the Bijapur (Adil Shahi) Sultanate. Sultan Ali Adil Shah II sent his general Afzal Khan with about 10,000 horsemen to crush him.",
+     "te": "బీజాపూర్ (ఆదిల్ షాహీ) సుల్తానేట్‌కు చెందిన కోటలను శివాజీ స్వాధీనం చేసుకుంటున్నారు. ఆయనను అణచడానికి సుల్తాన్ రెండో అలీ ఆదిల్ షా తన సేనాని అఫ్జల్ ఖాన్‌ను సుమారు 10,000 అశ్వికులతో పంపారు."
+    },
+    {
+     "en": "Shivaji did not fight in the open plains. He drew the army into the hilly, forested Jawali area near Pratapgad fort (Satara district, Maharashtra). At a meeting, Afzal Khan's dagger failed against the armour Shivaji wore under his clothes, and Shivaji killed him with a 'wagh nakh' (tiger claws). The Marathas then ambushed the leaderless army.",
+     "te": "శివాజీ మైదానంలో పోరాడలేదు. ప్రతాప్‌గఢ్ కోట (మహారాష్ట్ర, సతారా జిల్లా) దగ్గరి కొండలు, అడవులతో నిండిన జావళి ప్రాంతంలోకి సైన్యాన్ని రప్పించారు. సమావేశంలో అఫ్జల్ ఖాన్ బాకు దుస్తుల కింద శివాజీ ధరించిన కవచాన్ని ఛేదించలేకపోయింది; శివాజీ 'వాఘ్ నఖ్' (పులి గోళ్లు)తో అతన్ని చంపారు. ఆ తర్వాత నాయకుడు లేని సైన్యంపై మరాఠాలు మెరుపుదాడి చేశారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Date · place",
+      "te": "తేదీ · ప్రదేశం"
+     },
+     {
+      "en": "10 Nov 1659 · Pratapgad, Satara district (Maharashtra)",
+      "te": "10 నవంబర్ 1659 · ప్రతాప్‌గఢ్, సతారా జిల్లా (మహారాష్ట్ర)"
+     }
+    ],
+    [
+     {
+      "en": "Enemy",
+      "te": "శత్రువు"
+     },
+     {
+      "en": "Afzal Khan — general of Ali Adil Shah II of Bijapur",
+      "te": "అఫ్జల్ ఖాన్ — బీజాపూర్ రెండో అలీ ఆదిల్ షా సేనాని"
+     }
+    ],
+    [
+     {
+      "en": "Weapon",
+      "te": "ఆయుధం"
+     },
+     {
+      "en": "Wagh nakh (tiger claws); Shivaji wore armour under his clothes",
+      "te": "వాఘ్ నఖ్ (పులి గోళ్లు); దుస్తుల కింద కవచం"
+     }
+    ],
+    [
+     {
+      "en": "Soon after",
+      "te": "వెంటనే"
+     },
+     {
+      "en": "Marathas took Panhala fort (28 Nov 1659)",
+      "te": "మరాఠాలు పన్హాళా కోటను స్వాధీనం చేసుకున్నారు (28 నవంబర్ 1659)"
+     }
+    ],
+    [
+     {
+      "en": "1665",
+      "te": "1665"
+     },
+     {
+      "en": "Treaty of Purandar with Mughal general Jai Singh I — Shivaji gave up 23 forts, kept 12",
+      "te": "మొఘల్ సేనాని మొదటి జైసింగ్‌తో పురందర్ ఒప్పందం — 23 కోటలు ఇచ్చి 12 ఉంచుకున్నారు"
+     }
+    ],
+    [
+     {
+      "en": "1674",
+      "te": "1674"
+     },
+     {
+      "en": "Crowned Chhatrapati at Raigad (6 June)",
+      "te": "రాయగఢ్‌లో ఛత్రపతిగా పట్టాభిషేకం (6 జూన్)"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "3 April 1680, Raigad",
+      "te": "3 ఏప్రిల్ 1680, రాయగఢ్"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Shivaji's state (Swarajya)",
+     "te": "లింక్ చెయిన్ · శివాజీ రాజ్యం (స్వరాజ్యం)"
+    },
+    "l": [
+     {
+      "en": "Ashtapradhan = council of 8 ministers: Peshwa (PM), Amatya (finance), Mantri, Sachiv, Sumant (foreign affairs), Senapati (army), Panditrao (religious affairs), Nyayadhish (justice)",
+      "te": "అష్టప్రధాన్ = 8 మంది మంత్రుల మండలి: పేష్వా (ప్రధాని), అమాత్య (ఆర్థికం), మంత్రి, సచివ్, సుమంత్ (విదేశీ వ్యవహారాలు), సేనాపతి (సైన్యం), పండితరావు (మత వ్యవహారాలు), న్యాయాధీశ్ (న్యాయం)"
+     },
+     {
+      "en": "Deccan Sultanates link: Bijapur (Adil Shahi) and Golconda (Qutb Shahi — ruled Telugu lands) were both later annexed by Aurangzeb (1686, 1687)",
+      "te": "దక్కన్ సుల్తానేట్ల లింక్: బీజాపూర్ (ఆదిల్ షాహీ), గోల్కొండ (కుతుబ్ షాహీ — తెలుగు ప్రాంతాలను పాలించింది) రెండింటినీ తర్వాత ఔరంగజేబ్ ఆక్రమించాడు (1686, 1687)"
+     },
+     {
+      "en": "Geography link: Shivaji's guerrilla war used the Western Ghats (Sahyadri) — hills and forests favoured small, fast forces",
+      "te": "భౌగోళిక లింక్: శివాజీ గెరిల్లా యుద్ధానికి పశ్చిమ కనుమలు (సహ్యాద్రి) తోడ్పడ్డాయి — కొండలు, అడవులు చిన్న, వేగవంతమైన దళాలకు అనుకూలం"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Afzal Khan was a BIJAPUR (Adil Shahi) general, not a Mughal general. The Mughal general who forced the Treaty of Purandar (1665) was Jai Singh I. Do not confuse Pratapgad (1659) with Purandar (1665).",
+    "te": "అఫ్జల్ ఖాన్ బీజాపూర్ (ఆదిల్ షాహీ) సేనాని, మొఘల్ సేనాని కాదు. పురందర్ ఒప్పందం (1665) చేయించిన మొఘల్ సేనాని మొదటి జైసింగ్. ప్రతాప్‌గఢ్ (1659), పురందర్ (1665)లను కలపకండి."
+   },
+   "tip": {
+    "en": "'P-P-R' ladder: Pratapgad 1659 → Purandar 1665 → Raigad crowning 1674. Bijapur first, Mughals next, king last.",
+    "te": "'ప్ర-పు-రా' నిచ్చెన: ప్రతాప్‌గఢ్ 1659 → పురందర్ 1665 → రాయగఢ్ పట్టాభిషేకం 1674. ముందు బీజాపూర్, తర్వాత మొఘలులు, చివరకు రాజు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the Battle of Pratapgad (1659), consider the following statements:",
+     "te": "ప్రతాప్‌గఢ్ యుద్ధం (1659)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "Afzal Khan was sent by the Bijapur Sultanate.",
+      "te": "అఫ్జల్ ఖాన్‌ను బీజాపూర్ సుల్తానేట్ పంపింది."
+     },
+     {
+      "en": "Shivaji fought the battle in open plains to use his cavalry.",
+      "te": "అశ్వికదళాన్ని వాడుకోవడానికి శివాజీ మైదాన ప్రాంతంలో యుద్ధం చేశారు."
+     },
+     {
+      "en": "After the battle, Shivaji signed the Treaty of Purandar with Afzal Khan's successor.",
+      "te": "యుద్ధం తర్వాత అఫ్జల్ ఖాన్ వారసుడితో శివాజీ పురందర్ ఒప్పందం చేసుకున్నారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "Only I is correct. II: he used hilly, forested Jawali. III: Purandar (1665) was with the Mughal general Jai Singh I.",
+     "te": "I మాత్రమే సరైనది. II: కొండలు, అడవుల జావళి ప్రాంతాన్ని వాడారు. III: పురందర్ (1665) మొఘల్ సేనాని మొదటి జైసింగ్‌తో."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Shivaji's rise in dates",
+      "te": "తేదీల్లో శివాజీ ఎదుగుదల"
+     },
+     "items": [
+      {
+       "y": "1630",
+       "t": {
+        "en": "Born at Shivneri, near Pune (some sources: 1627)",
+        "te": "పుణె దగ్గర శివనేరిలో జననం (కొన్ని ఆధారాలు: 1627)"
+       }
+      },
+      {
+       "y": "1659",
+       "t": {
+        "en": "Pratapgad: Afzal Khan killed (10 Nov)",
+        "te": "ప్రతాప్‌గఢ్: అఫ్జల్ ఖాన్ హతం (10 నవంబర్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1659",
+       "t": {
+        "en": "Panhala fort taken (28 Nov)",
+        "te": "పన్హాళా కోట స్వాధీనం (28 నవంబర్)"
+       }
+      },
+      {
+       "y": "1665",
+       "t": {
+        "en": "Treaty of Purandar with Jai Singh I (Mughal)",
+        "te": "మొదటి జైసింగ్ (మొఘల్)తో పురందర్ ఒప్పందం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1674",
+       "t": {
+        "en": "Crowned Chhatrapati at Raigad",
+        "te": "రాయగఢ్‌లో ఛత్రపతిగా పట్టాభిషేకం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1680",
+       "t": {
+        "en": "Died at Raigad (3 Apr)",
+        "te": "రాయగఢ్‌లో మరణం (3 ఏప్రిల్)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = the three dates asked most often.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే మూడు తేదీలు."
+     }
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Where it happened",
+      "te": "ఎక్కడ జరిగింది"
+     },
+     "view": [
+      72.0,
+      15.3,
+      77.2,
+      19.6
+     ],
+     "hl": [
+      "Maharashtra"
+     ],
+     "regions": [
+      "Western Ghats"
+     ],
+     "pts": [
+      {
+       "ll": [
+        17.936,
+        73.578
+       ],
+       "t": {
+        "en": "Pratapgad",
+        "te": "ప్రతాప్‌గఢ్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        18.234,
+        73.44
+       ],
+       "t": {
+        "en": "Raigad",
+        "te": "రాయగఢ్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.83,
+        75.71
+       ],
+       "t": {
+        "en": "Bijapur",
+        "te": "బీజాపూర్"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         16.83,
+         75.71
+        ],
+        [
+         17.94,
+         73.58
+        ]
+       ],
+       "arrow": 1,
+       "dash": 1
+      }
+     ],
+     "cap": {
+      "en": "Afzal Khan marched from Bijapur into the Western Ghats — Shivaji's home ground.",
+      "te": "అఫ్జల్ ఖాన్ బీజాపూర్ నుంచి పశ్చిమ కనుమల్లోకి — శివాజీ సొంత ప్రాంతంలోకి — వచ్చాడు."
+     },
+     "src": "cards/2026-11-10/map-pratapgad-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Wikipedia — Battle of Pratapgarh",
+     "u": "https://en.wikipedia.org/wiki/Battle_of_Pratapgarh"
+    },
+    {
+     "t": "Britannica — Afzal Khan",
+     "u": "https://www.britannica.com/biography/Afzal-Khan"
+    },
+    {
+     "t": "Britannica — Shivaji (summary)",
+     "u": "https://www.britannica.com/summary/Shivaji"
+    },
+    {
+     "t": "Britannica — Maratha Empire",
+     "u": "https://www.britannica.com/topic/Maratha-Empire"
+    },
+    {
+     "t": "Wikipedia — Treaty of Purandar (1665)",
+     "u": "https://en.wikipedia.org/wiki/Treaty_of_Purandar_(1665)"
+    },
+    {
+     "t": "Incredible India (Govt of India) — Shivrajyabhishek Sohala",
+     "u": "https://www.incredibleindia.gov.in/en/festivals-and-events/maharashtra/shivrajyabhishek-sohala"
+    },
+    {
+     "t": "Central Bureau of Communication (Govt of India) — The ideal of the Maratha State & Kingship (Ashtapradhan)",
+     "u": "https://cbc.gov.in/cbcdev/shivaji/shivaji-story.html"
+    }
+   ]
+  },
+  {
+   "id": "cop31",
+   "kind": "article",
+   "color": "#2f6b2f",
+   "icon": "leaf",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "src": {
+    "en": "In the news · Environment / IR · COP31 opens in Antalya, 9 Nov 2026",
+    "te": "వార్తల్లో · పర్యావరణం / అంతర్జాతీయ సంబంధాలు · అంటాల్యలో COP31 ప్రారంభం, 9 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-III Environment / GS-II IR",
+    "te": "వివరణ · GS-III పర్యావరణం / GS-II అంతర్జాతీయ సంబంధాలు"
+   },
+   "title": {
+    "en": "COP31 in Antalya: one host, two presidencies — and India's asks on climate money",
+    "te": "అంటాల్యలో COP31: ఒక వేదిక, రెండు బాధ్యతలు — వాతావరణ నిధులపై భారత్ డిమాండ్లు"
+   },
+   "line": {
+    "en": "The yearly UN climate summit decides who pays and how fast the world cuts emissions — it shapes India's energy, farming and coastal safety, including AP's.",
+    "te": "ఎవరు డబ్బు చెల్లించాలి, ప్రపంచం ఎంత వేగంగా ఉద్గారాలు తగ్గించాలి అనేది ఈ వార్షిక UN వాతావరణ సదస్సు నిర్ణయిస్తుంది — ఇది APతో సహా భారత ఇంధనం, వ్యవసాయం, తీర భద్రతపై ప్రభావం చూపుతుంది."
+   },
+   "easy": [
+    {
+     "en": "COP means 'Conference of the Parties' — the yearly meeting of the countries that signed the UN climate treaty (UNFCCC). COP31 runs from 9 to 20 November 2026 at the Antalya Expo Center in Türkiye.",
+     "te": "COP అంటే 'కాన్ఫరెన్స్ ఆఫ్ ది పార్టీస్' — UN వాతావరణ ఒప్పందం (UNFCCC)పై సంతకం చేసిన దేశాల వార్షిక సమావేశం. COP31 తుర్కియేలోని అంటాల్యా ఎక్స్‌పో సెంటర్‌లో 9 నుంచి 20 నవంబర్ 2026 వరకు జరుగుతుంది."
+    },
+    {
+     "en": "Both Türkiye and Australia wanted to host. A host needs everyone's agreement, so they shared the job: Türkiye's minister Murat Kurum is COP President, and Australia's minister Chris Bowen is 'President of Negotiations'. It is the first time presidency powers are split between two countries.",
+     "te": "తుర్కియే, ఆస్ట్రేలియా రెండూ ఆతిథ్యం కోరాయి. ఆతిథ్యానికి అందరి ఏకాభిప్రాయం కావాలి, అందుకే బాధ్యతలు పంచుకున్నాయి: తుర్కియే మంత్రి మురాత్ కురుమ్ COP అధ్యక్షుడు; ఆస్ట్రేలియా మంత్రి క్రిస్ బోవెన్ 'చర్చల అధ్యక్షుడు'. అధ్యక్ష అధికారాలు రెండు దేశాల మధ్య పంచుకోవడం ఇదే మొదటిసారి."
+    },
+    {
+     "en": "India's main demand is money and technology: rich countries must give predictable, mostly public, low-cost finance (Paris Agreement Article 9.1) that does not add to poor countries' debt, and adaptation indicators must stay voluntary.",
+     "te": "భారత్ ప్రధాన డిమాండ్ నిధులు, సాంకేతికత: సంపన్న దేశాలు ఊహించదగిన, ఎక్కువగా ప్రభుత్వ, తక్కువ ఖర్చు నిధులు ఇవ్వాలి (పారిస్ ఒప్పందం ఆర్టికల్ 9.1), అవి పేద దేశాల అప్పులు పెంచకూడదు; అనుకూలన (అడాప్టేషన్) సూచికలు స్వచ్ఛందంగానే ఉండాలి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Dates · venue",
+      "te": "తేదీలు · వేదిక"
+     },
+     {
+      "en": "9–20 Nov 2026 · Antalya Expo Center, Türkiye",
+      "te": "9–20 నవంబర్ 2026 · అంటాల్యా ఎక్స్‌పో సెంటర్, తుర్కియే"
+     }
+    ],
+    [
+     {
+      "en": "COP President",
+      "te": "COP అధ్యక్షుడు"
+     },
+     {
+      "en": "Murat Kurum (Türkiye)",
+      "te": "మురాత్ కురుమ్ (తుర్కియే)"
+     }
+    ],
+    [
+     {
+      "en": "President of Negotiations",
+      "te": "చర్చల అధ్యక్షుడు"
+     },
+     {
+      "en": "Chris Bowen (Australia)",
+      "te": "క్రిస్ బోవెన్ (ఆస్ట్రేలియా)"
+     }
+    ],
+    [
+     {
+      "en": "Pre-COP",
+      "te": "ప్రీ-COP"
+     },
+     {
+      "en": "Fiji, 5–8 Oct 2026 (leaders' event in Tuvalu)",
+      "te": "ఫిజీ, 5–8 అక్టోబర్ 2026 (నేతల కార్యక్రమం తువాలులో)"
+     }
+    ],
+    [
+     {
+      "en": "Finance goal (COP29 Baku)",
+      "te": "నిధుల లక్ష్యం (COP29 బాకు)"
+     },
+     {
+      "en": "US$300 bn/yr by 2035 for developing countries; US$1.3 tn/yr from all sources",
+      "te": "2035 నాటికి అభివృద్ధి చెందుతున్న దేశాలకు ఏటా $300 బిలియన్లు; అన్ని వనరుల నుంచి ఏటా $1.3 ట్రిలియన్లు"
+     }
+    ],
+    [
+     {
+      "en": "India's NDC 2031–35",
+      "te": "భారత NDC 2031–35"
+     },
+     {
+      "en": "Cut emissions intensity of GDP by 47% by 2035 (vs 2005); 60% non-fossil power capacity",
+      "te": "2035 నాటికి GDP ఉద్గార తీవ్రత 47% తగ్గింపు (2005తో పోలిస్తే); 60% శిలాజేతర విద్యుత్ సామర్థ్యం"
+     }
+    ],
+    [
+     {
+      "en": "India's COP33 bid",
+      "te": "COP33 ఆతిథ్య బిడ్"
+     },
+     {
+      "en": "Withdrawn by letter of 2 Apr 2026",
+      "te": "2 ఏప్రిల్ 2026 లేఖతో ఉపసంహరణ"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Climate treaty ladder",
+     "te": "లింక్ చెయిన్ · వాతావరణ ఒప్పందాల నిచ్చెన"
+    },
+    "l": [
+     {
+      "en": "UNFCCC adopted 1992 (Rio Earth Summit) → in force 1994 → Kyoto Protocol, COP3, 1997 → Paris Agreement, 12 Dec 2015",
+      "te": "UNFCCC 1992 (రియో భూ సదస్సు) → 1994 అమలు → క్యోటో ప్రోటోకాల్, COP3, 1997 → పారిస్ ఒప్పందం, 12 డిసెంబర్ 2015"
+     },
+     {
+      "en": "Paris Agreement: Art 2 — 'well below 2°C', try for 1.5°C; CBDR-RC principle · Art 4 — new NDC every 5 years · Art 6 — carbon markets · Art 7 — Global Goal on Adaptation · Art 9 — finance",
+      "te": "పారిస్ ఒప్పందం: ఆర్టి. 2 — '2°C కంటే బాగా తక్కువ', 1.5°C కోసం ప్రయత్నం; CBDR-RC సూత్రం · ఆర్టి. 4 — ప్రతి 5 ఏళ్లకు కొత్త NDC · ఆర్టి. 6 — కార్బన్ మార్కెట్లు · ఆర్టి. 7 — అనుకూలనపై ప్రపంచ లక్ష్యం · ఆర్టి. 9 — నిధులు"
+     },
+     {
+      "en": "COP30 Belém (2025): 'Belém Package' of 29 decisions; triple adaptation finance by 2035; 59 voluntary adaptation indicators; Just Transition mechanism",
+      "te": "COP30 బెలెమ్ (2025): 29 నిర్ణయాల 'బెలెమ్ ప్యాకేజీ'; 2035 నాటికి అనుకూలన నిధులు మూడు రెట్లు; 59 స్వచ్ఛంద అనుకూలన సూచికలు; న్యాయమైన పరివర్తన (Just Transition) యంత్రాంగం"
+     },
+     {
+      "en": "AP link: cyclones like Murasu (landfall near Ongole, 3 Nov) show why adaptation finance matters for coastal states like AP",
+      "te": "AP లింక్: మురసు (3 నవంబర్, ఒంగోలు సమీపంలో తీరం దాటింది) వంటి తుపానులు తీర రాష్ట్రానికి అనుకూలన నిధులు ఎందుకు ముఖ్యమో చూపుతాయి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "COP31's host and COP President is Türkiye; Australia only leads the negotiations — they are NOT co-presidents. And the US$300 bn goal is from COP29 (Baku), not COP30 (Belém).",
+    "te": "COP31 ఆతిథ్యం, COP అధ్యక్షత తుర్కియేదే; ఆస్ట్రేలియా చర్చలకు మాత్రమే నాయకత్వం — వారు సహ-అధ్యక్షులు కారు. $300 బిలియన్ల లక్ష్యం COP29 (బాకు)ది, COP30 (బెలెమ్)ది కాదు."
+   },
+   "tip": {
+    "en": "'B-B-A': Baku = money ($300 bn), Belém = package (adaptation ×3), Antalya = now.",
+    "te": "'బా-బె-అం': బాకు = డబ్బు ($300 బి.), బెలెమ్ = ప్యాకేజీ (అనుకూలన ×3), అంటాల్య = ఇప్పుడు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to COP31, consider the following statements:",
+     "te": "COP31కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "Türkiye and Australia are co-presidents with equal powers.",
+      "te": "తుర్కియే, ఆస్ట్రేలియా సమాన అధికారాలు గల సహ-అధ్యక్షులు."
+     },
+     {
+      "en": "Australia's minister leads the negotiations as 'President of Negotiations'.",
+      "te": "ఆస్ట్రేలియా మంత్రి 'చర్చల అధ్యక్షుడు'గా చర్చలకు నాయకత్వం వహిస్తారు."
+     },
+     {
+      "en": "The pre-COP meeting was held in the Pacific.",
+      "te": "ప్రీ-COP సమావేశం పసిఫిక్ ప్రాంతంలో జరిగింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II and III are correct (pre-COP in Fiji). I is wrong: Türkiye holds the presidency and 'the final decision'; they are not co-presidents.",
+     "te": "II, III సరైనవి (ప్రీ-COP ఫిజీలో). I తప్పు: అధ్యక్షత, 'తుది నిర్ణయం' తుర్కియేదే; వారు సహ-అధ్యక్షులు కారు."
+    }
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Who does what at COP31",
+      "te": "COP31లో ఎవరి పాత్ర ఏమిటి"
+     },
+     "a": {
+      "h": {
+       "en": "Türkiye — COP President",
+       "te": "తుర్కియే — COP అధ్యక్షత"
+      },
+      "l": [
+       {
+        "en": "Hosts the summit in Antalya",
+        "te": "అంటాల్యలో సదస్సు ఆతిథ్యం"
+       },
+       {
+        "en": "Minister Murat Kurum",
+        "te": "మంత్రి మురాత్ కురుమ్"
+       },
+       {
+        "en": "Leads the Action Agenda",
+        "te": "కార్యాచరణ ఎజెండాకు నాయకత్వం"
+       },
+       {
+        "en": "Has the final decision",
+        "te": "తుది నిర్ణయం"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Australia — President of Negotiations",
+       "te": "ఆస్ట్రేలియా — చర్చల అధ్యక్షత"
+      },
+      "l": [
+       {
+        "en": "Gave up its hosting bid",
+        "te": "ఆతిథ్య బిడ్ వదులుకుంది"
+       },
+       {
+        "en": "Minister Chris Bowen",
+        "te": "మంత్రి క్రిస్ బోవెన్"
+       },
+       {
+        "en": "Runs the negotiations",
+        "te": "చర్చలు నడుపుతుంది"
+       },
+       {
+        "en": "Pacific engagement (pre-COP Fiji)",
+        "te": "పసిఫిక్ భాగస్వామ్యం (ప్రీ-COP ఫిజీ)"
+       }
+      ]
+     }
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "COP31 and the pre-COP",
+      "te": "COP31, ప్రీ-COP"
+     },
+     "view": "world",
+     "ctry": [
+      "Turkey",
+      "Australia",
+      "Fiji"
+     ],
+     "pts": [
+      {
+       "ll": [
+        36.9,
+        30.7
+       ],
+       "t": {
+        "en": "Antalya (COP31)",
+        "te": "అంటాల్య (COP31)"
+       }
+      },
+      {
+       "ll": [
+        -18.14,
+        178.44
+       ],
+       "t": {
+        "en": "Fiji (pre-COP)",
+        "te": "ఫిజీ (ప్రీ-COP)"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        28.61,
+        77.21
+       ],
+       "t": {
+        "en": "New Delhi",
+        "te": "న్యూఢిల్లీ"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Coloured: the host (Türkiye), the negotiations lead (Australia) and the pre-COP host (Fiji).",
+      "te": "రంగులో: ఆతిథ్య దేశం (తుర్కియే), చర్చల నాయకత్వం (ఆస్ట్రేలియా), ప్రీ-COP ఆతిథ్యం (ఫిజీ)."
+     },
+     "src": "cards/2026-11-10/map-cop31-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Wikipedia — 2026 United Nations Climate Change Conference",
+     "u": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
+    },
+    {
+     "t": "Climate Home News — Türkiye says it has 'final decision' on COP31 despite Australia running negotiations, 11 Sep 2026",
+     "u": "https://climatechangenews.com/2026/09/11/turkiye-says-it-has-final-decision-at-cop31-despite-australia-running-negotiations"
+    },
+    {
+     "t": "Indian Masterminds — UNFCCC COP31: India's key priorities, Bhupender Yadav, Nov 2026",
+     "u": "https://indianmasterminds.com/news/unfccc-cop31-india-climate-priorities-bhupender-yadav-turkiye-247967/"
+    },
+    {
+     "t": "UNFCCC — UN Climate Change Conference Baku (COP29)",
+     "u": "https://unfccc.int/cop29"
+    },
+    {
+     "t": "COP30 — COP30 approves Belém Package, 22 Nov 2025",
+     "u": "https://cop30.br/en/news-about-cop30/cop30-approves-belem-package"
+    },
+    {
+     "t": "PMIndia — Cabinet approves India's NDC (2031-2035), 25 Mar 2026",
+     "u": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-indias-nationally-determined-contribution-2031-2035-to-be-communicated-to-the-united-nations-framework-convention-on-climate-change/"
+    },
+    {
+     "t": "Mongabay India — India withdraws bid to host UN climate conference in 2028, Apr 2026",
+     "u": "https://india.mongabay.com/short-article/2026/04/india-withdraws-bid-to-host-un-climate-conference-in-2028/"
+    },
+    {
+     "t": "UNFCCC — History of the Convention",
+     "u": "https://unfccc.int/process/the-convention/history-of-the-convention"
+    },
+    {
+     "t": "UNFCCC — Paris Agreement (text)",
+     "u": "https://unfccc.int/sites/default/files/resource/parisagreement_publication.pdf"
+    },
+    {
+     "t": "South First — Cyclone Murasu crosses southern Andhra (AP link)",
+     "u": "https://thesouthfirst.com/andhrapradesh/cyclone-murasu-crosses-southern-andhra-with-wind-speed-of-upto-120-kmph/"
+    }
+   ],
+   "mains": {
+    "en": "'Climate finance, not targets, is now the weakest link of the Paris Agreement.' Examine with reference to COP29, COP30 and India's position at COP31.",
+    "te": "'పారిస్ ఒప్పందంలో ఇప్పుడు బలహీనమైన లంకె లక్ష్యాలు కాదు, వాతావరణ నిధులు.' COP29, COP30, COP31లో భారత వైఖరిని ఉదహరిస్తూ పరిశీలించండి."
+   }
+  },
+  {
+   "id": "fraverdict",
+   "kind": "article",
+   "color": "#1f6f6a",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "In the news · Polity / Environment · Supreme Court judgment, 6 Nov 2026",
+    "te": "వార్తల్లో · పాలిటీ / పర్యావరణం · సుప్రీంకోర్టు తీర్పు, 6 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity / GS-III Environment",
+    "te": "వివరణ · GS-II పాలిటీ / GS-III పర్యావరణం"
+   },
+   "title": {
+    "en": "Supreme Court: growing a commercial crop is not a 'forest right' in a tiger reserve",
+    "te": "సుప్రీంకోర్టు: పులుల అభయారణ్యంలో వాణిజ్య పంట సాగు 'అటవీ హక్కు' కాదు"
+   },
+   "line": {
+    "en": "The Forest Rights Act protects genuine forest dwellers — the Court says planned cash-crop farming in a critical tiger habitat does not qualify.",
+    "te": "అటవీ హక్కుల చట్టం నిజమైన అటవీ నివాసులను రక్షిస్తుంది — కీలక పులుల ఆవాసంలో ప్రణాళికాబద్ధ వాణిజ్య పంట సాగు దానికి అర్హం కాదని కోర్టు చెప్పింది."
+   },
+   "easy": [
+    {
+     "en": "The Forest Rights Act, 2006 (FRA) gives forest-dwelling Scheduled Tribes and other traditional forest dwellers rights over the forest land they live on and the forest produce they depend on. The idea: correct the 'historical injustice' of treating them as encroachers.",
+     "te": "అటవీ హక్కుల చట్టం 2006 (FRA) అడవుల్లో నివసించే షెడ్యూల్డ్ తెగలకు, ఇతర సంప్రదాయ అటవీ నివాసులకు వారు నివసించే భూమిపై, ఆధారపడే అటవీ ఉత్పత్తులపై హక్కులు ఇస్తుంది. వారిని ఆక్రమణదారులుగా చూసిన 'చారిత్రక అన్యాయాన్ని' సరిదిద్దడమే దాని ఉద్దేశం."
+    },
+    {
+     "en": "In the Megamalai area of the Srivilliputhur–Megamalai Tiger Reserve (Tamil Nadu), 4,594 persons occupied about 5,072 hectares; most of it (3,637.8 ha) was under silk cotton. The State said silk cotton was 'minor forest produce'. The Court disagreed: planned farming of a commercial crop is the opposite of produce that grows naturally in a forest.",
+     "te": "తమిళనాడులోని శ్రీవిల్లిపుత్తూర్–మేఘమలై టైగర్ రిజర్వ్‌లోని మేఘమలై ప్రాంతంలో 4,594 మంది సుమారు 5,072 హెక్టార్లను ఆక్రమించారు; అందులో ఎక్కువ (3,637.8 హె.) సిల్క్ కాటన్ (బూరుగ) సాగు. అది 'చిన్న అటవీ ఉత్పత్తి' అని రాష్ట్రం వాదించింది. కోర్టు అంగీకరించలేదు: వాణిజ్య పంటను ప్రణాళికాబద్ధంగా సాగుచేయడం, అడవిలో సహజంగా పెరిగే ఉత్పత్తికి పూర్తి విరుద్ధం."
+    },
+    {
+     "en": "The Court said claims must be decided strictly through the FRA's Section 6 process (Gram Sabha first), not merely on present occupation, and 'the sanctity of the critical tiger habitat has to be given primacy'.",
+     "te": "హక్కుల దరఖాస్తులను ప్రస్తుత ఆక్రమణ ఆధారంగా కాకుండా FRA సెక్షన్ 6 ప్రక్రియ (మొదట గ్రామసభ) ద్వారా కచ్చితంగా తేల్చాలని, 'కీలక పులుల ఆవాసం పవిత్రతకే ప్రాధాన్యం' అని కోర్టు చెప్పింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Case",
+      "te": "కేసు"
+     },
+     {
+      "en": "A. John Kennedy v. State of Tamil Nadu, 2026 INSC 1204 (6 Nov 2026)",
+      "te": "ఎ. జాన్ కెన్నడీ వర్సెస్ తమిళనాడు రాష్ట్రం, 2026 INSC 1204 (6 నవంబర్ 2026)"
+     }
+    ],
+    [
+     {
+      "en": "Bench",
+      "te": "ధర్మాసనం"
+     },
+     {
+      "en": "Justices Vikram Nath and Sandeep Mehta",
+      "te": "జస్టిస్ విక్రమ్ నాథ్, జస్టిస్ సందీప్ మెహతా"
+     }
+    ],
+    [
+     {
+      "en": "Holding",
+      "te": "తీర్పు"
+     },
+     {
+      "en": "Commercial crop cultivation ≠ forest right; not 'minor forest produce'",
+      "te": "వాణిజ్య పంట సాగు ≠ అటవీ హక్కు; 'చిన్న అటవీ ఉత్పత్తి' కాదు"
+     }
+    ],
+    [
+     {
+      "en": "OTFD test (Sec 2(o))",
+      "te": "OTFD పరీక్ష (సెక్. 2(o))"
+     },
+     {
+      "en": "Lived in the forest for 3 generations (75 years) before 13 Dec 2005",
+      "te": "13 డిసెంబర్ 2005కు ముందు 3 తరాలు (75 ఏళ్లు) అడవిలో నివాసం"
+     }
+    ],
+    [
+     {
+      "en": "Claim process (Sec 6)",
+      "te": "దరఖాస్తు ప్రక్రియ (సెక్. 6)"
+     },
+     {
+      "en": "Gram Sabha → Sub-Divisional Committee → District Committee",
+      "te": "గ్రామసభ → సబ్-డివిజనల్ కమిటీ → జిల్లా కమిటీ"
+     }
+    ],
+    [
+     {
+      "en": "Directions",
+      "te": "ఆదేశాలు"
+     },
+     {
+      "en": "Gram Sabhas within 30 days; claims decided in 5 months; panel under Justice B.R. Gavai (retd.)",
+      "te": "30 రోజుల్లో గ్రామసభలు; 5 నెలల్లో దరఖాస్తుల పరిష్కారం; జస్టిస్ బి.ఆర్. గవాయ్ (రిటైర్డ్) నేతృత్వంలో కమిటీ"
+     }
+    ],
+    [
+     {
+      "en": "FRA basics",
+      "te": "FRA ప్రాథమికాలు"
+     },
+     {
+      "en": "Enacted 29 Dec 2006; in force 31 Dec 2007; Ministry of Tribal Affairs; land ceiling 4 ha",
+      "te": "29 డిసెంబర్ 2006 చట్టం; 31 డిసెంబర్ 2007 నుంచి అమలు; గిరిజన వ్యవహారాల శాఖ; భూమి పరిమితి 4 హెక్టార్లు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Tribal and forest laws",
+     "te": "లింక్ చెయిన్ · గిరిజన, అటవీ చట్టాలు"
+    },
+    "l": [
+     {
+      "en": "Wildlife (Protection) Act 1972, Sec 38V: 'critical tiger habitats' are kept inviolate; relocation only voluntary or after rights are settled, with informed consent of the Gram Sabha",
+      "te": "వన్యప్రాణి (సంరక్షణ) చట్టం 1972, సెక్. 38V: 'కీలక పులుల ఆవాసాలు' చెక్కుచెదరకుండా ఉంచాలి; తరలింపు స్వచ్ఛందంగా లేదా హక్కులు తేలిన తర్వాతే, గ్రామసభ సమ్మతితో"
+     },
+     {
+      "en": "Two kinds of beneficiaries: forest-dwelling STs (Sec 2(c)) and Other Traditional Forest Dwellers (Sec 2(o), the 75-year test)",
+      "te": "రెండు రకాల లబ్ధిదారులు: అడవుల్లో నివసించే STలు (సెక్. 2(c)), ఇతర సంప్రదాయ అటవీ నివాసులు (సెక్. 2(o), 75 ఏళ్ల పరీక్ష)"
+     },
+     {
+      "en": "AP link: Nallamala's Nagarjunasagar–Srisailam Tiger Reserve has Chenchu habitations — the same FRA and tiger-habitat questions arise there",
+      "te": "AP లింక్: నల్లమలలోని నాగార్జునసాగర్–శ్రీశైలం టైగర్ రిజర్వ్‌లో చెంచు గూడేలు ఉన్నాయి — అక్కడా ఇవే FRA, పులుల ఆవాస ప్రశ్నలు వస్తాయి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "OTFDs need 3 generations = 75 years before 13 Dec 2005; forest-dwelling STs do NOT need the 75-year test. The FRA was enacted in 2006 but came into force only on 31 Dec 2007.",
+    "te": "OTFDలకు 13 డిసెంబర్ 2005కు ముందు 3 తరాలు = 75 ఏళ్లు అవసరం; అటవీ STలకు ఈ 75 ఏళ్ల పరీక్ష అవసరం లేదు. FRA 2006లో చట్టమైనా 31 డిసెంబర్ 2007 నుంచే అమలులోకి వచ్చింది."
+   },
+   "tip": {
+    "en": "FRA numbers '4-75-2005': 4 ha ceiling, 75 years for OTFDs, cut-off 13 Dec 2005.",
+    "te": "FRA సంఖ్యలు '4-75-2005': 4 హె. పరిమితి, OTFDలకు 75 ఏళ్లు, కట్-ఆఫ్ 13 డిసెంబర్ 2005."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the Forest Rights Act, 2006, consider the following statements:",
+     "te": "అటవీ హక్కుల చట్టం 2006కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "The Gram Sabha is the first authority to receive and process claims.",
+      "te": "దరఖాస్తులను స్వీకరించి పరిశీలించే మొదటి అధికార వ్యవస్థ గ్రామసభ."
+     },
+     {
+      "en": "Forest-dwelling Scheduled Tribes must prove 75 years of residence before 13 December 2005.",
+      "te": "అడవుల్లో నివసించే షెడ్యూల్డ్ తెగలు 13 డిసెంబర్ 2005కు ముందు 75 ఏళ్ల నివాసం నిరూపించాలి."
+     },
+     {
+      "en": "Its nodal ministry is the Ministry of Tribal Affairs.",
+      "te": "దీని నోడల్ మంత్రిత్వ శాఖ గిరిజన వ్యవహారాల శాఖ."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "I and III are correct. II is wrong: the 75-year (3-generation) test applies to Other Traditional Forest Dwellers, not to forest-dwelling STs.",
+     "te": "I, III సరైనవి. II తప్పు: 75 ఏళ్ల (3 తరాల) పరీక్ష ఇతర సంప్రదాయ అటవీ నివాసులకే, అటవీ STలకు కాదు."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "How a forest-rights claim is decided (Sec 6)",
+      "te": "అటవీ హక్కు దరఖాస్తు ఎలా తేలుతుంది (సెక్. 6)"
+     },
+     "items": [
+      {
+       "i": "📝",
+       "t": {
+        "en": "Claim filed by forest dweller",
+        "te": "అటవీ నివాసి దరఖాస్తు"
+       }
+      },
+      {
+       "i": "👥",
+       "t": {
+        "en": "Gram Sabha examines first",
+        "te": "మొదట గ్రామసభ పరిశీలన"
+       }
+      },
+      {
+       "i": "🏢",
+       "t": {
+        "en": "Sub-Divisional Level Committee",
+        "te": "సబ్-డివిజనల్ స్థాయి కమిటీ"
+       }
+      },
+      {
+       "i": "🏛️",
+       "t": {
+        "en": "District Level Committee — final",
+        "te": "జిల్లా స్థాయి కమిటీ — తుది నిర్ణయం"
+       }
+      },
+      {
+       "i": "🐅",
+       "t": {
+        "en": "In a tiger habitat: habitat comes first",
+        "te": "పులుల ఆవాసంలో: ఆవాసానికే ప్రాధాన్యం"
+       }
+      }
+     ]
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Forest right vs what the Court rejected",
+      "te": "అటవీ హక్కు vs కోర్టు తిరస్కరించినది"
+     },
+     "a": {
+      "h": {
+       "en": "Can be a forest right",
+       "te": "అటవీ హక్కు కావచ్చు"
+      },
+      "l": [
+       {
+        "en": "Habitation, self-cultivation (Sec 3(1)(a))",
+        "te": "నివాసం, స్వయం సాగు (సెక్. 3(1)(a))"
+       },
+       {
+        "en": "Collecting naturally grown minor forest produce (Sec 3(1)(c))",
+        "te": "సహజంగా పెరిగే చిన్న అటవీ ఉత్పత్తుల సేకరణ (సెక్. 3(1)(c))"
+       },
+       {
+        "en": "Proved through Gram Sabha",
+        "te": "గ్రామసభ ద్వారా నిరూపణ"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Not a forest right (this case)",
+       "te": "అటవీ హక్కు కాదు (ఈ కేసు)"
+      },
+      "l": [
+       {
+        "en": "Planned commercial crop (silk cotton)",
+        "te": "ప్రణాళికాబద్ధ వాణిజ్య పంట (సిల్క్ కాటన్)"
+       },
+       {
+        "en": "Present occupation alone",
+        "te": "కేవలం ప్రస్తుత ఆక్రమణ"
+       },
+       {
+        "en": "Temporary residents / people living outside",
+        "te": "తాత్కాలిక నివాసులు / బయట నివసించేవారు"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Supreme Court of India — Judgment, A. John Kennedy v. State of Tamil Nadu, 6 Nov 2026",
+     "u": "https://api.sci.gov.in/supremecourt/2025/531/531_2025_14_1501_76171_Judgement_06-Nov-2026.pdf"
+    },
+    {
+     "t": "India Code — The Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006",
+     "u": "https://www.indiacode.nic.in/handle/123456789/2070"
+    },
+    {
+     "t": "LawX — Section 38V, Wild Life (Protection) Act, 1972",
+     "u": "https://lawx.in/acts/section/125/1123/9644"
+    },
+    {
+     "t": "GKToday — Forest Rights Act, 2006: Provisions and Implementation (cross-check)",
+     "u": "https://www.gktoday.in/forest-rights-act-2006-provisions-and-implementation/"
+    }
+   ],
+   "mains": {
+    "en": "Balancing the rights of forest dwellers with the inviolability of critical tiger habitats is a test of cooperative environmental governance. Discuss in the light of the Supreme Court's November 2026 ruling.",
+    "te": "అటవీ నివాసుల హక్కులకు, కీలక పులుల ఆవాసాల పరిరక్షణకు మధ్య సమతుల్యం సహకార పర్యావరణ పాలనకు పరీక్ష. నవంబర్ 2026 సుప్రీంకోర్టు తీర్పు నేపథ్యంలో చర్చించండి."
+   }
+  },
+  {
+   "id": "cancermrp",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "In the news · Economy / Health · Revised MRPs in force, 9 Nov 2026",
+    "te": "వార్తల్లో · ఆర్థిక వ్యవస్థ / ఆరోగ్యం · సవరించిన MRPలు అమలు, 9 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-III Economy / GS-II Health",
+    "te": "వివరణ · GS-III ఆర్థిక వ్యవస్థ / GS-II ఆరోగ్యం"
+   },
+   "title": {
+    "en": "Cancer medicines cheaper: trade margins capped, 1,364 formulations get lower MRPs",
+    "te": "క్యాన్సర్ మందులు చౌక: ట్రేడ్ మార్జిన్లపై పరిమితి, 1,364 ఫార్ములేషన్లకు తగ్గిన MRP"
+   },
+   "line": {
+    "en": "Cancer treatment pushes many families into debt; capping the middlemen's margin cuts prices without a tax change.",
+    "te": "క్యాన్సర్ చికిత్స ఎన్నో కుటుంబాలను అప్పుల్లోకి నెడుతుంది; మధ్యవర్తుల మార్జిన్‌పై పరిమితితో పన్ను మార్పు లేకుండానే ధరలు తగ్గుతాయి."
+   },
+   "easy": [
+    {
+     "en": "A medicine's MRP includes the company's price plus the 'trade margin' — the profit of stockists and chemists between the company and the patient. For some cancer drugs this margin was very large.",
+     "te": "ఒక మందు MRPలో కంపెనీ ధరతో పాటు 'ట్రేడ్ మార్జిన్' ఉంటుంది — కంపెనీకి, రోగికి మధ్య ఉండే స్టాకిస్టులు, కెమిస్టుల లాభం. కొన్ని క్యాన్సర్ మందుల్లో ఈ మార్జిన్ చాలా ఎక్కువ."
+    },
+    {
+     "en": "On the advice of a DGHS expert committee, the government capped the trade margin at 30% for 137 non-scheduled anti-cancer drugs (Para 19 of the Drugs (Prices Control) Order, 2013; notified 17 Oct 2026). Companies then cut MRPs. From 9 Nov 2026, 1,364 formulations of 121 drugs carry lower prices.",
+     "te": "DGHS నిపుణుల కమిటీ సలహాతో, 137 నాన్-షెడ్యూల్డ్ క్యాన్సర్ మందులపై ట్రేడ్ మార్జిన్‌ను ప్రభుత్వం 30%కు పరిమితం చేసింది (ఔషధ ధరల నియంత్రణ ఉత్తర్వు 2013, పేరా 19; 17 అక్టోబర్ 2026 నోటిఫికేషన్). దాంతో కంపెనీలు MRPలు తగ్గించాయి. 9 నవంబర్ 2026 నుంచి 121 మందులకు చెందిన 1,364 ఫార్ములేషన్లు తగ్గిన ధరల్లో లభిస్తాయి."
+    },
+    {
+     "en": "This is NOT a GST or customs-duty cut — it is price regulation of the supply chain, done through the NPPA.",
+     "te": "ఇది GST లేదా కస్టమ్స్ సుంకం తగ్గింపు కాదు — సరఫరా గొలుసుపై ధరల నియంత్రణ, NPPA ద్వారా అమలు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "In force",
+      "te": "అమలు"
+     },
+     {
+      "en": "9 Nov 2026 — 1,364 formulations of 121 drugs",
+      "te": "9 నవంబర్ 2026 — 121 మందులకు చెందిన 1,364 ఫార్ములేషన్లు"
+     }
+    ],
+    [
+     {
+      "en": "Tool",
+      "te": "సాధనం"
+     },
+     {
+      "en": "Trade margin capped at 30% for 137 drugs (DPCO 2013, Para 19)",
+      "te": "137 మందులపై ట్రేడ్ మార్జిన్ 30%కు పరిమితి (DPCO 2013, పేరా 19)"
+     }
+    ],
+    [
+     {
+      "en": "Saving",
+      "te": "ఆదా"
+     },
+     {
+      "en": "₹3,540.38 crore a year (estimate)",
+      "te": "ఏటా ₹3,540.38 కోట్లు (అంచనా)"
+     }
+    ],
+    [
+     {
+      "en": "Cuts",
+      "te": "తగ్గింపులు"
+     },
+     {
+      "en": "679 brands cut by more than 50%; biggest cut 96.45%",
+      "te": "679 బ్రాండ్లపై 50% కంటే ఎక్కువ; గరిష్ఠ తగ్గింపు 96.45%"
+     }
+    ],
+    [
+     {
+      "en": "Regulator",
+      "te": "నియంత్రణ సంస్థ"
+     },
+     {
+      "en": "NPPA (set up 29 Aug 1997) — Dept of Pharmaceuticals, Ministry of Chemicals & Fertilizers",
+      "te": "NPPA (29 ఆగస్టు 1997 ఏర్పాటు) — ఫార్మాస్యూటికల్స్ విభాగం, రసాయనాలు & ఎరువుల శాఖ"
+     }
+    ],
+    [
+     {
+      "en": "Check / complain",
+      "te": "చూడండి / ఫిర్యాదు"
+     },
+     {
+      "en": "Pharma Sahi Daam app · Pharma Jan Samadhan · 1800-111-255",
+      "te": "ఫార్మా సహీ దామ్ యాప్ · ఫార్మా జన్ సమాధాన్ · 1800-111-255"
+     }
+    ],
+    [
+     {
+      "en": "Precedent",
+      "te": "పూర్వ ఉదాహరణ"
+     },
+     {
+      "en": "2019 pilot: 30% cap on 42 drugs",
+      "te": "2019 పైలట్: 42 మందులపై 30% పరిమితి"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · How medicine prices are controlled",
+     "te": "లింక్ చెయిన్ · మందుల ధరలు ఎలా నియంత్రిస్తారు"
+    },
+    "l": [
+     {
+      "en": "Scheduled drugs (in NLEM — National List of Essential Medicines): NPPA fixes a ceiling price",
+      "te": "షెడ్యూల్డ్ మందులు (NLEM — అవసరమైన మందుల జాతీయ జాబితా): NPPA సీలింగ్ ధర నిర్ణయిస్తుంది"
+     },
+     {
+      "en": "Non-scheduled drugs: normally only a 10% yearly MRP-rise limit — trade-margin capping is the special tool used here",
+      "te": "నాన్-షెడ్యూల్డ్ మందులు: సాధారణంగా ఏటా MRP 10% పెంపు పరిమితి మాత్రమే — ఇక్కడ వాడిన ప్రత్యేక సాధనం ట్రేడ్ మార్జిన్ పరిమితి"
+     },
+     {
+      "en": "NPPA uses price-control powers under the Essential Commodities Act, 1955, delegated to it",
+      "te": "నిత్యావసర వస్తువుల చట్టం 1955 కింద తనకు అప్పగించిన ధరల నియంత్రణ అధికారాలను NPPA వినియోగిస్తుంది"
+     },
+     {
+      "en": "Health link: DGHS (Directorate General of Health Services) is under the Ministry of Health; NPPA is under the Ministry of Chemicals & Fertilizers — two different ministries",
+      "te": "ఆరోగ్య లింక్: DGHS (ఆరోగ్య సేవల డైరెక్టరేట్ జనరల్) ఆరోగ్య శాఖ కింద; NPPA రసాయనాలు & ఎరువుల శాఖ కింద — రెండు వేర్వేరు శాఖలు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "NPPA is NOT under the Health Ministry — it is under the Department of Pharmaceuticals, Ministry of Chemicals & Fertilizers. And these drugs are NON-scheduled: prices fell by capping trade margins, not by fixing NLEM ceiling prices.",
+    "te": "NPPA ఆరోగ్య శాఖ కింద లేదు — రసాయనాలు & ఎరువుల శాఖలోని ఫార్మాస్యూటికల్స్ విభాగం కింద ఉంది. ఈ మందులు నాన్-షెడ్యూల్డ్: NLEM సీలింగ్ ధరల ద్వారా కాదు, ట్రేడ్ మార్జిన్ పరిమితి ద్వారా ధరలు తగ్గాయి."
+   },
+   "tip": {
+    "en": "'30-137-1364': 30% cap · 137 drugs · 1,364 formulations · from 9 Nov.",
+    "te": "'30-137-1364': 30% పరిమితి · 137 మందులు · 1,364 ఫార్ములేషన్లు · 9 నవంబర్ నుంచి."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the recent cut in anti-cancer medicine prices, consider the following statements:",
+     "te": "ఇటీవలి క్యాన్సర్ మందుల ధరల తగ్గింపుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "Prices fell mainly because GST on these medicines was removed.",
+      "te": "ఈ మందులపై GST తొలగించడం వల్లే ప్రధానంగా ధరలు తగ్గాయి."
+     },
+     {
+      "en": "The trade margin was capped at 30% under the Drugs (Prices Control) Order, 2013.",
+      "te": "ఔషధ ధరల నియంత్రణ ఉత్తర్వు 2013 కింద ట్రేడ్ మార్జిన్‌ను 30%కు పరిమితం చేశారు."
+     },
+     {
+      "en": "The NPPA functions under the Ministry of Health and Family Welfare.",
+      "te": "NPPA ఆరోగ్య, కుటుంబ సంక్షేమ శాఖ కింద పనిచేస్తుంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "Only II is correct. I: no GST/customs change — trade margins were capped. III: NPPA is under the Ministry of Chemicals & Fertilizers.",
+     "te": "II మాత్రమే సరైనది. I: GST/కస్టమ్స్ మార్పు లేదు — ట్రేడ్ మార్జిన్ పరిమితి. III: NPPA రసాయనాలు & ఎరువుల శాఖ కింద."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "How the price came down",
+      "te": "ధర ఎలా తగ్గింది"
+     },
+     "items": [
+      {
+       "i": "🩺",
+       "t": {
+        "en": "DGHS expert committee advises",
+        "te": "DGHS నిపుణుల కమిటీ సలహా"
+       }
+      },
+      {
+       "i": "📜",
+       "t": {
+        "en": "30% trade-margin cap on 137 drugs (17 Oct)",
+        "te": "137 మందులపై 30% మార్జిన్ పరిమితి (17 అక్టో)"
+       }
+      },
+      {
+       "i": "🏭",
+       "t": {
+        "en": "Companies report revised MRPs to NPPA",
+        "te": "కంపెనీలు సవరించిన MRPలు NPPAకు"
+       }
+      },
+      {
+       "i": "💊",
+       "t": {
+        "en": "1,364 formulations cheaper from 9 Nov",
+        "te": "9 నవంబర్ నుంచి 1,364 ఫార్ములేషన్లు చౌక"
+       }
+      },
+      {
+       "i": "💰",
+       "t": {
+        "en": "Patients save ~₹3,540 crore a year",
+        "te": "రోగులకు ఏటా ~₹3,540 కోట్ల ఆదా"
+       }
+      }
+     ]
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "The list kept growing (formulations / brands with lower MRPs)",
+      "te": "జాబితా పెరుగుతూ వచ్చింది (తగ్గిన MRP ఫార్ములేషన్లు / బ్రాండ్లు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "List of 28 Oct",
+        "te": "28 అక్టోబర్ జాబితా"
+       },
+       "v": 543,
+       "vl": "543"
+      },
+      {
+       "t": {
+        "en": "Update of 3 Nov",
+        "te": "3 నవంబర్ అప్‌డేట్"
+       },
+       "v": 1085,
+       "vl": "1,085"
+      },
+      {
+       "t": {
+        "en": "In force 9 Nov",
+        "te": "9 నవంబర్ అమలు"
+       },
+       "v": 1364,
+       "vl": "1,364"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Greater Kashmir — Revised prices of 1,364 anti-cancer medicine formulations come into effect, 9 Nov 2026",
+     "u": "https://www.greaterkashmir.com/health/revised-prices-of-1364-anti-cancer-medicine-formulations-come-into-effect-12795612"
+    },
+    {
+     "t": "Morung Express (IANS) — Cancer drug prices slashed by up to 96.45 pc; savings Rs 3,540 crore, Nov 2026",
+     "u": "https://www.morungexpress.com/cancer-drug-prices-slashed-by-up-to-9645-pc-annual-consumer-savings-pegged-at-rs-3540-crore-govt"
+    },
+    {
+     "t": "Business Today — Govt caps margins to 30% for 137 anti-cancer drugs; revised prices from Nov 9, 17 Oct 2026",
+     "u": "https://www.businesstoday.in/india/story/navratri-gift-govt-caps-margins-to-30-for-137-anti-cancer-drugs-revised-prices-from-nov-9-562270-2026-10-17"
+    },
+    {
+     "t": "ThePrint — NPPA slashes MRP for 543 anti-cancer medicines effective Nov 9",
+     "u": "https://theprint.in/economy/drug-price-regulator-nppa-slashes-mrp-for-543-anti-cancer-medicines-effective-nov-9/3084505/"
+    },
+    {
+     "t": "GKToday — NPPA updates reduced prices for 1,085 anti-cancer medicines (cross-check)",
+     "u": "https://www.gktoday.in/nppa-updates-reduced-prices-for-1085-anti-cancer-medicines/"
+    },
+    {
+     "t": "Wikipedia — National Pharmaceutical Pricing Authority",
+     "u": "https://en.wikipedia.org/wiki/National_Pharmaceutical_Pricing_Authority"
+    },
+    {
+     "t": "Indian Economic Service Arthapedia — NPPA",
+     "u": "https://ies.gov.in/arthapedia/concept/national-pharmaceutical-pricing-authority-nppa"
+    }
+   ],
+   "mains": {
+    "en": "Is trade-margin rationalisation a better tool than price ceilings to make essential medicines affordable? Examine with reference to the recent cut in anti-cancer drug prices.",
+    "te": "అవసరమైన మందులను అందుబాటు ధరల్లోకి తేవడానికి ధరల సీలింగ్ కంటే ట్రేడ్ మార్జిన్ హేతుబద్ధీకరణ మెరుగైన సాధనమా? ఇటీవలి క్యాన్సర్ మందుల ధరల తగ్గింపు నేపథ్యంలో పరిశీలించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "sciday",
+   "q": {
+    "en": "Consider the following statements about World Science Day for Peace and Development:",
+    "te": "శాంతి, అభివృద్ధి కోసం ప్రపంచ సైన్స్ దినోత్సవం గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It is observed on 10 November every year.",
+     "te": "I. దీనిని ఏటా 10 నవంబర్ నాడు నిర్వహిస్తారు."
+    },
+    {
+     "en": "II. It was proclaimed by the UN General Assembly in 2002.",
+     "te": "II. దీనిని 2002లో UN సాధారణ సభ ప్రకటించింది."
+    },
+    {
+     "en": "III. Its 2026 theme is 'Common ground through science diplomacy'.",
+     "te": "III. దీని 2026 థీమ్ 'Common ground through science diplomacy'."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and III are correct. II is wrong twice: it was proclaimed by UNESCO, and in 2001; 2002 was the first celebration.",
+    "te": "I, III సరైనవి. II రెండు విధాలా తప్పు: ప్రకటించింది యునెస్కో, అది 2001లో; 2002 తొలి నిర్వహణ సంవత్సరం."
+   }
+  },
+  {
+   "topic": "sciday",
+   "q": {
+    "en": "Match List-I with List-II. List-II: A. 28 February   B. 4 November 1946   C. 10 November",
+    "te": "జాబితా-Iను జాబితా-IIతో జతపరచండి. జాబితా-II: A. 28 ఫిబ్రవరి   B. 4 నవంబర్ 1946   C. 10 నవంబర్"
+   },
+   "st": [
+    {
+     "en": "I. World Science Day for Peace and Development",
+     "te": "I. శాంతి, అభివృద్ధి కోసం ప్రపంచ సైన్స్ దినోత్సవం"
+    },
+    {
+     "en": "II. India's National Science Day",
+     "te": "II. భారత జాతీయ సైన్స్ దినోత్సవం"
+    },
+    {
+     "en": "III. UNESCO Constitution comes into force",
+     "te": "III. యునెస్కో రాజ్యాంగం అమలులోకి"
+    }
+   ],
+   "o": [
+    {
+     "en": "I-C, II-A, III-B",
+     "te": "I-C, II-A, III-B"
+    },
+    {
+     "en": "I-A, II-C, III-B",
+     "te": "I-A, II-C, III-B"
+    },
+    {
+     "en": "I-C, II-B, III-A",
+     "te": "I-C, II-B, III-A"
+    },
+    {
+     "en": "I-B, II-A, III-C",
+     "te": "I-B, II-A, III-C"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "World Science Day = 10 Nov; National Science Day (Raman Effect) = 28 Feb; UNESCO Constitution in force = 4 Nov 1946 (it was signed in Nov 1945 — the trap).",
+    "te": "ప్రపంచ సైన్స్ దినోత్సవం = 10 నవంబర్; జాతీయ సైన్స్ దినోత్సవం (రామన్ ఎఫెక్ట్) = 28 ఫిబ్రవరి; యునెస్కో రాజ్యాంగం అమలు = 4 నవంబర్ 1946 (సంతకం నవంబర్ 1945లో — ఇదే ట్రాప్)."
+   }
+  },
+  {
+   "topic": "pratapgad",
+   "q": {
+    "en": "Consider the following statements. Which of them is/are INCORRECT?",
+    "te": "కింది వాక్యాలను పరిశీలించండి. వాటిలో తప్పు వాక్యం/వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. Afzal Khan was a Mughal general sent by Aurangzeb.",
+     "te": "I. అఫ్జల్ ఖాన్ ఔరంగజేబ్ పంపిన మొఘల్ సేనాని."
+    },
+    {
+     "en": "II. Pratapgad fort is in Satara district of Maharashtra.",
+     "te": "II. ప్రతాప్‌గఢ్ కోట మహారాష్ట్రలోని సతారా జిల్లాలో ఉంది."
+    },
+    {
+     "en": "III. The Treaty of Purandar (1665) was signed with Jai Singh I.",
+     "te": "III. పురందర్ ఒప్పందం (1665) మొదటి జైసింగ్‌తో జరిగింది."
+    },
+    {
+     "en": "IV. Shivaji was crowned Chhatrapati at Raigad in 1674.",
+     "te": "IV. 1674లో రాయగఢ్‌లో శివాజీ ఛత్రపతిగా పట్టాభిషిక్తుడయ్యారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Only I is incorrect: Afzal Khan was a general of Ali Adil Shah II of Bijapur, not of the Mughals. II, III and IV are correct.",
+    "te": "I మాత్రమే తప్పు: అఫ్జల్ ఖాన్ బీజాపూర్ రెండో అలీ ఆదిల్ షా సేనాని, మొఘలులది కాదు. II, III, IV సరైనవి."
+   }
+  },
+  {
+   "topic": "pratapgad",
+   "q": {
+    "en": "Arrange the following events in chronological order (earliest first):",
+    "te": "కింది ఘటనలను కాలక్రమంలో (మొదటిది ముందు) అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "I. Treaty of Purandar",
+     "te": "I. పురందర్ ఒప్పందం"
+    },
+    {
+     "en": "II. Battle of Pratapgad",
+     "te": "II. ప్రతాప్‌గఢ్ యుద్ధం"
+    },
+    {
+     "en": "III. Coronation at Raigad",
+     "te": "III. రాయగఢ్‌లో పట్టాభిషేకం"
+    },
+    {
+     "en": "IV. Maratha capture of Panhala fort",
+     "te": "IV. మరాఠాలు పన్హాళా కోట స్వాధీనం"
+    }
+   ],
+   "o": [
+    {
+     "en": "II – I – IV – III",
+     "te": "II – I – IV – III"
+    },
+    {
+     "en": "II – IV – I – III",
+     "te": "II – IV – I – III"
+    },
+    {
+     "en": "IV – II – I – III",
+     "te": "IV – II – I – III"
+    },
+    {
+     "en": "II – IV – III – I",
+     "te": "II – IV – III – I"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Pratapgad (10 Nov 1659) → Panhala (28 Nov 1659, just 18 days later) → Purandar (1665) → Raigad coronation (1674). Trap: Panhala is placed after Purandar in option (a).",
+    "te": "ప్రతాప్‌గఢ్ (10 నవంబర్ 1659) → పన్హాళా (28 నవంబర్ 1659, 18 రోజుల్లోనే) → పురందర్ (1665) → రాయగఢ్ పట్టాభిషేకం (1674). ట్రాప్: ఆప్షన్ (a)లో పన్హాళాను పురందర్ తర్వాత పెట్టారు."
+   }
+  },
+  {
+   "topic": "cop31",
+   "q": {
+    "en": "With reference to recent UN climate conferences, consider the following statements:",
+    "te": "ఇటీవలి UN వాతావరణ సదస్సులకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The goal of US$300 billion a year by 2035 for developing countries was set at COP29 in Baku.",
+     "te": "I. అభివృద్ధి చెందుతున్న దేశాలకు 2035 నాటికి ఏటా $300 బిలియన్ల లక్ష్యాన్ని బాకులో COP29లో నిర్ణయించారు."
+    },
+    {
+     "en": "II. COP30 at Belém committed to triple adaptation finance by 2035.",
+     "te": "II. బెలెమ్‌లో COP30, 2035 నాటికి అనుకూలన నిధులను మూడు రెట్లు చేయాలని నిర్ణయించింది."
+    },
+    {
+     "en": "III. India is preparing to host COP33 in 2028.",
+     "te": "III. 2028లో COP33కు ఆతిథ్యం ఇవ్వడానికి భారత్ సిద్ధమవుతోంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and II are correct. III is wrong: India withdrew its COP33 bid by a letter to the UNFCCC dated 2 April 2026.",
+    "te": "I, II సరైనవి. III తప్పు: 2 ఏప్రిల్ 2026 నాటి లేఖతో భారత్ COP33 బిడ్‌ను UNFCCC వద్ద ఉపసంహరించుకుంది."
+   }
+  },
+  {
+   "topic": "cop31",
+   "q": {
+    "en": "Which of the following are among India's stated priorities for COP31?",
+    "te": "COP31 కోసం భారత్ ప్రకటించిన ప్రాధాన్యాల్లో కిందివాటిలో ఏవి ఉన్నాయి?"
+   },
+   "st": [
+    {
+     "en": "I. Developed countries must meet their finance obligations under Article 9.1 of the Paris Agreement.",
+     "te": "I. పారిస్ ఒప్పందం ఆర్టికల్ 9.1 కింద సంపన్న దేశాలు నిధుల బాధ్యతలు నెరవేర్చాలి."
+    },
+    {
+     "en": "II. Adaptation indicators should be made conditions for receiving climate finance.",
+     "te": "II. వాతావరణ నిధులు పొందడానికి అనుకూలన సూచికలను షరతులుగా చేయాలి."
+    },
+    {
+     "en": "III. Carbon markets should remain voluntary.",
+     "te": "III. కార్బన్ మార్కెట్లు స్వచ్ఛందంగానే ఉండాలి."
+    },
+    {
+     "en": "IV. Technology transfer is an obligation of developed countries.",
+     "te": "IV. సాంకేతికత బదిలీ సంపన్న దేశాల బాధ్యత."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "I, III and IV are India's positions. II is the opposite: India wants the Global Goal on Adaptation indicators to stay voluntary and NOT become conditions for finance.",
+    "te": "I, III, IV భారత వైఖరులు. II దానికి విరుద్ధం: అనుకూలన సూచికలు స్వచ్ఛందంగానే ఉండాలి, నిధులకు షరతులు కాకూడదని భారత్ కోరుతోంది."
+   }
+  },
+  {
+   "topic": "fraverdict",
+   "q": {
+    "en": "With reference to the Supreme Court's judgment of 6 November 2026 on the Srivilliputhur–Megamalai Tiger Reserve, consider the following statements:",
+    "te": "శ్రీవిల్లిపుత్తూర్–మేఘమలై టైగర్ రిజర్వ్‌పై 6 నవంబర్ 2026 సుప్రీంకోర్టు తీర్పుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Planned cultivation of a commercial crop was held not to be 'minor forest produce'.",
+     "te": "I. ప్రణాళికాబద్ధ వాణిజ్య పంట సాగు 'చిన్న అటవీ ఉత్పత్తి' కాదని తీర్పు చెప్పింది."
+    },
+    {
+     "en": "II. The Court allowed forest rights to be recognised on the basis of present occupation alone.",
+     "te": "II. కేవలం ప్రస్తుత ఆక్రమణ ఆధారంగా అటవీ హక్కులు గుర్తించవచ్చని కోర్టు అనుమతించింది."
+    },
+    {
+     "en": "III. The Court said the sanctity of the critical tiger habitat must be given primacy.",
+     "te": "III. కీలక పులుల ఆవాసం పవిత్రతకే ప్రాధాన్యం ఇవ్వాలని కోర్టు చెప్పింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and III are correct. II is wrong: the Court said claims must be decided strictly under Section 6 (Gram Sabha first), 'not merely on the basis of present occupation'.",
+    "te": "I, III సరైనవి. II తప్పు: దరఖాస్తులను 'కేవలం ప్రస్తుత ఆక్రమణ ఆధారంగా కాకుండా' సెక్షన్ 6 (మొదట గ్రామసభ) కింద కచ్చితంగా తేల్చాలని కోర్టు చెప్పింది."
+   }
+  },
+  {
+   "topic": "fraverdict",
+   "q": {
+    "en": "A non-tribal family has lived in a forest village since 1960 and depends on the forest. Under the Forest Rights Act, 2006, consider the following statements:",
+    "te": "గిరిజనేతర కుటుంబం ఒకటి 1960 నుంచి అటవీ గ్రామంలో నివసిస్తూ అడవిపై ఆధారపడుతోంది. అటవీ హక్కుల చట్టం 2006 ప్రకారం కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It qualifies as an 'Other Traditional Forest Dweller' because it lived there before 13 December 2005.",
+     "te": "I. 13 డిసెంబర్ 2005కు ముందు నుంచే అక్కడ నివసిస్తోంది కాబట్టి 'ఇతర సంప్రదాయ అటవీ నివాసి'గా అర్హత పొందుతుంది."
+    },
+    {
+     "en": "II. It does not meet the OTFD test, which needs three generations (75 years) of residence before 13 December 2005.",
+     "te": "II. 13 డిసెంబర్ 2005కు ముందు మూడు తరాల (75 ఏళ్ల) నివాసం అవసరమైన OTFD పరీక్షను ఇది నెరవేర్చదు."
+    },
+    {
+     "en": "III. Any claim it makes must first go to the Gram Sabha.",
+     "te": "III. ఇది చేసే ఏ దరఖాస్తైనా ముందుగా గ్రామసభకు వెళ్లాలి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II and III are correct. 1960 to 2005 is only 45 years — less than the 75 years (3 generations) required for OTFDs, so I is wrong. Under Section 6, the Gram Sabha is the first tier.",
+    "te": "II, III సరైనవి. 1960 నుంచి 2005 వరకు 45 ఏళ్లే — OTFDలకు అవసరమైన 75 ఏళ్ల (3 తరాల) కంటే తక్కువ, కాబట్టి I తప్పు. సెక్షన్ 6 ప్రకారం మొదటి అంచె గ్రామసభ."
+   }
+  },
+  {
+   "topic": "cancermrp",
+   "q": {
+    "en": "With reference to the cut in anti-cancer medicine prices from 9 November 2026, consider the following statements:",
+    "te": "9 నవంబర్ 2026 నుంచి క్యాన్సర్ మందుల ధరల తగ్గింపుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Revised MRPs apply to 1,364 formulations.",
+     "te": "I. సవరించిన MRPలు 1,364 ఫార్ములేషన్లకు వర్తిస్తాయి."
+    },
+    {
+     "en": "II. The trade margin was capped at 30% for 137 drugs.",
+     "te": "II. 137 మందులపై ట్రేడ్ మార్జిన్‌ను 30%కు పరిమితం చేశారు."
+    },
+    {
+     "en": "III. The 137 drugs are scheduled medicines whose ceiling prices are fixed under the NLEM.",
+     "te": "III. ఆ 137 మందులు NLEM కింద సీలింగ్ ధరలు నిర్ణయించే షెడ్యూల్డ్ మందులు."
+    },
+    {
+     "en": "IV. The estimated saving for consumers is about ₹3,540 crore a year.",
+     "te": "IV. వినియోగదారులకు ఏటా సుమారు ₹3,540 కోట్ల ఆదా అని అంచనా."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "I, II and IV are correct. III is wrong: the 137 are NON-scheduled anti-cancer drugs; prices fell through trade-margin capping (DPCO 2013, Para 19), not NLEM ceiling prices.",
+    "te": "I, II, IV సరైనవి. III తప్పు: ఆ 137 నాన్-షెడ్యూల్డ్ క్యాన్సర్ మందులు; ధరలు NLEM సీలింగ్ ద్వారా కాదు, ట్రేడ్ మార్జిన్ పరిమితి (DPCO 2013, పేరా 19) ద్వారా తగ్గాయి."
+   }
+  },
+  {
+   "topic": "cancermrp",
+   "q": {
+    "en": "Consider the following pairs. Which of them are correctly matched?",
+    "te": "కింది జతలను పరిశీలించండి. వాటిలో సరిగా జతపరిచినవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. NPPA — Ministry of Chemicals & Fertilizers",
+     "te": "I. NPPA — రసాయనాలు & ఎరువుల శాఖ"
+    },
+    {
+     "en": "II. DGHS — Ministry of Health and Family Welfare",
+     "te": "II. DGHS — ఆరోగ్య, కుటుంబ సంక్షేమ శాఖ"
+    },
+    {
+     "en": "III. NPPA set up — 2013",
+     "te": "III. NPPA ఏర్పాటు — 2013"
+    },
+    {
+     "en": "IV. Drugs (Prices Control) Order — 2013",
+     "te": "IV. ఔషధ ధరల నియంత్రణ ఉత్తర్వు — 2013"
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I, II and IV are correct. III is wrong: NPPA was set up on 29 August 1997; 2013 is the year of the DPCO it enforces.",
+    "te": "I, II, IV సరైనవి. III తప్పు: NPPA 29 ఆగస్టు 1997న ఏర్పడింది; 2013 అది అమలు చేసే DPCO సంవత్సరం."
+   }
+  }
+ ]
+}
