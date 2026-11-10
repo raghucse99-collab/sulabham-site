@@ -1195,48 +1195,53 @@ function renderChart(){
    return {anchor,items:resultSequence.slice(anchor.index+1,end)};
   });
   const progressionChains=[],chainKeys=new Set();
-  const MAX_MONDAY_PROGRESSIONS=1200,MAX_HITS_PER_INTERVAL=36;
+  const MAX_MONDAY_PROGRESSIONS=1200,MAX_HITS_PER_INTERVAL=36,MAX_GAP_STEP=12;
   const expectedNext=value=>String((Number(value)+10)%100).padStart(2,'0');
-  const addChain=chain=>{
-   // At least three Monday-00 intervals are needed to verify the gap rule.
+  const addChain=(chain,mode)=>{
    if(chain.length<3||progressionChains.length>=MAX_MONDAY_PROGRESSIONS)return;
-   const key=chain.map(x=>x.hit.value+'@'+x.hit.row.date+'@'+x.hit.day+'@'+x.gap).join('|');
+   const key=mode+':'+chain.map(x=>x.hit.value+'@'+x.hit.row.date+'@'+x.hit.day+'@'+x.gap).join('|');
    if(chainKeys.has(key))return;
-   chainKeys.add(key);progressionChains.push(chain);
+   chainKeys.add(key);progressionChains.push({...chain,mode});
   };
-  // Gap must be an arithmetic progression: equal gaps (step 0), or
-  // increasing by one fixed positive amount (1,2,3... / 4,8,12...).
-  // For every possible first and second match, derive the fixed gap step,
-  // then require every later interval to land at exactly the next gap.
-  // Iterative and bounded; no recursion or irregular-gap matches.
+  // Valid gap shapes only:
+  // 1) equal: 5,5,5
+  // 2) fixed increase: 4,8,12,16 (same +N each time, N <= 12)
+  // 3) stepwise increase: 4,5,7,10 (gap increments +1,+2,+3...)
+  // Large arbitrary jumps such as 4,71,138 are rejected.
   for(let start=0;start<mondayIntervals.length-2&&progressionChains.length<MAX_MONDAY_PROGRESSIONS;start++){
    const firstInterval=mondayIntervals[start];
-   const seeds=firstInterval.items.slice(0,MAX_HITS_PER_INTERVAL);
-   for(const firstHit of seeds){
+   for(const firstHit of firstInterval.items.slice(0,MAX_HITS_PER_INTERVAL)){
     const firstGap=firstHit.index-firstInterval.anchor.index;
     for(const mode of ['same','plus10']){
-     const wantedSecond=mode==='same'?firstHit.value:expectedNext(firstHit.value);
+     const secondValue=mode==='same'?firstHit.value:expectedNext(firstHit.value);
      const secondInterval=mondayIntervals[start+1];
-     const secondHits=secondInterval.items.filter(item=>item.value===wantedSecond).slice(0,MAX_HITS_PER_INTERVAL);
+     const secondHits=secondInterval.items.filter(item=>item.value===secondValue).slice(0,MAX_HITS_PER_INTERVAL);
      for(const secondHit of secondHits){
       const secondGap=secondHit.index-secondInterval.anchor.index;
-      const gapStep=secondGap-firstGap;
-      if(gapStep<0)continue;
-      const chain=[
-       {anchor:firstInterval.anchor,hit:firstHit,gap:firstGap},
-       {anchor:secondInterval.anchor,hit:secondHit,gap:secondGap}
-      ];
-      let expectedValue=mode==='same'?firstHit.value:expectedNext(secondHit.value);
-      let expectedGap=secondGap+gapStep;
-      for(let next=start+2;next<mondayIntervals.length;next++){
-       const interval=mondayIntervals[next];
-       const hit=interval.items.find(item=>item.value===expectedValue&&(item.index-interval.anchor.index)===expectedGap);
-       if(!hit)break;
-       chain.push({anchor:interval.anchor,hit,gap:expectedGap});
-       if(mode==='plus10')expectedValue=expectedNext(expectedValue);
-       expectedGap+=gapStep;
+      const firstDelta=secondGap-firstGap;
+      if(firstDelta<0||firstDelta>MAX_GAP_STEP)continue;
+      for(const gapMode of ['equal','fixed-increase','stepwise-increase']){
+       if(gapMode==='equal'&&firstDelta!==0)continue;
+       if(gapMode!=='equal'&&firstDelta===0)continue;
+       const chain=[
+        {anchor:firstInterval.anchor,hit:firstHit,gap:firstGap},
+        {anchor:secondInterval.anchor,hit:secondHit,gap:secondGap}
+       ];
+       let expectedValue=mode==='same'?firstHit.value:expectedNext(secondHit.value);
+       let expectedGap=secondGap;
+       let delta=firstDelta;
+       for(let next=start+2;next<mondayIntervals.length;next++){
+        if(gapMode==='stepwise-increase')delta++;
+        expectedGap+=gapMode==='equal'?0:delta;
+        const interval=mondayIntervals[next];
+        const hit=interval.items.find(item=>item.value===expectedValue&&(item.index-interval.anchor.index)===expectedGap);
+        if(!hit)break;
+        chain.push({anchor:interval.anchor,hit,gap:expectedGap});
+        if(mode==='plus10')expectedValue=expectedNext(expectedValue);
+       }
+       addChain(chain,gapMode);
+       if(progressionChains.length>=MAX_MONDAY_PROGRESSIONS)break;
       }
-      addChain(chain);
       if(progressionChains.length>=MAX_MONDAY_PROGRESSIONS)break;
      }
      if(progressionChains.length>=MAX_MONDAY_PROGRESSIONS)break;
@@ -1247,12 +1252,20 @@ function renderChart(){
   progressionChains.sort((a,b)=>b.length-a.length||b[b.length-1].hit.row.date?.localeCompare?.(a[a.length-1].hit.row.date||'')||0);
   const mondayProgressionCards=progressionChains.map((chain,n)=>{
    const items=chain.map((x,k)=>{
-    const gap=x.gap;
-    return '<div class="repeat-step"><b class="repeat-step-num">MONDAY 00 #'+(k+1)+' · '+esc(x.anchor.item.row.date||'')+'</b><strong class="repeat-step-jodi">'+esc(x.hit.value)+'</strong><span>Matched on '+esc(x.hit.day)+' · '+esc(x.hit.row.date||'')+'<br>Published-result position after 00: '+gap+'</span><b>'+(k?(x.hit.value===chain[k-1].hit.value?'SAME JODI':' +10 PROGRESSION'):'FIRST MATCH')+'</b></div>';
+    const delta=k?x.gap-chain[k-1].gap:null;
+    return '<div class="repeat-step"><b class="repeat-step-num">MONDAY 00 #'+(k+1)+' · '+esc(x.anchor.item.row.date||'')+'</b><strong class="repeat-step-jodi">'+esc(x.hit.value)+'</strong><span>Matched on '+esc(x.hit.day)+' · '+esc(x.hit.row.date||'')+'<br>Result gap after 00: '+x.gap+'</span><b>'+(k?(x.hit.value===chain[k-1].hit.value?'SAME JODI':' +10 PROGRESSION'):'FIRST MATCH')+(k?' · GAP +'+delta:'')+'</b></div>';
    }).join('');
-   const rows=chain.map((x,k)=>'<tr><td>'+(k+1)+'</td><td>'+esc(x.anchor.item.row.date||'')+'</td><td>'+esc(x.hit.value)+'</td><td>'+esc(x.hit.day)+'</td><td>'+ (x.hit.index-x.anchor.index)+'</td><td>'+esc(x.hit.row.date||'')+'</td></tr>').join('');
-   const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart monday-progression-table"><thead><tr><th>#</th><th>Monday 00</th><th>Matched Jodi</th><th>Day</th><th>Result gap</th><th>Matched row</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
-   return '<section class="repeat-pattern-card monday-progression-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · MONDAY 00 → SAME / +10 JODI</strong><span>'+chain.length+' consecutive Monday 00 intervals</span></div><div class="repeat-watch"><b>JODI CHAIN: '+chain.map(x=>x.hit.value).join(' → ')+'</b><div>The matched Jodi may occur at any published-result position after Monday 00, but the result-gap sequence must be regular: equal gaps (for example 5 → 5 → 5), or increasing by one fixed step (1 → 2 → 3, or 4 → 8 → 12). Irregular gaps are rejected.</div><small>Each chain follows ONE rule throughout: either the same Jodi in every interval (04 → 04 → 04), OR +10 in every interval (04 → 14 → 24). Mixed same/+10 chains are not accepted. No missing result is assumed.</small></div><div class="repeat-steps">'+items+'</div><details class="repeat-history"><summary>Show matched chart rows</summary>'+table+'</details></section>';
+   const rows=chain.map((x,k)=>{
+    const delta=k?x.gap-chain[k-1].gap:'—';
+    return '<tr><td>'+(k+1)+'</td><td>'+esc(x.anchor.item.row.date||'')+'</td><td>'+esc(x.hit.value)+'</td><td>'+esc(x.hit.day)+'</td><td>'+x.gap+'</td><td>'+delta+'</td><td>'+esc(x.hit.row.date||'')+'</td></tr>';
+   }).join('');
+   const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart monday-progression-table"><thead><tr><th>#</th><th>Monday 00 week</th><th>Matched Jodi</th><th>Day</th><th>Gap</th><th>Gap change</th><th>Matched week</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
+   const chartRows=[];
+   chain.forEach(x=>[x.anchor.item.row,x.hit.row].forEach(row=>{if(!chartRows.some(existing=>existing.date===row.date))chartRows.push(row);}));
+   chartRows.sort((a,b)=>parseWeekStart(a)-parseWeekStart(b));
+   const weeklyChart='<div class="monday-progression-weekly-chart"><h4>Actual weekly Jodi chart · highlighted Monday 00 and matched Jodi weeks</h4>'+renderWeeklyChart(chartRows,'jodi')+'</div>';
+   const gapLabel=chain.mode==='equal'?'EQUAL GAPS':chain.mode==='fixed-increase'?'FIXED INCREASE IN GAPS':'STEPWISE +1,+2,+3 GAP INCREASE';
+   return '<section class="repeat-pattern-card monday-progression-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · MONDAY 00 → SAME / +10 JODI</strong><span>'+chain.length+' consecutive Monday 00 intervals · '+gapLabel+'</span></div><div class="repeat-watch"><b>JODI CHAIN: '+chain.map(x=>x.hit.value).join(' → ')+'</b><div>Gap sequence: '+chain.map(x=>x.gap).join(' → ')+'</div><small>Only equal gaps, fixed increases up to +12, or stepwise +1,+2,+3 increases are accepted. Large irregular jumps are rejected. Jodi rule is either same throughout or +10 throughout.</small></div><div class="repeat-steps">'+items+'</div><details class="repeat-history"><summary>Show actual weekly chart and matched rows</summary>'+weeklyChart+table+'</details></section>';
   }).join('');
   $('count').textContent=matches.length+' equal-distance patterns · '+occurrences.length+' Monday 00 occurrences checked · minimum 5 occurrences';
   const cards=matches.map((p,n)=>{
