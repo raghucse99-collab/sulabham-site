@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "M1iId3fIyqYDue3YLUqMXw==",
 "iter": 200000,
-"check": "MSCO2czFGsaZ1KqgqE1JX215P4KmYLCsJpFn8rmKwDx9PHrhueiLJsZxVQ==",
+"check": "xNmFKLV4Y0XsWdAPmKgYqKd/w0tE4hmaBJtiYP3aHja5Tzq6F0l7KSw+OA==",
 "lessons": {
 "dsc-sgt-perspectives-day2": "Perspectives in Education, Day 2: Teachers, Rights, Concerns, NCF and NEP",
 "dsc-sgt-perspectives-day2-te": "విద్యా దృక్పథాలు, 2వ రోజు: ఉపాధ్యాయులు, హక్కులు, సమకాలీన అంశాలు, NCF, NEP",
@@ -23,6 +23,8 @@
 "dsc-sgt-maths-day3": "Mathematics, Day 3: Ratio, Proportion and Percentage; Profit–Loss, Discount, GST and Interest",
 "dsc-sgt-maths-day3-te": "గణితం, రోజు 3: నిష్పత్తి, అనుపాతం, శాతం; లాభ–నష్టాలు, రాయితీ, GST, వడ్డీ",
 "dsc-sgt-maths-day4": "Mathematics, Day 4: Playing with Numbers and Algebra; Identities, Factorisation and Graphs; Exponents and Powers",
-"dsc-sgt-maths-day4-te": "గణితం, రోజు 4: సంఖ్యలతో ఆట, బీజగణితం; సర్వసమీకరణాలు, కారణాంక విభజన, గ్రాఫ్‌లు; ఘాతాంకాలు, ఘాతాలు"
+"dsc-sgt-maths-day4-te": "గణితం, రోజు 4: సంఖ్యలతో ఆట, బీజగణితం; సర్వసమీకరణాలు, కారణాంక విభజన, గ్రాఫ్‌లు; ఘాతాంకాలు, ఘాతాలు",
+"dsc-sgt-maths-day5": "Mathematics, Day 5: Lines, Angles and Polygons; Quadrilaterals, Symmetry and 3D Shapes; Mensuration",
+"dsc-sgt-maths-day5-te": "గణితం, రోజు 5: రేఖలు, కోణాలు, బహుభుజులు; చతుర్భుజాలు, సౌష్ఠవం, త్రిమితీయ ఆకారాలు; క్షేత్రమితి"
 }
 }
