@@ -1254,17 +1254,27 @@ function renderChart(){
    const items=chain.map((x,k)=>{
     const delta=k?x.gap-chain[k-1].gap:null;
     const jodiLabel=k?(chain.jodiStep===0?'SAME JODI':'JODI +'+chain.jodiStep):'FIRST MATCH';
-    return '<div class="repeat-step"><b class="repeat-step-num">MONDAY 00 #'+(k+1)+' · '+esc(x.anchor.item.row.date||'')+'</b><strong class="repeat-step-jodi">'+esc(x.hit.value)+'</strong><span>Matched on '+esc(x.hit.day)+' · '+esc(x.hit.row.date||'')+'<br>Result gap after 00: '+x.gap+'</span><b>'+jodiLabel+(k?' · GAP '+(delta===0?'SAME':'+'+delta):'')+'</b></div>';
+    return '<div class="repeat-step"><b class="repeat-step-num">MONDAY 00 #'+(k+1)+' · '+esc(x.anchor.item.row.date||'')+'</b><strong class="repeat-step-jodi">'+esc(x.hit.value)+'</strong><span>Matched on '+esc(x.hit.day)+' · '+esc(x.hit.row.date||'')+'<br>Published-result count after 00: '+x.gap+'</span><b>'+jodiLabel+(k?' · GAP '+(delta===0?'SAME':'+'+delta):'')+'</b></div>';
    }).join('');
    const rows=chain.map((x,k)=>{
     const delta=k?x.gap-chain[k-1].gap:'—';
     return '<tr><td>'+(k+1)+'</td><td>'+esc(x.anchor.item.row.date||'')+'</td><td>'+esc(x.hit.value)+'</td><td>'+esc(x.hit.day)+'</td><td>'+x.gap+'</td><td>'+delta+'</td><td>'+esc(x.hit.row.date||'')+'</td></tr>';
    }).join('');
    const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart monday-progression-table"><thead><tr><th>#</th><th>Monday 00 week</th><th>Matched Jodi</th><th>Day</th><th>Gap</th><th>Gap change</th><th>Matched week</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
-   const chartRows=[];
-   chain.forEach(x=>[x.anchor.item.row,x.hit.row].forEach(row=>{if(!chartRows.some(existing=>existing.date===row.date))chartRows.push(row);}));
-   chartRows.sort((a,b)=>parseWeekStart(a)-parseWeekStart(b));
-   const weeklyChart='<div class="monday-progression-weekly-chart"><h4>Actual weekly Jodi chart · highlighted Monday 00 and matched Jodi weeks</h4>'+renderWeeklyChart(chartRows,'jodi')+'</div>';
+   // Show every weekly row from each Monday 00 anchor through its matched
+   // Jodi row. This makes the result-count gap auditable; do not show only
+   // the two endpoint rows, because the gap counts published Jodi cells
+   // across all intervening weeks, not the number of weekly rows.
+   const chartRowMap=new Map();
+   chain.forEach(x=>{
+    const startIndex=playingRows.indexOf(x.anchor.item.row);
+    const endIndex=playingRows.indexOf(x.hit.row);
+    if(startIndex>=0&&endIndex>=startIndex){
+     playingRows.slice(startIndex,endIndex+1).forEach(row=>chartRowMap.set(row.date||String(playingRows.indexOf(row)),row));
+    }
+   });
+   const chartRows=[...chartRowMap.values()].sort((a,b)=>parseWeekStart(a)-parseWeekStart(b));
+   const weeklyChart='<div class="monday-progression-weekly-chart"><h4>Complete weekly chart · every row from Monday 00 to each matched Jodi</h4><p class="repeat-explain">Gap counts published Jodi results after 00 in date order. Each intervening week is shown here; blank or unpublished cells do not count.</p>'+renderWeeklyChart(chartRows,'jodi')+'</div>';
    const gapLabel=chain.mode==='equal'?'EQUAL GAPS':'CONSTANT GAP INCREASE';
    const jodiLabel=chain.jodiStep===0?'SAME JODI':'CONSTANT JODI +'+chain.jodiStep;
    return '<section class="repeat-pattern-card monday-progression-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · MONDAY 00 → SYSTEMATIC JODI PROGRESSION</strong><span>'+chain.length+' consecutive Monday 00 intervals · '+gapLabel+'</span></div><div class="repeat-watch"><b>JODI CHAIN: '+chain.map(x=>x.hit.value).join(' → ')+'</b><div>Jodi rule: '+jodiLabel+'</div><div>Gap sequence: '+chain.map(x=>x.gap).join(' → ')+'</div><small>Same Jodi or any constant forward Jodi increment (+1 to +99, wrapping 99 to 00). Result gaps must be equal or increase by the same amount at every step. Mixed gap differences are rejected.</small></div><div class="repeat-steps">'+items+'</div><details class="repeat-history"><summary>Show actual weekly chart and matched rows</summary>'+weeklyChart+table+'</details></section>';
