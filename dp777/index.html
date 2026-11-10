@@ -1201,7 +1201,7 @@ function renderChart(){
    if(chain.length<3||progressionChains.length>=MAX_MONDAY_PROGRESSIONS)return;
    const key=mode+':'+chain.map(x=>x.hit.value+'@'+x.hit.row.date+'@'+x.hit.day+'@'+x.gap).join('|');
    if(chainKeys.has(key))return;
-   chainKeys.add(key);progressionChains.push({...chain,mode});
+   chainKeys.add(key);const savedChain=chain.slice();savedChain.mode=mode;progressionChains.push(savedChain);
   };
   // Valid gap shapes only:
   // 1) equal: 5,5,5
