@@ -1203,26 +1203,29 @@ function renderChart(){
    if(chainKeys.has(key))return;
    chainKeys.add(key);progressionChains.push(chain);
   };
-  const extendMondayChain=(chain,nextIntervalIndex,mode)=>{
-   if(progressionChains.length>=MAX_MONDAY_PROGRESSIONS)return;
-   if(nextIntervalIndex>=mondayIntervals.length){addChain(chain);return;}
-   const previous=chain[chain.length-1].hit.value;
-   const expected=mode==='same'?previous:expectedNext(previous);
-   const candidates=mondayIntervals[nextIntervalIndex].items.filter(x=>x.value===expected);
-   if(!candidates.length){addChain(chain);return;}
-   let branches=0;
-   for(const hit of candidates){
-    if(branches++>=8)break;
-    extendMondayChain([...chain,{anchor:mondayIntervals[nextIntervalIndex].anchor,hit}],nextIntervalIndex,mode);
-    if(progressionChains.length>=MAX_MONDAY_PROGRESSIONS)return;
+  // Iterative bounded scan: never recurse. For each starting interval and
+  // starting Jodi, follow one strict rule (same OR +10) through consecutive
+  // Monday-00 intervals, selecting the earliest matching result in each.
+  for(let start=0;start<mondayIntervals.length-1&&progressionChains.length<MAX_MONDAY_PROGRESSIONS;start++){
+   const firstInterval=mondayIntervals[start];
+   const seeds=new Map();
+   firstInterval.items.forEach(hit=>{if(!seeds.has(hit.value))seeds.set(hit.value,hit);});
+   for(const [seedValue,firstHit] of seeds){
+    for(const mode of ['same','plus10']){
+     const chain=[{anchor:firstInterval.anchor,hit:firstHit}];
+     let expected=mode==='same'?seedValue:expectedNext(seedValue);
+     for(let next=start+1;next<mondayIntervals.length;next++){
+      const hit=mondayIntervals[next].items.find(item=>item.value===expected);
+      if(!hit)break;
+      chain.push({anchor:mondayIntervals[next].anchor,hit});
+      expected=mode==='same'?expected:expectedNext(expected);
+     }
+     addChain(chain);
+     if(progressionChains.length>=MAX_MONDAY_PROGRESSIONS)break;
+    }
+    if(progressionChains.length>=MAX_MONDAY_PROGRESSIONS)break;
    }
-  };
-  mondayIntervals.forEach((interval,index)=>{
-   interval.items.forEach(hit=>{
-    extendMondayChain([{anchor:interval.anchor,hit}],index+1,'same');
-    extendMondayChain([{anchor:interval.anchor,hit}],index+1,'plus10');
-   });
-  });
+  }
   progressionChains.sort((a,b)=>b.length-a.length||b[b.length-1].hit.row.date?.localeCompare?.(a[a.length-1].hit.row.date||'')||0);
   const mondayProgressionCards=progressionChains.map((chain,n)=>{
    const items=chain.map((x,k)=>{
