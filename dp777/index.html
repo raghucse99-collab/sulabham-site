@@ -775,7 +775,7 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
  <div class="open-digit-controls"><label for="openDigit">Open digit</label><select id="openDigit" class="field"><option value="0" selected>0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select><button type="button" id="runOpenDigitSearch" class="primary-btn">Search 10 Jodis</button></div>
  <div id="openDigitSummary" class="open-digit-summary" aria-live="polite">Choose an open digit to view its matching గత నమూనాలు Jodis.</div>
 </div>
-<div class="tabs"><button class="tab active" data-view="jodi">Jodi Chart</button><button class="tab" data-view="panel">Panel Chart</button><button class="tab" data-view="target-linked">Number+n Search</button><button class="tab" data-view="friday-monday">Friday–Monday Progression</button><button class="tab" data-view="repeat">Repeat Logic</button><button class="tab" data-view="linked">Linked Jodi Logic</button><button class="tab" data-view="monday-00">Monday 00 Equal Distance</button></div>
+<div class="tabs"><button class="tab active" data-view="jodi">Jodi Chart</button><button class="tab" data-view="panel">Panel Chart</button><button class="tab" data-view="target-linked">Number+n Search</button><button class="tab" data-view="friday-monday">Friday–Monday Progression</button><button class="tab" data-view="repeat">Repeat Logic</button><button class="tab" data-view="linked">Linked Jodi Logic</button><button class="tab" data-view="monday-00">Monday 00 Search</button></div>
 <div class="summary"><span class="pill" id="count">0 records</span><span class="pill" id="targetStats" hidden></span></div>
 <div id="tableArea" class="table-wrap"><div class="empty"><strong>Loading chart records…</strong>Please wait while the latest published data is loaded.</div></div>
 <div id="currentChartLabel" class="current-chart-label" aria-live="polite">Time Bazar</div>
@@ -1125,6 +1125,8 @@ function renderChart(){
  const yr=$('year').value, q=$('search').value.trim();
 
  if(view==='monday-00'||$('daySearch').value==='monday-00'){
+  try{
+   $('chartTitle').textContent=m.name+' · MONDAY 00 SEARCH';
   // Independent Monday-only 00 search. At least five 00 occurrences are
   // required, with exactly equal distances between consecutive occurrences.
   // Other Monday Jodis between the 00 results are allowed and do not break it.
@@ -1240,6 +1242,13 @@ function renderChart(){
   }).join('');
   $('tableArea').innerHTML='<div class="repeat-page"><h3>MONDAY 00 · SEPARATE PATTERN SEARCHES</h3><p class="repeat-explain">STEP 1: Find Monday 00 occurrences that repeat at the same playing-week distance (minimum 5 occurrences). STEP 2: After each Monday 00, count published Jodi results. Check the 4th result after 00 (exactly 3 intervening results). Group the same Jodi found at that position across at least 4 Monday 00 occurrences. Any weekday is allowed. Fully closed weeks and blank result cells are skipped.</p><h3 style="margin-top:10px">A · MONDAY 00 EQUAL WEEK DISTANCE</h3>'+(cards||'<div class="empty">No equal-distance Monday 00 sequence with at least five occurrences was found.</div>')+'<h3 style="margin-top:14px">B · STEP 2 · SAME JODI AT RESULT GAP 4</h3>'+(sameJodiCards||'<div class="empty"><strong>No same Jodi was found at the 4th published result after at least four Monday 00 occurrences.</strong></div>')+'<h3 style="margin-top:14px">C · ANY-GAP SAME / +10 JODI PROGRESSION</h3><p class="repeat-explain">After each Monday 00, search every published Jodi up to the next Monday 00. Across consecutive Monday 00 intervals, show separate chains: either the same Jodi throughout, or +10 throughout (wrapping 99 to 09). Do not mix the two rules within one chain. Any weekday and any result position are allowed.</p>'+(mondayProgressionCards||'<div class="empty">No same-number or +10 progression across consecutive Monday 00 intervals was found.</div>')+'</div>';
   return;
+  }catch(err){
+   console.error('Monday 00 search failed:',err);
+   $('count').textContent='Monday 00 search error';
+   stats.hidden=true;
+   $('tableArea').innerHTML='<div class="empty"><strong>Monday 00 search could not finish.</strong><p>'+esc(err?.message||String(err))+'</p><p>Please send this error screenshot so the exact failing line can be corrected.</p></div>';
+   return;
+  }
  }
  
  if(view==='friday-monday'){
