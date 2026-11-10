@@ -1148,30 +1148,34 @@ function renderChart(){
   // position after each Monday 00, check whether the Jodi advances by +10
   // at that same position after successive Monday 00 anchors (99 wraps to 09).
   // At least four Monday 00 anchors are required.
-  const resultSequence=[];
-  playingRows.forEach(row=>{
-   for(const day of marketDays){
-    const value=String(row[day+' Jodi']??'').trim();
-    if(valid(value))resultSequence.push({value,row,day,index:resultSequence.length});
-   }
-  });
+  // Monday 00 anchor and intervals use WEEKLY ROW positions, not
+  // individual weekday-result positions. Gap 0 = same weekly row as 00;
+  // gap 1 = the next weekly row below it, and so on.
   const anchors=[];
-  resultSequence.forEach((item,index)=>{
-   if(item.day==='Mon'&&item.value==='00')anchors.push({index,item});
+  playingRows.forEach((row,rowIndex)=>{
+   if(String(row['Mon Jodi']??'').trim()==='00')anchors.push({index:rowIndex,item:{value:'00',row,day:'Mon'}});
   });
-  // STEP 2: Search EVERY possible result gap after each Monday 00,
-  // stopping at the next Monday 00. A result qualifies when the SAME Jodi
-  // occurs at the SAME gap across at least four Monday 00 intervals.
-  // Gap 1 = next published result; gap 4 = fourth published result.
+  // Include all published Jodis in the 00 row after Monday itself, then
+  // every published Jodi in each later row until (but not including) the
+  // next Monday 00 anchor row. All weekdays are eligible.
   const mondayIntervals=anchors.map((anchor,n)=>{
    const next=anchors[n+1];
-   const end=next?next.index:resultSequence.length;
-   return {anchor,items:resultSequence.slice(anchor.index+1,end)};
+   const end=next?next.index:playingRows.length;
+   const items=[];
+   for(let rowIndex=anchor.index;rowIndex<end;rowIndex++){
+    const row=playingRows[rowIndex];
+    for(const day of marketDays){
+     if(rowIndex===anchor.index&&day==='Mon')continue;
+     const value=String(row[day+' Jodi']??'').trim();
+     if(valid(value))items.push({value,row,day,index:rowIndex,gap:rowIndex-anchor.index});
+    }
+   }
+   return {anchor,items};
   });
   const sameJodiGroups=new Map();
   mondayIntervals.forEach(interval=>{
    interval.items.forEach((target,index)=>{
-    const gap=index+1,key=target.value+'@'+gap;
+    const gap=target.gap,key=target.value+'@'+gap;
     if(!sameJodiGroups.has(key))sameJodiGroups.set(key,{jodi:target.value,gap,items:[]});
     sameJodiGroups.get(key).items.push({anchor:interval.anchor,target,gap});
    });
@@ -1181,8 +1185,8 @@ function renderChart(){
    .sort((a,b)=>b.items.length-a.items.length||a.gap-b.gap||a.jodi.localeCompare(b.jodi));
   const sameJodiCards=sameJodiRuns.map((p,n)=>{
    const steps=p.items.map((x,k)=>'<div class="repeat-step"><b class="repeat-step-num">Monday 00 #'+(k+1)+'</b><strong class="repeat-step-jodi">00</strong><span>'+esc(x.anchor.item.row.date||'')+' · Gap '+x.gap+': '+esc(x.target.value)+' ('+esc(x.target.day)+')</span><b>'+Math.max(0,x.gap-1)+' intervening results</b></div>').join('');
-   const rows=p.items.map((x,k)=>'<tr><td>'+(k+1)+'</td><td>'+esc(x.anchor.item.row.date||'')+'</td><td class="repeat-hit"><strong>00</strong></td><td>'+esc(x.target.value)+'</td><td>'+esc(x.target.day)+'</td><td>'+x.gap+'</td><td>'+Math.max(0,x.gap-1)+'</td></tr>').join('');
-   const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>#</th><th>Monday 00 week</th><th>Anchor</th><th>Matched Jodi</th><th>Day</th><th>Gap</th><th>Between</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
+   const rows=p.items.map((x,k)=>'<tr><td>'+(k+1)+'</td><td>'+esc(x.anchor.item.row.date||'')+'</td><td class="repeat-hit"><strong>00</strong></td><td>'+esc(x.target.value)+'</td><td>'+esc(x.target.day)+'</td><td>'+x.gap+'</td><td>'+x.gap+'</td></tr>').join('');
+   const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>#</th><th>Monday 00 week</th><th>Anchor</th><th>Matched Jodi</th><th>Day</th><th>Weekly row gap</th><th>Rows below 00</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>STEP 2 · SAME JODI AT SAME RESULT GAP</strong><span>'+p.items.length+' Monday 00 anchors · gap '+p.gap+'</span></div><div class="repeat-watch"><b>00 → '+esc(p.jodi)+'</b><div>The same Jodi '+esc(p.jodi)+' appears at result gap '+p.gap+' after Monday 00.</div><small>Every possible gap is checked, not only the 4th result. The same gap and same Jodi must repeat across at least 4 Monday 00 intervals. Search stops at the next Monday 00.</small></div><div class="repeat-steps">'+steps+'</div><details class="repeat-history"><summary>Show Step 2 matched rows</summary>'+table+'</details></section>';
   }).join('');
   // Enumerate consecutive 00 occurrences only. A run qualifies when all
@@ -1200,7 +1204,7 @@ function renderChart(){
   // SEPARATE SEARCH C: search every published Jodi between consecutive
   // Monday 00 anchors. A chain may keep the same Jodi (+0), or follow ANY
   // constant forward Jodi increment (+1 to +99, modulo 100) across intervals.
-  // The result-gap sequence must independently stay equal or increase by a
+  // The weekly-row-gap sequence must independently stay equal or increase by a
   // constant amount at every interval.
   const progressionChains=[],chainKeys=new Set();
   const MAX_MONDAY_PROGRESSIONS=1200,MAX_GAP_STEP=12;
@@ -1211,15 +1215,15 @@ function renderChart(){
    if(chainKeys.has(key))return;
    chainKeys.add(key);const savedChain=chain.slice();savedChain.mode=mode;savedChain.jodiStep=jodiStep;progressionChains.push(savedChain);
   };
-  // Accepted gap shapes: equal gaps (4,4,4,4) or constant difference
+  // Accepted weekly-row-gap shapes: equal gaps (0,0,0,0) or constant difference
   // (4,5,6,7 or 4,8,12,16). Mixed gap differences are rejected.
   for(let start=0;start<mondayIntervals.length-2&&progressionChains.length<MAX_MONDAY_PROGRESSIONS;start++){
    const firstInterval=mondayIntervals[start];
    for(const firstHit of firstInterval.items){
-    const firstGap=firstHit.index-firstInterval.anchor.index;
+    const firstGap=firstHit.gap;
     const secondInterval=mondayIntervals[start+1];
     for(const secondHit of secondInterval.items){
-     const secondGap=secondHit.index-secondInterval.anchor.index;
+     const secondGap=secondHit.gap;
      const jodiStep=(Number(secondHit.value)-Number(firstHit.value)+100)%100;
      const firstDelta=secondGap-firstGap;
      if(firstDelta<0||firstDelta>MAX_GAP_STEP)continue;
@@ -1236,7 +1240,7 @@ function renderChart(){
       for(let next=start+2;next<mondayIntervals.length;next++){
        expectedGap+=gapMode==='equal'?0:delta;
        const interval=mondayIntervals[next];
-       const hit=interval.items.find(item=>item.value===expectedValue&&(item.index-interval.anchor.index)===expectedGap);
+       const hit=interval.items.find(item=>item.value===expectedValue&&item.gap===expectedGap);
        if(!hit)break;
        chain.push({anchor:interval.anchor,hit,gap:expectedGap});
        expectedValue=nextJodi(expectedValue,jodiStep);
@@ -1254,7 +1258,7 @@ function renderChart(){
    const items=chain.map((x,k)=>{
     const delta=k?x.gap-chain[k-1].gap:null;
     const jodiLabel=k?(chain.jodiStep===0?'SAME JODI':'JODI +'+chain.jodiStep):'FIRST MATCH';
-    return '<div class="repeat-step"><b class="repeat-step-num">MONDAY 00 #'+(k+1)+' · '+esc(x.anchor.item.row.date||'')+'</b><strong class="repeat-step-jodi">'+esc(x.hit.value)+'</strong><span>Matched on '+esc(x.hit.day)+' · '+esc(x.hit.row.date||'')+'<br>Published-result count after 00: '+x.gap+'</span><b>'+jodiLabel+(k?' · GAP '+(delta===0?'SAME':'+'+delta):'')+'</b></div>';
+    return '<div class="repeat-step"><b class="repeat-step-num">MONDAY 00 #'+(k+1)+' · '+esc(x.anchor.item.row.date||'')+'</b><strong class="repeat-step-jodi">'+esc(x.hit.value)+'</strong><span>Matched on '+esc(x.hit.day)+' · '+esc(x.hit.row.date||'')+'<br>Weekly row gap below 00: '+x.gap+'</span><b>'+jodiLabel+(k?' · GAP '+(delta===0?'SAME':'+'+delta):'')+'</b></div>';
    }).join('');
    const rows=chain.map((x,k)=>{
     const delta=k?x.gap-chain[k-1].gap:'—';
@@ -1274,7 +1278,7 @@ function renderChart(){
     }
    });
    const chartRows=[...chartRowMap.values()].sort((a,b)=>parseWeekStart(a)-parseWeekStart(b));
-   const weeklyChart='<div class="monday-progression-weekly-chart"><h4>Complete weekly chart · every row from Monday 00 to each matched Jodi</h4><p class="repeat-explain">Gap counts published Jodi results after 00 in date order. Each intervening week is shown here; blank or unpublished cells do not count.</p>'+renderWeeklyChart(chartRows,'jodi')+'</div>';
+   const weeklyChart='<div class="monday-progression-weekly-chart"><h4>Complete weekly chart · every row from Monday 00 to each matched Jodi</h4><p class="repeat-explain">Gap counts weekly chart rows below the Monday 00 row. Gap 0 means the same weekly row; gap 1 means the next weekly row. All intervening rows are shown.</p>'+renderWeeklyChart(chartRows,'jodi')+'</div>';
    const gapLabel=chain.mode==='equal'?'EQUAL GAPS':'CONSTANT GAP INCREASE';
    const jodiLabel=chain.jodiStep===0?'SAME JODI':'CONSTANT JODI +'+chain.jodiStep;
    return '<section class="repeat-pattern-card monday-progression-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · MONDAY 00 → SYSTEMATIC JODI PROGRESSION</strong><span>'+chain.length+' consecutive Monday 00 intervals · '+gapLabel+'</span></div><div class="repeat-watch"><b>JODI CHAIN: '+chain.map(x=>x.hit.value).join(' → ')+'</b><div>Jodi rule: '+jodiLabel+'</div><div>Gap sequence: '+chain.map(x=>x.gap).join(' → ')+'</div><small>Same Jodi or any constant forward Jodi increment (+1 to +99, wrapping 99 to 00). Result gaps must be equal or increase by the same amount at every step. Mixed gap differences are rejected.</small></div><div class="repeat-steps">'+items+'</div><details class="repeat-history"><summary>Show actual weekly chart and matched rows</summary>'+weeklyChart+table+'</details></section>';
@@ -1286,7 +1290,7 @@ function renderChart(){
    const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Playing week</th><th>Monday Jodi</th></tr></thead><tbody>'+playingRows.slice(first,last+1).map((row,k)=>{const ix=first+k,hit=String(row['Mon Jodi']??'').trim()==='00';return '<tr class="'+(hit?'repeat-occurrence-row':'')+'"><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+esc(row.date||'')+'</small></td><td class="'+(hit?'repeat-hit':'')+'">'+(valid(row['Mon Jodi'])?(hit?'<strong>00</strong>':esc(String(row['Mon Jodi']).trim())):'·')+'</td></tr>';}).join('')+'</tbody></table></div>';
    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · MONDAY 00 · EQUAL DISTANCE</strong><span>'+p.items.length+' occurrences · '+p.distance+' playing weeks apart</span></div><div class="repeat-watch"><b>00 occurrences: '+p.items.length+'</b><div>Equal distance: <strong>'+p.distance+' playing weeks</strong></div><small>Only Monday Jodi 00 is counted. Other Monday numbers between occurrences are allowed.</small></div><div class="repeat-steps">'+links+'</div><details class="repeat-history"><summary>Show Monday rows between occurrences</summary>'+table+'</details></section>';
   }).join('');
-  $('tableArea').innerHTML='<div class="repeat-page"><h3>MONDAY 00 · SEPARATE PATTERN SEARCHES</h3><p class="repeat-explain">STEP 1: Find Monday 00 occurrences that repeat at the same playing-week distance (minimum 5 occurrences). STEP 2: After each Monday 00, check every published-result gap up to the next Monday 00. Find the same Jodi at the same gap across at least 4 Monday 00 occurrences. Gap 1 means the next result; gap 4 means the fourth result. Any weekday is allowed. Fully closed weeks and blank result cells are skipped.</p><h3 style="margin-top:10px">A · MONDAY 00 EQUAL WEEK DISTANCE</h3>'+(cards||'<div class="empty">No equal-distance Monday 00 sequence with at least five occurrences was found.</div>')+'<h3 style="margin-top:14px">B · STEP 2 · SAME JODI AT ANY REPEATED RESULT GAP</h3>'+(sameJodiCards||'<div class="empty"><strong>No same Jodi was found at the same published-result gap across at least four Monday 00 occurrences.</strong></div>')+'<h3 style="margin-top:14px">C · ANY-GAP SYSTEMATIC JODI PROGRESSION</h3><p class="repeat-explain">After each Monday 00, search every published Jodi up to the next Monday 00. Across consecutive Monday 00 intervals, find Jodi chains that either stay the same or advance by any constant amount (+1 to +99, wrapping after 99). Any weekday is allowed. Independently, result gaps must be equal or increase by the same amount at every step (for example, 4,5,6,7 or 4,8,12,16). Mixed gap differences are excluded.</p>'+(mondayProgressionCards||'<div class="empty">No same-Jodi or constant-increment Jodi progression across consecutive Monday 00 intervals was found.</div>')+'</div>';
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>MONDAY 00 · SEPARATE PATTERN SEARCHES</h3><p class="repeat-explain">STEP 1: Find Monday 00 occurrences that repeat at the same playing-week distance (minimum 5 occurrences). STEP 2: After each Monday 00, check every published-result gap up to the next Monday 00. Find the same Jodi at the same gap across at least 4 Monday 00 occurrences. Gap 1 means the next result; gap 4 means the fourth result. Any weekday is allowed. Fully closed weeks and blank result cells are skipped.</p><h3 style="margin-top:10px">A · MONDAY 00 EQUAL WEEK DISTANCE</h3>'+(cards||'<div class="empty">No equal-distance Monday 00 sequence with at least five occurrences was found.</div>')+'<h3 style="margin-top:14px">B · STEP 2 · SAME JODI AT ANY REPEATED RESULT GAP</h3>'+(sameJodiCards||'<div class="empty"><strong>No same Jodi was found at the same published-result gap across at least four Monday 00 occurrences.</strong></div>')+'<h3 style="margin-top:14px">C · ANY-GAP SYSTEMATIC JODI PROGRESSION</h3><p class="repeat-explain">After each Monday 00, search every published Jodi in the weekly rows from the Monday 00 row up to (but not including) the next Monday 00 row. Across consecutive Monday 00 intervals, find Jodi chains that either stay the same or advance by any constant amount (+1 to +99, wrapping after 99). Any weekday is allowed. Independently, result gaps must be equal or increase by the same amount at every step (for example, 0,1,2,3 or 0,4,8,12). Mixed weekly-row-gap differences are excluded.</p>'+(mondayProgressionCards||'<div class="empty">No same-Jodi or constant-increment Jodi progression across consecutive Monday 00 intervals was found.</div>')+'</div>';
   return;
   }catch(err){
    console.error('Monday 00 search failed:',err);
