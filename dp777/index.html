@@ -1203,7 +1203,7 @@ function renderChart(){
   // The result-gap sequence must independently stay equal or increase by a
   // constant amount at every interval.
   const progressionChains=[],chainKeys=new Set();
-  const MAX_MONDAY_PROGRESSIONS=1200,MAX_HITS_PER_INTERVAL=36,MAX_GAP_STEP=12;
+  const MAX_MONDAY_PROGRESSIONS=1200,MAX_GAP_STEP=12;
   const nextJodi=(value,step)=>String((Number(value)+step)%100).padStart(2,'0');
   const addChain=(chain,mode,jodiStep)=>{
    if(chain.length<3||progressionChains.length>=MAX_MONDAY_PROGRESSIONS)return;
@@ -1215,10 +1215,10 @@ function renderChart(){
   // (4,5,6,7 or 4,8,12,16). Mixed gap differences are rejected.
   for(let start=0;start<mondayIntervals.length-2&&progressionChains.length<MAX_MONDAY_PROGRESSIONS;start++){
    const firstInterval=mondayIntervals[start];
-   for(const firstHit of firstInterval.items.slice(0,MAX_HITS_PER_INTERVAL)){
+   for(const firstHit of firstInterval.items){
     const firstGap=firstHit.index-firstInterval.anchor.index;
     const secondInterval=mondayIntervals[start+1];
-    for(const secondHit of secondInterval.items.slice(0,MAX_HITS_PER_INTERVAL)){
+    for(const secondHit of secondInterval.items){
      const secondGap=secondHit.index-secondInterval.anchor.index;
      const jodiStep=(Number(secondHit.value)-Number(firstHit.value)+100)%100;
      const firstDelta=secondGap-firstGap;
