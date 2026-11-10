@@ -1200,11 +1200,6 @@ function renderChart(){
   // SEPARATE SEARCH C: any published Jodi after each Monday 00, up to
   // the next Monday 00. Across consecutive Monday-00 intervals, the matched
   // Jodi may stay the same or advance by +10 (00-99 wrap).
-  const mondayIntervals=anchors.map((anchor,n)=>{
-   const next=anchors[n+1];
-   const end=next?next.index:resultSequence.length;
-   return {anchor,items:resultSequence.slice(anchor.index+1,end)};
-  });
   const progressionChains=[],chainKeys=new Set();
   const MAX_MONDAY_PROGRESSIONS=1200,MAX_HITS_PER_INTERVAL=36,MAX_GAP_STEP=12;
   const expectedNext=value=>String((Number(value)+10)%100).padStart(2,'0');
