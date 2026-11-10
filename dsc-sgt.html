@@ -65,6 +65,7 @@ h2{font-family:var(--f-display);font-weight:800;font-size:1.5rem;margin:0 0 10px
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tag.s{color:#f2bd2f}}
 .wk.on{border-color:var(--leaf);box-shadow:inset 4px 0 0 var(--leaf)}
 @media(max-width:560px){.wk{grid-template-columns:1fr auto}.wk .d{grid-column:1/-1}}
+.les{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}.les a{display:flex;gap:10px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;min-height:48px;text-decoration:none;color:var(--ink);font-weight:600}.les a i{font-style:normal}
 .free{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
 .fl{display:flex;gap:12px;align-items:center;text-decoration:none;color:#fff;border-radius:16px;padding:14px;min-height:84px;box-shadow:0 6px 16px rgba(12,34,56,.14)}
 .fl .ti{flex:none;width:46px;height:46px;border-radius:14px;background:rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center;font-size:1.5rem}
@@ -128,6 +129,12 @@ footer{color:var(--muted);font-size:.85rem;padding:20px 0 40px}
 <script src="share.js"></script>
 <script>
 (function(){
+var LES=[["📘","Study guide","స్టడీ గైడ్","dsc-sgt-study-guide"],["🏫","Perspectives · Day 1: History of Education","దృక్పథాలు · రోజు 1: విద్యా చరిత్ర","dsc-sgt-perspectives-day1"],
+["🏫","Perspectives · Day 2: Teachers, Rights, NCF, NEP","దృక్పథాలు · రోజు 2: ఉపాధ్యాయులు, హక్కులు, NCF, NEP","dsc-sgt-perspectives-day2"],
+["🧠","Psychology · hub + glossary","మనోవిజ్ఞానం · హబ్ + పదకోశం","dsc-sgt-week1-2-psychology"],["🧠","Psychology · Day 1: Development of the Child","మనోవిజ్ఞానం · రోజు 1: శిశు వికాసం","dsc-sgt-psychology-day1"],
+["🧠","Psychology · Day 2: Individual Differences","మనోవిజ్ఞానం · రోజు 2: వైయక్తిక భేదాలు","dsc-sgt-psychology-day2"],["🧠","Psychology · Day 3: Learning","మనోవిజ్ఞానం · రోజు 3: అభ్యసనం","dsc-sgt-psychology-day3"],
+["🧠","Psychology · Day 4: Memory, Motivation, Personality","మనోవిజ్ఞానం · రోజు 4: జ్ఞాపకం, ప్రేరణ, మూర్తిమత్వం","dsc-sgt-psychology-day4"],
+["📝","Week 1 test · 40 questions","1వ వారం టెస్ట్ · 40 ప్రశ్నలు","dsc-sgt-week1-2-test"],["➗","Maths · Day 1: Numbers, Factors, HCF & LCM","గణితం · రోజు 1: సంఖ్యలు, కారణాంకాలు, గ.సా.భా & క.సా.గు","dsc-sgt-maths-day1"]];
 var UPI="raghu.cse999@axl",TG="https://t.me/+G7R0gSQgjQBhOWNl",
  PAY="upi://pay?pa=raghu.cse999@axl&pn=Sulabham&am=499&cu=INR&tn=DSC%20SGT%20Course",
  IMG="cards/dsc/dsc-sgt-poster.png",URL="dsc-sgt.html";
@@ -263,6 +270,7 @@ function draw(){var x=T[med];got=0;answered=0;document.documentElement.lang=med;
        return'<button type="button" data-j="'+j+'"><span>'+"ABCD"[j]+'</span>'+o+'</button>'}).join("")+'</div><div class="exp">'+q[3]+'</div></div>'}).join("")+'<div class="score" id="score"></div></section>';
   h+='<section><h2>'+x.planH+'</h2><p class="sub">'+x.planP+'</p><div class="plan">'+x.plan.map(function(p){
      return'<div class="wk'+(p[3]==="r"?" on":"")+'"><span class="d">'+p[0]+'</span><span><b>'+p[1]+'</b><small>'+p[2]+'</small></span><span class="tag '+p[3]+'">'+(p[3]==="r"?"✅ "+x.rd:"⏳ "+x.sn)+'</span></div>'}).join("")+'</div></section>';
+  h+='<section id="lessons"><h2>'+(med==="te"?"ఇప్పటివరకు విడుదలైన పాఠాలు":"Lessons released so far")+'</h2><p class="sub">'+(med==="te"?"కొత్త పాఠాలు రోజూ ఇక్కడ చేరుతాయి.":"New lessons are added here every day.")+'</p><div class="les">'+LES.map(function(x){return'<a href="'+x[3]+(med==="te"?"-te":"")+'.html"><i>'+x[0]+'</i><span>'+(med==="te"?x[2]:x[1])+'</span></a>'}).join("")+'</div></section>';
   h+='<section id="join"><div class="buy"><div class="k">'+x.buyK+'</div><h3>'+x.buyH+'</h3><div class="price"><b>₹499</b><span>'+x.ps+'</span></div><ul>'+x.incl.map(function(i){return"<li>"+i+"</li>"}).join("")+'</ul><div class="hacts"><a class="btn y" href="'+PAY+'">'+x.pay+'</a>'+sh("btn o",x.share)+'</div></div></section>';
   h+='<section><h2>'+x.howH+'</h2><div class="steps">'+x.s.map(function(s,i){var extra="";
      if(i===0)extra='<div class="upi"><a class="btn y" href="'+PAY+'">'+x.pay+'</a></div><div class="upi"><span>'+x.upi+':</span><code>'+UPI+'</code><button type="button" class="mini" id="cpUpi">'+x.copy+'</button></div><img class="qr" src="cards/dsc/dsc-qr.png" alt="UPI QR ₹499" width="150" height="150">';
