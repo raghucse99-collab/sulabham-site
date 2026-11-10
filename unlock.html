@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script src="migrate.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Unlock · Sulabham</title>
+<link rel="icon" type="image/svg+xml" href="sulabham-icon.svg">
+<script src="devcode.js"></script>
+<style>
+body{margin:0;background:#f6f4ee;color:#14212b;font:16px/1.5 "Noto Sans","Noto Sans Telugu",sans-serif}
+header{background:#1d4f91;color:#fff;padding:12px 16px;font-weight:800;font-size:20px}header a{color:#fff;text-decoration:none}
+main{max-width:640px;margin:0 auto;padding:16px}
+.row{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid #dfe3e6;border-radius:12px;padding:10px 12px;margin:8px 0}
+.row .s{font-size:1.3rem}.row b{flex:1}.row a{background:#1d4f91;color:#fff;border-radius:8px;padding:6px 10px;text-decoration:none;font-size:.9rem}
+.ok{color:#2f6b2f}.bad{color:#9b2c2c}.note{color:#5b6b78;font-size:.9rem}
+.dev{background:#fff3cf;border:1px dashed #e3a400;border-radius:10px;padding:9px 12px;margin:12px 0}.dev b{font-family:monospace;font-size:1.1rem}
+</style>
+</head>
+<body>
+<header><a href="index.html">సులభం</a></header>
+<main><h2 id="h">Unlocking…</h2><div id="list"></div><div id="foot"></div></main>
+<script>
+(function(){
+var te=false;try{te=(localStorage.getItem("sul_lang")||"en")==="te"}catch(e){}
+function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){}}
+function norm(c){return String(c||"").toUpperCase().replace(/[^A-Z0-9]/g,"")}
+function b64(s){var b=atob(s),u=new Uint8Array(b.length);for(var i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u}
+function verify(code,d){var e=new TextEncoder();return crypto.subtle.importKey("raw",e.encode(norm(code)),"PBKDF2",false,["deriveKey"]).then(function(k){return crypto.subtle.deriveKey({name:"PBKDF2",salt:b64(d.salt),iterations:d.iter,hash:"SHA-256"},k,{name:"AES-GCM",length:256},false,["decrypt"])}).then(function(k){var by=b64(d.enc);return crypto.subtle.decrypt({name:"AES-GCM",iv:by.slice(0,12)},k,by.slice(12))}).then(function(){return true},function(){return false})}
+var MON=["","January","February","March","April","May","June","July","August","September","October","November","December"];
+var MONTE=["","జనవరి","ఫిబ్రవరి","మార్చి","ఏప్రిల్","మే","జూన్","జూలై","ఆగస్టు","సెప్టెంబర్","అక్టోబర్","నవంబర్","డిసెంబర్"];
+function info(p){if(p==="pk")return{n:te?"గ్రూప్ 1 & 2 ప్రిలిమ్స్ ప్యాక్":"Group 1 & 2 Prelims Pack",f:"pk/pack.json",key:"sul_pack",u:"prelims.html"};
+ var m=p.match(/^ca-(\d{4})-(\d{2})$/);if(m)return{n:(te?MONTE[+m[2]]+" "+m[1]+" కరెంట్ అఫైర్స్":"Current affairs — "+MON[+m[2]]+" "+m[1]),f:"ca/"+m[1]+"-"+m[2]+".json",key:"sul_code_"+m[1]+"-"+m[2],u:"ca.html?m="+m[1]+"-"+m[2]};
+ return null}
+var raw=decodeURIComponent(location.hash.slice(1));history.replaceState(null,"",location.pathname);
+var parts=raw.split("~").map(function(x){var i=x.lastIndexOf(".");return{p:x.slice(0,i),c:x.slice(i+1)}}).filter(function(x){return info(x.p)&&x.c});
+var H=document.getElementById("h"),LI=document.getElementById("list"),F=document.getElementById("foot");
+if(!parts.length){H.textContent=te?"అన్‌లాక్ లింక్ సరిగ్గా లేదు":"This unlock link is not complete";F.innerHTML='<p class="note">'+(te?"మీకు పంపిన పూర్తి లింక్‌ను మళ్లీ తెరవండి.":"Please open the full link you received again.")+'</p>';return}
+var good=0;
+Promise.all(parts.map(function(x){var i=info(x.p);
+ return SUL_dev.resolve(x.c,x.p).then(function(master){if(!master)return{x:x,i:i,ok:false};
+  return fetch(i.f).then(function(r){return r.json()}).then(function(d){return verify(master,d).then(function(ok){if(ok)ls(i.key,norm(master));return{x:x,i:i,ok:ok}})}).catch(function(){return{x:x,i:i,ok:false}})})})).then(function(R){
+ R.forEach(function(r){if(r.ok)good++;LI.insertAdjacentHTML("beforeend",'<div class="row"><span class="s">'+(r.ok?"✅":"❌")+'</span><b class="'+(r.ok?"ok":"bad")+'">'+r.i.n+'</b>'+(r.ok?'<a href="'+r.i.u+'">'+(te?"తెరవండి":"Open")+'</a>':'')+'</div>')});
+ H.textContent=good===R.length?(te?"🎉 అన్నీ అన్‌లాక్ అయ్యాయి!":"🎉 Everything is unlocked!"):(good?(te?"కొన్ని అన్‌లాక్ అయ్యాయి":"Some items are unlocked"):(te?"అన్‌లాక్ కాలేదు":"Could not unlock"));
+ F.innerHTML=(good<R.length?'<p class="note">'+(te?"❌ ఉన్నవి ఈ ఫోన్ కోసం చేసిన కోడ్‌లు కావు. కింది పరికరం నంబర్ మాకు పంపండి — కొత్త లింక్ ఉచితంగా పంపుతాం.":"❌ items were made for a different phone. Send us the device number below — we will send a new link free.")+'</p>':'')+
+  '<div class="dev">'+(te?"మీ పరికరం నంబర్":"Your device number")+': <b>D-'+SUL_dev.id()+'</b></div><p class="note">'+(te?"ప్రతి కొత్త నెల కోడ్ వచ్చినప్పుడు ఇదే విధంగా లింక్ తెరవండి.":"When a new month's link comes, open it the same way.")+'</p>'})
+})();
+</script>
+</body></html>
