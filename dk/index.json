@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "M1iId3fIyqYDue3YLUqMXw==",
 "iter": 200000,
-"check": "JGdV8YjxAmJDYltz/Oj2cWVqPrnAcCRHx+HBAUqXoThdoFtBNR0nggF1Vg==",
+"check": "bzWJIsJrbZqjCJ1iEuptEGlyiUEnTo5zdpoMCHiK6B8lMgXmzChYVD2IzA==",
 "lessons": {
 "dsc-sgt-perspectives-day2": "Perspectives in Education, Day 2: Teachers, Rights, Concerns, NCF and NEP",
 "dsc-sgt-perspectives-day2-te": "విద్యా దృక్పథాలు, 2వ రోజు: ఉపాధ్యాయులు, హక్కులు, సమకాలీన అంశాలు, NCF, NEP",
@@ -17,6 +17,8 @@
 "dsc-sgt-week1-2-test": "DSC SGT Week 1-2 Test: Perspectives & Psychology",
 "dsc-sgt-week1-2-test-te": "DSC SGT వారం 1-2 టెస్ట్: విద్యా దృక్పథాలు & మనోవిజ్ఞాన శాస్త్రం",
 "dsc-sgt-maths-day1": "Mathematics, Day 1: Numbers and Numeration; Factors, Primes, HCF and LCM",
-"dsc-sgt-maths-day1-te": "గణితం, రోజు 1: సంఖ్యలు, సంఖ్యామానం; కారణాంకాలు, ప్రధాన సంఖ్యలు, గ.సా.భా, క.సా.గు"
+"dsc-sgt-maths-day1-te": "గణితం, రోజు 1: సంఖ్యలు, సంఖ్యామానం; కారణాంకాలు, ప్రధాన సంఖ్యలు, గ.సా.భా, క.సా.గు",
+"dsc-sgt-maths-day2": "Mathematics, Day 2: Integers, Fractions, Decimals and Rational Numbers; Squares, Cubes and Roots",
+"dsc-sgt-maths-day2-te": "గణితం, రోజు 2: పూర్ణాంకాలు, భిన్నాలు, దశాంశాలు, అకరణీయ సంఖ్యలు; వర్గాలు, ఘనాలు, మూలాలు"
 }
 }
