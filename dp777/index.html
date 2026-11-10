@@ -1131,7 +1131,12 @@ function renderChart(){
   // required, with exactly equal distances between consecutive occurrences.
   // Other Monday Jodis between the 00 results are allowed and do not break it.
   stats.hidden=true;
-  const marketDays=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+  // Milan Night plays Monday–Saturday only. Exclude Sunday completely from
+  // its result sequence and gap counts, even if stray Sunday values exist.
+  // Other markets retain their configured seven-day search scope for now.
+  const marketDays=selected==='milan-night'
+   ? ['Mon','Tue','Wed','Thu','Fri','Sat']
+   : ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
   const valid=v=>/^\d{2}$/.test(String(v??'').trim());
   const playingRows=sortOldestFirst(allRows.filter(row=>marketDays.some(day=>valid(row[day+' Jodi']))));
   const occurrences=[];
