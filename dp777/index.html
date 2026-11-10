@@ -1228,6 +1228,9 @@ function renderChart(){
       for(const gapMode of ['equal','fixed-increase','stepwise-increase']){
        if(gapMode==='equal'&&firstDelta!==0)continue;
        if(gapMode!=='equal'&&firstDelta===0)continue;
+       // Stepwise means +1, then +2, then +3...; it must start at +1.
+       // Larger constant increments belong only to fixed-increase mode.
+       if(gapMode==='stepwise-increase'&&firstDelta!==1)continue;
        const chain=[
         {anchor:firstInterval.anchor,hit:firstHit,gap:firstGap},
         {anchor:secondInterval.anchor,hit:secondHit,gap:secondGap}
