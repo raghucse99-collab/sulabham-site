@@ -1,0 +1,2060 @@
+{
+ "date": "2026-11-11",
+ "day": {
+  "en": "Wednesday, 11 November 2026",
+  "te": "బుధవారం, 11 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Armistice",
+   "en": "an agreement to stop fighting (before a peace treaty)",
+   "te": "యుద్ధ విరమణ ఒప్పందం (శాంతి ఒప్పందానికి ముందు)",
+   "ex": "The Armistice signed at Compiègne stopped the fighting of World War I at 11 a.m. on 11 November 1918.",
+   "topic": "armistice"
+  },
+  {
+   "w": "Abeyance",
+   "en": "a state of temporary pause",
+   "te": "తాత్కాలిక నిలిపివేత",
+   "ex": "The Manipur High Court said the Census will stay in abeyance till 30 April 2027.",
+   "topic": "manipurcensus"
+  },
+  {
+   "w": "Posthumously",
+   "en": "after a person's death",
+   "te": "మరణానంతరం",
+   "ex": "Maulana Azad was posthumously awarded the Bharat Ratna in 1992.",
+   "topic": "azad"
+  },
+  {
+   "w": "Saturation",
+   "en": "full coverage, reaching every last unit",
+   "te": "పూర్తి కవరేజ్ (చివరి వరకు చేరడం)",
+   "ex": "BSNL's 4G saturation project aims to take 4G to every uncovered village.",
+   "topic": "rural4g"
+  },
+  {
+   "w": "Feasibility",
+   "en": "whether a plan can practically be done",
+   "te": "సాధ్యాసాధ్యత",
+   "ex": "The AP Cabinet approved examining the feasibility of Small Modular Reactors.",
+   "topic": "apcabinet"
+  }
+ ],
+ "items": [
+  {
+   "id": "azad",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "sirsyed",
+   "cf": [
+    0,
+    2,
+    3,
+    4,
+    6
+   ],
+   "tag": {
+    "en": "Birth anniversary · 11 Nov 1888 · National Education Day",
+    "te": "జయంతి · 11 నవంబర్ 1888 · జాతీయ విద్యా దినోత్సవం"
+   },
+   "title": {
+    "en": "Maulana Abul Kalam Azad — National Education Day",
+    "te": "మౌలానా అబుల్ కలాం ఆజాద్ — జాతీయ విద్యా దినోత్సవం"
+   },
+   "line": {
+    "en": "India's first Education Minister. His birthday, 11 November, is observed as National Education Day since 2008.",
+    "te": "స్వతంత్ర భారత తొలి విద్యా మంత్రి. ఆయన జన్మదినం నవంబర్ 11ను 2008 నుంచి జాతీయ విద్యా దినోత్సవంగా జరుపుకుంటున్నాం."
+   },
+   "easy": [
+    {
+     "en": "Maulana Azad was a scholar, journalist and freedom fighter. In 1912 he started the Urdu weekly Al-Hilal in Calcutta. It spoke against British rule, so the British banned it. He was also active in the Khilafat Movement (1920–24).",
+     "te": "మౌలానా ఆజాద్ పండితుడు, పాత్రికేయుడు, స్వాతంత్ర్య సమరయోధుడు. 1912లో కలకత్తాలో 'అల్-హిలాల్' అనే ఉర్దూ వారపత్రిక ప్రారంభించారు. అది బ్రిటిష్ పాలనను వ్యతిరేకించడంతో బ్రిటిష్ ప్రభుత్వం నిషేధించింది. ఖిలాఫత్ ఉద్యమం (1920–24)లోనూ చురుగ్గా పాల్గొన్నారు."
+    },
+    {
+     "en": "He was Congress President in 1923 and again in 1940–46. After Independence he became the first Education Minister in Nehru's government and served till his death in 1958. Apex bodies like the UGC and AICTE, the first IIT at Kharagpur, and the Sahitya, Sangeet Natak and Lalit Kala Akademis are linked to his tenure.",
+     "te": "1923లో, మళ్లీ 1940–46లో కాంగ్రెస్ అధ్యక్షుడిగా ఉన్నారు. స్వాతంత్ర్యం తర్వాత నెహ్రూ ప్రభుత్వంలో తొలి విద్యా మంత్రిగా 1958లో మరణించే వరకు పనిచేశారు. UGC, AICTE వంటి అత్యున్నత సంస్థలు, ఖరగ్‌పూర్‌లో తొలి IIT, సాహిత్య, సంగీత నాటక, లలిత కళా అకాడమీలు ఆయన హయాంతో ముడిపడి ఉన్నాయి."
+    },
+    {
+     "en": "On 11 September 2008 the Union Government declared his birthday, 11 November, as National Education Day. The Bharat Ratna was given to him posthumously in 1992.",
+     "te": "2008 సెప్టెంబర్ 11న కేంద్ర ప్రభుత్వం ఆయన జన్మదినమైన నవంబర్ 11ను జాతీయ విద్యా దినోత్సవంగా ప్రకటించింది. 1992లో ఆయనకు మరణానంతరం భారతరత్న ఇచ్చారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "11 November 1888, Mecca (now Saudi Arabia); grew up in Calcutta",
+      "te": "11 నవంబర్ 1888, మక్కా (నేటి సౌదీ అరేబియా); కలకత్తాలో పెరిగారు"
+     }
+    ],
+    [
+     {
+      "en": "Newspaper",
+      "te": "పత్రిక"
+     },
+     {
+      "en": "Al-Hilal (Urdu weekly, Calcutta, 1912) — banned by the British",
+      "te": "అల్-హిలాల్ (ఉర్దూ వారపత్రిక, కలకత్తా, 1912) — బ్రిటిష్ వారు నిషేధించారు"
+     }
+    ],
+    [
+     {
+      "en": "Congress President",
+      "te": "కాంగ్రెస్ అధ్యక్షుడు"
+     },
+     {
+      "en": "1923 and 1940–46",
+      "te": "1923, 1940–46"
+     }
+    ],
+    [
+     {
+      "en": "Education Minister",
+      "te": "విద్యా మంత్రి"
+     },
+     {
+      "en": "1947 till death (22 Feb 1958) — India's first",
+      "te": "1947 నుంచి మరణం (22 ఫిబ్రవరి 1958) వరకు — దేశంలో తొలి"
+     }
+    ],
+    [
+     {
+      "en": "Institutions of his era",
+      "te": "ఆయన హయాంలో సంస్థలు"
+     },
+     {
+      "en": "UGC, AICTE, IIT Kharagpur, Sahitya / Sangeet Natak / Lalit Kala Akademis, ICCR",
+      "te": "UGC, AICTE, IIT ఖరగ్‌పూర్, సాహిత్య / సంగీత నాటక / లలిత కళా అకాడమీలు, ICCR"
+     }
+    ],
+    [
+     {
+      "en": "Autobiography",
+      "te": "ఆత్మకథ"
+     },
+     {
+      "en": "India Wins Freedom — published after his death, in 1959",
+      "te": "ఇండియా విన్స్ ఫ్రీడమ్ — ఆయన మరణం తర్వాత 1959లో ప్రచురణ"
+     }
+    ],
+    [
+     {
+      "en": "Honours",
+      "te": "గౌరవం"
+     },
+     {
+      "en": "National Education Day declared 11 Sep 2008; Bharat Ratna 1992 (posthumous)",
+      "te": "జాతీయ విద్యా దినోత్సవం ప్రకటన 11 సెప్టెంబర్ 2008; భారతరత్న 1992 (మరణానంతరం)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Education days and Education in the Constitution",
+     "te": "లింక్ చెయిన్ · విద్యా దినోత్సవాలు, రాజ్యాంగంలో విద్య"
+    },
+    "l": [
+     {
+      "en": "National Education Day = 11 Nov (Azad) · Teachers' Day = 5 Sep (Dr S. Radhakrishnan) · International Day of Education (UN) = 24 Jan",
+      "te": "జాతీయ విద్యా దినోత్సవం = 11 నవంబర్ (ఆజాద్) · ఉపాధ్యాయ దినోత్సవం = 5 సెప్టెంబర్ (డా. ఎస్. రాధాకృష్ణన్) · అంతర్జాతీయ విద్యా దినోత్సవం (UN) = 24 జనవరి"
+     },
+     {
+      "en": "Article 21A (86th Amendment, 2002) — free and compulsory education for children aged 6–14; RTE Act, 2009",
+      "te": "ఆర్టికల్ 21A (86వ సవరణ, 2002) — 6–14 ఏళ్ల పిల్లలకు ఉచిత, నిర్బంధ విద్య; విద్యా హక్కు చట్టం, 2009"
+     },
+     {
+      "en": "Education moved from State List to Concurrent List by the 42nd Amendment (1976)",
+      "te": "42వ సవరణ (1976) ద్వారా విద్య రాష్ట్ర జాబితా నుంచి ఉమ్మడి జాబితాకు మారింది"
+     },
+     {
+      "en": "Khilafat Movement (1920–24) merged with Gandhi's Non-Cooperation Movement — Azad, Ali brothers were its leaders",
+      "te": "ఖిలాఫత్ ఉద్యమం (1920–24) గాంధీజీ సహాయ నిరాకరణ ఉద్యమంతో కలిసింది — ఆజాద్, అలీ సోదరులు నాయకులు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Do not mix National Education Day (11 Nov, Azad, India) with the UN's International Day of Education (24 Jan) or Teachers' Day (5 Sep). Bharat Ratna to Azad came in 1992 — not in his lifetime. 'India Wins Freedom' came out in 1959, after his death.",
+    "te": "జాతీయ విద్యా దినోత్సవం (11 నవంబర్, ఆజాద్, భారత్)ను UN అంతర్జాతీయ విద్యా దినోత్సవం (24 జనవరి), ఉపాధ్యాయ దినోత్సవం (5 సెప్టెంబర్)తో కలపవద్దు. ఆజాద్‌కు భారతరత్న 1992లో వచ్చింది — జీవితకాలంలో కాదు. 'ఇండియా విన్స్ ఫ్రీడమ్' 1959లో, ఆయన మరణం తర్వాత వచ్చింది."
+   },
+   "tip": {
+    "en": "11-11 = Azad's Education Day; 12 = Al-Hilal (1912); 23 = first Congress presidency (1923); 92 = Bharat Ratna (1992).",
+    "te": "11-11 = ఆజాద్ విద్యా దినం; 12 = అల్-హిలాల్ (1912); 23 = తొలి కాంగ్రెస్ అధ్యక్షత (1923); 92 = భారతరత్న (1992)."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Maulana Abul Kalam Azad, consider the following statements:",
+     "te": "మౌలానా అబుల్ కలాం ఆజాద్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "He started the Urdu weekly Al-Hilal in Calcutta in 1912.",
+      "te": "1912లో కలకత్తాలో ఉర్దూ వారపత్రిక అల్-హిలాల్ ప్రారంభించారు."
+     },
+     {
+      "en": "He received the Bharat Ratna in 1954 along with Dr S. Radhakrishnan.",
+      "te": "1954లో డా. ఎస్. రాధాకృష్ణన్‌తో పాటు ఆయనకు భారతరత్న లభించింది."
+     },
+     {
+      "en": "He was Education Minister of India from 1947 until his death in 1958.",
+      "te": "1947 నుంచి 1958లో మరణించే వరకు భారత విద్యా మంత్రిగా ఉన్నారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and III are correct. II is wrong: Azad got the Bharat Ratna posthumously in 1992.",
+     "te": "I, III సరైనవి. II తప్పు: ఆజాద్‌కు భారతరత్న 1992లో మరణానంతరం లభించింది."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Azad's life in dates",
+      "te": "తేదీల్లో ఆజాద్ జీవితం"
+     },
+     "items": [
+      {
+       "y": "1888",
+       "t": {
+        "en": "Born in Mecca (11 Nov)",
+        "te": "మక్కాలో జననం (11 నవంబర్)"
+       }
+      },
+      {
+       "y": "1912",
+       "t": {
+        "en": "Al-Hilal weekly, Calcutta",
+        "te": "అల్-హిలాల్ వారపత్రిక, కలకత్తా"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1920–24",
+       "t": {
+        "en": "Khilafat Movement",
+        "te": "ఖిలాఫత్ ఉద్యమం"
+       }
+      },
+      {
+       "y": "1923",
+       "t": {
+        "en": "Congress President (first time)",
+        "te": "కాంగ్రెస్ అధ్యక్షుడు (మొదటిసారి)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1940–46",
+       "t": {
+        "en": "Congress President again",
+        "te": "మళ్లీ కాంగ్రెస్ అధ్యక్షుడు"
+       }
+      },
+      {
+       "y": "1947",
+       "t": {
+        "en": "First Education Minister",
+        "te": "తొలి విద్యా మంత్రి"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1958",
+       "t": {
+        "en": "Died in New Delhi (22 Feb)",
+        "te": "న్యూఢిల్లీలో మరణం (22 ఫిబ్రవరి)"
+       }
+      },
+      {
+       "y": "1959",
+       "t": {
+        "en": "India Wins Freedom published",
+        "te": "ఇండియా విన్స్ ఫ్రీడమ్ ప్రచురణ"
+       }
+      },
+      {
+       "y": "1992",
+       "t": {
+        "en": "Bharat Ratna (posthumous)",
+        "te": "భారతరత్న (మరణానంతరం)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2008",
+       "t": {
+        "en": "11 Nov declared National Education Day",
+        "te": "నవంబర్ 11 జాతీయ విద్యా దినోత్సవంగా ప్రకటన"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = most-asked dates.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే తేదీలు."
+     }
+    },
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "Institutions linked to Azad's tenure",
+      "te": "ఆజాద్ హయాంతో ముడిపడిన సంస్థలు"
+     },
+     "c": {
+      "en": "Azad as Education Minister",
+      "te": "విద్యా మంత్రిగా ఆజాద్"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Higher education",
+        "te": "ఉన్నత విద్య"
+       },
+       "l": [
+        {
+         "en": "UGC",
+         "te": "UGC"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Technical education",
+        "te": "సాంకేతిక విద్య"
+       },
+       "l": [
+        {
+         "en": "AICTE",
+         "te": "AICTE"
+        },
+        {
+         "en": "IIT Kharagpur (first IIT)",
+         "te": "IIT ఖరగ్‌పూర్ (తొలి IIT)"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Arts & letters",
+        "te": "కళలు, సాహిత్యం"
+       },
+       "l": [
+        {
+         "en": "Sahitya Akademi",
+         "te": "సాహిత్య అకాడమీ"
+        },
+        {
+         "en": "Sangeet Natak Akademi",
+         "te": "సంగీత నాటక అకాడమీ"
+        },
+        {
+         "en": "Lalit Kala Akademi",
+         "te": "లలిత కళా అకాడమీ"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Culture abroad",
+        "te": "విదేశాల్లో సంస్కృతి"
+       },
+       "l": [
+        {
+         "en": "ICCR",
+         "te": "ICCR"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Britannica — Abul Kalam Azad (biography)",
+     "u": "https://www.britannica.com/biography/Abul-Kalam-Azad"
+    },
+    {
+     "t": "The Sentinel — India remembers Maulana Abul Kalam Azad on National Education Day, 11 Nov 2020",
+     "u": "https://sentinelassam.com/national-news/india-remembers-maulana-abul-kalam-azad-on-national-education-day-511093"
+    },
+    {
+     "t": "PIB / Ministry of Education — National Education Day press release, 11 Nov 2014",
+     "u": "https://education.gov.in/sites/upload_files/mhrd/files/PRESS%20RELEASE%20FROM%20PIB%20HRD%2011.11.14.pdf"
+    },
+    {
+     "t": "Vajiram & Ravi — National Education Day (cross-check)",
+     "u": "https://vajiramandravi.com/current-affairs/national-education-day/"
+    }
+   ]
+  },
+  {
+   "id": "armistice",
+   "kind": "day",
+   "color": "#7a3b8f",
+   "icon": "shield",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "tag": {
+    "en": "On this day · 11 Nov 1918",
+    "te": "ఈ రోజు · 11 నవంబర్ 1918"
+   },
+   "title": {
+    "en": "Armistice Day — the guns of World War I fall silent",
+    "te": "ఆర్మిస్టిస్ డే — మొదటి ప్రపంచ యుద్ధంలో తుపాకులు మౌనం"
+   },
+   "line": {
+    "en": "At the 11th hour of the 11th day of the 11th month of 1918, fighting in World War I stopped.",
+    "te": "1918లో 11వ నెల, 11వ రోజు, 11వ గంటకు మొదటి ప్రపంచ యుద్ధంలో పోరాటం ఆగిపోయింది."
+   },
+   "easy": [
+    {
+     "en": "An armistice is an agreement to stop fighting. It is not yet a peace treaty. On 11 November 1918, Germany and the Allies signed one at 5 a.m. in a railway carriage in the Forest of Compiègne, about 70 km north of Paris. Six hours later, at 11 a.m., the fighting ended.",
+     "te": "ఆర్మిస్టిస్ అంటే యుద్ధం ఆపే ఒప్పందం (యుద్ధ విరమణ). ఇది ఇంకా శాంతి ఒప్పందం కాదు. 1918 నవంబర్ 11న ఉదయం 5 గంటలకు, పారిస్‌కు సుమారు 70 కి.మీ. ఉత్తరాన కాంపియెన్ అడవిలో ఒక రైలు బోగీలో జర్మనీ, మిత్రరాజ్యాలు దీనిపై సంతకం చేశాయి. ఆరు గంటల తర్వాత, ఉదయం 11 గంటలకు పోరాటం ఆగింది."
+    },
+    {
+     "en": "Marshal Ferdinand Foch, the Allied Commander-in-Chief, signed for the Allies. The armistice was first for 36 days and was extended three times. The final peace came with the Treaty of Versailles, signed on 28 June 1919.",
+     "te": "మిత్రరాజ్యాల సర్వ సైన్యాధ్యక్షుడు మార్షల్ ఫెర్డినాండ్ ఫోష్ మిత్రరాజ్యాల తరఫున సంతకం చేశారు. యుద్ధ విరమణ మొదట 36 రోజులకే; దాన్ని మూడుసార్లు పొడిగించారు. తుది శాంతి 1919 జూన్ 28న సంతకమైన వర్సైల్స్ ఒప్పందంతో వచ్చింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Signed",
+      "te": "సంతకం"
+     },
+     {
+      "en": "5 a.m., 11 Nov 1918 — railway carriage, Forest of Compiègne (France)",
+      "te": "ఉదయం 5 గం., 11 నవంబర్ 1918 — రైలు బోగీ, కాంపియెన్ అడవి (ఫ్రాన్స్)"
+     }
+    ],
+    [
+     {
+      "en": "Fighting stopped",
+      "te": "పోరాటం ఆగింది"
+     },
+     {
+      "en": "11 a.m. (French time) the same day",
+      "te": "అదే రోజు ఉదయం 11 గం. (ఫ్రెంచ్ సమయం)"
+     }
+    ],
+    [
+     {
+      "en": "Signed by",
+      "te": "సంతకం చేసినవారు"
+     },
+     {
+      "en": "Allies: Marshal Foch & Admiral Wemyss; Germany: delegation led by Matthias Erzberger",
+      "te": "మిత్రరాజ్యాలు: మార్షల్ ఫోష్, అడ్మిరల్ వెమిస్; జర్మనీ: మథియాస్ ఎర్జ్‌బెర్గర్ నేతృత్వంలోని బృందం"
+     }
+    ],
+    [
+     {
+      "en": "Duration",
+      "te": "కాలవ్యవధి"
+     },
+     {
+      "en": "36 days at first; extended three times",
+      "te": "మొదట 36 రోజులు; మూడుసార్లు పొడిగింపు"
+     }
+    ],
+    [
+     {
+      "en": "Main terms",
+      "te": "ప్రధాన షరతులు"
+     },
+     {
+      "en": "Germany to surrender fleet, heavy guns, aeroplanes; withdraw east of the Rhine within 30 days; return Allied prisoners",
+      "te": "జర్మనీ నౌకాదళం, భారీ తుపాకులు, విమానాలు అప్పగించాలి; 30 రోజుల్లో రైన్ నదికి తూర్పుకు వెళ్లాలి; మిత్రరాజ్యాల ఖైదీలను తిరిగి ఇవ్వాలి"
+     }
+    ],
+    [
+     {
+      "en": "Peace treaty",
+      "te": "శాంతి ఒప్పందం"
+     },
+     {
+      "en": "Treaty of Versailles, 28 June 1919 (Article 231 — 'war guilt')",
+      "te": "వర్సైల్స్ ఒప్పందం, 28 జూన్ 1919 (ఆర్టికల్ 231 — 'యుద్ధ నేరం')"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · World War I and India",
+     "te": "లింక్ చెయిన్ · మొదటి ప్రపంచ యుద్ధం, భారత్"
+    },
+    "l": [
+     {
+      "en": "WWI: 28 July 1914 – 11 Nov 1918 · Allies (Britain, France, Russia, later USA) vs Central Powers (Germany, Austria-Hungary, Ottoman Empire)",
+      "te": "మొదటి ప్రపంచ యుద్ధం: 28 జూలై 1914 – 11 నవంబర్ 1918 · మిత్రరాజ్యాలు (బ్రిటన్, ఫ్రాన్స్, రష్యా, తర్వాత అమెరికా) vs కేంద్ర రాజ్యాలు (జర్మనీ, ఆస్ట్రియా-హంగేరీ, ఒట్టోమన్ సామ్రాజ్యం)"
+     },
+     {
+      "en": "India Gate (New Delhi) honours Indian soldiers who died in World War I",
+      "te": "ఇండియా గేట్ (న్యూఢిల్లీ) మొదటి ప్రపంచ యుద్ధంలో మరణించిన భారత సైనికుల స్మారకం"
+     },
+     {
+      "en": "Ottoman defeat → Treaty of Sèvres → Khilafat Movement in India (1920) — links to today's Azad item",
+      "te": "ఒట్టోమన్ ఓటమి → సెవ్రెస్ ఒప్పందం → భారత్‌లో ఖిలాఫత్ ఉద్యమం (1920) — నేటి ఆజాద్ అంశంతో లింక్"
+     },
+     {
+      "en": "Versailles' harsh terms on Germany are seen as one root of World War II",
+      "te": "జర్మనీపై వర్సైల్స్ కఠిన షరతులు రెండో ప్రపంచ యుద్ధానికి ఒక మూల కారణంగా భావిస్తారు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Armistice (11 Nov 1918, Compiègne) ≠ Treaty of Versailles (28 June 1919, peace treaty). Armistice only stopped the fighting. Also: the armistice was signed at 5 a.m.; 11 a.m. is when it came into effect.",
+    "te": "ఆర్మిస్టిస్ (11 నవంబర్ 1918, కాంపియెన్) ≠ వర్సైల్స్ ఒప్పందం (28 జూన్ 1919, శాంతి ఒప్పందం). ఆర్మిస్టిస్ కేవలం పోరాటాన్ని ఆపింది. అలాగే: సంతకం ఉదయం 5 గంటలకు; 11 గంటలకు అమలులోకి వచ్చింది."
+   },
+   "tip": {
+    "en": "'11-11-11' = hour, day, month of the WWI ceasefire.",
+    "te": "'11-11-11' = యుద్ధ విరమణ గంట, రోజు, నెల."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the Armistice of 11 November 1918:",
+     "te": "1918 నవంబర్ 11 యుద్ధ విరమణ (ఆర్మిస్టిస్)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "It was signed in a railway carriage in the Forest of Compiègne.",
+      "te": "ఇది కాంపియెన్ అడవిలో ఒక రైలు బోగీలో సంతకమైంది."
+     },
+     {
+      "en": "It formally ended World War I as a peace treaty.",
+      "te": "ఇది శాంతి ఒప్పందంగా మొదటి ప్రపంచ యుద్ధాన్ని అధికారికంగా ముగించింది."
+     },
+     {
+      "en": "Germany had to withdraw its troops to the east of the Rhine.",
+      "te": "జర్మనీ తన సైన్యాన్ని రైన్ నదికి తూర్పు వైపుకు ఉపసంహరించాల్సి వచ్చింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and III are correct. II is wrong: an armistice only stops fighting; the peace treaty was Versailles (28 June 1919).",
+     "te": "I, III సరైనవి. II తప్పు: ఆర్మిస్టిస్ పోరాటాన్ని మాత్రమే ఆపుతుంది; శాంతి ఒప్పందం వర్సైల్స్ (28 జూన్ 1919)."
+    }
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Where the war was stopped",
+      "te": "యుద్ధం ఎక్కడ ఆగింది"
+     },
+     "view": "world",
+     "ctry": [
+      "France",
+      "Germany"
+     ],
+     "hlc": "#7a3b8f",
+     "pts": [
+      {
+       "ll": [
+        49.42,
+        2.83
+       ],
+       "t": {
+        "en": "Compiègne",
+        "te": "కాంపియెన్"
+       }
+      },
+      {
+       "ll": [
+        48.86,
+        2.35
+       ],
+       "t": {
+        "en": "Paris",
+        "te": "పారిస్"
+       },
+       "a": "l"
+      }
+     ],
+     "labels": [
+      {
+       "ll": [
+        46.8,
+        2.5
+       ],
+       "t": {
+        "en": "FRANCE",
+        "te": "ఫ్రాన్స్"
+       }
+      },
+      {
+       "ll": [
+        51.0,
+        10.0
+       ],
+       "t": {
+        "en": "GERMANY",
+        "te": "జర్మనీ"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Compiègne is about 70 km north of Paris. Versailles (peace treaty, 1919) is next to Paris.",
+      "te": "కాంపియెన్ పారిస్‌కు సుమారు 70 కి.మీ. ఉత్తరాన ఉంది. వర్సైల్స్ (శాంతి ఒప్పందం, 1919) పారిస్ పక్కనే."
+     },
+     "src": "cards/2026-11-11/map-armistice-1-{m}.svg"
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "From ceasefire to peace",
+      "te": "యుద్ధ విరమణ నుంచి శాంతి వరకు"
+     },
+     "items": [
+      {
+       "i": "✍️",
+       "t": {
+        "en": "5 a.m., 11 Nov 1918: armistice signed",
+        "te": "11 నవంబర్ 1918 ఉదయం 5: ఆర్మిస్టిస్ సంతకం"
+       }
+      },
+      {
+       "i": "🔕",
+       "t": {
+        "en": "11 a.m.: guns fall silent",
+        "te": "ఉదయం 11: తుపాకులు మౌనం"
+       }
+      },
+      {
+       "i": "⏳",
+       "t": {
+        "en": "36 days, extended 3 times",
+        "te": "36 రోజులు, 3 సార్లు పొడిగింపు"
+       }
+      },
+      {
+       "i": "🏛️",
+       "t": {
+        "en": "18 Jan 1919: Paris Peace Conference opens",
+        "te": "18 జనవరి 1919: పారిస్ శాంతి సదస్సు ప్రారంభం"
+       }
+      },
+      {
+       "i": "📜",
+       "t": {
+        "en": "28 June 1919: Treaty of Versailles",
+        "te": "28 జూన్ 1919: వర్సైల్స్ ఒప్పందం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The National Archives (UK) blog — Milestones to peace: the Armistice at Compiègne",
+     "u": "https://blog.nationalarchives.gov.uk/milestones-to-peace-armistice-compiegne"
+    },
+    {
+     "t": "Sky HISTORY — 11 November 1918: World War I ends",
+     "u": "https://www.history.co.uk/this-day-in-history/11-november/world-war-i-ends"
+    }
+   ]
+  },
+  {
+   "id": "apcabinet",
+   "kind": "article",
+   "color": "#2f6b2f",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "In the news · Andhra Pradesh · State Cabinet meeting, 10 Nov 2026",
+    "te": "వార్తల్లో · ఆంధ్రప్రదేశ్ · రాష్ట్ర మంత్రివర్గ సమావేశం, 10 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · AP Economy / GS-III Science & Tech",
+    "te": "వివరణ · ఏపీ ఆర్థిక వ్యవస్థ / GS-III సైన్స్ & టెక్"
+   },
+   "title": {
+    "en": "AP Cabinet: AVGC-XR and Robotics policies, AI data centres, and a study on small nuclear reactors",
+    "te": "ఏపీ కేబినెట్: AVGC-XR, రోబోటిక్స్ పాలసీలు, AI డేటా సెంటర్లు, చిన్న అణు రియాక్టర్లపై అధ్యయనం"
+   },
+   "line": {
+    "en": "The State Cabinet cleared over 30 items on 10 Nov — new technology policies, big data-centre investments and a new road-safety directorate.",
+    "te": "నవంబర్ 10న రాష్ట్ర మంత్రివర్గం 30కి పైగా అంశాలను ఆమోదించింది — కొత్త సాంకేతిక పాలసీలు, భారీ డేటా సెంటర్ పెట్టుబడులు, కొత్త రోడ్డు భద్రతా డైరెక్టరేట్."
+   },
+   "easy": [
+    {
+     "en": "The Andhra Pradesh Cabinet, chaired by Chief Minister N. Chandrababu Naidu, met on Tuesday, 10 November 2026. It approved the AP AVGC-XR Policy 2026–31 and the AP Robotics and Physical AI Policy 2026–36. AVGC-XR means Animation, Visual Effects, Gaming, Comics and Extended Reality — the 'creative technology' industry.",
+     "te": "ముఖ్యమంత్రి ఎన్. చంద్రబాబు నాయుడు అధ్యక్షతన ఆంధ్రప్రదేశ్ మంత్రివర్గం మంగళవారం, 10 నవంబర్ 2026న సమావేశమైంది. ఏపీ AVGC-XR పాలసీ 2026–31, ఏపీ రోబోటిక్స్ & ఫిజికల్ AI పాలసీ 2026–36లను ఆమోదించింది. AVGC-XR అంటే యానిమేషన్, విజువల్ ఎఫెక్ట్స్, గేమింగ్, కామిక్స్, ఎక్స్‌టెండెడ్ రియాలిటీ — 'సృజనాత్మక సాంకేతిక' పరిశ్రమ."
+    },
+    {
+     "en": "A data centre is a building full of computer servers that store and process data. AI needs huge computing power, so these centres use a lot of electricity — that is why they are measured in megawatts (MW). The Cabinet approved a 512 MW green integrated AI data centre at Bheemunipatnam (Visakhapatnam district) by AM Intelligence Labs with ₹31,387 crore investment, and land for a Reliance giga-scale AI data centre in Vizianagaram district.",
+     "te": "డేటా సెంటర్ అంటే డేటాను నిల్వ చేసి, ప్రాసెస్ చేసే కంప్యూటర్ సర్వర్లతో నిండిన భవనం. AIకి భారీ కంప్యూటింగ్ శక్తి కావాలి, కాబట్టి ఇవి చాలా విద్యుత్ వాడతాయి — అందుకే వీటిని మెగావాట్ల (MW)లో కొలుస్తారు. విశాఖపట్నం జిల్లా భీమునిపట్నంలో AM ఇంటెలిజెన్స్ ల్యాబ్స్ ₹31,387 కోట్లతో 512 MW గ్రీన్ ఇంటిగ్రేటెడ్ AI డేటా సెంటర్, విజయనగరం జిల్లాలో రిలయన్స్ గిగా-స్కేల్ AI డేటా సెంటర్‌కు భూమి కేటాయింపును కేబినెట్ ఆమోదించింది."
+    },
+    {
+     "en": "For power, APGENCO will explore Small Modular Reactors (SMRs) — small nuclear power plants — as a future alternative to thermal units. A new Directorate of Traffic Management and Road Safety was created in AP Police, at police headquarters in Mangalagiri, headed by an IGP-rank officer.",
+     "te": "విద్యుత్ కోసం APGENCO థర్మల్ యూనిట్లకు భవిష్యత్ ప్రత్యామ్నాయంగా స్మాల్ మాడ్యులర్ రియాక్టర్ల (SMR — చిన్న అణు విద్యుత్ కేంద్రాలు) సాధ్యాసాధ్యాలను పరిశీలిస్తుంది. ఏపీ పోలీస్‌లో కొత్తగా ట్రాఫిక్ మేనేజ్‌మెంట్ & రోడ్డు భద్రతా డైరెక్టరేట్ ఏర్పాటైంది — మంగళగిరి పోలీస్ ప్రధాన కార్యాలయంలో, IGP స్థాయి అధికారి నేతృత్వంలో."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "New policies",
+      "te": "కొత్త పాలసీలు"
+     },
+     {
+      "en": "AVGC-XR Policy 2026–31; Robotics & Physical AI Policy 2026–36",
+      "te": "AVGC-XR పాలసీ 2026–31; రోబోటిక్స్ & ఫిజికల్ AI పాలసీ 2026–36"
+     }
+    ],
+    [
+     {
+      "en": "Biggest investment",
+      "te": "అతిపెద్ద పెట్టుబడి"
+     },
+     {
+      "en": "512 MW AI data centre, Bheemunipatnam — ₹31,387 crore (AM Intelligence Labs)",
+      "te": "512 MW AI డేటా సెంటర్, భీమునిపట్నం — ₹31,387 కోట్లు (AM ఇంటెలిజెన్స్ ల్యాబ్స్)"
+     }
+    ],
+    [
+     {
+      "en": "Data-centre supply chain",
+      "te": "డేటా సెంటర్ సరఫరా గొలుసు"
+     },
+     {
+      "en": "Epack unit at Rambilli (Anakapalli): ₹570.20 crore, 2,565 jobs",
+      "te": "రాంబిల్లి (అనకాపల్లి)లో ఎపాక్ యూనిట్: ₹570.20 కోట్లు, 2,565 ఉద్యోగాలు"
+     }
+    ],
+    [
+     {
+      "en": "Battery materials",
+      "te": "బ్యాటరీ పదార్థాలు"
+     },
+     {
+      "en": "Carbon Cosmo, Naidupeta (Tirupati): LFP cathode material, ₹4,000.20 crore",
+      "te": "కార్బన్ కాస్మో, నాయుడుపేట (తిరుపతి): LFP క్యాథోడ్ పదార్థం, ₹4,000.20 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Pharma",
+      "te": "ఫార్మా"
+     },
+     {
+      "en": "173.82 acres to Hetero Group in the Bulk Drug Park, Nakkapalli",
+      "te": "నక్కపల్లి బల్క్ డ్రగ్ పార్క్‌లో హెటెరో గ్రూప్‌కు 173.82 ఎకరాలు"
+     }
+    ],
+    [
+     {
+      "en": "Energy",
+      "te": "శక్తి"
+     },
+     {
+      "en": "APGENCO to explore Small Modular Reactors; 15 MW waste-to-energy plant, Vijayawada",
+      "te": "APGENCO స్మాల్ మాడ్యులర్ రియాక్టర్ల పరిశీలన; విజయవాడలో 15 MW వ్యర్థాల నుంచి విద్యుత్ ప్లాంట్"
+     }
+    ],
+    [
+     {
+      "en": "Road safety",
+      "te": "రోడ్డు భద్రత"
+     },
+     {
+      "en": "Directorate of Traffic Management & Road Safety, Mangalagiri, IGP-rank head",
+      "te": "ట్రాఫిక్ మేనేజ్‌మెంట్ & రోడ్డు భద్రతా డైరెక్టరేట్, మంగళగిరి, IGP స్థాయి అధిపతి"
+     }
+    ],
+    [
+     {
+      "en": "Women entrepreneurs",
+      "te": "మహిళా పారిశ్రామికవేత్తలు"
+     },
+     {
+      "en": "30-acre FLO women industrial park, Jayanthipuram (NTR district)",
+      "te": "జయంతిపురం (NTR జిల్లా)లో 30 ఎకరాల FLO మహిళా పారిశ్రామిక పార్క్"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Static GK and AP economy",
+     "te": "లింక్ చెయిన్ · స్టాటిక్ GK, ఏపీ ఆర్థిక వ్యవస్థ"
+    },
+    "l": [
+     {
+      "en": "SMR = nuclear reactor of small capacity, built in factory modules — easier to set up than big plants",
+      "te": "SMR = తక్కువ సామర్థ్యం గల అణు రియాక్టర్, ఫ్యాక్టరీలో మాడ్యూళ్లుగా తయారు — పెద్ద ప్లాంట్ల కంటే సులభంగా ఏర్పాటు"
+     },
+     {
+      "en": "Nuclear energy is a Union subject (Atomic Energy Act) — a State can study, but plants need Centre's approval",
+      "te": "అణు శక్తి కేంద్ర అంశం (అటామిక్ ఎనర్జీ చట్టం) — రాష్ట్రం అధ్యయనం చేయగలదు, కానీ ప్లాంట్లకు కేంద్ర అనుమతి అవసరం"
+     },
+     {
+      "en": "LFP = Lithium Iron Phosphate — a battery chemistry used in EVs and grid storage",
+      "te": "LFP = లిథియం ఐరన్ ఫాస్ఫేట్ — EVలు, గ్రిడ్ నిల్వలో వాడే బ్యాటరీ రసాయనం"
+     },
+     {
+      "en": "Police and public order are State List subjects — so AP can create its own traffic directorate",
+      "te": "పోలీసు, పబ్లిక్ ఆర్డర్ రాష్ట్ర జాబితా అంశాలు — కాబట్టి ఏపీ సొంతంగా ట్రాఫిక్ డైరెక్టరేట్ ఏర్పాటు చేయగలదు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The Cabinet did NOT approve a nuclear plant — only exploring/feasibility of SMRs. The ₹31,387-crore AI data centre is at Bheemunipatnam (Visakhapatnam district), not at Bhogapuram; Bhogapuram (Vizianagaram) is the Reliance land.",
+    "te": "కేబినెట్ అణు ప్లాంట్‌ను ఆమోదించలేదు — SMRల సాధ్యాసాధ్యాల పరిశీలన మాత్రమే. ₹31,387 కోట్ల AI డేటా సెంటర్ భీమునిపట్నం (విశాఖపట్నం జిల్లా)లో ఉంది, భోగాపురంలో కాదు; భోగాపురం (విజయనగరం) రిలయన్స్‌కు భూమి."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the AP Cabinet decisions of 10 November 2026, consider the following statements:",
+     "te": "10 నవంబర్ 2026 ఏపీ కేబినెట్ నిర్ణయాలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "The AVGC-XR Policy covers Animation, Visual Effects, Gaming, Comics and Extended Reality.",
+      "te": "AVGC-XR పాలసీ యానిమేషన్, విజువల్ ఎఫెక్ట్స్, గేమింగ్, కామిక్స్, ఎక్స్‌టెండెడ్ రియాలిటీ రంగాలకు సంబంధించింది."
+     },
+     {
+      "en": "The Cabinet sanctioned construction of a Small Modular Reactor nuclear plant by APGENCO.",
+      "te": "APGENCO స్మాల్ మాడ్యులర్ రియాక్టర్ అణు ప్లాంట్ నిర్మాణానికి కేబినెట్ మంజూరు ఇచ్చింది."
+     },
+     {
+      "en": "A new Directorate of Traffic Management and Road Safety will function from Mangalagiri.",
+      "te": "కొత్త ట్రాఫిక్ మేనేజ్‌మెంట్ & రోడ్డు భద్రతా డైరెక్టరేట్ మంగళగిరి నుంచి పనిచేస్తుంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and III are correct. II is wrong: APGENCO will only explore/study SMRs as a future option.",
+     "te": "I, III సరైనవి. II తప్పు: APGENCO భవిష్యత్ ప్రత్యామ్నాయంగా SMRలను పరిశీలిస్తుంది మాత్రమే."
+    }
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Where the approved projects are",
+      "te": "ఆమోదించిన ప్రాజెక్టులు ఎక్కడ"
+     },
+     "view": "ap",
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#2f6b2f",
+     "pts": [
+      {
+       "ll": [
+        17.89,
+        83.45
+       ],
+       "t": {
+        "en": "Bheemunipatnam: AI data centre",
+        "te": "భీమునిపట్నం: AI డేటా సెంటర్"
+       }
+      },
+      {
+       "ll": [
+        17.43,
+        82.71
+       ],
+       "t": {
+        "en": "Nakkapalli: bulk drugs",
+        "te": "నక్కపల్లి: బల్క్ డ్రగ్స్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.43,
+        80.57
+       ],
+       "t": {
+        "en": "Mangalagiri: road safety",
+        "te": "మంగళగిరి: రోడ్డు భద్రత"
+       }
+      },
+      {
+       "ll": [
+        13.9,
+        79.9
+       ],
+       "t": {
+        "en": "Naidupeta: battery material",
+        "te": "నాయుడుపేట: బ్యాటరీ పదార్థం"
+       }
+      }
+     ],
+     "seas": true,
+     "cap": {
+      "en": "Data centres cluster near the Visakhapatnam coast (sea cables, water, power).",
+      "te": "డేటా సెంటర్లు విశాఖ తీరం దగ్గర కేంద్రీకృతం."
+     },
+     "src": "cards/2026-11-11/map-apcabinet-1-{m}.svg"
+    },
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "10 Nov Cabinet — at a glance",
+      "te": "10 నవంబర్ కేబినెట్ — ఒక్క చూపులో"
+     },
+     "c": {
+      "en": "AP Cabinet, 10 Nov 2026",
+      "te": "ఏపీ కేబినెట్, 10 నవంబర్ 2026"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Policies",
+        "te": "పాలసీలు"
+       },
+       "l": [
+        {
+         "en": "AVGC-XR 2026–31",
+         "te": "AVGC-XR 2026–31"
+        },
+        {
+         "en": "Robotics & Physical AI 2026–36",
+         "te": "రోబోటిక్స్ & ఫిజికల్ AI 2026–36"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "AI data centres",
+        "te": "AI డేటా సెంటర్లు"
+       },
+       "l": [
+        {
+         "en": "512 MW, ₹31,387 cr",
+         "te": "512 MW, ₹31,387 కోట్లు"
+        },
+        {
+         "en": "Reliance, Vizianagaram",
+         "te": "రిలయన్స్, విజయనగరం"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Energy",
+        "te": "శక్తి"
+       },
+       "l": [
+        {
+         "en": "SMR study",
+         "te": "SMR అధ్యయనం"
+        },
+        {
+         "en": "15 MW waste-to-energy",
+         "te": "15 MW వ్యర్థాల విద్యుత్"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Industry",
+        "te": "పరిశ్రమలు"
+       },
+       "l": [
+        {
+         "en": "Hetero, Nakkapalli",
+         "te": "హెటెరో, నక్కపల్లి"
+        },
+        {
+         "en": "Dixon, Tirupati",
+         "te": "డిక్సన్, తిరుపతి"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Police",
+        "te": "పోలీస్"
+       },
+       "l": [
+        {
+         "en": "Traffic & Road Safety Directorate",
+         "te": "ట్రాఫిక్ & రోడ్డు భద్రతా డైరెక్టరేట్"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India — AP cabinet approves major decisions, 10 Nov 2026",
+     "u": "https://www.thehansindia.com/andhra-pradesh/ap-cabinet-approves-major-decisions-1140821"
+    },
+    {
+     "t": "Deccan Chronicle — AP Cabinet clears over 30 agenda items, 10 Nov 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-cabinet-clears-over-30-agenda-items-2003293"
+    },
+    {
+     "t": "Telugu360 — AP Cabinet clears AI data centres, robotics policy, semiconductor reforms, 10 Nov 2026",
+     "u": "https://www.telugu360.com/ap-cabinet-clears-ai-data-centres-robotics-policy-semiconductor-reforms-and-major-industrial-projects/"
+    }
+   ],
+   "mains": {
+    "en": "Andhra Pradesh is betting on AI data centres and creative technology (AVGC-XR) for growth. Discuss the opportunities and the challenges of power, water and jobs.",
+    "te": "ఆంధ్రప్రదేశ్ వృద్ధి కోసం AI డేటా సెంటర్లు, సృజనాత్మక సాంకేతికత (AVGC-XR)పై ఆధారపడుతోంది. అవకాశాలను, విద్యుత్, నీరు, ఉద్యోగాల సవాళ్లను చర్చించండి."
+   }
+  },
+  {
+   "id": "manipurcensus",
+   "kind": "article",
+   "color": "#9b2c2c",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "In the news · Polity · Manipur High Court order on the Census",
+    "te": "వార్తల్లో · పాలిటీ · జనగణనపై మణిపూర్ హైకోర్టు ఉత్తర్వు"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity & Governance",
+    "te": "వివరణ · GS-II పాలిటీ & పాలన"
+   },
+   "title": {
+    "en": "Census on hold in Manipur till 30 April 2027: what the High Court said",
+    "te": "మణిపూర్‌లో 30 ఏప్రిల్ 2027 వరకు జనగణన నిలిపివేత: హైకోర్టు ఏం చెప్పింది"
+   },
+   "line": {
+    "en": "The Census is a Union subject run under the Census Act, 1948. In Manipur it is paused after protests linked to an NRC demand.",
+    "te": "జనగణన కేంద్ర అంశం, జనగణన చట్టం 1948 కింద జరుగుతుంది. NRC డిమాండ్‌తో ముడిపడిన నిరసనల తర్వాత మణిపూర్‌లో అది నిలిచిపోయింది."
+   },
+   "easy": [
+    {
+     "en": "A Census counts every person in the country and collects data on houses, education, jobs and more. It is done by the Registrar General and Census Commissioner under the Census Act, 1948 and the Census Rules, 1990. In Manipur, the first phase (house-listing) was due to start on 1 September 2026.",
+     "te": "జనగణన దేశంలోని ప్రతి వ్యక్తిని లెక్కించి, ఇళ్లు, విద్య, ఉపాధి వంటి వివరాలు సేకరిస్తుంది. దీన్ని జనగణన చట్టం 1948, జనగణన నియమాలు 1990 కింద రిజిస్ట్రార్ జనరల్ & సెన్సస్ కమిషనర్ నిర్వహిస్తారు. మణిపూర్‌లో మొదటి దశ (గృహ జాబితా) 2026 సెప్టెంబర్ 1న ప్రారంభం కావాల్సి ఉంది."
+    },
+    {
+     "en": "Civil society groups demanded that the NRC (National Register of Citizens) be done first. On 31 August 2026 the Union Government deferred the Census in Manipur after a review meeting chaired by Home Minister Amit Shah. Students' groups also went to the High Court.",
+     "te": "ముందుగా NRC (జాతీయ పౌర రిజిస్టర్) చేయాలని పౌర సంఘాలు డిమాండ్ చేశాయి. హోం మంత్రి అమిత్ షా అధ్యక్షతన సమీక్ష తర్వాత 2026 ఆగస్టు 31న కేంద్రం మణిపూర్‌లో జనగణనను వాయిదా వేసింది. విద్యార్థి సంఘాలు హైకోర్టునూ ఆశ్రయించాయి."
+    },
+    {
+     "en": "Now a Division Bench of Chief Justice M. Sundar and Justice A. Guneshwar Sharma has said, with the consent of all sides, that the Census in Manipur stays in abeyance till 30 April 2027. Anyone can send a representation to the Registrar General by 25 November 2026, who must decide all of them by one 'speaking order' (an order that gives reasons).",
+     "te": "ఇప్పుడు ప్రధాన న్యాయమూర్తి ఎం. సుందర్, జస్టిస్ ఎ. గుణేశ్వర్ శర్మల డివిజన్ బెంచ్, అన్ని పక్షాల అంగీకారంతో, మణిపూర్‌లో జనగణన 30 ఏప్రిల్ 2027 వరకు నిలిపివేతలో ఉంటుందని చెప్పింది. ఎవరైనా 25 నవంబర్ 2026 లోగా రిజిస్ట్రార్ జనరల్‌కు విజ్ఞాపన పంపవచ్చు; ఆయన అన్నింటిపై కారణాలతో కూడిన ఒకే 'స్పీకింగ్ ఆర్డర్' ఇవ్వాలి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Law",
+      "te": "చట్టం"
+     },
+     {
+      "en": "Census Act, 1948 and Census Rules, 1990",
+      "te": "జనగణన చట్టం 1948, జనగణన నియమాలు 1990"
+     }
+    ],
+    [
+     {
+      "en": "Court",
+      "te": "కోర్టు"
+     },
+     {
+      "en": "Manipur High Court, Division Bench (CJ M. Sundar, Justice A. Guneshwar Sharma)",
+      "te": "మణిపూర్ హైకోర్టు డివిజన్ బెంచ్ (CJ ఎం. సుందర్, జస్టిస్ ఎ. గుణేశ్వర్ శర్మ)"
+     }
+    ],
+    [
+     {
+      "en": "Hold till",
+      "te": "నిలిపివేత"
+     },
+     {
+      "en": "30 April 2027",
+      "te": "30 ఏప్రిల్ 2027 వరకు"
+     }
+    ],
+    [
+     {
+      "en": "Representations",
+      "te": "విజ్ఞాపనలు"
+     },
+     {
+      "en": "To the Registrar General by 25 Nov 2026; decided by one common speaking order",
+      "te": "25 నవంబర్ 2026 లోగా రిజిస్ట్రార్ జనరల్‌కు; ఒకే స్పీకింగ్ ఆర్డర్‌తో నిర్ణయం"
+     }
+    ],
+    [
+     {
+      "en": "After the order",
+      "te": "ఉత్తర్వు తర్వాత"
+     },
+     {
+      "en": "Exercise stays suspended 4 more weeks so aggrieved people can go to court",
+      "te": "బాధితులు కోర్టుకు వెళ్లేందుకు మరో 4 వారాలు నిలిపివేత"
+     }
+    ],
+    [
+     {
+      "en": "Centre's deferment",
+      "te": "కేంద్రం వాయిదా"
+     },
+     {
+      "en": "31 Aug 2026, after MHA review chaired by Amit Shah",
+      "te": "31 ఆగస్టు 2026, అమిత్ షా అధ్యక్షతన హోం శాఖ సమీక్ష తర్వాత"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Census in the Constitution",
+     "te": "లింక్ చెయిన్ · రాజ్యాంగంలో జనగణన"
+    },
+    "l": [
+     {
+      "en": "Census = Union List (Entry 69, Seventh Schedule) → only Parliament makes the law",
+      "te": "జనగణన = కేంద్ర జాబితా (ఎంట్రీ 69, ఏడో షెడ్యూల్) → పార్లమెంట్ మాత్రమే చట్టం చేస్తుంది"
+     },
+     {
+      "en": "Last full Census: 2011 — village and population data still rest on it",
+      "te": "చివరి పూర్తి జనగణన: 2011 — గ్రామాల, జనాభా డేటా ఇంకా దాని మీదే ఆధారం"
+     },
+     {
+      "en": "Census ≠ NRC: Census counts everyone who lives here; NRC is a register of citizens (Citizenship Act, 1955)",
+      "te": "జనగణన ≠ NRC: జనగణన ఇక్కడ నివసించే అందరినీ లెక్కిస్తుంది; NRC పౌరుల రిజిస్టర్ (పౌరసత్వ చట్టం, 1955)"
+     },
+     {
+      "en": "Census data decides delimitation of seats and SC/ST reservation in legislatures",
+      "te": "చట్టసభల్లో స్థానాల పునర్విభజన, SC/ST రిజర్వేషన్ జనగణన డేటాపై ఆధారపడతాయి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Census is a Union subject, not State or Concurrent. Census law = Census Act, 1948 (not 1951 or 1955). NRC comes under the Citizenship Act, 1955 — it is not part of the Census Act. The hold is till 30 April 2027, not 'cancelled'.",
+    "te": "జనగణన కేంద్ర అంశం; రాష్ట్ర లేదా ఉమ్మడి జాబితా కాదు. జనగణన చట్టం = 1948 (1951 లేదా 1955 కాదు). NRC పౌరసత్వ చట్టం 1955 కిందకు వస్తుంది — జనగణన చట్టంలో భాగం కాదు. నిలిపివేత 30 ఏప్రిల్ 2027 వరకు మాత్రమే, 'రద్దు' కాదు."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements regarding the Census in India:",
+     "te": "భారతదేశంలో జనగణనకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "Census is an entry in the Union List of the Seventh Schedule.",
+      "te": "జనగణన ఏడో షెడ్యూల్‌లోని కేంద్ర జాబితాలోని అంశం."
+     },
+     {
+      "en": "The Census is conducted under the Census Act, 1948.",
+      "te": "జనగణన చట్టం 1948 కింద జనగణన జరుగుతుంది."
+     },
+     {
+      "en": "The National Register of Citizens is prepared under the Census Act, 1948.",
+      "te": "జాతీయ పౌర రిజిస్టర్‌ను జనగణన చట్టం 1948 కింద తయారు చేస్తారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "I and II are correct. III is wrong: the NRC flows from the Citizenship Act, 1955.",
+     "te": "I, II సరైనవి. III తప్పు: NRC పౌరసత్వ చట్టం 1955 నుంచి వస్తుంది."
+    }
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Manipur — where the Census is paused",
+      "te": "మణిపూర్ — జనగణన ఆగిన రాష్ట్రం"
+     },
+     "view": "northeast",
+     "hl": [
+      "Manipur"
+     ],
+     "hlc": "#9b2c2c",
+     "pts": [
+      {
+       "ll": [
+        24.82,
+        93.94
+       ],
+       "t": {
+        "en": "Imphal (High Court)",
+        "te": "ఇంఫాల్ (హైకోర్టు)"
+       }
+      }
+     ],
+     "ctry": [
+      "Myanmar"
+     ],
+     "cap": {
+      "en": "Manipur borders Myanmar. Census everywhere else goes on.",
+      "te": "మణిపూర్‌కు మయన్మార్ సరిహద్దు. మిగతా చోట్ల జనగణన కొనసాగుతుంది."
+     },
+     "src": "cards/2026-11-11/map-manipurcensus-1-{m}.svg"
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How the hold came about",
+      "te": "నిలిపివేత ఎలా వచ్చింది"
+     },
+     "items": [
+      {
+       "i": "📋",
+       "t": {
+        "en": "7 Jan 2026: Census notification (Registrar General)",
+        "te": "7 జనవరి 2026: జనగణన నోటిఫికేషన్ (రిజిస్ట్రార్ జనరల్)"
+       }
+      },
+      {
+       "i": "📢",
+       "t": {
+        "en": "Groups demand NRC first",
+        "te": "ముందు NRC కావాలని సంఘాల డిమాండ్"
+       }
+      },
+      {
+       "i": "⏸️",
+       "t": {
+        "en": "31 Aug 2026: Centre defers Census in Manipur",
+        "te": "31 ఆగస్టు 2026: మణిపూర్‌లో జనగణన వాయిదా"
+       }
+      },
+      {
+       "i": "⚖️",
+       "t": {
+        "en": "High Court: hold till 30 Apr 2027",
+        "te": "హైకోర్టు: 30 ఏప్రిల్ 2027 వరకు నిలిపివేత"
+       }
+      },
+      {
+       "i": "📝",
+       "t": {
+        "en": "Representations by 25 Nov → speaking order",
+        "te": "25 నవంబర్ లోగా విజ్ఞాపనలు → స్పీకింగ్ ఆర్డర్"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Verdictum — The Kangleipak Students' Association v Union of India (2026:MNHC:259-DB), 6 Nov 2026",
+     "u": "https://www.verdictum.in/manipur-high-court/the-kangleipak-students-association-v-union-of-india-2026mnhc259-db-manipur-census-1625268"
+    },
+    {
+     "t": "All India Radio (News On AIR) — Union Government postpones Census operations in Manipur, 31 Aug 2026",
+     "u": "https://newsonair.gov.in/union-government-postpones-census-operations-in-manipur/"
+    },
+    {
+     "t": "IAS Squad — Important articles from The Hindu, 10 Nov 2026 ('Census to remain on hold in Manipur till April 2027: HC')",
+     "u": "https://iassquad.in/important-articles-from-the-hindu-newspaper-10-11-2026/"
+    }
+   ],
+   "mains": {
+    "en": "The Census is a Union subject, yet it depends on local trust. Discuss with reference to the deferment of the Census in Manipur.",
+    "te": "జనగణన కేంద్ర అంశమే అయినా స్థానిక విశ్వాసంపై ఆధారపడుతుంది. మణిపూర్‌లో జనగణన వాయిదాను ఉదహరిస్తూ చర్చించండి."
+   }
+  },
+  {
+   "id": "rural4g",
+   "kind": "article",
+   "color": "#a86b00",
+   "icon": "rocket",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "In the news · Economy / Infrastructure · DoT data via RTI, 10 Nov 2026",
+    "te": "వార్తల్లో · ఆర్థికం / మౌలిక వసతులు · RTI ద్వారా DoT డేటా, 10 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-III Infrastructure / Digital India",
+    "te": "వివరణ · GS-III మౌలిక వసతులు / డిజిటల్ ఇండియా"
+   },
+   "title": {
+    "en": "Villages without 4G down 75% in four years: the BSNL 4G saturation project",
+    "te": "4G లేని గ్రామాలు నాలుగేళ్లలో 75% తగ్గాయి: BSNL 4G సాచ్యురేషన్ ప్రాజెక్ట్"
+   },
+   "line": {
+    "en": "Villages without 4G fell from 45,180 in 2022 to 11,372 now — the gaps that remain are in hilly, forest and tribal areas.",
+    "te": "4G లేని గ్రామాలు 2022లో 45,180 నుంచి ఇప్పుడు 11,372కి తగ్గాయి — మిగిలిన లోటు కొండ, అటవీ, గిరిజన ప్రాంతాల్లోనే."
+   },
+   "easy": [
+    {
+     "en": "'Saturation' means covering every last village. In July 2022 the Union Cabinet approved the 4G saturation project at ₹26,316 crore to bring 4G to 24,680 uncovered villages in remote areas, and to upgrade 6,279 villages that had only 2G/3G. BSNL builds the towers using India's own (Atmanirbhar) 4G technology stack, and the money comes from the Universal Service Obligation Fund (USOF).",
+     "te": "'సాచ్యురేషన్' అంటే చివరి గ్రామం వరకు కవర్ చేయడం. 2022 జూలైలో కేంద్ర కేబినెట్ ₹26,316 కోట్లతో 4G సాచ్యురేషన్ ప్రాజెక్ట్‌ను ఆమోదించింది — మారుమూల 24,680 గ్రామాలకు 4G, కేవలం 2G/3G ఉన్న 6,279 గ్రామాల అప్‌గ్రేడ్. BSNL దేశీయ (ఆత్మనిర్భర్) 4G సాంకేతికతతో టవర్లు నిర్మిస్తుంది; నిధులు యూనివర్సల్ సర్వీస్ ఆబ్లిగేషన్ ఫండ్ (USOF) నుంచి."
+    },
+    {
+     "en": "Department of Telecommunications (DoT) data obtained under the RTI Act show villages without 4G fell from 45,180 (2022) to 11,372 — about 75% down. The fall is bigger than the project's target because private operators also expanded, and BSNL made intra-circle agreements with Vodafone Idea in 12–13 circles.",
+     "te": "RTI చట్టం కింద పొందిన టెలికమ్యూనికేషన్స్ శాఖ (DoT) డేటా ప్రకారం 4G లేని గ్రామాలు 45,180 (2022) నుంచి 11,372కి తగ్గాయి — సుమారు 75% తగ్గుదల. ప్రైవేట్ ఆపరేటర్లు కూడా విస్తరించడం, 12–13 సర్కిళ్లలో BSNL వొడాఫోన్ ఐడియాతో ఇంట్రా-సర్కిల్ ఒప్పందాలు చేసుకోవడం వల్ల తగ్గుదల లక్ష్యాన్ని మించింది."
+    },
+    {
+     "en": "About 40 lakh people (about 0.25% of India's population) still live in villages without 4G. Odisha has the most such villages (1,789), then Arunachal Pradesh (1,518). The government has sanctioned another 26,000 sites.",
+     "te": "ఇంకా సుమారు 40 లక్షల మంది (దేశ జనాభాలో సుమారు 0.25%) 4G లేని గ్రామాల్లో నివసిస్తున్నారు. అలాంటి గ్రామాలు ఎక్కువగా ఒడిశాలో (1,789), తర్వాత అరుణాచల్ ప్రదేశ్‌లో (1,518) ఉన్నాయి. ప్రభుత్వం మరో 26,000 సైట్లను మంజూరు చేసింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Villages without 4G",
+      "te": "4G లేని గ్రామాలు"
+     },
+     {
+      "en": "45,180 (2022) → 11,372 (2026), about 75% fall",
+      "te": "45,180 (2022) → 11,372 (2026), సుమారు 75% తగ్గుదల"
+     }
+    ],
+    [
+     {
+      "en": "Project approved",
+      "te": "ప్రాజెక్ట్ ఆమోదం"
+     },
+     {
+      "en": "27 July 2022, ₹26,316 crore",
+      "te": "27 జూలై 2022, ₹26,316 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Target",
+      "te": "లక్ష్యం"
+     },
+     {
+      "en": "24,680 uncovered villages + 6,279 villages upgraded from 2G/3G",
+      "te": "24,680 కవరేజ్ లేని గ్రామాలు + 2G/3G నుంచి అప్‌గ్రేడ్ అయ్యే 6,279 గ్రామాలు"
+     }
+    ],
+    [
+     {
+      "en": "Built by / funded by",
+      "te": "నిర్మాణం / నిధులు"
+     },
+     {
+      "en": "BSNL, with India's own 4G stack / USOF",
+      "te": "BSNL, దేశీయ 4G స్టాక్‌తో / USOF"
+     }
+    ],
+    [
+     {
+      "en": "Most uncovered",
+      "te": "ఎక్కువ లోటు"
+     },
+     {
+      "en": "Odisha 1,789; Arunachal Pradesh 1,518",
+      "te": "ఒడిశా 1,789; అరుణాచల్ ప్రదేశ్ 1,518"
+     }
+    ],
+    [
+     {
+      "en": "People still left out",
+      "te": "ఇంకా దూరంగా ఉన్నవారు"
+     },
+     {
+      "en": "About 40 lakh (about 0.25% of population)",
+      "te": "సుమారు 40 లక్షలు (జనాభాలో సుమారు 0.25%)"
+     }
+    ],
+    [
+     {
+      "en": "Data source",
+      "te": "డేటా మూలం"
+     },
+     {
+      "en": "DoT data obtained under the RTI Act, 2005",
+      "te": "RTI చట్టం 2005 కింద పొందిన DoT డేటా"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Telecom static GK",
+     "te": "లింక్ చెయిన్ · టెలికాం స్టాటిక్ GK"
+    },
+    "l": [
+     {
+      "en": "USOF is now called Digital Bharat Nidhi under the Telecommunications Act, 2023",
+      "te": "టెలికమ్యూనికేషన్స్ చట్టం 2023 కింద USOFను ఇప్పుడు డిజిటల్ భారత్ నిధి అంటారు"
+     },
+     {
+      "en": "BharatNet = optical fibre to gram panchayats; 4G saturation = mobile towers in villages — two different schemes",
+      "te": "భారత్‌నెట్ = గ్రామ పంచాయతీలకు ఆప్టికల్ ఫైబర్; 4G సాచ్యురేషన్ = గ్రామాల్లో మొబైల్ టవర్లు — రెండు వేర్వేరు పథకాలు"
+     },
+     {
+      "en": "Telecom is a Union List subject (posts, telegraphs, telephones)",
+      "te": "టెలికాం కేంద్ర జాబితా అంశం (తపాలా, టెలిగ్రాఫ్, టెలిఫోన్లు)"
+     },
+     {
+      "en": "Village base is outdated: no national Census since 2011 — links to today's Census item",
+      "te": "గ్రామాల ఆధారం పాతది: 2011 తర్వాత జాతీయ జనగణన జరగలేదు — నేటి జనగణన అంశంతో లింక్"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The 75% fall is NOT due to BSNL alone — private operators also expanded. The project target was 24,680 villages, but the fall (about 33,800) is bigger. The fund is USOF (now Digital Bharat Nidhi), not BharatNet.",
+    "te": "75% తగ్గుదల BSNL ఒక్కదాని వల్ల కాదు — ప్రైవేట్ ఆపరేటర్లు కూడా విస్తరించారు. ప్రాజెక్ట్ లక్ష్యం 24,680 గ్రామాలు, కానీ తగ్గుదల (సుమారు 33,800) ఎక్కువ. నిధి USOF (ఇప్పుడు డిజిటల్ భారత్ నిధి), భారత్‌నెట్ కాదు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the 4G saturation project, consider the following statements:",
+     "te": "4G సాచ్యురేషన్ ప్రాజెక్ట్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "It is executed by BSNL using an indigenous 4G technology stack.",
+      "te": "దేశీయ 4G సాంకేతికతతో BSNL దీన్ని అమలు చేస్తోంది."
+     },
+     {
+      "en": "It is funded through the Universal Service Obligation Fund.",
+      "te": "ఇది యూనివర్సల్ సర్వీస్ ఆబ్లిగేషన్ ఫండ్ ద్వారా నిధులు పొందుతుంది."
+     },
+     {
+      "en": "The fall in villages without 4G since 2022 is entirely due to BSNL towers.",
+      "te": "2022 నుంచి 4G లేని గ్రామాల తగ్గుదల పూర్తిగా BSNL టవర్ల వల్లే."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "I and II are correct. III is wrong: private operators also expanded; the fall exceeds BSNL's target.",
+     "te": "I, II సరైనవి. III తప్పు: ప్రైవేట్ ఆపరేటర్లు కూడా విస్తరించారు; తగ్గుదల BSNL లక్ష్యాన్ని మించింది."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Villages without 4G",
+      "te": "4G లేని గ్రామాలు"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "2022",
+        "te": "2022"
+       },
+       "v": 45180,
+       "vl": "45,180"
+      },
+      {
+       "t": {
+        "en": "2026",
+        "te": "2026"
+       },
+       "v": 11372,
+       "vl": "11,372"
+      },
+      {
+       "t": {
+        "en": "Odisha (now)",
+        "te": "ఒడిశా (ఇప్పుడు)"
+       },
+       "v": 1789,
+       "vl": "1,789"
+      },
+      {
+       "t": {
+        "en": "Arunachal (now)",
+        "te": "అరుణాచల్ (ఇప్పుడు)"
+       },
+       "v": 1518,
+       "vl": "1,518"
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Where most uncovered villages are",
+      "te": "కవరేజ్ లేని గ్రామాలు ఎక్కువగా ఎక్కడ"
+     },
+     "view": "india",
+     "hl": [
+      "Odisha",
+      "Arunachal Pradesh"
+     ],
+     "hlc": "#a86b00",
+     "cap": {
+      "en": "Odisha (1,789) and Arunachal Pradesh (1,518) top the list — hills, forests, tribal areas.",
+      "te": "ఒడిశా (1,789), అరుణాచల్ ప్రదేశ్ (1,518) ముందున్నాయి — కొండలు, అడవులు, గిరిజన ప్రాంతాలు."
+     },
+     "src": "cards/2026-11-11/map-rural4g-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "USOF (DoT) — Saturation of 4G mobile services",
+     "u": "https://usof.gov.in/en/saturation-of-4g-mobile-services"
+    },
+    {
+     "t": "Civilsdaily — Villages without 4G decline 75% in 4 years on BSNL's saturation project (The Hindu), 10 Nov 2026",
+     "u": "https://www.civilsdaily.com/news/villages-without-4g-decline-75-in-4-years-on-bsnls-saturation-project/"
+    },
+    {
+     "t": "Broadcast and CableSat — Villages without 4G connectivity fall to 11,372 from 45,180 in 2022, 10 Nov 2026",
+     "u": "https://www.broadcastandcablesat.co.in/villages-without-4g-connectivity-fall-to-11372-from-45180-in-2022/"
+    }
+   ],
+   "mains": {
+    "en": "'Last-mile connectivity is now a problem of geography, not technology.' Examine with reference to the 4G saturation project.",
+    "te": "'చివరి మైలు కనెక్టివిటీ ఇప్పుడు సాంకేతిక సమస్య కాదు, భౌగోళిక సమస్య.' 4G సాచ్యురేషన్ ప్రాజెక్ట్‌ను ఉదహరిస్తూ పరిశీలించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "azad",
+   "q": {
+    "en": "Consider the following statements about Maulana Abul Kalam Azad:",
+    "te": "మౌలానా అబుల్ కలాం ఆజాద్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. He was born in Mecca on 11 November 1888.",
+     "te": "I. 11 నవంబర్ 1888న మక్కాలో జన్మించారు."
+    },
+    {
+     "en": "II. He was Congress President in 1923 and again in 1940–46.",
+     "te": "II. 1923లో, మళ్లీ 1940–46లో కాంగ్రెస్ అధ్యక్షుడు."
+    },
+    {
+     "en": "III. His autobiography 'India Wins Freedom' was published in 1947 to mark Independence.",
+     "te": "III. స్వాతంత్ర్యం సందర్భంగా 1947లో ఆయన ఆత్మకథ 'ఇండియా విన్స్ ఫ్రీడమ్' ప్రచురితమైంది."
+    },
+    {
+     "en": "IV. He was active in the Khilafat Movement.",
+     "te": "IV. ఖిలాఫత్ ఉద్యమంలో చురుగ్గా పాల్గొన్నారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is wrong: India Wins Freedom was published posthumously in 1959.",
+    "te": "III తప్పు: ఇండియా విన్స్ ఫ్రీడమ్ ఆయన మరణం తర్వాత 1959లో ప్రచురితమైంది."
+   }
+  },
+  {
+   "topic": "azad",
+   "q": {
+    "en": "Which of the following pairs is/are correctly matched?",
+    "te": "కింది జతల్లో సరిగా జతపరిచినవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. National Education Day — 11 November",
+     "te": "I. జాతీయ విద్యా దినోత్సవం — 11 నవంబర్"
+    },
+    {
+     "en": "II. International Day of Education (UN) — 5 September",
+     "te": "II. అంతర్జాతీయ విద్యా దినోత్సవం (UN) — 5 సెప్టెంబర్"
+    },
+    {
+     "en": "III. National Education Day declared by the Union Government — 2008",
+     "te": "III. కేంద్రం జాతీయ విద్యా దినోత్సవం ప్రకటన — 2008"
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "II is wrong: the UN's International Day of Education is 24 January; 5 September is Teachers' Day.",
+    "te": "II తప్పు: UN అంతర్జాతీయ విద్యా దినోత్సవం 24 జనవరి; 5 సెప్టెంబర్ ఉపాధ్యాయ దినోత్సవం."
+   }
+  },
+  {
+   "topic": "armistice",
+   "q": {
+    "en": "Consider the following statements about the end of World War I:",
+    "te": "మొదటి ప్రపంచ యుద్ధ ముగింపుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The Armistice was signed at 11 a.m. on 11 November 1918.",
+     "te": "I. ఆర్మిస్టిస్‌పై 1918 నవంబర్ 11న ఉదయం 11 గంటలకు సంతకం జరిగింది."
+    },
+    {
+     "en": "II. Marshal Ferdinand Foch signed for the Allies.",
+     "te": "II. మిత్రరాజ్యాల తరఫున మార్షల్ ఫెర్డినాండ్ ఫోష్ సంతకం చేశారు."
+    },
+    {
+     "en": "III. The Armistice was first agreed for 36 days.",
+     "te": "III. ఆర్మిస్టిస్‌ను మొదట 36 రోజులకు అంగీకరించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I is wrong: it was signed at 5 a.m.; 11 a.m. is when the fighting stopped.",
+    "te": "I తప్పు: సంతకం ఉదయం 5 గంటలకు; 11 గంటలకు పోరాటం ఆగింది."
+   }
+  },
+  {
+   "topic": "armistice",
+   "q": {
+    "en": "Match List I with List II and select the correct answer:",
+    "te": "జాబితా Iని జాబితా IIతో జతపరిచి సరైన సమాధానం ఎంచుకోండి:"
+   },
+   "st": [
+    {
+     "en": "I. Armistice — (A) 28 June 1919",
+     "te": "I. ఆర్మిస్టిస్ — (A) 28 జూన్ 1919"
+    },
+    {
+     "en": "II. Treaty of Versailles — (B) 11 November 1918",
+     "te": "II. వర్సైల్స్ ఒప్పందం — (B) 11 నవంబర్ 1918"
+    },
+    {
+     "en": "III. Paris Peace Conference opens — (C) 18 January 1919",
+     "te": "III. పారిస్ శాంతి సదస్సు ప్రారంభం — (C) 18 జనవరి 1919"
+    }
+   ],
+   "o": [
+    {
+     "en": "I-A, II-B, III-C",
+     "te": "I-A, II-B, III-C"
+    },
+    {
+     "en": "I-B, II-C, III-A",
+     "te": "I-B, II-C, III-A"
+    },
+    {
+     "en": "I-C, II-A, III-B",
+     "te": "I-C, II-A, III-B"
+    },
+    {
+     "en": "I-B, II-A, III-C",
+     "te": "I-B, II-A, III-C"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Armistice = 11 Nov 1918; Peace Conference opened 18 Jan 1919; Versailles signed 28 June 1919. Option (a) swaps the armistice and the treaty.",
+    "te": "ఆర్మిస్టిస్ = 11 నవంబర్ 1918; శాంతి సదస్సు 18 జనవరి 1919; వర్సైల్స్ 28 జూన్ 1919. (a) ఆప్షన్ ఆర్మిస్టిస్, ఒప్పందాన్ని తారుమారు చేస్తుంది."
+   }
+  },
+  {
+   "topic": "apcabinet",
+   "q": {
+    "en": "With reference to the AP Cabinet meeting of 10 November 2026, which of the statements is/are correct?",
+    "te": "10 నవంబర్ 2026 ఏపీ కేబినెట్ సమావేశానికి సంబంధించి సరైన వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. The 512 MW green AI data centre approved is at Bhogapuram in Vizianagaram district.",
+     "te": "I. ఆమోదించిన 512 MW గ్రీన్ AI డేటా సెంటర్ విజయనగరం జిల్లా భోగాపురంలో ఉంది."
+    },
+    {
+     "en": "II. The AP Robotics and Physical AI Policy covers 2026–36.",
+     "te": "II. ఏపీ రోబోటిక్స్ & ఫిజికల్ AI పాలసీ 2026–36 కాలానికి."
+    },
+    {
+     "en": "III. Land in the Nakkapalli Bulk Drug Park was allotted to the Hetero Group.",
+     "te": "III. నక్కపల్లి బల్క్ డ్రగ్ పార్క్‌లో హెటెరో గ్రూప్‌కు భూమి కేటాయించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I is wrong: the ₹31,387-crore 512 MW centre is at Bheemunipatnam (Visakhapatnam); Vizianagaram land is for Reliance.",
+    "te": "I తప్పు: ₹31,387 కోట్ల 512 MW కేంద్రం భీమునిపట్నం (విశాఖపట్నం)లో; విజయనగరం భూమి రిలయన్స్‌కు."
+   }
+  },
+  {
+   "topic": "apcabinet",
+   "q": {
+    "en": "Which of the following statements is INCORRECT?",
+    "te": "కింది వాటిలో తప్పు వాక్యం ఏది?"
+   },
+   "st": [
+    {
+     "en": "I. Small Modular Reactors are small nuclear reactors built in factory modules.",
+     "te": "I. స్మాల్ మాడ్యులర్ రియాక్టర్లు ఫ్యాక్టరీ మాడ్యూళ్లుగా తయారయ్యే చిన్న అణు రియాక్టర్లు."
+    },
+    {
+     "en": "II. Police is a State List subject, so AP could create its own Directorate of Traffic Management and Road Safety.",
+     "te": "II. పోలీసు రాష్ట్ర జాబితా అంశం, కాబట్టి ఏపీ సొంతంగా ట్రాఫిక్ & రోడ్డు భద్రతా డైరెక్టరేట్ ఏర్పాటు చేయగలిగింది."
+    },
+    {
+     "en": "III. Nuclear energy is a State subject, so AP can build an SMR without the Centre's approval.",
+     "te": "III. అణు శక్తి రాష్ట్ర అంశం, కాబట్టి కేంద్ర అనుమతి లేకుండానే ఏపీ SMR నిర్మించగలదు."
+    },
+    {
+     "en": "IV. LFP (Lithium Iron Phosphate) is a battery chemistry used in EVs.",
+     "te": "IV. LFP (లిథియం ఐరన్ ఫాస్ఫేట్) EVలలో వాడే బ్యాటరీ రసాయనం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I",
+     "te": "I"
+    },
+    {
+     "en": "II",
+     "te": "II"
+    },
+    {
+     "en": "III",
+     "te": "III"
+    },
+    {
+     "en": "IV",
+     "te": "IV"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "III is incorrect: nuclear energy is a Union subject; a State can only study it, plants need Centre's approval.",
+    "te": "III తప్పు: అణు శక్తి కేంద్ర అంశం; రాష్ట్రం అధ్యయనం మాత్రమే చేయగలదు, ప్లాంట్లకు కేంద్ర అనుమతి కావాలి."
+   }
+  },
+  {
+   "topic": "manipurcensus",
+   "q": {
+    "en": "Consider the following statements about the Manipur High Court's order on the Census:",
+    "te": "జనగణనపై మణిపూర్ హైకోర్టు ఉత్తర్వుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The Census in Manipur stays in abeyance till 30 April 2027.",
+     "te": "I. మణిపూర్‌లో జనగణన 30 ఏప్రిల్ 2027 వరకు నిలిపివేతలో ఉంటుంది."
+    },
+    {
+     "en": "II. The Court cancelled the Census notifications for Manipur.",
+     "te": "II. మణిపూర్ జనగణన నోటిఫికేషన్లను కోర్టు రద్దు చేసింది."
+    },
+    {
+     "en": "III. The Registrar General must decide the representations by one common speaking order.",
+     "te": "III. రిజిస్ట్రార్ జనరల్ విజ్ఞాపనలన్నింటిపై ఒకే స్పీకింగ్ ఆర్డర్ ఇవ్వాలి."
+    },
+    {
+     "en": "IV. After that order, the exercise stays suspended for four more weeks.",
+     "te": "IV. ఆ ఉత్తర్వు తర్వాత మరో నాలుగు వారాలు నిలిపివేత కొనసాగుతుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "II is wrong: the order was passed on consent; the notifications continue with no rollback — only the exercise is on hold.",
+    "te": "II తప్పు: అంగీకారంతో ఉత్తర్వు; నోటిఫికేషన్లు రద్దు కాలేదు — ప్రక్రియ మాత్రమే నిలిచింది."
+   }
+  },
+  {
+   "topic": "manipurcensus",
+   "q": {
+    "en": "Which of the following statements about the Census and the NRC is/are correct?",
+    "te": "జనగణన, NRCకి సంబంధించి కింది వాటిలో సరైనవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. The Census counts all persons living in India; the NRC is a register of citizens.",
+     "te": "I. జనగణన భారత్‌లో నివసించే అందరినీ లెక్కిస్తుంది; NRC పౌరుల రిజిస్టర్."
+    },
+    {
+     "en": "II. Census is a Concurrent List subject, so States share the power to make Census laws.",
+     "te": "II. జనగణన ఉమ్మడి జాబితా అంశం, కాబట్టి జనగణన చట్టాలు చేసే అధికారం రాష్ట్రాలకూ ఉంది."
+    },
+    {
+     "en": "III. Census data is used for delimitation of seats and SC/ST reservation in legislatures.",
+     "te": "III. చట్టసభల్లో స్థానాల పునర్విభజన, SC/ST రిజర్వేషన్‌కు జనగణన డేటా వాడతారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is wrong: Census is in the Union List (Entry 69); only Parliament can make Census law.",
+    "te": "II తప్పు: జనగణన కేంద్ర జాబితాలో ఉంది (ఎంట్రీ 69); పార్లమెంట్ మాత్రమే చట్టం చేయగలదు."
+   }
+  },
+  {
+   "topic": "rural4g",
+   "q": {
+    "en": "Consider the following statements about rural 4G coverage:",
+    "te": "గ్రామీణ 4G కవరేజ్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Villages without 4G fell from 45,180 in 2022 to 11,372, as per DoT data obtained under RTI.",
+     "te": "I. RTI ద్వారా పొందిన DoT డేటా ప్రకారం 4G లేని గ్రామాలు 2022లో 45,180 నుంచి 11,372కి తగ్గాయి."
+    },
+    {
+     "en": "II. Arunachal Pradesh has the highest number of villages without 4G.",
+     "te": "II. 4G లేని గ్రామాలు అత్యధికంగా అరుణాచల్ ప్రదేశ్‌లో ఉన్నాయి."
+    },
+    {
+     "en": "III. About 40 lakh people still live in villages without 4G.",
+     "te": "III. ఇంకా సుమారు 40 లక్షల మంది 4G లేని గ్రామాల్లో నివసిస్తున్నారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "II is wrong: Odisha has the most (1,789); Arunachal Pradesh is second (1,518).",
+    "te": "II తప్పు: ఒడిశాలో ఎక్కువ (1,789); అరుణాచల్ ప్రదేశ్ రెండో స్థానం (1,518)."
+   }
+  },
+  {
+   "topic": "rural4g",
+   "q": {
+    "en": "Which of the following statements is/are correct?",
+    "te": "కింది వాటిలో సరైనవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. The 4G saturation project was approved in July 2022 at ₹26,316 crore.",
+     "te": "I. 4G సాచ్యురేషన్ ప్రాజెక్ట్ 2022 జూలైలో ₹26,316 కోట్లతో ఆమోదం పొందింది."
+    },
+    {
+     "en": "II. BharatNet and the 4G saturation project are the same scheme.",
+     "te": "II. భారత్‌నెట్, 4G సాచ్యురేషన్ ప్రాజెక్ట్ ఒకే పథకం."
+    },
+    {
+     "en": "III. USOF is now called Digital Bharat Nidhi under the Telecommunications Act, 2023.",
+     "te": "III. టెలికమ్యూనికేషన్స్ చట్టం 2023 కింద USOFను ఇప్పుడు డిజిటల్ భారత్ నిధి అంటారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "II is wrong: BharatNet lays optical fibre to gram panchayats; 4G saturation puts mobile towers in villages.",
+    "te": "II తప్పు: భారత్‌నెట్ గ్రామ పంచాయతీలకు ఆప్టికల్ ఫైబర్; 4G సాచ్యురేషన్ గ్రామాల్లో మొబైల్ టవర్లు."
+   }
+  }
+ ]
+}
