@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "M1iId3fIyqYDue3YLUqMXw==",
 "iter": 200000,
-"check": "5iZ9uDLaOQvxt6SrzKVcG6QSaLrGpri5bfSYas1twgdIJqM/6JYAfyjEdA==",
+"check": "BKD/QVu2vfI7rgKBGv7VcjsNvZU229BawrWX6BCzXPrDg1gF4z3v35H8sg==",
 "lessons": {
 "dsc-sgt-perspectives-day2": "Perspectives in Education, Day 2: Teachers, Rights, Concerns, NCF and NEP",
 "dsc-sgt-perspectives-day2-te": "విద్యా దృక్పథాలు, 2వ రోజు: ఉపాధ్యాయులు, హక్కులు, సమకాలీన అంశాలు, NCF, NEP",
@@ -29,6 +29,8 @@
 "dsc-sgt-maths-day6": "Mathematics, Day 6: Data Handling; Mathematics Methodology (all 6 units)",
 "dsc-sgt-maths-day6-te": "గణితం, రోజు 6: దత్తాంశ నిర్వహణ; గణిత బోధనా పద్ధతులు (మొత్తం 6 యూనిట్లు)",
 "dsc-sgt-maths-test": "DSC SGT Mathematics Test: Content & Methodology",
-"dsc-sgt-maths-test-te": "DSC SGT గణితం టెస్ట్: విషయం & బోధనా పద్ధతులు"
+"dsc-sgt-maths-test-te": "DSC SGT గణితం టెస్ట్: విషయం & బోధనా పద్ధతులు",
+"dsc-sgt-science-day1": "Science (EVS), Day 1: Living Things and Plants; Animals; Cell and Microorganisms",
+"dsc-sgt-science-day1-te": "సైన్స్ (EVS), రోజు 1: సజీవులు, మొక్కలు; జంతువులు; కణం, సూక్ష్మజీవులు"
 }
 }
