@@ -31,10 +31,11 @@ input:focus{outline:none;border-color:var(--leaf)}
 </head>
 <body>
 <div class="card" id="card"><p id="wait">…</p></div>
+<script src="devcode.js"></script>
 <script>
 (function(){
 var P=new URLSearchParams(location.search),ID=P.get("l")||"",KS="sul_aee_code",IDX=null;
-var T={lk:"🔒 This is part of the APPSC AEE course",p:"Enter the course code you received on Telegram after payment. You enter it once; after that every module, test and PDF opens directly on this phone.",
+var T={lk:"🔒 This is part of the APPSC AEE course",p:"Enter the personal course code you received on Telegram after payment. You enter it once; after that every module, test and PDF opens directly on this phone.",
   lb:"Course code",go:"Open",chk:"Checking…",bad:"That code doesn't match. Please check it and try again.",net:"It didn't load. Check your internet and try again.",
   or:"No code yet?",join:"Join the course for ₹499 →",all:"← All modules",none:"This lesson was not found.",open:"Opening…",pdf:"Your PDF is ready",opn:"Open PDF",dl:"⬇ Download PDF"};
 var card=document.getElementById("card"),te=new TextEncoder(),b64=function(s){return Uint8Array.from(atob(s),function(c){return c.charCodeAt(0)})};
@@ -45,13 +46,14 @@ function dec(k,u8){return crypto.subtle.decrypt({name:"AES-GCM",iv:u8.slice(0,12
 var TOP='<div class="top"><a href="./"><img src="sulabham-icon.svg" alt="" width="30" height="30"><span>Sula<b>bham</b></span></a></div>';
 function form(msg,cls){
   var title=IDX.lessons[ID].t;
-  card.innerHTML=TOP+'<div class="lock">🔒</div><h1></h1><p>'+T.lk+'. '+T.p+'</p><form id="f"><label for="c">'+T.lb+'</label><input id="c" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="AEE-XXXXXX">'+
+  card.innerHTML=TOP+'<div class="lock">🔒</div><h1></h1><p>'+T.lk+'. '+T.p+'</p><form id="f"><label for="c">'+T.lb+'</label><input id="c" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="XXXXX-XXXXX">'+
    '<button class="btn y" type="submit">'+T.go+'</button><div class="msg '+(cls||"")+'" id="m"></div></form>'+
+   '<p style="margin:10px 0 0;font-size:.88rem;background:#fff3cf;border:1px dashed #e3a400;border-radius:10px;padding:8px 11px;text-align:left">Your device number: <b style="font-family:monospace;font-size:1.08rem;letter-spacing:.08em">D-'+SUL_dev.id()+'</b><br><small>Send this number with your payment screenshot on Telegram. Your code will work on this phone only.</small></p>'+
    '<div class="or">'+T.or+'</div><a class="btn o" href="aee.html#join">'+T.join+'</a><a class="btn o" href="aee.html#lessons">'+T.all+'</a>';
   card.querySelector("h1").textContent=title;document.title=title+" · Sulabham";
   if(msg)document.getElementById("m").textContent=msg;
   document.getElementById("f").addEventListener("submit",function(e){e.preventDefault();var c=document.getElementById("c").value;
-    var m=document.getElementById("m");m.className="msg";m.textContent=T.chk;open(c,true)});
+    var m=document.getElementById("m");m.className="msg";m.textContent=T.chk;SUL_dev.resolve(c,"aee").then(function(mc){if(mc)open(mc,true);else{m.className="msg bad";m.textContent=T.bad}})});
 }
 function open(code,typed){
   key(code).then(function(k){return dec(k,b64(IDX.check)).then(function(){return k})}).then(function(k){

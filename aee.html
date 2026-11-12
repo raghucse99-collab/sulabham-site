@@ -151,6 +151,7 @@ footer{color:var(--muted);font-size:.85rem;padding:20px 0 40px}
 .sn{display:flex;gap:8px;align-items:center;background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:8px 12px;font-size:.92rem;color:var(--muted);min-height:44px}
 .sn span{flex:1}
 .code{background:var(--card);border:2px dashed #ff9d3d;border-radius:16px;padding:14px}
+.devno{margin:10px 0 0;font-size:.88rem;background:var(--pasupu-soft,#fff3cf);border:1px dashed var(--pasupu,#e3a400);border-radius:10px;padding:8px 11px}.devno b{font-family:monospace;font-size:1.08rem;letter-spacing:.08em}
 .code form{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
 .code input{flex:1;min-width:170px;font:inherit;font-size:1.05rem;letter-spacing:.08em;text-transform:uppercase;padding:10px 12px;border:2px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);min-height:46px}
 .code input:focus{outline:none;border-color:#ff9d3d}
@@ -168,6 +169,7 @@ footer{color:var(--muted);font-size:.85rem;padding:20px 0 40px}
 <div class="sticky"><div class="wrap" id="bar"></div></div>
 <footer><div class="wrap" id="foot"></div></footer>
 <script src="share.js"></script>
+<script src="devcode.js"></script>
 <script>
 (function(){
 var UPI="raghu.cse999@axl",TG="https://t.me/+G7R0gSQgjQBhOWNl",
@@ -229,8 +231,8 @@ var x={
  incl:["Every module as it is released, till the exam","Notes from basics with photos and diagrams","2023 questions mapped to every topic","5-question quiz after every topic","50-question test + printable PDF per module","Memory codes and Notebook pages for revision"],
  howH:"How to join — 3 easy steps",
  s:[["Pay ₹499 by UPI","Use any UPI app — PhonePe, Google Pay, Paytm. On a computer, scan the QR with your phone."],
-  ["Send the payment screenshot on Telegram","Write “AEE” with your name and your branch (Civil / Mechanical / Electrical). You get the course code in reply."],
-  ["Enter the code and start studying","Enter it once below or on any 🔒 module — every module, test and PDF opens on this phone, including new ones till the exam."]],
+  ["Send the payment screenshot and your device number on Telegram","Write “AEE”, your name, your branch (Civil / Mechanical / Electrical) and your device number (D-XXXXXX, shown below). You get your personal course code in reply."],
+  ["Enter the code and start studying","Enter it once below or on any 🔒 module — every module, test and PDF opens on this phone, including new ones till the exam. The code works only on the phone whose device number you sent."]],
  pay:"Pay ₹499 with UPI app",upi:"UPI ID",copy:"Copy",copied:"Copied ✓",tg:"Open Telegram",
  codeH:"Already have a course code?",codeP:"Enter it once. It is saved on this phone.",codeB:"Unlock",chk:"Checking…",bad:"That code doesn't match. Please check it and try again.",good:"✅ Unlocked — every module now opens directly.",
  okbar:"✅ Course unlocked on this phone. Open any module below.",
@@ -239,7 +241,8 @@ var x={
  faq:[["Is everything ready today?","No. Ten modules are ready now — Strength of Materials, Fluid Mechanics, Surveying, Building Materials, Transportation Engineering, Soil Mechanics & Foundation Engineering, Environmental Engineering, Hydraulics, Hydrology & Water Resources, Irrigation Engineering and Structural Analysis. New modules are added one at a time in syllabus order, and each one opens with the same code at no extra cost."],
   ["I am Mechanical or Electrical. Is it useful for me now?","Paper 2 modules (Strength of Materials, Fluid Mechanics) are common to Civil and Mechanical and are ready. Paper 3 Mechanical, the Electrical papers and Paper 1 General Studies are planned but not yet released — check the course map before you pay."],
   ["Can I try before paying?","Yes. Modules 1 and 2, the Module 2 test and the syllabus tracker are completely free."],
-  ["How do I open the locked (🔒) modules?","After payment you get a course code on Telegram. Enter it once — after that every module, test and PDF opens directly on your phone, including new ones as they are added."],
+  ["How do I open the locked (🔒) modules?","After payment, send your device number (shown in the course-code box on this page, like D-7K3QX9) on Telegram. You get a personal course code made for that phone. Enter it once — after that every module, test and PDF opens directly on your phone, including new ones as they are added."],
+  ["I changed my phone or cleared my browser. What now?","A new phone or cleared browser data gives a new device number. Send the new number with your earlier payment screenshot on Telegram and you get a new code free of charge."],
   ["Which language?","English. The exam is in English and the notes use simple English with everyday examples."],
   ["Are the tests previous-year questions?","The 2023 questions are analysed and mapped to topics inside the notes. The quiz and test questions are new practice questions written in the same style and difficulty."],
   ["Is this official?","No. Sulabham is an independent study platform. Always check official notices on psc.ap.gov.in."]],
@@ -282,7 +285,7 @@ function draw(){got=0;answered=0;
      if(i===0)extra='<div class="upi"><a class="btn y" href="'+PAY+'">'+x.pay+'</a></div><div class="upi"><span>'+x.upi+':</span><code>'+UPI+'</code><button type="button" class="mini" id="cpUpi">'+x.copy+'</button></div><img class="qr" src="cards/aee/aee-qr.png" alt="UPI QR ₹499" width="150" height="150">';
      if(i===1)extra='<div class="upi"><a class="btn g" href="'+TG+'" target="_blank" rel="noopener">✈️ '+x.tg+'</a></div>';
      return'<div class="stp"><i>'+(i+1)+'</i><div><b>'+s[0]+'</b><p>'+s[1]+'</p>'+extra+'</div></div>'}).join("")+'</div></section>';
-  h+='<section id="code"><div class="code"><b>🔑 '+x.codeH+'</b><div style="color:var(--muted);font-size:.92rem">'+x.codeP+'</div><form id="cf"><input id="ci" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="AEE-XXXXXX" aria-label="Course code"><button class="btn k" type="submit">'+x.codeB+'</button></form><div class="msg" id="cm"></div></div></section>';}
+  h+='<section id="code"><div class="code"><b>🔑 '+x.codeH+'</b><div style="color:var(--muted);font-size:.92rem">'+x.codeP+'</div><form id="cf"><input id="ci" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="XXXXX-XXXXX" aria-label="Course code"><button class="btn k" type="submit">'+x.codeB+'</button></form><div class="msg" id="cm"></div><p class="devno">Your device number: <b>D-'+SUL_dev.id()+'</b><br><small>Send this number with your payment screenshot. Your code will work on this phone only.</small></p></div></section>';}
   h+='<section><div class="poster"><img src="'+IMG+'" alt="'+esc(x.buyH)+' ₹499" width="1080" height="1350" loading="lazy"><div><h2>'+x.posterH+'</h2><p>'+x.posterP+'</p><div class="hacts"><a class="btn y" href="'+IMG+'" download="sulabham-aee-course.png">'+x.dl+'</a>'+sh("btn k",x.share)+'</div></div></div></section>';
   h+='<section class="faq"><h2>'+x.faqH+'</h2>'+x.faq.map(function(f){return'<details><summary>'+f[0]+'</summary><p>'+f[1]+'</p></details>'}).join("")+'</section>';
   h+='<section><div class="big"><span>'+x.big+'</span>'+sh("btn y",x.share)+'</div></section></main>';
@@ -300,7 +303,7 @@ function valid(code){return idx().then(function(I){return crypto.subtle.importKe
    return crypto.subtle.decrypt({name:"AES-GCM",iv:c.slice(0,12)},k,c.slice(12))})})}
 document.addEventListener("submit",function(e){if(e.target.id!=="cf")return;e.preventDefault();var c=document.getElementById("ci").value,m=document.getElementById("cm");
   if(!norm(c))return;m.className="msg";m.textContent=x.chk;
-  valid(c).then(function(){try{localStorage.setItem(KS,norm(c))}catch(z){}OPEN=true;location.hash="#lessons";draw()},function(){m.className="msg bad";m.textContent=x.bad})});
+  SUL_dev.resolve(c,"aee").then(function(mc){if(!mc)throw new Error("bad");return valid(mc).then(function(){return mc})}).then(function(mc){try{localStorage.setItem(KS,norm(mc))}catch(z){}OPEN=true;location.hash="#lessons";draw()},function(){m.className="msg bad";m.textContent=x.bad})});
 document.addEventListener("click",function(e){
   var o=e.target.closest(".opts button");if(o&&!o.disabled){var q=o.closest(".qz"),a=+q.getAttribute("data-a"),j=+o.getAttribute("data-j");
     q.querySelectorAll(".opts button").forEach(function(btn,k){btn.disabled=true;if(k===a)btn.classList.add("ok")});if(j!==a)o.classList.add("no");else got++;
