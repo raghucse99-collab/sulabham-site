@@ -1,0 +1,232 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-12 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about Salim Ali:
+I. He was born on 12 November 1896 in Bombay.
+II. 'The Book of Indian Birds' was co-written with S. Dillon Ripley.
+III. He was nominated to the Rajya Sabha in 1985.
+IV. His autobiography is titled 'The Fall of a Sparrow'.
+
+--- QUESTION ---
+Q1. Consider the following statements about Salim Ali: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, III and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: 'The Book of Indian Birds' (1941) is his own; the 10-volume 'Handbook' was with Ripley.
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Match the place with its link to Salim Ali and choose the correct pairs:
+I. Bharatpur — Keoladeo bird sanctuary he helped protect
+II. Silent Valley — Karnataka
+III. Coimbatore — SACON
+IV. Mumbai — Bombay Natural History Society
+
+--- OPTIONS ---
+(a) I, III and IV only
+(b) I and II only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: Silent Valley National Park is in Kerala, not Karnataka.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements about Madan Mohan Malaviya:
+I. He presided over the Indian National Congress in 1909 and 1918.
+II. At the 1918 Delhi session he proposed 'Satyameva Jayate' as the national slogan.
+III. 'Satyameva Jayate' is taken from the Mandukya Upanishad.
+IV. He received the Bharat Ratna during his lifetime.
+
+--- QUESTION ---
+Q3. Consider the following statements about Madan Mohan Malaviya: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I, II and IV only
+(d) I, III and IV only
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong — it is from the Mundaka Upanishad. IV is wrong — the Bharat Ratna (2014) was posthumous; he died in 1946.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. Which of the following statements about Banaras Hindu University (BHU) is/are INCORRECT?
+I. It was set up in 1916 under the BHU Act of 1915.
+II. Annie Besant's Central Hindu College became part of it.
+III. Malaviya was its first Chancellor and died in 1950.
+
+--- QUESTION ---
+Q4. Which of the following statements about Banaras Hindu University (BHU) is/are INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II only
+(c) III only
+(d) II and III only
+
+--- CORRECT (tick this) ---
+(c) III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Only III is incorrect: Malaviya was Vice-Chancellor from 1919, and he died on 12 November 1946.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Consider the following statements about the 31st CII Partnership Summit:
+I. It is being held in Visakhapatnam on 12–13 November 2026.
+II. It is organised by NITI Aayog with the Government of Andhra Pradesh.
+III. DPIIT, a partner of the summit, works under the Ministry of Commerce and Industry.
+IV. Union Minister Piyush Goyal is the Summit Chairman.
+
+--- QUESTION ---
+Q5. Consider the following statements about the 31st CII Partnership Summit: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I, II and IV only
+(d) I, III and IV only
+
+--- CORRECT (tick this) ---
+(d) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: the organiser is CII (an industry body) in partnership with DPIIT and the AP Government — not NITI Aayog.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. An investment summit announces 'MoUs worth ₹13.35 lakh crore signed'. Which of the following conclusions is/are correct?
+I. An MoU is a statement of intent; actual investment depends on how many MoUs are grounded.
+II. The figure ₹13.35 lakh crore refers to the 2025 edition of the CII summit.
+III. The ₹13.35 lakh crore was already spent on factories in 2025.
+
+--- QUESTION ---
+Q6. An investment summit announces 'MoUs worth ₹13.35 lakh crore signed'. Which of the following conclusions is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: ₹13.35 lakh crore was an investment commitment through 600+ MoUs, not money already spent.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following statements regarding the Supreme Court's 2026 rulings on the OBC creamy layer:
+I. The March 2026 ruling held that a parent's PSU or private salary alone cannot decide creamy-layer status.
+II. A 2004 clarification letter was held to override the 1993 Office Memorandum.
+III. In November 2026 the Court said already-concluded selections will not be reopened.
+IV. The Court abolished the ₹8 lakh income limit.
+
+--- QUESTION ---
+Q7. Consider the following statements regarding the Supreme Court's 2026 rulings on the OBC creamy layer: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I, II and III only
+(c) III and IV only
+(d) I, III and IV only
+
+--- CORRECT (tick this) ---
+(a) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong — the 2004 letter cannot override the 1993 OM. IV is wrong — the income limit stays; salary alone is just not decisive.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Consider the following statements about the creamy layer:
+I. The Indra Sawhney judgment (1992) upheld OBC reservation but excluded the creamy layer.
+II. The income limit was first fixed at ₹8 lakh in 1993.
+III. The term 'creamy layer' was used by the Sattanathan Commission (1971).
+IV. The Rohini Commission (2017) was set up for sub-categorisation of OBCs.
+
+--- QUESTION ---
+Q8. Consider the following statements about the creamy layer: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and IV only
+(c) I, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(c) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: the limit was ₹1 lakh in 1993; it rose to ₹8 lakh only in 2017.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Match List-I (manuscript) with List-II (where it is held) and choose the correct pairs:
+I. Mahabharata (birch-bark, Sharada script) — BORI, Pune
+II. Arthashastra (palm-leaf, Grantha script) — Oriental Research Institute, Mysuru
+III. Rajatarangini — Asiatic Society, Kolkata
+
+--- QUESTION ---
+Q9. Match List-I (manuscript) with List-II (where it is held) and choose the correct pairs: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the Rajatarangini manuscript is at the Oriental Research Library, Srinagar.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Consider the following statements about the November 2026 Memory of the World inscriptions:
+I. The three manuscripts were added to UNESCO's international register.
+II. The decision was taken at the 11th MOWCAP session in Jakarta.
+III. With these, India has six entries on the Asia-Pacific regional register.
+IV. Inscription obliges India to receive UNESCO funds for conservation.
+
+--- QUESTION ---
+Q10. Consider the following statements about the November 2026 Memory of the World inscriptions: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and IV only
+(c) II and III only
+(d) I, III and IV only
+
+--- CORRECT (tick this) ---
+(c) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is wrong — they are on the regional (Asia-Pacific) register. IV is wrong — MoW brings recognition, not binding obligations or funds.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-12&tab=quiz
