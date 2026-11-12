@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "eqwqQSUPYAYD1OUPDpS1Zw==",
 "iter": 200000,
-"check": "7/h6D7qjzsFxMeJvRgy8LqmgdgCd88UoOQ1r1DleoaBFQ4egs2BAos8fNw==",
+"check": "OIwCjnooaQfVfr7Ml5NPfT3PblMG7Em93GTT2n5OS/yWvb2kBWDm3aye0A==",
 "lessons": {
 "AEE_Module3_Surveying": {
 "t": "AEE Module 3 — Surveying",
@@ -143,6 +143,26 @@
 "t": "AEE Module 9 Test (PDF)",
 "k": "pdf",
 "f": "AEE_Module9_Test.pdf"
+},
+"AEE_Module10_Structural_Analysis": {
+"t": "AEE Module 10 — Structural Analysis",
+"k": "html",
+"f": "AEE_Module10_Structural_Analysis.html"
+},
+"AEE_Module10_Structural_Analysis-pdf": {
+"t": "AEE Module 10 — Structural Analysis (PDF)",
+"k": "pdf",
+"f": "AEE_Module10_Structural_Analysis.pdf"
+},
+"AEE_Module10_Test": {
+"t": "AEE Module 10 Test",
+"k": "html",
+"f": "AEE_Module10_Test.html"
+},
+"AEE_Module10_Test-pdf": {
+"t": "AEE Module 10 Test (PDF)",
+"k": "pdf",
+"f": "AEE_Module10_Test.pdf"
 }
 }
 }
