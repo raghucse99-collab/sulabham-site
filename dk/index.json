@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "M1iId3fIyqYDue3YLUqMXw==",
 "iter": 200000,
-"check": "mtu2cGNwgimzGeJXkiMu559pCaymTXWaSnAa5mSDqTn1w7ZLoCHon9jN1w==",
+"check": "v5DFypI+IUfXYmDPnVkmhUOjGKitaz8HBg7NKkMc7fhgYyEregUfdzpwWg==",
 "lessons": {
 "dsc-sgt-perspectives-day2": "Perspectives in Education, Day 2: Teachers, Rights, Concerns, NCF and NEP",
 "dsc-sgt-perspectives-day2-te": "విద్యా దృక్పథాలు, 2వ రోజు: ఉపాధ్యాయులు, హక్కులు, సమకాలీన అంశాలు, NCF, NEP",
@@ -33,6 +33,8 @@
 "dsc-sgt-science-day1": "Science (EVS), Day 1: Living Things and Plants; Animals; Cell and Microorganisms",
 "dsc-sgt-science-day1-te": "సైన్స్ (EVS), రోజు 1: సజీవులు, మొక్కలు; జంతువులు; కణం, సూక్ష్మజీవులు",
 "dsc-sgt-science-day2": "Science (EVS), Day 2: Human Body, Health and Safety; Food and Agriculture; Family, Shelter and Games",
-"dsc-sgt-science-day2-te": "సైన్స్ (EVS), రోజు 2: మానవ శరీరం, ఆరోగ్యం, భద్రత; ఆహారం, వ్యవసాయం; కుటుంబం, నివాసం, ఆటలు"
+"dsc-sgt-science-day2-te": "సైన్స్ (EVS), రోజు 2: మానవ శరీరం, ఆరోగ్యం, భద్రత; ఆహారం, వ్యవసాయం; కుటుంబం, నివాసం, ఆటలు",
+"dsc-sgt-science-day3": "Science (EVS), Day 3: Life Processes — Nutrition; Respiration, Circulation and Excretion; Control, Coordination and Reproduction",
+"dsc-sgt-science-day3-te": "సైన్స్ (EVS), రోజు 3: జీవ ప్రక్రియలు — పోషణ; శ్వాసక్రియ, ప్రసరణ, విసర్జన; నియంత్రణ–సమన్వయం, ప్రత్యుత్పత్తి"
 }
 }
