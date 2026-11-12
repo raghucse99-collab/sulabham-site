@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "eqwqQSUPYAYD1OUPDpS1Zw==",
 "iter": 200000,
-"check": "X/sHgIqppzu8gMjLc557D1T4QdLNQwUYk3syB7dNUw0OgVEWKAHQ8aruug==",
+"check": "64CbdLxjaCmR/zP8VtLTkjS0Cnx1QKbM9JcCNj1o/v78kzObeP6tibTmqw==",
 "lessons": {
 "AEE_Module3_Surveying": {
 "t": "AEE Module 3 — Surveying",
@@ -63,6 +63,26 @@
 "t": "AEE Module 5 Test (PDF)",
 "k": "pdf",
 "f": "AEE_Module5_Test.pdf"
+},
+"AEE_Module6_Soil_Mechanics": {
+"t": "AEE Module 6 — Soil Mechanics & Foundation Engineering",
+"k": "html",
+"f": "AEE_Module6_Soil_Mechanics.html"
+},
+"AEE_Module6_Soil_Mechanics-pdf": {
+"t": "AEE Module 6 — Soil Mechanics & Foundation Engineering (PDF)",
+"k": "pdf",
+"f": "AEE_Module6_Soil_Mechanics.pdf"
+},
+"AEE_Module6_Test": {
+"t": "AEE Module 6 Test",
+"k": "html",
+"f": "AEE_Module6_Test.html"
+},
+"AEE_Module6_Test-pdf": {
+"t": "AEE Module 6 Test (PDF)",
+"k": "pdf",
+"f": "AEE_Module6_Test.pdf"
 }
 }
 }
