@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "eqwqQSUPYAYD1OUPDpS1Zw==",
 "iter": 200000,
-"check": "64CbdLxjaCmR/zP8VtLTkjS0Cnx1QKbM9JcCNj1o/v78kzObeP6tibTmqw==",
+"check": "FSQCZ6z7BDHxEkLhUSgprf6tLep6b3zXCJuG/c3YUb+VlBiBsdfoT87CDw==",
 "lessons": {
 "AEE_Module3_Surveying": {
 "t": "AEE Module 3 — Surveying",
@@ -83,6 +83,26 @@
 "t": "AEE Module 6 Test (PDF)",
 "k": "pdf",
 "f": "AEE_Module6_Test.pdf"
+},
+"AEE_Module7_Environmental": {
+"t": "AEE Module 7 — Environmental Engineering",
+"k": "html",
+"f": "AEE_Module7_Environmental.html"
+},
+"AEE_Module7_Environmental-pdf": {
+"t": "AEE Module 7 — Environmental Engineering (PDF)",
+"k": "pdf",
+"f": "AEE_Module7_Environmental.pdf"
+},
+"AEE_Module7_Test": {
+"t": "AEE Module 7 Test",
+"k": "html",
+"f": "AEE_Module7_Test.html"
+},
+"AEE_Module7_Test-pdf": {
+"t": "AEE Module 7 Test (PDF)",
+"k": "pdf",
+"f": "AEE_Module7_Test.pdf"
 }
 }
 }
