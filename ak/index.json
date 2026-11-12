@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "eqwqQSUPYAYD1OUPDpS1Zw==",
 "iter": 200000,
-"check": "FSQCZ6z7BDHxEkLhUSgprf6tLep6b3zXCJuG/c3YUb+VlBiBsdfoT87CDw==",
+"check": "tt7dvQh3S+N95V81HeDyxrESHQ1DdLLvedJ5rYMGQ+58IXSbOKCmFSZ8nQ==",
 "lessons": {
 "AEE_Module3_Surveying": {
 "t": "AEE Module 3 — Surveying",
@@ -103,6 +103,26 @@
 "t": "AEE Module 7 Test (PDF)",
 "k": "pdf",
 "f": "AEE_Module7_Test.pdf"
+},
+"AEE_Module8_Hydraulics_Hydrology": {
+"t": "AEE Module 8 — Hydraulics and Hydrology",
+"k": "html",
+"f": "AEE_Module8_Hydraulics_Hydrology.html"
+},
+"AEE_Module8_Hydraulics_Hydrology-pdf": {
+"t": "AEE Module 8 — Hydraulics and Hydrology (PDF)",
+"k": "pdf",
+"f": "AEE_Module8_Hydraulics_Hydrology.pdf"
+},
+"AEE_Module8_Test": {
+"t": "AEE Module 8 Test",
+"k": "html",
+"f": "AEE_Module8_Test.html"
+},
+"AEE_Module8_Test-pdf": {
+"t": "AEE Module 8 Test (PDF)",
+"k": "pdf",
+"f": "AEE_Module8_Test.pdf"
 }
 }
 }
