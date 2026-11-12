@@ -133,7 +133,7 @@ var DATA={"1":{"q":[{"n":1,"en":["A steel bar 2 m long has a rectangular cross-s
     document.querySelectorAll("[data-m]").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.m===med)});
     $("tsel").innerHTML=[1,2,3].map(function(n){return'<button type="button" data-t="'+n+'" aria-pressed="'+(n===tn)+'">'+esc(l.tab(n))+'</button>'}).join("");
     $("reset").textContent=l.reset;$("pdf").textContent=l.pdf;$("pdf").href=PDFS[tn];
-    var bk={group1:["index.html#group1",l.back],group2:["index.html#group2",l.back.replace("1","2")],si:["index.html#si",med==="te"?"← SIకి వెనక్కి":"← Back to SI"],aee:["index.html#aee","← Back to AEE"],pc:["index.html#pc",med==="te"?"← కానిస్టేబుల్‌కి వెనక్కి":"← Back to Constable"]}[from]||["index.html#group1",l.back];
+    var bk={group1:["index.html#group1",l.back],group2:["index.html#group2",l.back.replace("1","2")],si:["index.html#si",med==="te"?"← SIకి వెనక్కి":"← Back to SI"],aee:["aee.html#lessons","← AEE course"],pc:["index.html#pc",med==="te"?"← కానిస్టేబుల్‌కి వెనక్కి":"← Back to Constable"]}[from]||["index.html#group1",l.back];
     $("back").href=bk[0];$("back").textContent=bk[1];$("foot").textContent=l.foot;
   }
   function qText(q){var x=med==="te"?q.te:q.en;if(typeof x==="string")return esc(x);

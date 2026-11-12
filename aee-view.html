@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AEE course lesson · Sulabham</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="sulabham-icon.svg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@700;800&family=Noto+Sans+Telugu:wght@400;700&family=Noto+Sans:wght@400;700;800&display=swap">
+<style>
+:root{--ink:#16324a;--paper:#f6f8f9;--card:#fff;--line:#d6dfe5;--muted:#52677a;--leaf:#1f7a55;--bad:#b3261e;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--leaf:#4cc28c;--bad:#ff8a80;color-scheme:dark}}
+:root[data-theme="dark"]{--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--leaf:#4cc28c;--bad:#ff8a80;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans","Noto Sans Telugu",sans-serif;line-height:1.55;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px 16px}
+.card{width:100%;max-width:460px;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:0 10px 28px rgba(12,34,56,.12)}
+.top{display:flex;align-items:center;gap:10px;margin-bottom:14px;font-family:"Anek Telugu","Noto Sans",sans-serif;font-weight:800;font-size:1.15rem}
+.top a{color:inherit;text-decoration:none;display:flex;align-items:center;gap:8px}.top b{color:#e3a400}
+.lock{width:56px;height:56px;border-radius:16px;background:linear-gradient(135deg,#1b2130,#3a4560);color:#ffb04d;display:flex;align-items:center;justify-content:center;font-size:1.7rem}
+h1{font-family:"Anek Telugu","Noto Sans",sans-serif;font-weight:800;font-size:1.35rem;line-height:1.25;margin:12px 0 4px}
+p{margin:6px 0;color:var(--muted)}
+label{display:block;font-weight:700;margin:16px 0 6px}
+input{width:100%;font:inherit;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;padding:12px 14px;border:2px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink)}
+input:focus{outline:none;border-color:var(--leaf)}
+.btn{display:flex;align-items:center;justify-content:center;width:100%;margin-top:10px;border:0;border-radius:999px;padding:12px 18px;min-height:48px;font:inherit;font-weight:800;text-decoration:none;cursor:pointer}
+.y{background:#ffd45c;color:#1b1500;box-shadow:0 3px 0 #b88400}
+.o{background:transparent;color:var(--ink);border:2px solid var(--line)}
+.msg{min-height:1.4em;font-weight:700;margin-top:8px}.msg.bad{color:var(--bad)}.msg.ok{color:var(--leaf)}
+.or{text-align:center;color:var(--muted);font-size:.9rem;margin:14px 0 4px}
+</style>
+</head>
+<body>
+<div class="card" id="card"><p id="wait">…</p></div>
+<script>
+(function(){
+var P=new URLSearchParams(location.search),ID=P.get("l")||"",KS="sul_aee_code",IDX=null;
+var T={lk:"🔒 This is part of the APPSC AEE course",p:"Enter the course code you received on Telegram after payment. You enter it once; after that every module, test and PDF opens directly on this phone.",
+  lb:"Course code",go:"Open",chk:"Checking…",bad:"That code doesn't match. Please check it and try again.",net:"It didn't load. Check your internet and try again.",
+  or:"No code yet?",join:"Join the course for ₹499 →",all:"← All modules",none:"This lesson was not found.",open:"Opening…",pdf:"Your PDF is ready",opn:"Open PDF",dl:"⬇ Download PDF"};
+var card=document.getElementById("card"),te=new TextEncoder(),b64=function(s){return Uint8Array.from(atob(s),function(c){return c.charCodeAt(0)})};
+function norm(c){return String(c||"").toUpperCase().replace(/[^A-Z0-9]/g,"")}
+function key(code){return crypto.subtle.importKey("raw",te.encode(norm(code)),"PBKDF2",false,["deriveKey"]).then(function(k){
+  return crypto.subtle.deriveKey({name:"PBKDF2",salt:b64(IDX.salt),iterations:IDX.iter,hash:"SHA-256"},k,{name:"AES-GCM",length:256},false,["decrypt"])})}
+function dec(k,u8){return crypto.subtle.decrypt({name:"AES-GCM",iv:u8.slice(0,12)},k,u8.slice(12))}
+var TOP='<div class="top"><a href="./"><img src="sulabham-icon.svg" alt="" width="30" height="30"><span>Sula<b>bham</b></span></a></div>';
+function form(msg,cls){
+  var title=IDX.lessons[ID].t;
+  card.innerHTML=TOP+'<div class="lock">🔒</div><h1></h1><p>'+T.lk+'. '+T.p+'</p><form id="f"><label for="c">'+T.lb+'</label><input id="c" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="AEE-XXXXXX">'+
+   '<button class="btn y" type="submit">'+T.go+'</button><div class="msg '+(cls||"")+'" id="m"></div></form>'+
+   '<div class="or">'+T.or+'</div><a class="btn o" href="aee.html#join">'+T.join+'</a><a class="btn o" href="aee.html#lessons">'+T.all+'</a>';
+  card.querySelector("h1").textContent=title;document.title=title+" · Sulabham";
+  if(msg)document.getElementById("m").textContent=msg;
+  document.getElementById("f").addEventListener("submit",function(e){e.preventDefault();var c=document.getElementById("c").value;
+    var m=document.getElementById("m");m.className="msg";m.textContent=T.chk;open(c,true)});
+}
+function open(code,typed){
+  key(code).then(function(k){return dec(k,b64(IDX.check)).then(function(){return k})}).then(function(k){
+    try{localStorage.setItem(KS,norm(code))}catch(e){}
+    if(typed){var m=document.getElementById("m");if(m){m.className="msg ok";m.textContent=T.open}}
+    var L=IDX.lessons[ID];
+    return fetch("ak/"+ID+".bin",{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error("net");return r.arrayBuffer()}).then(function(b){return dec(k,new Uint8Array(b))}).then(function(pl){
+      if(L.k==="pdf"){var u=URL.createObjectURL(new Blob([pl],{type:"application/pdf"}));
+        card.innerHTML=TOP+'<div class="lock">📄</div><h1></h1><p>'+T.pdf+'</p><a class="btn y" href="'+u+'" download="'+L.f+'">'+T.dl+'</a><a class="btn o" href="'+u+'" target="_blank" rel="noopener">'+T.opn+'</a><a class="btn o" href="aee.html#lessons">'+T.all+'</a>';
+        card.querySelector("h1").textContent=L.t;document.title=L.t+" · Sulabham";return}
+      var html=new TextDecoder().decode(pl),h=location.hash;
+      document.open();document.write(html);document.close();
+      if(h)setTimeout(function(){var t=document.getElementById(h.slice(1));if(t)t.scrollIntoView()},300);
+    },function(){form(T.net,"bad")});
+  },function(){try{localStorage.removeItem(KS)}catch(e){}form(typed?T.bad:"",typed?"bad":"")});
+}
+fetch("ak/index.json",{cache:"no-cache"}).then(function(r){return r.json()}).then(function(j){IDX=j;
+  if(!IDX.lessons[ID]){card.innerHTML='<p>'+T.none+'</p><a class="btn o" href="aee.html#lessons">'+T.all+'</a>';return}
+  var c="";try{c=localStorage.getItem(KS)||""}catch(e){}
+  if(c){card.innerHTML='<p>'+T.open+'</p>';open(c,false)}else form();
+},function(){card.innerHTML='<p>'+T.net+'</p>'});
+})();
+</script>
+</body>
+</html>
