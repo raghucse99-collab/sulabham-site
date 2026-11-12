@@ -9,7 +9,8 @@ from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from cryptography.hazmat.primitives import hashes
 R, SRC = sys.argv[1], sys.argv[2]
 FREE = ['AEE_Module2_Fluid_Mechanics', 'AEE_Module2_Test']          # written to the repo root as normal pages (+ their PDFs)
-LOCKED = ['AEE_Module3_Surveying', 'AEE_Module3_Test', 'AEE_Module4_Building_Materials', 'AEE_Module4_Test']  # each: .html and .pdf
+LOCKED = ['AEE_Module3_Surveying', 'AEE_Module3_Test', 'AEE_Module4_Building_Materials', 'AEE_Module4_Test',
+          'AEE_Module5_Transportation', 'AEE_Module5_Test']  # each: .html and .pdf
 ITER = 200000
 ip = os.path.join(R, 'ak/index.json'); os.makedirs(os.path.join(R, 'ak'), exist_ok=True)
 old = json.load(open(ip)) if os.path.exists(ip) else None
