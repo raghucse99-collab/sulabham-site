@@ -9,7 +9,7 @@ from cryptography.hazmat.primitives import hashes
 R, SRC = sys.argv[1], sys.argv[2]
 FREE = ['dsc-sgt-study-guide', 'dsc-sgt-perspectives-day1', 'dsc-sgt-psychology-day1']
 LOCKED = ['dsc-sgt-perspectives-day2', 'dsc-sgt-week1-2-psychology', 'dsc-sgt-psychology-day2', 'dsc-sgt-psychology-day3',
-          'dsc-sgt-psychology-day4', 'dsc-sgt-week1-2-test', 'dsc-sgt-maths-day1', 'dsc-sgt-maths-day2', 'dsc-sgt-maths-day3', 'dsc-sgt-maths-day4', 'dsc-sgt-maths-day5', 'dsc-sgt-maths-day6', 'dsc-sgt-maths-test', 'dsc-sgt-science-day1', 'dsc-sgt-science-day2', 'dsc-sgt-science-day3']
+          'dsc-sgt-psychology-day4', 'dsc-sgt-week1-2-test', 'dsc-sgt-maths-day1', 'dsc-sgt-maths-day2', 'dsc-sgt-maths-day3', 'dsc-sgt-maths-day4', 'dsc-sgt-maths-day5', 'dsc-sgt-maths-day6', 'dsc-sgt-maths-test', 'dsc-sgt-science-day1', 'dsc-sgt-science-day2', 'dsc-sgt-science-day3', 'dsc-sgt-science-day4']
 ITER = 200000
 ip = os.path.join(R, 'dk/index.json'); os.makedirs(os.path.join(R, 'dk'), exist_ok=True)
 old = json.load(open(ip)) if os.path.exists(ip) else None
