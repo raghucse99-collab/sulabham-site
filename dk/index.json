@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "M1iId3fIyqYDue3YLUqMXw==",
 "iter": 200000,
-"check": "pBK2eQqFOK1XdoF2GcQasXpf1iZe1/gjdvKlQlXbhudh91q5Fg381Tv5KA==",
+"check": "Zko8ep6xgtkRc2GzNGvxXH0B1S6CZOeYG1QP2kNS90tbk4tG1K8kQn+v7w==",
 "lessons": {
 "dsc-sgt-perspectives-day2": "Perspectives in Education, Day 2: Teachers, Rights, Concerns, NCF and NEP",
 "dsc-sgt-perspectives-day2-te": "విద్యా దృక్పథాలు, 2వ రోజు: ఉపాధ్యాయులు, హక్కులు, సమకాలీన అంశాలు, NCF, NEP",
@@ -37,6 +37,8 @@
 "dsc-sgt-science-day3": "Science (EVS), Day 3: Life Processes — Nutrition; Respiration, Circulation and Excretion; Control, Coordination and Reproduction",
 "dsc-sgt-science-day3-te": "సైన్స్ (EVS), రోజు 3: జీవ ప్రక్రియలు — పోషణ; శ్వాసక్రియ, ప్రసరణ, విసర్జన; నియంత్రణ–సమన్వయం, ప్రత్యుత్పత్తి",
 "dsc-sgt-science-day4": "Science (EVS), Day 4: Materials — Properties, Separation, Fibres and Plastics; Metals, Non-metals, Acids and Bases; Changes, Fuels and Combustion",
-"dsc-sgt-science-day4-te": "సైన్స్ (EVS), రోజు 4: పదార్థాలు — లక్షణాలు, వేరుచేయడం, దారాలు, ప్లాస్టిక్‌లు; లోహాలు, అలోహాలు, ఆమ్లాలు, క్షారాలు; మార్పులు, ఇంధనాలు, దహనం"
+"dsc-sgt-science-day4-te": "సైన్స్ (EVS), రోజు 4: పదార్థాలు — లక్షణాలు, వేరుచేయడం, దారాలు, ప్లాస్టిక్‌లు; లోహాలు, అలోహాలు, ఆమ్లాలు, క్షారాలు; మార్పులు, ఇంధనాలు, దహనం",
+"dsc-sgt-science-day5": "Science (EVS), Day 5: Motion, Force and Pressure; Heat; Light and Sound",
+"dsc-sgt-science-day5-te": "సైన్స్ (EVS), రోజు 5: చలనం, బలం, పీడనం; ఉష్ణం; కాంతి, ధ్వని"
 }
 }
