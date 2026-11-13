@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "eqwqQSUPYAYD1OUPDpS1Zw==",
 "iter": 200000,
-"check": "D9nno+ui2L8vtZi+n50ttDcPCvMJwo+T2sRj/iAGE5Mct5waZq9bPio1PA==",
+"check": "bAfOhj2/RygXkh7/lpaPVwzxsOF9f3W1R7jAxXHYcJQ7sdKS2sK80x212A==",
 "lessons": {
 "AEE_Module3_Surveying": {
 "t": "AEE Module 3 — Surveying",
@@ -183,6 +183,26 @@
 "t": "AEE Module 11 Test (PDF)",
 "k": "pdf",
 "f": "AEE_Module11_Test.pdf"
+},
+"AEE_Module12_Steel_Structures": {
+"t": "AEE Module 12 — Design of Steel Structures",
+"k": "html",
+"f": "AEE_Module12_Steel_Structures.html"
+},
+"AEE_Module12_Steel_Structures-pdf": {
+"t": "AEE Module 12 — Design of Steel Structures (PDF)",
+"k": "pdf",
+"f": "AEE_Module12_Steel_Structures.pdf"
+},
+"AEE_Module12_Test": {
+"t": "AEE Module 12 Test",
+"k": "html",
+"f": "AEE_Module12_Test.html"
+},
+"AEE_Module12_Test-pdf": {
+"t": "AEE Module 12 Test (PDF)",
+"k": "pdf",
+"f": "AEE_Module12_Test.pdf"
 }
 }
 }
