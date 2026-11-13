@@ -1,0 +1,233 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-13 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about the career of Ranjit Singh. Which of them are correct?
+I. He captured Lahore in 1799 from the Bhangi rulers.
+II. He was proclaimed Maharaja of the Punjab in the same year he captured Lahore.
+III. He annexed Kashmir in 1819.
+IV. He was succeeded by his eldest son Kharak Singh.
+
+--- QUESTION ---
+Q1. Consider the following statements about the career of Ranjit Singh. Which of them are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I, III and IV only
+(b) I and II only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: Lahore 1799, but proclaimed Maharaja on Baisakhi day, 12 April 1801.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Which of the following statements about Ranjit Singh are INCORRECT?
+I. He modernised his army with French officers Allard and Ventura, who had served under Napoleon.
+II. He received the Koh-i-noor diamond from the Mughal emperor at Delhi.
+III. He had the Harmandir Sahib's domes covered with gold leaf.
+IV. He died at Amritsar in 1839.
+
+--- QUESTION ---
+Q2. Which of the following statements about Ranjit Singh are INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) III and IV only
+(c) II and IV only
+(d) II only
+
+--- CORRECT (tick this) ---
+(c) II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II and IV are incorrect: the Koh-i-noor came from the Afghan ex-ruler Shah Shuja, and he died at Lahore (27 June 1839).
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements about Gitanjali and the 1913 Nobel Prize:
+I. The Bengali Gitanjali was published in 1910.
+II. The English 'Song Offerings' was published by the India Society of London in 1912.
+III. The introduction to the English Gitanjali was written by George Bernard Shaw.
+IV. Tagore was nominated for the prize by Thomas Sturge Moore.
+
+--- QUESTION ---
+Q3. Consider the following statements about Gitanjali and the 1913 Nobel Prize: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, III and IV only
+(c) II, III and IV only
+(d) I, II and IV only
+
+--- CORRECT (tick this) ---
+(d) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the introduction was by the Irish poet W.B. Yeats.
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Which of the following pairs is/are correctly matched?
+I. 1901 — school at Shantiniketan
+II. 1915 — Tagore renounces his knighthood
+III. 1921 — Visva-Bharati University
+IV. 2004 — Nobel medal stolen from Visva-Bharati
+
+--- OPTIONS ---
+(a) I and III only
+(b) I, III and IV only
+(c) II and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: knighthood was GIVEN in 1915 and renounced in 1919 after Jallianwala Bagh.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Consider the following statements about the Andhra Pradesh–WIPO meeting at Visakhapatnam (11 Nov 2026):
+I. The CM met WIPO Director General Daren Tang ahead of the CII Partnership Summit.
+II. The state aims to turn 10 lakh women into entrepreneurs under the 'Swayam' brand.
+III. The proposed academy will train only government officials in IPR.
+
+--- QUESTION ---
+Q5. Consider the following statements about the Andhra Pradesh–WIPO meeting at Visakhapatnam (11 Nov 2026): (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the WIPO Andhra Pradesh Academy is meant for students, researchers, startup founders and MSMEs.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. A weavers' cooperative in Andhra Pradesh wants buyers worldwide to know that its saris truly come from its region and to stop imitations using the region's name. Which of the following is the MOST suitable protection?
+I. A patent protects an invention.
+II. A Geographical Indication (GI) links a product's quality and name to a place.
+III. An industrial design protects only the look/shape of an article.
+
+--- QUESTION ---
+Q6. A weavers' cooperative in Andhra Pradesh wants buyers worldwide to know that its saris truly come from its region and to stop imitations using the region's name. Which of the following is the MOST suitable protection? (statements in the message above)
+
+--- OPTIONS ---
+(a) Patent
+(b) Industrial design
+(c) Trademark of one weaver
+(d) GI tag
+
+--- CORRECT (tick this) ---
+(d) GI tag
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Only a GI tag ties the product to its region — that is why AP asked WIPO for GI support for handlooms. A patent is for inventions; a design protects only the look.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Under Section 79 of the IT Act, 2000, an intermediary may LOSE its safe-harbour protection in which of the following cases?
+I. It modifies the information it transmits.
+II. It fails to remove unlawful content after a government or court notice.
+III. A user posts content without the platform's knowledge and the platform removes it promptly on notice.
+IV. It abets an unlawful act.
+
+--- QUESTION ---
+Q7. Under Section 79 of the IT Act, 2000, an intermediary may LOSE its safe-harbour protection in which of the following cases? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and IV only
+(c) II and III only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is the trap: a platform that acts promptly on notice is exactly the case safe harbour protects.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Consider the following statements about the current review of safe harbour:
+I. The review is being led by the Ministry of Home Affairs.
+II. One idea is to keep immunity only for services that merely transmit, such as ISPs and telecom providers.
+III. The concern is that algorithms decide the ranking and promotion of content.
+IV. Safe harbour for social media has already been withdrawn by an executive order.
+
+--- QUESTION ---
+Q8. Consider the following statements about the current review of safe harbour: (statements in the message above)
+
+--- OPTIONS ---
+(a) II and III only
+(b) I and IV only
+(c) I, II and III only
+(d) II, III and IV only
+
+--- CORRECT (tick this) ---
+(a) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is wrong: it is MeitY. IV is wrong: talks are only exploratory, and a change needs Parliament to amend the IT Act.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. With reference to DGFT Notification No. 49/2026-27, consider the following statements:
+I. It changed the export policy of black mass from 'Restricted' to 'Free'.
+II. It was issued under the Foreign Trade (Development & Regulation) Act, 1992.
+III. It covers spent batteries that contain lead, cadmium or mercury.
+IV. Transitional arrangements under Para 1.05 of the Foreign Trade Policy 2023 apply.
+
+--- QUESTION ---
+Q9. With reference to DGFT Notification No. 49/2026-27, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and IV only
+(c) I, III and IV only
+(d) II, III and IV only
+
+--- CORRECT (tick this) ---
+(b) II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is wrong: it went from 'Free' to 'Prohibited'. III is wrong: the code covers batteries WITHOUT lead, cadmium or mercury.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Which of the following statements correctly explain why India banned the export of black mass?
+I. Domestic recycling capacity was not fully used because of inadequate feedstock.
+II. Some domestic recyclers had to import material.
+III. India wants to support the National Critical Mineral Mission and reduce import dependence.
+IV. India's exports of black mass had grown to become its largest mineral export.
+
+--- QUESTION ---
+Q10. Which of the following statements correctly explain why India banned the export of black mass? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II, III and IV only
+(c) I, II and III only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(c) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: GTRI says India's exports of these goods were nil last fiscal year — the ban is preventive.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-13&tab=quiz

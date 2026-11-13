@@ -1,0 +1,2079 @@
+{
+ "date": "2026-11-13",
+ "day": {
+  "en": "Friday, 13 November 2026",
+  "te": "శుక్రవారం, 13 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Intermediary",
+   "en": "a go-between; an online platform that carries other people's content",
+   "te": "మధ్యవర్తి; ఇతరుల కంటెంట్‌ను చేరవేసే ఆన్‌లైన్ వేదిక",
+   "ex": "Under Section 79 of the IT Act, an intermediary is not liable for third-party content if it follows due diligence.",
+   "topic": "safeharbour"
+  },
+  {
+   "w": "Exploratory",
+   "en": "done to find out more; not final",
+   "te": "ప్రాథమిక పరిశీలన దశలో ఉన్న; తుది నిర్ణయం కాని",
+   "ex": "The talks on withdrawing safe harbour are still exploratory and no final decision has been taken.",
+   "topic": "safeharbour"
+  },
+  {
+   "w": "Feedstock",
+   "en": "raw material supplied to an industrial process",
+   "te": "పరిశ్రమకు అవసరమైన ముడి సరుకు",
+   "ex": "Domestic recyclers say they do not get enough feedstock, so the export of black mass has been prohibited.",
+   "topic": "blackmass"
+  },
+  {
+   "w": "Repudiate",
+   "en": "to reject or give up formally",
+   "te": "అధికారికంగా తిరస్కరించడం / వదులుకోవడం",
+   "ex": "Tagore repudiated his knighthood in 1919 to protest against the Jallianwala Bagh massacre.",
+   "topic": "tagore"
+  },
+  {
+   "w": "Annex",
+   "en": "to take a territory and add it to one's own state",
+   "te": "ఒక ప్రాంతాన్ని స్వాధీనం చేసుకుని తమ రాజ్యంలో కలుపుకోవడం",
+   "ex": "Ranjit Singh annexed Kashmir in 1819, a year after he captured Multan.",
+   "topic": "ranjit"
+  }
+ ],
+ "items": [
+  {
+   "id": "ranjit",
+   "kind": "day",
+   "color": "#8a4b14",
+   "icon": "shield",
+   "cf": [
+    0,
+    2,
+    3,
+    4,
+    6
+   ],
+   "tag": {
+    "en": "Birth anniversary · 13 Nov 1780",
+    "te": "జయంతి · 13 నవంబర్ 1780"
+   },
+   "title": {
+    "en": "Maharaja Ranjit Singh — 'Sher-e-Punjab'",
+    "te": "మహారాజా రంజిత్ సింగ్ — 'షేర్-ఎ-పంజాబ్'"
+   },
+   "line": {
+    "en": "He united the Sikh chiefs into one strong Punjab kingdom and kept the British east of the Sutlej during his lifetime.",
+    "te": "సిక్కు సర్దార్లను ఏకం చేసి బలమైన పంజాబ్ రాజ్యాన్ని నిర్మించారు; తన జీవితకాలంలో బ్రిటిష్ వారిని సట్లెజ్‌కు తూర్పునే నిలిపారు."
+   },
+   "easy": [
+    {
+     "en": "In the late 1700s Punjab was divided among many Sikh chiefdoms called misls. Ranjit Singh was the only son of Maha Singh, chief of the Sukerchakia misl. He became chief in 1792 as a boy, and smallpox in infancy had taken the sight of his left eye.",
+     "te": "1700ల చివర్లో పంజాబ్ 'మిస్ల్'లు అనే అనేక సిక్కు సంస్థానాలుగా విడిపోయి ఉంది. సుకర్‌చకియా మిస్ల్ అధిపతి మహా సింగ్ ఏకైక కుమారుడు రంజిత్ సింగ్. 1792లో బాలుడిగానే అధిపతి అయ్యారు; చిన్నతనంలో మశూచి వల్ల ఎడమ కంటి చూపు కోల్పోయారు."
+    },
+    {
+     "en": "He took Lahore in 1799, was proclaimed Maharaja of the Punjab on Baisakhi day 1801, and then expanded to Multan (1818) and Kashmir (1819). With the British he signed the Treaty of Amritsar (1809), which fixed the Sutlej as the boundary. He modernised his army with European officers who had served Napoleon.",
+     "te": "1799లో లాహోర్‌ను స్వాధీనం చేసుకున్నారు; 1801 బైసాఖీ రోజున పంజాబ్ మహారాజాగా ప్రకటితులయ్యారు; తర్వాత ముల్తాన్ (1818), కశ్మీర్ (1819) వరకు విస్తరించారు. బ్రిటిష్ వారితో అమృత్‌సర్ సంధి (1809) కుదుర్చుకున్నారు — సట్లెజ్ నది సరిహద్దుగా నిర్ణయమైంది. నెపోలియన్ సైన్యంలో పనిచేసిన యూరోపియన్ అధికారులతో తన సైన్యాన్ని ఆధునీకరించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "13 November 1780, Gujranwala (now in Pakistan)",
+      "te": "13 నవంబర్ 1780, గుజ్రాన్‌వాలా (ప్రస్తుతం పాకిస్థాన్‌లో)"
+     }
+    ],
+    [
+     {
+      "en": "Family",
+      "te": "కుటుంబం"
+     },
+     {
+      "en": "Only son of Maha Singh, chief of the Sukerchakia misl",
+      "te": "సుకర్‌చకియా మిస్ల్ అధిపతి మహా సింగ్ ఏకైక కుమారుడు"
+     }
+    ],
+    [
+     {
+      "en": "7 July 1799",
+      "te": "7 జూలై 1799"
+     },
+     {
+      "en": "Captured Lahore from the Bhangi rulers",
+      "te": "భంగీ పాలకుల నుంచి లాహోర్ స్వాధీనం"
+     }
+    ],
+    [
+     {
+      "en": "12 April 1801",
+      "te": "12 ఏప్రిల్ 1801"
+     },
+     {
+      "en": "Proclaimed Maharaja of the Punjab on Baisakhi day",
+      "te": "బైసాఖీ రోజున పంజాబ్ మహారాజాగా ప్రకటన"
+     }
+    ],
+    [
+     {
+      "en": "25 April 1809",
+      "te": "25 ఏప్రిల్ 1809"
+     },
+     {
+      "en": "Treaty of Amritsar with the British (after the Metcalfe mission, 1808) — Sutlej as eastern boundary",
+      "te": "బ్రిటిష్ వారితో అమృత్‌సర్ సంధి (1808 మెట్‌కాఫ్ మిషన్ తర్వాత) — సట్లెజ్ తూర్పు సరిహద్దు"
+     }
+    ],
+    [
+     {
+      "en": "Conquests",
+      "te": "విజయాలు"
+     },
+     {
+      "en": "Multan 1818 · Kashmir 1819; Koh-i-noor diamond taken from Afghan ex-ruler Shah Shuja",
+      "te": "ముల్తాన్ 1818 · కశ్మీర్ 1819; అఫ్గాన్ మాజీ పాలకుడు షా షుజా నుంచి కోహినూర్ వజ్రం"
+     }
+    ],
+    [
+     {
+      "en": "Army",
+      "te": "సైన్యం"
+     },
+     {
+      "en": "Modernised with French officers Allard and Ventura; special brigade 'Fauj-i-Khas'",
+      "te": "ఫ్రెంచ్ అధికారులు అలార్డ్, వెంచురాలతో ఆధునీకరణ; ప్రత్యేక దళం 'ఫౌజ్-ఇ-ఖాస్'"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "27 June 1839, Lahore; succeeded by eldest son Kharak Singh",
+      "te": "27 జూన్ 1839, లాహోర్; పెద్ద కుమారుడు ఖరక్ సింగ్ వారసుడు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Punjab and the British",
+     "te": "లింక్ చెయిన్ · పంజాబ్, బ్రిటిష్"
+    },
+    "l": [
+     {
+      "en": "After taking Amritsar (1802) he had the Harmandir Sahib rebuilt in marble and its domes covered with gold leaf — hence the name 'Golden Temple'.",
+      "te": "అమృత్‌సర్ స్వాధీనం (1802) తర్వాత హర్మందిర్ సాహిబ్‌ను పాలరాతితో పునర్నిర్మించి గోపురాలకు బంగారు రేకు తాపడం చేయించారు — అందుకే 'స్వర్ణ దేవాలయం'."
+     },
+     {
+      "en": "Treaty of Amritsar 1809 = Ranjit Singh's deal with the East India Company; it stopped his expansion into the Cis-Sutlej (east of Sutlej) states.",
+      "te": "1809 అమృత్‌సర్ సంధి = రంజిత్ సింగ్, ఈస్ట్ ఇండియా కంపెనీ ఒప్పందం; సట్లెజ్‌కు తూర్పున ఉన్న సంస్థానాల వైపు ఆయన విస్తరణను ఆపింది."
+     },
+     {
+      "en": "Within about six years of his death the Sikh state he built collapsed because of quarrels among rival chiefs.",
+      "te": "ఆయన మరణించిన సుమారు ఆరేళ్లలోనే ప్రత్యర్థి సర్దార్ల అంతర్గత కలహాల వల్ల ఆయన నిర్మించిన సిక్కు రాజ్యం కుప్పకూలింది."
+     }
+    ]
+   },
+   "trap": {
+    "en": "Lahore was captured in 1799 but the title 'Maharaja' came in 1801 — don't mix them. The 1809 treaty fixed the Sutlej (not the Ravi or Beas) as the boundary.",
+    "te": "లాహోర్ స్వాధీనం 1799లో, కానీ 'మహారాజా' బిరుదు 1801లో — రెండింటినీ కలపకండి. 1809 సంధి సరిహద్దుగా నిర్ణయించింది సట్లెజ్‌ను (రావి లేదా బియాస్ కాదు)."
+   },
+   "tip": {
+    "en": "Ladder 99 → 01 → 09 → 18 → 19: Lahore, Maharaja, Treaty, Multan, Kashmir.",
+    "te": "99 → 01 → 09 → 18 → 19 నిచ్చెన: లాహోర్, మహారాజా, సంధి, ముల్తాన్, కశ్మీర్."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Maharaja Ranjit Singh, consider the following statements:",
+     "te": "మహారాజా రంజిత్ సింగ్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "He belonged to the Sukerchakia misl.",
+      "te": "ఆయన సుకర్‌చకియా మిస్ల్‌కు చెందినవారు."
+     },
+     {
+      "en": "The Treaty of Amritsar (1809) fixed the Ravi as the boundary between his kingdom and the British.",
+      "te": "అమృత్‌సర్ సంధి (1809) ఆయన రాజ్యానికి, బ్రిటిష్ వారికి మధ్య రావి నదిని సరిహద్దుగా నిర్ణయించింది."
+     },
+     {
+      "en": "He conquered Multan before Kashmir.",
+      "te": "ఆయన కశ్మీర్ కంటే ముందే ముల్తాన్‌ను జయించారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and III are correct (Multan 1818, Kashmir 1819). II is wrong: the boundary was the Sutlej.",
+     "te": "I, III సరైనవి (ముల్తాన్ 1818, కశ్మీర్ 1819). II తప్పు: సరిహద్దు సట్లెజ్ నది."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "His rise in dates",
+      "te": "తేదీల్లో ఆయన ఎదుగుదల"
+     },
+     "items": [
+      {
+       "y": "1780",
+       "t": {
+        "en": "Born at Gujranwala",
+        "te": "గుజ్రాన్‌వాలాలో జననం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1792",
+       "t": {
+        "en": "Chief of Sukerchakia misl",
+        "te": "సుకర్‌చకియా మిస్ల్ అధిపతి"
+       }
+      },
+      {
+       "y": "1799",
+       "t": {
+        "en": "Captures Lahore",
+        "te": "లాహోర్ స్వాధీనం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1801",
+       "t": {
+        "en": "Maharaja of the Punjab",
+        "te": "పంజాబ్ మహారాజా"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1809",
+       "t": {
+        "en": "Treaty of Amritsar — Sutlej line",
+        "te": "అమృత్‌సర్ సంధి — సట్లెజ్ రేఖ"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1818–19",
+       "t": {
+        "en": "Multan, then Kashmir",
+        "te": "ముల్తాన్, తర్వాత కశ్మీర్"
+       }
+      },
+      {
+       "y": "1839",
+       "t": {
+        "en": "Dies at Lahore",
+        "te": "లాహోర్‌లో మరణం"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold years are the ones most often asked.",
+      "te": "బోల్డ్‌లో ఉన్న సంవత్సరాలు ఎక్కువగా అడుగుతారు."
+     }
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Key places of his kingdom",
+      "te": "ఆయన రాజ్యంలోని ముఖ్య ప్రదేశాలు"
+     },
+     "view": [
+      69.0,
+      28.5,
+      78.5,
+      35.8
+     ],
+     "rivers": [
+      "Sutlej",
+      "Indus",
+      "Jhelum",
+      "Ravi"
+     ],
+     "pts": [
+      {
+       "ll": [
+        31.55,
+        74.34
+       ],
+       "t": {
+        "en": "Lahore",
+        "te": "లాహోర్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        31.63,
+        74.87
+       ],
+       "t": {
+        "en": "Amritsar",
+        "te": "అమృత్‌సర్"
+       }
+      },
+      {
+       "ll": [
+        30.2,
+        71.47
+       ],
+       "t": {
+        "en": "Multan",
+        "te": "ముల్తాన్"
+       }
+      },
+      {
+       "ll": [
+        34.08,
+        74.8
+       ],
+       "t": {
+        "en": "Srinagar",
+        "te": "శ్రీనగర్"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Capital Lahore; Multan (1818) in the south-west and Kashmir (1819) in the north were his big conquests; the Sutlej was the line with the British.",
+      "te": "రాజధాని లాహోర్; నైరుతిలో ముల్తాన్ (1818), ఉత్తరాన కశ్మీర్ (1819) పెద్ద విజయాలు; బ్రిటిష్ వారితో సరిహద్దు సట్లెజ్."
+     },
+     "src": "cards/2026-11-13/map-ranjit-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Britannica — Ranjit Singh (Sikh maharaja)",
+     "u": "https://www.britannica.com/biography/Ranjit-Singh-Sikh-maharaja"
+    },
+    {
+     "t": "Encyclopaedia of Sikhism (Punjabi University) — Ranjit Singh (1780-1839), by Khushwant Singh",
+     "u": "https://eos.learnpunjabi.org/RANJIT%20SINGH%20(1780-1839).html"
+    }
+   ]
+  },
+  {
+   "id": "tagore",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "sirsyed",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "tag": {
+    "en": "On this day · 13 Nov 1913",
+    "te": "ఈ రోజు · 13 నవంబర్ 1913"
+   },
+   "title": {
+    "en": "Tagore's Nobel Prize announced — 113 years ago",
+    "te": "ఠాగూర్‌కు నోబెల్ బహుమతి ప్రకటన — 113 ఏళ్ల క్రితం"
+   },
+   "line": {
+    "en": "On 13 November 1913 Rabindranath Tagore became the first non-European to win the Nobel Prize in Literature.",
+    "te": "1913 నవంబర్ 13న రవీంద్రనాథ్ ఠాగూర్ సాహిత్యంలో నోబెల్ పొందిన తొలి యూరోపియనేతరుడయ్యారు."
+   },
+   "easy": [
+    {
+     "en": "Tagore wrote 'Gitanjali' in Bengali (1910). He himself translated poems into English, and the India Society of London published 'Gitanjali (Song Offerings)' — 103 poems — in November 1912, with an introduction by the Irish poet W.B. Yeats.",
+     "te": "ఠాగూర్ బెంగాలీలో 'గీతాంజలి' (1910) రాశారు. కవితలను ఆయనే ఇంగ్లీష్‌లోకి అనువదించారు; లండన్‌లోని ఇండియా సొసైటీ 1912 నవంబర్‌లో 103 కవితలతో 'Gitanjali (Song Offerings)' ప్రచురించింది — ఐరిష్ కవి డబ్ల్యూ.బి. యేట్స్ పీఠిక రాశారు."
+    },
+    {
+     "en": "The Swedish Academy announced the prize on 13 November 1913, praising his 'profoundly sensitive, fresh and beautiful verse'. He did not go to the Stockholm ceremony on 10 December; he gave his acceptance speech in Sweden only in 1921. He is still the only Indian to win the Literature Nobel.",
+     "te": "స్వీడిష్ అకాడమీ 1913 నవంబర్ 13న బహుమతిని ప్రకటించింది — ఆయన 'లోతైన సున్నితత్వం, తాజాదనం, అందం ఉన్న కవిత్వాన్ని' ప్రశంసించింది. డిసెంబర్ 10 స్టాక్‌హోమ్ వేడుకకు ఆయన వెళ్లలేదు; 1921లోనే స్వీడన్ వెళ్లి స్వీకార ప్రసంగం చేశారు. సాహిత్య నోబెల్ పొందిన ఏకైక భారతీయుడు ఇప్పటికీ ఆయనే."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Announced",
+      "te": "ప్రకటన"
+     },
+     {
+      "en": "13 November 1913 (ceremony 10 Dec 1913, Stockholm)",
+      "te": "13 నవంబర్ 1913 (వేడుక 10 డిసెంబర్ 1913, స్టాక్‌హోమ్)"
+     }
+    ],
+    [
+     {
+      "en": "Book",
+      "te": "పుస్తకం"
+     },
+     {
+      "en": "Gitanjali (Bengali, 1910) → English 'Song Offerings', London, 1912 — 103 poems",
+      "te": "గీతాంజలి (బెంగాలీ, 1910) → ఇంగ్లీష్ 'Song Offerings', లండన్, 1912 — 103 కవితలు"
+     }
+    ],
+    [
+     {
+      "en": "Nominated by",
+      "te": "నామినేట్ చేసినవారు"
+     },
+     {
+      "en": "British poet Thomas Sturge Moore (the only nomination)",
+      "te": "బ్రిటిష్ కవి థామస్ స్టర్జ్ మూర్ (ఏకైక నామినేషన్)"
+     }
+    ],
+    [
+     {
+      "en": "At the banquet",
+      "te": "విందులో"
+     },
+     {
+      "en": "Britain's chargé d'affaires read Tagore's telegram; Tagore gave his speech in Sweden in May 1921",
+      "te": "బ్రిటిష్ దౌత్యాధికారి ఠాగూర్ టెలిగ్రామ్ చదివారు; ఠాగూర్ 1921 మేలో స్వీడన్‌లో ప్రసంగించారు"
+     }
+    ],
+    [
+     {
+      "en": "Knighthood",
+      "te": "నైట్‌హుడ్"
+     },
+     {
+      "en": "Given 1915; repudiated 1919 in protest against the Jallianwala Bagh massacre",
+      "te": "1915లో లభించింది; జలియన్‌వాలా బాగ్ ఊచకోతకు నిరసనగా 1919లో తిరస్కరించారు"
+     }
+    ],
+    [
+     {
+      "en": "Education",
+      "te": "విద్యా సంస్థ"
+     },
+     {
+      "en": "School at Shantiniketan 1901 → Visva-Bharati University 1921",
+      "te": "శాంతినికేతన్‌లో పాఠశాల 1901 → విశ్వభారతి విశ్వవిద్యాలయం 1921"
+     }
+    ],
+    [
+     {
+      "en": "Medal theft",
+      "te": "పతకం చోరీ"
+     },
+     {
+      "en": "Nobel medal stolen from Visva-Bharati's vault on 25 March 2004",
+      "te": "విశ్వభారతి భద్రతా గది నుంచి 2004 మార్చి 25న నోబెల్ పతకం చోరీ"
+     }
+    ],
+    [
+     {
+      "en": "Life",
+      "te": "జీవితం"
+     },
+     {
+      "en": "Born 7 May 1861, Calcutta · died 7 August 1941, Calcutta",
+      "te": "జననం 7 మే 1861, కలకత్తా · మరణం 7 ఆగస్టు 1941, కలకత్తా"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Tagore and the national movement",
+     "te": "లింక్ చెయిన్ · ఠాగూర్, జాతీయోద్యమం"
+    },
+    "l": [
+     {
+      "en": "Jallianwala Bagh (Amritsar, 1919) → Tagore gave up 'Sir' — one of the best-known protests by an Indian intellectual.",
+      "te": "జలియన్‌వాలా బాగ్ (అమృత్‌సర్, 1919) → ఠాగూర్ 'సర్' బిరుదు వదులుకున్నారు — భారతీయ మేధావి చేసిన ప్రసిద్ధ నిరసనల్లో ఒకటి."
+     },
+     {
+      "en": "Gitanjali was admired by W.B. Yeats and André Gide in Europe.",
+      "te": "యూరప్‌లో యేట్స్, ఆండ్రే జీడ్ గీతాంజలిని ప్రశంసించారు."
+     },
+     {
+      "en": "Visva-Bharati grew out of his 1901 Shantiniketan school — learning in open air, close to nature.",
+      "te": "1901 శాంతినికేతన్ పాఠశాల నుంచే విశ్వభారతి ఎదిగింది — ప్రకృతి ఒడిలో, బహిరంగ విద్య."
+     }
+    ]
+   },
+   "trap": {
+    "en": "Gitanjali (Bengali) = 1910; English Song Offerings = 1912; Nobel = 1913; knighthood = 1915. Tagore was NOT present at the 1913 Stockholm ceremony.",
+    "te": "గీతాంజలి (బెంగాలీ) = 1910; ఇంగ్లీష్ Song Offerings = 1912; నోబెల్ = 1913; నైట్‌హుడ్ = 1915. 1913 స్టాక్‌హోమ్ వేడుకకు ఠాగూర్ హాజరు కాలేదు."
+   },
+   "tip": {
+    "en": "10-12-13-15-19-21: Bengali, English, Nobel, Sir, gave up Sir, Visva-Bharati (and Sweden speech).",
+    "te": "10-12-13-15-19-21: బెంగాలీ, ఇంగ్లీష్, నోబెల్, సర్, సర్ వదులుకోవడం, విశ్వభారతి (స్వీడన్ ప్రసంగం)."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about Rabindranath Tagore's Nobel Prize:",
+     "te": "రవీంద్రనాథ్ ఠాగూర్ నోబెల్ బహుమతికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "He was the first non-European to win the Nobel Prize in Literature.",
+      "te": "సాహిత్యంలో నోబెల్ పొందిన తొలి యూరోపియనేతరుడు ఆయనే."
+     },
+     {
+      "en": "He received the prize in person at Stockholm on 10 December 1913.",
+      "te": "1913 డిసెంబర్ 10న స్టాక్‌హోమ్‌లో ఆయన స్వయంగా బహుమతి అందుకున్నారు."
+     },
+     {
+      "en": "He renounced his knighthood in 1919 after the Jallianwala Bagh massacre.",
+      "te": "జలియన్‌వాలా బాగ్ ఊచకోత తర్వాత 1919లో ఆయన నైట్‌హుడ్‌ను వదులుకున్నారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II is wrong: Tagore was absent; Britain's chargé d'affaires read his telegram, and he spoke in Sweden only in 1921.",
+     "te": "II తప్పు: ఠాగూర్ హాజరు కాలేదు; బ్రిటిష్ దౌత్యాధికారి ఆయన టెలిగ్రామ్ చదివారు; 1921లోనే స్వీడన్‌లో ప్రసంగించారు."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "From Gitanjali to Visva-Bharati",
+      "te": "గీతాంజలి నుంచి విశ్వభారతి వరకు"
+     },
+     "items": [
+      {
+       "y": "1861",
+       "t": {
+        "en": "Born in Calcutta",
+        "te": "కలకత్తాలో జననం"
+       }
+      },
+      {
+       "y": "1901",
+       "t": {
+        "en": "Shantiniketan school",
+        "te": "శాంతినికేతన్ పాఠశాల"
+       }
+      },
+      {
+       "y": "1910",
+       "t": {
+        "en": "Gitanjali in Bengali",
+        "te": "బెంగాలీ గీతాంజలి"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1912",
+       "t": {
+        "en": "English 'Song Offerings', London",
+        "te": "ఇంగ్లీష్ 'Song Offerings', లండన్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1913",
+       "t": {
+        "en": "Nobel announced, 13 Nov",
+        "te": "నవంబర్ 13 నోబెల్ ప్రకటన"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1915",
+       "t": {
+        "en": "Knighthood",
+        "te": "నైట్‌హుడ్"
+       }
+      },
+      {
+       "y": "1919",
+       "t": {
+        "en": "Gives up knighthood",
+        "te": "నైట్‌హుడ్ తిరస్కరణ"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1921",
+       "t": {
+        "en": "Visva-Bharati; speech in Sweden",
+        "te": "విశ్వభారతి; స్వీడన్‌లో ప్రసంగం"
+       }
+      },
+      {
+       "y": "1941",
+       "t": {
+        "en": "Dies, 7 Aug",
+        "te": "ఆగస్టు 7 మరణం"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Read the 1910 → 1912 → 1913 chain together: Bengali book, English book, prize.",
+      "te": "1910 → 1912 → 1913 గొలుసును కలిపి చదవండి: బెంగాలీ పుస్తకం, ఇంగ్లీష్ పుస్తకం, బహుమతి."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Wikipedia — 1913 Nobel Prize in Literature",
+     "u": "https://en.wikipedia.org/wiki/1913_Nobel_Prize_in_Literature"
+    },
+    {
+     "t": "Wikipedia — Gitanjali (Song Offerings)",
+     "u": "https://en.wikipedia.org/wiki/Song_Offerings"
+    },
+    {
+     "t": "Britannica — Gitanjali (Song Offerings)",
+     "u": "https://www.britannica.com/topic/Gitanjali-Song-Offerings"
+    },
+    {
+     "t": "Britannica — Rabindranath Tagore (W. Andrew Robinson)",
+     "u": "https://www.britannica.com/print/article/580333"
+    },
+    {
+     "t": "The Caravan — Editor's Pick: Tagore's 1913 Nobel Prize",
+     "u": "https://www.caravanmagazine.in/editors-pick/rabindranath-tagore-nobel-prize-literature"
+    }
+   ]
+  },
+  {
+   "id": "apwipo",
+   "kind": "article",
+   "color": "#2c5d63",
+   "icon": "rocket",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "Deccan Chronicle · Visakhapatnam · 11 Nov 2026",
+    "te": "డెక్కన్ క్రానికల్ · విశాఖపట్నం · 11 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "In the news · AP · IPR & innovation · GS-III",
+    "te": "వార్తల్లో · ఏపీ · మేధో సంపత్తి & ఆవిష్కరణ · GS-III"
+   },
+   "title": {
+    "en": "AP seeks WIPO partnership: an IP academy, GI tags and a top-100 S&T cluster goal",
+    "te": "WIPO భాగస్వామ్యం కోరిన ఏపీ: IP అకాడమీ, GI ట్యాగ్‌లు, టాప్-100 S&T క్లస్టర్ లక్ష్యం"
+   },
+   "line": {
+    "en": "At Visakhapatnam, the AP Chief Minister asked WIPO to help train innovators in IPR and to get GI tags for AP handlooms and handicrafts.",
+    "te": "విశాఖపట్నంలో ఆవిష్కర్తలకు మేధో సంపత్తి హక్కుల (IPR) శిక్షణ, ఏపీ చేనేత-హస్తకళలకు GI ట్యాగ్‌ల కోసం సహకరించాలని ముఖ్యమంత్రి WIPOను కోరారు."
+   },
+   "easy": [
+    {
+     "en": "What is IPR? An idea, design or brand is 'intellectual property'. Patents (inventions), trademarks (brand names), industrial designs and GI tags protect it, so others cannot copy it freely. WIPO — the World Intellectual Property Organization — is the global body for IP.",
+     "te": "IPR అంటే? ఒక ఆలోచన, డిజైన్, బ్రాండ్ — ఇవి 'మేధో సంపత్తి'. పేటెంట్లు (ఆవిష్కరణలు), ట్రేడ్‌మార్కులు (బ్రాండ్ పేర్లు), పారిశ్రామిక డిజైన్లు, GI ట్యాగ్‌లు వాటిని రక్షిస్తాయి — ఇతరులు ఇష్టమొచ్చినట్లు కాపీ చేయలేరు. WIPO (ప్రపంచ మేధో సంపత్తి సంస్థ) దీనికి అంతర్జాతీయ సంస్థ."
+    },
+    {
+     "en": "What happened? On 11 November 2026, ahead of the CII Partnership Summit, CM N. Chandrababu Naidu met WIPO Director General Daren Tang. He proposed a 'WIPO Andhra Pradesh Academy', GI support for handlooms and handicrafts, links with the Ratan Tata Innovation Hub, and help for 10 lakh women entrepreneurs under the 'Swayam' brand.",
+     "te": "ఏం జరిగింది? 2026 నవంబర్ 11న CII భాగస్వామ్య సదస్సుకు ముందు ముఖ్యమంత్రి ఎన్. చంద్రబాబు నాయుడు WIPO డైరెక్టర్ జనరల్ డారెన్ టాంగ్‌ను కలిశారు. 'WIPO ఆంధ్రప్రదేశ్ అకాడమీ', చేనేత-హస్తకళలకు GI సహకారం, రతన్ టాటా ఇన్నోవేషన్ హబ్‌తో అనుసంధానం, 'స్వయం' బ్రాండ్ కింద 10 లక్షల మహిళా పారిశ్రామికవేత్తలకు సహకారం ప్రతిపాదించారు."
+    },
+    {
+     "en": "Why it matters: a GI tag tells buyers a product truly comes from a place and gives local weavers better prices. The bigger goal is to make the Amaravati–Visakhapatnam corridor one of the world's top 100 science and technology clusters by 2029.",
+     "te": "ఎందుకు ముఖ్యం: ఒక వస్తువు నిజంగా ఆ ప్రాంతానిదేనని GI ట్యాగ్ కొనుగోలుదారులకు చెబుతుంది; స్థానిక నేతన్నలకు మంచి ధర వస్తుంది. పెద్ద లక్ష్యం: 2029 నాటికి అమరావతి–విశాఖపట్నం కారిడార్‌ను ప్రపంచంలోని టాప్ 100 సైన్స్ & టెక్నాలజీ క్లస్టర్లలో ఒకటిగా చేయడం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Meeting",
+      "te": "సమావేశం"
+     },
+     {
+      "en": "11 Nov 2026, Visakhapatnam — CM N. Chandrababu Naidu and WIPO DG Daren Tang",
+      "te": "11 నవంబర్ 2026, విశాఖపట్నం — సీఎం ఎన్. చంద్రబాబు నాయుడు, WIPO డీజీ డారెన్ టాంగ్"
+     }
+    ],
+    [
+     {
+      "en": "Academy",
+      "te": "అకాడమీ"
+     },
+     {
+      "en": "'WIPO Andhra Pradesh Academy' — IPR training for students, researchers, startups and MSMEs",
+      "te": "'WIPO ఆంధ్రప్రదేశ్ అకాడమీ' — విద్యార్థులు, పరిశోధకులు, స్టార్టప్‌లు, MSMEలకు IPR శిక్షణ"
+     }
+    ],
+    [
+     {
+      "en": "GI support",
+      "te": "GI సహకారం"
+     },
+     {
+      "en": "GI tags for handlooms, handicrafts and traditional products; branding for already-GI products",
+      "te": "చేనేత, హస్తకళలు, సంప్రదాయ ఉత్పత్తులకు GI ట్యాగ్‌లు; ఇప్పటికే GI ఉన్నవాటికి బ్రాండింగ్"
+     }
+    ],
+    [
+     {
+      "en": "Women",
+      "te": "మహిళలు"
+     },
+     {
+      "en": "Goal: 10 lakh women entrepreneurs; products under the 'Swayam' brand",
+      "te": "లక్ష్యం: 10 లక్షల మహిళా పారిశ్రామికవేత్తలు; 'స్వయం' బ్రాండ్ కింద ఉత్పత్తులు"
+     }
+    ],
+    [
+     {
+      "en": "Cluster goal",
+      "te": "క్లస్టర్ లక్ష్యం"
+     },
+     {
+      "en": "Amaravati–Visakhapatnam corridor among world's top 100 S&T clusters by 2029",
+      "te": "2029 నాటికి అమరావతి–విశాఖపట్నం కారిడార్ ప్రపంచ టాప్ 100 S&T క్లస్టర్లలో"
+     }
+    ],
+    [
+     {
+      "en": "Hub",
+      "te": "హబ్"
+     },
+     {
+      "en": "Collaboration with the Ratan Tata Innovation Hub",
+      "te": "రతన్ టాటా ఇన్నోవేషన్ హబ్‌తో సహకారం"
+     }
+    ],
+    [
+     {
+      "en": "WIPO DG",
+      "te": "WIPO డీజీ"
+     },
+     {
+      "en": "Daren Tang (Singapore) — in office since 1 Oct 2020; second term 2026–2032",
+      "te": "డారెన్ టాంగ్ (సింగపూర్) — 2020 అక్టోబర్ 1 నుంచి; రెండో పదవీకాలం 2026–2032"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · IPR basics for the exam",
+     "te": "లింక్ చెయిన్ · పరీక్ష కోసం IPR ప్రాథమికాలు"
+    },
+    "l": [
+     {
+      "en": "Patent = invention · Trademark = brand · Industrial design = look/shape · GI = product linked to a place.",
+      "te": "పేటెంట్ = ఆవిష్కరణ · ట్రేడ్‌మార్క్ = బ్రాండ్ · ఇండస్ట్రియల్ డిజైన్ = రూపం/ఆకారం · GI = ప్రాంతంతో ముడిపడిన ఉత్పత్తి."
+     },
+     {
+      "en": "Same summit: Visakhapatnam hosts the 31st CII Partnership Summit (12–13 Nov 2026).",
+      "te": "అదే సదస్సు: విశాఖపట్నంలో 31వ CII భాగస్వామ్య సదస్సు (12–13 నవంబర్ 2026)."
+     },
+     {
+      "en": "AP's knowledge-economy push named in the meeting: quantum computing (Amaravati Quantum Valley), AI, green energy, space technology, natural farming.",
+      "te": "సమావేశంలో ప్రస్తావించిన ఏపీ జ్ఞాన ఆర్థిక రంగాలు: క్వాంటం కంప్యూటింగ్ (అమరావతి క్వాంటం వ్యాలీ), AI, హరిత ఇంధనం, అంతరిక్ష సాంకేతికత, ప్రకృతి వ్యవసాయం."
+     }
+    ]
+   },
+   "trap": {
+    "en": "A GI tag protects a product's link to a PLACE (e.g. a handloom from a region); a patent protects an INVENTION. The academy proposed is a WIPO–AP academy, not a new WIPO headquarters.",
+    "te": "GI ట్యాగ్ ఒక ఉత్పత్తికి ప్రాంతంతో ఉన్న బంధాన్ని రక్షిస్తుంది; పేటెంట్ ఆవిష్కరణను రక్షిస్తుంది. ప్రతిపాదించింది WIPO–ఏపీ అకాడమీ, WIPO కొత్త ప్రధాన కార్యాలయం కాదు."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following proposals made by Andhra Pradesh to WIPO in November 2026:",
+     "te": "2026 నవంబర్‌లో ఆంధ్రప్రదేశ్ WIPOకు చేసిన కింది ప్రతిపాదనలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "A WIPO Andhra Pradesh Academy for IPR training.",
+      "te": "IPR శిక్షణ కోసం WIPO ఆంధ్రప్రదేశ్ అకాడమీ."
+     },
+     {
+      "en": "GI tags for handlooms and handicrafts.",
+      "te": "చేనేత, హస్తకళలకు GI ట్యాగ్‌లు."
+     },
+     {
+      "en": "Making the Amaravati–Visakhapatnam corridor a top-10 global S&T cluster by 2029.",
+      "te": "2029 నాటికి అమరావతి–విశాఖపట్నం కారిడార్‌ను ప్రపంచ టాప్-10 S&T క్లస్టర్‌గా చేయడం."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "III is wrong: the goal is the top 100, not the top 10.",
+     "te": "III తప్పు: లక్ష్యం టాప్ 100, టాప్ 10 కాదు."
+    }
+   },
+   "pics": [
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "What AP asked WIPO for",
+      "te": "ఏపీ WIPOను ఏం కోరింది"
+     },
+     "c": {
+      "en": "AP × WIPO",
+      "te": "ఏపీ × WIPO"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Academy",
+        "te": "అకాడమీ"
+       },
+       "l": [
+        {
+         "en": "Patents, trademarks",
+         "te": "పేటెంట్లు, ట్రేడ్‌మార్కులు"
+        },
+        {
+         "en": "Startups, MSMEs",
+         "te": "స్టార్టప్‌లు, MSMEలు"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "GI tags",
+        "te": "GI ట్యాగ్‌లు"
+       },
+       "l": [
+        {
+         "en": "Handlooms",
+         "te": "చేనేత"
+        },
+        {
+         "en": "Handicrafts",
+         "te": "హస్తకళలు"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Women",
+        "te": "మహిళలు"
+       },
+       "l": [
+        {
+         "en": "10 lakh entrepreneurs",
+         "te": "10 లక్షల పారిశ్రామికవేత్తలు"
+        },
+        {
+         "en": "'Swayam' brand",
+         "te": "'స్వయం' బ్రాండ్"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Innovation",
+        "te": "ఆవిష్కరణ"
+       },
+       "l": [
+        {
+         "en": "Ratan Tata Innovation Hub",
+         "te": "రతన్ టాటా ఇన్నోవేషన్ హబ్"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Cluster 2029",
+        "te": "క్లస్టర్ 2029"
+       },
+       "l": [
+        {
+         "en": "Top 100 S&T",
+         "te": "టాప్ 100 S&T"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "The innovation corridor",
+      "te": "ఆవిష్కరణ కారిడార్"
+     },
+     "view": "ap",
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#2c5d63",
+     "pts": [
+      {
+       "ll": [
+        16.51,
+        80.52
+       ],
+       "t": {
+        "en": "Amaravati",
+        "te": "అమరావతి"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        17.69,
+        83.22
+       ],
+       "t": {
+        "en": "Visakhapatnam",
+        "te": "విశాఖపట్నం"
+       },
+       "a": "l"
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         16.51,
+         80.52
+        ],
+        [
+         17.69,
+         83.22
+        ]
+       ],
+       "dash": 1
+      }
+     ],
+     "seas": true,
+     "cap": {
+      "en": "The dashed line marks the Amaravati–Visakhapatnam corridor that AP wants among the world's top 100 S&T clusters by 2029.",
+      "te": "చుక్కల గీత అమరావతి–విశాఖపట్నం కారిడార్ — 2029 నాటికి ప్రపంచ టాప్ 100 S&T క్లస్టర్లలో చేర్చాలన్నది ఏపీ లక్ష్యం."
+     },
+     "src": "cards/2026-11-13/map-apwipo-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Deccan Chronicle — CM Naidu Seeks WIPO Partnership To Promote AP Innovations, Secure Patents And GI Tags, 11 Nov 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-naidu-seeks-wipo-partnership-to-promote-ap-innovations-secure-patents-and-gi-tags-2003588"
+    },
+    {
+     "t": "UNI India — AP CM seeks WIPO partnership to promote innovation, IPR and global branding of AP products, 11 Nov 2026",
+     "u": "https://www.uniindia.com/business-economy/business-ap-wipo-cm/242315"
+    },
+    {
+     "t": "The Morning Voice — Andhra Pradesh Seeks WIPO Partnership to Boost Startups and Innovation, 12 Nov 2026",
+     "u": "https://tmv.in/article/andhra-pradesh-seeks-wipo-partnership-to-boost-startups-and-innovation"
+    },
+    {
+     "t": "Wikipedia — Daren Tang",
+     "u": "https://en.wikipedia.org/wiki/Daren_Tang"
+    }
+   ],
+   "mains": {
+    "en": "How can GI tags and IPR awareness help Andhra Pradesh's handloom and handicraft sectors? Discuss with the state's recent initiatives.",
+    "te": "GI ట్యాగ్‌లు, IPR అవగాహన ఆంధ్రప్రదేశ్ చేనేత, హస్తకళల రంగాలకు ఎలా ఉపయోగపడతాయి? రాష్ట్ర ఇటీవలి చొరవలతో చర్చించండి."
+   }
+  },
+  {
+   "id": "safeharbour",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "In the news · Polity & Governance · 5–12 Nov 2026",
+    "te": "వార్తల్లో · పాలిటీ & పాలన · 5–12 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity / GS-III Cyber",
+    "te": "వివరణ · GS-II పాలిటీ / GS-III సైబర్"
+   },
+   "title": {
+    "en": "Safe harbour under review: should social media keep Section 79 immunity?",
+    "te": "సేఫ్ హార్బర్‌పై సమీక్ష: సోషల్ మీడియాకు సెక్షన్ 79 రక్షణ కొనసాగాలా?"
+   },
+   "line": {
+    "en": "MeitY has begun exploratory talks on whether platforms whose algorithms rank and promote content are still 'passive' intermediaries.",
+    "te": "అల్గోరిథమ్‌లతో కంటెంట్‌ను ర్యాంక్ చేసి ప్రమోట్ చేసే వేదికలు ఇంకా 'నిష్క్రియ' మధ్యవర్తులేనా అనే దానిపై MeitY ప్రాథమిక చర్చలు ప్రారంభించింది."
+   },
+   "easy": [
+    {
+     "en": "What is 'safe harbour'? Section 79 of the Information Technology Act, 2000 says an intermediary (a platform that carries other people's posts) is not liable for what users post — if it does not start the transmission, choose the receiver or change the content, and if it follows due-diligence rules. It loses this shield if it does not remove unlawful content after notice from the government or a court.",
+     "te": "'సేఫ్ హార్బర్' అంటే? ఐటీ చట్టం, 2000లోని సెక్షన్ 79 ప్రకారం — ఇతరుల పోస్టులను చేరవేసే మధ్యవర్తి వేదిక వినియోగదారులు పెట్టే కంటెంట్‌కు బాధ్యత వహించదు; షరతు: అది ప్రసారాన్ని ప్రారంభించకూడదు, స్వీకర్తను ఎంచుకోకూడదు, కంటెంట్‌ను మార్చకూడదు, నిర్దేశిత జాగ్రత్త (due diligence) నియమాలు పాటించాలి. ప్రభుత్వం లేదా కోర్టు నోటీసు తర్వాత చట్టవిరుద్ధ కంటెంట్‌ను తొలగించకపోతే ఈ రక్షణ పోతుంది."
+    },
+    {
+     "en": "Why the review? Platforms like Facebook, Instagram, YouTube and X use algorithms that decide the 'ranking, placement, promotion or suppression' of posts. The government asks: if a platform actively decides what you see, should it still get blanket immunity? One idea is to keep protection only for services that merely transmit — ISPs, telecom firms and peer-to-peer messaging.",
+     "te": "సమీక్ష ఎందుకు? ఫేస్‌బుక్, ఇన్‌స్టాగ్రామ్, యూట్యూబ్, X వంటి వేదికలు పోస్టుల ర్యాంకింగ్, స్థానం, ప్రమోషన్ లేదా అణచివేతను అల్గోరిథమ్‌లతో నిర్ణయిస్తాయి. మీరు ఏం చూడాలో వేదికే నిర్ణయిస్తే, దానికి పూర్తి రక్షణ ఇవ్వాలా అని ప్రభుత్వం ప్రశ్నిస్తోంది. కేవలం సమాచారం చేరవేసే సేవలకే — ISPలు, టెలికాం సంస్థలు, పీర్-టు-పీర్ మెసేజింగ్ — రక్షణ ఉంచాలనేది ఒక ఆలోచన."
+    },
+    {
+     "en": "Status: talks are exploratory; no decision has been taken. Any change needs an amendment to the IT Act by Parliament. Critics fear platforms may over-remove content to stay safe.",
+     "te": "ప్రస్తుత స్థితి: చర్చలు ప్రాథమిక దశలోనే; ఏ నిర్ణయమూ తీసుకోలేదు. మార్పుకు పార్లమెంటు ఐటీ చట్టాన్ని సవరించాలి. రక్షణ కోసం వేదికలు అవసరానికి మించి కంటెంట్‌ను తొలగిస్తాయని విమర్శకుల భయం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Law",
+      "te": "చట్టం"
+     },
+     {
+      "en": "Section 79, Information Technology Act, 2000 — conditional immunity for third-party content",
+      "te": "సెక్షన్ 79, ఐటీ చట్టం, 2000 — మూడో పక్ష కంటెంట్‌కు షరతులతో కూడిన రక్షణ"
+     }
+    ],
+    [
+     {
+      "en": "Conditions",
+      "te": "షరతులు"
+     },
+     {
+      "en": "Must not initiate the transmission, select the receiver or modify the content; must follow due diligence",
+      "te": "ప్రసారం ప్రారంభించకూడదు, స్వీకర్తను ఎంచుకోకూడదు, కంటెంట్ మార్చకూడదు; due diligence పాటించాలి"
+     }
+    ],
+    [
+     {
+      "en": "Shield lost if",
+      "te": "రక్షణ పోయేది"
+     },
+     {
+      "en": "It abets an unlawful act, or fails to remove unlawful content after government/court notice",
+      "te": "చట్టవిరుద్ధ చర్యకు సహకరిస్తే, లేదా ప్రభుత్వ/కోర్టు నోటీసు తర్వాత చట్టవిరుద్ధ కంటెంట్ తొలగించకపోతే"
+     }
+    ],
+    [
+     {
+      "en": "Who is reviewing",
+      "te": "సమీక్ష ఎవరు"
+     },
+     {
+      "en": "Ministry of Electronics and IT (MeitY) — exploratory, no final decision",
+      "te": "ఎలక్ట్రానిక్స్ & ఐటీ మంత్రిత్వ శాఖ (MeitY) — ప్రాథమిక దశ, తుది నిర్ణయం లేదు"
+     }
+    ],
+    [
+     {
+      "en": "Idea",
+      "te": "ఆలోచన"
+     },
+     {
+      "en": "Keep immunity only for 'mere transmitters' — ISPs, telecom, peer-to-peer messaging",
+      "te": "కేవలం 'చేరవేసేవారికే' రక్షణ — ISPలు, టెలికాం, పీర్-టు-పీర్ మెసేజింగ్"
+     }
+    ],
+    [
+     {
+      "en": "Needs",
+      "te": "అవసరం"
+     },
+     {
+      "en": "Amendment of the IT Act (Parliament) + stakeholder consultation",
+      "te": "ఐటీ చట్ట సవరణ (పార్లమెంటు) + భాగస్వాములతో సంప్రదింపులు"
+     }
+    ],
+    [
+     {
+      "en": "SC, 15 Oct 2026",
+      "te": "సుప్రీంకోర్టు, 15 అక్టోబర్ 2026"
+     },
+     {
+      "en": "Just Rights for Children Alliance v. S. Harish: withdrawal of safe harbour should be reserved for serious violations",
+      "te": "జస్ట్ రైట్స్ ఫర్ చిల్డ్రన్ అలయన్స్ v. ఎస్. హరీష్: తీవ్ర ఉల్లంఘనలకే సేఫ్ హార్బర్ ఉపసంహరణ"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Free speech and the internet",
+     "te": "లింక్ చెయిన్ · భావప్రకటన స్వేచ్ఛ, ఇంటర్నెట్"
+    },
+    "l": [
+     {
+      "en": "Article 19(1)(a) — freedom of speech; Article 19(2) — reasonable restrictions.",
+      "te": "ఆర్టికల్ 19(1)(a) — భావప్రకటన స్వేచ్ఛ; ఆర్టికల్ 19(2) — సహేతుక పరిమితులు."
+     },
+     {
+      "en": "Shreya Singhal case (2015) is the landmark Supreme Court ruling on online speech and intermediary liability.",
+      "te": "శ్రేయా సింఘాల్ కేసు (2015) — ఆన్‌లైన్ భావప్రకటన, మధ్యవర్తుల బాధ్యతపై సుప్రీంకోర్టు చారిత్రక తీర్పు."
+     },
+     {
+      "en": "IT Rules, 2021: 'significant social media intermediaries' are those with 50 lakh or more users in India.",
+      "te": "ఐటీ నియమాలు, 2021: భారత్‌లో 50 లక్షలు లేదా అంతకంటే ఎక్కువ వినియోగదారులున్నవి 'ముఖ్యమైన సోషల్ మీడియా మధ్యవర్తులు'."
+     }
+    ]
+   },
+   "trap": {
+    "en": "Safe harbour is NOT absolute even today — it is conditional. And nothing has been withdrawn yet: only talks have started; a change needs Parliament to amend the IT Act.",
+    "te": "సేఫ్ హార్బర్ ఇప్పుడు కూడా సంపూర్ణం కాదు — షరతులతో కూడినది. ఇంకా ఏదీ ఉపసంహరించలేదు: చర్చలు మాత్రమే మొదలయ్యాయి; మార్పుకు పార్లమెంటు ఐటీ చట్టాన్ని సవరించాలి."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to 'safe harbour' under Section 79 of the IT Act, 2000, consider the following statements:",
+     "te": "ఐటీ చట్టం, 2000 సెక్షన్ 79 కింద 'సేఫ్ హార్బర్'కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "It gives intermediaries absolute immunity for all user content.",
+      "te": "వినియోగదారుల కంటెంట్ మొత్తానికి మధ్యవర్తులకు సంపూర్ణ రక్షణ ఇస్తుంది."
+     },
+     {
+      "en": "An intermediary that modifies the information it transmits cannot claim it.",
+      "te": "తాను చేరవేసే సమాచారాన్ని మార్చే మధ్యవర్తి దీనిని పొందలేదు."
+     },
+     {
+      "en": "Withdrawing it for social media platforms would require an amendment of the IT Act.",
+      "te": "సోషల్ మీడియా వేదికలకు దీనిని ఉపసంహరించాలంటే ఐటీ చట్ట సవరణ అవసరం."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "I is wrong: the immunity is conditional — due diligence, no modifying content, and removing unlawful content on notice.",
+     "te": "I తప్పు: రక్షణ షరతులతో కూడినది — due diligence, కంటెంట్ మార్చకూడదు, నోటీసుపై చట్టవిరుద్ధ కంటెంట్ తొలగించాలి."
+    }
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "The question the government is asking",
+      "te": "ప్రభుత్వం అడుగుతున్న ప్రశ్న"
+     },
+     "a": {
+      "h": {
+       "en": "'Mere transmitter'",
+       "te": "'కేవలం చేరవేసేది'"
+      },
+      "l": [
+       {
+        "en": "ISP, telecom, P2P messaging",
+        "te": "ISP, టెలికాం, P2P మెసేజింగ్"
+       },
+       {
+        "en": "Does not choose or change content",
+        "te": "కంటెంట్ ఎంచుకోదు, మార్చదు"
+       },
+       {
+        "en": "Immunity likely to stay",
+        "te": "రక్షణ కొనసాగే అవకాశం"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Algorithmic platform",
+       "te": "అల్గోరిథమ్ వేదిక"
+      },
+      "l": [
+       {
+        "en": "Facebook, Instagram, YouTube, X",
+        "te": "ఫేస్‌బుక్, ఇన్‌స్టాగ్రామ్, యూట్యూబ్, X"
+       },
+       {
+        "en": "Ranks, promotes, suppresses posts",
+        "te": "పోస్టులను ర్యాంక్, ప్రమోట్, అణచివేత"
+       },
+       {
+        "en": "Blanket immunity under review",
+        "te": "పూర్తి రక్షణపై సమీక్ష"
+       }
+      ]
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How Section 79 works",
+      "te": "సెక్షన్ 79 ఎలా పనిచేస్తుంది"
+     },
+     "items": [
+      {
+       "i": "👤",
+       "t": {
+        "en": "User posts content",
+        "te": "వినియోగదారు పోస్ట్"
+       }
+      },
+      {
+       "i": "📡",
+       "t": {
+        "en": "Platform only carries it + due diligence",
+        "te": "వేదిక చేరవేస్తుంది + due diligence"
+       }
+      },
+      {
+       "i": "🛡️",
+       "t": {
+        "en": "Not liable (safe harbour)",
+        "te": "బాధ్యత లేదు (సేఫ్ హార్బర్)"
+       }
+      },
+      {
+       "i": "⚖️",
+       "t": {
+        "en": "Govt/court notice → must remove",
+        "te": "ప్రభుత్వ/కోర్టు నోటీసు → తొలగించాలి"
+       }
+      },
+      {
+       "i": "❌",
+       "t": {
+        "en": "Ignores notice → shield lost",
+        "te": "నోటీసు పట్టించుకోకపోతే → రక్షణ పోతుంది"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "MediaNama — Report: Government is considering limiting safe harbour protections for social media platforms, 5 Nov 2026",
+     "u": "https://www.medianama.com/2026/11/223-government-safe-harbour-social-media-algorithm/"
+    },
+    {
+     "t": "Inc42 — Centre Weighs Withdrawing Safe Harbour For Meta, Google, X: Report, 5 Nov 2026",
+     "u": "https://inc42.com/buzz/centre-weighs-withdrawing-safe-harbour-for-meta-google-x-report/"
+    },
+    {
+     "t": "Legacy IAS — Current Affairs 12 November 2026 (cross-check: IT Rules 2021, Shreya Singhal)",
+     "u": "https://www.legacyias.com/current-affairs-12-november-2026/"
+    }
+   ],
+   "mains": {
+    "en": "Should platforms that use algorithms to amplify content continue to enjoy safe harbour under Section 79 of the IT Act? Examine with reference to free speech and accountability.",
+    "te": "కంటెంట్‌ను అల్గోరిథమ్‌లతో విస్తరింపజేసే వేదికలకు ఐటీ చట్టం సెక్షన్ 79 కింద సేఫ్ హార్బర్ కొనసాగాలా? భావప్రకటన స్వేచ్ఛ, జవాబుదారీతనం దృష్ట్యా పరిశీలించండి."
+   }
+  },
+  {
+   "id": "blackmass",
+   "kind": "article",
+   "color": "#2f6b2f",
+   "icon": "leaf",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "PIB · Ministry of Commerce & Industry · 11 Nov 2026",
+    "te": "PIB · వాణిజ్య & పరిశ్రమల మంత్రిత్వ శాఖ · 11 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "In the news · Economy & Environment · GS-III",
+    "te": "వార్తల్లో · ఆర్థికం & పర్యావరణం · GS-III"
+   },
+   "title": {
+    "en": "Export of lithium-ion battery 'black mass' banned: keeping critical minerals at home",
+    "te": "లిథియం-అయాన్ బ్యాటరీ 'బ్లాక్ మాస్' ఎగుమతిపై నిషేధం: కీలక ఖనిజాలు దేశంలోనే"
+   },
+   "line": {
+    "en": "DGFT moved black mass from 'Free' to 'Prohibited' so Indian recyclers get enough feedstock to recover lithium, cobalt, nickel and manganese.",
+    "te": "దేశీయ రీసైక్లర్లకు లిథియం, కోబాల్ట్, నికెల్, మాంగనీస్ రాబట్టేందుకు తగినంత ముడి సరుకు దొరికేలా DGFT బ్లాక్ మాస్‌ను 'Free' నుంచి 'Prohibited'కి మార్చింది."
+   },
+   "easy": [
+    {
+     "en": "What is black mass? When old lithium-ion batteries (phones, laptops, EVs) and battery-factory waste are shredded, a black powder is left. It still holds valuable 'critical minerals' — lithium, cobalt, nickel and manganese — which can be recovered and used again.",
+     "te": "బ్లాక్ మాస్ అంటే? పాత లిథియం-అయాన్ బ్యాటరీలను (ఫోన్లు, ల్యాప్‌టాప్‌లు, EVలు), బ్యాటరీ తయారీ వ్యర్థాలను ముక్కలు చేసినప్పుడు నల్లటి పొడి మిగులుతుంది. అందులో విలువైన 'కీలక ఖనిజాలు' — లిథియం, కోబాల్ట్, నికెల్, మాంగనీస్ — ఉంటాయి; వాటిని తిరిగి వెలికితీసి వాడుకోవచ్చు."
+    },
+    {
+     "en": "Why ban the export? Indian recycling plants are not fully used because they do not get enough black mass; some even had to import it. If black mass goes abroad, India loses these minerals. So the DGFT (Notification No. 49/2026-27, 10 Nov 2026) prohibited its export with immediate effect, until further orders.",
+     "te": "ఎగుమతి నిషేధం ఎందుకు? తగినంత బ్లాక్ మాస్ దొరకక దేశీయ రీసైక్లింగ్ ప్లాంట్లు పూర్తి సామర్థ్యంతో పనిచేయడం లేదు; కొన్ని దిగుమతి కూడా చేసుకోవాల్సి వచ్చింది. బ్లాక్ మాస్ విదేశాలకు వెళ్తే ఈ ఖనిజాలు దేశం కోల్పోతుంది. అందుకే DGFT (నోటిఫికేషన్ నం. 49/2026-27, 10 నవంబర్ 2026) తక్షణమే, తదుపరి ఉత్తర్వుల వరకు దాని ఎగుమతిని నిషేధించింది."
+    },
+    {
+     "en": "Bigger picture: this is 'urban mining' — getting minerals from waste instead of new mines. It supports the National Critical Mineral Mission and a ₹1,500 crore incentive scheme (approved September 2025) for recycling critical minerals from battery waste and e-waste.",
+     "te": "పెద్ద చిత్రం: ఇది 'అర్బన్ మైనింగ్' — కొత్త గనులకు బదులు వ్యర్థాల నుంచి ఖనిజాలు. ఇది జాతీయ కీలక ఖనిజాల మిషన్‌కు, బ్యాటరీ వ్యర్థాలు, ఇ-వ్యర్థాల నుంచి ఖనిజాల రీసైక్లింగ్ కోసం ₹1,500 కోట్ల ప్రోత్సాహక పథకానికి (2025 సెప్టెంబర్‌లో ఆమోదం) తోడ్పడుతుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Order",
+      "te": "ఉత్తర్వు"
+     },
+     {
+      "en": "DGFT Notification No. 49/2026-27, dated 10 Nov 2026",
+      "te": "DGFT నోటిఫికేషన్ నం. 49/2026-27, తేదీ 10 నవంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Change",
+      "te": "మార్పు"
+     },
+     {
+      "en": "Export policy 'Free' → 'Prohibited', immediate effect, until further orders",
+      "te": "ఎగుమతి విధానం 'Free' → 'Prohibited', తక్షణమే, తదుపరి ఉత్తర్వుల వరకు"
+     }
+    ],
+    [
+     {
+      "en": "Code",
+      "te": "కోడ్"
+     },
+     {
+      "en": "ITC(HS) 85491400 — unsorted spent cells/batteries without lead, cadmium or mercury",
+      "te": "ITC(HS) 85491400 — సీసం, కాడ్మియం, పాదరసం లేని, వేరుచేయని వాడిన సెల్స్/బ్యాటరీలు"
+     }
+    ],
+    [
+     {
+      "en": "Minerals inside",
+      "te": "లోపలి ఖనిజాలు"
+     },
+     {
+      "en": "Lithium, cobalt, nickel, manganese",
+      "te": "లిథియం, కోబాల్ట్, నికెల్, మాంగనీస్"
+     }
+    ],
+    [
+     {
+      "en": "Legal basis",
+      "te": "చట్టపరమైన ఆధారం"
+     },
+     {
+      "en": "Foreign Trade (Development & Regulation) Act, 1992 + Foreign Trade Policy 2023 (transition under Para 1.05)",
+      "te": "విదేశీ వాణిజ్య (అభివృద్ధి & నియంత్రణ) చట్టం, 1992 + విదేశీ వాణిజ్య విధానం 2023 (పేరా 1.05 కింద పరివర్తన)"
+     }
+    ],
+    [
+     {
+      "en": "Linked scheme",
+      "te": "అనుబంధ పథకం"
+     },
+     {
+      "en": "National Critical Mineral Mission; ₹1,500 crore recycling incentive scheme (Cabinet, Sept 2025)",
+      "te": "జాతీయ కీలక ఖనిజాల మిషన్; ₹1,500 కోట్ల రీసైక్లింగ్ ప్రోత్సాహక పథకం (కేబినెట్, సెప్టెంబర్ 2025)"
+     }
+    ],
+    [
+     {
+      "en": "Exports so far",
+      "te": "ఇప్పటి వరకు ఎగుమతులు"
+     },
+     {
+      "en": "Nil in the last fiscal year (GTRI)",
+      "te": "గత ఆర్థిక సంవత్సరంలో శూన్యం (GTRI)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Critical minerals",
+     "te": "లింక్ చెయిన్ · కీలక ఖనిజాలు"
+    },
+    "l": [
+     {
+      "en": "DGFT works under the Ministry of Commerce & Industry and controls what can be exported/imported.",
+      "te": "DGFT వాణిజ్య & పరిశ్రమల మంత్రిత్వ శాఖ కింద పనిచేస్తుంది; ఏవి ఎగుమతి/దిగుమతి చేయవచ్చో నియంత్రిస్తుంది."
+     },
+     {
+      "en": "Circular economy: reduce → reuse → recycle; recovering metals from waste is called 'urban mining'.",
+      "te": "సర్క్యులర్ ఎకానమీ: తగ్గించు → మళ్లీ వాడు → రీసైకిల్; వ్యర్థాల నుంచి లోహాలు రాబట్టడాన్ని 'అర్బన్ మైనింగ్' అంటారు."
+     },
+     {
+      "en": "Black mass can also carry toxic electrolyte residues and heavy metals — hazardous-waste rules need prior permission for shipments (GTRI).",
+      "te": "బ్లాక్ మాస్‌లో విషపూరిత ఎలక్ట్రోలైట్ అవశేషాలు, భారీ లోహాలు ఉండవచ్చు — వాటి రవాణాకు ప్రమాదకర వ్యర్థాల నియమాల ప్రకారం ముందస్తు అనుమతి అవసరం (GTRI)."
+     }
+    ]
+   },
+   "trap": {
+    "en": "It is an EXPORT ban (Free → Prohibited), not an import ban, and it was issued by DGFT (Commerce Ministry), not the Ministry of Mines. Lead, cadmium and mercury batteries are outside this code.",
+    "te": "ఇది ఎగుమతి నిషేధం (Free → Prohibited), దిగుమతి నిషేధం కాదు; జారీ చేసింది DGFT (వాణిజ్య శాఖ), గనుల శాఖ కాదు. సీసం, కాడ్మియం, పాదరసం బ్యాటరీలు ఈ కోడ్‌లో లేవు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the recent decision on lithium-ion battery 'black mass', consider the following statements:",
+     "te": "లిథియం-అయాన్ బ్యాటరీ 'బ్లాక్ మాస్'పై ఇటీవలి నిర్ణయానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "Black mass is the powder obtained by shredding end-of-life lithium-ion batteries.",
+      "te": "జీవితకాలం ముగిసిన లిథియం-అయాన్ బ్యాటరీలను ముక్కలు చేస్తే వచ్చే పొడే బ్లాక్ మాస్."
+     },
+     {
+      "en": "Its import into India has been prohibited by the Ministry of Mines.",
+      "te": "గనుల మంత్రిత్వ శాఖ దాని దిగుమతిని నిషేధించింది."
+     },
+     {
+      "en": "The aim is to give domestic recyclers enough feedstock to recover critical minerals.",
+      "te": "దేశీయ రీసైక్లర్లకు కీలక ఖనిజాలు రాబట్టేందుకు తగిన ముడి సరుకు అందించడమే లక్ష్యం."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "II is wrong: it is an EXPORT ban issued by the DGFT under the Commerce Ministry.",
+     "te": "II తప్పు: ఇది వాణిజ్య శాఖ కింది DGFT జారీ చేసిన ఎగుమతి నిషేధం."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "From old battery to new minerals",
+      "te": "పాత బ్యాటరీ నుంచి కొత్త ఖనిజాల వరకు"
+     },
+     "items": [
+      {
+       "i": "🔋",
+       "t": {
+        "en": "Spent Li-ion battery",
+        "te": "వాడిన Li-ion బ్యాటరీ"
+       }
+      },
+      {
+       "i": "⚙️",
+       "t": {
+        "en": "Shredding",
+        "te": "ముక్కలు చేయడం"
+       }
+      },
+      {
+       "i": "⚫",
+       "t": {
+        "en": "Black mass (export now banned)",
+        "te": "బ్లాక్ మాస్ (ఎగుమతి నిషేధం)"
+       }
+      },
+      {
+       "i": "🏭",
+       "t": {
+        "en": "Indian recycler refines it",
+        "te": "దేశీయ రీసైక్లర్ శుద్ధి"
+       }
+      },
+      {
+       "i": "💎",
+       "t": {
+        "en": "Li, Co, Ni, Mn recovered",
+        "te": "Li, Co, Ni, Mn వెలికితీత"
+       }
+      }
+     ]
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Before and after 10 Nov 2026",
+      "te": "10 నవంబర్ 2026 ముందు, తర్వాత"
+     },
+     "a": {
+      "h": {
+       "en": "Before",
+       "te": "ముందు"
+      },
+      "l": [
+       {
+        "en": "Export policy: Free",
+        "te": "ఎగుమతి విధానం: Free"
+       },
+       {
+        "en": "Recyclers short of feedstock",
+        "te": "రీసైక్లర్లకు ముడి సరుకు కొరత"
+       },
+       {
+        "en": "Some had to import",
+        "te": "కొందరు దిగుమతి చేసుకోవాల్సి వచ్చింది"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Now",
+       "te": "ఇప్పుడు"
+      },
+      "l": [
+       {
+        "en": "Export policy: Prohibited",
+        "te": "ఎగుమతి విధానం: Prohibited"
+       },
+       {
+        "en": "Minerals stay in India",
+        "te": "ఖనిజాలు దేశంలోనే"
+       },
+       {
+        "en": "Less import dependence",
+        "te": "దిగుమతులపై ఆధారం తగ్గుతుంది"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB — DGFT prohibits export of Lithium-Ion Battery Black Mass to strengthen domestic recycling and critical mineral recovery, 11 Nov 2026",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335019&lang=1&reg=3"
+    },
+    {
+     "t": "TaxGuru — DGFT Prohibits Export of Lithium-Ion Battery Black Mass: Notification No. 49/2026-27",
+     "u": "https://taxguru.in/dgft/dgft-prohibits-export-lithium-ion-battery-black-mass-notification-no-49-2026-27.html"
+    },
+    {
+     "t": "ThePrint (PTI) — India bans lithium-ion battery black mass exports, 11 Nov 2026",
+     "u": "https://theprint.in/economy/india-bans-lithium-ion-battery-black-mass-exports/3096261/"
+    }
+   ],
+   "mains": {
+    "en": "'Urban mining' can reduce India's import dependence for critical minerals. Discuss with reference to the ban on the export of lithium-ion battery black mass.",
+    "te": "'అర్బన్ మైనింగ్' కీలక ఖనిజాల కోసం భారత్ దిగుమతులపై ఆధారపడటాన్ని తగ్గించగలదు. లిథియం-అయాన్ బ్యాటరీ బ్లాక్ మాస్ ఎగుమతి నిషేధం నేపథ్యంలో చర్చించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "ranjit",
+   "q": {
+    "en": "Consider the following statements about the career of Ranjit Singh. Which of them are correct?",
+    "te": "రంజిత్ సింగ్ జీవితంలోని కింది ఘటనలను పరిశీలించండి. ఏ వాక్యాలు సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. He captured Lahore in 1799 from the Bhangi rulers.",
+     "te": "I. 1799లో భంగీ పాలకుల నుంచి లాహోర్‌ను స్వాధీనం చేసుకున్నారు."
+    },
+    {
+     "en": "II. He was proclaimed Maharaja of the Punjab in the same year he captured Lahore.",
+     "te": "II. లాహోర్ స్వాధీనం చేసుకున్న సంవత్సరంలోనే పంజాబ్ మహారాజాగా ప్రకటితులయ్యారు."
+    },
+    {
+     "en": "III. He annexed Kashmir in 1819.",
+     "te": "III. 1819లో కశ్మీర్‌ను స్వాధీనం చేసుకున్నారు."
+    },
+    {
+     "en": "IV. He was succeeded by his eldest son Kharak Singh.",
+     "te": "IV. ఆయన పెద్ద కుమారుడు ఖరక్ సింగ్ వారసుడయ్యారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "II is wrong: Lahore 1799, but proclaimed Maharaja on Baisakhi day, 12 April 1801.",
+    "te": "II తప్పు: లాహోర్ 1799లో; మహారాజాగా ప్రకటన 1801 ఏప్రిల్ 12 బైసాఖీ రోజున."
+   }
+  },
+  {
+   "topic": "ranjit",
+   "q": {
+    "en": "Which of the following statements about Ranjit Singh are INCORRECT?",
+    "te": "రంజిత్ సింగ్‌కు సంబంధించి కింది వాటిలో తప్పు వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. He modernised his army with French officers Allard and Ventura, who had served under Napoleon.",
+     "te": "I. నెపోలియన్ వద్ద పనిచేసిన ఫ్రెంచ్ అధికారులు అలార్డ్, వెంచురాలతో సైన్యాన్ని ఆధునీకరించారు."
+    },
+    {
+     "en": "II. He received the Koh-i-noor diamond from the Mughal emperor at Delhi.",
+     "te": "II. కోహినూర్ వజ్రాన్ని ఢిల్లీ మొఘల్ చక్రవర్తి నుంచి పొందారు."
+    },
+    {
+     "en": "III. He had the Harmandir Sahib's domes covered with gold leaf.",
+     "te": "III. హర్మందిర్ సాహిబ్ గోపురాలకు బంగారు రేకు తాపడం చేయించారు."
+    },
+    {
+     "en": "IV. He died at Amritsar in 1839.",
+     "te": "IV. 1839లో అమృత్‌సర్‌లో మరణించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "III and IV only",
+     "te": "III, IV మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II and IV are incorrect: the Koh-i-noor came from the Afghan ex-ruler Shah Shuja, and he died at Lahore (27 June 1839).",
+    "te": "II, IV తప్పు: కోహినూర్ అఫ్గాన్ మాజీ పాలకుడు షా షుజా నుంచి వచ్చింది; ఆయన లాహోర్‌లో (27 జూన్ 1839) మరణించారు."
+   }
+  },
+  {
+   "topic": "tagore",
+   "q": {
+    "en": "Consider the following statements about Gitanjali and the 1913 Nobel Prize:",
+    "te": "గీతాంజలి, 1913 నోబెల్ బహుమతికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The Bengali Gitanjali was published in 1910.",
+     "te": "I. బెంగాలీ గీతాంజలి 1910లో ప్రచురితమైంది."
+    },
+    {
+     "en": "II. The English 'Song Offerings' was published by the India Society of London in 1912.",
+     "te": "II. ఇంగ్లీష్ 'Song Offerings'ను లండన్ ఇండియా సొసైటీ 1912లో ప్రచురించింది."
+    },
+    {
+     "en": "III. The introduction to the English Gitanjali was written by George Bernard Shaw.",
+     "te": "III. ఇంగ్లీష్ గీతాంజలికి పీఠిక జార్జ్ బెర్నార్డ్ షా రాశారు."
+    },
+    {
+     "en": "IV. Tagore was nominated for the prize by Thomas Sturge Moore.",
+     "te": "IV. థామస్ స్టర్జ్ మూర్ ఠాగూర్‌ను నామినేట్ చేశారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "III is wrong: the introduction was by the Irish poet W.B. Yeats.",
+    "te": "III తప్పు: పీఠిక రాసింది ఐరిష్ కవి డబ్ల్యూ.బి. యేట్స్."
+   }
+  },
+  {
+   "topic": "tagore",
+   "q": {
+    "en": "Which of the following pairs is/are correctly matched?",
+    "te": "కింది జతలలో ఏది/ఏవి సరిగ్గా జతపరచబడ్డాయి?"
+   },
+   "st": [
+    {
+     "en": "I. 1901 — school at Shantiniketan",
+     "te": "I. 1901 — శాంతినికేతన్‌లో పాఠశాల"
+    },
+    {
+     "en": "II. 1915 — Tagore renounces his knighthood",
+     "te": "II. 1915 — ఠాగూర్ నైట్‌హుడ్ తిరస్కరణ"
+    },
+    {
+     "en": "III. 1921 — Visva-Bharati University",
+     "te": "III. 1921 — విశ్వభారతి విశ్వవిద్యాలయం"
+    },
+    {
+     "en": "IV. 2004 — Nobel medal stolen from Visva-Bharati",
+     "te": "IV. 2004 — విశ్వభారతి నుంచి నోబెల్ పతకం చోరీ"
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is wrong: knighthood was GIVEN in 1915 and renounced in 1919 after Jallianwala Bagh.",
+    "te": "II తప్పు: నైట్‌హుడ్ 1915లో లభించింది; జలియన్‌వాలా బాగ్ తర్వాత 1919లో తిరస్కరించారు."
+   }
+  },
+  {
+   "topic": "apwipo",
+   "q": {
+    "en": "Consider the following statements about the Andhra Pradesh–WIPO meeting at Visakhapatnam (11 Nov 2026):",
+    "te": "విశాఖపట్నంలో ఆంధ్రప్రదేశ్–WIPO సమావేశం (11 నవంబర్ 2026)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The CM met WIPO Director General Daren Tang ahead of the CII Partnership Summit.",
+     "te": "I. CII భాగస్వామ్య సదస్సుకు ముందు సీఎం WIPO డీజీ డారెన్ టాంగ్‌ను కలిశారు."
+    },
+    {
+     "en": "II. The state aims to turn 10 lakh women into entrepreneurs under the 'Swayam' brand.",
+     "te": "II. 'స్వయం' బ్రాండ్ కింద 10 లక్షల మహిళలను పారిశ్రామికవేత్తలుగా మార్చడం రాష్ట్ర లక్ష్యం."
+    },
+    {
+     "en": "III. The proposed academy will train only government officials in IPR.",
+     "te": "III. ప్రతిపాదిత అకాడమీ ప్రభుత్వ అధికారులకు మాత్రమే IPR శిక్షణ ఇస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is wrong: the WIPO Andhra Pradesh Academy is meant for students, researchers, startup founders and MSMEs.",
+    "te": "III తప్పు: WIPO ఆంధ్రప్రదేశ్ అకాడమీ విద్యార్థులు, పరిశోధకులు, స్టార్టప్ వ్యవస్థాపకులు, MSMEల కోసం."
+   }
+  },
+  {
+   "topic": "apwipo",
+   "q": {
+    "en": "A weavers' cooperative in Andhra Pradesh wants buyers worldwide to know that its saris truly come from its region and to stop imitations using the region's name. Which of the following is the MOST suitable protection?",
+    "te": "ఆంధ్రప్రదేశ్‌లోని ఒక చేనేత సహకార సంఘం తమ చీరలు నిజంగా తమ ప్రాంతానివేనని ప్రపంచ కొనుగోలుదారులకు తెలియజేయాలని, ఆ ప్రాంతం పేరుతో నకిలీలను ఆపాలని కోరుకుంటోంది. కింది వాటిలో అత్యంత అనువైన రక్షణ ఏది?"
+   },
+   "st": [
+    {
+     "en": "I. A patent protects an invention.",
+     "te": "I. పేటెంట్ ఒక ఆవిష్కరణను రక్షిస్తుంది."
+    },
+    {
+     "en": "II. A Geographical Indication (GI) links a product's quality and name to a place.",
+     "te": "II. భౌగోళిక గుర్తింపు (GI) ఒక ఉత్పత్తి నాణ్యత, పేరును ఒక ప్రాంతంతో ముడిపెడుతుంది."
+    },
+    {
+     "en": "III. An industrial design protects only the look/shape of an article.",
+     "te": "III. ఇండస్ట్రియల్ డిజైన్ ఒక వస్తువు రూపం/ఆకారాన్ని మాత్రమే రక్షిస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "Patent",
+     "te": "పేటెంట్"
+    },
+    {
+     "en": "Industrial design",
+     "te": "ఇండస్ట్రియల్ డిజైన్"
+    },
+    {
+     "en": "Trademark of one weaver",
+     "te": "ఒక నేతన్న ట్రేడ్‌మార్క్"
+    },
+    {
+     "en": "GI tag",
+     "te": "GI ట్యాగ్"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Only a GI tag ties the product to its region — that is why AP asked WIPO for GI support for handlooms. A patent is for inventions; a design protects only the look.",
+    "te": "ఉత్పత్తిని ప్రాంతంతో ముడిపెట్టేది GI ట్యాగ్ మాత్రమే — అందుకే చేనేతకు GI సహకారం కోసం ఏపీ WIPOను కోరింది. పేటెంట్ ఆవిష్కరణలకు; డిజైన్ రూపానికి మాత్రమే."
+   }
+  },
+  {
+   "topic": "safeharbour",
+   "q": {
+    "en": "Under Section 79 of the IT Act, 2000, an intermediary may LOSE its safe-harbour protection in which of the following cases?",
+    "te": "ఐటీ చట్టం, 2000 సెక్షన్ 79 కింద కింది ఏ సందర్భాల్లో మధ్యవర్తి సేఫ్ హార్బర్ రక్షణ కోల్పోవచ్చు?"
+   },
+   "st": [
+    {
+     "en": "I. It modifies the information it transmits.",
+     "te": "I. తాను చేరవేసే సమాచారాన్ని మారిస్తే."
+    },
+    {
+     "en": "II. It fails to remove unlawful content after a government or court notice.",
+     "te": "II. ప్రభుత్వ లేదా కోర్టు నోటీసు తర్వాత చట్టవిరుద్ధ కంటెంట్ తొలగించకపోతే."
+    },
+    {
+     "en": "III. A user posts content without the platform's knowledge and the platform removes it promptly on notice.",
+     "te": "III. వేదికకు తెలియకుండా వినియోగదారు పోస్ట్ చేసి, నోటీసు రాగానే వేదిక వెంటనే తొలగిస్తే."
+    },
+    {
+     "en": "IV. It abets an unlawful act.",
+     "te": "IV. చట్టవిరుద్ధ చర్యకు సహకరిస్తే."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is the trap: a platform that acts promptly on notice is exactly the case safe harbour protects.",
+    "te": "III ఉచ్చు: నోటీసుపై వెంటనే చర్య తీసుకునే వేదికకే సేఫ్ హార్బర్ రక్షణ వర్తిస్తుంది."
+   }
+  },
+  {
+   "topic": "safeharbour",
+   "q": {
+    "en": "Consider the following statements about the current review of safe harbour:",
+    "te": "సేఫ్ హార్బర్‌పై ప్రస్తుత సమీక్షకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The review is being led by the Ministry of Home Affairs.",
+     "te": "I. సమీక్షను హోం మంత్రిత్వ శాఖ నడిపిస్తోంది."
+    },
+    {
+     "en": "II. One idea is to keep immunity only for services that merely transmit, such as ISPs and telecom providers.",
+     "te": "II. ISPలు, టెలికాం వంటి కేవలం చేరవేసే సేవలకే రక్షణ ఉంచాలనేది ఒక ఆలోచన."
+    },
+    {
+     "en": "III. The concern is that algorithms decide the ranking and promotion of content.",
+     "te": "III. కంటెంట్ ర్యాంకింగ్, ప్రమోషన్‌ను అల్గోరిథమ్‌లు నిర్ణయిస్తున్నాయన్నదే ఆందోళన."
+    },
+    {
+     "en": "IV. Safe harbour for social media has already been withdrawn by an executive order.",
+     "te": "IV. కార్యనిర్వాహక ఉత్తర్వుతో సోషల్ మీడియాకు సేఫ్ హార్బర్ ఇప్పటికే ఉపసంహరించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I is wrong: it is MeitY. IV is wrong: talks are only exploratory, and a change needs Parliament to amend the IT Act.",
+    "te": "I తప్పు: సమీక్ష MeitYది. IV తప్పు: చర్చలు ప్రాథమిక దశలోనే; మార్పుకు పార్లమెంటు ఐటీ చట్టాన్ని సవరించాలి."
+   }
+  },
+  {
+   "topic": "blackmass",
+   "q": {
+    "en": "With reference to DGFT Notification No. 49/2026-27, consider the following statements:",
+    "te": "DGFT నోటిఫికేషన్ నం. 49/2026-27కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It changed the export policy of black mass from 'Restricted' to 'Free'.",
+     "te": "I. ఇది బ్లాక్ మాస్ ఎగుమతి విధానాన్ని 'Restricted' నుంచి 'Free'కి మార్చింది."
+    },
+    {
+     "en": "II. It was issued under the Foreign Trade (Development & Regulation) Act, 1992.",
+     "te": "II. విదేశీ వాణిజ్య (అభివృద్ధి & నియంత్రణ) చట్టం, 1992 కింద జారీ అయింది."
+    },
+    {
+     "en": "III. It covers spent batteries that contain lead, cadmium or mercury.",
+     "te": "III. సీసం, కాడ్మియం లేదా పాదరసం ఉన్న వాడిన బ్యాటరీలకు ఇది వర్తిస్తుంది."
+    },
+    {
+     "en": "IV. Transitional arrangements under Para 1.05 of the Foreign Trade Policy 2023 apply.",
+     "te": "IV. విదేశీ వాణిజ్య విధానం 2023 పేరా 1.05 కింద పరివర్తన ఏర్పాట్లు వర్తిస్తాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I is wrong: it went from 'Free' to 'Prohibited'. III is wrong: the code covers batteries WITHOUT lead, cadmium or mercury.",
+    "te": "I తప్పు: 'Free' నుంచి 'Prohibited'కి మారింది. III తప్పు: ఈ కోడ్ సీసం, కాడ్మియం, పాదరసం లేని బ్యాటరీలకే."
+   }
+  },
+  {
+   "topic": "blackmass",
+   "q": {
+    "en": "Which of the following statements correctly explain why India banned the export of black mass?",
+    "te": "భారత్ బ్లాక్ మాస్ ఎగుమతిని ఎందుకు నిషేధించిందో సరిగ్గా వివరించే వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. Domestic recycling capacity was not fully used because of inadequate feedstock.",
+     "te": "I. తగినంత ముడి సరుకు లేక దేశీయ రీసైక్లింగ్ సామర్థ్యం పూర్తిగా వినియోగం కాలేదు."
+    },
+    {
+     "en": "II. Some domestic recyclers had to import material.",
+     "te": "II. కొందరు దేశీయ రీసైక్లర్లు ముడి పదార్థం దిగుమతి చేసుకోవాల్సి వచ్చింది."
+    },
+    {
+     "en": "III. India wants to support the National Critical Mineral Mission and reduce import dependence.",
+     "te": "III. జాతీయ కీలక ఖనిజాల మిషన్‌కు తోడ్పడి, దిగుమతులపై ఆధారాన్ని తగ్గించాలని భారత్ కోరుతోంది."
+    },
+    {
+     "en": "IV. India's exports of black mass had grown to become its largest mineral export.",
+     "te": "IV. బ్లాక్ మాస్ ఎగుమతులు భారత్ అతిపెద్ద ఖనిజ ఎగుమతిగా పెరిగాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "IV is wrong: GTRI says India's exports of these goods were nil last fiscal year — the ban is preventive.",
+    "te": "IV తప్పు: గత ఆర్థిక సంవత్సరంలో ఈ ఎగుమతులు శూన్యమని GTRI చెప్పింది — నిషేధం ముందు జాగ్రత్త చర్య."
+   }
+  }
+ ]
+}
