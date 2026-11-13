@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "M1iId3fIyqYDue3YLUqMXw==",
 "iter": 200000,
-"check": "Zko8ep6xgtkRc2GzNGvxXH0B1S6CZOeYG1QP2kNS90tbk4tG1K8kQn+v7w==",
+"check": "hBpNleZxK5FgqeJcXYndWdYvFmqrSHknYRtawr46LyO0wn203UgkIJMMng==",
 "lessons": {
 "dsc-sgt-perspectives-day2": "Perspectives in Education, Day 2: Teachers, Rights, Concerns, NCF and NEP",
 "dsc-sgt-perspectives-day2-te": "విద్యా దృక్పథాలు, 2వ రోజు: ఉపాధ్యాయులు, హక్కులు, సమకాలీన అంశాలు, NCF, NEP",
@@ -39,6 +39,8 @@
 "dsc-sgt-science-day4": "Science (EVS), Day 4: Materials — Properties, Separation, Fibres and Plastics; Metals, Non-metals, Acids and Bases; Changes, Fuels and Combustion",
 "dsc-sgt-science-day4-te": "సైన్స్ (EVS), రోజు 4: పదార్థాలు — లక్షణాలు, వేరుచేయడం, దారాలు, ప్లాస్టిక్‌లు; లోహాలు, అలోహాలు, ఆమ్లాలు, క్షారాలు; మార్పులు, ఇంధనాలు, దహనం",
 "dsc-sgt-science-day5": "Science (EVS), Day 5: Motion, Force and Pressure; Heat; Light and Sound",
-"dsc-sgt-science-day5-te": "సైన్స్ (EVS), రోజు 5: చలనం, బలం, పీడనం; ఉష్ణం; కాంతి, ధ్వని"
+"dsc-sgt-science-day5-te": "సైన్స్ (EVS), రోజు 5: చలనం, బలం, పీడనం; ఉష్ణం; కాంతి, ధ్వని",
+"dsc-sgt-science-day6": "Science (EVS), Day 6: Electricity; Magnetism and Natural Phenomena; Our Universe",
+"dsc-sgt-science-day6-te": "సైన్స్ (EVS), రోజు 6: విద్యుత్; అయస్కాంతత్వం, సహజ దృగ్విషయాలు; మన విశ్వం"
 }
 }
