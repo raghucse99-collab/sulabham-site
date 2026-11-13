@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "M1iId3fIyqYDue3YLUqMXw==",
 "iter": 200000,
-"check": "hBpNleZxK5FgqeJcXYndWdYvFmqrSHknYRtawr46LyO0wn203UgkIJMMng==",
+"check": "dF20/otgky7YBRodMzhujzPwTq7Ux7iUTu5q8raBoopxvLy2pqFC/noZeA==",
 "lessons": {
 "dsc-sgt-perspectives-day2": "Perspectives in Education, Day 2: Teachers, Rights, Concerns, NCF and NEP",
 "dsc-sgt-perspectives-day2-te": "విద్యా దృక్పథాలు, 2వ రోజు: ఉపాధ్యాయులు, హక్కులు, సమకాలీన అంశాలు, NCF, NEP",
@@ -41,6 +41,8 @@
 "dsc-sgt-science-day5": "Science (EVS), Day 5: Motion, Force and Pressure; Heat; Light and Sound",
 "dsc-sgt-science-day5-te": "సైన్స్ (EVS), రోజు 5: చలనం, బలం, పీడనం; ఉష్ణం; కాంతి, ధ్వని",
 "dsc-sgt-science-day6": "Science (EVS), Day 6: Electricity; Magnetism and Natural Phenomena; Our Universe",
-"dsc-sgt-science-day6-te": "సైన్స్ (EVS), రోజు 6: విద్యుత్; అయస్కాంతత్వం, సహజ దృగ్విషయాలు; మన విశ్వం"
+"dsc-sgt-science-day6-te": "సైన్స్ (EVS), రోజు 6: విద్యుత్; అయస్కాంతత్వం, సహజ దృగ్విషయాలు; మన విశ్వం",
+"dsc-sgt-science-day7": "Science (EVS), Day 7: Our Environment; Pollution and Natural Resources; Transport, Communication, Professions and Services",
+"dsc-sgt-science-day7-te": "సైన్స్ (EVS), రోజు 7: మన పరిసరాలు; కాలుష్యం, సహజ వనరులు; రవాణా, సమాచారం, వృత్తులు, సేవలు"
 }
 }
