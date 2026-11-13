@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "eqwqQSUPYAYD1OUPDpS1Zw==",
 "iter": 200000,
-"check": "bAfOhj2/RygXkh7/lpaPVwzxsOF9f3W1R7jAxXHYcJQ7sdKS2sK80x212A==",
+"check": "pTR46WmHDwoS2SWA07HCY0eHFd3rsuEQJCngxN0dqB/aht43GucQJHq+oQ==",
 "lessons": {
 "AEE_Module3_Surveying": {
 "t": "AEE Module 3 — Surveying",
@@ -203,6 +203,26 @@
 "t": "AEE Module 12 Test (PDF)",
 "k": "pdf",
 "f": "AEE_Module12_Test.pdf"
+},
+"AEE_Module13_Construction_Planning": {
+"t": "AEE Module 13 — Construction Planning and Management",
+"k": "html",
+"f": "AEE_Module13_Construction_Planning.html"
+},
+"AEE_Module13_Construction_Planning-pdf": {
+"t": "AEE Module 13 — Construction Planning and Management (PDF)",
+"k": "pdf",
+"f": "AEE_Module13_Construction_Planning.pdf"
+},
+"AEE_Module13_Test": {
+"t": "AEE Module 13 Test",
+"k": "html",
+"f": "AEE_Module13_Test.html"
+},
+"AEE_Module13_Test-pdf": {
+"t": "AEE Module 13 Test (PDF)",
+"k": "pdf",
+"f": "AEE_Module13_Test.pdf"
 }
 }
 }

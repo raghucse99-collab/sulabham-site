@@ -17,7 +17,8 @@ LOCKED = ['AEE_Module3_Surveying', 'AEE_Module3_Test', 'AEE_Module4_Building_Mat
           'AEE_Module9_Irrigation', 'AEE_Module9_Test',
           'AEE_Module10_Structural_Analysis', 'AEE_Module10_Test',
           'AEE_Module11_Concrete_Masonry', 'AEE_Module11_Test',
-          'AEE_Module12_Steel_Structures', 'AEE_Module12_Test']  # each: .html and .pdf
+          'AEE_Module12_Steel_Structures', 'AEE_Module12_Test',
+          'AEE_Module13_Construction_Planning', 'AEE_Module13_Test']  # each: .html and .pdf
 ITER = 200000
 ip = os.path.join(R, 'ak/index.json'); os.makedirs(os.path.join(R, 'ak'), exist_ok=True)
 old = json.load(open(ip)) if os.path.exists(ip) else None
