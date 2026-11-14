@@ -1,0 +1,233 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-14 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about Jawaharlal Nehru:
+I. He presided over the Lahore Session (1929), where Purna Swaraj was adopted as the goal.
+II. He wrote 'The Discovery of India' during his imprisonment of 1942–46.
+III. He was awarded the Bharat Ratna posthumously, after his death in 1964.
+
+--- QUESTION ---
+Q1. Consider the following statements about Jawaharlal Nehru: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: Nehru received the Bharat Ratna in 1955, while he was alive. I and II are correct.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Which of the following statements regarding Children's Day and Nehru are correct?
+I. Before 1964, India observed Children's Day on 20 November.
+II. 20 November is observed as World Children's Day.
+III. 14 November 2026 marks Nehru's 137th birth anniversary.
+IV. The Panchsheel agreement of 1954 was signed with Pakistan.
+
+--- QUESTION ---
+Q2. Which of the following statements regarding Children's Day and Nehru are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II, III and IV only
+(c) I, II and III only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(c) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: Panchsheel (five principles of coexistence, 1954) was with China. I, II, III are correct (1889 + 137 = 2026).
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements about World Diabetes Day:
+I. It was started in 1991 by the International Diabetes Federation with WHO.
+II. It became an official United Nations day in 2006.
+III. 14 November was chosen because it is the birthday of Charles Best.
+
+--- QUESTION ---
+Q3. Consider the following statements about World Diabetes Day: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is the trap: 14 November is the birthday of Frederick Banting (1891), not of his assistant Charles Best.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. Which of the following statements about the WHO global diabetes coverage targets for 2030 is/are INCORRECT?
+I. 80% of people with diabetes should be diagnosed.
+II. 100% of people with type 1 diabetes should have access to affordable insulin.
+III. 80% of people with diabetes aged 40 or older should receive statins.
+IV. The targets were endorsed by WHO Member States in 2022.
+
+--- QUESTION ---
+Q4. Which of the following statements about the WHO global diabetes coverage targets for 2030 is/are INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) IV only
+(d) III only
+
+--- CORRECT (tick this) ---
+(d) III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Only III is incorrect: the statin target is 60% (not 80%) of people with diabetes aged 40 or older. I, II and IV are correct.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. With reference to India's retail inflation in October 2026, consider the following statements:
+I. Combined CPI inflation (6.09%) was above the upper tolerance limit of 6%.
+II. Because inflation crossed 6% in one month, the RBI is deemed to have failed to meet the target.
+III. Rural inflation was higher than urban inflation.
+
+--- QUESTION ---
+Q5. With reference to India's retail inflation in October 2026, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I, II and III
+(d) I and III only
+
+--- CORRECT (tick this) ---
+(d) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: failure means inflation stays outside 2–6% for three consecutive quarters; one month is not enough. I and III are correct (rural 6.63% > urban 5.41%).
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following statements about the new CPI series (base 2024=100):
+I. Its weights are based on the Household Consumption Expenditure Survey 2023-24.
+II. It has 12 divisions as per COICOP 2018 in place of 6 groups.
+III. The weight of food and beverages is higher than in the 2012 series.
+IV. E-commerce prices are collected in 12 large towns.
+
+--- QUESTION ---
+Q6. Consider the following statements about the new CPI series (base 2024=100): (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the share of food and beverages has declined in the new series (weight 36.75), though it is still the largest component.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. With reference to the Climate Change Performance Index (CCPI) 2027, consider the following statements:
+I. It was released on the sidelines of COP31 at Antalya, Turkey.
+II. Denmark is ranked 4th because the top three positions were left vacant.
+III. India was rated 'high' in the renewable energy category.
+IV. India is ranked 28th, down from 23rd in the previous edition.
+
+--- QUESTION ---
+Q7. With reference to the Climate Change Performance Index (CCPI) 2027, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and IV only
+(b) I and II only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is the trap: India is 'low' in the renewable energy category; only its renewable energy trend indicator is rated 'high'.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. India's non-fossil sources reached 50% of installed electricity capacity by June 2025. In this context, which of the following statements are correct?
+I. This means half of the electricity actually generated in India came from non-fossil sources.
+II. The curtailment of 2.3 TWh of solar power in 2025 points to grid and storage gaps.
+III. The 50% capacity goal was achieved about five years ahead of its 2030 target year.
+
+--- QUESTION ---
+Q8. India's non-fossil sources reached 50% of installed electricity capacity by June 2025. In this context, which of the following statements are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is wrong: installed capacity is not generation — the 50% share (which includes nuclear) is of capacity; coal still dominates actual generation.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Which of the following statements about the Amaravati quantum initiative is/are INCORRECT?
+I. A quantum computing manufacturing facility on 250 acres is to be inaugurated on 3 February 2027.
+II. The facility will be located at Visakhapatnam, the venue of the CII Summit.
+III. IBM, TCS and L&T were partners in the May 2025 MoU for the Quantum Valley.
+IV. A qubit, unlike a bit, can hold a mix of 0 and 1 at the same time.
+
+--- QUESTION ---
+Q9. Which of the following statements about the Amaravati quantum initiative is/are INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) II only
+(b) I and II only
+(c) II and IV only
+(d) III and IV only
+
+--- CORRECT (tick this) ---
+(a) II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Only II is incorrect: the facility is at Amaravati; Visakhapatnam was only the summit venue. I, III and IV are correct.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. With reference to the 31st CII Partnership Summit (2026), consider the following statements:
+I. Day 1 saw 73 MoUs and 15 preliminary deals worth ₹5,84,355 crore.
+II. ₹5.84 lakh crore is the same amount as ₹5.84 trillion.
+III. The summit total of ₹9.98 lakh crore refers only to Day 1 commitments.
+
+--- QUESTION ---
+Q10. With reference to the 31st CII Partnership Summit (2026), consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: ₹9.98 lakh crore is the reported whole-summit total; Day 1 alone was ₹5.84 lakh crore. 1 lakh crore = 1 trillion, so II is correct.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-14&tab=quiz

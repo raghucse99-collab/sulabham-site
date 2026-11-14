@@ -1,0 +1,2042 @@
+{
+ "date": "2026-11-14",
+ "day": {
+  "en": "Saturday, 14 November 2026",
+  "te": "శనివారం, 14 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Tolerance band",
+   "en": "the allowed range around a target",
+   "te": "లక్ష్యం చుట్టూ అనుమతించిన పరిధి (సహన పరిధి)",
+   "ex": "October's 6.09% inflation crossed the upper end of the RBI's 2–6% tolerance band.",
+   "topic": "cpi"
+  },
+  {
+   "w": "Provisional",
+   "en": "for now; may be revised later",
+   "te": "తాత్కాలికం; తర్వాత సవరించవచ్చు",
+   "ex": "MoSPI said the October CPI figure of 6.09% is provisional.",
+   "topic": "cpi"
+  },
+  {
+   "w": "Curtailment",
+   "en": "cutting down or holding back",
+   "te": "తగ్గించడం, నిలిపివేయడం",
+   "ex": "Weak grids led to the curtailment of 2.3 TWh of solar power in 2025.",
+   "topic": "ccpi"
+  },
+  {
+   "w": "Stigma",
+   "en": "a mark of shame or disapproval",
+   "te": "కళంకం, చిన్నచూపు",
+   "ex": "WHO says diabetes stigma is widespread, harmful and preventable.",
+   "topic": "diabetes"
+  },
+  {
+   "w": "Posthumous",
+   "en": "given or happening after death",
+   "te": "మరణానంతరం",
+   "ex": "Nehru's Bharat Ratna (1955) was not posthumous — he received it while alive.",
+   "topic": "nehru"
+  }
+ ],
+ "items": [
+  {
+   "id": "nehru",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "sirsyed",
+   "cf": [
+    0,
+    2,
+    3,
+    5,
+    7
+   ],
+   "tag": {
+    "en": "Birth anniversary · 14 Nov 1889 · Children's Day",
+    "te": "జయంతి · 14 నవంబర్ 1889 · బాలల దినోత్సవం"
+   },
+   "title": {
+    "en": "Jawaharlal Nehru — 137th birth anniversary (Children's Day)",
+    "te": "జవహర్‌లాల్ నెహ్రూ — 137వ జయంతి (బాలల దినోత్సవం)"
+   },
+   "line": {
+    "en": "India's first Prime Minister; his birthday, 14 November, is celebrated as Children's Day (Bal Diwas).",
+    "te": "భారత తొలి ప్రధానమంత్రి; ఆయన జన్మదినం నవంబర్ 14ను బాలల దినోత్సవం (బాల్ దివస్)గా జరుపుకుంటాం."
+   },
+   "easy": [
+    {
+     "en": "Jawaharlal Nehru was born on 14 November 1889 in Allahabad. His father Motilal Nehru was a leading barrister who served twice as Congress President. Jawaharlal studied at Harrow School and Trinity College, Cambridge, and was called to the bar in 1912.",
+     "te": "జవహర్‌లాల్ నెహ్రూ 1889 నవంబర్ 14న అలహాబాద్‌లో జన్మించారు. తండ్రి మోతీలాల్ నెహ్రూ ప్రముఖ న్యాయవాది, రెండుసార్లు కాంగ్రెస్ అధ్యక్షుడు. జవహర్‌లాల్ హారో స్కూల్, కేంబ్రిడ్జ్‌లోని ట్రినిటీ కాలేజీలో చదివి, 1912లో బారిస్టర్ అయ్యారు."
+    },
+    {
+     "en": "Why remember him for exams? As Congress President at the Lahore Session (1929) he saw 'Purna Swaraj' (complete independence) adopted as the goal. As Prime Minister (1947–1964) he gave the 'Tryst with Destiny' speech, followed non-alignment in the Cold War and started the Five-Year Plans.",
+     "te": "పరీక్షల కోసం ఎందుకు గుర్తుంచుకోవాలి? లాహోర్ సమావేశం (1929)లో కాంగ్రెస్ అధ్యక్షుడిగా ఉన్నప్పుడే 'పూర్ణ స్వరాజ్' (సంపూర్ణ స్వాతంత్ర్యం) లక్ష్యంగా ఆమోదం పొందింది. ప్రధానమంత్రిగా (1947–1964) 'ట్రిస్ట్ విత్ డెస్టినీ' ప్రసంగం చేశారు; ప్రచ్ఛన్న యుద్ధంలో అలీనవిధానం పాటించారు; పంచవర్ష ప్రణాళికలు ప్రారంభించారు."
+    },
+    {
+     "en": "Children loved him as 'Chacha Nehru'. Before 1964 India observed Children's Day on 20 November (the UN date); after his death in 1964 it was moved to his birthday, 14 November.",
+     "te": "పిల్లలు ఆయనను 'చాచా నెహ్రూ' అని ప్రేమగా పిలిచేవారు. 1964కు ముందు భారత్ బాలల దినోత్సవాన్ని నవంబర్ 20న (ఐరాస తేదీ) జరిపేది; 1964లో ఆయన మరణం తర్వాత ఆయన జన్మదినం నవంబర్ 14కు మార్చారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "14 November 1889, Allahabad (Prayagraj)",
+      "te": "14 నవంబర్ 1889, అలహాబాద్ (ప్రయాగ్‌రాజ్)"
+     }
+    ],
+    [
+     {
+      "en": "Education",
+      "te": "విద్య"
+     },
+     {
+      "en": "Harrow (1905) → Trinity College, Cambridge (natural sciences) → Inner Temple; bar 1912",
+      "te": "హారో (1905) → ట్రినిటీ కాలేజీ, కేంబ్రిడ్జ్ (ప్రకృతి శాస్త్రాలు) → ఇన్నర్ టెంపుల్; 1912లో బారిస్టర్"
+     }
+    ],
+    [
+     {
+      "en": "Congress President",
+      "te": "కాంగ్రెస్ అధ్యక్షుడు"
+     },
+     {
+      "en": "1929 Lahore (Purna Swaraj), 1936 Lucknow, 1937 Faizpur (first session in a rural area)",
+      "te": "1929 లాహోర్ (పూర్ణ స్వరాజ్), 1936 లక్నో, 1937 ఫైజ్‌పూర్ (గ్రామీణ ప్రాంతంలో తొలి సమావేశం)"
+     }
+    ],
+    [
+     {
+      "en": "Books",
+      "te": "పుస్తకాలు"
+     },
+     {
+      "en": "Glimpses of World History; An Autobiography (Toward Freedom); The Discovery of India (written in prison, 1942–46); Letters from a Father to His Daughter",
+      "te": "గ్లింప్సెస్ ఆఫ్ వరల్డ్ హిస్టరీ; యాన్ ఆటోబయోగ్రఫీ (టువర్డ్ ఫ్రీడమ్); ది డిస్కవరీ ఆఫ్ ఇండియా (జైలులో, 1942–46); లెటర్స్ ఫ్రమ్ ఎ ఫాదర్ టు హిజ్ డాటర్"
+     }
+    ],
+    [
+     {
+      "en": "Panchsheel",
+      "te": "పంచశీల"
+     },
+     {
+      "en": "1954 — five principles of coexistence signed with China",
+      "te": "1954 — చైనాతో సహజీవనానికి ఐదు సూత్రాలు"
+     }
+    ],
+    [
+     {
+      "en": "Prime Minister",
+      "te": "ప్రధానమంత్రి"
+     },
+     {
+      "en": "15 Aug 1947 – 27 May 1964 (died in office)",
+      "te": "15 ఆగస్టు 1947 – 27 మే 1964 (పదవిలో ఉండగానే మరణం)"
+     }
+    ],
+    [
+     {
+      "en": "Bharat Ratna",
+      "te": "భారతరత్న"
+     },
+     {
+      "en": "1955 — during his lifetime",
+      "te": "1955 — ఆయన జీవించి ఉండగానే"
+     }
+    ],
+    [
+     {
+      "en": "Children's Day",
+      "te": "బాలల దినోత్సవం"
+     },
+     {
+      "en": "14 Nov in India (earlier 20 Nov); World Children's Day = 20 Nov (UNICEF)",
+      "te": "భారత్‌లో నవంబర్ 14 (గతంలో నవంబర్ 20); ప్రపంచ బాలల దినోత్సవం = నవంబర్ 20 (UNICEF)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Congress sessions to remember",
+     "te": "లింక్ చెయిన్ · గుర్తుంచుకోవాల్సిన కాంగ్రెస్ సమావేశాలు"
+    },
+    "l": [
+     {
+      "en": "1929 Lahore — Nehru President; Purna Swaraj resolution",
+      "te": "1929 లాహోర్ — నెహ్రూ అధ్యక్షుడు; పూర్ణ స్వరాజ్ తీర్మానం"
+     },
+     {
+      "en": "1936 Lucknow and 1937 Faizpur — Nehru again; Faizpur was the first session in a village",
+      "te": "1936 లక్నో, 1937 ఫైజ్‌పూర్ — మళ్లీ నెహ్రూ; ఫైజ్‌పూర్ గ్రామంలో జరిగిన తొలి సమావేశం"
+     },
+     {
+      "en": "Motilal Nehru (father) was also Congress President twice — father and son both led the INC",
+      "te": "తండ్రి మోతీలాల్ నెహ్రూ కూడా రెండుసార్లు కాంగ్రెస్ అధ్యక్షుడు — తండ్రీకొడుకులిద్దరూ INCకి నాయకత్వం వహించారు"
+     },
+     {
+      "en": "Foreign policy chain: Non-alignment (Cold War) → Panchsheel with China (1954)",
+      "te": "విదేశాంగ విధానం: అలీనవిధానం (ప్రచ్ఛన్న యుద్ధం) → చైనాతో పంచశీల (1954)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Panchsheel (1954) was signed with China, not Pakistan. Nehru got the Bharat Ratna in 1955, while alive — not after death. Children's Day in India is 14 Nov; 20 Nov is World Children's Day.",
+    "te": "పంచశీల (1954) చైనాతో, పాకిస్తాన్‌తో కాదు. నెహ్రూకు భారతరత్న 1955లో, జీవించి ఉండగానే — మరణానంతరం కాదు. భారత్‌లో బాలల దినోత్సవం నవంబర్ 14; నవంబర్ 20 ప్రపంచ బాలల దినోత్సవం."
+   },
+   "tip": {
+    "en": "Lahore = 'L' for 'Liberty' (Purna Swaraj, 1929). Panchsheel 54 → Bharat Ratna 55: two years in a row.",
+    "te": "లాహోర్ = 'L' = 'లిబర్టీ' (పూర్ణ స్వరాజ్, 1929). పంచశీల 54 → భారతరత్న 55: వరుస సంవత్సరాలు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Jawaharlal Nehru, consider the following statements:",
+     "te": "జవహర్‌లాల్ నెహ్రూకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. He was Congress President at the session held at Faizpur, the first INC session in a rural area.",
+      "te": "I. గ్రామీణ ప్రాంతంలో జరిగిన తొలి INC సమావేశమైన ఫైజ్‌పూర్ సమావేశానికి ఆయన అధ్యక్షుడు."
+     },
+     {
+      "en": "II. His father Motilal Nehru also served as Congress President.",
+      "te": "II. ఆయన తండ్రి మోతీలాల్ నెహ్రూ కూడా కాంగ్రెస్ అధ్యక్షుడిగా పనిచేశారు."
+     },
+     {
+      "en": "III. 'An Autobiography' is also known as 'The Discovery of India'.",
+      "te": "III. 'యాన్ ఆటోబయోగ్రఫీ'నే 'ది డిస్కవరీ ఆఫ్ ఇండియా' అని కూడా అంటారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and II are correct. III is wrong: 'An Autobiography' is also called 'Toward Freedom'; 'The Discovery of India' is a separate book written in prison (1942–46).",
+     "te": "I, II సరైనవి. III తప్పు: 'యాన్ ఆటోబయోగ్రఫీ'కి మరో పేరు 'టువర్డ్ ఫ్రీడమ్'; 'ది డిస్కవరీ ఆఫ్ ఇండియా' జైలులో (1942–46) రాసిన వేరే పుస్తకం."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Nehru's life in dates",
+      "te": "తేదీల్లో నెహ్రూ జీవితం"
+     },
+     "items": [
+      {
+       "y": "1889",
+       "t": {
+        "en": "Born at Allahabad (14 Nov)",
+        "te": "అలహాబాద్‌లో జననం (14 నవంబర్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1912",
+       "t": {
+        "en": "Called to the bar",
+        "te": "బారిస్టర్ అర్హత"
+       }
+      },
+      {
+       "y": "1929",
+       "t": {
+        "en": "Congress President, Lahore — Purna Swaraj",
+        "te": "లాహోర్ కాంగ్రెస్ అధ్యక్షుడు — పూర్ణ స్వరాజ్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1936–37",
+       "t": {
+        "en": "President again: Lucknow, Faizpur",
+        "te": "మళ్లీ అధ్యక్షుడు: లక్నో, ఫైజ్‌పూర్"
+       }
+      },
+      {
+       "y": "1942–46",
+       "t": {
+        "en": "In prison — writes The Discovery of India",
+        "te": "జైలులో — 'ది డిస్కవరీ ఆఫ్ ఇండియా' రచన"
+       }
+      },
+      {
+       "y": "1947",
+       "t": {
+        "en": "First PM; 'Tryst with Destiny' (15 Aug)",
+        "te": "తొలి ప్రధాని; 'ట్రిస్ట్ విత్ డెస్టినీ' (15 ఆగస్టు)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1954",
+       "t": {
+        "en": "Panchsheel with China",
+        "te": "చైనాతో పంచశీల"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1955",
+       "t": {
+        "en": "Bharat Ratna",
+        "te": "భారతరత్న"
+       }
+      },
+      {
+       "y": "1964",
+       "t": {
+        "en": "Dies in office (27 May)",
+        "te": "పదవిలో ఉండగా మరణం (27 మే)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = dates asked most often. Children's Day moved to 14 Nov after 1964.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే తేదీలు. 1964 తర్వాత బాలల దినోత్సవం నవంబర్ 14కు మారింది."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Vajiram & Ravi — Children's Day in India 2026 (Bal Diwas), 14 Nov, Nehru Jayanti",
+     "u": "https://vajiramandravi.com/current-affairs/childrens-day-in-india/"
+    },
+    {
+     "t": "Vajiram & Ravi — Jawaharlal Nehru, Architect of Modern India (updated 13 Oct 2026)",
+     "u": "https://vajiramandravi.com/upsc-exam/jawaharlal-nehru/"
+    },
+    {
+     "t": "ClearIAS — Jawaharlal Nehru (updated 3 Sep 2026)",
+     "u": "https://www.clearias.com/jawaharlal-nehru/"
+    }
+   ]
+  },
+  {
+   "id": "diabetes",
+   "kind": "day",
+   "color": "#1f6f6a",
+   "icon": "shield",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "tag": {
+    "en": "World Day · 14 November",
+    "te": "ప్రపంచ దినోత్సవం · 14 నవంబర్"
+   },
+   "title": {
+    "en": "World Diabetes Day 2026 — 'Early action on diabetes'",
+    "te": "ప్రపంచ మధుమేహ దినోత్సవం 2026 — 'Early action on diabetes'"
+   },
+   "line": {
+    "en": "New two-year theme (2026–27): diagnose early, give full care and remove the stigma.",
+    "te": "కొత్త రెండేళ్ల థీమ్ (2026–27): త్వరగా గుర్తించడం, పూర్తి చికిత్స, కళంకం (stigma) తొలగించడం."
+   },
+   "easy": [
+    {
+     "en": "Diabetes means the blood sugar level stays too high. IDF says it affects over half a billion people, and almost 1 in 2 do not know they have it. WHO says more than 40% are undiagnosed. Type 2 diabetes grows slowly with few signs, so many find out late — after damage to the heart, kidneys, eyes or nerves has begun.",
+     "te": "మధుమేహం అంటే రక్తంలో చక్కెర స్థాయి ఎక్కువగా ఉండిపోవడం. ఇది 50 కోట్ల మందికి పైగా ఉందని IDF చెబుతోంది; దాదాపు ప్రతి ఇద్దరిలో ఒకరికి తమకు ఉందని తెలియదు. 40% పైగా గుర్తించబడలేదని WHO అంటోంది. టైప్-2 నెమ్మదిగా, కొద్ది లక్షణాలతో పెరుగుతుంది — అందుకే గుండె, కిడ్నీ, కళ్లు, నరాలు దెబ్బతిన్నాకే చాలామందికి తెలుస్తుంది."
+    },
+    {
+     "en": "So the 2026–27 theme is 'Early action on diabetes'. Know the signs — more thirst, frequent urination, tiredness, blurred vision — and get tested early. Early detection can prevent diabetic ketoacidosis and delay complications.",
+     "te": "అందుకే 2026–27 థీమ్ 'Early action on diabetes' (మధుమేహంపై ముందస్తు చర్య). లక్షణాలు తెలుసుకోండి — ఎక్కువ దాహం, తరచూ మూత్రం, అలసట, మసక చూపు — త్వరగా పరీక్ష చేయించుకోండి. ముందే గుర్తిస్తే డయాబెటిక్ కీటోఅసిడోసిస్‌ను నివారించవచ్చు, సమస్యలను ఆలస్యం చేయవచ్చు."
+    },
+    {
+     "en": "Why 14 November? It is the birthday of Frederick Banting (born 1891), who with Charles Best prepared the pancreatic extract now called insulin at the University of Toronto in 1921. The day was started in 1991 by IDF with WHO and became an official UN day in 2006.",
+     "te": "నవంబర్ 14 ఎందుకు? 1921లో టొరంటో విశ్వవిద్యాలయంలో చార్లెస్ బెస్ట్‌తో కలిసి క్లోమ గ్రంథి సారం నుంచి ఇన్సులిన్‌ను తయారుచేసిన ఫ్రెడరిక్ బాంటింగ్ (జననం 1891) జన్మదినం. ఈ దినోత్సవాన్ని 1991లో IDF, WHO ప్రారంభించాయి; 2006లో అధికారిక ఐరాస దినోత్సవమైంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Theme 2026–27",
+      "te": "థీమ్ 2026–27"
+     },
+     {
+      "en": "'Early action on diabetes' (two-year theme) · #ActEarlyOnDiabetes",
+      "te": "'Early action on diabetes' (రెండేళ్ల థీమ్) · #ActEarlyOnDiabetes"
+     }
+    ],
+    [
+     {
+      "en": "Started",
+      "te": "ప్రారంభం"
+     },
+     {
+      "en": "1991 — International Diabetes Federation (IDF) with WHO",
+      "te": "1991 — అంతర్జాతీయ మధుమేహ సమాఖ్య (IDF), WHO"
+     }
+    ],
+    [
+     {
+      "en": "UN day",
+      "te": "ఐరాస దినోత్సవం"
+     },
+     {
+      "en": "2006 — UN Resolution 61/225",
+      "te": "2006 — ఐరాస తీర్మానం 61/225"
+     }
+    ],
+    [
+     {
+      "en": "Why 14 Nov",
+      "te": "నవంబర్ 14 ఎందుకు"
+     },
+     {
+      "en": "Birthday of Frederick Banting (14 Nov 1891), co-discoverer of insulin",
+      "te": "ఇన్సులిన్ సహ-ఆవిష్కర్త ఫ్రెడరిక్ బాంటింగ్ జన్మదినం (14 నవంబర్ 1891)"
+     }
+    ],
+    [
+     {
+      "en": "Insulin",
+      "te": "ఇన్సులిన్"
+     },
+     {
+      "en": "1921, Toronto — Banting and Charles Best; Nobel 1923 shared by Banting and J.J.R. Macleod",
+      "te": "1921, టొరంటో — బాంటింగ్, చార్లెస్ బెస్ట్; 1923 నోబెల్ బాంటింగ్, J.J.R. మెక్లియోడ్‌లకు ఉమ్మడిగా"
+     }
+    ],
+    [
+     {
+      "en": "Burden",
+      "te": "భారం"
+     },
+     {
+      "en": "Over half a billion people; almost 1 in 2 undiagnosed (IDF); 1 in 8 at high risk of type 2",
+      "te": "50 కోట్లకు పైగా; దాదాపు సగం మందికి నిర్ధారణ కాలేదు (IDF); ప్రతి 8 మందిలో ఒకరికి టైప్-2 ముప్పు అధికం"
+     }
+    ],
+    [
+     {
+      "en": "WHO 2030 targets (2022)",
+      "te": "WHO 2030 లక్ష్యాలు (2022)"
+     },
+     {
+      "en": "80% diagnosed · 80% good sugar control · 80% good BP control · 60% of 40+ get statins · 100% type-1 access to insulin",
+      "te": "80% నిర్ధారణ · 80% చక్కెర నియంత్రణ · 80% BP నియంత్రణ · 40+ వారిలో 60%కి స్టాటిన్లు · టైప్-1 వారందరికీ (100%) ఇన్సులిన్"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Health days and bodies",
+     "te": "లింక్ చెయిన్ · ఆరోగ్య దినోత్సవాలు, సంస్థలు"
+    },
+    "l": [
+     {
+      "en": "Type 1: can start at any age, often missed in adults; develops rapidly · Type 2: develops gradually with few or no symptoms",
+      "te": "టైప్-1: ఏ వయసులోనైనా రావచ్చు, పెద్దల్లో తరచూ గుర్తించరు; వేగంగా వస్తుంది · టైప్-2: నెమ్మదిగా, లక్షణాలు లేకుండా/కొద్దిగా"
+     },
+     {
+      "en": "WHO Global Diabetes Compact — governments asked to speed up action toward the 2030 targets",
+      "te": "WHO గ్లోబల్ డయాబెటిస్ కాంపాక్ట్ — 2030 లక్ష్యాల దిశగా వేగంగా పనిచేయాలని ప్రభుత్వాలకు పిలుపు"
+     },
+     {
+      "en": "Insulin is made by the pancreas — link to Biology (endocrine glands)",
+      "te": "ఇన్సులిన్‌ను క్లోమం (pancreas) తయారుచేస్తుంది — జీవశాస్త్రం (అంతఃస్రావ గ్రంథులు)తో లింక్"
+     }
+    ]
+   },
+   "trap": {
+    "en": "14 Nov is Banting's birthday, not Charles Best's. The Nobel (1923) went to Banting and Macleod — Best did not get it. The day began in 1991 but became a UN day only in 2006.",
+    "te": "నవంబర్ 14 బాంటింగ్ జన్మదినం, చార్లెస్ బెస్ట్‌ది కాదు. 1923 నోబెల్ బాంటింగ్, మెక్లియోడ్‌లకు — బెస్ట్‌కు రాలేదు. దినోత్సవం 1991లో మొదలైనా, ఐరాస దినోత్సవం అయింది 2006లోనే."
+   },
+   "tip": {
+    "en": "Three numbers: 1921 insulin · 1991 day starts (Banting's 100th birthday) · 2006 UN day.",
+    "te": "మూడు సంఖ్యలు: 1921 ఇన్సులిన్ · 1991 దినోత్సవం ప్రారంభం (బాంటింగ్ 100వ జయంతి) · 2006 ఐరాస దినోత్సవం."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about World Diabetes Day:",
+     "te": "ప్రపంచ మధుమేహ దినోత్సవానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It was first observed in 1991, on Frederick Banting's 100th birthday.",
+      "te": "I. ఫ్రెడరిక్ బాంటింగ్ 100వ జయంతి నాడు 1991లో మొదటిసారి జరిపారు."
+     },
+     {
+      "en": "II. The theme 'Early action on diabetes' is for two years, 2026–27.",
+      "te": "II. 'Early action on diabetes' థీమ్ 2026–27 రెండేళ్లకు."
+     },
+     {
+      "en": "III. Charles Best shared the 1923 Nobel Prize with Banting.",
+      "te": "III. 1923 నోబెల్‌ను చార్లెస్ బెస్ట్ బాంటింగ్‌తో పంచుకున్నారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "I and II are correct. III is wrong: the 1923 Nobel was shared by Banting and J.J.R. Macleod; Banting gave half his prize money to Best.",
+     "te": "I, II సరైనవి. III తప్పు: 1923 నోబెల్ బాంటింగ్, J.J.R. మెక్లియోడ్‌లకు; బాంటింగ్ తన బహుమతి డబ్బులో సగం బెస్ట్‌కు ఇచ్చారు."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "Why 'early action' matters",
+      "te": "'ముందస్తు చర్య' ఎందుకు ముఖ్యం"
+     },
+     "items": [
+      {
+       "i": "🥤",
+       "t": {
+        "en": "Signs: thirst, frequent urination, tiredness, blurred vision",
+        "te": "లక్షణాలు: దాహం, తరచూ మూత్రం, అలసట, మసక చూపు"
+       }
+      },
+      {
+       "i": "🩸",
+       "t": {
+        "en": "Get a blood sugar test early",
+        "te": "త్వరగా చక్కెర పరీక్ష"
+       }
+      },
+      {
+       "i": "💊",
+       "t": {
+        "en": "Timely, affordable care and support",
+        "te": "సకాలంలో, అందుబాటు ధరలో చికిత్స"
+       }
+      },
+      {
+       "i": "❤️",
+       "t": {
+        "en": "Delay heart, kidney, eye and nerve damage",
+        "te": "గుండె, కిడ్నీ, కళ్లు, నరాల నష్టం ఆలస్యం"
+       }
+      }
+     ]
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "WHO global diabetes targets for 2030 (%)",
+      "te": "WHO 2030 మధుమేహ లక్ష్యాలు (%)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Diagnosed",
+        "te": "నిర్ధారణ"
+       },
+       "v": 80,
+       "vl": "80%"
+      },
+      {
+       "t": {
+        "en": "Good sugar control",
+        "te": "చక్కెర నియంత్రణ"
+       },
+       "v": 80,
+       "vl": "80%"
+      },
+      {
+       "t": {
+        "en": "Good BP control",
+        "te": "BP నియంత్రణ"
+       },
+       "v": 80,
+       "vl": "80%"
+      },
+      {
+       "t": {
+        "en": "Statins (age 40+)",
+        "te": "స్టాటిన్లు (40+ వయసు)"
+       },
+       "v": 60,
+       "vl": "60%"
+      },
+      {
+       "t": {
+        "en": "Type 1: insulin access",
+        "te": "టైప్-1: ఇన్సులిన్"
+       },
+       "v": 100,
+       "vl": "100%"
+      }
+     ],
+     "cap": {
+      "en": "Endorsed by WHO Member States in 2022. The odd ones: statins 60%, insulin 100%.",
+      "te": "2022లో WHO సభ్య దేశాల ఆమోదం. భిన్నమైనవి: స్టాటిన్లు 60%, ఇన్సులిన్ 100%."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "IDF — World Diabetes Day 2026-27: Early action on diabetes (4 Mar 2026)",
+     "u": "https://idf.org/news/wdd-2026-27/"
+    },
+    {
+     "t": "WHO — World Diabetes Day 2026 campaign page",
+     "u": "https://www.who.int/campaigns/world-diabetes-day/2026"
+    },
+    {
+     "t": "LITFL — On this day, 14 November (Banting; WDD 1991; UN Resolution 61/225)",
+     "u": "https://litfl.com/otd/11-14/"
+    },
+    {
+     "t": "Linda Hall Library — Scientist of the Day: Frederick Banting",
+     "u": "https://www.lindahall.org/about/news/scientist-of-the-day/frederick-banting/"
+    }
+   ]
+  },
+  {
+   "id": "cpi",
+   "kind": "article",
+   "color": "#a86b00",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "MoSPI press release · 12 Nov 2026 · Economy",
+    "te": "MoSPI పత్రికా ప్రకటన · 12 నవంబర్ 2026 · ఆర్థిక వ్యవస్థ"
+   },
+   "tag": {
+    "en": "Explained · Economy · Inflation · GS-III",
+    "te": "వివరణ · ఆర్థిక వ్యవస్థ · ద్రవ్యోల్బణం · GS-III"
+   },
+   "title": {
+    "en": "Retail inflation 6.09%: above RBI's 6% upper limit — and AP at 7.25%",
+    "te": "రిటైల్ ద్రవ్యోల్బణం 6.09%: RBI ఎగువ పరిమితి 6% దాటింది — ఏపీలో 7.25%"
+   },
+   "line": {
+    "en": "October 2026 CPI inflation rose to 6.09% (provisional), the first month above 6% in the new 2024-base series; food inflation 8.94%.",
+    "te": "2026 అక్టోబర్ CPI ద్రవ్యోల్బణం 6.09%కు (తాత్కాలికం) పెరిగింది — కొత్త 2024 ఆధార సిరీస్‌లో 6% దాటిన తొలి నెల; ఆహార ద్రవ్యోల్బణం 8.94%."
+   },
+   "easy": [
+    {
+     "en": "What is CPI inflation? MoSPI checks the prices of a fixed basket of goods and services every month. Retail inflation is how much costlier this basket is than one year ago. In October 2026 it was 6.09% — up from 5.54% in September. Food inflation (CFPI) jumped to 8.94%; onion (+116%) and garlic (+61%) led, while potato became cheaper (–14%).",
+     "te": "CPI ద్రవ్యోల్బణం అంటే? MoSPI ప్రతి నెలా ఒక స్థిర వస్తు-సేవల బుట్ట ధరలను చూస్తుంది. ఏడాది క్రితంతో పోలిస్తే ఆ బుట్ట ఎంత ఖరీదైందో అదే రిటైల్ ద్రవ్యోల్బణం. 2026 అక్టోబర్‌లో ఇది 6.09% — సెప్టెంబర్ 5.54% నుంచి పెరిగింది. ఆహార ద్రవ్యోల్బణం (CFPI) 8.94%కు ఎగిసింది; ఉల్లి (+116%), వెల్లుల్లి (+61%) ముందున్నాయి; బంగాళాదుంప చౌకైంది (–14%)."
+    },
+    {
+     "en": "Why does 6% matter? Under Section 45ZA of the RBI Act, 1934, the Government (with RBI) sets the target: 4% CPI inflation with a band of 2%–6%. In March 2026 it was retained for 1 April 2026 – 31 March 2031. The six-member Monetary Policy Committee (3 RBI + 3 government-appointed members) sets the repo rate to stay in this band.",
+     "te": "6% ఎందుకు ముఖ్యం? RBI చట్టం, 1934లోని సెక్షన్ 45ZA కింద ప్రభుత్వం (RBIతో సంప్రదించి) లక్ష్యం నిర్ణయిస్తుంది: 4% CPI ద్రవ్యోల్బణం, 2%–6% సహన పరిధి (tolerance band). 2026 మార్చిలో దీన్ని 1 ఏప్రిల్ 2026 – 31 మార్చి 2031కి కొనసాగించారు. ఆరుగురు సభ్యుల ద్రవ్య విధాన కమిటీ (3 RBI + 3 ప్రభుత్వ నియామక సభ్యులు) ఈ పరిధిలో ఉంచేందుకు రెపో రేటు నిర్ణయిస్తుంది."
+    },
+    {
+     "en": "One month above 6% is a warning, not a 'failure'. RBI is said to fail only if inflation stays outside 2%–6% for three consecutive quarters; then it must report to the Government with reasons and remedies. AP link: Andhra Pradesh's inflation was 7.25% (rural 7.81%) — among the highest of the big states.",
+     "te": "ఒక్క నెల 6% దాటడం హెచ్చరిక మాత్రమే, 'వైఫల్యం' కాదు. వరుసగా మూడు త్రైమాసికాలు 2%–6% బయట ఉంటేనే వైఫల్యం; అప్పుడు RBI కారణాలు, పరిష్కార చర్యలతో ప్రభుత్వానికి నివేదిక ఇవ్వాలి. ఏపీ లింక్: ఆంధ్రప్రదేశ్ ద్రవ్యోల్బణం 7.25% (గ్రామీణం 7.81%) — పెద్ద రాష్ట్రాల్లో అత్యధికాల్లో ఒకటి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Oct 2026 (provisional)",
+      "te": "అక్టోబర్ 2026 (తాత్కాలికం)"
+     },
+     {
+      "en": "Combined 6.09% · Rural 6.63% · Urban 5.41%",
+      "te": "మొత్తం 6.09% · గ్రామీణం 6.63% · పట్టణం 5.41%"
+     }
+    ],
+    [
+     {
+      "en": "Food (CFPI)",
+      "te": "ఆహారం (CFPI)"
+     },
+     {
+      "en": "8.94% (Sep: 7.74%)",
+      "te": "8.94% (సెప్టెంబర్: 7.74%)"
+     }
+    ],
+    [
+     {
+      "en": "Target",
+      "te": "లక్ష్యం"
+     },
+     {
+      "en": "4% ± 2% (band 2–6%), 1 Apr 2026 – 31 Mar 2031, Sec 45ZA RBI Act",
+      "te": "4% ± 2% (2–6%), 1 ఏప్రిల్ 2026 – 31 మార్చి 2031, RBI చట్టం సెక్షన్ 45ZA"
+     }
+    ],
+    [
+     {
+      "en": "States",
+      "te": "రాష్ట్రాలు"
+     },
+     {
+      "en": "Highest Puducherry 7.96% · Lowest Mizoram 2.85% · AP 7.25% · Telangana 7.26% · Tamil Nadu 7.29%",
+      "te": "అత్యధికం పుదుచ్చేరి 7.96% · అత్యల్పం మిజోరం 2.85% · ఏపీ 7.25% · తెలంగాణ 7.26% · తమిళనాడు 7.29%"
+     }
+    ],
+    [
+     {
+      "en": "New series",
+      "te": "కొత్త సిరీస్"
+     },
+     {
+      "en": "Base 2024=100 (from 2012); weights from HCES 2023-24; first release 12 Feb 2026",
+      "te": "ఆధారం 2024=100 (2012 నుంచి); బరువులు HCES 2023-24 ఆధారంగా; తొలి విడుదల 12 ఫిబ్రవరి 2026"
+     }
+    ],
+    [
+     {
+      "en": "Basket",
+      "te": "బుట్ట"
+     },
+     {
+      "en": "358 items (was 299); 12 divisions (COICOP 2018) instead of 6 groups; food & beverages weight 36.75",
+      "te": "358 వస్తువులు (గతంలో 299); 6 గ్రూపులకు బదులు 12 విభాగాలు (COICOP 2018); ఆహారం-పానీయాల బరువు 36.75"
+     }
+    ],
+    [
+     {
+      "en": "Online prices",
+      "te": "ఆన్‌లైన్ ధరలు"
+     },
+     {
+      "en": "E-commerce prices added in 12 towns with over 25 lakh population",
+      "te": "25 లక్షలకు పైగా జనాభా ఉన్న 12 పట్టణాల్లో ఈ-కామర్స్ ధరలు చేర్చారు"
+     }
+    ],
+    [
+     {
+      "en": "FIT adopted",
+      "te": "FIT అమలు"
+     },
+     {
+      "en": "2016, on the Urjit Patel Committee's advice; next CPI release 14 Dec 2026",
+      "te": "2016, ఉర్జిత్ పటేల్ కమిటీ సిఫార్సుతో; తదుపరి CPI విడుదల 14 డిసెంబర్ 2026"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Inflation basics",
+     "te": "లింక్ చెయిన్ · ద్రవ్యోల్బణం ప్రాథమికాలు"
+    },
+    "l": [
+     {
+      "en": "CPI is released by MoSPI; the RBI targets CPI (combined) inflation, not WPI",
+      "te": "CPIని MoSPI విడుదల చేస్తుంది; RBI లక్ష్యం CPI (మొత్తం) ద్రవ్యోల్బణం, WPI కాదు"
+     },
+     {
+      "en": "Repo rate up → loans costlier → demand cools → prices ease",
+      "te": "రెపో రేటు పెరిగితే → రుణాలు ఖరీదు → డిమాండ్ తగ్గుతుంది → ధరలు తగ్గుతాయి"
+     },
+     {
+      "en": "Food-led inflation (onion, garlic) comes from supply shocks — interest rates act on it only slowly",
+      "te": "ఆహారం వల్ల ద్రవ్యోల్బణం (ఉల్లి, వెల్లుల్లి) సరఫరా షాక్‌ల నుంచి — వడ్డీ రేట్ల ప్రభావం నెమ్మదిగా"
+     },
+     {
+      "en": "AP link: rural AP inflation 7.81% — higher than urban AP 6.37%",
+      "te": "ఏపీ లింక్: గ్రామీణ ఏపీ 7.81% — పట్టణ ఏపీ 6.37% కంటే ఎక్కువ"
+     }
+    ]
+   },
+   "trap": {
+    "en": "One month above 6% is NOT a 'failure' of the target — failure = outside 2–6% for three consecutive quarters. Also: in the new series the weight of food has gone DOWN (36.75), not up. Section 45ZA, not 45ZN, is the target section.",
+    "te": "ఒక్క నెల 6% దాటితే లక్ష్య 'వైఫల్యం' కాదు — వరుసగా మూడు త్రైమాసికాలు 2–6% బయట ఉంటేనే. అలాగే కొత్త సిరీస్‌లో ఆహారం బరువు తగ్గింది (36.75), పెరగలేదు. లక్ష్యం నిర్ణయించే సెక్షన్ 45ZA."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements regarding India's inflation-targeting framework:",
+     "te": "భారత ద్రవ్యోల్బణ లక్ష్య విధానానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The inflation target is set by the Government of India in consultation with the RBI.",
+      "te": "I. ద్రవ్యోల్బణ లక్ష్యాన్ని RBIతో సంప్రదించి భారత ప్రభుత్వం నిర్ణయిస్తుంది."
+     },
+     {
+      "en": "II. The current target of 4% with a 2–6% band applies from 1 April 2026 to 31 March 2031.",
+      "te": "II. ప్రస్తుత 4% లక్ష్యం (2–6%) 1 ఏప్రిల్ 2026 నుంచి 31 మార్చి 2031 వరకు వర్తిస్తుంది."
+     },
+     {
+      "en": "III. The target is measured with the Wholesale Price Index (WPI).",
+      "te": "III. లక్ష్యాన్ని టోకు ధరల సూచీ (WPI)తో కొలుస్తారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "I and II are correct. III is wrong: the target is for CPI (retail) inflation, released by MoSPI — not WPI.",
+     "te": "I, II సరైనవి. III తప్పు: లక్ష్యం CPI (రిటైల్) ద్రవ్యోల్బణానికి — MoSPI విడుదల చేస్తుంది; WPI కాదు."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "CPI inflation climbs month by month (2026, %)",
+      "te": "నెలనెలా పెరుగుతున్న CPI ద్రవ్యోల్బణం (2026, %)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "June",
+        "te": "జూన్"
+       },
+       "v": 4.38,
+       "vl": "4.38%"
+      },
+      {
+       "t": {
+        "en": "July",
+        "te": "జూలై"
+       },
+       "v": 4.45,
+       "vl": "4.45%"
+      },
+      {
+       "t": {
+        "en": "August",
+        "te": "ఆగస్టు"
+       },
+       "v": 4.83,
+       "vl": "4.83%"
+      },
+      {
+       "t": {
+        "en": "September",
+        "te": "సెప్టెంబర్"
+       },
+       "v": 5.54,
+       "vl": "5.54%"
+      },
+      {
+       "t": {
+        "en": "October",
+        "te": "అక్టోబర్"
+       },
+       "v": 6.09,
+       "vl": "6.09% ⚠"
+      }
+     ],
+     "cap": {
+      "en": "Upper limit of the band = 6%. January 2026 was only 2.74%.",
+      "te": "సహన పరిధి ఎగువ పరిమితి = 6%. 2026 జనవరిలో ఇది 2.74% మాత్రమే."
+     }
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "October 2026: where prices rose most (%)",
+      "te": "అక్టోబర్ 2026: ధరలు ఎక్కడ ఎక్కువ పెరిగాయి (%)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Puducherry (highest)",
+        "te": "పుదుచ్చేరి (అత్యధికం)"
+       },
+       "v": 7.96,
+       "vl": "7.96%"
+      },
+      {
+       "t": {
+        "en": "Tamil Nadu",
+        "te": "తమిళనాడు"
+       },
+       "v": 7.29,
+       "vl": "7.29%"
+      },
+      {
+       "t": {
+        "en": "Telangana",
+        "te": "తెలంగాణ"
+       },
+       "v": 7.26,
+       "vl": "7.26%"
+      },
+      {
+       "t": {
+        "en": "Andhra Pradesh",
+        "te": "ఆంధ్రప్రదేశ్"
+       },
+       "v": 7.25,
+       "vl": "7.25%"
+      },
+      {
+       "t": {
+        "en": "All India",
+        "te": "అఖిల భారతం"
+       },
+       "v": 6.09,
+       "vl": "6.09%"
+      },
+      {
+       "t": {
+        "en": "Mizoram (lowest)",
+        "te": "మిజోరం (అత్యల్పం)"
+       },
+       "v": 2.85,
+       "vl": "2.85%"
+      }
+     ],
+     "cap": {
+      "en": "All three southern neighbours — AP, Telangana, Tamil Nadu — are above 7%.",
+      "te": "దక్షిణాది పొరుగు రాష్ట్రాలు — ఏపీ, తెలంగాణ, తమిళనాడు — మూడూ 7% పైనే."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "MoSPI — Press Release of CPI (base 2024=100) for October 2026, 12 Nov 2026",
+     "u": "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1794478693814_7c90e80f-9e64-4aa4-b44a-1dc727b0fed9_Press_Release_of_CPI_for_October_2026_.pdf"
+    },
+    {
+     "t": "PIB — First press release of Consumer Price Index on base 2024=100, 12 Feb 2026",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227012&reg=3&lang=1"
+    },
+    {
+     "t": "Business Today — Govt retains inflation target at 4% with 2-6% band for next five years, 25 Mar 2026",
+     "u": "https://www.businesstoday.in/latest/economy/story/govt-retains-inflation-target-at-4-with-2-6-band-for-next-five-years-522390-2026-03-25"
+    },
+    {
+     "t": "Drishti IAS (cross-check) — India Retains 4% Inflation Target for RBI, 27 Mar 2026",
+     "u": "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-retains-4-inflation-target-for-rbi/print_manually"
+    }
+   ],
+   "mains": {
+    "en": "Retail inflation crossed the upper tolerance limit in October 2026, led by food prices. Examine the limits of monetary policy in controlling food-led inflation, with reference to Andhra Pradesh.",
+    "te": "2026 అక్టోబర్‌లో ఆహార ధరల వల్ల రిటైల్ ద్రవ్యోల్బణం ఎగువ సహన పరిమితిని దాటింది. ఆహార ఆధారిత ద్రవ్యోల్బణాన్ని నియంత్రించడంలో ద్రవ్య విధానానికి ఉన్న పరిమితులను ఆంధ్రప్రదేశ్ ఉదాహరణతో పరిశీలించండి."
+   }
+  },
+  {
+   "id": "ccpi",
+   "kind": "article",
+   "color": "#2f6b2f",
+   "icon": "leaf",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "Down To Earth / The Wire · 12 Nov 2026 · Environment",
+    "te": "డౌన్ టు ఎర్త్ / ది వైర్ · 12 నవంబర్ 2026 · పర్యావరణం"
+   },
+   "tag": {
+    "en": "Report & index · Environment · GS-III",
+    "te": "నివేదిక & సూచీ · పర్యావరణం · GS-III"
+   },
+   "title": {
+    "en": "Climate Change Performance Index 2027: India slips to 28th",
+    "te": "క్లైమేట్ చేంజ్ పెర్ఫార్మెన్స్ ఇండెక్స్ 2027: 28వ స్థానానికి జారిన భారత్"
+   },
+   "line": {
+    "en": "Released at COP31 in Antalya, Turkey: India 28th (score 60.85), down from 23rd — coal dependence is the main reason.",
+    "te": "టర్కీలోని అంటాల్యలో COP31 సందర్భంగా విడుదల: భారత్ 28వ స్థానం (స్కోరు 60.85), గతేడాది 23 — బొగ్గుపై ఆధారపడటమే ప్రధాన కారణం."
+   },
+   "easy": [
+    {
+     "en": "What is the CCPI? A yearly ranking of how well countries act against climate change, published by Germanwatch and the NewClimate Institute. It covers 64 countries plus the European Union, together responsible for more than 90% of global greenhouse gas emissions. It judges four areas: GHG emissions, renewable energy, energy use and climate policy.",
+     "te": "CCPI అంటే? వాతావరణ మార్పుపై దేశాలు ఎంత బాగా పనిచేస్తున్నాయో చెప్పే వార్షిక ర్యాంకింగ్ — జర్మన్‌వాచ్, న్యూక్లైమేట్ ఇన్‌స్టిట్యూట్ ప్రచురిస్తాయి. 64 దేశాలు + యూరోపియన్ యూనియన్ — ప్రపంచ హరితగృహ వాయు ఉద్గారాల్లో 90% పైగా వీటివే. నాలుగు అంశాలు చూస్తుంది: GHG ఉద్గారాలు, పునరుత్పాదక ఇంధనం, ఇంధన వినియోగం, వాతావరణ విధానం."
+    },
+    {
+     "en": "India's result: 28th with a 'medium' rating — 10th in CCPI 2025, 23rd in 2026, now 28th. India is 'medium' in emissions, energy use and policy, but 'low' in renewable energy (its renewable trend is rated 'high'). Reasons: heavy use of coal for electricity, and a net-zero-by-2070 goal without a full fossil-fuel exit roadmap.",
+     "te": "భారత్ ఫలితం: 'మీడియం' రేటింగ్‌తో 28వ స్థానం — CCPI 2025లో 10, 2026లో 23, ఇప్పుడు 28. ఉద్గారాలు, ఇంధన వినియోగం, విధానంలో 'మీడియం'; పునరుత్పాదక ఇంధనంలో 'లో' (కానీ వృద్ధి ధోరణికి 'హై'). కారణాలు: విద్యుత్తుకు బొగ్గుపై ఎక్కువ ఆధారం; 2070 నెట్-జీరో లక్ష్యానికి సమగ్ర శిలాజ ఇంధన మార్పు ప్రణాళిక లేకపోవడం."
+    },
+    {
+     "en": "Capacity is not generation: non-fossil sources reached 50% of India's installed power capacity by June 2025 — five years before the 2030 target — but much less of the electricity actually produced. Weak grids and storage forced 2.3 TWh of solar power to be curtailed (wasted) from late May to December 2025. A Union environment ministry official said India does not agree with the report.",
+     "te": "సామర్థ్యం ≠ ఉత్పత్తి: 2025 జూన్ నాటికి స్థాపిత విద్యుత్ సామర్థ్యంలో 50% శిలాజేతర వనరులదే — 2030 లక్ష్యానికి ఐదేళ్ల ముందే — కానీ నిజంగా ఉత్పత్తి అయిన విద్యుత్తులో వాటా చాలా తక్కువ. బలహీన గ్రిడ్, నిల్వ లోపాల వల్ల 2025 మే చివరి నుంచి డిసెంబర్ వరకు 2.3 TWh సౌర విద్యుత్తును తగ్గించాల్సి (curtail) వచ్చింది. నివేదికతో భారత్ ఏకీభవించదని కేంద్ర పర్యావరణ శాఖ అధికారి అన్నారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Publishers",
+      "te": "ప్రచురణ"
+     },
+     {
+      "en": "Germanwatch and NewClimate Institute",
+      "te": "జర్మన్‌వాచ్, న్యూక్లైమేట్ ఇన్‌స్టిట్యూట్"
+     }
+    ],
+    [
+     {
+      "en": "Released",
+      "te": "విడుదల"
+     },
+     {
+      "en": "At COP31, Antalya (Turkey), Nov 2026",
+      "te": "COP31, అంటాల్య (టర్కీ), నవంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Coverage",
+      "te": "పరిధి"
+     },
+     {
+      "en": "64 countries + EU (over 90% of global GHG emissions)",
+      "te": "64 దేశాలు + EU (ప్రపంచ GHGలో 90% పైగా)"
+     }
+    ],
+    [
+     {
+      "en": "India",
+      "te": "భారత్"
+     },
+     {
+      "en": "28th · score 60.85 · 'medium' (2026: 23rd; 2025: 10th)",
+      "te": "28వ స్థానం · స్కోరు 60.85 · 'మీడియం' (2026: 23; 2025: 10)"
+     }
+    ],
+    [
+     {
+      "en": "Top",
+      "te": "అగ్రస్థానం"
+     },
+     {
+      "en": "Ranks 1–3 left vacant; Denmark 4th (84.05) is the best performer",
+      "te": "1–3 స్థానాలు ఖాళీ; డెన్మార్క్ 4వ స్థానం (84.05) — ఉత్తమ దేశం"
+     }
+    ],
+    [
+     {
+      "en": "Others",
+      "te": "ఇతరులు"
+     },
+     {
+      "en": "UK 7th (only G20 nation rated 'high') · EU 19th · China 56th · Saudi Arabia 65th · Russia 66th · USA 67th",
+      "te": "UK 7 (G20లో 'హై' రేటింగ్ ఒక్కటే) · EU 19 · చైనా 56 · సౌదీ 65 · రష్యా 66 · అమెరికా 67"
+     }
+    ],
+    [
+     {
+      "en": "India's ratings",
+      "te": "భారత్ రేటింగ్‌లు"
+     },
+     {
+      "en": "GHG: medium · Energy use: medium · Policy: medium · Renewables: low",
+      "te": "GHG: మీడియం · ఇంధన వినియోగం: మీడియం · విధానం: మీడియం · పునరుత్పాదకం: లో"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Climate indices and targets",
+     "te": "లింక్ చెయిన్ · వాతావరణ సూచీలు, లక్ష్యాలు"
+    },
+    "l": [
+     {
+      "en": "India's net zero target year: 2070",
+      "te": "భారత నెట్-జీరో లక్ష్య సంవత్సరం: 2070"
+     },
+     {
+      "en": "50% non-fossil installed capacity was a 2030 goal — reached by June 2025",
+      "te": "50% శిలాజేతర స్థాపిత సామర్థ్యం 2030 లక్ష్యం — 2025 జూన్‌కే సాధించింది"
+     },
+     {
+      "en": "COP30 was at Belém (Brazil, 2025); COP31 at Antalya (Turkey, 2026)",
+      "te": "COP30 బెలెమ్ (బ్రెజిల్, 2025); COP31 అంటాల్య (టర్కీ, 2026)"
+     },
+     {
+      "en": "Carbon Credit Trading Scheme covers 490 entities",
+      "te": "కార్బన్ క్రెడిట్ ట్రేడింగ్ స్కీమ్ పరిధిలో 490 సంస్థలు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The CCPI is NOT made by UNEP or the IPCC — it is by Germanwatch and NewClimate Institute. 'First rank' is vacant: Denmark is 4th yet the best. India is 'low' (not 'high') in the renewable energy category, though its renewable trend is 'high'.",
+    "te": "CCPIని UNEP లేదా IPCC తయారుచేయదు — జర్మన్‌వాచ్, న్యూక్లైమేట్ ఇన్‌స్టిట్యూట్. 1వ స్థానం ఖాళీ: డెన్మార్క్ 4వ స్థానంలో ఉన్నా ఉత్తమం. పునరుత్పాదక ఇంధన విభాగంలో భారత్ 'లో' ('హై' కాదు) — వృద్ధి ధోరణి మాత్రమే 'హై'."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the Climate Change Performance Index (CCPI) 2027:",
+     "te": "క్లైమేట్ చేంజ్ పెర్ఫార్మెన్స్ ఇండెక్స్ (CCPI) 2027కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It is published by the United Nations Environment Programme (UNEP).",
+      "te": "I. దీనిని ఐక్యరాజ్యసమితి పర్యావరణ కార్యక్రమం (UNEP) ప్రచురిస్తుంది."
+     },
+     {
+      "en": "II. No country was placed in the top three positions.",
+      "te": "II. మొదటి మూడు స్థానాల్లో ఏ దేశాన్నీ ఉంచలేదు."
+     },
+     {
+      "en": "III. India has slipped for two successive editions.",
+      "te": "III. వరుసగా రెండు ఎడిషన్లలో భారత్ ర్యాంకు పడిపోయింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "II and III are correct (India: 10th → 23rd → 28th). I is wrong: the CCPI is published by Germanwatch and the NewClimate Institute, not UNEP.",
+     "te": "II, III సరైనవి (భారత్: 10 → 23 → 28). I తప్పు: CCPIని జర్మన్‌వాచ్, న్యూక్లైమేట్ ఇన్‌స్టిట్యూట్ ప్రచురిస్తాయి, UNEP కాదు."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "India's CCPI rank (lower number = better)",
+      "te": "భారత్ CCPI ర్యాంకు (తక్కువ సంఖ్య = మెరుగు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "CCPI 2025",
+        "te": "CCPI 2025"
+       },
+       "v": 10,
+       "vl": "10th"
+      },
+      {
+       "t": {
+        "en": "CCPI 2026",
+        "te": "CCPI 2026"
+       },
+       "v": 23,
+       "vl": "23rd"
+      },
+      {
+       "t": {
+        "en": "CCPI 2027",
+        "te": "CCPI 2027"
+       },
+       "v": 28,
+       "vl": "28th"
+      }
+     ],
+     "cap": {
+      "en": "A longer bar here means a worse rank: India has dropped 18 places in two years.",
+      "te": "ఇక్కడ పొడవైన బార్ = అధ్వాన ర్యాంకు: రెండేళ్లలో భారత్ 18 స్థానాలు దిగజారింది."
+     }
+    },
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "How India scored in the 4 CCPI areas",
+      "te": "4 CCPI అంశాల్లో భారత్ స్కోరు"
+     },
+     "c": {
+      "en": "India · 28th",
+      "te": "భారత్ · 28"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "GHG emissions",
+        "te": "GHG ఉద్గారాలు"
+       },
+       "l": [
+        {
+         "en": "Medium",
+         "te": "మీడియం"
+        },
+        {
+         "en": "Per-capita rising",
+         "te": "తలసరి పెరుగుదల"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Renewable energy",
+        "te": "పునరుత్పాదకం"
+       },
+       "l": [
+        {
+         "en": "Low",
+         "te": "లో"
+        },
+        {
+         "en": "Trend: high",
+         "te": "ధోరణి: హై"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Energy use",
+        "te": "ఇంధన వినియోగం"
+       },
+       "l": [
+        {
+         "en": "Medium",
+         "te": "మీడియం"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Climate policy",
+        "te": "వాతావరణ విధానం"
+       },
+       "l": [
+        {
+         "en": "Medium",
+         "te": "మీడియం"
+        },
+        {
+         "en": "No coal exit plan",
+         "te": "బొగ్గు నిష్క్రమణ ప్రణాళిక లేదు"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Down To Earth — COP31: India slips five places to 28th in global climate action ranking, finds CCPI 2027 report, 12 Nov 2026",
+     "u": "https://www.downtoearth.org.in/climate-change/cop31-india-slips-five-places-to-28th-in-global-climate-action-ranking-finds-ccpi-2027-report"
+    },
+    {
+     "t": "The Wire — India Slips Five Places to 28th in Climate Change Performance Index, 12 Nov 2026",
+     "u": "https://m.thewire.in/article/environment/india-slips-five-places-to-28th-in-climate-change-performance-index"
+    },
+    {
+     "t": "Climate Fact Checks — India slips to 28th in global climate performance ranking, 13 Nov 2026",
+     "u": "https://climatefactchecks.org/india-slips-to-28th-in-global-climate-performance-ranking-as-coal-dependence-offsets-renewable-gains/"
+    }
+   ],
+   "mains": {
+    "en": "India met its 50% non-fossil capacity goal early, yet slipped in the CCPI 2027. Explain the gap between installed capacity and actual clean generation, and suggest measures.",
+    "te": "50% శిలాజేతర సామర్థ్య లక్ష్యాన్ని భారత్ ముందే సాధించినా CCPI 2027లో దిగజారింది. స్థాపిత సామర్థ్యానికి, వాస్తవ పరిశుభ్ర విద్యుత్ ఉత్పత్తికి మధ్య అంతరాన్ని వివరించి, చర్యలు సూచించండి."
+   }
+  },
+  {
+   "id": "apquantum",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "rocket",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "src": {
+    "en": "Business Standard · Visakhapatnam · 12–13 Nov 2026",
+    "te": "బిజినెస్ స్టాండర్డ్ · విశాఖపట్నం · 12–13 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "In the news · AP · Science & Tech + Economy · GS-III",
+    "te": "వార్తల్లో · ఏపీ · సైన్స్ & టెక్ + ఆర్థికం · GS-III"
+   },
+   "title": {
+    "en": "Amaravati to make quantum computers: AP's 250-acre plan and the CII Summit's ₹9.98 lakh crore pledges",
+    "te": "అమరావతిలో క్వాంటం కంప్యూటర్ల తయారీ: ఏపీ 250 ఎకరాల ప్రణాళిక, CII సదస్సులో ₹9.98 లక్షల కోట్ల హామీలు"
+   },
+   "line": {
+    "en": "At the 31st CII Partnership Summit, the CM announced South Asia's first quantum computing manufacturing facility at Amaravati, to be inaugurated on 3 February 2027.",
+    "te": "31వ CII భాగస్వామ్య సదస్సులో అమరావతిలో దక్షిణాసియాలోనే తొలి క్వాంటం కంప్యూటింగ్ తయారీ కేంద్రాన్ని ముఖ్యమంత్రి ప్రకటించారు — 2027 ఫిబ్రవరి 3న ప్రారంభం."
+   },
+   "easy": [
+    {
+     "en": "What is a quantum computer? A normal computer works with bits that are either 0 or 1. A quantum computer uses 'qubits', which can hold a mix of 0 and 1 at the same time. For some hard problems — new medicines, materials, codes — this can be far faster. Building one needs special parts, so making them in India is a big step.",
+     "te": "క్వాంటం కంప్యూటర్ అంటే? సాధారణ కంప్యూటర్ 0 లేదా 1 అయ్యే 'బిట్‌'లతో పనిచేస్తుంది. క్వాంటం కంప్యూటర్ 'క్యూబిట్‌'లు వాడుతుంది — అవి ఒకేసారి 0, 1 మిశ్రమాన్ని ఉంచగలవు. కొత్త మందులు, పదార్థాలు, కోడ్‌ల వంటి కఠిన సమస్యలకు ఇది చాలా వేగం. దీనికి ప్రత్యేక భాగాలు కావాలి — అందుకే భారత్‌లో తయారీ పెద్ద ముందడుగు."
+    },
+    {
+     "en": "What was announced? On 12 November 2026 at Visakhapatnam, CM N. Chandrababu Naidu said South Asia's first quantum computing manufacturing facility will come up on 250 acres in Amaravati, to be inaugurated on 3 February next year, with equipment under a 'Made in Amaravati' brand. Minister Nara Lokesh said India's first 156-qubit quantum computer will be set up in Amaravati.",
+     "te": "ఏం ప్రకటించారు? 2026 నవంబర్ 12న విశాఖపట్నంలో ముఖ్యమంత్రి ఎన్. చంద్రబాబు నాయుడు — అమరావతిలో 250 ఎకరాల్లో దక్షిణాసియాలోనే తొలి క్వాంటం కంప్యూటింగ్ తయారీ కేంద్రం వస్తుందని, వచ్చే ఏడాది ఫిబ్రవరి 3న ప్రారంభిస్తామని, పరికరాలు 'మేడ్ ఇన్ అమరావతి' బ్రాండ్‌తో వస్తాయని చెప్పారు. భారత్‌లో తొలి 156-క్యూబిట్ క్వాంటం కంప్యూటర్ అమరావతిలో ఏర్పాటు చేస్తామని మంత్రి నారా లోకేశ్ అన్నారు."
+    },
+    {
+     "en": "The summit's numbers: Day 1 (12 Nov) — 73 MoUs and 15 preliminary deals worth ₹5,84,355 crore, with a potential 1,07,693 jobs. Day 2 (13 Nov) — deals with 24 companies worth ₹1.05 lakh crore (about 75,055 jobs). Total commitments: ₹9.98 lakh crore. Remember: an MoU is a promise to invest, not money already spent.",
+     "te": "సదస్సు గణాంకాలు: 1వ రోజు (12 నవంబర్) — ₹5,84,355 కోట్ల విలువైన 73 MoUలు, 15 ప్రాథమిక ఒప్పందాలు; 1,07,693 ఉద్యోగాల అవకాశం. 2వ రోజు (13 నవంబర్) — 24 కంపెనీలతో ₹1.05 లక్షల కోట్ల ఒప్పందాలు (సుమారు 75,055 ఉద్యోగాలు). మొత్తం హామీలు: ₹9.98 లక్షల కోట్లు. గుర్తుంచుకోండి: MoU అంటే పెట్టుబడి వాగ్దానం మాత్రమే, ఖర్చైన డబ్బు కాదు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Facility",
+      "te": "కేంద్రం"
+     },
+     {
+      "en": "Quantum computing manufacturing, 250 acres, Amaravati — 'South Asia's first'",
+      "te": "క్వాంటం కంప్యూటింగ్ తయారీ, 250 ఎకరాలు, అమరావతి — 'దక్షిణాసియాలో తొలి'"
+     }
+    ],
+    [
+     {
+      "en": "Inauguration",
+      "te": "ప్రారంభం"
+     },
+     {
+      "en": "3 February 2027 (as announced)",
+      "te": "3 ఫిబ్రవరి 2027 (ప్రకటన ప్రకారం)"
+     }
+    ],
+    [
+     {
+      "en": "Quantum computer",
+      "te": "క్వాంటం కంప్యూటర్"
+     },
+     {
+      "en": "156 qubits — IBM Quantum System Two with a Heron processor (MoU of 4 May 2025: IBM, TCS, L&T)",
+      "te": "156 క్యూబిట్లు — హెరాన్ ప్రాసెసర్‌తో IBM క్వాంటం సిస్టమ్ టూ (4 మే 2025 MoU: IBM, TCS, L&T)"
+     }
+    ],
+    [
+     {
+      "en": "Summit",
+      "te": "సదస్సు"
+     },
+     {
+      "en": "31st CII Partnership Summit, Visakhapatnam, 12–13 Nov 2026",
+      "te": "31వ CII భాగస్వామ్య సదస్సు, విశాఖపట్నం, 12–13 నవంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Day 1",
+      "te": "1వ రోజు"
+     },
+     {
+      "en": "73 MoUs + 15 preliminary deals · ₹5,84,355 crore · 1,07,693 jobs",
+      "te": "73 MoUలు + 15 ప్రాథమిక ఒప్పందాలు · ₹5,84,355 కోట్లు · 1,07,693 ఉద్యోగాలు"
+     }
+    ],
+    [
+     {
+      "en": "Total",
+      "te": "మొత్తం"
+     },
+     {
+      "en": "₹9.98 lakh crore pledged at the summit; ₹32.3 lakh crore of investment intent since June 2024",
+      "te": "సదస్సులో ₹9.98 లక్షల కోట్ల హామీలు; 2024 జూన్ నుంచి ₹32.3 లక్షల కోట్ల పెట్టుబడి ఉద్దేశాలు"
+     }
+    ],
+    [
+     {
+      "en": "Other projects",
+      "te": "ఇతర ప్రాజెక్టులు"
+     },
+     {
+      "en": "Google data centre (by 15 Aug 2028) · 2 GW compute factory at Kurnool (₹8,000 crore)",
+      "te": "గూగుల్ డేటా సెంటర్ (15 ఆగస్టు 2028 నాటికి) · కర్నూలులో 2 GW కంప్యూట్ ఫ్యాక్టరీ (₹8,000 కోట్లు)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Quantum and AP",
+     "te": "లింక్ చెయిన్ · క్వాంటం, ఏపీ"
+    },
+    "l": [
+     {
+      "en": "Bit = 0 or 1 · Qubit = mix of 0 and 1 (superposition)",
+      "te": "బిట్ = 0 లేదా 1 · క్యూబిట్ = 0, 1 మిశ్రమం (సూపర్‌పొజిషన్)"
+     },
+     {
+      "en": "Amaravati Quantum Valley is planned in line with India's National Quantum Mission",
+      "te": "అమరావతి క్వాంటం వ్యాలీ జాతీయ క్వాంటం మిషన్‌కు అనుగుణంగా ప్రణాళిక"
+     },
+     {
+      "en": "Units: 1 lakh crore = 1 trillion rupees — ₹5.84 lakh crore = ₹5.84 trillion",
+      "te": "యూనిట్లు: 1 లక్ష కోట్లు = 1 ట్రిలియన్ రూపాయలు — ₹5.84 లక్షల కోట్లు = ₹5.84 ట్రిలియన్"
+     },
+     {
+      "en": "Investment intent since June 2024: ₹32.3 lakh crore (State's figure, as reported)",
+      "te": "2024 జూన్ నుంచి పెట్టుబడి ఉద్దేశాలు: ₹32.3 లక్షల కోట్లు (రాష్ట్రం చెప్పిన సంఖ్య, నివేదిక ప్రకారం)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The quantum facility is at Amaravati — the summit was at Visakhapatnam; do not mix them. ₹9.98 lakh crore is the whole-summit total; ₹5.84 lakh crore is only Day 1. 'Lakh crore' and 'trillion' are the same.",
+    "te": "క్వాంటం కేంద్రం అమరావతిలో — సదస్సు విశాఖపట్నంలో; రెండింటినీ కలపవద్దు. ₹9.98 లక్షల కోట్లు సదస్సు మొత్తం; ₹5.84 లక్షల కోట్లు 1వ రోజు మాత్రమే. 'లక్ష కోట్లు' = 'ట్రిలియన్'."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the 31st CII Partnership Summit, 2026:",
+     "te": "31వ CII భాగస్వామ్య సదస్సు, 2026కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It was held at Visakhapatnam on 12–13 November 2026.",
+      "te": "I. ఇది 2026 నవంబర్ 12–13న విశాఖపట్నంలో జరిగింది."
+     },
+     {
+      "en": "II. Investment commitments signed at the summit are funds already invested in the State.",
+      "te": "II. సదస్సులో కుదిరిన పెట్టుబడి హామీలు రాష్ట్రంలో ఇప్పటికే పెట్టిన నిధులు."
+     },
+     {
+      "en": "III. A quantum computing manufacturing facility was announced for Amaravati.",
+      "te": "III. అమరావతిలో క్వాంటం కంప్యూటింగ్ తయారీ కేంద్రాన్ని ప్రకటించారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "I and III are correct. II is wrong: MoUs and preliminary deals are commitments (promises) to invest, not money already invested.",
+     "te": "I, III సరైనవి. II తప్పు: MoUలు, ప్రాథమిక ఒప్పందాలు పెట్టుబడి హామీలు (వాగ్దానాలు) మాత్రమే; ఇప్పటికే పెట్టిన డబ్బు కాదు."
+    }
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Summit city and quantum city",
+      "te": "సదస్సు నగరం, క్వాంటం నగరం"
+     },
+     "view": "ap",
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#7a3b8f",
+     "pts": [
+      {
+       "ll": [
+        16.51,
+        80.52
+       ],
+       "t": {
+        "en": "Amaravati: quantum plant",
+        "te": "అమరావతి: క్వాంటం కేంద్రం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        17.69,
+        83.22
+       ],
+       "t": {
+        "en": "Visakhapatnam: CII Summit",
+        "te": "విశాఖపట్నం: CII సదస్సు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        15.83,
+        78.04
+       ],
+       "t": {
+        "en": "Kurnool: 2 GW compute",
+        "te": "కర్నూలు: 2 GW కంప్యూట్"
+       },
+       "a": "l"
+      }
+     ],
+     "seas": true,
+     "cap": {
+      "en": "Do not mix the places: the summit was at Visakhapatnam; the quantum facility is at Amaravati.",
+      "te": "ప్రదేశాలు కలపవద్దు: సదస్సు విశాఖపట్నంలో; క్వాంటం కేంద్రం అమరావతిలో."
+     },
+     "src": "cards/2026-11-14/map-apquantum-1-{m}.svg"
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "CII Summit 2026 pledges (₹ lakh crore)",
+      "te": "CII సదస్సు 2026 హామీలు (₹ లక్షల కోట్లు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Day 1 (73 MoUs + 15 deals)",
+        "te": "1వ రోజు (73 MoUలు + 15)"
+       },
+       "v": 5.84,
+       "vl": "₹5.84 lakh cr"
+      },
+      {
+       "t": {
+        "en": "Day 2 (24 companies)",
+        "te": "2వ రోజు (24 కంపెనీలు)"
+       },
+       "v": 1.05,
+       "vl": "₹1.05 lakh cr"
+      },
+      {
+       "t": {
+        "en": "Whole summit (reported)",
+        "te": "మొత్తం సదస్సు (నివేదిక)"
+       },
+       "v": 9.98,
+       "vl": "₹9.98 lakh cr"
+      }
+     ],
+     "cap": {
+      "en": "Figures as reported by Business Standard; Day 1 + Day 2 do not add up to the total, so learn each figure separately.",
+      "te": "బిజినెస్ స్టాండర్డ్ నివేదిక ప్రకారం; 1వ + 2వ రోజు కలిపినా మొత్తం రాదు — ప్రతి సంఖ్యను విడిగా గుర్తుంచుకోండి."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Business Standard — Amaravati to launch quantum manufacturing; Andhra nets ₹5.8 trn in deals, 12 Nov 2026",
+     "u": "https://www.business-standard.com/amp/industry/news/amaravati-to-launch-quantum-manufacturing-andhra-nets-5-8-trn-in-deals-126111201703_1.html"
+    },
+    {
+     "t": "Business Standard — Andhra Pradesh bags ₹9.98 trillion in investment pledges at CII summit, 13 Nov 2026",
+     "u": "https://www.business-standard.com/amp/industry/news/andhra-pradesh-bags-9-98-trillion-in-investment-pledges-at-cii-summit-126111301623_1.html"
+    },
+    {
+     "t": "Outlook Business (PTI) — IBM, TCS partner AP Govt to deploy India's largest quantum computer at Quantum Valley Tech Park, 3 May 2025",
+     "u": "https://www.outlookbusiness.com/deeptech/tech/ibm-tcs-partner-ap-govt-to-deploy-indias-largest-quantum-computer-at-quantum-valley-tech-park"
+    },
+    {
+     "t": "Wikipedia (cross-check) — Amaravati Quantum Valley",
+     "u": "https://en.wikipedia.org/wiki/Amaravati_Quantum_Valley"
+    }
+   ],
+   "mains": {
+    "en": "Can deep-tech projects like the Amaravati quantum facility change Andhra Pradesh's growth model? Discuss the opportunities and the gap between MoU commitments and actual investment.",
+    "te": "అమరావతి క్వాంటం కేంద్రం వంటి డీప్-టెక్ ప్రాజెక్టులు ఆంధ్రప్రదేశ్ వృద్ధి నమూనాను మార్చగలవా? అవకాశాలను, MoU హామీలకు-వాస్తవ పెట్టుబడికి మధ్య అంతరాన్ని చర్చించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "nehru",
+   "q": {
+    "en": "Consider the following statements about Jawaharlal Nehru:",
+    "te": "జవహర్‌లాల్ నెహ్రూకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. He presided over the Lahore Session (1929), where Purna Swaraj was adopted as the goal.",
+     "te": "I. 'పూర్ణ స్వరాజ్' లక్ష్యంగా ఆమోదించిన లాహోర్ సమావేశానికి (1929) ఆయన అధ్యక్షత వహించారు."
+    },
+    {
+     "en": "II. He wrote 'The Discovery of India' during his imprisonment of 1942–46.",
+     "te": "II. 1942–46 జైలు జీవితంలో ఆయన 'ది డిస్కవరీ ఆఫ్ ఇండియా' రాశారు."
+    },
+    {
+     "en": "III. He was awarded the Bharat Ratna posthumously, after his death in 1964.",
+     "te": "III. 1964లో మరణించిన తర్వాత ఆయనకు మరణానంతరం భారతరత్న ఇచ్చారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is wrong: Nehru received the Bharat Ratna in 1955, while he was alive. I and II are correct.",
+    "te": "III తప్పు: నెహ్రూకు భారతరత్న 1955లో, జీవించి ఉండగానే వచ్చింది. I, II సరైనవి."
+   }
+  },
+  {
+   "topic": "nehru",
+   "q": {
+    "en": "Which of the following statements regarding Children's Day and Nehru are correct?",
+    "te": "బాలల దినోత్సవం, నెహ్రూకు సంబంధించి కింది వాటిలో సరైన వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. Before 1964, India observed Children's Day on 20 November.",
+     "te": "I. 1964కు ముందు భారత్ బాలల దినోత్సవాన్ని నవంబర్ 20న జరిపేది."
+    },
+    {
+     "en": "II. 20 November is observed as World Children's Day.",
+     "te": "II. నవంబర్ 20ని ప్రపంచ బాలల దినోత్సవంగా జరుపుతారు."
+    },
+    {
+     "en": "III. 14 November 2026 marks Nehru's 137th birth anniversary.",
+     "te": "III. 2026 నవంబర్ 14 నెహ్రూ 137వ జయంతి."
+    },
+    {
+     "en": "IV. The Panchsheel agreement of 1954 was signed with Pakistan.",
+     "te": "IV. 1954 పంచశీల ఒప్పందం పాకిస్తాన్‌తో కుదిరింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "IV is wrong: Panchsheel (five principles of coexistence, 1954) was with China. I, II, III are correct (1889 + 137 = 2026).",
+    "te": "IV తప్పు: పంచశీల (సహజీవనానికి ఐదు సూత్రాలు, 1954) చైనాతో. I, II, III సరైనవి (1889 + 137 = 2026)."
+   }
+  },
+  {
+   "topic": "diabetes",
+   "q": {
+    "en": "Consider the following statements about World Diabetes Day:",
+    "te": "ప్రపంచ మధుమేహ దినోత్సవానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It was started in 1991 by the International Diabetes Federation with WHO.",
+     "te": "I. దీనిని 1991లో అంతర్జాతీయ మధుమేహ సమాఖ్య (IDF), WHOతో కలిసి ప్రారంభించింది."
+    },
+    {
+     "en": "II. It became an official United Nations day in 2006.",
+     "te": "II. 2006లో ఇది అధికారిక ఐక్యరాజ్యసమితి దినోత్సవమైంది."
+    },
+    {
+     "en": "III. 14 November was chosen because it is the birthday of Charles Best.",
+     "te": "III. చార్లెస్ బెస్ట్ జన్మదినం కావడంతో నవంబర్ 14ను ఎంచుకున్నారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "III is the trap: 14 November is the birthday of Frederick Banting (1891), not of his assistant Charles Best.",
+    "te": "III ఉచ్చు: నవంబర్ 14 ఫ్రెడరిక్ బాంటింగ్ (1891) జన్మదినం; ఆయన సహాయకుడు చార్లెస్ బెస్ట్‌ది కాదు."
+   }
+  },
+  {
+   "topic": "diabetes",
+   "q": {
+    "en": "Which of the following statements about the WHO global diabetes coverage targets for 2030 is/are INCORRECT?",
+    "te": "2030 నాటికి WHO మధుమేహ లక్ష్యాలకు సంబంధించి కింది వాటిలో తప్పు వాక్యం/వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. 80% of people with diabetes should be diagnosed.",
+     "te": "I. మధుమేహం ఉన్నవారిలో 80% మందికి నిర్ధారణ జరగాలి."
+    },
+    {
+     "en": "II. 100% of people with type 1 diabetes should have access to affordable insulin.",
+     "te": "II. టైప్-1 మధుమేహం ఉన్న అందరికీ (100%) అందుబాటు ధరలో ఇన్సులిన్ ఉండాలి."
+    },
+    {
+     "en": "III. 80% of people with diabetes aged 40 or older should receive statins.",
+     "te": "III. 40 ఏళ్లు పైబడిన మధుమేహుల్లో 80% మందికి స్టాటిన్లు అందాలి."
+    },
+    {
+     "en": "IV. The targets were endorsed by WHO Member States in 2022.",
+     "te": "IV. ఈ లక్ష్యాలను 2022లో WHO సభ్య దేశాలు ఆమోదించాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "IV only",
+     "te": "IV మాత్రమే"
+    },
+    {
+     "en": "III only",
+     "te": "III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Only III is incorrect: the statin target is 60% (not 80%) of people with diabetes aged 40 or older. I, II and IV are correct.",
+    "te": "III మాత్రమే తప్పు: 40+ వయసు మధుమేహుల్లో స్టాటిన్ల లక్ష్యం 60% (80% కాదు). I, II, IV సరైనవి."
+   }
+  },
+  {
+   "topic": "cpi",
+   "q": {
+    "en": "With reference to India's retail inflation in October 2026, consider the following statements:",
+    "te": "2026 అక్టోబర్ రిటైల్ ద్రవ్యోల్బణానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Combined CPI inflation (6.09%) was above the upper tolerance limit of 6%.",
+     "te": "I. మొత్తం CPI ద్రవ్యోల్బణం (6.09%) ఎగువ సహన పరిమితి 6%ను దాటింది."
+    },
+    {
+     "en": "II. Because inflation crossed 6% in one month, the RBI is deemed to have failed to meet the target.",
+     "te": "II. ఒక్క నెల 6% దాటినందువల్ల RBI లక్ష్య సాధనలో విఫలమైనట్లే."
+    },
+    {
+     "en": "III. Rural inflation was higher than urban inflation.",
+     "te": "III. పట్టణ ద్రవ్యోల్బణం కంటే గ్రామీణ ద్రవ్యోల్బణం ఎక్కువ."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "II is wrong: failure means inflation stays outside 2–6% for three consecutive quarters; one month is not enough. I and III are correct (rural 6.63% > urban 5.41%).",
+    "te": "II తప్పు: వరుసగా మూడు త్రైమాసికాలు 2–6% బయట ఉంటేనే వైఫల్యం; ఒక్క నెల సరిపోదు. I, III సరైనవి (గ్రామీణం 6.63% > పట్టణం 5.41%)."
+   }
+  },
+  {
+   "topic": "cpi",
+   "q": {
+    "en": "Consider the following statements about the new CPI series (base 2024=100):",
+    "te": "కొత్త CPI సిరీస్ (ఆధారం 2024=100)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Its weights are based on the Household Consumption Expenditure Survey 2023-24.",
+     "te": "I. దీని బరువులు గృహ వినియోగ వ్యయ సర్వే 2023-24 ఆధారంగా ఉన్నాయి."
+    },
+    {
+     "en": "II. It has 12 divisions as per COICOP 2018 in place of 6 groups.",
+     "te": "II. 6 గ్రూపులకు బదులు COICOP 2018 ప్రకారం 12 విభాగాలు ఉన్నాయి."
+    },
+    {
+     "en": "III. The weight of food and beverages is higher than in the 2012 series.",
+     "te": "III. 2012 సిరీస్ కంటే ఆహారం-పానీయాల బరువు ఎక్కువ."
+    },
+    {
+     "en": "IV. E-commerce prices are collected in 12 large towns.",
+     "te": "IV. 12 పెద్ద పట్టణాల్లో ఈ-కామర్స్ ధరలు సేకరిస్తారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is wrong: the share of food and beverages has declined in the new series (weight 36.75), though it is still the largest component.",
+    "te": "III తప్పు: కొత్త సిరీస్‌లో ఆహారం-పానీయాల వాటా తగ్గింది (బరువు 36.75) — అయినా ఇప్పటికీ అతిపెద్ద భాగం."
+   }
+  },
+  {
+   "topic": "ccpi",
+   "q": {
+    "en": "With reference to the Climate Change Performance Index (CCPI) 2027, consider the following statements:",
+    "te": "క్లైమేట్ చేంజ్ పెర్ఫార్మెన్స్ ఇండెక్స్ (CCPI) 2027కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It was released on the sidelines of COP31 at Antalya, Turkey.",
+     "te": "I. టర్కీలోని అంటాల్యలో COP31 సందర్భంగా దీనిని విడుదల చేశారు."
+    },
+    {
+     "en": "II. Denmark is ranked 4th because the top three positions were left vacant.",
+     "te": "II. మొదటి మూడు స్థానాలు ఖాళీగా ఉంచినందువల్ల డెన్మార్క్ 4వ స్థానంలో ఉంది."
+    },
+    {
+     "en": "III. India was rated 'high' in the renewable energy category.",
+     "te": "III. పునరుత్పాదక ఇంధన విభాగంలో భారత్‌కు 'హై' రేటింగ్ వచ్చింది."
+    },
+    {
+     "en": "IV. India is ranked 28th, down from 23rd in the previous edition.",
+     "te": "IV. భారత్ 28వ స్థానంలో ఉంది — గత ఎడిషన్‌లో 23."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "III is the trap: India is 'low' in the renewable energy category; only its renewable energy trend indicator is rated 'high'.",
+    "te": "III ఉచ్చు: పునరుత్పాదక ఇంధన విభాగంలో భారత్ 'లో'; వృద్ధి ధోరణి సూచికకు మాత్రమే 'హై'."
+   }
+  },
+  {
+   "topic": "ccpi",
+   "q": {
+    "en": "India's non-fossil sources reached 50% of installed electricity capacity by June 2025. In this context, which of the following statements are correct?",
+    "te": "2025 జూన్ నాటికి భారత స్థాపిత విద్యుత్ సామర్థ్యంలో శిలాజేతర వనరుల వాటా 50%కు చేరింది. ఈ సందర్భంలో కింది వాటిలో సరైన వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. This means half of the electricity actually generated in India came from non-fossil sources.",
+     "te": "I. అంటే భారత్‌లో నిజంగా ఉత్పత్తి అయిన విద్యుత్తులో సగం శిలాజేతర వనరుల నుంచే."
+    },
+    {
+     "en": "II. The curtailment of 2.3 TWh of solar power in 2025 points to grid and storage gaps.",
+     "te": "II. 2025లో 2.3 TWh సౌర విద్యుత్తును తగ్గించడం గ్రిడ్, నిల్వ లోపాలను సూచిస్తుంది."
+    },
+    {
+     "en": "III. The 50% capacity goal was achieved about five years ahead of its 2030 target year.",
+     "te": "III. 50% సామర్థ్య లక్ష్యాన్ని 2030కి సుమారు ఐదేళ్ల ముందే సాధించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I is wrong: installed capacity is not generation — the 50% share (which includes nuclear) is of capacity; coal still dominates actual generation.",
+    "te": "I తప్పు: స్థాపిత సామర్థ్యం ≠ ఉత్పత్తి — 50% వాటా (అణు విద్యుత్తుతో కలిపి) సామర్థ్యానిది; వాస్తవ ఉత్పత్తిలో ఇప్పటికీ బొగ్గుదే పైచేయి."
+   }
+  },
+  {
+   "topic": "apquantum",
+   "q": {
+    "en": "Which of the following statements about the Amaravati quantum initiative is/are INCORRECT?",
+    "te": "అమరావతి క్వాంటం చొరవకు సంబంధించి కింది వాటిలో తప్పు వాక్యం/వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. A quantum computing manufacturing facility on 250 acres is to be inaugurated on 3 February 2027.",
+     "te": "I. 250 ఎకరాల క్వాంటం కంప్యూటింగ్ తయారీ కేంద్రాన్ని 2027 ఫిబ్రవరి 3న ప్రారంభించనున్నారు."
+    },
+    {
+     "en": "II. The facility will be located at Visakhapatnam, the venue of the CII Summit.",
+     "te": "II. ఈ కేంద్రం CII సదస్సు వేదికైన విశాఖపట్నంలో ఉంటుంది."
+    },
+    {
+     "en": "III. IBM, TCS and L&T were partners in the May 2025 MoU for the Quantum Valley.",
+     "te": "III. క్వాంటం వ్యాలీ కోసం 2025 మే MoUలో IBM, TCS, L&T భాగస్వాములు."
+    },
+    {
+     "en": "IV. A qubit, unlike a bit, can hold a mix of 0 and 1 at the same time.",
+     "te": "IV. బిట్‌లా కాకుండా క్యూబిట్ ఒకేసారి 0, 1 మిశ్రమాన్ని ఉంచగలదు."
+    }
+   ],
+   "o": [
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "III and IV only",
+     "te": "III, IV మాత్రమే"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Only II is incorrect: the facility is at Amaravati; Visakhapatnam was only the summit venue. I, III and IV are correct.",
+    "te": "II మాత్రమే తప్పు: కేంద్రం అమరావతిలో; విశాఖపట్నం సదస్సు వేదిక మాత్రమే. I, III, IV సరైనవి."
+   }
+  },
+  {
+   "topic": "apquantum",
+   "q": {
+    "en": "With reference to the 31st CII Partnership Summit (2026), consider the following statements:",
+    "te": "31వ CII భాగస్వామ్య సదస్సు (2026)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Day 1 saw 73 MoUs and 15 preliminary deals worth ₹5,84,355 crore.",
+     "te": "I. 1వ రోజు ₹5,84,355 కోట్ల విలువైన 73 MoUలు, 15 ప్రాథమిక ఒప్పందాలు కుదిరాయి."
+    },
+    {
+     "en": "II. ₹5.84 lakh crore is the same amount as ₹5.84 trillion.",
+     "te": "II. ₹5.84 లక్షల కోట్లు, ₹5.84 ట్రిలియన్ ఒకే మొత్తం."
+    },
+    {
+     "en": "III. The summit total of ₹9.98 lakh crore refers only to Day 1 commitments.",
+     "te": "III. సదస్సు మొత్తం ₹9.98 లక్షల కోట్లు 1వ రోజు హామీలు మాత్రమే."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is wrong: ₹9.98 lakh crore is the reported whole-summit total; Day 1 alone was ₹5.84 lakh crore. 1 lakh crore = 1 trillion, so II is correct.",
+    "te": "III తప్పు: ₹9.98 లక్షల కోట్లు మొత్తం సదస్సు సంఖ్య; 1వ రోజు మాత్రమే ₹5.84 లక్షల కోట్లు. 1 లక్ష కోట్లు = 1 ట్రిలియన్, కాబట్టి II సరైనది."
+   }
+  }
+ ]
+}
