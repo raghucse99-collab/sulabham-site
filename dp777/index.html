@@ -1770,6 +1770,11 @@ function renderChart(){
   // published row. A sequence whose next scheduled row is still beyond the
   // archive is upcoming; any sequence that missed a scheduled row is broken.
   const running=patterns.filter(p=>p.steps.length>=2&&((p.failedAt===undefined&&p.steps.some(step=>step.to===latestIndex))||(p.failedAt===latestIndex&&(p.steps[p.steps.length-1]?.to??p.start)+p.nextGap+1===latestIndex)));
+  // Do not hide current-week activity merely because the chain has only one
+  // completed link so far. Include every chain whose next link is due in the
+  // current week, and every chain that actually matched in the current week.
+  const dueThisWeekPatterns=patterns.filter(p=>p.failedAt===latestIndex&&p.nextJodi);
+  const occurredThisWeekPatterns=patterns.filter(p=>p.steps.some(step=>step.to===latestIndex));
   const upcoming=patterns.filter(p=>{
    if(p.steps.length<2)return false;
    if(p.failedAt!==undefined||!p.nextJodi)return false;
@@ -1780,14 +1785,14 @@ function renderChart(){
   });
   running.sort((a,b)=>(b.steps[b.steps.length-1]?.to??b.start)-(a.steps[a.steps.length-1]?.to??a.start)||b.steps.length-a.steps.length||b.start-a.start);
   upcoming.sort((a,b)=>((a.steps[a.steps.length-1]?.to??a.start)+a.nextGap+1)-((b.steps[b.steps.length-1]?.to??b.start)+b.nextGap+1)||b.steps.length-a.steps.length);
-  const activePatterns=view==='linked'?[...running,...upcoming]:patterns;
+  const activePatterns=view==='linked'?[...dueThisWeekPatterns,...occurredThisWeekPatterns,...running,...upcoming]:patterns;
   const patternKey=p=>p.start+':'+p.duplicate+':'+p.steps.map(x=>x.from+'-'+x.to+'-'+x.jodi+'-'+x.gap).join('|');
   const activeUnique=[...new Map(activePatterns.map(p=>[patternKey(p),p])).values()];
   const mergedActive=mergeSameSchedulePaths(activeUnique);
   const activeKeys=new Set(activeUnique.map(patternKey));
   const historicalOnly=patterns.filter(p=>!activeKeys.has(patternKey(p)));
   mergedActive.sort((a,b)=>{const rank=p=>p.steps.some(x=>x.to===latestIndex)?0:p.failedAt===latestIndex?1:2;return rank(a)-rank(b)||b.steps.length-a.steps.length;});
-  const dueCount=patterns.filter(p=>p.failedAt===latestIndex).length;
+  const dueCount=dueThisWeekPatterns.length;
   const nextOneCount=upcoming.filter(p=>(p.steps[p.steps.length-1]?.to??p.start)+p.nextGap+1===latestIndex+1).length;
   const nextTwoCount=upcoming.filter(p=>(p.steps[p.steps.length-1]?.to??p.start)+p.nextGap+1===latestIndex+2).length;
   $('count').textContent=view==='linked'?(dueCount+' ఈ వారం పడాల్సి ఉంది · '+running.length+' ఈ వారం పడింది · '+nextOneCount+' వచ్చే వారం–1 · '+nextTwoCount+' వచ్చే వారం–2'):patterns.length+' linked patterns';
