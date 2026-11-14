@@ -670,6 +670,27 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
  .monday-progression-card .repeat-step span{font-size:11px;line-height:1.5;overflow-wrap:anywhere}
  .monday-progression-card .repeat-step>b:last-child{font-size:10px}
 }
+
+/* Keep the live current-week result table readable on narrow phones.
+   Use fixed columns inside its horizontal-scroll wrapper so dates and Jodis
+   can never collide or be squeezed into neighbouring cells. */
+.repeat-chart-scroll>.current-week-results-table{
+ width:557px!important;min-width:557px!important;max-width:none!important;
+ table-layout:fixed!important;border-collapse:collapse!important;
+}
+.current-week-results-table th:first-child,
+.current-week-results-table td:first-child{
+ width:116px!important;min-width:116px!important;max-width:116px!important;
+ white-space:normal!important;overflow-wrap:anywhere!important;
+ word-break:normal!important;line-height:1.25!important;text-align:center!important;
+}
+.current-week-results-table th:not(:first-child),
+.current-week-results-table td:not(:first-child){
+ width:63px!important;min-width:63px!important;max-width:63px!important;
+ white-space:normal!important;overflow-wrap:normal!important;text-align:center!important;
+}
+.current-week-results-table .repeat-week-date{font-size:10px!important;padding:8px 4px!important}
+.current-week-results-table td strong{font-size:15px!important}
 </style>
 <style id="weekly-chart-readable-values">
 /* Make every గత నమూనాలు result number clearly readable on mobile. */
@@ -1633,7 +1654,7 @@ function renderChart(){
    const links=p.steps.map((st,k)=>'<div class="repeat-step"><b class="repeat-step-num">లింక్ '+(k+1)+'</b><strong class="repeat-step-jodi">'+esc(st.jodi)+'</strong><span>Filtered row '+(st.from+1)+' → '+(st.to+1)+'<br>'+esc(filteredRows[st.from].row.date||'')+' → '+esc(filteredRows[st.to].row.date||'')+'</span><b>గ్యాప్ '+st.gap+'</b></div>').join('');
    const currentHits=currentWeekHitsForPattern(p);
    const currentHitBox=currentHits.length?'<div class="repeat-this-week"><b>ఈ వారం చార్ట్‌లో వచ్చిన లింక్ / తదుపరి లింక్ అభ్యర్థి జోడీలు:</b> '+currentHits.map(hit=>'<strong>'+esc(hit.jodi)+'</strong> · '+esc(hit.day)+' · '+esc(hit.date)).join(' | ')+'</div>':'';
-   const currentWeekTable=currentHits.length?'<details class="repeat-history" open><summary>ఈ వారం పూర్తి చార్ట్ ఫలితాలు చూపించు</summary><div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Current week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+currentWeekChartRows.map(row=>'<tr><td class="repeat-week-date">'+esc(row.date||'')+'</td>'+days.map(d=>{const v=String(row[d+' Jodi']??'').trim(),hit=currentHits.some(x=>x.jodi===v&&x.day===d&&x.date===row.date);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table></div></details>':'';
+   const currentWeekTable=currentHits.length?'<details class="repeat-history" open><summary>ఈ వారం పూర్తి చార్ట్ ఫలితాలు చూపించు</summary><div class="repeat-chart-scroll"><table class="repeat-weekly-chart current-week-results-table"><thead><tr><th>Current week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+currentWeekChartRows.map(row=>'<tr><td class="repeat-week-date">'+esc(row.date||'')+'</td>'+days.map(d=>{const v=String(row[d+' Jodi']??'').trim(),hit=currentHits.some(x=>x.jodi===v&&x.day===d&&x.date===row.date);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table></div></details>':'';
    const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Filtered row / Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:end-p.start+1},(_,k)=>p.start+k).map(ix=>{
     const item=filteredRows[ix],r=item.row;
     return '<tr><td class="repeat-week-date"><b>Result '+(ix+1)+'</b><small>Chart row '+(item.sourceIndex+1)+'<br>'+esc(r.date||'')+'</small></td>'+days.map(d=>{const v=String(r[d+' Jodi']??'').trim(),hit=marks.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';}).join('')+'</tr>';
