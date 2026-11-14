@@ -1605,7 +1605,7 @@ function renderChart(){
   const furtherPatterns=thisWeekPatterns.filter(p=>nextGapFor(p)>2);
   const activePatternIds=new Set([...thisWeekPatterns,...ongoingPatterns].map(patternIdentity));
   const historicalPatterns=patterns.filter(p=>!activePatternIds.has(patternIdentity(p)));
-  $('count').textContent=thisWeekPatterns.length+' ఈ వారం వచ్చినవి · '+nextWeekPatterns.length+' వచ్చే వారం లక్ష్యాలు · '+twoWeekPatterns.length+' రెండు వారాల లక్ష్యాలు · '+furtherPatterns.length+' ప్రస్తుతం కొనసాగుతున్నవి · '+historicalPatterns.length+' గత నమూనాలు';
+  $('count').textContent=thisWeekPatterns.length+' ఈ వారం వచ్చినవి · '+nextWeekPatterns.length+' వచ్చే వారం లక్ష్యాలు · '+twoWeekPatterns.length+' రెండు వారాల లక్ష్యాలు · '+(ongoingPatterns.length+furtherPatterns.length)+' ప్రస్తుతం కొనసాగుతున్నవి · '+historicalPatterns.length+' గత నమూనాలు';
   const renderCards=(list)=>list.slice(0,300).map((p,n)=>{
    const end=p.steps[p.steps.length-1].to,marks=new Map();
    marks.set(p.start,new Set([p.duplicate]));
