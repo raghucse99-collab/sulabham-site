@@ -1502,32 +1502,30 @@ function renderChart(){
   function walk(start,at,duplicate,used,steps,mode){
    if(++visited>MAX_NODES||steps.length>=MAX_LINKS)return;
    for(const jodi of rowSets[at]){
-    // A Jodi may repeat later in the same chain. This is essential for
-    // progressions such as gaps 1,2,3,4 where the final Jodi repeats at gap 4.
-    // Follow this Jodi to its nearest later occurrence in the filtered result list.
-    let target=-1;
-    for(let k=at+1;k<rowSets.length;k++){
-     if(rowSets[k].has(jodi)){target=k;break;}
+    // Scan EVERY later occurrence, not only the nearest one. A nearer repeat
+    // with the wrong gap must not hide a later occurrence that fits the
+    // systematic sequence (for example 1,2,3,4).
+    for(let target=at+1;target<rowSets.length;target++){
+     if(!rowSets[target].has(jodi))continue;
+     const step={from:at,to:target,jodi,gap:target-at};
+     let nextMode=mode;
+     if(steps.length===1){
+      // Decide the chain type on link 2: constant OR +1, never a mixture.
+      if(step.gap===steps[0].gap)nextMode='same';
+      else if(step.gap===steps[0].gap+1)nextMode='increasing';
+      else continue;
+     }else if(steps.length>=2){
+      const expected=mode==='same'?steps[0].gap:steps[steps.length-1].gap+1;
+      if(step.gap!==expected)continue;
+     }
+     const next=[...steps,step];
+     if(next.length>=2){
+      const key=start+':'+duplicate+':'+nextMode+':'+next.map(x=>x.from+'>'+x.to+':'+x.jodi).join('|');
+      if(!found.has(key))found.set(key,{start,duplicate,steps:next,mode:nextMode});
+     }
+     walk(start,target,duplicate,used,next,nextMode);
+     if(visited>MAX_NODES)return;
     }
-    if(target<0)continue;
-    const step={from:at,to:target,jodi,gap:target-at};
-    let nextMode=mode;
-    if(steps.length===1){
-     // Decide the chain type on link 2: constant OR +1, never a mixture.
-     if(step.gap===steps[0].gap)nextMode='same';
-     else if(step.gap===steps[0].gap+1)nextMode='increasing';
-     else continue;
-    }else if(steps.length>=2){
-     const expected=mode==='same'?steps[0].gap:steps[steps.length-1].gap+1;
-     if(step.gap!==expected)continue;
-    }
-    const next=[...steps,step];
-    if(next.length>=2){
-     const key=start+':'+duplicate+':'+nextMode+':'+next.map(x=>x.from+'>'+x.to+':'+x.jodi).join('|');
-     if(!found.has(key))found.set(key,{start,duplicate,steps:next,mode:nextMode});
-    }
-    walk(start,target,duplicate,used,next,nextMode);
-    if(visited>MAX_NODES)return;
    }
   }
   for(let i=0;i<filteredRows.length;i++){
