@@ -1560,9 +1560,9 @@ function renderChart(){
   // Also scan the real current calendar-week chart row(s), independently of
   // the 28+n filtered rows. A previously linked Jodi counts as happened this
   // week if it reappears on any weekday (for example linked 10 on Friday).
-  const currentWeekChartRows=chartRows.filter(row=>mondayDateKey(parseWeekStart(row.date))===currentWeekStart);
+  const currentWeekChartRows=allRows.filter(row=>parseWeekStart(row.date)===currentWeekStart);
   const currentWeekHitsForPattern=p=>{
-   const linkedJodis=new Set([p.duplicate,...p.steps.map(step=>step.jodi)]);
+   const linkedJodis=new Set([p.duplicate,...p.steps.flatMap(step=>[step.jodi,...(step.jodis||[])])].map(value=>String(value??'').trim()).filter(valid));
    return currentWeekChartRows.flatMap(row=>days.flatMap(day=>{
     const jodi=String(row[day+' Jodi']??'').trim();
     return valid(jodi)&&linkedJodis.has(jodi)?[{jodi,day,date:row.date||''}]:[];
