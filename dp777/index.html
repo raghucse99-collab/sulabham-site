@@ -1560,6 +1560,7 @@ function renderChart(){
   // the 28+n filtered rows. A previously linked Jodi counts as happened this
   // week if it reappears on any weekday (for example linked 10 on Friday).
   const currentWeekChartRows=allRows.filter(row=>parseWeekStart(row.date)===currentWeekStart);
+  const currentWeekDateSet=new Set(currentWeekChartRows.map(row=>String(row.date||'').trim()).filter(Boolean));
   const currentWeekHitsForPattern=p=>{
    const linkedJodis=new Set([p.duplicate,...p.steps.flatMap(step=>[step.jodi,...(step.jodis||[])])].map(value=>String(value??'').trim()).filter(valid));
    return currentWeekChartRows.flatMap(row=>days.flatMap(day=>{
@@ -1567,7 +1568,12 @@ function renderChart(){
     return valid(jodi)&&linkedJodis.has(jodi)?[{jodi,day,date:row.date||''}]:[];
    }));
   };
-  const chainEndedThisWeek=p=>weekStartForFilteredRow(chainEnd(p))===currentWeekStart;
+  // Exact chart-week date match is the primary check; the parsed Monday key
+  // is a fallback. This keeps the completed chain out of Past Patterns.
+  const chainEndedThisWeek=p=>{
+   const endRow=filteredRows[chainEnd(p)]?.row;
+   return !!endRow&&(currentWeekDateSet.has(String(endRow.date||'').trim())||weekStartForFilteredRow(chainEnd(p))===currentWeekStart);
+  };
   const thisWeekPatterns=patterns.filter(p=>chainEndedThisWeek(p)||currentWeekHitsForPattern(p).length>0);
   // Future targets are calculated only from a chain that actually completed
   // in the current week; an old Jodi reappearing this week is a "happened"
@@ -1575,7 +1581,9 @@ function renderChart(){
   const nextWeekPatterns=thisWeekPatterns.filter(p=>chainEndedThisWeek(p)&&nextGapFor(p)===1);
   const twoWeekPatterns=thisWeekPatterns.filter(p=>chainEndedThisWeek(p)&&nextGapFor(p)===2);
   const furtherPatterns=thisWeekPatterns.filter(p=>chainEndedThisWeek(p)&&nextGapFor(p)>2);
-  const historicalPatterns=patterns.filter(p=>!thisWeekPatterns.includes(p));
+  const patternIdentity=p=>p.start+':'+p.duplicate+':'+p.mode+':'+p.steps.map(step=>step.from+'>'+step.to+':'+step.jodi+':'+step.gap).join('|');
+  const thisWeekPatternIds=new Set(thisWeekPatterns.map(patternIdentity));
+  const historicalPatterns=patterns.filter(p=>!thisWeekPatternIds.has(patternIdentity(p)));
   $('count').textContent=thisWeekPatterns.length+' ఈ వారం వచ్చినవి · '+nextWeekPatterns.length+' వచ్చే వారం లక్ష్యాలు · '+twoWeekPatterns.length+' రెండు వారాల లక్ష్యాలు · '+furtherPatterns.length+' ప్రస్తుతం కొనసాగుతున్నవి · '+historicalPatterns.length+' గత నమూనాలు';
   const renderCards=(list)=>list.slice(0,300).map((p,n)=>{
    const end=p.steps[p.steps.length-1].to,marks=new Map();
