@@ -1763,8 +1763,10 @@ function renderChart(){
   // reference. The published chart can lag the phone's calendar week; using
   // today's date incorrectly labels a result in the newest row as upcoming.
   const latestIndex=playingRows.length-1;
+  const currentWeekStart=currentWeekDayKey().weekStart;
   const linkedWeekKey=index=>parseWeekStart(playingRows[index]?.date);
-  const linkedIsThisWeek=index=>index===latestIndex;
+  // Use the actual Monday-Sunday calendar week, not only the final array index.
+  const linkedIsThisWeek=index=>!!currentWeekStart&&linkedWeekKey(index)===currentWeekStart;
   const linkedThisWeekNumbers=[...new Set(playingRows.flatMap((row,index)=>linkedIsThisWeek(index)?days.map(day=>String(row[day+' Jodi']??'').trim()).filter(valid):[]))].sort();
   // A running sequence has its scheduled Jodi actually present in the latest
   // published row. A sequence whose next scheduled row is still beyond the
@@ -1774,7 +1776,13 @@ function renderChart(){
   // completed link so far. Include every chain whose next link is due in the
   // current week, and every chain that actually matched in the current week.
   const dueThisWeekPatterns=patterns.filter(p=>p.failedAt===latestIndex&&p.nextJodi);
-  const occurredThisWeekPatterns=patterns.filter(p=>p.steps.some(step=>step.to===latestIndex));
+  // A linked Jodi counts as happened this week whenever that Jodi appears
+  // anywhere in the current calendar-week row, even if it is not the next
+  // scheduled link in the historical chain (e.g. linked 10 appears Friday).
+  const occurredThisWeekPatterns=patterns.filter(p=>{
+   const linkedValues=new Set(p.steps.flatMap(step=>step.jodis||[step.jodi]));
+   return linkedThisWeekNumbers.some(value=>linkedValues.has(value));
+  });
   const upcoming=patterns.filter(p=>{
    if(p.steps.length<2)return false;
    if(p.failedAt!==undefined||!p.nextJodi)return false;
@@ -1801,8 +1809,10 @@ function renderChart(){
    return list.slice(0,500).map((p,n)=>{
     const end=p.steps[p.steps.length-1]?.to??p.start,marks=new Map();marks.set(p.start,new Set([p.duplicate]));
     const latestWeek=rows.length-1,endIndex=p.steps[p.steps.length-1]?.to??p.start;
-    const occurredThisWeek=linkedIsThisWeek(endIndex),dueThisWeek=p.failedAt!==undefined&&linkedIsThisWeek(p.failedAt);
-    const thisWeekNumbers=linkedThisWeekNumbers;
+    const linkedValues=new Set(p.steps.flatMap(step=>step.jodis||[step.jodi]));
+    const thisWeekNumbers=linkedThisWeekNumbers.filter(value=>linkedValues.has(value));
+    const occurredThisWeek=thisWeekNumbers.length>0;
+    const dueThisWeek=p.failedAt!==undefined&&linkedIsThisWeek(p.failedAt);
     const nextTarget=endIndex+p.nextGap+1;
     const weeksAhead=nextTarget-latestIndex;
     const weekStatus=occurredThisWeek?'ఈ వారం పడింది':
@@ -1811,9 +1821,17 @@ function renderChart(){
       weeksAhead===2?'వచ్చే వారం–2':
       'గత నమూనా';
     p.steps.forEach(step=>{if(!marks.has(step.from))marks.set(step.from,new Set());if(!marks.has(step.to))marks.set(step.to,new Set());(step.jodis||[step.jodi]).forEach(j=>{marks.get(step.from).add(j);marks.get(step.to).add(j);});});
+    // Highlight linked Jodis that actually appeared in the current week.
+    playingRows.forEach((row,index)=>{
+     if(linkedIsThisWeek(index)){
+      const values=days.map(day=>String(row[day+' Jodi']??'').trim()).filter(valid);
+      const hits=values.filter(value=>linkedValues.has(value));
+      if(hits.length){if(!marks.has(index))marks.set(index,new Set());hits.forEach(value=>marks.get(index).add(value));}
+     }
+    });
     const tableEnd=Math.max(end,(occurredThisWeek||dueThisWeek||nextTarget>latestWeek&&all===activeUnique)?latestWeek:end);
     const tableRows=rows.slice(p.start,tableEnd+1);
-    const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+dayNames.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+tableRows.map((row,k)=>{const ix=p.start+k,parts=String(row.date||'').match(/(\d{1,2})[-/](\d{1,2})[-/](\d{4})/g)||[],shortDate=parts.slice(0,2).map(v=>{const q=v.split(/[-/]/);return q[0].padStart(2,'0')+'/'+q[1].padStart(2,'0')+'/'+q[2].slice(-2);}).join('<br>');return '<tr class="'+(ix===rows.length-1?'repeat-current-week':'')+'"><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+(shortDate||escapeHtml(row.date||''))+'</small>'+(ix===rows.length-1?'<em>ఈ వారం</em>':'')+'</td>'+dayNames.map(d=>{const v=String(row[d+' Jodi']??'').trim(),hit=marks.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(isValid(v)?(hit?'<strong>'+escapeHtml(v)+'</strong>':escapeHtml(v)):'·')+'</td>';}).join('')+'</tr>';}).join('')+'</tbody></table></div>';
+    const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+dayNames.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+tableRows.map((row,k)=>{const ix=p.start+k,parts=String(row.date||'').match(/(\d{1,2})[-/](\d{1,2})[-/](\d{4})/g)||[],shortDate=parts.slice(0,2).map(v=>{const q=v.split(/[-/]/);return q[0].padStart(2,'0')+'/'+q[1].padStart(2,'0')+'/'+q[2].slice(-2);}).join('<br>');return '<tr class="'+(linkedIsThisWeek(ix)?'repeat-current-week':'')+'"><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+(shortDate||escapeHtml(row.date||''))+'</small>'+(linkedIsThisWeek(ix)?'<em>ఈ వారం</em>':'')+'</td>'+dayNames.map(d=>{const v=String(row[d+' Jodi']??'').trim(),hit=marks.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(isValid(v)?(hit?'<strong>'+escapeHtml(v)+'</strong>':escapeHtml(v)):'·')+'</td>';}).join('')+'</tr>';}).join('')+'</tbody></table></div>';
     const steps='<div class="repeat-steps"><div class="repeat-step"><b class="repeat-step-num">START</b><strong class="repeat-step-jodi">'+escapeHtml(p.duplicate)+'</strong><span>Duplicate in same week</span><b>×2+</b></div>'+p.steps.map((step,k)=>'<div class="repeat-step"><b class="repeat-step-num">లింక్ '+(k+1)+'</b><strong class="repeat-step-jodi">'+escapeHtml((step.jodis||[step.jodi]).join(' · '))+'</strong><span>'+escapeHtml(rows[step.from].date||'')+' → '+escapeHtml(rows[step.to].date||'')+'</span><b>గ్యాప్ '+step.gap+'</b></div>').join('')+'</div>';
     const nextJodis=p.nextJodis|| (p.nextJodi?[p.nextJodi]:[]);
     const nextGapNumber=Math.max(0,Number(p.nextGap)||0);
