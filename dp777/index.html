@@ -1605,9 +1605,9 @@ function renderChart(){
   }).sort((a,b)=>remainingFilteredResults(a)-remainingFilteredResults(b)||b.steps.length-a.steps.length);
   // Future calendar-week buckets apply only to chains that actually completed
   // during the current calendar week.
-  const nextWeekPatterns=thisWeekPatterns.filter(p=>nextGapFor(p)===1);
-  const twoWeekPatterns=thisWeekPatterns.filter(p=>nextGapFor(p)===2);
-  const furtherPatterns=thisWeekPatterns.filter(p=>nextGapFor(p)>2);
+  const nextWeekPatterns=thisWeekPatterns.filter(p=>chainEndedThisWeek(p)&&nextGapFor(p)===1);
+  const twoWeekPatterns=thisWeekPatterns.filter(p=>chainEndedThisWeek(p)&&nextGapFor(p)===2);
+  const furtherPatterns=thisWeekPatterns.filter(p=>chainEndedThisWeek(p)&&nextGapFor(p)>2);
   const activePatternIds=new Set([...thisWeekPatterns,...ongoingPatterns].map(patternIdentity));
   const historicalPatterns=patterns.filter(p=>!activePatternIds.has(patternIdentity(p)));
   $('count').textContent=thisWeekPatterns.length+' ఈ వారం వచ్చినవి · '+nextWeekPatterns.length+' వచ్చే వారం లక్ష్యాలు · '+twoWeekPatterns.length+' రెండు వారాల లక్ష్యాలు · '+(ongoingPatterns.length+furtherPatterns.length)+' ప్రస్తుతం కొనసాగుతున్నవి · '+historicalPatterns.length+' గత నమూనాలు';
