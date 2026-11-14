@@ -1569,7 +1569,7 @@ function renderChart(){
   // Merge today's latest published partial/full Jodi into the current-week row.
   // The live feed may publish Open+Jodi before Close, while the archive waits
   // for a complete panel; the current-week matcher must still see that Jodi.
-  const liveWeekResult=String(resultForCurrentWeek(m)||'').match(/^\\d{3}-(\\d{1,2})(?:-\\d{3})?$/);
+  const liveWeekResult=String(resultForCurrentWeek(m)||'').match(/^\d{3}-(\d{1,2})(?:-\d{3})?$/);
   const currentWeekLiveRow=currentWeekChartRows.find(row=>parseWeekStart(row.date)===currentWeekStart);
   if(currentWeekLiveRow&&liveWeekResult)currentWeekLiveRow[currentWeekDayKey().day+' Jodi']=liveWeekResult[1].padStart(2,'0');
   const currentWeekDateSet=new Set(currentWeekChartRows.map(row=>String(row.date||'').trim()).filter(Boolean));
