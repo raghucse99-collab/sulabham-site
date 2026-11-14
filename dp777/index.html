@@ -1580,7 +1580,9 @@ function renderChart(){
    const endRow=filteredRows[chainEnd(p)]?.row;
    return !!endRow&&(rowStartsThisWeek(endRow)||currentWeekDateSet.has(String(endRow.date||'').trim())||weekStartForFilteredRow(chainEnd(p))===currentWeekStart);
   };
-  const thisWeekPatterns=patterns.filter(p=>chainEndedThisWeek(p)||currentWeekHitsForPattern(p).length>0);
+  // A pattern belongs to this week only when its final linked result row is in the current chart week.
+  // A matching Jodi reappearing this week does not move an old, completed chain into this week.
+  const thisWeekPatterns=patterns.filter(chainEndedThisWeek);
   // Remove any pattern already promoted to this week by its stable identity.
   const thisWeekPatternIds=new Set(thisWeekPatterns.map(p=>p.start+':'+p.duplicate+':'+p.mode+':'+p.steps.map(step=>step.from+'>'+step.to+':'+step.jodi+':'+step.gap).join('|')));
   // Future targets are calculated only from a chain that actually completed
@@ -1601,7 +1603,7 @@ function renderChart(){
     marks.get(st.from).add(st.jodi);marks.get(st.to).add(st.jodi);
    });
    const links=p.steps.map((st,k)=>'<div class="repeat-step"><b class="repeat-step-num">లింక్ '+(k+1)+'</b><strong class="repeat-step-jodi">'+esc(st.jodi)+'</strong><span>Filtered row '+(st.from+1)+' → '+(st.to+1)+'<br>'+esc(filteredRows[st.from].row.date||'')+' → '+esc(filteredRows[st.to].row.date||'')+'</span><b>గ్యాప్ '+st.gap+'</b></div>').join('');
-   const currentHits=currentWeekHitsForPattern(p);
+   const currentHits=chainEndedThisWeek(p)?currentWeekHitsForPattern(p):[];
    const currentHitBox=currentHits.length?'<div class="repeat-this-week"><b>ఈ వారం మళ్లీ వచ్చిన లింక్ జోడీలు:</b> '+currentHits.map(hit=>'<strong>'+esc(hit.jodi)+'</strong> · '+esc(hit.day)+' · '+esc(hit.date)).join(' | ')+'</div>':'';
    const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Filtered row / Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:end-p.start+1},(_,k)=>p.start+k).map(ix=>{
     const item=filteredRows[ix],r=item.row;
