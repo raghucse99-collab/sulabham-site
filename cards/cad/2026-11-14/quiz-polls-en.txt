@@ -1,0 +1,213 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-14 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following about the weather system over the Bay of Bengal (14 Nov 2026). Which of the statements given above is/are correct?
+I. IMD expects it to become a cyclonic storm over the central Bay of Bengal by the evening of 16 November.
+II. Its name 'Akvan' was given by Iran.
+III. It would be the first cyclone of this post-monsoon season.
+
+--- QUESTION ---
+Q1. Consider the following about the weather system over the Bay of Bengal (14 Nov 2026). Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is the trap: Akvan would be the THIRD cyclone, after Arnab and Murasu.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. With reference to Andhra Pradesh's proposed Investment Protection Act, which of the statements given above is/are correct?
+I. It aims to keep commitments to investors binding even when the government changes.
+II. An escrow account funded from part of state tax collections is being considered to pay incentives.
+III. The Act has already been passed by the AP Legislative Assembly.
+
+--- QUESTION ---
+Q2. With reference to Andhra Pradesh's proposed Investment Protection Act, which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: the bill is in its final stage and is likely in the next Assembly session — it is not yet law.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following about ISRO's test of 12 November 2026. Which of the statements given above is/are correct?
+I. The stage tested, PS3, is a solid-propellant motor.
+II. It was a ground static test at the Satish Dhawan Space Centre, Sriharikota.
+III. The redesign follows third-stage anomalies in PSLV-C61 and PSLV-C62.
+
+--- QUESTION ---
+Q3. Consider the following about ISRO's test of 12 November 2026. Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III
+(b) I and II only
+(c) II and III only
+(d) III only
+
+--- CORRECT (tick this) ---
+(a) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+All three are correct. Trap: many think PS3 is liquid — PSLV alternates solid (PS1, PS3) and liquid (PS2, PS4).
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Which one of the following statements about Janjatiya Gaurav Diwas 2026 is INCORRECT?
+
+--- OPTIONS ---
+(a) It is observed on 15 November, Birsa Munda's birth anniversary
+(b) The Government of India declared it in 2021
+(c) 2026 marks Birsa Munda's 151st birth anniversary
+(d) The main 2026 event is at Gadchiroli in Jharkhand
+
+--- CORRECT (tick this) ---
+(d) The main 2026 event is at Gadchiroli in Jharkhand
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(d) is incorrect: Gadchiroli is in Maharashtra, not Jharkhand. Jharkhand is linked to Birsa Munda, which makes it a tempting trap.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Consider the following about the National Sports Awards 2025 presented on 13 Nov 2026. Which of the statements given above is/are correct?
+I. No Major Dhyan Chand Khel Ratna was given for 2025.
+II. 17 sportspersons received the Arjuna Award.
+III. The Arjuna Award (Lifetime) went to a former hockey player.
+
+--- QUESTION ---
+Q5. Consider the following about the National Sports Awards 2025 presented on 13 Nov 2026. Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: the Lifetime Arjuna went to I. Arumainayagam, a footballer from the 1962 Asian Games gold team.
+
+==================== Q6 ====================
+--- QUESTION ---
+Q6. Match List-I (award) with List-II (year instituted) and select the correct answer.
+List-I: A. Arjuna Award  B. Dronacharya Award  C. Khel Ratna  D. Rashtriya Khel Protsahan Puraskar
+List-II: 1. 1961  2. 1985  3. 1991-92  4. 2009
+
+--- OPTIONS ---
+(a) A-1, B-2, C-3, D-4
+(b) A-2, B-1, C-3, D-4
+(c) A-1, B-3, C-2, D-4
+(d) A-3, B-2, C-1, D-4
+
+--- CORRECT (tick this) ---
+(a) A-1, B-2, C-3, D-4
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Arjuna 1961 (oldest), Dronacharya 1985, Khel Ratna 1991-92, RKPP 2009. Trap: Khel Ratna is the highest award but NOT the oldest.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following about India at the Youth Olympic Games, Dakar 2026. Which of the statements given above is/are correct?
+I. Gunjan became the first Indian woman to win boxing gold at the Youth Olympics.
+II. India's 10 medals at Dakar are its best-ever Youth Olympics tally.
+III. Ambekar Meetei won the men's 50 kg gold by beating a boxer from Ireland.
+
+--- QUESTION ---
+Q7. Consider the following about India at the Youth Olympic Games, Dakar 2026. Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct. II is the trap: Dakar is India's second-best; the best was 13 medals in 2018.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. With reference to the INS Betwa contract signed in November 2026, which of the statements given above is/are correct?
+I. INS Betwa is a Brahmaputra-class frigate.
+II. The refit contract was signed with Cochin Shipyard Ltd.
+III. Its steam-based propulsion will be replaced by diesel engines.
+
+--- QUESTION ---
+Q8. With reference to the INS Betwa contract signed in November 2026, which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(d) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+All three are correct (₹498.58 crore refit and re-powering, 50+ MSMEs). Trap: 're-powering' means a new engine type (steam → diesel), not nuclear propulsion.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Consider the following about the 45th India International Trade Fair (IITF) 2026. Which of the statements given above are correct?
+I. It is held at Bharat Mandapam, New Delhi, from 13 to 27 November.
+II. Its theme is 'Vikas aur Virasat'.
+III. It is organised by ITPO.
+IV. Andhra Pradesh is one of its Partner States.
+
+--- QUESTION ---
+Q9. Consider the following about the 45th India International Trade Fair (IITF) 2026. Which of the statements given above are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III only
+(b) II and IV only
+(c) I and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I, II, III are correct. IV is wrong: Partner States are Bihar, Maharashtra, Rajasthan and Uttar Pradesh.
+
+==================== Q10 ====================
+--- QUESTION ---
+Q10. Arrange these November 2026 events in chronological order: 1. INS Betwa refit contract  2. PSLV PS3 ground test  3. National Sports Awards ceremony  4. Janjatiya Gaurav Diwas
+
+--- OPTIONS ---
+(a) 2-1-3-4
+(b) 1-3-2-4
+(c) 1-2-3-4
+(d) 2-3-1-4
+
+--- CORRECT (tick this) ---
+(c) 1-2-3-4
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Betwa contract 11 Nov → PS3 test 12 Nov → Sports Awards 13 Nov → Janjatiya Gaurav Diwas 15 Nov.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/current.html?d=2026-11-14

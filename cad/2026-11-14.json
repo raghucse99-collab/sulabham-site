@@ -1,0 +1,1492 @@
+{
+ "date": "2026-11-14",
+ "day": {
+  "en": "Saturday, 14 November 2026",
+  "te": "శనివారం, 14 నవంబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "akvan",
+   "cat": "ap",
+   "title": {
+    "en": "IMD: low over Bay of Bengal to become Cyclone 'Akvan' by 16 Nov evening; north AP and south Odisha likely in its path",
+    "te": "IMD: బంగాళాఖాతంలో అల్పపీడనం 16 నవంబర్ సాయంత్రానికి 'అక్వాన్' తుపానుగా; ఉత్తరాంధ్ర, దక్షిణ ఒడిశా వైపు వచ్చే అవకాశం"
+   },
+   "pts": [
+    {
+     "en": "On 14 Nov a well-marked low lay over the south-east Bay of Bengal. IMD expects it to become a depression in about 24 hours and a cyclonic storm over the central Bay of Bengal by the evening of 16 Nov.",
+     "te": "నవంబర్ 14న ఆగ్నేయ బంగాళాఖాతంలో బలమైన అల్పపీడనం ఉంది. ఇది సుమారు 24 గంటల్లో వాయుగుండంగా, 16 నవంబర్ సాయంత్రానికి మధ్య బంగాళాఖాతంలో తుపానుగా మారుతుందని IMD అంచనా."
+    },
+    {
+     "en": "It will be named 'Akvan' (name given by Iran) — the third cyclone of the season after Arnab and Murasu. It may become a severe cyclonic storm by 18 Nov.",
+     "te": "దీనికి 'అక్వాన్' (ఇరాన్ ఇచ్చిన పేరు) అని పెడతారు — ఈ సీజన్‌లో ఆర్నబ్, మురసు తర్వాత మూడో తుపాను. 18 నవంబర్ నాటికి తీవ్ర తుపానుగా మారవచ్చు."
+    },
+    {
+     "en": "Track is not final. IMD's Area Cyclone Warning Centre (official V.R. Durai) said it will 'in all probability' go towards north Andhra Pradesh and south Odisha. Heavy rain is likely in coastal AP and Odisha on 18–19 Nov.",
+     "te": "మార్గం ఇంకా ఖరారు కాలేదు. 'చాలావరకు' ఉత్తరాంధ్ర, దక్షిణ ఒడిశా వైపు వెళ్తుందని చెన్నై ఏరియా సైక్లోన్ వార్నింగ్ సెంటర్ తెలిపింది. 18–19 నవంబర్‌న కోస్తాంధ్ర, ఒడిశాలో భారీ వర్షాలు పడే అవకాశం."
+    },
+    {
+     "en": "Fishermen were told to return to the coast by 15 Nov. Winds up to 60 kmph, gusting to 80 kmph from 17 Nov.",
+     "te": "మత్స్యకారులు 15 నవంబర్ నాటికి తీరానికి తిరిగి రావాలని సూచన. గాలుల వేగం గంటకు 60 కి.మీ. వరకు, 17 నవంబర్ నుంచి 80 కి.మీ. వరకు ఈదురుగాలులు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Stages",
+      "te": "దశలు"
+     },
+     {
+      "en": "Low → depression → cyclonic storm (16 Nov) → severe (18 Nov?)",
+      "te": "అల్పపీడనం → వాయుగుండం → తుపాను (16 నవం) → తీవ్ర తుపాను (18 నవం?)"
+     }
+    ],
+    [
+     {
+      "en": "Name · given by",
+      "te": "పేరు · ఇచ్చిన దేశం"
+     },
+     {
+      "en": "Akvan · Iran",
+      "te": "అక్వాన్ · ఇరాన్"
+     }
+    ],
+    [
+     {
+      "en": "Earlier this season",
+      "te": "ఈ సీజన్‌లో ముందు"
+     },
+     {
+      "en": "Arnab, Murasu",
+      "te": "ఆర్నబ్, మురసు"
+     }
+    ],
+    [
+     {
+      "en": "Heavy rain (AP)",
+      "te": "భారీ వర్షం (ఏపీ)"
+     },
+     {
+      "en": "Coastal AP, 18–19 Nov",
+      "te": "కోస్తాంధ్ర, 18–19 నవంబర్"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: cyclone names come from the WMO/ESCAP Panel list of 13 countries, used in order. Trap: a 'depression' is NOT yet a cyclone — the name is given only at the cyclonic-storm stage.",
+    "te": "స్టాటిక్ లింక్: తుపాను పేర్లు WMO/ESCAP ప్యానెల్‌లోని 13 దేశాల జాబితా నుంచి వరుసగా వస్తాయి. ట్రాప్: 'వాయుగుండం' ఇంకా తుపాను కాదు — తుపాను దశకు చేరాకే పేరు పెడతారు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Where the system is and where it may go",
+      "te": "వ్యవస్థ ఎక్కడ ఉంది, ఎటు వెళ్లవచ్చు"
+     },
+     "view": [
+      76,
+      5,
+      99,
+      24
+     ],
+     "hl": [
+      "Andhra Pradesh",
+      "Odisha"
+     ],
+     "hlc": "#1d4f91",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        17.69,
+        83.22
+       ],
+       "t": {
+        "en": "Visakhapatnam",
+        "te": "విశాఖపట్నం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        19.26,
+        84.9
+       ],
+       "t": {
+        "en": "Gopalpur",
+        "te": "గోపాల్‌పూర్"
+       },
+       "a": "l"
+      }
+     ],
+     "labels": [
+      {
+       "ll": [
+        10.5,
+        89.5
+       ],
+       "t": {
+        "en": "Low (14 Nov)",
+        "te": "అల్పపీడనం (14 నవం)"
+       }
+      },
+      {
+       "ll": [
+        15.0,
+        88.5
+       ],
+       "t": {
+        "en": "Cyclone by 16 Nov",
+        "te": "16 నవంకి తుపాను"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         10.0,
+         89.0
+        ],
+        [
+         14.0,
+         87.5
+        ],
+        [
+         17.8,
+         85.0
+        ]
+       ],
+       "dash": 1,
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "Dashed arrow = likely direction only (north-northwest); the official track will be clear after the cyclone forms.",
+      "te": "చుక్కల బాణం = సంభావ్య దిశ మాత్రమే (ఉత్తర-వాయవ్యం); తుపాను ఏర్పడ్డాక అధికారిక మార్గం తెలుస్తుంది."
+     },
+     "src": "cards/cad/2026-11-14/map-akvan-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Telangana Today (PTI) — IMD warns of possible cyclonic storm over Bay of Bengal around November 16, 14 Nov 2026",
+     "u": "https://telanganatoday.com/imd-warns-of-possible-cyclonic-storm-over-bay-of-bengal-around-november-16"
+    },
+    {
+     "t": "The Federal — Cyclone Akvan: Third cyclone in a month brewing over Bay of Bengal, 14 Nov 2026",
+     "u": "https://thefederal.com/category/news/cyclone-akvan-third-cyclone-bay-of-bengal-262913"
+    },
+    {
+     "t": "Sakshi Post — AP Weather Update: Cyclone May Form Around November 16, 14 Nov 2026",
+     "u": "https://www.sakshipost.com/news/andhrapradesh/andhra-pradesh-weather-update-cyclone-may-form-around-november-16-483236"
+    },
+    {
+     "t": "The Week — Cyclone Akvan to make landfall in Andhra Pradesh?, 14 Nov 2026",
+     "u": "https://www.theweek.in/news/india/2026/11/14/cyclone-akvan-to-make-landfall-in-andhra-pradesh-depression-over-the-bay-of-bengal-to-turn-into-cyclonic-storm.html"
+    }
+   ]
+  },
+  {
+   "id": "apipa",
+   "cat": "ap",
+   "title": {
+    "en": "AP's proposed Investment Protection Act: promises to investors to stay binding even if the government changes",
+    "te": "ఏపీ ప్రతిపాదిత పెట్టుబడుల రక్షణ చట్టం: ప్రభుత్వం మారినా పెట్టుబడిదారులకు ఇచ్చిన హామీలు కొనసాగేలా"
+   },
+   "pts": [
+    {
+     "en": "At the CII Partnership Summit, CM N. Chandrababu Naidu said AP will bring an Investment Protection Act. The bill is in its final stage and is likely in the next Assembly session.",
+     "te": "CII భాగస్వామ్య సదస్సులో సీఎం ఎన్. చంద్రబాబు నాయుడు ఏపీ పెట్టుబడుల రక్షణ చట్టం తెస్తుందని చెప్పారు. బిల్లు తుది దశలో ఉంది; తదుపరి అసెంబ్లీ సమావేశాల్లో రావచ్చు."
+    },
+    {
+     "en": "Why: investors fear that a new government may cancel land allotments, tax concessions, power subsidies or approvals. The Act aims to keep these commitments binding across governments.",
+     "te": "ఎందుకు: కొత్త ప్రభుత్వం భూకేటాయింపులు, పన్ను రాయితీలు, విద్యుత్ సబ్సిడీలు, అనుమతులు రద్దు చేస్తుందేమోనని పెట్టుబడిదారుల భయం. ఈ హామీలు ప్రభుత్వాలు మారినా కట్టుబడి ఉండేలా చేయడమే చట్టం లక్ష్యం."
+    },
+    {
+     "en": "Idea under study: an escrow account — a part of state tax collections equal to the incentives due is kept aside, so companies get dues without running to departments. A 'Speed of Doing Business Act' is also planned.",
+     "te": "పరిశీలనలో ఉన్న ఆలోచన: ఎస్క్రో ఖాతా — చెల్లించాల్సిన ప్రోత్సాహకాలకు సమానమైన రాష్ట్ర పన్ను వసూళ్ల భాగాన్ని పక్కన పెడతారు; కంపెనీలు శాఖల చుట్టూ తిరగకుండా బకాయిలు అందుతాయి. 'స్పీడ్ ఆఫ్ డూయింగ్ బిజినెస్ చట్టం' కూడా ప్రణాళికలో ఉంది."
+    },
+    {
+     "en": "The state says it attracted commitments of ₹22.6 lakh crore since June 2024, of which ₹17.2 lakh crore got approvals and work orders. The bill will be passed in the Assembly and sent to the Centre.",
+     "te": "జూన్ 2024 నుంచి ₹22.6 లక్షల కోట్ల పెట్టుబడి హామీలు వచ్చాయని, వాటిలో ₹17.2 లక్షల కోట్లకు అనుమతులు, వర్క్ ఆర్డర్లు వచ్చాయని రాష్ట్రం చెబుతోంది. బిల్లును అసెంబ్లీలో ఆమోదించి కేంద్రానికి పంపుతారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Status",
+      "te": "స్థితి"
+     },
+     {
+      "en": "Draft bill, final stage (not yet law)",
+      "te": "ముసాయిదా బిల్లు, తుది దశ (ఇంకా చట్టం కాదు)"
+     }
+    ],
+    [
+     {
+      "en": "Covers",
+      "te": "వర్తించేవి"
+     },
+     {
+      "en": "Land, tax concessions, power subsidies, approvals",
+      "te": "భూమి, పన్ను రాయితీలు, విద్యుత్ సబ్సిడీలు, అనుమతులు"
+     }
+    ],
+    [
+     {
+      "en": "Tool",
+      "te": "సాధనం"
+     },
+     {
+      "en": "Escrow from state tax collections",
+      "te": "రాష్ట్ర పన్ను వసూళ్ల నుంచి ఎస్క్రో"
+     }
+    ],
+    [
+     {
+      "en": "Commitments since Jun 2024",
+      "te": "జూన్ 2024 నుంచి హామీలు"
+     },
+     {
+      "en": "₹22.6 lakh cr (₹17.2 lakh cr approved)",
+      "te": "₹22.6 లక్షల కోట్లు (₹17.2 లక్షల కోట్లకు ఆమోదం)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Polity link: a State law on a Concurrent-List matter that conflicts with a central law needs the President's assent (Art. 254(2)) — hence 'send it to the Centre'. Trap: it is a proposal, not an enacted Act.",
+    "te": "పాలిటీ లింక్: ఉమ్మడి జాబితా అంశంపై కేంద్ర చట్టానికి విరుద్ధమైన రాష్ట్ర చట్టానికి రాష్ట్రపతి ఆమోదం కావాలి (ఆర్టికల్ 254(2)) — అందుకే 'కేంద్రానికి పంపడం'. ట్రాప్: ఇది ప్రతిపాదన మాత్రమే, ఆమోదం పొందిన చట్టం కాదు."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "How the Act is meant to work",
+      "te": "చట్టం ఎలా పనిచేయాలనుకుంటున్నారు"
+     },
+     "items": [
+      {
+       "i": "🤝",
+       "t": {
+        "en": "State promises land, tax & power incentives",
+        "te": "రాష్ట్రం భూమి, పన్ను, విద్యుత్ ప్రోత్సాహకాల హామీ"
+       }
+      },
+      {
+       "i": "📜",
+       "t": {
+        "en": "Act makes the promise legally binding",
+        "te": "చట్టం ఆ హామీకి చట్టబద్ధత"
+       }
+      },
+      {
+       "i": "🏦",
+       "t": {
+        "en": "Escrow keeps tax money aside for dues",
+        "te": "బకాయిల కోసం ఎస్క్రోలో పన్ను నిధులు"
+       }
+      },
+      {
+       "i": "🔁",
+       "t": {
+        "en": "Government changes — promise stays",
+        "te": "ప్రభుత్వం మారినా హామీ కొనసాగుతుంది"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Week — An Act to protect investors from political changes? All eyes on AP's Investment Protection Act, 13 Nov 2026",
+     "u": "https://www.theweek.in/news/biz-tech/2026/11/13/an-act-to-protect-investors-from-political-changes-all-eyes-on-andhra-pradeshs-ambitious-investment-protection-act.amp.html"
+    }
+   ]
+  },
+  {
+   "id": "ps3",
+   "cat": "science",
+   "title": {
+    "en": "ISRO tests the redesigned PSLV third stage (PS3) at Sriharikota after two mission failures",
+    "te": "రెండు మిషన్ వైఫల్యాల తర్వాత శ్రీహరికోటలో PSLV మూడో దశ (PS3) కొత్త రూపాన్ని పరీక్షించిన ఇస్రో"
+   },
+   "pts": [
+    {
+     "en": "On 12 Nov ISRO did a ground static test (motor fired while fixed on the ground) of the new PS3 solid motor at the Static Test Facility, Satish Dhawan Space Centre (SDSC), Sriharikota, Tirupati district.",
+     "te": "నవంబర్ 12న శ్రీహరికోట (తిరుపతి జిల్లా)లోని సతీష్ ధావన్ అంతరిక్ష కేంద్రం (SDSC) స్టాటిక్ టెస్ట్ ఫెసిలిటీలో కొత్త PS3 ఘన ఇంధన మోటార్‌ను ఇస్రో భూస్థిర పరీక్ష (నేలపై బిగించి మండించడం) చేసింది."
+    },
+    {
+     "en": "Why: the third stage had anomalies in PSLV-C61/EOS-09 (May 2025) and PSLV-C62/EOS-N1 (January 2026), so both satellites were lost.",
+     "te": "ఎందుకు: PSLV-C61/EOS-09 (మే 2025), PSLV-C62/EOS-N1 (జనవరి 2026) మిషన్లలో మూడో దశలో లోపాలు వచ్చాయి."
+    },
+    {
+     "en": "Changes: improved nozzle design, stronger mechanical interfaces, extra (redundant) sealing, and stricter checks on raw material, assembly and NDT (non-destructive testing). ISRO says more tests are planned.",
+     "te": "మార్పులు: మెరుగైన నాజిల్ డిజైన్, బలమైన మెకానికల్ ఇంటర్‌ఫేస్‌లు, అదనపు సీలింగ్, ముడి పదార్థం, అసెంబ్లీ, NDT (నాశనం చేయని పరీక్ష) తనిఖీలు కఠినం. మరిన్ని పరీక్షలు ఉంటాయని ఇస్రో తెలిపింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Date · place",
+      "te": "తేదీ · ప్రదేశం"
+     },
+     {
+      "en": "12 Nov 2026 · SDSC SHAR, Sriharikota",
+      "te": "12 నవంబర్ 2026 · SDSC షార్, శ్రీహరికోట"
+     }
+    ],
+    [
+     {
+      "en": "Stage",
+      "te": "దశ"
+     },
+     {
+      "en": "PS3 — solid motor (3rd of PSLV's 4 stages)",
+      "te": "PS3 — ఘన ఇంధన మోటార్ (PSLV 4 దశల్లో 3వది)"
+     }
+    ],
+    [
+     {
+      "en": "Failures it fixes",
+      "te": "సరిచేసే వైఫల్యాలు"
+     },
+     {
+      "en": "PSLV-C61 (May 2025), PSLV-C62 (Jan 2026)",
+      "te": "PSLV-C61 (మే 2025), PSLV-C62 (జనవరి 2026)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static GK: PSLV has 4 stages — PS1 solid, PS2 liquid, PS3 solid, PS4 liquid (alternate). Trap: PS3 is solid, not liquid or cryogenic. SDSC SHAR is in Tirupati district of AP.",
+    "te": "స్టాటిక్ GK: PSLVకి 4 దశలు — PS1 ఘన, PS2 ద్రవ, PS3 ఘన, PS4 ద్రవ (మార్చి మార్చి). ట్రాప్: PS3 ఘన దశ — ద్రవ లేదా క్రయోజెనిక్ కాదు. SDSC షార్ ఏపీలోని తిరుపతి జిల్లాలో ఉంది."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "PSLV stages: solid and liquid alternate",
+      "te": "PSLV దశలు: ఘన, ద్రవ మార్చి మార్చి"
+     },
+     "items": [
+      {
+       "i": "🔥",
+       "t": {
+        "en": "PS1 — solid",
+        "te": "PS1 — ఘన"
+       }
+      },
+      {
+       "i": "💧",
+       "t": {
+        "en": "PS2 — liquid",
+        "te": "PS2 — ద్రవ"
+       }
+      },
+      {
+       "i": "🔥",
+       "t": {
+        "en": "PS3 — solid (tested now)",
+        "te": "PS3 — ఘన (ఇప్పుడు పరీక్ష)"
+       }
+      },
+      {
+       "i": "💧",
+       "t": {
+        "en": "PS4 — liquid",
+        "te": "PS4 — ద్రవ"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ANI — ISRO successfully conducts ground static test of PSLV's third stage at Sriharikota, 12 Nov 2026",
+     "u": "https://aninews.in/news/national/general-news/isro-successfully-conducts-ground-static-test-of-pslvs-third-stage-at-sriharikota20261112225218/"
+    },
+    {
+     "t": "The Tribune — ISRO successfully conducts ground test of PSLV third stage at Sriharikota, 12 Nov 2026",
+     "u": "https://www.tribuneindia.com/news/science-technology/isro-successfully-conducts-ground-test-of-pslv-third-stage-at-sriharikota/"
+    }
+   ]
+  },
+  {
+   "id": "birsa",
+   "cat": "days",
+   "title": {
+    "en": "15 November — Janjatiya Gaurav Diwas: Birsa Munda's 151st birth anniversary; PM's programme at Gadchiroli",
+    "te": "నవంబర్ 15 — జనజాతీయ గౌరవ దివస్: బిర్సా ముండా 151వ జయంతి; గడ్చిరోలిలో ప్రధాని కార్యక్రమం"
+   },
+   "pts": [
+    {
+     "en": "15 Nov is Janjatiya Gaurav Diwas (Tribal Pride Day), declared by the Government of India in 2021, on the birth anniversary of 'Dharti Aaba' Bhagwan Birsa Munda. The Janjatiya Gaurav Pakhwada (1–15 Nov) ends on this day.",
+     "te": "నవంబర్ 15 జనజాతీయ గౌరవ దివస్ (గిరిజన గౌరవ దినం) — 'ధర్తీ ఆబా' భగవాన్ బిర్సా ముండా జయంతి సందర్భంగా 2021లో భారత ప్రభుత్వం ప్రకటించింది. జనజాతీయ గౌరవ పక్షోత్సవం (1–15 నవంబర్) ఈ రోజుతో ముగుస్తుంది."
+    },
+    {
+     "en": "Birsa Munda led the Ulgulan ('Great Tumult') against British rule and exploitation of tribals in the late 19th century.",
+     "te": "19వ శతాబ్దం చివర్లో బ్రిటిష్ పాలన, గిరిజనుల దోపిడీకి వ్యతిరేకంగా బిర్సా ముండా 'ఉల్గులాన్' (మహా తిరుగుబాటు) నడిపారు."
+    },
+    {
+     "en": "PM Modi joins the Gadchiroli (Maharashtra) event by video: 246 projects worth about ₹3,000 crore, including 38 Eklavya Model Residential Schools (EMRS) and 100 Multi-Purpose Centres under PM-JANMAN.",
+     "te": "గడ్చిరోలి (మహారాష్ట్ర) కార్యక్రమంలో ప్రధాని మోదీ వీడియో ద్వారా పాల్గొంటారు: సుమారు ₹3,000 కోట్ల 246 ప్రాజెక్టులు — PM-JANMAN కింద 38 ఏకలవ్య మోడల్ రెసిడెన్షియల్ స్కూళ్లు (EMRS), 100 బహుళ ప్రయోజన కేంద్రాలు సహా."
+    },
+    {
+     "en": "He will also open the Tribal Research Institute building at Itanagar (Arunachal Pradesh) and the Ropuiliani Tribal Freedom Fighter Museum in Mizoram.",
+     "te": "ఈటానగర్ (అరుణాచల్ ప్రదేశ్)లో గిరిజన పరిశోధనా సంస్థ భవనం, మిజోరంలో రోపుయిలియాని గిరిజన స్వాతంత్ర్య సమరయోధుల మ్యూజియంను కూడా ప్రారంభిస్తారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Declared",
+      "te": "ప్రకటించిన సంవత్సరం"
+     },
+     {
+      "en": "2021",
+      "te": "2021"
+     }
+    ],
+    [
+     {
+      "en": "2026",
+      "te": "2026"
+     },
+     {
+      "en": "151st birth anniversary of Birsa Munda",
+      "te": "బిర్సా ముండా 151వ జయంతి"
+     }
+    ],
+    [
+     {
+      "en": "Projects",
+      "te": "ప్రాజెక్టులు"
+     },
+     {
+      "en": "246 · ~₹3,000 cr · 19 new EMRS foundation",
+      "te": "246 · ~₹3,000 కోట్లు · 19 కొత్త EMRSలకు శంకుస్థాపన"
+     }
+    ],
+    [
+     {
+      "en": "Schemes",
+      "te": "పథకాలు"
+     },
+     {
+      "en": "PM-JANMAN, DAJGUA",
+      "te": "PM-JANMAN, DAJGUA"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Constitution link: Scheduled Tribes are notified by the President under Article 342; Fifth Schedule = Scheduled Areas. Trap: DAJGUA = Dharti Aaba Janjatiya Gram Utkarsh Abhiyan, not a Birsa Munda scholarship.",
+    "te": "రాజ్యాంగ లింక్: ఆర్టికల్ 342 కింద రాష్ట్రపతి షెడ్యూల్డ్ తెగలను ప్రకటిస్తారు; ఐదో షెడ్యూల్ = షెడ్యూల్డ్ ప్రాంతాలు. ట్రాప్: DAJGUA = ధర్తీ ఆబా జనజాతీయ గ్రామ ఉత్కర్ష్ అభియాన్ — బిర్సా ముండా స్కాలర్‌షిప్ కాదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Janjatiya Gaurav Diwas 2026 — key places",
+      "te": "జనజాతీయ గౌరవ దివస్ 2026 — ముఖ్య ప్రదేశాలు"
+     },
+     "view": "india",
+     "hl": [
+      "Maharashtra",
+      "Arunachal Pradesh",
+      "Mizoram"
+     ],
+     "hlc": "#2f6b2f",
+     "pts": [
+      {
+       "ll": [
+        20.18,
+        80.0
+       ],
+       "t": {
+        "en": "Gadchiroli — main event",
+        "te": "గడ్చిరోలి — ప్రధాన కార్యక్రమం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        27.08,
+        93.61
+       ],
+       "t": {
+        "en": "Itanagar — TRI",
+        "te": "ఈటానగర్ — TRI"
+       }
+      },
+      {
+       "ll": [
+        23.73,
+        92.72
+       ],
+       "t": {
+        "en": "Mizoram — museum",
+        "te": "మిజోరం — మ్యూజియం"
+       }
+      }
+     ],
+     "cap": {
+      "en": "The main event is in Gadchiroli, a tribal district of eastern Maharashtra bordering Chhattisgarh and Telangana.",
+      "te": "ప్రధాన కార్యక్రమం తూర్పు మహారాష్ట్రలోని గిరిజన జిల్లా గడ్చిరోలిలో — ఇది ఛత్తీస్‌గఢ్, తెలంగాణ సరిహద్దులో ఉంది."
+     },
+     "src": "cards/cad/2026-11-14/map-birsa-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "AIR News — PM Modi to participate in Janjatiya Gaurav Diwas programme in Maharashtra, 14 Nov 2026",
+     "u": "https://newsonair.gov.in/pm-modi-to-participate-in-janjatiya-gaurav-diwas-programme-in-maharashtra/"
+    },
+    {
+     "t": "AIR News — Maharashtra observes Janjatiya Gaurav Saptah to mark Birsa Munda's 151st birth anniversary, 11 Nov 2026",
+     "u": "https://newsonair.gov.in/maharashtra-observes-janjatiya-gaurav-saptah-to-mark-birsa-mundas-151st-birth-anniversary/"
+    },
+    {
+     "t": "GKToday — Janjatiya Gaurav Diwas 2026 Observance from November 1 to 15, 28 Oct 2026",
+     "u": "https://www.gktoday.in/janjatiya-gaurav-diwas-2026-observance-from-november-1-to-15/"
+    }
+   ]
+  },
+  {
+   "id": "sportsawards",
+   "cat": "awards",
+   "title": {
+    "en": "President presents National Sports Awards 2025: 17 Arjuna awards, no Khel Ratna this time",
+    "te": "జాతీయ క్రీడా అవార్డులు 2025 ప్రదానం చేసిన రాష్ట్రపతి: 17 అర్జున అవార్డులు, ఈసారి ఖేల్ రత్న లేదు"
+   },
+   "pts": [
+    {
+     "en": "President Droupadi Murmu gave away the awards at Rashtrapati Bhavan on 13 Nov. Winners were announced by the Sports Ministry on 18 Aug after a panel headed by Justice (Retd.) Arun Kumar Mishra.",
+     "te": "నవంబర్ 13న రాష్ట్రపతి భవన్‌లో రాష్ట్రపతి ద్రౌపది ముర్ము అవార్డులు అందజేశారు. జస్టిస్ (రిటైర్డ్) అరుణ్ కుమార్ మిశ్రా నేతృత్వంలోని కమిటీ సిఫార్సుతో ఆగస్టు 18న క్రీడా మంత్రిత్వ శాఖ విజేతలను ప్రకటించింది."
+    },
+    {
+     "en": "No Major Dhyan Chand Khel Ratna for 2025 — the first time since 2014. 17 Arjuna awards (cut from 24 recommended), e.g. Tejaswin Shankar (athletics), Divya Deshmukh and Vidit Gujrathi (chess), Pullela Gayatri Gopichand and Treesa Jolly (badminton).",
+     "te": "2025కి మేజర్ ధ్యాన్‌చంద్ ఖేల్ రత్న లేదు — 2014 తర్వాత ఇదే మొదటిసారి. 17 అర్జున అవార్డులు (24 సిఫార్సుల నుంచి తగ్గింపు) — తేజస్విన్ శంకర్ (అథ్లెటిక్స్), దివ్యా దేశ్‌ముఖ్, విదిత్ గుజరాతీ (చెస్), పుల్లెల గాయత్రి గోపీచంద్, ట్రీసా జాలీ (బ్యాడ్మింటన్) తదితరులు."
+    },
+    {
+     "en": "Arjuna (Lifetime): I. Arumainayagam (football, 1962 Asian Games gold team). Dronacharya: 3 regular + 2 lifetime coaches. Rashtriya Khel Protsahan Puraskar: Army Paralympic Node, Pune.",
+     "te": "అర్జున (జీవితకాల): ఐ. అరుమైనాయగం (ఫుట్‌బాల్, 1962 ఆసియా క్రీడల స్వర్ణ జట్టు). ద్రోణాచార్య: 3 సాధారణ + 2 జీవితకాల కోచ్‌లు. రాష్ట్రీయ ఖేల్ ప్రోత్సాహన్ పురస్కారం: ఆర్మీ పారాలింపిక్ నోడ్, పుణె."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Arjuna · prize",
+      "te": "అర్జున · నగదు"
+     },
+     {
+      "en": "17 · ₹15 lakh each",
+      "te": "17 · ఒక్కొక్కరికి ₹15 లక్షలు"
+     }
+    ],
+    [
+     {
+      "en": "Khel Ratna · prize",
+      "te": "ఖేల్ రత్న · నగదు"
+     },
+     {
+      "en": "None for 2025 · ₹25 lakh",
+      "te": "2025కి లేదు · ₹25 లక్షలు"
+     }
+    ],
+    [
+     {
+      "en": "Started",
+      "te": "ప్రారంభం"
+     },
+     {
+      "en": "Arjuna 1961 · Dronacharya 1985 · Khel Ratna 1991-92",
+      "te": "అర్జున 1961 · ద్రోణాచార్య 1985 · ఖేల్ రత్న 1991-92"
+     }
+    ],
+    [
+     {
+      "en": "Usual date",
+      "te": "సాధారణ తేదీ"
+     },
+     {
+      "en": "29 Aug — National Sports Day (Dhyan Chand)",
+      "te": "ఆగస్టు 29 — జాతీయ క్రీడా దినం (ధ్యాన్‌చంద్)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Match award ↔ year started and award ↔ type (player / coach / organisation). Trap: Dronacharya is for coaches, Rashtriya Khel Protsahan Puraskar is for organisations, not players.",
+    "te": "అవార్డు ↔ ప్రారంభ సంవత్సరం, అవార్డు ↔ రకం (క్రీడాకారుడు / కోచ్ / సంస్థ) జతపరచండి. ట్రాప్: ద్రోణాచార్య కోచ్‌లకు; రాష్ట్రీయ ఖేల్ ప్రోత్సాహన్ పురస్కారం సంస్థలకు — క్రీడాకారులకు కాదు."
+   },
+   "pics": [
+    {
+     "type": "dots",
+     "h": {
+      "en": "National Sports Awards 2025 — count",
+      "te": "జాతీయ క్రీడా అవార్డులు 2025 — సంఖ్య"
+     },
+     "groups": [
+      {
+       "n": 17,
+       "color": "#a86b00",
+       "t": {
+        "en": "Arjuna",
+        "te": "అర్జున"
+       }
+      },
+      {
+       "n": 1,
+       "color": "#7a3b8f",
+       "t": {
+        "en": "Arjuna (Lifetime)",
+        "te": "అర్జున (జీవితకాల)"
+       }
+      },
+      {
+       "n": 5,
+       "color": "#1d4f91",
+       "t": {
+        "en": "Dronacharya (3 + 2 lifetime)",
+        "te": "ద్రోణాచార్య (3 + 2 జీవితకాల)"
+       }
+      },
+      {
+       "n": 1,
+       "color": "#2f6b2f",
+       "t": {
+        "en": "RKPP — organisation",
+        "te": "RKPP — సంస్థ"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Adda247 — President Droupadi Murmu Presents National Sports Awards, 13 Nov 2026",
+     "u": "https://currentaffairs.adda247.com/president-droupadi-murmu-presents-national-sports-awards-tejaswin-shankar-divya-deshmukh-win-arjuna-award/"
+    },
+    {
+     "t": "The Meghalayan Express (PTI) — President Murmu gives away National Sports Awards at Rashtrapati Bhavan, 13 Nov 2026",
+     "u": "https://themeghalayanexpress.com/president-murmu-gives-away-national-sports-awards-at-rashtrapati-bhavan/"
+    }
+   ]
+  },
+  {
+   "id": "yog",
+   "cat": "sports",
+   "title": {
+    "en": "Youth Olympics, Dakar 2026: India's first-ever boxing golds — Gunjan and Ambekar Meetei; 10 medals in all",
+    "te": "యూత్ ఒలింపిక్స్, డకార్ 2026: భారత్‌కు బాక్సింగ్‌లో తొలి స్వర్ణాలు — గుంజన్, అంబేకర్ మీటీ; మొత్తం 10 పతకాలు"
+   },
+   "pts": [
+    {
+     "en": "Gunjan beat Algeria's Bouthaina Bensalah 5–0 in the women's 48 kg final — the first Indian woman to win boxing gold at the Youth Olympics.",
+     "te": "మహిళల 48 కిలోల ఫైనల్‌లో అల్జీరియాకు చెందిన బౌతైనా బెన్సలాహ్‌ను గుంజన్ 5–0తో ఓడించింది — యూత్ ఒలింపిక్స్ బాక్సింగ్‌లో స్వర్ణం గెలిచిన తొలి భారత మహిళ."
+    },
+    {
+     "en": "17-year-old Lairenlakpam Ambekar Meetei of Manipur beat Ireland's Kristian Jubani 3–2 in the men's 50 kg final.",
+     "te": "మణిపూర్‌కు చెందిన 17 ఏళ్ల లైరెన్‌లక్పమ్ అంబేకర్ మీటీ పురుషుల 50 కిలోల ఫైనల్‌లో ఐర్లాండ్‌కు చెందిన క్రిస్టియన్ జుబానీని 3–2తో ఓడించాడు."
+    },
+    {
+     "en": "India ended with 10 medals (2 gold, 3 silver, 5 bronze) — its second-best Youth Olympics; the best is 13 medals in 2018. Swimmer Dhinidhi Desinghu won two bronzes — the first Indian with multiple medals at one edition.",
+     "te": "భారత్ 10 పతకాలతో (2 స్వర్ణం, 3 రజతం, 5 కాంస్యం) ముగించింది — యూత్ ఒలింపిక్స్‌లో రెండో అత్యుత్తమ ప్రదర్శన; అత్యుత్తమం 2018లో 13 పతకాలు. ఈతగత్తె ధినిధి దేశింగు రెండు కాంస్యాలు — ఒకే ఎడిషన్‌లో ఎక్కువ పతకాలు గెలిచిన తొలి భారతీయురాలు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Host",
+      "te": "ఆతిథ్యం"
+     },
+     {
+      "en": "Dakar, Senegal (Africa)",
+      "te": "డకార్, సెనెగల్ (ఆఫ్రికా)"
+     }
+    ],
+    [
+     {
+      "en": "India's tally",
+      "te": "భారత్ పతకాలు"
+     },
+     {
+      "en": "10 — 2G, 3S, 5B",
+      "te": "10 — 2 స్వ, 3 ర, 5 కాం"
+     }
+    ],
+    [
+     {
+      "en": "Best ever",
+      "te": "అత్యుత్తమం"
+     },
+     {
+      "en": "2018 — 13 medals (3G, 9S, 1B)",
+      "te": "2018 — 13 పతకాలు (3 స్వ, 9 ర, 1 కాం)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: Dakar's 10 medals are India's SECOND-best, not best (2018 had 13). Gunjan — 48 kg women; Ambekar Meetei — 50 kg men.",
+    "te": "ట్రాప్: డకార్‌లో 10 పతకాలు భారత్‌కు రెండో అత్యుత్తమం — అత్యుత్తమం కాదు (2018లో 13). గుంజన్ — 48 కిలోలు మహిళలు; అంబేకర్ మీటీ — 50 కిలోలు పురుషులు."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "India at the Youth Olympics: medals",
+      "te": "యూత్ ఒలింపిక్స్‌లో భారత్: పతకాలు"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "2018",
+        "te": "2018"
+       },
+       "v": 13,
+       "vl": "13"
+      },
+      {
+       "t": {
+        "en": "Dakar 2026",
+        "te": "డకార్ 2026"
+       },
+       "v": 10,
+       "vl": "10"
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Dakar, Senegal — host city",
+      "te": "డకార్ — సెనెగల్ రాజధాని"
+     },
+     "view": "world",
+     "ctry": [
+      "Senegal"
+     ],
+     "hlc": "#9b2c2c",
+     "pts": [
+      {
+       "ll": [
+        14.69,
+        -17.45
+       ],
+       "t": {
+        "en": "Dakar",
+        "te": "డకార్"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Dakar is the capital of Senegal, on Africa's westernmost point.",
+      "te": "డకార్ సెనెగల్ రాజధాని — ఆఫ్రికా పశ్చిమ కొనలో ఉంది."
+     },
+     "src": "cards/cad/2026-11-14/map-yog-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "UNI — India end Dakar 2026 with historic boxing gold, 13 Nov 2026",
+     "u": "https://www.uniindia.com/sports/sports-boxing-india-dakar-youth-olympic-gold/244193"
+    },
+    {
+     "t": "Open Magazine — India ends Dakar Youth Olympics campaign with 10 medals, its second-best performance, 13 Nov 2026",
+     "u": "https://openthemagazine.com/sports/india-ends-dakar-youth-olympics-campaign-with-10-medals-its-second-best-performance"
+    }
+   ]
+  },
+  {
+   "id": "betwa",
+   "cat": "defence",
+   "title": {
+    "en": "INS Betwa to get diesel engines: ₹498.58 crore refit contract with Cochin Shipyard",
+    "te": "INS బెత్వాకు డీజిల్ ఇంజిన్లు: కొచ్చిన్ షిప్‌యార్డ్‌తో ₹498.58 కోట్ల రీఫిట్ ఒప్పందం"
+   },
+   "pts": [
+    {
+     "en": "On 11 Nov the Defence Ministry signed a ₹498.58 crore contract with Cochin Shipyard Ltd for the normal refit and 're-powering' of INS Betwa, a Brahmaputra-class frigate.",
+     "te": "నవంబర్ 11న బ్రహ్మపుత్ర శ్రేణి ఫ్రిగేట్ INS బెత్వా సాధారణ రీఫిట్, 'రీ-పవరింగ్' కోసం కొచ్చిన్ షిప్‌యార్డ్ లిమిటెడ్‌తో రక్షణ శాఖ ₹498.58 కోట్ల ఒప్పందం కుదుర్చుకుంది."
+    },
+    {
+     "en": "Re-powering means the old steam propulsion is replaced with diesel engines — higher thermal efficiency, lower fuel use and quicker start-up. A modern weapon suite will also be fitted.",
+     "te": "రీ-పవరింగ్ అంటే పాత ఆవిరి (స్టీమ్) చోదక వ్యవస్థ స్థానంలో డీజిల్ ఇంజిన్లు — ఎక్కువ ఉష్ణ సామర్థ్యం, తక్కువ ఇంధనం, త్వరగా స్టార్ట్. ఆధునిక ఆయుధ వ్యవస్థ కూడా అమరుస్తారు."
+    },
+    {
+     "en": "More than 50 MSMEs will take part — under Aatmanirbhar Bharat and Make in India.",
+     "te": "50కి పైగా MSMEలు భాగస్వాములవుతాయి — ఆత్మనిర్భర్ భారత్, మేక్ ఇన్ ఇండియా కింద."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Ship · class",
+      "te": "నౌక · శ్రేణి"
+     },
+     {
+      "en": "INS Betwa · Brahmaputra-class frigate",
+      "te": "INS బెత్వా · బ్రహ్మపుత్ర శ్రేణి ఫ్రిగేట్"
+     }
+    ],
+    [
+     {
+      "en": "Yard · value",
+      "te": "యార్డ్ · విలువ"
+     },
+     {
+      "en": "Cochin Shipyard Ltd · ₹498.58 cr",
+      "te": "కొచ్చిన్ షిప్‌యార్డ్ · ₹498.58 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Change",
+      "te": "మార్పు"
+     },
+     {
+      "en": "Steam → diesel propulsion",
+      "te": "ఆవిరి → డీజిల్ చోదకం"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Indian Navy ships are often named after rivers (Betwa is a tributary of the Yamuna). Trap: the contract is with Cochin Shipyard (Kerala), not Mazagon Dock or GRSE.",
+    "te": "భారత నౌకాదళ నౌకలకు తరచూ నదుల పేర్లు (బెత్వా యమునా ఉపనది). ట్రాప్: ఒప్పందం కొచ్చిన్ షిప్‌యార్డ్ (కేరళ)తో — మజగాన్ డాక్ లేదా GRSEతో కాదు."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "INS Betwa: before and after refit",
+      "te": "INS బెత్వా: రీఫిట్‌కు ముందు, తర్వాత"
+     },
+     "a": {
+      "h": {
+       "en": "Now",
+       "te": "ఇప్పుడు"
+      },
+      "l": [
+       {
+        "en": "Steam propulsion",
+        "te": "ఆవిరి చోదకం"
+       },
+       {
+        "en": "Older weapon suite",
+        "te": "పాత ఆయుధ వ్యవస్థ"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "After refit",
+       "te": "రీఫిట్ తర్వాత"
+      },
+      "l": [
+       {
+        "en": "Diesel engines — less fuel, quick start",
+        "te": "డీజిల్ ఇంజిన్లు — తక్కువ ఇంధనం, త్వరిత స్టార్ట్"
+       },
+       {
+        "en": "Modernised weapon suite",
+        "te": "ఆధునిక ఆయుధ వ్యవస్థ"
+       },
+       {
+        "en": "50+ MSMEs involved",
+        "te": "50+ MSMEల భాగస్వామ్యం"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "AIR News — Defence Ministry signs ₹498 crore contract with Cochin Shipyard for refit and re-powering of INS Betwa, 11 Nov 2026",
+     "u": "https://newsonair.gov.in/defence-ministry-signs-%e2%82%b9498-crore-contract-with-cochin-shipyard-for-refit-and-re-powering-of-ins-betwa/"
+    },
+    {
+     "t": "The Week — Indian Navy's INS Betwa to get diesel engines, modern weapons in major upgrade, 11 Nov 2026",
+     "u": "https://www.theweek.in/news/defence/2026/11/11/indian-navys-ins-betwa-to-get-diesel-engines-modern-weapons-in-major-upgrade.amp.html"
+    }
+   ]
+  },
+  {
+   "id": "iitf",
+   "cat": "economy",
+   "title": {
+    "en": "45th India International Trade Fair opens at Bharat Mandapam (13–27 Nov); theme 'Vikas aur Virasat'",
+    "te": "భారత్ మండపంలో 45వ భారత అంతర్జాతీయ వాణిజ్య ప్రదర్శన (13–27 నవంబర్); థీమ్ 'వికాస్ ఔర్ విరాసత్'"
+   },
+   "pts": [
+    {
+     "en": "The 45th IITF, organised by ITPO (India Trade Promotion Organisation), runs 13–27 Nov at Bharat Mandapam, New Delhi, with over 3,500 exhibitors. Business days 14–18 Nov; public from 19 Nov.",
+     "te": "ITPO (ఇండియా ట్రేడ్ ప్రమోషన్ ఆర్గనైజేషన్) నిర్వహించే 45వ IITF న్యూఢిల్లీ భారత్ మండపంలో 13–27 నవంబర్ వరకు; 3,500కు పైగా ప్రదర్శకులు. వ్యాపార దినాలు 14–18 నవంబర్; ప్రజలకు 19 నుంచి."
+    },
+    {
+     "en": "Theme 'Vikas aur Virasat' (Development and Heritage). Partner States: Bihar, Maharashtra, Rajasthan, Uttar Pradesh. Focus States: Assam, Delhi, Jharkhand, West Bengal.",
+     "te": "థీమ్ 'వికాస్ ఔర్ విరాసత్' (అభివృద్ధి, వారసత్వం). భాగస్వామ్య రాష్ట్రాలు: బిహార్, మహారాష్ట్ర, రాజస్థాన్, ఉత్తరప్రదేశ్. ఫోకస్ రాష్ట్రాలు: అస్సాం, ఢిల్లీ, జార్ఖండ్, పశ్చిమ బెంగాల్."
+    },
+    {
+     "en": "Health Ministry pavilion theme: 'Yuva Bharat, Swasth Bharat' — 39 stalls of 24 national health programmes, including AI-enabled handheld X-ray TB screening.",
+     "te": "ఆరోగ్య మంత్రిత్వ శాఖ పెవిలియన్ థీమ్: 'యువ భారత్, స్వస్థ భారత్' — 24 జాతీయ ఆరోగ్య కార్యక్రమాల 39 స్టాళ్లు; AI ఆధారిత చేతి X-రేతో TB స్క్రీనింగ్ సహా."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Edition · dates",
+      "te": "ఎడిషన్ · తేదీలు"
+     },
+     {
+      "en": "45th · 13–27 Nov 2026",
+      "te": "45వ · 13–27 నవంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Venue · organiser",
+      "te": "వేదిక · నిర్వాహకులు"
+     },
+     {
+      "en": "Bharat Mandapam · ITPO",
+      "te": "భారత్ మండపం · ITPO"
+     }
+    ],
+    [
+     {
+      "en": "Theme",
+      "te": "థీమ్"
+     },
+     {
+      "en": "Vikas aur Virasat",
+      "te": "వికాస్ ఔర్ విరాసత్"
+     }
+    ],
+    [
+     {
+      "en": "Partner States",
+      "te": "భాగస్వామ్య రాష్ట్రాలు"
+     },
+     {
+      "en": "Bihar, Maharashtra, Rajasthan, UP",
+      "te": "బిహార్, మహారాష్ట్ర, రాజస్థాన్, యూపీ"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: ITPO is under the Ministry of Commerce & Industry; Bharat Mandapam is at Pragati Maidan (G20 Summit venue, 2023). Trap: Partner vs Focus States are different lists.",
+    "te": "స్టాటిక్ లింక్: ITPO వాణిజ్య, పరిశ్రమల మంత్రిత్వ శాఖ కింద ఉంది; భారత్ మండపం ప్రగతి మైదాన్‌లో ఉంది (2023 G20 సదస్సు వేదిక). ట్రాప్: భాగస్వామ్య, ఫోకస్ రాష్ట్రాలు వేర్వేరు జాబితాలు."
+   },
+   "pics": [
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "IITF 2026 at a glance",
+      "te": "IITF 2026 ఒక్క చూపులో"
+     },
+     "c": {
+      "en": "45th IITF",
+      "te": "45వ IITF"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Theme",
+        "te": "థీమ్"
+       },
+       "l": [
+        {
+         "en": "Vikas aur Virasat",
+         "te": "వికాస్ ఔర్ విరాసత్"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Where · when",
+        "te": "ఎక్కడ · ఎప్పుడు"
+       },
+       "l": [
+        {
+         "en": "Bharat Mandapam",
+         "te": "భారత్ మండపం"
+        },
+        {
+         "en": "13–27 Nov",
+         "te": "13–27 నవం"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Partner States",
+        "te": "భాగస్వామ్య రాష్ట్రాలు"
+       },
+       "l": [
+        {
+         "en": "Bihar, Maharashtra",
+         "te": "బిహార్, మహారాష్ట్ర"
+        },
+        {
+         "en": "Rajasthan, UP",
+         "te": "రాజస్థాన్, యూపీ"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Focus States",
+        "te": "ఫోకస్ రాష్ట్రాలు"
+       },
+       "l": [
+        {
+         "en": "Assam, Delhi",
+         "te": "అస్సాం, ఢిల్లీ"
+        },
+        {
+         "en": "Jharkhand, W. Bengal",
+         "te": "జార్ఖండ్, ప. బెంగాల్"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Organiser",
+        "te": "నిర్వాహకులు"
+       },
+       "l": [
+        {
+         "en": "ITPO",
+         "te": "ITPO"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Oneindia — IITF 26 To Showcase 'Vikas Aur Virasat', 29 Oct 2026",
+     "u": "https://www.oneindia.com/india/iitf-2026-india-international-trade-fair-bharat-mandapam-012-8245263.html"
+    },
+    {
+     "t": "AIR News — Health pavilion at IITF showcases flagship programmes and public healthcare initiatives, 14 Nov 2026",
+     "u": "https://newsonair.gov.in/health-pavilion-at-iitf-showcases-flagship-programmes-and-public-healthcare-initiatives/"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "akvan",
+   "q": {
+    "en": "Consider the following about the weather system over the Bay of Bengal (14 Nov 2026). Which of the statements given above is/are correct?",
+    "te": "బంగాళాఖాతంపై వాతావరణ వ్యవస్థ (14 నవంబర్ 2026) గురించి కింది ప్రకటనలు పరిశీలించండి. పై ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. IMD expects it to become a cyclonic storm over the central Bay of Bengal by the evening of 16 November.",
+     "te": "I. 16 నవంబర్ సాయంత్రానికి మధ్య బంగాళాఖాతంలో ఇది తుపానుగా మారుతుందని IMD అంచనా."
+    },
+    {
+     "en": "II. Its name 'Akvan' was given by Iran.",
+     "te": "II. దీని పేరు 'అక్వాన్'ను ఇరాన్ ఇచ్చింది."
+    },
+    {
+     "en": "III. It would be the first cyclone of this post-monsoon season.",
+     "te": "III. ఈ ఈశాన్య రుతుపవన సీజన్‌లో ఇదే మొదటి తుపాను."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and II are correct. III is the trap: Akvan would be the THIRD cyclone, after Arnab and Murasu.",
+    "te": "I, II సరైనవి. III ట్రాప్: అక్వాన్ మూడో తుపాను — ఆర్నబ్, మురసు తర్వాత."
+   }
+  },
+  {
+   "topic": "apipa",
+   "q": {
+    "en": "With reference to Andhra Pradesh's proposed Investment Protection Act, which of the statements given above is/are correct?",
+    "te": "ఆంధ్రప్రదేశ్ ప్రతిపాదిత పెట్టుబడుల రక్షణ చట్టానికి సంబంధించి, పై ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. It aims to keep commitments to investors binding even when the government changes.",
+     "te": "I. ప్రభుత్వం మారినా పెట్టుబడిదారులకు ఇచ్చిన హామీలు కట్టుబడి ఉండేలా చేయడం దీని లక్ష్యం."
+    },
+    {
+     "en": "II. An escrow account funded from part of state tax collections is being considered to pay incentives.",
+     "te": "II. ప్రోత్సాహకాల చెల్లింపుకు రాష్ట్ర పన్ను వసూళ్లలో భాగంతో ఎస్క్రో ఖాతాను పరిశీలిస్తున్నారు."
+    },
+    {
+     "en": "III. The Act has already been passed by the AP Legislative Assembly.",
+     "te": "III. ఈ చట్టాన్ని ఏపీ శాసనసభ ఇప్పటికే ఆమోదించింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and II are correct. III is wrong: the bill is in its final stage and is likely in the next Assembly session — it is not yet law.",
+    "te": "I, II సరైనవి. III తప్పు: బిల్లు తుది దశలో ఉంది, తదుపరి అసెంబ్లీ సమావేశాల్లో రావచ్చు — ఇంకా చట్టం కాలేదు."
+   }
+  },
+  {
+   "topic": "ps3",
+   "q": {
+    "en": "Consider the following about ISRO's test of 12 November 2026. Which of the statements given above is/are correct?",
+    "te": "నవంబర్ 12, 2026 నాటి ఇస్రో పరీక్ష గురించి కింది ప్రకటనలు పరిశీలించండి. పై ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. The stage tested, PS3, is a solid-propellant motor.",
+     "te": "I. పరీక్షించిన PS3 దశ ఘన ఇంధన మోటార్."
+    },
+    {
+     "en": "II. It was a ground static test at the Satish Dhawan Space Centre, Sriharikota.",
+     "te": "II. ఇది శ్రీహరికోట సతీష్ ధావన్ అంతరిక్ష కేంద్రంలో భూస్థిర పరీక్ష."
+    },
+    {
+     "en": "III. The redesign follows third-stage anomalies in PSLV-C61 and PSLV-C62.",
+     "te": "III. PSLV-C61, PSLV-C62లో మూడో దశ లోపాల తర్వాత ఈ పునర్రూపకల్పన జరిగింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "III only",
+     "te": "III మాత్రమే"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "All three are correct. Trap: many think PS3 is liquid — PSLV alternates solid (PS1, PS3) and liquid (PS2, PS4).",
+    "te": "మూడూ సరైనవే. ట్రాప్: PS3 ద్రవ దశ అనుకుంటారు — PSLVలో ఘన (PS1, PS3), ద్రవ (PS2, PS4) మార్చి మార్చి ఉంటాయి."
+   }
+  },
+  {
+   "topic": "birsa",
+   "q": {
+    "en": "Which one of the following statements about Janjatiya Gaurav Diwas 2026 is INCORRECT?",
+    "te": "జనజాతీయ గౌరవ దివస్ 2026 గురించి కింది వాటిలో తప్పు ప్రకటన ఏది?"
+   },
+   "o": [
+    {
+     "en": "It is observed on 15 November, Birsa Munda's birth anniversary",
+     "te": "బిర్సా ముండా జయంతి నవంబర్ 15న జరుపుతారు"
+    },
+    {
+     "en": "The Government of India declared it in 2021",
+     "te": "2021లో భారత ప్రభుత్వం ప్రకటించింది"
+    },
+    {
+     "en": "2026 marks Birsa Munda's 151st birth anniversary",
+     "te": "2026 బిర్సా ముండా 151వ జయంతి"
+    },
+    {
+     "en": "The main 2026 event is at Gadchiroli in Jharkhand",
+     "te": "2026 ప్రధాన కార్యక్రమం జార్ఖండ్‌లోని గడ్చిరోలిలో"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "(d) is incorrect: Gadchiroli is in Maharashtra, not Jharkhand. Jharkhand is linked to Birsa Munda, which makes it a tempting trap.",
+    "te": "(d) తప్పు: గడ్చిరోలి మహారాష్ట్రలో ఉంది, జార్ఖండ్‌లో కాదు. బిర్సా ముండాకు జార్ఖండ్‌తో సంబంధం ఉండటంతో ఇది ఆకర్షణీయ ట్రాప్."
+   }
+  },
+  {
+   "topic": "sportsawards",
+   "q": {
+    "en": "Consider the following about the National Sports Awards 2025 presented on 13 Nov 2026. Which of the statements given above is/are correct?",
+    "te": "నవంబర్ 13, 2026న ప్రదానం చేసిన జాతీయ క్రీడా అవార్డులు 2025 గురించి. పై ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. No Major Dhyan Chand Khel Ratna was given for 2025.",
+     "te": "I. 2025కి మేజర్ ధ్యాన్‌చంద్ ఖేల్ రత్న ఇవ్వలేదు."
+    },
+    {
+     "en": "II. 17 sportspersons received the Arjuna Award.",
+     "te": "II. 17 మంది క్రీడాకారులు అర్జున అవార్డు పొందారు."
+    },
+    {
+     "en": "III. The Arjuna Award (Lifetime) went to a former hockey player.",
+     "te": "III. అర్జున (జీవితకాల) అవార్డు మాజీ హాకీ క్రీడాకారుడికి దక్కింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and II are correct. III is wrong: the Lifetime Arjuna went to I. Arumainayagam, a footballer from the 1962 Asian Games gold team.",
+    "te": "I, II సరైనవి. III తప్పు: జీవితకాల అర్జున ఐ. అరుమైనాయగంకు — 1962 ఆసియా క్రీడల స్వర్ణ జట్టులోని ఫుట్‌బాల్ ఆటగాడు."
+   }
+  },
+  {
+   "topic": "sportsawards",
+   "q": {
+    "en": "Match List-I (award) with List-II (year instituted) and select the correct answer.",
+    "te": "జాబితా-I (అవార్డు)ను జాబితా-II (ప్రారంభ సంవత్సరం)తో జతపరచి సరైన సమాధానం ఎంచుకోండి."
+   },
+   "st": [
+    {
+     "en": "List-I: A. Arjuna Award  B. Dronacharya Award  C. Khel Ratna  D. Rashtriya Khel Protsahan Puraskar",
+     "te": "జాబితా-I: A. అర్జున  B. ద్రోణాచార్య  C. ఖేల్ రత్న  D. రాష్ట్రీయ ఖేల్ ప్రోత్సాహన్ పురస్కారం"
+    },
+    {
+     "en": "List-II: 1. 1961  2. 1985  3. 1991-92  4. 2009",
+     "te": "జాబితా-II: 1. 1961  2. 1985  3. 1991-92  4. 2009"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-1, B-2, C-3, D-4",
+     "te": "A-1, B-2, C-3, D-4"
+    },
+    {
+     "en": "A-2, B-1, C-3, D-4",
+     "te": "A-2, B-1, C-3, D-4"
+    },
+    {
+     "en": "A-1, B-3, C-2, D-4",
+     "te": "A-1, B-3, C-2, D-4"
+    },
+    {
+     "en": "A-3, B-2, C-1, D-4",
+     "te": "A-3, B-2, C-1, D-4"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Arjuna 1961 (oldest), Dronacharya 1985, Khel Ratna 1991-92, RKPP 2009. Trap: Khel Ratna is the highest award but NOT the oldest.",
+    "te": "అర్జున 1961 (అత్యంత పాతది), ద్రోణాచార్య 1985, ఖేల్ రత్న 1991-92, RKPP 2009. ట్రాప్: ఖేల్ రత్న అత్యున్నత అవార్డు, కానీ అత్యంత పాతది కాదు."
+   }
+  },
+  {
+   "topic": "yog",
+   "q": {
+    "en": "Consider the following about India at the Youth Olympic Games, Dakar 2026. Which of the statements given above is/are correct?",
+    "te": "డకార్ 2026 యూత్ ఒలింపిక్స్‌లో భారత్ గురించి. పై ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. Gunjan became the first Indian woman to win boxing gold at the Youth Olympics.",
+     "te": "I. యూత్ ఒలింపిక్స్ బాక్సింగ్‌లో స్వర్ణం గెలిచిన తొలి భారత మహిళ గుంజన్."
+    },
+    {
+     "en": "II. India's 10 medals at Dakar are its best-ever Youth Olympics tally.",
+     "te": "II. డకార్‌లో భారత్ 10 పతకాలు యూత్ ఒలింపిక్స్‌లో అత్యుత్తమ సంఖ్య."
+    },
+    {
+     "en": "III. Ambekar Meetei won the men's 50 kg gold by beating a boxer from Ireland.",
+     "te": "III. ఐర్లాండ్ బాక్సర్‌ను ఓడించి అంబేకర్ మీటీ పురుషుల 50 కిలోల స్వర్ణం గెలిచాడు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and III are correct. II is the trap: Dakar is India's second-best; the best was 13 medals in 2018.",
+    "te": "I, III సరైనవి. II ట్రాప్: డకార్ రెండో అత్యుత్తమం; అత్యుత్తమం 2018లో 13 పతకాలు."
+   }
+  },
+  {
+   "topic": "betwa",
+   "q": {
+    "en": "With reference to the INS Betwa contract signed in November 2026, which of the statements given above is/are correct?",
+    "te": "నవంబర్ 2026లో కుదిరిన INS బెత్వా ఒప్పందానికి సంబంధించి, పై ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. INS Betwa is a Brahmaputra-class frigate.",
+     "te": "I. INS బెత్వా బ్రహ్మపుత్ర శ్రేణి ఫ్రిగేట్."
+    },
+    {
+     "en": "II. The refit contract was signed with Cochin Shipyard Ltd.",
+     "te": "II. రీఫిట్ ఒప్పందం కొచ్చిన్ షిప్‌యార్డ్ లిమిటెడ్‌తో కుదిరింది."
+    },
+    {
+     "en": "III. Its steam-based propulsion will be replaced by diesel engines.",
+     "te": "III. దీని ఆవిరి చోదక వ్యవస్థ స్థానంలో డీజిల్ ఇంజిన్లు వస్తాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct (₹498.58 crore refit and re-powering, 50+ MSMEs). Trap: 're-powering' means a new engine type (steam → diesel), not nuclear propulsion.",
+    "te": "మూడూ సరైనవే (₹498.58 కోట్ల రీఫిట్, రీ-పవరింగ్; 50+ MSMEలు). ట్రాప్: 'రీ-పవరింగ్' అంటే కొత్త ఇంజిన్ రకం (ఆవిరి → డీజిల్) — అణు చోదకం కాదు."
+   }
+  },
+  {
+   "topic": "iitf",
+   "q": {
+    "en": "Consider the following about the 45th India International Trade Fair (IITF) 2026. Which of the statements given above are correct?",
+    "te": "45వ భారత అంతర్జాతీయ వాణిజ్య ప్రదర్శన (IITF) 2026 గురించి. పై ప్రకటనల్లో ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. It is held at Bharat Mandapam, New Delhi, from 13 to 27 November.",
+     "te": "I. ఇది న్యూఢిల్లీ భారత్ మండపంలో 13 నుంచి 27 నవంబర్ వరకు జరుగుతుంది."
+    },
+    {
+     "en": "II. Its theme is 'Vikas aur Virasat'.",
+     "te": "II. దీని థీమ్ 'వికాస్ ఔర్ విరాసత్'."
+    },
+    {
+     "en": "III. It is organised by ITPO.",
+     "te": "III. దీన్ని ITPO నిర్వహిస్తుంది."
+    },
+    {
+     "en": "IV. Andhra Pradesh is one of its Partner States.",
+     "te": "IV. దీని భాగస్వామ్య రాష్ట్రాల్లో ఆంధ్రప్రదేశ్ ఒకటి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I, II, III are correct. IV is wrong: Partner States are Bihar, Maharashtra, Rajasthan and Uttar Pradesh.",
+    "te": "I, II, III సరైనవి. IV తప్పు: భాగస్వామ్య రాష్ట్రాలు బిహార్, మహారాష్ట్ర, రాజస్థాన్, ఉత్తరప్రదేశ్."
+   }
+  },
+  {
+   "topic": "betwa",
+   "q": {
+    "en": "Arrange these November 2026 events in chronological order: 1. INS Betwa refit contract  2. PSLV PS3 ground test  3. National Sports Awards ceremony  4. Janjatiya Gaurav Diwas",
+    "te": "నవంబర్ 2026 ఈ సంఘటనలను కాలక్రమంలో అమర్చండి: 1. INS బెత్వా రీఫిట్ ఒప్పందం  2. PSLV PS3 భూస్థిర పరీక్ష  3. జాతీయ క్రీడా అవార్డుల ప్రదానం  4. జనజాతీయ గౌరవ దివస్"
+   },
+   "o": [
+    {
+     "en": "2-1-3-4",
+     "te": "2-1-3-4"
+    },
+    {
+     "en": "1-3-2-4",
+     "te": "1-3-2-4"
+    },
+    {
+     "en": "1-2-3-4",
+     "te": "1-2-3-4"
+    },
+    {
+     "en": "2-3-1-4",
+     "te": "2-3-1-4"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Betwa contract 11 Nov → PS3 test 12 Nov → Sports Awards 13 Nov → Janjatiya Gaurav Diwas 15 Nov.",
+    "te": "బెత్వా ఒప్పందం 11 నవం → PS3 పరీక్ష 12 నవం → క్రీడా అవార్డులు 13 నవం → జనజాతీయ గౌరవ దివస్ 15 నవం."
+   }
+  }
+ ]
+}
