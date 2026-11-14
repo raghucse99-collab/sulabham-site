@@ -1565,10 +1565,21 @@ function renderChart(){
   const rowStartsThisWeek=row=>!!currentWeekDateLabel&&String(row?.date||'').trim().startsWith(currentWeekDateLabel);
   // Match the chart's literal DD/MM/YYYY week label as well as parsed dates.
   // This avoids a date-parser mismatch hiding a completed chain in history.
-  const currentWeekChartRows=allRows.filter(row=>rowStartsThisWeek(row)||parseWeekStart(row.date)===currentWeekStart);
+  const currentWeekChartRows=allRows.filter(row=>rowStartsThisWeek(row)||parseWeekStart(row.date)===currentWeekStart).map(row=>({...row}));
+  // Merge today's latest published partial/full Jodi into the current-week row.
+  // The live feed may publish Open+Jodi before Close, while the archive waits
+  // for a complete panel; the current-week matcher must still see that Jodi.
+  const liveWeekResult=String(resultForCurrentWeek(m)||'').match(/^\\d{3}-(\\d{1,2})(?:-\\d{3})?$/);
+  const currentWeekLiveRow=currentWeekChartRows.find(row=>parseWeekStart(row.date)===currentWeekStart);
+  if(currentWeekLiveRow&&liveWeekResult)currentWeekLiveRow[currentWeekDayKey().day+' Jodi']=liveWeekResult[1].padStart(2,'0');
   const currentWeekDateSet=new Set(currentWeekChartRows.map(row=>String(row.date||'').trim()).filter(Boolean));
   const currentWeekHitsForPattern=p=>{
-   const linkedJodis=new Set([p.duplicate,...p.steps.flatMap(step=>[step.jodi,...(step.jodis||[])])].map(value=>String(value??'').trim()).filter(valid));
+   const terminalRow=filteredRows[chainEnd(p)]?.row;
+   // Include every Jodi in the final linked row as a possible next-link
+   // candidate. Otherwise a new result such as 94 can be missed merely
+   // because it has not yet become a completed step in the chain.
+   const nextLinkCandidates=analysisDays.map(day=>String(terminalRow?.[day+' Jodi']??'').trim());
+   const linkedJodis=new Set([p.duplicate,...p.steps.flatMap(step=>[step.jodi,...(step.jodis||[])]),...nextLinkCandidates].map(value=>String(value??'').trim()).filter(valid));
    return currentWeekChartRows.flatMap(row=>days.flatMap(day=>{
     const jodi=String(row[day+' Jodi']??'').trim();
     return valid(jodi)&&linkedJodis.has(jodi)?[{jodi,day,date:row.date||''}]:[];
@@ -1621,13 +1632,14 @@ function renderChart(){
    });
    const links=p.steps.map((st,k)=>'<div class="repeat-step"><b class="repeat-step-num">లింక్ '+(k+1)+'</b><strong class="repeat-step-jodi">'+esc(st.jodi)+'</strong><span>Filtered row '+(st.from+1)+' → '+(st.to+1)+'<br>'+esc(filteredRows[st.from].row.date||'')+' → '+esc(filteredRows[st.to].row.date||'')+'</span><b>గ్యాప్ '+st.gap+'</b></div>').join('');
    const currentHits=currentWeekHitsForPattern(p);
-   const currentHitBox=currentHits.length?'<div class="repeat-this-week"><b>ఈ వారం చార్ట్‌లో వచ్చిన లింక్ జోడీలు:</b> '+currentHits.map(hit=>'<strong>'+esc(hit.jodi)+'</strong> · '+esc(hit.day)+' · '+esc(hit.date)).join(' | ')+'</div>':'';
+   const currentHitBox=currentHits.length?'<div class="repeat-this-week"><b>ఈ వారం చార్ట్‌లో వచ్చిన లింక్ / తదుపరి లింక్ అభ్యర్థి జోడీలు:</b> '+currentHits.map(hit=>'<strong>'+esc(hit.jodi)+'</strong> · '+esc(hit.day)+' · '+esc(hit.date)).join(' | ')+'</div>':'';
+   const currentWeekTable=currentHits.length?'<details class="repeat-history" open><summary>ఈ వారం పూర్తి చార్ట్ ఫలితాలు చూపించు</summary><div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Current week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+currentWeekChartRows.map(row=>'<tr><td class="repeat-week-date">'+esc(row.date||'')+'</td>'+days.map(d=>{const v=String(row[d+' Jodi']??'').trim(),hit=currentHits.some(x=>x.jodi===v&&x.day===d&&x.date===row.date);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table></div></details>':'';
    const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Filtered row / Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:end-p.start+1},(_,k)=>p.start+k).map(ix=>{
     const item=filteredRows[ix],r=item.row;
     return '<tr><td class="repeat-week-date"><b>Result '+(ix+1)+'</b><small>Chart row '+(item.sourceIndex+1)+'<br>'+esc(r.date||'')+'</small></td>'+days.map(d=>{const v=String(r[d+' Jodi']??'').trim(),hit=marks.get(ix)?.has(v);return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';}).join('')+'</tr>';
    }).join('')+'</tbody></table></div>';
    const remaining=remainingFilteredResults(p);
-   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>'+(p.mode==='same'?'ఒకే గ్యాప్':'క్రమంగా +1 గ్యాప్‌లు')+' · '+p.steps.map(x=>x.gap).join(' → ')+' · NEXT '+nextGapFor(p)+(remaining>0?' · '+remaining+' FILTERED RESULTS LEFT':'')+'</span></div><div class="repeat-watch"><b>ప్రారంభ డూప్లికేట్ జోడి</b><div><strong>'+esc(p.duplicate)+'</strong></div><small>Starting filtered result row '+(p.start+1)+' · '+esc(filteredRows[p.start].row.date||'')+'</small></div><div class="repeat-steps">'+links+'</div><details class="repeat-history"><summary>సరిపోలిన వారపు వరుసలు చూపించు</summary>'+table+'</details></section>';
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>'+(p.mode==='same'?'ఒకే గ్యాప్':'క్రమంగా +1 గ్యాప్‌లు')+' · '+p.steps.map(x=>x.gap).join(' → ')+' · NEXT '+nextGapFor(p)+(remaining>0?' · '+remaining+' FILTERED RESULTS LEFT':'')+'</span></div><div class="repeat-watch"><b>ప్రారంభ డూప్లికేట్ జోడి</b><div><strong>'+esc(p.duplicate)+'</strong></div><small>Starting filtered result row '+(p.start+1)+' · '+esc(filteredRows[p.start].row.date||'')+'</small></div><div class="repeat-steps">'+links+'</div>'+currentHitBox+currentWeekTable+'<details class="repeat-history"><summary>సరిపోలిన వారపు వరుసలు చూపించు</summary>'+table+'</details></section>';
   }).join('');
   const section=(title,subtitle,list)=>'<section class="repeat-live-section"><h3>'+title+'</h3><p>'+subtitle+'</p>'+(list.length?renderCards(list):'<div class="empty">No confirmed chains in this category.</div>')+'</section>';
   const noCurrent=!thisWeekPatterns.length?'<div class="empty"><strong>ఈ క్యాలెండర్ వారంలో సరిపోలిన లింక్ ఇంకా లేదు.</strong>ప్రస్తుత వారం తేదీ ఆధారంగా మాత్రమే వర్గీకరణ జరుగుతుంది; చివరి filtered row ఆధారంగా కాదు.</div>':'';
