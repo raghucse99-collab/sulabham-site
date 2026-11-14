@@ -1562,7 +1562,7 @@ function renderChart(){
   // week if it reappears on any weekday (for example linked 10 on Friday).
   const currentWeekChartRows=chartRows.filter(row=>mondayDateKey(parseWeekStart(row.date))===currentWeekStart);
   const currentWeekHitsForPattern=p=>{
-   const linkedJodis=new Set(p.steps.map(step=>step.jodi));
+   const linkedJodis=new Set([p.duplicate,...p.steps.map(step=>step.jodi)]);
    return currentWeekChartRows.flatMap(row=>days.flatMap(day=>{
     const jodi=String(row[day+' Jodi']??'').trim();
     return valid(jodi)&&linkedJodis.has(jodi)?[{jodi,day,date:row.date||''}]:[];
