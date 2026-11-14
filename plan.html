@@ -103,7 +103,7 @@ function pad(n){return("0"+n).slice(-2)}
 function row(i){return'<b><span class="tag '+i.s+'">'+t().sub[i.s]+'</span>'+esc(nm(i))+'</b>'}
 function dueList(){var td=today(),out=[];D.days.forEach(function(x){if(x.rev||!P[x.n])return;[1,3,7,15,30].forEach(function(k){if(addD(P[x.n],k)===td)out.push({x:x,k:k})})});return out}
 function list(){
- var tt=t(),h='<h1>'+tt.h+'</h1><p class="lede">'+tt.lede+'</p>';
+ var tt=t(),h='<h1>'+tt.h+'</h1><p class="lede">'+tt.lede+'</p><p><a href="posters.html" style="display:inline-block;background:#1f9d55;color:#fff;padding:8px 14px;border-radius:10px;text-decoration:none;font-weight:600">📸 Day-wise posters · పోస్టర్లు (WhatsApp / Telegram)</a></p>';
  var nd=D.days.filter(function(x){return!x.rev}),dn=nd.filter(function(x){return P[x.n]}).length;
  h+='<div class="box"><b>'+tt.prog(dn,nd.length)+'</b><div class="prog"><i style="width:'+Math.round(dn*100/nd.length)+'%"></i></div><span class="note">'+tt.note+'</span></div>';
  h+=progBox();

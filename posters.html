@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Day-wise Posters · Sulabham</title>
+<meta name="description" content="Pick a day, download or share Sulabham's APPSC Group 1 & 2 study posters on WhatsApp and Telegram — English and Telugu.">
+<meta property="og:image" content="https://sulabham.in/sulabham-logo.png">
+<link rel="canonical" href="https://sulabham.in/posters.html">
+<link rel="icon" type="image/svg+xml" href="sulabham-icon.svg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500;700;800&family=Noto+Sans+Telugu:wght@400;600&family=Noto+Sans:wght@400;600&display=swap">
+<style>
+:root{--paper:#f6f4ee;--card:#fff;--ink:#14212b;--muted:#5b6b78;--line:#dfe3e6;--acc:#1d4f91;--wa:#1f9d55;--tg:#2a8bd2;--f-display:"Anek Telugu","Noto Sans",sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 "Noto Sans","Noto Sans Telugu",sans-serif}
+header{background:var(--acc);color:#fff;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+header a{color:#fff;text-decoration:none;font-family:var(--f-display);font-weight:800;font-size:20px}
+main{max-width:960px;margin:0 auto;padding:12px 16px 60px}
+h1{font-family:var(--f-display);font-size:1.5rem;margin:8px 0 2px}.lede{color:var(--muted);margin:0 0 12px}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px;position:sticky;top:0;z-index:5}
+select,button,.btn{font:inherit;font-size:15px;border-radius:10px;border:1px solid var(--line);padding:8px 12px;background:#fff;color:var(--ink);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+select{font-weight:600;min-width:150px}
+.seg button[aria-pressed=true]{background:var(--acc);color:#fff;border-color:var(--acc)}
+.seg{display:flex;gap:4px}
+.nav{margin-left:auto;display:flex;gap:6px}
+.days{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.days button{padding:6px 10px;min-width:44px;justify-content:center;font-weight:600}
+.days button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.all{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.primary{background:var(--wa);color:#fff;border-color:var(--wa);font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.card img{display:block;width:100%;height:auto;background:#eee;aspect-ratio:3/2;cursor:zoom-in}
+.card .row{display:flex;flex-wrap:wrap;gap:6px;padding:8px 10px;align-items:center}
+.card .t{font-weight:600;margin-right:auto}
+.wa{color:var(--wa);border-color:var(--wa)}.tg{color:var(--tg);border-color:var(--tg)}
+.note{color:var(--muted);font-size:14px;margin:12px 0}
+.empty{background:var(--card);border:1px dashed var(--line);border-radius:14px;padding:20px;text-align:center;color:var(--muted)}
+.lb{position:fixed;inset:0;background:rgba(0,0,0,.9);display:none;align-items:center;justify-content:center;z-index:20}
+.lb img{max-width:100%;max-height:100%}.lb.on{display:flex}
+</style>
+</head>
+<body>
+<header><a href="index.html">సులభం Sulabham</a><a href="plan.html" style="font-size:15px;font-weight:600">📅 Day-wise plan</a></header>
+<main>
+<h1>📸 Day-wise Posters · రోజువారీ పోస్టర్లు</h1>
+<p class="lede">Pick a day → download or share the posters on WhatsApp / Telegram. · రోజు ఎంచుకోండి → పోస్టర్లు డౌన్‌లోడ్ లేదా షేర్ చేయండి.</p>
+
+<div class="bar">
+  <label for="sel" style="font-weight:600">Day / రోజు</label>
+  <select id="sel"></select>
+  <div class="seg" role="group" aria-label="Language">
+    <button data-l="both" aria-pressed="true">Both</button>
+    <button data-l="en" aria-pressed="false">English</button>
+    <button data-l="te" aria-pressed="false">తెలుగు</button>
+  </div>
+  <div class="nav"><button id="prev" aria-label="Previous day">◀</button><button id="next" aria-label="Next day">▶</button></div>
+</div>
+
+<div class="days" id="days"></div>
+
+<div class="all" id="all"></div>
+<div class="grid" id="grid"></div>
+<p class="note">📱 On a phone, <b>Share</b> opens WhatsApp / Telegram directly with the image. On a computer, use <b>Download</b> and then attach it. · ఫోన్‌లో <b>Share</b> నొక్కితే వాట్సాప్ / టెలిగ్రామ్‌లో నేరుగా చిత్రం వెళ్తుంది.</p>
+</main>
+<div class="lb" id="lb"><img alt=""></div>
+<script>
+const SUB={his:['History','చరిత్ర'],pol:['Polity','రాజ్యాంగం'],geo:['Geography','భౌగోళికం'],eco:['Economy','ఆర్థికం'],sci:['Science','విజ్ఞానం'],env:['Environment','పర్యావరణం'],ap:['AP','ఆంధ్రప్రదేశ్'],cul:['Culture','సంస్కృతి']};
+const ORDER=['his','pol','geo','eco','sci','env','ap','cul'];
+let LIST={},DAYS=[],cur=null,lang='both';
+try{lang=localStorage.getItem('pl')||'both'}catch(e){}
+const $=s=>document.querySelector(s);
+function label(f){const m=f.match(/d(\d+)_(\w+)_(en|te)/);const s=SUB[m[2]]||[m[2],m[2]];return (m[3]=='en'?s[0]+' · English':s[1]+' · తెలుగు')}
+function files(){let f=(LIST[cur]||[]).filter(x=>lang=='both'||x.endsWith('_'+lang+'.png'));
+ return f.sort((a,b)=>{const sa=a.split('_')[1],sb=b.split('_')[1];return ORDER.indexOf(sa)-ORDER.indexOf(sb)||a.localeCompare(b)})}
+async function asFile(f){const r=await fetch('plan/posters/'+f);const b=await r.blob();return new File([b],'Sulabham_'+f,{type:'image/png'})}
+async function share(fs,btn){
+ const old=btn.textContent;btn.textContent='⏳';
+ try{const arr=await Promise.all(fs.map(asFile));
+  const text='Sulabham · Day '+cur+' posters · APPSC Group 1 & 2\nhttps://sulabham.in/posters.html?d='+cur;
+  if(navigator.canShare&&navigator.canShare({files:arr})){await navigator.share({files:arr,text});}
+  else{fs.forEach((f,i)=>setTimeout(()=>dl(f),i*400));alert('Sharing images is not supported in this browser — downloaded instead. Attach them in WhatsApp / Telegram.')}
+ }catch(e){}
+ btn.textContent=old}
+function dl(f){const a=document.createElement('a');a.href='plan/posters/'+f;a.download='Sulabham_'+f;document.body.appendChild(a);a.click();a.remove()}
+function render(){
+ $('#sel').value=cur;
+ document.querySelectorAll('#days button').forEach(b=>b.classList.toggle('on',b.dataset.d==cur));
+ document.querySelectorAll('.seg button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.l==lang));
+ const fs=files(),g=$('#grid'),al=$('#all');g.innerHTML='';al.innerHTML='';
+ if(!fs.length){g.innerHTML='<div class="empty">No posters for this day yet.</div>';return}
+ const sa=document.createElement('button');sa.className='btn primary';sa.textContent='📤 Share all '+fs.length+' (WhatsApp / Telegram)';sa.onclick=()=>share(fs,sa);
+ const da=document.createElement('button');da.className='btn';da.textContent='⬇️ Download all';da.onclick=()=>fs.forEach((f,i)=>setTimeout(()=>dl(f),i*400));
+ al.append(sa,da);
+ fs.forEach(f=>{const c=document.createElement('div');c.className='card';
+  c.innerHTML=`<img loading="lazy" src="plan/posters/${f}" alt="Day ${cur} ${label(f)} poster" width="1536" height="1024"><div class="row"><span class="t">${label(f)}</span></div>`;
+  const row=c.querySelector('.row');
+  const s=document.createElement('button');s.className='btn wa';s.textContent='📤 Share';s.onclick=()=>share([f],s);
+  const d=document.createElement('button');d.className='btn';d.textContent='⬇️ Download';d.onclick=()=>dl(f);
+  row.append(s,d);c.querySelector('img').onclick=()=>{$('#lb img').src='plan/posters/'+f;$('#lb').classList.add('on')};g.append(c)})
+ history.replaceState(null,'','?d='+cur);
+}
+function go(d){cur=String(d);render();window.scrollTo({top:0,behavior:'smooth'})}
+$('#lb').onclick=()=>$('#lb').classList.remove('on');
+$('#sel').onchange=e=>go(e.target.value);
+document.querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{lang=b.dataset.l;try{localStorage.setItem('pl',lang)}catch(e){}render()});
+$('#prev').onclick=()=>{const i=DAYS.indexOf(cur);if(i>0)go(DAYS[i-1])};
+$('#next').onclick=()=>{const i=DAYS.indexOf(cur);if(i<DAYS.length-1)go(DAYS[i+1])};
+fetch('plan/posters/list.json?'+Date.now()).then(r=>r.json()).then(j=>{LIST=j;DAYS=Object.keys(j).sort((a,b)=>a-b);
+ $('#sel').innerHTML=DAYS.map(d=>`<option value="${d}">Day ${d} · ${d}వ రోజు</option>`).join('');
+ $('#days').innerHTML=DAYS.map(d=>`<button data-d="${d}">${d}</button>`).join('');
+ document.querySelectorAll('#days button').forEach(b=>b.onclick=()=>go(b.dataset.d));
+ const q=new URLSearchParams(location.search).get('d');cur=(q&&j[q])?q:DAYS[DAYS.length-1];render()});
+</script>
+</body>
+</html>
