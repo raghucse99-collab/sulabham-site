@@ -1,5 +1,8 @@
 # Group 2 Prelims weekly mock tests
 
+> Read tools/CONTENT_STANDARD.md first — its question-setting rules (present paper setting, match-the-list layout) apply to every mock.
+
+
 The page is `mock.html`. The tests are in `mocks/G2-Mxx.json`, and `mocks/index.json` lists them with the newest first. Everything is free and is not encrypted.
 
 ## Pattern (APPSC Group 2 Screening Test, Notification 37/2026)

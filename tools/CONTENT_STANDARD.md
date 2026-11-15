@@ -60,6 +60,8 @@ The learner is average-level: never assume advanced terminology; never oversimpl
 - Four plausible options; every distractor must be a real confusion, not an obvious wrong answer.
 - Explanation for each question: (1) correct answer, (2) why it is correct, (3) why EACH other option is wrong, (4) concept background, (5) common exam trap, (6) related syllabus topics. In daily quizzes the `why` field holds this in compact form (answer reason + why the trap options fail).
 - English and Telugu versions with identical meaning.
+- **Present paper setting (owner's standing rule, Nov 2026):** every test must look and feel like the LATEST official APPSC paper (Group 1 Prelims 17 Mar 2024, ASO 29 Apr 2025; replace with newer papers as they are released and re-analyse). Per 10 questions aim for: 4 statement-based (2–4 statements, combination or "which is NOT correct"), 1–2 match List-I/List-II, 1 chronology or pairs, 1 assertion–reason, 2–3 application/analytical; at most 1 direct-fact question, and only if it tests a confusable fact. About 15% easy, 65% medium, 20% hard.
+- **Match-the-list layout:** never on one line. Show List-I and List-II as a two-column table (or one item per line: A, B, C, D / 1, 2, 3, 4), then the codes A-B-C-D as separate options. Statements I/II/III/IV each on their own line.
 - Label clearly: "Original practice question (Sulabham)" vs "Previous APPSC question — <exam, year> (verified)". Never present an original as a previous-year question.
 
 ## 3. Bilingual rules
@@ -77,6 +79,8 @@ The learner is average-level: never assume advanced terminology; never oversimpl
 5. Detailed understanding  6. Practical examples  7. Mind map / diagram where useful  8. Memory techniques & link chains
 9. Important facts & keywords (Essential / Conceptual / Advanced)  10. Connected topics  11. APPSC previous questions — only if verified, with exam & year
 12. New APPSC-pattern MCQs  13. Explanations for all options  14. Self-recall questions  15. Revision notes  16. English + Telugu  17. References + verification date
+
+**Depth made easy (owner's standing rule):** keep Group 1 depth but say it simply — every concept as what → why → how → result → exam angle, short sentences, one real example (AP first, all regions equally), one picture or table, and an "Other angles asked in exams" line so the reader sees how the same concept is twisted in questions. Depth = more angles and links, not more jargon.
 
 **Daily pages (morning Today page, evening current affairs, weekly, monthly)** keep their compact format but must carry the same spirit:
 easy what→why→how explanation, AP/static link chain, a picture where it helps, memory code (`tip`) + exam trap, APPSC-pattern questions with explanations, refs (the date of the page = verification date). Group 2 relevance first when choosing topics.
