@@ -21,3 +21,14 @@
   }catch(e){}
   try{history.replaceState(null,"",location.pathname+location.search+(orig?"#"+orig:""))}catch(e){location.hash=orig}
 })();
+
+/* Sulabham app: link the app manifest on every page and register the offline service worker. */
+(function(){
+  try{var d=document,h=d.head||d.getElementsByTagName("head")[0];
+    if(h&&!d.querySelector('link[rel="manifest"]')){var l=d.createElement("link");l.rel="manifest";l.href="/manifest.webmanifest";h.appendChild(l);
+      var t=d.createElement("meta");t.name="theme-color";t.content="#1d4f91";h.appendChild(t);
+      var a=d.createElement("link");a.rel="apple-touch-icon";a.href="/icons/icon-192.png";h.appendChild(a)}
+    window.addEventListener("beforeinstallprompt",function(ev){ev.preventDefault();window.SUL_install=ev;d.dispatchEvent(new Event("sul-install"))});
+    if("serviceWorker" in navigator&&location.protocol==="https:")window.addEventListener("load",function(){navigator.serviceWorker.register("/sw.js").catch(function(){})});
+  }catch(e){}
+})();
