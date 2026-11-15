@@ -1831,6 +1831,9 @@ function renderChart(){
    if(visitedNodes>MAX_NODES)break;
   }
   let patterns=[...found.values()];
+  // Show only complete +1 progression chains: gap sequence must be 1,2,3,4...
+  // and contain at least four links. Exclude fixed-gap and partial sequences.
+  patterns=patterns.filter(p=>p.steps.length>=4&&p.steps.every((step,i)=>step.gap===i+1));
   if(query)patterns=patterns.filter(p=>p.duplicate===query||p.steps.some(step=>step.jodi===query));
   patterns.sort((a,b)=>b.steps.length-a.steps.length||a.start-b.start);
   function mergeSameSchedulePaths(list){
