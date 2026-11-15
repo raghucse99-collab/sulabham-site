@@ -37,21 +37,23 @@ var L={en:{t:"Sulabham App",s:"APPSC Group 1 & 2 in Telugu and English — on yo
  an:"Android (Chrome)",anS:["Open sulabham.in in <b>Chrome</b>","Tap the <b>Install the app</b> button above — or tap Chrome's menu <b>⋮</b> → <b>Install app</b> / <b>Add to Home screen</b>","Tap <b>Install</b>. The Sulabham icon appears on your home screen"],
  ip:"iPhone (Safari)",ipS:["Open sulabham.in in <b>Safari</b>","Tap the <b>Share</b> button (square with ↑ arrow)","Tap <b>Add to Home Screen</b> → <b>Add</b>"],
  paid:"Bought a pack?",paidT:"On Android the app keeps your unlock — nothing to do. On iPhone the home-screen app is separate from Safari: open the pack inside the app, and if it asks for a code, send us the device number shown there — we send a new code free.",
- dv:"Device number in this window"},
+ dv:"Device number in this window",
+ nob:"No install button? Then the app is <b>already installed</b> on this phone — look for the <b>Sulabham</b> icon on your home screen or in the apps list. Or tap Chrome's menu <b>⋮</b> → <b>Install app</b>."},
  te:{t:"సులభం యాప్",s:"APPSC గ్రూప్ 1 & 2 తెలుగు, ఇంగ్లీష్‌లో — మీ ఫోన్ హోమ్ స్క్రీన్‌పై",
  inst:"📲 యాప్ ఇన్‌స్టాల్ చేయండి",done:"✅ సులభం యాప్ ఈ ఫోన్‌లో ఇన్‌స్టాల్ అయింది. హోమ్ స్క్రీన్ నుంచి తెరవండి.",
  why:"ఎందుకు ఇన్‌స్టాల్ చేయాలి?",f:["హోమ్ స్క్రీన్ నుంచి ఒక్క టచ్‌తో, యాప్ లాగా పూర్తి స్క్రీన్‌లో తెరుచుకుంటుంది","రోజువారీ కరెంట్ అఫైర్స్, క్విజ్‌లు, మాక్ టెస్ట్‌లు, మీ ప్యాక్‌లు — అన్నీ ఒకే చోట","నెట్ బలహీనంగా ఉన్నా ముందు తెరిచిన పేజీలు చదవవచ్చు","ఉచితం — ప్లే స్టోర్ అవసరం లేదు, చాలా చిన్నది (1 MB కంటే తక్కువ)"],
  an:"ఆండ్రాయిడ్ (Chrome)",anS:["sulabham.in ను <b>Chrome</b>లో తెరవండి","పైన ఉన్న <b>యాప్ ఇన్‌స్టాల్ చేయండి</b> బటన్ నొక్కండి — లేదా Chrome మెనూ <b>⋮</b> → <b>Install app</b> / <b>Add to Home screen</b>","<b>Install</b> నొక్కండి. సులభం ఐకాన్ హోమ్ స్క్రీన్‌పై వస్తుంది"],
  ip:"ఐఫోన్ (Safari)",ipS:["sulabham.in ను <b>Safari</b>లో తెరవండి","<b>Share</b> బటన్ (↑ బాణం ఉన్న చతురస్రం) నొక్కండి","<b>Add to Home Screen</b> → <b>Add</b> నొక్కండి"],
  paid:"ప్యాక్ కొన్నారా?",paidT:"ఆండ్రాయిడ్‌లో యాప్‌లో కూడా మీ అన్‌లాక్ అలాగే ఉంటుంది — ఏమీ చేయనక్కర్లేదు. ఐఫోన్‌లో హోమ్ స్క్రీన్ యాప్ Safari నుంచి వేరు: యాప్‌లో ప్యాక్ తెరవండి, కోడ్ అడిగితే అక్కడ కనిపించే పరికరం నంబర్ మాకు పంపండి — కొత్త కోడ్ ఉచితంగా పంపుతాం.",
- dv:"ఈ విండోలో పరికరం నంబర్"}};
+ dv:"ఈ విండోలో పరికరం నంబర్",
+ nob:"ఇన్‌స్టాల్ బటన్ కనిపించలేదా? అయితే యాప్ ఈ ఫోన్‌లో <b>ఇప్పటికే ఇన్‌స్టాల్ అయింది</b> — హోమ్ స్క్రీన్ లేదా యాప్స్ జాబితాలో <b>Sulabham</b> ఐకాన్ చూడండి. లేదా Chrome మెనూ <b>⋮</b> → <b>Install app</b> నొక్కండి."}};
 var lang="en";try{lang=localStorage.getItem("sul_lang")||"en"}catch(e){}
 var standalone=(window.matchMedia&&matchMedia("(display-mode: standalone)").matches)||navigator.standalone;
 var ios=/iphone|ipad|ipod/i.test(navigator.userAgent);
 function li(a){return a.map(function(x){return"<li>"+x+"</li>"}).join("")}
 function draw(){var x=L[lang];document.documentElement.lang=lang;document.title=x.t+" · Sulabham";
  document.getElementById("lte").className=lang==="te"?"on":"";document.getElementById("len").className=lang==="en"?"on":"";
- var top=standalone?'<div class="box ok">'+x.done+'</div>':(window.SUL_install?'<button class="btn" id="ib">'+x.inst+'</button>':'');
+ var top=standalone?'<div class="box ok">'+x.done+'</div>':(window.SUL_install?'<button class="btn" id="ib">'+x.inst+'</button>':(ios?'':'<div class="box">'+x.nob+'</div>'));
  var steps=ios?[["ip","ipS"],["an","anS"]]:[["an","anS"],["ip","ipS"]];
  document.getElementById("m").innerHTML='<div class="hero"><img src="icons/icon-192.png" alt=""><div><h1>'+x.t+'</h1><p>'+x.s+'</p></div></div>'+top+
   '<div class="box"><h2>'+x.why+'</h2><ul class="f">'+li(x.f)+'</ul></div>'+
