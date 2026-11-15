@@ -1833,7 +1833,9 @@ function renderChart(){
   let patterns=[...found.values()];
   // Show only complete +1 progression chains: gap sequence must be 1,2,3,4...
   // and contain at least four links. Exclude fixed-gap and partial sequences.
-  patterns=patterns.filter(p=>p.steps.length>=4&&p.steps.every((step,i)=>step.gap===i+1));
+  // Keep completed 1→2→3→4 chains and 1→2→3 chains waiting for gap 4.
+  // The latter are required to show a future target before it occurs.
+  patterns=patterns.filter(p=>p.steps.length>=3&&p.steps.every((step,i)=>step.gap===i+1));
   if(query)patterns=patterns.filter(p=>p.duplicate===query||p.steps.some(step=>step.jodi===query));
   patterns.sort((a,b)=>b.steps.length-a.steps.length||a.start-b.start);
   function mergeSameSchedulePaths(list){
@@ -1874,6 +1876,26 @@ function renderChart(){
   // completed link so far. Include every chain whose next link is due in the
   // current week, and every chain that actually matched in the current week.
   const dueThisWeekPatterns=patterns.filter(p=>p.failedAt===latestIndex&&p.nextJodi);
+  const currentMonthKey=currentWeekStart.slice(0,7);
+  const targetIndexFor=p=>(p.steps[p.steps.length-1]?.to??p.start)+p.nextGap+1;
+  const targetWeekDateFor=p=>{
+   const weeksFromCurrent=targetIndexFor(p)-latestIndex;
+   const d=new Date(currentWeekStart+'T00:00:00Z');d.setUTCDate(d.getUTCDate()+weeksFromCurrent*7);
+   return d.toISOString().slice(0,10);
+  };
+  // "Due this month" includes a target in the current week or any later
+  // playing week whose Monday falls in the current calendar month.
+  const dueThisMonthPatterns=patterns.filter(p=>{
+   const target=targetIndexFor(p);
+   if(target<latestIndex||(p.failedAt!==undefined&&p.failedAt!==latestIndex))return false;
+   return targetWeekDateFor(p).slice(0,7)===currentMonthKey;
+  });
+  // Every later target beyond this month is listed, with its exact number
+  // of playing weeks from the current week and its target week date.
+  const futureGamePatterns=patterns.filter(p=>{
+   const target=targetIndexFor(p);
+   return p.failedAt===undefined&&target>latestIndex&&targetWeekDateFor(p).slice(0,7)!==currentMonthKey;
+  });
   // A linked Jodi counts as happened this week whenever that Jodi appears
   // anywhere in the current calendar-week row, even if it is not the next
   // scheduled link in the historical chain (e.g. linked 10 appears Friday).
@@ -1881,27 +1903,19 @@ function renderChart(){
    const linkedValues=new Set(p.steps.flatMap(step=>step.jodis||[step.jodi]));
    return linkedThisWeekNumbers.some(value=>linkedValues.has(value));
   });
-  const upcoming=patterns.filter(p=>{
-   if(p.steps.length<2)return false;
-   if(p.failedAt!==undefined||!p.nextJodi)return false;
-   const last=p.steps[p.steps.length-1]?.to??p.start;
-   const target=last+p.nextGap+1;
-   // Show the next one or two playing-week targets as separate actionable groups.
-   return target===latestIndex+1||target===latestIndex+2;
-  });
+  const upcoming=[...dueThisMonthPatterns,...futureGamePatterns];
   running.sort((a,b)=>(b.steps[b.steps.length-1]?.to??b.start)-(a.steps[a.steps.length-1]?.to??a.start)||b.steps.length-a.steps.length||b.start-a.start);
   upcoming.sort((a,b)=>((a.steps[a.steps.length-1]?.to??a.start)+a.nextGap+1)-((b.steps[b.steps.length-1]?.to??b.start)+b.nextGap+1)||b.steps.length-a.steps.length);
-  const activePatterns=view==='linked'?[...dueThisWeekPatterns,...occurredThisWeekPatterns,...running,...upcoming]:patterns;
+  const activePatterns=view==='linked'?[...dueThisMonthPatterns,...futureGamePatterns,...occurredThisWeekPatterns,...running]:patterns;
   const patternKey=p=>p.start+':'+p.duplicate+':'+p.steps.map(x=>x.from+'-'+x.to+'-'+x.jodi+'-'+x.gap).join('|');
   const activeUnique=[...new Map(activePatterns.map(p=>[patternKey(p),p])).values()];
   const mergedActive=mergeSameSchedulePaths(activeUnique);
   const activeKeys=new Set(activeUnique.map(patternKey));
   const historicalOnly=patterns.filter(p=>!activeKeys.has(patternKey(p)));
   mergedActive.sort((a,b)=>{const rank=p=>p.steps.some(x=>x.to===latestIndex)?0:p.failedAt===latestIndex?1:2;return rank(a)-rank(b)||b.steps.length-a.steps.length;});
-  const dueCount=dueThisWeekPatterns.length;
-  const nextOneCount=upcoming.filter(p=>(p.steps[p.steps.length-1]?.to??p.start)+p.nextGap+1===latestIndex+1).length;
-  const nextTwoCount=upcoming.filter(p=>(p.steps[p.steps.length-1]?.to??p.start)+p.nextGap+1===latestIndex+2).length;
-  $('count').textContent=view==='linked'?(dueCount+' ఈ వారం పడాల్సి ఉంది · '+running.length+' ఈ వారం పడింది · '+nextOneCount+' వచ్చే వారం–1 · '+nextTwoCount+' వచ్చే వారం–2'):patterns.length+' linked patterns';
+  const dueCount=dueThisMonthPatterns.length;
+  const futureCount=futureGamePatterns.length;
+  $('count').textContent=view==='linked'?(dueCount+' ఈ నెలలో లక్ష్యాలు · '+futureCount+' భవిష్యత్ గేమ్స్ · '+running.length+' ఈ వారం కొనసాగినవి'):patterns.length+' linked patterns';
   stats.hidden=true;
   function cardsFor(list,all,rows,dayNames,isValid,escapeHtml){
    return list.slice(0,500).map((p,n)=>{
@@ -1913,10 +1927,11 @@ function renderChart(){
     const dueThisWeek=p.failedAt!==undefined&&linkedIsThisWeek(p.failedAt);
     const nextTarget=endIndex+p.nextGap+1;
     const weeksAhead=nextTarget-latestIndex;
+    const targetWeekDate=targetWeekDateFor(p);
     const weekStatus=occurredThisWeek?'ఈ వారం పడింది':
       dueThisWeek?'ఈ వారం పడాల్సి ఉంది':
-      weeksAhead===1?'వచ్చే వారం–1':
-      weeksAhead===2?'వచ్చే వారం–2':
+      weeksAhead>=0&&targetWeekDate.slice(0,7)===currentMonthKey?'ఈ నెలలో రావాల్సినది':
+      weeksAhead>0?'భవిష్యత్ గేమ్ · '+weeksAhead+' వారాల తర్వాత':
       'గత నమూనా';
     p.steps.forEach(step=>{if(!marks.has(step.from))marks.set(step.from,new Set());if(!marks.has(step.to))marks.set(step.to,new Set());(step.jodis||[step.jodi]).forEach(j=>{marks.get(step.from).add(j);marks.get(step.to).add(j);});});
     // Highlight linked Jodis that actually appeared in the current week.
@@ -1936,7 +1951,9 @@ function renderChart(){
     const nextTargetExists=nextTarget<rows.length;
     const nextTargetIsImmediate=nextTarget===latestIndex+1;
     const nextTargetLabel=nextTargetExists?(nextTarget===latestIndex?'ఈ వారం · '+(rows[nextTarget]?.date||''):'చార్ట్‌లోని లక్ష్య వారం · '+(rows[nextTarget]?.date||'')):
-      (nextTargetIsImmediate?'తదుపరి ఆడే వారం':'ఇంకా '+nextGapNumber+' మధ్యవర్తి ఆడే వారాల తర్వాత (సుమారు '+(nextGapNumber+1)+'వ ఆడే వారం)');
+      (weeksAhead===1?'వచ్చే వారం · '+targetWeekDate:
+       weeksAhead>1?'ఇంకా '+weeksAhead+' ఆడే వారాల తర్వాత · '+targetWeekDate:
+       'లక్ష్య వారం ఇప్పటికే దాటింది · '+targetWeekDate);
     const next='<div class="repeat-next-target"><b>తదుపరి లింక్‌లో రావాల్సిన జోడి:</b> <strong>'+escapeHtml(nextJodis.join(' · ')||'—')+'</strong><small>గ్యాప్ '+nextGapNumber+' = మధ్యలో '+nextGapNumber+' ఆడే వారాలు ఖాళీ · '+escapeHtml(nextTargetLabel)+'</small></div>';
     return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS · '+weekStatus+'</strong><span>Gaps: '+p.steps.map(x=>x.gap).join(' → ')+'</span></div><div class="repeat-watch"><b>ప్రారంభ డూప్లికేట్ జోడి</b><div><strong>'+escapeHtml(p.duplicate)+'</strong></div><small>Same weekly link positions and gap sequence are grouped together. Different Jodis at the same link are shown together.</small>'+(dueThisWeek||occurredThisWeek?'<div class="repeat-this-week"><b>ఈ వారం వచ్చిన జోడీలు:</b> <strong>'+escapeHtml(thisWeekNumbers.join(' · ')||'No results published yet')+'</strong></div>':'')+'</div>'+steps+next+'<details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
    }).join('');
@@ -1958,7 +1975,13 @@ function renderChart(){
      group('పెరుగుతున్న గ్యాప్',increasing,'#4c1d95')+
      (other.length?group('OTHER GAP',other,'#475569'):'');
    };
-   const linkedContent=strategySection('ఈ వారం పడాల్సినవి · ఈ వారం పడినవి · వచ్చే వారం 1 / 2',mergedActive,mergedActive,'#166534')+
+   const dueMonthUnique=[...new Map(dueThisMonthPatterns.map(p=>[patternKey(p),p])).values()];
+   const futureUnique=[...new Map(futureGamePatterns.map(p=>[patternKey(p),p])).values()];
+   const dueMonthMerged=mergeSameSchedulePaths(dueMonthUnique);
+   const futureMerged=mergeSameSchedulePaths(futureUnique);
+   const linkedContent=strategySection('ఈ నెలలో రావాల్సిన లింకులు · '+dueMonthMerged.length,dueMonthMerged,dueMonthMerged,'#166534')+
+    strategySection('భవిష్యత్ గేమ్స్ · ఎన్ని వారాల తర్వాత · '+futureMerged.length,futureMerged,futureMerged,'#1d4ed8')+
+    strategySection('ఈ వారం వచ్చిన / కొనసాగుతున్న లింకులు · '+mergedActive.length,mergedActive,mergedActive,'#6d28d9')+
     strategySection('గత నమూనాలు',historicalOnly,historicalOnly,'#475569');
    $('tableArea').innerHTML='<div class="repeat-page"><h3>'+(view==='linked'?'LINKED JODI SEQUENCES':'SEPARATE LINKED JODI SEARCH')+' · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">'+linkedIntro+'</p>'+(view==='linked'?linkedContent:(cardsFor(patterns,patterns,playingRows,days,valid,esc)||'<div class="empty">No linked patterns found.</div>'))+'</div>';
   return;
