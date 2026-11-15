@@ -1556,7 +1556,10 @@ function renderChart(){
    }
    if(visited>MAX_NODES)break;
   }
-  const patterns=[...found.values()].sort((a,b)=>b.steps.length-a.steps.length||a.start-b.start||
+  // Number+n linked analysis: show only strictly increasing-by-one gap chains
+  // (for example 1 → 2 → 3 or 4 → 5 → 6). Equal/same-gap chains are excluded
+  // from every section, including the historical archive.
+  const patterns=[...found.values()].filter(p=>p.mode==='increasing').sort((a,b)=>b.steps.length-a.steps.length||a.start-b.start||
    a.steps.reduce((n,x)=>n+x.gap,0)-b.steps.reduce((n,x)=>n+x.gap,0));
   // Classify by the real calendar week (Monday-Sunday), not by the final
   // position in the filtered search. A filtered search can omit the latest
