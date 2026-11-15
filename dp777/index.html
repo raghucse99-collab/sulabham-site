@@ -1594,13 +1594,15 @@ function renderChart(){
   const currentWeekLiveRow=currentWeekChartRows.find(row=>parseWeekStart(row.date)===currentWeekStart);
   if(currentWeekLiveRow&&liveWeekResult)currentWeekLiveRow[currentWeekDayKey().day+' Jodi']=liveWeekResult[1].padStart(2,'0');
   const currentWeekDateSet=new Set(currentWeekChartRows.map(row=>String(row.date||'').trim()).filter(Boolean));
+  // Build the linked-Jodi set from the whole matched chain, not just its last
+  // row. This is recalculated for the selected market and Number+n search on
+  // every render, so a new result in any current-week weekday is recognised.
   const currentWeekHitsForPattern=p=>{
-   const terminalRow=filteredRows[chainEnd(p)]?.row;
-   // Include every Jodi in the final linked row as a possible next-link
-   // candidate. Otherwise a new result such as 94 can be missed merely
-   // because it has not yet become a completed step in the chain.
-   const nextLinkCandidates=analysisDays.map(day=>String(terminalRow?.[day+' Jodi']??'').trim());
-   const linkedJodis=new Set([p.duplicate,...p.steps.flatMap(step=>[step.jodi,...(step.jodis||[])]),...nextLinkCandidates].map(value=>String(value??'').trim()).filter(valid));
+   const end=chainEnd(p),terminalRow=filteredRows[end]?.row;
+   const chainRowJodis=filteredRows.slice(p.start,end+1).flatMap(item=>
+    days.map(day=>String(item.row?.[day+' Jodi']??'').trim()));
+   const nextLinkCandidates=days.map(day=>String(terminalRow?.[day+' Jodi']??'').trim());
+   const linkedJodis=new Set([p.duplicate,...p.steps.flatMap(step=>[step.jodi,...(step.jodis||[])]),...chainRowJodis,...nextLinkCandidates].map(value=>String(value??'').trim()).filter(valid));
    return currentWeekChartRows.flatMap(row=>days.flatMap(day=>{
     const jodi=String(row[day+' Jodi']??'').trim();
     return valid(jodi)&&linkedJodis.has(jodi)?[{jodi,day,date:row.date||''}]:[];
