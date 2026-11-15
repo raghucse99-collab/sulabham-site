@@ -1,0 +1,218 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-15 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about the Bay of Bengal system (15 Nov 2026). Which of the statements given above is/are correct?
+I. By 15 Nov morning it had become a depression moving north-north-west.
+II. IMD expects it to become a severe cyclonic storm on 17 Nov.
+III. It has already been named 'Akvan' at the depression stage.
+
+--- QUESTION ---
+Q1. Consider the following statements about the Bay of Bengal system (15 Nov 2026). Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is the trap: a name is given only when it becomes a cyclonic storm (expected 16 Nov), not at the depression stage.
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Arrange the following IMD stages of a tropical system in increasing order of wind speed:
+1. Severe cyclonic storm
+2. Depression
+3. Very severe cyclonic storm
+4. Cyclonic storm
+
+--- OPTIONS ---
+(a) 4-2-1-3
+(b) 2-1-4-3
+(c) 2-4-3-1
+(d) 2-4-1-3
+
+--- CORRECT (tick this) ---
+(d) 2-4-1-3
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Depression → cyclonic storm (62–88 km/h) → severe (89–117) → very severe (118–165). Trap: 'severe' comes BEFORE 'very severe'; and a depression is weaker than any cyclonic storm.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. With reference to IMNEX-26, which of the statements given above is/are correct?
+I. It was the 8th edition of the India–Myanmar naval exercise, held at Visakhapatnam.
+II. India was represented by INS Rana and INS Sumedha.
+III. It had only a sea phase; there was no harbour phase.
+
+--- QUESTION ---
+Q3. With reference to IMNEX-26, which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: there was a harbour phase (expert exchanges, cross-deck visits, sports) followed by a sea phase.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. Consider the following statements about the Access Equality Index 2026. Which of the statements given above is/are NOT correct?
+I. It was prepared by NITI Aayog.
+II. Andhra Pradesh ranked first overall among 28 States.
+III. Andhra Pradesh ranked first in the socio-economic security pillar.
+
+--- QUESTION ---
+Q4. Consider the following statements about the Access Equality Index 2026. Which of the statements given above is/are NOT correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) III only
+(d) I and II only
+
+--- CORRECT (tick this) ---
+(d) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are NOT correct: it was made by CNES, O.P. Jindal Global University (not NITI Aayog), and Goa is 1st (AP 2nd). III is correct (AP 0.69).
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Consider the following about India's foreign trade in October 2026. Which of the statements given above is/are correct?
+I. Total (goods + services) exports were about US$ 90 billion.
+II. Services exports were larger than merchandise exports.
+III. India had a merchandise trade surplus in October.
+
+--- QUESTION ---
+Q5. Consider the following about India's foreign trade in October 2026. Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Only I is correct (US$ 89.99 bn). II is wrong: services 40.51 < goods 49.47. III is wrong: goods imports (89.35) exceeded goods exports — a deficit of 39.88 bn; only the OVERALL deficit narrowed.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Under the RBI (Domestic Money Transfer) Directions, 2026, which of the following pairs is/are correctly matched?
+I. Walk-in customer, NEFT at a bank branch — up to ₹50,000
+II. Cash pay-out to a beneficiary — ₹50,000 per transaction
+III. Legal basis — Payment and Settlement Systems Act, 2007
+
+--- QUESTION ---
+Q6. Under the RBI (Domestic Money Transfer) Directions, 2026, which of the following pairs is/are correctly matched? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct. II is wrong: cash pay-out is limited to ₹10,000 per transaction and ₹25,000 a month per beneficiary — ₹50,000 is the branch NEFT limit.
+
+==================== Q7 ====================
+--- QUESTION ---
+Q7. Assertion (A): India has already crossed its target of 50% non-fossil installed power capacity by 2030.
+Reason (R): India's non-fossil capacity reached 308 GW, about 55% of total installed capacity, by 31 July 2026.
+
+--- OPTIONS ---
+(a) Both A and R are true, and R is the correct explanation of A
+(b) Both A and R are true, but R is not the correct explanation of A
+(c) A is true, but R is false
+(d) A is false, but R is true
+
+--- CORRECT (tick this) ---
+(a) Both A and R are true, and R is the correct explanation of A
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Both true and R explains A: 55% > 50%. Trap: the 55% is a share of installed CAPACITY, not of electricity generated — but the target is also about capacity, so R explains A.
+
+==================== Q8 ====================
+--- QUESTION ---
+Q8. Match List-I (meeting) with List-II (number of edition held/being held in Manila, Nov 2026):
+A. ASEAN Summit
+B. ASEAN-India Summit
+C. East Asia Summit
+1. 21st
+2. 23rd
+3. 49th
+
+--- OPTIONS ---
+(a) A-2, B-3, C-1
+(b) A-3, B-1, C-2
+(c) A-1, B-2, C-3
+(d) A-3, B-2, C-1
+
+--- CORRECT (tick this) ---
+(d) A-3, B-2, C-1
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+49th ASEAN Summit, 23rd ASEAN-India Summit, 21st East Asia Summit. Trap: option (a) swaps ASEAN's own summit with India's summit with ASEAN.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Consider the following statements about Lakshya Sen's win on 15 Nov 2026. Which of the statements given above is/are correct?
+I. He won the Kumamoto Masters Japan, a BWF Super 500 event.
+II. He won the final in straight games.
+III. He is the first Indian to win this tournament.
+
+--- QUESTION ---
+Q9. Consider the following statements about Lakshya Sen's win on 15 Nov 2026. Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct. II is the trap: he LOST the first game 13-21 and won the next two (21-18, 21-14).
+
+==================== Q10 ====================
+--- QUESTION ---
+Q10. Consider the following pairs (sports event — place, Nov 2026). Which of the pairs given above is/are correctly matched?
+I. Under-19 Asia Cup final — Oman
+II. SAFF Championship semi-final, India vs Bhutan — Dhaka
+III. IMNEX-26 naval exercise — Kochi
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: IMNEX-26 was held at Visakhapatnam, HQ of the Eastern Naval Command (Kochi is Southern Naval Command).
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/current.html?d=2026-11-15
