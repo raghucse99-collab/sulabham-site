@@ -308,5 +308,11 @@
 "d45_eco_te.png",
 "d45_geo_en.png",
 "d45_geo_te.png"
+],
+"46": [
+"d46_eco_en.png",
+"d46_eco_te.png",
+"d46_soc_en.png",
+"d46_soc_te.png"
 ]
 }

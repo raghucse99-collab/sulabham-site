@@ -64,8 +64,8 @@ select{font-weight:600;min-width:150px}
 </main>
 <div class="lb" id="lb"><img alt=""></div>
 <script>
-const SUB={his:['History','చరిత్ర'],pol:['Polity','రాజ్యాంగం'],geo:['Geography','భౌగోళికం'],eco:['Economy','ఆర్థికం'],sci:['Science','విజ్ఞానం'],env:['Environment','పర్యావరణం'],ap:['AP','ఆంధ్రప్రదేశ్'],cul:['Culture','సంస్కృతి']};
-const ORDER=['his','pol','geo','eco','sci','env','ap','cul'];
+const SUB={his:['History','చరిత్ర'],pol:['Polity','రాజ్యాంగం'],geo:['Geography','భౌగోళికం'],eco:['Economy','ఆర్థికం'],sci:['Science','విజ్ఞానం'],env:['Environment','పర్యావరణం'],ap:['AP','ఆంధ్రప్రదేశ్'],cul:['Culture','సంస్కృతి'],soc:['Indian Society','భారతీయ సమాజం']};
+const ORDER=['his','pol','geo','soc','eco','sci','env','ap','cul'];
 let LIST={},DAYS=[],cur=null,lang='both';
 try{lang=localStorage.getItem('pl')||'both'}catch(e){}
 const $=s=>document.querySelector(s);
