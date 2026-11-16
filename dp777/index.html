@@ -1711,9 +1711,26 @@ function renderChart(){
    // Doubles are valid reverse pairs too: 66 ↔ 66, 00 ↔ 00.
    return j<=rev?j+' ↔ '+rev:rev+' ↔ '+j;
   };
-  const reverseValues=filteredRows.map(item=>analysisDays.map(day=>reversePairKey(item.row[day+' Jodi'])).filter(Boolean));
-  const reverseRowSets=reverseValues.map(values=>new Set(values));
-  const reverseDuplicates=reverseValues.map(values=>[...new Set(values.filter((key,index)=>values.indexOf(key)!==index))]);
+  // A reverse pair is present in a row only when BOTH orientations occur
+  // in that same filtered row. A lone/repeated 80 cannot create 08 ↔ 80.
+  // Doubles are the exception: 66 ↔ 66 requires two actual 66 entries.
+  const reverseRowSets=filteredRows.map(item=>{
+   const counts=new Map();
+   for(const day of analysisDays){
+    const value=String(item.row[day+' Jodi']??'').trim();
+    if(valid(value))counts.set(value,(counts.get(value)||0)+1);
+   }
+   const present=new Set();
+   for(const value of counts.keys()){
+    const key=reversePairKey(value);
+    if(!key)continue;
+    const [left,right]=key.split(' ↔ ');
+    const qualifies=left===right?(counts.get(left)||0)>=2:(counts.has(left)&&counts.has(right));
+    if(qualifies)present.add(key);
+   }
+   return present;
+  });
+  const reverseDuplicates=reverseRowSets.map(values=>[...values]);
   const reverseFound=new Map();let reverseVisited=0;
   function walkReverse(start,at,duplicate,steps,mode){
    if(++reverseVisited>MAX_NODES||steps.length>=MAX_LINKS)return;
