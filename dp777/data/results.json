@@ -33,10 +33,28 @@
     },
     "milan-night": {
       "name": "Milan Night",
-      "result": "169-6",
+      "result": "169-69-559",
       "source": "https://dpbossss.com/",
       "source_label": "MILAN NIGHT",
-      "result_changed_at": "2026-11-16T15:54:31+00:00"
+      "result_changed_at": "2026-11-16T19:48:14+00:00"
+    },
+    "kalyan-night": {
+      "name": "Kalyan Night",
+      "result": "227-12-688",
+      "source": "https://dpbossss.com/",
+      "source_label": "KALYAN NIGHT"
+    },
+    "rajdhani-night": {
+      "name": "Rajdhani Night",
+      "result": "137-14-248",
+      "source": "https://dpbossss.com/",
+      "source_label": "RAJDHANI NIGHT"
+    },
+    "main-bazar": {
+      "name": "Main Bazar",
+      "result": "223-77-340",
+      "source": "https://dpbossss.com/",
+      "source_label": "MAIN BAZAR"
     },
     "sridevi": {
       "name": "Sridevi",
@@ -53,9 +71,9 @@
       "result_changed_at": "2026-11-16T15:54:31+00:00"
     }
   },
-  "live_fetched_at": "2026-11-16T15:54:31+00:00",
+  "live_fetched_at": "2026-11-16T19:48:14+00:00",
   "live_source": "https://dpbossss.com/",
-  "live_status": "partial",
+  "live_status": "ok",
   "charts": {
     "rajdhani-night": {
       "title": "Rajdhani Night historical records",
