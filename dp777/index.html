@@ -1073,13 +1073,13 @@ function updateCurrentChartLabel(){const market=markets.find(m=>m.id===selected)
 
 async function runSaturdayChainAll(){
  const stats=$('targetStats');stats.hidden=true;
- $('count').textContent='Loading 11 markets…';
- $('chartTitle').textContent='Saturday +10 / Same-Gap Progression';
- $('chartDesc').textContent='Continuous historical chains shown as readable market charts';
- $('tableArea').innerHTML='<div class="empty"><strong>Loading all market archives…</strong>Please wait while each market is checked independently.</div>';
+ $('count').textContent='Loading all markets…';
+ $('chartTitle').textContent='All Weekdays +10 / Linked −11 (Same Gap)';
+ $('chartDesc').textContent='Finds historical paired progressions across every weekday and market';
+ $('tableArea').innerHTML='<div class="empty"><strong>Checking all market archives…</strong></div>';
  const activeMarkets=markets.filter(m=>m.id!=='milan-day-archive');
  const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
- const valid=v=>/^\d{2}$/.test(String(v??'').trim());
+ const valid=v=>/^\\d{2}$/.test(String(v??'').trim());
  const wrap=n=>(n+100)%100;
  const result=[];
  for(const market of activeMarkets){
@@ -1090,51 +1090,71 @@ async function runSaturdayChainAll(){
   const allRows=sortOldestFirst(collapseChartWeeks(parsed.charts?.[key]?.rows||[]));
   const lastPlaying=allRows.reduce((last,r,i)=>days.some(d=>valid(r[d+' Jodi']))?i:last,-1);
   const rows=allRows.slice(0,lastPlaying+1);
-  if(!rows.length||!rows.some(r=>valid(r['Sat Jodi']))){
-   result.push({market,kind:'none',message:'Saturday progression is not available: this archive has no valid Saturday Jodi entries.'});continue;
-  }
-  const found=new Map(), maxGap=Math.min(30,Math.max(1,rows.length-2));
-  for(let gap=1;gap<=maxGap;gap++)for(let start=0;start+gap+2<rows.length;start++){
-   const sat0=String(rows[start]['Sat Jodi']??'').trim(), seedRow=rows[start+gap];
-   if(!valid(sat0)||!seedRow)continue;
-   const seeds=days.map(d=>({day:d,value:String(seedRow[d+' Jodi']??'').trim()})).filter(x=>valid(x.value));
-   for(const seed of seeds)for(const direction of [11,-11]){
-    const chain=[{anchor:rows[start],targetRow:seedRow,anchorJodi:sat0,targetJodi:seed.value,targetDay:seed.day}];
-    let prevSat=Number(sat0),prevTarget=Number(seed.value),k=1,failed=false;
-    while(start+k+gap<rows.length){
-     const anchor=rows[start+k],targetRow=rows[start+k+gap],sat=String(anchor['Sat Jodi']??'').trim();
-     if(!valid(sat)||Number(sat)!==wrap(prevSat+10)){failed=true;break;}
-     const wanted=String(wrap(prevTarget+direction)).padStart(2,'0');
-     const match=days.map(d=>({day:d,value:String(targetRow[d+' Jodi']??'').trim()})).find(x=>x.value===wanted);
-     if(!match){failed=true;break;}
-     chain.push({anchor,targetRow,anchorJodi:sat,targetJodi:wanted,targetDay:match.day});
-     prevSat=Number(sat);prevTarget=Number(wanted);k++;
+  const found=new Map();
+  // For each weekday and each possible starting Jodi, main occurrences may be
+  // separated by variable intervals. The linked Jodi must be exactly the same
+  // row offset after every main occurrence, but may be in any weekday column.
+  for(const mainDay of days){
+   const positions=new Map();
+   rows.forEach((row,i)=>{const v=String(row[mainDay+' Jodi']??'').trim();if(valid(v)){if(!positions.has(v))positions.set(v,[]);positions.get(v).push(i);}});
+   for(let startValue=0;startValue<100;startValue++){
+    const first=String(startValue).padStart(2,'0');
+    const mainPositions=positions.get(first)||[];
+    if(mainPositions.length<3)continue;
+    for(const offset of mainPositions){
+     for(let gap=1;gap<rows.length-offset;gap++){
+      const chain=[];
+      let currentMain=first, currentLinked=null, lastMainIndex=offset, failed=false;
+      const firstTargetRow=rows[offset+gap];
+      const firstTarget=days.map(day=>({day,value:String(firstTargetRow?.[day+' Jodi']??'').trim()}))
+       .filter(x=>valid(x.value));
+      for(const seed of firstTarget){
+       const trial=[{mainIndex:offset,targetIndex:offset+gap,main:first,linked:seed.value,linkedDay:seed.day}];
+       let expectedMain=wrap(startValue+10), expectedLinked=wrap(Number(seed.value)-11), after=offset;
+       while(true){
+        const candidates=(positions.get(String(expectedMain).padStart(2,'0'))||[]).filter(i=>i>after);
+        let advanced=false;
+        for(const nextIndex of candidates){
+         const targetIndex=nextIndex+gap;if(targetIndex>=rows.length)continue;
+         const targetRow=rows[targetIndex];
+         const linked=String(expectedLinked).padStart(2,'0');
+         const linkedDay=days.find(day=>String(targetRow[day+' Jodi']??'').trim()===linked);
+         if(!linkedDay)continue;
+         trial.push({mainIndex:nextIndex,targetIndex,main:String(expectedMain).padStart(2,'0'),linked,linkedDay});
+         after=nextIndex;expectedMain=wrap(expectedMain+10);expectedLinked=wrap(expectedLinked-11);advanced=true;break;
+        }
+        if(!advanced)break;
+       }
+       if(trial.length>=3){
+        const signature=[mainDay,gap,...trial.map(x=>x.mainIndex+':'+x.main+':'+x.targetIndex+':'+x.linked+':'+x.linkedDay)].join('|');
+        if(!found.has(signature))found.set(signature,{mainDay,gap,chain:trial,latestConnected:trial[trial.length-1].targetIndex===rows.length-1});
+       }
+      }
+     }
     }
-    if(chain.length<3)continue;
-    const latestConnected=!failed&&start+k-1===rows.length-1-gap;
-    const signature=[gap,direction,...chain.map(x=>[x.anchor.date,x.anchorJodi,x.targetRow.date,x.targetDay,x.targetJodi].join('|'))].join('~');
-    if(!found.has(signature))found.set(signature,{gap,direction,chain,latestConnected,nextAnchor:latestConnected?wrap(prevSat+10):null,nextTarget:latestConnected?wrap(prevTarget+direction):null});
    }
   }
   let chains=[...found.values()];
-  // Keep maximal continuous chains only; discard shorter suffixes contained in a longer chain.
-  chains=chains.filter((x,i,arr)=>!arr.some((y,j)=>i!==j&&x.gap===y.gap&&x.direction===y.direction&&y.chain.length>x.chain.length&&y.chain.some((z,k)=>z.anchor.date===x.chain[0].anchor.date&&z.targetRow.date===x.chain[0].targetRow.date)&&x.chain.every((z,k)=>{const p=y.chain.findIndex(q=>q.anchor.date===x.chain[0].anchor.date&&q.targetRow.date===x.chain[0].targetRow.date);return p>=0&&y.chain[p+k]&&y.chain[p+k].targetJodi===z.targetJodi&&y.chain[p+k].anchorJodi===z.anchorJodi;})));
-  chains.sort((x,y)=>Number(y.latestConnected)-Number(x.latestConnected)||x.gap-y.gap||x.direction-y.direction||String(x.chain[0].anchor.date).localeCompare(String(y.chain[0].anchor.date)));
-  result.push(chains.length?{market,kind:'chains',chains}:{market,kind:'none',message:'No continuous chain of at least three consecutive playing weeks found.'});
+  // Remove contained shorter chains with same weekday and offset.
+  chains=chains.filter((x,i,arr)=>!arr.some((y,j)=>i!==j&&x.mainDay===y.mainDay&&x.gap===y.gap&&y.chain.length>x.chain.length&&y.chain.some(z=>z.mainIndex===x.chain[0].mainIndex)&&x.chain.every((z,k)=>{const p=y.chain.findIndex(q=>q.mainIndex===x.chain[0].mainIndex);return p>=0&&y.chain[p+k]&&y.chain[p+k].main===z.main&&y.chain[p+k].linked===z.linked;})));
+  chains.sort((x,y)=>Number(y.latestConnected)-Number(x.latestConnected)||y.chain.length-x.chain.length||x.gap-y.gap||days.indexOf(x.mainDay)-days.indexOf(y.mainDay));
+  result.push(chains.length?{market,kind:'chains',chains,_rows:rows}:{market,kind:'none',message:'No verified sequence of at least three paired occurrences found.'});
  }
- let totalChains=0,latestChains=0;
+ let total=0;
  const sections=result.map(item=>{
-  if(item.kind==='error')return '<article class="repeat-pattern-card"><div class="repeat-card-head"><span class="repeat-pattern-name">'+esc(item.market.name)+'</span><span class="repeat-pattern-status">DATA ERROR</span></div><div class="repeat-chart-note">'+esc(item.message)+'</div></article>';
-  if(item.kind==='none')return '<section class="repeat-market-group"><div class="repeat-card-head"><span class="repeat-pattern-name">'+esc(item.market.name)+'</span><span class="repeat-pattern-status">NO QUALIFYING CHAIN</span></div><div class="repeat-chart-note">'+esc(item.message)+'</div></section>';
-  totalChains+=item.chains.length;latestChains+=item.chains.filter(x=>x.latestConnected).length;
-  const body=item.chains.flatMap((ci,index)=>ci.chain.map((x,i)=>'<tr><td>'+String(index+1)+'</td><td>+'+ci.gap+'</td><td>'+(ci.direction>0?'+11':'−11')+'</td><td>'+esc(x.anchor.date)+'</td><td><strong>'+esc(x.anchorJodi)+'</strong></td><td>'+esc(x.targetRow.date)+'</td><td>'+esc(x.targetDay)+'</td><td><strong>'+esc(x.targetJodi)+'</strong></td><td>'+(i===0?'START':(ci.direction>0?'+11':'−11'))+'</td></tr>').join('')).join('');
-  const next= item.chains.filter(x=>x.latestConnected).map(x=>'Gap +'+x.gap+' / '+(x.direction>0?'+11':'−11')+' → Saturday '+String(x.nextAnchor).padStart(2,'0')+', target '+String(x.nextTarget).padStart(2,'0')).join(' · ');
-  return '<section class="repeat-market-group"><div class="repeat-card-head"><span class="repeat-pattern-name">'+esc(item.market.name)+'</span><span class="repeat-pattern-status">'+item.chains.length+' CONTINUOUS CHAIN(S)</span></div><div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Chain</th><th>Gap</th><th>Target step</th><th>Saturday week</th><th>Saturday Jodi</th><th>Target week</th><th>Target day</th><th>Target Jodi</th><th>Progression</th></tr></thead><tbody>'+body+'</tbody></table></div><div class="repeat-pattern-footer">'+(next?'LATEST CONNECTED · Next target(s): '+esc(next)+'. Historical pattern only; not guaranteed.':'Historical chains only; none reaches the latest available playing week.')+'</div></section>';
+  if(item.kind==='error')return '<section class="repeat-market-group"><div class="repeat-card-head">'+esc(item.market.name)+' · DATA ERROR</div><div class="repeat-chart-note">'+esc(item.message)+'</div></section>';
+  if(item.kind==='none')return '<section class="repeat-market-group"><div class="repeat-card-head">'+esc(item.market.name)+' · NO VERIFIED MATCH</div><div class="repeat-chart-note">'+esc(item.message)+'</div></section>';
+  total+=item.chains.length;
+  const cards=item.chains.map((c,ci)=>{
+   const body=c.chain.map((x,i)=>'<tr><td>'+(i+1)+'</td><td>'+esc(rowsDate(item,x.mainIndex))+'</td><td><strong>'+x.main+'</strong></td><td>'+esc(rowsDate(item,x.targetIndex))+'</td><td>'+esc(x.linkedDay)+'</td><td><strong>'+x.linked+'</strong></td><td>'+(i?'−11':'START')+'</td></tr>').join('');
+   return '<div class="repeat-pattern-card"><div class="repeat-card-head"><span class="repeat-pattern-name">'+esc(c.mainDay)+' main: '+c.chain[0].main+' → '+c.chain.map(x=>x.main).join(' → ')+'</span><span class="repeat-pattern-gaps">Linked −11 · fixed +'+c.gap+' rows</span><span class="repeat-pattern-status">'+c.chain.length+' paired occurrences</span></div><div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>#</th><th>Main week</th><th>Main Jodi</th><th>Linked week</th><th>Linked day</th><th>Linked Jodi</th><th>Step</th></tr></thead><tbody>'+body+'</tbody></table></div></div>';
+  }).join('');
+  return '<section class="repeat-market-group"><div class="repeat-card-head"><span class="repeat-pattern-name">'+esc(item.market.name)+'</span><span class="repeat-pattern-status">'+item.chains.length+' MATCHING CHAINS</span></div>'+cards+'</section>';
  }).join('');
- $('count').textContent=totalChains+' continuous chains · '+latestChains+' latest-connected · '+result.length+' markets checked';
- $('tableArea').innerHTML='<div class="chart-title-band">ALL 11 MARKETS — SATURDAY +10 / SAME-GAP CHART</div><div class="chart-hint">Only chains with at least three consecutive playing weeks are shown. Saturday Jodi must increase by exactly +10 each week. At the same fixed row gap, target Jodi must move consistently by +11 or consistently by −11. No weeks are skipped. Each market is displayed as one consolidated chart.</div><div class="repeat-pattern-list">'+sections+'</div>';
+ $('count').textContent=total+' matching chains · '+result.length+' markets checked';
+ $('tableArea').innerHTML='<div class="chart-title-band">ALL MARKETS — SAME-WEEKDAY MAIN +10 / LINKED −11</div><div class="chart-hint">Main Jodis progress +10 in the same weekday column. Linked Jodis progress −11 in any weekday column. The linked row offset is discovered from the data and must stay identical for every pair in a chain. Main occurrence intervals may vary. Only verified historical matches are displayed.</div><div class="repeat-pattern-list">'+sections+'</div>';
+ function rowsDate(item,index){return item._rows?.[index]||'';}
 }
-
 function renderChart(){
  const stats=$('targetStats');
  if(dataLoadFailed&&!data.charts?.[chartKeyFor(selected)]){
