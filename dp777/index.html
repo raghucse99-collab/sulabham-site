@@ -1752,15 +1752,14 @@ function renderChart(){
   const reverseLatestEnd=new Map();
   reverseAllPatterns.forEach(p=>reverseLatestEnd.set(p.duplicate,Math.max(reverseLatestEnd.get(p.duplicate)??-1,p.steps[p.steps.length-1].to)));
   const reversePatterns=reverseAllPatterns.filter(p=>p.steps[p.steps.length-1].to===reverseLatestEnd.get(p.duplicate));
-  const reverseMarksBySource=new Map();
-  const addReverseMark=(filteredIndex,pairKey)=>{
-   const source=filteredRows[filteredIndex]?.sourceIndex;
-   if(!Number.isInteger(source))return;
-   if(!reverseMarksBySource.has(source))reverseMarksBySource.set(source,new Set());
-   reverseMarksBySource.get(source).add(pairKey);
-  };
   const reverseCards=reversePatterns.slice(0,300).map((p,n)=>{
-   const end=p.steps[p.steps.length-1].to;
+   const end=p.steps[p.steps.length-1].to,reverseMarksBySource=new Map();
+   const addReverseMark=(filteredIndex,pairKey)=>{
+    const source=filteredRows[filteredIndex]?.sourceIndex;
+    if(!Number.isInteger(source))return;
+    if(!reverseMarksBySource.has(source))reverseMarksBySource.set(source,new Set());
+    reverseMarksBySource.get(source).add(pairKey);
+   };
    addReverseMark(p.start,p.duplicate);
    p.steps.forEach(step=>{addReverseMark(step.from,step.jodi);addReverseMark(step.to,step.jodi);});
    const sourceStart=filteredRows[p.start].sourceIndex,sourceEnd=filteredRows[end].sourceIndex;
