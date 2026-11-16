@@ -1706,7 +1706,7 @@ function renderChart(){
   // +1,+2,+3 gap progression, and chart-history display are retained.
   const reversePairKey=value=>{
    const j=String(value??'').trim();
-   if(!/^\\d{2}$/.test(j))return '';
+   if(!/^\d{2}$/.test(j))return '';
    const rev=j[1]+j[0];
    // Doubles are valid reverse pairs too: 66 ↔ 66, 00 ↔ 00.
    return j<=rev?j+' ↔ '+rev:rev+' ↔ '+j;
@@ -1751,7 +1751,7 @@ function renderChart(){
    .filter(p=>p.mode==='increasing'&&p.steps[0]?.gap===1)
    .sort((a,b)=>b.steps.length-a.steps.length||a.start-b.start);
   const reverseLatestEnd=new Map();
-  reverseAllPatterns.forEach(p=>reverseLatestEnd.set(p.duplicate,Math.max(reverseLatestEnd.get(p.duplicate)??-1,p.steps[p.steps.length-1].to));
+  reverseAllPatterns.forEach(p=>reverseLatestEnd.set(p.duplicate,Math.max(reverseLatestEnd.get(p.duplicate)??-1,p.steps[p.steps.length-1].to)));
   const reversePatterns=reverseAllPatterns.filter(p=>p.steps[p.steps.length-1].to===reverseLatestEnd.get(p.duplicate));
   const reverseCards=reversePatterns.slice(0,300).map((p,n)=>{
    const end=p.steps[p.steps.length-1].to,reverseMarks=new Map();
