@@ -1712,7 +1712,7 @@ function renderChart(){
     if(yr!=='all'&&(!String(source.date||'').includes(yr)||!String(target.date||'').includes(yr)))continue;
     for(const sourceDay of targetSearchDays){
      const sourceJodi=String(source[sourceDay+' Jodi']??'').trim();
-     if(!/^\\d{2}$/.test(sourceJodi))continue;
+     if(!/^\d{2}$/.test(sourceJodi))continue;
      const reverseJodi=sourceJodi[1]+sourceJodi[0];
      const targetDays=targetSearchDays.filter(day=>String(target[day+' Jodi']??'').trim()===reverseJodi);
      for(const targetDay of targetDays){
