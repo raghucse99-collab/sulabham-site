@@ -1075,66 +1075,59 @@ async function runSaturdayChainAll(){
  const stats=$('targetStats');stats.hidden=true;
  $('count').textContent='Loading 11 markets…';
  $('chartTitle').textContent='Saturday +10 / Same-Gap Progression';
- $('chartDesc').textContent='Independent historical search across all 11 market datasets';
+ $('chartDesc').textContent='All qualifying historical chains across all 11 market datasets';
  $('tableArea').innerHTML='<div class="empty"><strong>Loading all market archives…</strong>Please wait while each market is checked independently.</div>';
  const activeMarkets=markets.filter(m=>m.id!=='milan-day-archive');
  const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
  const valid=v=>/^\d{2}$/.test(String(v??'').trim());
  const wrap=n=>(n+100)%100;
- const parseDate=r=>parseWeekStart(r?.date)||'';
  const result=[];
  for(const market of activeMarkets){
   let parsed;
   try{parsed=await fetchData(market.id);}
   catch(e){result.push({market,kind:'error',message:(e&&e.message)||'Could not load archive'});continue;}
   const key=chartKeyFor(market.id);
-  const rows=sortOldestFirst(collapseChartWeeks(parsed.charts?.[key]?.rows||[]))
-   .filter(r=>days.some(d=>valid(r[d+' Jodi'])));
-  if(!rows.length||!rows.some(r=>valid(r['Sat Jodi']))){
-   result.push({market,kind:'none',message:'Saturday progression is not available: this market archive has no valid Saturday Jodi entries.'});continue;
-  }
-  let best=null;
-  const maxGap=Math.min(30,Math.max(1,rows.length-2));
-  for(let gap=1;gap<=maxGap;gap++){
-   for(let start=0;start+gap+1<rows.length;start++){
-    const sat0=String(rows[start]['Sat Jodi']??'').trim();
-    const seedRow=rows[start+gap];
-    if(!valid(sat0)||!seedRow)continue;
-    const seeds=days.map(d=>({day:d,value:String(seedRow[d+' Jodi']??'').trim()})).filter(x=>valid(x.value));
-    for(const seed of seeds){
-     for(const direction of [11,-11]){
-      const chain=[{anchor:rows[start],targetRow:seedRow,anchorJodi:sat0,targetJodi:seed.value,targetDay:seed.day}];
-      let prevSat=Number(sat0),prevTarget=Number(seed.value),k=1,failed=false;
-      while(start+k+gap<rows.length){
-       const anchor=rows[start+k],targetRow=rows[start+k+gap];
-       const sat=String(anchor['Sat Jodi']??'').trim();
-       if(!valid(sat)||Number(sat)!==wrap(prevSat+10)){failed=true;break;}
-       const wanted=String(wrap(prevTarget+direction)).padStart(2,'0');
-       const match=days.map(d=>({day:d,value:String(targetRow[d+' Jodi']??'').trim()})).find(x=>x.value===wanted);
-       if(!match){failed=true;break;}
-       chain.push({anchor,targetRow,anchorJodi:sat,targetJodi:wanted,targetDay:match.day});
-       prevSat=Number(sat);prevTarget=Number(wanted);k++;
-      }
-      const reachesLatest=start+k-1===rows.length-1-gap;
-      if(!failed&&reachesLatest&&chain.length>=2&&(!best||chain.length>best.chain.length)){
-       best={gap,direction,chain,latestAnchor:rows.at(-1),nextAnchor:wrap(prevSat+10),nextTarget:wrap(prevTarget+direction)};
-      }
-     }
+  const rows=sortOldestFirst(collapseChartWeeks(parsed.charts?.[key]?.rows||[])).filter(r=>days.some(d=>valid(r[d+' Jodi'])));
+  if(!rows.length||!rows.some(r=>valid(r['Sat Jodi']))){result.push({market,kind:'none',message:'Saturday progression is not available: this market archive has no valid Saturday Jodi entries.'});continue;}
+  const found=new Map(), maxGap=Math.min(30,Math.max(1,rows.length-2));
+  for(let gap=1;gap<=maxGap;gap++)for(let start=0;start+gap+1<rows.length;start++){
+   const sat0=String(rows[start]['Sat Jodi']??'').trim(), seedRow=rows[start+gap];
+   if(!valid(sat0)||!seedRow)continue;
+   const seeds=days.map(d=>({day:d,value:String(seedRow[d+' Jodi']??'').trim()})).filter(x=>valid(x.value));
+   for(const seed of seeds)for(const direction of [11,-11]){
+    const chain=[{anchor:rows[start],targetRow:seedRow,anchorJodi:sat0,targetJodi:seed.value,targetDay:seed.day}];
+    let prevSat=Number(sat0),prevTarget=Number(seed.value),k=1,failed=false;
+    while(start+k+gap<rows.length){
+     const anchor=rows[start+k],targetRow=rows[start+k+gap],sat=String(anchor['Sat Jodi']??'').trim();
+     if(!valid(sat)||Number(sat)!==wrap(prevSat+10)){failed=true;break;}
+     const wanted=String(wrap(prevTarget+direction)).padStart(2,'0');
+     const match=days.map(d=>({day:d,value:String(targetRow[d+' Jodi']??'').trim()})).find(x=>x.value===wanted);
+     if(!match){failed=true;break;}
+     chain.push({anchor,targetRow,anchorJodi:sat,targetJodi:wanted,targetDay:match.day});
+     prevSat=Number(sat);prevTarget=Number(wanted);k++;
+    }
+    const reachesLatest=start+k-1===rows.length-1-gap;
+    if(!failed&&reachesLatest&&chain.length>=2){
+     const signature=[gap,direction,...chain.map(x=>[x.anchor.date,x.anchorJodi,x.targetRow.date,x.targetDay,x.targetJodi].join('|'))].join('~');
+     if(!found.has(signature))found.set(signature,{gap,direction,chain,nextAnchor:wrap(prevSat+10),nextTarget:wrap(prevTarget+direction)});
     }
    }
   }
-  if(best)result.push({market,kind:'chain',...best});
-  else result.push({market,kind:'none',message:'No continuous chain connected to the latest available playing week'});
+  const chains=[...found.values()].sort((x,y)=>x.gap-y.gap||x.direction-y.direction||String(x.chain[0].anchor.date).localeCompare(String(y.chain[0].anchor.date)));
+  result.push(chains.length?{market,kind:'chains',chains}:{market,kind:'none',message:'No continuous chain connected to the latest available playing week'});
  }
+ let totalChains=0;
  const cards=result.map(item=>{
   if(item.kind==='error')return '<article class="repeat-pattern-card"><div class="repeat-card-head"><span class="repeat-pattern-name">'+esc(item.market.name)+'</span><span class="repeat-pattern-status">DATA ERROR</span></div><div class="repeat-chart-note">'+esc(item.message)+'</div></article>';
   if(item.kind==='none')return '<article class="repeat-pattern-card"><div class="repeat-card-head"><span class="repeat-pattern-name">'+esc(item.market.name)+'</span><span class="repeat-pattern-status">NO QUALIFYING CHAIN</span></div><div class="repeat-chart-note">'+esc(item.message)+'</div></article>';
-  const rows=item.chain.map((x,i)=>'<tr><td>'+esc(x.anchor.date)+'</td><td>'+esc(x.anchorJodi)+'</td><td>'+esc(x.targetRow.date)+'</td><td>'+esc(x.targetDay)+'</td><td><strong>'+esc(x.targetJodi)+'</strong></td><td>'+(i===0?'Seed':(item.direction>0?'+11':'−11'))+'</td></tr>').join('');
-  const latest=item.chain.at(-1);
-  return '<article class="repeat-pattern-card"><div class="repeat-card-head"><span class="repeat-pattern-name">'+esc(item.market.name)+'</span><span class="repeat-pattern-type">CONTINUOUS</span><span class="repeat-pattern-gaps">Gap +'+item.gap+'</span><span class="repeat-pattern-status">'+(item.direction>0?'Target +11':'Target −11')+'</span></div><div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Saturday week</th><th>Saturday Jodi</th><th>Target week (+gap)</th><th>Target day</th><th>Target Jodi</th><th>Step</th></tr></thead><tbody>'+rows+'</tbody></table></div><div class="repeat-pattern-footer">Next expected Saturday Jodi: <strong>'+String(item.nextAnchor).padStart(2,'0')+'</strong> · Next same-gap target Jodi: <strong>'+String(item.nextTarget).padStart(2,'0')+'</strong>. Historical pattern only; not a guaranteed result.</div></article>';
+  totalChains+=item.chains.length;
+  return '<section class="repeat-market-group"><div class="repeat-card-head"><span class="repeat-pattern-name">'+esc(item.market.name)+'</span><span class="repeat-pattern-status">'+item.chains.length+' QUALIFYING CHAIN(S)</span></div>'+item.chains.map((ci,index)=>{
+   const body=ci.chain.map((x,i)=>'<tr><td>'+esc(x.anchor.date)+'</td><td>'+esc(x.anchorJodi)+'</td><td>'+esc(x.targetRow.date)+'</td><td>'+esc(x.targetDay)+'</td><td><strong>'+esc(x.targetJodi)+'</strong></td><td>'+(i===0?'Seed':(ci.direction>0?'+11':'−11'))+'</td></tr>').join('');
+   return '<article class="repeat-pattern-card"><div class="repeat-card-head"><span class="repeat-pattern-type">CHAIN '+(index+1)+'</span><span class="repeat-pattern-gaps">Gap +'+ci.gap+'</span><span class="repeat-pattern-status">'+(ci.direction>0?'Target +11':'Target −11')+'</span></div><div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Saturday week</th><th>Saturday Jodi</th><th>Target week (+gap)</th><th>Target day</th><th>Target Jodi</th><th>Step</th></tr></thead><tbody>'+body+'</tbody></table></div><div class="repeat-pattern-footer">Next expected Saturday Jodi: <strong>'+String(ci.nextAnchor).padStart(2,'0')+'</strong> · Next same-gap target Jodi: <strong>'+String(ci.nextTarget).padStart(2,'0')+'</strong>. Historical pattern only; not a guaranteed result.</div></article>';
+  }).join('')+'</section>';
  }).join('');
- $('count').textContent=result.filter(x=>x.kind==='chain').length+' chains · '+result.length+' markets checked';
- $('tableArea').innerHTML='<div class="chart-title-band">ALL 11 MARKETS — SATURDAY +10 / SAME-GAP CHAIN</div><div class="chart-hint">Every consecutive playing week must match Saturday +10. The target Jodi must remain at the same row gap and move only +11 or only −11. A broken week ends that chain; no weeks are skipped. Only chains reaching the latest available playing week show a next target.</div><div class="repeat-pattern-list">'+cards+'</div>';
+ $('count').textContent=totalChains+' qualifying chains · '+result.length+' markets checked';
+ $('tableArea').innerHTML='<div class="chart-title-band">ALL 11 MARKETS — SATURDAY +10 / SAME-GAP CHAIN</div><div class="chart-hint">All qualifying chains connected to the latest available target week are shown. Every consecutive playing week must match Saturday +10. The target Jodi stays at the same row gap and moves only +11 or only −11. No weeks are skipped.</div><div class="repeat-pattern-list">'+cards+'</div>';
 }
 
 function renderChart(){
