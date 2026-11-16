@@ -1706,7 +1706,7 @@ function renderChart(){
   // Do not require 30 and 03 in the same row, and do not mix with duplicate chains.
   const reverseTarget=targetSearch?.target?targetSearch.target[1]+targetSearch.target[0]:'';
   const reverseMatches=[];
-  if(targetSearch&&!targetSearch.error&&/^\\d{2}$/.test(reverseTarget)){
+  if(targetSearch&&!targetSearch.error&&/^\d{2}$/.test(reverseTarget)){
    for(const sourceIndex of targetSearch.targetIndexes){
     const targetIndex=sourceIndex+targetSearch.offset;
     if(targetIndex>=targetSearchRows.length)continue;
