@@ -31,6 +31,13 @@
       "source_label": "KALYAN",
       "result_changed_at": "2026-11-16T13:46:38+00:00"
     },
+    "milan-night": {
+      "name": "Milan Night",
+      "result": "169-6",
+      "source": "https://dpbossss.com/",
+      "source_label": "MILAN NIGHT",
+      "result_changed_at": "2026-11-16T15:54:05+00:00"
+    },
     "sridevi": {
       "name": "Sridevi",
       "result": "577-99-667",
@@ -40,13 +47,13 @@
     },
     "sridevi-night": {
       "name": "Sridevi Night",
-      "result": "133-7",
+      "result": "133-79-180",
       "source": "https://dpbossss.com/",
       "source_label": "SRIDEVI NIGHT",
-      "result_changed_at": "2026-11-16T13:46:38+00:00"
+      "result_changed_at": "2026-11-16T15:54:05+00:00"
     }
   },
-  "live_fetched_at": "2026-11-16T14:10:20+00:00",
+  "live_fetched_at": "2026-11-16T15:54:05+00:00",
   "live_source": "https://dpbossss.com/",
   "live_status": "partial",
   "charts": {
