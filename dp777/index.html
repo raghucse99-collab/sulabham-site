@@ -1518,7 +1518,7 @@ function renderChart(){
   const days=repeatDays,analysisDays=targetSearchDays,valid=v=>/^\d{2}$/.test(String(v??'').trim());
   const values=filteredRows.map(x=>analysisDays.map(d=>String(x.row[d+' Jodi']??'').trim()).filter(valid));
   const rowSets=values.map(v=>new Set(v));
-  const duplicates=values.map(v=>[...new Set(v.filter((j,i)=>v.indexOf(j)!==i&&j===targetSearch.target))]);
+  const duplicates=values.map(v=>[...new Set(v.filter((j,i)=>v.indexOf(j)!==i))]);
   const found=new Map();let visited=0;const MAX_NODES=50000,MAX_LINKS=8;
   function walk(start,at,duplicate,used,steps,mode){
    if(++visited>MAX_NODES||steps.length>=MAX_LINKS)return;
