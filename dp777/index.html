@@ -1724,7 +1724,7 @@ function renderChart(){
    marks.set(from,new Set([targetSearch.target]));
    marks.set(to,new Set([reverseTarget]));
    const links='<div class="repeat-step"><b class="repeat-step-num">లింక్ 1</b><strong class="repeat-step-jodi">'+esc(reverseTarget)+'</strong><span>Filtered row '+(from+1)+' → '+(to+1)+'<br>'+esc(match.source.date||'')+' → '+esc(match.target.date||'')+'</span><b>గ్యాప్ '+targetSearch.offset+'</b></div>';
-   const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Filtered row / Week</th>'+repeatDays.map(day=>'<th>'+day+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:to-from+1},(_,k)=>from+k).map(ix=>{
+   const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th class="reverse-week-heading">RESULT / DATE</th>'+repeatDays.map(day=>'<th>'+day+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:to-from+1},(_,k)=>from+k).map(ix=>{
     const item=targetSearchRowsWithSource[ix],row=item.row;
     return '<tr><td class="repeat-week-date"><b>Result '+(ix+1)+'</b><small>Chart row '+(item.index+1)+'<br>'+esc(row.date||'')+'</small></td>'+repeatDays.map(day=>{
      const value=String(row[day+' Jodi']??'').trim(),hit=marks.get(ix)?.has(value);
