@@ -1,0 +1,223 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-16 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about the Press Council of India and National Press Day:
+I. National Press Day is observed on 16 November because the Press Council of India began functioning on that day in 1966.
+II. The Press Council began functioning in 1956, the year the First Press Commission reported.
+III. The theme for 2025 was about safeguarding press credibility amid rising misinformation.
+
+--- QUESTION ---
+Q1. Consider the following statements about the Press Council of India and National Press Day: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is the trap: 1956 = First Press Commission's recommendation; the Council began work on 16 Nov 1966.
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Match List-I (day) with List-II (date):
+A. National Press Day   1. 3 May
+B. World Press Freedom Day   2. 2 November
+C. International Day to End Impunity for Crimes against Journalists   3. 16 November
+
+--- OPTIONS ---
+(a) A-1, B-3, C-2
+(b) A-3, B-2, C-1
+(c) A-2, B-1, C-3
+(d) A-3, B-1, C-2
+
+--- CORRECT (tick this) ---
+(d) A-3, B-1, C-2
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+National Press Day = 16 Nov (India, PCI); World Press Freedom Day = 3 May (UNESCO); End Impunity Day = 2 Nov. Option (a) swaps the two press days.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Arrange the following events related to the Ghadar movement in chronological order:
+I. Kartar Singh Sarabha is hanged at Lahore Central Jail
+II. 'Ghadar' newspaper begins publication
+III. Date fixed for the Ghadar revolt (21 February) is leaked by an informer
+IV. Sarabha goes to the USA to study
+
+--- QUESTION ---
+Q3. Arrange the following events related to the Ghadar movement in chronological order: (statements in the message above)
+
+--- OPTIONS ---
+(a) IV, II, III, I
+(b) II, IV, III, I
+(c) IV, III, II, I
+(d) IV, II, I, III
+
+--- CORRECT (tick this) ---
+(a) IV, II, III, I
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+USA 1912 → 'Ghadar' paper 1 Nov 1913 → revolt leaked Feb 1915 → hanged 16 Nov 1915. Option (b) wrongly puts the paper before his going abroad.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. Which of the following statements is/are INCORRECT?
+I. The Ghadar Party was founded in Lahore in 1913 with Lala Har Dayal as its president.
+II. Kartar Singh Sarabha was tried in the Lahore Conspiracy Case of 1915.
+III. Bhagat Singh regarded Sarabha as his inspiration and carried his photograph.
+
+--- QUESTION ---
+Q4. Which of the following statements is/are INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) II only
+(b) I and II only
+(c) I only
+(d) I and III only
+
+--- CORRECT (tick this) ---
+(c) I only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Only I is incorrect: the party was formed in America (California); Sohan Singh Bhakna was president and Har Dayal secretary.
+
+==================== Q5 ====================
+--- QUESTION ---
+Q5. Match the IMD cyclone category (List-I) with its wind speed (List-II):
+A. Deep depression   1. 62–88 km/h
+B. Cyclonic storm   2. 118–166 km/h
+C. Severe cyclonic storm   3. 50–61 km/h
+D. Very severe cyclonic storm   4. 89–117 km/h
+
+--- OPTIONS ---
+(a) A-1, B-3, C-4, D-2
+(b) A-3, B-1, C-2, D-4
+(c) A-3, B-4, C-1, D-2
+(d) A-3, B-1, C-4, D-2
+
+--- CORRECT (tick this) ---
+(d) A-3, B-1, C-4, D-2
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Deep depression 50–61; cyclonic storm 62–88 (the stage at which 'Akvan' gets its name); severe 89–117; very severe 118–166.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following statements about the cyclone names used for the current Bay of Bengal season:
+I. 'Akvan' was proposed by Iran and comes after 'Murasu' on the WMO/ESCAP list.
+II. 'Murasu' was India's contribution to the list.
+III. A name used once can be given again to a later cyclone in the same list.
+IV. The names are assigned by RSMC New Delhi.
+
+--- QUESTION ---
+Q6. Consider the following statements about the cyclone names used for the current Bay of Bengal season: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: a name is used only once and never repeated. I, II and IV are correct.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following statements about the November 2026 summits in Manila:
+I. The 23rd ASEAN-India Summit and the 21st East Asia Summit are both held on 17 November.
+II. 2026 has been designated the ASEAN-India Year of Maritime Cooperation.
+III. Singapore holds the ASEAN chair in 2026.
+IV. The East Asia Summit has the same members as ASEAN.
+
+--- QUESTION ---
+Q7. Consider the following statements about the November 2026 summits in Manila: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and IV only
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the Philippines chairs ASEAN in 2026 (Singapore is next). IV is wrong: EAS = ASEAN plus eight partners such as India, China, Japan, the US and Russia.
+
+==================== Q8 ====================
+--- QUESTION ---
+Q8. Consider the following Assertion (A) and Reason (R):
+Assertion (A): India attaches special importance to the ASEAN summits.
+Reason (R): ASEAN is described as the central pillar of India's Act East Policy and its Indo-Pacific vision.
+
+--- OPTIONS ---
+(a) Both A and R are true, and R is the correct explanation of A
+(b) Both A and R are true, but R is not the correct explanation of A
+(c) A is true, but R is false
+(d) A is false, but R is true
+
+--- CORRECT (tick this) ---
+(a) Both A and R are true, and R is the correct explanation of A
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+The MEA release itself calls ASEAN the central pillar of Act East — that is why India gives the summits priority. Trap: thinking Act East is only about trade (it covers security and sea routes too).
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. A family in Kurnool pays ₹20,000 from savings for a relative's surgery at a private hospital; the government scheme pays nothing in this case. In National Health Accounts, this payment is counted as:
+I. It is Out-of-Pocket Expenditure (OOPE).
+II. It is part of Government Health Expenditure because the hospital is licensed by the State.
+III. It is included in Total Health Expenditure (THE).
+
+--- QUESTION ---
+Q9. A family in Kurnool pays ₹20,000 from savings for a relative's surgery at a private hospital; the government scheme pays nothing in this case. In National Health Accounts, this payment is counted as: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+A direct payment by a household is OOPE and is part of THE. II is wrong: who pays decides the category, not who licenses the hospital.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Consider the following statements based on the National Health Accounts Estimates 2023-24:
+I. Government health expenditure rose from about ₹1.3 lakh crore in 2013-14 to about ₹4.1 lakh crore in 2023-24.
+II. The share of OOPE in total health expenditure fell by 21.5 per cent.
+III. Social security spending on health rose from 6% to 11% of total health expenditure.
+IV. 'Public health and sanitation' is a subject in the Union List.
+
+--- QUESTION ---
+Q10. Consider the following statements based on the National Health Accounts Estimates 2023-24: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III only
+(b) I and IV only
+(c) II and IV only
+(d) I and III only
+
+--- CORRECT (tick this) ---
+(d) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: the fall is 21.5 percentage POINTS (64.2% → 42.7%), not 21.5 per cent. IV is wrong: public health is in the State List (Entry 6, List II).
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-16&tab=quiz

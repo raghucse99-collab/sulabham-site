@@ -1,0 +1,1957 @@
+{
+ "date": "2026-11-16",
+ "day": {
+  "en": "Monday, 16 November 2026",
+  "te": "సోమవారం, 16 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Watchdog",
+   "en": "a body that keeps watch to stop wrong or unfair practices",
+   "te": "కాపలా సంస్థ; తప్పులు జరగకుండా నిఘా ఉంచే సంస్థ",
+   "ex": "The Press Council of India began work in 1966 as a moral watchdog of the press.",
+   "topic": "pressday"
+  },
+  {
+   "w": "Informer",
+   "en": "a person who secretly gives information to the police",
+   "te": "గూఢచారి; రహస్యంగా పోలీసులకు సమాచారం ఇచ్చే వ్యక్తి",
+   "ex": "A police informer, Kirpal Singh, leaked the Ghadar plan of February 1915.",
+   "topic": "sarabha"
+  },
+  {
+   "w": "Landfall",
+   "en": "the moment a storm moves from the sea onto land",
+   "te": "తుపాను సముద్రం నుంచి తీరాన్ని దాటడం",
+   "ex": "IMD has not yet fixed the landfall point of the coming cyclone.",
+   "topic": "akvan"
+  },
+  {
+   "w": "Chairship",
+   "en": "the role of leading a group or meeting for a period",
+   "te": "అధ్యక్ష బాధ్యత; నిర్ణీత కాలం కూటమిని నడిపించే బాధ్యత",
+   "ex": "Under the Philippines' 2026 ASEAN chairship, the summits are held in Manila.",
+   "topic": "aseanindia"
+  },
+  {
+   "w": "Out-of-pocket",
+   "en": "paid directly from one's own money, not by government or insurance",
+   "te": "సొంత జేబు నుంచి; ప్రభుత్వం లేదా బీమా కాకుండా స్వయంగా చెల్లించేది",
+   "ex": "Out-of-pocket spending fell to 42.7% of India's total health expenditure in 2023-24.",
+   "topic": "nha"
+  }
+ ],
+ "items": [
+  {
+   "id": "pressday",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "tag": {
+    "en": "National Press Day · 16 November",
+    "te": "జాతీయ పత్రికా దినోత్సవం · 16 నవంబర్"
+   },
+   "title": {
+    "en": "National Press Day — the Press Council of India turns 60",
+    "te": "జాతీయ పత్రికా దినోత్సవం — భారత ప్రెస్ కౌన్సిల్‌కు 60 ఏళ్లు"
+   },
+   "line": {
+    "en": "16 November marks the day in 1966 when the Press Council of India began work as the 'moral watchdog' of a free and responsible press.",
+    "te": "1966 నవంబర్ 16న భారత ప్రెస్ కౌన్సిల్ స్వేచ్ఛాయుత, బాధ్యతాయుత పత్రికారంగానికి 'నైతిక కాపలాదారు'గా పని ప్రారంభించింది — ఆ రోజునే ఈ దినోత్సవం."
+   },
+   "easy": [
+    {
+     "en": "Newspapers keep people informed and question those in power. But a free press must also be responsible — no fake news, no unfair attacks. Who checks that? Not the government directly (that would threaten freedom), but a body of the press itself: the Press Council of India (PCI).",
+     "te": "వార్తాపత్రికలు ప్రజలకు సమాచారం ఇస్తాయి, అధికారంలో ఉన్నవారిని ప్రశ్నిస్తాయి. కానీ స్వేచ్ఛ ఉన్న పత్రిక బాధ్యతగానూ ఉండాలి — తప్పుడు వార్తలు, అన్యాయమైన దాడులు ఉండకూడదు. దీన్ని ఎవరు చూస్తారు? నేరుగా ప్రభుత్వం కాదు (అది స్వేచ్ఛకు ముప్పు), పత్రికారంగానికి సంబంధించిన సంస్థే — భారత ప్రెస్ కౌన్సిల్ (PCI)."
+    },
+    {
+     "en": "The First Press Commission (1956) recommended such a council. The PCI started functioning on 16 November 1966 — so this day is National Press Day. This year (2026) the Council completes 60 years. On this day it gives National Awards for Excellence in Journalism.",
+     "te": "మొదటి ప్రెస్ కమిషన్ (1956) ఇలాంటి కౌన్సిల్‌ను సిఫారసు చేసింది. PCI 1966 నవంబర్ 16న పని ప్రారంభించింది — అందుకే ఈ రోజు జాతీయ పత్రికా దినోత్సవం. ఈ ఏడాది (2026) కౌన్సిల్‌కు 60 ఏళ్లు. ఈ రోజున జర్నలిజంలో ప్రతిభకు జాతీయ పురస్కారాలు అందజేస్తారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Observed",
+      "te": "జరుపుకునే రోజు"
+     },
+     {
+      "en": "16 November every year",
+      "te": "ప్రతి ఏటా నవంబర్ 16"
+     }
+    ],
+    [
+     {
+      "en": "Why this date",
+      "te": "ఈ తేదీ ఎందుకు"
+     },
+     {
+      "en": "Press Council of India began functioning on 16 Nov 1966",
+      "te": "1966 నవంబర్ 16న భారత ప్రెస్ కౌన్సిల్ పని ప్రారంభం"
+     }
+    ],
+    [
+     {
+      "en": "Recommended by",
+      "te": "సిఫారసు చేసింది"
+     },
+     {
+      "en": "First Press Commission, 1956",
+      "te": "మొదటి ప్రెస్ కమిషన్, 1956"
+     }
+    ],
+    [
+     {
+      "en": "Role",
+      "te": "పాత్ర"
+     },
+     {
+      "en": "'Moral watchdog' of a free and responsible press",
+      "te": "స్వేచ్ఛాయుత, బాధ్యతాయుత పత్రికలకు 'నైతిక కాపలాదారు'"
+     }
+    ],
+    [
+     {
+      "en": "Theme 2025",
+      "te": "2025 థీమ్"
+     },
+     {
+      "en": "'Safeguarding Press Credibility Amidst Rising Misinformation'",
+      "te": "'Safeguarding Press Credibility Amidst Rising Misinformation' (పెరుగుతున్న తప్పుడు సమాచారం మధ్య పత్రికా విశ్వసనీయత రక్షణ)"
+     }
+    ],
+    [
+     {
+      "en": "Theme 2024",
+      "te": "2024 థీమ్"
+     },
+     {
+      "en": "'Changing Nature of Press'",
+      "te": "'Changing Nature of Press' (మారుతున్న పత్రికా స్వరూపం)"
+     }
+    ],
+    [
+     {
+      "en": "Theme 2026",
+      "te": "2026 థీమ్"
+     },
+     {
+      "en": "Not yet listed on the PCI website (checked 16 Nov 2026)",
+      "te": "PCI వెబ్‌సైట్‌లో ఇంకా ప్రకటించలేదు (16 నవంబర్ 2026 నాటికి)"
+     }
+    ],
+    [
+     {
+      "en": "On the day",
+      "te": "ఆ రోజున"
+     },
+     {
+      "en": "National Awards for Excellence in Journalism; a souvenir is released",
+      "te": "జర్నలిజంలో ప్రతిభకు జాతీయ అవార్డులు; సావనీర్ విడుదల"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Press freedom",
+     "te": "లింక్ చెయిన్ · పత్రికా స్వేచ్ఛ"
+    },
+    "l": [
+     {
+      "en": "Constitution: no separate 'press freedom' Article — it is part of freedom of speech and expression, Article 19(1)(a)",
+      "te": "రాజ్యాంగం: 'పత్రికా స్వేచ్ఛ'కు ప్రత్యేక ఆర్టికల్ లేదు — ఇది ఆర్టికల్ 19(1)(a) వాక్ స్వాతంత్ర్యంలో భాగం"
+     },
+     {
+      "en": "Article 19(2): 'reasonable restrictions' can limit it (e.g. public order, defamation, contempt of court)",
+      "te": "ఆర్టికల్ 19(2): 'సహేతుక పరిమితులు' విధించవచ్చు (ఉదా: ప్రజా శాంతి, పరువు నష్టం, కోర్టు ధిక్కారం)"
+     },
+     {
+      "en": "Don't mix: National Press Day (16 Nov, India) ≠ World Press Freedom Day (3 May, UNESCO)",
+      "te": "కలపవద్దు: జాతీయ పత్రికా దినోత్సవం (16 నవంబర్, భారత్) ≠ ప్రపంచ పత్రికా స్వేచ్ఛా దినోత్సవం (మే 3, UNESCO)"
+     },
+     {
+      "en": "See also 2 Nov page: International Day to End Impunity for Crimes against Journalists",
+      "te": "2 నవంబర్ పేజీ కూడా చూడండి: జర్నలిస్టులపై నేరాల శిక్షారాహిత్యాన్ని అంతం చేసే అంతర్జాతీయ దినోత్సవం"
+     }
+    ]
+   },
+   "trap": {
+    "en": "1956 = the year the First Press Commission recommended the Council; 1966 = the year the PCI began work. Examiners swap them. Also, 16 Nov National Press Day is Indian; 3 May is the UN's World Press Freedom Day.",
+    "te": "1956 = మొదటి ప్రెస్ కమిషన్ కౌన్సిల్‌ను సిఫారసు చేసిన సంవత్సరం; 1966 = PCI పని ప్రారంభించిన సంవత్సరం. పరీక్షల్లో వీటిని తారుమారు చేస్తారు. అలాగే నవంబర్ 16 భారత దినోత్సవం; మే 3 ఐరాస ప్రపంచ పత్రికా స్వేచ్ఛా దినోత్సవం."
+   },
+   "tip": {
+    "en": "'56 asks, '66 acts': Commission asked in 1956, Council acted from 16-11-1966.",
+    "te": "'56లో అడిగారు, '66లో ఆరంభించారు': కమిషన్ 1956, కౌన్సిల్ 16-11-1966."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to National Press Day, consider the following statements:",
+     "te": "జాతీయ పత్రికా దినోత్సవానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It marks the day the Press Council of India began functioning in 1966.",
+      "te": "I. 1966లో భారత ప్రెస్ కౌన్సిల్ పని ప్రారంభించిన రోజును ఇది సూచిస్తుంది."
+     },
+     {
+      "en": "II. The Press Council was recommended by the First Press Commission in 1956.",
+      "te": "II. ప్రెస్ కౌన్సిల్‌ను 1956లో మొదటి ప్రెస్ కమిషన్ సిఫారసు చేసింది."
+     },
+     {
+      "en": "III. The Constitution of India has a separate Article that guarantees freedom of the press.",
+      "te": "III. భారత రాజ్యాంగంలో పత్రికా స్వేచ్ఛకు హామీ ఇచ్చే ప్రత్యేక ఆర్టికల్ ఉంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and II are correct. III is wrong: press freedom is read into Article 19(1)(a); there is no separate Article.",
+     "te": "I, II సరైనవి. III తప్పు: పత్రికా స్వేచ్ఛ ఆర్టికల్ 19(1)(a)లో భాగం; ప్రత్యేక ఆర్టికల్ లేదు."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "From idea to Press Day",
+      "te": "ఆలోచన నుంచి పత్రికా దినోత్సవం వరకు"
+     },
+     "items": [
+      {
+       "y": "1956",
+       "t": {
+        "en": "First Press Commission recommends a Press Council",
+        "te": "ప్రెస్ కౌన్సిల్‌ను మొదటి ప్రెస్ కమిషన్ సిఫారసు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1966",
+       "t": {
+        "en": "16 Nov: Press Council of India starts work",
+        "te": "నవంబర్ 16: భారత ప్రెస్ కౌన్సిల్ పని ప్రారంభం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2024",
+       "t": {
+        "en": "Theme: Changing Nature of Press",
+        "te": "థీమ్: Changing Nature of Press"
+       }
+      },
+      {
+       "y": "2025",
+       "t": {
+        "en": "Theme: Safeguarding Press Credibility Amidst Rising Misinformation",
+        "te": "థీమ్: Safeguarding Press Credibility Amidst Rising Misinformation"
+       }
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "Council completes 60 years",
+        "te": "కౌన్సిల్‌కు 60 ఏళ్లు"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Remember the two anchor years: 1956 (recommended) and 1966 (began).",
+      "te": "రెండు ముఖ్య సంవత్సరాలు: 1956 (సిఫారసు), 1966 (ప్రారంభం)."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Press Council of India — National Press Day (themes list)",
+     "u": "https://presscouncil.nic.in/NationalPressDay.aspx"
+    },
+    {
+     "t": "All India Radio News — National Press Day observed to celebrate free and responsible journalism, 16 Nov 2025",
+     "u": "https://www.newsonair.gov.in/national-press-day-observed-today-to-celebrate-free-and-responsible-journalism"
+    }
+   ]
+  },
+  {
+   "id": "sarabha",
+   "kind": "day",
+   "color": "#9b2c2c",
+   "icon": "calendar",
+   "cf": [
+    0,
+    2,
+    4,
+    6,
+    7
+   ],
+   "tag": {
+    "en": "Martyrdom day · 16 Nov 1915",
+    "te": "బలిదాన దినం · 16 నవంబర్ 1915"
+   },
+   "title": {
+    "en": "Kartar Singh Sarabha — the young hero of the Ghadar Party",
+    "te": "కర్తార్ సింగ్ సరాభా — గదర్ పార్టీ యువ వీరుడు"
+   },
+   "line": {
+    "en": "Hanged at just 19 in the Lahore Conspiracy Case; Bhagat Singh carried his photo in his pocket.",
+    "te": "కేవలం 19 ఏళ్ల వయసులో లాహోర్ కుట్ర కేసులో ఉరి; భగత్ సింగ్ ఆయన ఫొటోను జేబులో పెట్టుకుని తిరిగేవారు."
+   },
+   "easy": [
+    {
+     "en": "In 1912 a 16-year-old boy from Sarabha village (Ludhiana, Punjab) went to the USA to study. There he saw how Indians were insulted as people of a slave country. He joined the Ghadar Party, formed in 1913 by Indians living on the American west coast to free India by armed revolt.",
+     "te": "1912లో పంజాబ్‌లోని లూధియానా జిల్లా సరాభా గ్రామానికి చెందిన 16 ఏళ్ల యువకుడు చదువు కోసం అమెరికా వెళ్లాడు. బానిస దేశ ప్రజలంటూ భారతీయులను అవమానించడం అక్కడ చూశాడు. సాయుధ తిరుగుబాటుతో భారత్‌కు స్వాతంత్ర్యం తేవాలని అమెరికా పశ్చిమ తీరంలోని భారతీయులు 1913లో స్థాపించిన గదర్ పార్టీలో చేరాడు."
+    },
+    {
+     "en": "When World War I began (1914), Ghadarites came home to make Indian soldiers rise against the British. The revolt was fixed for 21 February 1915, but a police informer, Kirpal Singh, leaked the plan. Sarabha was arrested on 2 March 1915, sentenced to death and hanged at Lahore Central Jail on 16 November 1915.",
+     "te": "మొదటి ప్రపంచ యుద్ధం (1914) మొదలవగానే బ్రిటిష్‌పై భారతీయ సైనికులను తిరగబడేలా చేయడానికి గదర్ వీరులు స్వదేశానికి వచ్చారు. తిరుగుబాటు తేదీ 1915 ఫిబ్రవరి 21 — కానీ పోలీసు గూఢచారి కిర్పాల్ సింగ్ పథకాన్ని బయటపెట్టాడు. సరాభాను 1915 మార్చి 2న అరెస్టు చేసి, మరణశిక్ష విధించి, 1915 నవంబర్ 16న లాహోర్ సెంట్రల్ జైలులో ఉరి తీశారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "24 May 1896, Sarabha village, Ludhiana district (Punjab)",
+      "te": "24 మే 1896, సరాభా గ్రామం, లూధియానా జిల్లా (పంజాబ్)"
+     }
+    ],
+    [
+     {
+      "en": "To USA",
+      "te": "అమెరికాకు"
+     },
+     {
+      "en": "1912, to study at Berkeley (California)",
+      "te": "1912, బర్కిలీ (కాలిఫోర్నియా)లో చదువు కోసం"
+     }
+    ],
+    [
+     {
+      "en": "Ghadar Party",
+      "te": "గదర్ పార్టీ"
+     },
+     {
+      "en": "1913 — President Sohan Singh Bhakna, Secretary Lala Har Dayal",
+      "te": "1913 — అధ్యక్షుడు సోహన్ సింగ్ భక్నా, కార్యదర్శి లాలా హర్ దయాళ్"
+     }
+    ],
+    [
+     {
+      "en": "'Ghadar' paper",
+      "te": "'గదర్' పత్రిక"
+     },
+     {
+      "en": "From 1 Nov 1913; he handled the Gurmukhi (Punjabi) edition and wrote poems",
+      "te": "1 నవంబర్ 1913 నుంచి; గురుముఖి (పంజాబీ) ఎడిషన్ బాధ్యత, కవితలు రాశారు"
+     }
+    ],
+    [
+     {
+      "en": "Planned revolt",
+      "te": "తిరుగుబాటు తేదీ"
+     },
+     {
+      "en": "21 Feb 1915 — leaked by informer Kirpal Singh",
+      "te": "21 ఫిబ్రవరి 1915 — గూఢచారి కిర్పాల్ సింగ్ బయటపెట్టాడు"
+     }
+    ],
+    [
+     {
+      "en": "Arrested",
+      "te": "అరెస్టు"
+     },
+     {
+      "en": "2 March 1915 (while trying to win over soldiers)",
+      "te": "2 మార్చి 1915 (సైనికులను ఒప్పిస్తుండగా)"
+     }
+    ],
+    [
+     {
+      "en": "Trial",
+      "te": "విచారణ"
+     },
+     {
+      "en": "Lahore Conspiracy Case (1915) — death sentence",
+      "te": "లాహోర్ కుట్ర కేసు (1915) — మరణశిక్ష"
+     }
+    ],
+    [
+     {
+      "en": "Hanged",
+      "te": "ఉరి"
+     },
+     {
+      "en": "16 Nov 1915, Lahore Central Jail, aged 19 — with Vishnu Ganesh Pingle",
+      "te": "16 నవంబర్ 1915, లాహోర్ సెంట్రల్ జైలు, 19 ఏళ్ల వయసు — విష్ణు గణేశ్ పింగ్లేతో పాటు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Revolutionaries abroad & after",
+     "te": "లింక్ చెయిన్ · విదేశాల్లో విప్లవకారులు, తర్వాత"
+    },
+    "l": [
+     {
+      "en": "Ghadar Party (1913) — Sohan Singh Bhakna, Lala Har Dayal",
+      "te": "గదర్ పార్టీ (1913) — సోహన్ సింగ్ భక్నా, లాలా హర్ దయాళ్"
+     },
+     {
+      "en": "Rash Behari Bose reached Amritsar (25 Jan 1915) to help plan the Feb 1915 revolt",
+      "te": "1915 ఫిబ్రవరి తిరుగుబాటు ప్రణాళికకు రాస్ బిహారీ బోస్ అమృత్‌సర్ చేరారు (25 జనవరి 1915)"
+     },
+     {
+      "en": "Bhagat Singh was inspired by him — Sarabha's photo was found on Bhagat Singh at his arrest",
+      "te": "భగత్ సింగ్‌కు ఆయనే ప్రేరణ — అరెస్టు సమయంలో భగత్ సింగ్ వద్ద సరాభా ఫొటో దొరికింది"
+     },
+     {
+      "en": "See also 22 Oct page: HRA and the Kakori case (1925)",
+      "te": "22 అక్టోబర్ పేజీ కూడా చూడండి: HRA, కాకోరి కేసు (1925)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Two 'Lahore Conspiracy Cases': the 1915 Ghadar case (Sarabha) and the 1929–30 case of Bhagat Singh, Sukhdev and Rajguru (hanged 1931). Also, the Ghadar Party was born in America, not in India.",
+    "te": "రెండు 'లాహోర్ కుట్ర కేసులు': 1915 గదర్ కేసు (సరాభా), 1929–30 భగత్ సింగ్, సుఖ్‌దేవ్, రాజ్‌గురుల కేసు (1931లో ఉరి). అలాగే గదర్ పార్టీ పుట్టింది అమెరికాలో, భారత్‌లో కాదు."
+   },
+   "tip": {
+    "en": "Sarabha's '16': went abroad at 16, hanged on the 16th (Nov 1915), aged 19.",
+    "te": "సరాభా '16': 16 ఏళ్లకు విదేశానికి, (నవంబర్ 1915) 16న ఉరి, 19 ఏళ్ల వయసు."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about Kartar Singh Sarabha:",
+     "te": "కర్తార్ సింగ్ సరాభాకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. He was associated with the Gurmukhi edition of the 'Ghadar' newspaper.",
+      "te": "I. 'గదర్' పత్రిక గురుముఖి ఎడిషన్‌తో ఆయనకు సంబంధం ఉంది."
+     },
+     {
+      "en": "II. He was hanged along with Bhagat Singh, Sukhdev and Rajguru.",
+      "te": "II. భగత్ సింగ్, సుఖ్‌దేవ్, రాజ్‌గురులతో కలిసి ఆయనను ఉరి తీశారు."
+     },
+     {
+      "en": "III. The 1915 revolt he worked for failed because an informer leaked the plan.",
+      "te": "III. ఆయన పనిచేసిన 1915 తిరుగుబాటు గూఢచారి పథకాన్ని బయటపెట్టడంతో విఫలమైంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "II is wrong: Sarabha was hanged in 1915 (with V.G. Pingle); Bhagat Singh, Sukhdev and Rajguru were hanged in 1931.",
+     "te": "II తప్పు: సరాభాను 1915లో (వి.జి. పింగ్లేతో) ఉరి తీశారు; భగత్ సింగ్, సుఖ్‌దేవ్, రాజ్‌గురులను 1931లో."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "A short life of 19 years",
+      "te": "19 ఏళ్ల చిన్న జీవితం"
+     },
+     "items": [
+      {
+       "y": "1896",
+       "t": {
+        "en": "Born at Sarabha, Ludhiana (24 May)",
+        "te": "సరాభా, లూధియానాలో జననం (24 మే)"
+       }
+      },
+      {
+       "y": "1912",
+       "t": {
+        "en": "Goes to the USA to study",
+        "te": "చదువు కోసం అమెరికా"
+       }
+      },
+      {
+       "y": "1913",
+       "t": {
+        "en": "Ghadar Party; 'Ghadar' paper from 1 Nov",
+        "te": "గదర్ పార్టీ; 1 నవంబర్ నుంచి 'గదర్' పత్రిక"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1914",
+       "t": {
+        "en": "Returns to India via Colombo",
+        "te": "కొలంబో మీదుగా భారత్‌కు"
+       }
+      },
+      {
+       "y": "1915",
+       "t": {
+        "en": "Revolt fixed for 21 Feb leaks; arrested 2 Mar",
+        "te": "21 ఫిబ్రవరి తిరుగుబాటు బయటపడింది; 2 మార్చి అరెస్టు"
+       }
+      },
+      {
+       "y": "1915",
+       "t": {
+        "en": "Hanged at Lahore, 16 Nov",
+        "te": "లాహోర్‌లో ఉరి, 16 నవంబర్"
+       },
+       "hl": 1
+      }
+     ],
+     "cap": {
+      "en": "Bold = most-asked dates.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే తేదీలు."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Encyclopaedia of Sikhism (Punjabi University) — Kartar Singh Sarabha (1896–1915)",
+     "u": "https://eos.learnpunjabi.org/KARTAR%20SINGH%20SARABHA%20(1896-1915).html"
+    },
+    {
+     "t": "The Tribune — Gadar hero from Sarabha remained source of inspiration for freedom fighters, 16 Nov 2024",
+     "u": "https://www.tribuneindia.com/news/punjab/gadar-hero-from-sarabha-remained-source-of-inspiration-for-freedom-fighters/amp"
+    },
+    {
+     "t": "Wikipedia — Kartar Singh Sarabha (cross-check)",
+     "u": "https://en.wikipedia.org/wiki/Kartar_Singh_Sarabha"
+    }
+   ]
+  },
+  {
+   "id": "akvan",
+   "kind": "article",
+   "color": "#2c5d63",
+   "icon": "shield",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "In the news · AP · Disaster management · 15–16 Nov 2026",
+    "te": "వార్తల్లో · ఏపీ · విపత్తు నిర్వహణ · 15–16 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-III Geography & Disaster Management",
+    "te": "వివరణ · GS-III భూగోళశాస్త్రం & విపత్తు నిర్వహణ"
+   },
+   "title": {
+    "en": "Third cyclone in three weeks? 'Akvan' and IMD's four-stage warning",
+    "te": "మూడు వారాల్లో మూడో తుపాను? 'అక్వాన్', IMD నాలుగు దశల హెచ్చరిక"
+   },
+   "line": {
+    "en": "IMD issued a 'pre-cyclone watch' for the AP and south Odisha coasts on 15 Nov; the depression is forecast to become a cyclonic storm today and a severe cyclonic storm on 17 Nov.",
+    "te": "15 నవంబర్‌న ఏపీ, దక్షిణ ఒడిశా తీరాలకు IMD 'ప్రీ-సైక్లోన్ వాచ్' జారీ చేసింది; వాయుగుండం ఈరోజు తుపానుగా, 17 నవంబర్‌న తీవ్ర తుపానుగా మారుతుందని అంచనా."
+   },
+   "easy": [
+    {
+     "en": "A depression over the south-east Bay of Bengal is moving north-north-west. When its winds reach 62 km/h (34 knots) it becomes a 'cyclonic storm' and gets the next name on the list — 'Akvan', proposed by Iran. Before that, it is only a depression and has no name.",
+     "te": "ఆగ్నేయ బంగాళాఖాతంలో వాయుగుండం ఉత్తర-వాయవ్య దిశగా కదులుతోంది. గాలుల వేగం గంటకు 62 కి.మీ. (34 నాట్లు) చేరగానే అది 'తుపాను' (cyclonic storm) అవుతుంది, జాబితాలో తర్వాతి పేరు — ఇరాన్ ప్రతిపాదించిన 'అక్వాన్' — వస్తుంది. అప్పటివరకు అది వాయుగుండం మాత్రమే; పేరు ఉండదు."
+    },
+    {
+     "en": "IMD warns in four steps, each closer to the danger: Pre-Cyclone Watch (72 hours before) → Cyclone Alert (48 hrs, yellow) → Cyclone Warning (24 hrs, orange, with landfall point) → Post-Landfall Outlook (12 hrs before landfall, red). So far only the first step has been issued. IMD has not yet fixed a landfall point; reports say the storm may reach the AP coast around 19–20 Nov.",
+     "te": "IMD నాలుగు దశల్లో హెచ్చరిస్తుంది: ప్రీ-సైక్లోన్ వాచ్ (72 గంటల ముందు) → సైక్లోన్ అలర్ట్ (48 గంటలు, పసుపు) → సైక్లోన్ వార్నింగ్ (24 గంటలు, నారింజ, తీరం దాటే ప్రదేశంతో) → పోస్ట్-ల్యాండ్‌ఫాల్ అవుట్‌లుక్ (తీరం దాటడానికి 12 గంటల ముందు, ఎరుపు). ఇప్పటివరకు మొదటి దశ మాత్రమే జారీ అయింది. తీరం దాటే ప్రదేశాన్ని IMD ఇంకా ఖరారు చేయలేదు; 19–20 నవంబర్ ప్రాంతంలో ఏపీ తీరాన్ని చేరవచ్చని వార్తలు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Position (15 Nov)",
+      "te": "స్థానం (15 నవంబర్)"
+     },
+     {
+      "en": "Depression ~960 km SSE of Visakhapatnam, moving NNW",
+      "te": "విశాఖపట్నానికి ~960 కి.మీ. దక్షిణ-ఆగ్నేయంలో వాయుగుండం, ఉత్తర-వాయవ్య దిశగా"
+     }
+    ],
+    [
+     {
+      "en": "Forecast",
+      "te": "అంచనా"
+     },
+     {
+      "en": "Cyclonic storm 16 Nov → severe cyclonic storm 17 Nov",
+      "te": "16 నవంబర్ తుపాను → 17 నవంబర్ తీవ్ర తుపాను"
+     }
+    ],
+    [
+     {
+      "en": "Warning stage",
+      "te": "హెచ్చరిక దశ"
+     },
+     {
+      "en": "Pre-Cyclone Watch for AP & south Odisha coasts (15 Nov)",
+      "te": "ఏపీ, దక్షిణ ఒడిశా తీరాలకు ప్రీ-సైక్లోన్ వాచ్ (15 నవంబర్)"
+     }
+    ],
+    [
+     {
+      "en": "Name",
+      "te": "పేరు"
+     },
+     {
+      "en": "'Akvan' — given by Iran; follows Arnab (Bangladesh) and Murasu (India)",
+      "te": "'అక్వాన్' — ఇరాన్ ఇచ్చింది; అర్నబ్ (బంగ్లాదేశ్), మురసు (భారత్) తర్వాత"
+     }
+    ],
+    [
+     {
+      "en": "Ports",
+      "te": "ఓడరేవులు"
+     },
+     {
+      "en": "Local Cautionary Signal No. 1 at all AP ports except Kalingapatnam",
+      "te": "కళింగపట్నం మినహా అన్ని ఏపీ ఓడరేవుల్లో లోకల్ కాషనరీ సిగ్నల్ నం. 1"
+     }
+    ],
+    [
+     {
+      "en": "Rain alert",
+      "te": "వర్ష హెచ్చరిక"
+     },
+     {
+      "en": "Heavy to very heavy rain 19–20 Nov from Srikakulam to Bapatla districts",
+      "te": "19–20 నవంబర్ శ్రీకాకుళం నుంచి బాపట్ల జిల్లాల వరకు భారీ నుంచి అతి భారీ వర్షాలు"
+     }
+    ],
+    [
+     {
+      "en": "Fishermen",
+      "te": "మత్స్యకారులు"
+     },
+     {
+      "en": "Told to return to shore and not to venture into the sea",
+      "te": "తీరానికి తిరిగి రావాలని, సముద్రంలోకి వెళ్లొద్దని సూచన"
+     }
+    ],
+    [
+     {
+      "en": "Helplines",
+      "te": "హెల్ప్‌లైన్లు"
+     },
+     {
+      "en": "112, 1070, 1800 425 0101 (AP SDMA)",
+      "te": "112, 1070, 1800 425 0101 (ఏపీ SDMA)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Cyclones & AP",
+     "te": "లింక్ చెయిన్ · తుపానులు & ఏపీ"
+    },
+    "l": [
+     {
+      "en": "IMD scale: Depression 31–49 km/h · Deep depression 50–61 · Cyclonic storm 62–88 · Severe 89–117 · Very severe 118–166 · Extremely severe 167–221 · Super ≥222",
+      "te": "IMD స్కేల్: వాయుగుండం 31–49 కి.మీ./గం · తీవ్ర వాయుగుండం 50–61 · తుపాను 62–88 · తీవ్ర 89–117 · అతి తీవ్ర 118–166 · అత్యంత తీవ్ర 167–221 · సూపర్ ≥222"
+     },
+     {
+      "en": "Names: WMO/ESCAP Panel list — 169 names from 13 countries (adopted 2020); RSMC New Delhi assigns them; a name is never reused",
+      "te": "పేర్లు: WMO/ESCAP ప్యానెల్ జాబితా — 13 దేశాల 169 పేర్లు (2020లో ఆమోదం); RSMC న్యూఢిల్లీ కేటాయిస్తుంది; ఒకసారి వాడిన పేరు మళ్లీ వాడరు"
+     },
+     {
+      "en": "This season: Arnab (crossed near Narasapur, 28 Oct) → Murasu (near Ongole, 2–3 Nov) → Akvan",
+      "te": "ఈ సీజన్: అర్నబ్ (నరసాపురం సమీపంలో, 28 అక్టోబర్) → మురసు (ఒంగోలు సమీపంలో, 2–3 నవంబర్) → అక్వాన్"
+     },
+     {
+      "en": "Colour codes in IMD cyclone warnings have been used since the 2006 post-monsoon season",
+      "te": "IMD తుపాను హెచ్చరికల్లో రంగు కోడ్‌లు 2006 ఈశాన్య రుతుపవన సీజన్ నుంచి వాడుతున్నారు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "A storm gets its name only at the cyclonic-storm stage (62 km/h), not as a depression. 'Pre-cyclone watch' has no colour; yellow = alert, orange = warning, red = post-landfall outlook. Akvan is Iran's name, not India's (India's was Murasu).",
+    "te": "తుపాను స్థాయి (62 కి.మీ./గం)లోనే పేరు వస్తుంది, వాయుగుండంగా ఉన్నప్పుడు కాదు. 'ప్రీ-సైక్లోన్ వాచ్'కు రంగు లేదు; పసుపు = అలర్ట్, నారింజ = వార్నింగ్, ఎరుపు = పోస్ట్-ల్యాండ్‌ఫాల్ అవుట్‌లుక్. అక్వాన్ ఇరాన్ పేరు, భారత్‌ది కాదు (భారత్ పేరు మురసు)."
+   },
+   "tip": {
+    "en": "Warnings count down 72-48-24-12: Watch, Yellow, Orange, Red.",
+    "te": "హెచ్చరికలు 72-48-24-12 కౌంట్‌డౌన్: వాచ్, పసుపు, నారింజ, ఎరుపు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to IMD's cyclone warning system, consider the following statements:",
+     "te": "IMD తుపాను హెచ్చరిక వ్యవస్థకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. A Pre-Cyclone Watch is issued about 72 hours ahead and carries an orange colour code.",
+      "te": "I. ప్రీ-సైక్లోన్ వాచ్‌ను సుమారు 72 గంటల ముందు జారీ చేస్తారు, దీనికి నారింజ రంగు కోడ్ ఉంటుంది."
+     },
+     {
+      "en": "II. The Cyclone Warning stage (at least 24 hours ahead) also gives the forecast landfall point.",
+      "te": "II. సైక్లోన్ వార్నింగ్ దశ (కనీసం 24 గంటల ముందు) తీరం దాటే ప్రదేశాన్నీ అంచనా వేస్తుంది."
+     },
+     {
+      "en": "III. A system gets a name once it becomes a depression.",
+      "te": "III. వాయుగుండంగా మారగానే వ్యవస్థకు పేరు పెడతారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "Only II is correct. I: the pre-cyclone watch has no colour (orange = Cyclone Warning). III: naming happens at the cyclonic-storm stage (34 knots / 62 km/h).",
+     "te": "II మాత్రమే సరైనది. I: ప్రీ-సైక్లోన్ వాచ్‌కు రంగు లేదు (నారింజ = సైక్లోన్ వార్నింగ్). III: తుపాను స్థాయి (34 నాట్లు / 62 కి.మీ.)లోనే పేరు."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "IMD's four-stage cyclone warning",
+      "te": "IMD నాలుగు దశల తుపాను హెచ్చరిక"
+     },
+     "items": [
+      {
+       "i": "👀",
+       "t": {
+        "en": "Pre-Cyclone Watch · 72 hrs · no colour (issued 15 Nov)",
+        "te": "ప్రీ-సైక్లోన్ వాచ్ · 72 గం · రంగు లేదు (15 నవం జారీ)"
+       }
+      },
+      {
+       "i": "🟡",
+       "t": {
+        "en": "Cyclone Alert · 48 hrs · yellow",
+        "te": "సైక్లోన్ అలర్ట్ · 48 గం · పసుపు"
+       }
+      },
+      {
+       "i": "🟠",
+       "t": {
+        "en": "Cyclone Warning · 24 hrs · orange · landfall point",
+        "te": "సైక్లోన్ వార్నింగ్ · 24 గం · నారింజ · తీరం దాటే చోటు"
+       }
+      },
+      {
+       "i": "🔴",
+       "t": {
+        "en": "Post-Landfall Outlook · 12 hrs · red",
+        "te": "పోస్ట్-ల్యాండ్‌ఫాల్ అవుట్‌లుక్ · 12 గం · ఎరుపు"
+       }
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Coast under watch",
+      "te": "హెచ్చరికలో ఉన్న తీరం"
+     },
+     "view": "south",
+     "hl": [
+      "Andhra Pradesh",
+      "Odisha"
+     ],
+     "hlc": "#2c5d63",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        17.69,
+        83.22
+       ],
+       "t": {
+        "en": "Visakhapatnam",
+        "te": "విశాఖపట్నం"
+       }
+      },
+      {
+       "ll": [
+        15.9,
+        80.47
+       ],
+       "t": {
+        "en": "Bapatla",
+        "te": "బాపట్ల"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        19.26,
+        84.91
+       ],
+       "t": {
+        "en": "Gopalpur",
+        "te": "గోపాల్‌పూర్"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Pre-cyclone watch: AP and south Odisha coasts. Reports suggest a crossing between Visakhapatnam and Bapatla around 20 Nov — IMD has not fixed the point yet.",
+      "te": "ప్రీ-సైక్లోన్ వాచ్: ఏపీ, దక్షిణ ఒడిశా తీరాలు. విశాఖపట్నం–బాపట్ల మధ్య 20 నవంబర్ ప్రాంతంలో తీరం దాటవచ్చని వార్తలు — IMD ఇంకా ప్రదేశాన్ని ఖరారు చేయలేదు."
+     },
+     "src": "cards/2026-11-16/map-akvan-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "IMD RSMC New Delhi — Four-stage warning system for tropical cyclones",
+     "u": "https://rsmcnewdelhi.imd.gov.in/four-stage-warning.php"
+    },
+    {
+     "t": "IMD RSMC New Delhi — Cyclone terminology (classification)",
+     "u": "https://rsmcnewdelhi.imd.gov.in/images/pdf/terminology.pdf"
+    },
+    {
+     "t": "WMO — Tropical cyclone names: Northern Indian Ocean",
+     "u": "https://wmo.int/content/tropical-cyclone-naming/northern-indian-ocean-names-arabian-sea-and-bay-of-bengal"
+    },
+    {
+     "t": "Deccan Chronicle — Cyclone likely to cross AP coast between Vizag and Bapatla on Nov 20, 16 Nov 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-likely-to-cross-ap-coast-between-vizag-and-bapatla-on-nov-20-2004753"
+    },
+    {
+     "t": "The Hans India — Cyclone Akvan brews over Bay of Bengal, 16 Nov 2026",
+     "u": "https://www.thehansindia.com/news/cities/amaravati/cyclone-akvan-brews-over-bay-of-bengal-1142495"
+    },
+    {
+     "t": "The Hans India — AP bracing for another cyclone, 15 Nov 2026",
+     "u": "https://www.thehansindia.com/andhra-pradesh/ap-bracing-for-another-cyclone-1142438"
+    },
+    {
+     "t": "India TV — After Arnab and Murasu, Cyclone Akvan approaches, 15 Nov 2026",
+     "u": "https://www.indiatvnews.com/news/india/after-arnab-and-murasu-cyclone-akvan-approaches-bay-of-bengal-imd-issues-fresh-warning-2026-11-15-1059494"
+    }
+   ],
+   "mains": {
+    "en": "'Andhra Pradesh faces repeated cyclones in the same season.' Explain how IMD's staged warnings help reduce loss of life, and suggest steps to reduce damage to crops and fishermen's livelihoods.",
+    "te": "'ఒకే సీజన్‌లో ఆంధ్రప్రదేశ్ వరుస తుపానులను ఎదుర్కొంటోంది.' IMD దశలవారీ హెచ్చరికలు ప్రాణనష్టాన్ని ఎలా తగ్గిస్తాయో వివరించి, పంటలు, మత్స్యకారుల జీవనోపాధికి నష్టం తగ్గించే చర్యలు సూచించండి."
+   }
+  },
+  {
+   "id": "aseanindia",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "unsc",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    6
+   ],
+   "src": {
+    "en": "PIB/MEA · 12 Nov 2026 · All India Radio · 15 Nov 2026",
+    "te": "PIB/MEA · 12 నవంబర్ 2026 · ఆకాశవాణి · 15 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II International Relations",
+    "te": "వివరణ · GS-II అంతర్జాతీయ సంబంధాలు"
+   },
+   "title": {
+    "en": "PM in Manila for the 23rd ASEAN-India Summit and 21st East Asia Summit",
+    "te": "23వ ఆసియాన్-భారత్ సదస్సు, 21వ తూర్పు ఆసియా సదస్సు కోసం మనీలాలో ప్రధాని"
+   },
+   "line": {
+    "en": "Both summits are on 17 Nov in Manila; 2026 is the ASEAN-India Year of Maritime Cooperation and the summit will review the Plan of Action 2026–2030.",
+    "te": "రెండు సదస్సులూ 17 నవంబర్‌న మనీలాలో; 2026 ఆసియాన్-భారత్ సముద్ర సహకార సంవత్సరం; కార్యాచరణ ప్రణాళిక 2026–2030 అమలును సమీక్షిస్తారు."
+   },
+   "easy": [
+    {
+     "en": "ASEAN is a group of 11 South-East Asian countries. For India it is the heart of the 'Act East' policy — trade, sea routes and security in the Indo-Pacific. The Philippines chairs ASEAN in 2026 and hosts the 49th ASEAN Summit in Manila (15–17 Nov) with the theme 'Navigating Our Future, Together'.",
+     "te": "ఆసియాన్ 11 ఆగ్నేయాసియా దేశాల కూటమి. భారత్‌కు ఇది 'యాక్ట్ ఈస్ట్' విధానానికి కేంద్రం — వాణిజ్యం, సముద్ర మార్గాలు, ఇండో-పసిఫిక్ భద్రత. 2026లో ఆసియాన్ అధ్యక్ష బాధ్యత ఫిలిప్పీన్స్‌ది; 'Navigating Our Future, Together' థీమ్‌తో మనీలాలో 49వ ఆసియాన్ సదస్సు (15–17 నవంబర్) జరుగుతోంది."
+    },
+    {
+     "en": "PM Modi visits Manila on 16–17 Nov at the invitation of President Ferdinand R. Marcos Jr. At the ASEAN-India Summit leaders will review the Comprehensive Strategic Partnership (2022). The East Asia Summit (EAS) is a wider forum — ASEAN plus eight partners such as India, China, Japan, the US and Russia — to discuss regional and global issues.",
+     "te": "అధ్యక్షుడు ఫెర్డినాండ్ ఆర్. మార్కోస్ జూనియర్ ఆహ్వానం మేరకు ప్రధాని మోదీ 16–17 నవంబర్‌న మనీలా వెళ్తున్నారు. ఆసియాన్-భారత్ సదస్సులో సమగ్ర వ్యూహాత్మక భాగస్వామ్యం (2022) అమలును సమీక్షిస్తారు. తూర్పు ఆసియా సదస్సు (EAS) విస్తృత వేదిక — ఆసియాన్‌తో పాటు భారత్, చైనా, జపాన్, అమెరికా, రష్యా వంటి ఎనిమిది భాగస్వాములు — ప్రాంతీయ, ప్రపంచ అంశాలపై చర్చ."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Summits",
+      "te": "సదస్సులు"
+     },
+     {
+      "en": "23rd ASEAN-India Summit + 21st East Asia Summit — 17 Nov 2026, Manila",
+      "te": "23వ ఆసియాన్-భారత్ సదస్సు + 21వ తూర్పు ఆసియా సదస్సు — 17 నవంబర్ 2026, మనీలా"
+     }
+    ],
+    [
+     {
+      "en": "ASEAN Chair 2026",
+      "te": "2026 ఆసియాన్ అధ్యక్షత"
+     },
+     {
+      "en": "Philippines — theme 'Navigating Our Future, Together'; next chair Singapore",
+      "te": "ఫిలిప్పీన్స్ — థీమ్ 'Navigating Our Future, Together'; తదుపరి సింగపూర్"
+     }
+    ],
+    [
+     {
+      "en": "Year of",
+      "te": "సంవత్సరం"
+     },
+     {
+      "en": "2026 = ASEAN-India Year of Maritime Cooperation",
+      "te": "2026 = ఆసియాన్-భారత్ సముద్ర సహకార సంవత్సరం"
+     }
+    ],
+    [
+     {
+      "en": "Coming up",
+      "te": "రాబోయేది"
+     },
+     {
+      "en": "2027: 35 years of dialogue relations, 5 years of CSP",
+      "te": "2027: సంభాషణ సంబంధాలకు 35 ఏళ్లు, CSPకి 5 ఏళ్లు"
+     }
+    ],
+    [
+     {
+      "en": "ASEAN",
+      "te": "ఆసియాన్"
+     },
+     {
+      "en": "Founded 8 Aug 1967 (Bangkok Declaration) by 5; now 11 members; Secretariat Jakarta",
+      "te": "8 ఆగస్టు 1967 (బ్యాంకాక్ డిక్లరేషన్), 5 వ్యవస్థాపకులు; ఇప్పుడు 11 సభ్యులు; సచివాలయం జకార్తా"
+     }
+    ],
+    [
+     {
+      "en": "Newest member",
+      "te": "కొత్త సభ్యదేశం"
+     },
+     {
+      "en": "Timor-Leste — 11th member, 26 Oct 2025",
+      "te": "తిమోర్-లెస్తే — 11వ సభ్యదేశం, 26 అక్టోబర్ 2025"
+     }
+    ],
+    [
+     {
+      "en": "Trade",
+      "te": "వాణిజ్యం"
+     },
+     {
+      "en": "India-ASEAN goods trade US$ 114.05 bn (2025); AITIGA (2009) under review",
+      "te": "భారత్-ఆసియాన్ వస్తు వాణిజ్యం US$ 114.05 బి. (2025); AITIGA (2009) సమీక్షలో"
+     }
+    ],
+    [
+     {
+      "en": "India–Philippines",
+      "te": "భారత్–ఫిలిప్పీన్స్"
+     },
+     {
+      "en": "Strategic Partnership (Aug 2025); first foreign buyer of BrahMos (delivered Apr 2024)",
+      "te": "వ్యూహాత్మక భాగస్వామ్యం (ఆగస్టు 2025); బ్రహ్మోస్ కొన్న తొలి విదేశీ దేశం (ఏప్రిల్ 2024 డెలివరీ)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · India and ASEAN",
+     "te": "లింక్ చెయిన్ · భారత్, ఆసియాన్"
+    },
+    "l": [
+     {
+      "en": "Look East (early 1990s, P.V. Narasimha Rao) → 'Act East' announced at the EAS, Nay Pyi Taw, Nov 2014",
+      "te": "లుక్ ఈస్ట్ (1990ల ప్రారంభం, పి.వి. నరసింహారావు) → 'యాక్ట్ ఈస్ట్' ప్రకటన, EAS నేపిడా, నవంబర్ 2014"
+     },
+     {
+      "en": "Ladder: sectoral partner 1992 → dialogue partner 1995 → summit 2002 → Strategic Partnership 2012 → CSP 2022",
+      "te": "నిచ్చెన: సెక్టోరల్ భాగస్వామి 1992 → డైలాగ్ భాగస్వామి 1995 → సదస్సు 2002 → వ్యూహాత్మక భాగస్వామ్యం 2012 → CSP 2022"
+     },
+     {
+      "en": "South China Sea: India says any ASEAN–China Code of Conduct must be consistent with UNCLOS",
+      "te": "దక్షిణ చైనా సముద్రం: ఆసియాన్–చైనా ప్రవర్తనా నియమావళి UNCLOSకు అనుగుణంగా ఉండాలని భారత్ వైఖరి"
+     },
+     {
+      "en": "AP link: Visakhapatnam hosts the Eastern Naval Command — the base for India's naval reach towards South-East Asia (see IMNEX-26, 15 Nov evening)",
+      "te": "ఏపీ లింక్: విశాఖపట్నంలో తూర్పు నౌకాదళ కమాండ్ — ఆగ్నేయాసియా వైపు భారత నౌకాదళ కార్యకలాపాలకు స్థావరం (IMNEX-26, 15 నవం సాయంత్రం చూడండి)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "ASEAN-India Summit (23rd) and East Asia Summit (21st) have different numbers and members — India is a partner, not a member of ASEAN. ASEAN now has 11 members (Timor-Leste), not 10. Official sources give India's full dialogue partnership as 1995 (many books write 1996).",
+    "te": "ఆసియాన్-భారత్ సదస్సు (23వ), తూర్పు ఆసియా సదస్సు (21వ) — సంఖ్యలు, సభ్యులు వేర్వేరు; భారత్ ఆసియాన్ భాగస్వామి, సభ్యదేశం కాదు. ఆసియాన్‌లో ఇప్పుడు 11 సభ్యులు (తిమోర్-లెస్తే), 10 కాదు. అధికారిక వనరుల ప్రకారం పూర్తి డైలాగ్ భాగస్వామ్యం 1995 (చాలా పుస్తకాల్లో 1996)."
+   },
+   "tip": {
+    "en": "India–ASEAN ladder '92-95-02-12-22': Sector, Dialogue, Summit, Strategic, Comprehensive.",
+    "te": "భారత్–ఆసియాన్ నిచ్చెన '92-95-02-12-22': సెక్టర్, డైలాగ్, సమ్మిట్, స్ట్రాటజిక్, కాంప్రహెన్సివ్."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about ASEAN and India:",
+     "te": "ఆసియాన్, భారత్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. ASEAN was founded by the Bangkok Declaration of 1967 and its Secretariat is in Jakarta.",
+      "te": "I. 1967 బ్యాంకాక్ డిక్లరేషన్‌తో ఆసియాన్ ఏర్పడింది; దాని సచివాలయం జకార్తాలో ఉంది."
+     },
+     {
+      "en": "II. India became a member of ASEAN when the Comprehensive Strategic Partnership was signed in 2022.",
+      "te": "II. 2022లో సమగ్ర వ్యూహాత్మక భాగస్వామ్యంతో భారత్ ఆసియాన్ సభ్యదేశమైంది."
+     },
+     {
+      "en": "III. Timor-Leste is the newest member of ASEAN.",
+      "te": "III. ఆసియాన్‌లో కొత్త సభ్యదేశం తిమోర్-లెస్తే."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II is wrong: India is a dialogue partner (CSP since 2022), never a member. I and III are correct.",
+     "te": "II తప్పు: భారత్ డైలాగ్ భాగస్వామి (2022 నుంచి CSP), సభ్యదేశం కాదు. I, III సరైనవి."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "India–ASEAN: step by step",
+      "te": "భారత్–ఆసియాన్: దశలవారీగా"
+     },
+     "items": [
+      {
+       "y": "1967",
+       "t": {
+        "en": "ASEAN founded (Bangkok)",
+        "te": "ఆసియాన్ ఏర్పాటు (బ్యాంకాక్)"
+       }
+      },
+      {
+       "y": "1992",
+       "t": {
+        "en": "India: sectoral partner",
+        "te": "భారత్: సెక్టోరల్ భాగస్వామి"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1995",
+       "t": {
+        "en": "Full dialogue partner",
+        "te": "పూర్తి డైలాగ్ భాగస్వామి"
+       }
+      },
+      {
+       "y": "2002",
+       "t": {
+        "en": "First ASEAN-India Summit (Phnom Penh)",
+        "te": "తొలి ఆసియాన్-భారత్ సదస్సు (నామ్ పెన్)"
+       }
+      },
+      {
+       "y": "2012",
+       "t": {
+        "en": "Strategic Partnership",
+        "te": "వ్యూహాత్మక భాగస్వామ్యం"
+       }
+      },
+      {
+       "y": "2022",
+       "t": {
+        "en": "Comprehensive Strategic Partnership",
+        "te": "సమగ్ర వ్యూహాత్మక భాగస్వామ్యం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "Year of Maritime Cooperation; 23rd Summit, Manila",
+        "te": "సముద్ర సహకార సంవత్సరం; 23వ సదస్సు, మనీలా"
+       },
+       "hl": 1
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Where: Manila, the Philippines",
+      "te": "ఎక్కడ: మనీలా, ఫిలిప్పీన్స్"
+     },
+     "view": "world",
+     "ctry": [
+      "Philippines",
+      "Indonesia",
+      "Malaysia",
+      "Singapore",
+      "Thailand",
+      "Vietnam",
+      "Laos",
+      "Cambodia",
+      "Myanmar",
+      "Brunei",
+      "Timor-Leste"
+     ],
+     "hlc": "#7a3b8f",
+     "pts": [
+      {
+       "ll": [
+        14.6,
+        120.98
+       ],
+       "t": {
+        "en": "Manila (summits)",
+        "te": "మనీలా (సదస్సులు)"
+       }
+      },
+      {
+       "ll": [
+        -6.21,
+        106.85
+       ],
+       "t": {
+        "en": "Jakarta (Secretariat)",
+        "te": "జకార్తా (సచివాలయం)"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "Coloured = the 11 ASEAN members.",
+      "te": "రంగు వేసినవి = 11 ఆసియాన్ సభ్యదేశాలు."
+     },
+     "src": "cards/2026-11-16/map-aseanindia-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB (MEA) — Visit of Prime Minister to Manila, Philippines, 12 Nov 2026",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335665&reg=48&lang=2"
+    },
+    {
+     "t": "All India Radio News — 49th ASEAN Summit begins in Manila under Philippine chairmanship, 15 Nov 2026",
+     "u": "https://newsonair.gov.in/49th-asean-summit-begins-in-manila-under-philippine-chairmanship/"
+    },
+    {
+     "t": "ASEAN — Overview of ASEAN-India relations (Aug 2026)",
+     "u": "https://asean.org/wp-content/uploads/2026/08/Overview-ASEAN-India-ao-August-2026.pdf"
+    },
+    {
+     "t": "ASEAN — The founding of ASEAN",
+     "u": "https://asean.org/about-asean/the-founding-of-asean/"
+    },
+    {
+     "t": "ASEAN — About the ASEAN 2026 Philippine Chairship",
+     "u": "https://asean.org/wp-content/uploads/2026/01/About-the-ASEAN-2026-Philippine-Chairship.pdf"
+    },
+    {
+     "t": "MEA — India-Philippines bilateral brief (Apr 2026)",
+     "u": "https://www.mea.gov.in/Portal/ForeignRelation/India-Philippines.pdf"
+    },
+    {
+     "t": "ANI — PM Modi to visit Manila for ASEAN summit; maritime security, trade on agenda, 15 Nov 2026",
+     "u": "https://aninews.in/news/world/asia/pm-modi-to-visit-manila-for-asean-summit-maritime-security-trade-on-agenda20261115180530/"
+    }
+   ],
+   "mains": {
+    "en": "'ASEAN is the central pillar of India's Act East Policy.' Examine how maritime cooperation can deepen India–ASEAN ties, with reference to the South China Sea.",
+    "te": "'భారత యాక్ట్ ఈస్ట్ విధానానికి ఆసియాన్ కేంద్ర స్తంభం.' దక్షిణ చైనా సముద్రం నేపథ్యంలో సముద్ర సహకారం భారత్–ఆసియాన్ సంబంధాలను ఎలా బలపరుస్తుందో పరిశీలించండి."
+   }
+  },
+  {
+   "id": "nha",
+   "kind": "article",
+   "color": "#2f6b2f",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "PIB (Health Ministry) · 15 Nov 2026 · Economy & Health",
+    "te": "PIB (ఆరోగ్య మంత్రిత్వ శాఖ) · 15 నవంబర్ 2026 · ఆర్థికం & ఆరోగ్యం"
+   },
+   "tag": {
+    "en": "Explained · GS-III Economy / GS-II Social sector",
+    "te": "వివరణ · GS-III ఆర్థికం / GS-II సామాజిక రంగం"
+   },
+   "title": {
+    "en": "National Health Accounts 2023-24: government spending triples, families pay a smaller share",
+    "te": "జాతీయ ఆరోగ్య ఖాతాలు 2023-24: ప్రభుత్వ వ్యయం మూడింతలు, కుటుంబాల జేబు ఖర్చు వాటా తగ్గింది"
+   },
+   "line": {
+    "en": "Out-of-pocket spending fell from 64.2% of total health spending in 2013-14 to 42.7% in 2023-24, while government health spending rose about three times.",
+    "te": "మొత్తం ఆరోగ్య వ్యయంలో జేబు నుంచి ఖర్చు 2013-14లో 64.2% నుంచి 2023-24లో 42.7%కి తగ్గింది; ప్రభుత్వ ఆరోగ్య వ్యయం సుమారు మూడింతలైంది."
+   },
+   "easy": [
+    {
+     "en": "National Health Accounts (NHA) answer a simple question: who pays for India's health care — the government, insurance, or families from their own pocket? The money families pay directly at the hospital or pharmacy is called Out-of-Pocket Expenditure (OOPE). High OOPE pushes poor families into debt.",
+     "te": "జాతీయ ఆరోగ్య ఖాతాలు (NHA) ఒక సాధారణ ప్రశ్నకు జవాబిస్తాయి: భారత్‌లో వైద్యానికి ఎవరు చెల్లిస్తున్నారు — ప్రభుత్వమా, బీమానా, లేక కుటుంబాలు తమ జేబు నుంచేనా? ఆసుపత్రి లేదా మందుల దుకాణంలో కుటుంబాలు నేరుగా చెల్లించే డబ్బును 'జేబు నుంచి ఖర్చు' (OOPE) అంటారు. OOPE ఎక్కువైతే పేద కుటుంబాలు అప్పుల్లో కూరుకుపోతాయి."
+    },
+    {
+     "en": "The 11th round of estimates (for 2023-24), released by the Health Ministry on 15 Nov 2026, shows government health spending up from ₹1,29,778 crore (2013-14) to ₹4,14,196 crore (2023-24). OOPE's share fell by 21.5 percentage points, while social security and private insurance took a bigger share.",
+     "te": "ఆరోగ్య మంత్రిత్వ శాఖ 15 నవంబర్ 2026న విడుదల చేసిన 11వ రౌండ్ అంచనాలు (2023-24) — ప్రభుత్వ ఆరోగ్య వ్యయం ₹1,29,778 కోట్లు (2013-14) నుంచి ₹4,14,196 కోట్లకు (2023-24) పెరిగిందని చూపుతున్నాయి. OOPE వాటా 21.5 శాతం పాయింట్లు తగ్గింది; సామాజిక భద్రత, ప్రైవేట్ బీమా వాటా పెరిగింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Govt health spending",
+      "te": "ప్రభుత్వ ఆరోగ్య వ్యయం"
+     },
+     {
+      "en": "₹1,29,778 cr (2013-14) → ₹4,14,196 cr (2023-24), ~3 times",
+      "te": "₹1,29,778 కో. (2013-14) → ₹4,14,196 కో. (2023-24), ~3 రెట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Per person (govt)",
+      "te": "తలసరి (ప్రభుత్వం)"
+     },
+     {
+      "en": "₹1,042 → ₹2,959 (~2.8 times)",
+      "te": "₹1,042 → ₹2,959 (~2.8 రెట్లు)"
+     }
+    ],
+    [
+     {
+      "en": "OOPE share of THE",
+      "te": "మొత్తం వ్యయంలో OOPE వాటా"
+     },
+     {
+      "en": "64.2% (2013-14) → 43.4% (2022-23) → 42.7% (2023-24)",
+      "te": "64.2% (2013-14) → 43.4% (2022-23) → 42.7% (2023-24)"
+     }
+    ],
+    [
+     {
+      "en": "Govt share of THE",
+      "te": "మొత్తం వ్యయంలో ప్రభుత్వ వాటా"
+     },
+     {
+      "en": "Up 14.9 percentage points in ten years",
+      "te": "పదేళ్లలో 14.9 శాతం పాయింట్లు పెరుగుదల"
+     }
+    ],
+    [
+     {
+      "en": "Social security on health",
+      "te": "ఆరోగ్యంపై సామాజిక భద్రత"
+     },
+     {
+      "en": "6% → 11% of THE",
+      "te": "THEలో 6% → 11%"
+     }
+    ],
+    [
+     {
+      "en": "Private insurance",
+      "te": "ప్రైవేట్ బీమా"
+     },
+     {
+      "en": "3.4% → 10.2% of THE",
+      "te": "THEలో 3.4% → 10.2%"
+     }
+    ],
+    [
+     {
+      "en": "Primary care (govt)",
+      "te": "ప్రాథమిక వైద్యం (ప్రభుత్వం)"
+     },
+     {
+      "en": "About ₹1.53 lakh crore in 2023-24",
+      "te": "2023-24లో సుమారు ₹1.53 లక్షల కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Prepared by",
+      "te": "తయారు చేసింది"
+     },
+     {
+      "en": "NHA Technical Secretariat at NHSRC; 11th round; System of Health Accounts 2011 framework",
+      "te": "NHSRCలోని NHA టెక్నికల్ సెక్రటేరియట్; 11వ రౌండ్; System of Health Accounts 2011 చట్రం"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Health in the Constitution & schemes",
+     "te": "లింక్ చెయిన్ · రాజ్యాంగం, పథకాల్లో ఆరోగ్యం"
+    },
+    "l": [
+     {
+      "en": "'Public health and sanitation; hospitals and dispensaries' = State List (Entry 6, List II) — so states carry most health spending",
+      "te": "'ప్రజారోగ్యం, పారిశుధ్యం; ఆసుపత్రులు, డిస్పెన్సరీలు' = రాష్ట్ర జాబితా (జాబితా II, ఎంట్రీ 6) — అందుకే ఆరోగ్య వ్యయంలో ఎక్కువ భాగం రాష్ట్రాలదే"
+     },
+     {
+      "en": "Article 47 (DPSP): duty of the State to raise nutrition and improve public health",
+      "te": "ఆర్టికల్ 47 (ఆదేశిక సూత్రం): పోషణ స్థాయి పెంచడం, ప్రజారోగ్యం మెరుగుపరచడం రాజ్య బాధ్యత"
+     },
+     {
+      "en": "Insurance link: Ayushman Bharat PM-JAY; AP: Dr NTR Vaidya Seva",
+      "te": "బీమా లింక్: ఆయుష్మాన్ భారత్ PM-JAY; ఏపీ: డా. ఎన్టీఆర్ వైద్య సేవ"
+     },
+     {
+      "en": "See also 10 Nov page: cancer medicines cheaper (trade margins capped)",
+      "te": "10 నవంబర్ పేజీ కూడా చూడండి: క్యాన్సర్ మందుల ధరలు తగ్గింపు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "OOPE fell as a SHARE of total health spending — not necessarily in rupees. 'Percentage points' (64.2 → 42.7 = 21.5 points) is not the same as 'per cent'. NHA is prepared by NHSRC's NHA Technical Secretariat, not by NSO.",
+    "te": "OOPE తగ్గింది మొత్తం ఆరోగ్య వ్యయంలో వాటాగా — రూపాయల్లో తప్పనిసరిగా కాదు. 'శాతం పాయింట్లు' (64.2 → 42.7 = 21.5 పాయింట్లు) 'శాతం'తో సమానం కాదు. NHAను NHSRCలోని NHA టెక్నికల్ సెక్రటేరియట్ తయారు చేస్తుంది, NSO కాదు."
+   },
+   "tip": {
+    "en": "'64 to 43': from about two-thirds to below half — families' share of the health bill.",
+    "te": "'64 నుంచి 43': మూడింట రెండు వంతుల నుంచి సగం కంటే తక్కువకు — ఆరోగ్య బిల్లులో కుటుంబాల వాటా."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the National Health Accounts (NHA) Estimates 2023-24, consider the following statements:",
+     "te": "జాతీయ ఆరోగ్య ఖాతాల (NHA) అంచనాలు 2023-24కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. Out-of-pocket expenditure is now below half of total health expenditure.",
+      "te": "I. జేబు నుంచి ఖర్చు ఇప్పుడు మొత్తం ఆరోగ్య వ్యయంలో సగం కంటే తక్కువ."
+     },
+     {
+      "en": "II. The estimates are prepared by the National Statistics Office (NSO).",
+      "te": "II. ఈ అంచనాలను జాతీయ గణాంక కార్యాలయం (NSO) తయారు చేస్తుంది."
+     },
+     {
+      "en": "III. The share of private health insurance in total health expenditure has risen to about 10%.",
+      "te": "III. మొత్తం ఆరోగ్య వ్యయంలో ప్రైవేట్ ఆరోగ్య బీమా వాటా సుమారు 10%కి పెరిగింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II is wrong: NHA is prepared by the NHA Technical Secretariat at NHSRC (Health Ministry). OOPE = 42.7%, insurance = 10.2%.",
+     "te": "II తప్పు: NHAను NHSRC (ఆరోగ్య శాఖ)లోని NHA టెక్నికల్ సెక్రటేరియట్ తయారు చేస్తుంది. OOPE = 42.7%, బీమా = 10.2%."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Out-of-pocket share of total health spending",
+      "te": "మొత్తం ఆరోగ్య వ్యయంలో జేబు ఖర్చు వాటా"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "2013-14",
+        "te": "2013-14"
+       },
+       "v": 64.2,
+       "vl": "64.2%"
+      },
+      {
+       "t": {
+        "en": "2022-23",
+        "te": "2022-23"
+       },
+       "v": 43.4,
+       "vl": "43.4%"
+      },
+      {
+       "t": {
+        "en": "2023-24",
+        "te": "2023-24"
+       },
+       "v": 42.7,
+       "vl": "42.7%"
+      }
+     ]
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "Government health spending (₹ crore)",
+      "te": "ప్రభుత్వ ఆరోగ్య వ్యయం (₹ కోట్లు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "2013-14",
+        "te": "2013-14"
+       },
+       "v": 129778,
+       "vl": "₹1,29,778 cr"
+      },
+      {
+       "t": {
+        "en": "2023-24",
+        "te": "2023-24"
+       },
+       "v": 414196,
+       "vl": "₹4,14,196 cr"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ANI — Government health spending triples, households' out-of-pocket expenditure share falls sharply: National Health Accounts, 15 Nov 2026",
+     "u": "https://aninews.in/news/national/general-news/government-health-spending-triples-households-out-of-pocket-expenditure-share-falls-sharply-national-health-accounts-202382112420261115143313/"
+    },
+    {
+     "t": "PIB — All releases (Ministry of Health release on NHA Estimates 2023-24, 15 Nov 2026)",
+     "u": "https://www.pib.gov.in/AllRelease.aspx?reg=6&lang=1"
+    }
+   ],
+   "mains": {
+    "en": "'Falling out-of-pocket expenditure is a sign of a stronger public health system.' Critically examine with reference to the National Health Accounts 2023-24.",
+    "te": "'జేబు నుంచి ఖర్చు తగ్గడం బలమైన ప్రజారోగ్య వ్యవస్థకు సంకేతం.' జాతీయ ఆరోగ్య ఖాతాలు 2023-24 ఆధారంగా విమర్శనాత్మకంగా పరిశీలించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "pressday",
+   "q": {
+    "en": "Consider the following statements about the Press Council of India and National Press Day:",
+    "te": "భారత ప్రెస్ కౌన్సిల్, జాతీయ పత్రికా దినోత్సవానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. National Press Day is observed on 16 November because the Press Council of India began functioning on that day in 1966.",
+     "te": "I. 1966లో ఆ రోజున భారత ప్రెస్ కౌన్సిల్ పని ప్రారంభించినందున నవంబర్ 16న జాతీయ పత్రికా దినోత్సవం జరుపుతారు."
+    },
+    {
+     "en": "II. The Press Council began functioning in 1956, the year the First Press Commission reported.",
+     "te": "II. మొదటి ప్రెస్ కమిషన్ నివేదిక ఇచ్చిన 1956లోనే ప్రెస్ కౌన్సిల్ పని ప్రారంభించింది."
+    },
+    {
+     "en": "III. The theme for 2025 was about safeguarding press credibility amid rising misinformation.",
+     "te": "III. 2025 థీమ్ — పెరుగుతున్న తప్పుడు సమాచారం మధ్య పత్రికా విశ్వసనీయత రక్షణ."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is the trap: 1956 = First Press Commission's recommendation; the Council began work on 16 Nov 1966.",
+    "te": "II ఉచ్చు: 1956 = మొదటి ప్రెస్ కమిషన్ సిఫారసు; కౌన్సిల్ 16 నవంబర్ 1966న పని ప్రారంభించింది."
+   }
+  },
+  {
+   "topic": "pressday",
+   "q": {
+    "en": "Match List-I (day) with List-II (date):",
+    "te": "జాబితా-I (దినోత్సవం)ను జాబితా-II (తేదీ)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. National Press Day   1. 3 May",
+     "te": "A. జాతీయ పత్రికా దినోత్సవం   1. మే 3"
+    },
+    {
+     "en": "B. World Press Freedom Day   2. 2 November",
+     "te": "B. ప్రపంచ పత్రికా స్వేచ్ఛా దినోత్సవం   2. నవంబర్ 2"
+    },
+    {
+     "en": "C. International Day to End Impunity for Crimes against Journalists   3. 16 November",
+     "te": "C. జర్నలిస్టులపై నేరాల శిక్షారాహిత్య నిర్మూలన అంతర్జాతీయ దినోత్సవం   3. నవంబర్ 16"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-1, B-3, C-2",
+     "te": "A-1, B-3, C-2"
+    },
+    {
+     "en": "A-3, B-2, C-1",
+     "te": "A-3, B-2, C-1"
+    },
+    {
+     "en": "A-2, B-1, C-3",
+     "te": "A-2, B-1, C-3"
+    },
+    {
+     "en": "A-3, B-1, C-2",
+     "te": "A-3, B-1, C-2"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "National Press Day = 16 Nov (India, PCI); World Press Freedom Day = 3 May (UNESCO); End Impunity Day = 2 Nov. Option (a) swaps the two press days.",
+    "te": "జాతీయ పత్రికా దినోత్సవం = నవంబర్ 16 (భారత్, PCI); ప్రపంచ పత్రికా స్వేచ్ఛా దినోత్సవం = మే 3 (UNESCO); శిక్షారాహిత్య నిర్మూలన దినోత్సవం = నవంబర్ 2. (a)లో రెండు పత్రికా దినాలు తారుమారు."
+   }
+  },
+  {
+   "topic": "sarabha",
+   "q": {
+    "en": "Arrange the following events related to the Ghadar movement in chronological order:",
+    "te": "గదర్ ఉద్యమానికి సంబంధించిన కింది ఘటనలను కాలక్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "I. Kartar Singh Sarabha is hanged at Lahore Central Jail",
+     "te": "I. లాహోర్ సెంట్రల్ జైలులో కర్తార్ సింగ్ సరాభాకు ఉరి"
+    },
+    {
+     "en": "II. 'Ghadar' newspaper begins publication",
+     "te": "II. 'గదర్' పత్రిక ప్రచురణ ప్రారంభం"
+    },
+    {
+     "en": "III. Date fixed for the Ghadar revolt (21 February) is leaked by an informer",
+     "te": "III. గదర్ తిరుగుబాటు తేదీ (ఫిబ్రవరి 21) గూఢచారి ద్వారా బయటపడింది"
+    },
+    {
+     "en": "IV. Sarabha goes to the USA to study",
+     "te": "IV. చదువు కోసం సరాభా అమెరికా వెళ్లారు"
+    }
+   ],
+   "o": [
+    {
+     "en": "IV, II, III, I",
+     "te": "IV, II, III, I"
+    },
+    {
+     "en": "II, IV, III, I",
+     "te": "II, IV, III, I"
+    },
+    {
+     "en": "IV, III, II, I",
+     "te": "IV, III, II, I"
+    },
+    {
+     "en": "IV, II, I, III",
+     "te": "IV, II, I, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "USA 1912 → 'Ghadar' paper 1 Nov 1913 → revolt leaked Feb 1915 → hanged 16 Nov 1915. Option (b) wrongly puts the paper before his going abroad.",
+    "te": "అమెరికా 1912 → 'గదర్' పత్రిక 1 నవంబర్ 1913 → తిరుగుబాటు బయటపడింది ఫిబ్రవరి 1915 → ఉరి 16 నవంబర్ 1915. (b) పత్రికను విదేశీ ప్రయాణం కంటే ముందు పెట్టింది — తప్పు."
+   }
+  },
+  {
+   "topic": "sarabha",
+   "q": {
+    "en": "Which of the following statements is/are INCORRECT?",
+    "te": "కింది వాటిలో తప్పు వాక్యం/వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. The Ghadar Party was founded in Lahore in 1913 with Lala Har Dayal as its president.",
+     "te": "I. 1913లో లాహోర్‌లో లాలా హర్ దయాళ్ అధ్యక్షుడిగా గదర్ పార్టీ స్థాపించారు."
+    },
+    {
+     "en": "II. Kartar Singh Sarabha was tried in the Lahore Conspiracy Case of 1915.",
+     "te": "II. 1915 లాహోర్ కుట్ర కేసులో కర్తార్ సింగ్ సరాభాను విచారించారు."
+    },
+    {
+     "en": "III. Bhagat Singh regarded Sarabha as his inspiration and carried his photograph.",
+     "te": "III. భగత్ సింగ్ సరాభాను ప్రేరణగా భావించి ఆయన ఫొటోను వెంట ఉంచుకున్నారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Only I is incorrect: the party was formed in America (California); Sohan Singh Bhakna was president and Har Dayal secretary.",
+    "te": "I మాత్రమే తప్పు: పార్టీ అమెరికా (కాలిఫోర్నియా)లో ఏర్పడింది; అధ్యక్షుడు సోహన్ సింగ్ భక్నా, కార్యదర్శి హర్ దయాళ్."
+   }
+  },
+  {
+   "topic": "akvan",
+   "q": {
+    "en": "Match the IMD cyclone category (List-I) with its wind speed (List-II):",
+    "te": "IMD తుపాను వర్గాన్ని (జాబితా-I) గాలి వేగం (జాబితా-II)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. Deep depression   1. 62–88 km/h",
+     "te": "A. తీవ్ర వాయుగుండం   1. 62–88 కి.మీ./గం"
+    },
+    {
+     "en": "B. Cyclonic storm   2. 118–166 km/h",
+     "te": "B. తుపాను   2. 118–166 కి.మీ./గం"
+    },
+    {
+     "en": "C. Severe cyclonic storm   3. 50–61 km/h",
+     "te": "C. తీవ్ర తుపాను   3. 50–61 కి.మీ./గం"
+    },
+    {
+     "en": "D. Very severe cyclonic storm   4. 89–117 km/h",
+     "te": "D. అతి తీవ్ర తుపాను   4. 89–117 కి.మీ./గం"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-1, B-3, C-4, D-2",
+     "te": "A-1, B-3, C-4, D-2"
+    },
+    {
+     "en": "A-3, B-1, C-2, D-4",
+     "te": "A-3, B-1, C-2, D-4"
+    },
+    {
+     "en": "A-3, B-4, C-1, D-2",
+     "te": "A-3, B-4, C-1, D-2"
+    },
+    {
+     "en": "A-3, B-1, C-4, D-2",
+     "te": "A-3, B-1, C-4, D-2"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Deep depression 50–61; cyclonic storm 62–88 (the stage at which 'Akvan' gets its name); severe 89–117; very severe 118–166.",
+    "te": "తీవ్ర వాయుగుండం 50–61; తుపాను 62–88 (ఈ దశలోనే 'అక్వాన్' పేరు); తీవ్ర 89–117; అతి తీవ్ర 118–166."
+   }
+  },
+  {
+   "topic": "akvan",
+   "q": {
+    "en": "Consider the following statements about the cyclone names used for the current Bay of Bengal season:",
+    "te": "ప్రస్తుత బంగాళాఖాత సీజన్‌లో వాడిన తుపాను పేర్లకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. 'Akvan' was proposed by Iran and comes after 'Murasu' on the WMO/ESCAP list.",
+     "te": "I. 'అక్వాన్'ను ఇరాన్ ప్రతిపాదించింది; WMO/ESCAP జాబితాలో 'మురసు' తర్వాత వస్తుంది."
+    },
+    {
+     "en": "II. 'Murasu' was India's contribution to the list.",
+     "te": "II. 'మురసు' భారత్ ఇచ్చిన పేరు."
+    },
+    {
+     "en": "III. A name used once can be given again to a later cyclone in the same list.",
+     "te": "III. ఒకసారి వాడిన పేరును అదే జాబితాలో తర్వాతి తుపానుకు మళ్లీ పెట్టవచ్చు."
+    },
+    {
+     "en": "IV. The names are assigned by RSMC New Delhi.",
+     "te": "IV. పేర్లను RSMC న్యూఢిల్లీ కేటాయిస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is wrong: a name is used only once and never repeated. I, II and IV are correct.",
+    "te": "III తప్పు: ఒక పేరును ఒక్కసారే వాడతారు, మళ్లీ వాడరు. I, II, IV సరైనవి."
+   }
+  },
+  {
+   "topic": "aseanindia",
+   "q": {
+    "en": "Consider the following statements about the November 2026 summits in Manila:",
+    "te": "నవంబర్ 2026 మనీలా సదస్సులకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The 23rd ASEAN-India Summit and the 21st East Asia Summit are both held on 17 November.",
+     "te": "I. 23వ ఆసియాన్-భారత్ సదస్సు, 21వ తూర్పు ఆసియా సదస్సు రెండూ నవంబర్ 17న."
+    },
+    {
+     "en": "II. 2026 has been designated the ASEAN-India Year of Maritime Cooperation.",
+     "te": "II. 2026ను ఆసియాన్-భారత్ సముద్ర సహకార సంవత్సరంగా ప్రకటించారు."
+    },
+    {
+     "en": "III. Singapore holds the ASEAN chair in 2026.",
+     "te": "III. 2026లో ఆసియాన్ అధ్యక్ష బాధ్యత సింగపూర్‌ది."
+    },
+    {
+     "en": "IV. The East Asia Summit has the same members as ASEAN.",
+     "te": "IV. తూర్పు ఆసియా సదస్సు సభ్యులు, ఆసియాన్ సభ్యులు ఒకటే."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "III is wrong: the Philippines chairs ASEAN in 2026 (Singapore is next). IV is wrong: EAS = ASEAN plus eight partners such as India, China, Japan, the US and Russia.",
+    "te": "III తప్పు: 2026లో ఫిలిప్పీన్స్ అధ్యక్షత (తర్వాత సింగపూర్). IV తప్పు: EAS = ఆసియాన్ + భారత్, చైనా, జపాన్, అమెరికా, రష్యా వంటి ఎనిమిది భాగస్వాములు."
+   }
+  },
+  {
+   "topic": "aseanindia",
+   "q": {
+    "en": "Consider the following Assertion (A) and Reason (R):",
+    "te": "కింది ప్రతిపాదన (A), కారణం (R)లను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "Assertion (A): India attaches special importance to the ASEAN summits.",
+     "te": "ప్రతిపాదన (A): ఆసియాన్ సదస్సులకు భారత్ ప్రత్యేక ప్రాధాన్యం ఇస్తుంది."
+    },
+    {
+     "en": "Reason (R): ASEAN is described as the central pillar of India's Act East Policy and its Indo-Pacific vision.",
+     "te": "కారణం (R): ఆసియాన్‌ను భారత యాక్ట్ ఈస్ట్ విధానం, ఇండో-పసిఫిక్ దృక్పథానికి కేంద్ర స్తంభంగా పేర్కొంటారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "Both A and R are true, and R is the correct explanation of A",
+     "te": "A, R రెండూ నిజం; A కు R సరైన వివరణ"
+    },
+    {
+     "en": "Both A and R are true, but R is not the correct explanation of A",
+     "te": "A, R రెండూ నిజం; కానీ A కు R సరైన వివరణ కాదు"
+    },
+    {
+     "en": "A is true, but R is false",
+     "te": "A నిజం, R తప్పు"
+    },
+    {
+     "en": "A is false, but R is true",
+     "te": "A తప్పు, R నిజం"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "The MEA release itself calls ASEAN the central pillar of Act East — that is why India gives the summits priority. Trap: thinking Act East is only about trade (it covers security and sea routes too).",
+    "te": "MEA ప్రకటనే ఆసియాన్‌ను యాక్ట్ ఈస్ట్‌కు కేంద్ర స్తంభంగా పేర్కొంది — అందుకే ప్రాధాన్యం. ఉచ్చు: యాక్ట్ ఈస్ట్ వాణిజ్యానికే పరిమితం అనుకోవడం (భద్రత, సముద్ర మార్గాలూ ఉన్నాయి)."
+   }
+  },
+  {
+   "topic": "nha",
+   "q": {
+    "en": "A family in Kurnool pays ₹20,000 from savings for a relative's surgery at a private hospital; the government scheme pays nothing in this case. In National Health Accounts, this payment is counted as:",
+    "te": "కర్నూలులో ఒక కుటుంబం బంధువు శస్త్రచికిత్సకు ప్రైవేట్ ఆసుపత్రిలో తమ పొదుపు నుంచి ₹20,000 చెల్లించింది; ఈ కేసులో ప్రభుత్వ పథకం ఏమీ చెల్లించలేదు. జాతీయ ఆరోగ్య ఖాతాల్లో ఈ చెల్లింపును ఇలా లెక్కిస్తారు:"
+   },
+   "st": [
+    {
+     "en": "I. It is Out-of-Pocket Expenditure (OOPE).",
+     "te": "I. ఇది జేబు నుంచి ఖర్చు (OOPE)."
+    },
+    {
+     "en": "II. It is part of Government Health Expenditure because the hospital is licensed by the State.",
+     "te": "II. ఆసుపత్రికి రాష్ట్ర లైసెన్స్ ఉన్నందున ఇది ప్రభుత్వ ఆరోగ్య వ్యయంలో భాగం."
+    },
+    {
+     "en": "III. It is included in Total Health Expenditure (THE).",
+     "te": "III. ఇది మొత్తం ఆరోగ్య వ్యయం (THE)లో చేరుతుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "A direct payment by a household is OOPE and is part of THE. II is wrong: who pays decides the category, not who licenses the hospital.",
+    "te": "కుటుంబం నేరుగా చెల్లించేది OOPE, అది THEలో భాగం. II తప్పు: ఎవరు చెల్లించారనేదే వర్గాన్ని నిర్ణయిస్తుంది, లైసెన్స్ ఇచ్చింది ఎవరనేది కాదు."
+   }
+  },
+  {
+   "topic": "nha",
+   "q": {
+    "en": "Consider the following statements based on the National Health Accounts Estimates 2023-24:",
+    "te": "జాతీయ ఆరోగ్య ఖాతాల అంచనాలు 2023-24 ఆధారంగా కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Government health expenditure rose from about ₹1.3 lakh crore in 2013-14 to about ₹4.1 lakh crore in 2023-24.",
+     "te": "I. ప్రభుత్వ ఆరోగ్య వ్యయం 2013-14లో సుమారు ₹1.3 లక్షల కోట్ల నుంచి 2023-24లో సుమారు ₹4.1 లక్షల కోట్లకు పెరిగింది."
+    },
+    {
+     "en": "II. The share of OOPE in total health expenditure fell by 21.5 per cent.",
+     "te": "II. మొత్తం ఆరోగ్య వ్యయంలో OOPE వాటా 21.5 శాతం తగ్గింది."
+    },
+    {
+     "en": "III. Social security spending on health rose from 6% to 11% of total health expenditure.",
+     "te": "III. ఆరోగ్యంపై సామాజిక భద్రత వ్యయం మొత్తం వ్యయంలో 6% నుంచి 11%కి పెరిగింది."
+    },
+    {
+     "en": "IV. 'Public health and sanitation' is a subject in the Union List.",
+     "te": "IV. 'ప్రజారోగ్యం, పారిశుధ్యం' కేంద్ర జాబితాలోని అంశం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "II is wrong: the fall is 21.5 percentage POINTS (64.2% → 42.7%), not 21.5 per cent. IV is wrong: public health is in the State List (Entry 6, List II).",
+    "te": "II తప్పు: తగ్గుదల 21.5 శాతం పాయింట్లు (64.2% → 42.7%), 21.5 శాతం కాదు. IV తప్పు: ప్రజారోగ్యం రాష్ట్ర జాబితాలో (జాబితా II, ఎంట్రీ 6)."
+   }
+  }
+ ]
+}
