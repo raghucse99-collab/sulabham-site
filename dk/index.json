@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "M1iId3fIyqYDue3YLUqMXw==",
 "iter": 200000,
-"check": "HfHuBI6W2nr5SrSKHEpA/Uy8lkQ8qhW9Enc9qFwFtzgFXL7zBDk4IOChhQ==",
+"check": "wEfwhxWlU44DJ3QdT1zcDkeAMtel9oSErKTBDeol6oajIUa4XQw7/bRNeA==",
 "lessons": {
 "dsc-sgt-perspectives-day2": "Perspectives in Education, Day 2: Teachers, Rights, Concerns, NCF and NEP",
 "dsc-sgt-perspectives-day2-te": "విద్యా దృక్పథాలు, 2వ రోజు: ఉపాధ్యాయులు, హక్కులు, సమకాలీన అంశాలు, NCF, NEP",
@@ -47,6 +47,8 @@
 "dsc-sgt-science-day8": "Science (EVS), Day 8: Science Methodology — All 10 Syllabus Units, with the Remaining Content Gap-fillers",
 "dsc-sgt-science-day8-te": "సైన్స్ (EVS), రోజు 8: సైన్స్ బోధనా పద్ధతులు — సిలబస్‌లోని మొత్తం 10 యూనిట్లు, మిగిలిన విషయ అంశాలతో",
 "dsc-sgt-science-test": "DSC SGT Science Test: Content & Methodology",
-"dsc-sgt-science-test-te": "DSC SGT సైన్స్ టెస్ట్: విషయం & బోధనా పద్ధతులు"
+"dsc-sgt-science-test-te": "DSC SGT సైన్స్ టెస్ట్: విషయం & బోధనా పద్ధతులు",
+"dsc-sgt-social-day1": "Social Studies, Day 1: The Earth and Maps; Spheres and Landforms; Climate, Forests and Resources",
+"dsc-sgt-social-day1-te": "సాంఘిక శాస్త్రం, రోజు 1: భూమి, పటాలు; ఆవరణాలు, భూస్వరూపాలు; శీతోష్ణస్థితి, అడవులు, వనరులు"
 }
 }
