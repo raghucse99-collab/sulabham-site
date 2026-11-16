@@ -1500,19 +1500,19 @@ function renderChart(){
   stats.hidden=true;
   if(!targetSearch||targetSearch.error){
    $('count').textContent='Number+n search required';
-   $('tableArea').innerHTML='<div class="empty"><strong>First enter your Number+n search.</strong>Then open Reverse Number+n Chain. The chain scans the same filtered playing-week rows, not only the Number+n target hits.</div>';
+   $('tableArea').innerHTML='<div class="empty"><strong>First enter your Number+n search.</strong>Then open Reverse Number+n Chain. It follows the same selected filtered-result rows used by Duplicate → Linked Jodis.</div>';
    return;
   }
-  // Use the complete filtered playing-row stream. The Number+n search input
-  // supplies the same filter context, but its selected target hits do not
-  // become the rows counted for +1, +2, +3...
-  const chainRows=targetSearchRows;
+  // Match the existing Number+n linked-analysis row stream exactly:
+  // selectedIndexes are the rows selected by the Number+n target + offset.
+  const chainRows=targetSearch.selectedIndexes
+   .map(i=>({row:targetSearchRows[i],sourceIndex:targetSearchRowsWithSource[i]?.index??i}))
+   .filter(x=>x.row&&(yr==='all'||String(x.row.date||'').includes(yr)));
   const days=targetSearchDays,valid=v=>/^\d{2}$/.test(String(v??'').trim());
   const vals=row=>days.flatMap(day=>{const v=String(row?.[day+' Jodi']??'').trim();return valid(v)?[{day,jodi:v}]:[];});
   const reverse=v=>v[1]+v[0],seedRows=[];
-  chainRows.forEach((row,index)=>{
-   if(yr!=='all'&&!String(row.date||'').includes(yr))return;
-   const list=vals(row),counts=new Map();
+  chainRows.forEach((item,index)=>{
+   const list=vals(item.row),counts=new Map();
    list.forEach(x=>counts.set(x.jodi,(counts.get(x.jodi)||0)+1));
    const pairs=[];
    for(const [j,n] of counts){
@@ -1522,14 +1522,15 @@ function renderChart(){
      if(!pairs.some(p=>p.key===key))pairs.push({key,a:j,b:rev});
     }
    }
-   if(pairs.length)seedRows.push({index,row,pairs});
+   if(pairs.length)seedRows.push({index,item,pairs});
   });
   const chains=[],MAX_CHAINS=5000,MAX_STEPS=30;
   function extend(chain,currentIndex,nextGap){
    if(chains.length>=MAX_CHAINS)return;
    const targetIndex=currentIndex+nextGap;
    if(targetIndex>=chainRows.length||nextGap>MAX_STEPS){chains.push(chain);return;}
-   const source=chainRows[currentIndex],target=chainRows[targetIndex],sourceValues=vals(source),targetValues=vals(target),found=[];
+   const source=chainRows[currentIndex].row,target=chainRows[targetIndex].row;
+   const sourceValues=vals(source),targetValues=vals(target),found=[];
    for(const a of sourceValues){
     const rev=reverse(a.jodi);
     for(const b of targetValues){
@@ -1538,29 +1539,34 @@ function renderChart(){
    }
    if(!found.length){chains.push(chain);return;}
    for(const match of found){
-    extend([...chain,{index:targetIndex,row:target,match}],targetIndex,nextGap+1);
+    extend([...chain,{index:targetIndex,item:chainRows[targetIndex],match}],targetIndex,nextGap+1);
     if(chains.length>=MAX_CHAINS)break;
    }
   }
-  seedRows.forEach(seed=>extend([{index:seed.index,row:seed.row,seedPairs:seed.pairs}],seed.index,1));
-  const best=chains.filter(c=>c.length>=2).sort((a,b)=>b.length-a.length||a[0].index-b[0].index);
-  const rowMarks=new Map();
-  best.forEach(chain=>chain.forEach(item=>{
-   if(!rowMarks.has(item.index))rowMarks.set(item.index,{row:item.row,labels:[],hits:new Map()});
-   const entry=rowMarks.get(item.index),mark=(day,jodi)=>{if(!entry.hits.has(day))entry.hits.set(day,new Set());entry.hits.get(day).add(jodi);};
-   if(item.seedPairs)item.seedPairs.forEach(p=>{
-    entry.labels.push('Same-row reverse pair '+p.a+'/'+p.b);
-    vals(item.row).filter(x=>x.jodi===p.a||x.jodi===p.b).forEach(x=>mark(x.day,x.jodi));
-   });
-   if(item.match){
-    entry.labels.push('Gap +'+item.match.gap+': '+item.match.from+' → '+item.match.to);
-    mark(item.match.toDay,item.match.to);
-   }
-  }));
-  const shown=[...rowMarks.entries()].sort((a,b)=>a[0]-b[0]);
-  const table=shown.length?'<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Filtered row / week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'<th>Chain step</th></tr></thead><tbody>'+shown.map(([ix,item])=>'<tr><td class="repeat-week-date">Filtered row '+(ix+1)+'<br>'+esc(item.row.date||'')+'</td>'+days.map(day=>{const v=String(item.row[day+' Jodi']??'').trim(),hit=item.hits.get(day)?.has(v);return '<td class="'+(hit?'repeat-hit':valid(v)?'':'repeat-blank')+'">'+(valid(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';}).join('')+'<td>'+esc([...new Set(item.labels)].join('; '))+'</td></tr>').join('')+'</tbody></table></div>':'<div class="empty"><strong>No confirmed reverse chains found.</strong>First, a row must contain a reverse pair (for doubles, two occurrences of that double). Then the next matches must occur at consecutive increasing gaps +1, +2, +3… in the complete filtered playing-row sequence.</div>';
-  $('count').textContent=best.length+' connected chains · '+shown.length+' matching rows';
-  $('tableArea').innerHTML='<div class="repeat-page"><h3>REVERSE NUMBER+n CHAIN · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">This is a separate search. The seed row contains a same-row reverse pair. From that row, check gap +1; from the matched row, check gap +2; then +3, +4, +5… Gaps count every filtered playing row. Pink cells are the actual Jodis used by the chain. Only connected chain rows are shown.</p>'+table+'</div>';
+  seedRows.forEach(seed=>extend([{index:seed.index,item:seed.item,seedPairs:seed.pairs}],seed.index,1));
+  // A valid increasing chain must demonstrate at least +1 AND +2 after
+  // the seed. Seed + one reverse hit alone is only Step 1, not a chain.
+  const complete=chains.filter(c=>c.length>=3).sort((a,b)=>b.length-a.length||a[0].index-b[0].index);
+  const chainCards=complete.map((chain,ci)=>{
+   const rows=chain.map((item,pos)=>{
+    const row=item.item.row;
+    const date=esc(row.date||''),rowNo=item.item.sourceIndex+1;
+    const marks=item.seedPairs
+     ?item.seedPairs.flatMap(p=>vals(row).filter(x=>x.jodi===p.a||x.jodi===p.b).map(x=>x.day+': '+x.jodi)).join(' · ')
+     :'Gap +'+item.match.gap+' · '+item.match.from+' → '+item.match.to+' ('+item.match.fromDay+' → '+item.match.toDay+')';
+    const cells=days.map(day=>{
+     const v=String(row[day+' Jodi']??'').trim(),hit=item.seedPairs
+      ?item.seedPairs.some(p=>v===p.a||v===p.b)
+      :(item.match.toDay===day&&item.match.to===v);
+     return '<span style="display:inline-flex;flex-direction:column;align-items:center;justify-content:center;min-width:42px;padding:6px 3px;margin:2px;border:1px solid '+(hit?'#db2777':'#e2e8f0')+';border-radius:7px;background:'+(hit?'#fce7f3':'#f8fafc')+';color:'+(hit?'#9d174d':'#334155')+';font-weight:800"><small style="font-size:9px;color:#64748b">'+day+'</small>'+ (valid(v)?esc(v):'·')+'</span>';
+    }).join('');
+    return '<div style="padding:10px 0;border-bottom:1px solid #e2e8f0"><div style="font-weight:800;color:#312e81">Step '+(pos===0?'START':'+'+item.match.gap)+' · Filtered result '+(item.index+1)+' · Chart row '+rowNo+'</div><div style="font-size:12px;color:#475569;margin:3px 0 6px">'+date+'</div><div style="display:flex;flex-wrap:wrap;gap:2px">'+cells+'</div><div style="font-size:12px;font-weight:750;color:#9d174d;margin-top:5px">'+esc(marks)+'</div></div>';
+   }).join('');
+   const gaps=chain.slice(1).map(x=>'+'+x.match.gap).join(' → ');
+   return '<section style="border:2px solid #8b5cf6;border-radius:12px;margin:12px 0;overflow:hidden"><div style="background:#ede9fe;padding:12px;font-weight:900;color:#312e81">CHAIN '+(ci+1)+' · '+gaps+'</div><div style="padding:0 12px">'+rows+'</div></section>';
+  }).join('');
+  $('count').textContent=complete.length+' complete chains · +1, +2…';
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>REVERSE NUMBER+n CHAIN · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Uses the same Number+n selected filtered-result rows as Duplicate → Linked Jodis. A start row must contain a reverse pair in that same row (a double such as 66 must occur twice). Then a reverse Jodi must appear at gap +1; from that matched row, another reverse must appear at gap +2; then +3, +4, +5… A chain is shown only when at least +1 and +2 are both confirmed. Each card shows the full week without overlapping columns.</p>'+(chainCards||'<div class="empty"><strong>No complete chains with both +1 and +2 confirmed.</strong>One first-step match by itself is not counted as a completed chain.</div>')+'</div>';
   return;
  }
  if(view==='target-linked'||$('daySearch').value==='target-linked'||document.querySelector('.tab[data-view="target-linked"]')?.classList.contains('active')){
