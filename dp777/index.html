@@ -1153,7 +1153,7 @@ async function runSaturdayChainAll(){
  }).join('');
  $('count').textContent=total+' matching chains · '+result.length+' markets checked';
  $('tableArea').innerHTML='<div class="chart-title-band">ALL MARKETS — SAME-WEEKDAY MAIN +10 / LINKED −11</div><div class="chart-hint">Main Jodis progress +10 in the same weekday column. Linked Jodis progress −11 in any weekday column. The linked row offset is discovered from the data and must stay identical for every pair in a chain. Main occurrence intervals may vary. Only verified historical matches are displayed.</div><div class="repeat-pattern-list">'+sections+'</div>';
- function rowsDate(item,index){return item._rows?.[index]||'';}
+ function rowsDate(item,index){return item._rows?.[index]?.date||'';}
 }
 function renderChart(){
  const stats=$('targetStats');
