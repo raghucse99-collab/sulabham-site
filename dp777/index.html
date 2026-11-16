@@ -1605,7 +1605,7 @@ function renderChart(){
    const chainRowJodis=filteredRows.slice(p.start,end+1).flatMap(item=>
     days.map(day=>String(item.row?.[day+' Jodi']??'').trim()));
    const nextLinkCandidates=days.map(day=>String(terminalRow?.[day+' Jodi']??'').trim());
-   const linkedJodis=new Set([p.duplicate,...p.steps.flatMap(step=>[step.jodi,...(step.jodis||[])]),...chainRowJodis,...nextLinkCandidates].map(value=>String(value??'').trim()).filter(valid));
+   const linkedJodis=new Set([p.duplicate,...p.steps.map(step=>step.jodi)].map(value=>String(value??'').trim()).filter(valid));
    return currentWeekChartRows.flatMap(row=>days.flatMap(day=>{
     const jodi=String(row[day+' Jodi']??'').trim();
     return valid(jodi)&&linkedJodis.has(jodi)?[{jodi,day,date:row.date||''}]:[];
@@ -1630,7 +1630,20 @@ function renderChart(){
   const latestFilteredIndex=filteredRows.length-1;
   const remainingFilteredResults=p=>nextGapFor(p)-(latestFilteredIndex-chainEnd(p));
   const patternIdentity=p=>p.start+':'+p.duplicate+':'+p.mode+':'+p.steps.map(step=>step.from+'>'+step.to+':'+step.jodi+':'+step.gap).join('|');
-  const viablePatterns=patterns.filter(p=>remainingFilteredResults(p)>0);
+  const latestEndByRule=new Map();
+  patterns.forEach(p=>{
+   const key=p.duplicate+':'+p.mode;
+   latestEndByRule.set(key,Math.max(latestEndByRule.get(key)??-1,chainEnd(p)));
+  });
+  const latestPatterns=patterns.filter(p=>chainEnd(p)===latestEndByRule.get(p.duplicate+':'+p.mode));
+  // Do not label old chart data as a live/future target. Keep live sections
+  // available only when the selected market has recent weekly data (14-day grace).
+  const latestChartWeekStart=parseWeekStart(chartRows[chartRows.length-1]?.date);
+  const currentWeekDate=new Date(currentWeekStart+'T00:00:00Z');
+  const latestChartDate=latestChartWeekStart?new Date(latestChartWeekStart+'T00:00:00Z'):null;
+  const chartAgeDays=latestChartDate?Math.floor((currentWeekDate-latestChartDate)/86400000):Infinity;
+  const chartFresh=Number.isFinite(chartAgeDays)&&chartAgeDays>=0&&chartAgeDays<=14;
+  const viablePatterns=chartFresh?latestPatterns.filter(p=>remainingFilteredResults(p)>0):[];
   const completedThisWeekPatterns=viablePatterns.filter(chainEndedThisWeek);
   const reappearedThisWeekPatterns=viablePatterns.filter(p=>!chainEndedThisWeek(p)&&currentWeekHitsForPattern(p).length>0);
   const thisWeekPatterns=[...completedThisWeekPatterns,...reappearedThisWeekPatterns];
@@ -1638,14 +1651,8 @@ function renderChart(){
   // Keep the latest unfinished progression for each starting duplicate and
   // rule active even when its last historical link is months old. Its countdown
   // is measured in Number+n filtered results, never calendar weeks.
-  const latestEndByRule=new Map();
-  patterns.forEach(p=>{
-   const key=p.duplicate+':'+p.mode;
-   latestEndByRule.set(key,Math.max(latestEndByRule.get(key)??-1,chainEnd(p)));
-  });
   const ongoingPatterns=viablePatterns.filter(p=>{
-   const key=p.duplicate+':'+p.mode;
-   return chainEnd(p)===latestEndByRule.get(key)&&!thisWeekPatternIds.has(patternIdentity(p));
+   return !thisWeekPatternIds.has(patternIdentity(p));
   }).sort((a,b)=>remainingFilteredResults(a)-remainingFilteredResults(b)||b.steps.length-a.steps.length);
   // Future calendar-week buckets apply only to chains that actually completed
   // during the current calendar week.
@@ -1677,8 +1684,8 @@ function renderChart(){
    return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · DUPLICATE → LINKED JODIS</strong><span>'+(p.mode==='same'?'ఒకే గ్యాప్':'క్రమంగా +1 గ్యాప్‌లు')+' · '+p.steps.map(x=>x.gap).join(' → ')+' · NEXT '+nextGapFor(p)+(remaining>0?' · '+remaining+' FILTERED RESULTS LEFT':'')+'</span></div><div class="repeat-watch"><b>ప్రారంభ డూప్లికేట్ జోడి</b><div><strong>'+esc(p.duplicate)+'</strong></div><small>Starting filtered result row '+(p.start+1)+' · '+esc(filteredRows[p.start].row.date||'')+'</small></div><div class="repeat-steps">'+links+'</div>'+currentHitBox+currentWeekTable+'<details class="repeat-history"><summary>సరిపోలిన వారపు వరుసలు చూపించు</summary>'+table+'</details></section>';
   }).join('');
   const section=(title,subtitle,list)=>'<section class="repeat-live-section"><h3>'+title+'</h3><p>'+subtitle+'</p>'+(list.length?renderCards(list):'<div class="empty">No confirmed chains in this category.</div>')+'</section>';
-  const noCurrent=!thisWeekPatterns.length?'<div class="empty"><strong>ఈ వారం చార్ట్‌లో ఈ నమూనాకు సంబంధించిన జోడి ఇంకా కనిపించలేదు.</strong>క్రింది లక్ష్య విభాగంలో NEXT గ్యాప్‌ను చూడండి.</div>':'';
-  $('tableArea').innerHTML='<div class="repeat-page"><h3>ANY NUMBER+n · CURRENT &amp; UPCOMING LINKED JODIS · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">వారం స్థితి India-local ప్రస్తుత సోమవారం–ఆదివారం తేదీలతో ఆటోమేటిక్‌గా మారుతుంది. గ్యాప్‌లు Number+n filtered-result వరుసలలో లెక్కించబడతాయి. ఇవి గత చార్ట్ నమూనాలు మాత్రమే; భవిష్యత్ ఫలితాల హామీ కావు.</p>'+noCurrent+section('ఈ వారం పూర్తయిన నమూనాలు · DONE','ఈ వారం లోనే చివరి లింక్ జోడి వచ్చింది. ఈ నమూనా పూర్తయింది.',completedThisWeekPatterns)+section('ఈ వారం ఇప్పటికే వచ్చిన జోడీలు · ALREADY CAME','ఈ నమూనాకు చెందిన జోడీ ఈ వారం చార్ట్‌లో వచ్చేసింది. కాబట్టి ఇది కొత్త లక్ష్యం కాదు. ఏ రోజు, ఏ తేదీన వచ్చిందో కింద చూడండి.',reappearedThisWeekPatterns)+section('తదుపరి ఫలితంలో చూడాల్సిన జోడీలు · NEXT 1','NEXT 1 అంటే మీ Number+n జాబితాలో వచ్చే తదుపరి ఫలితం. ఇది వచ్చే క్యాలెండర్ వారం అని కాదు.',nextWeekPatterns)+section('ఇంకా 2 ఫిల్టర్ ఫలితాల తర్వాత · NEXT 2','ఈ జోడీ రావడానికి ముందు Number+n జాబితాలో మరో 2 ఫలితాలు ఉన్నాయి. ఇవి 2 క్యాలెండర్ వారాలు కావు.',twoWeekPatterns)+section('తర్వాతి దశలు ఇంకా రావాల్సి ఉన్నాయి · WATCH','ఈ నమూనా ఇంకా కొనసాగుతోంది. NEXT సంఖ్య అంటే Number+n జాబితాలో మిగిలిన ఫలితాల సంఖ్య.',[...ongoingPatterns,...furtherPatterns])+section('పాత నమూనాలు · ఈ వారం సంబంధం లేదు','ఈ వారం ఇంకా కనిపించని, ఈ వారం పూర్తికాని పాత చార్ట్ నమూనాలు.',historicalPatterns)+(patterns.length>300?'<p>Showing up to 300 chains per section.</p>':'')+'</div>';
+  const noCurrent=!thisWeekPatterns.length?'<div class="empty"><strong>ఈ వారం చార్ట్‌లో ఈ నమూనాకు సంబంధించిన జోడి ఇంకా కనిపించలేదు.</strong>'+(chartFresh?'NEXT లక్ష్యాలు తాజా చార్ట్ ఫలితాల ఆధారంగా మాత్రమే చూపబడతాయి.':'లైవ్ / NEXT లక్ష్యాలు నిలిపివేశాం; చార్ట్ డేటా పాతది. కొత్త ఫలితాలు వచ్చిన తర్వాత మళ్లీ లెక్కించబడతాయి.')+'</div>':'';
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>ANY NUMBER+n · CURRENT &amp; UPCOMING LINKED JODIS · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">వారం స్థితి India-local ప్రస్తుత సోమవారం–ఆదివారం తేదీలతో ఆటోమేటిక్‌గా మారుతుంది. గ్యాప్‌లు Number+n filtered-result వరుసలలో లెక్కించబడతాయి. ఇవి గత చార్ట్ నమూనాలు మాత్రమే; భవిష్యత్ ఫలితాల హామీ కావు.</p>'+noCurrent+section('ఈ వారం పూర్తయిన నమూనాలు · DONE','ఈ వారం లోనే చివరి లింక్ జోడి వచ్చింది. ఈ నమూనా పూర్తయింది.',completedThisWeekPatterns)+section('ఈ వారం ఇప్పటికే వచ్చిన జోడీలు · ALREADY CAME','ఈ నమూనాకు చెందిన జోడీ ఈ వారం చార్ట్‌లో వచ్చేసింది. కాబట్టి ఇది కొత్త లక్ష్యం కాదు. ఏ రోజు, ఏ తేదీన వచ్చిందో కింద చూడండి.',reappearedThisWeekPatterns)+section('తదుపరి ఫలితంలో చూడాల్సిన జోడీలు · NEXT 1','NEXT 1 అంటే మీ Number+n జాబితాలో వచ్చే తదుపరి ఫలితం. ఇది వచ్చే క్యాలెండర్ వారం అని కాదు.',nextWeekPatterns)+section('ఇంకా 2 ఫిల్టర్ ఫలితాల తర్వాత · NEXT 2','ఈ జోడీ రావడానికి ముందు Number+n జాబితాలో మరో 2 ఫలితాలు ఉన్నాయి. ఇవి 2 క్యాలెండర్ వారాలు కావు.',twoWeekPatterns)+section('తర్వాతి దశలు ఇంకా రావాల్సి ఉన్నాయి · WATCH','ఈ నమూనా ఇంకా కొనసాగుతోంది. NEXT సంఖ్య అంటే Number+n జాబితాలో మిగిలిన ఫలితాల సంఖ్య.',[...ongoingPatterns,...furtherPatterns])+(historicalPatterns.length?'<details class="repeat-history"><summary>పాత నమూనాలు · ARCHIVE ('+historicalPatterns.length+')</summary>'+renderCards(historicalPatterns)+'</details>':'')+(patterns.length>300?'<p>Showing up to 300 chains per section.</p>':'')+'</div>';
   return;
  }
 
