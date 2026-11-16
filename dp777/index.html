@@ -1504,7 +1504,7 @@ function renderChart(){
    return;
   }
   const chainRows=targetSearch.selectedIndexes.map(i=>targetSearchRows[i]).filter(Boolean);
-  const days=targetSearchDays,valid=v=>/^\\d{2}$/.test(String(v??'').trim());
+  const days=targetSearchDays,valid=v=>/^\d{2}$/.test(String(v??'').trim());
   const vals=row=>days.flatMap(day=>{const v=String(row?.[day+' Jodi']??'').trim();return valid(v)?[{day,jodi:v}]:[];});
   const reverse=v=>v[1]+v[0];
   const seedRows=[];
