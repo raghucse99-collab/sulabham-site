@@ -1,0 +1,1581 @@
+{
+ "date": "2026-11-16",
+ "day": {
+  "en": "Monday, 16 November 2026",
+  "te": "సోమవారం, 16 నవంబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "gp2",
+   "cat": "ap",
+   "title": {
+    "en": "AP gram panchayat polls: SEC issues Phase-2 notification; polling on 29 November",
+    "te": "ఏపీ గ్రామ పంచాయతీ ఎన్నికలు: రెండో దశ నోటిఫికేషన్ జారీ; 29 నవంబర్‌న పోలింగ్"
+   },
+   "pts": [
+    {
+     "en": "The AP State Election Commission (SEC) issued the notification for the second phase of gram panchayat elections on 16 November. It covers mandals in 27 districts.",
+     "te": "రాష్ట్ర ఎన్నికల సంఘం (SEC) 16 నవంబర్‌న గ్రామ పంచాయతీ ఎన్నికల రెండో దశ నోటిఫికేషన్ జారీ చేసింది. ఇది 27 జిల్లాల్లోని మండలాలకు వర్తిస్తుంది."
+    },
+    {
+     "en": "Nominations: 18–20 Nov; scrutiny 21 Nov; withdrawal till 24 Nov. Polling on 29 Nov from 7 am to 1 pm; counting from 2 pm the same day.",
+     "te": "నామినేషన్లు: 18–20 నవంబర్; పరిశీలన 21న; ఉపసంహరణ 24 వరకు. పోలింగ్ 29 నవంబర్ ఉదయం 7 నుంచి మధ్యాహ్నం 1 వరకు; అదే రోజు మధ్యాహ్నం 2 నుంచి లెక్కింపు."
+    },
+    {
+     "en": "The Upa-Sarpanch (deputy sarpanch) is elected on polling day itself, after the results. Re-poll, if needed, is on 30 Nov.",
+     "te": "ఉప సర్పంచ్ ఎన్నిక పోలింగ్ రోజే, ఫలితాల తర్వాత జరుగుతుంది. అవసరమైతే రీ-పోలింగ్ 30 నవంబర్‌న."
+    },
+    {
+     "en": "Phase-1 notification came on 13 Nov. Collectors were told not to hold polls where a court order bars them.",
+     "te": "మొదటి దశ నోటిఫికేషన్ 13 నవంబర్‌న వచ్చింది. కోర్టు ఉత్తర్వులు అడ్డుగా ఉన్నచోట ఎన్నికల నోటీసు ఇవ్వొద్దని కలెక్టర్లకు సూచించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "State Election Commissioner",
+      "te": "రాష్ట్ర ఎన్నికల కమిషనర్"
+     },
+     {
+      "en": "Anil Chandra Punetha",
+      "te": "అనిల్ చంద్ర పునేఠా"
+     }
+    ],
+    [
+     {
+      "en": "Phase-2 polling",
+      "te": "రెండో దశ పోలింగ్"
+     },
+     {
+      "en": "29 Nov 2026, 7 am – 1 pm",
+      "te": "29 నవం 2026, ఉ. 7 – మ. 1"
+     }
+    ],
+    [
+     {
+      "en": "Last date for nominations",
+      "te": "నామినేషన్లకు చివరి తేదీ"
+     },
+     {
+      "en": "20 Nov",
+      "te": "20 నవం"
+     }
+    ],
+    [
+     {
+      "en": "Constitution",
+      "te": "రాజ్యాంగం"
+     },
+     {
+      "en": "Part IX (73rd Amendment); SEC under Article 243K",
+      "te": "భాగం IX (73వ సవరణ); SEC — ఆర్టికల్ 243K"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: Panchayat elections are conducted by the State Election Commission (Art 243K), NOT by the Election Commission of India (Art 324). Trap: the Upa-Sarpanch is chosen on polling day after results, not on a separate later date.",
+    "te": "స్టాటిక్ లింక్: పంచాయతీ ఎన్నికలను నిర్వహించేది రాష్ట్ర ఎన్నికల సంఘం (ఆర్టి. 243K), భారత ఎన్నికల సంఘం (ఆర్టి. 324) కాదు. ట్రాప్: ఉప సర్పంచ్‌ను పోలింగ్ రోజే ఫలితాల తర్వాత ఎన్నుకుంటారు, తర్వాత వేరే తేదీన కాదు."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "Phase-2 schedule at a glance",
+      "te": "రెండో దశ షెడ్యూల్ ఒక్క చూపులో"
+     },
+     "items": [
+      {
+       "i": "📝",
+       "t": {
+        "en": "Nominations 18–20 Nov",
+        "te": "నామినేషన్లు 18–20 నవం"
+       }
+      },
+      {
+       "i": "🔍",
+       "t": {
+        "en": "Scrutiny 21 Nov",
+        "te": "పరిశీలన 21 నవం"
+       }
+      },
+      {
+       "i": "↩️",
+       "t": {
+        "en": "Withdrawal till 24 Nov",
+        "te": "ఉపసంహరణ 24 నవం వరకు"
+       }
+      },
+      {
+       "i": "🗳️",
+       "t": {
+        "en": "Polling 29 Nov; counting 2 pm",
+        "te": "పోలింగ్ 29 నవం; మ. 2కు లెక్కింపు"
+       }
+      },
+      {
+       "i": "🤝",
+       "t": {
+        "en": "Upa-Sarpanch elected same day",
+        "te": "అదే రోజు ఉప సర్పంచ్ ఎన్నిక"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Deccan Chronicle (PTI) — AP SEC Issues Notification For 2nd Phase Of Gram Panchayat Elections, 16 Nov 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-sec-issues-notification-for-2nd-phase-of-gram-panchayat-elections-2004832"
+    }
+   ]
+  },
+  {
+   "id": "aht",
+   "cat": "ap",
+   "title": {
+    "en": "AP forms State and district committees to trace missing children and stop human trafficking, after Supreme Court directions",
+    "te": "సుప్రీంకోర్టు ఆదేశాలతో తప్పిపోయిన పిల్లల గుర్తింపు, మానవ అక్రమ రవాణా నిరోధానికి ఏపీలో రాష్ట్ర, జిల్లా కమిటీలు"
+   },
+   "pts": [
+    {
+     "en": "The Department for Women, Children, Differently Abled and Senior Citizens issued orders to set up a 16-member State committee and 12-member district committees.",
+     "te": "మహిళలు, పిల్లలు, దివ్యాంగులు, వయోవృద్ధుల సంక్షేమ శాఖ ఉత్తర్వులు జారీ చేసింది: 16 మంది సభ్యులతో రాష్ట్ర కమిటీ, 12 మందితో జిల్లా కమిటీలు."
+    },
+    {
+     "en": "Why: the Supreme Court gave directions on 22 May 2026 in G. Ganesh vs State of Tamil Nadu on missing children and trafficking.",
+     "te": "ఎందుకు: తప్పిపోయిన పిల్లలు, అక్రమ రవాణాపై 'జి. గణేష్ vs తమిళనాడు రాష్ట్రం' కేసులో సుప్రీంకోర్టు 22 మే 2026న ఆదేశాలు ఇచ్చింది."
+    },
+    {
+     "en": "Work: review FIRs, track children digitally (CCTNS), verify recovered children with Aadhaar biometrics, and mark trafficking-prone villages and routes. A child is not handed back to a family without proper verification.",
+     "te": "పనులు: FIRల సమీక్ష, CCTNS ద్వారా డిజిటల్ ట్రాకింగ్, దొరికిన పిల్లలకు ఆధార్ బయోమెట్రిక్ ధృవీకరణ, అక్రమ రవాణా జరిగే గ్రామాలు/మార్గాల గుర్తింపు. సరైన ధృవీకరణ లేకుండా పిల్లల్ని కుటుంబానికి అప్పగించరు."
+    },
+    {
+     "en": "District committees produce rescued children before the Child Welfare Committee (CWC) and send monthly reports to the State committee.",
+     "te": "జిల్లా కమిటీలు రక్షించిన పిల్లలను బాలల సంక్షేమ కమిటీ (CWC) ముందు హాజరుపరుస్తాయి; రాష్ట్ర కమిటీకి నెలవారీ నివేదికలు పంపుతాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "State committee",
+      "te": "రాష్ట్ర కమిటీ"
+     },
+     {
+      "en": "16 members; chair: Principal Secretary/Secretary of the dept; co-chair: DGP/ADGP (CID)",
+      "te": "16 మంది; చైర్: శాఖ ప్రిన్సిపల్ సెక్రటరీ/సెక్రటరీ; కో-చైర్: DGP/ADGP (CID)"
+     }
+    ],
+    [
+     {
+      "en": "District committee",
+      "te": "జిల్లా కమిటీ"
+     },
+     {
+      "en": "12 members; chair: Collector; co-chair: SP; convener: DCPO",
+      "te": "12 మంది; చైర్: కలెక్టర్; కో-చైర్: SP; కన్వీనర్: DCPO"
+     }
+    ],
+    [
+     {
+      "en": "Legal base",
+      "te": "చట్టపర ఆధారం"
+     },
+     {
+      "en": "Juvenile Justice Act, 2015; Mission Vatsalya; MHA SOPs",
+      "te": "జువెనైల్ జస్టిస్ చట్టం, 2015; మిషన్ వాత్సల్య; MHA SOPలు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: Article 23 bans traffic in human beings and forced labour; Article 24 bans child labour in factories/mines. Trap: the district committee is chaired by the Collector, the SP is only co-chair.",
+    "te": "స్టాటిక్ లింక్: ఆర్టికల్ 23 మానవ అక్రమ రవాణా, వెట్టిచాకిరీని నిషేధిస్తుంది; ఆర్టికల్ 24 కర్మాగారాలు/గనుల్లో బాలకార్మికులను నిషేధిస్తుంది. ట్రాప్: జిల్లా కమిటీకి చైర్ కలెక్టర్; SP కేవలం కో-చైర్."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "State committee vs District committee",
+      "te": "రాష్ట్ర కమిటీ vs జిల్లా కమిటీ"
+     },
+     "a": {
+      "h": {
+       "en": "State (16 members)",
+       "te": "రాష్ట్ర (16 మంది)"
+      },
+      "l": [
+       {
+        "en": "Chair: Principal Secy/Secy",
+        "te": "చైర్: ప్రిన్సిపల్ సెక్రటరీ/సెక్రటరీ"
+       },
+       {
+        "en": "Co-chair: DGP/ADGP (CID)",
+        "te": "కో-చైర్: DGP/ADGP (CID)"
+       },
+       {
+        "en": "Interstate tracing, court cases",
+        "te": "అంతర్రాష్ట్ర గుర్తింపు, కోర్టు కేసులు"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "District (12 members)",
+       "te": "జిల్లా (12 మంది)"
+      },
+      "l": [
+       {
+        "en": "Chair: Collector",
+        "te": "చైర్: కలెక్టర్"
+       },
+       {
+        "en": "Co-chair: SP; convener: DCPO",
+        "te": "కో-చైర్: SP; కన్వీనర్: DCPO"
+       },
+       {
+        "en": "Villages, routes; monthly report",
+        "te": "గ్రామాలు, మార్గాలు; నెలవారీ నివేదిక"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India — AP sets up special panels to combat human trafficking, 15 Nov 2026",
+     "u": "https://www.thehansindia.com/news/cities/amaravati/ap-sets-up-special-panels-to-combat-human-trafficking-1142187"
+    }
+   ]
+  },
+  {
+   "id": "apinvest",
+   "cat": "ap",
+   "title": {
+    "en": "AP project status report: 526 of 714 investment proposals (₹17.1 lakh crore) became projects; orders issued for 3 tech policies",
+    "te": "ఏపీ ప్రాజెక్టుల స్థితి నివేదిక: 714 పెట్టుబడి ప్రతిపాదనల్లో 526 (₹17.1 లక్షల కోట్లు) ప్రాజెక్టులుగా మారాయి; 3 టెక్ పాలసీలకు ఉత్తర్వులు"
+   },
+   "pts": [
+    {
+     "en": "The State government's November 2026 project status report says 714 proposals worth ₹22.6 lakh crore have come in; 526 (₹17.1 lakh crore) are now projects and 303 (₹7.3 lakh crore) are grounded (work started).",
+     "te": "రాష్ట్ర ప్రభుత్వ నవంబర్ 2026 ప్రాజెక్టుల స్థితి నివేదిక: ₹22.6 లక్షల కోట్ల విలువైన 714 ప్రతిపాదనలు వచ్చాయి; 526 (₹17.1 లక్షల కోట్లు) ప్రాజెక్టులుగా మారాయి, 303 (₹7.3 లక్షల కోట్లు) క్షేత్రస్థాయిలో ప్రారంభమయ్యాయి."
+    },
+    {
+     "en": "The biggest share by value is with NREDCAP (renewable energy): 140 proposals worth ₹8.5 lakh crore. IT & electronics: ₹6.4 lakh crore; Industries: ₹6.1 lakh crore.",
+     "te": "విలువపరంగా అత్యధికం NREDCAP (పునరుత్పాదక ఇంధనం): 140 ప్రతిపాదనలు, ₹8.5 లక్షల కోట్లు. ఐటీ & ఎలక్ట్రానిక్స్: ₹6.4 లక్షల కోట్లు; పరిశ్రమలు: ₹6.1 లక్షల కోట్లు."
+    },
+    {
+     "en": "APIIC's industrial land bank is over 1.1 lakh acres; it is developing 175 MSME parks.",
+     "te": "APIIC పారిశ్రామిక భూ బ్యాంకు 1.1 లక్షల ఎకరాలు దాటింది; 175 MSME పార్కులు అభివృద్ధి చేస్తోంది."
+    },
+    {
+     "en": "On 16 Nov the government issued orders for three tech policies cleared by the Cabinet on 10 Nov: AVGC-XR, Robotics & Physical AI, and Semiconductor (amendments). Plans include a 200-acre AVGC park in Amaravati and a 5,000-acre semiconductor park.",
+     "te": "10 నవంబర్ కేబినెట్ ఆమోదించిన మూడు టెక్ పాలసీలకు 16న ఉత్తర్వులు: AVGC-XR, రోబోటిక్స్ & ఫిజికల్ AI, సెమీకండక్టర్ (సవరణలు). అమరావతిలో 200 ఎకరాల AVGC పార్కు, 5,000 ఎకరాల సెమీకండక్టర్ పార్కు ప్రణాళికలో ఉన్నాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Proposals → projects → grounded",
+      "te": "ప్రతిపాదనలు → ప్రాజెక్టులు → ప్రారంభం"
+     },
+     {
+      "en": "714 → 526 → 303",
+      "te": "714 → 526 → 303"
+     }
+    ],
+    [
+     {
+      "en": "Potential jobs (714 proposals)",
+      "te": "ఉద్యోగ అవకాశాలు (714 ప్రతిపాదనలు)"
+     },
+     {
+      "en": "19.2 lakh",
+      "te": "19.2 లక్షలు"
+     }
+    ],
+    [
+     {
+      "en": "AVGC-XR policy period",
+      "te": "AVGC-XR పాలసీ కాలం"
+     },
+     {
+      "en": "2026–31",
+      "te": "2026–31"
+     }
+    ],
+    [
+     {
+      "en": "Robotics & Physical AI policy",
+      "te": "రోబోటిక్స్ & ఫిజికల్ AI పాలసీ"
+     },
+     {
+      "en": "2026–2036",
+      "te": "2026–2036"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "AVGC-XR = Animation, Visual Effects, Gaming, Comics + Extended Reality. Trap: the 200-acre park is for AVGC (Amaravati); 5,000 acres is for the semiconductor park. 'Grounded' means work has started, not just signed.",
+    "te": "AVGC-XR = యానిమేషన్, విజువల్ ఎఫెక్ట్స్, గేమింగ్, కామిక్స్ + ఎక్స్‌టెండెడ్ రియాలిటీ. ట్రాప్: 200 ఎకరాలు AVGC పార్కుకు (అమరావతి); 5,000 ఎకరాలు సెమీకండక్టర్ పార్కుకు. 'గ్రౌండెడ్' అంటే పని మొదలైంది, కేవలం ఒప్పందం కాదు."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "From proposal to ground (₹ lakh crore)",
+      "te": "ప్రతిపాదన నుంచి క్షేత్రస్థాయికి (₹ లక్షల కోట్లు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "714 proposals",
+        "te": "714 ప్రతిపాదనలు"
+       },
+       "v": 22.6,
+       "vl": "₹22.6"
+      },
+      {
+       "t": {
+        "en": "526 projects",
+        "te": "526 ప్రాజెక్టులు"
+       },
+       "v": 17.1,
+       "vl": "₹17.1"
+      },
+      {
+       "t": {
+        "en": "303 grounded",
+        "te": "303 ప్రారంభం"
+       },
+       "v": 7.3,
+       "vl": "₹7.3"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India — Rs 17.1 lakh cr projects take shape in AP, 16 Nov 2026",
+     "u": "https://www.thehansindia.com/news/cities/amaravati/rs-171-lakh-cr-projects-take-shape-in-ap-1142532"
+    },
+    {
+     "t": "NTV Telugu — AP Govt issues orders for 3 new tech policies (AVGC, Robotics, Semiconductor), 16 Nov 2026",
+     "u": "https://ntvtelugu.com/news/ap-govt-issues-orders-three-new-tech-policies-avgc-robotics-semiconductor-1035796.html"
+    },
+    {
+     "t": "Deccan Chronicle — AP Cabinet Clears Over 30 Agenda Items, 10 Nov 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-cabinet-clears-over-30-agenda-items-2003293"
+    }
+   ]
+  },
+  {
+   "id": "akvan",
+   "cat": "ap",
+   "title": {
+    "en": "Evening update: deep depression to become Cyclone Akvan; landfall likely between Nellore and Tuni around 20 Nov",
+    "te": "సాయంత్రం అప్‌డేట్: తీవ్ర వాయుగుండం 'అక్వాన్' తుపానుగా మారనుంది; 20 నవంబర్ నాటికి నెల్లూరు–తుని మధ్య తీరం దాటే అవకాశం"
+   },
+   "pts": [
+    {
+     "en": "On 16 Nov the depression became a deep depression. IMD says it will become a cyclonic storm today and a severe cyclonic storm over the west-central Bay of Bengal on 17 Nov.",
+     "te": "16 నవంబర్‌న వాయుగుండం తీవ్ర వాయుగుండంగా మారింది. ఇవాళ తుపానుగా, 17న పశ్చిమ-మధ్య బంగాళాఖాతంలో తీవ్ర తుపానుగా మారుతుందని IMD తెలిపింది."
+    },
+    {
+     "en": "At 8:30 am on 16 Nov it was about 820 km south-south-east of Visakhapatnam. Reports say IMD issued a pre-cyclone watch; landfall is projected between Nellore and Tuni by noon on 20 Nov, with winds of 120–130 km/h gusting to 145 km/h.",
+     "te": "16 నవంబర్ ఉదయం 8:30కి ఇది విశాఖపట్నానికి సుమారు 820 కి.మీ. దక్షిణ-ఆగ్నేయంగా ఉంది. IMD ప్రీ-సైక్లోన్ వాచ్ జారీ చేసిందని, 20 నవంబర్ మధ్యాహ్నానికి నెల్లూరు–తుని మధ్య 120–130 కి.మీ./గం (గాలుల ఉధృతి 145) వేగంతో తీరం దాటవచ్చని వార్తలు."
+    },
+    {
+     "en": "Extremely heavy rain is forecast for Kakinada, Konaseema, Krishna and Bapatla districts. The CM put losses from Arnab and Murasu at about ₹6,500 crore.",
+     "te": "కాకినాడ, కోనసీమ, కృష్ణా, బాపట్ల జిల్లాలకు అతి భారీ వర్ష సూచన. ఆర్నబ్, మురసు తుపాన్ల నష్టం సుమారు ₹6,500 కోట్లు అని సీఎం తెలిపారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "16 Nov status",
+      "te": "16 నవం స్థితి"
+     },
+     {
+      "en": "Deep depression → cyclonic storm",
+      "te": "తీవ్ర వాయుగుండం → తుపాను"
+     }
+    ],
+    [
+     {
+      "en": "17 Nov (IMD)",
+      "te": "17 నవం (IMD)"
+     },
+     {
+      "en": "Severe cyclonic storm, west-central Bay",
+      "te": "తీవ్ర తుపాను, పశ్చిమ-మధ్య బంగాళాఖాతం"
+     }
+    ],
+    [
+     {
+      "en": "Likely landfall (reports)",
+      "te": "తీరం దాటే చోటు (వార్తలు)"
+     },
+     {
+      "en": "Between Nellore and Tuni, ~20 Nov",
+      "te": "నెల్లూరు–తుని మధ్య, ~20 నవం"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: November cyclones often hit the Andhra coast (IMD seasonal pattern); a name is given only at the cyclonic-storm stage (62–88 km/h). Arnab was only the 4th very severe cyclone to hit AP since 1970 (after 1999, Hudhud 2014, Titli 2018).",
+    "te": "స్టాటిక్ లింక్: నవంబర్ తుపాన్లు ఎక్కువగా ఆంధ్ర తీరాన్ని తాకుతాయి (IMD సీజనల్ ధోరణి); తుపాను దశకు (62–88 కి.మీ./గం) చేరాకే పేరు పెడతారు. 1970 తర్వాత ఏపీని తాకిన 4వ అతి తీవ్ర తుపాను ఆర్నబ్ (1999, హుద్‌హుద్ 2014, తిత్లీ 2018 తర్వాత)."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Likely landfall stretch: Nellore – Tuni",
+      "te": "తీరం దాటే అవకాశం ఉన్న ప్రాంతం: నెల్లూరు – తుని"
+     },
+     "view": "ap",
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#1d4f91",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        14.44,
+        79.99
+       ],
+       "t": {
+        "en": "Nellore",
+        "te": "నెల్లూరు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        17.36,
+        82.55
+       ],
+       "t": {
+        "en": "Tuni",
+        "te": "తుని"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Landfall stretch is from news reports of the IMD watch; the exact district will be fixed in later IMD bulletins.",
+      "te": "తీరం దాటే ప్రాంతం IMD వాచ్‌పై వార్తల ఆధారంగా; కచ్చితమైన జిల్లాను తర్వాతి IMD బులెటిన్లు నిర్ధారిస్తాయి."
+     },
+     "src": "cards/cad/2026-11-16/map-akvan-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "News On AIR — Deep depression formed over Bay of Bengal likely to intensify into cyclonic storm today, 16 Nov 2026",
+     "u": "https://newsonair.gov.in/deep-depression-formed-over-bay-of-bengal-likely-to-intensify-into-cyclonic-storm-today/"
+    },
+    {
+     "t": "Karmactive — Cyclone Akvan Andhra Pradesh: IMD tracks storm to Nellore–Tuni coast by Nov 20, 16 Nov 2026",
+     "u": "https://www.karmactive.com/cyclone-akvan-andhra-pradesh-landfall-tracker"
+    },
+    {
+     "t": "Lukmaan IAS — Daily Gist of The Hindu (Cyclone Akvan heads for Andhra coast), 16 Nov 2026",
+     "u": "https://blog.lukmaanias.com/2026/11/16/daily-gist-the-hindu-16-11-2026/"
+    }
+   ]
+  },
+  {
+   "id": "wpi",
+   "cat": "economy",
+   "title": {
+    "en": "Wholesale inflation rises to 12.29% in October 2026; fuel & power inflation at 32.84%",
+    "te": "అక్టోబర్ 2026లో టోకు ద్రవ్యోల్బణం 12.29%కి పెరుగుదల; ఇంధనం & విద్యుత్ ద్రవ్యోల్బణం 32.84%"
+   },
+   "pts": [
+    {
+     "en": "WPI (Wholesale Price Index) inflation rose to 12.29% in October from 11.39% in September. Data released by the Ministry of Commerce and Industry on 16 Nov.",
+     "te": "టోకు ధరల సూచీ (WPI) ద్రవ్యోల్బణం సెప్టెంబర్‌లో 11.39% నుంచి అక్టోబర్‌లో 12.29%కి పెరిగింది. వాణిజ్య, పరిశ్రమల మంత్రిత్వ శాఖ 16 నవంబర్‌న విడుదల చేసింది."
+    },
+    {
+     "en": "Main driver: fuel & power jumped to 32.84% (from 25.85%) — mineral oils 45.57%, crude petroleum & natural gas 70.80%.",
+     "te": "ప్రధాన కారణం: ఇంధనం & విద్యుత్ 25.85% నుంచి 32.84%కి — మినరల్ ఆయిల్స్ 45.57%, ముడి చమురు & సహజ వాయువు 70.80%."
+    },
+    {
+     "en": "Manufactured products eased to 9.54% (from 9.76%) and the WPI food index to 8.58% (from 8.66%). Primary articles rose to 9.24%.",
+     "te": "తయారీ వస్తువులు 9.76% నుంచి 9.54%కి, WPI ఆహార సూచీ 8.66% నుంచి 8.58%కి తగ్గాయి. ప్రాథమిక వస్తువులు 9.24%కి పెరిగాయి."
+    },
+    {
+     "en": "Compare: retail (CPI) inflation for October was 6.09%. WPI shows producer/wholesale prices; CPI shows what consumers pay. RBI targets CPI, not WPI.",
+     "te": "పోలిక: అక్టోబర్ రిటైల్ (CPI) ద్రవ్యోల్బణం 6.09%. WPI ఉత్పత్తిదారు/టోకు ధరలను, CPI వినియోగదారులు చెల్లించే ధరలను చూపుతుంది. RBI లక్ష్యం CPI, WPI కాదు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "WPI inflation Oct / Sep",
+      "te": "WPI ద్రవ్యోల్బణం అక్టో / సెప్టెం"
+     },
+     {
+      "en": "12.29% / 11.39%",
+      "te": "12.29% / 11.39%"
+     }
+    ],
+    [
+     {
+      "en": "Fuel & power",
+      "te": "ఇంధనం & విద్యుత్"
+     },
+     {
+      "en": "32.84% (Sep 25.85%)",
+      "te": "32.84% (సెప్టెం 25.85%)"
+     }
+    ],
+    [
+     {
+      "en": "Released by",
+      "te": "విడుదల చేసేది"
+     },
+     {
+      "en": "Office of the Economic Adviser, DPIIT (Commerce Ministry)",
+      "te": "ఆర్థిక సలహాదారు కార్యాలయం, DPIIT (వాణిజ్య శాఖ)"
+     }
+    ],
+    [
+     {
+      "en": "Next release",
+      "te": "తదుపరి విడుదల"
+     },
+     {
+      "en": "14 Dec 2026 (November data)",
+      "te": "14 డిసెం 2026 (నవంబర్ డేటా)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: WPI is released by the Office of the Economic Adviser (DPIIT); CPI by NSO (MoSPI). WPI has no services. Trap: manufactured-goods inflation FELL in October — only fuel & power and primary articles rose.",
+    "te": "స్టాటిక్ లింక్: WPIని ఆర్థిక సలహాదారు కార్యాలయం (DPIIT), CPIని NSO (MoSPI) విడుదల చేస్తాయి. WPIలో సేవలు ఉండవు. ట్రాప్: అక్టోబర్‌లో తయారీ వస్తువుల ద్రవ్యోల్బణం తగ్గింది — ఇంధనం, ప్రాథమిక వస్తువులే పెరిగాయి."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "WPI inflation by group, October 2026 (%)",
+      "te": "గ్రూపుల వారీ WPI ద్రవ్యోల్బణం, అక్టోబర్ 2026 (%)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Fuel & power",
+        "te": "ఇంధనం & విద్యుత్"
+       },
+       "v": 32.84,
+       "vl": "32.84%"
+      },
+      {
+       "t": {
+        "en": "All commodities",
+        "te": "అన్ని వస్తువులు"
+       },
+       "v": 12.29,
+       "vl": "12.29%"
+      },
+      {
+       "t": {
+        "en": "Manufactured",
+        "te": "తయారీ వస్తువులు"
+       },
+       "v": 9.54,
+       "vl": "9.54%"
+      },
+      {
+       "t": {
+        "en": "Primary articles",
+        "te": "ప్రాథమిక వస్తువులు"
+       },
+       "v": 9.24,
+       "vl": "9.24%"
+      },
+      {
+       "t": {
+        "en": "Food index",
+        "te": "ఆహార సూచీ"
+       },
+       "v": 8.58,
+       "vl": "8.58%"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Tribune — Wholesale inflation rises to 12.29% in October on higher fuel, power prices, 16 Nov 2026",
+     "u": "https://www.tribuneindia.com/news/business/wholesale-inflation-rises-to-12-29-in-october-on-higher-fuel-power-prices/"
+    },
+    {
+     "t": "Policy Edge — Wholesale Inflation Rises to 12.29% in October 2026 as Fuel and Power Prices Accelerate, 16 Nov 2026",
+     "u": "https://www.policyedge.in/p/wholesale-inflation-rises-to-1229-in-october-2026-as-fuel-and-power-prices-accelerate"
+    }
+   ]
+  },
+  {
+   "id": "belarus",
+   "cat": "ir",
+   "title": {
+    "en": "Belarus Foreign Minister Maxim Ryzhenkov in India; 12th India–Belarus Intergovernmental Commission meets in New Delhi",
+    "te": "భారత్‌లో బెలారస్ విదేశాంగ మంత్రి మాక్సిమ్ రిజెంకోవ్; న్యూఢిల్లీలో 12వ భారత్–బెలారస్ అంతర్ ప్రభుత్వ కమిషన్ భేటీ"
+   },
+   "pts": [
+    {
+     "en": "Belarus Foreign Minister Maxim Ryzhenkov began a four-day visit to India on 16 Nov.",
+     "te": "బెలారస్ విదేశాంగ మంత్రి మాక్సిమ్ రిజెంకోవ్ 16 నవంబర్‌న నాలుగు రోజుల భారత పర్యటన ప్రారంభించారు."
+    },
+    {
+     "en": "He co-chairs the 12th meeting of the India–Belarus Intergovernmental Commission on cooperation in trade, economy, science, technology and culture with India's MoS for Commerce and Industry, Jitin Prasada.",
+     "te": "వాణిజ్యం, ఆర్థికం, శాస్త్ర, సాంకేతిక, సాంస్కృతిక సహకారంపై 12వ భారత్–బెలారస్ అంతర్ ప్రభుత్వ కమిషన్ సమావేశానికి భారత వాణిజ్య, పరిశ్రమల సహాయ మంత్రి జితిన్ ప్రసాదతో కలిసి ఆయన సహ అధ్యక్షత వహిస్తున్నారు."
+    },
+    {
+     "en": "He also holds talks with MoS for External Affairs Kirti Vardhan Singh.",
+     "te": "విదేశాంగ సహాయ మంత్రి కీర్తి వర్ధన్ సింగ్‌తోనూ చర్చలు జరుపుతారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Belarus capital",
+      "te": "బెలారస్ రాజధాని"
+     },
+     {
+      "en": "Minsk",
+      "te": "మిన్స్క్"
+     }
+    ],
+    [
+     {
+      "en": "Indian co-chair",
+      "te": "భారత సహ అధ్యక్షుడు"
+     },
+     {
+      "en": "Jitin Prasada, MoS Commerce & Industry",
+      "te": "జితిన్ ప్రసాద, వాణిజ్య & పరిశ్రమల సహాయ మంత్రి"
+     }
+    ],
+    [
+     {
+      "en": "Groupings",
+      "te": "కూటములు"
+     },
+     {
+      "en": "SCO full member since 2024; Eurasian Economic Union",
+      "te": "2024 నుంచి SCO పూర్తి సభ్యదేశం; యురేషియన్ ఎకనామిక్ యూనియన్"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Belarus became the 10th full member of the SCO in July 2024 (Astana summit) — so India and Belarus are both SCO members. Trap: the Indian co-chair of the Commission is the Commerce MoS, not the External Affairs Minister.",
+    "te": "బెలారస్ జూలై 2024లో (అస్తానా సదస్సు) SCOలో 10వ పూర్తి సభ్యదేశమైంది — భారత్, బెలారస్ రెండూ SCO సభ్యులు. ట్రాప్: కమిషన్‌కు భారత సహ అధ్యక్షుడు వాణిజ్య సహాయ మంత్రి, విదేశాంగ మంత్రి కాదు."
+   },
+   "pics": [
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "India–Belarus: what the Commission covers",
+      "te": "భారత్–బెలారస్: కమిషన్ పరిధి"
+     },
+     "c": {
+      "en": "12th IGC · New Delhi",
+      "te": "12వ IGC · న్యూఢిల్లీ"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Trade & economy",
+        "te": "వాణిజ్యం & ఆర్థికం"
+       },
+       "l": []
+      },
+      {
+       "t": {
+        "en": "Science & technology",
+        "te": "శాస్త్ర & సాంకేతికం"
+       },
+       "l": []
+      },
+      {
+       "t": {
+        "en": "Culture",
+        "te": "సంస్కృతి"
+       },
+       "l": []
+      },
+      {
+       "t": {
+        "en": "Co-chairs",
+        "te": "సహ అధ్యక్షులు"
+       },
+       "l": [
+        {
+         "en": "Jitin Prasada (India)",
+         "te": "జితిన్ ప్రసాద (భారత్)"
+        },
+        {
+         "en": "Maxim Ryzhenkov (Belarus)",
+         "te": "మాక్సిమ్ రిజెంకోవ్ (బెలారస్)"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "News On AIR — Belarus Foreign Minister Maxim Ryzhenkov arrives in New Delhi on 4-day visit to India, 16 Nov 2026",
+     "u": "https://newsonair.gov.in/belarus-foreign-minister-maxim-ryzhenkov-arrives-in-new-delhi-on-4-day-visit-to-india/"
+    }
+   ]
+  },
+  {
+   "id": "egypt",
+   "cat": "ir",
+   "title": {
+    "en": "7th India–Egypt Joint Trade Committee in Cairo: work to begin on a bilateral trade agreement; trade in local currencies",
+    "te": "కైరోలో 7వ భారత్–ఈజిప్ట్ జాయింట్ ట్రేడ్ కమిటీ: ద్వైపాక్షిక వాణిజ్య ఒప్పందానికి కసరత్తు; స్థానిక కరెన్సీల్లో వాణిజ్యం"
+   },
+   "pts": [
+    {
+     "en": "Commerce Minister Piyush Goyal attended the 7th India–Egypt Joint Trade Committee in Cairo with a delegation of more than 130 business leaders and start-ups.",
+     "te": "వాణిజ్య మంత్రి పీయూష్ గోయల్ 130 మందికి పైగా వ్యాపారవేత్తలు, స్టార్టప్‌ల ప్రతినిధి బృందంతో కైరోలో 7వ భారత్–ఈజిప్ట్ జాయింట్ ట్రేడ్ కమిటీకి హాజరయ్యారు."
+    },
+    {
+     "en": "Both sides agreed to finalise the Terms of Reference (ToR) for a proposed bilateral trade agreement in a time-bound way. The central banks are working on trade in local currencies.",
+     "te": "ప్రతిపాదిత ద్వైపాక్షిక వాణిజ్య ఒప్పందానికి నిబంధనల పరిధి (ToR)ని నిర్ణీత గడువులో ఖరారు చేయాలని అంగీకరించారు. స్థానిక కరెన్సీల్లో వాణిజ్యానికి రెండు దేశాల కేంద్ర బ్యాంకులు పనిచేస్తున్నాయి."
+    },
+    {
+     "en": "India proposed linking UPI with Egypt's digital payment systems. Focus sectors: pharma & health, engineering & automobiles, agriculture, fintech.",
+     "te": "UPIని ఈజిప్ట్ డిజిటల్ చెల్లింపు వ్యవస్థలతో అనుసంధానించాలని భారత్ ప్రతిపాదించింది. ముఖ్య రంగాలు: ఫార్మా & ఆరోగ్యం, ఇంజినీరింగ్ & ఆటోమొబైల్స్, వ్యవసాయం, ఫిన్‌టెక్."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Egyptian co-chair",
+      "te": "ఈజిప్ట్ సహ అధ్యక్షుడు"
+     },
+     {
+      "en": "Mohamed Farid Saleh, Minister of Investment & Foreign Trade",
+      "te": "మొహమ్మద్ ఫరీద్ సాలెహ్, పెట్టుబడులు & విదేశీ వాణిజ్య మంత్రి"
+     }
+    ],
+    [
+     {
+      "en": "Venue",
+      "te": "వేదిక"
+     },
+     {
+      "en": "Cairo",
+      "te": "కైరో"
+     }
+    ],
+    [
+     {
+      "en": "Next step",
+      "te": "తదుపరి అడుగు"
+     },
+     {
+      "en": "ToR for a bilateral trade agreement",
+      "te": "ద్వైపాక్షిక వాణిజ్య ఒప్పందానికి ToR"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: Egypt joined BRICS in January 2024; Egypt's President el-Sisi was the Republic Day 2023 chief guest; the Suez Canal links the Mediterranean and the Red Sea. Trap: ToR only starts the talks — no trade agreement has been signed yet.",
+    "te": "స్టాటిక్ లింక్: ఈజిప్ట్ జనవరి 2024లో BRICSలో చేరింది; 2023 గణతంత్ర దినోత్సవ ముఖ్య అతిథి ఈజిప్ట్ అధ్యక్షుడు అల్-సిసి; సూయజ్ కాలువ మధ్యధరా సముద్రాన్ని ఎర్ర సముద్రంతో కలుపుతుంది. ట్రాప్: ToR అంటే చర్చల ప్రారంభం మాత్రమే — ఒప్పందం ఇంకా కుదరలేదు."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "Road to an India–Egypt trade deal",
+      "te": "భారత్–ఈజిప్ట్ వాణిజ్య ఒప్పందం వైపు"
+     },
+     "items": [
+      {
+       "i": "🤝",
+       "t": {
+        "en": "7th Joint Trade Committee, Cairo",
+        "te": "7వ జాయింట్ ట్రేడ్ కమిటీ, కైరో"
+       }
+      },
+      {
+       "i": "📄",
+       "t": {
+        "en": "Finalise Terms of Reference",
+        "te": "ToR ఖరారు"
+       }
+      },
+      {
+       "i": "💬",
+       "t": {
+        "en": "Negotiate the agreement",
+        "te": "ఒప్పందంపై చర్చలు"
+       }
+      },
+      {
+       "i": "💱",
+       "t": {
+        "en": "Local-currency trade, UPI link",
+        "te": "స్థానిక కరెన్సీ వాణిజ్యం, UPI అనుసంధానం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "News On AIR — Central banks of India and Egypt working to promote bilateral trade in local currencies, says Piyush Goyal, 15 Nov 2026",
+     "u": "https://newsonair.gov.in/central-banks-of-india-and-egypt-working-to-promote-bilateral-trade-in-local-currencies-says-piyush-goyal/"
+    }
+   ]
+  },
+  {
+   "id": "sagar",
+   "cat": "defence",
+   "title": {
+    "en": "'Sagar Suraksha 2026': national coastal security seminar in Kolkata (16–17 Nov)",
+    "te": "'సాగర్ సురక్ష 2026': కోల్‌కతాలో జాతీయ తీర భద్రతా సదస్సు (16–17 నవంబర్)"
+   },
+   "pts": [
+    {
+     "en": "The Indian Coast Guard and the Department of Border Management (Ministry of Home Affairs) are holding a two-day national seminar on coastal security in Kolkata.",
+     "te": "భారత తీర రక్షక దళం (Coast Guard), హోం మంత్రిత్వ శాఖలోని సరిహద్దు నిర్వహణ విభాగం కోల్‌కతాలో రెండు రోజుల జాతీయ తీర భద్రతా సదస్సు నిర్వహిస్తున్నాయి."
+    },
+    {
+     "en": "Theme: 'Comprehensive Approach to Coastal Security: Strengthening Stakeholder Participation and Community Engagement'.",
+     "te": "థీమ్: 'Comprehensive Approach to Coastal Security: Strengthening Stakeholder Participation and Community Engagement' (తీర భద్రతకు సమగ్ర విధానం: భాగస్వాములు, సమాజ భాగస్వామ్యం బలోపేతం)."
+    },
+    {
+     "en": "Coastal States and UTs, central ministries, armed forces, CAPFs and maritime agencies take part — fishermen and coastal villages are the 'eyes and ears' of coastal security.",
+     "te": "తీర రాష్ట్రాలు, కేంద్రపాలిత ప్రాంతాలు, కేంద్ర మంత్రిత్వ శాఖలు, సాయుధ దళాలు, CAPFలు, సముద్ర సంస్థలు పాల్గొంటున్నాయి — మత్స్యకారులు, తీర గ్రామాలే తీర భద్రతకు 'కళ్లు, చెవులు'."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Organisers",
+      "te": "నిర్వాహకులు"
+     },
+     {
+      "en": "Indian Coast Guard + Dept of Border Management (MHA)",
+      "te": "భారత తీర రక్షక దళం + సరిహద్దు నిర్వహణ విభాగం (MHA)"
+     }
+    ],
+    [
+     {
+      "en": "Dates & venue",
+      "te": "తేదీలు & వేదిక"
+     },
+     {
+      "en": "16–17 Nov 2026, Kolkata",
+      "te": "16–17 నవం 2026, కోల్‌కతా"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: the Indian Coast Guard works under the Ministry of Defence, but border management (including coastal security schemes) is under the Ministry of Home Affairs. Trap: the seminar was organised with MHA's Department of Border Management, not the Navy.",
+    "te": "స్టాటిక్ లింక్: భారత తీర రక్షక దళం రక్షణ మంత్రిత్వ శాఖ కింద పనిచేస్తుంది; సరిహద్దు నిర్వహణ (తీర భద్రతా పథకాలు సహా) హోం మంత్రిత్వ శాఖ కింద ఉంటుంది. ట్రాప్: సదస్సును నౌకాదళం కాదు, MHA సరిహద్దు నిర్వహణ విభాగంతో కలిసి నిర్వహించారు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Venue: Kolkata, on the east coast",
+      "te": "వేదిక: తూర్పు తీరంలోని కోల్‌కతా"
+     },
+     "view": "india",
+     "hl": [
+      "West Bengal"
+     ],
+     "hlc": "#2c5d63",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        22.57,
+        88.36
+       ],
+       "t": {
+        "en": "Kolkata",
+        "te": "కోల్‌కతా"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Coastal security involves all coastal States and UTs, including Andhra Pradesh.",
+      "te": "తీర భద్రతలో ఆంధ్రప్రదేశ్ సహా అన్ని తీర రాష్ట్రాలు, కేంద్రపాలిత ప్రాంతాలు భాగం."
+     },
+     "src": "cards/cad/2026-11-16/map-sagar-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "News On AIR — Two-day National Level Coastal Security Seminar, 'Sagar Suraksha 2026' to begin today in Kolkata, 16 Nov 2026",
+     "u": "https://newsonair.gov.in/two-day-national-level-coastal-security-seminar-sagar-suraksha-2026-to-begin-today-in-kolkata/"
+    }
+   ]
+  },
+  {
+   "id": "starship",
+   "cat": "science",
+   "title": {
+    "en": "SpaceX catches Starship's upper stage with tower arms for the first time — a step towards fully reusable rockets",
+    "te": "స్టార్‌షిప్ పై దశను టవర్ చేతులతో మొదటిసారి పట్టుకున్న స్పేస్‌ఎక్స్ — పూర్తిగా పునర్వినియోగ రాకెట్ల దిశగా అడుగు"
+   },
+   "pts": [
+    {
+     "en": "After its 15th test flight, SpaceX caught the Starship upper stage with mechanical arms ('chopsticks') on the launch tower at Starbase, Texas. The ship completed 14 orbits before returning.",
+     "te": "15వ పరీక్షా ప్రయోగం తర్వాత, టెక్సాస్‌లోని స్టార్‌బేస్‌లో లాంచ్ టవర్ యాంత్రిక చేతులతో ('చాప్‌స్టిక్స్') స్టార్‌షిప్ పై దశను స్పేస్‌ఎక్స్ పట్టుకుంది. తిరిగి రావడానికి ముందు అది 14 కక్ష్యలు పూర్తి చేసింది."
+    },
+    {
+     "en": "This was the first attempt to catch both stages in one mission. The booster failed to return; it was diverted to the Gulf of Mexico and exploded before reaching the water.",
+     "te": "ఒకే మిషన్‌లో రెండు దశలనూ పట్టుకునే తొలి ప్రయత్నం ఇది. బూస్టర్ తిరిగి రాలేదు; గల్ఫ్ ఆఫ్ మెక్సికో వైపు మళ్లించగా నీటిని తాకకముందే పేలిపోయింది."
+    },
+    {
+     "en": "Why it matters: reusing both stages can cut launch cost sharply. The flight also deployed 26 Starlink V3 satellites.",
+     "te": "ప్రాముఖ్యత: రెండు దశలనూ తిరిగి వాడితే ప్రయోగ ఖర్చు బాగా తగ్గుతుంది. ఈ ప్రయోగంలో 26 స్టార్‌లింక్ V3 ఉపగ్రహాలను కక్ష్యలో ప్రవేశపెట్టారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Flight",
+      "te": "ప్రయోగం"
+     },
+     {
+      "en": "Starship Flight 15",
+      "te": "స్టార్‌షిప్ ఫ్లైట్ 15"
+     }
+    ],
+    [
+     {
+      "en": "Caught",
+      "te": "పట్టుకున్నది"
+     },
+     {
+      "en": "Upper stage (ship) — booster lost",
+      "te": "పై దశ (షిప్) — బూస్టర్ నష్టం"
+     }
+    ],
+    [
+     {
+      "en": "Starlink in orbit",
+      "te": "కక్ష్యలో స్టార్‌లింక్"
+     },
+     {
+      "en": "More than 11,000 satellites (LEO)",
+      "te": "11,000కు పైగా ఉపగ్రహాలు (LEO)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: ISRO's reusable effort is the RLV-TD; its landing experiments (RLV-LEX) used the winged vehicle 'Pushpak' at Chitradurga. Trap: this time the SHIP was caught and the BOOSTER was lost — not the other way round.",
+    "te": "స్టాటిక్ లింక్: ఇస్రో పునర్వినియోగ ప్రయత్నం RLV-TD; దాని ల్యాండింగ్ ప్రయోగాలు (RLV-LEX) చిత్రదుర్గలో రెక్కల వాహనం 'పుష్పక్'తో జరిగాయి. ట్రాప్: ఈసారి పట్టుకున్నది షిప్‌ను; నష్టపోయింది బూస్టర్ — తిరగబడి కాదు."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "How a fully reusable rocket works",
+      "te": "పూర్తిగా పునర్వినియోగ రాకెట్ ఎలా పనిచేస్తుంది"
+     },
+     "items": [
+      {
+       "i": "🚀",
+       "t": {
+        "en": "Booster lifts the ship",
+        "te": "బూస్టర్ షిప్‌ను పైకి నెడుతుంది"
+       }
+      },
+      {
+       "i": "🛰️",
+       "t": {
+        "en": "Ship reaches orbit, releases satellites",
+        "te": "షిప్ కక్ష్యకు చేరి ఉపగ్రహాలను వదులుతుంది"
+       }
+      },
+      {
+       "i": "🔥",
+       "t": {
+        "en": "Ship re-enters the atmosphere",
+        "te": "షిప్ వాతావరణంలోకి తిరిగి ప్రవేశం"
+       }
+      },
+      {
+       "i": "🥢",
+       "t": {
+        "en": "Tower arms catch it",
+        "te": "టవర్ చేతులు పట్టుకుంటాయి"
+       }
+      },
+      {
+       "i": "♻️",
+       "t": {
+        "en": "Refuel and fly again",
+        "te": "ఇంధనం నింపి మళ్లీ ప్రయోగం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "News On AIR — SpaceX catches upper stage of its Starship rocket marking a major milestone in developing fully reusable launch system, 16 Nov 2026",
+     "u": "https://newsonair.gov.in/spacex-catches-upper-stage-of-its-starship-rocket-marking-a-major-milestone-in-developing-fully-reusable-launch-system/"
+    }
+   ]
+  },
+  {
+   "id": "icc",
+   "cat": "sports",
+   "title": {
+    "en": "ICC fixes windows: India to host 2029 Champions Trophy; India–Bangladesh to co-host 2031 ODI World Cup",
+    "te": "ICC షెడ్యూల్: 2029 చాంపియన్స్ ట్రోఫీ భారత్‌లో; 2031 వన్డే ప్రపంచకప్‌కు భారత్–బంగ్లాదేశ్ సంయుక్త ఆతిథ్యం"
+   },
+   "pts": [
+    {
+     "en": "The ICC Board approved the windows for major men's events up to 2035.",
+     "te": "2035 వరకు ప్రధాన పురుషుల టోర్నీల తేదీల విండోలను ICC బోర్డు ఆమోదించింది."
+    },
+    {
+     "en": "2029 Champions Trophy: India, 9–28 October. 2031 ODI World Cup: India and Bangladesh, 9 October – 23 November.",
+     "te": "2029 చాంపియన్స్ ట్రోఫీ: భారత్, 9–28 అక్టోబర్. 2031 వన్డే ప్రపంచకప్: భారత్, బంగ్లాదేశ్, 9 అక్టోబర్ – 23 నవంబర్."
+    },
+    {
+     "en": "2028 T20 World Cup: Australia and New Zealand (12 Oct – 12 Nov). 2030 T20 World Cup: England, Scotland and Ireland. England hosts the 2029 and 2031 World Test Championship finals.",
+     "te": "2028 టీ20 ప్రపంచకప్: ఆస్ట్రేలియా, న్యూజిలాండ్ (12 అక్టో – 12 నవం). 2030 టీ20 ప్రపంచకప్: ఇంగ్లాండ్, స్కాట్లాండ్, ఐర్లాండ్. 2029, 2031 WTC ఫైనల్స్ ఇంగ్లాండ్‌లో."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "2029 Champions Trophy",
+      "te": "2029 చాంపియన్స్ ట్రోఫీ"
+     },
+     {
+      "en": "India (9–28 Oct)",
+      "te": "భారత్ (9–28 అక్టో)"
+     }
+    ],
+    [
+     {
+      "en": "2031 ODI World Cup",
+      "te": "2031 వన్డే ప్రపంచకప్"
+     },
+     {
+      "en": "India + Bangladesh",
+      "te": "భారత్ + బంగ్లాదేశ్"
+     }
+    ],
+    [
+     {
+      "en": "2028 T20 World Cup",
+      "te": "2028 టీ20 ప్రపంచకప్"
+     },
+     {
+      "en": "Australia + New Zealand",
+      "te": "ఆస్ట్రేలియా + న్యూజిలాండ్"
+     }
+    ],
+    [
+     {
+      "en": "2030 T20 World Cup",
+      "te": "2030 టీ20 ప్రపంచకప్"
+     },
+     {
+      "en": "England + Scotland + Ireland",
+      "te": "ఇంగ్లాండ్ + స్కాట్లాండ్ + ఐర్లాండ్"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: India won the 2025 Champions Trophy (final in Dubai; Pakistan was the official host). Trap: the 2031 ODI World Cup co-host is Bangladesh, not Sri Lanka.",
+    "te": "స్టాటిక్ లింక్: 2025 చాంపియన్స్ ట్రోఫీని భారత్ గెలిచింది (ఫైనల్ దుబాయ్‌లో; అధికారిక ఆతిథ్యం పాకిస్తాన్). ట్రాప్: 2031 వన్డే ప్రపంచకప్ సహ ఆతిథ్య దేశం బంగ్లాదేశ్, శ్రీలంక కాదు."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Men's ICC events: who hosts",
+      "te": "పురుషుల ICC టోర్నీలు: ఆతిథ్యం ఎవరిది"
+     },
+     "items": [
+      {
+       "y": "2028",
+       "t": {
+        "en": "T20 WC — Australia & NZ",
+        "te": "టీ20 WC — ఆస్ట్రేలియా & NZ"
+       }
+      },
+      {
+       "y": "2029",
+       "t": {
+        "en": "Champions Trophy — India",
+        "te": "చాంపియన్స్ ట్రోఫీ — భారత్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2030",
+       "t": {
+        "en": "T20 WC — England, Scotland, Ireland",
+        "te": "టీ20 WC — ఇంగ్లాండ్, స్కాట్లాండ్, ఐర్లాండ్"
+       }
+      },
+      {
+       "y": "2031",
+       "t": {
+        "en": "ODI WC — India & Bangladesh",
+        "te": "వన్డే WC — భారత్ & బంగ్లాదేశ్"
+       },
+       "hl": 1
+      }
+     ],
+     "cap": {
+      "en": "Bold = events in India.",
+      "te": "బోల్డ్ = భారత్‌లో జరిగే టోర్నీలు."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "News On AIR — India to host 2029 Champions Trophy & co-host ODI World Cup in 2031, 16 Nov 2026",
+     "u": "https://newsonair.gov.in/india-to-host-2029-champions-trophy-co-host-odi-world-cup-in-2031/"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "gp2",
+   "q": {
+    "en": "Consider the following about AP gram panchayat elections (Phase 2, 2026). Which of the statements given above is/are correct?",
+    "te": "ఏపీ గ్రామ పంచాయతీ ఎన్నికలు (రెండో దశ, 2026) గురించి కింది ప్రకటనలు పరిశీలించండి. పై ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. They are conducted by the State Election Commission, constituted under Article 243K.",
+     "te": "I. వీటిని ఆర్టికల్ 243K కింద ఏర్పడిన రాష్ట్ర ఎన్నికల సంఘం నిర్వహిస్తుంది."
+    },
+    {
+     "en": "II. Polling is on 29 November and counting begins the same afternoon.",
+     "te": "II. పోలింగ్ 29 నవంబర్‌న; అదే రోజు మధ్యాహ్నం లెక్కింపు మొదలవుతుంది."
+    },
+    {
+     "en": "III. The Upa-Sarpanch is elected a week later at a separate meeting.",
+     "te": "III. ఉప సర్పంచ్‌ను వారం తర్వాత వేరే సమావేశంలో ఎన్నుకుంటారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and II are correct. III is the trap: the Upa-Sarpanch is elected on polling day itself, after the results. Option (d) fails because of III; (a)/(b) leave out a correct statement.",
+    "te": "I, II సరైనవి. III ట్రాప్: ఉప సర్పంచ్‌ను పోలింగ్ రోజే ఫలితాల తర్వాత ఎన్నుకుంటారు. III వల్ల (d) తప్పు; (a)/(b) ఒక సరైన ప్రకటనను వదిలేశాయి."
+   }
+  },
+  {
+   "topic": "gp2",
+   "q": {
+    "en": "Arrange the following steps of AP gram panchayat Phase-2 elections (2026) in the correct order:",
+    "te": "ఏపీ గ్రామ పంచాయతీ రెండో దశ ఎన్నికల (2026) కింది దశలను సరైన క్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "I. Re-poll (if needed)",
+     "te": "I. రీ-పోలింగ్ (అవసరమైతే)"
+    },
+    {
+     "en": "II. Scrutiny of nominations",
+     "te": "II. నామినేషన్ల పరిశీలన"
+    },
+    {
+     "en": "III. Last date for withdrawal",
+     "te": "III. ఉపసంహరణకు చివరి తేదీ"
+    },
+    {
+     "en": "IV. Last date for nominations",
+     "te": "IV. నామినేషన్లకు చివరి తేదీ"
+    }
+   ],
+   "o": [
+    {
+     "en": "IV – II – III – I",
+     "te": "IV – II – III – I"
+    },
+    {
+     "en": "II – IV – III – I",
+     "te": "II – IV – III – I"
+    },
+    {
+     "en": "IV – III – II – I",
+     "te": "IV – III – II – I"
+    },
+    {
+     "en": "IV – II – I – III",
+     "te": "IV – II – I – III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Nominations close 20 Nov → scrutiny 21 Nov → withdrawal till 24 Nov → re-poll 30 Nov (after polling on 29 Nov). Trap: scrutiny always comes before withdrawal.",
+    "te": "నామినేషన్లు 20 నవం ముగింపు → పరిశీలన 21 → ఉపసంహరణ 24 వరకు → రీ-పోలింగ్ 30 (29న పోలింగ్ తర్వాత). ట్రాప్: ఉపసంహరణకు ముందే పరిశీలన జరుగుతుంది."
+   }
+  },
+  {
+   "topic": "aht",
+   "q": {
+    "en": "Match List-I (post in AP's anti-trafficking committees, Nov 2026) with List-II (who holds it):",
+    "te": "జాబితా-I (ఏపీ అక్రమ రవాణా నిరోధక కమిటీల్లో పదవి, నవం 2026)ను జాబితా-II (ఎవరు)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. State committee chair  B. State committee co-chair  C. District committee chair  D. District committee member-convener",
+     "te": "A. రాష్ట్ర కమిటీ చైర్  B. రాష్ట్ర కమిటీ కో-చైర్  C. జిల్లా కమిటీ చైర్  D. జిల్లా కమిటీ మెంబర్-కన్వీనర్"
+    },
+    {
+     "en": "1. District Collector  2. DGP/ADGP (CID)  3. District Child Protection Officer  4. Principal Secretary/Secretary of the department",
+     "te": "1. జిల్లా కలెక్టర్  2. DGP/ADGP (CID)  3. జిల్లా బాలల సంరక్షణ అధికారి  4. శాఖ ప్రిన్సిపల్ సెక్రటరీ/సెక్రటరీ"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-2, B-4, C-1, D-3",
+     "te": "A-2, B-4, C-1, D-3"
+    },
+    {
+     "en": "A-4, B-2, C-3, D-1",
+     "te": "A-4, B-2, C-3, D-1"
+    },
+    {
+     "en": "A-4, B-1, C-2, D-3",
+     "te": "A-4, B-1, C-2, D-3"
+    },
+    {
+     "en": "A-4, B-2, C-1, D-3",
+     "te": "A-4, B-2, C-1, D-3"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "State: chair = Principal Secretary/Secretary, co-chair = DGP/ADGP (CID). District: chair = Collector, convener = DCPO (the SP is co-chair). (a) swaps the State posts; (b) swaps district chair and convener; (c) puts the Collector in the State committee.",
+    "te": "రాష్ట్రం: చైర్ = ప్రిన్సిపల్ సెక్రటరీ/సెక్రటరీ, కో-చైర్ = DGP/ADGP (CID). జిల్లా: చైర్ = కలెక్టర్, కన్వీనర్ = DCPO (SP కో-చైర్). (a) రాష్ట్ర పదవులను తారుమారు చేసింది; (b) జిల్లా చైర్, కన్వీనర్‌ను తారుమారు చేసింది; (c) కలెక్టర్‌ను రాష్ట్ర కమిటీలో పెట్టింది."
+   }
+  },
+  {
+   "topic": "apinvest",
+   "q": {
+    "en": "Consider the following about AP's November 2026 project status report. Which of the statements given above is/are correct?",
+    "te": "ఏపీ నవంబర్ 2026 ప్రాజెక్టుల స్థితి నివేదిక గురించి కింది ప్రకటనలు పరిశీలించండి. పై ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. 526 of 714 investment proposals have been converted into projects.",
+     "te": "I. 714 పెట్టుబడి ప్రతిపాదనల్లో 526 ప్రాజెక్టులుగా మారాయి."
+    },
+    {
+     "en": "II. Projects already grounded are worth more than half of all proposals by value.",
+     "te": "II. ఇప్పటికే ప్రారంభమైన ప్రాజెక్టుల విలువ మొత్తం ప్రతిపాదనల విలువలో సగం కంటే ఎక్కువ."
+    },
+    {
+     "en": "III. By value, NREDCAP (renewable energy) has more proposals than the Industries department.",
+     "te": "III. విలువపరంగా పరిశ్రమల శాఖ కంటే NREDCAP (పునరుత్పాదక ఇంధనం) ప్రతిపాదనలు ఎక్కువ."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I is correct. III is correct: NREDCAP ₹8.5 lakh crore vs Industries ₹6.1 lakh crore. II is the trap: grounded projects are ₹7.3 lakh crore out of ₹22.6 lakh crore — about one-third, not more than half.",
+    "te": "I సరైనది. III సరైనది: NREDCAP ₹8.5 లక్షల కోట్లు vs పరిశ్రమలు ₹6.1 లక్షల కోట్లు. II ట్రాప్: ప్రారంభమైనవి ₹22.6లో ₹7.3 లక్షల కోట్లు — సుమారు మూడోవంతు, సగం కంటే ఎక్కువ కాదు."
+   }
+  },
+  {
+   "topic": "apinvest",
+   "q": {
+    "en": "Which one of the following statements about AP's new technology policies (orders issued 16 Nov 2026) is INCORRECT?",
+    "te": "ఏపీ కొత్త టెక్నాలజీ పాలసీల (16 నవం 2026 ఉత్తర్వులు) గురించి కింది వాటిలో తప్పు ప్రకటన ఏది?"
+   },
+   "o": [
+    {
+     "en": "'AVGC' stands for Animation, Visual Effects, Gaming and Comics",
+     "te": "'AVGC' అంటే యానిమేషన్, విజువల్ ఎఫెక్ట్స్, గేమింగ్, కామిక్స్"
+    },
+    {
+     "en": "The AVGC-XR policy covers 2026–31",
+     "te": "AVGC-XR పాలసీ కాలం 2026–31"
+    },
+    {
+     "en": "The Robotics & Physical AI policy covers 2026–2036",
+     "te": "రోబోటిక్స్ & ఫిజికల్ AI పాలసీ కాలం 2026–2036"
+    },
+    {
+     "en": "A 5,000-acre AVGC park is planned in Amaravati",
+     "te": "అమరావతిలో 5,000 ఎకరాల AVGC పార్కు ప్రణాళిక"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "(d) is incorrect: the AVGC park in Amaravati is 200 acres; 5,000 acres is for the semiconductor park. (a), (b) and (c) are correct facts.",
+    "te": "(d) తప్పు: అమరావతి AVGC పార్కు 200 ఎకరాలు; 5,000 ఎకరాలు సెమీకండక్టర్ పార్కుకు. (a), (b), (c) సరైనవి."
+   }
+  },
+  {
+   "topic": "akvan",
+   "q": {
+    "en": "Consider the following about the Bay of Bengal system on 16 Nov 2026. Which of the statements given above is/are correct?",
+    "te": "16 నవం 2026న బంగాళాఖాతంలోని వాతావరణ వ్యవస్థ గురించి కింది ప్రకటనలు పరిశీలించండి. పై ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. It intensified into a deep depression and was expected to become a cyclonic storm the same day.",
+     "te": "I. ఇది తీవ్ర వాయుగుండంగా బలపడి, అదే రోజు తుపానుగా మారుతుందని అంచనా."
+    },
+    {
+     "en": "II. IMD expected it to become a severe cyclonic storm over the west-central Bay of Bengal on 17 Nov.",
+     "te": "II. 17 నవంబర్‌న పశ్చిమ-మధ్య బంగాళాఖాతంలో తీవ్ర తుపానుగా మారుతుందని IMD అంచనా."
+    },
+    {
+     "en": "III. It was expected to cross the Tamil Nadu coast near Chennai.",
+     "te": "III. ఇది చెన్నై సమీపంలో తమిళనాడు తీరం దాటుతుందని అంచనా."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and II are correct (IMD via AIR). III is the trap: reports put the likely landfall between Nellore and Tuni in Andhra Pradesh around 20 Nov, not near Chennai.",
+    "te": "I, II సరైనవి (AIR ద్వారా IMD). III ట్రాప్: 20 నవంబర్ ప్రాంతంలో ఏపీలో నెల్లూరు–తుని మధ్య తీరం దాటవచ్చని వార్తలు, చెన్నై వద్ద కాదు."
+   }
+  },
+  {
+   "topic": "wpi",
+   "q": {
+    "en": "Consider the following about WPI inflation for October 2026. Which of the statements given above are correct?",
+    "te": "అక్టోబర్ 2026 WPI ద్రవ్యోల్బణం గురించి కింది ప్రకటనలు పరిశీలించండి. పై ప్రకటనల్లో ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. It rose to 12.29% from 11.39% in September.",
+     "te": "I. ఇది సెప్టెంబర్‌లో 11.39% నుంచి 12.29%కి పెరిగింది."
+    },
+    {
+     "en": "II. Fuel & power showed the highest inflation among the major groups.",
+     "te": "II. ప్రధాన గ్రూపుల్లో ఇంధనం & విద్యుత్‌లో అత్యధిక ద్రవ్యోల్బణం."
+    },
+    {
+     "en": "III. Inflation in manufactured products also rose.",
+     "te": "III. తయారీ వస్తువుల ద్రవ్యోల్బణం కూడా పెరిగింది."
+    },
+    {
+     "en": "IV. WPI data is released by the Office of the Economic Adviser, DPIIT.",
+     "te": "IV. WPI డేటాను DPIIT ఆర్థిక సలహాదారు కార్యాలయం విడుదల చేస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I, II, IV are correct (fuel & power 32.84%). III is the trap: manufactured-products inflation eased to 9.54% from 9.76%. (a) leaves out IV; (b) and (d) include the wrong III.",
+    "te": "I, II, IV సరైనవి (ఇంధనం & విద్యుత్ 32.84%). III ట్రాప్: తయారీ వస్తువుల ద్రవ్యోల్బణం 9.76% నుంచి 9.54%కి తగ్గింది. (a) IVను వదిలేసింది; (b), (d) తప్పు III కలిగి ఉన్నాయి."
+   }
+  },
+  {
+   "topic": "sagar",
+   "q": {
+    "en": "Match List-I (event in the news, Nov 2026) with List-II (place):",
+    "te": "జాబితా-I (వార్తల్లోని ఘటన, నవం 2026)ను జాబితా-II (ప్రదేశం)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. 12th India–Belarus Intergovernmental Commission  B. 7th India–Egypt Joint Trade Committee  C. Sagar Suraksha 2026 seminar  D. Starship upper-stage catch",
+     "te": "A. 12వ భారత్–బెలారస్ అంతర్ ప్రభుత్వ కమిషన్  B. 7వ భారత్–ఈజిప్ట్ జాయింట్ ట్రేడ్ కమిటీ  C. సాగర్ సురక్ష 2026 సదస్సు  D. స్టార్‌షిప్ పై దశ క్యాచ్"
+    },
+    {
+     "en": "1. Kolkata  2. Starbase, Texas  3. New Delhi  4. Cairo",
+     "te": "1. కోల్‌కతా  2. స్టార్‌బేస్, టెక్సాస్  3. న్యూఢిల్లీ  4. కైరో"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-4, B-3, C-1, D-2",
+     "te": "A-4, B-3, C-1, D-2"
+    },
+    {
+     "en": "A-3, B-4, C-1, D-2",
+     "te": "A-3, B-4, C-1, D-2"
+    },
+    {
+     "en": "A-3, B-4, C-2, D-1",
+     "te": "A-3, B-4, C-2, D-1"
+    },
+    {
+     "en": "A-1, B-4, C-3, D-2",
+     "te": "A-1, B-4, C-3, D-2"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Belarus FM came to New Delhi for the IGC; Goyal went to Cairo for the Joint Trade Committee; Sagar Suraksha is in Kolkata; the Starship catch was at Starbase, Texas. (a) swaps Delhi and Cairo; (c) swaps Kolkata and Texas; (d) swaps Delhi and Kolkata.",
+    "te": "బెలారస్ మంత్రి IGC కోసం న్యూఢిల్లీకి వచ్చారు; జాయింట్ ట్రేడ్ కమిటీ కోసం గోయల్ కైరో వెళ్లారు; సాగర్ సురక్ష కోల్‌కతాలో; స్టార్‌షిప్ క్యాచ్ టెక్సాస్ స్టార్‌బేస్‌లో. (a) ఢిల్లీ, కైరో తారుమారు; (c) కోల్‌కతా, టెక్సాస్ తారుమారు; (d) ఢిల్లీ, కోల్‌కతా తారుమారు."
+   }
+  },
+  {
+   "topic": "belarus",
+   "q": {
+    "en": "Consider the following statements (Nov 2026). Which of the statements given above is/are correct?",
+    "te": "కింది ప్రకటనలు పరిశీలించండి (నవం 2026). పై ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. Belarus is a full member of the Shanghai Cooperation Organisation.",
+     "te": "I. బెలారస్ షాంఘై సహకార సంస్థ (SCO)లో పూర్తి సభ్యదేశం."
+    },
+    {
+     "en": "II. India and Egypt agreed to finalise the Terms of Reference for a proposed bilateral trade agreement.",
+     "te": "II. ప్రతిపాదిత ద్వైపాక్షిక వాణిజ్య ఒప్పందానికి ToR ఖరారు చేయాలని భారత్, ఈజిప్ట్ అంగీకరించాయి."
+    },
+    {
+     "en": "III. India's co-chair at the 12th India–Belarus Intergovernmental Commission was the External Affairs Minister.",
+     "te": "III. 12వ భారత్–బెలారస్ అంతర్ ప్రభుత్వ కమిషన్‌లో భారత సహ అధ్యక్షుడు విదేశాంగ మంత్రి."
+    }
+   ],
+   "o": [
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I is correct (Belarus became the 10th SCO member in July 2024). II is correct. III is the trap: the Indian co-chair was Jitin Prasada, MoS for Commerce and Industry.",
+    "te": "I సరైనది (జూలై 2024లో బెలారస్ SCOలో 10వ సభ్యదేశమైంది). II సరైనది. III ట్రాప్: భారత సహ అధ్యక్షుడు వాణిజ్య & పరిశ్రమల సహాయ మంత్రి జితిన్ ప్రసాద."
+   }
+  },
+  {
+   "topic": "icc",
+   "q": {
+    "en": "Consider the following about ICC men's events announced in Nov 2026. Which of the statements given above is/are correct?",
+    "te": "నవం 2026లో ప్రకటించిన ICC పురుషుల టోర్నీల గురించి కింది ప్రకటనలు పరిశీలించండి. పై ప్రకటనల్లో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. India will host the 2029 Champions Trophy.",
+     "te": "I. 2029 చాంపియన్స్ ట్రోఫీకి భారత్ ఆతిథ్యం ఇస్తుంది."
+    },
+    {
+     "en": "II. The 2031 ODI World Cup will be co-hosted by India and Sri Lanka.",
+     "te": "II. 2031 వన్డే ప్రపంచకప్‌కు భారత్, శ్రీలంక సంయుక్త ఆతిథ్యం."
+    },
+    {
+     "en": "III. The 2028 T20 World Cup will be held in Australia and New Zealand.",
+     "te": "III. 2028 టీ20 ప్రపంచకప్ ఆస్ట్రేలియా, న్యూజిలాండ్‌లో జరుగుతుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and III are correct. II is the trap: the 2031 ODI World Cup co-host is Bangladesh, not Sri Lanka. (b) leaves out III; (c) and (d) include the wrong II.",
+    "te": "I, III సరైనవి. II ట్రాప్: 2031 వన్డే ప్రపంచకప్ సహ ఆతిథ్య దేశం బంగ్లాదేశ్, శ్రీలంక కాదు. (b) IIIను వదిలేసింది; (c), (d) తప్పు II కలిగి ఉన్నాయి."
+   }
+  }
+ ]
+}
