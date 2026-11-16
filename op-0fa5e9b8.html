@@ -7,7 +7,6 @@
 <title>Day-wise Posters · Sulabham</title>
 <meta name="description" content="Pick a day, download or share Sulabham's APPSC Group 1 & 2 study posters on WhatsApp and Telegram — English and Telugu.">
 <meta property="og:image" content="https://sulabham.in/sulabham-logo.png">
-<link rel="canonical" href="https://sulabham.in/posters.html">
 <link rel="icon" type="image/svg+xml" href="sulabham-icon.svg">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500;700;800&family=Noto+Sans+Telugu:wght@400;600&family=Noto+Sans:wght@400;600&display=swap">
 <style>
@@ -77,8 +76,7 @@ async function asFile(f){const r=await fetch('plan/posters/'+f);const b=await r.
 async function share(fs,btn){
  const old=btn.textContent;btn.textContent='⏳';
  try{const arr=await Promise.all(fs.map(asFile));
-  const text='Sulabham · Day '+cur+' posters · APPSC Group 1 & 2\nhttps://sulabham.in/posters.html?d='+cur;
-  if(navigator.canShare&&navigator.canShare({files:arr})){await navigator.share({files:arr,text});}
+  if(navigator.canShare&&navigator.canShare({files:arr})){await navigator.share({files:arr});}
   else{fs.forEach((f,i)=>setTimeout(()=>dl(f),i*400));alert('Sharing images is not supported in this browser — downloaded instead. Attach them in WhatsApp / Telegram.')}
  }catch(e){}
  btn.textContent=old}
