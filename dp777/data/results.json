@@ -38,18 +38,6 @@
       "source_label": "MILAN NIGHT",
       "result_changed_at": "2026-11-17T15:56:18+00:00"
     },
-    "kalyan-night": {
-      "name": "Kalyan Night",
-      "result": "227-12-688",
-      "source": "https://dpbossss.com/",
-      "source_label": "KALYAN NIGHT"
-    },
-    "rajdhani-night": {
-      "name": "Rajdhani Night",
-      "result": "137-14-248",
-      "source": "https://dpbossss.com/",
-      "source_label": "RAJDHANI NIGHT"
-    },
     "main-bazar": {
       "name": "Main Bazar",
       "result": "223-77-340",
@@ -71,9 +59,9 @@
       "result_changed_at": "2026-11-17T14:51:14+00:00"
     }
   },
-  "live_fetched_at": "2026-11-17T15:56:18+00:00",
+  "live_fetched_at": "2026-11-17T16:00:21+00:00",
   "live_source": "https://dpbossss.com/",
-  "live_status": "ok",
+  "live_status": "partial",
   "charts": {
     "milan-night": {
       "title": "Milan Night historical records",
