@@ -691,6 +691,12 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
 }
 .current-week-results-table .repeat-week-date{font-size:10px!important;padding:8px 4px!important}
 .current-week-results-table td strong{font-size:15px!important}
+
+/* Standard search/result charts: white cells like the reference screenshot. Pattern-search charts keep their own yellow/blue styling. */
+#tableArea .weekly-chart:not(.pattern-full-chart .weekly-chart) td{background:#fff!important;color:#1e293b!important}
+#tableArea .weekly-chart:not(.pattern-full-chart .weekly-chart) th{background:#312e81!important;color:#fff!important}
+#tableArea .weekly-chart:not(.pattern-full-chart .weekly-chart) .week-date{background:#f5f3ff!important;color:#1e293b!important}
+#tableArea .weekly-chart:not(.pattern-full-chart .weekly-chart) .pattern-main-hit{background:#fce7f3!important}
 </style>
 <style id="weekly-chart-readable-values">
 /* Make every గత నమూనాలు result number clearly readable on mobile. */
