@@ -1128,8 +1128,9 @@ async function runSaturdayChainAll(){
   }
   let found=[...chains.values()];
   found=found.filter((x,i,a)=>!a.some((y,j)=>i!==j&&x.direction===y.direction&&x.gapStep===y.gapStep&&y.chain.length>x.chain.length&&y.chain.some(z=>z.mainIndex===x.chain[0].mainIndex)&&x.chain.every((z,k)=>{const p=y.chain.findIndex(q=>q.mainIndex===x.chain[0].mainIndex);return p>=0&&y.chain[p+k]&&y.chain[p+k].main===z.main&&y.chain[p+k].linked===z.linked;})));
-  found.sort((a,b)=>a.firstGap-b.firstGap||a.gapStep-b.gapStep||b.chain.length-a.chain.length||b.chain[b.chain.length-1].linkedIndex-a.chain[a.chain.length-1].linkedIndex);
-  output.push({market,rows,chains:found.slice(0,12)});
+  const isOriginalExample=c=>market.id==='sridevi'&&c.direction===-1&&c.firstGap===6&&c.gapStep===0&&c.chain.length>=4&&c.chain[0].main==='44'&&c.chain[0].linked==='88'&&String(rows[c.chain[0].mainIndex]?.date||'').startsWith('25/12/2023')&&c.chain.slice(0,4).map(x=>x.main+':'+x.linked).join('|')==='44:88|54:77|64:66|74:55';
+  found.sort((a,b)=>(isOriginalExample(b)?1:0)-(isOriginalExample(a)?1:0)||a.firstGap-b.firstGap||a.gapStep-b.gapStep||b.chain.length-a.chain.length||b.chain[b.chain.length-1].linkedIndex-a.chain[a.chain.length-1].linkedIndex);
+  output.push({market,rows,chains:found.slice(0,40)});
  }
  let total=0;
  const sections=output.map(item=>{
@@ -1146,7 +1147,7 @@ async function runSaturdayChainAll(){
    const mainMarks=c.chain.map(x=>({row:item.rows[x.mainIndex],day:'Sat'}));
    const linkedMarks=c.chain.map(x=>({row:item.rows[x.linkedIndex],day:x.linkedDay}));
    const wholeChart='<details class="pattern-chart-toggle"><summary>క్లిక్ చేసి పూర్తి వారపు చార్ట్ చూడండి · SHOW FULL WEEKLY CHART</summary><div class="pattern-full-chart">'+renderWeeklyChart(spanRows,'pattern',{main:mainMarks,linked:linkedMarks})+'</div></details>';
-   return '<div class="repeat-pattern-card"><div class="repeat-card-head"><span class="repeat-pattern-name">Saturday '+c.chain[0].main+' → '+c.chain.map(x=>x.main).join(' → ')+'</span><span class="repeat-pattern-gaps">Linked '+sign+' · '+gapLabel+'</span><span class="repeat-pattern-status">'+c.chain.length+' paired occurrences · latest first in summary</span></div><div class="chart-hint">Full weekly chart from the first main result through the latest linked result. Yellow = Saturday main Jodi; green = linked Jodi. Scroll vertically through every intervening week.</div>'+wholeChart+'<details class="repeat-history"><summary>Show compact match list (latest first)</summary><div class="repeat-chart-scroll"><table class="repeat-weekly-chart pattern-mobile-chart"><thead><tr><th>Main week</th><th>Sat Jodi</th><th>Linked week / day</th><th>Linked Jodi</th><th>Gap</th></tr></thead><tbody>'+body+'</tbody></table></div></details></div>';
+   return '<div class="repeat-pattern-card"><div class="repeat-card-head"><span class="repeat-pattern-name">'+(isOriginalExample(c)?'★ YOUR ORIGINAL EXAMPLE · ':'')+'Saturday '+c.chain[0].main+' → '+c.chain.map(x=>x.main).join(' → ')+'</span><span class="repeat-pattern-gaps">Linked '+sign+' · '+gapLabel+'</span><span class="repeat-pattern-status">'+c.chain.length+' paired occurrences · latest first in summary</span></div><div class="chart-hint">Full weekly chart from the first main result through the latest linked result. Yellow = Saturday main Jodi; green = linked Jodi. Scroll vertically through every intervening week.</div>'+wholeChart+'<details class="repeat-history"><summary>Show compact match list (latest first)</summary><div class="repeat-chart-scroll"><table class="repeat-weekly-chart pattern-mobile-chart"><thead><tr><th>Main week</th><th>Sat Jodi</th><th>Linked week / day</th><th>Linked Jodi</th><th>Gap</th></tr></thead><tbody>'+body+'</tbody></table></div></details></div>';
   }).join('');
   return '<section class="repeat-market-group"><div class="repeat-card-head"><span class="repeat-pattern-name">'+esc(item.market.name)+'</span><span class="repeat-pattern-status">'+item.chains.length+' MATCHING CHAINS</span></div>'+cards+'</section>';
  }).join('');
