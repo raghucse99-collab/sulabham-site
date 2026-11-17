@@ -54,9 +54,10 @@
     },
     "main-bazar": {
       "name": "Main Bazar",
-      "result": "223-77-340",
+      "result": "369-8",
       "source": "https://dpbossss.com/",
-      "source_label": "MAIN BAZAR"
+      "source_label": "MAIN BAZAR",
+      "result_changed_at": "2026-11-17T16:34:22+00:00"
     },
     "sridevi": {
       "name": "Sridevi",
@@ -73,7 +74,7 @@
       "result_changed_at": "2026-11-17T14:51:14+00:00"
     }
   },
-  "live_fetched_at": "2026-11-17T16:24:49+00:00",
+  "live_fetched_at": "2026-11-17T16:34:22+00:00",
   "live_source": "https://dpbossss.com/",
   "live_status": "ok",
   "charts": {
