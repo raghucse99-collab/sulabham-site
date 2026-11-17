@@ -698,7 +698,7 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
 .search-result-chart .weekly-chart .week-date{background:#f5f3ff!important;color:#1e293b!important}
 .search-result-chart .weekly-chart .red-jodi{color:#d71920!important}
 .search-result-chart .weekly-chart .repeat-hit{background:#fce7f3!important}
-.m00-week-grid th,.m00-week-grid td{min-width:58px;text-align:center;padding:9px 7px}.m00-week-grid .m00-row-label{min-width:112px;text-align:left;white-space:normal}.m00-week-grid .m00-row-label small{display:block;font-weight:400;margin-top:4px}.m00-week-grid td small{display:block;font-size:11px;opacity:.75}.m00-week-grid td strong{display:block;font-size:18px;margin-top:3px}.m00-week-grid td.m00-hit{background:#d7f8df;color:#14532d;outline:2px solid #16a34a;outline-offset:-2px}.m00-steps{display:flex;flex-direction:column;gap:10px;padding:10px;background:#f8fafc}.m00-step-card{border:1px solid #cbd5e1;border-radius:9px;overflow:hidden;background:#fff}.m00-step-title{padding:9px 10px;background:#e0e7ff;color:#312e81;font-weight:900;font-size:13px}.m00-step-title small{display:block;font-weight:600;font-size:11px;margin-top:3px}.m00-step-days{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;padding:8px}.m00-step-cell{min-width:0;text-align:center;padding:7px 3px;border:1px solid #e2e8f0;border-radius:6px;background:#f8fafc}.m00-step-cell small{display:block;font-size:10px;color:#64748b}.m00-step-cell strong{display:block;font-size:19px;color:#172337}.m00-step-cell.m00-hit{background:#bbf7d0;border:2px solid #16a34a}.m00-step-cell.m00-hit strong{color:#14532d}</style>
+.m00-week-grid th,.m00-week-grid td{min-width:58px;text-align:center;padding:9px 7px}.m00-week-grid .m00-row-label{min-width:112px;text-align:left;white-space:normal}.m00-week-grid .m00-row-label small{display:block;font-weight:400;margin-top:4px}.m00-week-grid td small{display:block;font-size:11px;opacity:.75}.m00-week-grid td strong{display:block;font-size:18px;margin-top:3px}.m00-week-grid td.m00-hit{background:#d7f8df;color:#14532d;outline:2px solid #16a34a;outline-offset:-2px}.m00-steps{display:flex;flex-direction:column;gap:10px;padding:10px;background:#f8fafc}.m00-step-card{border:1px solid #cbd5e1;border-radius:9px;overflow:hidden;background:#fff}.m00-step-title{padding:9px 10px;background:#e0e7ff;color:#312e81;font-weight:900;font-size:13px}.m00-step-title small{display:block;font-weight:600;font-size:11px;margin-top:3px}.m00-step-days{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;padding:8px}.m00-step-cell{min-width:0;text-align:center;padding:7px 3px;border:1px solid #e2e8f0;border-radius:6px;background:#f8fafc}.m00-step-cell small{display:block;font-size:10px;color:#64748b}.m00-step-cell strong{display:block;font-size:19px;color:#172337}.m00-step-cell.m00-hit{background:#bbf7d0;border:2px solid #16a34a}.m00-step-cell.m00-hit strong{color:#14532d}.m00-row-match-count{display:inline-block;margin-top:5px;padding:3px 7px;border-radius:12px;background:#dcfce7;color:#166534;font-size:11px}.m00-step-cell em{display:block;margin-top:3px;font-size:9px;font-style:normal;font-weight:900;color:#166534}.m00-step-title{line-height:1.35}.m00-step-card{margin-bottom:2px}.m00-step-cell{min-height:65px}</style>
 <style id="weekly-chart-readable-values">
 /* Make every గత నమూనాలు result number clearly readable on mobile. */
 .weekly-chart .result-stack{min-height:66px!important}
@@ -2398,52 +2398,48 @@ async function runMonday00LinkSearch(){
  const market=markets.find(m=>m.id===selected);
  $('targetStats').hidden=true;
  $('chartTitle').textContent=(market?.name||'Selected chart')+' · Monday 00 Same / Reverse';
- $('chartDesc').textContent='First Monday 00 → following week → next Monday 00 → row below next 00';
+ $('chartDesc').textContent='Start at Monday 00 and check every following weekly row in order';
  $('count').textContent='Checking Monday 00 occurrences…';
  $('tableArea').innerHTML='<div class="empty">Checking the selected chart history…</div>';
  try{
   const parsed=await fetchData(selected);
   const key=chartKeyFor(selected),raw=parsed.charts?.[key]?.rows||[];
   const rows=sortOldestFirst(collapseChartWeeks(raw));
-  const valid=v=>/^\d{2}$/.test(String(v??'').trim());
+  const valid=v=>/^\\d{2}$/.test(String(v??'').trim());
   const reverse=v=>String(v).split('').reverse().join('');
   const days=selected==='milan-night'?['Mon','Tue','Wed','Thu','Fri','Sat']:['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
   const anchors=[];
   rows.forEach((row,index)=>{if(String(row['Mon Jodi']??'').trim()==='00')anchors.push({row,index});});
   const pairs=[];
   for(let i=0;i+1<anchors.length;i++){
-   const first=anchors[i],middle=rows[first.index+1],next=anchors[i+1],afterNext=rows[next.index+1],fourth=anchors[i+2],target=fourth?rows[fourth.index+1]:null;
-   if(!middle||!afterNext||!fourth||!target)continue;
-   const source=[];
-   for(const day of days.slice(1)){
-    const v=String(first.row[day+' Jodi']??'').trim();
-    if(valid(v))source.push({value:v,day});
+   const first=anchors[i],next=anchors[i+1],source=[];
+   for(const day of days.slice(1)){const v=String(first.row[day+' Jodi']??'').trim();if(valid(v))source.push({value:v,day});}
+   const compareRows=[];
+   for(let index=first.index;index<=next.index+1&&index<rows.length;index++){
+    const row=rows[index],isFirst=index===first.index,isNext=index===next.index,isAfter=index===next.index+1;
+    const values=days.map(day=>({day,value:String(row[day+' Jodi']??'').trim()})).filter(x=>valid(x.value));
+    const matches=[];
+    if(!isFirst&&!isAfter)for(const t of values){
+     const found=source.filter(x=>x.value===t.value||reverse(x.value)===t.value);
+     if(found.length)matches.push({...t,type:found.some(x=>x.value===t.value)?'Same':'Reverse',source:found.map(x=>x.value+' ('+x.day+')')});
+    }
+    compareRows.push({row,index,isFirst,isNext,isAfter,values,matches});
    }
-   const targetValues=[];
-   for(const day of days){
-    const v=String(target[day+' Jodi']??'').trim();
-    if(valid(v))targetValues.push({value:v,day});
-   }
-   const sourceSet=new Set(source.flatMap(x=>[x.value,reverse(x.value)]));
-   const matches=[];
-   for(const t of targetValues){
-    const direct=source.some(x=>x.value===t.value);
-    const rev=source.some(x=>reverse(x.value)===t.value);
-    if(direct||rev)matches.push({...t,type:direct?'Same':'Reverse',source:source.filter(x=>x.value===t.value||reverse(x.value)===t.value).map(x=>x.value+' ('+x.day+')')});
-   }
-   pairs.push({first,middle,next,afterNext,fourth,target,source,targetValues,matches});
+   pairs.push({first,next,source,compareRows});
   }
   const html=pairs.map((p,i)=>{
-   const src=p.source.map(x=>x.value+' '+x.day).join(' · ')||'No published Jodis in anchor row';
-   const targets=p.targetValues.map(x=>x.value+' '+x.day).join(' · ')||'No published Jodis in following row';
-   const matchRows=p.matches.map(x=>'<tr><td><strong>'+esc(x.value)+'</strong></td><td>'+esc(x.day)+'</td><td>'+x.type+'</td><td>'+esc(x.source.join(', '))+'</td></tr>').join('');
-   const stepCard=(step,label,row,highlight)=>'<div class="m00-step-card"><div class="m00-step-title">STEP '+step+' — '+label+'<small>'+esc(row.date||'')+'</small></div><div class="m00-step-days">'+days.map(day=>{const v=String(row[day+' Jodi']??'').trim();const hit=highlight&&p.matches.some(m=>m.day===day&&m.value===v);return '<div class="m00-step-cell '+(hit?'m00-hit':'')+'"><small>'+day+'</small><strong>'+(valid(v)?esc(v):'—')+'</strong></div>';}).join('')+'</div></div>';
-   const weeklyChart='<div class="m00-steps">'+stepCard(1,'FIRST MONDAY 00 WEEK',p.first.row,false)+stepCard(2,'WEEK AFTER FIRST 00',p.middle,false)+stepCard(3,'WEEK AFTER SECOND 00',p.afterNext,false)+stepCard(4,'NEXT MONDAY 00 WEEK',p.fourth.row,false)+stepCard(5,'ROW BELOW FOURTH 00',p.target,true)+'</div>';
-   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>MONDAY 00 PAIR '+(i+1)+'</strong><span>'+(p.matches.length)+' matches</span></div><div class="repeat-watch"><b>First 00: '+esc(p.first.row.date||'')+'</b><div>Next 00: '+esc(p.next.row.date||'')+'</div><small>The next Monday 00 appears in Step 4. Compare the first 00 row’s Tuesday–Sunday Jodis with every Jodi in Step 5.</small></div><div class="chart-hint"><b>Weekly chart comparison:</b> Step 1: first Monday 00. Step 2: following week. Step 3: week after second 00. Step 4: next Monday 00. Step 5: week immediately below Step 4, where matches are highlighted.</div>'+weeklyChart+(matchRows?'<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Matched Jodi</th><th>Day</th><th>Match type</th><th>First-row source Jodi</th></tr></thead><tbody>'+matchRows+'</tbody></table></div>':'<div class="repeat-chart-note">No same or reverse Jodi match in this pair.</div>')+'</section>';
+   const cards=p.compareRows.map((entry,n)=>{
+    const label=entry.isFirst?'FIRST MONDAY 00 — REFERENCE':entry.isNext?'NEXT MONDAY 00 — FOUND IN SEQUENCE':entry.isAfter?'ROW AFTER NEXT MONDAY 00':'WEEK +'+(entry.index-p.first.index);
+    const matchMap=new Map(entry.matches.map(m=>[m.day+'|'+m.value,m]));
+    const cells=days.map(day=>{const v=String(entry.row[day+' Jodi']??'').trim(),hit=matchMap.get(day+'|'+v);return '<div class="m00-step-cell '+(hit?'m00-hit':'')+'"><small>'+day+'</small><strong>'+(valid(v)?esc(v):'—')+'</strong>'+(hit?'<em>'+hit.type+'</em>':'')+'</div>';}).join('');
+    return '<div class="m00-step-card"><div class="m00-step-title">ROW '+(n+1)+' — '+label+'<small>'+esc(entry.row.date||'')+'</small><span class="m00-row-match-count">'+entry.matches.length+' matches</span></div><div class="m00-step-days">'+cells+'</div></div>';
+   }).join('');
+   const total=p.compareRows.reduce((sum,r)=>sum+r.matches.length,0);
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>MONDAY 00 SEQUENCE '+(i+1)+'</strong><span>'+total+' matches across '+p.compareRows.length+' rows</span></div><div class="repeat-watch"><b>Reference Monday 00: '+esc(p.first.row.date||'')+'</b><div>Next Monday 00: '+esc(p.next.row.date||'')+'</div><small>Every weekly row is displayed in order (+1 week each row). The reference Jodis are compared with each row; exact and reversed Jodis are highlighted. The row after the next Monday 00 is also shown.</small></div><div class="chart-hint"><b>Reference Jodis (Tuesday–Sunday):</b> '+esc(p.source.map(x=>x.value+' '+x.day).join(' · ')||'No published Jodis')+'</div><div class="m00-steps">'+cards+'</div></section>';
   }).join('');
-  const total=pairs.reduce((n,p)=>n+p.matches.length,0);
-  $('count').textContent=anchors.length+' Monday 00 anchors · '+pairs.length+' consecutive pairs · '+total+' matches';
-  $('tableArea').innerHTML='<div class="chart-title-band">'+esc(market?.name?.toUpperCase()||'SELECTED CHART')+' — MONDAY 00 SAME / REVERSE NEXT-ROW SEARCH</div><div class="chart-hint">For each sequence of four Monday 00 occurrences, display Step 1 as the first 00 week, Step 2 as the following week, Step 3 as the week after the second 00, Step 4 as the next Monday 00 week, and Step 5 as the row immediately below Step 4. Compare the first 00 row’s Tuesday–Sunday Jodis against all Jodis in Step 5. Both exact and reversed two-digit Jodis count. For example, 29 and 92 match each other.</div>'+(html||'<div class="empty">No consecutive Monday 00 pairs found.</div>');
+  const total=pairs.reduce((sum,p)=>sum+p.compareRows.reduce((n,r)=>n+r.matches.length,0),0);
+  $('count').textContent=anchors.length+' Monday 00 anchors · '+pairs.length+' sequences · '+total+' same/reverse matches';
+  $('tableArea').innerHTML='<div class="chart-title-band">'+esc(market?.name?.toUpperCase()||'SELECTED CHART')+' — MONDAY 00 WEEK-BY-WEEK SAME / REVERSE SEARCH</div><div class="chart-hint">No skipping weeks: start from the first Monday 00 row, then show every next row in historical order (+1 week). Compare each row against the reference row’s Tuesday–Sunday Jodis. The next Monday 00 appears wherever it actually occurs, followed by the row below it.</div>'+(html||'<div class="empty">No consecutive Monday 00 anchors found.</div>');
  }catch(e){
   $('count').textContent='Search failed';
   $('tableArea').innerHTML='<div class="empty">Could not run Monday 00 same/reverse search: '+esc(e.message||String(e))+'</div>';
