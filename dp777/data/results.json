@@ -33,10 +33,10 @@
     },
     "milan-night": {
       "name": "Milan Night",
-      "result": "169-69-559",
+      "result": "189-8",
       "source": "https://dpbossss.com/",
       "source_label": "MILAN NIGHT",
-      "result_changed_at": "2026-11-16T19:48:14+00:00"
+      "result_changed_at": "2026-11-17T15:56:18+00:00"
     },
     "kalyan-night": {
       "name": "Kalyan Night",
@@ -71,7 +71,7 @@
       "result_changed_at": "2026-11-17T14:51:14+00:00"
     }
   },
-  "live_fetched_at": "2026-11-17T15:08:42+00:00",
+  "live_fetched_at": "2026-11-17T15:56:18+00:00",
   "live_source": "https://dpbossss.com/",
   "live_status": "ok",
   "charts": {
