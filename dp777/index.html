@@ -2436,9 +2436,8 @@ async function runMonday00LinkSearch(){
    }
    if(steps.length)sequences.push({first,source,steps});
   }
-  const html=sequences.map((p,i)=>{
-   const lastIndex=p.steps[p.steps.length-1].targetIndex;
-   const visibleRows=rows.slice(p.first.index,lastIndex+1);
+  const html=sequences.filter(p=>p.steps&&p.steps.length>0).map((p,i)=>{
+   const visibleRows=rows.slice(p.first.index,p.steps[p.steps.length-1].targetIndex+1);
    const mainMarks=visibleRows.filter(row=>String(row['Mon Jodi']??'').trim()==='00').map(row=>({row,day:'Mon'}));
    const linkedMarks=[],referenceMarks=[];
    p.steps.forEach(step=>step.matches.forEach(m=>{
