@@ -1,0 +1,208 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-17 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following about Cyclone Akvan (Nov 2026). Which of the statements given above is/are correct?
+I. Its name was suggested by Iran from the North Indian Ocean list.
+II. It is likely to cross the coast between Nellore and Tuni as a Very Severe Cyclonic Storm.
+III. It is the first cyclone to hit Andhra Pradesh this season.
+
+--- QUESTION ---
+Q1. Consider the following about Cyclone Akvan (Nov 2026). Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is the trap: Akvan comes after Arnab (late October) and Murasu (November). (d) fails because of III; (a)/(b) miss a correct statement.
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Arrange IMD cyclone categories in increasing order of intensity: 1. Very Severe Cyclonic Storm  2. Deep Depression  3. Cyclonic Storm  4. Severe Cyclonic Storm
+
+--- OPTIONS ---
+(a) 2-3-4-1
+(b) 3-2-4-1
+(c) 2-4-3-1
+(d) 2-3-1-4
+
+--- CORRECT (tick this) ---
+(a) 2-3-4-1
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(a) Deep Depression → Cyclonic Storm → Severe CS → Very Severe CS. Akvan follows this ladder: CS on 16 Nov, Severe on 17 Nov, Very Severe by 19 Nov. Trap: 'Very Severe' is above 'Severe' (option d ...
+
+==================== Q3 ====================
+--- QUESTION ---
+Q3. Which one of the following statements about AP's AVGC-XR Policy 2026–31 is NOT correct?
+
+--- OPTIONS ---
+(a) The 'C' in AVGC stands for Comics.
+(b) APCRDA will execute the Media City in Amaravati.
+(c) An AVGC-XR park gets a 50% capex subsidy up to ₹50 crore.
+(d) It offers full SGST reimbursement for five years.
+
+--- CORRECT (tick this) ---
+(c) An AVGC-XR park gets a 50% capex subsidy up to ₹50 crore.
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(c) is NOT correct: the park gets 25% (up to ₹50 crore); 50% (up to ₹2 crore) is for AVGC-XR infrastructure. (a), (b), (d) are correct as per the policy.
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Assertion (A): Only the State government can offer SGST reimbursement under the AVGC-XR policy. Reason (R): SGST is the State's share of GST collected on intra-State supplies.
+
+--- OPTIONS ---
+(a) Both A and R are true, and R explains A
+(b) Both true, but R does not explain A
+(c) A is true, R is false
+(d) A is false, R is true
+
+--- CORRECT (tick this) ---
+(a) Both A and R are true, and R explains A
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(a): SGST goes to the State, so the State alone can give it back as an incentive — R directly explains A. Trap: CGST belongs to the Centre, so a State cannot reimburse it.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Consider the following about the 23rd ASEAN-India Summit (Manila, 2026). Which of the statements given above is/are correct?
+I. Leaders adopted a Joint Statement on Cooperation in Disaster Management.
+II. India proposed free e-visas for tourists from ASEAN countries.
+III. It was held together with the 23rd East Asia Summit.
+IV. 2027 will mark 35 years of ASEAN-India dialogue relations.
+
+--- QUESTION ---
+Q5. Consider the following about the 23rd ASEAN-India Summit (Manila, 2026). Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I, II and IV are correct. III is the trap: it was the 21st East Asia Summit; only the ASEAN-India Summit is the 23rd. Dialogue began in 1992, so 2027 = 35 years.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following about the India–Japan 2+2 dialogue of November 2026. Which of the statements given above is/are correct?
+I. It is the 4th edition, held in Tokyo.
+II. India is represented by its Prime Minister and Defence Minister.
+III. Both countries are members of the Quad.
+
+--- QUESTION ---
+Q6. Consider the following about the India–Japan 2+2 dialogue of November 2026. Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I and III only
+
+--- CORRECT (tick this) ---
+(d) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct. II is the trap: a 2+2 is Defence + External Affairs ministers (Rajnath Singh and S. Jaishankar), not the Prime Minister.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following about the UNGA resolution on UN–OIC cooperation (Nov 2026). Which of the statements given above is/are correct?
+I. India abstained in the vote.
+II. The resolution was adopted with 112 votes in favour.
+III. India objected that it was excluded from the consultations led by Türkiye.
+
+--- QUESTION ---
+Q7. Consider the following about the UNGA resolution on UN–OIC cooperation (Nov 2026). Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II and III are correct. I is the trap: India voted AGAINST (one of the 6 'no' votes); 39 countries abstained.
+
+==================== Q8 ====================
+--- QUESTION ---
+Q8. Match List-I with List-II.
+List-I: A. ITU Council members  B. ITU HQ  C. 2026 Plenipotentiary venue  D. India's new Council term
+List-II: 1. Doha  2. 2027–2030  3. 48  4. Geneva
+
+--- OPTIONS ---
+(a) A-3, B-1, C-4, D-2
+(b) A-3, B-4, C-1, D-2
+(c) A-2, B-4, C-1, D-3
+(d) A-3, B-4, C-2, D-1
+
+--- CORRECT (tick this) ---
+(b) A-3, B-4, C-1, D-2
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(b): Council = 48 members; HQ = Geneva; 2026 conference = Doha (Qatar); India's term = 2027–2030. Trap (a): Doha is only the conference venue, not the HQ.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Consider the following about malaria. Which of the statements given above is/are correct?
+I. It is caused by a virus spread by the Aedes mosquito.
+II. High-burden districts in India fell from 155 to 33.
+III. India aims to eliminate malaria by 2030.
+IV. ICMR-NIMR is celebrating its golden jubilee.
+
+--- QUESTION ---
+Q9. Consider the following about malaria. Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) II, III and IV only
+(b) I, II and III only
+(c) II and III only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) II, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II, III, IV are correct. I is the trap: malaria is caused by the Plasmodium protozoan spread by the female Anopheles; Aedes spreads dengue.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Consider the Third Advance Estimates of horticulture for 2025-26. Which of the statements given above is/are correct?
+I. Total output rose although the area under horticulture fell.
+II. Vegetable output grew faster than fruit output.
+III. Onion production was higher than potato production.
+
+--- QUESTION ---
+Q10. Consider the Third Advance Estimates of horticulture for 2025-26. Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and III
+(c) II and III only
+(d) I only
+
+--- CORRECT (tick this) ---
+(d) I only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Only I is correct (area 301.36 → ~297.21 lakh ha, output up 4.36% — so yield rose). II is wrong: fruits 4.60% > vegetables 4.35%. III is wrong: potato 655.70 > onion 288.96 lakh tonnes.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/current.html?d=2026-11-17
