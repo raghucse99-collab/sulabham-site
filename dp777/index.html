@@ -1105,7 +1105,7 @@ async function runSaturdayChainAll(){
    return lo<list.length?list[lo]:-1;
   };
   const chains=new Map();
-  for(const first of saturday){
+  searchCandidates: for(const first of saturday){
    for(const direction of [1,-1]){
     for(let firstGap=1;firstGap<=52;firstGap++){
      for(let gapStep=0;gapStep<=8;gapStep++){
@@ -1128,6 +1128,7 @@ async function runSaturdayChainAll(){
       if(chain.length>=3){
        const signature=[direction,firstGap,gapStep,...chain.map(x=>x.mainIndex+':'+x.linkedIndex+':'+x.main+':'+x.linked)].join('|');
        chains.set(signature,{direction,firstGap,gapStep,chain});
+       if(chains.size>=180)break searchCandidates;
       }
      }
     }
@@ -1158,7 +1159,7 @@ async function runSaturdayChainAll(){
   }).join('');
   return '<section class="repeat-market-group"><div class="repeat-card-head"><span class="repeat-pattern-name">'+esc(item.market.name)+'</span><span class="repeat-pattern-status">'+item.chains.length+' MATCHING CHAINS</span></div>'+cards+'</section>';
  }).join('');
- $('count').textContent=total+' qualifying chains · '+selectedMarket.name;
+ $('count').textContent=total+' qualifying chains · '+selectedMarket.name+(total>=180?' · showing first 180 candidates':'');
  $('tableArea').innerHTML='<div class="chart-title-band">'+esc(selectedMarket.name.toUpperCase())+' — SATURDAY MAIN +10 / LINKED +11 OR −11</div><div class="chart-hint">Main Jodi must occur on Saturday and advance +10 each time (00–99 wrap). The linked Jodi must advance consistently by +11 or −11 in any weekday column. Gap order: smallest first. Gaps may repeat or increase by a fixed step (+1 to +8). Irregular gaps are excluded. At least 3 verified pairs are required. These are historical matches, not predictions.</div><div class="repeat-pattern-list">'+sections+'</div>';
 }
 function renderChart(){
