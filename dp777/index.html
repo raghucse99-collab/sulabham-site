@@ -2445,7 +2445,7 @@ async function runMonday00LinkSearch(){
     linkedMarks.push({row:step.target,day:m.day});
     m.source.forEach(src=>{const day=src.match(/\((Mon|Tue|Wed|Thu|Fri|Sat|Sun)\)$/)?.[1];if(day)referenceMarks.push({row:p.first.row,day});});
    }));
-   const chart='<div class="pattern-full-chart m00-full-table-wrap">'+renderWeeklyChart(visibleRows,'pattern',{main:mainMarks,linked:linkedMarks,reference:referenceMarks})+'</div>';
+   const chart='<details class="pattern-chart-toggle"><summary>VIEW MONDAY 00 FULL CHART · '+visibleRows.length+' WEEKS</summary><div class="pattern-full-chart m00-full-table-wrap">'+renderWeeklyChart(visibleRows,'pattern',{main:mainMarks,linked:linkedMarks,reference:referenceMarks})+'</div></details>';
    const total=p.steps.reduce((n,x)=>n+x.matches.length,0);
    return '<section class="repeat-pattern-card m00-table-card"><div class="repeat-card-head"><strong>MONDAY 00 SEQUENCE '+(i+1)+'</strong><span>'+total+' matches · '+p.steps.length+' running checks</span></div><div class="repeat-watch"><b>REFERENCE MONDAY 00: '+esc(p.first.row.date||'')+'</b><small>Continuous weekly chart. Yellow cells mark Monday 00 anchors; green cells mark Same/Reverse matches against the first reference row.</small></div><div class="chart-hint"><b>Reference Jodis:</b> '+esc(p.source.map(x=>x.value+' '+x.day).join(' · '))+'</div>'+chart+'</section>';
   }).join('');
