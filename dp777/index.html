@@ -2412,8 +2412,8 @@ async function runMonday00LinkSearch(){
   rows.forEach((row,index)=>{if(String(row['Mon Jodi']??'').trim()==='00')anchors.push({row,index});});
   const pairs=[];
   for(let i=0;i+1<anchors.length;i++){
-   const first=anchors[i],middle=rows[first.index+1],next=anchors[i+1],target=rows[next.index+1];
-   if(!middle||!target)continue;
+   const first=anchors[i],middle=rows[first.index+1],next=anchors[i+1],afterNext=rows[next.index+1],fourth=anchors[i+2],target=fourth?rows[fourth.index+1]:null;
+   if(!middle||!afterNext||!fourth||!target)continue;
    const source=[];
    for(const day of days.slice(1)){
     const v=String(first.row[day+' Jodi']??'').trim();
@@ -2431,19 +2431,19 @@ async function runMonday00LinkSearch(){
     const rev=source.some(x=>reverse(x.value)===t.value);
     if(direct||rev)matches.push({...t,type:direct?'Same':'Reverse',source:source.filter(x=>x.value===t.value||reverse(x.value)===t.value).map(x=>x.value+' ('+x.day+')')});
    }
-   pairs.push({first,middle,next,target,source,targetValues,matches});
+   pairs.push({first,middle,next,afterNext,fourth,target,source,targetValues,matches});
   }
   const html=pairs.map((p,i)=>{
    const src=p.source.map(x=>x.value+' '+x.day).join(' · ')||'No published Jodis in anchor row';
    const targets=p.targetValues.map(x=>x.value+' '+x.day).join(' · ')||'No published Jodis in following row';
    const matchRows=p.matches.map(x=>'<tr><td><strong>'+esc(x.value)+'</strong></td><td>'+esc(x.day)+'</td><td>'+x.type+'</td><td>'+esc(x.source.join(', '))+'</td></tr>').join('');
    const stepCard=(step,label,row,highlight)=>'<div class="m00-step-card"><div class="m00-step-title">STEP '+step+' — '+label+'<small>'+esc(row.date||'')+'</small></div><div class="m00-step-days">'+days.map(day=>{const v=String(row[day+' Jodi']??'').trim();const hit=highlight&&p.matches.some(m=>m.day===day&&m.value===v);return '<div class="m00-step-cell '+(hit?'m00-hit':'')+'"><small>'+day+'</small><strong>'+(valid(v)?esc(v):'—')+'</strong></div>';}).join('')+'</div></div>';
-   const weeklyChart='<div class="m00-steps">'+stepCard(1,'FIRST MONDAY 00 WEEK',p.first.row,false)+stepCard(2,'WEEK AFTER FIRST 00',p.middle,false)+stepCard(3,'NEXT MONDAY 00 WEEK',p.next.row,false)+stepCard(4,'ROW BELOW NEXT 00',p.target,true)+'</div>';
-   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>MONDAY 00 PAIR '+(i+1)+'</strong><span>'+(p.matches.length)+' matches</span></div><div class="repeat-watch"><b>First 00: '+esc(p.first.row.date||'')+'</b><div>Next 00: '+esc(p.next.row.date||'')+'</div><small>The next Monday 00 must appear in Step 3. Compare the first 00 row’s Tuesday–Sunday Jodis with every Jodi in Step 4.</small></div><div class="chart-hint"><b>Weekly chart comparison:</b> Step 1: first Monday 00. Step 2: following week. Step 3: next Monday 00. Step 4: week immediately below Step 3, where matches are highlighted.</div>'+weeklyChart+(matchRows?'<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Matched Jodi</th><th>Day</th><th>Match type</th><th>First-row source Jodi</th></tr></thead><tbody>'+matchRows+'</tbody></table></div>':'<div class="repeat-chart-note">No same or reverse Jodi match in this pair.</div>')+'</section>';
+   const weeklyChart='<div class="m00-steps">'+stepCard(1,'FIRST MONDAY 00 WEEK',p.first.row,false)+stepCard(2,'WEEK AFTER FIRST 00',p.middle,false)+stepCard(3,'WEEK AFTER SECOND 00',p.afterNext,false)+stepCard(4,'NEXT MONDAY 00 WEEK',p.fourth.row,false)+stepCard(5,'ROW BELOW FOURTH 00',p.target,true)+'</div>';
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>MONDAY 00 PAIR '+(i+1)+'</strong><span>'+(p.matches.length)+' matches</span></div><div class="repeat-watch"><b>First 00: '+esc(p.first.row.date||'')+'</b><div>Next 00: '+esc(p.next.row.date||'')+'</div><small>The next Monday 00 appears in Step 4. Compare the first 00 row’s Tuesday–Sunday Jodis with every Jodi in Step 5.</small></div><div class="chart-hint"><b>Weekly chart comparison:</b> Step 1: first Monday 00. Step 2: following week. Step 3: week after second 00. Step 4: next Monday 00. Step 5: week immediately below Step 4, where matches are highlighted.</div>'+weeklyChart+(matchRows?'<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Matched Jodi</th><th>Day</th><th>Match type</th><th>First-row source Jodi</th></tr></thead><tbody>'+matchRows+'</tbody></table></div>':'<div class="repeat-chart-note">No same or reverse Jodi match in this pair.</div>')+'</section>';
   }).join('');
   const total=pairs.reduce((n,p)=>n+p.matches.length,0);
   $('count').textContent=anchors.length+' Monday 00 anchors · '+pairs.length+' consecutive pairs · '+total+' matches';
-  $('tableArea').innerHTML='<div class="chart-title-band">'+esc(market?.name?.toUpperCase()||'SELECTED CHART')+' — MONDAY 00 SAME / REVERSE NEXT-ROW SEARCH</div><div class="chart-hint">For each consecutive Monday 00 occurrence, display Step 1 as the first 00 week, Step 2 as the following week, Step 3 as the next 00 week, and Step 4 as the row immediately below that next 00. Compare the first 00 row’s Tuesday–Sunday Jodis against all Jodis in Step 4. Both exact and reversed two-digit Jodis count. For example, 29 and 92 match each other.</div>'+(html||'<div class="empty">No consecutive Monday 00 pairs found.</div>');
+  $('tableArea').innerHTML='<div class="chart-title-band">'+esc(market?.name?.toUpperCase()||'SELECTED CHART')+' — MONDAY 00 SAME / REVERSE NEXT-ROW SEARCH</div><div class="chart-hint">For each sequence of four Monday 00 occurrences, display Step 1 as the first 00 week, Step 2 as the following week, Step 3 as the week after the second 00, Step 4 as the next Monday 00 week, and Step 5 as the row immediately below Step 4. Compare the first 00 row’s Tuesday–Sunday Jodis against all Jodis in Step 5. Both exact and reversed two-digit Jodis count. For example, 29 and 92 match each other.</div>'+(html||'<div class="empty">No consecutive Monday 00 pairs found.</div>');
  }catch(e){
   $('count').textContent='Search failed';
   $('tableArea').innerHTML='<div class="empty">Could not run Monday 00 same/reverse search: '+esc(e.message||String(e))+'</div>';
