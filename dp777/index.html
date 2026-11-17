@@ -1144,7 +1144,7 @@ async function runSaturdayChainAll(){
   return '<section class="repeat-market-group"><div class="repeat-card-head"><span class="repeat-pattern-name">'+esc(item.market.name)+'</span><span class="repeat-pattern-status">'+item.chains.length+' MATCHING CHAINS</span></div>'+cards+'</section>';
  }).join('');
  $('count').textContent=total+' qualifying chains · '+selectedMarket.name;
- $('tableArea').innerHTML='<div class="chart-title-band">ALL MARKETS — SATURDAY MAIN +10 / LINKED +11 OR −11</div><div class="chart-hint">Main Jodi must occur on Saturday and advance +10 each time (00–99 wrap). The linked Jodi must advance consistently by +11 or −11 in any weekday column. Gap order: smallest first. Gaps may repeat or increase by a fixed step (+1 to +8). Irregular gaps are excluded. At least 3 verified pairs are required. These are historical matches, not predictions.</div><div class="repeat-pattern-list">'+sections+'</div>';
+ $('tableArea').innerHTML='<div class="chart-title-band">'+esc(selectedMarket.name.toUpperCase())+' — SATURDAY MAIN +10 / LINKED +11 OR −11</div><div class="chart-hint">Main Jodi must occur on Saturday and advance +10 each time (00–99 wrap). The linked Jodi must advance consistently by +11 or −11 in any weekday column. Gap order: smallest first. Gaps may repeat or increase by a fixed step (+1 to +8). Irregular gaps are excluded. At least 3 verified pairs are required. These are historical matches, not predictions.</div><div class="repeat-pattern-list">'+sections+'</div>';
 }
 function renderChart(){
  const stats=$('targetStats');
