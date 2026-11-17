@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "M1iId3fIyqYDue3YLUqMXw==",
 "iter": 200000,
-"check": "pgpL4g0WXmjxKUFrIC4BS1tnuKk7xDJ5K2w5iTUQOFOjscTDxf1MdOUfrQ==",
+"check": "kiVgTRm35QIZuQMlWznV9mfrefbz3i6d8NiSbhqWQYeuF96qCqrYQKkXng==",
 "lessons": {
 "dsc-sgt-perspectives-day2": "Perspectives in Education, Day 2: Teachers, Rights, Concerns, NCF and NEP",
 "dsc-sgt-perspectives-day2-te": "విద్యా దృక్పథాలు, 2వ రోజు: ఉపాధ్యాయులు, హక్కులు, సమకాలీన అంశాలు, NCF, NEP",
@@ -51,6 +51,8 @@
 "dsc-sgt-social-day1": "Social Studies, Day 1: The Earth and Maps; Spheres and Landforms; Climate, Forests and Resources",
 "dsc-sgt-social-day1-te": "సాంఘిక శాస్త్రం, రోజు 1: భూమి, పటాలు; ఆవరణాలు, భూస్వరూపాలు; శీతోష్ణస్థితి, అడవులు, వనరులు",
 "dsc-sgt-social-day2": "Social Studies, Day 2: Production, Exchange and Livelihoods",
-"dsc-sgt-social-day2-te": "సాంఘిక శాస్త్రం, రోజు 2: ఉత్పత్తి, వినిమయం, జీవనోపాధులు"
+"dsc-sgt-social-day2-te": "సాంఘిక శాస్త్రం, రోజు 2: ఉత్పత్తి, వినిమయం, జీవనోపాధులు",
+"dsc-sgt-social-day3": "Social Studies, Day 3: Early Societies to Empires",
+"dsc-sgt-social-day3-te": "సాంఘిక శాస్త్రం, రోజు 3: తొలి సమాజాల నుండి సామ్రాజ్యాల వరకు"
 }
 }
