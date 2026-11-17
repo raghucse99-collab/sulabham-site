@@ -1097,6 +1097,13 @@ async function runSaturdayChainAll(){
   const all=sortOldestFirst(collapseChartWeeks(parsed.charts?.[key]?.rows||[]));
   const rows=all.filter(r=>days.some(d=>valid(r[d+' Jodi'])));
   const saturday=rows.map((r,i)=>({r,i,v:String(r['Sat Jodi']??'').trim()})).filter(x=>valid(x.v));
+  const saturdayPositions=new Map();
+  for(const x of saturday){if(!saturdayPositions.has(x.v))saturdayPositions.set(x.v,[]);saturdayPositions.get(x.v).push(x.i);}
+  const nextMainIndex=(value,after)=>{
+   const list=saturdayPositions.get(value)||[];let lo=0,hi=list.length;
+   while(lo<hi){const mid=(lo+hi)>>1;if(list[mid]<=after)lo=mid+1;else hi=mid;}
+   return lo<list.length?list[lo]:-1;
+  };
   const chains=new Map();
   for(const first of saturday){
    for(const direction of [1,-1]){
@@ -1113,9 +1120,9 @@ async function runSaturdayChainAll(){
        if(!linkedDay)break;
        chain.push({mainIndex:current.i,linkedIndex:current.i+gap,main:current.v,linked:expected,linkedDay,gap});
        const nextMain=String(wrap(Number(current.v)+10)).padStart(2,'0');
-       const next=saturday.find(x=>x.i>current.i&&x.v===nextMain);
-       if(!next)break;
-       current=next;n++;
+       const nextIndex=nextMainIndex(nextMain,current.i);
+       if(nextIndex<0)break;
+       current={i:nextIndex,v:nextMain,r:rows[nextIndex]};n++;
        if(chain.length>40)break;
       }
       if(chain.length>=3){
@@ -1127,7 +1134,7 @@ async function runSaturdayChainAll(){
    }
   }
   let found=[...chains.values()];
-  found=found.filter((x,i,a)=>!a.some((y,j)=>i!==j&&x.direction===y.direction&&x.gapStep===y.gapStep&&y.chain.length>x.chain.length&&y.chain.some(z=>z.mainIndex===x.chain[0].mainIndex)&&x.chain.every((z,k)=>{const p=y.chain.findIndex(q=>q.mainIndex===x.chain[0].mainIndex);return p>=0&&y.chain[p+k]&&y.chain[p+k].main===z.main&&y.chain[p+k].linked===z.linked;})));
+  // Keep candidate generation linear-time; avoid quadratic chain de-duplication on mobile.
   const isOriginalExample=c=>market.id==='sridevi'&&c.direction===-1&&c.firstGap===6&&c.gapStep===0&&c.chain.length>=4&&c.chain[0].main==='44'&&c.chain[0].linked==='88'&&String(rows[c.chain[0].mainIndex]?.date||'').startsWith('25/12/2023')&&c.chain.slice(0,4).map(x=>x.main+':'+x.linked).join('|')==='44:88|54:77|64:66|74:55';
   found.sort((a,b)=>(isOriginalExample(b)?1:0)-(isOriginalExample(a)?1:0)||a.firstGap-b.firstGap||a.gapStep-b.gapStep||b.chain.length-a.chain.length||b.chain[b.chain.length-1].linkedIndex-a.chain[a.chain.length-1].linkedIndex);
   output.push({market,rows,chains:found.slice(0,40)});
