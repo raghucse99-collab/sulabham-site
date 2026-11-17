@@ -2404,8 +2404,8 @@ async function runMonday00LinkSearch(){
  try{
   const parsed=await fetchData(selected);
   const key=chartKeyFor(selected),raw=parsed.charts?.[key]?.rows||[];
-  const rows=sortOldestFirst(collapseChartWeeks(raw));
-  const valid=v=>/^\\d{2}$/.test(String(v??'').trim());
+  const rows=collapseChartWeeks(raw).slice().sort((a,b)=>parseWeekStart(a.date)-parseWeekStart(b.date));
+  const valid=v=>/^\d{2}$/.test(String(v??'').trim());
   const reverse=v=>String(v).split('').reverse().join('');
   const days=selected==='milan-night'?['Mon','Tue','Wed','Thu','Fri','Sat']:['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
   const anchors=[];
