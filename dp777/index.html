@@ -2313,7 +2313,12 @@ function renderWeeklyChart(rows,mode='panel',patternMarks=null){
    const raw=suspectDays.has(d)?['','','']:[r[d+' Open'],r[d+' Jodi'],r[d+' Close']].map(v=>String(v??'').trim());
    const incompleteToday=containsToday&&d===todayDay&&raw.some(v=>!v||/^\*+$/.test(v));
    const open=incompleteToday?'★':norm(raw[0]),jodi=incompleteToday?'★':norm(raw[1]),close=incompleteToday?'★':norm(raw[2]);
-   if(mode==='jodi'||mode==='pattern'){\n    const mainHit=mode==='pattern'&&patternMarks?.main?.some(x=>x.row===r&&x.day===d);\n    const linkedHit=mode==='pattern'&&patternMarks?.linked?.some(x=>x.row===r&&x.day===d);\n    const hitClass=mainHit?' pattern-main-hit':linkedHit?' pattern-linked-hit':'';\n    html+='<td class="day-cell jodi-only'+hitClass+'">'+(jodi==='★'?'<span class="pending">★</span>':'<strong class="jodi-line '+(isRedJodi(jodi)?'red-jodi':'')+'">'+esc(jodi)+'</strong>')+'</td>';\n   }
+   if(mode==='jodi'||mode==='pattern'){
+    const mainHit=mode==='pattern'&&patternMarks?.main?.some(x=>x.row===r&&x.day===d);
+    const linkedHit=mode==='pattern'&&patternMarks?.linked?.some(x=>x.row===r&&x.day===d);
+    const hitClass=mainHit?' pattern-main-hit':linkedHit?' pattern-linked-hit':'';
+    html+='<td class="day-cell jodi-only'+hitClass+'">'+(jodi==='★'?'<span class="pending">★</span>':'<strong class="jodi-line '+(isRedJodi(jodi)?'red-jodi':'')+'">'+esc(jodi)+'</strong>')+'</td>';
+   }
    else {
     const o=panelParts(open),c=panelParts(close);
     html+='<td class="day-cell"><div class="result-grid"><div class="digit-stack open-digits"><span>'+esc(o[0]||'★')+'</span><span>'+esc(o[1]||'★')+'</span><span>'+esc(o[2]||'★')+'</span></div><div class="jodi-center">'+(jodi==='★'?'<span class="pending">★</span>':'<strong class="'+(isRedJodi(jodi)?'red-jodi':'')+'">'+esc(jodi)+'</strong>')+'</div><div class="digit-stack close-digits"><span>'+esc(c[0]||'★')+'</span><span>'+esc(c[1]||'★')+'</span><span>'+esc(c[2]||'★')+'</span></div></div></td>';
