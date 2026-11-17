@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "M1iId3fIyqYDue3YLUqMXw==",
 "iter": 200000,
-"check": "oXBTQvUs/3vr82h3GmrzXm+o5p6Hfm1VCvGmMm7k3ISkih2EINrnwsTA1w==",
+"check": "iaVthPszXBoJAUeqvI65BDAcTKUYwVh5q0PhcYI4+QShjArE2TnFU4V0fA==",
 "lessons": {
 "dsc-sgt-perspectives-day2": "Perspectives in Education, Day 2: Teachers, Rights, Concerns, NCF and NEP",
 "dsc-sgt-perspectives-day2-te": "విద్యా దృక్పథాలు, 2వ రోజు: ఉపాధ్యాయులు, హక్కులు, సమకాలీన అంశాలు, NCF, NEP",
@@ -55,6 +55,8 @@
 "dsc-sgt-social-day3": "Social Studies, Day 3: Early Societies to Empires",
 "dsc-sgt-social-day3-te": "సాంఘిక శాస్త్రం, రోజు 3: తొలి సమాజాల నుండి సామ్రాజ్యాల వరకు",
 "dsc-sgt-social-day4": "Social Studies, Day 4: Medieval India; Religion and Society",
-"dsc-sgt-social-day4-te": "సాంఘిక శాస్త్రం, రోజు 4: మధ్యయుగ భారతం; మతం, సమాజం"
+"dsc-sgt-social-day4-te": "సాంఘిక శాస్త్రం, రోజు 4: మధ్యయుగ భారతం; మతం, సమాజం",
+"dsc-sgt-social-day5": "Social Studies, Day 5: Colonial Rule, Freedom Struggle and Social Reform",
+"dsc-sgt-social-day5-te": "సాంఘిక శాస్త్రం, రోజు 5: వలస పాలన, స్వాతంత్ర్య పోరాటం, సంఘ సంస్కరణలు"
 }
 }
