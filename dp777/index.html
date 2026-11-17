@@ -1081,11 +1081,12 @@ function updateCurrentChartLabel(){const market=markets.find(m=>m.id===selected)
 function isOriginalSaturdayExample(market,rows,c){return (market.id==='sridevi-night'||market.id==='sridevi')&&c.direction===-1&&c.firstGap===6&&c.gapStep===0&&c.chain.length>=4&&c.chain[0].main==='44'&&c.chain[0].linked==='88'&&String(rows[c.chain[0].mainIndex]?.date||'').startsWith('25/12/2023')&&c.chain.slice(0,4).map(x=>x.main+':'+x.linked).join('|')==='44:88|54:77|64:66|74:55';}
 async function runSaturdayChainAll(){
  const stats=$('targetStats');stats.hidden=true;
- const marketIds=['sridevi','time-bazar','milan-day','rajdhani-day','sridevi-night','milan-night','rajdhani-night'];
- const selectedMarkets=marketIds.map(id=>markets.find(m=>m.id===id)).filter(Boolean);
- $('count').textContent='Loading 7 markets…';
- $('chartTitle').textContent='Saturday +10 / Linked ±11';
- $('chartDesc').textContent='All seven markets · continuous and failed patterns only';
+ const market=markets.find(m=>m.id===selected);
+ if(!market){$('count').textContent='Select a chart';$('tableArea').innerHTML='<div class="empty">Please select a market first.</div>';return;}
+ const selectedMarkets=[market];
+ $('count').textContent='Loading '+market.name+'…';
+ $('chartTitle').textContent=market.name+' · Saturday +10 / Linked ±11';
+ $('chartDesc').textContent=market.name+' only · continuous and failed patterns';
  $('tableArea').innerHTML='<div class="empty"><strong>Checking all seven market archives…</strong>Continuous and failed patterns are being verified against the original chart rows.</div>';
  const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
  const valid=v=>/^\d{2}$/.test(String(v??'').trim());
