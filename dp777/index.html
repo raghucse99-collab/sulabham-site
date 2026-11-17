@@ -2406,54 +2406,61 @@ async function runMonday00LinkSearch(){
  const market=markets.find(m=>m.id===selected);
  $('targetStats').hidden=true;
  $('chartTitle').textContent=(market?.name||'Selected chart')+' · Monday 00 Linked Row Search';
- $('chartDesc').textContent='Use only the first Monday 00 row as the reference; compare at increasing row offsets';
+ $('chartDesc').textContent='One fixed reference: the first Monday 00 row. Each later Monday 00 checks row +1, +2, +3…';
  $('count').textContent='Checking Monday 00 linked rows…';
  $('tableArea').innerHTML='<div class="empty">Checking the selected chart history…</div>';
  try{
   const parsed=await fetchData(selected);
   const key=chartKeyFor(selected),raw=parsed.charts?.[key]?.rows||[];
   const rows=sortOldestFirst(collapseChartWeeks(raw));
-  const valid=v=>/^\d{2}$/.test(String(v??'').trim());
+  const valid=v=>/^\\d{2}$/.test(String(v??'').trim());
   const reverse=v=>String(v).split('').reverse().join('');
   const days=selected==='milan-night'?['Mon','Tue','Wed','Thu','Fri','Sat']:['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
   const anchors=[];
   rows.forEach((row,index)=>{if(String(row['Mon Jodi']??'').trim()==='00')anchors.push({row,index});});
-  const sequences=[];
-  for(let i=0;i<anchors.length;i++){
-   const first=anchors[i],source=[];
-   for(const day of days.slice(1)){const v=String(first.row[day+' Jodi']??'').trim();if(valid(v))source.push({value:v,day});}
-   if(!source.length)continue;
-   const steps=[];
-   for(let j=i+1;j<anchors.length;j++){
-    const anchor=anchors[j],offset=j-i,targetIndex=anchor.index+offset,target=rows[targetIndex];
-    if(!target)continue;
-    const values=days.map(day=>({day,value:String(target[day+' Jodi']??'').trim()})).filter(x=>valid(x.value));
-    const matches=[];
-    for(const t of values){
-     const found=source.filter(x=>x.value===t.value||reverse(x.value)===t.value);
-     if(found.length)matches.push({...t,type:found.some(x=>x.value===t.value)?'Same':'Reverse',source:found.map(x=>x.value+' ('+x.day+')')});
-    }
-    // Keep only a live/running chain: stop at the first offset with no match.
-    if(!matches.length)break;
-    steps.push({anchor,offset,target,targetIndex,matches});
-   }
-   if(steps.length)sequences.push({first,source,steps});
+  if(!anchors.length){
+   $('count').textContent='No Monday 00 anchor found';
+   $('tableArea').innerHTML='<div class="empty">No Monday 00 rows are available in this selected chart.</div>';
+   return;
   }
-  const html=sequences.filter(p=>p.steps&&p.steps.length>0).map((p,i)=>{
-   const visibleRows=rows.slice(p.first.index,p.steps[p.steps.length-1].targetIndex+1);
-   const mainMarks=visibleRows.filter(row=>String(row['Mon Jodi']??'').trim()==='00').map(row=>({row,day:'Mon'}));
-   const linkedMarks=[],referenceMarks=[];
-   p.steps.forEach(step=>step.matches.forEach(m=>{
-    linkedMarks.push({row:step.target,day:m.day});
-    m.source.forEach(src=>{const day=src.match(/\((Mon|Tue|Wed|Thu|Fri|Sat|Sun)\)$/)?.[1];if(day)referenceMarks.push({row:p.first.row,day});});
-   }));
-   const chart='<details class="pattern-chart-toggle"><summary>VIEW MONDAY 00 FULL CHART · '+visibleRows.length+' WEEKS</summary><div class="pattern-full-chart m00-full-table-wrap">'+renderWeeklyChart(visibleRows,'pattern',{main:mainMarks,linked:linkedMarks,reference:referenceMarks})+'</div></details>';
-   const total=p.steps.reduce((n,x)=>n+x.matches.length,0);
-   return '<section class="repeat-pattern-card m00-table-card"><div class="repeat-card-head"><strong>MONDAY 00 SEQUENCE '+(i+1)+'</strong><span>'+total+' matches · '+p.steps.length+' running checks</span></div><div class="repeat-watch"><b>REFERENCE MONDAY 00: '+esc(p.first.row.date||'')+'</b><small>Continuous weekly chart. Yellow cells mark Monday 00 anchors; green cells mark Same/Reverse matches against the first reference row.</small></div><div class="chart-hint"><b>Reference Jodis:</b> '+esc(p.source.map(x=>x.value+' '+x.day).join(' · '))+'</div>'+chart+'</section>';
-  }).join('');
-  const total=sequences.reduce((sum,p)=>sum+p.steps.reduce((n,x)=>n+x.matches.length,0),0);
-  $('count').textContent=anchors.length+' Monday 00 anchors · '+sequences.length+' reference sequences · '+total+' matches';
-  $('tableArea').innerHTML='<div class="chart-title-band">'+esc(market?.name?.toUpperCase()||'SELECTED CHART')+' — FIRST-ROW SAME / REVERSE JODI SEARCH</div><div class="chart-hint">Display the same weekly Jodi chart used elsewhere on DP 777, with date column and weekday columns. Include every intervening week. Yellow marks Monday 00 anchors and green marks Same/Reverse matches against the first reference row. Stop at the first failed comparison.</div>'+(html||'<div class="empty">No currently running Monday 00 same/reverse patterns found. Failed chains are hidden.</div>');
+  const first=anchors[0],source=[];
+  for(const day of days.slice(1)){
+   const value=String(first.row[day+' Jodi']??'').trim();
+   if(valid(value))source.push({value,day});
+  }
+  const steps=[];
+  let failedAt=null;
+  for(let j=1;j<anchors.length;j++){
+   const anchor=anchors[j],offset=j,targetIndex=anchor.index+offset,target=rows[targetIndex];
+   if(!target){failedAt={offset,anchor,reason:'Target weekly row is not available yet'};break;}
+   const values=days.map(day=>({day,value:String(target[day+' Jodi']??'').trim()})).filter(x=>valid(x.value));
+   const matches=[];
+   for(const t of values){
+    const found=source.filter(x=>x.value===t.value||reverse(x.value)===t.value);
+    if(found.length)matches.push({...t,type:found.some(x=>x.value===t.value)?'Same':'Reverse',source:found.map(x=>x.value+' ('+x.day+')')});
+   }
+   if(!matches.length){failedAt={offset,anchor,target,targetIndex};break;}
+   steps.push({anchor,offset,target,targetIndex,matches});
+  }
+  const lastTarget=steps.length?steps[steps.length-1].targetIndex:first.index;
+  const visibleRows=rows.slice(first.index,lastTarget+1);
+  const mainMarks=visibleRows.filter(row=>String(row['Mon Jodi']??'').trim()==='00').map(row=>({row,day:'Mon'}));
+  const linkedMarks=[],referenceMarks=[];
+  steps.forEach(step=>step.matches.forEach(m=>{
+   linkedMarks.push({row:step.target,day:m.day});
+   m.source.forEach(src=>{
+    const day=src.match(/\\((Mon|Tue|Wed|Thu|Fri|Sat|Sun)\\)$/)?.[1];
+    if(day)referenceMarks.push({row:first.row,day});
+   });
+  }));
+  const total=steps.reduce((n,x)=>n+x.matches.length,0);
+  const status=failedAt
+   ?'<div class="repeat-watch"><b>SEQUENCE ENDED AT +'+failedAt.offset+'</b><small>It followed successfully through +'+steps.length+' steps. The next comparison did not match, so the failed step and later rows are hidden.</small></div>'
+   :'<div class="repeat-watch"><b>CONTINUOUS — WAITING FOR NEXT MONDAY 00</b><small>Successfully followed through +'+steps.length+' steps. No failure found in the available history; the next Monday 00 will be checked at row +'+(steps.length+1)+'.</small></div>';
+  const chart='<details class="pattern-chart-toggle"><summary>VIEW MONDAY 00 FULL CHART · '+visibleRows.length+' WEEKS</summary><div class="pattern-full-chart m00-full-table-wrap">'+renderWeeklyChart(visibleRows,'pattern',{main:mainMarks,linked:linkedMarks,reference:referenceMarks})+'</div></details>';
+  const card='<section class="repeat-pattern-card m00-table-card"><div class="repeat-card-head"><strong>FIRST MONDAY 00 SEQUENCE</strong><span>'+total+' matches · '+steps.length+' successful steps</span></div><div class="repeat-watch"><b>REFERENCE ROW: '+esc(first.row.date||'')+'</b><small>All comparisons use only this first Monday 00 row. Next Monday 00 checks row +1; the following Monday 00 checks row +2; then +3, +4 and so on.</small></div><div class="chart-hint"><b>First-row reference Jodis:</b> '+esc(source.map(x=>x.value+' '+x.day).join(' · ')||'No published Jodis')+'</div>'+status+chart+'</section>';
+  $('count').textContent='1 reference row · '+steps.length+' successful steps · '+total+' matching Jodis'+(failedAt?' · ended at +'+failedAt.offset:' · still continuous');
+  $('tableArea').innerHTML='<div class="chart-title-band">'+esc(market?.name?.toUpperCase()||'SELECTED CHART')+' — MONDAY 00 SAME / REVERSE PROGRESSION</div><div class="chart-hint">Green cells are exact or reversed matches against the first Monday 00 row. Yellow cells are later Monday 00 anchors. Every intervening week is kept in the chart.</div>'+card;
  }catch(e){
   $('count').textContent='Search failed';
   $('tableArea').innerHTML='<div class="empty">Could not run Monday 00 linked-row search: '+esc(e.message||String(e))+'</div>';
