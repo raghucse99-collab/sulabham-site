@@ -1,0 +1,130 @@
+===== Post 1 of 2 =====
+📝 *SULABHAM · DAILY QUIZ* | 17 NOV 2026
+10 questions · APPSC pattern · based on today's topics · Part 1/2
+
+*1.* Arrange the following events in chronological order:
+I. Lala Lajpat Rai presides over the Calcutta Special Session of the Congress
+II. Indian Home Rule League of America founded in New York
+III. Servants of the People Society founded
+IV. DAV School, Lahore set up
+(a) IV, I, II, III
+(b) IV, II, I, III
+(c) II, IV, I, III
+(d) IV, II, III, I
+
+*2.* Consider the following statements about the events at Lahore in 1928:
+I. Lala Lajpat Rai led a march against the Simon Commission on 30 October 1928.
+II. Superintendent James A. Scott ordered the lathi charge.
+III. Bhagat Singh and Rajguru shot James A. Scott on 17 December 1928.
+IV. Lala Lajpat Rai died on 17 November 1928.
+(a) I and II only
+(b) I, II and III only
+(c) II, III and IV only
+(d) I, II and IV only
+
+*3.* Match List-I (year) with List-II (event related to the Suez Canal):
+A. 1869   1. Convention of Constantinople makes it a neutral zone
+B. 1875   2. Nationalised by Nasser
+C. 1888   3. Canal officially opened
+D. 1956   4. Egypt sells its shares to Britain
+(a) A-3, B-4, C-1, D-2
+(b) A-3, B-1, C-4, D-2
+(c) A-4, B-3, C-1, D-2
+(d) A-3, B-4, C-2, D-1
+
+*4.* Which of the following statements about the Suez Canal is/are INCORRECT?
+I. It runs from Port Said on the Mediterranean to Suez on the Gulf of Suez.
+II. Like the Panama Canal, it needs locks because the two seas are at different levels.
+III. It was closed after the Six-Day War of 1967 and reopened in 1975.
+(a) I only
+(b) I and III only
+(c) II only
+(d) II and III only
+
+*5.* Consider the following Assertion (A) and Reason (R):
+Assertion (A): A Consent Manager under the DPDP framework must be designed so that it cannot read the personal data passing through it.
+Reason (R): A Consent Manager is the Data Fiduciary that decides the purpose of processing personal data.
+(a) Both A and R are true and R explains A
+(b) Both A and R are true but R does not explain A
+(c) A is true but R is false
+(d) A is false but R is true
+
+*6.* Consider the following statements about the implementation of India's data protection law:
+I. Consent Manager registration came into force on 13 November 2026.
+II. Rights of Data Principals and duties of Data Fiduciaries begin on 13 May 2027.
+III. Applications are made on the portal dpbi.gov.in.
+IV. Any registered company, Indian or foreign, with net worth of ₹2 crore can apply.
+(a) I and II only
+(b) I, III and IV only
+(c) II, III and IV only
+(d) I, II and III only
+
+*7.* Match List-I (judgment / provision) with List-II (what it says):
+A. Bachan Singh (1980)   1. Five tests: manner, motive, anti-social nature, magnitude, victim
+B. Machhi Singh (1983)   2. High Court must confirm a death sentence
+C. Section 407, BNSS   3. Death penalty only in the 'rarest of rare' cases
+D. Section 4, BNS   4. Lists death as a punishment
+(a) A-1, B-3, C-2, D-4
+(b) A-3, B-1, C-4, D-2
+(c) A-3, B-1, C-2, D-4
+(d) A-3, B-2, C-1, D-4
+
+*8.* A State adopts a 'moratorium on the death penalty' in line with the UN resolution of 13 November 2026. Which of the following would it mean?
+I. Executions are stopped for the time being, with abolition as the goal.
+II. The death penalty is immediately and permanently removed from its laws.
+III. Mandatory death sentences should be removed.
+(a) I and III only
+(b) II only
+(c) I and II only
+(d) I, II and III
+
+✅ Answers, explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-17&tab=quiz
+
+#APPSC #Group1 #Group2 #DailyQuiz #Sulabham
+
+===== Post 2 of 2 =====
+📝 *SULABHAM · DAILY QUIZ* | 17 NOV 2026
+10 questions · APPSC pattern · based on today's topics · Part 2/2
+
+*9.* Consider the following statements about the Yuge Yugeen Bharat Museum project:
+I. It was approved by the Cabinet Committee on Economic Affairs chaired by the Prime Minister.
+II. Its estimated cost is ₹3,230 crore.
+III. Its first gallery, on 'Adornment', is to open in South Block in 2026.
+IV. It is planned for one crore visitors a year.
+(a) I and II only
+(b) I, II and III only
+(c) II and IV only
+(d) I, II and IV only
+
+*10.* Consider the following statements about North Block and South Block, New Delhi:
+I. They flank Rashtrapati Bhavan on Raisina Hill.
+II. They were built during 1912–1931 as part of the new capital of Delhi.
+III. They were built after Independence to house the Parliament.
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+✅ Answers, explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-17&tab=quiz
+
+#APPSC #Group1 #Group2 #DailyQuiz #Sulabham
+
+===== Answers post (send in the evening) =====
+🔑 *Answers — Daily Quiz* | 17 NOV 2026
+1-(b) · 2-(d) · 3-(a) · 4-(c) · 5-(c) · 6-(d) · 7-(c) · 8-(a) · 9-(d) · 10-(b)
+
+📖 Explanations:
+1. (b) DAV School 1886 → Home Rule League of America 1917 → Calcutta Special Session 1920 → Servants of the People Society 1921. Trap (a): 1920 before 1917.
+2. (d) III is wrong: by mistaken identity they shot Assistant Superintendent John P. Saunders, not Scott.
+3. (a) 1869 opened, 1875 shares to Britain, 1888 neutral (Constantinople), 1956 nationalised. Trap (d): the 1888 Convention did not nationalise the canal.
+4. (c) Only II is incorrect: both seas are at the same level, so the Suez Canal has no locks.
+5. (c) A is true (data must stay unreadable to it). R is false: the Consent Manager is a go-between platform registered with the Board; the Data Fiduciary is the company that uses the data.
+6. (d) IV is wrong: only companies incorporated in India (net worth ≥ ₹2 crore) can apply. I, II, III are correct.
+7. (c) Bachan Singh = 'rarest of rare'; Machhi Singh = five tests; BNSS 407 = High Court confirmation; BNS Sec 4 = list of punishments. Trap (a): swapping the two judgments.
+8. (a) II is wrong: a moratorium is a temporary halt, not abolition. The resolution asks for a moratorium 'with a view to abolishing' and for removing mandatory death sentences.
+9. (d) III is wrong: the 'Adornment' gallery is expected in North Block in the latter part of 2027.
+10. (b) III is wrong: they were built in the colonial period (1912–1931) as secretariat buildings for ministries, not for Parliament.
+
+👉 https://sulabham.in/today.html?d=2026-11-17&tab=quiz

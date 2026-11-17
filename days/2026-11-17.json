@@ -1,0 +1,2090 @@
+{
+ "date": "2026-11-17",
+ "day": {
+  "en": "Tuesday, 17 November 2026",
+  "te": "మంగళవారం, 17 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Moratorium",
+   "en": "a temporary stop or suspension of an activity",
+   "te": "తాత్కాలిక నిలిపివేత",
+   "ex": "The UN resolution calls on all States to establish a moratorium on executions.",
+   "topic": "deathpenalty"
+  },
+  {
+   "w": "Fiduciary",
+   "en": "a person or body trusted to handle something on behalf of others",
+   "te": "నమ్మకంతో ఇతరుల తరఫున నిర్వహించే వ్యక్తి/సంస్థ (ధర్మకర్త)",
+   "ex": "Under the DPDP Act, the company that decides how your data is used is a Data Fiduciary.",
+   "topic": "dpdp"
+  },
+  {
+   "w": "Interoperable",
+   "en": "able to work together with other systems",
+   "te": "ఇతర వ్యవస్థలతో కలిసి పనిచేయగల",
+   "ex": "A Consent Manager must offer an interoperable platform to manage consent.",
+   "topic": "dpdp"
+  },
+  {
+   "w": "Nationalise",
+   "en": "to bring a private business under government ownership",
+   "te": "జాతీయం చేయడం; ప్రభుత్వ యాజమాన్యంలోకి తీసుకోవడం",
+   "ex": "Nasser nationalised the Suez Canal in July 1956.",
+   "topic": "suez"
+  },
+  {
+   "w": "Appraise",
+   "en": "to examine and judge the value or cost of something",
+   "te": "విలువ/వ్యయాన్ని అంచనా వేసి మదింపు చేయడం",
+   "ex": "The Public Investment Board appraised the museum project at ₹3,230 crore.",
+   "topic": "museum"
+  }
+ ],
+ "items": [
+  {
+   "id": "lajpat",
+   "kind": "day",
+   "color": "#9b2c2c",
+   "icon": "shield",
+   "cf": [
+    0,
+    1,
+    3,
+    5,
+    6
+   ],
+   "tag": {
+    "en": "Death anniversary · 17 Nov 1928",
+    "te": "వర్ధంతి · 17 నవంబర్ 1928"
+   },
+   "title": {
+    "en": "Lala Lajpat Rai — 'Punjab Kesari'",
+    "te": "లాలా లజపతిరాయ్ — 'పంజాబ్ కేసరి'"
+   },
+   "line": {
+    "en": "He led the 'Simon Go Back' march at Lahore, was beaten in a police lathi charge and died weeks later — his death changed the path of young revolutionaries like Bhagat Singh.",
+    "te": "లాహోర్‌లో 'సైమన్ గో బ్యాక్' ఊరేగింపుకు నాయకత్వం వహించారు; పోలీసు లాఠీఛార్జిలో గాయపడి కొన్ని వారాల్లోనే మరణించారు — ఆయన మరణం భగత్ సింగ్ వంటి యువ విప్లవకారుల దారిని మార్చింది."
+   },
+   "easy": [
+    {
+     "en": "Lala Lajpat Rai was born in Punjab in 1865. He worked with the Arya Samaj in Lahore and helped start the DAV (Dayananda Anglo-Vedic) School in 1886 — Indian-run education with modern subjects. He was one of the 'Lal-Bal-Pal' trio of the Extremist (Garam Dal) leaders.",
+     "te": "లాలా లజపతిరాయ్ 1865లో పంజాబ్‌లో జన్మించారు. లాహోర్‌లో ఆర్య సమాజంతో కలిసి పనిచేశారు; 1886లో DAV (దయానంద ఆంగ్లో-వేదిక్) పాఠశాల స్థాపనలో సహాయం చేశారు — భారతీయులే నడిపే, ఆధునిక విషయాలు నేర్పే విద్య. అతివాదుల (గరమ్ దళ్) 'లాల్-బాల్-పాల్' త్రయంలో ఆయన ఒకరు."
+    },
+    {
+     "en": "He also spent years in the USA, where he founded the Indian Home Rule League of America (New York, 1917) and wrote 'Young India'. Back home he presided over the Calcutta Special Session of the Congress (1920) and founded the Servants of the People Society (1921).",
+     "te": "అమెరికాలో కొన్నేళ్లు ఉండి, న్యూయార్క్‌లో 'ఇండియన్ హోమ్ రూల్ లీగ్ ఆఫ్ అమెరికా' (1917) స్థాపించారు; 'యంగ్ ఇండియా' పుస్తకం రాశారు. స్వదేశానికి వచ్చాక కాంగ్రెస్ కలకత్తా ప్రత్యేక సమావేశానికి (1920) అధ్యక్షత వహించారు; సర్వెంట్స్ ఆఫ్ ది పీపుల్ సొసైటీ (1921) స్థాపించారు."
+    },
+    {
+     "en": "On 30 October 1928 he led a peaceful march at Lahore against the Simon Commission. Superintendent James A. Scott ordered a lathi charge and hit him. He died on 17 November 1928. To avenge him, Bhagat Singh and Rajguru planned to kill Scott but, by mistaken identity, shot Assistant Superintendent John P. Saunders on 17 December 1928.",
+     "te": "1928 అక్టోబర్ 30న సైమన్ కమిషన్‌కు వ్యతిరేకంగా లాహోర్‌లో శాంతియుత ఊరేగింపుకు నాయకత్వం వహించారు. సూపరింటెండెంట్ జేమ్స్ ఎ. స్కాట్ లాఠీఛార్జికి ఆదేశించి ఆయనను కొట్టాడు. 1928 నవంబర్ 17న ఆయన మరణించారు. ప్రతీకారంగా భగత్ సింగ్, రాజ్‌గురు స్కాట్‌ను చంపాలనుకున్నారు; కానీ పొరపాటున అసిస్టెంట్ సూపరింటెండెంట్ జాన్ పి. సాండర్స్‌ను 1928 డిసెంబర్ 17న కాల్చారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "28 January 1865, Dhudike (now Moga district, Punjab)",
+      "te": "28 జనవరి 1865, ధుడికే (ఇప్పటి మోగా జిల్లా, పంజాబ్)"
+     }
+    ],
+    [
+     {
+      "en": "1886",
+      "te": "1886"
+     },
+     {
+      "en": "Helped Mahatma Hansraj set up the DAV School, Lahore",
+      "te": "మహాత్మా హంసరాజ్‌తో కలిసి లాహోర్‌లో DAV పాఠశాల స్థాపన"
+     }
+    ],
+    [
+     {
+      "en": "1894",
+      "te": "1894"
+     },
+     {
+      "en": "Associated with the early management of Punjab National Bank and Lakshmi Insurance",
+      "te": "పంజాబ్ నేషనల్ బ్యాంక్, లక్ష్మీ ఇన్సూరెన్స్ ప్రారంభ నిర్వహణలో భాగస్వామి"
+     }
+    ],
+    [
+     {
+      "en": "In the USA",
+      "te": "అమెరికాలో"
+     },
+     {
+      "en": "Book 'Young India' (1916); Indian Home Rule League of America, New York (Oct 1917)",
+      "te": "'యంగ్ ఇండియా' పుస్తకం (1916); ఇండియన్ హోమ్ రూల్ లీగ్ ఆఫ్ అమెరికా, న్యూయార్క్ (అక్టోబర్ 1917)"
+     }
+    ],
+    [
+     {
+      "en": "1920",
+      "te": "1920"
+     },
+     {
+      "en": "President, Calcutta Special Session of the Indian National Congress",
+      "te": "భారత జాతీయ కాంగ్రెస్ కలకత్తా ప్రత్యేక సమావేశ అధ్యక్షుడు"
+     }
+    ],
+    [
+     {
+      "en": "1921",
+      "te": "1921"
+     },
+     {
+      "en": "Founded the Servants of the People Society (Lahore)",
+      "te": "సర్వెంట్స్ ఆఫ్ ది పీపుల్ సొసైటీ స్థాపన (లాహోర్)"
+     }
+    ],
+    [
+     {
+      "en": "30 Oct 1928",
+      "te": "30 అక్టోబర్ 1928"
+     },
+     {
+      "en": "'Simon Go Back' march at Lahore; lathi charge ordered by SP James A. Scott",
+      "te": "లాహోర్‌లో 'సైమన్ గో బ్యాక్' ఊరేగింపు; SP జేమ్స్ ఎ. స్కాట్ ఆదేశంతో లాఠీఛార్జి"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "17 November 1928, Lahore",
+      "te": "17 నవంబర్ 1928, లాహోర్"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · From Lahore lathi charge to the Lahore Conspiracy",
+     "te": "లింక్ చెయిన్ · లాహోర్ లాఠీఛార్జి నుంచి లాహోర్ కుట్ర కేసు వరకు"
+    },
+    "l": [
+     {
+      "en": "Lal-Bal-Pal = Lala Lajpat Rai (Punjab), Bal Gangadhar Tilak (Maharashtra), Bipin Chandra Pal (Bengal) — Extremist leaders of the Swadeshi era",
+      "te": "లాల్-బాల్-పాల్ = లాలా లజపతిరాయ్ (పంజాబ్), బాల గంగాధర తిలక్ (మహారాష్ట్ర), బిపిన్ చంద్ర పాల్ (బెంగాల్) — స్వదేశీ కాలపు అతివాద నాయకులు"
+     },
+     {
+      "en": "30 Oct 1928 lathi charge → 17 Nov 1928 death → 17 Dec 1928 Saunders shot by Bhagat Singh and Rajguru (Chandra Shekhar Azad gave cover)",
+      "te": "30 అక్టో 1928 లాఠీఛార్జి → 17 నవం 1928 మరణం → 17 డిసెం 1928 భగత్ సింగ్, రాజ్‌గురు సాండర్స్‌ను కాల్చారు (చంద్రశేఖర్ ఆజాద్ రక్షణ కాల్పులు)"
+     },
+     {
+      "en": "His words at Mochi Gate, Lahore: the blows struck at him would be 'the last nails in the coffin' of British rule",
+      "te": "లాహోర్ మోచీ గేట్ వద్ద ఆయన మాట: తనపై పడిన దెబ్బలు బ్రిటిష్ పాలన శవపేటికకు 'చివరి మేకులు' అవుతాయి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Saunders, not Scott, was killed — Scott ordered the lathi charge, Saunders was shot by mistake. Also: Servants of the PEOPLE Society (Lajpat Rai, 1921) ≠ Servants of INDIA Society (Gopal Krishna Gokhale, 1905).",
+    "te": "చనిపోయింది సాండర్స్, స్కాట్ కాదు — లాఠీఛార్జికి ఆదేశించింది స్కాట్; పొరపాటున కాల్చింది సాండర్స్‌ను. అలాగే: సర్వెంట్స్ ఆఫ్ ది PEOPLE సొసైటీ (లజపతిరాయ్, 1921) ≠ సర్వెంట్స్ ఆఫ్ INDIA సొసైటీ (గోపాలకృష్ణ గోఖలే, 1905)."
+   },
+   "tip": {
+    "en": "'30-17-17': 30 Oct lathi → 17 Nov death → 17 Dec revenge.",
+    "te": "'30-17-17': 30 అక్టో లాఠీ → 17 నవం మరణం → 17 డిసెం ప్రతీకారం."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Lala Lajpat Rai, consider the following statements:",
+     "te": "లాలా లజపతిరాయ్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. He presided over the Calcutta Special Session of the Indian National Congress in 1920.",
+      "te": "I. 1920 భారత జాతీయ కాంగ్రెస్ కలకత్తా ప్రత్యేక సమావేశానికి ఆయన అధ్యక్షత వహించారు."
+     },
+     {
+      "en": "II. He founded the Servants of India Society in 1905.",
+      "te": "II. 1905లో ఆయన సర్వెంట్స్ ఆఫ్ ఇండియా సొసైటీని స్థాపించారు."
+     },
+     {
+      "en": "III. He founded the Indian Home Rule League of America in New York.",
+      "te": "III. న్యూయార్క్‌లో ఇండియన్ హోమ్ రూల్ లీగ్ ఆఫ్ అమెరికాను స్థాపించారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II is wrong: the Servants of India Society (1905) was Gokhale's; Lajpat Rai founded the Servants of the People Society (1921).",
+     "te": "II తప్పు: సర్వెంట్స్ ఆఫ్ ఇండియా సొసైటీ (1905) గోఖలేది; లజపతిరాయ్ స్థాపించింది సర్వెంట్స్ ఆఫ్ ది పీపుల్ సొసైటీ (1921)."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "His life in dates",
+      "te": "ఆయన జీవితం — తేదీల్లో"
+     },
+     "items": [
+      {
+       "y": "1865",
+       "t": {
+        "en": "Born at Dhudike, Punjab",
+        "te": "పంజాబ్‌లోని ధుడికేలో జననం"
+       }
+      },
+      {
+       "y": "1886",
+       "t": {
+        "en": "DAV School, Lahore (with Hansraj)",
+        "te": "DAV పాఠశాల, లాహోర్ (హంసరాజ్‌తో)"
+       }
+      },
+      {
+       "y": "1917",
+       "t": {
+        "en": "Home Rule League of America, New York",
+        "te": "హోమ్ రూల్ లీగ్ ఆఫ్ అమెరికా, న్యూయార్క్"
+       }
+      },
+      {
+       "y": "1920",
+       "t": {
+        "en": "Congress President — Calcutta Special Session",
+        "te": "కాంగ్రెస్ అధ్యక్షుడు — కలకత్తా ప్రత్యేక సమావేశం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1921",
+       "t": {
+        "en": "Servants of the People Society",
+        "te": "సర్వెంట్స్ ఆఫ్ ది పీపుల్ సొసైటీ"
+       }
+      },
+      {
+       "y": "1928",
+       "t": {
+        "en": "30 Oct lathi charge · 17 Nov death",
+        "te": "30 అక్టో లాఠీఛార్జి · 17 నవం మరణం"
+       },
+       "hl": 1
+      }
+     ],
+     "cap": {
+      "en": "Bold = most-asked dates.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే తేదీలు."
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "Cause → effect: Lahore, 1928",
+      "te": "కారణం → ఫలితం: లాహోర్, 1928"
+     },
+     "items": [
+      {
+       "i": "📢",
+       "t": {
+        "en": "30 Oct: 'Simon Go Back' march",
+        "te": "30 అక్టో: 'సైమన్ గో బ్యాక్' ఊరేగింపు"
+       }
+      },
+      {
+       "i": "🦯",
+       "t": {
+        "en": "Lathi charge ordered by SP Scott",
+        "te": "SP స్కాట్ ఆదేశంతో లాఠీఛార్జి"
+       }
+      },
+      {
+       "i": "🕯️",
+       "t": {
+        "en": "17 Nov: Lajpat Rai dies",
+        "te": "17 నవం: లజపతిరాయ్ మరణం"
+       }
+      },
+      {
+       "i": "🔫",
+       "t": {
+        "en": "17 Dec: Saunders shot (mistaken for Scott)",
+        "te": "17 డిసెం: సాండర్స్ హత్య (స్కాట్ అనుకుని)"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Wikipedia — Lala Lajpat Rai (read 17 Nov 2026)",
+     "u": "https://en.wikipedia.org/wiki/Lala_Lajpat_Rai"
+    },
+    {
+     "t": "Congress Sandesh — Tribute: Lala Lajpat Rai (28 Jan 1865 – 17 Nov 1928)",
+     "u": "https://inc.in/congress-sandesh/tribute/lala-lajpat-rai-28th-january-1865-17th-november-1928-1"
+    }
+   ]
+  },
+  {
+   "id": "suez",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "calendar",
+   "cf": [
+    0,
+    1,
+    3,
+    4,
+    5
+   ],
+   "tag": {
+    "en": "On this day · 17 Nov 1869",
+    "te": "ఈ రోజు · 17 నవంబర్ 1869"
+   },
+   "title": {
+    "en": "Suez Canal opens — the short sea route between Europe and India",
+    "te": "సూయజ్ కాలువ ప్రారంభం — యూరప్, భారత్ మధ్య దగ్గరి సముద్ర మార్గం"
+   },
+   "line": {
+    "en": "Opened 157 years ago today, the canal joined the Mediterranean to the Red Sea — ships no longer had to go round Africa to reach India.",
+    "te": "157 ఏళ్ల క్రితం ఇదే రోజు ప్రారంభమైన ఈ కాలువ మధ్యధరా సముద్రాన్ని ఎర్ర సముద్రంతో కలిపింది — భారత్ చేరడానికి ఓడలు ఆఫ్రికా చుట్టూ తిరగాల్సిన అవసరం పోయింది."
+   },
+   "easy": [
+    {
+     "en": "What is it? An artificial waterway in Egypt, about 120 miles (about 193 km) long, from Port Said on the Mediterranean Sea to the city of Suez on the Gulf of Suez (Red Sea). Both seas are at the same level, so it needs no locks.",
+     "te": "ఇది ఏమిటి? ఈజిప్ట్‌లో మానవ నిర్మిత జలమార్గం; సుమారు 120 మైళ్లు (దాదాపు 193 కి.మీ.) పొడవు; మధ్యధరా సముద్రంపై పోర్ట్ సయీద్ నుంచి సూయజ్ సింధుశాఖ (ఎర్ర సముద్రం) వద్ద సూయజ్ నగరం వరకు. రెండు సముద్రాల మట్టం ఒకటే కాబట్టి లాక్‌లు (గేట్లు) అవసరం లేదు."
+    },
+    {
+     "en": "Who built it? Egypt's ruler Said Pasha allowed the French diplomat Ferdinand de Lesseps to form the Suez Canal Company (99-year lease). Work began in 1859 and the canal was officially opened on 17 November 1869 by Khedive Ismail Pasha.",
+     "te": "ఎవరు నిర్మించారు? ఈజిప్ట్ పాలకుడు సయీద్ పాషా, ఫ్రెంచ్ దౌత్యవేత్త ఫెర్డినాండ్ డి లెసెప్స్‌కు సూయజ్ కెనాల్ కంపెనీ (99 ఏళ్ల లీజు) ఏర్పాటుకు అనుమతి ఇచ్చారు. 1859లో పనులు మొదలై, 1869 నవంబర్ 17న ఖేదీవ్ ఇస్మాయిల్ పాషా అధికారికంగా ప్రారంభించారు."
+    },
+    {
+     "en": "Why it matters for India: Britain could now move goods, troops and officials to India much faster. That is why Britain bought Egypt's shares in 1875. Even today the Red Sea–Suez route is a lifeline for India's trade with Europe.",
+     "te": "భారత్‌కు ఎందుకు ముఖ్యం: బ్రిటన్ సరుకులు, సైన్యం, అధికారులను భారత్‌కు చాలా వేగంగా పంపగలిగింది. అందుకే 1875లో ఈజిప్ట్ వాటాలను బ్రిటన్ కొనుగోలు చేసింది. నేటికీ ఎర్ర సముద్రం–సూయజ్ మార్గం యూరప్‌తో భారత వాణిజ్యానికి జీవనాడి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Opened",
+      "te": "ప్రారంభం"
+     },
+     {
+      "en": "17 November 1869, by Khedive Ismail Pasha",
+      "te": "17 నవంబర్ 1869, ఖేదీవ్ ఇస్మాయిల్ పాషా"
+     }
+    ],
+    [
+     {
+      "en": "Builder",
+      "te": "నిర్మాత"
+     },
+     {
+      "en": "Ferdinand de Lesseps (French) — Suez Canal Company",
+      "te": "ఫెర్డినాండ్ డి లెసెప్స్ (ఫ్రెంచ్) — సూయజ్ కెనాల్ కంపెనీ"
+     }
+    ],
+    [
+     {
+      "en": "Joins",
+      "te": "కలిపేది"
+     },
+     {
+      "en": "Mediterranean Sea (Port Said) ↔ Red Sea (Suez, Gulf of Suez); sea-level canal, no locks",
+      "te": "మధ్యధరా సముద్రం (పోర్ట్ సయీద్) ↔ ఎర్ర సముద్రం (సూయజ్, సూయజ్ సింధుశాఖ); లాక్‌లు లేని సముద్ర మట్ట కాలువ"
+     }
+    ],
+    [
+     {
+      "en": "1875",
+      "te": "1875"
+     },
+     {
+      "en": "Egypt forced to sell its canal shares to Britain",
+      "te": "కాలువ వాటాలను ఈజిప్ట్ బ్రిటన్‌కు అమ్మాల్సి వచ్చింది"
+     }
+    ],
+    [
+     {
+      "en": "1888",
+      "te": "1888"
+     },
+     {
+      "en": "Convention of Constantinople — canal to be a neutral zone",
+      "te": "కాన్‌స్టాంటినోపుల్ ఒప్పందం — కాలువ తటస్థ ప్రాంతం"
+     }
+    ],
+    [
+     {
+      "en": "1956",
+      "te": "1956"
+     },
+     {
+      "en": "July: Nasser nationalises the canal → October: Suez Crisis (Britain, France, Israel)",
+      "te": "జూలై: నాసర్ కాలువను జాతీయం చేశారు → అక్టోబర్: సూయజ్ సంక్షోభం (బ్రిటన్, ఫ్రాన్స్, ఇజ్రాయెల్)"
+     }
+    ],
+    [
+     {
+      "en": "1967–1975",
+      "te": "1967–1975"
+     },
+     {
+      "en": "Closed after the Six-Day War; reopened by Anwar Sadat in 1975",
+      "te": "ఆరు రోజుల యుద్ధం తర్వాత మూసివేత; 1975లో అన్వర్ సాదత్ తిరిగి తెరిచారు"
+     }
+    ],
+    [
+     {
+      "en": "March 2021",
+      "te": "మార్చి 2021"
+     },
+     {
+      "en": "A giant container ship got stuck and blocked traffic for nearly a week",
+      "te": "భారీ కంటైనర్ నౌక ఇరుక్కుపోయి దాదాపు వారం రాకపోకలు ఆగిపోయాయి"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Canals and sea routes",
+     "te": "లింక్ చెయిన్ · కాలువలు, సముద్ర మార్గాలు"
+    },
+    "l": [
+     {
+      "en": "Before 1869 ships from Europe to India went round the Cape of Good Hope (southern tip of Africa)",
+      "te": "1869కు ముందు యూరప్ నుంచి భారత్‌కు ఓడలు కేప్ ఆఫ్ గుడ్ హోప్ (ఆఫ్రికా దక్షిణ కొన) చుట్టూ వచ్చేవి"
+     },
+     {
+      "en": "Suez joins two SEAS (Mediterranean–Red Sea); the Panama Canal joins two OCEANS (Atlantic–Pacific) and uses locks",
+      "te": "సూయజ్ రెండు సముద్రాలను (మధ్యధరా–ఎర్ర సముద్రం) కలుపుతుంది; పనామా కాలువ రెండు మహాసముద్రాలను (అట్లాంటిక్–పసిఫిక్) కలుపుతుంది, లాక్‌లు ఉంటాయి"
+     },
+     {
+      "en": "In the news: the West Asia conflict and Houthi control of the Bab el-Mandeb area (south end of the Red Sea) make this route risky for shipping",
+      "te": "వార్తల్లో: పశ్చిమాసియా యుద్ధం, బాబ్-ఎల్-మందెబ్ ప్రాంతం (ఎర్ర సముద్రం దక్షిణ చివర) హౌతీల అధీనంలో ఉండటం ఈ మార్గాన్ని నౌకలకు ప్రమాదకరంగా మారుస్తున్నాయి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The canal was nationalised by Nasser in 1956, NOT at the 1888 Convention (which only made it neutral). Britain bought shares in 1875 — it did not build the canal; the builder was the Frenchman de Lesseps.",
+    "te": "కాలువను 1956లో నాసర్ జాతీయం చేశారు; 1888 ఒప్పందం కేవలం తటస్థ ప్రాంతంగా ప్రకటించింది. బ్రిటన్ 1875లో వాటాలు కొన్నది — కాలువ కట్టలేదు; నిర్మాత ఫ్రెంచ్ వ్యక్తి డి లెసెప్స్."
+   },
+   "tip": {
+    "en": "'69 open, 75 shares, 88 neutral, 56 nationalised' — read as a story: Open → Sell → Neutral → Take back.",
+    "te": "'69 ప్రారంభం, 75 వాటాలు, 88 తటస్థం, 56 జాతీయం' — కథలా చదవండి: తెరిచారు → అమ్మారు → తటస్థం → తిరిగి తీసుకున్నారు."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the Suez Canal:",
+     "te": "సూయజ్ కాలువకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It connects the Mediterranean Sea with the Red Sea and has no locks.",
+      "te": "I. ఇది మధ్యధరా సముద్రాన్ని ఎర్ర సముద్రంతో కలుపుతుంది; దీనికి లాక్‌లు లేవు."
+     },
+     {
+      "en": "II. It was built by a British company and opened in 1875.",
+      "te": "II. దీనిని ఒక బ్రిటిష్ కంపెనీ నిర్మించి 1875లో ప్రారంభించింది."
+     },
+     {
+      "en": "III. Gamal Abdel Nasser nationalised it in 1956.",
+      "te": "III. 1956లో గమాల్ అబ్దెల్ నాసర్ దీనిని జాతీయం చేశారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II is wrong: the French-led Suez Canal Company (de Lesseps) built it; it opened in 1869. 1875 is when Britain bought Egypt's shares.",
+     "te": "II తప్పు: ఫ్రెంచ్ డి లెసెప్స్ నేతృత్వంలోని సూయజ్ కెనాల్ కంపెనీ నిర్మించింది; 1869లో ప్రారంభమైంది. 1875లో బ్రిటన్ ఈజిప్ట్ వాటాలు కొన్నది."
+    }
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Where is the Suez Canal?",
+      "te": "సూయజ్ కాలువ ఎక్కడ?"
+     },
+     "view": "world",
+     "ctry": [
+      "Egypt"
+     ],
+     "hlc": "#1d4f91",
+     "pts": [
+      {
+       "ll": [
+        31.26,
+        32.3
+       ],
+       "t": {
+        "en": "Port Said",
+        "te": "పోర్ట్ సయీద్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        29.97,
+        32.55
+       ],
+       "t": {
+        "en": "Suez",
+        "te": "సూయజ్"
+       }
+      },
+      {
+       "ll": [
+        19.08,
+        72.88
+       ],
+       "t": {
+        "en": "Mumbai",
+        "te": "ముంబై"
+       }
+      }
+     ],
+     "labels": [
+      {
+       "ll": [
+        35.5,
+        18.0
+       ],
+       "t": {
+        "en": "Mediterranean Sea",
+        "te": "మధ్యధరా సముద్రం"
+       }
+      },
+      {
+       "ll": [
+        20.0,
+        38.5
+       ],
+       "t": {
+        "en": "Red Sea",
+        "te": "ఎర్ర సముద్రం"
+       }
+      },
+      {
+       "ll": [
+        15.0,
+        62.0
+       ],
+       "t": {
+        "en": "Arabian Sea",
+        "te": "అరేబియా సముద్రం"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         31.26,
+         32.3
+        ],
+        [
+         29.97,
+         32.55
+        ],
+        [
+         27.0,
+         34.5
+        ],
+        [
+         20.0,
+         39.0
+        ],
+        [
+         13.0,
+         43.5
+        ],
+        [
+         12.0,
+         50.0
+        ],
+        [
+         15.0,
+         60.0
+        ],
+        [
+         19.08,
+         72.88
+        ]
+       ],
+       "dash": 1,
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "Dashed line = the short route Europe → Suez → Red Sea → Arabian Sea → India.",
+      "te": "చుక్కల గీత = యూరప్ → సూయజ్ → ఎర్ర సముద్రం → అరేబియా సముద్రం → భారత్ దగ్గరి మార్గం."
+     },
+     "src": "cards/2026-11-17/map-suez-1-{m}.svg"
+    },
+    {
+     "type": "timeline",
+     "h": {
+      "en": "150 years of the canal",
+      "te": "కాలువ 150 ఏళ్ల ప్రయాణం"
+     },
+     "items": [
+      {
+       "y": "1859",
+       "t": {
+        "en": "Work begins at Port Said",
+        "te": "పోర్ట్ సయీద్ వద్ద పనులు ప్రారంభం"
+       }
+      },
+      {
+       "y": "1869",
+       "t": {
+        "en": "17 Nov: canal opens",
+        "te": "17 నవం: కాలువ ప్రారంభం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1875",
+       "t": {
+        "en": "Britain buys Egypt's shares",
+        "te": "ఈజిప్ట్ వాటాలు బ్రిటన్ కొనుగోలు"
+       }
+      },
+      {
+       "y": "1888",
+       "t": {
+        "en": "Convention of Constantinople — neutral",
+        "te": "కాన్‌స్టాంటినోపుల్ ఒప్పందం — తటస్థం"
+       }
+      },
+      {
+       "y": "1956",
+       "t": {
+        "en": "Nasser nationalises → Suez Crisis",
+        "te": "నాసర్ జాతీయీకరణ → సూయజ్ సంక్షోభం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1975",
+       "t": {
+        "en": "Reopened after 1967 closure",
+        "te": "1967 మూసివేత తర్వాత తిరిగి ప్రారంభం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "HISTORY.com — Suez Canal (updated 27 Feb 2025)",
+     "u": "https://www.history.com/topics/19th-century/suez-canal"
+    },
+    {
+     "t": "Legacy IAS — The Hindu UPSC News Analysis, 16 Nov 2026 (Red Sea / Bab el-Mandeb news)",
+     "u": "https://www.legacyias.com/the-hindu-upsc-news-analysis-for-16-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "dpdp",
+   "kind": "article",
+   "color": "#2c5d63",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "MeitY / PIB · 13–14 Nov 2026 · MediaNama · 16 Nov 2026",
+    "te": "MeitY / PIB · 13–14 నవంబర్ 2026 · మీడియానామా · 16 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity & Governance / GS-III Tech",
+    "te": "వివరణ · GS-II పాలిటీ, పాలన / GS-III టెక్నాలజీ"
+   },
+   "title": {
+    "en": "Data protection law, phase 2: companies can now register as 'Consent Managers'",
+    "te": "డేటా రక్షణ చట్టం రెండో దశ: 'కన్సెంట్ మేనేజర్లు'గా కంపెనీల నమోదు మొదలు"
+   },
+   "line": {
+    "en": "From 13 November 2026, Indian companies can apply to the Data Protection Board to become Consent Managers — one place where you give, check and withdraw consent for use of your personal data.",
+    "te": "2026 నవంబర్ 13 నుంచి భారతీయ కంపెనీలు డేటా ప్రొటెక్షన్ బోర్డుకు దరఖాస్తు చేసి కన్సెంట్ మేనేజర్లు కావచ్చు — మీ వ్యక్తిగత డేటా వాడకానికి అనుమతి ఇవ్వడం, చూసుకోవడం, ఉపసంహరించుకోవడం ఒకే చోట."
+   },
+   "easy": [
+    {
+     "en": "Basics: The Digital Personal Data Protection (DPDP) Act, 2023 protects your personal data. You are the 'Data Principal'; the company or body that decides why and how your data is used is the 'Data Fiduciary'. Most uses of your data need your consent.",
+     "te": "మూలం: డిజిటల్ పర్సనల్ డేటా ప్రొటెక్షన్ (DPDP) చట్టం, 2023 మీ వ్యక్తిగత డేటాను రక్షిస్తుంది. మీరు 'డేటా ప్రిన్సిపల్'; మీ డేటాను ఎందుకు, ఎలా వాడాలో నిర్ణయించే సంస్థ 'డేటా ఫిడ్యూషియరీ'. మీ డేటా వాడకానికి ఎక్కువ సందర్భాల్లో మీ అనుమతి (కన్సెంట్) కావాలి."
+    },
+    {
+     "en": "What is new? A Consent Manager is an entity registered with the Data Protection Board of India that lets you give, manage, review and withdraw consent through one accessible, transparent and interoperable platform. Think of it like a UPI app — but for consent instead of money. Registration opened on the portal dpbi.gov.in when the framework came into force on 13 November 2026.",
+     "te": "కొత్తది ఏమిటి? కన్సెంట్ మేనేజర్ అంటే భారత డేటా ప్రొటెక్షన్ బోర్డులో నమోదైన సంస్థ; మీరు అనుమతి ఇవ్వడం, నిర్వహించడం, సమీక్షించడం, ఉపసంహరించుకోవడం — అన్నీ ఒకే సులభమైన, పారదర్శక, ఇంటర్‌ఆపరబుల్ వేదికపై చేయవచ్చు. డబ్బుకు UPI యాప్ లాగా — ఇది అనుమతుల కోసం. ఈ వ్యవస్థ 2026 నవంబర్ 13న అమలులోకి రావడంతో dpbi.gov.in పోర్టల్‌లో నమోదు మొదలైంది."
+    },
+    {
+     "en": "Who can apply? Only companies incorporated in India with net worth of at least ₹2 crore and enough technical, operational and financial capacity. A Consent Manager must not be able to read your data, must keep records for at least seven years, and cannot change its owner (control) without the Board's approval. The other big duties of companies and your rights under the law start on 13 May 2027.",
+     "te": "ఎవరు దరఖాస్తు చేయవచ్చు? భారత్‌లో నమోదైన, కనీసం ₹2 కోట్ల నికర విలువ (నెట్ వర్త్), తగిన సాంకేతిక, నిర్వహణ, ఆర్థిక సామర్థ్యం ఉన్న కంపెనీలు మాత్రమే. కన్సెంట్ మేనేజర్ మీ డేటాను చదవలేని విధంగా ఉండాలి; రికార్డులను కనీసం ఏడేళ్లు ఉంచాలి; బోర్డు అనుమతి లేకుండా యాజమాన్య నియంత్రణ మారకూడదు. కంపెనీల మిగతా ప్రధాన బాధ్యతలు, చట్టం కింద మీ హక్కులు 2027 మే 13 నుంచి అమలులోకి వస్తాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Law",
+      "te": "చట్టం"
+     },
+     {
+      "en": "Digital Personal Data Protection Act, 2023; DPDP Rules notified Nov 2025",
+      "te": "డిజిటల్ పర్సనల్ డేటా ప్రొటెక్షన్ చట్టం, 2023; DPDP నియమాలు నవంబర్ 2025లో నోటిఫై"
+     }
+    ],
+    [
+     {
+      "en": "Phase 2 date",
+      "te": "రెండో దశ తేదీ"
+     },
+     {
+      "en": "13 November 2026 — Consent Manager registration in force",
+      "te": "13 నవంబర్ 2026 — కన్సెంట్ మేనేజర్ నమోదు అమలు"
+     }
+    ],
+    [
+     {
+      "en": "Portal",
+      "te": "పోర్టల్"
+     },
+     {
+      "en": "dpbi.gov.in — launched by MeitY Secretary S. Krishnan",
+      "te": "dpbi.gov.in — MeitY కార్యదర్శి ఎస్. కృష్ణన్ ప్రారంభం"
+     }
+    ],
+    [
+     {
+      "en": "Eligibility",
+      "te": "అర్హత"
+     },
+     {
+      "en": "Company incorporated in India; net worth ≥ ₹2 crore (CA certificate)",
+      "te": "భారత్‌లో నమోదైన కంపెనీ; నికర విలువ ≥ ₹2 కోట్లు (CA సర్టిఫికెట్)"
+     }
+    ],
+    [
+     {
+      "en": "Key duties",
+      "te": "ముఖ్య బాధ్యతలు"
+     },
+     {
+      "en": "Data must stay unreadable to it; records kept ≥ 7 years; no change of control without Board approval",
+      "te": "డేటా దానికి చదవలేని రూపంలో ఉండాలి; రికార్డులు ≥ 7 ఏళ్లు; బోర్డు అనుమతి లేకుండా నియంత్రణ మార్పు లేదు"
+     }
+    ],
+    [
+     {
+      "en": "Phase 3",
+      "te": "మూడో దశ"
+     },
+     {
+      "en": "13 May 2027 — Data Principal rights, Data Fiduciary duties, Board inquiries and penalties",
+      "te": "13 మే 2027 — డేటా ప్రిన్సిపల్ హక్కులు, ఫిడ్యూషియరీ బాధ్యతలు, బోర్డు విచారణలు, జరిమానాలు"
+     }
+    ],
+    [
+     {
+      "en": "The Board",
+      "te": "బోర్డు"
+     },
+     {
+      "en": "Posts of a Chairperson + 4 members advertised (June 2026); Centre told Kerala HC in Oct it is constituted but not yet functional",
+      "te": "ఛైర్‌పర్సన్ + 4 సభ్యుల పోస్టులకు ప్రకటన (జూన్ 2026); బోర్డు ఏర్పడింది కానీ ఇంకా పనిచేయడం లేదని అక్టోబర్‌లో కేరళ హైకోర్టుకు కేంద్రం తెలిపింది"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Privacy in India",
+     "te": "లింక్ చెయిన్ · భారత్‌లో గోప్యత"
+    },
+    "l": [
+     {
+      "en": "Justice K.S. Puttaswamy (2017): the Supreme Court held privacy a fundamental right under Article 21",
+      "te": "జస్టిస్ కె.ఎస్. పుట్టస్వామి (2017): గోప్యత ఆర్టికల్ 21 కింద ప్రాథమిక హక్కు అని సుప్రీంకోర్టు తీర్పు"
+     },
+     {
+      "en": "→ DPDP Act, 2023 → DPDP Rules, Nov 2025 → Consent Managers, 13 Nov 2026 → full rights, 13 May 2027",
+      "te": "→ DPDP చట్టం, 2023 → DPDP నియమాలు, నవం 2025 → కన్సెంట్ మేనేజర్లు, 13 నవం 2026 → పూర్తి హక్కులు, 13 మే 2027"
+     },
+     {
+      "en": "Similar idea in banking: RBI's Account Aggregators also move data only with the customer's consent",
+      "te": "బ్యాంకింగ్‌లో ఇలాంటిదే: RBI అకౌంట్ అగ్రిగేటర్లు కూడా కస్టమర్ అనుమతితోనే డేటాను పంపుతాయి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Data PRINCIPAL = you (the person); Data FIDUCIARY = the company using your data; Consent MANAGER = the go-between platform. A Consent Manager is registered with the Data Protection Board, not with RBI or MeitY, and must be an Indian company.",
+    "te": "డేటా ప్రిన్సిపల్ = మీరు (వ్యక్తి); డేటా ఫిడ్యూషియరీ = మీ డేటా వాడే సంస్థ; కన్సెంట్ మేనేజర్ = మధ్యవర్తి వేదిక. కన్సెంట్ మేనేజర్ నమోదు డేటా ప్రొటెక్షన్ బోర్డులో — RBI లేదా MeitYలో కాదు; అది భారతీయ కంపెనీ అయి ఉండాలి."
+   },
+   "tip": {
+    "en": "Dates ladder: 2017 right → 2023 Act → Nov 2025 Rules → Nov 2026 Consent Managers → May 2027 everything else.",
+    "te": "తేదీల నిచ్చెన: 2017 హక్కు → 2023 చట్టం → నవం 2025 నియమాలు → నవం 2026 కన్సెంట్ మేనేజర్లు → మే 2027 మిగతావన్నీ."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Consent Managers under the Digital Personal Data Protection framework, consider the following statements:",
+     "te": "డిజిటల్ పర్సనల్ డేటా ప్రొటెక్షన్ వ్యవస్థలోని కన్సెంట్ మేనేజర్లకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. They are registered with the Data Protection Board of India.",
+      "te": "I. వీరు భారత డేటా ప్రొటెక్షన్ బోర్డులో నమోదవుతారు."
+     },
+     {
+      "en": "II. A foreign company with a large net worth can register directly as a Consent Manager.",
+      "te": "II. భారీ నికర విలువ ఉన్న విదేశీ కంపెనీ నేరుగా కన్సెంట్ మేనేజర్‌గా నమోదు కావచ్చు."
+     },
+     {
+      "en": "III. A Consent Manager must keep its records for at least seven years.",
+      "te": "III. కన్సెంట్ మేనేజర్ తన రికార్డులను కనీసం ఏడేళ్లు ఉంచాలి."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "II is wrong: only companies incorporated in India (net worth ≥ ₹2 crore) can apply.",
+     "te": "II తప్పు: భారత్‌లో నమోదైన కంపెనీలు (నికర విలువ ≥ ₹2 కోట్లు) మాత్రమే దరఖాస్తు చేయగలవు."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "How consent flows",
+      "te": "అనుమతి ఎలా ప్రవహిస్తుంది"
+     },
+     "items": [
+      {
+       "i": "🙋",
+       "t": {
+        "en": "Data Principal (you)",
+        "te": "డేటా ప్రిన్సిపల్ (మీరు)"
+       }
+      },
+      {
+       "i": "📲",
+       "t": {
+        "en": "Consent Manager: give / review / withdraw consent",
+        "te": "కన్సెంట్ మేనేజర్: అనుమతి ఇవ్వడం / చూడడం / ఉపసంహరణ"
+       }
+      },
+      {
+       "i": "🏢",
+       "t": {
+        "en": "Data Fiduciary (bank, app, hospital) uses data only as allowed",
+        "te": "డేటా ఫిడ్యూషియరీ (బ్యాంక్, యాప్, ఆసుపత్రి) అనుమతి మేరకే వాడుతుంది"
+       }
+      },
+      {
+       "i": "⚖️",
+       "t": {
+        "en": "Data Protection Board registers and oversees",
+        "te": "డేటా ప్రొటెక్షన్ బోర్డు నమోదు, పర్యవేక్షణ"
+       }
+      }
+     ]
+    },
+    {
+     "type": "timeline",
+     "h": {
+      "en": "DPDP — step by step",
+      "te": "DPDP — దశలవారీగా"
+     },
+     "items": [
+      {
+       "y": "2017",
+       "t": {
+        "en": "Puttaswamy: privacy = fundamental right",
+        "te": "పుట్టస్వామి: గోప్యత = ప్రాథమిక హక్కు"
+       }
+      },
+      {
+       "y": "2023",
+       "t": {
+        "en": "DPDP Act passed",
+        "te": "DPDP చట్టం"
+       }
+      },
+      {
+       "y": "2025",
+       "t": {
+        "en": "Nov: DPDP Rules notified",
+        "te": "నవం: DPDP నియమాలు"
+       }
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "13 Nov: Consent Manager registration",
+        "te": "13 నవం: కన్సెంట్ మేనేజర్ నమోదు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2027",
+       "t": {
+        "en": "13 May: rights & duties in force",
+        "te": "13 మే: హక్కులు, బాధ్యతలు అమలు"
+       },
+       "hl": 1
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "MediaNama — Companies can apply to be consent managers under the DPDP Act, 16 Nov 2026",
+     "u": "https://www.medianama.com/2026/11/223-companies-consent-managers-dpdp-act/"
+    },
+    {
+     "t": "India Briefing — DPDP Act Phase 2: Consent Manager registration begins, 14 Nov 2026",
+     "u": "https://www.india-briefing.com/news/india-dpdp-consent-manager-registration-47884.html"
+    },
+    {
+     "t": "Legacy IAS — PIB Summaries, 16 Nov 2026 (cross-check)",
+     "u": "https://www.legacyias.com/pib-summaries-16-november-2026/"
+    }
+   ],
+   "mains": {
+    "en": "'Consent is the heart of India's data protection law.' Explain the role of Consent Managers under the DPDP framework and discuss the challenges in making consent meaningful for ordinary citizens.",
+    "te": "'భారత డేటా రక్షణ చట్టానికి అనుమతి (కన్సెంట్) గుండె వంటిది.' DPDP వ్యవస్థలో కన్సెంట్ మేనేజర్ల పాత్రను వివరించి, సాధారణ పౌరులకు అనుమతిని అర్థవంతం చేయడంలో ఉన్న సవాళ్లను చర్చించండి."
+   }
+  },
+  {
+   "id": "deathpenalty",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "unsc",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "src": {
+    "en": "PTI via Daily Excelsior / ETV Bharat · 15–16 Nov 2026",
+    "te": "PTI · డైలీ ఎక్సెల్సియర్ / ఈటీవీ భారత్ · 15–16 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "In the news · GS-II Polity / IR",
+    "te": "వార్తల్లో · GS-II పాలిటీ / అంతర్జాతీయ సంబంధాలు"
+   },
+   "title": {
+    "en": "India votes against the UN call for a moratorium on the death penalty",
+    "te": "మరణశిక్షపై తాత్కాలిక నిలిపివేత (మారటోరియం) UN తీర్మానానికి భారత్ వ్యతిరేక ఓటు"
+   },
+   "line": {
+    "en": "The UN General Assembly adopted Mexico's resolution 133–33–16; India voted against, keeping the death penalty for the 'rarest of rare' cases under its own law.",
+    "te": "మెక్సికో తీర్మానాన్ని UN సర్వసభ్య సమావేశం 133–33–16 ఓట్లతో ఆమోదించింది; భారత్ వ్యతిరేకంగా ఓటేసింది — తన చట్టం ప్రకారం 'అత్యంత అరుదైన' కేసుల్లో మరణశిక్షను కొనసాగిస్తోంది."
+   },
+   "easy": [
+    {
+     "en": "What happened? On Friday, 13 November 2026, the 193-member UN General Assembly adopted by recorded vote a resolution titled 'Moratorium on the use of the death penalty', introduced by Mexico: 133 in favour, 33 against, 16 abstentions. India, China, the US, Japan, Pakistan and Saudi Arabia were among those who voted against.",
+     "te": "ఏం జరిగింది? 2026 నవంబర్ 13 (శుక్రవారం) 193 సభ్యుల UN సర్వసభ్య సమావేశం, మెక్సికో ప్రవేశపెట్టిన 'మరణశిక్ష వినియోగంపై మారటోరియం' తీర్మానాన్ని రికార్డెడ్ ఓటుతో ఆమోదించింది: అనుకూలం 133, వ్యతిరేకం 33, గైర్హాజరు 16. వ్యతిరేకించిన దేశాల్లో భారత్, చైనా, అమెరికా, జపాన్, పాకిస్తాన్, సౌదీ అరేబియా ఉన్నాయి."
+    },
+    {
+     "en": "What does it ask? A moratorium means a temporary stop. The resolution calls on all States to stop executions 'with a view to abolishing' the death penalty, not to bring it back where it is gone, not to use it on persons under 18, pregnant women and persons with mental or intellectual disabilities, and to remove mandatory death sentences. It also reaffirms every country's right to develop its own legal system. Such UNGA resolutions are recommendations, not binding law.",
+     "te": "ఇది ఏం కోరుతుంది? మారటోరియం అంటే తాత్కాలిక నిలిపివేత. మరణశిక్ష 'రద్దు లక్ష్యంగా' ఉరితీతలను ఆపాలని; రద్దయిన చోట మళ్లీ తేకూడదని; 18 ఏళ్లలోపువారు, గర్భిణులు, మానసిక/బౌద్ధిక వైకల్యం ఉన్నవారికి వర్తింపజేయకూడదని; తప్పనిసరి మరణశిక్షలను తొలగించాలని పిలుపునిస్తుంది. ప్రతి దేశానికీ తన న్యాయ వ్యవస్థను రూపొందించుకునే హక్కును కూడా పునరుద్ఘాటిస్తుంది. ఇలాంటి UNGA తీర్మానాలు సిఫారసులే, చట్టబద్ధంగా కట్టుబడేవి కావు."
+    },
+    {
+     "en": "India's position: there is no international consensus against capital punishment, and courts should be able to award it in exceptionally grave cases. In India it is used rarely: Bachan Singh (1980) limited it to the 'rarest of rare' cases, and the last execution took place in 2020 (the Nirbhaya case).",
+     "te": "భారత్ వైఖరి: మరణశిక్షకు వ్యతిరేకంగా అంతర్జాతీయ ఏకాభిప్రాయం లేదు; అత్యంత తీవ్రమైన కేసుల్లో కోర్టులు దాన్ని విధించగలగాలి. భారత్‌లో ఇది అరుదు: బచన్ సింగ్ (1980) తీర్పు దాన్ని 'అత్యంత అరుదైన' (rarest of rare) కేసులకే పరిమితం చేసింది; చివరి ఉరితీత 2020లో (నిర్భయ కేసు)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Vote (13 Nov 2026)",
+      "te": "ఓటింగ్ (13 నవం 2026)"
+     },
+     {
+      "en": "133 for · 33 against · 16 abstentions — resolution introduced by Mexico",
+      "te": "అనుకూలం 133 · వ్యతిరేకం 33 · గైర్హాజరు 16 — మెక్సికో ప్రతిపాదన"
+     }
+    ],
+    [
+     {
+      "en": "India's vote",
+      "te": "భారత్ ఓటు"
+     },
+     {
+      "en": "Against (with China, US, Japan, Pakistan, Saudi Arabia, Iran, Egypt and others)",
+      "te": "వ్యతిరేకం (చైనా, అమెరికా, జపాన్, పాకిస్తాన్, సౌదీ అరేబియా, ఇరాన్, ఈజిప్ట్ తదితరాలతో)"
+     }
+    ],
+    [
+     {
+      "en": "Indian law",
+      "te": "భారత చట్టం"
+     },
+     {
+      "en": "Section 4, Bharatiya Nyaya Sanhita, 2023 lists death as a punishment",
+      "te": "భారతీయ న్యాయ సంహిత, 2023 సెక్షన్ 4 మరణశిక్షను శిక్షగా పేర్కొంటుంది"
+     }
+    ],
+    [
+     {
+      "en": "Confirmation",
+      "te": "నిర్ధారణ"
+     },
+     {
+      "en": "Section 407, BNSS, 2023 — a Sessions Court death sentence needs High Court confirmation",
+      "te": "BNSS, 2023 సెక్షన్ 407 — సెషన్స్ కోర్టు మరణశిక్షకు హైకోర్టు నిర్ధారణ తప్పనిసరి"
+     }
+    ],
+    [
+     {
+      "en": "Bachan Singh (1980)",
+      "te": "బచన్ సింగ్ (1980)"
+     },
+     {
+      "en": "Death penalty valid, but only in the 'rarest of rare' cases",
+      "te": "మరణశిక్ష చెల్లుతుంది, కానీ 'అత్యంత అరుదైన' కేసుల్లోనే"
+     }
+    ],
+    [
+     {
+      "en": "Machhi Singh (1983)",
+      "te": "మచ్చి సింగ్ (1983)"
+     },
+     {
+      "en": "Five tests: manner, motive, anti-social nature, magnitude of crime, victim",
+      "te": "ఐదు పరీక్షలు: నేర విధానం, ఉద్దేశం, సామాజిక వ్యతిరేక స్వభావం, నేర తీవ్రత, బాధితుడు"
+     }
+    ],
+    [
+     {
+      "en": "Last execution",
+      "te": "చివరి ఉరి"
+     },
+     {
+      "en": "2020 — Nirbhaya case",
+      "te": "2020 — నిర్భయ కేసు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Death penalty and the Constitution",
+     "te": "లింక్ చెయిన్ · మరణశిక్ష, రాజ్యాంగం"
+    },
+    "l": [
+     {
+      "en": "Article 21: no one shall be deprived of life except according to procedure established by law",
+      "te": "ఆర్టికల్ 21: చట్టం నిర్ణయించిన విధానం ప్రకారం తప్ప ఎవరి ప్రాణాన్నీ హరించరాదు"
+     },
+     {
+      "en": "Mercy: President under Article 72 (including death sentences); Governor under Article 161",
+      "te": "క్షమాభిక్ష: రాష్ట్రపతి — ఆర్టికల్ 72 (మరణశిక్షలు సహా); గవర్నర్ — ఆర్టికల్ 161"
+     },
+     {
+      "en": "International: ICCPR Article 6 (right to life); Second Optional Protocol to the ICCPR (1989) aims at abolition — India has not joined it",
+      "te": "అంతర్జాతీయం: ICCPR ఆర్టికల్ 6 (జీవించే హక్కు); ICCPR రెండో ఐచ్ఛిక ప్రోటోకాల్ (1989) రద్దు లక్ష్యం — భారత్ దీనిలో చేరలేదు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Moratorium = temporary halt of executions, NOT abolition. A UNGA resolution is not binding. Bachan Singh (1980) gave 'rarest of rare'; Machhi Singh (1983) gave the five tests — don't swap them.",
+    "te": "మారటోరియం = ఉరితీతల తాత్కాలిక నిలిపివేత, రద్దు కాదు. UNGA తీర్మానం కట్టుబడేది కాదు. 'రేరెస్ట్ ఆఫ్ రేర్' బచన్ సింగ్ (1980) తీర్పు; ఐదు పరీక్షలు మచ్చి సింగ్ (1983) తీర్పు — తారుమారు చేయవద్దు."
+   },
+   "tip": {
+    "en": "'B before M': Bachan (1980) set the Boundary, Machhi (1983) gave the Measures.",
+    "te": "'B తర్వాత M': బచన్ (1980) హద్దు (Boundary) పెట్టింది, మచ్చి (1983) కొలతలు (Measures) ఇచ్చింది."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the UN General Assembly resolution of 13 November 2026 on the death penalty:",
+     "te": "మరణశిక్షపై 2026 నవంబర్ 13 UN సర్వసభ్య సమావేశ తీర్మానానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It calls for a moratorium on executions with a view to abolishing the death penalty.",
+      "te": "I. మరణశిక్ష రద్దు లక్ష్యంగా ఉరితీతలపై మారటోరియం విధించాలని ఇది కోరుతుంది."
+     },
+     {
+      "en": "II. It is legally binding on all UN member states once adopted.",
+      "te": "II. ఆమోదం పొందిన తర్వాత ఇది అన్ని UN సభ్యదేశాలకు చట్టబద్ధంగా కట్టుబడి ఉంటుంది."
+     },
+     {
+      "en": "III. India abstained from voting on it.",
+      "te": "III. దీనిపై ఓటింగ్‌కు భారత్ గైర్హాజరైంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     },
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "Only I is correct. II: UNGA resolutions are recommendations, not binding. III: India voted against, it did not abstain.",
+     "te": "I మాత్రమే సరైనది. II: UNGA తీర్మానాలు సిఫారసులే, కట్టుబడేవి కావు. III: భారత్ వ్యతిరేకంగా ఓటేసింది, గైర్హాజరు కాలేదు."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "How the UNGA voted (13 Nov 2026)",
+      "te": "UNGA ఓటింగ్ ఎలా జరిగింది (13 నవం 2026)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "In favour",
+        "te": "అనుకూలం"
+       },
+       "v": 133,
+       "vl": "133"
+      },
+      {
+       "t": {
+        "en": "Against (incl. India)",
+        "te": "వ్యతిరేకం (భారత్ సహా)"
+       },
+       "v": 33,
+       "vl": "33"
+      },
+      {
+       "t": {
+        "en": "Abstentions",
+        "te": "గైర్హాజరు"
+       },
+       "v": 16,
+       "vl": "16"
+      }
+     ]
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "A death sentence in India — the safety steps",
+      "te": "భారత్‌లో మరణశిక్ష — భద్రతా దశలు"
+     },
+     "items": [
+      {
+       "i": "🏛️",
+       "t": {
+        "en": "Sessions Court: only 'rarest of rare', special reasons recorded",
+        "te": "సెషన్స్ కోర్టు: 'అత్యంత అరుదైన' కేసు, ప్రత్యేక కారణాలు నమోదు"
+       }
+      },
+      {
+       "i": "⚖️",
+       "t": {
+        "en": "High Court must confirm (BNSS Sec 407)",
+        "te": "హైకోర్టు నిర్ధారణ తప్పనిసరి (BNSS సెక్షన్ 407)"
+       }
+      },
+      {
+       "i": "🧑‍⚖️",
+       "t": {
+        "en": "Appeal to the Supreme Court",
+        "te": "సుప్రీంకోర్టుకు అప్పీలు"
+       }
+      },
+      {
+       "i": "🕊️",
+       "t": {
+        "en": "Mercy petition: Governor (Art 161) / President (Art 72)",
+        "te": "క్షమాభిక్ష పిటిషన్: గవర్నర్ (ఆర్టి 161) / రాష్ట్రపతి (ఆర్టి 72)"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Daily Excelsior (PTI) — India votes against UNGA resolution calling for global moratorium on death penalty, 16 Nov 2026",
+     "u": "https://www.dailyexcelsior.com/india-votes-against-unga-resolution-calling-for-global-moratorium-on-death-penalty/"
+    },
+    {
+     "t": "ETV Bharat (PTI) — India votes against UNGA resolution calling for global moratorium on death penalty, 15 Nov 2026",
+     "u": "https://www.etvbharat.com/en/international/india-votes-against-unga-resolution-calling-for-global-moratorium-on-death-penalty-enn26111501098"
+    },
+    {
+     "t": "NEXT IAS — Death Penalty in India: UNGA resolution, legal provisions (cross-check), 16 Nov 2026",
+     "u": "https://www.nextias.com/ca/current-affairs/16-11-2026/death-penalty-india"
+    }
+   ],
+   "mains": {
+    "en": "'India keeps the death penalty but uses it rarely.' Examine the constitutional and judicial safeguards on capital punishment in India in the light of the UN call for a global moratorium.",
+    "te": "'భారత్ మరణశిక్షను కొనసాగిస్తున్నా అరుదుగా వాడుతుంది.' ప్రపంచవ్యాప్త మారటోరియంకు UN పిలుపు నేపథ్యంలో, భారత్‌లో మరణశిక్షపై ఉన్న రాజ్యాంగ, న్యాయపరమైన రక్షణలను పరిశీలించండి."
+   }
+  },
+  {
+   "id": "museum",
+   "kind": "article",
+   "color": "#a86b00",
+   "icon": "sirsyed",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "Cabinet (CCEA) decision · PTI / Business Standard · 11 Nov 2026",
+    "te": "కేబినెట్ (CCEA) నిర్ణయం · PTI / బిజినెస్ స్టాండర్డ్ · 11 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "In the news · GS-I Art & Culture",
+    "te": "వార్తల్లో · GS-I కళలు, సంస్కృతి"
+   },
+   "title": {
+    "en": "Yuge Yugeen Bharat Museum: North and South Block to become a ₹3,230-crore museum",
+    "te": "యుగే యుగీన్ భారత్ మ్యూజియం: నార్త్, సౌత్ బ్లాక్‌లు ₹3,230 కోట్ల మ్యూజియంగా"
+   },
+   "line": {
+    "en": "The Cabinet Committee on Economic Affairs approved turning the old colonial secretariat buildings on Raisina Hill into a museum of India's civilisational journey — billed as the world's largest by display area.",
+    "te": "రైసినా హిల్‌పై ఉన్న పాత వలస పాలన సచివాలయ భవనాలను భారత నాగరికత ప్రయాణాన్ని చూపే మ్యూజియంగా మార్చడానికి ఆర్థిక వ్యవహారాల కేబినెట్ కమిటీ ఆమోదించింది — ప్రదర్శన విస్తీర్ణంలో ప్రపంచంలోనే అతిపెద్దదిగా చెబుతున్నారు."
+   },
+   "easy": [
+    {
+     "en": "What are North and South Block? Two large government buildings on either side of Rashtrapati Bhavan on Raisina Hill, New Delhi, built during 1912–1931 as part of the new capital of Delhi. For decades they housed key ministries. With government offices relocated (Central Vista redevelopment), they are now free.",
+     "te": "నార్త్, సౌత్ బ్లాక్‌లు అంటే? న్యూఢిల్లీ రైసినా హిల్‌పై రాష్ట్రపతి భవన్‌కు ఇరువైపులా ఉన్న రెండు పెద్ద ప్రభుత్వ భవనాలు; ఢిల్లీ కొత్త రాజధానిలో భాగంగా 1912–1931 మధ్య నిర్మించారు. దశాబ్దాల పాటు ముఖ్య మంత్రిత్వ శాఖలు ఇక్కడే ఉండేవి. ప్రభుత్వ కార్యాలయాలు తరలిపోవడంతో (సెంట్రల్ విస్టా పునర్నిర్మాణం) ఇవి ఖాళీ అయ్యాయి."
+    },
+    {
+     "en": "What was decided? On 11 November 2026 the CCEA, chaired by the Prime Minister, approved the 'Yuge Yugeen Bharat' (India through the ages) Museum at an estimated cost of ₹3,230 crore, as appraised by the Public Investment Board. Built-up area: about 1,78,509 sq m. It will be built in phases from FY 2026-27 to FY 2030-31 and is planned for one crore visitors a year.",
+     "te": "ఏం నిర్ణయించారు? 2026 నవంబర్ 11న ప్రధాని అధ్యక్షతన CCEA, 'యుగే యుగీన్ భారత్' (యుగయుగాల భారత్) మ్యూజియంను ₹3,230 కోట్ల అంచనా వ్యయంతో ఆమోదించింది — పబ్లిక్ ఇన్వెస్ట్‌మెంట్ బోర్డు మదింపు ప్రకారం. నిర్మిత విస్తీర్ణం సుమారు 1,78,509 చ.మీ. FY 2026-27 నుంచి FY 2030-31 వరకు దశలవారీగా నిర్మిస్తారు; ఏటా కోటి మంది సందర్శకుల కోసం ప్రణాళిక."
+    },
+    {
+     "en": "What will we see? India's civilisational journey — galleries on themes such as architecture and cityscapes, mathematics and astronomy, languages and scripts, and trade and ideas. The first gallery, on 'Adornment', is expected to open in North Block in the latter part of 2027.",
+     "te": "ఏం చూడొచ్చు? భారత నాగరికత ప్రయాణం — వాస్తుశిల్పం, నగరాలు; గణితం, ఖగోళశాస్త్రం; భాషలు, లిపులు; వాణిజ్యం, ఆలోచనలు వంటి అంశాలపై గ్యాలరీలు. మొదటి గ్యాలరీ 'అలంకరణ' (Adornment) 2027 చివరి భాగంలో నార్త్ బ్లాక్‌లో తెరవనున్నారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Approved by",
+      "te": "ఆమోదం"
+     },
+     {
+      "en": "Cabinet Committee on Economic Affairs (chaired by PM), 11 Nov 2026",
+      "te": "ఆర్థిక వ్యవహారాల కేబినెట్ కమిటీ (ప్రధాని అధ్యక్షత), 11 నవం 2026"
+     }
+    ],
+    [
+     {
+      "en": "Cost",
+      "te": "వ్యయం"
+     },
+     {
+      "en": "₹3,230 crore — appraised by the Public Investment Board (27 July 2026)",
+      "te": "₹3,230 కోట్లు — పబ్లిక్ ఇన్వెస్ట్‌మెంట్ బోర్డు మదింపు (27 జూలై 2026)"
+     }
+    ],
+    [
+     {
+      "en": "Area",
+      "te": "విస్తీర్ణం"
+     },
+     {
+      "en": "About 1,78,509 sq m built-up; billed as the largest museum by display area in the world",
+      "te": "సుమారు 1,78,509 చ.మీ. నిర్మిత విస్తీర్ణం; ప్రదర్శన విస్తీర్ణంలో ప్రపంచంలో అతిపెద్దదిగా అంచనా"
+     }
+    ],
+    [
+     {
+      "en": "Timeline",
+      "te": "కాలపరిమితి"
+     },
+     {
+      "en": "Phased, FY 2026-27 to FY 2030-31; first gallery 'Adornment' in late 2027",
+      "te": "దశలవారీగా FY 2026-27 – FY 2030-31; మొదటి గ్యాలరీ 'అలంకరణ' 2027 చివరలో"
+     }
+    ],
+    [
+     {
+      "en": "Buildings",
+      "te": "భవనాలు"
+     },
+     {
+      "en": "North & South Block, flanking Rashtrapati Bhavan on Raisina Hill; built 1912–1931",
+      "te": "నార్త్, సౌత్ బ్లాక్ — రైసినా హిల్‌పై రాష్ట్రపతి భవన్‌కు ఇరువైపులా; 1912–1931లో నిర్మాణం"
+     }
+    ],
+    [
+     {
+      "en": "Visitors",
+      "te": "సందర్శకులు"
+     },
+     {
+      "en": "Planned for one crore visitors a year",
+      "te": "ఏటా కోటి మంది సందర్శకుల సామర్థ్యం"
+     }
+    ],
+    [
+     {
+      "en": "Collection",
+      "te": "సేకరణ"
+     },
+     {
+      "en": "About 1.8 million objects from the National Museum, culture-ministry museums, ASI site museums, state and private collections",
+      "te": "జాతీయ మ్యూజియం, సాంస్కృతిక శాఖ మ్యూజియంలు, ASI స్థల మ్యూజియంలు, రాష్ట్ర, ప్రైవేటు సేకరణల నుంచి సుమారు 18 లక్షల వస్తువులు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Capital, buildings, museums",
+     "te": "లింక్ చెయిన్ · రాజధాని, భవనాలు, మ్యూజియంలు"
+    },
+    "l": [
+     {
+      "en": "1911 Delhi Durbar: capital to shift from Calcutta to Delhi → New Delhi built 1912–1931 (Lutyens and Herbert Baker)",
+      "te": "1911 ఢిల్లీ దర్బార్: రాజధాని కలకత్తా నుంచి ఢిల్లీకి → 1912–1931లో న్యూఢిల్లీ నిర్మాణం (లుటియెన్స్, హెర్బర్ట్ బేకర్)"
+     },
+     {
+      "en": "Central Vista redevelopment: offices moved out → old buildings get a new public use",
+      "te": "సెంట్రల్ విస్టా పునర్నిర్మాణం: కార్యాలయాల తరలింపు → పాత భవనాలకు కొత్త ప్రజా ఉపయోగం"
+     },
+     {
+      "en": "AP link: ASI site museums at Amaravati and Nagarjunakonda hold Buddhist art of the Satavahana–Ikshvaku era — the kind of heritage such national museums showcase",
+      "te": "ఏపీ లింక్: అమరావతి, నాగార్జునకొండ ASI స్థల మ్యూజియంలలో శాతవాహన–ఇక్ష్వాకు కాలపు బౌద్ధ కళ ఉంది — ఇలాంటి వారసత్వాన్నే జాతీయ మ్యూజియంలు ప్రదర్శిస్తాయి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Here 'PIB' = Public Investment Board (it appraises big projects), NOT the Press Information Bureau. And the approving body was the CCEA (Cabinet Committee on Economic Affairs), chaired by the PM — not the Ministry of Culture alone.",
+    "te": "ఇక్కడ 'PIB' = పబ్లిక్ ఇన్వెస్ట్‌మెంట్ బోర్డు (పెద్ద ప్రాజెక్టుల మదింపు), ప్రెస్ ఇన్ఫర్మేషన్ బ్యూరో కాదు. ఆమోదించింది ప్రధాని అధ్యక్షతన CCEA (ఆర్థిక వ్యవహారాల కేబినెట్ కమిటీ) — సాంస్కృతిక శాఖ ఒక్కటే కాదు."
+   },
+   "tip": {
+    "en": "'3230 for 1912–31': a ₹3,230-crore museum inside buildings of 1912–1931.",
+    "te": "'1912–31 భవనాల్లో 3230': 1912–1931 భవనాల్లో ₹3,230 కోట్ల మ్యూజియం."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the Yuge Yugeen Bharat Museum:",
+     "te": "యుగే యుగీన్ భారత్ మ్యూజియంకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It will come up in the North and South Block buildings on Raisina Hill.",
+      "te": "I. ఇది రైసినా హిల్‌పై నార్త్, సౌత్ బ్లాక్ భవనాల్లో ఏర్పాటవుతుంది."
+     },
+     {
+      "en": "II. Its cost was appraised by the Press Information Bureau.",
+      "te": "II. దీని వ్యయాన్ని ప్రెస్ ఇన్ఫర్మేషన్ బ్యూరో మదింపు చేసింది."
+     },
+     {
+      "en": "III. It is to be completed in phases up to FY 2030-31.",
+      "te": "III. FY 2030-31 వరకు దశలవారీగా పూర్తి చేయాలి."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II is wrong: 'PIB' here is the Public Investment Board, which appraises large public projects.",
+     "te": "II తప్పు: ఇక్కడ 'PIB' అంటే పబ్లిక్ ఇన్వెస్ట్‌మెంట్ బోర్డు — పెద్ద ప్రభుత్వ ప్రాజెక్టుల మదింపు సంస్థ."
+    }
+   },
+   "pics": [
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "The museum at a glance",
+      "te": "మ్యూజియం ఒక్క చూపులో"
+     },
+     "c": {
+      "en": "Yuge Yugeen Bharat Museum",
+      "te": "యుగే యుగీన్ భారత్ మ్యూజియం"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Where",
+        "te": "ఎక్కడ"
+       },
+       "l": [
+        {
+         "en": "North & South Block",
+         "te": "నార్త్, సౌత్ బ్లాక్"
+        },
+        {
+         "en": "Raisina Hill, New Delhi",
+         "te": "రైసినా హిల్, న్యూఢిల్లీ"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Money",
+        "te": "వ్యయం"
+       },
+       "l": [
+        {
+         "en": "₹3,230 crore",
+         "te": "₹3,230 కోట్లు"
+        },
+        {
+         "en": "Appraised by Public Investment Board",
+         "te": "పబ్లిక్ ఇన్వెస్ట్‌మెంట్ బోర్డు మదింపు"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "When",
+        "te": "ఎప్పుడు"
+       },
+       "l": [
+        {
+         "en": "FY 2026-27 to 2030-31",
+         "te": "FY 2026-27 – 2030-31"
+        },
+        {
+         "en": "'Adornment' gallery late 2027",
+         "te": "'అలంకరణ' గ్యాలరీ 2027 చివర"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Size",
+        "te": "పరిమాణం"
+       },
+       "l": [
+        {
+         "en": "~1,78,509 sq m",
+         "te": "~1,78,509 చ.మీ."
+        },
+        {
+         "en": "1 crore visitors/year",
+         "te": "ఏటా కోటి సందర్శకులు"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Themes",
+        "te": "అంశాలు"
+       },
+       "l": [
+        {
+         "en": "Maths & astronomy",
+         "te": "గణితం, ఖగోళం"
+        },
+        {
+         "en": "Languages & scripts",
+         "te": "భాషలు, లిపులు"
+        },
+        {
+         "en": "Trade & ideas",
+         "te": "వాణిజ్యం, ఆలోచనలు"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "From secretariat to museum",
+      "te": "సచివాలయం నుంచి మ్యూజియం వరకు"
+     },
+     "items": [
+      {
+       "i": "🏛️",
+       "t": {
+        "en": "1912–1931: built for the new capital",
+        "te": "1912–1931: కొత్త రాజధాని కోసం నిర్మాణం"
+       }
+      },
+      {
+       "i": "📦",
+       "t": {
+        "en": "Ministries move out (Central Vista)",
+        "te": "మంత్రిత్వ శాఖల తరలింపు (సెంట్రల్ విస్టా)"
+       }
+      },
+      {
+       "i": "✅",
+       "t": {
+        "en": "11 Nov 2026: CCEA approval",
+        "te": "11 నవం 2026: CCEA ఆమోదం"
+       }
+      },
+      {
+       "i": "🖼️",
+       "t": {
+        "en": "Late 2027: first gallery opens",
+        "te": "2027 చివర: మొదటి గ్యాలరీ ప్రారంభం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Business Standard (PTI) — Cabinet nod to development of Yuge Yugeen museum at cost of ₹3,230 cr, 11 Nov 2026",
+     "u": "https://www.business-standard.com/india-news/cabinet-nod-to-development-of-yuge-yugeen-museum-at-cost-of-3-230-cr-126111100977_1.html"
+    },
+    {
+     "t": "PIB — Cabinet approves Development of Yuge Yugeen Bharat Museum at North and South Block Complex, New Delhi (title page)",
+     "u": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2334961&reg=3&lang=1"
+    },
+    {
+     "t": "Vajiram & Ravi — Yuge Yugeen Bharat Museum (cross-check: themes, collection), 13 Nov 2026",
+     "u": "https://vajiramandravi.com/current-affairs/yuge-yugeen-bharat-museum-location-design-budget-latest-news/"
+    }
+   ],
+   "mains": {
+    "en": "'Museums are classrooms of a civilisation.' Discuss how projects like the Yuge Yugeen Bharat Museum can promote heritage awareness, and suggest how States like Andhra Pradesh can link their own heritage sites to such national efforts.",
+    "te": "'మ్యూజియంలు నాగరికతకు తరగతి గదులు.' యుగే యుగీన్ భారత్ మ్యూజియం వంటి ప్రాజెక్టులు వారసత్వ అవగాహనను ఎలా పెంచుతాయో చర్చించి, ఆంధ్రప్రదేశ్ వంటి రాష్ట్రాలు తమ వారసత్వ ప్రదేశాలను ఇలాంటి జాతీయ ప్రయత్నాలతో ఎలా అనుసంధానించవచ్చో సూచించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "lajpat",
+   "q": {
+    "en": "Arrange the following events in chronological order:",
+    "te": "కింది సంఘటనలను కాలక్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "I. Lala Lajpat Rai presides over the Calcutta Special Session of the Congress",
+     "te": "I. కాంగ్రెస్ కలకత్తా ప్రత్యేక సమావేశానికి లాలా లజపతిరాయ్ అధ్యక్షత"
+    },
+    {
+     "en": "II. Indian Home Rule League of America founded in New York",
+     "te": "II. న్యూయార్క్‌లో ఇండియన్ హోమ్ రూల్ లీగ్ ఆఫ్ అమెరికా స్థాపన"
+    },
+    {
+     "en": "III. Servants of the People Society founded",
+     "te": "III. సర్వెంట్స్ ఆఫ్ ది పీపుల్ సొసైటీ స్థాపన"
+    },
+    {
+     "en": "IV. DAV School, Lahore set up",
+     "te": "IV. లాహోర్‌లో DAV పాఠశాల ఏర్పాటు"
+    }
+   ],
+   "o": [
+    {
+     "en": "IV, I, II, III",
+     "te": "IV, I, II, III"
+    },
+    {
+     "en": "IV, II, I, III",
+     "te": "IV, II, I, III"
+    },
+    {
+     "en": "II, IV, I, III",
+     "te": "II, IV, I, III"
+    },
+    {
+     "en": "IV, II, III, I",
+     "te": "IV, II, III, I"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "DAV School 1886 → Home Rule League of America 1917 → Calcutta Special Session 1920 → Servants of the People Society 1921. Trap (a): 1920 before 1917.",
+    "te": "DAV పాఠశాల 1886 → హోమ్ రూల్ లీగ్ ఆఫ్ అమెరికా 1917 → కలకత్తా ప్రత్యేక సమావేశం 1920 → సర్వెంట్స్ ఆఫ్ ది పీపుల్ సొసైటీ 1921. ఉచ్చు (a): 1920ని 1917కు ముందు పెట్టడం."
+   }
+  },
+  {
+   "topic": "lajpat",
+   "q": {
+    "en": "Consider the following statements about the events at Lahore in 1928:",
+    "te": "1928లో లాహోర్ సంఘటనలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Lala Lajpat Rai led a march against the Simon Commission on 30 October 1928.",
+     "te": "I. 1928 అక్టోబర్ 30న సైమన్ కమిషన్‌కు వ్యతిరేకంగా లాలా లజపతిరాయ్ ఊరేగింపుకు నాయకత్వం వహించారు."
+    },
+    {
+     "en": "II. Superintendent James A. Scott ordered the lathi charge.",
+     "te": "II. సూపరింటెండెంట్ జేమ్స్ ఎ. స్కాట్ లాఠీఛార్జికి ఆదేశించాడు."
+    },
+    {
+     "en": "III. Bhagat Singh and Rajguru shot James A. Scott on 17 December 1928.",
+     "te": "III. 1928 డిసెంబర్ 17న భగత్ సింగ్, రాజ్‌గురు జేమ్స్ ఎ. స్కాట్‌ను కాల్చారు."
+    },
+    {
+     "en": "IV. Lala Lajpat Rai died on 17 November 1928.",
+     "te": "IV. లాలా లజపతిరాయ్ 1928 నవంబర్ 17న మరణించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "III is wrong: by mistaken identity they shot Assistant Superintendent John P. Saunders, not Scott.",
+    "te": "III తప్పు: పొరపాటున వారు కాల్చింది అసిస్టెంట్ సూపరింటెండెంట్ జాన్ పి. సాండర్స్‌ను, స్కాట్‌ను కాదు."
+   }
+  },
+  {
+   "topic": "suez",
+   "q": {
+    "en": "Match List-I (year) with List-II (event related to the Suez Canal):",
+    "te": "జాబితా-I (సంవత్సరం)ను జాబితా-II (సూయజ్ కాలువ సంఘటన)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. 1869   1. Convention of Constantinople makes it a neutral zone",
+     "te": "A. 1869   1. కాన్‌స్టాంటినోపుల్ ఒప్పందం — తటస్థ ప్రాంతం"
+    },
+    {
+     "en": "B. 1875   2. Nationalised by Nasser",
+     "te": "B. 1875   2. నాసర్ జాతీయీకరణ"
+    },
+    {
+     "en": "C. 1888   3. Canal officially opened",
+     "te": "C. 1888   3. కాలువ అధికారిక ప్రారంభం"
+    },
+    {
+     "en": "D. 1956   4. Egypt sells its shares to Britain",
+     "te": "D. 1956   4. ఈజిప్ట్ వాటాలు బ్రిటన్‌కు అమ్మకం"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-3, B-4, C-1, D-2",
+     "te": "A-3, B-4, C-1, D-2"
+    },
+    {
+     "en": "A-3, B-1, C-4, D-2",
+     "te": "A-3, B-1, C-4, D-2"
+    },
+    {
+     "en": "A-4, B-3, C-1, D-2",
+     "te": "A-4, B-3, C-1, D-2"
+    },
+    {
+     "en": "A-3, B-4, C-2, D-1",
+     "te": "A-3, B-4, C-2, D-1"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1869 opened, 1875 shares to Britain, 1888 neutral (Constantinople), 1956 nationalised. Trap (d): the 1888 Convention did not nationalise the canal.",
+    "te": "1869 ప్రారంభం, 1875 బ్రిటన్‌కు వాటాలు, 1888 తటస్థం (కాన్‌స్టాంటినోపుల్), 1956 జాతీయీకరణ. ఉచ్చు (d): 1888 ఒప్పందం కాలువను జాతీయం చేయలేదు."
+   }
+  },
+  {
+   "topic": "suez",
+   "q": {
+    "en": "Which of the following statements about the Suez Canal is/are INCORRECT?",
+    "te": "సూయజ్ కాలువకు సంబంధించి కింది వాటిలో తప్పు వాక్యం/వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. It runs from Port Said on the Mediterranean to Suez on the Gulf of Suez.",
+     "te": "I. ఇది మధ్యధరా సముద్రంపై పోర్ట్ సయీద్ నుంచి సూయజ్ సింధుశాఖపై సూయజ్ వరకు ఉంటుంది."
+    },
+    {
+     "en": "II. Like the Panama Canal, it needs locks because the two seas are at different levels.",
+     "te": "II. పనామా కాలువ లాగే, రెండు సముద్రాల మట్టాలు వేర్వేరు కాబట్టి దీనికీ లాక్‌లు అవసరం."
+    },
+    {
+     "en": "III. It was closed after the Six-Day War of 1967 and reopened in 1975.",
+     "te": "III. 1967 ఆరు రోజుల యుద్ధం తర్వాత మూసివేసి 1975లో తిరిగి తెరిచారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Only II is incorrect: both seas are at the same level, so the Suez Canal has no locks.",
+    "te": "II మాత్రమే తప్పు: రెండు సముద్రాల మట్టం ఒకటే కాబట్టి సూయజ్ కాలువకు లాక్‌లు లేవు."
+   }
+  },
+  {
+   "topic": "dpdp",
+   "q": {
+    "en": "Consider the following Assertion (A) and Reason (R):",
+    "te": "కింది ప్రతిపాదన (A), కారణం (R)లను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "Assertion (A): A Consent Manager under the DPDP framework must be designed so that it cannot read the personal data passing through it.",
+     "te": "ప్రతిపాదన (A): DPDP వ్యవస్థలో కన్సెంట్ మేనేజర్ తన ద్వారా వెళ్లే వ్యక్తిగత డేటాను చదవలేని విధంగా ఉండాలి."
+    },
+    {
+     "en": "Reason (R): A Consent Manager is the Data Fiduciary that decides the purpose of processing personal data.",
+     "te": "కారణం (R): వ్యక్తిగత డేటా ప్రాసెసింగ్ ఉద్దేశాన్ని నిర్ణయించే డేటా ఫిడ్యూషియరీయే కన్సెంట్ మేనేజర్."
+    }
+   ],
+   "o": [
+    {
+     "en": "Both A and R are true and R explains A",
+     "te": "A, R రెండూ నిజం; R, Aను వివరిస్తుంది"
+    },
+    {
+     "en": "Both A and R are true but R does not explain A",
+     "te": "A, R రెండూ నిజం; కానీ R, Aను వివరించదు"
+    },
+    {
+     "en": "A is true but R is false",
+     "te": "A నిజం, R తప్పు"
+    },
+    {
+     "en": "A is false but R is true",
+     "te": "A తప్పు, R నిజం"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "A is true (data must stay unreadable to it). R is false: the Consent Manager is a go-between platform registered with the Board; the Data Fiduciary is the company that uses the data.",
+    "te": "A నిజం (డేటా దానికి చదవలేని రూపంలో ఉండాలి). R తప్పు: కన్సెంట్ మేనేజర్ బోర్డులో నమోదైన మధ్యవర్తి వేదిక; డేటాను వాడే సంస్థ డేటా ఫిడ్యూషియరీ."
+   }
+  },
+  {
+   "topic": "dpdp",
+   "q": {
+    "en": "Consider the following statements about the implementation of India's data protection law:",
+    "te": "భారత డేటా రక్షణ చట్టం అమలుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Consent Manager registration came into force on 13 November 2026.",
+     "te": "I. కన్సెంట్ మేనేజర్ నమోదు 2026 నవంబర్ 13న అమలులోకి వచ్చింది."
+    },
+    {
+     "en": "II. Rights of Data Principals and duties of Data Fiduciaries begin on 13 May 2027.",
+     "te": "II. డేటా ప్రిన్సిపల్ హక్కులు, డేటా ఫిడ్యూషియరీ బాధ్యతలు 2027 మే 13 నుంచి మొదలవుతాయి."
+    },
+    {
+     "en": "III. Applications are made on the portal dpbi.gov.in.",
+     "te": "III. దరఖాస్తులు dpbi.gov.in పోర్టల్‌లో చేయాలి."
+    },
+    {
+     "en": "IV. Any registered company, Indian or foreign, with net worth of ₹2 crore can apply.",
+     "te": "IV. ₹2 కోట్ల నికర విలువ ఉన్న ఏ నమోదైన కంపెనీ అయినా — భారతీయ లేదా విదేశీ — దరఖాస్తు చేయవచ్చు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "IV is wrong: only companies incorporated in India (net worth ≥ ₹2 crore) can apply. I, II, III are correct.",
+    "te": "IV తప్పు: భారత్‌లో నమోదైన కంపెనీలు (నికర విలువ ≥ ₹2 కోట్లు) మాత్రమే అర్హులు. I, II, III సరైనవి."
+   }
+  },
+  {
+   "topic": "deathpenalty",
+   "q": {
+    "en": "Match List-I (judgment / provision) with List-II (what it says):",
+    "te": "జాబితా-I (తీర్పు / నిబంధన)ను జాబితా-II (ఏం చెబుతుంది)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. Bachan Singh (1980)   1. Five tests: manner, motive, anti-social nature, magnitude, victim",
+     "te": "A. బచన్ సింగ్ (1980)   1. ఐదు పరీక్షలు: విధానం, ఉద్దేశం, సామాజిక వ్యతిరేకత, తీవ్రత, బాధితుడు"
+    },
+    {
+     "en": "B. Machhi Singh (1983)   2. High Court must confirm a death sentence",
+     "te": "B. మచ్చి సింగ్ (1983)   2. మరణశిక్షకు హైకోర్టు నిర్ధారణ తప్పనిసరి"
+    },
+    {
+     "en": "C. Section 407, BNSS   3. Death penalty only in the 'rarest of rare' cases",
+     "te": "C. BNSS సెక్షన్ 407   3. 'అత్యంత అరుదైన' కేసుల్లోనే మరణశిక్ష"
+    },
+    {
+     "en": "D. Section 4, BNS   4. Lists death as a punishment",
+     "te": "D. BNS సెక్షన్ 4   4. మరణాన్ని శిక్షగా పేర్కొంటుంది"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-1, B-3, C-2, D-4",
+     "te": "A-1, B-3, C-2, D-4"
+    },
+    {
+     "en": "A-3, B-1, C-4, D-2",
+     "te": "A-3, B-1, C-4, D-2"
+    },
+    {
+     "en": "A-3, B-1, C-2, D-4",
+     "te": "A-3, B-1, C-2, D-4"
+    },
+    {
+     "en": "A-3, B-2, C-1, D-4",
+     "te": "A-3, B-2, C-1, D-4"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Bachan Singh = 'rarest of rare'; Machhi Singh = five tests; BNSS 407 = High Court confirmation; BNS Sec 4 = list of punishments. Trap (a): swapping the two judgments.",
+    "te": "బచన్ సింగ్ = 'అత్యంత అరుదైన'; మచ్చి సింగ్ = ఐదు పరీక్షలు; BNSS 407 = హైకోర్టు నిర్ధారణ; BNS సెక్షన్ 4 = శిక్షల జాబితా. ఉచ్చు (a): రెండు తీర్పులను తారుమారు చేయడం."
+   }
+  },
+  {
+   "topic": "deathpenalty",
+   "q": {
+    "en": "A State adopts a 'moratorium on the death penalty' in line with the UN resolution of 13 November 2026. Which of the following would it mean?",
+    "te": "13 నవంబర్ 2026 UN తీర్మానానికి అనుగుణంగా ఒక దేశం 'మరణశిక్షపై మారటోరియం' అమలు చేస్తే దాని అర్థం ఏది?"
+   },
+   "st": [
+    {
+     "en": "I. Executions are stopped for the time being, with abolition as the goal.",
+     "te": "I. రద్దు లక్ష్యంగా, ప్రస్తుతానికి ఉరితీతలు ఆపేస్తారు."
+    },
+    {
+     "en": "II. The death penalty is immediately and permanently removed from its laws.",
+     "te": "II. మరణశిక్షను వెంటనే, శాశ్వతంగా చట్టాల నుంచి తొలగిస్తారు."
+    },
+    {
+     "en": "III. Mandatory death sentences should be removed.",
+     "te": "III. తప్పనిసరి మరణశిక్షలను తొలగించాలి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "II is wrong: a moratorium is a temporary halt, not abolition. The resolution asks for a moratorium 'with a view to abolishing' and for removing mandatory death sentences.",
+    "te": "II తప్పు: మారటోరియం అంటే తాత్కాలిక నిలిపివేత, రద్దు కాదు. తీర్మానం 'రద్దు లక్ష్యంగా' మారటోరియం, తప్పనిసరి మరణశిక్షల తొలగింపును కోరుతుంది."
+   }
+  },
+  {
+   "topic": "museum",
+   "q": {
+    "en": "Consider the following statements about the Yuge Yugeen Bharat Museum project:",
+    "te": "యుగే యుగీన్ భారత్ మ్యూజియం ప్రాజెక్టుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It was approved by the Cabinet Committee on Economic Affairs chaired by the Prime Minister.",
+     "te": "I. ప్రధాని అధ్యక్షతన ఆర్థిక వ్యవహారాల కేబినెట్ కమిటీ దీనిని ఆమోదించింది."
+    },
+    {
+     "en": "II. Its estimated cost is ₹3,230 crore.",
+     "te": "II. దీని అంచనా వ్యయం ₹3,230 కోట్లు."
+    },
+    {
+     "en": "III. Its first gallery, on 'Adornment', is to open in South Block in 2026.",
+     "te": "III. 'అలంకరణ'పై దీని మొదటి గ్యాలరీ 2026లో సౌత్ బ్లాక్‌లో ప్రారంభం."
+    },
+    {
+     "en": "IV. It is planned for one crore visitors a year.",
+     "te": "IV. ఏటా కోటి మంది సందర్శకుల కోసం ప్రణాళిక."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "III is wrong: the 'Adornment' gallery is expected in North Block in the latter part of 2027.",
+    "te": "III తప్పు: 'అలంకరణ' గ్యాలరీ 2027 చివర భాగంలో నార్త్ బ్లాక్‌లో ప్రారంభం కానుంది."
+   }
+  },
+  {
+   "topic": "museum",
+   "q": {
+    "en": "Consider the following statements about North Block and South Block, New Delhi:",
+    "te": "న్యూఢిల్లీలోని నార్త్ బ్లాక్, సౌత్ బ్లాక్‌లకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. They flank Rashtrapati Bhavan on Raisina Hill.",
+     "te": "I. ఇవి రైసినా హిల్‌పై రాష్ట్రపతి భవన్‌కు ఇరువైపులా ఉన్నాయి."
+    },
+    {
+     "en": "II. They were built during 1912–1931 as part of the new capital of Delhi.",
+     "te": "II. ఢిల్లీ కొత్త రాజధానిలో భాగంగా 1912–1931 మధ్య నిర్మించారు."
+    },
+    {
+     "en": "III. They were built after Independence to house the Parliament.",
+     "te": "III. స్వాతంత్ర్యం తర్వాత పార్లమెంటు కోసం నిర్మించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is wrong: they were built in the colonial period (1912–1931) as secretariat buildings for ministries, not for Parliament.",
+    "te": "III తప్పు: వీటిని వలస పాలనా కాలంలో (1912–1931) మంత్రిత్వ శాఖల సచివాలయ భవనాలుగా నిర్మించారు, పార్లమెంటు కోసం కాదు."
+   }
+  }
+ ]
+}
