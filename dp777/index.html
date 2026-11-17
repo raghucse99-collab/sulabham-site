@@ -1105,10 +1105,13 @@ async function runSaturdayChainAll(){
    return lo<list.length?list[lo]:-1;
   };
   const chains=new Map();
+  let candidatesChecked=0,scanLimited=false;
   searchCandidates: for(const first of saturday){
    for(const direction of [1,-1]){
     for(let firstGap=1;firstGap<=52;firstGap++){
      for(let gapStep=0;gapStep<=8;gapStep++){
+      candidatesChecked++;
+      if(candidatesChecked>50000){scanLimited=true;break searchCandidates;}
       const chain=[];
       let current=first, n=0;
       while(true){
@@ -1159,8 +1162,8 @@ async function runSaturdayChainAll(){
   }).join('');
   return '<section class="repeat-market-group"><div class="repeat-card-head"><span class="repeat-pattern-name">'+esc(item.market.name)+'</span><span class="repeat-pattern-status">'+item.chains.length+' MATCHING CHAINS</span></div>'+cards+'</section>';
  }).join('');
- $('count').textContent=total+' qualifying chains · '+selectedMarket.name+(total>=180?' · showing first 180 candidates':'');
- $('tableArea').innerHTML='<div class="chart-title-band">'+esc(selectedMarket.name.toUpperCase())+' — SATURDAY MAIN +10 / LINKED +11 OR −11</div><div class="chart-hint">Main Jodi must occur on Saturday and advance +10 each time (00–99 wrap). The linked Jodi must advance consistently by +11 or −11 in any weekday column. Gap order: smallest first. Gaps may repeat or increase by a fixed step (+1 to +8). Irregular gaps are excluded. At least 3 verified pairs are required. These are historical matches, not predictions.</div><div class="repeat-pattern-list">'+sections+'</div>';
+ $('count').textContent=total+' qualifying chains · '+selectedMarket.name+(scanLimited?' · scan capped at 50,000 checks':total>=180?' · showing first 180 candidates':'');
+ $('tableArea').innerHTML='<div class="chart-title-band">'+esc(selectedMarket.name.toUpperCase())+' — SATURDAY MAIN +10 / LINKED +11 OR −11</div><div class="chart-hint">Main Jodi must occur on Saturday and advance +10 each time (00–99 wrap). The linked Jodi must advance consistently by +11 or −11 in any weekday column. Gap order: smallest first. Gaps may repeat or increase by a fixed step (+1 to +8). Irregular gaps are excluded. At least 3 verified pairs are required. The mobile scan is capped at 50,000 candidate checks to prevent freezing; a capped scan is partial. These are historical matches, not predictions.</div><div class="repeat-pattern-list">'+sections+'</div>';
 }
 function renderChart(){
  const stats=$('targetStats');
