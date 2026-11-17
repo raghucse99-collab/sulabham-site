@@ -1105,13 +1105,14 @@ async function runSaturdayChainAll(){
    return lo<list.length?list[lo]:-1;
   };
   const chains=new Map();
-  let candidatesChecked=0,scanLimited=false;
-  searchCandidates: for(const first of saturday){
+  let candidatesChecked=0;
+  searchCandidates: for(let firstNo=0;firstNo<saturday.length;firstNo++){
+   const first=saturday[firstNo];
+   if(firstNo%4===0){$('count').textContent='Scanning '+selectedMarket.name+'… '+Math.round(firstNo/Math.max(1,saturday.length)*100)+'%';await new Promise(resolve=>setTimeout(resolve,0));}
    for(const direction of [1,-1]){
     for(let firstGap=1;firstGap<=52;firstGap++){
      for(let gapStep=0;gapStep<=8;gapStep++){
       candidatesChecked++;
-      if(candidatesChecked>50000){scanLimited=true;break searchCandidates;}
       const chain=[];
       let current=first, n=0;
       while(true){
@@ -1131,7 +1132,7 @@ async function runSaturdayChainAll(){
       if(chain.length>=3){
        const signature=[direction,firstGap,gapStep,...chain.map(x=>x.mainIndex+':'+x.linkedIndex+':'+x.main+':'+x.linked)].join('|');
        chains.set(signature,{direction,firstGap,gapStep,chain});
-       if(chains.size>=180)break searchCandidates;
+
       }
      }
     }
@@ -1162,8 +1163,8 @@ async function runSaturdayChainAll(){
   }).join('');
   return '<section class="repeat-market-group"><div class="repeat-card-head"><span class="repeat-pattern-name">'+esc(item.market.name)+'</span><span class="repeat-pattern-status">'+item.chains.length+' MATCHING CHAINS</span></div>'+cards+'</section>';
  }).join('');
- $('count').textContent=total+' qualifying chains · '+selectedMarket.name+(scanLimited?' · scan capped at 50,000 checks':total>=180?' · showing first 180 candidates':'');
- $('tableArea').innerHTML='<div class="chart-title-band">'+esc(selectedMarket.name.toUpperCase())+' — SATURDAY MAIN +10 / LINKED +11 OR −11</div><div class="chart-hint">Main Jodi must occur on Saturday and advance +10 each time (00–99 wrap). The linked Jodi must advance consistently by +11 or −11 in any weekday column. Gap order: smallest first. Gaps may repeat or increase by a fixed step (+1 to +8). Irregular gaps are excluded. At least 3 verified pairs are required. The mobile scan is capped at 50,000 candidate checks to prevent freezing; a capped scan is partial. These are historical matches, not predictions.</div><div class="repeat-pattern-list">'+sections+'</div>';
+ $('count').textContent=total+' qualifying chains · '+selectedMarket.name+' · '+candidatesChecked.toLocaleString()+' checks completed';
+ $('tableArea').innerHTML='<div class="chart-title-band">'+esc(selectedMarket.name.toUpperCase())+' — SATURDAY MAIN +10 / LINKED +11 OR −11</div><div class="chart-hint">Main Jodi must occur on Saturday and advance +10 each time (00–99 wrap). The linked Jodi must advance consistently by +11 or −11 in any weekday column. Gap order: smallest first. Gaps may repeat or increase by a fixed step (+1 to +8). Irregular gaps are excluded. At least 3 verified pairs are required. Search progress is updated while the complete selected-market archive is checked. These are historical matches, not predictions.</div><div class="repeat-pattern-list">'+sections+'</div>';
 }
 function renderChart(){
  const stats=$('targetStats');
