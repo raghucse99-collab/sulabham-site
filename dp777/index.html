@@ -1078,7 +1078,7 @@ function matchesChartSearch(row,query){
 }
 function updateCurrentChartLabel(){const market=markets.find(m=>m.id===selected);const label=$('currentChartLabel');if(!label||!market)return;const type=({jodi:'Jodi Chart',panel:'Panel Chart','target-linked':'Number+n Search','reverse-chain':'Reverse Number+n Chain','friday-monday':'Friday–Monday Progression',repeat:'Repeat Logic',linked:'Linked Jodi Logic','monday-00':'Monday 00 Progression'})[view]||'Jodi Chart';label.textContent=market.name;}
 
-function isOriginalSaturdayExample(market,rows,c){return market.id==='sridevi'&&c.direction===-1&&c.firstGap===6&&c.gapStep===0&&c.chain.length>=4&&c.chain[0].main==='44'&&c.chain[0].linked==='88'&&String(rows[c.chain[0].mainIndex]?.date||'').startsWith('25/12/2023')&&c.chain.slice(0,4).map(x=>x.main+':'+x.linked).join('|')==='44:88|54:77|64:66|74:55';}
+function isOriginalSaturdayExample(market,rows,c){return (market.id==='sridevi-night'||market.id==='sridevi')&&c.direction===-1&&c.firstGap===6&&c.gapStep===0&&c.chain.length>=4&&c.chain[0].main==='44'&&c.chain[0].linked==='88'&&String(rows[c.chain[0].mainIndex]?.date||'').startsWith('25/12/2023')&&c.chain.slice(0,4).map(x=>x.main+':'+x.linked).join('|')==='44:88|54:77|64:66|74:55';}
 async function runSaturdayChainAll(){
  const selectedMarket=markets.find(m=>m.id===selected);
  if(!selectedMarket){$('tableArea').innerHTML='<div class="empty">Select a market first.</div>';return;}
