@@ -2401,52 +2401,54 @@ document.querySelectorAll('.today-actions button').forEach(b=>b.addEventListener
 async function runMonday00LinkSearch(){
  const market=markets.find(m=>m.id===selected);
  $('targetStats').hidden=true;
- $('chartTitle').textContent=(market?.name||'Selected chart')+' · Monday 00 Same / Reverse';
- $('chartDesc').textContent='Start at Monday 00 and check every following weekly row in order';
- $('count').textContent='Checking Monday 00 occurrences…';
+ $('chartTitle').textContent=(market?.name||'Selected chart')+' · Monday 00 Linked Row Search';
+ $('chartDesc').textContent='Use only the first Monday 00 row as the reference; compare at increasing row offsets';
+ $('count').textContent='Checking Monday 00 linked rows…';
  $('tableArea').innerHTML='<div class="empty">Checking the selected chart history…</div>';
  try{
   const parsed=await fetchData(selected);
   const key=chartKeyFor(selected),raw=parsed.charts?.[key]?.rows||[];
   const rows=sortOldestFirst(collapseChartWeeks(raw));
-  const valid=v=>/^\d{2}$/.test(String(v??'').trim());
+  const valid=v=>/^\\d{2}$/.test(String(v??'').trim());
   const reverse=v=>String(v).split('').reverse().join('');
   const days=selected==='milan-night'?['Mon','Tue','Wed','Thu','Fri','Sat']:['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
   const anchors=[];
   rows.forEach((row,index)=>{if(String(row['Mon Jodi']??'').trim()==='00')anchors.push({row,index});});
-  const pairs=[];
-  for(let i=0;i+1<anchors.length;i++){
-   const first=anchors[i],next=anchors[i+1],source=[];
+  const sequences=[];
+  for(let i=0;i<anchors.length;i++){
+   const first=anchors[i],source=[];
    for(const day of days.slice(1)){const v=String(first.row[day+' Jodi']??'').trim();if(valid(v))source.push({value:v,day});}
-   const compareRows=[];
-   for(let index=first.index;index<=next.index+1&&index<rows.length;index++){
-    const row=rows[index],isFirst=index===first.index,isNext=index===next.index,isAfter=index===next.index+1;
-    const values=days.map(day=>({day,value:String(row[day+' Jodi']??'').trim()})).filter(x=>valid(x.value));
+   if(!source.length)continue;
+   const steps=[];
+   for(let j=i+1;j<anchors.length;j++){
+    const anchor=anchors[j],offset=j-i,targetIndex=anchor.index+offset,target=rows[targetIndex];
+    if(!target)continue;
+    const values=days.map(day=>({day,value:String(target[day+' Jodi']??'').trim()})).filter(x=>valid(x.value));
     const matches=[];
-    if(!isFirst&&!isAfter)for(const t of values){
+    for(const t of values){
      const found=source.filter(x=>x.value===t.value||reverse(x.value)===t.value);
      if(found.length)matches.push({...t,type:found.some(x=>x.value===t.value)?'Same':'Reverse',source:found.map(x=>x.value+' ('+x.day+')')});
     }
-    compareRows.push({row,index,isFirst,isNext,isAfter,values,matches});
+    steps.push({anchor,offset,target,targetIndex,matches});
    }
-   pairs.push({first,next,source,compareRows});
+   if(steps.length)sequences.push({first,source,steps});
   }
-  const html=pairs.map((p,i)=>{
-   const cards=p.compareRows.map((entry,n)=>{
-    const label=entry.isFirst?'FIRST MONDAY 00 — REFERENCE':entry.isNext?'NEXT MONDAY 00 — FOUND IN SEQUENCE':entry.isAfter?'ROW AFTER NEXT MONDAY 00':'WEEK +'+(entry.index-p.first.index);
-    const matchMap=new Map(entry.matches.map(m=>[m.day+'|'+m.value,m]));
-    const cells=days.map(day=>{const v=String(entry.row[day+' Jodi']??'').trim(),hit=matchMap.get(day+'|'+v);return '<div class="m00-step-cell '+(hit?'m00-hit':'')+'"><small>'+day+'</small><strong>'+(valid(v)?esc(v):'—')+'</strong>'+(hit?'<em>'+hit.type+'</em>':'')+'</div>';}).join('');
-    return '<div class="m00-step-card"><div class="m00-step-title">ROW '+(n+1)+' — '+label+'<small>'+esc(entry.row.date||'')+'</small><span class="m00-row-match-count">'+entry.matches.length+' matches</span></div><div class="m00-step-days">'+cells+'</div></div>';
+  const html=sequences.map((p,i)=>{
+   const sourceText=p.source.map(x=>x.value+' '+x.day).join(' · ');
+   const stepCards=p.steps.map((step,n)=>{
+    const matchMap=new Map(step.matches.map(m=>[m.day+'|'+m.value,m]));
+    const cells=days.map(day=>{const v=String(step.target[day+' Jodi']??'').trim(),hit=matchMap.get(day+'|'+v);return '<div class="m00-step-cell '+(hit?'m00-hit':'')+'"><small>'+day+'</small><strong>'+(valid(v)?esc(v):'—')+'</strong>'+(hit?'<em>'+hit.type+'</em>':'')+'</div>';}).join('');
+    return '<div class="m00-step-card"><div class="m00-step-title">CHECK '+(n+1)+' — NEXT MONDAY 00, THEN +'+step.offset+' ROW'+(step.offset===1?'':'S')+'<small>Monday 00: '+esc(step.anchor.row.date||'')+' · Compared row: '+esc(step.target.date||'')+'</small><span class="m00-row-match-count">'+step.matches.length+' matches</span></div><div class="m00-step-days">'+cells+'</div>'+(step.matches.length?'<div class="chart-hint"><b>Matches against first row:</b> '+esc(step.matches.map(m=>m.value+' '+m.day+' ('+m.type+') ← '+m.source.join(', ')).join(' · '))+'</div>':'')+'</div>';
    }).join('');
-   const total=p.compareRows.reduce((sum,r)=>sum+r.matches.length,0);
-   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>MONDAY 00 SEQUENCE '+(i+1)+'</strong><span>'+total+' matches across '+p.compareRows.length+' rows</span></div><div class="repeat-watch"><b>Reference Monday 00: '+esc(p.first.row.date||'')+'</b><div>Next Monday 00: '+esc(p.next.row.date||'')+'</div><small>Every weekly row is displayed in order (+1 week each row). The reference Jodis are compared with each row; exact and reversed Jodis are highlighted. The row after the next Monday 00 is also shown.</small></div><div class="chart-hint"><b>Reference Jodis (Tuesday–Sunday):</b> '+esc(p.source.map(x=>x.value+' '+x.day).join(' · ')||'No published Jodis')+'</div><div class="m00-steps">'+cards+'</div></section>';
+   const total=p.steps.reduce((n,x)=>n+x.matches.length,0);
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>MONDAY 00 SEQUENCE '+(i+1)+'</strong><span>'+total+' matches · '+p.steps.length+' checks</span></div><div class="repeat-watch"><b>FIRST MONDAY 00 — REFERENCE ROW</b><div>'+esc(p.first.row.date||'')+'</div><small>Only this first row’s Tuesday–Sunday Jodis are used for every comparison in this sequence.</small></div><div class="chart-hint"><b>Reference Jodis:</b> '+esc(sourceText)+'</div><div class="m00-steps">'+stepCards+'</div></section>';
   }).join('');
-  const total=pairs.reduce((sum,p)=>sum+p.compareRows.reduce((n,r)=>n+r.matches.length,0),0);
-  $('count').textContent=anchors.length+' Monday 00 anchors · '+pairs.length+' sequences · '+total+' same/reverse matches';
-  $('tableArea').innerHTML='<div class="chart-title-band">'+esc(market?.name?.toUpperCase()||'SELECTED CHART')+' — MONDAY 00 WEEK-BY-WEEK SAME / REVERSE SEARCH</div><div class="chart-hint">No skipping weeks: start from the first Monday 00 row, then show every next row in historical order (+1 week). Compare each row against the reference row’s Tuesday–Sunday Jodis. The next Monday 00 appears wherever it actually occurs, followed by the row below it.</div>'+(html||'<div class="empty">No consecutive Monday 00 anchors found.</div>');
+  const total=sequences.reduce((sum,p)=>sum+p.steps.reduce((n,x)=>n+x.matches.length,0),0);
+  $('count').textContent=anchors.length+' Monday 00 anchors · '+sequences.length+' reference sequences · '+total+' matches';
+  $('tableArea').innerHTML='<div class="chart-title-band">'+esc(market?.name?.toUpperCase()||'SELECTED CHART')+' — FIRST-ROW SAME / REVERSE JODI SEARCH</div><div class="chart-hint">Rule: keep the first Monday 00 row as the only reference. At the next Monday 00, check the row +1. At the following Monday 00, check the row +2. Continue with +3, +4, and so on. Every checked row is compared only with the first reference row; same and reversed Jodis count. Missing values are shown as dashes, never invented.</div>'+(html||'<div class="empty">No Monday 00 sequences with enough following rows found.</div>');
  }catch(e){
   $('count').textContent='Search failed';
-  $('tableArea').innerHTML='<div class="empty">Could not run Monday 00 same/reverse search: '+esc(e.message||String(e))+'</div>';
+  $('tableArea').innerHTML='<div class="empty">Could not run Monday 00 linked-row search: '+esc(e.message||String(e))+'</div>';
  }
 }
 document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
