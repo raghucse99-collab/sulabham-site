@@ -650,6 +650,13 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
 
 /* Mobile-first repeat analysis; avoid desktop-width overflow */
 .repeat-page{width:100%;max-width:100%;box-sizing:border-box;padding:8px;overflow:hidden;font-family:system-ui,Arial,sans-serif}.repeat-page h3{margin:0;padding:12px 8px;background:#263e91;color:white;text-align:center;font-size:17px;line-height:1.35;overflow-wrap:anywhere}.repeat-explain{font-size:13px;line-height:1.55;padding:8px;margin:0}.repeat-pattern-card{display:block;width:100%;box-sizing:border-box;margin:12px 0;border:2px solid #7c3aed;border-radius:12px;overflow:hidden;background:white}.repeat-card-head{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:11px;background:#ede9fe;color:#312e81;font-size:15px;font-weight:900}.repeat-card-head strong{font-size:17px}.repeat-watch{background:#dcfce7;color:#14532d;padding:12px;font-size:15px;line-height:1.7}.repeat-watch strong{font-size:18px;font-weight:950;overflow-wrap:anywhere}.repeat-watch small{display:block;color:#334155;font-size:11px}.repeat-steps{padding:7px}.repeat-step{display:grid;grid-template-columns:58px 42px 1fr auto;align-items:center;gap:5px;padding:8px 4px;border-bottom:1px solid #e5e7eb;font-size:12px;font-weight:750}.repeat-step-num{font-size:10px;color:#4338ca}.repeat-step-jodi{background:#fce7f3;color:#9d174d;border:2px solid #db2777;border-radius:5px;text-align:center;font-size:18px;font-weight:950}.repeat-step>b:last-child{color:#1d4ed8;font-size:12px}.repeat-history{margin:8px;border:1px solid #a5b4fc;border-radius:7px;overflow:hidden}.repeat-chart-title{padding:12px;background:#dbeafe;color:#1e3a8a;font-size:13px;font-weight:900}.repeat-chart-scroll{max-width:100%;overflow-x:auto}.repeat-weekly-chart{width:100%;min-width:0;table-layout:fixed;border-collapse:collapse;font-size:11px}.repeat-weekly-chart th{background:#312e81;color:#fff;padding:6px 1px}.repeat-weekly-chart td{padding:7px 1px;text-align:center;border:1px solid #e5e7eb;overflow-wrap:anywhere}.repeat-weekly-chart .repeat-week-date{width:66px;min-width:66px;max-width:66px;white-space:nowrap;font-size:9px;background:#f5f3ff;line-height:1.2;padding:5px 1px}.repeat-weekly-chart .repeat-week-date b{display:block;font-size:10px}.repeat-weekly-chart .repeat-week-date small{display:block;white-space:nowrap;font-size:7px;letter-spacing:-.2px;line-height:1.15;white-space:normal;overflow-wrap:normal}.repeat-week-date small{display:block;font-size:8px}.repeat-weekly-chart .repeat-hit{background:#fce7f3!important;color:#9d174d!important;outline:2px solid #db2777;outline-offset:-2px;font-size:15px;font-weight:950}@media(max-width:520px){.repeat-page{padding:4px}.repeat-step{grid-template-columns:45px 38px 1fr 54px;font-size:11px;gap:3px}.repeat-step-jodi{font-size:16px}.repeat-step>b:last-child{font-size:10px}.repeat-weekly-chart{font-size:10px}.repeat-weekly-chart .repeat-week-date{width:66px;font-size:8px}.repeat-week-date small{font-size:7px}}
+/* Reverse Number+n charts: preserve the original full-week table without clipped/overlapping columns. */
+.reverse-number-chart-wrap{display:block;width:100%;max-width:100%;overflow-x:hidden!important;overflow-y:hidden;box-sizing:border-box}
+.reverse-number-week-table{display:table!important;width:100%!important;min-width:0!important;max-width:100%!important;table-layout:fixed!important;border-collapse:collapse!important;box-sizing:border-box}
+.reverse-number-week-table col{width:auto}
+.reverse-number-week-table th,.reverse-number-week-table td{width:auto!important;min-width:0!important;max-width:none!important;padding:7px 2px!important;box-sizing:border-box;white-space:normal!important;overflow-wrap:anywhere!important;text-align:center!important}
+.reverse-number-week-table .repeat-week-date{width:18%!important;min-width:0!important;max-width:none!important;font-size:9px!important;line-height:1.15!important}
+.reverse-number-week-table .repeat-week-date small{white-space:normal!important;overflow-wrap:anywhere!important;font-size:8px!important}
 /* Reverse Number+n: keep its full weekday table in its own horizontal scroll area. */
 .number-n-reverse-scroll{display:block;width:100%;max-width:100%;overflow-x:auto!important;overflow-y:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}
 .number-n-reverse-table{border-collapse:collapse!important;table-layout:fixed!important}
@@ -1569,7 +1576,7 @@ function renderChart(){
     hits.get(x.mondayIndex).set('Mon',x.monday);
    });
    const days=['Mon','Tue','Wed','Thu','Fri','Sat'];
-   const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+days.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:last-first+1},(_,k)=>first+k).map(ix=>{
+   const table='<div class="repeat-chart-scroll reverse-number-chart-wrap"><table class="repeat-weekly-chart reverse-number-week-table"><colgroup><col style="width:18%">'+repeatDays.map(()=>'<col style="width:'+(82/repeatDays.length)+'%">').join('')+'</colgroup><thead><tr><th>Week</th>'+repeatDays.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+Array.from({length:last-first+1},(_,k)=>first+k).map(ix=>{
     const row=progressionRows[ix],marked=hits.get(ix)||new Map();
     return '<tr class="'+(marked.size?'repeat-occurrence-row':'')+'"><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>'+esc(row.date||'')+'</small></td>'+days.map(d=>{
      const v=String(row[d+' Jodi']??'').trim(),hit=marked.get(d)===v;
@@ -1712,7 +1719,7 @@ function renderChart(){
     const ix=first.index+k,row=entry.row;
     const dateParts=String(row.date||'').match(/(\d{1,2})[-/](\d{1,2})[-/](\d{4})/g)||[];
     const shortDate=dateParts.slice(0,2).map(v=>{const q=v.split(/[-/]/);return q[0].padStart(2,'0')+'/'+q[1]+'/'+q[2].slice(-2);}).join('<br>');
-    return '<tr><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>Chart row '+(entry.sourceIndex+1)+'<br>'+(shortDate||esc(row.date||''))+'</small></td>'+days.map(day=>{
+    return '<tr><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>Chart row '+(entry.sourceIndex+1)+'<br>'+(shortDate||esc(row.date||''))+'</small></td>'+repeatDays.map(day=>{
      const v=String(row[day+' Jodi']??'').trim(),hit=marks.get(ix)?.get(day)?.has(v);
      return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(v)?(hit?'<strong>'+esc(v)+'</strong>':esc(v)):'·')+'</td>';
     }).join('')+'</tr>';
@@ -1766,7 +1773,7 @@ function renderChart(){
    });
    const linkRows=group.matches.map((x,k)=>'<div class="repeat-step"><b class="repeat-step-num">లింక్ '+(k+1)+'</b><strong class="repeat-step-jodi">'+esc(x.sourceJodi)+' → '+esc(x.reverseJodi)+'</strong><span>'+esc(x.sourceDay)+' · '+esc(x.source.date||'')+' → '+esc(x.targetDay)+' · '+esc(x.target.date||'')+'</span><b>గ్యాప్ +'+targetSearch.offset+'</b></div>').join('');
    const tableRows=targetSearchRows.slice(group.sourceIndex,group.targetIndex+1);
-   const table='<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th>Week</th>'+repeatDays.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+tableRows.map((row,k)=>{
+   const table='<div class="repeat-chart-scroll reverse-number-chart-wrap"><table class="repeat-weekly-chart reverse-number-week-table"><colgroup><col style="width:18%">'+repeatDays.map(()=>'<col style="width:'+(82/repeatDays.length)+'%">').join('')+'</colgroup><thead><tr><th>Week</th>'+repeatDays.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+tableRows.map((row,k)=>{
     const ix=group.sourceIndex+k,item=targetSearchRowsWithSource[ix],rowMarks=marks.get(ix);
     const dateParts=String(row.date||'').match(/(\d{1,2})[-/](\d{1,2})[-/](\d{4})/g)||[];
     const shortDate=dateParts.slice(0,2).map(v=>{const q=v.split(/[-/]/);return q[0].padStart(2,'0')+'/'+q[1].padStart(2,'0')+'/'+q[2].slice(-2);}).join('<br>');
