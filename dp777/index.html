@@ -2561,6 +2561,13 @@ async function runMonday00LinkSearch(){
 }
 document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
  view=t.dataset.view;
+ // Analysis tabs own their day selection; clear any stale weekday-pattern filter
+ // left behind by a previous chart search. Preserve the typed Number+n query.
+ if(['target-linked','reverse-number','reverse-chain'].includes(view)){
+  const q=String($('search').value||'').trim();
+  if(/^\d{1,2}\s*\+\s*\d{1,2}$/.test(q))lastNumberNQuery=q;
+  if($('daySearch').value==='monday-00'||$('daySearch').value==='repeat-gap'||$('daySearch').value==='linked-increasing'||$('daySearch').value==='mon-wed'||$('daySearch').value==='tue-thu'||$('daySearch').value==='mon-tue-repeat'||$('daySearch').value==='mon-tue-reverse'||$('daySearch').value==='tue-mon-reverse')$('daySearch').value='all';
+ }
  document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.view===view));
  if(view==='monday-00-link'){
   const openTool=$('openDigitTool');if(openTool)openTool.hidden=true;
