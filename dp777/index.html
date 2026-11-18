@@ -1018,11 +1018,13 @@ function parseWeekStart(row){
 }
 function sortOldestFirst(rows){return rows.slice().sort((a,b)=>{
  const da=parseWeekStart(a.date),db=parseWeekStart(b.date);
- const ta=da?Date.parse(da+'T00:00:00Z'):NaN,tb=db?Date.parse(db+'T00:00:00Z'):NaN;
- if(!Number.isFinite(ta)&&!Number.isFinite(tb))return 0;
- if(!Number.isFinite(ta))return 1;
- if(!Number.isFinite(tb))return -1;
- return ta-tb;
+ // parseWeekStart already returns a Unix timestamp in milliseconds.
+ // Compare those timestamps directly; parsing them again as date strings
+ // makes the comparator return NaN and leaves reverse-ordered archives unsorted.
+ if(!Number.isFinite(da)&&!Number.isFinite(db))return 0;
+ if(!Number.isFinite(da))return 1;
+ if(!Number.isFinite(db))return -1;
+ return da-db;
 });}
 function rowsFor(){let c=data.charts?.[chartKeyFor(selected)];return Array.isArray(c?.rows)?sortOldestFirst(collapseChartWeeks(c.rows)):[];}
 function targetJodiSearch(rows, query, activeDays=['Mon','Tue','Wed','Thu','Fri','Sat','Sun']){
