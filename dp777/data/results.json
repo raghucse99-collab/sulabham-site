@@ -5,31 +5,17 @@
   "latest_results": {
     "time-bazar": {
       "name": "Time Bazar",
-      "result": "245-1",
+      "result": "245-11-669",
       "source": "https://dpbossss.com/",
       "source_label": "TIME BAZAR",
-      "result_changed_at": "2026-11-18T08:04:31+00:00"
+      "result_changed_at": "2026-11-18T10:13:48+00:00"
     },
     "milan-day": {
       "name": "Milan Day",
-      "result": "124-79-270",
+      "result": "479-0",
       "source": "https://dpbossss.com/",
       "source_label": "MILAN DAY",
-      "result_changed_at": "2026-11-17T11:48:13+00:00"
-    },
-    "rajdhani-day": {
-      "name": "Rajdhani Day",
-      "result": "129-23-157",
-      "source": "https://dpbossss.com/",
-      "source_label": "RAJDHANI DAY",
-      "result_changed_at": "2026-11-17T14:51:14+00:00"
-    },
-    "kalyan": {
-      "name": "Kalyan",
-      "result": "135-92-147",
-      "source": "https://dpbossss.com/",
-      "source_label": "KALYAN",
-      "result_changed_at": "2026-11-17T14:51:14+00:00"
+      "result_changed_at": "2026-11-18T10:13:48+00:00"
     },
     "milan-night": {
       "name": "Milan Night",
@@ -74,9 +60,9 @@
       "result_changed_at": "2026-11-17T14:51:14+00:00"
     }
   },
-  "live_fetched_at": "2026-11-18T08:04:31+00:00",
+  "live_fetched_at": "2026-11-18T10:13:48+00:00",
   "live_source": "https://dpbossss.com/",
-  "live_status": "ok",
+  "live_status": "partial",
   "charts": {
     "rajdhani-day": {
       "title": "Rajdhani Day historical records",
