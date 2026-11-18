@@ -1,0 +1,1625 @@
+{
+ "date": "2026-11-18",
+ "day": {
+  "en": "Wednesday, 18 November 2026",
+  "te": "బుధవారం, 18 నవంబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "apsemi",
+   "cat": "ap",
+   "title": {
+    "en": "AP amends its Semiconductor & Display Fab Policy 4.0 to match ISM Semicon 2.0; plans a 5,000-acre Semiconductor Park at Tirupati",
+    "te": "ISM సెమీకాన్ 2.0కు అనుగుణంగా ఏపీ సెమీకండక్టర్ & డిస్‌ప్లే ఫ్యాబ్ పాలసీ 4.0 సవరణ; తిరుపతిలో 5,000 ఎకరాల సెమీకండక్టర్ పార్క్"
+   },
+   "pts": [
+    {
+     "en": "Through a Government Order, AP amended its Semiconductor & Display Fab Policy 4.0 so that it fits the Centre's second-phase chip scheme, ISM Semicon 2.0.",
+     "te": "ప్రభుత్వ ఉత్తర్వు (G.O.) ద్వారా ఏపీ తన సెమీకండక్టర్ & డిస్‌ప్లే ఫ్యాబ్ పాలసీ 4.0ను సవరించింది — కేంద్రం రెండో దశ చిప్ పథకం ISM సెమీకాన్ 2.0కు సరిపోయేలా."
+    },
+    {
+     "en": "The State will match 100% of the Centre's capital support. So a silicon fab gets 80% of eligible capital cost (40% Centre + 40% AP) — higher than Odisha and Tamil Nadu (65%), UP and MP (60%) and Gujarat (56%).",
+     "te": "కేంద్రం ఇచ్చే మూలధన సాయానికి సమానంగా (100%) రాష్ట్రమూ ఇస్తుంది. అంటే సిలికాన్ ఫ్యాబ్‌కు అర్హ మూలధన వ్యయంలో 80% (కేంద్రం 40% + ఏపీ 40%) — ఒడిశా, తమిళనాడు (65%), యూపీ, ఎంపీ (60%), గుజరాత్ (56%) కంటే ఎక్కువ."
+    },
+    {
+     "en": "Compound semiconductor, display and advanced packaging units get 70%; legacy packaging units 50%. State incentives are capped at 50% of eligible fixed capital; support from all sources at 90%.",
+     "te": "కాంపౌండ్ సెమీకండక్టర్, డిస్‌ప్లే, అడ్వాన్స్‌డ్ ప్యాకేజింగ్ యూనిట్లకు 70%; పాత (legacy) ప్యాకేజింగ్‌కు 50%. రాష్ట్ర ప్రోత్సాహకాలు అర్హ స్థిర మూలధనంలో 50% మించవు; అన్ని వనరుల నుంచి కలిపి 90% మించదు."
+    },
+    {
+     "en": "New bodies: APSGIC (single contact point for investors; Oversight Council chaired by the CM), AP-SRIC research centre (starts at IIT-Tirupati, photonics first) and AP-STCC training centre (₹10,000 per trainee per month for 6 months).",
+     "te": "కొత్త సంస్థలు: APSGIC (పెట్టుబడిదారులకు ఒకే సంప్రదింపు కేంద్రం; సీఎం అధ్యక్షతన పర్యవేక్షణ మండలి), AP-SRIC పరిశోధన కేంద్రం (IIT-తిరుపతిలో ప్రారంభం, మొదట ఫోటోనిక్స్), AP-STCC శిక్షణ కేంద్రం (ఒక్కో శిక్షణార్థికి నెలకు ₹10,000, 6 నెలలు)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Silicon fab support",
+      "te": "సిలికాన్ ఫ్యాబ్ సాయం"
+     },
+     {
+      "en": "80% (Centre 40% + AP 40%)",
+      "te": "80% (కేంద్రం 40% + ఏపీ 40%)"
+     }
+    ],
+    [
+     {
+      "en": "Semiconductor Park",
+      "te": "సెమీకండక్టర్ పార్క్"
+     },
+     {
+      "en": "~5,000 acres, Tirupati",
+      "te": "~5,000 ఎకరాలు, తిరుపతి"
+     }
+    ],
+    [
+     {
+      "en": "Coverage",
+      "te": "పరిధి"
+     },
+     {
+      "en": "All 10 Semicon 2.0 categories, 6 pillars",
+      "te": "సెమీకాన్ 2.0 లోని 10 విభాగాలు, 6 స్తంభాలు"
+     }
+    ],
+    [
+     {
+      "en": "Minister",
+      "te": "మంత్రి"
+     },
+     {
+      "en": "Nara Lokesh (HRD, IT & Electronics)",
+      "te": "నారా లోకేశ్ (మానవ వనరులు, ఐటీ & ఎలక్ట్రానిక్స్)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: India Semiconductor Mission (ISM) works under MeitY. Know the terms: fab = makes chips on silicon wafers; ATMP/OSAT = assembly, testing and packaging of chips. Trap: the 80% is Centre + State together, not the State alone.",
+    "te": "స్టాటిక్ లింక్: ఇండియా సెమీకండక్టర్ మిషన్ (ISM) MeitY పరిధిలో పనిచేస్తుంది. పదాలు: ఫ్యాబ్ = సిలికాన్ వేఫర్లపై చిప్‌ల తయారీ; ATMP/OSAT = చిప్‌ల అసెంబ్లీ, పరీక్ష, ప్యాకేజింగ్. ట్రాప్: 80% అంటే కేంద్రం + రాష్ట్రం కలిపి, రాష్ట్రం ఒక్కటే కాదు."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Silicon fab capital support by State (%)",
+      "te": "రాష్ట్రాల వారీ సిలికాన్ ఫ్యాబ్ మూలధన సాయం (%)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Andhra Pradesh",
+        "te": "ఆంధ్రప్రదేశ్"
+       },
+       "v": 80,
+       "vl": "80%"
+      },
+      {
+       "t": {
+        "en": "Odisha",
+        "te": "ఒడిశా"
+       },
+       "v": 65,
+       "vl": "65%"
+      },
+      {
+       "t": {
+        "en": "Tamil Nadu",
+        "te": "తమిళనాడు"
+       },
+       "v": 65,
+       "vl": "65%"
+      },
+      {
+       "t": {
+        "en": "Uttar Pradesh",
+        "te": "ఉత్తర్ ప్రదేశ్"
+       },
+       "v": 60,
+       "vl": "60%"
+      },
+      {
+       "t": {
+        "en": "Madhya Pradesh",
+        "te": "మధ్యప్రదేశ్"
+       },
+       "v": 60,
+       "vl": "60%"
+      },
+      {
+       "t": {
+        "en": "Gujarat",
+        "te": "గుజరాత్"
+       },
+       "v": 56,
+       "vl": "56%"
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Where: Tirupati Semiconductor Park",
+      "te": "ఎక్కడ: తిరుపతి సెమీకండక్టర్ పార్క్"
+     },
+     "view": "ap",
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#1d4f91",
+     "pts": [
+      {
+       "ll": [
+        13.63,
+        79.42
+       ],
+       "t": {
+        "en": "Tirupati (park)",
+        "te": "తిరుపతి (పార్క్)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "The ~5,000-acre park will be run by a public-private park company; AP-SRIC starts at IIT-Tirupati and later moves here.",
+      "te": "~5,000 ఎకరాల పార్క్‌ను ప్రభుత్వ-ప్రైవేట్ పార్క్ కంపెనీ నిర్వహిస్తుంది; AP-SRIC మొదట IIT-తిరుపతిలో ప్రారంభమై తర్వాత ఇక్కడికి వస్తుంది."
+     },
+     "src": "cards/cad/2026-11-18/map-apsemi-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "IANS via Social News XYZ — Andhra Pradesh launches semiconductor policy; plans 5,000-acre Semiconductor Park, 18 Nov 2026",
+     "u": "https://www.socialnews.xyz/2026/11/18/andhra-pradesh-launches-semiconductor-policy-plans-5000-acre-semiconductor-park/"
+    },
+    {
+     "t": "IANS via Punjab Kesari — Andhra Pradesh launches semiconductor policy; plans 5,000-acre Semiconductor Park, 18 Nov 2026",
+     "u": "https://english.punjabkesari.com/india/andhra-pradesh-launches-semiconductor-policy-plans-5000-acre-semiconductor-park"
+    }
+   ]
+  },
+  {
+   "id": "akvan",
+   "cat": "ap",
+   "title": {
+    "en": "Cyclone Akvan becomes a Severe Cyclonic Storm; AIR (2:37 pm): likely to cross North AP–Yanam–South Odisha coast between Narsapur and Puri by Friday (20 Nov) noon",
+    "te": "అక్వాన్ 'తీవ్ర తుపాను'గా బలపడింది; AIR (మ. 2:37): శుక్రవారం (20 నవం) మధ్యాహ్నానికి నర్సాపూర్–పూరీ మధ్య ఉత్తర ఏపీ–యానాం–దక్షిణ ఒడిశా తీరం దాటే అవకాశం"
+   },
+   "pts": [
+    {
+     "en": "IMD: Severe Cyclonic Storm Akvan is over the central parts of the South and West-central Bay of Bengal, moving north-northwest.",
+     "te": "IMD: తీవ్ర తుపాను అక్వాన్ దక్షిణ, పశ్చిమ-మధ్య బంగాళాఖాతం మధ్య భాగాల్లో ఉంది; ఉత్తర-వాయవ్య దిశగా కదులుతోంది."
+    },
+    {
+     "en": "The afternoon update moved the likely crossing point north: between Narsapur (AP) and Puri (Odisha) by Friday noon, with winds of 90–100 km/h gusting to 110 km/h. (Earlier bulletins: Nellore–Tuni, then Nellore–Visakhapatnam.)",
+     "te": "మధ్యాహ్న అప్‌డేట్‌లో తీరం దాటే ప్రాంతం ఉత్తరానికి మారింది: శుక్రవారం మధ్యాహ్నానికి నర్సాపూర్ (ఏపీ)–పూరీ (ఒడిశా) మధ్య; గాలులు గంటకు 90–100 కి.మీ., గరిష్ఠం 110. (ముందటి బులెటిన్లు: నెల్లూరు–తుని, తర్వాత నెల్లూరు–విశాఖపట్నం.)"
+    },
+    {
+     "en": "Orange warning for heavy rain in Coastal Andhra Pradesh and Odisha till 20 Nov. Fishermen must not go into the Bay of Bengal till Friday. Rayalaseema, Tamil Nadu and Puducherry may get thunderstorms.",
+     "te": "కోస్తా ఆంధ్ర, ఒడిశాలో 20 వరకు భారీ వర్షాలకు ఆరెంజ్ హెచ్చరిక. శుక్రవారం వరకు మత్స్యకారులు బంగాళాఖాతంలోకి వెళ్లొద్దు. రాయలసీమ, తమిళనాడు, పుదుచ్చేరిలో ఉరుములతో వర్షాలు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Status (18 Nov)",
+      "te": "స్థితి (18 నవం)"
+     },
+     {
+      "en": "Severe Cyclonic Storm",
+      "te": "తీవ్ర తుపాను (SCS)"
+     }
+    ],
+    [
+     {
+      "en": "Likely crossing",
+      "te": "తీరం దాటే అవకాశం"
+     },
+     {
+      "en": "Narsapur–Puri, by noon 20 Nov",
+      "te": "నర్సాపూర్–పూరీ, 20 నవం మధ్యాహ్నానికి"
+     }
+    ],
+    [
+     {
+      "en": "Wind at crossing",
+      "te": "తీరం దాటేటప్పుడు గాలి"
+     },
+     {
+      "en": "90–100 km/h, gusts 110",
+      "te": "గంటకు 90–100, గరిష్ఠం 110 కి.మీ."
+     }
+    ],
+    [
+     {
+      "en": "Rain warning",
+      "te": "వర్ష హెచ్చరిక"
+     },
+     {
+      "en": "Orange — Coastal AP & Odisha",
+      "te": "ఆరెంజ్ — కోస్తా ఏపీ & ఒడిశా"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Concept: a forecast track changes as a cyclone moves — always quote the latest IMD bulletin. Colour codes: Green (no action) → Yellow (watch) → Orange (be prepared) → Red (take action). Trap: Narsapur is in West Godavari (AP), Puri is in Odisha — the stretch covers three areas: North AP, Yanam (Puducherry UT) and South Odisha.",
+    "te": "కాన్సెప్ట్: తుపాను కదిలే కొద్దీ అంచనా మార్గం మారుతుంది — ఎప్పుడూ తాజా IMD బులెటిన్ చెప్పాలి. రంగు కోడ్‌లు: ఆకుపచ్చ (చర్య అక్కర్లేదు) → పసుపు (గమనించండి) → ఆరెంజ్ (సిద్ధంగా ఉండండి) → ఎరుపు (చర్య తీసుకోండి). ట్రాప్: నర్సాపూర్ పశ్చిమ గోదావరి (ఏపీ), పూరీ ఒడిశాలో — ఈ తీరం మూడు ప్రాంతాలు: ఉత్తర ఏపీ, యానాం (పుదుచ్చేరి UT), దక్షిణ ఒడిశా."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Akvan: new likely crossing stretch",
+      "te": "అక్వాన్: కొత్తగా అంచనా వేసిన తీర ప్రాంతం"
+     },
+     "view": [
+      78.5,
+      11.0,
+      88.5,
+      21.0
+     ],
+     "hl": [
+      "Andhra Pradesh",
+      "Odisha"
+     ],
+     "hlc": "#9b2c2c",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        12.6,
+        85.6
+       ],
+       "t": {
+        "en": "Akvan (18 Nov, 2:30 am)",
+        "te": "అక్వాన్ (18 నవం, తె. 2:30)"
+       }
+      },
+      {
+       "ll": [
+        16.43,
+        81.7
+       ],
+       "t": {
+        "en": "Narsapur",
+        "te": "నర్సాపూర్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        19.81,
+        85.83
+       ],
+       "t": {
+        "en": "Puri",
+        "te": "పూరీ"
+       },
+       "a": "l"
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         12.6,
+         85.6
+        ],
+        [
+         17.5,
+         83.6
+        ]
+       ],
+       "dash": 1,
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "Centre position at 2:30 am IST on 18 Nov (12.6°N, 85.6°E). The arrow only shows the general NNW movement towards the Narsapur–Puri stretch named in the afternoon update.",
+      "te": "18 నవం తెల్లవారుజాము 2:30 కేంద్ర స్థానం (12.6°ఉ, 85.6°తూ). బాణం మధ్యాహ్న అప్‌డేట్‌లో చెప్పిన నర్సాపూర్–పూరీ తీరం వైపు ఉత్తర-వాయవ్య కదలికను మాత్రమే చూపుతుంది."
+     },
+     "src": "cards/cad/2026-11-18/map-akvan-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "AIR News — Cyclone Akvan intensifies into severe cyclonic storm; IMD forecasts heavy rainfall in coastal Andhra Pradesh and Odisha till Friday, 18 Nov 2026",
+     "u": "https://newsonair.gov.in/cyclone-akvan-intensifies-into-severe-cyclonic-storm-imd-forecasts-heavy-rainfall-in-costal-andhra-pradesh-and-odisha-till-friday/"
+    },
+    {
+     "t": "The Watchers — Cyclone Akvan to make landfall between Nellore and Visakhapatnam around noon on November 20 (IMD 2:30 am bulletin), 18 Nov 2026",
+     "u": "https://watchers.news/2026/11/18/cyclone-akvan-landfall-nellore-visakhapatnam-noon-november-20-2026/"
+    }
+   ]
+  },
+  {
+   "id": "suryaghar",
+   "cat": "schemes",
+   "title": {
+    "en": "PM Surya Ghar: Andhra Pradesh 4th in India with 7,39,260 rooftop solar systems",
+    "te": "PM సూర్య ఘర్: 7,39,260 రూఫ్‌టాప్ సోలార్ వ్యవస్థలతో దేశంలో ఏపీకి 4వ స్థానం"
+   },
+   "pts": [
+    {
+     "en": "Special Chief Secretary (Energy) K. Vijayanand said 7,39,260 rooftop systems were installed in AP under PM Surya Ghar: Muft Bijli Yojana as of 15 Nov 2026. Only Uttar Pradesh, Gujarat and Maharashtra are ahead.",
+     "te": "PM సూర్య ఘర్: ముఫ్త్ బిజ్లీ యోజన కింద 15 నవం 2026 నాటికి ఏపీలో 7,39,260 రూఫ్‌టాప్ వ్యవస్థలు ఏర్పాటయ్యాయని ఇంధన శాఖ స్పెషల్ చీఫ్ సెక్రటరీ కె. విజయానంద్ తెలిపారు. ఉత్తర్ ప్రదేశ్, గుజరాత్, మహారాష్ట్ర మాత్రమే ముందున్నాయి."
+    },
+    {
+     "en": "AP has about 13% of the 56.97 lakh households covered in India.",
+     "te": "దేశవ్యాప్తంగా కవర్ అయిన 56.97 లక్షల ఇళ్లలో ఏపీ వాటా సుమారు 13%."
+    },
+    {
+     "en": "About 69% (5,09,004 homes) came through the Utility-led Aggregation (ULA) model meant for SC/ST families — the discom installs the system; the rest (2,30,256) through the CAPEX model, where the household buys it and gets a subsidy.",
+     "te": "సుమారు 69% (5,09,004 ఇళ్లు) SC/ST కుటుంబాల కోసం ఉద్దేశించిన యుటిలిటీ-లెడ్ అగ్రిగేషన్ (ULA) మోడల్‌లో — డిస్కమ్ స్వయంగా అమర్చుతుంది; మిగతా 2,30,256 CAPEX మోడల్‌లో — ఇంటి యజమాని కొని సబ్సిడీ పొందుతారు."
+    },
+    {
+     "en": "Government buildings: 120.4 MW on 3,859 buildings; 2,932 welfare hostels/buildings to become 'Net Zero Healthy Campuses' by March 2027.",
+     "te": "ప్రభుత్వ భవనాలు: 3,859 భవనాలపై 120.4 MW; 2,932 సంక్షేమ భవనాలు మార్చి 2027 నాటికి 'నెట్ జీరో హెల్తీ క్యాంపస్‌లు'గా."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "AP installations (15 Nov)",
+      "te": "ఏపీ ఇన్‌స్టాలేషన్లు (15 నవం)"
+     },
+     {
+      "en": "7,39,260",
+      "te": "7,39,260"
+     }
+    ],
+    [
+     {
+      "en": "Top 3",
+      "te": "మొదటి 3"
+     },
+     {
+      "en": "UP, Gujarat, Maharashtra",
+      "te": "యూపీ, గుజరాత్, మహారాష్ట్ర"
+     }
+    ],
+    [
+     {
+      "en": "Discom with most homes",
+      "te": "ఎక్కువ ఇళ్లు ఉన్న డిస్కమ్"
+     },
+     {
+      "en": "APSPDCL — 2,00,196",
+      "te": "APSPDCL — 2,00,196"
+     }
+    ],
+    [
+     {
+      "en": "National target",
+      "te": "జాతీయ లక్ష్యం"
+     },
+     {
+      "en": "1 crore homes by March 2027",
+      "te": "మార్చి 2027 నాటికి 1 కోటి ఇళ్లు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: PM Surya Ghar: Muft Bijli Yojana (launched Feb 2024, Ministry of New & Renewable Energy) — free electricity up to 300 units/month through rooftop solar. Trap: AP is 4th, not 1st; and ULA ≠ CAPEX.",
+    "te": "స్టాటిక్ లింక్: PM సూర్య ఘర్: ముఫ్త్ బిజ్లీ యోజన (ఫిబ్ర 2024, నూతన & పునరుత్పాదక ఇంధన మంత్రిత్వ శాఖ) — రూఫ్‌టాప్ సోలార్‌తో నెలకు 300 యూనిట్ల వరకు ఉచిత విద్యుత్. ట్రాప్: ఏపీ 4వ స్థానం, 1వది కాదు; ULA ≠ CAPEX."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Two ways to get rooftop solar",
+      "te": "రూఫ్‌టాప్ సోలార్ పొందే రెండు మార్గాలు"
+     },
+     "a": {
+      "h": {
+       "en": "ULA model — 5,09,004 (68.9%)",
+       "te": "ULA మోడల్ — 5,09,004 (68.9%)"
+      },
+      "l": [
+       {
+        "en": "Discom installs",
+        "te": "డిస్కమ్ అమర్చుతుంది"
+       },
+       {
+        "en": "For SC/ST families",
+        "te": "SC/ST కుటుంబాలకు"
+       },
+       {
+        "en": "1,202 MW, 84.7% done",
+        "te": "1,202 MW, 84.7% పూర్తి"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "CAPEX model — 2,30,256 (31.1%)",
+       "te": "CAPEX మోడల్ — 2,30,256 (31.1%)"
+      },
+      "l": [
+       {
+        "en": "Household buys system",
+        "te": "ఇంటివారు కొంటారు"
+       },
+       {
+        "en": "Gets Central subsidy",
+        "te": "కేంద్ర సబ్సిడీ వస్తుంది"
+       },
+       {
+        "en": "2.15 lakh+ claims processed",
+        "te": "2.15 లక్షలకు పైగా క్లెయిమ్‌లు"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "PTI via ThePrint — Andhra ranks fourth in country in PM-Surya Ghar rooftop solar installations: Official, 17 Nov 2026",
+     "u": "https://theprint.in/india/andhra-ranks-fourth-in-country-in-pm-surya-ghar-rooftop-solar-installations-official/3101447/"
+    },
+    {
+     "t": "The Hans India — AP ranks fourth nationally in PM-Surya Ghar scheme, 18 Nov 2026",
+     "u": "https://www.thehansindia.com/andhra-pradesh/ap-ranks-fourth-nationally-in-pm-surya-ghar-scheme-1143216"
+    }
+   ]
+  },
+  {
+   "id": "eas",
+   "cat": "ir",
+   "title": {
+    "en": "21st East Asia Summit, Manila: PM calls for a free, open, rules-based Indo-Pacific and proposes four initiatives",
+    "te": "21వ తూర్పు ఆసియా సదస్సు, మనీలా: స్వేచ్ఛాయుత, నియమాల ఆధారిత ఇండో-పసిఫిక్ కోసం ప్రధాని పిలుపు; నాలుగు ప్రతిపాదనలు"
+   },
+   "pts": [
+    {
+     "en": "PM Narendra Modi addressed the 21st East Asia Summit (EAS) in Manila on 17 Nov. He called for a 'free, open, inclusive and rules-based Indo-Pacific' and safety of ships and seafarers in international waters.",
+     "te": "17 నవంబర్‌న మనీలాలో 21వ తూర్పు ఆసియా సదస్సు (EAS)లో ప్రధాని నరేంద్ర మోదీ ప్రసంగించారు. 'స్వేచ్ఛాయుత, బహిరంగ, సమ్మిళిత, నియమాల ఆధారిత ఇండో-పసిఫిక్'తో పాటు అంతర్జాతీయ జలాల్లో నౌకలు, నావికుల భద్రత కోరారు."
+    },
+    {
+     "en": "Four proposals: (1) Seafarers' Safety Initiative; (2) EAS Cyber Crime conference at the National Forensic Sciences University; (3) EAS Maritime Heritage Festival at Lothal; (4) EAS University Conclave at Nalanda.",
+     "te": "నాలుగు ప్రతిపాదనలు: (1) నావికుల భద్రత చొరవ; (2) నేషనల్ ఫోరెన్సిక్ సైన్సెస్ యూనివర్సిటీలో EAS సైబర్ నేరాల సదస్సు; (3) లోథాల్‌లో EAS సముద్ర వారసత్వ ఉత్సవం; (4) నలందాలో EAS విశ్వవిద్యాలయాల సమ్మేళనం."
+    },
+    {
+     "en": "He also spoke of the effect of conflicts on food, fuel and fertilizer security, backed peaceful solutions in Ukraine and West Asia, and named terrorism as a common threat.",
+     "te": "సంఘర్షణల వల్ల ఆహారం, ఇంధనం, ఎరువుల భద్రతపై ప్రభావం గురించి మాట్లాడారు; ఉక్రెయిన్, పశ్చిమాసియాలో శాంతియుత పరిష్కారానికి మద్దతు తెలిపారు; ఉగ్రవాదాన్ని ఉమ్మడి ముప్పుగా పేర్కొన్నారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Summit",
+      "te": "సదస్సు"
+     },
+     {
+      "en": "21st EAS, Manila, 17 Nov 2026",
+      "te": "21వ EAS, మనీలా, 17 నవం 2026"
+     }
+    ],
+    [
+     {
+      "en": "Host / Chair 2026",
+      "te": "ఆతిథ్యం / అధ్యక్షత 2026"
+     },
+     {
+      "en": "Philippines (Pres. Ferdinand R. Marcos)",
+      "te": "ఫిలిప్పీన్స్ (అధ్యక్షుడు ఫెర్డినాండ్ ఆర్. మార్కోస్)"
+     }
+    ],
+    [
+     {
+      "en": "2026 theme (Philippines chair)",
+      "te": "2026 థీమ్"
+     },
+     {
+      "en": "Navigating Our Future Together",
+      "te": "Navigating Our Future Together"
+     }
+    ],
+    [
+     {
+      "en": "2026 is",
+      "te": "2026"
+     },
+     {
+      "en": "ASEAN-India Year of Maritime Cooperation",
+      "te": "ASEAN-భారత్ సముద్ర సహకార సంవత్సరం"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: EAS began in 2005 (Kuala Lumpur); India is a founding member; 18 members = 10 ASEAN + India, China, Japan, South Korea, Australia, New Zealand, USA, Russia. Lothal (Gujarat) = Harappan dockyard; Nalanda (Bihar) = ancient university. Trap: EAS ≠ ASEAN-India Summit (23rd, held the same day).",
+    "te": "స్టాటిక్ లింక్: EAS 2005లో (కౌలాలంపూర్) ప్రారంభం; భారత్ వ్యవస్థాపక సభ్యదేశం; 18 సభ్యులు = 10 ASEAN + భారత్, చైనా, జపాన్, దక్షిణ కొరియా, ఆస్ట్రేలియా, న్యూజిలాండ్, అమెరికా, రష్యా. లోథాల్ (గుజరాత్) = హరప్పా నాటి డాక్‌యార్డ్; నలంద (బిహార్) = ప్రాచీన విశ్వవిద్యాలయం. ట్రాప్: EAS ≠ ASEAN-భారత్ సదస్సు (23వది, అదే రోజు)."
+   },
+   "pics": [
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "India's 4 proposals at EAS",
+      "te": "EASలో భారత్ 4 ప్రతిపాదనలు"
+     },
+     "c": {
+      "en": "21st EAS, Manila",
+      "te": "21వ EAS, మనీలా"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Sea",
+        "te": "సముద్రం"
+       },
+       "l": [
+        {
+         "en": "Seafarers' Safety Initiative",
+         "te": "నావికుల భద్రత చొరవ"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Cyber",
+        "te": "సైబర్"
+       },
+       "l": [
+        {
+         "en": "Cyber Crime conference",
+         "te": "సైబర్ నేరాల సదస్సు"
+        },
+        {
+         "en": "at NFSU",
+         "te": "NFSUలో"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Heritage",
+        "te": "వారసత్వం"
+       },
+       "l": [
+        {
+         "en": "Maritime Heritage Festival",
+         "te": "సముద్ర వారసత్వ ఉత్సవం"
+        },
+        {
+         "en": "Lothal, Gujarat",
+         "te": "లోథాల్, గుజరాత్"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Education",
+        "te": "విద్య"
+       },
+       "l": [
+        {
+         "en": "University Conclave",
+         "te": "విశ్వవిద్యాలయాల సమ్మేళనం"
+        },
+        {
+         "en": "Nalanda, Bihar",
+         "te": "నలంద, బిహార్"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB — Prime Minister addresses the 21st East Asia Summit in Manila, 17 Nov 2026",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2337431&reg=48&lang=2"
+    },
+    {
+     "t": "The Tribune (ANI) — PM Modi calls for rules-based Indo-Pacific, proposes maritime and cyber initiatives at 21st East Asia summit in Manila, 17 Nov 2026",
+     "u": "https://www.tribuneindia.com/news/east-asia-summit/pm-modi-calls-for-rules-based-indo-pacific-proposes-maritime-and-cyber-initiatives-at-21st-east-asia-summit-in-manila"
+    }
+   ]
+  },
+  {
+   "id": "samaveshi",
+   "cat": "polity",
+   "title": {
+    "en": "'Samaveshi Niti Sankalp': two-day Social Justice Ministry summit with States and UTs begins in New Delhi",
+    "te": "'సమావేశీ నీతి సంకల్ప్': రాష్ట్రాలు, UTలతో సామాజిక న్యాయ మంత్రిత్వ శాఖ రెండు రోజుల సదస్సు న్యూఢిల్లీలో ప్రారంభం"
+   },
+   "pts": [
+    {
+     "en": "The Ministry of Social Justice and Empowerment began a two-day departmental summit, 'Samaveshi Niti Sankalp' (inclusive policy resolve), in New Delhi on 18 Nov with officials of States and UTs.",
+     "te": "సామాజిక న్యాయం & సాధికారత మంత్రిత్వ శాఖ 18 నవంబర్‌న న్యూఢిల్లీలో రాష్ట్రాలు, UTల అధికారులతో 'సమావేశీ నీతి సంకల్ప్' (సమ్మిళిత విధాన సంకల్పం) రెండు రోజుల సదస్సు ప్రారంభించింది."
+    },
+    {
+     "en": "Aim: better Centre–State coordination so welfare schemes reach people, towards Viksit Bharat@2047.",
+     "te": "లక్ష్యం: సంక్షేమ పథకాలు ప్రజలకు చేరేలా కేంద్ర–రాష్ట్ర సమన్వయం పెంచడం — వికసిత్ భారత్@2047 దిశగా."
+    },
+    {
+     "en": "Four themes: drug-free India; scholarships through the One Nation, One Scholarship Portal; early intervention to reduce disability; Sugamya Bharat (accessible India).",
+     "te": "నాలుగు అంశాలు: మాదకద్రవ్య రహిత భారత్; 'వన్ నేషన్, వన్ స్కాలర్‌షిప్ పోర్టల్' ద్వారా స్కాలర్‌షిప్‌లు; వైకల్యం తగ్గించేందుకు ముందస్తు చికిత్స; సుగమ్య భారత్ (అందరికీ అందుబాటు భారత్)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Organiser",
+      "te": "నిర్వాహకులు"
+     },
+     {
+      "en": "Ministry of Social Justice & Empowerment",
+      "te": "సామాజిక న్యాయం & సాధికారత మంత్రిత్వ శాఖ"
+     }
+    ],
+    [
+     {
+      "en": "Dates / place",
+      "te": "తేదీలు / స్థలం"
+     },
+     {
+      "en": "18–19 Nov 2026, New Delhi",
+      "te": "18–19 నవం 2026, న్యూఢిల్లీ"
+     }
+    ],
+    [
+     {
+      "en": "Accessible India Campaign",
+      "te": "సుగమ్య భారత్ అభియాన్"
+     },
+     {
+      "en": "Launched 3 Dec 2015",
+      "te": "3 డిసెం 2015న ప్రారంభం"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: Article 41 (DPSP) — public assistance in disability; Rights of Persons with Disabilities Act, 2016 recognises 21 disabilities. 3 December = International Day of Persons with Disabilities. Trap: disability welfare is under this Ministry's Department of Empowerment of Persons with Disabilities, not the Health Ministry.",
+    "te": "స్టాటిక్ లింక్: ఆర్టికల్ 41 (ఆదేశిక సూత్రం) — వైకల్యంలో ప్రజా సహాయం; దివ్యాంగుల హక్కుల చట్టం 2016 — 21 రకాల వైకల్యాలు. డిసెంబర్ 3 = అంతర్జాతీయ దివ్యాంగుల దినోత్సవం. ట్రాప్: దివ్యాంగుల సంక్షేమం ఈ మంత్రిత్వ శాఖ దివ్యాంగుల సాధికారత విభాగం కిందే, ఆరోగ్య శాఖ కింద కాదు."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "How the summit works",
+      "te": "సదస్సు ఎలా పనిచేస్తుంది"
+     },
+     "items": [
+      {
+       "i": "🏛️",
+       "t": {
+        "en": "Centre: MoSJE",
+        "te": "కేంద్రం: MoSJE"
+       }
+      },
+      {
+       "i": "🤝",
+       "t": {
+        "en": "States & UTs officials",
+        "te": "రాష్ట్రాలు & UTల అధికారులు"
+       }
+      },
+      {
+       "i": "📋",
+       "t": {
+        "en": "4 themes discussed",
+        "te": "4 అంశాలపై చర్చ"
+       }
+      },
+      {
+       "i": "🎯",
+       "t": {
+        "en": "Schemes reach people",
+        "te": "పథకాలు ప్రజలకు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "AIR News — Ministry of Social Justice organises two-day 'Samaveshi Niti Sankalp' Summit in New Delhi, 18 Nov 2026",
+     "u": "https://newsonair.gov.in/ministry-of-social-justice-to-organise-two-day-samaveshi-niti-sankalp-summit-in-new-delhi/"
+    }
+   ]
+  },
+  {
+   "id": "voyager",
+   "cat": "science",
+   "title": {
+    "en": "NASA's Voyager 1 becomes the first human-made object to reach one light-day (about 25.9 billion km) from Earth",
+    "te": "నాసా వాయేజర్ 1 — భూమి నుంచి ఒక కాంతి-దినం (సుమారు 25.9 బిలియన్ కి.మీ.) దూరం చేరిన తొలి మానవ నిర్మిత వస్తువు"
+   },
+   "pts": [
+    {
+     "en": "On 18 Nov 2026 (about 10:16 UTC), Voyager 1 reached one light-day from Earth — the distance light travels in 24 hours, about 25.9 billion km (173 AU).",
+     "te": "18 నవం 2026 (సుమారు 10:16 UTC)న వాయేజర్ 1 భూమి నుంచి ఒక కాంతి-దినం దూరం చేరింది — కాంతి 24 గంటల్లో ప్రయాణించే దూరం, సుమారు 25.9 బిలియన్ కి.మీ. (173 AU)."
+    },
+    {
+     "en": "So a radio command from Earth now takes a full day to reach it, and its reply another day.",
+     "te": "అంటే భూమి నుంచి పంపిన రేడియో సంకేతం దానికి చేరడానికి ఒక రోజు, దాని జవాబు తిరిగి రావడానికి ఇంకో రోజు పడుతుంది."
+    },
+    {
+     "en": "Launched on 5 Sept 1977, it took 49 years, 2 months and 11 days. It flew past Jupiter and Saturn and entered interstellar space in 2012. Voyager 2 will reach one light-day only in Nov 2035.",
+     "te": "5 సెప్టెం 1977న ప్రయోగం; 49 ఏళ్లు, 2 నెలలు, 11 రోజులు పట్టింది. గురు, శని గ్రహాల పక్కగా వెళ్లి 2012లో నక్షత్రాంతర (interstellar) అంతరిక్షంలోకి ప్రవేశించింది. వాయేజర్ 2 నవం 2035లోనే ఒక కాంతి-దినం చేరుతుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Launched",
+      "te": "ప్రయోగం"
+     },
+     {
+      "en": "5 Sept 1977",
+      "te": "5 సెప్టెం 1977"
+     }
+    ],
+    [
+     {
+      "en": "1 light-day",
+      "te": "1 కాంతి-దినం"
+     },
+     {
+      "en": "~25.9 billion km ≈ 173 AU",
+      "te": "~25.9 బిలియన్ కి.మీ. ≈ 173 AU"
+     }
+    ],
+    [
+     {
+      "en": "Entered interstellar space",
+      "te": "నక్షత్రాంతర అంతరిక్ష ప్రవేశం"
+     },
+     {
+      "en": "Voyager 1: 2012; Voyager 2: 2018",
+      "te": "వాయేజర్ 1: 2012; వాయేజర్ 2: 2018"
+     }
+    ],
+    [
+     {
+      "en": "Famous photo",
+      "te": "ప్రసిద్ధ ఫోటో"
+     },
+     {
+      "en": "'Pale Blue Dot', 14 Feb 1990",
+      "te": "'పేల్ బ్లూ డాట్', 14 ఫిబ్ర 1990"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Units: 1 AU = Earth–Sun distance (~15 crore km); light-year = distance light travels in a year (a unit of DISTANCE, not time). Heliopause = boundary where the Sun's solar wind ends. Trap: Voyager 1 visited only Jupiter and Saturn; Voyager 2 did the 'Grand Tour' (Jupiter, Saturn, Uranus, Neptune).",
+    "te": "ప్రమాణాలు: 1 AU = భూమి–సూర్యుడి దూరం (~15 కోట్ల కి.మీ.); కాంతి సంవత్సరం = కాంతి ఏడాదిలో ప్రయాణించే దూరం (కాలం కాదు, దూరానికి ప్రమాణం). హీలియోపాజ్ = సౌర పవనం ముగిసే సరిహద్దు. ట్రాప్: వాయేజర్ 1 గురు, శని మాత్రమే; 'గ్రాండ్ టూర్' (గురు, శని, యురేనస్, నెప్ట్యూన్) చేసింది వాయేజర్ 2."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Voyager 1 journey",
+      "te": "వాయేజర్ 1 ప్రయాణం"
+     },
+     "items": [
+      {
+       "y": "1977",
+       "t": {
+        "en": "Launched (5 Sept)",
+        "te": "ప్రయోగం (5 సెప్టెం)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1979–80",
+       "t": {
+        "en": "Jupiter, Saturn flybys",
+        "te": "గురు, శని పక్కగా"
+       }
+      },
+      {
+       "y": "1990",
+       "t": {
+        "en": "'Pale Blue Dot' photo",
+        "te": "'పేల్ బ్లూ డాట్' ఫోటో"
+       }
+      },
+      {
+       "y": "2012",
+       "t": {
+        "en": "Crosses heliopause → interstellar space",
+        "te": "హీలియోపాజ్ దాటి నక్షత్రాంతర అంతరిక్షంలోకి"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "One light-day from Earth (18 Nov)",
+        "te": "భూమి నుంచి ఒక కాంతి-దినం (18 నవం)"
+       },
+       "hl": 1
+      }
+     ],
+     "cap": {
+      "en": "Jupiter (1979) and Saturn (1980) flyby years are standard textbook facts; all other dates from today's sources.",
+      "te": "గురు (1979), శని (1980) సంవత్సరాలు పాఠ్యపుస్తక వాస్తవాలు; మిగతా తేదీలు నేటి మూలాల నుంచి."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "EarthSky — Voyager 1 reaches 1 light-day from Earth!, 18 Nov 2026",
+     "u": "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/"
+    },
+    {
+     "t": "IFLScience — It's Official: Voyager 1 Will Cross The 1 Light-Day Threshold On November 18, 2026",
+     "u": "https://iflscience.com/its-official-voyager-1-will-cross-the-1-light-day-threshold-on-november-18-2026-82733"
+    }
+   ]
+  },
+  {
+   "id": "top500",
+   "cat": "science",
+   "title": {
+    "en": "68th TOP500 list (SC26, Chicago): China's LineShine stays No. 1; India's best is Yotta's Shakti Cloud at No. 35",
+    "te": "68వ TOP500 జాబితా (SC26, షికాగో): చైనా 'లైన్‌షైన్' నంబర్ 1లో కొనసాగింపు; భారత్‌లో అగ్రస్థానం యోట్టా 'శక్తి క్లౌడ్' — 35వ ర్యాంక్"
+   },
+   "pts": [
+    {
+     "en": "The TOP500 list of the world's fastest supercomputers comes out twice a year. The 68th list was released at SC26 in Chicago on 16 Nov; the top ten did not change from June.",
+     "te": "ప్రపంచంలోని అత్యంత వేగవంతమైన సూపర్ కంప్యూటర్ల TOP500 జాబితా ఏడాదికి రెండుసార్లు వస్తుంది. 68వ జాబితా 16 నవంబర్‌న షికాగోలో SC26లో విడుదలైంది; టాప్-10 జూన్ నుంచి మారలేదు."
+    },
+    {
+     "en": "No. 1 LineShine (Shenzhen, China) — 2,198 PFlop/s; No. 2 El Capitan (USA) — 1,809; No. 3 Frontier (USA) — 1,353. LineShine is the first Chinese No. 1 since Sunway TaihuLight (2017).",
+     "te": "నం.1 లైన్‌షైన్ (షెన్‌జెన్, చైనా) — 2,198 PFlop/s; నం.2 ఎల్ కాపిటన్ (అమెరికా) — 1,809; నం.3 ఫ్రాంటియర్ (అమెరికా) — 1,353. సన్‌వే తైహులైట్ (2017) తర్వాత చైనాకు మళ్లీ నంబర్ 1."
+    },
+    {
+     "en": "India's highest is a Dell system with NVIDIA H100 GPUs at Shakti Cloud (Yotta Data Services) — rank 35, 84.31 PFlop/s. Only 27 new systems joined — the fewest ever, as growth shifts to AI data centres.",
+     "te": "భారత్‌లో అగ్రస్థానం యోట్టా డేటా సర్వీసెస్ 'శక్తి క్లౌడ్'లోని డెల్ వ్యవస్థ (NVIDIA H100 GPUలు) — 35వ ర్యాంక్, 84.31 PFlop/s. కేవలం 27 కొత్త వ్యవస్థలే చేరాయి — ఇప్పటివరకు అత్యల్పం; వృద్ధి AI డేటా సెంటర్ల వైపు మళ్లింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "No. 1",
+      "te": "నం. 1"
+     },
+     {
+      "en": "LineShine, China — 2.198 exaflops",
+      "te": "లైన్‌షైన్, చైనా — 2.198 ఎక్సాఫ్లాప్స్"
+     }
+    ],
+    [
+     {
+      "en": "Exascale systems (≥1 EF)",
+      "te": "ఎక్సాస్కేల్ (≥1 EF)"
+     },
+     {
+      "en": "Top 5 (JUPITER, Germany, exactly 1 EF)",
+      "te": "టాప్ 5 (జర్మనీ JUPITER సరిగ్గా 1 EF)"
+     }
+    ],
+    [
+     {
+      "en": "India's best",
+      "te": "భారత్ అగ్రస్థానం"
+     },
+     {
+      "en": "Rank 35 — Shakti Cloud, Yotta",
+      "te": "35 — శక్తి క్లౌడ్, యోట్టా"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Basics: FLOPS = floating-point operations per second; peta = 10^15, exa = 10^18. India's own: PARAM (C-DAC, 1991), National Supercomputing Mission (2015, MeitY + DST). Trap: the No. 1 is not a US system this time.",
+    "te": "ప్రాథమికాలు: FLOPS = సెకనుకు ఫ్లోటింగ్-పాయింట్ లెక్కలు; పెటా = 10^15, ఎక్సా = 10^18. భారత్ సొంత: PARAM (C-DAC, 1991), నేషనల్ సూపర్‌కంప్యూటింగ్ మిషన్ (2015, MeitY + DST). ట్రాప్: ఈసారి నంబర్ 1 అమెరికా వ్యవస్థ కాదు."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Top 5 supercomputers (PFlop/s, HPL)",
+      "te": "టాప్ 5 సూపర్ కంప్యూటర్లు (PFlop/s)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "LineShine (China)",
+        "te": "లైన్‌షైన్ (చైనా)"
+       },
+       "v": 2198,
+       "vl": "2,198"
+      },
+      {
+       "t": {
+        "en": "El Capitan (USA)",
+        "te": "ఎల్ కాపిటన్ (అమెరికా)"
+       },
+       "v": 1809,
+       "vl": "1,809"
+      },
+      {
+       "t": {
+        "en": "Frontier (USA)",
+        "te": "ఫ్రాంటియర్ (అమెరికా)"
+       },
+       "v": 1353,
+       "vl": "1,353"
+      },
+      {
+       "t": {
+        "en": "Aurora (USA)",
+        "te": "అరోరా (అమెరికా)"
+       },
+       "v": 1012,
+       "vl": "1,012"
+      },
+      {
+       "t": {
+        "en": "JUPITER (Germany)",
+        "te": "జూపిటర్ (జర్మనీ)"
+       },
+       "v": 1000,
+       "vl": "1,000"
+      },
+      {
+       "t": {
+        "en": "India best — No. 35",
+        "te": "భారత్ అగ్ర — నం. 35"
+       },
+       "v": 84,
+       "vl": "84.3"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "TOP500 — TOP500 List, November 2026",
+     "u": "https://top500.org/lists/top500/list/2026/11/"
+    },
+    {
+     "t": "Hardware Busters — TOP500 List Adds Just 27 New Systems, the Fewest Ever, as Growth Shifts to AI Factories, 18 Nov 2026",
+     "u": "https://hwbusters.com/news/top500-list-adds-just-27-new-systems-the-fewest-ever-as-growth-shifts-to-ai-factories/"
+    }
+   ]
+  },
+  {
+   "id": "harimau",
+   "cat": "defence",
+   "title": {
+    "en": "India–Malaysia Army exercise 'Harimau Shakti 2026' runs 18–30 November",
+    "te": "భారత్–మలేషియా సైనిక విన్యాసం 'హరిమౌ శక్తి 2026' — 18–30 నవంబర్"
+   },
+   "pts": [
+    {
+     "en": "Exercise Harimau Shakti 2026 between the Indian Army and the Malaysian Army is scheduled from 18 to 30 Nov to improve interoperability (working together) and mutual understanding.",
+     "te": "భారత సైన్యం, మలేషియా సైన్యం మధ్య 'హరిమౌ శక్తి 2026' విన్యాసం 18 నుంచి 30 నవంబర్ వరకు — కలిసి పనిచేసే సామర్థ్యం (interoperability), పరస్పర అవగాహన పెంచడం లక్ష్యం."
+    },
+    {
+     "en": "The last (5th) edition was at Mahajan Field Firing Range, Rajasthan (5–18 Dec 2025) under a UN Chapter VII mandate; the 2024 edition was at Bentong Camp, Pahang (Malaysia), focused on jungle counter-insurgency.",
+     "te": "గత (5వ) ఎడిషన్ రాజస్థాన్‌లోని మహాజన్ ఫీల్డ్ ఫైరింగ్ రేంజ్‌లో (5–18 డిసెం 2025) UN చాప్టర్ VII అధికారం కింద; 2024 ఎడిషన్ మలేషియా పహాంగ్‌లోని బెంటాంగ్ క్యాంప్‌లో — అడవుల్లో తిరుగుబాటు నిరోధంపై దృష్టి."
+    },
+    {
+     "en": "India and Malaysia upgraded ties to a Comprehensive Strategic Partnership in August 2024. Their navies hold 'Samudra Laksamana'.",
+     "te": "ఆగస్టు 2024లో భారత్–మలేషియా సంబంధాలు 'సమగ్ర వ్యూహాత్మక భాగస్వామ్యం'గా ఎదిగాయి. నౌకాదళాల విన్యాసం 'సముద్ర లక్ష్మణ'."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Dates",
+      "te": "తేదీలు"
+     },
+     {
+      "en": "18–30 Nov 2026",
+      "te": "18–30 నవం 2026"
+     }
+    ],
+    [
+     {
+      "en": "'Harimau' means",
+      "te": "'హరిమౌ' అర్థం"
+     },
+     {
+      "en": "Tiger (Malay)",
+      "te": "పులి (మలయ్ భాష)"
+     }
+    ],
+    [
+     {
+      "en": "Naval exercise",
+      "te": "నౌకాదళ విన్యాసం"
+     },
+     {
+      "en": "Samudra Laksamana",
+      "te": "సముద్ర లక్ష్మణ"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Match exercises with countries: Harimau Shakti – Malaysia; Mitra Shakti – Sri Lanka; Yudh Abhyas – USA; Maitree – Thailand; Garuda Shakti – Indonesia. Trap: Samudra Laksamana is the NAVAL exercise with Malaysia, Harimau Shakti is the ARMY one.",
+    "te": "విన్యాసాలు–దేశాలు జత: హరిమౌ శక్తి – మలేషియా; మిత్ర శక్తి – శ్రీలంక; యుద్ధ్ అభ్యాస్ – అమెరికా; మైత్రీ – థాయ్‌లాండ్; గరుడ శక్తి – ఇండోనేషియా. ట్రాప్: సముద్ర లక్ష్మణ మలేషియాతో నౌకాదళ విన్యాసం; హరిమౌ శక్తి సైనిక (Army) విన్యాసం."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "India and Malaysia",
+      "te": "భారత్, మలేషియా"
+     },
+     "view": "world",
+     "ctry": [
+      "Malaysia"
+     ],
+     "pts": [
+      {
+       "ll": [
+        28.61,
+        77.21
+       ],
+       "t": {
+        "en": "New Delhi",
+        "te": "న్యూఢిల్లీ"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        3.14,
+        101.69
+       ],
+       "t": {
+        "en": "Kuala Lumpur",
+        "te": "కౌలాలంపూర్"
+       }
+      },
+      {
+       "ll": [
+        3.49,
+        101.91
+       ],
+       "t": {
+        "en": "Bentong (2024)",
+        "te": "బెంటాంగ్ (2024)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Venue of the 2026 edition was not announced in the sources read; Bentong hosted the 2024 edition.",
+      "te": "2026 ఎడిషన్ వేదిక చదివిన మూలాల్లో ప్రకటించలేదు; 2024 ఎడిషన్ బెంటాంగ్‌లో జరిగింది."
+     },
+     "src": "cards/cad/2026-11-18/map-harimau-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Asianet Newsable (ANI) — Indian and Malaysian Army to Begin Joint Exercise Harimau Shakti 2026, 14 Nov 2026",
+     "u": "https://newsable.asianetnews.com/world/indian-and-malaysian-army-to-begin-joint-exercise-harimau-shakti-2026-articleshow-ihndd5d"
+    },
+    {
+     "t": "RNA Media — India, Malaysia to begin Harimau Shakti 2026 military exercise on November 18, 14 Nov 2026",
+     "u": "https://www.rnamedia.in/army/india-malaysia-to-begin-harimau-shakti-2026-military-exercise-on-november-18/26436"
+    }
+   ]
+  },
+  {
+   "id": "naturopathy",
+   "cat": "days",
+   "title": {
+    "en": "9th National Naturopathy Day (18 Nov): theme 'Prakritik Chikitsa, Swasth Bharat'; main event at CRIYN, Nagamangala",
+    "te": "9వ జాతీయ ప్రకృతి వైద్య దినోత్సవం (18 నవం): థీమ్ 'ప్రాకృతిక్ చికిత్స, స్వస్థ భారత్'; ప్రధాన కార్యక్రమం CRIYN, నాగమంగళ"
+   },
+   "pts": [
+    {
+     "en": "The Ministry of Ayush marks National Naturopathy Day every year on 18 November (since 2018). 2026 is the 9th edition.",
+     "te": "ఆయుష్ మంత్రిత్వ శాఖ ఏటా నవంబర్ 18న (2018 నుంచి) జాతీయ ప్రకృతి వైద్య దినోత్సవం జరుపుతుంది. 2026లో 9వది."
+    },
+    {
+     "en": "Why 18 Nov: on 18 Nov 1945 Mahatma Gandhi became lifetime Chairman of the All India Nature Cure Foundation Trust (Pune) and signed its trust deed.",
+     "te": "ఎందుకు 18 నవం: 1945 నవంబర్ 18న మహాత్మా గాంధీ ఆల్ ఇండియా నేచర్ క్యూర్ ఫౌండేషన్ ట్రస్ట్ (పుణె)కు జీవితకాల అధ్యక్షుడై, ట్రస్ట్ పత్రంపై సంతకం చేశారు."
+    },
+    {
+     "en": "Main event at the Central Research Institute of Yoga & Naturopathy (CRIYN), Nagamangala, Karnataka; focus on preventing obesity and lifestyle diseases.",
+     "te": "ప్రధాన కార్యక్రమం కర్ణాటకలోని నాగమంగళ కేంద్ర యోగా & ప్రకృతి వైద్య పరిశోధన సంస్థ (CRIYN)లో; ఊబకాయం, జీవనశైలి వ్యాధుల నివారణపై దృష్టి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Theme 2026",
+      "te": "థీమ్ 2026"
+     },
+     {
+      "en": "Prakritik Chikitsa, Swasth Bharat",
+      "te": "ప్రాకృతిక్ చికిత్స, స్వస్థ భారత్"
+     }
+    ],
+    [
+     {
+      "en": "Gandhi link",
+      "te": "గాంధీ సంబంధం"
+     },
+     {
+      "en": "18 Nov 1945, Pune trust",
+      "te": "18 నవం 1945, పుణె ట్రస్ట్"
+     }
+    ],
+    [
+     {
+      "en": "National Institute of Naturopathy",
+      "te": "జాతీయ ప్రకృతి వైద్య సంస్థ"
+     },
+     {
+      "en": "Pune",
+      "te": "పుణె"
+     }
+    ],
+    [
+     {
+      "en": "Basis",
+      "te": "ఆధారం"
+     },
+     {
+      "en": "Panchabhuta — earth, water, air, fire, ether",
+      "te": "పంచభూతాలు — భూమి, నీరు, గాలి, అగ్ని, ఆకాశం"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "AYUSH = Ayurveda, Yoga & Naturopathy, Unani, Siddha, Sowa-Rigpa, Homoeopathy. Ayush became a separate Ministry in Nov 2014. Trap: National Naturopathy Day (18 Nov, Gandhi link) ≠ Ayurveda Day (on Dhanteras) ≠ International Yoga Day (21 June).",
+    "te": "AYUSH = ఆయుర్వేదం, యోగా & ప్రకృతి వైద్యం, యునాని, సిద్ధ, సోవా-రిగ్పా, హోమియోపతి. నవం 2014లో ఆయుష్ ప్రత్యేక మంత్రిత్వ శాఖ. ట్రాప్: జాతీయ ప్రకృతి వైద్య దినం (18 నవం, గాంధీ సంబంధం) ≠ ఆయుర్వేద దినం (ధన్‌తేరస్) ≠ అంతర్జాతీయ యోగా దినం (జూన్ 21)."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Two naturopathy places to remember",
+      "te": "గుర్తుంచుకోవాల్సిన రెండు ప్రదేశాలు"
+     },
+     "view": "south",
+     "hl": [
+      "Karnataka",
+      "Maharashtra"
+     ],
+     "hlc": "#2f6b2f",
+     "pts": [
+      {
+       "ll": [
+        18.52,
+        73.86
+       ],
+       "t": {
+        "en": "Pune (Gandhi trust, NIN)",
+        "te": "పుణె (గాంధీ ట్రస్ట్, NIN)"
+       }
+      },
+      {
+       "ll": [
+        12.82,
+        76.75
+       ],
+       "t": {
+        "en": "Nagamangala (CRIYN)",
+        "te": "నాగమంగళ (CRIYN)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Pune: Gandhi's 1945 trust and today's National Institute of Naturopathy. Nagamangala (Karnataka): venue of the 2026 main event.",
+      "te": "పుణె: 1945 గాంధీ ట్రస్ట్, నేటి జాతీయ ప్రకృతి వైద్య సంస్థ. నాగమంగళ (కర్ణాటక): 2026 ప్రధాన కార్యక్రమ వేదిక."
+     },
+     "src": "cards/cad/2026-11-18/map-naturopathy-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "IANS — National Naturopathy Day 2026 to focus on scientific research, preventive healthcare, 12 Nov 2026",
+     "u": "https://ianslive.in/national-naturopathy-day-2026-to-focus-on-scientific-research-preventive-healthcare--20261112140600"
+    },
+    {
+     "t": "Adda247 Current Affairs (cross-check) — Naturopathy Day 2026: Date, Theme, Significance and Key Initiatives, 18 Nov 2026",
+     "u": "https://currentaffairs.adda247.com/naturopathy-day-2026-date-theme-significance-and-key-initiatives/"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "apsemi",
+   "q": {
+    "en": "Consider the following about AP's amended Semiconductor & Display Fab Policy 4.0 (Nov 2026). Which of the statements given above is/are correct?",
+    "te": "ఏపీ సవరించిన సెమీకండక్టర్ & డిస్‌ప్లే ఫ్యాబ్ పాలసీ 4.0 (నవం 2026) గురించి కింది ప్రకటనలు పరిశీలించండి. ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. It is aligned with the Centre's ISM Semicon 2.0.",
+     "te": "I. ఇది కేంద్ర ISM సెమీకాన్ 2.0కు అనుగుణంగా ఉంది."
+    },
+    {
+     "en": "II. A silicon fab gets 80% of eligible capital cost from the State alone.",
+     "te": "II. సిలికాన్ ఫ్యాబ్‌కు అర్హ మూలధన వ్యయంలో 80% రాష్ట్రం ఒక్కటే ఇస్తుంది."
+    },
+    {
+     "en": "III. A ~5,000-acre Semiconductor Park is planned at Tirupati.",
+     "te": "III. తిరుపతిలో ~5,000 ఎకరాల సెమీకండక్టర్ పార్క్ ప్రతిపాదించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and III are correct. II is the trap: 80% = 40% Centre + 40% AP; the State matches the Centre's share, it does not give 80% alone.",
+    "te": "I, III సరైనవి. II ట్రాప్: 80% = కేంద్రం 40% + ఏపీ 40%; రాష్ట్రం కేంద్ర వాటాకు సమానంగా ఇస్తుంది, ఒంటరిగా 80% కాదు."
+   }
+  },
+  {
+   "topic": "apsemi",
+   "q": {
+    "en": "Arrange these States by capital support offered to a silicon fab (highest first), as compared in AP's Nov 2026 policy notice:",
+    "te": "ఏపీ నవం 2026 పాలసీ పోలిక ప్రకారం సిలికాన్ ఫ్యాబ్‌కు ఇచ్చే మూలధన సాయం ఆధారంగా ఈ రాష్ట్రాలను (ఎక్కువ నుంచి తక్కువ) అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "1. Gujarat  2. Andhra Pradesh  3. Tamil Nadu  4. Uttar Pradesh",
+     "te": "1. గుజరాత్  2. ఆంధ్రప్రదేశ్  3. తమిళనాడు  4. ఉత్తర్ ప్రదేశ్"
+    }
+   ],
+   "o": [
+    {
+     "en": "2 – 3 – 4 – 1",
+     "te": "2 – 3 – 4 – 1"
+    },
+    {
+     "en": "2 – 1 – 3 – 4",
+     "te": "2 – 1 – 3 – 4"
+    },
+    {
+     "en": "3 – 2 – 4 – 1",
+     "te": "3 – 2 – 4 – 1"
+    },
+    {
+     "en": "2 – 4 – 3 – 1",
+     "te": "2 – 4 – 3 – 1"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "AP 80% > Tamil Nadu 65% > UP 60% > Gujarat 56%. Trap: Gujarat, a chip-investment leader, actually offers the lowest share of the four.",
+    "te": "ఏపీ 80% > తమిళనాడు 65% > యూపీ 60% > గుజరాత్ 56%. ట్రాప్: చిప్ పెట్టుబడుల్లో ముందున్న గుజరాత్ ఈ నలుగురిలో తక్కువ వాటా ఇస్తోంది."
+   }
+  },
+  {
+   "topic": "akvan",
+   "q": {
+    "en": "As per the IMD update on 18 Nov 2026 afternoon, which of the following about Cyclone Akvan is INCORRECT?",
+    "te": "18 నవం 2026 మధ్యాహ్న IMD అప్‌డేట్ ప్రకారం అక్వాన్ తుపాను గురించి కిందివాటిలో తప్పు ఏది?"
+   },
+   "o": [
+    {
+     "en": "It had intensified into a Severe Cyclonic Storm",
+     "te": "ఇది తీవ్ర తుపానుగా బలపడింది"
+    },
+    {
+     "en": "Likely crossing: between Narsapur and Puri by Friday noon",
+     "te": "తీరం దాటే అవకాశం: శుక్రవారం మధ్యాహ్నానికి నర్సాపూర్–పూరీ మధ్య"
+    },
+    {
+     "en": "An orange warning for heavy rain was issued for Coastal AP and Odisha",
+     "te": "కోస్తా ఏపీ, ఒడిశాకు భారీ వర్షాల ఆరెంజ్ హెచ్చరిక"
+    },
+    {
+     "en": "Its name was given by India from the North Indian Ocean list",
+     "te": "ఉత్తర హిందూ మహాసముద్ర జాబితా నుంచి దీని పేరును భారత్ ఇచ్చింది"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "(d) is incorrect: 'Akvan' was suggested by Iran. (a), (b), (c) match the AIR report of 18 Nov. Remember: IMD New Delhi (RSMC) only applies names from the list given by 13 member countries.",
+    "te": "(d) తప్పు: 'అక్వాన్' పేరును ఇరాన్ సూచించింది. (a), (b), (c) 18 నవం AIR వార్తకు సరిపోతాయి. గుర్తుంచుకోండి: 13 సభ్య దేశాలు ఇచ్చిన జాబితా నుంచి IMD న్యూఢిల్లీ (RSMC) పేర్లు పెడుతుంది."
+   }
+  },
+  {
+   "topic": "akvan",
+   "q": {
+    "en": "The coastal stretch 'North Andhra Pradesh, Yanam and South Odisha' was named for Cyclone Akvan. Consider the following statements:",
+    "te": "అక్వాన్ తుపాను కోసం 'ఉత్తర ఆంధ్రప్రదేశ్, యానాం, దక్షిణ ఒడిశా' తీరాన్ని పేర్కొన్నారు. కింది ప్రకటనలు పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Yanam is part of the Union Territory of Puducherry.",
+     "te": "I. యానాం పుదుచ్చేరి కేంద్రపాలిత ప్రాంతంలో భాగం."
+    },
+    {
+     "en": "II. Puri lies in Andhra Pradesh.",
+     "te": "II. పూరీ ఆంధ్రప్రదేశ్‌లో ఉంది."
+    },
+    {
+     "en": "III. In IMD colour codes, 'Orange' means 'be prepared'.",
+     "te": "III. IMD రంగు కోడ్‌లలో 'ఆరెంజ్' అంటే 'సిద్ధంగా ఉండండి'."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct. II is wrong: Puri is in Odisha; Narsapur (West Godavari) is the AP end. Red = take action; Yellow = be watchful.",
+    "te": "I, III సరైనవి. II తప్పు: పూరీ ఒడిశాలో ఉంది; ఏపీ వైపు చివర నర్సాపూర్ (పశ్చిమ గోదావరి). ఎరుపు = చర్య తీసుకోండి; పసుపు = జాగ్రత్తగా గమనించండి."
+   }
+  },
+  {
+   "topic": "suryaghar",
+   "q": {
+    "en": "With reference to PM Surya Ghar: Muft Bijli Yojana in Andhra Pradesh (as of 15 Nov 2026), consider:",
+    "te": "ఏపీలో PM సూర్య ఘర్: ముఫ్త్ బిజ్లీ యోజన (15 నవం 2026 నాటికి) గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. AP ranks 4th, behind UP, Gujarat and Maharashtra.",
+     "te": "I. యూపీ, గుజరాత్, మహారాష్ట్ర తర్వాత ఏపీ 4వ స్థానం."
+    },
+    {
+     "en": "II. Most AP installations came through the CAPEX model.",
+     "te": "II. ఏపీలో ఎక్కువ ఇన్‌స్టాలేషన్లు CAPEX మోడల్‌లో వచ్చాయి."
+    },
+    {
+     "en": "III. AP has about 13% of all households covered in India.",
+     "te": "III. దేశంలో కవర్ అయిన ఇళ్లలో ఏపీ వాటా సుమారు 13%."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and III are correct. II is wrong: about 69% (5,09,004) came through the Utility-led Aggregation (ULA) model for SC/ST families; CAPEX is about 31%.",
+    "te": "I, III సరైనవి. II తప్పు: సుమారు 69% (5,09,004) SC/ST కుటుంబాల కోసం యుటిలిటీ-లెడ్ అగ్రిగేషన్ (ULA) మోడల్‌లో; CAPEX సుమారు 31%."
+   }
+  },
+  {
+   "topic": "eas",
+   "q": {
+    "en": "Match the initiatives India proposed at the 21st East Asia Summit with their venues:",
+    "te": "21వ తూర్పు ఆసియా సదస్సులో భారత్ ప్రతిపాదనలను వాటి వేదికలతో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. EAS Maritime Heritage Festival   B. EAS University Conclave   C. EAS Cyber Crime conference",
+     "te": "A. EAS సముద్ర వారసత్వ ఉత్సవం   B. EAS విశ్వవిద్యాలయాల సమ్మేళనం   C. EAS సైబర్ నేరాల సదస్సు"
+    },
+    {
+     "en": "1. Nalanda   2. National Forensic Sciences University   3. Lothal",
+     "te": "1. నలంద   2. నేషనల్ ఫోరెన్సిక్ సైన్సెస్ యూనివర్సిటీ   3. లోథాల్"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-1, B-3, C-2",
+     "te": "A-1, B-3, C-2"
+    },
+    {
+     "en": "A-2, B-1, C-3",
+     "te": "A-2, B-1, C-3"
+    },
+    {
+     "en": "A-3, B-1, C-2",
+     "te": "A-3, B-1, C-2"
+    },
+    {
+     "en": "A-3, B-2, C-1",
+     "te": "A-3, B-2, C-1"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Lothal (Harappan port-dockyard, Gujarat) suits maritime heritage; Nalanda (ancient university, Bihar) suits the university conclave; cyber crime goes to NFSU. Logic helps: link each place to its history.",
+    "te": "లోథాల్ (హరప్పా నాటి ఓడరేవు, గుజరాత్) — సముద్ర వారసత్వం; నలంద (ప్రాచీన విశ్వవిద్యాలయం, బిహార్) — విశ్వవిద్యాలయాల సమ్మేళనం; సైబర్ నేరాలు — NFSU. ప్రదేశాన్ని దాని చరిత్రతో జోడిస్తే సులువు."
+   }
+  },
+  {
+   "topic": "eas",
+   "q": {
+    "en": "Consider the following statements about the East Asia Summit (EAS):",
+    "te": "తూర్పు ఆసియా సదస్సు (EAS) గురించి కింది ప్రకటనలు పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. India is a founding member of the EAS.",
+     "te": "I. EAS వ్యవస్థాపక సభ్యదేశాల్లో భారత్ ఒకటి."
+    },
+    {
+     "en": "II. The 21st EAS was held in Manila under the Philippines' chairmanship.",
+     "te": "II. 21వ EAS ఫిలిప్పీన్స్ అధ్యక్షతన మనీలాలో జరిగింది."
+    },
+    {
+     "en": "III. The USA and Russia are members of the EAS.",
+     "te": "III. అమెరికా, రష్యా EAS సభ్యదేశాలు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct. India joined at the first EAS (2005, Kuala Lumpur); the USA and Russia joined in 2011, making 18 members. Trap: many think EAS is only for East Asian countries.",
+    "te": "మూడూ సరైనవి. తొలి EAS (2005, కౌలాలంపూర్) నుంచే భారత్ సభ్యదేశం; అమెరికా, రష్యా 2011లో చేరడంతో 18 సభ్యులు. ట్రాప్: EAS కేవలం తూర్పు ఆసియా దేశాలకే అనుకోవడం."
+   }
+  },
+  {
+   "topic": "voyager",
+   "q": {
+    "en": "Voyager 1 reached 'one light-day' from Earth on 18 Nov 2026. Which of the following statements is/are correct?",
+    "te": "18 నవం 2026న వాయేజర్ 1 భూమి నుంచి 'ఒక కాంతి-దినం' దూరం చేరింది. కిందివాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. A light-day is a unit of time equal to 24 hours.",
+     "te": "I. కాంతి-దినం 24 గంటలకు సమానమైన కాల ప్రమాణం."
+    },
+    {
+     "en": "II. A signal from Earth now takes about a day to reach Voyager 1.",
+     "te": "II. భూమి నుంచి సంకేతం వాయేజర్ 1కు చేరడానికి ఇప్పుడు సుమారు ఒక రోజు పడుతుంది."
+    },
+    {
+     "en": "III. Voyager 1 entered interstellar space in 2012.",
+     "te": "III. వాయేజర్ 1 2012లో నక్షత్రాంతర అంతరిక్షంలోకి ప్రవేశించింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "III only",
+     "te": "III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II and III are correct. I is the trap: a light-day (like a light-year) measures DISTANCE — how far light goes in 24 hours (~25.9 billion km).",
+    "te": "II, III సరైనవి. I ట్రాప్: కాంతి-దినం (కాంతి సంవత్సరంలాగే) దూరాన్ని కొలుస్తుంది — కాంతి 24 గంటల్లో వెళ్లే దూరం (~25.9 బిలియన్ కి.మీ.)."
+   }
+  },
+  {
+   "topic": "top500",
+   "q": {
+    "en": "With reference to the 68th TOP500 list (Nov 2026), consider:",
+    "te": "68వ TOP500 జాబితా (నవం 2026) గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The world's fastest supercomputer is LineShine of China.",
+     "te": "I. ప్రపంచంలో అత్యంత వేగవంతమైన సూపర్ కంప్యూటర్ చైనా 'లైన్‌షైన్'."
+    },
+    {
+     "en": "II. India's highest-ranked system is in the top 10.",
+     "te": "II. భారత్‌లో అగ్రస్థాన వ్యవస్థ టాప్-10లో ఉంది."
+    },
+    {
+     "en": "III. The list was released at SC26 in Chicago.",
+     "te": "III. ఈ జాబితా షికాగోలో SC26లో విడుదలైంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and III are correct. II is wrong: India's best (Shakti Cloud, Yotta) is at rank 35. El Capitan (USA) is No. 2.",
+    "te": "I, III సరైనవి. II తప్పు: భారత్ అగ్రస్థాన వ్యవస్థ (శక్తి క్లౌడ్, యోట్టా) 35వ ర్యాంక్. అమెరికా ఎల్ కాపిటన్ నం. 2."
+   }
+  },
+  {
+   "topic": "harimau",
+   "q": {
+    "en": "Match the joint exercise with the partner country: A. Harimau Shakti  B. Mitra Shakti  C. Samudra Laksamana",
+    "te": "సంయుక్త విన్యాసాన్ని భాగస్వామి దేశంతో జతపరచండి: A. హరిమౌ శక్తి  B. మిత్ర శక్తి  C. సముద్ర లక్ష్మణ"
+   },
+   "st": [
+    {
+     "en": "1. Sri Lanka (Army)   2. Malaysia (Navy)   3. Malaysia (Army)",
+     "te": "1. శ్రీలంక (సైన్యం)   2. మలేషియా (నౌకాదళం)   3. మలేషియా (సైన్యం)"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-2, B-1, C-3",
+     "te": "A-2, B-1, C-3"
+    },
+    {
+     "en": "A-3, B-1, C-2",
+     "te": "A-3, B-1, C-2"
+    },
+    {
+     "en": "A-1, B-3, C-2",
+     "te": "A-1, B-3, C-2"
+    },
+    {
+     "en": "A-3, B-2, C-1",
+     "te": "A-3, B-2, C-1"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Harimau Shakti = India–Malaysia Army (18–30 Nov 2026); Mitra Shakti = India–Sri Lanka Army; Samudra Laksamana = India–Malaysia Navy. Trap: both Malaysian exercises — tell Army from Navy.",
+    "te": "హరిమౌ శక్తి = భారత్–మలేషియా సైన్యం (18–30 నవం 2026); మిత్ర శక్తి = భారత్–శ్రీలంక సైన్యం; సముద్ర లక్ష్మణ = భారత్–మలేషియా నౌకాదళం. ట్రాప్: రెండూ మలేషియావే — సైన్యం, నౌకాదళం వేరు చేయండి."
+   }
+  }
+ ]
+}

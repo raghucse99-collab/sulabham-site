@@ -1,0 +1,108 @@
+===== Post 1 of 1 =====
+📝 *SULABHAM · DAILY QUIZ* | 18 NOV 2026
+10 questions · APPSC pattern · based on today's topics
+
+*1.* Consider the following about AP's amended Semiconductor & Display Fab Policy 4.0 (Nov 2026). Which of the statements given above is/are correct?
+I. It is aligned with the Centre's ISM Semicon 2.0.
+II. A silicon fab gets 80% of eligible capital cost from the State alone.
+III. A ~5,000-acre Semiconductor Park is planned at Tirupati.
+(a) I only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+*2.* Arrange these States by capital support offered to a silicon fab (highest first), as compared in AP's Nov 2026 policy notice:
+1. Gujarat  2. Andhra Pradesh  3. Tamil Nadu  4. Uttar Pradesh
+(a) 2 – 3 – 4 – 1
+(b) 2 – 1 – 3 – 4
+(c) 3 – 2 – 4 – 1
+(d) 2 – 4 – 3 – 1
+
+*3.* As per the IMD update on 18 Nov 2026 afternoon, which of the following about Cyclone Akvan is INCORRECT?
+(a) It had intensified into a Severe Cyclonic Storm
+(b) Likely crossing: between Narsapur and Puri by Friday noon
+(c) An orange warning for heavy rain was issued for Coastal AP and Odisha
+(d) Its name was given by India from the North Indian Ocean list
+
+*4.* The coastal stretch 'North Andhra Pradesh, Yanam and South Odisha' was named for Cyclone Akvan. Consider the following statements:
+I. Yanam is part of the Union Territory of Puducherry.
+II. Puri lies in Andhra Pradesh.
+III. In IMD colour codes, 'Orange' means 'be prepared'.
+(a) I only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+*5.* With reference to PM Surya Ghar: Muft Bijli Yojana in Andhra Pradesh (as of 15 Nov 2026), consider:
+I. AP ranks 4th, behind UP, Gujarat and Maharashtra.
+II. Most AP installations came through the CAPEX model.
+III. AP has about 13% of all households covered in India.
+(a) I and III only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+*6.* Match the initiatives India proposed at the 21st East Asia Summit with their venues:
+A. EAS Maritime Heritage Festival   B. EAS University Conclave   C. EAS Cyber Crime conference
+1. Nalanda   2. National Forensic Sciences University   3. Lothal
+(a) A-1, B-3, C-2
+(b) A-2, B-1, C-3
+(c) A-3, B-1, C-2
+(d) A-3, B-2, C-1
+
+*7.* Consider the following statements about the East Asia Summit (EAS):
+I. India is a founding member of the EAS.
+II. The 21st EAS was held in Manila under the Philippines' chairmanship.
+III. The USA and Russia are members of the EAS.
+(a) I and II only
+(b) II only
+(c) II and III only
+(d) I, II and III
+
+*8.* Voyager 1 reached 'one light-day' from Earth on 18 Nov 2026. Which of the following statements is/are correct?
+I. A light-day is a unit of time equal to 24 hours.
+II. A signal from Earth now takes about a day to reach Voyager 1.
+III. Voyager 1 entered interstellar space in 2012.
+(a) I and II only
+(b) II and III only
+(c) III only
+(d) I, II and III
+
+*9.* With reference to the 68th TOP500 list (Nov 2026), consider:
+I. The world's fastest supercomputer is LineShine of China.
+II. India's highest-ranked system is in the top 10.
+III. The list was released at SC26 in Chicago.
+(a) I only
+(b) I and II only
+(c) I and III only
+(d) II and III only
+
+*10.* Match the joint exercise with the partner country: A. Harimau Shakti  B. Mitra Shakti  C. Samudra Laksamana
+1. Sri Lanka (Army)   2. Malaysia (Navy)   3. Malaysia (Army)
+(a) A-2, B-1, C-3
+(b) A-3, B-1, C-2
+(c) A-1, B-3, C-2
+(d) A-3, B-2, C-1
+
+✅ Answers, explanations & your score:
+👉 https://sulabham.in/current.html?d=2026-11-18
+
+#APPSC #Group1 #Group2 #DailyQuiz #Sulabham
+
+===== Answers post (send in the evening) =====
+🔑 *Answers — Daily Quiz* | 18 NOV 2026
+1-(c) · 2-(a) · 3-(d) · 4-(b) · 5-(a) · 6-(c) · 7-(d) · 8-(b) · 9-(c) · 10-(b)
+
+📖 Explanations:
+1. (c) I and III are correct. II is the trap: 80% = 40% Centre + 40% AP; the State matches the Centre's share, it does not give 80% alone.
+2. (a) AP 80% > Tamil Nadu 65% > UP 60% > Gujarat 56%. Trap: Gujarat, a chip-investment leader, actually offers the lowest share of the four.
+3. (d) (d) is incorrect: 'Akvan' was suggested by Iran. (a), (b), (c) match the AIR report of 18 Nov. Remember: IMD New Delhi (RSMC) only applies names from the list given by 13 member countries.
+4. (b) I and III are correct. II is wrong: Puri is in Odisha; Narsapur (West Godavari) is the AP end. Red = take action; Yellow = be watchful.
+5. (a) I and III are correct. II is wrong: about 69% (5,09,004) came through the Utility-led Aggregation (ULA) model for SC/ST families; CAPEX is about 31%.
+6. (c) Lothal (Harappan port-dockyard, Gujarat) suits maritime heritage; Nalanda (ancient university, Bihar) suits the university conclave; cyber crime goes to NFSU. Logic helps: link each place to its history.
+7. (d) All three are correct. India joined at the first EAS (2005, Kuala Lumpur); the USA and Russia joined in 2011, making 18 members. Trap: many think EAS is only for East Asian countries.
+8. (b) II and III are correct. I is the trap: a light-day (like a light-year) measures DISTANCE — how far light goes in 24 hours (~25.9 billion km).
+9. (c) I and III are correct. II is wrong: India's best (Shakti Cloud, Yotta) is at rank 35. El Capitan (USA) is No. 2.
+10. (b) Harimau Shakti = India–Malaysia Army (18–30 Nov 2026); Mitra Shakti = India–Sri Lanka Army; Samudra Laksamana = India–Malaysia Navy. Trap: both Malaysian exercises — tell Army from Navy.
+
+👉 https://sulabham.in/current.html?d=2026-11-18
