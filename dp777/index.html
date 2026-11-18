@@ -650,6 +650,13 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
 
 /* Mobile-first repeat analysis; avoid desktop-width overflow */
 .repeat-page{width:100%;max-width:100%;box-sizing:border-box;padding:8px;overflow:hidden;font-family:system-ui,Arial,sans-serif}.repeat-page h3{margin:0;padding:12px 8px;background:#263e91;color:white;text-align:center;font-size:17px;line-height:1.35;overflow-wrap:anywhere}.repeat-explain{font-size:13px;line-height:1.55;padding:8px;margin:0}.repeat-pattern-card{display:block;width:100%;box-sizing:border-box;margin:12px 0;border:2px solid #7c3aed;border-radius:12px;overflow:hidden;background:white}.repeat-card-head{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:11px;background:#ede9fe;color:#312e81;font-size:15px;font-weight:900}.repeat-card-head strong{font-size:17px}.repeat-watch{background:#dcfce7;color:#14532d;padding:12px;font-size:15px;line-height:1.7}.repeat-watch strong{font-size:18px;font-weight:950;overflow-wrap:anywhere}.repeat-watch small{display:block;color:#334155;font-size:11px}.repeat-steps{padding:7px}.repeat-step{display:grid;grid-template-columns:58px 42px 1fr auto;align-items:center;gap:5px;padding:8px 4px;border-bottom:1px solid #e5e7eb;font-size:12px;font-weight:750}.repeat-step-num{font-size:10px;color:#4338ca}.repeat-step-jodi{background:#fce7f3;color:#9d174d;border:2px solid #db2777;border-radius:5px;text-align:center;font-size:18px;font-weight:950}.repeat-step>b:last-child{color:#1d4ed8;font-size:12px}.repeat-history{margin:8px;border:1px solid #a5b4fc;border-radius:7px;overflow:hidden}.repeat-chart-title{padding:12px;background:#dbeafe;color:#1e3a8a;font-size:13px;font-weight:900}.repeat-chart-scroll{max-width:100%;overflow-x:auto}.repeat-weekly-chart{width:100%;min-width:0;table-layout:fixed;border-collapse:collapse;font-size:11px}.repeat-weekly-chart th{background:#312e81;color:#fff;padding:6px 1px}.repeat-weekly-chart td{padding:7px 1px;text-align:center;border:1px solid #e5e7eb;overflow-wrap:anywhere}.repeat-weekly-chart .repeat-week-date{width:66px;min-width:66px;max-width:66px;white-space:nowrap;font-size:9px;background:#f5f3ff;line-height:1.2;padding:5px 1px}.repeat-weekly-chart .repeat-week-date b{display:block;font-size:10px}.repeat-weekly-chart .repeat-week-date small{display:block;white-space:nowrap;font-size:7px;letter-spacing:-.2px;line-height:1.15;white-space:normal;overflow-wrap:normal}.repeat-week-date small{display:block;font-size:8px}.repeat-weekly-chart .repeat-hit{background:#fce7f3!important;color:#9d174d!important;outline:2px solid #db2777;outline-offset:-2px;font-size:15px;font-weight:950}@media(max-width:520px){.repeat-page{padding:4px}.repeat-step{grid-template-columns:45px 38px 1fr 54px;font-size:11px;gap:3px}.repeat-step-jodi{font-size:16px}.repeat-step>b:last-child{font-size:10px}.repeat-weekly-chart{font-size:10px}.repeat-weekly-chart .repeat-week-date{width:66px;font-size:8px}.repeat-week-date small{font-size:7px}}
+/* Reverse Number+n: keep its full weekday table in its own horizontal scroll area. */
+.number-n-reverse-scroll{display:block;width:100%;max-width:100%;overflow-x:auto!important;overflow-y:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}
+.number-n-reverse-table{border-collapse:collapse!important;table-layout:fixed!important}
+.number-n-reverse-table th,.number-n-reverse-table td{box-sizing:border-box;white-space:normal;overflow-wrap:anywhere}
+.number-n-reverse-table .repeat-week-date{width:116px!important;min-width:116px!important;max-width:116px!important;white-space:normal!important;line-height:1.2!important}
+.number-n-reverse-table th:not(:first-child),.number-n-reverse-table td:not(:first-child){width:48px!important;min-width:48px!important;max-width:48px!important;text-align:center!important}
+.number-n-reverse-table .repeat-week-date small{white-space:normal!important;overflow-wrap:anywhere!important;font-size:9px!important}
 /* Monday 00 any-gap progression: readable stacked rows and horizontally scrollable detail table */
 .monday-progression-card .repeat-step{grid-template-columns:minmax(105px,1fr) 46px minmax(0,2fr);gap:7px;align-items:center}
 .monday-progression-card .repeat-step-num{font-size:11px;line-height:1.45;overflow-wrap:anywhere}
@@ -803,7 +810,7 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
  <div class="open-digit-controls"><label for="openDigit">Open digit</label><select id="openDigit" class="field"><option value="0" selected>0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select><button type="button" id="runOpenDigitSearch" class="primary-btn">Search 10 Jodis</button></div>
  <div id="openDigitSummary" class="open-digit-summary" aria-live="polite">Choose an open digit to view its matching గత నమూనాలు Jodis.</div>
 </div>
-<div class="tabs"><button class="tab active" data-view="jodi">Jodi Chart</button><button class="tab" data-view="panel">Panel Chart</button><button class="tab" data-view="target-linked">Number+n Search</button><button class="tab" data-view="reverse-chain">Reverse Number+n Chain</button><button class="tab" data-view="friday-monday">Friday–Monday Progression</button><button class="tab" data-view="repeat">Repeat Logic</button><button class="tab" data-view="linked">Linked Jodi Logic</button><button class="tab" data-view="monday-00">Monday 00 Search</button><button class="tab" data-view="monday-00-link">Monday 00 → Same / Reverse Next Row</button><button class="tab" data-view="saturday-chain">Saturday +10 / Variable-Gap Pattern Search (Selected Market)</button></div>
+<div class="tabs"><button class="tab active" data-view="jodi">Jodi Chart</button><button class="tab" data-view="panel">Panel Chart</button><button class="tab" data-view="target-linked">Number+n Search</button><button class="tab" data-view="reverse-number">Reverse Number+n</button><button class="tab" data-view="reverse-chain">Reverse Number+n Chain</button><button class="tab" data-view="friday-monday">Friday–Monday Progression</button><button class="tab" data-view="repeat">Repeat Logic</button><button class="tab" data-view="linked">Linked Jodi Logic</button><button class="tab" data-view="monday-00">Monday 00 Search</button><button class="tab" data-view="monday-00-link">Monday 00 → Same / Reverse Next Row</button><button class="tab" data-view="saturday-chain">Saturday +10 / Variable-Gap Pattern Search (Selected Market)</button></div>
 <div class="summary"><span class="pill" id="count">0 records</span><span class="pill" id="targetStats" hidden></span></div>
 <div id="tableArea" class="table-wrap"><div class="empty"><strong>Loading chart records…</strong>Please wait while the latest published data is loaded.</div></div>
 <div id="currentChartLabel" class="current-chart-label" aria-live="polite">Time Bazar</div>
@@ -1083,7 +1090,7 @@ function matchesChartSearch(row,query){
  if(/^\d{1,3}$/.test(q))return ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].some(d=>String(row[d+' Jodi']??'').trim()===q);
  return JSON.stringify(row).toLowerCase().includes(q);
 }
-function updateCurrentChartLabel(){const market=markets.find(m=>m.id===selected);const label=$('currentChartLabel');if(!label||!market)return;const type=({jodi:'Jodi Chart',panel:'Panel Chart','target-linked':'Number+n Search','reverse-chain':'Reverse Number+n Chain','friday-monday':'Friday–Monday Progression',repeat:'Repeat Logic',linked:'Linked Jodi Logic','monday-00':'Monday 00 Progression'})[view]||'Jodi Chart';label.textContent=market.name;}
+function updateCurrentChartLabel(){const market=markets.find(m=>m.id===selected);const label=$('currentChartLabel');if(!label||!market)return;const type=({jodi:'Jodi Chart',panel:'Panel Chart','target-linked':'Number+n Search' ,'reverse-number':'Reverse Number+n','reverse-chain':'Reverse Number+n Chain','friday-monday':'Friday–Monday Progression',repeat:'Repeat Logic',linked:'Linked Jodi Logic','monday-00':'Monday 00 Progression'})[view]||'Jodi Chart';label.textContent=market.name;}
 
 function isOriginalSaturdayExample(market,rows,c){return (market.id==='sridevi-night'||market.id==='sridevi')&&c.direction===-1&&c.firstGap===6&&c.gapStep===0&&c.chain.length>=4&&c.chain[0].main==='44'&&c.chain[0].linked==='88'&&String(rows[c.chain[0].mainIndex]?.date||'').startsWith('25/12/2023')&&c.chain.slice(0,4).map(x=>x.main+':'+x.linked).join('|')==='44:88|54:77|64:66|74:55';}
 async function runSaturdayChainAll(){
@@ -1700,6 +1707,51 @@ function renderChart(){
   $('tableArea').innerHTML='<div class="repeat-page"><h3>REVERSE NUMBER+n CHAIN · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Uses the same Number+n selected filtered-result rows as Duplicate → Linked Jodis. A start row must contain a reverse pair in that same row (a double such as 66 must occur twice). Then a reverse Jodi must appear at gap +1; from that matched row, another reverse must appear at gap +2; then +3, +4, +5… A chain is shown only when at least +1 and +2 are both confirmed. Each card shows the full week without overlapping columns.</p>'+(chainCards||'<div class="empty"><strong>No complete chains with both +1 and +2 confirmed.</strong>One first-step match by itself is not counted as a completed chain.</div>')+'</div>';
   return;
  }
+ if(view==='reverse-number'||$('daySearch').value==='reverse-number'||document.querySelector('.tab[data-view="reverse-number"]')?.classList.contains('active')){
+  stats.hidden=true;
+  if(!targetSearch||targetSearch.error){
+   $('count').textContent='Number+n search required';
+   $('tableArea').innerHTML='<div class="empty"><strong>First enter a valid Number+n search.</strong>Then choose Reverse Number+n. It checks exact reversed Jodis at the selected filtered-row offset.</div>';
+   return;
+  }
+  const reverseMatches=[];
+  if(targetSearch.offset>0){
+   for(let sourceIndex=0;sourceIndex+targetSearch.offset<targetSearchRows.length;sourceIndex++){
+    const targetIndex=sourceIndex+targetSearch.offset;
+    const source=targetSearchRows[sourceIndex],target=targetSearchRows[targetIndex];
+    if(yr!=='all'&&(!String(source.date||'').includes(yr)||!String(target.date||'').includes(yr)))continue;
+    for(const sourceDay of targetSearchDays){
+     const sourceJodi=String(source[sourceDay+' Jodi']??'').trim();
+     if(!/^\d{2}$/.test(sourceJodi))continue;
+     const reverseJodi=sourceJodi[1]+sourceJodi[0];
+     const targetDays=targetSearchDays.filter(day=>String(target[day+' Jodi']??'').trim()===reverseJodi);
+     for(const targetDay of targetDays)reverseMatches.push({sourceIndex,targetIndex,source,target,sourceDay,sourceJodi,targetDay,reverseJodi});
+    }
+   }
+  }
+  const reverseRowMarks=new Map();
+  reverseMatches.forEach(match=>{
+   for(const [index,day,value] of [[match.sourceIndex,match.sourceDay,match.sourceJodi],[match.targetIndex,match.targetDay,match.reverseJodi]]){
+    if(!reverseRowMarks.has(index))reverseRowMarks.set(index,new Map());
+    if(!reverseRowMarks.get(index).has(day))reverseRowMarks.get(index).set(day,new Set());
+    reverseRowMarks.get(index).get(day).add(value);
+   }
+  });
+  const reverseVisibleRows=[...reverseRowMarks.keys()].sort((a,b)=>a-b);
+  const tableWidth=116+repeatDays.length*48;
+  const reverseTable=reverseVisibleRows.length
+   ?'<div class="repeat-chart-scroll number-n-reverse-scroll"><table class="repeat-weekly-chart number-n-reverse-table" style="width:'+tableWidth+'px;min-width:'+tableWidth+'px;max-width:none;table-layout:fixed"><colgroup><col style="width:116px">'+repeatDays.map(()=>'<col style="width:48px">').join('')+'</colgroup><thead><tr><th class="reverse-week-heading">FILTERED ROW / DATE</th>'+repeatDays.map(day=>'<th>'+day.toUpperCase()+'</th>').join('')+'</tr></thead><tbody>'+reverseVisibleRows.map((ix,resultIndex)=>{
+    const item=targetSearchRowsWithSource[ix],row=item.row,marks=reverseRowMarks.get(ix);
+    return '<tr><td class="repeat-week-date"><b>Result '+(resultIndex+1)+'</b><small>Filtered row '+(ix+1)+'<br>Chart row '+(item.index+1)+'<br>'+esc(row.date||'')+'</small></td>'+repeatDays.map(day=>{
+     const value=String(row[day+' Jodi']??'').trim(),hit=marks.get(day)?.has(value);
+     return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(value)?(hit?'<strong>'+esc(value)+'</strong>':esc(value)):'·')+'</td>';
+    }).join('')+'</tr>';
+   }).join('')+'</tbody></table></div>'
+   :'<div class="empty">No exact reverse Jodi matches were found at this Number+n offset.</div>';
+  $('count').textContent=reverseMatches.length+' exact reverse matches · offset +'+targetSearch.offset;
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>REVERSE NUMBER+n · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Checks every valid Jodi against its exact digit-reversed pair '+targetSearch.offset+' filtered playing rows later. The first input number is not treated as a fixed starting Jodi. Only rows containing confirmed matches are displayed.</p>'+reverseTable+'</div>';
+  return;
+ }
  if(view==='target-linked'||$('daySearch').value==='target-linked'||document.querySelector('.tab[data-view="target-linked"]')?.classList.contains('active')){
   // Separate 28+n follow-up analysis. It uses ONLY the rows selected by targetJodiSearch.
   // Row gaps are positions within that filtered result list, not original chart rows.
@@ -1904,46 +1956,6 @@ function renderChart(){
   }).join('');
   const section=(title,subtitle,list)=>'<section class="repeat-live-section"><h3>'+title+'</h3><p>'+subtitle+'</p>'+(list.length?renderCards(list):'<div class="empty">No confirmed chains in this category.</div>')+'</section>';
   const noCurrent=!thisWeekPatterns.length?'<div class="empty"><strong>ఈ వారం చార్ట్‌లో ఈ నమూనాకు సంబంధించిన జోడి ఇంకా కనిపించలేదు.</strong>'+(chartFresh?'NEXT లక్ష్యాలు తాజా చార్ట్ ఫలితాల ఆధారంగా మాత్రమే చూపబడతాయి.':'లైవ్ / NEXT లక్ష్యాలు నిలిపివేశాం; చార్ట్ డేటా పాతది. కొత్త ఫలితాలు వచ్చిన తర్వాత మళ్లీ లెక్కించబడతాయి.')+'</div>':'';
-  // Reverse Number+n is independent of the first number typed in the
-  // Number+n box. Scan EVERY valid Jodi and look for its digit-reversed pair
-  // exactly N filtered playing rows later. The first input number is NOT a
-  // fixed starting Jodi. Show only rows that contain a confirmed pair.
-  const reverseMatches=[];
-  if(targetSearch&&!targetSearch.error&&targetSearch.offset>0){
-   for(let sourceIndex=0;sourceIndex+targetSearch.offset<targetSearchRows.length;sourceIndex++){
-    const targetIndex=sourceIndex+targetSearch.offset;
-    const source=targetSearchRows[sourceIndex],target=targetSearchRows[targetIndex];
-    if(yr!=='all'&&(!String(source.date||'').includes(yr)||!String(target.date||'').includes(yr)))continue;
-    for(const sourceDay of targetSearchDays){
-     const sourceJodi=String(source[sourceDay+' Jodi']??'').trim();
-     if(!/^\d{2}$/.test(sourceJodi))continue;
-     const reverseJodi=sourceJodi[1]+sourceJodi[0];
-     const targetDays=targetSearchDays.filter(day=>String(target[day+' Jodi']??'').trim()===reverseJodi);
-     for(const targetDay of targetDays){
-      reverseMatches.push({sourceIndex,targetIndex,source,target,sourceDay,sourceJodi,targetDay,reverseJodi});
-     }
-    }
-   }
-  }
-  const reverseRowMarks=new Map();
-  reverseMatches.forEach(match=>{
-   for(const [index,day,value] of [[match.sourceIndex,match.sourceDay,match.sourceJodi],[match.targetIndex,match.targetDay,match.reverseJodi]]){
-    if(!reverseRowMarks.has(index))reverseRowMarks.set(index,new Map());
-    if(!reverseRowMarks.get(index).has(day))reverseRowMarks.get(index).set(day,new Set());
-    reverseRowMarks.get(index).get(day).add(value);
-   }
-  });
-  const reverseVisibleRows=[...reverseRowMarks.keys()].sort((a,b)=>a-b);
-  const reverseTable=reverseVisibleRows.length
-   ?'<div class="repeat-chart-scroll"><table class="repeat-weekly-chart"><thead><tr><th class="reverse-week-heading">FILTERED ROW / DATE</th>'+repeatDays.map(day=>'<th>'+day.toUpperCase()+'</th>').join('')+'</tr></thead><tbody>'+reverseVisibleRows.map((ix,resultIndex)=>{
-     const item=targetSearchRowsWithSource[ix],row=item.row,marks=reverseRowMarks.get(ix);
-     return '<tr><td class="repeat-week-date"><b>Result '+(resultIndex+1)+'</b><small>Filtered row '+(ix+1)+'<br>Chart row '+(item.index+1)+'<br>'+esc(row.date||'')+'</small></td>'+repeatDays.map(day=>{
-      const value=String(row[day+' Jodi']??'').trim(),hit=marks.get(day)?.has(value);
-      return '<td class="'+(hit?'repeat-hit':'')+'">'+(valid(value)?(hit?'<strong>'+esc(value)+'</strong>':esc(value)):'·')+'</td>';
-     }).join('')+'</tr>';
-    }).join('')+'</tbody></table></div>'
-   :'<div class="empty">ఈ gap వద్ద reverse Jodi matches ఏవీ లేవు.</div>';
-  const reverseSection='<section class="repeat-live-section reverse-number-section"><h3>REVERSE NUMBER+n · SEPARATE LIST · '+reverseMatches.length+' MATCHES</h3><p>అన్ని Jodis ను పరిశీలించి, ప్రతి Jodi కి అంకెలను తారుమారు చేసిన Jodi ను ఖచ్చితంగా '+targetSearch.offset+' filtered playing rows తర్వాత వెతుకుతుంది. Input లోని మొదటి సంఖ్య fixed starting Jodi కాదు. మధ్యలోని rows చూపించకుండా, match ఉన్న rows మాత్రమే చూపబడతాయి.</p>'+reverseTable+'</section>';
   $('tableArea').innerHTML='<div class="repeat-page"><h3>ANY NUMBER+n · CURRENT &amp; UPCOMING LINKED JODIS · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">వారం స్థితి India-local ప్రస్తుత సోమవారం–ఆదివారం తేదీలతో ఆటోమేటిక్‌గా మారుతుంది. గ్యాప్‌లు Number+n filtered-result వరుసలలో లెక్కించబడతాయి. ఇవి గత చార్ట్ నమూనాలు మాత్రమే; భవిష్యత్ ఫలితాల హామీ కావు.</p>'+reverseSection+noCurrent+section('ఈ వారం పూర్తయిన నమూనాలు · DONE','ఈ వారం లోనే చివరి లింక్ జోడి వచ్చింది. ఈ నమూనా పూర్తయింది.',completedThisWeekPatterns)+section('తర్వాతి చార్ట్ వారాల్లో ఇప్పటికే వచ్చిన జోడీలు · ALREADY CAME','ఈ నమూనాలోని duplicate / linked Jodi, chain ముగిసిన తర్వాతి chart weeks లో ఇప్పటికే కనిపించింది. కాబట్టి ఇది NEXT లేదా WATCH లక్ష్యం కాదు.',reappearedThisWeekPatterns)+section('తదుపరి ఫలితంలో చూడాల్సిన జోడీలు · NEXT 1','NEXT 1 అంటే మీ Number+n జాబితాలో వచ్చే తదుపరి ఫలితం. ఇది వచ్చే క్యాలెండర్ వారం అని కాదు.',nextWeekPatterns)+section('ఇంకా 2 ఫిల్టర్ ఫలితాల తర్వాత · NEXT 2','ఈ జోడీ రావడానికి ముందు Number+n జాబితాలో మరో 2 ఫలితాలు ఉన్నాయి. ఇవి 2 క్యాలెండర్ వారాలు కావు.',twoWeekPatterns)+section('తర్వాతి దశలు ఇంకా రావాల్సి ఉన్నాయి · WATCH','ఈ నమూనా ఇంకా కొనసాగుతోంది. NEXT సంఖ్య అంటే Number+n జాబితాలో మిగిలిన ఫలితాల సంఖ్య.',[...ongoingPatterns,...furtherPatterns])+(historicalPatterns.length?'<details class="repeat-history"><summary>పాత నమూనాలు · ARCHIVE ('+historicalPatterns.length+')</summary>'+renderCards(historicalPatterns)+'</details>':'')+(patterns.length>300?'<p>Showing up to 300 chains per section.</p>':'')+'</div>';
   return;
  }
