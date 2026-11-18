@@ -854,6 +854,8 @@ const markets=[
  {id:'radha-night',name:'Radha Night',url:'https://sara777.com/radha-night/pana.html',open:'',close:'',showLive:false},
 ];
 let data={charts:{},updated_at:null},selected=markets[0].id,view='jodi',dataLoadFailed=false;
+// Preserve the last valid Number+n query while switching between its analysis tabs.
+let lastNumberNQuery='';
 const repeatOpenCharts=new Set();
 document.addEventListener('toggle',e=>{if(e.target?.matches?.('.repeat-history[data-repeat-key]')){const k=e.target.dataset.repeatKey;if(e.target.open)repeatOpenCharts.add(k);else repeatOpenCharts.delete(k);}},true);
 const $=id=>document.getElementById(id);
@@ -1285,7 +1287,10 @@ function renderChart(){
  const selectedSearchDay=$('daySearch').value;
  const targetSearchDays=selectedSearchDay==='all'?repeatDays:
   (['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].includes(selectedSearchDay)?[selectedSearchDay]:repeatDays);
- const targetSearch=targetJodiSearch(targetSearchRows,$('search').value,targetSearchDays);
+ const typedNumberNQuery=String($('search').value||'').trim();
+ if(/^\d{1,2}\s*\+\s*\d{1,2}$/.test(typedNumberNQuery))lastNumberNQuery=typedNumberNQuery;
+ const activeNumberNQuery=(typedNumberNQuery||(['target-linked','reverse-number','reverse-chain'].includes(view)?lastNumberNQuery:''));
+ const targetSearch=targetJodiSearch(targetSearchRows,activeNumberNQuery,targetSearchDays);
  const years=[...new Set(allRows.map(r=>String(r.date||'').match(/\b(?:19|20)\d{2}\b/)?.[0]).filter(Boolean))].sort().reverse();
  const prev=$('year').value;
  $('year').innerHTML='<option value="all">All years</option>'+years.map(y=>'<option value="'+y+'">'+y+'</option>').join('');
@@ -2559,7 +2564,7 @@ document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
  renderChart();
  if(view==='monday-00')document.querySelector('.panel').scrollIntoView({behavior:'smooth',block:'start'});
 }));
-$('search').addEventListener('input',renderChart);$('daySearch').addEventListener('change',renderChart);$('year').addEventListener('change',renderChart);
+$('search').addEventListener('input',()=>{const q=String($('search').value||'').trim();if(/^\d{1,2}\s*\+\s*\d{1,2}$/.test(q))lastNumberNQuery=q;renderChart();});$('daySearch').addEventListener('change',renderChart);$('year').addEventListener('change',renderChart);
 $('runOpenDigitSearch')?.addEventListener('click',()=>{$('runOpenDigitSearch').dataset.run='yes';renderChart();});
 $('openDigitSummary')?.addEventListener('click',e=>{const b=e.target.closest('[data-jodi]');if(!b)return;const tool=$('openDigitTool');tool.dataset.selectedJodi=tool.dataset.selectedJodi===b.dataset.jodi?'':b.dataset.jodi;renderChart();});
 async function fetchData(marketId=selected){
