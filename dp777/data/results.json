@@ -15,7 +15,7 @@
       "result": "479-04-257",
       "source": "https://dpbossss.com/",
       "source_label": "MILAN DAY",
-      "result_changed_at": "2026-11-18T15:29:51+00:00"
+      "result_changed_at": "2026-11-18T15:30:27+00:00"
     },
     "rajdhani-day": {
       "name": "Rajdhani Day",
@@ -29,14 +29,7 @@
       "result": "256-30-145",
       "source": "https://dpbossss.com/",
       "source_label": "KALYAN",
-      "result_changed_at": "2026-11-18T15:29:51+00:00"
-    },
-    "milan-night": {
-      "name": "Milan Night",
-      "result": "189-80-389",
-      "source": "https://dpbossss.com/",
-      "source_label": "MILAN NIGHT",
-      "result_changed_at": "2026-11-17T17:42:01+00:00"
+      "result_changed_at": "2026-11-18T15:30:27+00:00"
     },
     "kalyan-night": {
       "name": "Kalyan Night",
@@ -71,12 +64,12 @@
       "result": "190-03-229",
       "source": "https://dpbossss.com/",
       "source_label": "SRIDEVI NIGHT",
-      "result_changed_at": "2026-11-18T15:29:51+00:00"
+      "result_changed_at": "2026-11-18T15:30:27+00:00"
     }
   },
-  "live_fetched_at": "2026-11-18T15:29:51+00:00",
+  "live_fetched_at": "2026-11-18T15:30:27+00:00",
   "live_source": "https://dpbossss.com/",
-  "live_status": "ok",
+  "live_status": "partial",
   "charts": {
     "time-bazar": {
       "title": "Time Bazar historical records",
