@@ -1753,6 +1753,56 @@ function renderChart(){
   $('tableArea').innerHTML='<div class="repeat-page"><h3>REVERSE NUMBER+n CHAIN · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Uses the same Number+n selected filtered-result rows as Duplicate → Linked Jodis. A start row must contain a reverse pair in that same row (a double such as 66 must occur twice). Then a reverse Jodi must appear at gap +1; from that matched row, another reverse must appear at gap +2; then +3, +4, +5… A chain is shown only when at least +1 and +2 are both confirmed. Each card shows the full week without overlapping columns.</p>'+(chainCards||'<div class="empty"><strong>No complete chains with both +1 and +2 confirmed.</strong>One first-step match by itself is not counted as a completed chain.</div>')+'</div>';
   return;
  }
+ if(view==='target-linked'||$('daySearch').value==='target-linked'||document.querySelector('.tab[data-view="target-linked"]')?.classList.contains('active')){
+  // Number+n Search: find the entered Jodi in a source filtered-result row,
+  // move exactly +N playing rows, then find that SAME Jodi in the destination
+  // row. This is independent of Reverse Number+n and Linked Jodi Logic.
+  stats.hidden=true;
+  if(!targetSearch||targetSearch.error){
+   $('count').textContent='Number+n search required';
+   $('tableArea').innerHTML='<div class="empty"><strong>Enter a valid Number+n search first.</strong>Example: 39+3.</div>';
+   return;
+  }
+  const sameMatches=[];
+  for(const sourceIndex of targetSearch.targetIndexes){
+   const targetIndex=sourceIndex+targetSearch.offset;
+   if(targetIndex>=targetSearchRows.length)continue;
+   const source=targetSearchRows[sourceIndex],target=targetSearchRows[targetIndex];
+   if(!source||!target)continue;
+   if(yr!=='all'&&!String(source.date||'').includes(yr)&&!String(target.date||'').includes(yr))continue;
+   for(const sourceDay of targetSearchDays){
+    const sourceJodi=String(source[sourceDay+' Jodi']??'').trim();
+    if(sourceJodi!==targetSearch.target)continue;
+    for(const targetDay of targetSearchDays){
+     const found=String(target[targetDay+' Jodi']??'').trim();
+     if(found===targetSearch.target){
+      sameMatches.push({sourceIndex,targetIndex,source,target,sourceDay,sourceJodi,targetDay,matchedJodi:found});
+     }
+    }
+   }
+  }
+  const groupedSame=new Map();
+  sameMatches.forEach(match=>{
+   const key=match.sourceIndex+':'+match.targetIndex;
+   if(!groupedSame.has(key))groupedSame.set(key,{sourceIndex:match.sourceIndex,targetIndex:match.targetIndex,matches:[]});
+   groupedSame.get(key).matches.push(match);
+  });
+  const sameCards=[...groupedSame.values()].map((group,n)=>{
+   const source=targetSearchRows[group.sourceIndex],target=targetSearchRows[group.targetIndex];
+   const sourceMarks=[],destinationMarks=[];
+   group.matches.forEach(x=>{
+    sourceMarks.push({row:x.source,day:x.sourceDay});
+    destinationMarks.push({row:x.target,day:x.targetDay});
+   });
+   const links=group.matches.map((x,k)=>'<div class="repeat-step"><b class="repeat-step-num">లింక్ '+(k+1)+'</b><strong class="repeat-step-jodi">'+esc(x.sourceJodi)+' → '+esc(x.matchedJodi)+'</strong><span>'+esc(x.sourceDay)+' · '+esc(source.date||'')+' → '+esc(x.targetDay)+' · '+esc(target.date||'')+'</span><b>గ్యాప్ +'+targetSearch.offset+'</b></div>').join('');
+   const weeklyRows=targetSearchRows.slice(group.sourceIndex,group.targetIndex+1);
+   const chart='<details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary><div class="repeat-chart-scroll">'+renderWeeklyChart(weeklyRows,'pattern',{reference:sourceMarks,linked:destinationMarks})+'</div></details>';
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · NUMBER+n · '+esc(m?.name||selected).toUpperCase()+'</strong><span>Gap +'+targetSearch.offset+'</span></div><div class="repeat-watch"><b>ప్రారంభ జోడి → అదే జోడి</b><div><strong>'+esc(targetSearch.target)+' → '+esc(targetSearch.target)+'</strong></div><small>Filtered result row '+(group.sourceIndex+1)+' · '+esc(source.date||'')+' → Filtered result row '+(group.targetIndex+1)+' · '+esc(target.date||'')+'</small></div><div class="repeat-steps">'+links+'</div>'+chart+'</section>';
+  }).join('');
+  $('count').textContent=sameMatches.length+' exact same-Jodi matches · '+groupedSame.size+' matched row pairs · offset +'+targetSearch.offset;
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>NUMBER+n · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Find the entered Jodi in a source row, count exactly +'+targetSearch.offset+' filtered playing rows, and check for the same Jodi in any selected weekday of the destination row. Closed/holiday rows do not consume the gap. Only exact matches are highlighted.</p>'+(sameCards||'<div class="empty">No exact same-Jodi matches were found at this Number+n offset.</div>')+'</div>';
+  return;
+ }
  if(view==='reverse-number'||$('daySearch').value==='reverse-number'||document.querySelector('.tab[data-view="reverse-number"]')?.classList.contains('active')){
   stats.hidden=true;
   if(!targetSearch||targetSearch.error){
@@ -1817,7 +1867,7 @@ function renderChart(){
   $('tableArea').innerHTML='<div class="repeat-page"><h3>REVERSE NUMBER+n · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Finds the entered Jodi in its original filtered-result row, moves exactly +'+targetSearch.offset+' playing rows, and checks for its digit-reversed Jodi. Fully closed weeks do not consume the gap. The matching rule is separate from Number+n; the weekly chart keeps the original weekday positions and highlights.</p>'+(reverseCards||'<div class="empty">No exact reverse Jodi matches were found at this Number+n offset.</div>')+'</div>';
   return;
  }
- if(view==='target-linked'||$('daySearch').value==='target-linked'||document.querySelector('.tab[data-view="target-linked"]')?.classList.contains('active')){
+ if(false && (view==='target-linked'||$('daySearch').value==='target-linked'||document.querySelector('.tab[data-view="target-linked"]')?.classList.contains('active'))){
   // Separate 28+n follow-up analysis. It uses ONLY the rows selected by targetJodiSearch.
   // Row gaps are positions within that filtered result list, not original chart rows.
   stats.hidden=true;
