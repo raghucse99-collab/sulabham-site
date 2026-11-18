@@ -1,0 +1,232 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-18 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about V.O. Chidambaram Pillai:
+I. He registered the Swadeshi Steam Navigation Company in October 1906 to compete with a British shipping company.
+II. The company's ships sailed between Tuticorin and Colombo.
+III. After his 1908 arrest he was kept in the Cellular Jail, Andaman.
+IV. He is remembered as 'Kappalottiya Tamizhan'.
+
+--- QUESTION ---
+Q1. Consider the following statements about V.O. Chidambaram Pillai: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: VOC was jailed in Coimbatore Central Prison (made to pull the oil press), not the Andaman Cellular Jail. (a) misses the true statement IV.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Match List-I with List-II:
+A. S.S. Gallia   1. Renamed V.O. Chidambaranar Port Authority in 2022
+B. Tuticorin port   2. First ship of VOC's Swadeshi company
+C. Coral Mill strike   3. VOC's political guru from 1892
+D. Bal Gangadhar Tilak   4. 1908, led with Subramanya Siva
+
+--- QUESTION ---
+Q2. Match List-I with List-II: (statements in the message above)
+
+--- OPTIONS ---
+(a) A-2, B-1, C-3, D-4
+(b) A-1, B-2, C-4, D-3
+(c) A-2, B-4, C-1, D-3
+(d) A-2, B-1, C-4, D-3
+
+--- CORRECT (tick this) ---
+(d) A-2, B-1, C-4, D-3
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Gallia = first ship (A-2); Tuticorin port = renamed after VOC (B-1); Coral Mill strike = 1908 with Siva (C-4); Tilak = guru (D-3). Option (b) swaps the ship and the port.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements about World AMR Awareness Week (WAAW) 2026:
+I. It is observed from 18 to 24 November.
+II. Its theme is 'One Health, one action: Prevent AMR now'.
+III. The 'One Health' idea links the health of people, animals, plants and the environment.
+IV. AMR means the human body becomes resistant to medicines.
+
+--- QUESTION ---
+Q3. Consider the following statements about World AMR Awareness Week (WAAW) 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III only
+(b) I and II only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is the trap: resistance develops in the germs (bacteria, viruses, fungi, parasites), not in the human body.
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Consider the following Assertion (A) and Reason (R):
+Assertion (A): India's National Action Plan on AMR 2.0 (2025–29) involves more than 20 ministries.
+Reason (R): AMR is a purely hospital problem caused only by doctors' prescriptions.
+
+--- OPTIONS ---
+(a) Both A and R are true and R explains A
+(b) Both A and R are true but R does not explain A
+(c) A is true but R is false
+(d) A is false but R is true
+
+--- CORRECT (tick this) ---
+(c) A is true but R is false
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+A is true. R is false: AMR is a One Health problem — misuse in animals, agriculture, food systems and the environment also drives it; that is exactly why many ministries are involved.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. With reference to the Forest Rights Act, 2006, which of the following statements is/are INCORRECT?
+I. Other Traditional Forest Dwellers must show residence for at least three generations (75 years) before 13 December 2005.
+II. The final title is issued by the Gram Sabha.
+III. The nodal ministry is the Ministry of Environment, Forest and Climate Change.
+
+--- QUESTION ---
+Q5. With reference to the Forest Rights Act, 2006, which of the following statements is/are INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II and III are incorrect: the final title is given by the District Level Committee chaired by the Collector (the Gram Sabha starts the process), and the nodal ministry is Tribal Affairs. I is correct.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following statements about the latest FRA implementation data (August 2026):
+I. About 54 lakh claims were received and 25.42 lakh titles distributed.
+II. Community titles form more than half of all titles distributed.
+III. Andhra Pradesh's Giribhumi portal has been integrated with revenue and banking databases.
+IV. Under DA-JGUA, ₹15 lakh is given per Gram Sabha for community forest management plans.
+
+--- QUESTION ---
+Q6. Consider the following statements about the latest FRA implementation data (August 2026): (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, III and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: community titles are less than 5% of titles distributed — the main criticism of FRA implementation.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following statements about the Real Estate (Regulation and Development) Act, 2016:
+I. Projects above 500 sq m or 8 apartments must be registered with the RERA.
+II. 70% of the amount collected from buyers must go to a separate escrow account.
+III. Pricing on super built-up area is allowed if the buyer agrees.
+IV. Under Section 18, a buyer may withdraw from a delayed project and get a full refund with interest.
+
+--- QUESTION ---
+Q7. Consider the following statements about the Real Estate (Regulation and Development) Act, 2016: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and IV only
+(c) I, II, III and IV
+(d) I, II and IV only
+
+--- CORRECT (tick this) ---
+(d) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: RERA requires sale on carpet area; super built-up area pricing is prohibited.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. The homebuyers' body FPCE has proposed reforms to RERA. Which of the following is/are among its proposals?
+I. Moving homebuyer protection to the Ministry of Consumer Affairs.
+II. Creating a National Appellate Tribunal for real estate.
+III. Abolishing the escrow account requirement.
+IV. Making compensation automatic for all allottees.
+
+--- QUESTION ---
+Q8. The homebuyers' body FPCE has proposed reforms to RERA. Which of the following is/are among its proposals? (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and IV only
+(b) I and II only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is the trap: buyers want stronger protection, not removal of the 70% escrow rule. FPCE's five asks: Consumer Affairs, National Appellate Tribunal, sale agreement in a Schedule, distress exit, a...
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Arrange the steps for a state to get central assistance from the National Disaster Response Fund (NDRF) in the correct order:
+I. High Level Committee chaired by the Union Home Minister approves
+II. State submits a memorandum
+III. Sub-Committee of the National Executive Committee (Home Secretary) examines
+IV. Inter-Ministerial Central Team (IMCT) assesses on the spot
+
+--- QUESTION ---
+Q9. Arrange the steps for a state to get central assistance from the National Disaster Response Fund (NDRF) in the correct order: (statements in the message above)
+
+--- OPTIONS ---
+(a) IV, II, III, I
+(b) II, IV, III, I
+(c) II, III, IV, I
+(d) II, IV, I, III
+
+--- CORRECT (tick this) ---
+(b) II, IV, III, I
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Memorandum → IMCT assessment → Sub-Committee (Home Secretary) → HLC (Home Minister). Trap (d): the HLC is the last step, after the Sub-Committee. (Since 2019 the IMCT may also be sent before the me...
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Consider the following statements about the recent cyclones in Andhra Pradesh and disaster relief:
+I. Cyclone Murasu crossed the coast near Ongole.
+II. Money from the SDRF is meant as full compensation for every loss suffered.
+III. Under the 15th Finance Commission, the Centre:State share in SDRF is 75:25 for general-category states such as Andhra Pradesh.
+IV. The National Disaster Response Fund and the National Disaster Response Force are the same body.
+
+--- QUESTION ---
+Q10. Consider the following statements about the recent cyclones in Andhra Pradesh and disaster relief: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) III and IV only
+(c) I and III only
+(d) I, II and III only
+
+--- CORRECT (tick this) ---
+(c) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: SDRF/NDRF money is relief, not compensation for losses. IV is wrong: the Fund is money under Sec 46 of the DM Act; the Force is a rescue force — both share the short form NDRF.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-18&tab=quiz
