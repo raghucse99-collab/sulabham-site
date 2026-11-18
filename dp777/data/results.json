@@ -12,10 +12,10 @@
     },
     "milan-day": {
       "name": "Milan Day",
-      "result": "479-0",
+      "result": "479-04-257",
       "source": "https://dpbossss.com/",
       "source_label": "MILAN DAY",
-      "result_changed_at": "2026-11-18T10:13:48+00:00"
+      "result_changed_at": "2026-11-18T15:29:51+00:00"
     },
     "rajdhani-day": {
       "name": "Rajdhani Day",
@@ -26,10 +26,10 @@
     },
     "kalyan": {
       "name": "Kalyan",
-      "result": "256-3",
+      "result": "256-30-145",
       "source": "https://dpbossss.com/",
       "source_label": "KALYAN",
-      "result_changed_at": "2026-11-18T10:22:26+00:00"
+      "result_changed_at": "2026-11-18T15:29:51+00:00"
     },
     "milan-night": {
       "name": "Milan Night",
@@ -68,13 +68,13 @@
     },
     "sridevi-night": {
       "name": "Sridevi Night",
-      "result": "455-48-558",
+      "result": "190-03-229",
       "source": "https://dpbossss.com/",
       "source_label": "SRIDEVI NIGHT",
-      "result_changed_at": "2026-11-17T14:51:14+00:00"
+      "result_changed_at": "2026-11-18T15:29:51+00:00"
     }
   },
-  "live_fetched_at": "2026-11-18T10:22:26+00:00",
+  "live_fetched_at": "2026-11-18T15:29:51+00:00",
   "live_source": "https://dpbossss.com/",
   "live_status": "ok",
   "charts": {
