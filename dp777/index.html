@@ -2455,10 +2455,10 @@ async function runMonday00LinkSearch(){
    }).join('');
    let ending='';
    if(s.failedAt){
-    ending='<div class="repeat-watch"><b>SEQUENCE ENDED AT +'+s.failedAt.offset+'</b><small>Failed comparison row: '+esc(s.failedAt.target.date||'')+'. No same/reverse Jodi match was found. Successful steps: '+s.steps.length+'.</small></div>';
+    ending='<div class="repeat-watch"><b>SEQUENCE ENDED AT +'+s.failedAt.offset+'</b><small>Failed comparison row: '+esc(s.failedAt.target.date||'')+'. No same/reverse Jodi match was found.'+(s.steps.length?' Successful steps: '+s.steps.length+'.':'')+'</small></div>';
    }else{
     const next=s.steps.length+1;
-    ending='<div class="repeat-watch"><b>CONTINUING — NO FAILURE FOUND</b><small>Successful steps: '+s.steps.length+'. The next available Monday 00 will be checked at row +'+next+'.</small></div>';
+    ending='<div class="repeat-watch"><b>CONTINUING — NO FAILURE FOUND</b><small>'+(s.steps.length?'Successful steps: '+s.steps.length+'. ':'')+'The next available Monday 00 will be checked at row +'+next+'.</small></div>';
    }
    const ref=s.source.map(x=>x.value+' '+x.day).join(' · ');
    const visibleEnd=s.steps.length?s.steps[s.steps.length-1].targetIndex:s.first.index;
@@ -2473,7 +2473,7 @@ async function runMonday00LinkSearch(){
     });
    }));
    const chart='<details class="pattern-chart-toggle"><summary>VIEW THIS SEQUENCE CHART · '+visibleRows.length+' WEEKS</summary><div class="pattern-full-chart m00-full-table-wrap">'+renderWeeklyChart(visibleRows,'pattern',{main:mainMarks,linked:linkedMarks,reference:referenceMarks})+'</div></details>';
-   return '<section class="repeat-pattern-card m00-table-card"><div class="repeat-card-head"><strong>SEQUENCE #'+s.startNo+' · '+esc(s.first.row.date||'')+'</strong><span>'+s.steps.length+' successful steps</span></div><div class="chart-hint"><b>Reference Jodis (excluding Monday anchor):</b> '+esc(ref||'No published Jodis')+'</div>'+stepHtml+ending+chart+'</section>';
+   return '<section class="repeat-pattern-card m00-table-card"><div class="repeat-card-head"><strong>SEQUENCE #'+s.startNo+' · '+esc(s.first.row.date||'')+'</strong>'+(s.steps.length?'<span>'+s.steps.length+' successful steps</span>':'')+'</div><div class="chart-hint"><b>Reference Jodis (excluding Monday anchor):</b> '+esc(ref||'No published Jodis')+'</div>'+stepHtml+ending+chart+'</section>';
   }).join('');
   $('count').textContent=anchors.length+' Monday 00 references · '+totalSteps+' successful steps in total · '+ongoing+' continuing sequences';
   $('tableArea').innerHTML='<div class="chart-title-band">'+esc(market?.name?.toUpperCase()||'SELECTED CHART')+' — ALL MONDAY 00 INDEPENDENT SEQUENCES</div><div class="chart-hint">Every Monday 00 occurrence starts a separate reference. Its next Monday 00 checks row +1, the following occurrence checks row +2, then +3 and so on. Same and reverse Jodis are checked across all available weekdays. Each sequence stops at its first failed comparison; incomplete history remains continuing.</div>'+cards;
