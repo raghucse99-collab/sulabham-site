@@ -1753,7 +1753,7 @@ function renderChart(){
   $('tableArea').innerHTML='<div class="repeat-page"><h3>REVERSE NUMBER+n CHAIN · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Uses the same Number+n selected filtered-result rows as Duplicate → Linked Jodis. A start row must contain a reverse pair in that same row (a double such as 66 must occur twice). Then a reverse Jodi must appear at gap +1; from that matched row, another reverse must appear at gap +2; then +3, +4, +5… A chain is shown only when at least +1 and +2 are both confirmed. Each card shows the full week without overlapping columns.</p>'+(chainCards||'<div class="empty"><strong>No complete chains with both +1 and +2 confirmed.</strong>One first-step match by itself is not counted as a completed chain.</div>')+'</div>';
   return;
  }
- if(view==='target-linked'||$('daySearch').value==='target-linked'||document.querySelector('.tab[data-view="target-linked"]')?.classList.contains('active')){
+ if(false && (view==='target-linked'||$('daySearch').value==='target-linked'||document.querySelector('.tab[data-view="target-linked"]')?.classList.contains('active'))){
   // Number+n Search: find the entered Jodi in a source filtered-result row,
   // move exactly +N playing rows, then find that SAME Jodi in the destination
   // row. This is independent of Reverse Number+n and Linked Jodi Logic.
@@ -1867,7 +1867,7 @@ function renderChart(){
   $('tableArea').innerHTML='<div class="repeat-page"><h3>REVERSE NUMBER+n · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Finds the entered Jodi in its original filtered-result row, moves exactly +'+targetSearch.offset+' playing rows, and checks for its digit-reversed Jodi. Fully closed weeks do not consume the gap. The matching rule is separate from Number+n; the weekly chart keeps the original weekday positions and highlights.</p>'+(reverseCards||'<div class="empty">No exact reverse Jodi matches were found at this Number+n offset.</div>')+'</div>';
   return;
  }
- if(false && (view==='target-linked'||$('daySearch').value==='target-linked'||document.querySelector('.tab[data-view="target-linked"]')?.classList.contains('active'))){
+ if(view==='target-linked'||$('daySearch').value==='target-linked'||document.querySelector('.tab[data-view="target-linked"]')?.classList.contains('active')){
   // Number+n linked-Jodi analysis: use ONLY the rows selected by the entered Jodi + offset.
   // Find duplicate Jodis in those selected rows, then follow linked Jodis through later selected rows.
   stats.hidden=true;
