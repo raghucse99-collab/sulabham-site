@@ -5,10 +5,10 @@
   "latest_results": {
     "time-bazar": {
       "name": "Time Bazar",
-      "result": "270-97-160",
+      "result": "245-1",
       "source": "https://dpbossss.com/",
       "source_label": "TIME BAZAR",
-      "result_changed_at": "2026-11-17T11:12:48+00:00"
+      "result_changed_at": "2026-11-18T08:04:31+00:00"
     },
     "milan-day": {
       "name": "Milan Day",
@@ -61,10 +61,10 @@
     },
     "sridevi": {
       "name": "Sridevi",
-      "result": "115-73-229",
+      "result": "479-07-566",
       "source": "https://dpbossss.com/",
       "source_label": "SRIDEVI",
-      "result_changed_at": "2026-11-17T07:57:53+00:00"
+      "result_changed_at": "2026-11-18T08:04:31+00:00"
     },
     "sridevi-night": {
       "name": "Sridevi Night",
@@ -74,7 +74,7 @@
       "result_changed_at": "2026-11-17T14:51:14+00:00"
     }
   },
-  "live_fetched_at": "2026-11-18T03:43:46+00:00",
+  "live_fetched_at": "2026-11-18T08:04:31+00:00",
   "live_source": "https://dpbossss.com/",
   "live_status": "ok",
   "charts": {
