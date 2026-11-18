@@ -1868,17 +1868,17 @@ function renderChart(){
   return;
  }
  if(false && (view==='target-linked'||$('daySearch').value==='target-linked'||document.querySelector('.tab[data-view="target-linked"]')?.classList.contains('active'))){
-  // Separate 28+n follow-up analysis. It uses ONLY the rows selected by targetJodiSearch.
-  // Row gaps are positions within that filtered result list, not original chart rows.
+  // Number+n linked-Jodi analysis: use ONLY the rows selected by the entered Jodi + offset.
+  // Find duplicate Jodis in those selected rows, then follow linked Jodis through later selected rows.
   stats.hidden=true;
   if(!targetSearch){
-   $('count').textContent='28+n search required';
+   $('count').textContent='Number+n search required';
    $('tableArea').innerHTML='<div class="empty"><strong>Enter any Number+n search first.</strong>For example, enter 12+3, 28+7, or 05+10 in Number / Jodi, then choose this search option.</div>';
    return;
   }
   if(targetSearch.error){
    $('count').textContent='Invalid 28+n search';
-   $('tableArea').innerHTML='<div class="empty"><strong>'+esc(targetSearch.error)+'</strong>Use a search such as 28+7.</div>';
+   $('tableArea').innerHTML='<div class="empty"><strong>'+esc(targetSearch.error)+'</strong>Use a search such as 39+3.</div>';
    return;
   }
   const filteredRows=targetSearch.selectedIndexes
