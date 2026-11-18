@@ -1757,31 +1757,33 @@ function renderChart(){
   stats.hidden=true;
   if(!targetSearch||targetSearch.error){
    $('count').textContent='Number+n search required';
-   $('tableArea').innerHTML='<div class="empty"><strong>First enter a valid Number+n search.</strong>Then choose Reverse Number+n. It checks exact reversed Jodis at the selected filtered-row offset.</div>';
+   $('tableArea').innerHTML='<div class="empty"><strong>First enter a valid Number+n search.</strong>Then choose Reverse Number+n. It applies the same filtered-row offset, but checks the exact reversed Jodi.</div>';
    return;
   }
-  const reverseMatches=[];
-  // Reverse Number+n must use the SAME filtered-result stream selected by
-  // the entered Number+n query. Do not scan the whole historical chart:
-  // that incorrectly makes this search appear unrelated to the input and
-  // can surface the same broad historical pairs regardless of the query.
-  const reverseRows=targetSearch.selectedIndexes
-   .map(i=>({row:targetSearchRows[i],sourceIndex:targetSearchRowsWithSource[i]?.index??i}))
-   .filter(x=>x.row&&(yr==='all'||String(x.row.date||'').includes(yr)));
-  if(targetSearch.offset>0){
-   for(let sourceIndex=0;sourceIndex+targetSearch.offset<reverseRows.length;sourceIndex++){
-    const targetIndex=sourceIndex+targetSearch.offset;
-    const source=reverseRows[sourceIndex].row,target=reverseRows[targetIndex].row;
-    for(const sourceDay of targetSearchDays){
-     const sourceJodi=String(source[sourceDay+' Jodi']??'').trim();
-     if(!/^\d{2}$/.test(sourceJodi))continue;
-     const reverseJodi=sourceJodi[1]+sourceJodi[0];
-     const targetDays=targetSearchDays.filter(day=>String(target[day+' Jodi']??'').trim()===reverseJodi);
-     for(const targetDay of targetDays)reverseMatches.push({sourceIndex,targetIndex,source,target,sourceDay,sourceJodi,targetDay,reverseJodi});
+  // Reverse Number+n follows the ORIGINAL Number+n anchor and gap:
+  // find the entered Jodi in the source row, move exactly +N playing rows,
+  // then look for its digit-reversed Jodi in that destination row.
+  // Do not start from Number+n's already-selected destination rows (that
+  // would incorrectly apply the offset a second time).
+  const reverseRows=targetSearchRowsWithSource.map(x=>({row:x.row,sourceIndex:x.index}));
+  const reverseMatches=[],groupedReverse=new Map();
+  const reverseTarget=targetSearch.target[1]+targetSearch.target[0];
+  for(const sourceIndex of targetSearch.targetIndexes){
+   const targetIndex=sourceIndex+targetSearch.offset;
+   if(targetIndex>=reverseRows.length)continue;
+   const sourceItem=reverseRows[sourceIndex],targetItem=reverseRows[targetIndex];
+   if(!sourceItem?.row||!targetItem?.row)continue;
+   if(yr!=='all'&&!String(sourceItem.row.date||'').includes(yr)&&!String(targetItem.row.date||'').includes(yr))continue;
+   for(const sourceDay of targetSearchDays){
+    const sourceJodi=String(sourceItem.row[sourceDay+' Jodi']??'').trim();
+    if(sourceJodi!==targetSearch.target)continue;
+    for(const targetDay of targetSearchDays){
+     const found=String(targetItem.row[targetDay+' Jodi']??'').trim();
+     if(found!==reverseTarget)continue;
+     reverseMatches.push({sourceIndex,targetIndex,source:sourceItem.row,target:targetItem.row,sourceDay,sourceJodi,targetDay,reverseJodi:found});
     }
    }
   }
-  const groupedReverse=new Map();
   reverseMatches.forEach(match=>{
    const key=match.sourceIndex+':'+match.targetIndex;
    if(!groupedReverse.has(key))groupedReverse.set(key,{sourceIndex:match.sourceIndex,targetIndex:match.targetIndex,matches:[]});
@@ -1789,7 +1791,7 @@ function renderChart(){
   });
   const reverseCards=[...groupedReverse.values()].map((group,n)=>{
    const sourceItem=reverseRows[group.sourceIndex],targetItem=reverseRows[group.targetIndex];
-   const source=group.matches[0].source,target=group.matches[0].target;
+   const source=sourceItem.row;
    const marks=new Map();
    group.matches.forEach(x=>{
     for(const [index,day,value] of [[x.sourceIndex,x.sourceDay,x.sourceJodi],[x.targetIndex,x.targetDay,x.reverseJodi]]){
@@ -1799,20 +1801,20 @@ function renderChart(){
     }
    });
    const linkRows=group.matches.map((x,k)=>'<div class="repeat-step"><b class="repeat-step-num">లింక్ '+(k+1)+'</b><strong class="repeat-step-jodi">'+esc(x.sourceJodi)+' → '+esc(x.reverseJodi)+'</strong><span>'+esc(x.sourceDay)+' · '+esc(x.source.date||'')+' → '+esc(x.targetDay)+' · '+esc(x.target.date||'')+'</span><b>గ్యాప్ +'+targetSearch.offset+'</b></div>').join('');
-   const tableRows=reverseRows.slice(group.sourceIndex,group.targetIndex+1).map(x=>x.row);
-   const table='<div class="repeat-chart-scroll reverse-number-chart-wrap"><table class="repeat-weekly-chart reverse-number-week-table"><colgroup><col style="width:18%">'+repeatDays.map(()=>'<col style="width:'+(82/repeatDays.length)+'%">').join('')+'</colgroup><thead><tr><th>Week</th>'+repeatDays.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+tableRows.map((row,k)=>{
-    const ix=group.sourceIndex+k,item=reverseRows[ix],rowMarks=marks.get(ix);
+   const tableRows=reverseRows.slice(group.sourceIndex,group.targetIndex+1);
+   const table='<div class="repeat-chart-scroll reverse-number-chart-wrap"><table class="repeat-weekly-chart reverse-number-week-table"><colgroup><col style="width:18%">'+repeatDays.map(()=>'<col style="width:'+(82/repeatDays.length)+'%">').join('')+'</colgroup><thead><tr><th>Week</th>'+repeatDays.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>'+tableRows.map((entry,k)=>{
+    const absoluteIndex=group.sourceIndex+k,row=entry.row,rowMarks=marks.get(absoluteIndex);
     const dateParts=String(row.date||'').match(/(\d{1,2})[-/](\d{1,2})[-/](\d{4})/g)||[];
     const shortDate=dateParts.slice(0,2).map(v=>{const q=v.split(/[-/]/);return q[0].padStart(2,'0')+'/'+q[1].padStart(2,'0')+'/'+q[2].slice(-2);}).join('<br>');
-    return '<tr><td class="repeat-week-date"><b>#'+(ix+1)+'</b><small>Chart row '+(item?.sourceIndex+1||'—')+'<br>'+(shortDate||esc(row.date||''))+'</small></td>'+repeatDays.map(day=>{
+    return '<tr><td class="repeat-week-date"><b>#'+(absoluteIndex+1)+'</b><small>Chart row '+(entry.sourceIndex+1)+'<br>'+(shortDate||esc(row.date||''))+'</small></td>'+repeatDays.map(day=>{
      const value=String(row[day+' Jodi']??'').trim(),hit=rowMarks?.get(day)?.has(value);
-     return '<td class="'+(hit?'repeat-hit':'')+'">'+(/^\d{2}$/.test(value)?(hit?'<strong>'+esc(value)+'</strong>':esc(value)):'·')+'</td>';
+     return '<td class="'+(hit?'repeat-hit':'')+'">'+(/^\\d{2}$/.test(value)?(hit?'<strong>'+esc(value)+'</strong>':esc(value)):'·')+'</td>';
     }).join('')+'</tr>';
    }).join('')+'</tbody></table></div>';
-   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · REVERSE NUMBER+n · '+esc(m?.name||selected).toUpperCase()+'</strong><span>Gap +'+targetSearch.offset+'</span></div><div class="repeat-watch"><b>ప్రారంభ జోడి</b><div><strong>'+esc([...new Set(group.matches.map(x=>x.sourceJodi))].join(' · '))+'</strong></div><small>Filtered result row '+(sourceItem.sourceIndex+1)+' · Chart row '+(sourceItem.sourceIndex+1)+' · '+esc(source.date||'')+'</small></div><div class="repeat-steps">'+linkRows+'</div><details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
+   return '<section class="repeat-pattern-card"><div class="repeat-card-head"><strong>#'+(n+1)+' · REVERSE NUMBER+n · '+esc(m?.name||selected).toUpperCase()+'</strong><span>Gap +'+targetSearch.offset+'</span></div><div class="repeat-watch"><b>ప్రారంభ జోడి → రివర్స్ జోడి</b><div><strong>'+esc(targetSearch.target)+' → '+esc(reverseTarget)+'</strong></div><small>Filtered result row '+(group.sourceIndex+1)+' · Chart row '+(sourceItem.sourceIndex+1)+' · '+esc(source.date||'')+' → Filtered result row '+(group.targetIndex+1)+' · Chart row '+(targetItem.sourceIndex+1)+' · '+esc(targetItem.row.date||'')+'</small></div><div class="repeat-steps">'+linkRows+'</div><details class="repeat-history"><summary>SHOW MATCHED WEEKLY LINES</summary>'+table+'</details></section>';
   }).join('');
   $('count').textContent=reverseMatches.length+' exact reverse matches · '+groupedReverse.size+' matched row pairs · offset +'+targetSearch.offset;
-  $('tableArea').innerHTML='<div class="repeat-page"><h3>REVERSE NUMBER+n · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Checks exact digit-reversed Jodis at the selected Number+n offset. It uses the same original weekly chart table and linked-result card presentation; only the matching rule is different.</p>'+(reverseCards||'<div class="empty">No exact reverse Jodi matches were found at this Number+n offset.</div>')+'</div>';
+  $('tableArea').innerHTML='<div class="repeat-page"><h3>REVERSE NUMBER+n · '+esc(m?.name||selected).toUpperCase()+'</h3><p class="repeat-explain">Finds the entered Jodi in its original filtered-result row, moves exactly +'+targetSearch.offset+' playing rows, and checks for its digit-reversed Jodi. Fully closed weeks do not consume the gap. The matching rule is separate from Number+n; the weekly chart keeps the original weekday positions and highlights.</p>'+(reverseCards||'<div class="empty">No exact reverse Jodi matches were found at this Number+n offset.</div>')+'</div>';
   return;
  }
  if(view==='target-linked'||$('daySearch').value==='target-linked'||document.querySelector('.tab[data-view="target-linked"]')?.classList.contains('active')){
