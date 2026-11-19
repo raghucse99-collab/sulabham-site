@@ -1,0 +1,219 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-19 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+--- QUESTION ---
+Q1. Arrange the following events in chronological order:
+I. Lord Dalhousie annexes Jhansi
+II. Revolt breaks out at Meerut
+III. Lakshmibai and Tantia Tope capture Gwalior
+IV. Damodar Rao is adopted as heir
+
+--- OPTIONS ---
+(a) I – IV – II – III
+(b) IV – I – II – III
+(c) IV – II – I – III
+(d) I – II – IV – III
+
+--- CORRECT (tick this) ---
+(b) IV – I – II – III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Adoption came first (just before the Maharaja died), then Dalhousie refused the heir and annexed Jhansi (1854), then Meerut (1857), then Gwalior (1858). Option (a) wrongly puts annexation before ad...
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Which of the following statements about Rani Lakshmibai is NOT correct?
+
+--- OPTIONS ---
+(a) Her birth name was Manikarnika Tambe.
+(b) The British force that attacked Jhansi in 1858 was led by General Hugh Rose.
+(c) She was killed in battle inside Jhansi fort.
+(d) Her husband was Gangadhar Rao, the Maharaja of Jhansi.
+
+--- CORRECT (tick this) ---
+(c) She was killed in battle inside Jhansi fort.
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(c) is NOT correct: she escaped from Jhansi fort and was killed at Kotah-ki-Serai near Gwalior on 17/18 June 1858. (a), (b), (d) are correct.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements about World Toilet Day:
+I. It was made an official UN day by General Assembly resolution 67/291, titled 'Sanitation for All'.
+II. The resolution was adopted after a recorded vote in which India abstained.
+III. UN-Water leads the annual World Toilet Day campaign.
+IV. The day is observed on 22 March every year.
+
+--- QUESTION ---
+Q3. Consider the following statements about World Toilet Day: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I, II and III only
+(c) III and IV only
+(d) I only
+
+--- CORRECT (tick this) ---
+(a) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: resolution 67/291 was adopted by consensus (24 July 2013), no vote. IV is wrong: World Toilet Day is 19 November; 22 March is World Water Day.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. With reference to World Toilet Day 2026 and global sanitation (WHO/UNICEF data), consider the following statements:
+I. The 2026 theme 'Safe toilets. Equal futures.' focuses on sanitation and gender equality.
+II. About 4 in 10 people worldwide still lack safe toilets.
+III. Safely managed sanitation is target 6.2 of the Sustainable Development Goals.
+
+--- QUESTION ---
+Q4. With reference to World Toilet Day 2026 and global sanitation (WHO/UNICEF data), consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(d) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+All three are correct: theme on sanitation + gender; 3.4 billion = 4 in 10 lack safe toilets (2025); SDG 6.2. The trap is to think sanitation falls under SDG 3 (health) or SDG 5 (gender) and reject...
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Match List-I (Census 2027 item) with List-II (detail):
+A. Reference date for most States/UTs  —  1. 5 January 2027
+B. Reference date for UP, Punjab, Goa, Uttarakhand*  —  2. 40
+C. Number of notified population-enumeration questions  —  3. 1 March 2027
+D. Languages on the self-enumeration portal  —  4. 16
+
+--- QUESTION ---
+Q5. Match List-I (Census 2027 item) with List-II (detail): (statements in the message above)
+
+--- OPTIONS ---
+(a) A-1, B-3, C-2, D-4
+(b) A-3, B-1, C-4, D-2
+(c) A-3, B-1, C-2, D-4
+(d) A-1, B-3, C-4, D-2
+
+--- CORRECT (tick this) ---
+(c) A-3, B-1, C-2, D-4
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+A-3 (1 Mar 2027 for most states), B-1 (5 Jan 2027 for the four early states), C-2 (40 questions), D-4 (16 languages). (a) swaps the two reference dates; (b) swaps 40 and 16.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following statements about the religion question in Census 2027:
+I. The 287 names shown under 'Others' were officially notified as new religions.
+II. Officials said the names were predictive-text entries and 'Others' remains an open field.
+III. Tribal groups have demanded a separate 'Sarna' religion code.
+IV. Caste is being enumerated for the first time since 1931.
+
+--- QUESTION ---
+Q6. Consider the following statements about the religion question in Census 2027: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III only
+(b) II and IV only
+(c) II, III and IV only
+(d) I, III and IV only
+
+--- CORRECT (tick this) ---
+(c) II, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is wrong: the drop-down was removed the same day; the names were not new official religions — the seven categories (Hindu, Muslim, Christian, Sikh, Buddhist, Jain, Others) remain. II, III, IV are...
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Assertion (A): Modern threats to satellites can be more difficult to respond to than physical anti-satellite attacks.
+Reason (R): Jamming, spoofing and cyberattacks can disrupt services without destroying satellites, and their source is hard to attribute.
+
+
+--- QUESTION ---
+Q7. Assertion (A): Modern threats to satellites can be more difficult to respond to than physical anti-satellite attacks.
+Reason (R): Jamming, spoofing and cyberattacks can disrupt services without destroying satellites, and their source is hard to att...
+
+--- OPTIONS ---
+(a) Both A and R are true and R is the correct explanation of A
+(b) Both A and R are true but R is not the correct explanation of A
+(c) A is true but R is false
+(d) A is false but R is true
+
+--- CORRECT (tick this) ---
+(a) Both A and R are true and R is the correct explanation of A
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Both true, and R explains A: because these attacks leave no debris and attribution is uncertain, deciding whether it is an 'attack' and how to respond is harder. (b) is the usual trap — here R is t...
+
+==================== Q8 ====================
+--- QUESTION ---
+Q8. Which of the following are among the pillars of the space-security doctrine proposed for India in the article?
+I. Resilience and redundancy
+II. Space-domain awareness
+III. Reconstitution and recovery
+IV. A ban on private satellite operators
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and III only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: the fourth pillar is institutional PARTNERSHIP with private operators (along with government, forces and ISRO), not a ban. (a) misses III.
+
+==================== Q9 ====================
+--- QUESTION ---
+Q9. Arrange the following installed capacities in India (Oct 2026) in DESCENDING order:
+I. Wind
+II. Solar
+III. Bio-power
+IV. Hydro
+
+--- OPTIONS ---
+(a) II – IV – I – III
+(b) I – II – IV – III
+(c) II – I – III – IV
+(d) II – I – IV – III
+
+--- CORRECT (tick this) ---
+(d) II – I – IV – III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Solar ~175 GW > Wind 59.20 GW > Hydro 57.49 GW > Bio 11.75 GW. The trap is (a): wind and hydro are close, but wind is slightly larger.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Consider the following statements about two solar schemes:
+I. PM-Surya Ghar was launched in February 2024 for rooftop solar in 1 crore households.
+II. PM Surya Sarovar Yojana targets 5,000 MW of floating solar with at least 2-hour storage.
+III. PM Surya Sarovar has a larger outlay than PM-Surya Ghar.
+
+--- QUESTION ---
+Q10. Consider the following statements about two solar schemes: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: PM-Surya Ghar's outlay is ₹75,021 crore, far more than PM Surya Sarovar's ₹5,070 crore. (a) misses the true statement II.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-19&tab=quiz

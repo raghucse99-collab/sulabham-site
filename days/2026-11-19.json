@@ -1,0 +1,1996 @@
+{
+ "date": "2026-11-19",
+ "day": {
+  "en": "Thursday, 19 November 2026",
+  "te": "గురువారం, 19 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Annexation",
+   "en": "taking over another territory and making it part of one's own",
+   "te": "విలీనం (ఇతర ప్రాంతాన్ని స్వాధీనం చేసుకుని తనలో కలుపుకోవడం)",
+   "ex": "Lord Dalhousie ordered the annexation of Jhansi in 1854 under the Doctrine of Lapse.",
+   "topic": "lakshmibai"
+  },
+  {
+   "w": "Consensus",
+   "en": "general agreement of all members, without a vote",
+   "te": "ఏకాభిప్రాయం (ఓటింగ్ లేకుండా అందరి అంగీకారం)",
+   "ex": "The UN General Assembly adopted resolution 67/291 on World Toilet Day by consensus in 2013.",
+   "topic": "toiletday"
+  },
+  {
+   "w": "Enumeration",
+   "en": "counting and listing people or things one by one",
+   "te": "గణన (ఒక్కొక్కరిని లెక్కించి నమోదు చేయడం)",
+   "ex": "Self-enumeration for Census 2027 is open in four states till 30 November.",
+   "topic": "census"
+  },
+  {
+   "w": "Spoofing",
+   "en": "sending false signals or data that look genuine, to mislead",
+   "te": "మోసపూరిత సిగ్నల్ (నిజమైనదిగా కనిపించే తప్పుడు సంకేతం పంపడం)",
+   "ex": "Spoofing can mislead a satellite navigation system without destroying the satellite.",
+   "topic": "spacesec"
+  },
+  {
+   "w": "Outlay",
+   "en": "the amount of money set aside to be spent on a plan",
+   "te": "కేటాయింపు / వ్యయం (ఒక పథకానికి కేటాయించిన మొత్తం)",
+   "ex": "PM Surya Sarovar Yojana has an outlay of ₹5,070 crore for 5,000 MW of floating solar.",
+   "topic": "solar"
+  }
+ ],
+ "items": [
+  {
+   "id": "lakshmibai",
+   "kind": "day",
+   "color": "#9b2c2c",
+   "icon": "shield",
+   "tag": {
+    "en": "Birth anniversary · 19 Nov 1828",
+    "te": "జయంతి · 19 నవంబర్ 1828"
+   },
+   "title": {
+    "en": "Rani Lakshmibai of Jhansi — 'Meri Jhansi nahin dungi'",
+    "te": "ఝాన్సీ రాణి లక్ష్మీబాయి — 'మేరీ ఝాన్సీ నహీ దూంగీ'"
+   },
+   "line": {
+    "en": "The queen who lost her state to the Doctrine of Lapse and died fighting in the Revolt of 1857.",
+    "te": "రాజ్య సంక్రమణ సిద్ధాంతం (Doctrine of Lapse) వల్ల రాజ్యం కోల్పోయి, 1857 తిరుగుబాటులో పోరాడుతూ మరణించిన రాణి."
+   },
+   "easy": [
+    {
+     "en": "Who? Lakshmibai was born as Manikarnika Tambe in Kashi (Varanasi). 19 November 1828 is the commonly accepted birth date, though historians dispute the year. She married Gangadhar Rao, the Maharaja of Jhansi, and took the name Lakshmi Bai.",
+     "te": "ఎవరు? లక్ష్మీబాయి అసలు పేరు మణికర్ణిక తాంబే; కాశీ (వారాణసి)లో జన్మించారు. 1828 నవంబర్ 19ని సాధారణంగా జన్మదినంగా స్వీకరిస్తారు, కానీ సంవత్సరంపై చరిత్రకారుల్లో భిన్నాభిప్రాయాలు ఉన్నాయి. ఝాన్సీ మహారాజు గంగాధర రావును వివాహం చేసుకుని లక్ష్మీబాయి అనే పేరు పొందారు."
+    },
+    {
+     "en": "Why did she fight? Her son born in 1852 died as a baby. Just before the Maharaja died, a 5-year-old relative was adopted and named Damodar Rao. Governor-General Lord Dalhousie refused to accept the adopted heir under the Doctrine of Lapse and annexed Jhansi in 1854. Her request to rule as regent was rejected.",
+     "te": "ఎందుకు పోరాడారు? 1852లో పుట్టిన కుమారుడు పసితనంలోనే మరణించాడు. మహారాజు మరణానికి ముందు 5 ఏళ్ల బంధువును దత్తత తీసుకుని దామోదర్ రావు అని పేరు పెట్టారు. గవర్నర్ జనరల్ లార్డ్ డల్హౌసీ రాజ్య సంక్రమణ సిద్ధాంతం ప్రకారం దత్తపుత్రుడిని వారసుడిగా అంగీకరించకుండా 1854లో ఝాన్సీని విలీనం చేశారు. రీజెంట్‌గా పాలించాలన్న ఆమె విజ్ఞప్తిని తిరస్కరించారు."
+    },
+    {
+     "en": "1857–58: When the Revolt began at Meerut in 1857, she became regent for her minor son. In March 1858 British troops under General Hugh Rose attacked Jhansi; she escaped from the fort. With Tantia Tope she captured the fortress of Gwalior. She was killed in battle at Kotah-ki-Serai near Gwalior on 17/18 June 1858 (18 June is observed as her death anniversary).",
+     "te": "1857–58: 1857లో మీరట్‌లో తిరుగుబాటు మొదలైనప్పుడు ఆమె మైనర్ కుమారుడి తరఫున రీజెంట్ అయ్యారు. 1858 మార్చిలో జనరల్ హ్యూ రోజ్ నేతృత్వంలో బ్రిటిష్ సేనలు ఝాన్సీపై దాడి చేశాయి; ఆమె కోట నుంచి తప్పించుకున్నారు. తాంతియా తోపేతో కలిసి గ్వాలియర్ కోటను స్వాధీనం చేసుకున్నారు. 1858 జూన్ 17/18న గ్వాలియర్ సమీపంలోని కోటా-కి-సరాయ్ వద్ద యుద్ధంలో మరణించారు (జూన్ 18ని వర్ధంతిగా పాటిస్తారు)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "19 Nov 1828 (year disputed), Kashi (Varanasi)",
+      "te": "19 నవంబర్ 1828 (సంవత్సరంపై వివాదం), కాశీ (వారాణసి)"
+     }
+    ],
+    [
+     {
+      "en": "Birth name",
+      "te": "అసలు పేరు"
+     },
+     {
+      "en": "Manikarnika Tambe",
+      "te": "మణికర్ణిక తాంబే"
+     }
+    ],
+    [
+     {
+      "en": "Husband",
+      "te": "భర్త"
+     },
+     {
+      "en": "Gangadhar Rao, Maharaja of Jhansi",
+      "te": "గంగాధర రావు, ఝాన్సీ మహారాజు"
+     }
+    ],
+    [
+     {
+      "en": "Adopted son",
+      "te": "దత్తపుత్రుడు"
+     },
+     {
+      "en": "Damodar Rao",
+      "te": "దామోదర్ రావు"
+     }
+    ],
+    [
+     {
+      "en": "Annexation",
+      "te": "విలీనం"
+     },
+     {
+      "en": "Jhansi annexed in 1854 by Lord Dalhousie (Doctrine of Lapse)",
+      "te": "1854లో లార్డ్ డల్హౌసీ ఝాన్సీని విలీనం చేశారు (రాజ్య సంక్రమణ సిద్ధాంతం)"
+     }
+    ],
+    [
+     {
+      "en": "British commander",
+      "te": "బ్రిటిష్ సేనాని"
+     },
+     {
+      "en": "General Hugh Rose (attack on Jhansi, March 1858)",
+      "te": "జనరల్ హ్యూ రోజ్ (ఝాన్సీపై దాడి, మార్చి 1858)"
+     }
+    ],
+    [
+     {
+      "en": "Ally",
+      "te": "సహచరుడు"
+     },
+     {
+      "en": "Tantia Tope — together they captured Gwalior",
+      "te": "తాంతియా తోపే — కలిసి గ్వాలియర్ స్వాధీనం"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "17/18 June 1858, Kotah-ki-Serai near Gwalior",
+      "te": "17/18 జూన్ 1858, గ్వాలియర్ సమీపంలోని కోటా-కి-సరాయ్"
+     }
+    ]
+   ],
+   "cf": [
+    0,
+    1,
+    4,
+    6,
+    7
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Revolt of 1857",
+     "te": "లింక్ చెయిన్ · 1857 తిరుగుబాటు"
+    },
+    "l": [
+     {
+      "en": "Cause: Doctrine of Lapse — no adopted heir allowed → state 'lapses' to the Company",
+      "te": "కారణం: రాజ్య సంక్రమణ సిద్ధాంతం — దత్తపుత్రుడికి హక్కు లేదు → రాజ్యం కంపెనీకి చెందుతుంది"
+     },
+     {
+      "en": "Start: Meerut, 1857",
+      "te": "ప్రారంభం: మీరట్, 1857"
+     },
+     {
+      "en": "Fellow leaders: Tantia Tope; Nana Sahib (proclaimed Peshwa at Gwalior)",
+      "te": "సహ నాయకులు: తాంతియా తోపే; నానా సాహెబ్ (గ్వాలియర్‌లో పీష్వాగా ప్రకటన)"
+     },
+     {
+      "en": "Gwalior was the last major battle of the Revolt",
+      "te": "తిరుగుబాటులో చివరి పెద్ద యుద్ధం గ్వాలియర్"
+     },
+     {
+      "en": "Hugh Rose's words: the Revolt produced 'but one man, and that man was a woman'",
+      "te": "హ్యూ రోజ్ మాట: తిరుగుబాటు ఒకే ఒక్క 'పురుషుడిని' ఇచ్చింది, ఆ పురుషుడు ఒక స్త్రీ"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Jhansi was annexed in 1854 (before the Revolt) by DALHOUSIE — not by Canning, and not in 1857. Her ally at Gwalior was TANTIA TOPE; the British commander was HUGH ROSE. She died near GWALIOR (Kotah-ki-Serai), not inside Jhansi fort.",
+    "te": "ఝాన్సీ విలీనం 1854లో (తిరుగుబాటుకు ముందే) డల్హౌసీ చేశారు — కానింగ్ కాదు, 1857లో కాదు. గ్వాలియర్‌లో ఆమె సహచరుడు తాంతియా తోపే; బ్రిటిష్ సేనాని హ్యూ రోజ్. ఆమె మరణం గ్వాలియర్ సమీపంలో (కోటా-కి-సరాయ్) — ఝాన్సీ కోటలో కాదు."
+   },
+   "tip": {
+    "en": "Memory code 'K-J-G': Kashi (born) → Jhansi (ruled, lost in 1854) → Gwalior (captured with Tantia Tope, died nearby 1858). Lapse 1854 → Revolt 1857 → death 1858.",
+    "te": "మెమరీ కోడ్ 'కా-ఝా-గ్వా': కాశీ (జననం) → ఝాన్సీ (పాలన, 1854లో కోల్పోయారు) → గ్వాలియర్ (తాంతియా తోపేతో స్వాధీనం, సమీపంలో 1858లో మరణం). విలీనం 1854 → తిరుగుబాటు 1857 → మరణం 1858."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about Rani Lakshmibai:",
+     "te": "రాణి లక్ష్మీబాయికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. Her birth name was Manikarnika and she was born in Kashi.",
+      "te": "I. ఆమె అసలు పేరు మణికర్ణిక; కాశీలో జన్మించారు."
+     },
+     {
+      "en": "II. Jhansi was annexed by Lord Canning in 1857 under the Doctrine of Lapse.",
+      "te": "II. రాజ్య సంక్రమణ సిద్ధాంతం కింద 1857లో లార్డ్ కానింగ్ ఝాన్సీని విలీనం చేశారు."
+     },
+     {
+      "en": "III. She and Tantia Tope captured the fortress of Gwalior.",
+      "te": "III. ఆమె, తాంతియా తోపే కలిసి గ్వాలియర్ కోటను స్వాధీనం చేసుకున్నారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II is wrong: Jhansi was annexed in 1854 by Lord Dalhousie, before the Revolt.",
+     "te": "II తప్పు: ఝాన్సీని 1854లో, తిరుగుబాటుకు ముందే, లార్డ్ డల్హౌసీ విలీనం చేశారు."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Lakshmibai — life in dates",
+      "te": "లక్ష్మీబాయి — తేదీల్లో జీవితం"
+     },
+     "items": [
+      {
+       "y": "1828",
+       "t": {
+        "en": "Born as Manikarnika in Kashi (19 Nov; year disputed)",
+        "te": "కాశీలో మణికర్ణికగా జననం (19 నవంబర్; సంవత్సరంపై వివాదం)"
+       }
+      },
+      {
+       "y": "1852",
+       "t": {
+        "en": "Son born, dies as a baby; Damodar Rao adopted",
+        "te": "కుమారుడు జన్మించి పసితనంలో మరణం; దామోదర్ రావు దత్తత"
+       }
+      },
+      {
+       "y": "1854",
+       "t": {
+        "en": "Dalhousie annexes Jhansi (Doctrine of Lapse)",
+        "te": "డల్హౌసీ ఝాన్సీని విలీనం (రాజ్య సంక్రమణ సిద్ధాంతం)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1857",
+       "t": {
+        "en": "Revolt begins at Meerut; she becomes regent",
+        "te": "మీరట్‌లో తిరుగుబాటు; ఆమె రీజెంట్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1858",
+       "t": {
+        "en": "Mar: Hugh Rose attacks Jhansi · Gwalior captured with Tantia Tope",
+        "te": "మార్చి: హ్యూ రోజ్ ఝాన్సీపై దాడి · తాంతియా తోపేతో గ్వాలియర్ స్వాధీనం"
+       }
+      },
+      {
+       "y": "1858",
+       "t": {
+        "en": "Killed at Kotah-ki-Serai near Gwalior (17/18 June)",
+        "te": "గ్వాలియర్ సమీపంలో కోటా-కి-సరాయ్ వద్ద మరణం (17/18 జూన్)"
+       },
+       "hl": 1
+      }
+     ],
+     "cap": {
+      "en": "Bold = most-asked dates",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే తేదీలు"
+     }
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Kashi → Jhansi → Gwalior",
+      "te": "కాశీ → ఝాన్సీ → గ్వాలియర్"
+     },
+     "view": [
+      75.5,
+      23.5,
+      85.0,
+      30.0
+     ],
+     "hl": [
+      "Uttar Pradesh",
+      "Madhya Pradesh"
+     ],
+     "pts": [
+      {
+       "ll": [
+        25.32,
+        83.01
+       ],
+       "t": {
+        "en": "Kashi (born)",
+        "te": "కాశీ (జననం)"
+       }
+      },
+      {
+       "ll": [
+        25.45,
+        78.57
+       ],
+       "t": {
+        "en": "Jhansi",
+        "te": "ఝాన్సీ"
+       }
+      },
+      {
+       "ll": [
+        26.22,
+        78.18
+       ],
+       "t": {
+        "en": "Gwalior",
+        "te": "గ్వాలియర్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        28.98,
+        77.71
+       ],
+       "t": {
+        "en": "Meerut (1857)",
+        "te": "మీరట్ (1857)"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         25.45,
+         78.57
+        ],
+        [
+         26.22,
+         78.18
+        ]
+       ],
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "Jhansi is in today's Uttar Pradesh; Gwalior in Madhya Pradesh",
+      "te": "ఝాన్సీ నేటి ఉత్తరప్రదేశ్‌లో; గ్వాలియర్ మధ్యప్రదేశ్‌లో"
+     },
+     "src": "cards/2026-11-19/map-lakshmibai-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Encyclopaedia Britannica — Lakshmi Bai, Rani of Jhansi",
+     "u": "https://www.britannica.com/biography/Lakshmi-Bai"
+    }
+   ]
+  },
+  {
+   "id": "toiletday",
+   "kind": "day",
+   "color": "#1f6f6a",
+   "icon": "calendar",
+   "tag": {
+    "en": "World day · 19 Nov · UN",
+    "te": "ప్రపంచ దినోత్సవం · 19 నవంబర్ · ఐక్యరాజ్యసమితి"
+   },
+   "title": {
+    "en": "World Toilet Day 2026 — 'Safe toilets. Equal futures.'",
+    "te": "ప్రపంచ మరుగుదొడ్ల దినోత్సవం 2026 — 'Safe toilets. Equal futures.'"
+   },
+   "line": {
+    "en": "This year's campaign links safe sanitation with gender equality: 3.4 billion people still lack safe toilets.",
+    "te": "ఈ ఏడాది ప్రచారం సురక్షిత పారిశుద్ధ్యాన్ని లింగ సమానత్వంతో ముడిపెడుతోంది: ఇప్పటికీ 340 కోట్ల మందికి సురక్షిత మరుగుదొడ్లు లేవు."
+   },
+   "easy": [
+    {
+     "en": "What is it? Every year on 19 November the world remembers that a safe toilet is basic for health. Many groups marked the day earlier, but the UN General Assembly made it an official UN day on 24 July 2013 through resolution 67/291 'Sanitation for All', adopted by consensus. Singapore sponsored it. UN-Water leads the yearly campaign.",
+     "te": "ఇది ఏమిటి? ఆరోగ్యానికి సురక్షిత మరుగుదొడ్డి ప్రాథమిక అవసరమని ప్రతి ఏటా నవంబర్ 19న ప్రపంచం గుర్తుచేసుకుంటుంది. ముందు నుంచీ పలు సంస్థలు ఈ రోజును పాటించినా, 2013 జూలై 24న ఐరాస సర్వసభ్య సభ 'Sanitation for All' అనే తీర్మానం 67/291ని ఏకాభిప్రాయంతో ఆమోదించి దీన్ని అధికారిక ఐరాస దినంగా ప్రకటించింది. సింగపూర్ ఈ తీర్మానాన్ని ప్రతిపాదించింది. వార్షిక ప్రచారానికి UN-Water నాయకత్వం వహిస్తుంది."
+    },
+    {
+     "en": "2026 theme: 'Safe toilets. Equal futures.' It shows how safe sanitation protects the health, safety, dignity and opportunities of women and girls. Example: when a school has no clean toilet or menstrual waste bin, many adolescent girls miss classes.",
+     "te": "2026 థీమ్: 'Safe toilets. Equal futures.' (సురక్షిత మరుగుదొడ్లు. సమాన భవిష్యత్తు.) సురక్షిత పారిశుద్ధ్యం మహిళలు, బాలికల ఆరోగ్యం, భద్రత, గౌరవం, అవకాశాలను ఎలా కాపాడుతుందో ఇది చూపుతుంది. ఉదాహరణ: పాఠశాలలో శుభ్రమైన మరుగుదొడ్డి, నెలసరి వ్యర్థాల డబ్బా లేకపోతే చాలామంది కౌమార బాలికలు తరగతులకు దూరమవుతారు."
+    },
+    {
+     "en": "Numbers (WHO/UNICEF): 3.4 billion people — 4 in 10 — lack safe toilets (2025); 1.7 billion have no place to wash hands with soap and water at home (2025); 1 in 5 adolescent girls share unhygienic toilets or go in the open (2023). The goal is SDG target 6.2 — safely managed sanitation for all.",
+     "te": "గణాంకాలు (WHO/UNICEF): 340 కోట్ల మందికి — ప్రతి 10 మందిలో 4 — సురక్షిత మరుగుదొడ్లు లేవు (2025); 170 కోట్ల మందికి ఇంట్లో సబ్బు, నీటితో చేతులు కడుక్కునే చోటు లేదు (2025); ప్రతి 5 మంది కౌమార బాలికల్లో ఒకరు అపరిశుభ్ర మరుగుదొడ్లను పంచుకుంటున్నారు లేదా బహిరంగ ప్రదేశాలకు వెళ్తున్నారు (2023). లక్ష్యం SDG 6.2 — అందరికీ సురక్షితంగా నిర్వహించే పారిశుద్ధ్యం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Date",
+      "te": "తేదీ"
+     },
+     {
+      "en": "19 November every year",
+      "te": "ప్రతి సంవత్సరం నవంబర్ 19"
+     }
+    ],
+    [
+     {
+      "en": "2026 theme",
+      "te": "2026 థీమ్"
+     },
+     {
+      "en": "Safe toilets. Equal futures. (sanitation + gender equality)",
+      "te": "Safe toilets. Equal futures. (పారిశుద్ధ్యం + లింగ సమానత్వం)"
+     }
+    ],
+    [
+     {
+      "en": "Made a UN day",
+      "te": "ఐరాస దినంగా"
+     },
+     {
+      "en": "UNGA resolution 67/291 'Sanitation for All', 24 July 2013, by consensus",
+      "te": "ఐరాస సర్వసభ్య సభ తీర్మానం 67/291 'Sanitation for All', 24 జూలై 2013, ఏకాభిప్రాయంతో"
+     }
+    ],
+    [
+     {
+      "en": "Sponsor",
+      "te": "ప్రతిపాదించిన దేశం"
+     },
+     {
+      "en": "Singapore",
+      "te": "సింగపూర్"
+     }
+    ],
+    [
+     {
+      "en": "First UN observance",
+      "te": "తొలి ఐరాస ఆచరణ"
+     },
+     {
+      "en": "19 November 2013",
+      "te": "19 నవంబర్ 2013"
+     }
+    ],
+    [
+     {
+      "en": "Lead agency",
+      "te": "నాయక సంస్థ"
+     },
+     {
+      "en": "UN-Water",
+      "te": "UN-Water"
+     }
+    ],
+    [
+     {
+      "en": "Lack safe toilets",
+      "te": "సురక్షిత మరుగుదొడ్లు లేనివారు"
+     },
+     {
+      "en": "3.4 billion (4 in 10) — WHO/UNICEF 2025",
+      "te": "340 కోట్లు (10లో 4) — WHO/UNICEF 2025"
+     }
+    ],
+    [
+     {
+      "en": "SDG target",
+      "te": "SDG లక్ష్యం"
+     },
+     {
+      "en": "6.2 — safely managed sanitation",
+      "te": "6.2 — సురక్షితంగా నిర్వహించే పారిశుద్ధ్యం"
+     }
+    ]
+   ],
+   "cf": [
+    1,
+    2,
+    3,
+    6,
+    7
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · sanitation in India",
+     "te": "లింక్ చెయిన్ · భారత్‌లో పారిశుద్ధ్యం"
+    },
+    "l": [
+     {
+      "en": "SDG 6 = clean water and sanitation; target 6.2 = sanitation and hygiene, end open defecation",
+      "te": "SDG 6 = పరిశుభ్ర నీరు, పారిశుద్ధ్యం; లక్ష్యం 6.2 = పారిశుద్ధ్యం, పరిశుభ్రత, బహిరంగ మలవిసర్జన నిర్మూలన"
+     },
+     {
+      "en": "In 2013 the UN said 1.1 billion people defecated in the open, 626 million of them in India",
+      "te": "2013లో ఐరాస లెక్క: 110 కోట్ల మంది బహిరంగ మలవిసర్జన; వారిలో 62.6 కోట్లు భారత్‌లో"
+     },
+     {
+      "en": "India's answer: Swachh Bharat Mission (Grameen); Phase-II now extended till March 2028 (see Today, 6 Nov)",
+      "te": "భారత్ స్పందన: స్వచ్ఛ భారత్ మిషన్ (గ్రామీణ్); రెండో దశ మార్చి 2028 వరకు పొడిగింపు (నవంబర్ 6 'టుడే' చూడండి)"
+     },
+     {
+      "en": "Gender link: menstrual hygiene, school toilets for girls, women in WASH jobs",
+      "te": "లింగ సంబంధం: నెలసరి పరిశుభ్రత, బాలికలకు పాఠశాల మరుగుదొడ్లు, WASH ఉద్యోగాల్లో మహిళలు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "World Toilet Day = 19 NOVEMBER (UN day since 2013, resolution 67/291). Do not mix with World Water Day = 22 March. Sanitation is SDG 6.2 (not SDG 3 or SDG 5). The sponsor was SINGAPORE, not India.",
+    "te": "ప్రపంచ మరుగుదొడ్ల దినం = నవంబర్ 19 (2013 నుంచి ఐరాస దినం, తీర్మానం 67/291). ప్రపంచ జల దినోత్సవం = మార్చి 22 — కలపకండి. పారిశుద్ధ్యం SDG 6.2 (SDG 3 లేదా 5 కాదు). ప్రతిపాదించిన దేశం సింగపూర్ — భారత్ కాదు."
+   },
+   "tip": {
+    "en": "Memory code '19-13-6.2': 19 Nov · UN day from 2013 · SDG 6.2. Theme 2026 = 'Safe toilets → Equal futures' (toilet + gender).",
+    "te": "మెమరీ కోడ్ '19-13-6.2': 19 నవంబర్ · 2013 నుంచి ఐరాస దినం · SDG 6.2. థీమ్ 2026 = 'సురక్షిత మరుగుదొడ్లు → సమాన భవిష్యత్తు' (మరుగుదొడ్డి + లింగ సమానత్వం)."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about World Toilet Day:",
+     "te": "ప్రపంచ మరుగుదొడ్ల దినోత్సవానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The UN General Assembly made it an official UN day in 2013.",
+      "te": "I. ఐరాస సర్వసభ్య సభ 2013లో దీన్ని అధికారిక ఐరాస దినంగా చేసింది."
+     },
+     {
+      "en": "II. The resolution was sponsored by India.",
+      "te": "II. ఈ తీర్మానాన్ని భారత్ ప్రతిపాదించింది."
+     },
+     {
+      "en": "III. The 2026 theme links sanitation with gender equality.",
+      "te": "III. 2026 థీమ్ పారిశుద్ధ్యాన్ని లింగ సమానత్వంతో ముడిపెడుతుంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II is wrong: Singapore sponsored resolution 67/291.",
+     "te": "II తప్పు: తీర్మానం 67/291ని సింగపూర్ ప్రతిపాదించింది."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "How many people still lack the basics (WHO/UNICEF 2025)",
+      "te": "ఇప్పటికీ ప్రాథమిక సౌకర్యం లేనివారు (WHO/UNICEF 2025)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "No safe toilet",
+        "te": "సురక్షిత మరుగుదొడ్డి లేదు"
+       },
+       "v": 3.4,
+       "vl": "3.4 bn"
+      },
+      {
+       "t": {
+        "en": "No soap-and-water handwashing at home",
+        "te": "ఇంట్లో సబ్బు-నీటితో చేతులు కడిగే చోటు లేదు"
+       },
+       "v": 1.7,
+       "vl": "1.7 bn"
+      }
+     ],
+     "cap": {
+      "en": "3.4 billion = about 4 in every 10 people on Earth",
+      "te": "340 కోట్లు = భూమిపై ప్రతి 10 మందిలో సుమారు 4"
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "Why the 2026 theme says 'Equal futures'",
+      "te": "2026 థీమ్ 'సమాన భవిష్యత్తు' అని ఎందుకు అంటోంది"
+     },
+     "items": [
+      {
+       "i": "🚻",
+       "t": {
+        "en": "Safe, private toilet at home and school",
+        "te": "ఇంట్లో, బడిలో సురక్షిత, ప్రైవేట్ మరుగుదొడ్డి"
+       }
+      },
+      {
+       "i": "🩺",
+       "t": {
+        "en": "Better health, menstrual hygiene",
+        "te": "మెరుగైన ఆరోగ్యం, నెలసరి పరిశుభ్రత"
+       }
+      },
+      {
+       "i": "🛡️",
+       "t": {
+        "en": "Safety and dignity — no need to go out in the open",
+        "te": "భద్రత, గౌరవం — బహిరంగంలోకి వెళ్లాల్సిన అవసరం లేదు"
+       }
+      },
+      {
+       "i": "🎓",
+       "t": {
+        "en": "Girls stay in school, women work",
+        "te": "బాలికలు బడిలో కొనసాగుతారు, మహిళలు పనిచేస్తారు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Geneva Environment Network — World Toilet Day 2026 ('Safe toilets. Equal futures.')",
+     "u": "https://www.genevaenvironmentnetwork.org/events/world-toilet-day-2026/"
+    },
+    {
+     "t": "UN Project — General Assembly resolution 67/291 'Sanitation for All' (24 Jul 2013)",
+     "u": "https://un-project.org/votes/resolution/67-291/"
+    },
+    {
+     "t": "UN News — First official observance of World Toilet Day, 19 Nov 2013",
+     "u": "https://news.un.org/en/story/2013/11/455742"
+    }
+   ]
+  },
+  {
+   "id": "census",
+   "kind": "article",
+   "color": "#1d4f91",
+   "icon": "law",
+   "src": {
+    "en": "In the news · Polity · PIB 16 Nov & The Hindu 17 Nov 2026",
+    "te": "వార్తల్లో · రాజ్యాంగం · PIB 16 నవంబర్ & ది హిందూ 17 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity & Governance",
+    "te": "వివరణ · GS-II రాజ్యాంగం & పాలన"
+   },
+   "title": {
+    "en": "Census 2027 Phase II begins: self-enumeration opens in four states",
+    "te": "జనగణన 2027 రెండో దశ ప్రారంభం: నాలుగు రాష్ట్రాల్లో స్వీయ గణన"
+   },
+   "line": {
+    "en": "Residents of UP, Punjab, Goa and Uttarakhand can fill their own Census form online till 30 Nov; a '287 other religions' list was removed the same day.",
+    "te": "ఉత్తరప్రదేశ్, పంజాబ్, గోవా, ఉత్తరాఖండ్ ప్రజలు నవంబర్ 30 వరకు సొంతంగా ఆన్‌లైన్‌లో జనగణన ఫారం నింపవచ్చు; '287 ఇతర మతాల' జాబితాను అదే రోజు తొలగించారు."
+   },
+   "easy": [
+    {
+     "en": "What is the Census? Once in about ten years the government counts every person and records details like age, education, work and religion. Census 2027 is India's 16th census and, for the first time, it uses digital tools. It is done by the Registrar General and Census Commissioner of India under the Ministry of Home Affairs, under the Census Act, 1948. Phase I (house-listing) is complete in 35 States/UTs except Manipur.",
+     "te": "జనగణన అంటే? సుమారు పదేళ్లకు ఒకసారి ప్రభుత్వం ప్రతి వ్యక్తిని లెక్కించి వయసు, విద్య, ఉపాధి, మతం వంటి వివరాలు నమోదు చేస్తుంది. జనగణన 2027 భారత్‌లో 16వ జనగణన; తొలిసారి డిజిటల్ సాధనాలతో జరుగుతోంది. కేంద్ర హోంశాఖ పరిధిలోని రిజిస్ట్రార్ జనరల్ & సెన్సస్ కమిషనర్ ఆఫ్ ఇండియా, జనగణన చట్టం 1948 కింద దీన్ని నిర్వహిస్తారు. మొదటి దశ (ఇళ్ల జాబితా) మణిపూర్ మినహా 35 రాష్ట్రాలు/UTల్లో పూర్తయింది."
+    },
+    {
+     "en": "How does self-enumeration work? A family logs in at se.census.gov.in with a mobile number (preferably the one given in Phase I), answers the 40 notified questions, and gets a Self-Enumeration ID (SE ID). When the enumerator visits, the family shows this SE ID. The portal works in 16 languages. Families that skip it are counted in the normal house-to-house visit.",
+     "te": "స్వీయ గణన ఎలా? కుటుంబం మొబైల్ నంబర్‌తో (వీలైతే మొదటి దశలో ఇచ్చిన నంబర్) se.census.gov.inలో లాగిన్ అయి, నోటిఫై చేసిన 40 ప్రశ్నలకు జవాబులిచ్చి, స్వీయ గణన ID (SE ID) పొందుతుంది. ఎన్యుమరేటర్ ఇంటికి వచ్చినప్పుడు ఈ SE ID చూపాలి. పోర్టల్ 16 భాషల్లో పనిచేస్తుంది. ఇది చేయని కుటుంబాలను సాధారణ ఇంటింటి సర్వేలో లెక్కిస్తారు."
+    },
+    {
+     "en": "Why in news? The four states go first (house visits 1 Dec 2026 – 4 Jan 2027; reference date 5 Jan 2027). All other states, including Andhra Pradesh, will self-enumerate from 10 to 24 Jan 2027, with house visits from 25 Jan to 28 Feb 2027 and reference date 1 March 2027. On the opening day, the religion question's 'Others' box showed a drop-down of 287 names (like ISKCON, Sarna). After The Hindu reported it, the list was removed; officials said these were predictive-text entries, not new religions, and 'Others' stays an open field.",
+     "te": "వార్తల్లో ఎందుకు? ఈ నాలుగు రాష్ట్రాల్లో ముందుగా (ఇంటింటి సర్వే 1 డిసెంబర్ 2026 – 4 జనవరి 2027; రిఫరెన్స్ తేదీ 5 జనవరి 2027). ఆంధ్రప్రదేశ్ సహా మిగతా రాష్ట్రాల్లో 2027 జనవరి 10–24 స్వీయ గణన, జనవరి 25 – ఫిబ్రవరి 28 ఇంటింటి సర్వే, రిఫరెన్స్ తేదీ 1 మార్చి 2027. తొలి రోజే మతం ప్రశ్నలో 'ఇతరులు' బాక్స్‌లో 287 పేర్ల (ISKCON, సర్నా వంటివి) డ్రాప్-డౌన్ కనిపించింది. ది హిందూ వార్త తర్వాత దాన్ని తొలగించారు; ఇవి కొత్త మతాలు కావని, టైపింగ్‌కు సహాయపడే సూచనలు (predictive text) మాత్రమేనని, 'ఇతరులు' ఖాళీగా రాసే ఫీల్డ్‌గానే ఉంటుందని అధికారులు చెప్పారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Census number",
+      "te": "ఎన్నో జనగణన"
+     },
+     {
+      "en": "16th census; first with digital tools and self-enumeration",
+      "te": "16వ జనగణన; తొలిసారి డిజిటల్ సాధనాలు, స్వీయ గణన"
+     }
+    ],
+    [
+     {
+      "en": "Law",
+      "te": "చట్టం"
+     },
+     {
+      "en": "Census Act, 1948 — data confidential, only for statistics and planning",
+      "te": "జనగణన చట్టం, 1948 — సమాచారం గోప్యం, గణాంకాలు, ప్రణాళికకే"
+     }
+    ],
+    [
+     {
+      "en": "Conducted by",
+      "te": "నిర్వహణ"
+     },
+     {
+      "en": "Registrar General & Census Commissioner of India (Ministry of Home Affairs)",
+      "te": "రిజిస్ట్రార్ జనరల్ & సెన్సస్ కమిషనర్ ఆఫ్ ఇండియా (హోంశాఖ)"
+     }
+    ],
+    [
+     {
+      "en": "4 early states",
+      "te": "ముందున్న 4 రాష్ట్రాలు"
+     },
+     {
+      "en": "UP, Punjab, Goa, non-snow-bound Uttarakhand: SE till 30 Nov 2026; reference date 5 Jan 2027",
+      "te": "UP, పంజాబ్, గోవా, మంచు లేని ఉత్తరాఖండ్: SE నవంబర్ 30 వరకు; రిఫరెన్స్ తేదీ 5 జనవరి 2027"
+     }
+    ],
+    [
+     {
+      "en": "Other states (incl. AP)",
+      "te": "మిగతా రాష్ట్రాలు (ఏపీ సహా)"
+     },
+     {
+      "en": "SE 10–24 Jan 2027; house visits 25 Jan–28 Feb 2027; reference date 1 Mar 2027",
+      "te": "SE 10–24 జనవరి 2027; ఇంటింటి సర్వే 25 జనవరి–28 ఫిబ్రవరి 2027; రిఫరెన్స్ తేదీ 1 మార్చి 2027"
+     }
+    ],
+    [
+     {
+      "en": "Questions",
+      "te": "ప్రశ్నలు"
+     },
+     {
+      "en": "40 notified population-enumeration questions; 16 languages on the portal",
+      "te": "40 నోటిఫైడ్ జనాభా గణన ప్రశ్నలు; పోర్టల్ 16 భాషల్లో"
+     }
+    ],
+    [
+     {
+      "en": "Caste",
+      "te": "కులం"
+     },
+     {
+      "en": "Caste enumerated for the first time since 1931 (SC/ST from a list; others in an open field)",
+      "te": "1931 తర్వాత తొలిసారి కుల గణన (SC/STకు జాబితా; ఇతరులు ఖాళీ ఫీల్డ్‌లో)"
+     }
+    ],
+    [
+     {
+      "en": "Religion codes",
+      "te": "మత కోడ్‌లు"
+     },
+     {
+      "en": "Hindu, Muslim, Christian, Sikh, Buddhist, Jain, Others",
+      "te": "హిందూ, ముస్లిం, క్రైస్తవ, సిక్కు, బౌద్ధ, జైన, ఇతరులు"
+     }
+    ]
+   ],
+   "cf": [
+    0,
+    3,
+    4,
+    5,
+    6
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Census and the Constitution",
+     "te": "లింక్ చెయిన్ · జనగణన, రాజ్యాంగం"
+    },
+    "l": [
+     {
+      "en": "Census is a Union subject; it is held under the Census Act, 1948",
+      "te": "జనగణన కేంద్ర జాబితా అంశం; జనగణన చట్టం 1948 కింద జరుగుతుంది"
+     },
+     {
+      "en": "Census 2027 data will be the base for Lok Sabha delimitation and women's reservation",
+      "te": "జనగణన 2027 గణాంకాలు లోక్‌సభ నియోజకవర్గాల పునర్విభజన, మహిళా రిజర్వేషన్‌కు ఆధారం"
+     },
+     {
+      "en": "Sarna: tribal groups (Jharkhand etc.) demand a separate religion code; Jharkhand Assembly resolution, Nov 2020",
+      "te": "సర్నా: గిరిజన సమూహాలు (ఝార్ఖండ్ తదితర) ప్రత్యేక మత కోడ్ కోరుతున్నాయి; ఝార్ఖండ్ అసెంబ్లీ తీర్మానం, నవంబర్ 2020"
+     },
+     {
+      "en": "AP link: AP households will get their self-enumeration window on 10–24 Jan 2027",
+      "te": "ఏపీ లింక్: ఏపీ కుటుంబాలకు స్వీయ గణన గడువు 2027 జనవరి 10–24"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Self-enumeration is OPTIONAL — enumerators still visit every block. Reference date is 1 March 2027 for most states, but 5 January 2027 for the four early states. 'Others' is still an open field; the 287 names were NOT new official religions. Census Act is 1948 (not 1951 — that is the Representation of the People Act).",
+    "te": "స్వీయ గణన ఐచ్ఛికం — ఎన్యుమరేటర్లు ప్రతి బ్లాక్‌కూ వస్తారు. చాలా రాష్ట్రాలకు రిఫరెన్స్ తేదీ 1 మార్చి 2027; ముందున్న నాలుగు రాష్ట్రాలకు 5 జనవరి 2027. 'ఇతరులు' ఇప్పటికీ ఖాళీ ఫీల్డ్; 287 పేర్లు కొత్త అధికారిక మతాలు కావు. జనగణన చట్టం 1948 (1951 కాదు — అది ప్రజాప్రాతినిధ్య చట్టం)."
+   },
+   "tip": {
+    "en": "Memory code '16-40-48': 16th census · 40 questions · Census Act 1948. Dates: 'Early four → 5 Jan; rest → 1 March'.",
+    "te": "మెమరీ కోడ్ '16-40-48': 16వ జనగణన · 40 ప్రశ్నలు · జనగణన చట్టం 1948. తేదీలు: 'ముందు నాలుగు → 5 జనవరి; మిగతావి → 1 మార్చి'."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Census 2027, consider the following statements:",
+     "te": "జనగణన 2027కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It is the first Indian census to offer online self-enumeration.",
+      "te": "I. ఆన్‌లైన్ స్వీయ గణన అవకాశం ఇచ్చిన తొలి భారత జనగణన ఇదే."
+     },
+     {
+      "en": "II. A household that completes self-enumeration will not be visited by an enumerator.",
+      "te": "II. స్వీయ గణన పూర్తి చేసిన కుటుంబాన్ని ఎన్యుమరేటర్ సందర్శించరు."
+     },
+     {
+      "en": "III. It is conducted under the Census Act, 1948.",
+      "te": "III. ఇది జనగణన చట్టం, 1948 కింద జరుగుతుంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "II is wrong: the family must share its SE ID with the enumerator at the field visit; enumerators still visit all blocks.",
+     "te": "II తప్పు: కుటుంబం తన SE IDని ఎన్యుమరేటర్ సందర్శనలో చూపాలి; ఎన్యుమరేటర్లు అన్ని బ్లాక్‌లకూ వెళ్తారు."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "Self-enumeration in 4 steps",
+      "te": "4 దశల్లో స్వీయ గణన"
+     },
+     "items": [
+      {
+       "i": "📱",
+       "t": {
+        "en": "Log in at se.census.gov.in with mobile number",
+        "te": "మొబైల్ నంబర్‌తో se.census.gov.inలో లాగిన్"
+       }
+      },
+      {
+       "i": "📝",
+       "t": {
+        "en": "Answer 40 questions (16 languages)",
+        "te": "40 ప్రశ్నలకు జవాబులు (16 భాషలు)"
+       }
+      },
+      {
+       "i": "🔑",
+       "t": {
+        "en": "Get Self-Enumeration ID (SE ID)",
+        "te": "స్వీయ గణన ID (SE ID) పొందండి"
+       }
+      },
+      {
+       "i": "🚪",
+       "t": {
+        "en": "Show SE ID when the enumerator visits",
+        "te": "ఎన్యుమరేటర్ వచ్చినప్పుడు SE ID చూపండి"
+       }
+      }
+     ]
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Two schedules in Phase II",
+      "te": "రెండో దశలో రెండు షెడ్యూళ్లు"
+     },
+     "a": {
+      "h": {
+       "en": "UP, Punjab, Goa, Uttarakhand*",
+       "te": "UP, పంజాబ్, గోవా, ఉత్తరాఖండ్*"
+      },
+      "l": [
+       {
+        "en": "Self-enumeration: till 30 Nov 2026",
+        "te": "స్వీయ గణన: 30 నవంబర్ 2026 వరకు"
+       },
+       {
+        "en": "House visits: 1 Dec 2026 – 4 Jan 2027",
+        "te": "ఇంటింటి సర్వే: 1 డిసెంబర్ 2026 – 4 జనవరి 2027"
+       },
+       {
+        "en": "Reference date: 5 Jan 2027",
+        "te": "రిఫరెన్స్ తేదీ: 5 జనవరి 2027"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "All other States/UTs (incl. AP)",
+       "te": "మిగతా రాష్ట్రాలు/UTలు (ఏపీ సహా)"
+      },
+      "l": [
+       {
+        "en": "Self-enumeration: 10–24 Jan 2027",
+        "te": "స్వీయ గణన: 10–24 జనవరి 2027"
+       },
+       {
+        "en": "House visits: 25 Jan – 28 Feb 2027",
+        "te": "ఇంటింటి సర్వే: 25 జనవరి – 28 ఫిబ్రవరి 2027"
+       },
+       {
+        "en": "Reference date: 1 Mar 2027",
+        "te": "రిఫరెన్స్ తేదీ: 1 మార్చి 2027"
+       }
+      ]
+     },
+     "cap": {
+      "en": "*non-snow-bound areas of Uttarakhand",
+      "te": "*ఉత్తరాఖండ్‌లో మంచు లేని ప్రాంతాలు"
+     }
+    }
+   ],
+   "mains": {
+    "en": "Census 2027 is India's first digital census with self-enumeration and caste enumeration. Discuss its significance for policy-making and the safeguards needed to keep the data accurate and confidential.",
+    "te": "జనగణన 2027 స్వీయ గణన, కుల గణనతో కూడిన భారత తొలి డిజిటల్ జనగణన. విధాన రూపకల్పనకు దీని ప్రాముఖ్యతను, సమాచారం కచ్చితంగా, గోప్యంగా ఉండటానికి అవసరమైన రక్షణలను చర్చించండి."
+   },
+   "refs": [
+    {
+     "t": "PIB (MHA) — Self-Enumeration for Phase II of Census 2027 commences in Goa, Punjab, UP and non-snow-bound Uttarakhand, 16 Nov 2026",
+     "u": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2337054&reg=48&lang=2"
+    },
+    {
+     "t": "Siasat (citing The Hindu) — Census portal lists ISKCON among 287 'other' religions; removed, 17 Nov 2026",
+     "u": "https://www.siasat.com/census-portal-lists-iskcon-among-287-other-religions-removed-3579372/"
+    },
+    {
+     "t": "Wikipedia — 2027 census of India (16th census; caste enumeration first since 1931)",
+     "u": "https://en.wikipedia.org/wiki/2027_census_of_India"
+    }
+   ]
+  },
+  {
+   "id": "spacesec",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "rocket",
+   "src": {
+    "en": "The Hindu · Op-Ed · 18 Nov 2026",
+    "te": "ది హిందూ · ఆప్-ఎడ్ · 18 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-III Security / Science & Tech",
+    "te": "వివరణ · GS-III భద్రత / శాస్త్ర సాంకేతికత"
+   },
+   "title": {
+    "en": "Why India needs a space-security doctrine",
+    "te": "భారత్‌కు అంతరిక్ష భద్రత సిద్ధాంతం (డాక్ట్రిన్) ఎందుకు అవసరం"
+   },
+   "line": {
+    "en": "Satellites can now be knocked out without being destroyed — by jamming, spoofing and cyberattacks. India needs a clear plan to protect them.",
+    "te": "ఉపగ్రహాలను ధ్వంసం చేయకుండానే — జామింగ్, స్పూఫింగ్, సైబర్ దాడులతో — నిరుపయోగం చేయవచ్చు. వాటిని కాపాడటానికి భారత్‌కు స్పష్టమైన ప్రణాళిక కావాలి."
+   },
+   "easy": [
+    {
+     "en": "Why does space matter? Satellites run our phone calls, navigation (maps), weather forecasts, disaster warnings, farming advice, banking and logistics. Our armed forces use them for communication, positioning and surveillance. So if satellites stop working, daily life and national security both suffer.",
+     "te": "అంతరిక్షం ఎందుకు ముఖ్యం? ఫోన్ కాల్స్, నావిగేషన్ (మ్యాప్స్), వాతావరణ అంచనాలు, విపత్తు హెచ్చరికలు, వ్యవసాయ సలహాలు, బ్యాంకింగ్, సరుకు రవాణా — అన్నీ ఉపగ్రహాలపై ఆధారపడతాయి. సైన్యం కమ్యూనికేషన్, స్థాన నిర్ధారణ, నిఘా కోసం వాటిని వాడుతుంది. ఉపగ్రహాలు ఆగిపోతే రోజువారీ జీవితం, జాతీయ భద్రత రెండూ దెబ్బతింటాయి."
+    },
+    {
+     "en": "What has changed? Earlier, 'space threat' meant a missile destroying a satellite (India showed this ability in Mission Shakti, 2019). Today's threats are quieter: jamming (blocking signals), spoofing (sending false signals to mislead navigation), cyberattacks on satellite networks and ground stations, and electronic warfare. They can shut services temporarily without any debris, and it is hard to find who did it (attribution).",
+     "te": "ఏం మారింది? గతంలో 'అంతరిక్ష ముప్పు' అంటే క్షిపణితో ఉపగ్రహాన్ని ధ్వంసం చేయడం (మిషన్ శక్తి, 2019లో భారత్ ఈ సామర్థ్యం చూపింది). నేటి ముప్పులు నిశ్శబ్దంగా ఉంటాయి: జామింగ్ (సిగ్నళ్లను అడ్డుకోవడం), స్పూఫింగ్ (తప్పుడు సిగ్నళ్లతో నావిగేషన్‌ను మోసగించడం), ఉపగ్రహ నెట్‌వర్క్‌లు, భూకేంద్రాలపై సైబర్ దాడులు, ఎలక్ట్రానిక్ యుద్ధం. ఇవి శిథిలాలు లేకుండానే సేవలను తాత్కాలికంగా ఆపగలవు; ఎవరు చేశారో గుర్తించడం (attribution) కష్టం."
+    },
+    {
+     "en": "What does the article suggest? India has the Indian Space Policy 2023 (overall framework) and ISRO's ISSAR-2025 report (tracking objects, avoiding collisions, reducing debris). But it needs a full doctrine with four pillars: (1) resilience and redundancy, (2) space-domain awareness, (3) reconstitution and recovery, (4) partnerships between government, armed forces, ISRO and private operators. The aim is not to make space a battlefield, but to make sure trouble in space does not create weakness at home.",
+     "te": "వ్యాసం ఏం సూచిస్తోంది? భారత్‌కు ఇండియన్ స్పేస్ పాలసీ 2023 (మొత్తం విధాన చట్రం), ఇస్రో ISSAR-2025 నివేదిక (వస్తువుల పర్యవేక్షణ, ఢీకొనకుండా చూడటం, శిథిలాల తగ్గింపు) ఉన్నాయి. కానీ నాలుగు స్తంభాలతో పూర్తి సిద్ధాంతం అవసరం: (1) తట్టుకునే శక్తి, ప్రత్యామ్నాయ వ్యవస్థలు, (2) అంతరిక్ష పరిస్థితిపై అవగాహన, (3) త్వరిత పునరుద్ధరణ, (4) ప్రభుత్వం, సైన్యం, ఇస్రో, ప్రైవేట్ సంస్థల భాగస్వామ్యం. అంతరిక్షాన్ని యుద్ధభూమిగా మార్చడం లక్ష్యం కాదు; అంతరిక్షంలో సమస్య భూమిపై బలహీనతగా మారకుండా చూడటమే."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Framework",
+      "te": "విధాన చట్రం"
+     },
+     {
+      "en": "Indian Space Policy 2023",
+      "te": "ఇండియన్ స్పేస్ పాలసీ 2023"
+     }
+    ],
+    [
+     {
+      "en": "ISRO report",
+      "te": "ఇస్రో నివేదిక"
+     },
+     {
+      "en": "ISSAR-2025 — Indian Space Situational Awareness Report (monitoring, collision avoidance, debris mitigation)",
+      "te": "ISSAR-2025 — భారత అంతరిక్ష పరిస్థితి అవగాహన నివేదిక (పర్యవేక్షణ, ఢీ నివారణ, శిథిలాల తగ్గింపు)"
+     }
+    ],
+    [
+     {
+      "en": "New threats",
+      "te": "కొత్త ముప్పులు"
+     },
+     {
+      "en": "Jamming, spoofing, cyberattacks, electronic warfare",
+      "te": "జామింగ్, స్పూఫింగ్, సైబర్ దాడులు, ఎలక్ట్రానిక్ యుద్ధం"
+     }
+    ],
+    [
+     {
+      "en": "Pillars proposed",
+      "te": "ప్రతిపాదిత స్తంభాలు"
+     },
+     {
+      "en": "Resilience & redundancy; space-domain awareness; reconstitution & recovery; institutional partnerships",
+      "te": "తట్టుకునే శక్తి & ప్రత్యామ్నాయాలు; అంతరిక్ష అవగాహన; పునర్నిర్మాణం & పునరుద్ధరణ; సంస్థాగత భాగస్వామ్యాలు"
+     }
+    ],
+    [
+     {
+      "en": "Mission Shakti",
+      "te": "మిషన్ శక్తి"
+     },
+     {
+      "en": "27 Mar 2019, DRDO anti-satellite (A-SAT) test",
+      "te": "27 మార్చి 2019, DRDO ఉపగ్రహ విధ్వంసక (A-SAT) పరీక్ష"
+     }
+    ],
+    [
+     {
+      "en": "Shakti details",
+      "te": "శక్తి వివరాలు"
+     },
+     {
+      "en": "Launched from Dr APJ Abdul Kalam Island (Odisha); hit an Indian satellite in Low Earth Orbit, 'hit-to-kill' mode",
+      "te": "డా. APJ అబ్దుల్ కలాం ద్వీపం (ఒడిశా) నుంచి ప్రయోగం; దిగువ భూకక్ష్య (LEO)లో భారత ఉపగ్రహాన్ని 'హిట్-టు-కిల్' పద్ధతిలో ఛేదించింది"
+     }
+    ]
+   ],
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · space and security",
+     "te": "లింక్ చెయిన్ · అంతరిక్షం, భద్రత"
+    },
+    "l": [
+     {
+      "en": "Spoofing hits navigation — the same problem as GPS spoofing near borders and airports",
+      "te": "స్పూఫింగ్ నావిగేషన్‌ను దెబ్బతీస్తుంది — సరిహద్దులు, విమానాశ్రయాల వద్ద GPS స్పూఫింగ్ లాంటిదే"
+     },
+     {
+      "en": "Mission Shakti (2019) = destroying a satellite; today's worry = disabling it without destroying it",
+      "te": "మిషన్ శక్తి (2019) = ఉపగ్రహ విధ్వంసం; నేటి ఆందోళన = ధ్వంసం చేయకుండానే నిరుపయోగం చేయడం"
+     },
+     {
+      "en": "Private players now build and run satellites — so security is not only a government job",
+      "te": "ఇప్పుడు ప్రైవేట్ సంస్థలు ఉపగ్రహాలు తయారుచేసి నడుపుతున్నాయి — భద్రత ప్రభుత్వ బాధ్యత మాత్రమే కాదు"
+     },
+     {
+      "en": "AP link: India's launch port Sriharikota (SDSC SHAR) is in Tirupati district, Andhra Pradesh",
+      "te": "ఏపీ లింక్: భారత ప్రయోగ కేంద్రం శ్రీహరికోట (SDSC SHAR) ఆంధ్రప్రదేశ్ తిరుపతి జిల్లాలో ఉంది"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Jamming = BLOCKING a signal; spoofing = sending a FALSE signal. Mission Shakti was by DRDO (not ISRO) and was launched from Odisha (not Sriharikota). ISSAR is ISRO's space-situational-awareness report, not a policy.",
+    "te": "జామింగ్ = సిగ్నల్‌ను అడ్డుకోవడం; స్పూఫింగ్ = తప్పుడు సిగ్నల్ పంపడం. మిషన్ శక్తి చేసింది DRDO (ఇస్రో కాదు); ప్రయోగం ఒడిశా నుంచి (శ్రీహరికోట నుంచి కాదు). ISSAR ఇస్రో నివేదిక — విధానం కాదు."
+   },
+   "tip": {
+    "en": "Pillars code 'R-A-R-P' = 'RAiR Protection': Resilience · Awareness · Recovery · Partnerships. Threats 'J-S-C-E': Jam, Spoof, Cyber, Electronic.",
+    "te": "స్తంభాల కోడ్ 'R-A-R-P': Resilience (తట్టుకునే శక్తి) · Awareness (అవగాహన) · Recovery (పునరుద్ధరణ) · Partnerships (భాగస్వామ్యం). ముప్పులు 'J-S-C-E': జామ్, స్పూఫ్, సైబర్, ఎలక్ట్రానిక్."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements:",
+     "te": "కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. Spoofing means sending false signals to mislead positioning and navigation systems.",
+      "te": "I. స్థాన నిర్ధారణ, నావిగేషన్ వ్యవస్థలను మోసగించడానికి తప్పుడు సిగ్నళ్లు పంపడమే స్పూఫింగ్."
+     },
+     {
+      "en": "II. Mission Shakti (2019) was conducted by ISRO from Sriharikota.",
+      "te": "II. మిషన్ శక్తి (2019)ని ఇస్రో శ్రీహరికోట నుంచి నిర్వహించింది."
+     },
+     {
+      "en": "III. ISSAR-2025 deals with space situational awareness, collision avoidance and debris mitigation.",
+      "te": "III. ISSAR-2025 అంతరిక్ష పరిస్థితి అవగాహన, ఢీ నివారణ, శిథిలాల తగ్గింపుకు సంబంధించినది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "II is wrong: Mission Shakti was a DRDO test launched from Dr APJ Abdul Kalam Island, Odisha.",
+     "te": "II తప్పు: మిషన్ శక్తి DRDO పరీక్ష; ఒడిశాలోని డా. APJ అబ్దుల్ కలాం ద్వీపం నుంచి ప్రయోగం."
+    }
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Space threats: then and now",
+      "te": "అంతరిక్ష ముప్పులు: అప్పుడు, ఇప్పుడు"
+     },
+     "a": {
+      "h": {
+       "en": "Old: destroy",
+       "te": "పాతది: ధ్వంసం"
+      },
+      "l": [
+       {
+        "en": "Missile hits satellite (A-SAT)",
+        "te": "క్షిపణి ఉపగ్రహాన్ని ఢీకొంటుంది (A-SAT)"
+       },
+       {
+        "en": "Leaves debris",
+        "te": "శిథిలాలు మిగులుతాయి"
+       },
+       {
+        "en": "Easy to see who did it",
+        "te": "ఎవరు చేశారో తెలుస్తుంది"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "New: disrupt",
+       "te": "కొత్తది: అంతరాయం"
+      },
+      "l": [
+       {
+        "en": "Jamming, spoofing, cyber, electronic warfare",
+        "te": "జామింగ్, స్పూఫింగ్, సైబర్, ఎలక్ట్రానిక్ యుద్ధం"
+       },
+       {
+        "en": "Satellite stays, service stops",
+        "te": "ఉపగ్రహం ఉంటుంది, సేవ ఆగుతుంది"
+       },
+       {
+        "en": "Hard to attribute",
+        "te": "ఎవరిదో గుర్తించడం కష్టం"
+       }
+      ]
+     }
+    },
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "Proposed space-security doctrine",
+      "te": "ప్రతిపాదిత అంతరిక్ష భద్రత సిద్ధాంతం"
+     },
+     "c": {
+      "en": "Space-security doctrine",
+      "te": "అంతరిక్ష భద్రత సిద్ధాంతం"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Resilience & redundancy",
+        "te": "తట్టుకునే శక్తి & ప్రత్యామ్నాయాలు"
+       },
+       "l": [
+        {
+         "en": "Backup systems keep services on",
+         "te": "బ్యాకప్ వ్యవస్థలతో సేవలు కొనసాగింపు"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Space-domain awareness",
+        "te": "అంతరిక్ష అవగాహన"
+       },
+       "l": [
+        {
+         "en": "Watch around our satellites",
+         "te": "మన ఉపగ్రహాల చుట్టూ పర్యవేక్షణ"
+        },
+        {
+         "en": "Better attribution",
+         "te": "మెరుగైన గుర్తింపు"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Reconstitution & recovery",
+        "te": "పునర్నిర్మాణం & పునరుద్ధరణ"
+       },
+       "l": [
+        {
+         "en": "Replacement satellites",
+         "te": "ప్రత్యామ్నాయ ఉపగ్రహాలు"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Partnerships",
+        "te": "భాగస్వామ్యాలు"
+       },
+       "l": [
+        {
+         "en": "Govt, forces, ISRO, private firms",
+         "te": "ప్రభుత్వం, సైన్యం, ఇస్రో, ప్రైవేట్ సంస్థలు"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "mains": {
+    "en": "Modern threats to space assets aim to disrupt rather than destroy. Examine the need for a comprehensive space-security doctrine for India and suggest its key elements.",
+    "te": "అంతరిక్ష ఆస్తులకు నేటి ముప్పులు ధ్వంసం కంటే అంతరాయం కలిగించడమే లక్ష్యంగా ఉన్నాయి. భారత్‌కు సమగ్ర అంతరిక్ష భద్రత సిద్ధాంతం అవసరాన్ని పరిశీలించి, దాని ముఖ్య అంశాలను సూచించండి."
+   },
+   "refs": [
+    {
+     "t": "Vajiram & Ravi — Daily Editorial Analysis 18 Nov 2026 (The Hindu op-ed: India needs a comprehensive doctrine on space security)",
+     "u": "https://vajiramandravi.com/current-affairs/daily-editorial-analysis-18-november-2026"
+    },
+    {
+     "t": "SCC Online — Mission Shakti: India destroys live satellite in Low Earth Orbit, 27 Mar 2019",
+     "u": "https://www.scconline.com/blog/post/2019/03/27/mission-shakti-india-joins-select-group-of-nations-destroys-live-satellite-in-low-earth-orbit/"
+    }
+   ]
+  },
+  {
+   "id": "solar",
+   "kind": "article",
+   "color": "#a86b00",
+   "icon": "leaf",
+   "src": {
+    "en": "PIB · Backgrounder · 13 Nov 2026",
+    "te": "PIB · బ్యాక్‌గ్రౌండర్ · 13 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-III Economy / Energy",
+    "te": "వివరణ · GS-III ఆర్థిక వ్యవస్థ / ఇంధనం"
+   },
+   "title": {
+    "en": "Solar at 175 GW: India's renewable journey and the new floating-solar scheme",
+    "te": "175 GW సౌరశక్తి: భారత పునరుత్పాదక ఇంధన ప్రయాణం, కొత్త తేలియాడే సౌర పథకం"
+   },
+   "line": {
+    "en": "Solar grew from 2.8 GW in 2014 to about 175 GW; non-fossil sources are now 55% of India's power capacity.",
+    "te": "సౌర సామర్థ్యం 2014లో 2.8 GW నుంచి సుమారు 175 GWకు పెరిగింది; ఇప్పుడు దేశ విద్యుత్ సామర్థ్యంలో శిలాజేతర వనరుల వాటా 55%."
+   },
+   "easy": [
+    {
+     "en": "Basics: 'installed capacity' is how much electricity all power plants can produce at full power, measured in gigawatts (GW). India's total grew from 249 GW in 2014 to about 560 GW in October 2026. Non-fossil sources (solar, wind, hydro, bio-power, nuclear) reached 308 GW — 55% of the total (31 July 2026). India is 3rd in the world in installed renewable capacity.",
+     "te": "ప్రాథమికాలు: 'స్థాపిత సామర్థ్యం' అంటే అన్ని విద్యుత్ కేంద్రాలు పూర్తి స్థాయిలో ఉత్పత్తి చేయగల విద్యుత్; దీన్ని గిగావాట్లలో (GW) కొలుస్తారు. భారత మొత్తం సామర్థ్యం 2014లో 249 GW నుంచి 2026 అక్టోబర్‌కు సుమారు 560 GWకు పెరిగింది. శిలాజేతర వనరులు (సౌర, పవన, జల, బయో, అణు) 308 GWకు — మొత్తంలో 55% — చేరాయి (31 జూలై 2026). స్థాపిత పునరుత్పాదక సామర్థ్యంలో భారత్ ప్రపంచంలో 3వ స్థానంలో ఉంది."
+    },
+    {
+     "en": "Solar leads: solar is the largest part — about 175 GW (31 Oct 2026), up from 2.8 GW in 2014. In 2025 India added more than 37 GW, the world's 2nd-largest solar growth market (the US added 34 GW). Wind is 59.20 GW and large hydro 57.49 GW. Under PM-Surya Ghar (Feb 2024, ₹75,021 crore, target 1 crore homes), 65.26 lakh homes have rooftop solar (2 Nov 2026), adding about 19.1 GW.",
+     "te": "సౌరశక్తి ముందంజ: అతిపెద్ద భాగం సౌరశక్తే — సుమారు 175 GW (31 అక్టోబర్ 2026); 2014లో 2.8 GW మాత్రమే. 2025లో భారత్ 37 GWకు పైగా జోడించి ప్రపంచంలో 2వ అతిపెద్ద సౌర వృద్ధి మార్కెట్‌గా నిలిచింది (అమెరికా 34 GW). పవన శక్తి 59.20 GW, జలశక్తి 57.49 GW. పీఎం-సూర్య ఘర్ (ఫిబ్రవరి 2024, ₹75,021 కోట్లు, లక్ష్యం 1 కోటి ఇళ్లు) కింద 65.26 లక్షల ఇళ్లకు రూఫ్‌టాప్ సోలార్ వచ్చింది (2 నవంబర్ 2026); దీంతో సుమారు 19.1 GW జతైంది."
+    },
+    {
+     "en": "What's new: PM Surya Sarovar Yojana (PM-SSY), approved on 31 July 2026 with ₹5,070 crore, will set up 5,000 MW of floating solar panels on water bodies, with storage of at least 2 hours (10,000 MWh), between 2026-27 and 2030-31. Floating solar saves land, and storage lets solar power be used after sunset.",
+     "te": "కొత్తది: 2026 జూలై 31న ₹5,070 కోట్లతో ఆమోదించిన పీఎం సూర్య సరోవర్ యోజన (PM-SSY) కింద 2026-27 నుంచి 2030-31 మధ్య జలాశయాలపై 5,000 MW తేలియాడే సౌర ఫలకాలు, కనీసం 2 గంటల నిల్వ (10,000 MWh) ఏర్పాటు చేస్తారు. తేలియాడే సౌరశక్తి భూమిని ఆదా చేస్తుంది; నిల్వ వల్ల సూర్యాస్తమయం తర్వాత కూడా సౌర విద్యుత్ వాడవచ్చు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Total capacity",
+      "te": "మొత్తం సామర్థ్యం"
+     },
+     {
+      "en": "about 560 GW (Oct 2026); 249 GW in 2014",
+      "te": "సుమారు 560 GW (అక్టోబర్ 2026); 2014లో 249 GW"
+     }
+    ],
+    [
+     {
+      "en": "Non-fossil share",
+      "te": "శిలాజేతర వాటా"
+     },
+     {
+      "en": "308 GW = 55% (31 Jul 2026)",
+      "te": "308 GW = 55% (31 జూలై 2026)"
+     }
+    ],
+    [
+     {
+      "en": "Solar",
+      "te": "సౌర"
+     },
+     {
+      "en": "about 175 GW (31 Oct 2026); 2.8 GW in 2014",
+      "te": "సుమారు 175 GW (31 అక్టోబర్ 2026); 2014లో 2.8 GW"
+     }
+    ],
+    [
+     {
+      "en": "Wind / Hydro / Bio",
+      "te": "పవన / జల / బయో"
+     },
+     {
+      "en": "59.20 GW / 57.49 GW / 11.75 GW",
+      "te": "59.20 GW / 57.49 GW / 11.75 GW"
+     }
+    ],
+    [
+     {
+      "en": "Global rank",
+      "te": "ప్రపంచ ర్యాంకు"
+     },
+     {
+      "en": "3rd in installed RE capacity; 2nd-largest solar growth market in 2025 (37+ GW)",
+      "te": "స్థాపిత RE సామర్థ్యంలో 3వ స్థానం; 2025లో 2వ అతిపెద్ద సౌర వృద్ధి మార్కెట్ (37+ GW)"
+     }
+    ],
+    [
+     {
+      "en": "PM-Surya Ghar",
+      "te": "పీఎం-సూర్య ఘర్"
+     },
+     {
+      "en": "Feb 2024; ₹75,021 cr; 65.26 lakh homes solarised (2 Nov 2026)",
+      "te": "ఫిబ్రవరి 2024; ₹75,021 కోట్లు; 65.26 లక్షల ఇళ్లు (2 నవంబర్ 2026)"
+     }
+    ],
+    [
+     {
+      "en": "PM Surya Sarovar",
+      "te": "పీఎం సూర్య సరోవర్"
+     },
+     {
+      "en": "Approved 31 Jul 2026; ₹5,070 cr; 5,000 MW floating solar + 10,000 MWh storage",
+      "te": "ఆమోదం 31 జూలై 2026; ₹5,070 కోట్లు; 5,000 MW తేలియాడే సౌర + 10,000 MWh నిల్వ"
+     }
+    ],
+    [
+     {
+      "en": "Green Hydrogen Mission",
+      "te": "గ్రీన్ హైడ్రోజన్ మిషన్"
+     },
+     {
+      "en": "Approved Jan 2023; ₹19,744 cr; 5 MMT by 2030",
+      "te": "ఆమోదం జనవరి 2023; ₹19,744 కోట్లు; 2030 నాటికి 5 MMT"
+     }
+    ]
+   ],
+   "cf": [
+    0,
+    1,
+    2,
+    5,
+    6
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · energy transition",
+     "te": "లింక్ చెయిన్ · ఇంధన మార్పు"
+    },
+    "l": [
+     {
+      "en": "Rooftop (Surya Ghar) = homes; floating (Surya Sarovar) = reservoirs and ponds",
+      "te": "రూఫ్‌టాప్ (సూర్య ఘర్) = ఇళ్లు; తేలియాడే (సూర్య సరోవర్) = జలాశయాలు, చెరువులు"
+     },
+     {
+      "en": "Storage (batteries) solves solar's problem: no sun at night",
+      "te": "నిల్వ (బ్యాటరీలు) సౌరశక్తి సమస్యను తీరుస్తుంది: రాత్రి సూర్యుడు ఉండడు"
+     },
+     {
+      "en": "Green hydrogen needs cheap renewable power — National Green Hydrogen Mission (2023)",
+      "te": "గ్రీన్ హైడ్రోజన్‌కు చౌక పునరుత్పాదక విద్యుత్ అవసరం — జాతీయ గ్రీన్ హైడ్రోజన్ మిషన్ (2023)"
+     },
+     {
+      "en": "AP link: Andhra Pradesh was among 13 States/UTs showcasing at BRESE 2026 (2–5 Nov, New Delhi); AP's rooftop push — see Today, 23 Oct",
+      "te": "ఏపీ లింక్: BRESE 2026 (2–5 నవంబర్, న్యూఢిల్లీ)లో ప్రదర్శించిన 13 రాష్ట్రాలు/UTల్లో ఏపీ ఒకటి; ఏపీ రూఫ్‌టాప్ సోలార్ — అక్టోబర్ 23 'టుడే' చూడండి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "55% is the non-fossil share of installed CAPACITY, not of electricity actually generated. PM-Surya Ghar = rooftop (2024); PM Surya Sarovar = floating solar (2026). India is 3rd in renewable capacity, but was the 2nd-largest solar GROWTH market in 2025.",
+    "te": "55% అనేది స్థాపిత సామర్థ్యంలో శిలాజేతర వాటా — వాస్తవ ఉత్పత్తిలో కాదు. పీఎం-సూర్య ఘర్ = రూఫ్‌టాప్ (2024); పీఎం సూర్య సరోవర్ = తేలియాడే సౌర (2026). పునరుత్పాదక సామర్థ్యంలో భారత్ 3వ స్థానం; కానీ 2025లో సౌర వృద్ధిలో 2వ అతిపెద్ద మార్కెట్."
+   },
+   "tip": {
+    "en": "Number chain '2.8 → 175 · 249 → 560 · 55%': solar 2014→2026, total 2014→2026, non-fossil share. 'Ghar = roof, Sarovar = lake'.",
+    "te": "సంఖ్యల గొలుసు '2.8 → 175 · 249 → 560 · 55%': సౌర 2014→2026, మొత్తం 2014→2026, శిలాజేతర వాటా. 'ఘర్ = ఇంటి పైకప్పు, సరోవర్ = సరస్సు'."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to India's power sector (PIB, Nov 2026), consider the following statements:",
+     "te": "భారత విద్యుత్ రంగానికి (PIB, నవంబర్ 2026) సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. Non-fossil sources make up about 55% of India's installed power capacity.",
+      "te": "I. భారత స్థాపిత విద్యుత్ సామర్థ్యంలో శిలాజేతర వనరుల వాటా సుమారు 55%."
+     },
+     {
+      "en": "II. Wind has a larger installed capacity than solar.",
+      "te": "II. సౌరశక్తి కంటే పవన శక్తి స్థాపిత సామర్థ్యం ఎక్కువ."
+     },
+     {
+      "en": "III. PM Surya Sarovar Yojana is meant for floating solar with storage.",
+      "te": "III. పీఎం సూర్య సరోవర్ యోజన నిల్వతో కూడిన తేలియాడే సౌర విద్యుత్ కోసం."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II is wrong: solar (about 175 GW) is far larger than wind (59.20 GW).",
+     "te": "II తప్పు: సౌర (సుమారు 175 GW) పవన (59.20 GW) కంటే చాలా ఎక్కువ."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Installed renewable capacity by source (GW, Oct 2026)",
+      "te": "వనరుల వారీగా స్థాపిత పునరుత్పాదక సామర్థ్యం (GW, అక్టోబర్ 2026)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Solar",
+        "te": "సౌర"
+       },
+       "v": 175,
+       "vl": "~175 GW"
+      },
+      {
+       "t": {
+        "en": "Wind",
+        "te": "పవన"
+       },
+       "v": 59.2,
+       "vl": "59.20 GW"
+      },
+      {
+       "t": {
+        "en": "Hydro",
+        "te": "జల"
+       },
+       "v": 57.49,
+       "vl": "57.49 GW"
+      },
+      {
+       "t": {
+        "en": "Bio-power",
+        "te": "బయో"
+       },
+       "v": 11.75,
+       "vl": "11.75 GW"
+      }
+     ],
+     "cap": {
+      "en": "Solar was only 2.8 GW in 2014",
+      "te": "2014లో సౌర సామర్థ్యం 2.8 GW మాత్రమే"
+     }
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Two solar schemes — don't mix them",
+      "te": "రెండు సౌర పథకాలు — కలపకండి"
+     },
+     "a": {
+      "h": {
+       "en": "PM-Surya Ghar (2024)",
+       "te": "పీఎం-సూర్య ఘర్ (2024)"
+      },
+      "l": [
+       {
+        "en": "Rooftop solar on homes",
+        "te": "ఇళ్లపై రూఫ్‌టాప్ సోలార్"
+       },
+       {
+        "en": "₹75,021 crore; 1 crore homes",
+        "te": "₹75,021 కోట్లు; 1 కోటి ఇళ్లు"
+       },
+       {
+        "en": "65.26 lakh homes done",
+        "te": "65.26 లక్షల ఇళ్లు పూర్తి"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "PM Surya Sarovar (2026)",
+       "te": "పీఎం సూర్య సరోవర్ (2026)"
+      },
+      "l": [
+       {
+        "en": "Floating solar on water bodies",
+        "te": "జలాశయాలపై తేలియాడే సౌర"
+       },
+       {
+        "en": "₹5,070 crore; 5,000 MW",
+        "te": "₹5,070 కోట్లు; 5,000 MW"
+       },
+       {
+        "en": "At least 2-hour storage (10,000 MWh)",
+        "te": "కనీసం 2 గంటల నిల్వ (10,000 MWh)"
+       }
+      ]
+     }
+    }
+   ],
+   "mains": {
+    "en": "India's solar capacity has grown more than 60-fold since 2014. Discuss the drivers of this growth and the challenges of integrating solar power into the grid. How can schemes like PM Surya Sarovar help?",
+    "te": "2014 నుంచి భారత సౌర సామర్థ్యం 60 రెట్లకు పైగా పెరిగింది. ఈ వృద్ధికి కారణాలను, సౌర విద్యుత్‌ను గ్రిడ్‌లో అనుసంధానించడంలో సవాళ్లను చర్చించండి. పీఎం సూర్య సరోవర్ వంటి పథకాలు ఎలా సహాయపడతాయి?"
+   },
+   "refs": [
+    {
+     "t": "PIB Backgrounder — India's Renewable Energy Journey: Powering a Cleaner Future, 13 Nov 2026",
+     "u": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335742"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "lakshmibai",
+   "q": {
+    "en": "Arrange the following events in chronological order:",
+    "te": "కింది సంఘటనలను కాలక్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "I. Lord Dalhousie annexes Jhansi",
+     "te": "I. లార్డ్ డల్హౌసీ ఝాన్సీని విలీనం చేయడం"
+    },
+    {
+     "en": "II. Revolt breaks out at Meerut",
+     "te": "II. మీరట్‌లో తిరుగుబాటు ప్రారంభం"
+    },
+    {
+     "en": "III. Lakshmibai and Tantia Tope capture Gwalior",
+     "te": "III. లక్ష్మీబాయి, తాంతియా తోపే గ్వాలియర్ స్వాధీనం"
+    },
+    {
+     "en": "IV. Damodar Rao is adopted as heir",
+     "te": "IV. దామోదర్ రావును వారసుడిగా దత్తత తీసుకోవడం"
+    }
+   ],
+   "o": [
+    {
+     "en": "I – IV – II – III",
+     "te": "I – IV – II – III"
+    },
+    {
+     "en": "IV – I – II – III",
+     "te": "IV – I – II – III"
+    },
+    {
+     "en": "IV – II – I – III",
+     "te": "IV – II – I – III"
+    },
+    {
+     "en": "I – II – IV – III",
+     "te": "I – II – IV – III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Adoption came first (just before the Maharaja died), then Dalhousie refused the heir and annexed Jhansi (1854), then Meerut (1857), then Gwalior (1858). Option (a) wrongly puts annexation before adoption — the annexation happened BECAUSE the adopted heir was refused.",
+    "te": "మొదట దత్తత (మహారాజు మరణానికి ముందు), తర్వాత డల్హౌసీ వారసుడిని నిరాకరించి ఝాన్సీ విలీనం (1854), తర్వాత మీరట్ (1857), తర్వాత గ్వాలియర్ (1858). (a)లో విలీనం దత్తతకు ముందు ఉంది — తప్పు; దత్తపుత్రుడిని నిరాకరించడం వల్లే విలీనం జరిగింది."
+   }
+  },
+  {
+   "topic": "lakshmibai",
+   "q": {
+    "en": "Which of the following statements about Rani Lakshmibai is NOT correct?",
+    "te": "రాణి లక్ష్మీబాయికి సంబంధించి కింది వాటిలో సరికానిది ఏది?"
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "Her birth name was Manikarnika Tambe.",
+     "te": "ఆమె అసలు పేరు మణికర్ణిక తాంబే."
+    },
+    {
+     "en": "The British force that attacked Jhansi in 1858 was led by General Hugh Rose.",
+     "te": "1858లో ఝాన్సీపై దాడి చేసిన బ్రిటిష్ సేనకు జనరల్ హ్యూ రోజ్ నాయకత్వం వహించారు."
+    },
+    {
+     "en": "She was killed in battle inside Jhansi fort.",
+     "te": "ఆమె ఝాన్సీ కోట లోపల యుద్ధంలో మరణించారు."
+    },
+    {
+     "en": "Her husband was Gangadhar Rao, the Maharaja of Jhansi.",
+     "te": "ఆమె భర్త ఝాన్సీ మహారాజు గంగాధర రావు."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "(c) is NOT correct: she escaped from Jhansi fort and was killed at Kotah-ki-Serai near Gwalior on 17/18 June 1858. (a), (b), (d) are correct.",
+    "te": "(c) సరికాదు: ఆమె ఝాన్సీ కోట నుంచి తప్పించుకున్నారు; 1858 జూన్ 17/18న గ్వాలియర్ సమీపంలోని కోటా-కి-సరాయ్ వద్ద మరణించారు. (a), (b), (d) సరైనవి."
+   }
+  },
+  {
+   "topic": "toiletday",
+   "q": {
+    "en": "Consider the following statements about World Toilet Day:",
+    "te": "ప్రపంచ మరుగుదొడ్ల దినోత్సవానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It was made an official UN day by General Assembly resolution 67/291, titled 'Sanitation for All'.",
+     "te": "I. 'Sanitation for All' అనే ఐరాస సర్వసభ్య సభ తీర్మానం 67/291 ద్వారా ఇది అధికారిక ఐరాస దినమైంది."
+    },
+    {
+     "en": "II. The resolution was adopted after a recorded vote in which India abstained.",
+     "te": "II. ఈ తీర్మానాన్ని ఓటింగ్ ద్వారా ఆమోదించారు; భారత్ గైర్హాజరైంది."
+    },
+    {
+     "en": "III. UN-Water leads the annual World Toilet Day campaign.",
+     "te": "III. వార్షిక ప్రపంచ మరుగుదొడ్ల దినోత్సవ ప్రచారానికి UN-Water నాయకత్వం వహిస్తుంది."
+    },
+    {
+     "en": "IV. The day is observed on 22 March every year.",
+     "te": "IV. ఈ రోజును ప్రతి ఏటా మార్చి 22న పాటిస్తారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "III and IV only",
+     "te": "III, IV మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "II is wrong: resolution 67/291 was adopted by consensus (24 July 2013), no vote. IV is wrong: World Toilet Day is 19 November; 22 March is World Water Day.",
+    "te": "II తప్పు: తీర్మానం 67/291ని ఏకాభిప్రాయంతో (24 జూలై 2013) ఆమోదించారు — ఓటింగ్ లేదు. IV తప్పు: ప్రపంచ మరుగుదొడ్ల దినం నవంబర్ 19; మార్చి 22 ప్రపంచ జల దినోత్సవం."
+   }
+  },
+  {
+   "topic": "toiletday",
+   "q": {
+    "en": "With reference to World Toilet Day 2026 and global sanitation (WHO/UNICEF data), consider the following statements:",
+    "te": "ప్రపంచ మరుగుదొడ్ల దినోత్సవం 2026, ప్రపంచ పారిశుద్ధ్యం (WHO/UNICEF గణాంకాలు)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The 2026 theme 'Safe toilets. Equal futures.' focuses on sanitation and gender equality.",
+     "te": "I. 2026 థీమ్ 'Safe toilets. Equal futures.' పారిశుద్ధ్యం, లింగ సమానత్వంపై దృష్టి పెడుతుంది."
+    },
+    {
+     "en": "II. About 4 in 10 people worldwide still lack safe toilets.",
+     "te": "II. ప్రపంచంలో సుమారు 10 మందిలో 4 మందికి ఇప్పటికీ సురక్షిత మరుగుదొడ్లు లేవు."
+    },
+    {
+     "en": "III. Safely managed sanitation is target 6.2 of the Sustainable Development Goals.",
+     "te": "III. సురక్షితంగా నిర్వహించే పారిశుద్ధ్యం సుస్థిర అభివృద్ధి లక్ష్యాల్లో 6.2వ లక్ష్యం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct: theme on sanitation + gender; 3.4 billion = 4 in 10 lack safe toilets (2025); SDG 6.2. The trap is to think sanitation falls under SDG 3 (health) or SDG 5 (gender) and reject III.",
+    "te": "మూడూ సరైనవే: థీమ్ పారిశుద్ధ్యం + లింగ సమానత్వం; 340 కోట్లు = 10లో 4 మందికి సురక్షిత మరుగుదొడ్లు లేవు (2025); SDG 6.2. పారిశుద్ధ్యం SDG 3 (ఆరోగ్యం) లేదా SDG 5 (లింగం) కింద ఉందనుకుని III తిరస్కరించడమే ఉచ్చు."
+   }
+  },
+  {
+   "topic": "census",
+   "q": {
+    "en": "Match List-I (Census 2027 item) with List-II (detail):",
+    "te": "జాబితా-I (జనగణన 2027 అంశం)ను జాబితా-II (వివరం)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. Reference date for most States/UTs  —  1. 5 January 2027",
+     "te": "A. చాలా రాష్ట్రాలు/UTలకు రిఫరెన్స్ తేదీ  —  1. 5 జనవరి 2027"
+    },
+    {
+     "en": "B. Reference date for UP, Punjab, Goa, Uttarakhand*  —  2. 40",
+     "te": "B. UP, పంజాబ్, గోవా, ఉత్తరాఖండ్*కు రిఫరెన్స్ తేదీ  —  2. 40"
+    },
+    {
+     "en": "C. Number of notified population-enumeration questions  —  3. 1 March 2027",
+     "te": "C. నోటిఫై చేసిన జనాభా గణన ప్రశ్నల సంఖ్య  —  3. 1 మార్చి 2027"
+    },
+    {
+     "en": "D. Languages on the self-enumeration portal  —  4. 16",
+     "te": "D. స్వీయ గణన పోర్టల్‌లో భాషలు  —  4. 16"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-1, B-3, C-2, D-4",
+     "te": "A-1, B-3, C-2, D-4"
+    },
+    {
+     "en": "A-3, B-1, C-4, D-2",
+     "te": "A-3, B-1, C-4, D-2"
+    },
+    {
+     "en": "A-3, B-1, C-2, D-4",
+     "te": "A-3, B-1, C-2, D-4"
+    },
+    {
+     "en": "A-1, B-3, C-4, D-2",
+     "te": "A-1, B-3, C-4, D-2"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "A-3 (1 Mar 2027 for most states), B-1 (5 Jan 2027 for the four early states), C-2 (40 questions), D-4 (16 languages). (a) swaps the two reference dates; (b) swaps 40 and 16.",
+    "te": "A-3 (చాలా రాష్ట్రాలకు 1 మార్చి 2027), B-1 (ముందున్న నాలుగు రాష్ట్రాలకు 5 జనవరి 2027), C-2 (40 ప్రశ్నలు), D-4 (16 భాషలు). (a)లో రెండు రిఫరెన్స్ తేదీలు తారుమారు; (b)లో 40, 16 తారుమారు."
+   }
+  },
+  {
+   "topic": "census",
+   "q": {
+    "en": "Consider the following statements about the religion question in Census 2027:",
+    "te": "జనగణన 2027లో మతం ప్రశ్నకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The 287 names shown under 'Others' were officially notified as new religions.",
+     "te": "I. 'ఇతరులు' కింద కనిపించిన 287 పేర్లను కొత్త మతాలుగా అధికారికంగా నోటిఫై చేశారు."
+    },
+    {
+     "en": "II. Officials said the names were predictive-text entries and 'Others' remains an open field.",
+     "te": "II. ఆ పేర్లు టైపింగ్ సూచనలు (predictive text) మాత్రమేనని, 'ఇతరులు' ఖాళీ ఫీల్డ్‌గానే ఉంటుందని అధికారులు చెప్పారు."
+    },
+    {
+     "en": "III. Tribal groups have demanded a separate 'Sarna' religion code.",
+     "te": "III. గిరిజన సమూహాలు ప్రత్యేక 'సర్నా' మత కోడ్ కోరుతున్నాయి."
+    },
+    {
+     "en": "IV. Caste is being enumerated for the first time since 1931.",
+     "te": "IV. 1931 తర్వాత తొలిసారి కుల గణన జరుగుతోంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I is wrong: the drop-down was removed the same day; the names were not new official religions — the seven categories (Hindu, Muslim, Christian, Sikh, Buddhist, Jain, Others) remain. II, III, IV are correct; (b) misses the true statement III.",
+    "te": "I తప్పు: డ్రాప్-డౌన్‌ను అదే రోజు తొలగించారు; అవి కొత్త అధికారిక మతాలు కావు — ఏడు వర్గాలు (హిందూ, ముస్లిం, క్రైస్తవ, సిక్కు, బౌద్ధ, జైన, ఇతరులు) కొనసాగుతాయి. II, III, IV సరైనవి; (b)లో సరైన III లేదు."
+   }
+  },
+  {
+   "topic": "spacesec",
+   "q": {
+    "en": "Assertion (A): Modern threats to satellites can be more difficult to respond to than physical anti-satellite attacks.\nReason (R): Jamming, spoofing and cyberattacks can disrupt services without destroying satellites, and their source is hard to attribute.",
+    "te": "నిశ్చితాభిప్రాయం (A): ఉపగ్రహాలకు నేటి ముప్పులకు స్పందించడం భౌతిక ఉపగ్రహ విధ్వంసక దాడుల కంటే కష్టం కావచ్చు.\nకారణం (R): జామింగ్, స్పూఫింగ్, సైబర్ దాడులు ఉపగ్రహాలను ధ్వంసం చేయకుండానే సేవలకు అంతరాయం కలిగిస్తాయి; వాటి మూలాన్ని గుర్తించడం కష్టం."
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "Both A and R are true and R is the correct explanation of A",
+     "te": "A, R రెండూ నిజం; A కి R సరైన వివరణ"
+    },
+    {
+     "en": "Both A and R are true but R is not the correct explanation of A",
+     "te": "A, R రెండూ నిజం; కానీ A కి R సరైన వివరణ కాదు"
+    },
+    {
+     "en": "A is true but R is false",
+     "te": "A నిజం, R తప్పు"
+    },
+    {
+     "en": "A is false but R is true",
+     "te": "A తప్పు, R నిజం"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Both true, and R explains A: because these attacks leave no debris and attribution is uncertain, deciding whether it is an 'attack' and how to respond is harder. (b) is the usual trap — here R is the very reason for A.",
+    "te": "రెండూ నిజం, A కి R వివరణ: ఈ దాడుల్లో శిథిలాలు ఉండవు, గుర్తింపు అనిశ్చితం కాబట్టి దాన్ని 'దాడి'గా పరిగణించాలా, ఎలా స్పందించాలో నిర్ణయించడం కష్టం. (b) సాధారణ ఉచ్చు — ఇక్కడ R నే A కి కారణం."
+   }
+  },
+  {
+   "topic": "spacesec",
+   "q": {
+    "en": "Which of the following are among the pillars of the space-security doctrine proposed for India in the article?\nI. Resilience and redundancy\nII. Space-domain awareness\nIII. Reconstitution and recovery\nIV. A ban on private satellite operators",
+    "te": "వ్యాసంలో భారత్‌కు ప్రతిపాదించిన అంతరిక్ష భద్రత సిద్ధాంతం స్తంభాల్లో కింది వాటిలో ఏవి ఉన్నాయి?\nI. తట్టుకునే శక్తి, ప్రత్యామ్నాయాలు\nII. అంతరిక్ష పరిస్థితి అవగాహన\nIII. పునర్నిర్మాణం, పునరుద్ధరణ\nIV. ప్రైవేట్ ఉపగ్రహ సంస్థలపై నిషేధం"
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "IV is wrong: the fourth pillar is institutional PARTNERSHIP with private operators (along with government, forces and ISRO), not a ban. (a) misses III.",
+    "te": "IV తప్పు: నాలుగో స్తంభం ప్రైవేట్ సంస్థలతో (ప్రభుత్వం, సైన్యం, ఇస్రోతో పాటు) సంస్థాగత భాగస్వామ్యం — నిషేధం కాదు. (a)లో III లేదు."
+   }
+  },
+  {
+   "topic": "solar",
+   "q": {
+    "en": "Arrange the following installed capacities in India (Oct 2026) in DESCENDING order:\nI. Wind\nII. Solar\nIII. Bio-power\nIV. Hydro",
+    "te": "భారత్‌లో (అక్టోబర్ 2026) కింది స్థాపిత సామర్థ్యాలను అవరోహణ క్రమంలో (ఎక్కువ నుంచి తక్కువ) అమర్చండి:\nI. పవన\nII. సౌర\nIII. బయో\nIV. జల"
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "II – IV – I – III",
+     "te": "II – IV – I – III"
+    },
+    {
+     "en": "I – II – IV – III",
+     "te": "I – II – IV – III"
+    },
+    {
+     "en": "II – I – III – IV",
+     "te": "II – I – III – IV"
+    },
+    {
+     "en": "II – I – IV – III",
+     "te": "II – I – IV – III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Solar ~175 GW > Wind 59.20 GW > Hydro 57.49 GW > Bio 11.75 GW. The trap is (a): wind and hydro are close, but wind is slightly larger.",
+    "te": "సౌర ~175 GW > పవన 59.20 GW > జల 57.49 GW > బయో 11.75 GW. ఉచ్చు (a): పవన, జల దగ్గరగా ఉన్నా, పవన కొంచెం ఎక్కువ."
+   }
+  },
+  {
+   "topic": "solar",
+   "q": {
+    "en": "Consider the following statements about two solar schemes:",
+    "te": "రెండు సౌర పథకాలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. PM-Surya Ghar was launched in February 2024 for rooftop solar in 1 crore households.",
+     "te": "I. 1 కోటి ఇళ్లలో రూఫ్‌టాప్ సోలార్ కోసం 2024 ఫిబ్రవరిలో పీఎం-సూర్య ఘర్ ప్రారంభమైంది."
+    },
+    {
+     "en": "II. PM Surya Sarovar Yojana targets 5,000 MW of floating solar with at least 2-hour storage.",
+     "te": "II. పీఎం సూర్య సరోవర్ యోజన కనీసం 2 గంటల నిల్వతో 5,000 MW తేలియాడే సౌరను లక్ష్యంగా పెట్టుకుంది."
+    },
+    {
+     "en": "III. PM Surya Sarovar has a larger outlay than PM-Surya Ghar.",
+     "te": "III. పీఎం-సూర్య ఘర్ కంటే పీఎం సూర్య సరోవర్ కేటాయింపు ఎక్కువ."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is wrong: PM-Surya Ghar's outlay is ₹75,021 crore, far more than PM Surya Sarovar's ₹5,070 crore. (a) misses the true statement II.",
+    "te": "III తప్పు: పీఎం-సూర్య ఘర్ కేటాయింపు ₹75,021 కోట్లు — పీఎం సూర్య సరోవర్ ₹5,070 కోట్ల కంటే చాలా ఎక్కువ. (a)లో సరైన II లేదు."
+   }
+  }
+ ]
+}
