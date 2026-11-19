@@ -1463,6 +1463,12 @@
    "items": [
     {
      "s": "pol",
+     "id": "ir-1",
+     "en": "Catch-up: International relations – India's foreign policy, neighbours and global bodies",
+     "te": "క్యాచ్-అప్: అంతర్జాతీయ సంబంధాలు – భారత విదేశాంగ విధానం, పొరుగు దేశాలు, ప్రపంచ సంస్థలు"
+    },
+    {
+     "s": "pol",
      "id": "sp-1",
      "en": "Polity: re-read all notes; redo the Polity mock tests",
      "te": "పాలిటీ: నోట్స్ పునశ్చరణ; పాలిటీ మాక్ టెస్టులు మళ్లీ రాయండి"
@@ -1476,11 +1482,17 @@
    ],
    "n": 55,
    "w": 10,
-   "ready": false
+   "ready": true
   },
   {
    "ph": 2,
    "items": [
+    {
+     "s": "his",
+     "id": "his-sd",
+     "en": "Catch-up: South Indian kingdoms – Sangam, Satavahanas, Pallavas, Chalukyas, Rashtrakutas, Vijayanagara, Bahmanis",
+     "te": "క్యాచ్-అప్: దక్షిణ భారత రాజ్యాలు – సంగం, శాతవాహనులు, పల్లవులు, చాళుక్యులు, రాష్ట్రకూటులు, విజయనగరం, బహమనీలు"
+    },
     {
      "s": "his",
      "id": "sp-2",
@@ -1502,11 +1514,17 @@
    ],
    "n": 56,
    "w": 10,
-   "ready": false
+   "ready": true
   },
   {
    "ph": 2,
    "items": [
+    {
+     "s": "his",
+     "id": "his-cul",
+     "en": "Catch-up: Indian culture – architecture, painting, dance, music, theatre, UNESCO and AP crafts",
+     "te": "క్యాచ్-అప్: భారతీయ సంస్కృతి – వాస్తు, చిత్రకళ, నృత్యం, సంగీతం, నాటకం, UNESCO, AP హస్తకళలు"
+    },
     {
      "s": "his",
      "id": "sp-3",
@@ -1522,7 +1540,7 @@
    ],
    "n": 57,
    "w": 10,
-   "ready": false
+   "ready": true
   },
   {
    "ph": 2,
