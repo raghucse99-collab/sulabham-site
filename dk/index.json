@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "M1iId3fIyqYDue3YLUqMXw==",
 "iter": 200000,
-"check": "Jc+eidU5mndjFFleXi/H+PnSQusx1tF7FTymaqDZVBqfkPyZqXbxgONj1A==",
+"check": "IlAdWwPCc2aUDgv9+HTbPvA9ywfP/+f4NKYDJBT6RE9FCmo00+ClqKBRmQ==",
 "lessons": {
 "dsc-sgt-perspectives-day2": "Perspectives in Education, Day 2: Teachers, Rights, Concerns, NCF and NEP",
 "dsc-sgt-perspectives-day2-te": "విద్యా దృక్పథాలు, 2వ రోజు: ఉపాధ్యాయులు, హక్కులు, సమకాలీన అంశాలు, NCF, NEP",
@@ -59,6 +59,10 @@
 "dsc-sgt-social-day5": "Social Studies, Day 5: Colonial Rule, Freedom Struggle and Social Reform",
 "dsc-sgt-social-day5-te": "సాంఘిక శాస్త్రం, రోజు 5: వలస పాలన, స్వాతంత్ర్య పోరాటం, సంఘ సంస్కరణలు",
 "dsc-sgt-social-day6": "Social Studies, Day 6: Constitution, Government, Justice and Equality; Culture and Communication",
-"dsc-sgt-social-day6-te": "సాంఘిక శాస్త్రం, రోజు 6: రాజ్యాంగం, ప్రభుత్వం, న్యాయం, సమానత్వం; సంస్కృతి, సమాచారం"
+"dsc-sgt-social-day6-te": "సాంఘిక శాస్త్రం, రోజు 6: రాజ్యాంగం, ప్రభుత్వం, న్యాయం, సమానత్వం; సంస్కృతి, సమాచారం",
+"dsc-sgt-social-day7": "Social Studies, Day 7: Social Methodology — All 10 Units",
+"dsc-sgt-social-day7-te": "సాంఘిక శాస్త్రం, రోజు 7: సాంఘిక బోధనా పద్ధతులు — మొత్తం 10 యూనిట్లు",
+"dsc-sgt-social-test": "DSC SGT Social Studies Test: Content & Methodology",
+"dsc-sgt-social-test-te": "DSC SGT సాంఘిక శాస్త్రం టెస్ట్: విషయం & బోధనా పద్ధతులు"
 }
 }
