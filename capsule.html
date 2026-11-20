@@ -28,7 +28,7 @@ main{max-width:760px;margin:0 auto;padding:14px 16px 90px}
 .card{background:#fff;border:1px solid var(--line);border-radius:16px;margin:14px 0;overflow:hidden}
 .card>h2{margin:0;color:#fff;font-size:1.12rem;padding:10px 14px}
 .in{padding:10px 14px}
-table{width:100%;border-collapse:collapse;margin:4px 0 8px;font-size:.93rem}td,th{border:1px solid #e3e7ea;padding:6px 8px;vertical-align:top;text-align:left}
+table{width:100%;border-collapse:collapse;margin:4px 0 8px;font-size:.93rem}td,th{overflow-wrap:anywhere;border:1px solid #e3e7ea;padding:6px 8px;vertical-align:top;text-align:left}
 td.k{width:30%;font-weight:600;background:#f8fafb}th{background:#eef2f5}
 .box{border-radius:12px;padding:9px 12px;margin:9px 0;font-size:.95rem}.box b.h{display:block;margin-bottom:3px}
 .cn{background:#eaf3ff;border-left:5px solid #1d4f91}.ch{background:#eef8ef;border-left:5px solid #2f7a3a}.sj{background:#f6effa;border-left:5px solid #7b3fa0}.tr{background:#fff0ee;border-left:5px solid #b3322b}
@@ -65,7 +65,7 @@ var $=function(i){return document.getElementById(i)};
 var lang="en";try{lang=localStorage.getItem("sul_lang")||"en"}catch(e){}
 var id=(location.search.match(/[?&]t=([a-z0-9-]+)/)||[])[1];if(!id){location.replace("caps.html");return}
 var TG="https://t.me/+G7R0gSQgjQBhOWNl",UPI="raghu.cse999@axl";
-var D=null,FULL=null,KEY=null,ANS={};
+var D=null,FULL=null,KEY=null,ANS={},CL=null;
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){}}
 function E(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function x(o){return o&&typeof o==="object"?(o[lang]||o.en):o}
@@ -76,7 +76,7 @@ function dec(k,by){return crypto.subtle.decrypt({name:"AES-GCM",iv:by.slice(0,12
 function keyOf(code){var e=new TextEncoder();return crypto.subtle.importKey("raw",e.encode(norm(code)),"PBKDF2",false,["deriveKey"]).then(function(k){return crypto.subtle.deriveKey({name:"PBKDF2",salt:b64(D.salt),iterations:D.iter,hash:"SHA-256"},k,{name:"AES-GCM",length:256},false,["decrypt"])})}
 var R=["I","II","III","IV","V","VI"];
 function bigH(c){var h='<div class="card"><h2 style="background:'+c.color+'">'+c.icon+' '+E(x(c.name))+'</h2><div class="in"><table>'+c.facts.map(function(f){return'<tr><td class="k">'+E(x(f[0]))+'</td><td>'+E(x(f[1]))+'</td></tr>'}).join("")+'</table>';
- h+='<div class="box cn"><b class="h">🧠 '+L("Understand the score","స్కోరును అర్థం చేసుకోండి")+'</b>'+E(x(c.concept))+'</div>';
+ h+='<div class="box cn"><b class="h">🧠 '+(CL?x(CL):L("Understand the score","స్కోరును అర్థం చేసుకోండి"))+'</b>'+E(x(c.concept))+'</div>';
  function lst(cls,ic,en,te,a){return'<div class="box '+cls+'"><b class="h">'+ic+' '+L(en,te)+'</b><ul>'+a.map(function(y){return'<li>'+E(x(y))+'</li>'}).join("")+'</ul></div>'}
  h+=lst("ch","🔗","Linked facts — the chain","అనుసంధాన వాస్తవాలు — గొలుసు",c.chain)+lst("sj","📚","Subject links","సబ్జెక్టు అనుసంధానం",c.subj)+lst("tr","⚠️","Traps & corrections","ఉచ్చులు & సవరణలు",c.trap);
  return h+'</div></div>'}
@@ -93,24 +93,25 @@ function mark(){var Q=FULL?FULL.mcq:D.free.mcq;Object.keys(ANS).forEach(function
 function lockH(){var c=D.counts,price=D.price;
  return'<div class="lock" id="buy"><h2>🔓 '+L("Unlock the full capsule — ₹","పూర్తి క్యాప్సూల్ — ₹")+price+'</h2>'+
  '<ul class="teaser">'+(D.teaser||[]).map(function(t){return'<li>'+E(x(t))+'</li>'}).join("")+
- '<li>'+L("All "+c.big+" deep index cards + "+c.more+" more indices + key reports","మొత్తం "+c.big+" లోతైన సూచిక కార్డులు + మరో "+c.more+" సూచీలు + ముఖ్య నివేదికలు")+'</li><li>'+L(c.mcq+" Group 1/2-pattern MCQs with explanations (tap to check)",c.mcq+" గ్రూప్ 1/2 స్థాయి ప్రశ్నలు, వివరణలతో (నొక్కి చూసుకోండి)")+'</li><li>'+L("PDF in English and Telugu — print and revise","ఇంగ్లీష్, తెలుగు PDFలు — ప్రింట్ తీసి రివైజ్ చేయండి")+'</li></ul>'+
+ '<li>'+L("All "+c.big+" deep topic cards + "+c.more+" more short cards + one-glance tables","మొత్తం "+c.big+" లోతైన కార్డులు + మరో "+c.more+" చిన్న కార్డులు + ఒక్క చూపు పట్టికలు")+'</li><li>'+L(c.mcq+" Group 1/2-pattern MCQs with explanations (tap to check)",c.mcq+" గ్రూప్ 1/2 స్థాయి ప్రశ్నలు, వివరణలతో (నొక్కి చూసుకోండి)")+'</li><li>'+L("PDF in English and Telugu — print and revise","ఇంగ్లీష్, తెలుగు PDFలు — ప్రింట్ తీసి రివైజ్ చేయండి")+'</li></ul>'+
  '<ol><li>'+L("Pay ₹"+price+" by UPI","UPIతో ₹"+price+" చెల్లించండి")+'<div class="upirow"><a class="btn grn" href="'+E(D.upi)+'">'+L("Pay ₹"+price+" with UPI app","UPI యాప్‌తో ₹"+price+" చెల్లించండి")+'</a><code>'+UPI+'</code><button class="btn line" id="cpu" style="padding:6px 12px">'+L("Copy","కాపీ")+'</button></div><img id="qr" src="'+E(D.qr)+'" alt="UPI QR"><span class="note">'+L("On a computer? Scan this QR with any UPI app.","కంప్యూటర్‌లో ఉన్నారా? ఏదైనా UPI యాప్‌తో ఈ QR స్కాన్ చేయండి.")+'</span></li>'+
  '<li>'+L("Send the payment screenshot on Telegram with your device number","చెల్లింపు స్క్రీన్‌షాట్, మీ పరికరం నంబర్ టెలిగ్రామ్‌లో పంపండి")+'<div class="upirow"><a class="btn tg" href="'+TG+'" target="_blank" rel="noopener">Telegram</a></div></li>'+
  '<li>'+L("Type the unlock code you receive","మీకు వచ్చిన అన్‌లాక్ కోడ్ టైప్ చేయండి")+'<form class="codeF" id="codeForm"><input id="code" placeholder="XXXXX-XXXXX" autocomplete="off"><button class="btn pri">'+L("Unlock","అన్‌లాక్")+'</button></form><div class="msg" id="msg"></div></li></ol></div>'}
 function draw(){document.documentElement.lang=lang;$("lte").className=lang==="te"?"on":"";$("len").className=lang==="en"?"on":"";
  document.title=x(D.title)+" · Sulabham";
- var h='<div class="hero"><span class="tag">'+L("Capsule","క్యాప్సూల్")+' · ₹'+D.price+' · '+E(D.updated)+'</span><h1>'+E(x(D.title))+'</h1><p>'+E(x(D.sub))+'</p><div class="stats"><span>📚 '+(D.counts.big+D.counts.more)+' '+L("indices","సూచీలు")+'</span><span>✍️ '+D.counts.mcq+' MCQs</span><span>📄 PDF EN + TE</span><span>✅ '+L("Facts verified","వాస్తవాలు నిర్ధారితం")+'</span></div>'+
+ var h='<div class="hero"><span class="tag">'+L("Capsule","క్యాప్సూల్")+' · ₹'+D.price+' · '+E(D.updated)+'</span><h1>'+E(x(D.title))+'</h1><p>'+E(x(D.sub))+'</p><div class="stats"><span>📚 '+(D.counts.big+D.counts.more)+' '+L("topics","అంశాలు")+'</span><span>✍️ '+D.counts.mcq+' MCQs</span><span>📄 PDF EN + TE</span><span>✅ '+L("Facts verified","వాస్తవాలు నిర్ధారితం")+'</span></div>'+
   (FULL?'':'<div style="margin-top:12px"><a class="btn gold" href="#buy">'+L("Unlock all — ₹"+D.price,"అన్నీ అన్‌లాక్ — ₹"+D.price)+'</a></div>')+'</div>';
- var src=FULL||{big:[D.free.big],mcq:D.free.mcq};
+ var src=FULL||{big:[D.free.big],mcq:D.free.mcq};CL=(FULL&&FULL.meta&&FULL.meta.concept_label)||D.concept_label||null;
  h+='<div class="how">💡 '+E(x(D.free.how))+'</div>';
  if(FULL){h+='<div class="pdfs"><button class="btn pri" data-pdf="en">📄 PDF — English</button><button class="btn pri" data-pdf="te">📄 PDF — తెలుగు</button></div>'}
  else h+='<p class="note">👀 '+L("Free preview: the first index card and 3 questions.","ఉచిత నమూనా: మొదటి సూచిక కార్డు, 3 ప్రశ్నలు.")+'</p>';
  h+=src.big.map(bigH).join("");
  if(FULL){
-  h+='<h2 class="sec">➕ '+L("More indices & reports up to November 2026","నవంబర్ 2026 వరకు మరిన్ని సూచీలు & నివేదికలు")+'</h2>'+FULL.more.map(function(c){return'<div class="mini"><h3>'+c.icon+' '+E(x(c.name))+'</h3><div><b>'+L("By","ప్రచురణ")+':</b> '+E(x(c.by))+'</div><div><b>'+L("Top / last","మొదటి / చివరి")+':</b> '+E(x(c.top))+'</div><div><b>'+L("India","భారత్")+':</b> '+E(x(c.india))+'</div><div><b>'+L("Link","అనుసంధానం")+':</b> '+E(x(c.link))+'</div></div>'}).join("");
-  h+='<h2 class="sec">📄 '+L("Reports to remember","గుర్తుంచుకోవాల్సిన నివేదికలు")+'</h2><table>'+FULL.reports.map(function(r){return'<tr><td class="k">'+E(x(r[0]))+'</td><td>'+E(x(r[1]))+'</td></tr>'}).join("")+'</table>';
-  h+='<h2 class="sec">📊 '+L("India’s rank ladder (best → worst)","భారత్ ర్యాంకుల నిచ్చెన (ఉత్తమం → అధ్వాన్నం)")+'</h2>'+FULL.ladder.map(function(r){var p=r[1].split("/");return'<div class="bar"><span>'+E(r[0])+'</span><i style="width:'+Math.max(4,48*(+p[0])/(+p[1]))+'%"></i><em>'+E(r[1])+'</em></div>'}).join("");
-  h+='<h2 class="sec">🏢 '+L("Who publishes what","ఏ సూచిక ఎవరిది")+'</h2><table><tr><th>'+L("Index","సూచిక")+'</th><th>'+L("Publisher","ప్రచురణ")+'</th><th>'+L("Base","కేంద్రం")+'</th></tr>'+FULL.pub.map(function(r){return'<tr><td>'+E(x(r[0]))+'</td><td>'+E(x(r[1]))+'</td><td>'+E(x(r[2]))+'</td></tr>'}).join("")+'</table>';
+  var M=FULL.meta||{},G=function(k,en,te){return M[k]?x(M[k]):L(en,te)},ML=M.more_labels?M.more_labels.map(x):[L("By","ప్రచురణ"),L("Top / last","మొదటి / చివరి"),L("India","భారత్"),L("Link","అనుసంధానం")],PH=M.pub_head?M.pub_head.map(x):[L("Index","సూచిక"),L("Publisher","ప్రచురణ"),L("Base","కేంద్రం")];
+  h+='<h2 class="sec">➕ '+G("more_title","More indices & reports up to November 2026","నవంబర్ 2026 వరకు మరిన్ని సూచీలు & నివేదికలు")+'</h2>'+FULL.more.map(function(c){return'<div class="mini"><h3>'+c.icon+' '+E(x(c.name))+'</h3><div><b>'+ML[0]+':</b> '+E(x(c.by))+'</div><div><b>'+ML[1]+':</b> '+E(x(c.top))+'</div><div><b>'+ML[2]+':</b> '+E(x(c.india))+'</div><div><b>'+ML[3]+':</b> '+E(x(c.link))+'</div></div>'}).join("");
+  h+='<h2 class="sec">📄 '+G("reports_title","Reports to remember","గుర్తుంచుకోవాల్సిన నివేదికలు")+'</h2><table>'+FULL.reports.map(function(r){return'<tr><td class="k">'+E(x(r[0]))+'</td><td>'+E(x(r[1]))+'</td></tr>'}).join("")+'</table>';
+  if(FULL.ladder.length)h+='<h2 class="sec">📊 '+L("India’s rank ladder (best → worst)","భారత్ ర్యాంకుల నిచ్చెన (ఉత్తమం → అధ్వాన్నం)")+'</h2>'+FULL.ladder.map(function(r){var p=r[1].split("/");return'<div class="bar"><span>'+E(r[0])+'</span><i style="width:'+Math.max(4,48*(+p[0])/(+p[1]))+'%"></i><em>'+E(r[1])+'</em></div>'}).join("");
+  h+='<h2 class="sec">🏢 '+G("pub_title","Who publishes what","ఏ సూచిక ఎవరిది")+'</h2><table><tr><th>'+PH[0]+'</th><th>'+PH[1]+'</th><th>'+PH[2]+'</th></tr>'+FULL.pub.map(function(r){return'<tr><td>'+E(x(r[0]))+'</td><td>'+E(x(r[1]))+'</td><td>'+E(x(r[2]))+'</td></tr>'}).join("")+'</table>';
  }
  h+='<h2 class="sec">✍️ '+L("Practice — tap an option to check","ప్రాక్టీస్ — ఆప్షన్ నొక్కి సరిచూసుకోండి")+'</h2>'+src.mcq.map(qH).join("");
  if(!FULL)h+=lockH();else h+='<p class="note">🔒 '+L("Unlocked on this device","ఈ పరికరంలో అన్‌లాక్ అయింది")+' · D-'+SUL_dev.id()+'</p>';

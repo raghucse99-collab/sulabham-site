@@ -8,6 +8,7 @@
 <meta name="description" content="Sulabham topic capsules for APPSC Group 1 & 2: one topic, verified notes linked to all subjects, PDF in Telugu & English and Group-pattern MCQs — ₹49 each.">
 <link rel="canonical" href="https://sulabham.in/caps.html">
 <link rel="icon" type="image/svg+xml" href="sulabham-icon.svg">
+<script src="devcode.js"></script>
 <style>
 body{margin:0;background:#f6f4ee;color:#14212b;font:16px/1.55 "Noto Sans","Noto Sans Telugu",sans-serif}
 header{background:#2a0b3d;color:#fff;padding:10px 16px;display:flex;justify-content:space-between;align-items:center}
@@ -19,6 +20,10 @@ main{max-width:760px;margin:0 auto;padding:16px}
 .t .ic{font-size:2rem;flex:none}.t b{display:block;font-size:1.08rem;color:#3d1153}.t small{display:block;color:#5b6b78}
 .t .pr{margin-left:auto;flex:none;background:#ffd45c;color:#1b1500;font-weight:800;border-radius:12px;padding:8px 12px;text-align:center;line-height:1.2}
 .t.soon{opacity:.6;border-style:dashed}
+.bun{background:linear-gradient(135deg,#ffe7a3,#f2b43c);border-radius:18px;padding:16px;margin:14px 0;color:#2a1a00}.bun h2{margin:0 0 4px;font-size:1.25rem}.bun .pr{font-size:2rem;font-weight:800}.bun .pr s{font-size:1rem;opacity:.7;margin-left:8px}
+.bun ul{margin:6px 0;padding-left:20px}.bun .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+.bb{display:inline-block;border:0;border-radius:12px;padding:10px 14px;font:inherit;font-weight:800;text-decoration:none;cursor:pointer}.bb.g{background:#1f8a4c;color:#fff}.bb.t{background:#229ed9;color:#fff}.bb.l{background:#fff;color:#2a1a00}
+.dv{background:#fff;border:1px dashed #b88600;border-radius:10px;padding:6px 10px;font-size:.9rem}.dv b{font-family:monospace;font-size:1.05rem}
 .why{background:#fff3cf;border:1px dashed #e3a400;border-radius:12px;padding:10px 12px;margin:14px 0}.why ul{margin:4px 0;padding-left:20px}
 </style>
 </head>
@@ -28,13 +33,14 @@ main{max-width:760px;margin:0 auto;padding:16px}
 <script>
 (function(){
 var lang="en";try{lang=localStorage.getItem("sul_lang")||"en"}catch(e){}
-var IDX=[],SOON=[{ic:"🤝",en:"Summits, Conferences & Meetings 2026",te:"సదస్సులు, సమావేశాలు 2026"},{ic:"🏅",en:"Awards & Honours 2026",te:"అవార్డులు & పురస్కారాలు 2026"},{ic:"🏟️",en:"Sports 2026",te:"క్రీడలు 2026"}];
-var ICON={"indices-2026":"📊"};
+var IDX=[],SOON=[{ic:"📜",en:"Govt Schemes 2026 (Centre + AP)",te:"ప్రభుత్వ పథకాలు 2026 (కేంద్రం + ఏపీ)"},{ic:"🏅",en:"Awards & Honours 2026",te:"అవార్డులు & పురస్కారాలు 2026"},{ic:"🏟️",en:"Sports 2026",te:"క్రీడలు 2026"}];
+var ICON={"indices-2026":"📊","summits-2026":"🤝"};
 function E(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function L(en,te){return lang==="te"?te:en}
 function draw(){document.documentElement.lang=lang;document.getElementById("lte").className=lang==="te"?"on":"";document.getElementById("len").className=lang==="en"?"on":"";
  var h='<div class="hero"><h1>💊 '+L("Topic Capsules — ₹49 each","టాపిక్ క్యాప్సూల్స్ — ఒక్కొక్కటి ₹49")+'</h1><p>'+L("One current-affairs topic, finished in one sitting: verified facts, links to every subject, PDF in Telugu & English, and qualified Group-pattern MCQs.","ఒక కరెంట్ అఫైర్స్ అంశం — ఒక్కసారి కూర్చుంటే పూర్తి: నిర్ధారిత వాస్తవాలు, అన్ని సబ్జెక్టులతో అనుసంధానం, తెలుగు & ఇంగ్లీష్ PDF, గ్రూప్ స్థాయి ప్రశ్నలు.")+'</p></div>';
- h+=IDX.map(function(c){return'<a class="t" href="capsule.html?t='+c.id+'"><span class="ic">'+(ICON[c.id]||"💊")+'</span><span><b>'+E(c.title[lang]||c.title.en)+'</b><small>'+c.cards+' '+L("indices","సూచీలు")+' · '+c.mcq+' MCQs · PDF · '+L("updated","నవీకరణ")+' '+E(c.updated)+'</small></span><span class="pr">₹'+c.price+'<br><small style="color:#1b1500">'+L("free preview","ఉచిత నమూనా")+'</small></span></a>'}).join("");
+ h+=IDX.map(function(c){return'<a class="t" href="capsule.html?t='+c.id+'"><span class="ic">'+(ICON[c.id]||"💊")+'</span><span><b>'+E(c.title[lang]||c.title.en)+'</b><small>'+c.cards+' '+L("topics","అంశాలు")+' · '+c.mcq+' MCQs · PDF · '+L("updated","నవీకరణ")+' '+E(c.updated)+'</small></span><span class="pr">₹'+c.price+'<br><small style="color:#1b1500">'+L("free preview","ఉచిత నమూనా")+'</small></span></a>'}).join("");
+ var n=IDX.length;h+='<div class="bun"><h2>🎁 '+L("All Topics Bundle — Jan–Nov 2026","అన్ని అంశాల బండిల్ — జనవరి–నవంబర్ 2026")+'</h2><div class="pr">₹249<s>₹'+(49*Math.max(n,6))+'+</s></div><ul><li>'+L("Every capsule released for Jan–Nov 2026 — the "+n+" above now, and each new topic (Awards, Schemes, Sports…) as it comes","జనవరి–నవంబర్ 2026కి విడుదలయ్యే ప్రతి క్యాప్సూల్ — ఇప్పుడు పైన ఉన్న "+n+", ఇకపై వచ్చే ప్రతి కొత్త అంశం (అవార్డులు, పథకాలు, క్రీడలు…)")+'</li><li>'+L("One link unlocks all of them on your phone","ఒకే లింక్‌తో అన్నీ మీ ఫోన్‌లో అన్‌లాక్")+'</li></ul><div class="row"><a class="bb g" href="upi://pay?pa=raghu.cse999@axl&pn=Sulabham&am=249&cu=INR&tn=Sulabham%20Capsules%20All%202026">'+L("Pay ₹249 by UPI","UPIతో ₹249 చెల్లించండి")+'</a><a class="bb t" href="https://t.me/+G7R0gSQgjQBhOWNl" target="_blank" rel="noopener">'+L("Send screenshot on Telegram","స్క్రీన్‌షాట్ టెలిగ్రామ్‌లో పంపండి")+'</a></div><div class="row"><span class="dv">'+L("Your device number","మీ పరికరం నంబర్")+': <b>D-'+(window.SUL_dev?SUL_dev.id():"")+'</b></span><button class="bb l" data-copydev>'+L("Copy","కాపీ")+'</button></div><p style="margin:8px 0 0;font-size:.85rem">'+L("UPI ID raghu.cse999@axl · On a computer, scan:","UPI ID raghu.cse999@axl · కంప్యూటర్‌లో ఉంటే స్కాన్ చేయండి:")+'</p><img src="caps/qr-all.png" alt="UPI QR ₹249" style="width:120px;height:120px;border-radius:8px;margin-top:4px"></div>';
  h+=SOON.map(function(s){return'<div class="t soon"><span class="ic">'+s.ic+'</span><span><b>'+E(s[lang])+'</b><small>'+L("Coming soon","త్వరలో")+'</small></span><span class="pr">₹49</span></div>'}).join("");
  h+='<div class="why"><b>'+L("Why capsules?","క్యాప్సూల్స్ ఎందుకు?")+'</b><ul><li>'+L("Every fact checked with official sources — common coaching mistakes corrected in a 'Traps' box.","ప్రతి వాస్తవం అధికారిక మూలాలతో సరిచూశాం — సాధారణ పొరపాట్లను 'ఉచ్చులు' బాక్సులో సరిదిద్దాం.")+'</li><li>'+L("Each topic is linked to Polity, Economy, Geography, History and Environment — the way APPSC asks.","ప్రతి అంశాన్ని పాలిటీ, ఆర్థికం, భూగోళం, చరిత్ర, పర్యావరణంతో అనుసంధానించాం — APPSC అడిగే విధంగా.")+'</li><li>'+L("Questions in the latest APPSC pattern: statements, match-the-list, assertion–reason, chronology.","తాజా APPSC విధానంలో ప్రశ్నలు: స్టేట్‌మెంట్లు, జతపరచడం, వాదన–కారణం, కాలక్రమం.")+'</li></ul></div>';
  document.getElementById("m").innerHTML=h}

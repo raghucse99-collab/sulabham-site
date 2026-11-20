@@ -83,24 +83,28 @@ def pdf_html(N, Q, m):
 <h1>{E(meta["title"][m])}</h1><p>{E(meta["sub"][m])}</p></div>
 <div class="how">💡 {E(meta["how"][m])}</div>'''
     for c in N.BIG:
+        meta = N.META
         h += f'<div class="card"><h2 style="background:{c["color"]}">{c["icon"]} {E(c["name"][m])}</h2><div class="in"><table>'
         h += ''.join(f'<tr><td class="k">{E(a[m])}</td><td>{E(b[m])}</td></tr>' for a, b in c['facts']) + '</table>'
-        h += f'<div class="box cn"><b class="h">🧠 {L("Understand the score","స్కోరును అర్థం చేసుకోండి")}</b>{E(c["concept"][m])}</div>'
+        h += f'<div class="box cn"><b class="h">🧠 {meta["concept_label"][m] if "concept_label" in meta else L("Understand the score","స్కోరును అర్థం చేసుకోండి")}</b>{E(c["concept"][m])}</div>'
         h += f'<div class="box ch"><b class="h">🔗 {L("Linked facts — the chain","అనుసంధాన వాస్తవాలు — గొలుసు")}</b><ul>' + ''.join(f'<li>{E(x[m])}</li>' for x in c['chain']) + '</ul></div>'
         h += f'<div class="box sj"><b class="h">📚 {L("Subject links","సబ్జెక్టు అనుసంధానం")}</b><ul>' + ''.join(f'<li>{E(x[m])}</li>' for x in c['subj']) + '</ul></div>'
         h += f'<div class="box tr"><b class="h">⚠️ {L("Traps & corrections","ఉచ్చులు & సవరణలు")}</b><ul>' + ''.join(f'<li>{E(x[m])}</li>' for x in c['trap']) + '</ul></div></div></div>'
-    h += f'<h2 class="sec">➕ {L("More indices & reports up to November 2026","నవంబర్ 2026 వరకు మరిన్ని సూచీలు & నివేదికలు")}</h2>'
+    G = lambda k, en, te: meta[k][m] if k in meta else L(en, te)
+    h += f'<h2 class="sec">➕ {G("more_title", "More indices & reports up to November 2026", "నవంబర్ 2026 వరకు మరిన్ని సూచీలు & నివేదికలు")}</h2>'
+    ML = [x[m] for x in meta['more_labels']] if 'more_labels' in meta else [L("By", "ప్రచురణ"), L("Top / last", "మొదటి / చివరి"), L("India", "భారత్"), L("Link", "అనుసంధానం")]
     for c in N.MORE:
         h += f'<div class="mini"><h3>{c["icon"]} {E(c["name"][m])}</h3>'
-        for lab, k in ((L("By", "ప్రచురణ"), 'by'), (L("Top / last", "మొదటి / చివరి"), 'top'), (L("India", "భారత్"), 'india'), (L("Link", "అనుసంధానం"), 'link')):
+        for lab, k in zip(ML, ('by', 'top', 'india', 'link')):
             h += f'<div class="r"><b>{lab}:</b> {E(c[k][m])}</div>'
         h += '</div>'
-    h += f'<h2 class="sec">📄 {L("Reports to remember","గుర్తుంచుకోవాల్సిన నివేదికలు")}</h2><table>' + ''.join(f'<tr><td class="k">{E(a[m])}</td><td>{E(b[m])}</td></tr>' for a, b in N.REPORTS) + '</table>'
-    h += f'<h2 class="sec">📊 {L("India’s rank ladder (best → worst)","భారత్ ర్యాంకుల నిచ్చెన (ఉత్తమం → అధ్వాన్నం)")}</h2>'
+    h += f'<h2 class="sec">📄 {G("reports_title", "Reports to remember", "గుర్తుంచుకోవాల్సిన నివేదికలు")}</h2><table>' + ''.join(f'<tr><td class="k">{E(a[m])}</td><td>{E(b[m])}</td></tr>' for a, b in N.REPORTS) + '</table>'
+    if N.LADDER: h += f'<h2 class="sec">📊 {L("India’s rank ladder (best → worst)","భారత్ ర్యాంకుల నిచ్చెన (ఉత్తమం → అధ్వాన్నం)")}</h2>'
     for name, r in N.LADDER:
         a, b = [int(x) for x in r.split('/')]
         h += f'<div class="bar"><span class="l">{E(name)}</span><i style="width:{max(4, 110 * a / b):.0f}mm"></i><em>{E(r)}</em></div>'
-    h += f'<h2 class="sec">🏢 {L("Who publishes what — one table","ఏ సూచిక ఎవరిది — ఒకే పట్టిక")}</h2><table><tr><th>{L("Index","సూచిక")}</th><th>{L("Publisher","ప్రచురణ సంస్థ")}</th><th>{L("Base","కేంద్రం")}</th></tr>'
+    PH = [x[m] for x in meta['pub_head']] if 'pub_head' in meta else [L("Index","సూచిక"), L("Publisher","ప్రచురణ సంస్థ"), L("Base","కేంద్రం")]
+    h += f'<h2 class="sec">🏢 {G("pub_title", "Who publishes what — one table", "ఏ సూచిక ఎవరిది — ఒకే పట్టిక")}</h2><table><tr><th>{PH[0]}</th><th>{PH[1]}</th><th>{PH[2]}</th></tr>'
     h += ''.join(f'<tr><td>{E(a[m])}</td><td>{E(b[m])}</td><td>{E(c[m])}</td></tr>' for a, b, c in N.PUB) + '</table>'
     h += f'<h2 class="sec" style="break-before:page">✍️ {L("Practice test","ప్రాక్టీస్ టెస్ట్")} — {len(Q.MCQ)} {L("questions (APPSC Group 1 / 2 pattern)","ప్రశ్నలు (APPSC గ్రూప్ 1 / 2 విధానం)")}</h2>'
     h += ''.join(qhtml(i + 1, q, m) for i, q in enumerate(Q.MCQ))
@@ -142,7 +146,7 @@ def main():
     pub = {'id': cid, 'title': N.META['title'], 'sub': N.META['sub'], 'updated': N.META['updated'], 'price': price,
            'salt': b64(salt), 'iter': ITER, 'check': b64(enc(key, b'sulabham-ok')),
            'counts': {'big': len(N.BIG), 'more': len(N.MORE), 'mcq': len(Q.MCQ)},
-           'free': {'big': full['big'][0], 'mcq': Q.MCQ[:3], 'how': N.META['how']},
+           'free': {'big': full['big'][0], 'mcq': Q.MCQ[:3], 'how': N.META['how']}, 'concept_label': N.META.get('concept_label'),
            'enc': b64(enc(key, json.dumps(full, ensure_ascii=False).encode())),
            'pdf': {}}
     for m, path in P.items():
@@ -156,7 +160,7 @@ def main():
     idx = json.load(open(ip, encoding='utf-8')) if os.path.exists(ip) else []
     idx = [x for x in idx if x['id'] != cid]
     idx.append({'id': cid, 'title': N.META['title'], 'sub': N.META['sub'], 'price': price, 'updated': N.META['updated'],
-                'mcq': len(Q.MCQ), 'cards': len(N.BIG) + len(N.MORE)})
+                'mcq': len(Q.MCQ), 'cards': len(N.BIG) + len(N.MORE), 'icon': N.META.get('icon', '💊')})
     json.dump(idx, open(ip, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('OK', cid, {m: pub['pdf'][m]['kb'] for m in P}, 'KB · product id for code maker: cap-' + cid)
     print('PDF previews (private):', ', '.join(P.values()))

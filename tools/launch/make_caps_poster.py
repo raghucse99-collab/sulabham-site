@@ -41,6 +41,24 @@ T = {
    r_eb='ప్రపంచ సూచీల్లో భారత్ · 2026', r_h='<span>భారత్</span> ఎక్కడ ఉంది?', r_sub='10 ప్రపంచ సూచీల్లో భారత్ ర్యాంకు (ఉత్తమం → అధ్వాన్నం)',
    r_top='మొదటి స్థానం', r_cta='పూర్తి నోట్స్ + 44 ప్రశ్నలు → sulabham.in/caps.html'),
 }
+SUM = {
+ 'en': dict(eb='CURRENT AFFAIRS CAPSULE · JAN–NOV 2026', h='Summits &amp; Conferences<br><span>2026</span>',
+   sub='Davos to COP31 — every summit APPSC can ask, in one sitting.', strip='Editions to remember',
+   items=[('✅', 'Facts verified', 'Dates, venues and themes checked with official sources — common mistakes corrected'),
+          ('🧩', 'Look-alikes side by side', 'Bishkek vs Dushanbe · 3 COPs · 3 New Delhi declarations — never mix them up'),
+          ('✍️', '44 qualified MCQs', 'Statements, match-the-list, chronology, assertion–reason — APPSC pattern'),
+          ('📄', 'PDF in Telugu &amp; English', '16 pages each — print, revise, done')],
+   free='🎁 Free preview: the BRICS card + 3 questions · All topics bundle ₹249', price='₹49', pay='one topic', cta='Open capsule →',
+   chips=[('18', 'BRICS · Delhi'), ('26', 'SCO · Bishkek'), ('31', 'COP · Antalya'), ('52', 'G7 · Évian'), ('49', 'ASEAN · Manila')]),
+ 'te': dict(eb='కరెంట్ అఫైర్స్ క్యాప్సూల్ · జనవరి–నవంబర్ 2026', h='సదస్సులు &amp; సమావేశాలు <span>2026</span>',
+   sub='దావోస్ నుంచి COP31 వరకు — APPSC అడిగే ప్రతి సదస్సు, ఒక్కసారి కూర్చుంటే పూర్తి.', strip='గుర్తుంచుకోవాల్సిన ఎడిషన్లు',
+   items=[('✅', 'వాస్తవాలు నిర్ధారితం', 'తేదీలు, వేదికలు, నినాదాలు అధికారిక మూలాలతో సరిచూశాం — పొరపాట్లు సవరించాం'),
+          ('🧩', 'ఒకేలా ఉండేవి పక్కపక్కనే', 'బిష్కెక్ vs దుషాన్బే · 3 COPలు · 3 న్యూఢిల్లీ ప్రకటనలు — కలపకుండా'),
+          ('✍️', '44 నాణ్యమైన ప్రశ్నలు', 'స్టేట్‌మెంట్లు, జతపరచడం, కాలక్రమం, వాదన–కారణం — APPSC విధానం'),
+          ('📄', 'తెలుగు &amp; ఇంగ్లీష్ PDF', 'ఒక్కొక్కటి 16 పేజీలు — ప్రింట్ తీసి రివైజ్ చేయండి')],
+   free='🎁 ఉచిత నమూనా: బ్రిక్స్ కార్డు + 3 ప్రశ్నలు · అన్ని అంశాలు ₹249', price='₹49', pay='ఒక అంశం', cta='క్యాప్సూల్ తెరవండి →',
+   chips=[('18', 'బ్రిక్స్ · ఢిల్లీ'), ('26', 'SCO · బిష్కెక్'), ('31', 'COP · అంటాల్యా'), ('52', 'G7 · ఎవియన్'), ('49', 'ఆసియాన్ · మనీలా')]),
+}
 BASE = """*{box-sizing:border-box}html,body{margin:0}
 body{width:1080px;height:1350px;font-family:FAM,sans-serif;color:#1e0629}
 .card{width:1080px;height:1350px;display:flex;flex-direction:column;background:#fbf6ee}
@@ -52,11 +70,13 @@ h1{font-family:AK;font-weight:800;font-size:72px;line-height:1.05;margin:14px 0 
 .foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:20px;background:#2a0b3d;color:#fff;padding:26px 48px;font-size:25px;font-weight:700;white-space:nowrap}
 .foot b{background:#ffd45c;color:#1b1500;border-radius:999px;padding:12px 26px;font-size:26px}
 """
-def promo(m):
-    x = T[m]; fam = 'NT,NS' if m == 'te' else 'NS,NT'
+def promo(m, X=None):
+    x = (X or T)[m]; fam = 'NT,NS' if m == 'te' else 'NS,NT'
     it = ''.join(f'<div class="it"><i>{a}</i><div><b>{b}</b><span>{c}</span></div></div>' for a, b, c in x['items'])
-    pick = [RANKS[i] for i in (0, 3, 5, 8, 9)]
-    bars = ''.join(f'<div class="ch"><em>{r[2]}</em><span>{e(r[0] if m=="en" else r[1])}</span></div>' for r in pick)
+    if 'chips' in x: bars = ''.join(f'<div class="ch"><em>{a}</em><span>{e(b)}</span></div>' for a, b in x['chips'])
+    else:
+        pick = [RANKS[i] for i in (0, 3, 5, 8, 9)]
+        bars = ''.join(f'<div class="ch"><em>{r[2]}</em><span>{e(r[0] if m=="en" else r[1])}</span></div>' for r in pick)
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>{M.FONTS}{BASE.replace('FAM', fam)}
 .pr{{position:absolute;right:52px;top:140px;width:260px;height:260px;border-radius:50%;background:#ffd45c;color:#1b1500;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 18px 40px rgba(0,0,0,.3);transform:rotate(-6deg)}}
 .pr b{{font-family:AK;font-size:100px;line-height:1}}.pr span{{font-size:26px;font-weight:800}}
@@ -99,7 +119,7 @@ async def main():
     async with async_playwright() as p:
         b = await p.chromium.launch(); pg = await b.new_page(viewport={'width': 1080, 'height': 1350})
         for m in ('en', 'te'):
-            for name, fn in (('cap-indices', promo), ('india-ranks', ranks)):
+            for name, fn in (('cap-indices', promo), ('india-ranks', ranks), ('cap-summits', lambda mm: promo(mm, SUM))):
                 await pg.set_content(fn(m)); await pg.wait_for_timeout(500)
                 if await pg.evaluate('document.querySelector(".card").scrollHeight>1352'): print('WARNING too tall', name, m)
                 await pg.screenshot(path=os.path.join(OUT, f'{name}-{m}.png'))
