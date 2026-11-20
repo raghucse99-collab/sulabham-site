@@ -26,7 +26,7 @@ h1{{font-family:AK,{'NT' if m=='te' else 'NS'};font-size:{70 if m=='en' else 58}
 <h1>📰 {T("Current Affairs 2026<br>Topic-wise","కరెంట్ అఫైర్స్ 2026<br>అంశాల వారీగా")}</h1><p class="s">{T("January – November 2026 · Telugu & English","జనవరి – నవంబర్ 2026 · తెలుగు & ఇంగ్లీష్")}</p>
 <div class="g">{rows}</div>
 <div class="f"><div class="p">₹49<small>{T("per topic","ఒక్కో అంశం")}</small></div><div class="p">₹499<small>{T("ALL topics","అన్ని అంశాలు")}</small></div>
-<ul><li>{T("Facts verified, mistakes corrected","వాస్తవాలు నిర్ధారితం, పొరపాట్లు సరిదిద్దాం")}</li><li>{T("Notes PDF + online practice MCQs","నోట్స్ PDF + ఆన్‌లైన్ ప్రాక్టీస్ ప్రశ్నలు")}</li><li>{T("Free preview before you pay","చెల్లించే ముందు ఉచిత నమూనా")}</li></ul></div>
+<ul><li>{T("Facts verified, mistakes corrected","వాస్తవాలు నిర్ధారితం, పొరపాట్లు సరిదిద్దాం")}</li><li>{T("PDF: notes + MCQs + answer key","PDF: నోట్స్ + ప్రశ్నలు + జవాబులు")}</li><li>{T("Free preview before you pay","చెల్లించే ముందు ఉచిత నమూనా")}</li></ul></div>
 <div class="u">sulabham.in/caps.html</div></body></html>'''
 async def main():
     live = {c['id']: c['mcq'] for c in json.load(open(os.path.join(ROOT, 'caps', 'index.json'), encoding='utf-8'))}

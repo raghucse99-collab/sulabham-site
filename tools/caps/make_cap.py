@@ -1,4 +1,4 @@
-"""Sulabham topic capsules (₹49 each): notes + practice-only MCQs (never in the PDF) + notes PDFs, encrypted with one master code.
+"""Sulabham topic capsules (₹49 each): notes + MCQs (online tap-to-check and in the PDF with answer key) + PDFs, encrypted with one master code.
 
 usage: python3 tools/caps/make_cap.py <source_dir> <module_prefix> <MASTER-CODE> [price]
   source_dir holds <prefix>_notes.py (META, BIG, MORE, REPORTS, LADDER, PUB) and <prefix>_mcq.py (MCQ).
@@ -7,7 +7,7 @@ Writes: caps/<id>.json (public meta + free preview + encrypted body), caps/<id>-
         (encrypted PDFs), caps/qr-<price>.png, and updates caps/index.json.
 Device-locked personal codes use product id  cap-<id>  in the private code maker.
 """
-import asyncio, base64, html, importlib, json, os, re, secrets, sys
+import subprocess, asyncio, base64, html, importlib, json, os, re, secrets, sys
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from cryptography.hazmat.primitives import hashes
@@ -106,8 +106,10 @@ def pdf_html(N, Q, m):
     PH = [x[m] for x in meta['pub_head']] if 'pub_head' in meta else [L("Index","సూచిక"), L("Publisher","ప్రచురణ సంస్థ"), L("Base","కేంద్రం")]
     h += f'<h2 class="sec">🏢 {G("pub_title", "Who publishes what — one table", "ఏ సూచిక ఎవరిది — ఒకే పట్టిక")}</h2><table><tr><th>{PH[0]}</th><th>{PH[1]}</th><th>{PH[2]}</th></tr>'
     h += ''.join(f'<tr><td>{E(a[m])}</td><td>{E(b[m])}</td><td>{E(c[m])}</td></tr>' for a, b, c in N.PUB) + '</table>'
-    # MCQs are practice-only on the website (tap-to-check) — never printed in the PDF
-    h += f'<div class="box" style="margin-top:8mm;padding:4mm;border:1px dashed #b88600;border-radius:3mm;background:#fff8e1">✍️ <b>{L("Practice questions","ప్రాక్టీస్ ప్రశ్నలు")}:</b> {L(f"{len(Q.MCQ)} APPSC Group 1 / 2-pattern MCQs for this topic are practice-only on sulabham.in — open the capsule and tap an option to check your answer with the explanation.", f"ఈ అంశంపై {len(Q.MCQ)} APPSC గ్రూప్ 1 / 2 స్థాయి ప్రశ్నలు sulabham.in లో ప్రాక్టీస్ కోసం మాత్రమే — క్యాప్సూల్ తెరిచి ఒక ఎంపికను నొక్కి వివరణతో జవాబు చూసుకోండి.")}</div>'
+    h += f'<h2 class="sec" style="break-before:page">✍️ {L("Practice test","ప్రాక్టీస్ టెస్ట్")} — {len(Q.MCQ)} {L("questions (APPSC Group 1 / 2 pattern)","ప్రశ్నలు (APPSC గ్రూప్ 1 / 2 విధానం)")}</h2>'
+    h += ''.join(qhtml(i + 1, q, m) for i, q in enumerate(Q.MCQ))
+    h += f'<h2 class="sec" style="break-before:page">🔑 {L("Answer key with explanations","జవాబులు & వివరణలు")}</h2><div class="key">'
+    h += ''.join(f'<p><b>{i + 1}. ({"abcd"[q["a"]]})</b> {E(q["why"][m])}</p>' for i, q in enumerate(Q.MCQ)) + '</div>'
     h += '</body></html>'
     return h
 
@@ -145,12 +147,12 @@ def main():
     pub = {'id': cid, 'title': N.META['title'], 'sub': N.META['sub'], 'updated': N.META['updated'], 'price': price,
            'salt': b64(salt), 'iter': ITER, 'check': b64(enc(key, b'sulabham-ok')),
            'counts': {'big': len(N.BIG), 'more': len(N.MORE), 'mcq': len(Q.MCQ)}, 'toc': TOC,
-           'free': {'big': full['big'][0], 'mcq': Q.MCQ[:3], 'how': N.META['how']}, 'concept_label': N.META.get('concept_label'),
+           'free': {'big': full['big'][0], 'mcq': Q.MCQ[:5], 'how': N.META['how']}, 'concept_label': N.META.get('concept_label'),
            'enc': b64(enc(key, json.dumps(full, ensure_ascii=False).encode())),
            'pdf': {}}
     for m, path in P.items():
         data = open(path, 'rb').read(); fn = f'{cid}-{m}.bin'
-        open(os.path.join(out, fn), 'wb').write(enc(key, data)); pub['pdf'][m] = {'file': f'caps/{fn}', 'kb': len(data) // 1024}
+        open(os.path.join(out, fn), 'wb').write(enc(key, data)); pg = int(re.search(r'Pages:\s+(\d+)', subprocess.run(['pdfinfo', path], capture_output=True, text=True).stdout).group(1)); pub['pdf'][m] = {'file': f'caps/{fn}', 'kb': len(data) // 1024, 'pages': pg}
     upi = f'upi://pay?pa={UPI}&pn=Sulabham&am={price}&cu=INR&tn=' + re.sub(' ', '%20', f'Sulabham Capsule {cid}')
     pub['upi'] = upi
     qp = os.path.join(out, f'qr-{cid}.png'); qrcode.make(upi).save(qp); pub['qr'] = f'caps/qr-{cid}.png'
@@ -159,7 +161,7 @@ def main():
     idx = json.load(open(ip, encoding='utf-8')) if os.path.exists(ip) else []
     idx = [x for x in idx if x['id'] != cid]
     idx.append({'id': cid, 'title': N.META['title'], 'sub': N.META['sub'], 'price': price, 'updated': N.META['updated'],
-                'mcq': len(Q.MCQ), 'cards': len(N.BIG) + len(N.MORE), 'icon': N.META.get('icon', '💊'), 'toc': TOC})
+                'mcq': len(Q.MCQ), 'cards': len(N.BIG) + len(N.MORE), 'icon': N.META.get('icon', '💊'), 'toc': TOC, 'pages': pub['pdf'].get('en', {}).get('pages')})
     json.dump(idx, open(ip, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('OK', cid, {m: pub['pdf'][m]['kb'] for m in P}, 'KB · product id for code maker: cap-' + cid)
     print('PDF previews (private):', ', '.join(P.values()))
