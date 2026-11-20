@@ -153,6 +153,12 @@ def main():
     for m, path in P.items():
         data = open(path, 'rb').read(); fn = f'{cid}-{m}.bin'
         open(os.path.join(out, fn), 'wb').write(enc(key, data)); pg = int(re.search(r'Pages:\s+(\d+)', subprocess.run(['pdfinfo', path], capture_output=True, text=True).stdout).group(1)); pub['pdf'][m] = {'file': f'caps/{fn}', 'kb': len(data) // 1024, 'pages': pg}
+    # optional one-page revision picture (paid): <src>/onepic-<prefix>-<en|te>.png
+    pub['pic'] = {}
+    for m in ('en', 'te'):
+        ip = os.path.join(tmp, f'onepic-{prefix}-{m}.png')
+        if os.path.exists(ip):
+            fn = f'{cid}-pic-{m}.bin'; open(os.path.join(out, fn), 'wb').write(enc(key, open(ip, 'rb').read())); pub['pic'][m] = {'file': f'caps/{fn}'}
     upi = f'upi://pay?pa={UPI}&pn=Sulabham&am={price}&cu=INR&tn=' + re.sub(' ', '%20', f'Sulabham Capsule {cid}')
     pub['upi'] = upi
     qp = os.path.join(out, f'qr-{cid}.png'); qrcode.make(upi).save(qp); pub['qr'] = f'caps/qr-{cid}.png'

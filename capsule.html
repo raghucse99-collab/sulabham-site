@@ -51,6 +51,7 @@ h2.sec{font-size:1.2rem;color:#3d1153;margin:22px 0 8px;border-bottom:3px solid 
 .codeF{display:flex;gap:8px;margin-top:8px}.codeF input{flex:1;min-width:0;font:inherit;font-size:1.05rem;padding:10px;border:1px solid #c7cdd2;border-radius:10px;text-transform:uppercase}
 .msg{min-height:1.2em;font-weight:600;margin:6px 0}.bad{color:#b3322b}.good{color:#1f6f4a}
 .teaser li{margin:3px 0}
+.pic{background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 12px;margin:12px 0}.pic h2{margin:0 0 8px;font-size:1.05rem;color:#3d1153}
 .pdfs{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
 .note{color:var(--mut);font-size:.9rem}
 .q{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
@@ -96,7 +97,7 @@ function mark(){var Q=FULL?FULL.mcq:D.free.mcq;Object.keys(ANS).forEach(function
 function lockH(){var c=D.counts,price=D.price;
  return'<div class="lock" id="buy"><h2>🔓 '+L("Unlock the full capsule — ₹","పూర్తి క్యాప్సూల్ — ₹")+price+'</h2>'+
  '<ul class="teaser">'+(D.teaser||[]).map(function(t){return'<li>'+E(x(t))+'</li>'}).join("")+
- '<li>'+L("All "+c.big+" deep topic cards + "+c.more+" more short cards + one-glance tables","మొత్తం "+c.big+" లోతైన కార్డులు + మరో "+c.more+" చిన్న కార్డులు + ఒక్క చూపు పట్టికలు")+'</li><li>'+L(c.mcq+" Group 1/2-pattern MCQs with explanations — tap to check online",c.mcq+" గ్రూప్ 1/2 స్థాయి ప్రశ్నలు, వివరణలతో (నొక్కి చూసుకోండి)")+'</li><li>'+L("PDF in English and Telugu ("+((D.pdf.en||{}).pages||"")+" pages) — notes + all "+c.mcq+" MCQs + answer key with explanations","ఇంగ్లీష్, తెలుగు PDF ("+((D.pdf.te||{}).pages||"")+" పేజీలు) — నోట్స్ + మొత్తం "+c.mcq+" ప్రశ్నలు + వివరణలతో జవాబులు")+'</li></ul>'+
+ '<li>'+L("All "+c.big+" deep topic cards + "+c.more+" more short cards + one-glance tables","మొత్తం "+c.big+" లోతైన కార్డులు + మరో "+c.more+" చిన్న కార్డులు + ఒక్క చూపు పట్టికలు")+'</li><li>'+L(c.mcq+" Group 1/2-pattern MCQs with explanations — tap to check online",c.mcq+" గ్రూప్ 1/2 స్థాయి ప్రశ్నలు, వివరణలతో (నొక్కి చూసుకోండి)")+'</li><li>'+L("PDF in English and Telugu ("+((D.pdf.en||{}).pages||"")+" pages) — notes + all "+c.mcq+" MCQs + answer key with explanations","ఇంగ్లీష్, తెలుగు PDF ("+((D.pdf.te||{}).pages||"")+" పేజీలు) — నోట్స్ + మొత్తం "+c.mcq+" ప్రశ్నలు + వివరణలతో జవాబులు")+'</li>'+(D.pic&&D.pic.en?'<li>'+L("One-page revision picture — whole topic at a glance (save to gallery)","ఒక్క పేజీ రివిజన్ చిత్రం — మొత్తం అంశం ఒక్క చూపులో (గ్యాలరీలో సేవ్)")+'</li>':'')+'</ul>'+
  '<div class="upsell">🎁 '+L("Want every topic? <a href='caps.html'>Current Affairs 2026 — all topics ₹499 →</a>","అన్ని అంశాలూ కావాలా? <a href='caps.html'>కరెంట్ అఫైర్స్ 2026 — అన్ని అంశాలు ₹499 →</a>")+'</div>'+
  '<ol><li>'+L("Pay ₹"+price+" by UPI","UPIతో ₹"+price+" చెల్లించండి")+'<div class="upirow"><a class="btn grn" href="'+E(D.upi)+'">'+L("Pay ₹"+price+" with UPI app","UPI యాప్‌తో ₹"+price+" చెల్లించండి")+'</a><code>'+UPI+'</code><button class="btn line" id="cpu" style="padding:6px 12px">'+L("Copy","కాపీ")+'</button></div><img id="qr" src="'+E(D.qr)+'" alt="UPI QR"><span class="note">'+L("On a computer? Scan this QR with any UPI app.","కంప్యూటర్‌లో ఉన్నారా? ఏదైనా UPI యాప్‌తో ఈ QR స్కాన్ చేయండి.")+'</span></li>'+
  '<li>'+L("Send the payment screenshot on Telegram with your device number","చెల్లింపు స్క్రీన్‌షాట్, మీ పరికరం నంబర్ టెలిగ్రామ్‌లో పంపండి")+'<div class="upirow"><a class="btn tg" href="'+TG+'" target="_blank" rel="noopener">Telegram</a></div></li>'+
@@ -108,6 +109,7 @@ function draw(){document.documentElement.lang=lang;$("lte").className=lang==="te
  var src=FULL||{big:[D.free.big],mcq:D.free.mcq};CL=(FULL&&FULL.meta&&FULL.meta.concept_label)||D.concept_label||null;
  var T=D.toc||[];if(T.length)h+='<div class="toc"><h2>📋 '+L("Topics covered in this capsule","ఈ క్యాప్సూల్‌లోని అంశాలు")+' ('+T.length+')</h2><ol>'+T.map(function(t,i){return'<li>'+t.icon+' '+E(x(t.name))+(FULL||i===0?'':' 🔒')+'</li>'}).join("")+'</ol></div>';
  h+='<div class="how">💡 '+E(x(D.free.how))+'</div>';
+ if(FULL&&D.pic&&(D.pic.en||D.pic.te)){h+='<div class="pic"><h2>🖼️ '+L("One-page revision picture","ఒక్క పేజీ రివిజన్ చిత్రం")+'</h2><div id="picBox" class="note">⏳</div><div class="pdfs">'+(D.pic.te?'<button class="btn" data-pic="te">⬇️ '+L("Save picture — తెలుగు","చిత్రం సేవ్ — తెలుగు")+'</button>':'')+(D.pic.en?'<button class="btn" data-pic="en">⬇️ '+L("Save picture — English","చిత్రం సేవ్ — English")+'</button>':'')+'</div></div>'}
  if(FULL){h+='<div class="pdfs"><button class="btn pri" data-pdf="en">📄 PDF — English</button><button class="btn pri" data-pdf="te">📄 PDF — తెలుగు</button></div>'}
  else h+='<p class="note">👀 '+L("Free preview: the first full card, the list of all topics and 5 questions.","ఉచిత నమూనా: మొదటి పూర్తి కార్డు, అన్ని అంశాల జాబితా, 5 ప్రశ్నలు.")+'</p>';
  h+=src.big.map(bigH).join("");
@@ -124,11 +126,14 @@ function draw(){document.documentElement.lang=lang;$("lte").className=lang==="te
 function wire(){document.querySelectorAll(".op").forEach(function(b){b.onclick=function(){var i=+b.getAttribute("data-q");if(ANS[i]!=null)return;ANS[i]=+b.getAttribute("data-k");mark()}});
  var cp=$("cpu");if(cp)cp.onclick=function(){try{navigator.clipboard.writeText(UPI)}catch(e){}cp.textContent=L("Copied ✓","కాపీ ✓")};
  var f=$("codeForm");if(f)f.onsubmit=function(e){e.preventDefault();tryCode($("code").value,true)};
- document.querySelectorAll("[data-pdf]").forEach(function(b){b.onclick=function(){getPdf(b.getAttribute("data-pdf"),b)}})}
+ document.querySelectorAll("[data-pdf]").forEach(function(b){b.onclick=function(){getPdf(b.getAttribute("data-pdf"),b)}});document.querySelectorAll("[data-pic]").forEach(function(b){b.onclick=function(){getPic(b.getAttribute("data-pic"),true)}});if(FULL&&D.pic&&$("picBox"))getPic(D.pic[lang]?lang:(D.pic.en?"en":"te"),false)}
 function tryCode(typed,user,isMaster){var msg=$("msg");if(msg&&user){msg.className="msg";msg.textContent=L("Checking…","పరిశీలిస్తున్నాం…")}
  return (isMaster?Promise.resolve(norm(typed)):SUL_dev.resolve(typed,"cap-"+id)).then(function(master){if(!master)throw 0;return keyOf(master).then(function(k){return dec(k,b64(D.check)).then(function(){KEY=k;ls("sul_cap_"+id,norm(master));return dec(k,b64(D.enc))})})})
  .then(function(buf){FULL=JSON.parse(new TextDecoder().decode(buf));ANS={};draw();window.scrollTo(0,0)})
  .catch(function(){if(msg&&user){msg.className="msg bad";msg.textContent=L("This code is not correct for this device. Check it, or send us your device number.","ఈ పరికరానికి ఈ కోడ్ సరికాదు. సరిచూడండి, లేదా మీ పరికరం నంబర్ పంపండి.")}})}
+var PICS={};function getPic(m,save){if(!KEY||!D.pic[m])return;(PICS[m]?Promise.resolve(PICS[m]):fetch(D.pic[m].file).then(function(r){return r.arrayBuffer()}).then(function(a){return dec(KEY,new Uint8Array(a))}).then(function(buf){return PICS[m]=URL.createObjectURL(new Blob([buf],{type:"image/png"}))})).then(function(u){
+  if(save){var a=document.createElement("a");a.href=u;a.download="Sulabham_"+id+"_one-page_"+m.toUpperCase()+".png";document.body.appendChild(a);a.click();a.remove()}
+  else{var bx=$("picBox");if(bx)bx.innerHTML='<img src="'+u+'" alt="" style="width:100%;border-radius:12px;border:1px solid var(--line)">'}}).catch(function(){})}
 function getPdf(m,b){if(!KEY)return;var old=b.textContent;b.textContent="⏳";
  fetch(D.pdf[m].file).then(function(r){return r.arrayBuffer()}).then(function(a){return dec(KEY,new Uint8Array(a))}).then(function(buf){
   var u=URL.createObjectURL(new Blob([buf],{type:"application/pdf"})),a=document.createElement("a");a.href=u;a.download="Sulabham_"+id+"_"+m.toUpperCase()+".pdf";document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(u)},4000);b.textContent=old})
