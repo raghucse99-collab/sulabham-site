@@ -1,0 +1,1413 @@
+{
+ "date": "2026-11-20",
+ "day": {
+  "en": "Friday, 20 November 2026",
+  "te": "శుక్రవారం, 20 నవంబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "akvan",
+   "cat": "ap",
+   "title": {
+    "en": "Cyclone Akvan crossed the North AP–South Odisha coast near Gopalpur on 20 Nov morning, after weakening to a Cyclonic Storm",
+    "te": "అక్వాన్ తుపాను 20 నవం ఉదయం గోపాల్‌పూర్ దగ్గర ఉత్తర ఏపీ–దక్షిణ ఒడిశా తీరం దాటింది; అంతకుముందే 'తుపాను' స్థాయికి బలహీనపడింది"
+   },
+   "pts": [
+    {
+     "en": "IMD: Akvan crossed the north Andhra Pradesh–south Odisha coasts close to Gopalpur (Odisha) between 7:30 and 8:30 am IST on Friday, 20 Nov.",
+     "te": "IMD: శుక్రవారం 20 నవం ఉ. 7:30–8:30 మధ్య అక్వాన్ గోపాల్‌పూర్ (ఒడిశా) దగ్గర ఉత్తర ఏపీ–దక్షిణ ఒడిశా తీరాన్ని దాటింది."
+    },
+    {
+     "en": "Before landfall it weakened from a Severe Cyclonic Storm to a Cyclonic Storm; winds were 70–80 km/h, gusting to 90 km/h.",
+     "te": "తీరం దాటకముందే 'తీవ్ర తుపాను' నుంచి 'తుపాను'గా బలహీనపడింది; గాలి వేగం గంటకు 70–80 కి.మీ., గరిష్ఠం 90 కి.మీ."
+    },
+    {
+     "en": "IMD expected it to move north-northeast over Odisha and weaken into a deep depression and then a depression within hours.",
+     "te": "ఒడిశా మీదుగా ఉత్తర-ఈశాన్యంగా కదిలి, కొన్ని గంటల్లో వాయుగుండం (deep depression), తర్వాత అల్పపీడనంగా బలహీనపడుతుందని IMD అంచనా."
+    },
+    {
+     "en": "No damage was reported in Andhra Pradesh; APSDMA expected light to moderate rain in North Andhra and asked Srikakulam residents to stay alert.",
+     "te": "ఆంధ్రప్రదేశ్‌లో నష్టం నమోదు కాలేదు; ఉత్తరాంధ్రలో తేలికపాటి నుంచి మోస్తరు వర్షాలని APSDMA తెలిపింది, శ్రీకాకుళం ప్రజలను అప్రమత్తంగా ఉండమంది."
+    },
+    {
+     "en": "Odisha moved over 3 lakh people to safety; the Odisha CM said 47 trains were cancelled and 28 rescheduled.",
+     "te": "ఒడిశా 3 లక్షల మందికి పైగా సురక్షిత ప్రాంతాలకు తరలించింది; 47 రైళ్లు రద్దు, 28 రీషెడ్యూల్ అని ఒడిశా సీఎం చెప్పారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Landfall",
+      "te": "తీరం దాటింది"
+     },
+     {
+      "en": "Near Gopalpur (Ganjam, Odisha), 7:30–8:30 am, 20 Nov",
+      "te": "గోపాల్‌పూర్ (గంజాం, ఒడిశా) దగ్గర, 20 నవం ఉ. 7:30–8:30"
+     }
+    ],
+    [
+     {
+      "en": "Intensity at landfall",
+      "te": "తీరం దాటేటప్పుడు తీవ్రత"
+     },
+     {
+      "en": "Cyclonic Storm, 70–80 km/h (gusts 90)",
+      "te": "తుపాను, గంటకు 70–80 కి.మీ. (గరిష్ఠం 90)"
+     }
+    ],
+    [
+     {
+      "en": "Earlier cyclones this season",
+      "te": "ఈ సీజన్‌లో ముందటి తుపానులు"
+     },
+     {
+      "en": "Arnab (27 Oct), Murasu (3 Nov)",
+      "te": "అర్నబ్ (27 అక్టో), మురసు (3 నవం)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "IMD scale: Cyclonic Storm 62–88 km/h, Severe Cyclonic Storm 89–117 km/h — Akvan weakened one step before landfall. Trap: the landfall point Gopalpur is in Odisha, though the coast described is 'North AP–South Odisha'.",
+    "te": "IMD స్కేల్: తుపాను గంటకు 62–88 కి.మీ., తీవ్ర తుపాను 89–117 కి.మీ. — అక్వాన్ తీరం దాటే ముందు ఒక మెట్టు దిగింది. ట్రాప్: తీరం 'ఉత్తర ఏపీ–దక్షిణ ఒడిశా' అయినా, తీరం దాటిన గోపాల్‌పూర్ ఒడిశాలో ఉంది."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Where Akvan crossed",
+      "te": "అక్వాన్ తీరం దాటిన చోటు"
+     },
+     "view": [
+      80.5,
+      15.5,
+      87.5,
+      21.8
+     ],
+     "hl": [
+      "Andhra Pradesh",
+      "Odisha"
+     ],
+     "hlc": "#1d4f91",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        17.69,
+        83.22
+       ],
+       "t": {
+        "en": "Visakhapatnam",
+        "te": "విశాఖపట్నం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        18.34,
+        84.12
+       ],
+       "t": {
+        "en": "Kalingapatnam",
+        "te": "కళింగపట్నం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        19.26,
+        84.91
+       ],
+       "t": {
+        "en": "Gopalpur (landfall)",
+        "te": "గోపాల్‌పూర్ (తీరం దాటింది)"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        19.81,
+        85.83
+       ],
+       "t": {
+        "en": "Puri",
+        "te": "పూరీ"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Akvan came in from the Bay of Bengal and crossed close to Gopalpur, just north of the AP–Odisha border, then moved north-northeast over Odisha.",
+      "te": "బంగాళాఖాతం నుంచి వచ్చిన అక్వాన్ ఏపీ–ఒడిశా సరిహద్దుకు కొద్దిగా ఉత్తరాన గోపాల్‌పూర్ దగ్గర తీరం దాటి, ఒడిశా మీదుగా ఉత్తర-ఈశాన్యంగా కదిలింది."
+     },
+     "src": "cards/cad/2026-11-20/map-akvan-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Outlook India — Cyclone Akvan weakens after landfall near Gopalpur; IMD forecasts further weakening, 20 Nov 2026",
+     "u": "https://www.outlookindia.com/national/cyclone-akvan-weakens-after-landfall-near-gopalpur-imd-forecasts-further-weakening"
+    },
+    {
+     "t": "Telangana Today (IANS) — Cyclone Akvan crosses Andhra Pradesh coast near Gopalpur after weakening, 20 Nov 2026",
+     "u": "https://telanganatoday.com/cyclone-akvan-crosses-andhra-pradesh-coast-near-gopalpur-after-weakening"
+    },
+    {
+     "t": "ETV Bharat — Cyclone Akvan live updates (IMD 2:30 am bulletin), 20 Nov 2026",
+     "u": "https://www.etvbharat.com/en/bharat/live-blog--cyclone-akvan-live-updates-november-20-landfall-odisha-andhra-pradesh-wind-speed-rainfall-ndrf-evacuation-rescue-enn26112000397"
+    }
+   ]
+  },
+  {
+   "id": "appolls",
+   "cat": "ap",
+   "title": {
+    "en": "AP State Election Commission notifies the third phase of gram panchayat elections; polling on 2 December",
+    "te": "గ్రామ పంచాయతీ ఎన్నికల మూడో దశకు ఏపీ రాష్ట్ర ఎన్నికల సంఘం నోటిఫికేషన్; పోలింగ్ డిసెంబర్ 2న"
+   },
+   "pts": [
+    {
+     "en": "The AP State Election Commission (SEC) issued the phase-3 notification on 19 Nov; phases 1 and 2 were notified on 13 and 16 Nov.",
+     "te": "ఏపీ రాష్ట్ర ఎన్నికల సంఘం (SEC) 19 నవం మూడో దశ నోటిఫికేషన్ ఇచ్చింది; 1, 2 దశలు 13, 16 నవంబర్‌లో నోటిఫై అయ్యాయి."
+    },
+    {
+     "en": "Phase 3 covers selected mandals of 25 districts. Nominations 21–23 Nov, scrutiny 24 Nov, withdrawal till 3 pm on 27 Nov.",
+     "te": "మూడో దశ 25 జిల్లాల్లోని ఎంపిక చేసిన మండలాల్లో. నామినేషన్లు 21–23 నవం, పరిశీలన 24 నవం, ఉపసంహరణ 27 నవం మ. 3 వరకు."
+    },
+    {
+     "en": "Polling on 2 Dec from 7 am to 1 pm; counting from 2 pm and results the same day; deputy sarpanch election on result day (or next day). Repoll, if needed, on 3 Dec.",
+     "te": "పోలింగ్ 2 డిసెం ఉ. 7 నుంచి మ. 1 వరకు; మ. 2 నుంచి లెక్కింపు, అదే రోజు ఫలితాలు; ఉప సర్పంచ్ ఎన్నిక ఫలితాల రోజే (లేదా మరుసటి రోజు). అవసరమైతే 3 డిసెం రీపోల్."
+    },
+    {
+     "en": "State Election Commissioner: Anil Chandra Punetha. Mandal Parishad President (MPP) elections were held on 19 Nov.",
+     "te": "రాష్ట్ర ఎన్నికల కమిషనర్: అనిల్ చంద్ర పునేఠ. మండల పరిషత్ అధ్యక్ష (MPP) ఎన్నికలు 19 నవం జరిగాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Conducted by",
+      "te": "నిర్వహణ"
+     },
+     {
+      "en": "State Election Commission (Art. 243K)",
+      "te": "రాష్ట్ర ఎన్నికల సంఘం (ఆర్టికల్ 243K)"
+     }
+    ],
+    [
+     {
+      "en": "Phase-3 polling",
+      "te": "మూడో దశ పోలింగ్"
+     },
+     {
+      "en": "2 Dec 2026, 7 am–1 pm",
+      "te": "2 డిసెం 2026, ఉ. 7–మ. 1"
+     }
+    ],
+    [
+     {
+      "en": "SEC, AP",
+      "te": "ఏపీ SEC"
+     },
+     {
+      "en": "Anil Chandra Punetha",
+      "te": "అనిల్ చంద్ర పునేఠ"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: 73rd Amendment (1992) → Part IX; Art. 243K = State Election Commission for panchayat polls (Art. 243ZA for municipalities). The SEC is appointed by the Governor but removable only like a High Court judge. Trap: ECI (Art. 324) does NOT conduct panchayat elections.",
+    "te": "స్టాటిక్: 73వ సవరణ (1992) → భాగం IX; ఆర్టికల్ 243K = పంచాయతీ ఎన్నికలకు రాష్ట్ర ఎన్నికల సంఘం (మున్సిపాలిటీలకు 243ZA). SECని గవర్నర్ నియమిస్తారు, కానీ హైకోర్టు జడ్జిలాగే తొలగించాలి. ట్రాప్: పంచాయతీ ఎన్నికలను ECI (ఆర్టి. 324) నిర్వహించదు."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Phase-3 calendar",
+      "te": "మూడో దశ షెడ్యూల్"
+     },
+     "items": [
+      {
+       "y": "19 Nov",
+       "t": {
+        "en": "Notification",
+        "te": "నోటిఫికేషన్"
+       }
+      },
+      {
+       "y": "21–23 Nov",
+       "t": {
+        "en": "Nominations",
+        "te": "నామినేషన్లు"
+       }
+      },
+      {
+       "y": "24 Nov",
+       "t": {
+        "en": "Scrutiny",
+        "te": "పరిశీలన"
+       }
+      },
+      {
+       "y": "27 Nov",
+       "t": {
+        "en": "Withdrawal; final list",
+        "te": "ఉపసంహరణ; తుది జాబితా"
+       }
+      },
+      {
+       "y": "2 Dec",
+       "t": {
+        "en": "Polling + results",
+        "te": "పోలింగ్ + ఫలితాలు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "3 Dec",
+       "t": {
+        "en": "Repoll (if needed)",
+        "te": "రీపోల్ (అవసరమైతే)"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India — AP SEC releases notification for third phase of panchayat elections, 19 Nov 2026",
+     "u": "https://www.thehansindia.com/andhra-pradesh/ap-sec-releases-notification-for-third-phase-of-panchayat-elections-in-state-1143583"
+    }
+   ]
+  },
+  {
+   "id": "apsmr",
+   "cat": "ap",
+   "title": {
+    "en": "AP issues G.O. to explore Small Modular Reactor (SMR) nuclear power as an alternative to thermal power",
+    "te": "థర్మల్ విద్యుత్‌కు ప్రత్యామ్నాయంగా స్మాల్ మాడ్యులర్ రియాక్టర్ (SMR) అణు విద్యుత్ అన్వేషణకు ఏపీ జీవో"
+   },
+   "pts": [
+    {
+     "en": "On 20 Nov the AP government issued a G.O. approving APGENCO's request to tap nuclear power through Small Modular Reactors.",
+     "te": "20 నవం ఏపీ ప్రభుత్వం SMRల ద్వారా అణు విద్యుత్ కోసం APGENCO MD అభ్యర్థనకు ఆమోదం తెలుపుతూ జీవో ఇచ్చింది."
+    },
+    {
+     "en": "SMR plants will be explored at retiring thermal power units or other suitable places, once the technology is stabilised; private companies may take part.",
+     "te": "సాంకేతికత స్థిరపడ్డాక, రిటైర్ అవుతున్న థర్మల్ యూనిట్ల స్థలాల్లో లేదా ఇతర అనువైన చోట్ల SMRలను పరిశీలిస్తారు; ప్రైవేట్ సంస్థలూ పాల్గొనవచ్చు."
+    },
+    {
+     "en": "The order was issued by K. Vijayanand, Special Chief Secretary (Energy). The State Cabinet had cleared an SMR feasibility study on 10 Nov.",
+     "te": "ఈ ఉత్తర్వును ఇంధన శాఖ ప్రత్యేక ప్రధాన కార్యదర్శి కె. విజయానంద్ జారీ చేశారు. SMR సాధ్యాసాధ్యాల అధ్యయనానికి 10 నవం రాష్ట్ర మంత్రివర్గం ఆమోదించింది."
+    }
+   ],
+   "exam": {
+    "en": "Concept: an SMR is a small nuclear reactor (IAEA: up to about 300 MW(e) per unit) built in factory modules — it fits old thermal sites because grid lines and land already exist. Link: Union Budget 2025-26 Nuclear Energy Mission for SMRs. Trap: SMR is fission, not fusion.",
+    "te": "కాన్సెప్ట్: SMR అంటే చిన్న అణు రియాక్టర్ (IAEA: యూనిట్‌కు సుమారు 300 MW(e) వరకు), ఫ్యాక్టరీలో మాడ్యూల్స్‌గా తయారవుతుంది — పాత థర్మల్ స్థలాల్లో గ్రిడ్ లైన్లు, భూమి ఇప్పటికే ఉన్నందున అనువు. లింక్: కేంద్ర బడ్జెట్ 2025-26 న్యూక్లియర్ ఎనర్జీ మిషన్. ట్రాప్: SMR విచ్ఛిత్తి (fission), సంలీనం (fusion) కాదు."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "Why SMRs at old thermal sites",
+      "te": "పాత థర్మల్ స్థలాల్లో SMR ఎందుకు"
+     },
+     "items": [
+      {
+       "i": "🏭",
+       "t": {
+        "en": "Coal units retire",
+        "te": "బొగ్గు యూనిట్లు రిటైర్"
+       }
+      },
+      {
+       "i": "🔌",
+       "t": {
+        "en": "Land + grid lines ready",
+        "te": "భూమి + గ్రిడ్ లైన్లు సిద్ధం"
+       }
+      },
+      {
+       "i": "⚛️",
+       "t": {
+        "en": "Install small modular reactor",
+        "te": "SMR ఏర్పాటు"
+       }
+      },
+      {
+       "i": "🌱",
+       "t": {
+        "en": "Low-carbon base power",
+        "te": "తక్కువ కార్బన్ బేస్ విద్యుత్"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ThePrint (PTI) — Andhra govt to tap nuclear power through SMR tech as alternative to thermal power, 20 Nov 2026",
+     "u": "https://theprint.in/india/andhra-govt-to-tap-nuclear-power-through-smr-tech-as-alternative-to-thermal-power/3104203/"
+    },
+    {
+     "t": "The Hans India — AP cabinet approves major decisions (SMR feasibility study), 10 Nov 2026",
+     "u": "https://www.thehansindia.com/andhra-pradesh/ap-cabinet-approves-major-decisions-1140821"
+    }
+   ]
+  },
+  {
+   "id": "gramsabha",
+   "cat": "polity",
+   "title": {
+    "en": "Supreme Court: prior Gram Sabha consent is MANDATORY for land acquisition in Scheduled Areas; Odisha mining acquisition quashed",
+    "te": "సుప్రీంకోర్టు: షెడ్యూల్డ్ ప్రాంతాల్లో భూసేకరణకు గ్రామసభ ముందస్తు సమ్మతి తప్పనిసరి; ఒడిశా మైనింగ్ భూసేకరణ రద్దు"
+   },
+   "pts": [
+    {
+     "en": "On 18 Nov, a bench of Justices Dipankar Datta and Satish Chandra Sharma decided Bibol Toppo v. State of Odisha.",
+     "te": "18 నవం జస్టిస్ దీపాంకర్ దత్తా, జస్టిస్ సతీశ్ చంద్ర శర్మ ధర్మాసనం 'బిబోల్ టొప్పో vs ఒడిశా రాష్ట్రం' కేసులో తీర్పు ఇచ్చింది."
+    },
+    {
+     "en": "Land in Scheduled villages of Sundargarh district (Odisha) was acquired for a Dalmia Cement mining project, though both Gram Sabhas had rejected it (26 Jan 2020).",
+     "te": "సుందర్‌గఢ్ (ఒడిశా) జిల్లాలోని షెడ్యూల్డ్ గ్రామాల్లో డాల్మియా సిమెంట్ మైనింగ్ కోసం భూసేకరణ జరిగింది — రెండు గ్రామసభలూ తిరస్కరించినా (26 జన 2020)."
+    },
+    {
+     "en": "Court: Section 41(3) of the Land Acquisition Act, 2013 (RFCTLARR) — prior Gram Sabha consent in Scheduled Areas — is mandatory, not directory; the Orissa HC view was set aside.",
+     "te": "కోర్టు: భూసేకరణ చట్టం 2013 (RFCTLARR) సెక్షన్ 41(3) — షెడ్యూల్డ్ ప్రాంతాల్లో గ్రామసభ ముందస్తు సమ్మతి — తప్పనిసరి (mandatory), ఐచ్ఛికం (directory) కాదు; ఒడిశా హైకోర్టు అభిప్రాయం కొట్టివేత."
+    },
+    {
+     "en": "A mining lease cannot override landowners' rights. The notifications were quashed; fresh proceedings are allowed only as per law.",
+     "te": "మైనింగ్ లీజు భూ యజమానుల హక్కులను అధిగమించలేదు. నోటిఫికేషన్లు రద్దు; చట్టప్రకారమే కొత్త ప్రక్రియ చేపట్టవచ్చు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Law",
+      "te": "చట్టం"
+     },
+     {
+      "en": "RFCTLARR Act, 2013 — Sec. 41(3)",
+      "te": "RFCTLARR చట్టం 2013 — సెక్షన్ 41(3)"
+     }
+    ],
+    [
+     {
+      "en": "Private-company acquisition",
+      "te": "ప్రైవేట్ కంపెనీకి భూసేకరణ"
+     },
+     {
+      "en": "80% consent of affected families (Sec. 2(2)(b))",
+      "te": "బాధిత కుటుంబాల్లో 80% సమ్మతి (సెక్షన్ 2(2)(b))"
+     }
+    ],
+    [
+     {
+      "en": "Bench",
+      "te": "ధర్మాసనం"
+     },
+     {
+      "en": "Justices Dipankar Datta, S.C. Sharma",
+      "te": "జస్టిస్ దీపాంకర్ దత్తా, ఎస్.సి. శర్మ"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Link chain: Fifth Schedule (Scheduled Areas — AP has them in ASR, Parvathipuram Manyam etc.) → PESA Act 1996 (Gram Sabha consulted before acquisition) → RFCTLARR 2013 Sec. 41(3) consent → this judgment. Remember: 80% (private) / 70% (PPP) consent; Gram Sabha consent extra in Scheduled Areas.",
+    "te": "లింక్ చైన్: ఐదో షెడ్యూల్ (షెడ్యూల్డ్ ప్రాంతాలు — ఏపీలో అల్లూరి సీతారామరాజు, పార్వతీపురం మన్యం మొ.) → PESA చట్టం 1996 (భూసేకరణకు ముందు గ్రామసభ సంప్రదింపు) → RFCTLARR 2013 సెక్షన్ 41(3) సమ్మతి → ఈ తీర్పు. గుర్తు: 80% (ప్రైవేట్) / 70% (PPP) సమ్మతి; షెడ్యూల్డ్ ప్రాంతాల్లో అదనంగా గ్రామసభ సమ్మతి."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Case from Sundargarh, Odisha",
+      "te": "కేసు: సుందర్‌గఢ్, ఒడిశా"
+     },
+     "view": "india",
+     "hl": [
+      "Odisha"
+     ],
+     "hlc": "#2f6b2f",
+     "pts": [
+      {
+       "ll": [
+        22.12,
+        84.03
+       ],
+       "t": {
+        "en": "Sundargarh",
+        "te": "సుందర్‌గఢ్"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Sundargarh is a tribal-majority Scheduled Area district in north-west Odisha, rich in minerals.",
+      "te": "సుందర్‌గఢ్ వాయువ్య ఒడిశాలో గిరిజనులు ఎక్కువగా ఉండే, ఖనిజ సంపద గల షెడ్యూల్డ్ ప్రాంత జిల్లా."
+     },
+     "src": "cards/cad/2026-11-20/map-gramsabha-1-{m}.svg"
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "Steps the State skipped",
+      "te": "ప్రభుత్వం దాటేసిన దశలు"
+     },
+     "items": [
+      {
+       "i": "📝",
+       "t": {
+        "en": "Social Impact Assessment + public hearing",
+        "te": "సామాజిక ప్రభావ అంచనా + బహిరంగ విచారణ"
+       }
+      },
+      {
+       "i": "👥",
+       "t": {
+        "en": "Gram Sabha prior consent",
+        "te": "గ్రామసభ ముందస్తు సమ్మతి"
+       }
+      },
+      {
+       "i": "📜",
+       "t": {
+        "en": "Acquisition notification",
+        "te": "భూసేకరణ నోటిఫికేషన్"
+       }
+      },
+      {
+       "i": "⚖️",
+       "t": {
+        "en": "SC: consent missing → quashed",
+        "te": "SC: సమ్మతి లేదు → రద్దు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "LiveLaw — Supreme Court quashes mining land acquisition in tribal area, holds Gram Sabha consent mandatory, 19 Nov 2026",
+     "u": "https://www.livelaw.in/supreme-court/supreme-court-quashes-mining-land-acquisition-in-tribal-area-holds-gram-sabha-consent-mandatory-559049"
+    }
+   ]
+  },
+  {
+   "id": "icj",
+   "cat": "ir",
+   "title": {
+    "en": "ICJ rules Myanmar committed genocide against the Rohingya — first time the World Court has held a State responsible for genocide",
+    "te": "రోహింగ్యాలపై మయన్మార్ జాతి హననానికి పాల్పడిందని ICJ తీర్పు — ఒక దేశాన్ని జాతి హననానికి బాధ్యురాలిగా ప్రపంచ న్యాయస్థానం తేల్చడం ఇదే తొలిసారి"
+   },
+   "pts": [
+    {
+     "en": "On 19 Nov 2026, the International Court of Justice (The Hague) ruled 9–6 in The Gambia v. Myanmar under the 1948 Genocide Convention.",
+     "te": "19 నవం 2026న అంతర్జాతీయ న్యాయస్థానం (ICJ, ది హేగ్) 1948 జాతి హనన ఒప్పందం (Genocide Convention) కింద 'గాంబియా vs మయన్మార్' కేసులో 9–6 మెజారిటీతో తీర్పు ఇచ్చింది."
+    },
+    {
+     "en": "It found Myanmar responsible for genocide during the 2016–17 'clearance operations', and for failing to prevent and punish it. Over 7 lakh Rohingya fled to Bangladesh after Aug 2017.",
+     "te": "2016–17 'క్లియరెన్స్ ఆపరేషన్ల'లో జాతి హననానికి, దానిని నివారించకపోవడం–శిక్షించకపోవడానికి మయన్మార్ బాధ్యురాలని తేల్చింది. ఆగస్టు 2017 తర్వాత 7 లక్షలకు పైగా రోహింగ్యాలు బంగ్లాదేశ్‌కు పారిపోయారు."
+    },
+    {
+     "en": "Myanmar must stop violations, give guarantees of non-repetition and pay reparations, including safe, voluntary return of the Rohingya.",
+     "te": "మయన్మార్ ఉల్లంఘనలు ఆపాలి, మళ్లీ జరగదని హామీ ఇవ్వాలి, రోహింగ్యాల సురక్షిత, స్వచ్ఛంద పునరాగమనం సహా పరిహారం ఇవ్వాలి."
+    },
+    {
+     "en": "The Gambia filed the case in Nov 2019 though it had no direct link to the crimes — using its membership of the Genocide Convention. The ruling is final; no appeal.",
+     "te": "నేరాలతో నేరుగా సంబంధం లేకపోయినా, జాతి హనన ఒప్పందంలో సభ్యత్వం ఆధారంగా గాంబియా నవం 2019లో కేసు వేసింది. తీర్పు అంతిమం; అప్పీల్ లేదు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Court",
+      "te": "న్యాయస్థానం"
+     },
+     {
+      "en": "ICJ — principal judicial organ of the UN, The Hague, 15 judges",
+      "te": "ICJ — ఐరాస ప్రధాన న్యాయ అంగం, ది హేగ్, 15 మంది జడ్జీలు"
+     }
+    ],
+    [
+     {
+      "en": "Vote",
+      "te": "ఓటింగ్"
+     },
+     {
+      "en": "9–6",
+      "te": "9–6"
+     }
+    ],
+    [
+     {
+      "en": "Case filed",
+      "te": "కేసు దాఖలు"
+     },
+     {
+      "en": "Nov 2019, by The Gambia",
+      "te": "నవం 2019, గాంబియా"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: ICJ (UN organ, disputes between STATES) ≠ ICC (Rome Statute, tries INDIVIDUALS) — both sit in The Hague. Enforcement of ICJ judgments rests with the UN Security Council (Art. 94, UN Charter), which has never used it.",
+    "te": "ట్రాప్: ICJ (ఐరాస అంగం, దేశాల మధ్య వివాదాలు) ≠ ICC (రోమ్ శాసనం, వ్యక్తులపై విచారణ) — రెండూ ది హేగ్‌లోనే. ICJ తీర్పుల అమలు ఐరాస భద్రతా మండలి బాధ్యత (ఐరాస చార్టర్ ఆర్టి. 94) — అది ఇప్పటివరకు ఈ అధికారం వాడలేదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Who was where",
+      "te": "ఎవరు ఎక్కడ"
+     },
+     "view": "world",
+     "ctry": [
+      "Myanmar",
+      "Bangladesh",
+      "Gambia",
+      "Netherlands"
+     ],
+     "pts": [
+      {
+       "ll": [
+        52.08,
+        4.31
+       ],
+       "t": {
+        "en": "The Hague (ICJ)",
+        "te": "ది హేగ్ (ICJ)"
+       }
+      },
+      {
+       "ll": [
+        20.15,
+        92.9
+       ],
+       "t": {
+        "en": "Rakhine (Myanmar)",
+        "te": "రఖైన్ (మయన్మార్)"
+       }
+      },
+      {
+       "ll": [
+        21.43,
+        92.01
+       ],
+       "t": {
+        "en": "Cox's Bazar camps",
+        "te": "కాక్స్ బజార్ శిబిరాలు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        13.45,
+        -16.58
+       ],
+       "t": {
+        "en": "The Gambia",
+        "te": "గాంబియా"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "An African country (The Gambia) took an Asian country (Myanmar) to the court in Europe (The Hague); the victims live in camps in Bangladesh.",
+      "te": "ఆఫ్రికా దేశం గాంబియా, ఆసియా దేశం మయన్మార్‌ను యూరప్‌లోని (ది హేగ్) కోర్టుకు తీసుకెళ్లింది; బాధితులు బంగ్లాదేశ్ శిబిరాల్లో ఉన్నారు."
+     },
+     "src": "cards/cad/2026-11-20/map-icj-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Human Rights Watch — World Court finds Myanmar committed Rohingya genocide, 19 Nov 2026",
+     "u": "https://www.hrw.org/news/2026/11/19/world-court-finds-myanmar-committed-rohingya-genocide"
+    }
+   ]
+  },
+  {
+   "id": "elecexp",
+   "cat": "economy",
+   "title": {
+    "en": "Electronics exports up 44% to about $32 bn in April–September 2026-27; non-smartphone items grow faster than phones",
+    "te": "ఏప్రిల్–సెప్టెంబర్ 2026-27లో ఎలక్ట్రానిక్స్ ఎగుమతులు 44% పెరిగి సుమారు $32 బిలియన్లు; స్మార్ట్‌ఫోన్ కాని వస్తువులు వేగంగా వృద్ధి"
+   },
+   "pts": [
+    {
+     "en": "India's electronics exports rose 44% to about $32 bn in H1 (Apr–Sep) 2026-27, from over $22 bn a year earlier.",
+     "te": "2026-27 తొలి అర్ధభాగంలో (ఏప్రి–సెప్టెం) భారత ఎలక్ట్రానిక్స్ ఎగుమతులు 44% పెరిగి సుమారు $32 బిలియన్లకు చేరాయి (గతేడాది $22 బి. పైగా)."
+    },
+    {
+     "en": "Smartphones grew over 35% (about $13 bn → over $18 bn), but their share fell from 60.3% to 56.8%.",
+     "te": "స్మార్ట్‌ఫోన్లు 35%కి పైగా పెరిగాయి (సుమారు $13 బి. → $18 బి. పైగా), కానీ వాటా 60.3% నుంచి 56.8%కి తగ్గింది."
+    },
+    {
+     "en": "Non-smartphone electronics grew over 56% (about $9 bn → over $13 bn); share up from 39.7% to 43.2%. Mounted PCBs jumped from $63 mn to over $2 bn, mostly to Singapore ($1.87 bn).",
+     "te": "స్మార్ట్‌ఫోన్ కాని ఎలక్ట్రానిక్స్ 56%కి పైగా పెరిగాయి (సుమారు $9 బి. → $13 బి. పైగా); వాటా 39.7% → 43.2%. మౌంటెడ్ PCBలు $63 మి. నుంచి $2 బి.కి పైగా — ఎక్కువగా సింగపూర్‌కు ($1.87 బి.)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "H1 FY27 exports",
+      "te": "H1 FY27 ఎగుమతులు"
+     },
+     {
+      "en": "≈ $32 bn (+44%)",
+      "te": "≈ $32 బి. (+44%)"
+     }
+    ],
+    [
+     {
+      "en": "Smartphone share",
+      "te": "స్మార్ట్‌ఫోన్ వాటా"
+     },
+     {
+      "en": "60.3% → 56.8%",
+      "te": "60.3% → 56.8%"
+     }
+    ],
+    [
+     {
+      "en": "Non-smartphone share",
+      "te": "ఇతర వాటా"
+     },
+     {
+      "en": "39.7% → 43.2%",
+      "te": "39.7% → 43.2%"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Concept: diversification — growth now comes from components (PCBs, memory, storage, network gear), not only phone assembly. Links: PLI for Large-Scale Electronics (2020), Electronics Component Manufacturing Scheme (ECMS, 2025), India Semiconductor Mission. Trap: a share can fall even when value rises.",
+    "te": "కాన్సెప్ట్: వైవిధ్యీకరణ — వృద్ధి ఇప్పుడు ఫోన్ అసెంబ్లీ నుంచే కాదు, విడిభాగాల (PCB, మెమరీ, స్టోరేజ్, నెట్‌వర్క్ పరికరాలు) నుంచీ వస్తోంది. లింక్: PLI (2020), ఎలక్ట్రానిక్స్ కాంపోనెంట్ మాన్యుఫాక్చరింగ్ స్కీమ్ (ECMS, 2025), ఇండియా సెమీకండక్టర్ మిషన్. ట్రాప్: విలువ పెరిగినా వాటా తగ్గవచ్చు."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Share of exports, H1 (%)",
+      "te": "ఎగుమతుల్లో వాటా, H1 (%)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Smartphones FY26",
+        "te": "స్మార్ట్‌ఫోన్లు FY26"
+       },
+       "v": 60.3,
+       "vl": "60.3%"
+      },
+      {
+       "t": {
+        "en": "Smartphones FY27",
+        "te": "స్మార్ట్‌ఫోన్లు FY27"
+       },
+       "v": 56.8,
+       "vl": "56.8%"
+      },
+      {
+       "t": {
+        "en": "Others FY26",
+        "te": "ఇతరాలు FY26"
+       },
+       "v": 39.7,
+       "vl": "39.7%"
+      },
+      {
+       "t": {
+        "en": "Others FY27",
+        "te": "ఇతరాలు FY27"
+       },
+       "v": 43.2,
+       "vl": "43.2%"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "News On AIR — India's electronics exports grow 44% to $32 bn during first half of this fiscal, 17 Nov 2026 (updated 19 Nov)",
+     "u": "https://newsonair.gov.in/indias-electronics-exports-grow-44-to-32-bn-in-six-months-this-fiscal/"
+    },
+    {
+     "t": "Legacy IAS — PIB summaries 20 Nov 2026 (PIB backgrounder on electronics exports, cross-check)",
+     "u": "https://www.legacyias.com/pib-summaries-20-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "amr",
+   "cat": "health",
+   "title": {
+    "en": "Health Ministry drafts rules to bring antimicrobials under central 'new drug' oversight and a separate licence for bulk-drug sale",
+    "te": "యాంటీమైక్రోబియల్స్‌ను కేంద్ర 'కొత్త ఔషధ' పర్యవేక్షణలోకి, బల్క్ డ్రగ్ అమ్మకాలకు ప్రత్యేక లైసెన్స్ — ఆరోగ్య శాఖ ముసాయిదా నిబంధనలు"
+   },
+   "pts": [
+    {
+     "en": "The Union Health Ministry issued a draft notification (19 Nov) inviting objections and suggestions from the public.",
+     "te": "కేంద్ర ఆరోగ్య శాఖ ముసాయిదా నోటిఫికేషన్ (19 నవం) జారీ చేసి, ప్రజల నుంచి అభ్యంతరాలు, సూచనలు కోరింది."
+    },
+    {
+     "en": "New Drugs and Clinical Trials Rules, 2019: antimicrobials come under the 'new drug' framework — makers need Central Licensing Authority permission before seeking a State manufacturing licence.",
+     "te": "కొత్త ఔషధాలు & క్లినికల్ ట్రయల్స్ నిబంధనలు 2019: యాంటీమైక్రోబియల్స్ 'కొత్త ఔషధం' పరిధిలోకి — రాష్ట్ర తయారీ లైసెన్స్‌కు ముందు కేంద్ర లైసెన్సింగ్ అథారిటీ అనుమతి తప్పనిసరి."
+    },
+    {
+     "en": "Why: licences were given without enough checks (bioavailability/bioequivalence, stability); substandard antimicrobials can feed antimicrobial resistance (AMR).",
+     "te": "ఎందుకు: తగిన పరీక్షలు (బయోఅవైలబిలిటీ/బయోఈక్వివలెన్స్, స్థిరత్వం) లేకుండానే లైసెన్సులు ఇచ్చారు; నాసిరకం యాంటీమైక్రోబియల్స్ AMRను పెంచవచ్చు."
+    },
+    {
+     "en": "Drugs Rules, 1945: a separate application and licence for selling bulk drugs (now one common wholesale licence covers both formulations and bulk drugs).",
+     "te": "ఔషధ నిబంధనలు 1945: బల్క్ డ్రగ్స్ అమ్మకానికి ప్రత్యేక దరఖాస్తు, లైసెన్స్ (ప్రస్తుతం ఫార్ములేషన్లు, బల్క్ డ్రగ్స్ రెండింటికీ ఒకే హోల్‌సేల్ లైసెన్స్)."
+    }
+   ],
+   "exam": {
+    "en": "Link: both rules are made under the Drugs and Cosmetics Act, 1940; Central Licensing Authority = DCGI (CDSCO). AMR links: Red Line campaign, National Action Plan on AMR. Trap: antimicrobials include antibiotics, antivirals, antifungals and antiparasitics — not antibiotics alone.",
+    "te": "లింక్: రెండు నిబంధనలూ ఔషధ, సౌందర్య సాధనాల చట్టం 1940 కిందవే; కేంద్ర లైసెన్సింగ్ అథారిటీ = DCGI (CDSCO). AMR లింక్: రెడ్ లైన్ క్యాంపెయిన్, AMR జాతీయ కార్యాచరణ ప్రణాళిక. ట్రాప్: యాంటీమైక్రోబియల్స్ = యాంటీబయాటిక్స్ + యాంటీవైరల్స్ + యాంటీఫంగల్స్ + యాంటీపారాసైటిక్స్ — కేవలం యాంటీబయాటిక్స్ కాదు."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Making an antimicrobial: now vs proposed",
+      "te": "యాంటీమైక్రోబియల్ తయారీ: ఇప్పుడు vs ప్రతిపాదన"
+     },
+     "a": {
+      "h": {
+       "en": "Now",
+       "te": "ఇప్పుడు"
+      },
+      "l": [
+       {
+        "en": "State licence directly",
+        "te": "నేరుగా రాష్ట్ర లైసెన్స్"
+       },
+       {
+        "en": "One wholesale licence for all",
+        "te": "అన్నింటికీ ఒకే హోల్‌సేల్ లైసెన్స్"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Proposed",
+       "te": "ప్రతిపాదన"
+      },
+      "l": [
+       {
+        "en": "Centre's permission first (new drug)",
+        "te": "ముందు కేంద్ర అనుమతి (కొత్త ఔషధం)"
+       },
+       {
+        "en": "Separate bulk-drug licence",
+        "te": "బల్క్ డ్రగ్‌కు ప్రత్యేక లైసెన్స్"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India (IANS) — Govt aims to bring antimicrobials under Central regulatory oversight, boost bulk drug supply chain, 19 Nov 2026",
+     "u": "https://www.thehansindia.com/business/govt-aims-to-bring-antimicrobials-under-central-regulatory-oversight-boost-bulk-drug-supply-chain-1143549"
+    }
+   ]
+  },
+  {
+   "id": "francect",
+   "cat": "ir",
+   "title": {
+    "en": "18th India–France Joint Working Group on Counter-Terrorism meets in New Delhi; India briefs France on its 'PRAHAAR' strategy",
+    "te": "న్యూఢిల్లీలో 18వ భారత్–ఫ్రాన్స్ ఉగ్రవాద వ్యతిరేక సంయుక్త కార్యాచరణ బృందం భేటీ; 'ప్రహార్' వ్యూహాన్ని వివరించిన భారత్"
+   },
+   "pts": [
+    {
+     "en": "The 18th meeting was held in New Delhi on 20 Nov. Co-chairs: Dr Suhel Ajaz Khan (Additional Secretary, Counter Terrorism, MEA) and Olivier Caron (France's Special Envoy for Counter-Terrorism).",
+     "te": "18వ సమావేశం 20 నవం న్యూఢిల్లీలో జరిగింది. సహ అధ్యక్షులు: డా. సుహేల్ అజాజ్ ఖాన్ (అదనపు కార్యదర్శి, ఉగ్రవాద వ్యతిరేకం, MEA), ఒలివియర్ కారన్ (ఫ్రాన్స్ ప్రత్యేక దూత)."
+    },
+    {
+     "en": "Both condemned terrorism in all forms, including cross-border terrorism, and named the Pahalgam attack (April 2025) and the Red Fort-area incident (Nov 2025).",
+     "te": "సరిహద్దు ఉగ్రవాదం సహా అన్ని రూపాల ఉగ్రవాదాన్ని ఖండించారు; పహల్గాం దాడి (ఏప్రిల్ 2025), ఎర్రకోట సమీప ఘటన (నవం 2025)ను ప్రస్తావించారు."
+    },
+    {
+     "en": "India briefed on PRAHAAR, its National Counter Terrorism Policy and Strategy. Focus: terror financing, online radicalisation, misuse of new tech and fintech, and cooperation at UN, FATF and 'No Money for Terror'.",
+     "te": "భారత జాతీయ ఉగ్రవాద వ్యతిరేక విధానం–వ్యూహం 'ప్రహార్' (PRAHAAR)ను వివరించింది. దృష్టి: ఉగ్ర నిధులు, ఆన్‌లైన్ ఉగ్రవాదీకరణ, కొత్త టెక్/ఫిన్‌టెక్ దుర్వినియోగం; ఐరాస, FATF, 'నో మనీ ఫర్ టెర్రర్' వేదికల్లో సహకారం."
+    }
+   ],
+   "exam": {
+    "en": "Static: FATF secretariat is in Paris (OECD); India–France strategic partnership since 1998; 'No Money for Terror' ministerial conference — India hosted the 3rd edition in New Delhi (2022). Trap: PRAHAAR is India's national CT strategy, not a military exercise.",
+    "te": "స్టాటిక్: FATF సచివాలయం పారిస్‌లో (OECD); భారత్–ఫ్రాన్స్ వ్యూహాత్మక భాగస్వామ్యం 1998 నుంచి; 'నో మనీ ఫర్ టెర్రర్' మంత్రుల సదస్సు — 3వ సదస్సు న్యూఢిల్లీలో (2022). ట్రాప్: ప్రహార్ భారత జాతీయ ఉగ్రవాద వ్యతిరేక వ్యూహం, సైనిక విన్యాసం కాదు."
+   },
+   "pics": [
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "What the JWG discussed",
+      "te": "JWG చర్చించిన అంశాలు"
+     },
+     "c": {
+      "en": "India–France CT JWG (18th)",
+      "te": "భారత్–ఫ్రాన్స్ CT JWG (18వ)"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Threats",
+        "te": "ముప్పులు"
+       },
+       "l": [
+        {
+         "en": "Cross-border terror",
+         "te": "సరిహద్దు ఉగ్రవాదం"
+        },
+        {
+         "en": "State-sponsored terror",
+         "te": "ప్రభుత్వ ప్రాయోజిత ఉగ్రవాదం"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Money & tech",
+        "te": "డబ్బు & టెక్"
+       },
+       "l": [
+        {
+         "en": "Terror financing",
+         "te": "ఉగ్ర నిధులు"
+        },
+        {
+         "en": "Fintech misuse",
+         "te": "ఫిన్‌టెక్ దుర్వినియోగం"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "People",
+        "te": "ప్రజలు"
+       },
+       "l": [
+        {
+         "en": "Online radicalisation",
+         "te": "ఆన్‌లైన్ ఉగ్రవాదీకరణ"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Forums",
+        "te": "వేదికలు"
+       },
+       "l": [
+        {
+         "en": "UN",
+         "te": "ఐరాస"
+        },
+        {
+         "en": "FATF",
+         "te": "FATF"
+        },
+        {
+         "en": "No Money for Terror",
+         "te": "నో మనీ ఫర్ టెర్రర్"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "News On AIR — India and France unequivocally condemned terrorism during Joint Working Group meeting, 20 Nov 2026",
+     "u": "https://newsonair.gov.in/india-and-france-unequivocally-condemned-terrorism-during-joint-working-group-meeting/"
+    }
+   ]
+  },
+  {
+   "id": "iffi",
+   "cat": "days",
+   "title": {
+    "en": "57th International Film Festival of India (IFFI) opens in Goa; theme 'Stories Without Borders'",
+    "te": "గోవాలో 57వ భారత అంతర్జాతీయ చలనచిత్రోత్సవం (IFFI) ప్రారంభం; థీమ్ 'Stories Without Borders'"
+   },
+   "pts": [
+    {
+     "en": "The nine-day 57th IFFI began in Goa on 20 Nov with the theme 'Stories Without Borders'; festival director is filmmaker Ashutosh Gowariker.",
+     "te": "తొమ్మిది రోజుల 57వ IFFI 20 నవం గోవాలో 'Stories Without Borders' థీమ్‌తో ప్రారంభమైంది; ఫెస్టివల్ డైరెక్టర్ దర్శకుడు అశుతోష్ గోవారికర్."
+    },
+    {
+     "en": "Opening film: 'Fatherland' by Polish director Paweł Pawlikowski; closing film: 'We Are All Strangers' by Singapore's Anthony Chen.",
+     "te": "ప్రారంభ చిత్రం: పోలిష్ దర్శకుడు పావెల్ పావ్లికోవ్‌స్కీ 'Fatherland'; ముగింపు చిత్రం: సింగపూర్ దర్శకుడు ఆంథోనీ చెన్ 'We Are All Strangers'."
+    },
+    {
+     "en": "Over 150 international films from 86 countries; also masterclasses and the WAVES Film Bazaar.",
+     "te": "86 దేశాల నుంచి 150కి పైగా అంతర్జాతీయ చిత్రాలు; మాస్టర్‌క్లాసులు, WAVES ఫిల్మ్ బజార్ కూడా."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Edition / place",
+      "te": "ఎడిషన్ / వేదిక"
+     },
+     {
+      "en": "57th, Goa (20–28 Nov)",
+      "te": "57వ, గోవా (20–28 నవం)"
+     }
+    ],
+    [
+     {
+      "en": "Theme",
+      "te": "థీమ్"
+     },
+     {
+      "en": "Stories Without Borders",
+      "te": "Stories Without Borders"
+     }
+    ],
+    [
+     {
+      "en": "Top award",
+      "te": "అత్యున్నత అవార్డు"
+     },
+     {
+      "en": "Golden Peacock",
+      "te": "గోల్డెన్ పీకాక్ (స్వర్ణ మయూరం)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static: IFFI began in 1952 (Bombay); Goa is its permanent home since 2004; organised by the Ministry of I&B (through NFDC) with the Goa government. Trap: Golden Peacock = IFFI; Golden Lotus (Swarna Kamal) = National Film Awards.",
+    "te": "స్టాటిక్: IFFI 1952లో (బొంబాయి) మొదలైంది; 2004 నుంచి గోవా శాశ్వత వేదిక; సమాచార–ప్రసార మంత్రిత్వ శాఖ (NFDC ద్వారా), గోవా ప్రభుత్వం నిర్వహిస్తాయి. ట్రాప్: గోల్డెన్ పీకాక్ = IFFI; స్వర్ణ కమలం = జాతీయ చలనచిత్ర అవార్డులు."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "IFFI journey",
+      "te": "IFFI ప్రయాణం"
+     },
+     "items": [
+      {
+       "y": "1952",
+       "t": {
+        "en": "1st IFFI, Bombay",
+        "te": "తొలి IFFI, బొంబాయి"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2004",
+       "t": {
+        "en": "Moves to Goa permanently",
+        "te": "గోవాకు శాశ్వతంగా"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "57th: 'Stories Without Borders'",
+        "te": "57వ: 'Stories Without Borders'"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "News On AIR — 57th International Film Festival of India to begin today in Goa with grand opening ceremony, 20 Nov 2026",
+     "u": "https://newsonair.gov.in/57th-international-film-festival-of-india-to-begin-today-in-goa-with-grand-opening-ceremony/"
+    },
+    {
+     "t": "PIB (I&B) — 'Stories Without Borders' to come alive as 57th IFFI opens tomorrow in Goa, 19 Nov 2026",
+     "u": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2338712&lang=1&reg=22"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "akvan",
+   "q": {
+    "en": "Consider the following statements about Cyclone Akvan (20 Nov 2026): Which of the statements given above is/are correct?",
+    "te": "అక్వాన్ తుపాను (20 నవం 2026) గురించి కింది ప్రకటనలు పరిశీలించండి: పై వాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II and III are correct. I is the trap: Akvan had weakened from a Severe Cyclonic Storm to a Cyclonic Storm BEFORE landfall; 70–80 km/h fits the Cyclonic Storm class (62–88).",
+    "te": "II, III సరైనవి. I ట్రాప్: తీరం దాటకముందే 'తీవ్ర తుపాను' నుంచి 'తుపాను'గా బలహీనపడింది; గంటకు 70–80 కి.మీ. 'తుపాను' తరగతి (62–88)కి సరిపోతుంది."
+   },
+   "st": [
+    {
+     "en": "I. It crossed the coast close to Gopalpur as a Severe Cyclonic Storm.",
+     "te": "I. గోపాల్‌పూర్ దగ్గర 'తీవ్ర తుపాను'గా తీరం దాటింది."
+    },
+    {
+     "en": "II. Winds at landfall were 70–80 km/h, gusting to 90 km/h.",
+     "te": "II. తీరం దాటేటప్పుడు గాలి గంటకు 70–80 కి.మీ., గరిష్ఠం 90 కి.మీ."
+    },
+    {
+     "en": "III. IMD expected it to weaken into a deep depression after landfall.",
+     "te": "III. తీరం దాటాక వాయుగుండంగా బలహీనపడుతుందని IMD అంచనా."
+    }
+   ]
+  },
+  {
+   "topic": "appolls",
+   "q": {
+    "en": "With reference to panchayat elections in Andhra Pradesh, consider the following: Which of the statements given above is/are correct?",
+    "te": "ఆంధ్రప్రదేశ్ పంచాయతీ ఎన్నికలకు సంబంధించి కింది ప్రకటనలు పరిశీలించండి: పై వాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "III only",
+     "te": "III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "II (Art. 243K) and III are correct. I is wrong: panchayat polls are run by the State Election Commission (Art. 243K), not the ECI (Art. 324 — Parliament, State legislatures, President, Vice-President).",
+    "te": "II (ఆర్టి. 243K), III సరైనవి. I తప్పు: పంచాయతీ ఎన్నికలు రాష్ట్ర ఎన్నికల సంఘం (243K) నిర్వహిస్తుంది, ECI (324 — పార్లమెంట్, శాసనసభలు, రాష్ట్రపతి, ఉపరాష్ట్రపతి) కాదు."
+   },
+   "st": [
+    {
+     "en": "I. They are conducted by the Election Commission of India under Article 324.",
+     "te": "I. వీటిని ఆర్టికల్ 324 కింద భారత ఎన్నికల సంఘం నిర్వహిస్తుంది."
+    },
+    {
+     "en": "II. The State Election Commissioner can be removed only like a High Court judge.",
+     "te": "II. రాష్ట్ర ఎన్నికల కమిషనర్‌ను హైకోర్టు జడ్జిలాగే తొలగించాలి."
+    },
+    {
+     "en": "III. Phase-3 polling of the 2026 gram panchayat elections is on 2 December.",
+     "te": "III. 2026 గ్రామ పంచాయతీ ఎన్నికల మూడో దశ పోలింగ్ డిసెంబర్ 2న."
+    }
+   ]
+  },
+  {
+   "topic": "gramsabha",
+   "q": {
+    "en": "In Bibol Toppo v. State of Odisha (18 Nov 2026), the Supreme Court held which of the following? Select the correct answer.",
+    "te": "బిబోల్ టొప్పో vs ఒడిశా (18 నవం 2026) కేసులో సుప్రీంకోర్టు ఏం తేల్చింది? సరైన సమాధానం ఎంచుకోండి."
+   },
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and III are correct. II is the trap — the Court said the opposite: a mining lease cannot override third-party landowners' rights or the 2013 Act's safeguards.",
+    "te": "I, III సరైనవి. II ట్రాప్ — కోర్టు దానికి వ్యతిరేకంగా చెప్పింది: మైనింగ్ లీజు భూ యజమానుల హక్కులను, 2013 చట్ట రక్షణలను అధిగమించలేదు."
+   },
+   "st": [
+    {
+     "en": "I. Prior Gram Sabha consent under Section 41(3) of the RFCTLARR Act, 2013 is mandatory in Scheduled Areas.",
+     "te": "I. RFCTLARR చట్టం 2013 సెక్షన్ 41(3) కింద షెడ్యూల్డ్ ప్రాంతాల్లో గ్రామసభ ముందస్తు సమ్మతి తప్పనిసరి."
+    },
+    {
+     "en": "II. A mining lease under the MMDR Act overrides landowners' rights under the 2013 Act.",
+     "te": "II. MMDR చట్టం కింద మైనింగ్ లీజు, 2013 చట్టం కింద భూ యజమానుల హక్కులను అధిగమిస్తుంది."
+    },
+    {
+     "en": "III. The State may start fresh acquisition proceedings in accordance with law.",
+     "te": "III. చట్టప్రకారం ప్రభుత్వం కొత్తగా భూసేకరణ ప్రక్రియ చేపట్టవచ్చు."
+    }
+   ]
+  },
+  {
+   "topic": "gramsabha",
+   "q": {
+    "en": "Arrange the following in chronological order: I. PESA Act  II. RFCTLARR (Land Acquisition) Act  III. 73rd Constitutional Amendment  IV. Bibol Toppo judgment",
+    "te": "కింది వాటిని కాలక్రమంలో అమర్చండి: I. PESA చట్టం  II. RFCTLARR (భూసేకరణ) చట్టం  III. 73వ రాజ్యాంగ సవరణ  IV. బిబోల్ టొప్పో తీర్పు"
+   },
+   "o": [
+    {
+     "en": "I – III – II – IV",
+     "te": "I – III – II – IV"
+    },
+    {
+     "en": "III – II – I – IV",
+     "te": "III – II – I – IV"
+    },
+    {
+     "en": "III – I – II – IV",
+     "te": "III – I – II – IV"
+    },
+    {
+     "en": "II – III – I – IV",
+     "te": "II – III – I – IV"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "73rd Amendment 1992 → PESA 1996 (extends Part IX to Fifth Schedule areas) → RFCTLARR 2013 → judgment 2026. Trap: PESA came AFTER the 73rd Amendment because Art. 243M left Scheduled Areas out until Parliament extended it.",
+    "te": "73వ సవరణ 1992 → PESA 1996 (భాగం IXను ఐదో షెడ్యూల్ ప్రాంతాలకు విస్తరణ) → RFCTLARR 2013 → తీర్పు 2026. ట్రాప్: ఆర్టి. 243M షెడ్యూల్డ్ ప్రాంతాలను మినహాయించినందున PESA 73వ సవరణ తర్వాతే వచ్చింది."
+   }
+  },
+  {
+   "topic": "icj",
+   "q": {
+    "en": "Consider the following statements about the ICJ ruling in The Gambia v. Myanmar (19 Nov 2026): Which of the statements given above is/are correct?",
+    "te": "గాంబియా vs మయన్మార్ కేసులో ICJ తీర్పు (19 నవం 2026) గురించి కింది ప్రకటనలు పరిశీలించండి: పై వాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and III are correct. II is the trap: The Gambia (West Africa), with no direct link to the crimes, filed the case in 2019 as a party to the Genocide Convention; Bangladesh only hosts the refugees.",
+    "te": "I, III సరైనవి. II ట్రాప్: నేరాలతో నేరుగా సంబంధం లేని గాంబియా (పశ్చిమ ఆఫ్రికా) జాతి హనన ఒప్పంద సభ్యదేశంగా 2019లో కేసు వేసింది; బంగ్లాదేశ్ శరణార్థులకు ఆశ్రయం మాత్రమే ఇస్తోంది."
+   },
+   "st": [
+    {
+     "en": "I. It is the first time the ICJ has found a State responsible for committing genocide.",
+     "te": "I. ఒక దేశాన్ని జాతి హననానికి బాధ్యురాలిగా ICJ తేల్చడం ఇదే తొలిసారి."
+    },
+    {
+     "en": "II. The case was filed by Bangladesh, which hosts the Rohingya refugees.",
+     "te": "II. రోహింగ్యా శరణార్థులకు ఆశ్రయం ఇస్తున్న బంగ్లాదేశ్ ఈ కేసు వేసింది."
+    },
+    {
+     "en": "III. The judgment was decided by a 9–6 vote and cannot be appealed.",
+     "te": "III. తీర్పు 9–6 ఓటుతో వచ్చింది; దీనిపై అప్పీల్ లేదు."
+    }
+   ]
+  },
+  {
+   "topic": "icj",
+   "q": {
+    "en": "Which one of the following statements about the International Court of Justice is INCORRECT?",
+    "te": "అంతర్జాతీయ న్యాయస్థానం (ICJ) గురించి కింది వాటిలో తప్పు ప్రకటన ఏది?"
+   },
+   "o": [
+    {
+     "en": "It is the principal judicial organ of the United Nations.",
+     "te": "ఇది ఐరాస ప్రధాన న్యాయ అంగం."
+    },
+    {
+     "en": "It has 15 judges and sits at The Hague.",
+     "te": "ఇందులో 15 మంది జడ్జీలు; ది హేగ్‌లో ఉంది."
+    },
+    {
+     "en": "It settles disputes between States.",
+     "te": "ఇది దేశాల మధ్య వివాదాలను పరిష్కరిస్తుంది."
+    },
+    {
+     "en": "It was created by the Rome Statute to try individuals.",
+     "te": "వ్యక్తులను విచారించడానికి రోమ్ శాసనం ద్వారా ఏర్పడింది."
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "(d) is incorrect — that describes the International Criminal Court (ICC, Rome Statute 1998, tries individuals). The ICJ was set up by the UN Charter (1945) and hears cases between States. Both sit in The Hague — the classic trap.",
+    "te": "(d) తప్పు — అది అంతర్జాతీయ నేర న్యాయస్థానం (ICC, రోమ్ శాసనం 1998, వ్యక్తులపై విచారణ) వివరణ. ICJ ఐరాస చార్టర్ (1945) ద్వారా ఏర్పడి దేశాల మధ్య కేసులు విచారిస్తుంది. రెండూ ది హేగ్‌లో ఉండటమే ట్రాప్."
+   }
+  },
+  {
+   "topic": "elecexp",
+   "q": {
+    "en": "Consider the following statements about India's electronics exports in April–September 2026-27: Which of the statements given above is/are correct?",
+    "te": "ఏప్రిల్–సెప్టెంబర్ 2026-27లో భారత ఎలక్ట్రానిక్స్ ఎగుమతుల గురించి కింది ప్రకటనలు పరిశీలించండి: పై వాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct (non-smartphone +56%, smartphones +35%). II is the trap: smartphone exports ROSE (about $13 bn → $18 bn); the share fell only because other items grew even faster.",
+    "te": "I, III సరైనవి (ఇతరాలు +56%, స్మార్ట్‌ఫోన్లు +35%). II ట్రాప్: స్మార్ట్‌ఫోన్ ఎగుమతులు పెరిగాయి (సుమారు $13 బి. → $18 బి.); ఇతరాలు ఇంకా వేగంగా పెరిగినందుకే వాటా తగ్గింది."
+   },
+   "st": [
+    {
+     "en": "I. Total electronics exports grew about 44%.",
+     "te": "I. మొత్తం ఎలక్ట్రానిక్స్ ఎగుమతులు సుమారు 44% పెరిగాయి."
+    },
+    {
+     "en": "II. Smartphone exports fell, so their share dropped to 56.8%.",
+     "te": "II. స్మార్ట్‌ఫోన్ ఎగుమతులు తగ్గడంతో వాటా 56.8%కి పడిపోయింది."
+    },
+    {
+     "en": "III. Non-smartphone electronics grew faster than smartphones.",
+     "te": "III. స్మార్ట్‌ఫోన్ల కంటే ఇతర ఎలక్ట్రానిక్స్ వేగంగా పెరిగాయి."
+    }
+   ]
+  },
+  {
+   "topic": "amr",
+   "q": {
+    "en": "Consider the following statements about the draft rules on antimicrobials (Nov 2026): Which of the statements given above is/are correct?",
+    "te": "యాంటీమైక్రోబియల్స్‌పై ముసాయిదా నిబంధనల (నవం 2026) గురించి కింది ప్రకటనలు పరిశీలించండి: పై వాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "o": [
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "All three are correct — the draft does both: central 'new drug' permission for antimicrobials (2019 Rules) and a separate bulk-drug sale licence (1945 Rules). Trap: thinking licensing stays only with the States.",
+    "te": "మూడూ సరైనవే — ముసాయిదా రెండూ చేస్తుంది: యాంటీమైక్రోబియల్స్‌కు కేంద్ర 'కొత్త ఔషధ' అనుమతి (2019 నిబంధనలు), బల్క్ డ్రగ్ అమ్మకానికి ప్రత్యేక లైసెన్స్ (1945 నిబంధనలు). ట్రాప్: లైసెన్సింగ్ రాష్ట్రాలకే పరిమితమనుకోవడం."
+   },
+   "st": [
+    {
+     "en": "I. Antimicrobials will be brought under the 'new drug' framework of the New Drugs and Clinical Trials Rules, 2019.",
+     "te": "I. యాంటీమైక్రోబియల్స్‌ను కొత్త ఔషధాలు & క్లినికల్ ట్రయల్స్ నిబంధనలు 2019లోని 'కొత్త ఔషధం' పరిధిలోకి తెస్తారు."
+    },
+    {
+     "en": "II. Makers will need Central Licensing Authority permission before applying for a State manufacturing licence.",
+     "te": "II. రాష్ట్ర తయారీ లైసెన్స్‌కు ముందు కేంద్ర లైసెన్సింగ్ అథారిటీ అనుమతి అవసరం."
+    },
+    {
+     "en": "III. A separate licence is proposed for the sale of bulk drugs under the Drugs Rules, 1945.",
+     "te": "III. ఔషధ నిబంధనలు 1945 కింద బల్క్ డ్రగ్స్ అమ్మకానికి ప్రత్యేక లైసెన్స్ ప్రతిపాదన."
+    }
+   ]
+  },
+  {
+   "topic": "iffi",
+   "q": {
+    "en": "Match List-I with List-II:\nList-I: A. PRAHAAR  B. Stories Without Borders  C. Golden Peacock  D. Genocide Convention\nList-II: 1. Theme of 57th IFFI  2. India's counter-terrorism strategy  3. Basis of The Gambia v. Myanmar  4. Top award of IFFI",
+    "te": "జతపరచండి:\nజాబితా-I: A. ప్రహార్  B. Stories Without Borders  C. గోల్డెన్ పీకాక్  D. జాతి హనన ఒప్పందం\nజాబితా-II: 1. 57వ IFFI థీమ్  2. భారత ఉగ్రవాద వ్యతిరేక వ్యూహం  3. గాంబియా vs మయన్మార్ కేసుకు ఆధారం  4. IFFI అత్యున్నత అవార్డు"
+   },
+   "o": [
+    {
+     "en": "A-1, B-2, C-4, D-3",
+     "te": "A-1, B-2, C-4, D-3"
+    },
+    {
+     "en": "A-2, B-1, C-3, D-4",
+     "te": "A-2, B-1, C-3, D-4"
+    },
+    {
+     "en": "A-3, B-1, C-4, D-2",
+     "te": "A-3, B-1, C-4, D-2"
+    },
+    {
+     "en": "A-2, B-1, C-4, D-3",
+     "te": "A-2, B-1, C-4, D-3"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "A-2 (PRAHAAR = National Counter Terrorism Policy and Strategy, briefed to France), B-1, C-4 (Golden Peacock; not Swarna Kamal of National Film Awards), D-3 (1948 Genocide Convention).",
+    "te": "A-2 (ప్రహార్ = జాతీయ ఉగ్రవాద వ్యతిరేక విధానం–వ్యూహం), B-1, C-4 (గోల్డెన్ పీకాక్; జాతీయ అవార్డుల స్వర్ణ కమలం కాదు), D-3 (1948 జాతి హనన ఒప్పందం)."
+   }
+  },
+  {
+   "topic": "apsmr",
+   "q": {
+    "en": "Assertion (A): Andhra Pradesh plans to explore Small Modular Reactors at retiring thermal power units. Reason (R): Such sites already have land and transmission lines, and SMRs are compact, factory-built reactors.",
+    "te": "నిశ్చితం (A): రిటైర్ అవుతున్న థర్మల్ యూనిట్ల స్థలాల్లో SMRలను పరిశీలించాలని ఏపీ యోచిస్తోంది. కారణం (R): ఆ స్థలాల్లో భూమి, ప్రసార లైన్లు ఇప్పటికే ఉన్నాయి; SMRలు చిన్నవి, ఫ్యాక్టరీలో తయారయ్యే రియాక్టర్లు."
+   },
+   "o": [
+    {
+     "en": "Both A and R are true, but R is NOT the correct explanation of A",
+     "te": "A, R రెండూ నిజం; కానీ R, Aకు సరైన వివరణ కాదు"
+    },
+    {
+     "en": "A is true, but R is false",
+     "te": "A నిజం, R తప్పు"
+    },
+    {
+     "en": "Both A and R are true, and R is the correct explanation of A",
+     "te": "A, R రెండూ నిజం; R, Aకు సరైన వివరణ"
+    },
+    {
+     "en": "A is false, but R is true",
+     "te": "A తప్పు, R నిజం"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Both true and linked: the 20 Nov G.O. targets retiring thermal units; small, modular reactors can reuse the land and grid already there — that is why such sites suit them.",
+    "te": "రెండూ నిజం, సంబంధం ఉంది: 20 నవం జీవో రిటైర్ అవుతున్న థర్మల్ యూనిట్లను లక్ష్యంగా పెట్టింది; చిన్న మాడ్యులర్ రియాక్టర్లు అక్కడి భూమి, గ్రిడ్‌ను తిరిగి వాడుకోవచ్చు — అందుకే ఆ స్థలాలు అనువు."
+   }
+  }
+ ]
+}
