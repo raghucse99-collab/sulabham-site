@@ -1,21 +1,5 @@
 [
  {
-  "id": "indices-2026",
-  "title": {
-   "en": "Indices & Reports 2026",
-   "te": "సూచీలు & నివేదికలు 2026"
-  },
-  "sub": {
-   "en": "Every global index released up to November 2026 — verified, linked to all subjects, with 44 Group-pattern questions",
-   "te": "నవంబర్ 2026 వరకు విడుదలైన అన్ని ప్రపంచ సూచీలు — నిర్ధారించిన వాస్తవాలు, అన్ని సబ్జెక్టులతో అనుసంధానం, 44 గ్రూప్ స్థాయి ప్రశ్నలు"
-  },
-  "price": 49,
-  "updated": "20 Nov 2026",
-  "mcq": 44,
-  "cards": 12,
-  "icon": "💊"
- },
- {
   "id": "summits-2026",
   "title": {
    "en": "Summits & Conferences 2026 (Jan–Nov)",
@@ -29,6 +13,22 @@
   "updated": "20 Nov 2026",
   "mcq": 44,
   "cards": 15,
+  "icon": "💊"
+ },
+ {
+  "id": "indices-2026",
+  "title": {
+   "en": "Indices & Reports 2026",
+   "te": "సూచీలు & నివేదికలు 2026"
+  },
+  "sub": {
+   "en": "Every global index released up to November 2026 — 21 indices verified, linked to all subjects, with 56 Group-pattern questions",
+   "te": "నవంబర్ 2026 వరకు విడుదలైన అన్ని ప్రపంచ సూచీలు — 21 సూచీలు నిర్ధారితం, అన్ని సబ్జెక్టులతో అనుసంధానం, 56 గ్రూప్ స్థాయి ప్రశ్నలు"
+  },
+  "price": 49,
+  "updated": "20 Nov 2026",
+  "mcq": 56,
+  "cards": 21,
   "icon": "💊"
  }
 ]
