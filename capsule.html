@@ -53,6 +53,9 @@ h2.sec{font-size:1.2rem;color:#3d1153;margin:22px 0 8px;border-bottom:3px solid 
 .teaser li{margin:3px 0}
 .pdfs{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
 .note{color:var(--mut);font-size:.9rem}
+.q{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.toc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 12px;margin:12px 0}.toc h2{margin:0 0 6px;font-size:1.05rem;color:#3d1153}.toc ol{margin:0;padding-left:22px;columns:2;column-gap:18px}.toc li{margin:2px 0;break-inside:avoid;font-size:.92rem}@media(max-width:520px){.toc ol{columns:1}}
+.upsell{background:linear-gradient(135deg,#ffe7a3,#f2b43c);border-radius:12px;padding:10px 12px;margin:10px 0;color:#2a1a00}.upsell a{color:#2a1a00;font-weight:800}
 </style>
 </head>
 <body>
@@ -93,17 +96,19 @@ function mark(){var Q=FULL?FULL.mcq:D.free.mcq;Object.keys(ANS).forEach(function
 function lockH(){var c=D.counts,price=D.price;
  return'<div class="lock" id="buy"><h2>🔓 '+L("Unlock the full capsule — ₹","పూర్తి క్యాప్సూల్ — ₹")+price+'</h2>'+
  '<ul class="teaser">'+(D.teaser||[]).map(function(t){return'<li>'+E(x(t))+'</li>'}).join("")+
- '<li>'+L("All "+c.big+" deep topic cards + "+c.more+" more short cards + one-glance tables","మొత్తం "+c.big+" లోతైన కార్డులు + మరో "+c.more+" చిన్న కార్డులు + ఒక్క చూపు పట్టికలు")+'</li><li>'+L(c.mcq+" Group 1/2-pattern MCQs with explanations (tap to check)",c.mcq+" గ్రూప్ 1/2 స్థాయి ప్రశ్నలు, వివరణలతో (నొక్కి చూసుకోండి)")+'</li><li>'+L("PDF in English and Telugu — print and revise","ఇంగ్లీష్, తెలుగు PDFలు — ప్రింట్ తీసి రివైజ్ చేయండి")+'</li></ul>'+
+ '<li>'+L("All "+c.big+" deep topic cards + "+c.more+" more short cards + one-glance tables","మొత్తం "+c.big+" లోతైన కార్డులు + మరో "+c.more+" చిన్న కార్డులు + ఒక్క చూపు పట్టికలు")+'</li><li>'+L(c.mcq+" Group 1/2-pattern MCQs with explanations — practise online here (tap to check)",c.mcq+" గ్రూప్ 1/2 స్థాయి ప్రశ్నలు, వివరణలతో (నొక్కి చూసుకోండి)")+'</li><li>'+L("Notes PDF in English and Telugu — print and revise","ఇంగ్లీష్, తెలుగు PDFలు — ప్రింట్ తీసి రివైజ్ చేయండి")+'</li></ul>'+
+ '<div class="upsell">🎁 '+L("Want every topic? <a href='caps.html'>Current Affairs 2026 — all topics ₹499 →</a>","అన్ని అంశాలూ కావాలా? <a href='caps.html'>కరెంట్ అఫైర్స్ 2026 — అన్ని అంశాలు ₹499 →</a>")+'</div>'+
  '<ol><li>'+L("Pay ₹"+price+" by UPI","UPIతో ₹"+price+" చెల్లించండి")+'<div class="upirow"><a class="btn grn" href="'+E(D.upi)+'">'+L("Pay ₹"+price+" with UPI app","UPI యాప్‌తో ₹"+price+" చెల్లించండి")+'</a><code>'+UPI+'</code><button class="btn line" id="cpu" style="padding:6px 12px">'+L("Copy","కాపీ")+'</button></div><img id="qr" src="'+E(D.qr)+'" alt="UPI QR"><span class="note">'+L("On a computer? Scan this QR with any UPI app.","కంప్యూటర్‌లో ఉన్నారా? ఏదైనా UPI యాప్‌తో ఈ QR స్కాన్ చేయండి.")+'</span></li>'+
  '<li>'+L("Send the payment screenshot on Telegram with your device number","చెల్లింపు స్క్రీన్‌షాట్, మీ పరికరం నంబర్ టెలిగ్రామ్‌లో పంపండి")+'<div class="upirow"><a class="btn tg" href="'+TG+'" target="_blank" rel="noopener">Telegram</a></div></li>'+
  '<li>'+L("Type the unlock code you receive","మీకు వచ్చిన అన్‌లాక్ కోడ్ టైప్ చేయండి")+'<form class="codeF" id="codeForm"><input id="code" placeholder="XXXXX-XXXXX" autocomplete="off"><button class="btn pri">'+L("Unlock","అన్‌లాక్")+'</button></form><div class="msg" id="msg"></div></li></ol></div>'}
 function draw(){document.documentElement.lang=lang;$("lte").className=lang==="te"?"on":"";$("len").className=lang==="en"?"on":"";
  document.title=x(D.title)+" · Sulabham";
- var h='<div class="hero"><span class="tag">'+L("Capsule","క్యాప్సూల్")+' · ₹'+D.price+' · '+E(D.updated)+'</span><h1>'+E(x(D.title))+'</h1><p>'+E(x(D.sub))+'</p><div class="stats"><span>📚 '+(D.counts.big+D.counts.more)+' '+L("topics","అంశాలు")+'</span><span>✍️ '+D.counts.mcq+' MCQs</span><span>📄 PDF EN + TE</span><span>✅ '+L("Facts verified","వాస్తవాలు నిర్ధారితం")+'</span></div>'+
+ var h='<div class="hero"><span class="tag">'+L("Capsule","క్యాప్సూల్")+' · ₹'+D.price+' · '+E(D.updated)+'</span><h1>'+E(x(D.title))+'</h1><p>'+E(x(D.sub))+'</p><div class="stats"><span>📚 '+(D.counts.big+D.counts.more)+' '+L("topics","అంశాలు")+'</span><span>✍️ '+D.counts.mcq+' MCQs</span><span>📄 '+L("Notes PDF EN + TE","నోట్స్ PDF EN + TE")+'</span><span>✅ '+L("Facts verified","వాస్తవాలు నిర్ధారితం")+'</span></div>'+
   (FULL?'':'<div style="margin-top:12px"><a class="btn gold" href="#buy">'+L("Unlock all — ₹"+D.price,"అన్నీ అన్‌లాక్ — ₹"+D.price)+'</a></div>')+'</div>';
  var src=FULL||{big:[D.free.big],mcq:D.free.mcq};CL=(FULL&&FULL.meta&&FULL.meta.concept_label)||D.concept_label||null;
+ var T=D.toc||[];if(T.length)h+='<div class="toc"><h2>📋 '+L("Topics covered in this capsule","ఈ క్యాప్సూల్‌లోని అంశాలు")+' ('+T.length+')</h2><ol>'+T.map(function(t,i){return'<li>'+t.icon+' '+E(x(t.name))+(FULL||i===0?'':' 🔒')+'</li>'}).join("")+'</ol></div>';
  h+='<div class="how">💡 '+E(x(D.free.how))+'</div>';
- if(FULL){h+='<div class="pdfs"><button class="btn pri" data-pdf="en">📄 PDF — English</button><button class="btn pri" data-pdf="te">📄 PDF — తెలుగు</button></div>'}
+ if(FULL){h+='<div class="pdfs"><button class="btn pri" data-pdf="en">📄 '+L("Notes PDF — English","నోట్స్ PDF — English")+'</button><button class="btn pri" data-pdf="te">📄 '+L("Notes PDF — తెలుగు","నోట్స్ PDF — తెలుగు")+'</button></div><p class="note">✍️ '+L("MCQs are practice-only — answer them below on this page.","ప్రశ్నలు ప్రాక్టీస్ కోసం మాత్రమే — ఈ పేజీలో కింద జవాబు ఇవ్వండి.")+'</p>'}
  else h+='<p class="note">👀 '+L("Free preview: the first index card and 3 questions.","ఉచిత నమూనా: మొదటి సూచిక కార్డు, 3 ప్రశ్నలు.")+'</p>';
  h+=src.big.map(bigH).join("");
  if(FULL){
@@ -115,7 +120,7 @@ function draw(){document.documentElement.lang=lang;$("lte").className=lang==="te
  }
  h+='<h2 class="sec">✍️ '+L("Practice — tap an option to check","ప్రాక్టీస్ — ఆప్షన్ నొక్కి సరిచూసుకోండి")+'</h2>'+src.mcq.map(qH).join("");
  if(!FULL)h+=lockH();else h+='<p class="note">🔒 '+L("Unlocked on this device","ఈ పరికరంలో అన్‌లాక్ అయింది")+' · D-'+SUL_dev.id()+'</p>';
- $("m").innerHTML=h;mark();wire()}
+ $("m").innerHTML=h;mark();wire();document.querySelectorAll(".q").forEach(function(q){q.oncontextmenu=function(e){e.preventDefault()}})}
 function wire(){document.querySelectorAll(".op").forEach(function(b){b.onclick=function(){var i=+b.getAttribute("data-q");if(ANS[i]!=null)return;ANS[i]=+b.getAttribute("data-k");mark()}});
  var cp=$("cpu");if(cp)cp.onclick=function(){try{navigator.clipboard.writeText(UPI)}catch(e){}cp.textContent=L("Copied ✓","కాపీ ✓")};
  var f=$("codeForm");if(f)f.onsubmit=function(e){e.preventDefault();tryCode($("code").value,true)};

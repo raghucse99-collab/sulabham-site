@@ -13,7 +13,156 @@
   "updated": "20 Nov 2026",
   "mcq": 56,
   "cards": 21,
-  "icon": "💊"
+  "icon": "💊",
+  "toc": [
+   {
+    "icon": "🌿",
+    "name": {
+     "en": "Environmental Performance Index (EPI) 2026",
+     "te": "పర్యావరణ పనితీరు సూచిక (EPI) 2026"
+    }
+   },
+   {
+    "icon": "🍚",
+    "name": {
+     "en": "Global Hunger Index (GHI) 2026",
+     "te": "ప్రపంచ ఆకలి సూచిక (GHI) 2026"
+    }
+   },
+   {
+    "icon": "🕊️",
+    "name": {
+     "en": "Global Peace Index (GPI) 2026",
+     "te": "ప్రపంచ శాంతి సూచిక (GPI) 2026"
+    }
+   },
+   {
+    "icon": "📰",
+    "name": {
+     "en": "World Press Freedom Index (WPFI) 2026",
+     "te": "ప్రపంచ పత్రికా స్వేచ్ఛ సూచిక (WPFI) 2026"
+    }
+   },
+   {
+    "icon": "💡",
+    "name": {
+     "en": "Global Innovation Index 2026 (19th ed.)",
+     "te": "గ్లోబల్ ఇన్నోవేషన్ ఇండెక్స్ 2026 (19వ ఎడిషన్)"
+    }
+   },
+   {
+    "icon": "😊",
+    "name": {
+     "en": "World Happiness Report 2026",
+     "te": "వరల్డ్ హ్యాపీనెస్ రిపోర్ట్ 2026"
+    }
+   },
+   {
+    "icon": "⚖️",
+    "name": {
+     "en": "Global Gender Gap Index 2026",
+     "te": "గ్లోబల్ జెండర్ గ్యాప్ ఇండెక్స్ 2026"
+    }
+   },
+   {
+    "icon": "🎯",
+    "name": {
+     "en": "Sustainable Development Report 2026 (SDG Index)",
+     "te": "సుస్థిర అభివృద్ధి నివేదిక 2026 (SDG సూచిక)"
+    }
+   },
+   {
+    "icon": "🧾",
+    "name": {
+     "en": "Corruption Perceptions Index 2025 (released Feb 2026)",
+     "te": "అవినీతి అవగాహన సూచిక 2025 (ఫిబ్రవరి 2026 విడుదల)"
+    }
+   },
+   {
+    "icon": "📈",
+    "name": {
+     "en": "Human Development Report 2025 (latest HDR)",
+     "te": "మానవ అభివృద్ధి నివేదిక 2025 (తాజా HDR)"
+    }
+   },
+   {
+    "icon": "🌡️",
+    "name": {
+     "en": "Climate Change Performance Index 2027 (Nov 2026)",
+     "te": "వాతావరణ మార్పు పనితీరు సూచిక 2027 (నవంబర్ 2026)"
+    }
+   },
+   {
+    "icon": "🏛️",
+    "name": {
+     "en": "Access Equality Index 2026 (States)",
+     "te": "యాక్సెస్ ఈక్వాలిటీ ఇండెక్స్ 2026 (రాష్ట్రాలు)"
+    }
+   },
+   {
+    "icon": "💣",
+    "name": {
+     "en": "Global Terrorism Index 2026",
+     "te": "ప్రపంచ ఉగ్రవాద సూచిక 2026"
+    }
+   },
+   {
+    "icon": "⚡",
+    "name": {
+     "en": "Energy Transition Index 2026",
+     "te": "ఎనర్జీ ట్రాన్సిషన్ ఇండెక్స్ 2026"
+    }
+   },
+   {
+    "icon": "🛡️",
+    "name": {
+     "en": "SIPRI — world military spending 2025 (April 2026)",
+     "te": "SIPRI — ప్రపంచ సైనిక వ్యయం 2025 (ఏప్రిల్ 2026)"
+    }
+   },
+   {
+    "icon": "🛂",
+    "name": {
+     "en": "Henley Passport Index (October 2026)",
+     "te": "హెన్లీ పాస్‌పోర్ట్ ఇండెక్స్ (అక్టోబర్ 2026)"
+    }
+   },
+   {
+    "icon": "©️",
+    "name": {
+     "en": "International IP Index 2026 (14th edition)",
+     "te": "అంతర్జాతీయ IP సూచిక 2026 (14వ ఎడిషన్)"
+    }
+   },
+   {
+    "icon": "🧳",
+    "name": {
+     "en": "Travel & Tourism Development Index 2026",
+     "te": "ట్రావెల్ & టూరిజం డెవలప్‌మెంట్ ఇండెక్స్ 2026"
+    }
+   },
+   {
+    "icon": "☢️",
+    "name": {
+     "en": "Uranium production (World Nuclear Association, 2024 data)",
+     "te": "యురేనియం ఉత్పత్తి (వరల్డ్ న్యూక్లియర్ అసోసియేషన్, 2024 డేటా)"
+    }
+   },
+   {
+    "icon": "⚽",
+    "name": {
+     "en": "FIFA Men's World Ranking (18 Nov 2026)",
+     "te": "FIFA పురుషుల ప్రపంచ ర్యాంకింగ్ (18 నవంబర్ 2026)"
+    }
+   },
+   {
+    "icon": "🤖",
+    "name": {
+     "en": "Microsoft Work Trend Index 2026 (AI at work)",
+     "te": "మైక్రోసాఫ్ట్ వర్క్ ట్రెండ్ ఇండెక్స్ 2026 (పనిలో AI)"
+    }
+   }
+  ]
  },
  {
   "id": "summits-2026",
@@ -29,6 +178,134 @@
   "updated": "20 Nov 2026",
   "mcq": 56,
   "cards": 18,
-  "icon": "💊"
+  "icon": "💊",
+  "toc": [
+   {
+    "icon": "🌐",
+    "name": {
+     "en": "18th BRICS Summit, New Delhi — India's chairship 2026",
+     "te": "18వ బ్రిక్స్ సదస్సు, న్యూఢిల్లీ — 2026లో భారత్ అధ్యక్షత"
+    }
+   },
+   {
+    "icon": "🤖",
+    "name": {
+     "en": "India AI Impact Summit, New Delhi (February)",
+     "te": "ఇండియా AI ఇంపాక్ట్ సదస్సు, న్యూఢిల్లీ (ఫిబ్రవరి)"
+    }
+   },
+   {
+    "icon": "🏔️",
+    "name": {
+     "en": "SCO: 26th Summit, Bishkek + India's SCO meetings",
+     "te": "SCO: 26వ సదస్సు, బిష్కెక్ + భారత్ SCO సమావేశాలు"
+    }
+   },
+   {
+    "icon": "🏛️",
+    "name": {
+     "en": "G7 (Évian) · NATO (Ankara) · G20 (USA) · UNGA-81",
+     "te": "G7 (ఎవియన్) · నాటో (అంకారా) · G20 (అమెరికా) · UNGA-81"
+    }
+   },
+   {
+    "icon": "🌍",
+    "name": {
+     "en": "The three COPs of 2026: Climate (COP31) · Desertification (COP17) · Biodiversity (COP17)",
+     "te": "2026లో మూడు COPలు: వాతావరణం (COP31) · ఎడారీకరణ (COP17) · జీవవైవిధ్యం (COP17)"
+    }
+   },
+   {
+    "icon": "🌏",
+    "name": {
+     "en": "ASEAN, East Asia Summit & CHOGM (November)",
+     "te": "ఆసియాన్, తూర్పు ఆసియా సదస్సు & CHOGM (నవంబర్)"
+    }
+   },
+   {
+    "icon": "🏔️",
+    "name": {
+     "en": "WEF Annual Meeting, Davos (Jan)",
+     "te": "WEF వార్షిక సమావేశం, దావోస్ (జనవరి)"
+    }
+   },
+   {
+    "icon": "🤝",
+    "name": {
+     "en": "India–EU Summit & Republic Day 2026 (Jan)",
+     "te": "భారత్–EU సదస్సు & గణతంత్ర దినోత్సవం 2026 (జనవరి)"
+    }
+   },
+   {
+    "icon": "🗣️",
+    "name": {
+     "en": "Raisina Dialogue (Mar)",
+     "te": "రైసినా డైలాగ్ (మార్చి)"
+    }
+   },
+   {
+    "icon": "⚖️",
+    "name": {
+     "en": "WTO 14th Ministerial Conference (Mar)",
+     "te": "WTO 14వ మంత్రుల సదస్సు (మార్చి)"
+    }
+   },
+   {
+    "icon": "🌍",
+    "name": {
+     "en": "India–Africa Forum Summit IV (May — postponed)",
+     "te": "భారత్–ఆఫ్రికా ఫోరం సదస్సు IV (మే — వాయిదా)"
+    }
+   },
+   {
+    "icon": "🏛️",
+    "name": {
+     "en": "UNESCO World Heritage Committee (Jul)",
+     "te": "యునెస్కో ప్రపంచ వారసత్వ కమిటీ (జూలై)"
+    }
+   },
+   {
+    "icon": "🛡️",
+    "name": {
+     "en": "BIMSTEC NSAs & India–Japan 2+2",
+     "te": "బిమ్స్‌టెక్ NSAలు & భారత్–జపాన్ 2+2"
+    }
+   },
+   {
+    "icon": "📡",
+    "name": {
+     "en": "ITU Plenipotentiary · IPU Assembly · APEC",
+     "te": "ITU ప్లెనిపొటెన్షియరీ · IPU అసెంబ్లీ · APEC"
+    }
+   },
+   {
+    "icon": "🏭",
+    "name": {
+     "en": "31st CII Partnership Summit, Visakhapatnam (Nov) — AP",
+     "te": "31వ CII భాగస్వామ్య సదస్సు, విశాఖపట్నం (నవంబర్) — ఏపీ"
+    }
+   },
+   {
+    "icon": "🐟",
+    "name": {
+     "en": "WTO Agreement on Fisheries Subsidies — India joins (Jul)",
+     "te": "WTO మత్స్య సబ్సిడీల ఒప్పందం — భారత్ చేరిక (జూలై)"
+    }
+   },
+   {
+    "icon": "🛡️",
+    "name": {
+     "en": "UN Security Council: 2027 changeover & India's 2028–29 bid",
+     "te": "ఐరాస భద్రతామండలి: 2027 మార్పు & భారత్ 2028–29 పోటీ"
+    }
+   },
+   {
+    "icon": "🏦",
+    "name": {
+     "en": "ADB — Asian Development Outlook (July 2026)",
+     "te": "ADB — ఆసియన్ డెవలప్‌మెంట్ ఔట్‌లుక్ (జూలై 2026)"
+    }
+   }
+  ]
  }
 ]
