@@ -65,6 +65,7 @@ function E(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;",
 function L(en,te){return lang==="te"?te:en}
 function x(o){return o&&typeof o==="object"?(o[lang]||o.en):o}
 function toast(t){var el=document.getElementById("toast");el.textContent=t;el.style.display="block";clearTimeout(toast.h);toast.h=setTimeout(function(){el.style.display="none"},2200)}
+function own(id){try{return!!localStorage.getItem("sul_cap_"+id)}catch(e){return false}}
 function live(){var m={};IDX.forEach(function(c){m[c.id]=c});return m}
 function shareText(){var m=live(),done=PLAN.filter(function(p){return m[p.id]}),soon=PLAN.filter(function(p){return!m[p.id]});
  return L("📰 Current Affairs 2026 (Jan–Nov) — TOPIC-WISE for APPSC Group 1 & 2\n\n✅ Ready now:\n","📰 కరెంట్ అఫైర్స్ 2026 (జనవరి–నవంబర్) — అంశాల వారీగా, APPSC గ్రూప్ 1 & 2 కోసం\n\n✅ ఇప్పుడు సిద్ధం:\n")+
@@ -84,7 +85,7 @@ function draw(){document.documentElement.lang=lang;document.getElementById("lte"
  // live capsules
  h+='<h2 class="sec">✅ '+L("Ready now — tap to see free preview","ఇప్పుడు సిద్ధం — ఉచిత నమూనా కోసం నొక్కండి")+'</h2>';
  h+=PLAN.filter(function(p){return m[p.id]}).map(function(p){var c=m[p.id];
-  return'<div class="t"><a class="top" href="capsule.html?t='+c.id+'"><span class="ic">'+p.ic+'</span><span><b>'+E(x(c.title))+'</b><small>'+c.cards+' '+L("topics","అంశాలు")+' · '+c.mcq+' '+L("practice MCQs","ప్రాక్టీస్ ప్రశ్నలు")+' · '+L("notes PDF","నోట్స్ PDF")+' · '+L("updated","నవీకరణ")+' '+E(c.updated)+'</small></span><span class="pr">₹'+c.price+'<br><small style="color:#1b1500">'+L("open →","తెరవండి →")+'</small></span></a>'+
+  return'<div class="t"><a class="top" href="capsule.html?t='+c.id+'"><span class="ic">'+p.ic+'</span><span><b>'+E(x(c.title))+'</b><small>'+c.cards+' '+L("topics","అంశాలు")+' · '+c.mcq+' '+L("practice MCQs","ప్రాక్టీస్ ప్రశ్నలు")+' · '+L("notes PDF","నోట్స్ PDF")+' · '+L("updated","నవీకరణ")+' '+E(c.updated)+'</small></span>'+(own(c.id)?'<span class="pr" style="background:#1f8a4c;color:#fff">✅<br><small style="color:#fff">'+L("Unlocked · open","అన్‌లాక్ · తెరవండి")+'</small></span>':'<span class="pr">₹'+c.price+'<br><small style="color:#1b1500">'+L("open →","తెరవండి →")+'</small></span>')+'</a>'+
   (c.toc&&c.toc.length?'<details><summary>📋 '+L("Topics covered","కవర్ చేసిన అంశాలు")+' ('+c.toc.length+')</summary><ol>'+c.toc.map(function(t){return'<li>'+t.icon+' '+E(x(t.name))+'</li>'}).join("")+'</ol></details>':'')+'</div>'}).join("");
  // bundle
  h+='<div class="bun" id="all"><h2>🎁 '+L("ALL Topics — Current Affairs 2026","అన్ని అంశాలు — కరెంట్ అఫైర్స్ 2026")+'</h2><div class="pr">₹'+PRICE+'<s>₹'+(ONE*PLAN.length)+'</s></div><ul>'+
