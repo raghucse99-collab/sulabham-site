@@ -1,21 +1,5 @@
 [
  {
-  "id": "summits-2026",
-  "title": {
-   "en": "Summits & Conferences 2026 (Jan–Nov)",
-   "te": "సదస్సులు & సమావేశాలు 2026 (జనవరి–నవంబర్)"
-  },
-  "sub": {
-   "en": "Every major summit from Davos (January) to COP31 and ASEAN (November) — venue, theme, India's role, outcomes, linked to all subjects, with 44 Group-pattern questions",
-   "te": "దావోస్ (జనవరి) నుంచి COP31, ఆసియాన్ (నవంబర్) వరకు అన్ని ముఖ్య సదస్సులు — వేదిక, నినాదం, భారత్ పాత్ర, ఫలితాలు, అన్ని సబ్జెక్టులతో అనుసంధానం, 44 గ్రూప్ స్థాయి ప్రశ్నలు"
-  },
-  "price": 49,
-  "updated": "20 Nov 2026",
-  "mcq": 44,
-  "cards": 15,
-  "icon": "💊"
- },
- {
   "id": "indices-2026",
   "title": {
    "en": "Indices & Reports 2026",
@@ -29,6 +13,22 @@
   "updated": "20 Nov 2026",
   "mcq": 56,
   "cards": 21,
+  "icon": "💊"
+ },
+ {
+  "id": "summits-2026",
+  "title": {
+   "en": "Summits & Conferences 2026 (Jan–Nov)",
+   "te": "సదస్సులు & సమావేశాలు 2026 (జనవరి–నవంబర్)"
+  },
+  "sub": {
+   "en": "Every major summit from Davos (January) to COP31 and ASEAN (November) — venue, theme, India's role, outcomes, linked to all subjects, with 56 Group-pattern questions",
+   "te": "దావోస్ (జనవరి) నుంచి COP31, ఆసియాన్ (నవంబర్) వరకు అన్ని ముఖ్య సదస్సులు — వేదిక, నినాదం, భారత్ పాత్ర, ఫలితాలు, అన్ని సబ్జెక్టులతో అనుసంధానం, 56 గ్రూప్ స్థాయి ప్రశ్నలు"
+  },
+  "price": 49,
+  "updated": "20 Nov 2026",
+  "mcq": 56,
+  "cards": 18,
   "icon": "💊"
  }
 ]
