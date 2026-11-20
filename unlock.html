@@ -41,7 +41,7 @@ if(!parts.length){H.textContent=te?"అన్‌లాక్ లింక్ స
 var good=0;
 Promise.all(parts.map(function(x){var i=info(x.p);
  return SUL_dev.resolve(x.c,x.p).then(function(master){if(!master)return{x:x,i:i,ok:false};
-  return fetch(i.f).then(function(r){return r.json()}).then(function(d){return verify(master,i.chk?{salt:d.salt,iter:d.iter,enc:d.check}:d).then(function(ok){if(ok)ls(i.key,norm(master));return{x:x,i:i,ok:ok}})}).catch(function(){return{x:x,i:i,ok:false}})})})).then(function(R){
+  return fetch(i.f).then(function(r){return r.json()}).then(function(d){if(i.chk&&d.title)i.n=(te?"📰 ":"📰 ")+(te?(d.title.te||d.title.en):d.title.en);return verify(master,i.chk?{salt:d.salt,iter:d.iter,enc:d.check}:d).then(function(ok){if(ok)ls(i.key,norm(master));return{x:x,i:i,ok:ok}})}).catch(function(){return{x:x,i:i,ok:false}})})})).then(function(R){
  R.forEach(function(r){if(r.ok)good++;LI.insertAdjacentHTML("beforeend",'<div class="row"><span class="s">'+(r.ok?"✅":"❌")+'</span><b class="'+(r.ok?"ok":"bad")+'">'+r.i.n+'</b>'+(r.ok?'<a href="'+r.i.u+'">'+(te?"తెరవండి":"Open")+'</a>':'')+'</div>')});
  H.textContent=good===R.length?(te?"🎉 అన్నీ అన్‌లాక్ అయ్యాయి!":"🎉 Everything is unlocked!"):(good?(te?"కొన్ని అన్‌లాక్ అయ్యాయి":"Some items are unlocked"):(te?"అన్‌లాక్ కాలేదు":"Could not unlock"));
  F.innerHTML=(good<R.length?'<p class="note">'+(te?"❌ ఉన్నవి ఈ ఫోన్ కోసం చేసిన కోడ్‌లు కావు. కింది పరికరం నంబర్ మాకు పంపండి — కొత్త లింక్ ఉచితంగా పంపుతాం.":"❌ items were made for a different phone. Send us the device number below — we will send a new link free.")+'</p>':'')+
