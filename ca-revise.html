@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script src="migrate.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Revise Today · Sulabham</title>
+<meta name="description" content="Spaced revision for Sulabham current affairs topics: topics due today, a mixed MCQ test and your mistake notebook.">
+<link rel="icon" type="image/svg+xml" href="sulabham-icon.svg">
+<script src="devcode.js"></script>
+<style>
+:root{--ink:#14212b;--mut:#5b6b78;--line:#dfe3e6;--bg:#f6f4ee;--acc:#5b1f7a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Noto Sans","Noto Sans Telugu",sans-serif}
+html[lang=te] body{line-height:1.7}
+header{background:#2a0b3d;color:#fff;padding:10px 16px;display:flex;justify-content:space-between;align-items:center;gap:8px;position:sticky;top:0;z-index:5}
+header a{color:#fff;text-decoration:none;font-weight:800;font-size:19px}
+.lg button{background:transparent;border:1px solid #fff;color:#fff;border-radius:8px;padding:4px 10px;margin-left:4px;font:inherit;font-size:.88rem;cursor:pointer}.lg button.on{background:#fff;color:#2a0b3d}
+main{max-width:760px;margin:0 auto;padding:14px 16px 90px}
+.hero{background:linear-gradient(135deg,#0d5c63,#2a0b3d);color:#fff;border-radius:18px;padding:16px}.hero h1{margin:0 0 6px;font-size:1.45rem;line-height:1.25}.hero p{margin:0;opacity:.92;font-size:.95rem}
+h2.sec{font-size:1.12rem;margin:20px 0 6px;color:#3d1153}
+.btn{display:inline-block;border:0;border-radius:12px;padding:11px 15px;font:inherit;font-weight:800;cursor:pointer;text-decoration:none;text-align:center}.btn.pri{background:var(--acc);color:#fff}.btn.line{background:#fff;color:var(--acc);border:1px solid var(--acc)}.btn.g{background:#1f8a4c;color:#fff}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px;margin:10px 0}
+.due{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.due b{color:#3d1153}
+.pill{display:inline-block;border-radius:999px;padding:2px 10px;font-size:.82rem;font-weight:700;margin:2px 4px 2px 0;border:1px solid var(--line);background:#f8fafb;color:var(--mut)}
+.pill.ok{background:#e3f6e8;border-color:#5cb075;color:#1f6f4a}.pill.now{background:#fff3cf;border-color:#e3a400;color:#7a5600}.pill.late{background:#fde8e6;border-color:#d9776c;color:#9b2c22}
+.note{color:var(--mut);font-size:.9rem}
+.q{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px;margin:10px 0;-webkit-user-select:none;user-select:none}
+.q .tg{font-size:.78rem;color:var(--acc);font-weight:700}.q .n{font-weight:700}.q .st{margin:4px 0 4px 6px}
+.ml{display:grid;grid-template-columns:1fr 1fr;gap:2px 10px;border:1px solid #e3e7ea;border-radius:10px;padding:8px 10px;margin:6px 0;font-size:.93rem}.ml .hd{font-weight:700;color:#3d1153}
+.ask{font-style:italic;color:var(--mut);margin:4px 0}
+.op{display:block;width:100%;text-align:left;background:#f8fafb;border:1px solid #dde3e8;border-radius:10px;padding:9px 11px;margin:6px 0;font:inherit;cursor:pointer;color:var(--ink)}
+.op.ok{background:#e3f6e8;border-color:#5cb075}.op.no{background:#fde8e6;border-color:#d9776c}.op[disabled]{cursor:default}
+.why{display:none;background:#f3f6ff;border-radius:10px;padding:8px 10px;margin-top:6px;font-size:.93rem}.q.done .why{display:block}
+.mist .why{display:block}.mist .rm{margin-top:8px;padding:6px 12px}
+.score{position:fixed;left:0;right:0;bottom:0;background:#2a0b3d;color:#fff;display:none;justify-content:center;gap:14px;align-items:center;padding:10px;z-index:6}
+.how{background:#fff3cf;border:1px dashed #e3a400;border-radius:12px;padding:10px 12px;margin:12px 0;font-size:.93rem}.how ol{margin:4px 0;padding-left:20px}
+</style>
+</head>
+<body>
+<header><a href="index.html">సులభం</a><span class="lg"><button id="lte">తెలుగు</button><button id="len">English</button></span></header>
+<main id="m"><p class="note">Loading…</p></main>
+<div class="score" id="sc"></div>
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)};
+var lang="en";try{lang=localStorage.getItem("sul_lang")||"en"}catch(e){}
+var STEPS=[1,3,7,21];
+function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){}}
+function J(k,d){try{return JSON.parse(ls(k)||"")||d}catch(e){return d}}
+function E(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function x(o){return o&&typeof o==="object"?(o[lang]||o.en):o}
+function L(en,te){return lang==="te"?te:en}
+function norm(c){return String(c||"").toUpperCase().replace(/[^A-Z0-9]/g,"")}
+function b64(s){var b=atob(s),u=new Uint8Array(b.length);for(var i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u}
+function dec(k,by){return crypto.subtle.decrypt({name:"AES-GCM",iv:by.slice(0,12)},k,by.slice(12))}
+function keyOf(code,D){var e=new TextEncoder();return crypto.subtle.importKey("raw",e.encode(norm(code)),"PBKDF2",false,["deriveKey"]).then(function(k){return crypto.subtle.deriveKey({name:"PBKDF2",salt:b64(D.salt),iterations:D.iter,hash:"SHA-256"},k,{name:"AES-GCM",length:256},false,["decrypt"])})}
+function today(){var d=new Date();return d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2)+"-"+("0"+d.getDate()).slice(-2)}
+function addDays(s,n){var d=new Date(s+"T00:00:00");d.setDate(d.getDate()+n);return d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2)+"-"+("0"+d.getDate()).slice(-2)}
+function fmt(s){var d=new Date(s+"T00:00:00");return d.getDate()+" "+["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][d.getMonth()]}
+var IDX=[],CAP={},REV=J("sul_rev",{}),DONE=J("sul_revdone",{}),MIST=J("sul_mist",[]),QUIZ=null,ANS={},MODE="due";
+function save(){ls("sul_rev",JSON.stringify(REV));ls("sul_revdone",JSON.stringify(DONE));ls("sul_mist",JSON.stringify(MIST))}
+// which step of a topic is due (index) or -1
+function dueStep(id){var s=REV[id];if(!s)return -1;var d=DONE[id]||[],t=today();for(var i=0;i<STEPS.length;i++){if(d.indexOf(i)<0)return addDays(s,STEPS[i])<=t?i:-1}return -1}
+function R(n){return["I","II","III","IV","V","VI"][n]}
+function qH(it,i){var q=it.q,h='<div class="q" id="q'+i+'"><div class="tg">'+E(it.tag)+'</div><div class="n">'+(i+1)+'. '+E(x(q.q)).replace(/\n/g,"<br>")+'</div>';
+ if(q.st)h+=q.st.map(function(s,k){return'<div class="st">'+(q.plain?"":R(k)+". ")+E(x(s))+'</div>'}).join("");
+ if(q.ml){h+='<div class="ml"><div class="hd">'+L("List-I","జాబితా-I")+'</div><div class="hd">'+L("List-II","జాబితా-II")+'</div>';q.ml.l1.forEach(function(a,k){h+='<div>'+E(x(a))+'</div><div>'+E(x(q.ml.l2[k]))+'</div>'});h+='</div>'}
+ if(q.ask)h+='<div class="ask">'+E(x(q.ask))+'</div>';
+ h+=q.o.map(function(o,k){return'<button class="op" data-q="'+i+'" data-k="'+k+'">('+"abcd"[k]+') '+E(x(o))+'</button>'}).join("");
+ return h+'<div class="why"><b>'+L("Answer","జవాబు")+': ('+"abcd"[q.a]+')</b> — '+E(x(q.why))+'</div></div>'}
+function shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
+function load(){return fetch("caps/index.json?v="+Date.now()).then(function(r){return r.json()}).then(function(d){IDX=d;
+ return Promise.all(IDX.map(function(c){var code=ls("sul_cap_"+c.id);if(!code)return null;
+  return fetch("caps/"+c.id+".json?v="+Date.now()).then(function(r){return r.json()}).then(function(D){return keyOf(code,D).then(function(k){return dec(k,b64(D.enc))}).then(function(buf){CAP[c.id]={t:x(c.title),title:c.title,mcq:JSON.parse(new TextDecoder().decode(buf)).mcq}})}).catch(function(){})}))})}
+function startQuiz(mode){MODE=mode;var pool=[],t=today();
+ if(mode==="mist")MIST.forEach(function(m){var c=CAP[m.c];if(c&&c.mcq[m.i])pool.push({c:m.c,i:m.i,q:c.mcq[m.i],tag:x(c.title)})});
+ else{var ids=mode==="due"?Object.keys(CAP).filter(function(id){return dueStep(id)>=0}):Object.keys(CAP);
+  ids.forEach(function(id){CAP[id].mcq.forEach(function(q,i){pool.push({c:id,i:i,q:q,tag:x(CAP[id].title)})})})}
+ QUIZ=shuffle(pool).slice(0,mode==="mist"?20:10);ANS={};draw();setTimeout(function(){var el=$("quiz");if(el)el.scrollIntoView({behavior:"smooth"})},50)}
+function answer(i,k){if(ANS[i]!=null)return;ANS[i]=k;var it=QUIZ[i];
+ var ix=-1;MIST.forEach(function(m,j){if(m.c===it.c&&m.i===it.i)ix=j});
+ if(k!==it.q.a){if(ix<0)MIST.push({c:it.c,i:it.i,d:today()})}else if(MODE==="mist"&&ix>=0)MIST.splice(ix,1);
+ if(Object.keys(ANS).length===QUIZ.length&&MODE==="due"){var ids={};QUIZ.forEach(function(q){ids[q.c]=1});Object.keys(ids).forEach(function(id){var s=dueStep(id);if(s>=0){(DONE[id]=DONE[id]||[]).push(s)}})}
+ save();mark()}
+function mark(){if(!QUIZ)return;Object.keys(ANS).forEach(function(i){var el=$("q"+i);if(!el)return;el.classList.add("done");el.querySelectorAll(".op").forEach(function(b){var k=+b.getAttribute("data-k");b.disabled=true;if(k===QUIZ[i].q.a)b.classList.add("ok");else if(k===ANS[i])b.classList.add("no")})});
+ var n=Object.keys(ANS).length,ok=Object.keys(ANS).filter(function(i){return ANS[i]===QUIZ[i].q.a}).length,sc=$("sc");
+ if(!n){sc.style.display="none";return}sc.style.display="flex";
+ sc.innerHTML='<span>'+L("Score","స్కోరు")+': <b>'+ok+'</b> / '+n+' <small>('+QUIZ.length+')</small></span>'+(n===QUIZ.length?'<button class="btn line" id="fin" style="padding:6px 12px">'+L("Done ✓","పూర్తి ✓")+'</button>':'');
+ if($("fin"))$("fin").onclick=function(){QUIZ=null;ANS={};$("sc").style.display="none";draw();window.scrollTo(0,0)}}
+function draw(){document.documentElement.lang=lang;$("lte").className=lang==="te"?"on":"";$("len").className=lang==="en"?"on":"";
+ var t=today(),ids=Object.keys(CAP),due=ids.filter(function(id){return dueStep(id)>=0});
+ var h='<div class="hero"><h1>📅 '+L("Revise Today","ఈరోజు రివిజన్")+'</h1><p>'+L("Topics come back after 1, 3, 7 and 21 days. Test first, then read only what you got wrong — that is how they stay for months.","అంశాలు 1, 3, 7, 21 రోజుల తర్వాత మళ్లీ వస్తాయి. ముందు టెస్ట్, తర్వాత తప్పినవి మాత్రమే చదవండి — అలా నెలల పాటు గుర్తుంటాయి.")+'</p></div>';
+ if(!ids.length){h+='<div class="card">'+L("No unlocked topics on this phone yet. Unlock a topic, open it, and tap “I studied this topic today” — it will appear here for revision.","ఈ ఫోన్‌లో ఇంకా అన్‌లాక్ చేసిన అంశాలు లేవు. ఒక అంశాన్ని అన్‌లాక్ చేసి, తెరిచి, “ఈ అంశం ఈరోజు చదివాను” నొక్కండి — రివిజన్ కోసం ఇక్కడ కనిపిస్తుంది.")+'<p><a class="btn pri" href="caps.html">📰 '+L("Current Affairs 2026 — Topic-wise","కరెంట్ అఫైర్స్ 2026 — అంశాల వారీగా")+'</a></p></div>';$("m").innerHTML=h;return}
+ // due today
+ h+='<h2 class="sec">⏰ '+L("Due today","ఈరోజు రివిజన్")+'</h2>';
+ if(due.length)h+='<div class="card"><div>'+due.map(function(id){return'• <b>'+E(CAP[id].t)+'</b> — '+L("revision","రివిజన్")+' '+(dueStep(id)+1)+' / 4'}).join("<br>")+'</div><p><button class="btn pri" id="go">▶ '+L("Start revision test (10 MCQs)","రివిజన్ టెస్ట్ ప్రారంభించండి (10 ప్రశ్నలు)")+'</button></p><p class="note">'+L("Then look at each topic’s one-page picture once.","తర్వాత ప్రతి అంశం ఒక్క పేజీ చిత్రాన్ని ఒకసారి చూడండి.")+'</p></div>';
+ else h+='<div class="card">✅ '+L("Nothing due today.","ఈరోజు రివిజన్ ఏమీ లేదు.")+' <button class="btn line" id="any" style="padding:6px 12px">'+L("Practise 10 mixed MCQs anyway","అయినా 10 మిశ్రమ ప్రశ్నలు ప్రాక్టీస్")+'</button></div>';
+ // schedule
+ h+='<h2 class="sec">🗓️ '+L("My revision plan","నా రివిజన్ ప్రణాళిక")+'</h2>';
+ h+=ids.map(function(id){var s=REV[id],c=CAP[id];
+  if(!s)return'<div class="card due"><span><b>'+E(c.t)+'</b><br><span class="note">'+L("Not started","ఇంకా ప్రారంభించలేదు")+'</span></span><button class="btn line" data-start="'+id+'" style="padding:6px 12px;margin-left:auto">'+L("I studied it today","ఈరోజు చదివాను")+'</button></div>';
+  var d=DONE[id]||[],ds=dueStep(id);
+  return'<div class="card"><b>'+E(c.t)+'</b> <span class="note">· '+L("studied","చదివింది")+' '+fmt(s)+'</span><div>'+STEPS.map(function(n,i){var day=addDays(s,n),cl=d.indexOf(i)>=0?"ok":(i===ds?(day<t?"late":"now"):"");return'<span class="pill '+cl+'">'+(cl==="ok"?"✓ ":"")+L("Day ","")+n+(lang==="te"?"వ రోజు":"")+' · '+fmt(day)+'</span>'}).join("")+'</div>'+(d.length===4?'<div class="note">🎉 '+L("All 4 revisions done — this topic is now long-term.","4 రివిజన్లు పూర్తి — ఈ అంశం ఇక దీర్ఘకాలం గుర్తుంటుంది.")+'</div>':'')+'</div>'}).join("");
+ // mistakes
+ h+='<h2 class="sec">📕 '+L("My mistake notebook","నా తప్పుల నోట్‌బుక్")+' ('+MIST.length+')</h2>';
+ if(!MIST.length)h+='<div class="card note">'+L("Wrong answers from your topic tests and revision tests are saved here automatically.","అంశాల టెస్ట్‌లు, రివిజన్ టెస్ట్‌లలో తప్పిన ప్రశ్నలు ఇక్కడ ఆటోమేటిక్‌గా సేవ్ అవుతాయి.")+'</div>';
+ else{h+='<p><button class="btn g" id="mt">🔁 '+L("Re-test my mistakes","నా తప్పులపై మళ్లీ టెస్ట్")+'</button> <span class="note">'+L("Answer correctly and it leaves the notebook.","సరిగ్గా జవాబిస్తే నోట్‌బుక్ నుంచి తొలగుతుంది.")+'</span></p>';
+  h+='<details class="card"><summary><b>'+L("Read my mistakes (correct answers)","నా తప్పులు చదవండి (సరైన జవాబులు)")+'</b></summary>'+MIST.map(function(m,j){var c=CAP[m.c];if(!c||!c.mcq[m.i])return"";var q=c.mcq[m.i];
+   return'<div class="q mist"><div class="tg">'+E(c.t)+'</div><div class="n">'+E(x(q.q)).replace(/\n/g,"<br>")+'</div><div><b>('+"abcd"[q.a]+')</b> '+E(x(q.o[q.a]))+'</div><div class="why">'+E(x(q.why))+'</div><button class="btn line rm" data-rm="'+j+'">'+L("Got it — remove","అర్థమైంది — తొలగించు")+'</button></div>'}).join("")+'</details>'}
+ if(QUIZ)h+='<h2 class="sec" id="quiz">✍️ '+(MODE==="mist"?L("Mistake re-test","తప్పులపై మళ్లీ టెస్ట్"):L("Revision test","రివిజన్ టెస్ట్"))+'</h2>'+QUIZ.map(qH).join("");
+ h+='<div class="how"><b>'+L("How to use (2 minutes a day)","ఎలా వాడాలి (రోజుకు 2 నిమిషాలు)")+'</b><ol><li>'+L("Study a new topic → tap “I studied it today”.","కొత్త అంశం చదివి → “ఈరోజు చదివాను” నొక్కండి.")+'</li><li>'+L("Open this page every day; do the test if something is due.","ఈ పేజీని రోజూ తెరవండి; రివిజన్ ఉంటే టెస్ట్ రాయండి.")+'</li><li>'+L("On Sunday, re-test your mistake notebook.","ఆదివారం తప్పుల నోట్‌బుక్‌పై మళ్లీ టెస్ట్ రాయండి.")+'</li></ol><span class="note">'+L("Your plan is saved on this phone only.","మీ ప్రణాళిక ఈ ఫోన్‌లో మాత్రమే సేవ్ అవుతుంది.")+'</span></div>';
+ $("m").innerHTML=h;
+ if($("go"))$("go").onclick=function(){startQuiz("due")};if($("any"))$("any").onclick=function(){startQuiz("any")};if($("mt"))$("mt").onclick=function(){startQuiz("mist")};
+ document.querySelectorAll("[data-start]").forEach(function(b){b.onclick=function(){REV[b.getAttribute("data-start")]=today();save();draw()}});
+ document.querySelectorAll("[data-rm]").forEach(function(b){b.onclick=function(){MIST.splice(+b.getAttribute("data-rm"),1);save();draw()}});
+ document.querySelectorAll(".op").forEach(function(b){b.onclick=function(){answer(+b.getAttribute("data-q"),+b.getAttribute("data-k"))}});
+ mark()}
+$("lte").onclick=function(){lang="te";ls("sul_lang",lang);draw()};$("len").onclick=function(){lang="en";ls("sul_lang",lang);draw()};
+load().then(draw).catch(draw);
+})();
+</script>
+</body></html>
