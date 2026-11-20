@@ -1,0 +1,1971 @@
+{
+ "date": "2026-11-20",
+ "day": {
+  "en": "Friday, 20 November 2026",
+  "te": "శుక్రవారం, 20 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Indemnity",
+   "en": "money a defeated side is forced to pay for war losses",
+   "te": "యుద్ధ పరిహారం (ఓడినవారు చెల్లించే నష్టపరిహారం)",
+   "ex": "Under the Treaty of Seringapatam (1792), Tipu Sultan had to pay a war indemnity of three crore rupees.",
+   "topic": "tipu"
+  },
+  {
+   "w": "Accession",
+   "en": "joining a treaty that has already been negotiated and signed by others",
+   "te": "చేరిక (ఇతరులు ఇప్పటికే కుదుర్చుకున్న ఒప్పందంలో చేరడం)",
+   "ex": "India became a party to the Convention on the Rights of the Child by accession on 11 December 1992.",
+   "topic": "childday"
+  },
+  {
+   "w": "Tranche",
+   "en": "one part of a payment released in instalments",
+   "te": "విడత (దశలవారీగా విడుదల చేసే చెల్లింపులో ఒక భాగం)",
+   "ex": "Andhra Pradesh will release its share of chip-fab support after each tranche of Central assistance.",
+   "topic": "apsemicon"
+  },
+  {
+   "w": "Landfall",
+   "en": "the moment a storm's centre crosses from sea onto land",
+   "te": "తుపాను తీరం దాటడం",
+   "ex": "IMD expected Cyclone Akvan to make landfall between Narsapur and Puri on 20 November.",
+   "topic": "akvan"
+  },
+  {
+   "w": "Surveillance",
+   "en": "close, continuous watching and recording of data",
+   "te": "నిఘా / నిరంతర పర్యవేక్షణ",
+   "ex": "The writers want an environmental-health surveillance system that links air-quality data with hospital admissions.",
+   "topic": "airpollution"
+  }
+ ],
+ "items": [
+  {
+   "id": "tipu",
+   "kind": "day",
+   "color": "#8a4b14",
+   "icon": "shield",
+   "cf": [
+    0,
+    2,
+    3,
+    4,
+    5
+   ],
+   "tag": {
+    "en": "Birth anniversary · 20 Nov 1750",
+    "te": "జయంతి · 20 నవంబర్ 1750"
+   },
+   "title": {
+    "en": "Tipu Sultan — ruler of Mysore",
+    "te": "టిప్పు సుల్తాన్ — మైసూరు పాలకుడు"
+   },
+   "line": {
+    "en": "He fought the East India Company in the Anglo-Mysore Wars — the key chapter on how the British became masters of South India.",
+    "te": "ఆంగ్లో-మైసూరు యుద్ధాల్లో ఈస్ట్ ఇండియా కంపెనీతో పోరాడారు — దక్షిణ భారతదేశంపై బ్రిటిష్ ఆధిపత్యం ఎలా వచ్చిందో చెప్పే ముఖ్య అధ్యాయం."
+   },
+   "easy": [
+    {
+     "en": "Mysore was the strongest power in South India in the late 1700s. Hyder Ali and then his son Tipu Sultan fought four wars with the English East India Company. The Company often joined hands with the Nizam of Hyderabad and the Marathas against Mysore.",
+     "te": "1700ల చివర్లో దక్షిణ భారతదేశంలో మైసూరు బలమైన రాజ్యం. హైదర్ అలీ, తర్వాత ఆయన కుమారుడు టిప్పు సుల్తాన్ ఈస్ట్ ఇండియా కంపెనీతో నాలుగు యుద్ధాలు చేశారు. మైసూరుకు వ్యతిరేకంగా కంపెనీ తరచూ హైదరాబాద్ నిజాం, మరాఠాలతో చేతులు కలిపింది."
+    },
+    {
+     "en": "Tipu was trained by French officers and sought French help against the British. He lost half his kingdom in 1792 and died defending his capital Seringapatam on 4 May 1799. After that, Mysore was given back to the Wodeyar family under British control (Subsidiary Alliance).",
+     "te": "టిప్పుకు ఫ్రెంచ్ అధికారులు సైనిక శిక్షణ ఇచ్చారు; బ్రిటిష్‌పై పోరాటానికి ఫ్రెంచ్ సహాయం కోరారు. 1792లో సగం రాజ్యాన్ని కోల్పోయారు; 1799 మే 4న రాజధాని శ్రీరంగపట్నాన్ని కాపాడుతూ మరణించారు. ఆ తర్వాత మైసూరును బ్రిటిష్ నియంత్రణలో (సైన్య సహకార పద్ధతి) వొడయార్ వంశానికి తిరిగి అప్పగించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "20 November 1750, Devanahalli (north of present-day Bengaluru)",
+      "te": "20 నవంబర్ 1750, దేవనహళ్లి (ప్రస్తుత బెంగళూరుకు ఉత్తరాన)"
+     }
+    ],
+    [
+     {
+      "en": "Father",
+      "te": "తండ్రి"
+     },
+     {
+      "en": "Hyder Ali",
+      "te": "హైదర్ అలీ"
+     }
+    ],
+    [
+     {
+      "en": "Became ruler",
+      "te": "పాలకుడైంది"
+     },
+     {
+      "en": "December 1782, after Hyder Ali's death (during the 2nd war)",
+      "te": "డిసెంబర్ 1782, హైదర్ అలీ మరణం తర్వాత (2వ యుద్ధం జరుగుతుండగా)"
+     }
+    ],
+    [
+     {
+      "en": "2nd war ends",
+      "te": "2వ యుద్ధం ముగింపు"
+     },
+     {
+      "en": "Treaty of Mangalore, March 1784 — both sides returned conquered areas",
+      "te": "మంగళూరు ఒప్పందం, మార్చి 1784 — ఇరుపక్షాలు స్వాధీన ప్రాంతాలను తిరిగి ఇచ్చుకున్నాయి"
+     }
+    ],
+    [
+     {
+      "en": "3rd war ends",
+      "te": "3వ యుద్ధం ముగింపు"
+     },
+     {
+      "en": "Treaty of Seringapatam, 1792 — about half of Mysore lost, ₹3 crore indemnity, two sons kept as hostages",
+      "te": "శ్రీరంగపట్నం ఒప్పందం, 1792 — మైసూరులో దాదాపు సగం భూభాగం కోల్పోయారు, ₹3 కోట్ల యుద్ధ పరిహారం, ఇద్దరు కుమారులు బందీలుగా"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "4 May 1799, Seringapatam (Srirangapatna) — 4th war, Governor-General Wellesley",
+      "te": "4 మే 1799, శ్రీరంగపట్నం — 4వ యుద్ధం, గవర్నర్ జనరల్ వెల్లెస్లీ"
+     }
+    ],
+    [
+     {
+      "en": "French link",
+      "te": "ఫ్రెంచ్ సంబంధం"
+     },
+     {
+      "en": "Jacobin Club at Seringapatam (1797), called 'Citizen Tipu', planted a 'Tree of Liberty'",
+      "te": "శ్రీరంగపట్నంలో జాకోబిన్ క్లబ్ (1797), 'సిటిజన్ టిప్పు'గా పిలువబడ్డారు, 'స్వేచ్ఛా వృక్షం' నాటారు"
+     }
+    ],
+    [
+     {
+      "en": "Also",
+      "te": "ఇంకా"
+     },
+     {
+      "en": "Developed Mysore rockets, built roads, new coinage, promoted silk",
+      "te": "మైసూరు రాకెట్లను అభివృద్ధి చేశారు, రోడ్లు, కొత్త నాణేలు, పట్టు పరిశ్రమ ప్రోత్సాహం"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Anglo-Mysore Wars and Andhra",
+     "te": "లింక్ చెయిన్ · ఆంగ్లో-మైసూరు యుద్ధాలు, ఆంధ్ర"
+    },
+    "l": [
+     {
+      "en": "1st war 1767–69 → Treaty of Madras (4 April 1769) — prisoners and areas exchanged",
+      "te": "1వ యుద్ధం 1767–69 → మద్రాసు ఒప్పందం (4 ఏప్రిల్ 1769) — ఖైదీలు, ప్రాంతాల మార్పిడి"
+     },
+     {
+      "en": "3rd war 1790–92: Cornwallis led; the Nizam got the area from the Krishna to the Pennar (Penna)",
+      "te": "3వ యుద్ధం 1790–92: కార్న్‌వాలిస్ నాయకత్వం; కృష్ణా నుంచి పెన్నా వరకు ప్రాంతం నిజాంకు దక్కింది"
+     },
+     {
+      "en": "After 1799 the Nizam got Gooty and Gurramkonda — places in today's Andhra Pradesh",
+      "te": "1799 తర్వాత గుత్తి, గుర్రంకొండ నిజాంకు దక్కాయి — ఇవి నేటి ఆంధ్రప్రదేశ్‌లోని ప్రాంతాలు"
+     },
+     {
+      "en": "Subsidiary Alliance (Wellesley, 1798): Mysore under minor Wodeyar ruler Krishnaraja III accepted it",
+      "te": "సైన్య సహకార పద్ధతి (వెల్లెస్లీ, 1798): మైనర్ వొడయార్ పాలకుడు కృష్ణరాజ III కింద మైసూరు దీన్ని అంగీకరించింది"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Mangalore (1784) ended the 2nd war, Seringapatam (1792) the 3rd — examiners swap them. Cornwallis = 3rd war; Wellesley = 4th war (1799). Tipu was not the ruler during the 1st war — Hyder Ali was.",
+    "te": "మంగళూరు (1784) 2వ యుద్ధాన్ని, శ్రీరంగపట్నం (1792) 3వ యుద్ధాన్ని ముగించాయి — పరీక్షల్లో వీటిని తారుమారు చేస్తారు. కార్న్‌వాలిస్ = 3వ యుద్ధం; వెల్లెస్లీ = 4వ యుద్ధం (1799). 1వ యుద్ధంలో పాలకుడు హైదర్ అలీ, టిప్పు కాదు."
+   },
+   "tip": {
+    "en": "Treaty order M-M-S: Madras (69) → Mangalore (84) → Seringapatam (92); then 99 = the end.",
+    "te": "ఒప్పందాల క్రమం M-M-S: మద్రాసు (69) → మంగళూరు (84) → శ్రీరంగపట్నం (92); 99 = ముగింపు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the Anglo-Mysore Wars, consider the following statements:",
+     "te": "ఆంగ్లో-మైసూరు యుద్ధాలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The Treaty of Mangalore (1784) ended the Second Anglo-Mysore War.",
+      "te": "I. మంగళూరు ఒప్పందం (1784) రెండో ఆంగ్లో-మైసూరు యుద్ధాన్ని ముగించింది."
+     },
+     {
+      "en": "II. Lord Wellesley led the Company in the Third Anglo-Mysore War.",
+      "te": "II. మూడో ఆంగ్లో-మైసూరు యుద్ధంలో లార్డ్ వెల్లెస్లీ కంపెనీకి నాయకత్వం వహించారు."
+     },
+     {
+      "en": "III. Under the Treaty of Seringapatam (1792), two of Tipu's sons were taken as hostages.",
+      "te": "III. శ్రీరంగపట్నం ఒప్పందం (1792) ప్రకారం టిప్పు ఇద్దరు కుమారులను బందీలుగా తీసుకున్నారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II is wrong: Cornwallis led the 3rd war (1790–92); Wellesley came in 1798 for the 4th war.",
+     "te": "II తప్పు: 3వ యుద్ధానికి (1790–92) కార్న్‌వాలిస్ నాయకత్వం; వెల్లెస్లీ 1798లో వచ్చి 4వ యుద్ధం చేశారు."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Tipu Sultan and the four wars",
+      "te": "టిప్పు సుల్తాన్, నాలుగు యుద్ధాలు"
+     },
+     "items": [
+      {
+       "y": "1750",
+       "t": {
+        "en": "Born at Devanahalli (20 Nov)",
+        "te": "దేవనహళ్లిలో జననం (20 నవం)"
+       }
+      },
+      {
+       "y": "1769",
+       "t": {
+        "en": "1st war ends — Treaty of Madras",
+        "te": "1వ యుద్ధం ముగింపు — మద్రాసు ఒప్పందం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1782",
+       "t": {
+        "en": "Becomes ruler (Dec)",
+        "te": "పాలకుడయ్యారు (డిసెం)"
+       }
+      },
+      {
+       "y": "1784",
+       "t": {
+        "en": "2nd war ends — Treaty of Mangalore",
+        "te": "2వ యుద్ధం ముగింపు — మంగళూరు ఒప్పందం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1792",
+       "t": {
+        "en": "3rd war ends — Treaty of Seringapatam, half territory lost",
+        "te": "3వ యుద్ధం ముగింపు — శ్రీరంగపట్నం ఒప్పందం, సగం భూభాగం నష్టం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1797",
+       "t": {
+        "en": "Jacobin Club at Seringapatam",
+        "te": "శ్రీరంగపట్నంలో జాకోబిన్ క్లబ్"
+       }
+      },
+      {
+       "y": "1799",
+       "t": {
+        "en": "4th war — dies defending Seringapatam (4 May)",
+        "te": "4వ యుద్ధం — శ్రీరంగపట్నం రక్షణలో మరణం (4 మే)"
+       },
+       "hl": 1
+      }
+     ],
+     "cap": {
+      "en": "Bold = treaty years most asked: 69 → 84 → 92 → 99.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే సంవత్సరాలు: 69 → 84 → 92 → 99."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Britannica — Tippu Sultan (sultan of Mysore)",
+     "u": "https://www.britannica.com/print/article/596747"
+    },
+    {
+     "t": "Maps of India — 20th November 1750: Tipu Sultan, the king of Mysore, was born",
+     "u": "https://www.mapsofindia.com/on-this-day/20th-november-1750-tipu-sultan-the-king-of-mysore-was-born"
+    },
+    {
+     "t": "Drishti IAS — Anglo-Mysore Wars (cross-check)",
+     "u": "https://www.drishtiias.com/to-the-points/paper1/anglo-mysore-wars"
+    },
+    {
+     "t": "World History Encyclopedia — Anglo-Mysore Wars",
+     "u": "https://www.worldhistory.org/Anglo-Mysore_Wars"
+    }
+   ]
+  },
+  {
+   "id": "childday",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "calendar",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "tag": {
+    "en": "UN Day · 20 November",
+    "te": "ఐరాస దినోత్సవం · 20 నవంబర్"
+   },
+   "title": {
+    "en": "World Children's Day",
+    "te": "ప్రపంచ బాలల దినోత్సవం"
+   },
+   "line": {
+    "en": "2026 theme (UNICEF): 'My day, my rights, my future' — children speaking up for their own rights.",
+    "te": "2026 థీమ్ (UNICEF): 'My day, my rights, my future' — తమ హక్కుల గురించి పిల్లలే మాట్లాడటం."
+   },
+   "easy": [
+    {
+     "en": "A child cannot vote or go to court alone, so the world agreed on a special list of child rights. 20 November is the day the UN General Assembly adopted two key documents on children: the Declaration of the Rights of the Child (1959) and the Convention on the Rights of the Child, CRC (1989).",
+     "te": "పిల్లలు ఓటు వేయలేరు, ఒంటరిగా కోర్టుకు వెళ్లలేరు; అందుకే ప్రపంచం పిల్లల కోసం ప్రత్యేక హక్కుల జాబితాను అంగీకరించింది. పిల్లలపై రెండు ముఖ్య పత్రాలను ఐరాస సర్వసభ్య సమావేశం ఆమోదించిన రోజు నవంబర్ 20: బాలల హక్కుల ప్రకటన (1959), బాలల హక్కుల ఒడంబడిక — CRC (1989)."
+    },
+    {
+     "en": "The CRC is a binding treaty and the most widely ratified human rights treaty in history. India joined it on 11 December 1992 by 'accession'. The 2026 campaign asks adults to listen to children: 'My day, my rights, my future'.",
+     "te": "CRC కట్టుబడి ఉండాల్సిన ఒప్పందం; చరిత్రలో అత్యధిక దేశాలు ఆమోదించిన మానవ హక్కుల ఒప్పందం ఇదే. భారత్ 1992 డిసెంబర్ 11న 'అక్సెషన్' (చేరిక) ద్వారా ఇందులో చేరింది. 2026 ప్రచారం పెద్దలను పిల్లల మాట వినమంటోంది: 'My day, my rights, my future'."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "2026 theme",
+      "te": "2026 థీమ్"
+     },
+     {
+      "en": "My day, my rights, my future",
+      "te": "My day, my rights, my future"
+     }
+    ],
+    [
+     {
+      "en": "1954",
+      "te": "1954"
+     },
+     {
+      "en": "UNGA Resolution 836 (IX) recommended a Universal Children's Day",
+      "te": "ఐరాస తీర్మానం 836 (IX) — సార్వత్రిక బాలల దినోత్సవం జరపాలని సిఫార్సు"
+     }
+    ],
+    [
+     {
+      "en": "20 Nov 1959",
+      "te": "20 నవం 1959"
+     },
+     {
+      "en": "UNGA adopted the Declaration of the Rights of the Child",
+      "te": "బాలల హక్కుల ప్రకటనను ఐరాస ఆమోదించింది"
+     }
+    ],
+    [
+     {
+      "en": "20 Nov 1989",
+      "te": "20 నవం 1989"
+     },
+     {
+      "en": "UNGA adopted the Convention on the Rights of the Child (CRC) — 54 articles",
+      "te": "బాలల హక్కుల ఒడంబడిక (CRC) ఆమోదం — 54 అధికరణలు"
+     }
+    ],
+    [
+     {
+      "en": "2 Sep 1990",
+      "te": "2 సెప్టెం 1990"
+     },
+     {
+      "en": "CRC entered into force",
+      "te": "CRC అమల్లోకి వచ్చింది"
+     }
+    ],
+    [
+     {
+      "en": "India",
+      "te": "భారత్"
+     },
+     {
+      "en": "Acceded to the CRC on 11 December 1992",
+      "te": "1992 డిసెంబర్ 11న CRCలో చేరింది (accession)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Child rights",
+     "te": "లింక్ చెయిన్ · బాలల హక్కులు"
+    },
+    "l": [
+     {
+      "en": "Declaration (1959) = statement of principles; Convention (1989) = binding treaty",
+      "te": "ప్రకటన (1959) = సూత్రాల ప్రకటన మాత్రమే; ఒడంబడిక (1989) = కట్టుబడి ఉండాల్సిన ఒప్పందం"
+     },
+     {
+      "en": "CRC = the most widely ratified human rights treaty in history (UNICEF)",
+      "te": "CRC = చరిత్రలో అత్యధికంగా ఆమోదం పొందిన మానవ హక్కుల ఒప్పందం (UNICEF)"
+     },
+     {
+      "en": "UNICEF 'Go Blue' campaign: historic buildings, including in India, are lit blue on this day",
+      "te": "UNICEF 'గో బ్లూ' ప్రచారం: ఈ రోజు భారత్‌తో సహా పలు చారిత్రక కట్టడాలు నీలి రంగులో వెలుగుతాయి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Same date, two years: 1959 = Declaration, 1989 = Convention. The 1954 resolution only RECOMMENDED a children's day. India 'acceded' to the CRC in 1992 — it did not sign it in 1989.",
+    "te": "ఒకే తేదీ, రెండు సంవత్సరాలు: 1959 = ప్రకటన, 1989 = ఒడంబడిక. 1954 తీర్మానం బాలల దినోత్సవాన్ని సిఫార్సు మాత్రమే చేసింది. భారత్ 1992లో CRCలో 'చేరింది' — 1989లో సంతకం చేయలేదు."
+   },
+   "tip": {
+    "en": "59 → 'D' (Declaration), 89 → 'C' (Convention), 92 → India joins. Alphabet goes backwards: D then C.",
+    "te": "59 → 'D' (డిక్లరేషన్), 89 → 'C' (కన్వెన్షన్), 92 → భారత్ చేరిక. అక్షరాలు వెనక్కి: D తర్వాత C."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about World Children's Day (20 November):",
+     "te": "ప్రపంచ బాలల దినోత్సవం (నవంబర్ 20)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The date marks the adoption of both the Declaration of the Rights of the Child and the Convention on the Rights of the Child.",
+      "te": "I. బాలల హక్కుల ప్రకటన, బాలల హక్కుల ఒడంబడిక — రెండింటి ఆమోదాన్ని ఈ తేదీ గుర్తు చేస్తుంది."
+     },
+     {
+      "en": "II. The Convention on the Rights of the Child entered into force in 1989.",
+      "te": "II. బాలల హక్కుల ఒడంబడిక 1989లో అమల్లోకి వచ్చింది."
+     },
+     {
+      "en": "III. India acceded to the Convention in 1992.",
+      "te": "III. భారత్ 1992లో ఒడంబడికలో చేరింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II is wrong: the CRC was adopted in 1989 but entered into force on 2 September 1990.",
+     "te": "II తప్పు: CRC 1989లో ఆమోదం పొందింది, కానీ 1990 సెప్టెంబర్ 2న అమల్లోకి వచ్చింది."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Child rights in dates",
+      "te": "తేదీల్లో బాలల హక్కులు"
+     },
+     "items": [
+      {
+       "y": "1954",
+       "t": {
+        "en": "UN recommends a Universal Children's Day",
+        "te": "సార్వత్రిక బాలల దినోత్సవానికి ఐరాస సిఫార్సు"
+       }
+      },
+      {
+       "y": "1959",
+       "t": {
+        "en": "Declaration of the Rights of the Child (20 Nov)",
+        "te": "బాలల హక్కుల ప్రకటన (20 నవం)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1989",
+       "t": {
+        "en": "Convention on the Rights of the Child (20 Nov)",
+        "te": "బాలల హక్కుల ఒడంబడిక (20 నవం)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1990",
+       "t": {
+        "en": "CRC enters into force (2 Sep)",
+        "te": "CRC అమల్లోకి (2 సెప్టెం)"
+       }
+      },
+      {
+       "y": "1992",
+       "t": {
+        "en": "India accedes (11 Dec)",
+        "te": "భారత్ చేరిక (11 డిసెం)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "Theme: My day, my rights, my future",
+        "te": "థీమ్: My day, my rights, my future"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = most asked: 59 (Declaration), 89 (Convention), 92 (India).",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగేవి: 59 (ప్రకటన), 89 (ఒడంబడిక), 92 (భారత్)."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "UNICEF — World Children's Day 2026: My day, my rights, my future",
+     "u": "https://www.unicef.org/world-childrens-day"
+    },
+    {
+     "t": "UNICEF Malaysia — World Children's Day 2026",
+     "u": "https://www.unicef.org/malaysia/world-childrens-day"
+    },
+    {
+     "t": "Vajiram & Ravi — World Children's Day 2026: theme and history (cross-check)",
+     "u": "https://vajiramandravi.com/current-affairs/world-childrens-day-2026/"
+    }
+   ]
+  },
+  {
+   "id": "apsemicon",
+   "kind": "article",
+   "color": "#2f6b2f",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "AP Government · G.O.Ms.No.87 · reported 18 Nov 2026",
+    "te": "ఏపీ ప్రభుత్వం · జీ.ఓ.ఎంఎస్.నం.87 · 18 నవంబర్ 2026 వార్త"
+   },
+   "tag": {
+    "en": "Explained · AP Economy / GS-III Industry",
+    "te": "వివరణ · ఏపీ ఆర్థిక వ్యవస్థ / GS-III పరిశ్రమలు"
+   },
+   "title": {
+    "en": "AP amends its Semiconductor Policy 4.0: up to 80% capital support for chip fabs",
+    "te": "సెమీకండక్టర్ పాలసీ 4.0కు ఏపీ సవరణ: చిప్ ఫ్యాబ్‌లకు 80% వరకు మూలధన సాయం"
+   },
+   "line": {
+    "en": "AP will match the Centre's support rupee for rupee under ISM Semicon 2.0 and plans a 5,000-acre Semiconductor Park at Tirupati.",
+    "te": "ISM సెమికాన్ 2.0 కింద కేంద్రం ఇచ్చే సాయానికి సమానంగా ఏపీ కూడా ఇస్తుంది; తిరుపతిలో 5,000 ఎకరాల సెమీకండక్టర్ పార్క్ ప్రణాళిక."
+   },
+   "easy": [
+    {
+     "en": "A semiconductor chip is the 'brain' inside phones, cars and computers. A chip factory (fab) costs thousands of crores, so governments share the capital cost. The Centre's India Semiconductor Mission is now in its second phase, 'ISM Semicon 2.0'.",
+     "te": "ఫోన్లు, కార్లు, కంప్యూటర్లలో ఉండే 'మెదడు' సెమీకండక్టర్ చిప్. చిప్ ఫ్యాక్టరీ (ఫ్యాబ్)కి వేల కోట్లు ఖర్చవుతుంది; అందుకే ప్రభుత్వాలు మూలధన వ్యయంలో వాటా భరిస్తాయి. కేంద్రం ఇండియా సెమీకండక్టర్ మిషన్ ఇప్పుడు రెండో దశ 'ISM సెమికాన్ 2.0'లో ఉంది."
+    },
+    {
+     "en": "By G.O.Ms.No.87 (16 Nov 2026), Andhra Pradesh amended its Semiconductor & Display Fab Policy 4.0. For a silicon fab approved under Semicon 2.0, the Centre gives 40% and AP adds 40% — 80% in total, higher than Odisha and Tamil Nadu (65%). The State's share is released after each Central tranche.",
+     "te": "జీ.ఓ.ఎంఎస్.నం.87 (16 నవం 2026) ద్వారా ఏపీ తన సెమీకండక్టర్ & డిస్‌ప్లే ఫ్యాబ్ పాలసీ 4.0ను సవరించింది. సెమికాన్ 2.0 కింద ఆమోదం పొందిన సిలికాన్ ఫ్యాబ్‌కు కేంద్రం 40%, ఏపీ 40% — మొత్తం 80%; ఇది ఒడిశా, తమిళనాడు (65%) కన్నా ఎక్కువ. కేంద్రం ప్రతి విడత (tranche) ఇచ్చిన తర్వాతే రాష్ట్ర వాటా విడుదల అవుతుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Order",
+      "te": "ఉత్తర్వు"
+     },
+     {
+      "en": "G.O.Ms.No.87, 16 November 2026 — amends Semiconductor & Display Fab Policy 4.0",
+      "te": "జీ.ఓ.ఎంఎస్.నం.87, 16 నవంబర్ 2026 — సెమీకండక్టర్ & డిస్‌ప్లే ఫ్యాబ్ పాలసీ 4.0 సవరణ"
+     }
+    ],
+    [
+     {
+      "en": "Silicon fab",
+      "te": "సిలికాన్ ఫ్యాబ్"
+     },
+     {
+      "en": "80% of eligible capital cost = 40% Centre + 40% AP",
+      "te": "అర్హ మూలధన వ్యయంలో 80% = కేంద్రం 40% + ఏపీ 40%"
+     }
+    ],
+    [
+     {
+      "en": "Other fabs",
+      "te": "ఇతర ఫ్యాబ్‌లు"
+     },
+     {
+      "en": "Compound, photonics, sensor, display fabs & advanced packaging: 70% combined; legacy packaging: 50%",
+      "te": "కాంపౌండ్, ఫోటోనిక్స్, సెన్సర్, డిస్‌ప్లే ఫ్యాబ్‌లు, అడ్వాన్స్‌డ్ ప్యాకేజింగ్: మొత్తం 70%; లెగసీ ప్యాకేజింగ్: 50%"
+     }
+    ],
+    [
+     {
+      "en": "Caps",
+      "te": "పరిమితులు"
+     },
+     {
+      "en": "State incentives ≤ 50% of eligible fixed capital; all sources together ≤ 90%",
+      "te": "రాష్ట్ర ప్రోత్సాహకాలు ≤ అర్హ స్థిర మూలధనంలో 50%; అన్ని వనరులు కలిపి ≤ 90%"
+     }
+    ],
+    [
+     {
+      "en": "Coverage",
+      "te": "పరిధి"
+     },
+     {
+      "en": "All 10 Semicon 2.0 categories under six pillars: design, machines & materials, fabs, packaging, R&D, talent",
+      "te": "సెమికాన్ 2.0 లోని 10 విభాగాలు, 6 స్తంభాలు: డిజైన్, యంత్రాలు & పదార్థాలు, ఫ్యాబ్‌లు, ప్యాకేజింగ్, R&D, ప్రతిభ"
+     }
+    ],
+    [
+     {
+      "en": "Park",
+      "te": "పార్క్"
+     },
+     {
+      "en": "Semiconductor Park at Tirupati, about 5,000 acres (planned)",
+      "te": "తిరుపతిలో సుమారు 5,000 ఎకరాల సెమీకండక్టర్ పార్క్ (ప్రణాళిక)"
+     }
+    ],
+    [
+     {
+      "en": "Institutions",
+      "te": "సంస్థలు"
+     },
+     {
+      "en": "APSGIC (single window), AP-SRIC (research, starts at IIT Tirupati), AP-STCC (training: ₹10,000 per trainee per month for 6 months)",
+      "te": "APSGIC (సింగిల్ విండో), AP-SRIC (పరిశోధన, IIT తిరుపతిలో ప్రారంభం), AP-STCC (శిక్షణ: ఒక్కో ట్రైనీకి నెలకు ₹10,000, 6 నెలలు)"
+     }
+    ],
+    [
+     {
+      "en": "Validity",
+      "te": "కాలపరిమితి"
+     },
+     {
+      "en": "Five years or until a new policy replaces it",
+      "te": "ఐదేళ్లు లేదా కొత్త పాలసీ వచ్చే వరకు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Industry policy and federalism",
+     "te": "లింక్ చెయిన్ · పారిశ్రామిక విధానం, సమాఖ్య వ్యవస్థ"
+    },
+    "l": [
+     {
+      "en": "Centre–State 'top-up' model: the State releases its share only after each Central tranche — co-operative federalism in industry",
+      "te": "కేంద్ర–రాష్ట్ర 'టాప్-అప్' నమూనా: కేంద్ర విడత తర్వాతే రాష్ట్ర వాటా — పరిశ్రమల్లో సహకార సమాఖ్య వ్యవస్థ"
+     },
+     {
+      "en": "Deployment-linked incentive: Centre 9% + AP 4.5% of net sales = 13.5% (cap ₹45 crore per application)",
+      "te": "డిప్లాయ్‌మెంట్-లింక్డ్ ప్రోత్సాహకం: నికర అమ్మకాలపై కేంద్రం 9% + ఏపీ 4.5% = 13.5% (ఒక్కో దరఖాస్తుకు ₹45 కోట్ల పరిమితి)"
+     },
+     {
+      "en": "Mega (₹1,000–5,000 crore) and ultra-mega (above ₹5,000 crore) projects: tailor-made packages by the State Investment Promotion Board chaired by the CM",
+      "te": "మెగా (₹1,000–5,000 కోట్లు), అల్ట్రా-మెగా (₹5,000 కోట్లకు పైగా) ప్రాజెక్టులకు సీఎం అధ్యక్షతన రాష్ట్ర పెట్టుబడుల ప్రోత్సాహక బోర్డు ప్రత్యేక ప్యాకేజీలు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "80% is for SILICON fabs only (40 + 40). Display and compound fabs get 70%, legacy packaging 50%. The park is at Tirupati (not Visakhapatnam), and the research centre starts at IIT Tirupati.",
+    "te": "80% కేవలం సిలికాన్ ఫ్యాబ్‌లకే (40 + 40). డిస్‌ప్లే, కాంపౌండ్ ఫ్యాబ్‌లకు 70%, లెగసీ ప్యాకేజింగ్‌కు 50%. పార్క్ తిరుపతిలో (విశాఖపట్నంలో కాదు); పరిశోధనా కేంద్రం IIT తిరుపతిలో ప్రారంభం."
+   },
+   "tip": {
+    "en": "8-7-5 ladder: Silicon 80 → Special fabs 70 → Legacy packaging 50.",
+    "te": "8-7-5 నిచ్చెన: సిలికాన్ 80 → ప్రత్యేక ఫ్యాబ్‌లు 70 → లెగసీ ప్యాకేజింగ్ 50."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Andhra Pradesh's amended Semiconductor & Display Fab Policy 4.0 (Nov 2026), consider the following statements:",
+     "te": "ఏపీ సవరించిన సెమీకండక్టర్ & డిస్‌ప్లే ఫ్యాబ్ పాలసీ 4.0 (నవం 2026)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. A silicon fab approved under ISM Semicon 2.0 can get 80% of eligible capital cost, shared equally by the Centre and the State.",
+      "te": "I. ISM సెమికాన్ 2.0 కింద ఆమోదం పొందిన సిలికాన్ ఫ్యాబ్‌కు అర్హ మూలధన వ్యయంలో 80% — కేంద్రం, రాష్ట్రం సమానంగా భరిస్తాయి."
+     },
+     {
+      "en": "II. Display fabs get the same 80% combined support as silicon fabs.",
+      "te": "II. సిలికాన్ ఫ్యాబ్‌లలాగే డిస్‌ప్లే ఫ్యాబ్‌లకూ మొత్తం 80% సాయం."
+     },
+     {
+      "en": "III. The State's share is released only after each tranche of Central support.",
+      "te": "III. ప్రతి కేంద్ర విడత తర్వాతే రాష్ట్ర వాటా విడుదల అవుతుంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "II is wrong: display fabs get 70% combined; only silicon fabs get 80%.",
+     "te": "II తప్పు: డిస్‌ప్లే ఫ్యాబ్‌లకు మొత్తం 70%; 80% కేవలం సిలికాన్ ఫ్యాబ్‌లకే."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Capital support for a silicon fab — state comparison (%)",
+      "te": "సిలికాన్ ఫ్యాబ్‌కు మూలధన సాయం — రాష్ట్రాల పోలిక (%)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Andhra Pradesh",
+        "te": "ఆంధ్రప్రదేశ్"
+       },
+       "v": 80,
+       "vl": "80%"
+      },
+      {
+       "t": {
+        "en": "Odisha",
+        "te": "ఒడిశా"
+       },
+       "v": 65,
+       "vl": "65%"
+      },
+      {
+       "t": {
+        "en": "Tamil Nadu",
+        "te": "తమిళనాడు"
+       },
+       "v": 65,
+       "vl": "65%"
+      },
+      {
+       "t": {
+        "en": "Uttar Pradesh",
+        "te": "ఉత్తర ప్రదేశ్"
+       },
+       "v": 60,
+       "vl": "60%"
+      },
+      {
+       "t": {
+        "en": "Madhya Pradesh",
+        "te": "మధ్య ప్రదేశ్"
+       },
+       "v": 60,
+       "vl": "60%"
+      },
+      {
+       "t": {
+        "en": "Gujarat",
+        "te": "గుజరాత్"
+       },
+       "v": 56,
+       "vl": "56%"
+      }
+     ],
+     "cap": {
+      "en": "Combined Centre + State support, as stated by the AP government (Nov 2026).",
+      "te": "కేంద్ర + రాష్ట్ర మొత్తం సాయం, ఏపీ ప్రభుత్వం పేర్కొన్న ప్రకారం (నవం 2026)."
+     }
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Where: Semiconductor Park, Tirupati",
+      "te": "ఎక్కడ: సెమీకండక్టర్ పార్క్, తిరుపతి"
+     },
+     "view": "ap",
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#2f6b2f",
+     "pts": [
+      {
+       "ll": [
+        13.63,
+        79.42
+       ],
+       "t": {
+        "en": "Tirupati — park + IIT",
+        "te": "తిరుపతి — పార్క్ + IIT"
+       }
+      },
+      {
+       "ll": [
+        16.51,
+        80.52
+       ],
+       "t": {
+        "en": "Amaravati",
+        "te": "అమరావతి"
+       }
+      }
+     ],
+     "cap": {
+      "en": "~5,000-acre park planned; AP-SRIC starts at IIT Tirupati.",
+      "te": "~5,000 ఎకరాల పార్క్ ప్రణాళిక; AP-SRIC IIT తిరుపతిలో ప్రారంభం."
+     },
+     "src": "cards/2026-11-20/map-apsemicon-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Communications Today (from The Hindu BusinessLine) — Andhra offers up to 80% capital support under new semiconductor policy, 18 Nov 2026",
+     "u": "https://www.communicationstoday.co.in/andhra-offers-up-to-80-capital-support-under-new-semiconductor-policy/"
+    },
+    {
+     "t": "IANS via SocialNews.XYZ — Andhra Pradesh launches semiconductor policy; plans 5,000-acre Semiconductor Park, 18 Nov 2026",
+     "u": "https://www.socialnews.xyz/2026/11/18/andhra-pradesh-launches-semiconductor-policy-plans-5000-acre-semiconductor-park/"
+    },
+    {
+     "t": "IANS via Punjab Kesari English — Andhra Pradesh semiconductor policy, 18 Nov 2026",
+     "u": "https://english.punjabkesari.com/india/andhra-pradesh-launches-semiconductor-policy-plans-5000-acre-semiconductor-park"
+    }
+   ],
+   "mains": {
+    "en": "Andhra Pradesh now offers one of the highest capital supports in India for semiconductor fabs. Discuss how Centre–State 'top-up' incentives can build a chip ecosystem in AP, and what risks such high subsidies carry for state finances.",
+    "te": "సెమీకండక్టర్ ఫ్యాబ్‌లకు దేశంలోనే అత్యధిక మూలధన సాయాల్లో ఒకదాన్ని ఏపీ ఇప్పుడు అందిస్తోంది. కేంద్ర–రాష్ట్ర 'టాప్-అప్' ప్రోత్సాహకాలు ఏపీలో చిప్ వ్యవస్థను ఎలా నిర్మించగలవో, ఇంత భారీ సబ్సిడీలు రాష్ట్ర ఆర్థిక వ్యవస్థకు ఎలాంటి ముప్పులు తెస్తాయో చర్చించండి."
+   }
+  },
+  {
+   "id": "akvan",
+   "kind": "article",
+   "color": "#2c5d63",
+   "icon": "shield",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "All India Radio · IMD updates · 17–19 Nov 2026",
+    "te": "ఆల్ ఇండియా రేడియో · IMD అప్‌డేట్లు · 17–19 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-I Geography / GS-III Disaster Management",
+    "te": "వివరణ · GS-I భూగోళశాస్త్రం / GS-III విపత్తు నిర్వహణ"
+   },
+   "title": {
+    "en": "Severe Cyclonic Storm 'Akvan' heads for the north Andhra–south Odisha coast",
+    "te": "తీవ్ర తుపాను 'అక్వాన్' — ఉత్తరాంధ్ర–దక్షిణ ఒడిశా తీరం వైపు"
+   },
+   "line": {
+    "en": "IMD expects landfall between Narsapur and Puri on 20 November — a live lesson in how cyclone forecasts change.",
+    "te": "నవంబర్ 20న నర్సాపురం–పూరీ మధ్య తీరం దాటే అవకాశం ఉందని IMD అంచనా — తుపాను అంచనాలు ఎలా మారతాయో చెప్పే ప్రత్యక్ష పాఠం."
+   },
+   "easy": [
+    {
+     "en": "A cyclone is a huge storm that forms over warm sea water. Late October–November is the post-monsoon cyclone season in the Bay of Bengal, and the AP and Odisha coasts are often hit. 'Landfall' means the centre of the storm crosses the coast — winds and rain are worst there.",
+     "te": "తుపాను అంటే వెచ్చని సముద్ర జలాలపై ఏర్పడే భారీ తుఫాను. బంగాళాఖాతంలో అక్టోబర్ చివరి–నవంబర్ ఈశాన్య రుతుపవనాల తర్వాతి తుపాను కాలం; ఏపీ, ఒడిశా తీరాలు తరచూ దెబ్బతింటాయి. 'ల్యాండ్‌ఫాల్' అంటే తుపాను కేంద్రం తీరం దాటడం — అక్కడే గాలులు, వర్షం అత్యంత తీవ్రంగా ఉంటాయి."
+    },
+    {
+     "en": "Akvan's forecast track moved north. On 17 Nov IMD expected it to cross between Nellore and Tuni; by 19 Nov the expected stretch was Narsapur (AP) to Puri (Odisha). So north coastal districts like Srikakulam were put on alert, NDRF and SDRF teams were kept ready, and fishermen were told not to go to sea.",
+     "te": "అక్వాన్ అంచనా మార్గం ఉత్తరం వైపు జరిగింది. నవం 17న నెల్లూరు–తుని మధ్య తీరం దాటుతుందని IMD అంచనా వేసింది; నవం 19 నాటికి అది నర్సాపురం (ఏపీ)–పూరీ (ఒడిశా) మధ్యకు మారింది. అందుకే శ్రీకాకుళం వంటి ఉత్తర తీర జిల్లాలను అప్రమత్తం చేశారు, NDRF, SDRF బృందాలను సిద్ధంగా ఉంచారు, మత్స్యకారులను సముద్రంలోకి వెళ్లవద్దన్నారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Category",
+      "te": "వర్గం"
+     },
+     {
+      "en": "Severe Cyclonic Storm over the west-central Bay of Bengal (19 Nov)",
+      "te": "పశ్చిమ-మధ్య బంగాళాఖాతంపై తీవ్ర తుపాను (Severe Cyclonic Storm) (19 నవం)"
+     }
+    ],
+    [
+     {
+      "en": "Expected landfall",
+      "te": "తీరం దాటే అంచనా"
+     },
+     {
+      "en": "North AP & south Odisha coasts, between Narsapur and Puri, afternoon of 20 Nov",
+      "te": "ఉత్తరాంధ్ర & దక్షిణ ఒడిశా తీరం, నర్సాపురం–పూరీ మధ్య, 20 నవం మధ్యాహ్నం"
+     }
+    ],
+    [
+     {
+      "en": "Earlier forecast",
+      "te": "ముందటి అంచనా"
+     },
+     {
+      "en": "17 Nov: between Nellore and Tuni / Visakhapatnam, gusts up to 145 km/h",
+      "te": "17 నవం: నెల్లూరు–తుని / విశాఖపట్నం మధ్య, 145 కి.మీ. వరకు గాలి వేగం (gusts)"
+     }
+    ],
+    [
+     {
+      "en": "Rain warning",
+      "te": "వర్ష హెచ్చరిక"
+     },
+     {
+      "en": "Red warning: very heavy to extremely heavy rain over Coastal AP and Odisha",
+      "te": "రెడ్ హెచ్చరిక: కోస్తాంధ్ర, ఒడిశాలో అతి భారీ నుంచి అత్యంత భారీ వర్షాలు"
+     }
+    ],
+    [
+     {
+      "en": "AP districts",
+      "te": "ఏపీ జిల్లాలు"
+     },
+     {
+      "en": "Srikakulam (heavy); Vizianagaram, Parvathipuram Manyam, Alluri Sitarama Raju, Visakhapatnam, Anakapalli",
+      "te": "శ్రీకాకుళం (భారీ); విజయనగరం, పార్వతీపురం మన్యం, అల్లూరి సీతారామరాజు, విశాఖపట్నం, అనకాపల్లి"
+     }
+    ],
+    [
+     {
+      "en": "Fishermen",
+      "te": "మత్స్యకారులు"
+     },
+     {
+      "en": "Not to venture into west-central & north-west Bay of Bengal till 21 Nov",
+      "te": "21 నవం వరకు పశ్చిమ-మధ్య, వాయవ్య బంగాళాఖాతంలోకి వెళ్లవద్దు"
+     }
+    ],
+    [
+     {
+      "en": "Also on the coast",
+      "te": "తీరంలో"
+     },
+     {
+      "en": "Yanam (Puducherry UT) is named in the warnings — it lies inside AP's coast",
+      "te": "హెచ్చరికల్లో యానాం (పుదుచ్చేరి UT) పేరు — ఇది ఏపీ తీరంలోనే ఉంటుంది"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Cyclones and AP",
+     "te": "లింక్ చెయిన్ · తుపానులు, ఏపీ"
+    },
+    "l": [
+     {
+      "en": "IMD scale: Severe Cyclonic Storm 89–117 km/h; Very Severe 118–166 km/h",
+      "te": "IMD స్కేల్: తీవ్ర తుపాను 89–117 కి.మీ./గం; అతి తీవ్ర తుపాను 118–166 కి.మీ./గం"
+     },
+     {
+      "en": "Names come from a common list of 169 names adopted in 2020 by the countries of the region",
+      "te": "ఈ ప్రాంత దేశాలు 2020లో ఆమోదించిన 169 పేర్ల ఉమ్మడి జాబితా నుంచి పేర్లు వస్తాయి"
+     },
+     {
+      "en": "Warnings move in steps: alert → red warning → evacuation; NDRF (national) and SDRF (state) do rescue",
+      "te": "హెచ్చరికలు దశలవారీగా: అప్రమత్తం → రెడ్ హెచ్చరిక → తరలింపు; రక్షణ పనులు NDRF (జాతీయ), SDRF (రాష్ట్ర) చేస్తాయి"
+     },
+     {
+      "en": "Yanam (Puducherry), Srikakulam and Puri all lie on the east coast — the Coromandel / north Circars side of the Bay",
+      "te": "యానాం (పుదుచ్చేరి), శ్రీకాకుళం, పూరీ — అన్నీ తూర్పు తీరంలో, బంగాళాఖాతం వైపు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Forecasts change: Akvan was first expected near Nellore–Tuni, later Narsapur–Puri. Yanam is part of Puducherry, not Andhra Pradesh. 'Severe' (89–117) is one step below 'Very Severe' (118–166).",
+    "te": "అంచనాలు మారతాయి: అక్వాన్ మొదట నెల్లూరు–తుని దగ్గర, తర్వాత నర్సాపురం–పూరీ మధ్య అని అంచనా. యానాం పుదుచ్చేరిలో భాగం, ఆంధ్రప్రదేశ్‌లో కాదు. 'తీవ్ర' (89–117) అనేది 'అతి తీవ్ర' (118–166) కన్నా ఒక మెట్టు కింద."
+   },
+   "tip": {
+    "en": "Severe = 89 → Very Severe = 118: 'S at 89, VS at 118'.",
+    "te": "తీవ్ర = 89 → అతి తీవ్ర = 118: 'S 89 నుంచి, VS 118 నుంచి'."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements regarding Cyclone Akvan (November 2026):",
+     "te": "అక్వాన్ తుపాను (నవంబర్ 2026)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. By 19 November, IMD expected it to cross the coast between Narsapur and Puri.",
+      "te": "I. నవంబర్ 19 నాటికి అది నర్సాపురం–పూరీ మధ్య తీరం దాటుతుందని IMD అంచనా వేసింది."
+     },
+     {
+      "en": "II. Yanam, named in the warnings, is a part of Andhra Pradesh.",
+      "te": "II. హెచ్చరికల్లో పేర్కొన్న యానాం ఆంధ్రప్రదేశ్‌లో భాగం."
+     },
+     {
+      "en": "III. A Severe Cyclonic Storm on the IMD scale has winds of 89–117 km/h.",
+      "te": "III. IMD స్కేల్‌లో తీవ్ర తుపాను గాలి వేగం 89–117 కి.మీ./గం."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "II is wrong: Yanam is part of the Union Territory of Puducherry, though it lies on AP's coast.",
+     "te": "II తప్పు: యానాం ఏపీ తీరంలో ఉన్నా పుదుచ్చేరి కేంద్రపాలిత ప్రాంతంలో భాగం."
+    }
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Forecast landfall moved north",
+      "te": "తీరం దాటే అంచనా ఉత్తరానికి జరిగింది"
+     },
+     "view": [
+      78.5,
+      13.5,
+      87.8,
+      21.0
+     ],
+     "hl": [
+      "Andhra Pradesh",
+      "Odisha"
+     ],
+     "hlc": "#2c5d63",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        14.44,
+        79.99
+       ],
+       "t": {
+        "en": "Nellore",
+        "te": "నెల్లూరు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.43,
+        81.7
+       ],
+       "t": {
+        "en": "Narsapur",
+        "te": "నర్సాపురం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.73,
+        82.21
+       ],
+       "t": {
+        "en": "Yanam",
+        "te": "యానాం"
+       }
+      },
+      {
+       "ll": [
+        18.3,
+        83.9
+       ],
+       "t": {
+        "en": "Srikakulam",
+        "te": "శ్రీకాకుళం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        19.81,
+        85.83
+       ],
+       "t": {
+        "en": "Puri",
+        "te": "పూరీ"
+       }
+      }
+     ],
+     "labels": [
+      {
+       "ll": [
+        15.5,
+        85.5
+       ],
+       "t": {
+        "en": "Bay of Bengal",
+        "te": "బంగాళాఖాతం"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         14.44,
+         79.99
+        ],
+        [
+         16.43,
+         81.7
+        ]
+       ],
+       "dash": 1
+      },
+      {
+       "ll": [
+        [
+         16.43,
+         81.7
+        ],
+        [
+         19.81,
+         85.83
+        ]
+       ]
+      }
+     ],
+     "cap": {
+      "en": "Dashed = 17 Nov forecast (Nellore side); solid = 19 Nov forecast (Narsapur–Puri).",
+      "te": "గీతల గీత = 17 నవం అంచనా (నెల్లూరు వైపు); నిండు గీత = 19 నవం అంచనా (నర్సాపురం–పూరీ)."
+     },
+     "src": "cards/2026-11-20/map-akvan-1-{m}.svg"
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How the warning system works",
+      "te": "హెచ్చరిక వ్యవస్థ ఎలా పనిచేస్తుంది"
+     },
+     "items": [
+      {
+       "i": "🌀",
+       "t": {
+        "en": "Storm forms over warm Bay",
+        "te": "వెచ్చని బంగాళాఖాతంపై తుపాను"
+       }
+      },
+      {
+       "i": "📡",
+       "t": {
+        "en": "IMD tracks & forecasts landfall",
+        "te": "IMD మార్గం, తీరం దాటే చోటు అంచనా"
+       }
+      },
+      {
+       "i": "🔴",
+       "t": {
+        "en": "Red warning, fishermen called back",
+        "te": "రెడ్ హెచ్చరిక, మత్స్యకారులు వెనక్కి"
+       }
+      },
+      {
+       "i": "🚒",
+       "t": {
+        "en": "NDRF, SDRF, fire teams ready",
+        "te": "NDRF, SDRF, అగ్నిమాపక బృందాలు సిద్ధం"
+       }
+      },
+      {
+       "i": "🌾",
+       "t": {
+        "en": "Farmers cover harvested paddy",
+        "te": "కోసిన వరిని రైతులు కప్పుకోవాలి"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "All India Radio — Cyclone Akvan likely to cross between Narsapur and Puri, 19 Nov 2026",
+     "u": "https://newsonair.gov.in/cyclone-akvan-intensifies-into-severe-cyclonic-storm-set-to-hit-andhra-pradesh-odisha-coasts-tomorrow/"
+    },
+    {
+     "t": "All India Radio — Cyclone Akvan: IMD forecasts heavy rainfall in coastal Andhra and Odisha till Friday, 18 Nov 2026",
+     "u": "https://newsonair.gov.in/cyclone-akvan-intensifies-into-severe-cyclonic-storm-imd-forecasts-heavy-rainfall-in-costal-andhra-pradesh-and-odisha-till-friday/"
+    },
+    {
+     "t": "All India Radio — IMD warns fishermen as Cyclone Akvan intensifies, 17 Nov 2026",
+     "u": "https://newsonair.gov.in/imd-warns-fishermen-against-venturing-into-bay-of-bengal-till-november-20-as-cyclone-akvan-intensifies/"
+    },
+    {
+     "t": "All India Radio — Cyclonic storm Akvan moves closer to coastal states, 17 Nov 2026",
+     "u": "https://newsonair.gov.in/cyclonic-storm-akvan-moves-closer-to-coastal-states-of-andhra-tamil-nadu-and-odisha/"
+    },
+    {
+     "t": "KPIAS — APPSC Current Affairs 19 Nov 2026 (IMD scale and naming list, cross-check)",
+     "u": "https://kpiasacademy.com/appsc-current-affairs-november-19th-2026/"
+    }
+   ],
+   "mains": {
+    "en": "Cyclone tracks over the Bay of Bengal often shift close to landfall. Explain why forecasting them is difficult and suggest how Andhra Pradesh can make its cyclone preparedness more flexible for coastal districts.",
+    "te": "బంగాళాఖాతంలో తుపానుల మార్గం తీరం దాటే ముందు తరచూ మారుతుంది. వాటి అంచనా ఎందుకు కష్టమో వివరించి, తీర జిల్లాల కోసం ఏపీ తన తుపాను సన్నద్ధతను మరింత సరళంగా ఎలా చేయవచ్చో సూచించండి."
+   }
+  },
+  {
+   "id": "airpollution",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "leaf",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "The Hindu · Lead · 19 Nov 2026",
+    "te": "ది హిందూ · లీడ్ వ్యాసం · 19 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Editorial · GS-III Environment / GS-II Health",
+    "te": "సంపాదకీయం · GS-III పర్యావరణం / GS-II ఆరోగ్యం"
+   },
+   "title": {
+    "en": "Treat air pollution like COVID-19: a year-round health emergency",
+    "te": "వాయు కాలుష్యాన్ని కోవిడ్‌లా చూడాలి: ఏడాది పొడవునా ఆరోగ్య అత్యవసర పరిస్థితి"
+   },
+   "line": {
+    "en": "Over 2 million deaths in India in 2023 were linked to air pollution, yet most NCAP money went to road dust.",
+    "te": "2023లో భారత్‌లో 20 లక్షలకు పైగా మరణాలు వాయు కాలుష్యంతో ముడిపడ్డాయి; అయినా NCAP నిధుల్లో ఎక్కువ భాగం రోడ్డు ధూళికే వెళ్లింది."
+   },
+   "easy": [
+    {
+     "en": "During COVID-19, India acted in 'mission mode': clear targets, daily data, money and coordination across departments. The writers argue that dirty air also kills people every day, but we treat it as a winter problem and react only with emergency steps like GRAP.",
+     "te": "కోవిడ్ సమయంలో భారత్ 'మిషన్ మోడ్'లో పనిచేసింది: స్పష్టమైన లక్ష్యాలు, రోజువారీ సమాచారం, నిధులు, శాఖల సమన్వయం. కలుషిత గాలి కూడా ప్రతిరోజూ ప్రాణాలు తీస్తోంది, కానీ మనం దాన్ని చలికాలపు సమస్యగానే చూసి GRAP వంటి అత్యవసర చర్యలతోనే స్పందిస్తున్నామని రచయితలు వాదిస్తున్నారు."
+    },
+    {
+     "en": "The National Clean Air Programme (NCAP) began in 2019. A CREA review (Jan 2026) found ₹13,415 crore released and about 74% used — but 68% of spending went to road dust, while industry and household fuel got less than 1% each. PM2.5 from these sources is more harmful, so money should follow the real sources.",
+     "te": "జాతీయ స్వచ్ఛ వాయు కార్యక్రమం (NCAP) 2019లో ప్రారంభమైంది. CREA సమీక్ష (జనవరి 2026) ప్రకారం ₹13,415 కోట్లు విడుదల కాగా సుమారు 74% వినియోగించారు — కానీ ఖర్చులో 68% రోడ్డు ధూళికే; పరిశ్రమలు, గృహ ఇంధనాలకు ఒక్కోదానికి 1% కన్నా తక్కువ. ఈ వనరుల నుంచి వచ్చే PM2.5 ఎక్కువ హానికరం; అందుకే నిధులు అసలు కాలుష్య వనరులపై ఖర్చు కావాలి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Deaths",
+      "te": "మరణాలు"
+     },
+     {
+      "en": "Over 2 million in India in 2023 (State of Global Air 2025)",
+      "te": "2023లో భారత్‌లో 20 లక్షలకు పైగా (స్టేట్ ఆఫ్ గ్లోబల్ ఎయిర్ 2025)"
+     }
+    ],
+    [
+     {
+      "en": "NCAP",
+      "te": "NCAP"
+     },
+     {
+      "en": "Launched 2019 — long-term, time-bound national strategy for urban air quality",
+      "te": "2019లో ప్రారంభం — పట్టణ గాలి నాణ్యతకు దీర్ఘకాలిక, నిర్ణీత కాల జాతీయ వ్యూహం"
+     }
+    ],
+    [
+     {
+      "en": "Money",
+      "te": "నిధులు"
+     },
+     {
+      "en": "₹13,415 crore released (NCAP + Finance Commission); about 74% used (CREA, Jan 2026)",
+      "te": "₹13,415 కోట్లు విడుదల (NCAP + ఆర్థిక సంఘం); సుమారు 74% వినియోగం (CREA, జనవరి 2026)"
+     }
+    ],
+    [
+     {
+      "en": "Spending",
+      "te": "ఖర్చు"
+     },
+     {
+      "en": "Road dust 68%, transport 14%, waste & biomass burning 12%, industry <1%, household fuel <1%",
+      "te": "రోడ్డు ధూళి 68%, రవాణా 14%, వ్యర్థాలు & జీవ ద్రవ్యం దహనం 12%, పరిశ్రమలు <1%, గృహ ఇంధనం <1%"
+     }
+    ],
+    [
+     {
+      "en": "Standard",
+      "te": "ప్రమాణం"
+     },
+     {
+      "en": "India's annual PM2.5 standard 40 µg/m³ = 8 times WHO guideline of 5 µg/m³",
+      "te": "భారత వార్షిక PM2.5 ప్రమాణం 40 µg/m³ = WHO మార్గదర్శకం 5 µg/m³కు 8 రెట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Economic loss",
+      "te": "ఆర్థిక నష్టం"
+     },
+     {
+      "en": "Equal to 1.36% of India's GDP in 2019 (Lancet Planetary Health)",
+      "te": "2019లో భారత GDPలో 1.36%కు సమానం (లాన్సెట్ ప్లానెటరీ హెల్త్)"
+     }
+    ],
+    [
+     {
+      "en": "Data tool",
+      "te": "సమాచార సాధనం"
+     },
+     {
+      "en": "SAMEER app/portal — near real-time air quality data",
+      "te": "SAMEER యాప్/పోర్టల్ — దాదాపు తక్షణ గాలి నాణ్యత సమాచారం"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · What the writers propose",
+     "te": "లింక్ చెయిన్ · రచయితల సూచనలు"
+    },
+    "l": [
+     {
+      "en": "Mission-mode NCAP: dedicated funds, measurable annual targets, judged by health outcomes",
+      "te": "మిషన్-మోడ్ NCAP: ప్రత్యేక నిధులు, కొలవగల వార్షిక లక్ష్యాలు, ఆరోగ్య ఫలితాలతో అంచనా"
+     },
+     {
+      "en": "Environmental-health surveillance: link AQI, weather and hospital data",
+      "te": "పర్యావరణ-ఆరోగ్య నిఘా: AQI, వాతావరణం, ఆస్పత్రి సమాచారాన్ని అనుసంధానం"
+     },
+     {
+      "en": "Outcome-based financing that follows the main PM2.5 sources, not only road dust",
+      "te": "ప్రధాన PM2.5 వనరులపై ఫలిత-ఆధారిత నిధులు, రోడ్డు ధూళికే కాదు"
+     },
+     {
+      "en": "Phased roadmap to tighten standards towards WHO; year-round action beyond GRAP",
+      "te": "WHO స్థాయికి ప్రమాణాలను దశలవారీగా కఠినం చేయడం; GRAP దాటి ఏడాది పొడవునా చర్యలు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "NCAP started in 2019, not 2017. WHO's guideline (5) is stricter than India's standard (40) — not the other way. The biggest NCAP spending was on road dust (68%), not industry.",
+    "te": "NCAP 2019లో ప్రారంభం, 2017లో కాదు. WHO మార్గదర్శకం (5) భారత ప్రమాణం (40) కన్నా కఠినం — విరుద్ధంగా కాదు. NCAP ఖర్చులో అత్యధికం రోడ్డు ధూళిపై (68%), పరిశ్రమలపై కాదు."
+   },
+   "tip": {
+    "en": "'40 is 8 × 5' — India 40, WHO 5. Spending '68-14-12': dust, transport, waste.",
+    "te": "'40 = 8 × 5' — భారత్ 40, WHO 5. ఖర్చు '68-14-12': ధూళి, రవాణా, వ్యర్థాలు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to air pollution and the National Clean Air Programme (NCAP), consider the following statements:",
+     "te": "వాయు కాలుష్యం, జాతీయ స్వచ్ఛ వాయు కార్యక్రమం (NCAP)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. NCAP was launched in 2019.",
+      "te": "I. NCAP 2019లో ప్రారంభమైంది."
+     },
+     {
+      "en": "II. India's annual PM2.5 standard is stricter than the WHO guideline.",
+      "te": "II. భారత వార్షిక PM2.5 ప్రమాణం WHO మార్గదర్శకం కన్నా కఠినమైనది."
+     },
+     {
+      "en": "III. Road-dust management took the largest share of NCAP spending.",
+      "te": "III. NCAP ఖర్చులో అత్యధిక వాటా రోడ్డు ధూళి నిర్వహణకే."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II is wrong: India's standard is 40 µg/m³, eight times the WHO guideline of 5 µg/m³ — so it is weaker, not stricter.",
+     "te": "II తప్పు: భారత ప్రమాణం 40 µg/m³, WHO మార్గదర్శకం 5 µg/m³కు 8 రెట్లు — అంటే బలహీనం, కఠినం కాదు."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Where NCAP money went (% of spending)",
+      "te": "NCAP నిధులు ఎక్కడ ఖర్చయ్యాయి (% ఖర్చు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Road dust",
+        "te": "రోడ్డు ధూళి"
+       },
+       "v": 68,
+       "vl": "68%"
+      },
+      {
+       "t": {
+        "en": "Transport",
+        "te": "రవాణా"
+       },
+       "v": 14,
+       "vl": "14%"
+      },
+      {
+       "t": {
+        "en": "Waste & biomass burning",
+        "te": "వ్యర్థాలు & జీవ ద్రవ్య దహనం"
+       },
+       "v": 12,
+       "vl": "12%"
+      },
+      {
+       "t": {
+        "en": "Industry",
+        "te": "పరిశ్రమలు"
+       },
+       "v": 0.8,
+       "vl": "<1%"
+      },
+      {
+       "t": {
+        "en": "Household fuel",
+        "te": "గృహ ఇంధనం"
+       },
+       "v": 0.8,
+       "vl": "<1%"
+      }
+     ],
+     "cap": {
+      "en": "CREA assessment, January 2026 (as cited in The Hindu).",
+      "te": "CREA అంచనా, జనవరి 2026 (ది హిందూ ఉటంకించినట్లు)."
+     }
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Annual PM2.5 limit: India vs WHO",
+      "te": "వార్షిక PM2.5 పరిమితి: భారత్ vs WHO"
+     },
+     "a": {
+      "h": {
+       "en": "India standard",
+       "te": "భారత ప్రమాణం"
+      },
+      "l": [
+       {
+        "en": "40 µg/m³",
+        "te": "40 µg/m³"
+       },
+       {
+        "en": "8 times the WHO value",
+        "te": "WHO విలువకు 8 రెట్లు"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "WHO guideline",
+       "te": "WHO మార్గదర్శకం"
+      },
+      "l": [
+       {
+        "en": "5 µg/m³",
+        "te": "5 µg/m³"
+       },
+       {
+        "en": "Stricter, health-based",
+        "te": "మరింత కఠినం, ఆరోగ్యం ఆధారంగా"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hindu — COVID-19 lessons should inform response to air pollution, 19 Nov 2026 (summary read via Vajiram & Ravi editorial analysis)",
+     "u": "https://vajiramandravi.com/current-affairs/daily-editorial-analysis-19-november-2026/"
+    },
+    {
+     "t": "Universal Group of Institutions — COVID-19 lessons for air pollution response, 19 Nov 2026 (cross-check)",
+     "u": "https://universalinstitutions.com/covid-19-lessons-for-air-pollution-response/"
+    },
+    {
+     "t": "All India Radio — NCAP aims to be long-term, time-bound, national-level strategy (Lok Sabha reply), 9 Feb 2026",
+     "u": "https://www.newsonair.gov.in/ncap-aims-to-be-long-term-time-bound-national-level-strategy-to-address-air-pollution-says-union-minister-bhupendra-yadav"
+    }
+   ],
+   "mains": {
+    "en": "'Air pollution in India is a public-health emergency, not a seasonal nuisance.' In the light of the lessons from the COVID-19 response, suggest how the National Clean Air Programme can be made outcome-based.",
+    "te": "'భారత్‌లో వాయు కాలుష్యం కాలానుగుణ ఇబ్బంది కాదు, ప్రజారోగ్య అత్యవసర పరిస్థితి.' కోవిడ్ స్పందన నుంచి నేర్చుకున్న పాఠాల వెలుగులో జాతీయ స్వచ్ఛ వాయు కార్యక్రమాన్ని ఫలిత-ఆధారితంగా ఎలా మార్చవచ్చో సూచించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "tipu",
+   "q": {
+    "en": "Consider the following statements about Tipu Sultan:",
+    "te": "టిప్పు సుల్తాన్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. He was born at Devanahalli in 1750.",
+     "te": "I. ఆయన 1750లో దేవనహళ్లిలో జన్మించారు."
+    },
+    {
+     "en": "II. He was the ruler of Mysore during the First Anglo-Mysore War (1767–69).",
+     "te": "II. మొదటి ఆంగ్లో-మైసూరు యుద్ధం (1767–69) సమయంలో ఆయనే మైసూరు పాలకుడు."
+    },
+    {
+     "en": "III. He supported a Jacobin Club at Seringapatam and was called 'Citizen Tipu'.",
+     "te": "III. శ్రీరంగపట్నంలో జాకోబిన్ క్లబ్‌కు మద్దతిచ్చారు; 'సిటిజన్ టిప్పు'గా పిలువబడ్డారు."
+    },
+    {
+     "en": "IV. He died on 4 May 1799 defending Seringapatam.",
+     "te": "IV. 1799 మే 4న శ్రీరంగపట్నాన్ని కాపాడుతూ మరణించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is wrong: Hyder Ali was the ruler in the 1st war; Tipu became ruler only in December 1782.",
+    "te": "II తప్పు: 1వ యుద్ధంలో పాలకుడు హైదర్ అలీ; టిప్పు 1782 డిసెంబర్‌లోనే పాలకుడయ్యారు."
+   }
+  },
+  {
+   "topic": "tipu",
+   "q": {
+    "en": "Match List-I (Treaty) with List-II (War it ended) and choose the correct code:\nA. Treaty of Madras\nB. Treaty of Mangalore\nC. Treaty of Seringapatam\n1. Third Anglo-Mysore War\n2. First Anglo-Mysore War\n3. Second Anglo-Mysore War",
+    "te": "జాబితా-I (ఒప్పందం)ను జాబితా-II (ముగిసిన యుద్ధం)తో జతపరిచి సరైన కోడ్ ఎంచుకోండి:\nA. మద్రాసు ఒప్పందం\nB. మంగళూరు ఒప్పందం\nC. శ్రీరంగపట్నం ఒప్పందం\n1. మూడో ఆంగ్లో-మైసూరు యుద్ధం\n2. మొదటి ఆంగ్లో-మైసూరు యుద్ధం\n3. రెండో ఆంగ్లో-మైసూరు యుద్ధం"
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "A-2, B-1, C-3",
+     "te": "A-2, B-1, C-3"
+    },
+    {
+     "en": "A-3, B-2, C-1",
+     "te": "A-3, B-2, C-1"
+    },
+    {
+     "en": "A-1, B-3, C-2",
+     "te": "A-1, B-3, C-2"
+    },
+    {
+     "en": "A-2, B-3, C-1",
+     "te": "A-2, B-3, C-1"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Madras (1769) ended the 1st war, Mangalore (1784) the 2nd, Seringapatam (1792) the 3rd. Option a swaps Mangalore and Seringapatam — the common trap.",
+    "te": "మద్రాసు (1769) 1వ, మంగళూరు (1784) 2వ, శ్రీరంగపట్నం (1792) 3వ యుద్ధాన్ని ముగించాయి. ఆప్షన్ a మంగళూరు, శ్రీరంగపట్నాలను తారుమారు చేసింది — సాధారణ ఉచ్చు."
+   }
+  },
+  {
+   "topic": "childday",
+   "q": {
+    "en": "Which of the following statements about World Children's Day are correct?",
+    "te": "ప్రపంచ బాలల దినోత్సవానికి సంబంధించి కింది వాటిలో సరైన వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. The 2026 theme announced by UNICEF is 'My day, my rights, my future'.",
+     "te": "I. UNICEF ప్రకటించిన 2026 థీమ్ 'My day, my rights, my future'."
+    },
+    {
+     "en": "II. The 1954 UN General Assembly resolution adopted the Convention on the Rights of the Child.",
+     "te": "II. 1954 ఐరాస తీర్మానం బాలల హక్కుల ఒడంబడికను ఆమోదించింది."
+    },
+    {
+     "en": "III. The Declaration of the Rights of the Child was adopted on 20 November 1959.",
+     "te": "III. బాలల హక్కుల ప్రకటన 1959 నవంబర్ 20న ఆమోదం పొందింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "II is wrong: the 1954 resolution only recommended a Universal Children's Day; the Convention came on 20 Nov 1989.",
+    "te": "II తప్పు: 1954 తీర్మానం సార్వత్రిక బాలల దినోత్సవాన్ని సిఫార్సు మాత్రమే చేసింది; ఒడంబడిక 1989 నవం 20న వచ్చింది."
+   }
+  },
+  {
+   "topic": "childday",
+   "q": {
+    "en": "Arrange the following events in chronological order:\nI. India accedes to the CRC\nII. Declaration of the Rights of the Child\nIII. CRC enters into force\nIV. CRC adopted by the UN General Assembly",
+    "te": "కింది సంఘటనలను కాలక్రమంలో అమర్చండి:\nI. CRCలో భారత్ చేరిక\nII. బాలల హక్కుల ప్రకటన\nIII. CRC అమల్లోకి రావడం\nIV. ఐరాస సర్వసభ్య సమావేశం CRCని ఆమోదించడం"
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "II – III – IV – I",
+     "te": "II – III – IV – I"
+    },
+    {
+     "en": "II – IV – III – I",
+     "te": "II – IV – III – I"
+    },
+    {
+     "en": "IV – II – III – I",
+     "te": "IV – II – III – I"
+    },
+    {
+     "en": "II – IV – I – III",
+     "te": "II – IV – I – III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Declaration 1959 → CRC adopted 1989 → in force 1990 → India 1992. Option a puts 'in force' before adoption — impossible.",
+    "te": "ప్రకటన 1959 → CRC ఆమోదం 1989 → అమలు 1990 → భారత్ 1992. ఆప్షన్ a ఆమోదానికి ముందే అమలు అంటోంది — అసాధ్యం."
+   }
+  },
+  {
+   "topic": "apsemicon",
+   "q": {
+    "en": "Under AP's amended Semiconductor & Display Fab Policy 4.0, which of the following pairs of unit type and combined capital support are correctly matched?",
+    "te": "ఏపీ సవరించిన సెమీకండక్టర్ & డిస్‌ప్లే ఫ్యాబ్ పాలసీ 4.0 ప్రకారం యూనిట్ రకం – మొత్తం మూలధన సాయం జతల్లో ఏవి సరిగ్గా జతపరచబడ్డాయి?"
+   },
+   "st": [
+    {
+     "en": "I. Silicon fab (under Semicon 2.0) — 80%",
+     "te": "I. సిలికాన్ ఫ్యాబ్ (సెమికాన్ 2.0 కింద) — 80%"
+    },
+    {
+     "en": "II. Display fab — 70%",
+     "te": "II. డిస్‌ప్లే ఫ్యాబ్ — 70%"
+    },
+    {
+     "en": "III. Legacy packaging unit — 70%",
+     "te": "III. లెగసీ ప్యాకేజింగ్ యూనిట్ — 70%"
+    },
+    {
+     "en": "IV. Compound semiconductor fab — 50%",
+     "te": "IV. కాంపౌండ్ సెమీకండక్టర్ ఫ్యాబ్ — 50%"
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Legacy packaging gets 50% (not 70%) and compound fabs get 70% (not 50%) — III and IV swap the figures.",
+    "te": "లెగసీ ప్యాకేజింగ్‌కు 50% (70% కాదు), కాంపౌండ్ ఫ్యాబ్‌లకు 70% (50% కాదు) — III, IV అంకెలు తారుమారు."
+   }
+  },
+  {
+   "topic": "apsemicon",
+   "q": {
+    "en": "Consider the following statements about AP's semiconductor plans (Nov 2026):",
+    "te": "ఏపీ సెమీకండక్టర్ ప్రణాళికలు (నవం 2026)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. A Semiconductor Park of about 5,000 acres is planned at Visakhapatnam.",
+     "te": "I. విశాఖపట్నంలో సుమారు 5,000 ఎకరాల సెమీకండక్టర్ పార్క్ ప్రణాళిక."
+    },
+    {
+     "en": "II. The AP Semiconductor Research & Innovation Centre will start at IIT Tirupati.",
+     "te": "II. ఏపీ సెమీకండక్టర్ పరిశోధన & ఆవిష్కరణ కేంద్రం IIT తిరుపతిలో ప్రారంభమవుతుంది."
+    },
+    {
+     "en": "III. State incentives are capped at 50% of eligible fixed capital investment, and support from all sources at 90%.",
+     "te": "III. రాష్ట్ర ప్రోత్సాహకాలు అర్హ స్థిర మూలధన పెట్టుబడిలో 50%కు, అన్ని వనరుల సాయం 90%కు పరిమితం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I is wrong: the park is planned at Tirupati, not Visakhapatnam.",
+    "te": "I తప్పు: పార్క్ తిరుపతిలో ప్రణాళిక, విశాఖపట్నంలో కాదు."
+   }
+  },
+  {
+   "topic": "akvan",
+   "q": {
+    "en": "Which of the following statements about Cyclone Akvan are INCORRECT?",
+    "te": "అక్వాన్ తుపానుకు సంబంధించి కింది వాటిలో తప్పు వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. The IMD forecast on 17 November expected it to cross between Nellore and Tuni.",
+     "te": "I. నవంబర్ 17 IMD అంచనా ప్రకారం అది నెల్లూరు–తుని మధ్య తీరం దాటుతుంది."
+    },
+    {
+     "en": "II. It formed over the Arabian Sea.",
+     "te": "II. అది అరేబియా సముద్రంపై ఏర్పడింది."
+    },
+    {
+     "en": "III. A red warning was issued for very heavy to extremely heavy rain over Coastal Andhra Pradesh and Odisha.",
+     "te": "III. కోస్తాంధ్ర, ఒడిశాలో అతి భారీ నుంచి అత్యంత భారీ వర్షాలకు రెడ్ హెచ్చరిక జారీ అయింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Only II is incorrect: Akvan is a Bay of Bengal storm. I and III are correct as per IMD updates on AIR.",
+    "te": "II మాత్రమే తప్పు: అక్వాన్ బంగాళాఖాతం తుపాను. AIR లోని IMD అప్‌డేట్ల ప్రకారం I, III సరైనవి."
+   }
+  },
+  {
+   "topic": "akvan",
+   "q": {
+    "en": "A district collector in north coastal AP receives a 'Severe Cyclonic Storm' warning with expected winds of about 110 km/h. Consider:",
+    "te": "ఉత్తర కోస్తాంధ్రలోని ఒక జిల్లా కలెక్టర్‌కు సుమారు 110 కి.మీ./గం గాలులతో 'తీవ్ర తుపాను' హెచ్చరిక అందింది. పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The wind speed fits the IMD 'Severe Cyclonic Storm' band of 89–117 km/h.",
+     "te": "I. ఈ గాలి వేగం IMD 'తీవ్ర తుపాను' పరిధి 89–117 కి.మీ./గంలో ఉంది."
+    },
+    {
+     "en": "II. If winds rise to 120 km/h, the storm would be called a 'Very Severe Cyclonic Storm'.",
+     "te": "II. గాలులు 120 కి.మీ./గంకు పెరిగితే దాన్ని 'అతి తీవ్ర తుపాను' అంటారు."
+    },
+    {
+     "en": "III. Rescue on the ground is done by NDRF and SDRF teams.",
+     "te": "III. క్షేత్రస్థాయి రక్షణ పనులు NDRF, SDRF బృందాలు చేస్తాయి."
+    },
+    {
+     "en": "IV. Fishermen may continue fishing because only landfall areas are dangerous.",
+     "te": "IV. తీరం దాటే ప్రాంతమే ప్రమాదకరం కాబట్టి మత్స్యకారులు చేపల వేట కొనసాగించవచ్చు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "IV is wrong: IMD told fishermen not to go into the west-central and north-west Bay of Bengal till 21 Nov — the whole sea area is risky.",
+    "te": "IV తప్పు: 21 నవం వరకు పశ్చిమ-మధ్య, వాయవ్య బంగాళాఖాతంలోకి వెళ్లవద్దని IMD చెప్పింది — సముద్ర ప్రాంతమంతా ప్రమాదకరం."
+   }
+  },
+  {
+   "topic": "airpollution",
+   "q": {
+    "en": "Assertion (A): Experts say NCAP spending does not match the main sources of harmful PM2.5.\nReason (R): About 68% of NCAP spending went to road-dust management, while industry and household fuel got less than 1% each.",
+    "te": "ప్రతిపాదన (A): NCAP ఖర్చు హానికర PM2.5 ప్రధాన వనరులకు సరిపోలడం లేదని నిపుణులు అంటున్నారు.\nకారణం (R): NCAP ఖర్చులో సుమారు 68% రోడ్డు ధూళి నిర్వహణకు వెళ్లగా, పరిశ్రమలు, గృహ ఇంధనాలకు ఒక్కోదానికి 1% కన్నా తక్కువ."
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "Both A and R are true, and R is the correct explanation of A",
+     "te": "A, R రెండూ నిజం; A కు R సరైన వివరణ"
+    },
+    {
+     "en": "Both A and R are true, but R is not the correct explanation of A",
+     "te": "A, R రెండూ నిజం; కానీ A కు R సరైన వివరణ కాదు"
+    },
+    {
+     "en": "A is true, but R is false",
+     "te": "A నిజం, R తప్పు"
+    },
+    {
+     "en": "A is false, but R is true",
+     "te": "A తప్పు, R నిజం"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Both true and linked: money went mostly to road dust while more harmful PM2.5 sources like industry and household fuel got <1% — that is why the writers call for outcome-based financing.",
+    "te": "రెండూ నిజం, అనుసంధానం ఉంది: నిధులు ఎక్కువగా రోడ్డు ధూళికి వెళ్లగా, పరిశ్రమలు, గృహ ఇంధనం వంటి హానికర వనరులకు <1% — అందుకే ఫలిత-ఆధారిత నిధులను రచయితలు కోరుతున్నారు."
+   }
+  },
+  {
+   "topic": "airpollution",
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Over 2 million deaths in India in 2023 were attributed to air pollution (State of Global Air 2025).",
+     "te": "I. 2023లో భారత్‌లో 20 లక్షలకు పైగా మరణాలు వాయు కాలుష్యం వల్లేనని అంచనా (స్టేట్ ఆఫ్ గ్లోబల్ ఎయిర్ 2025)."
+    },
+    {
+     "en": "II. About 74% of the ₹13,415 crore released for clean air had been utilised (CREA, Jan 2026).",
+     "te": "II. స్వచ్ఛ వాయువు కోసం విడుదలైన ₹13,415 కోట్లలో సుమారు 74% వినియోగమైంది (CREA, జనవరి 2026)."
+    },
+    {
+     "en": "III. Air pollution losses were estimated at 13.6% of India's GDP in 2019.",
+     "te": "III. 2019లో వాయు కాలుష్య నష్టం భారత GDPలో 13.6%గా అంచనా."
+    },
+    {
+     "en": "IV. SAMEER is a portal and app that gives near real-time air-quality data.",
+     "te": "IV. SAMEER దాదాపు తక్షణ గాలి నాణ్యత సమాచారం ఇచ్చే పోర్టల్, యాప్."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "III is wrong: the Lancet Planetary Health estimate is 1.36% of GDP (2019), not 13.6% — a decimal trap.",
+    "te": "III తప్పు: లాన్సెట్ ప్లానెటరీ హెల్త్ అంచనా GDPలో 1.36% (2019), 13.6% కాదు — దశాంశ ఉచ్చు."
+   }
+  }
+ ]
+}
