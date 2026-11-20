@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script src="migrate.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Capsule · Sulabham</title>
+<meta name="description" content="Sulabham topic capsules for APPSC Group 1 & 2 — verified notes linked to all subjects, PDF and Group-pattern MCQs, Telugu & English, ₹49 each.">
+<link rel="icon" type="image/svg+xml" href="sulabham-icon.svg">
+<script src="devcode.js"></script>
+<style>
+:root{--ink:#14212b;--mut:#5b6b78;--line:#dfe3e6;--bg:#f6f4ee;--acc:#5b1f7a;--pasupu:#e3a400;--pasupu-soft:#fff3cf}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Noto Sans","Noto Sans Telugu",sans-serif}
+html[lang=te] body{line-height:1.7}
+header{background:#2a0b3d;color:#fff;padding:10px 16px;display:flex;justify-content:space-between;align-items:center;gap:8px;position:sticky;top:0;z-index:5}
+header a{color:#fff;text-decoration:none;font-weight:800;font-size:19px}
+.lg button{background:transparent;border:1px solid #fff;color:#fff;border-radius:8px;padding:4px 10px;margin-left:4px;font:inherit;font-size:.88rem;cursor:pointer}
+.lg button.on{background:#fff;color:#2a0b3d}
+main{max-width:760px;margin:0 auto;padding:14px 16px 90px}
+.hero{background:linear-gradient(135deg,#2a0b3d,#5b1f7a);color:#fff;border-radius:18px;padding:18px}
+.hero .tag{display:inline-block;background:#ffd45c;color:#1b1500;font-weight:800;border-radius:999px;padding:2px 12px;font-size:.82rem}
+.hero h1{margin:8px 0 4px;font-size:1.6rem;line-height:1.2}.hero p{margin:0;opacity:.92}
+.hero .stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.hero .stats span{background:rgba(255,255,255,.14);border-radius:10px;padding:4px 10px;font-size:.88rem}
+.btn{display:inline-block;border:0;border-radius:12px;padding:12px 16px;font:inherit;font-weight:800;cursor:pointer;text-decoration:none;text-align:center}
+.gold{background:#ffd45c;color:#1b1500}.pri{background:var(--acc);color:#fff}.line{background:#fff;color:var(--ink);border:1px solid var(--line)}.tg{background:#229ed9;color:#fff}.grn{background:#1f8a4c;color:#fff}
+.how{background:var(--pasupu-soft);border:1px dashed var(--pasupu);border-radius:12px;padding:10px 12px;margin:14px 0;font-size:.95rem}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;margin:14px 0;overflow:hidden}
+.card>h2{margin:0;color:#fff;font-size:1.12rem;padding:10px 14px}
+.in{padding:10px 14px}
+table{width:100%;border-collapse:collapse;margin:4px 0 8px;font-size:.93rem}td,th{border:1px solid #e3e7ea;padding:6px 8px;vertical-align:top;text-align:left}
+td.k{width:30%;font-weight:600;background:#f8fafb}th{background:#eef2f5}
+.box{border-radius:12px;padding:9px 12px;margin:9px 0;font-size:.95rem}.box b.h{display:block;margin-bottom:3px}
+.cn{background:#eaf3ff;border-left:5px solid #1d4f91}.ch{background:#eef8ef;border-left:5px solid #2f7a3a}.sj{background:#f6effa;border-left:5px solid #7b3fa0}.tr{background:#fff0ee;border-left:5px solid #b3322b}
+.box ul{margin:2px 0;padding-left:20px}.box li{margin:4px 0}
+h2.sec{font-size:1.2rem;color:#3d1153;margin:22px 0 8px;border-bottom:3px solid var(--pasupu);padding-bottom:4px}
+.mini{background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 13px;margin:9px 0;font-size:.94rem}.mini h3{margin:0 0 4px;font-size:1.02rem}.mini div{margin:3px 0}.mini b{color:#3d1153}
+.bar{display:flex;align-items:center;gap:8px;margin:5px 0;font-size:.88rem}.bar span{width:44%;flex:none}.bar i{display:block;height:12px;border-radius:4px;background:#b46fd6}.bar em{font-style:normal;font-weight:700;white-space:nowrap}
+.q{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px;margin:10px 0}
+.q .n{font-weight:700}.q .st{margin:4px 0 4px 6px}
+.ml{display:grid;grid-template-columns:1fr 1fr;gap:2px 10px;border:1px solid #e3e7ea;border-radius:10px;padding:8px 10px;margin:6px 0;font-size:.93rem}.ml .hd{font-weight:700;color:#3d1153}
+.ask{font-style:italic;color:var(--mut);margin:4px 0}
+.op{display:block;width:100%;text-align:left;background:#f8fafb;border:1px solid #dde3e8;border-radius:10px;padding:9px 11px;margin:6px 0;font:inherit;cursor:pointer;color:var(--ink)}
+.op.ok{background:#e3f6e8;border-color:#5cb075}.op.no{background:#fde8e6;border-color:#d9776c}.op[disabled]{cursor:default}
+.why{display:none;background:#f3f6ff;border-radius:10px;padding:8px 10px;margin-top:6px;font-size:.93rem}.q.done .why{display:block}
+.score{position:fixed;left:0;right:0;bottom:0;background:#2a0b3d;color:#fff;padding:10px 16px;display:flex;justify-content:space-between;align-items:center;gap:8px;z-index:6}
+.lock{background:#fff;border:2px solid var(--acc);border-radius:16px;padding:14px;margin:16px 0}
+.lock h2{margin:0 0 6px;font-size:1.2rem;color:#3d1153}.lock ol{padding-left:22px;margin:6px 0}
+.upirow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0}.upirow code{background:#f3f3f3;border-radius:8px;padding:6px 8px}
+#qr{width:150px;height:150px;display:block;margin:6px 0;border:1px solid var(--line);border-radius:10px}
+.codeF{display:flex;gap:8px;margin-top:8px}.codeF input{flex:1;min-width:0;font:inherit;font-size:1.05rem;padding:10px;border:1px solid #c7cdd2;border-radius:10px;text-transform:uppercase}
+.msg{min-height:1.2em;font-weight:600;margin:6px 0}.bad{color:#b3322b}.good{color:#1f6f4a}
+.teaser li{margin:3px 0}
+.pdfs{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.note{color:var(--mut);font-size:.9rem}
+</style>
+</head>
+<body>
+<header><a href="index.html">సులభం</a><span class="lg"><button id="lte">తెలుగు</button><button id="len">English</button></span></header>
+<main id="m"><p class="note">Loading…</p></main>
+<div class="score" id="sc" style="display:none"></div>
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)};
+var lang="en";try{lang=localStorage.getItem("sul_lang")||"en"}catch(e){}
+var id=(location.search.match(/[?&]t=([a-z0-9-]+)/)||[])[1];if(!id){location.replace("caps.html");return}
+var TG="https://t.me/+G7R0gSQgjQBhOWNl",UPI="raghu.cse999@axl";
+var D=null,FULL=null,KEY=null,ANS={};
+function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){}}
+function E(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function x(o){return o&&typeof o==="object"?(o[lang]||o.en):o}
+function L(en,te){return lang==="te"?te:en}
+function norm(c){return String(c||"").toUpperCase().replace(/[^A-Z0-9]/g,"")}
+function b64(s){var b=atob(s),u=new Uint8Array(b.length);for(var i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u}
+function dec(k,by){return crypto.subtle.decrypt({name:"AES-GCM",iv:by.slice(0,12)},k,by.slice(12))}
+function keyOf(code){var e=new TextEncoder();return crypto.subtle.importKey("raw",e.encode(norm(code)),"PBKDF2",false,["deriveKey"]).then(function(k){return crypto.subtle.deriveKey({name:"PBKDF2",salt:b64(D.salt),iterations:D.iter,hash:"SHA-256"},k,{name:"AES-GCM",length:256},false,["decrypt"])})}
+var R=["I","II","III","IV","V","VI"];
+function bigH(c){var h='<div class="card"><h2 style="background:'+c.color+'">'+c.icon+' '+E(x(c.name))+'</h2><div class="in"><table>'+c.facts.map(function(f){return'<tr><td class="k">'+E(x(f[0]))+'</td><td>'+E(x(f[1]))+'</td></tr>'}).join("")+'</table>';
+ h+='<div class="box cn"><b class="h">🧠 '+L("Understand the score","స్కోరును అర్థం చేసుకోండి")+'</b>'+E(x(c.concept))+'</div>';
+ function lst(cls,ic,en,te,a){return'<div class="box '+cls+'"><b class="h">'+ic+' '+L(en,te)+'</b><ul>'+a.map(function(y){return'<li>'+E(x(y))+'</li>'}).join("")+'</ul></div>'}
+ h+=lst("ch","🔗","Linked facts — the chain","అనుసంధాన వాస్తవాలు — గొలుసు",c.chain)+lst("sj","📚","Subject links","సబ్జెక్టు అనుసంధానం",c.subj)+lst("tr","⚠️","Traps & corrections","ఉచ్చులు & సవరణలు",c.trap);
+ return h+'</div></div>'}
+function qH(q,i){var h='<div class="q" id="q'+i+'"><div class="n">'+(i+1)+'. '+E(x(q.q)).replace(/\n/g,"<br>")+'</div>';
+ if(q.st)h+=q.st.map(function(s,k){return'<div class="st">'+(q.plain?"":R[k]+". ")+E(x(s))+'</div>'}).join("");
+ if(q.ml){h+='<div class="ml"><div class="hd">'+L("List-I","జాబితా-I")+'</div><div class="hd">'+L("List-II","జాబితా-II")+'</div>';q.ml.l1.forEach(function(a,k){h+='<div>'+E(x(a))+'</div><div>'+E(x(q.ml.l2[k]))+'</div>'});h+='</div>'}
+ if(q.ask)h+='<div class="ask">'+E(x(q.ask))+'</div>';
+ h+=q.o.map(function(o,k){return'<button class="op" data-q="'+i+'" data-k="'+k+'">('+"abcd"[k]+') '+E(x(o))+'</button>'}).join("");
+ return h+'<div class="why"><b>'+L("Answer","జవాబు")+': ('+"abcd"[q.a]+')</b> — '+E(x(q.why))+'</div></div>'}
+function mark(){var Q=FULL?FULL.mcq:D.free.mcq;Object.keys(ANS).forEach(function(i){var el=$("q"+i);if(!el)return;el.classList.add("done");el.querySelectorAll(".op").forEach(function(b){var k=+b.getAttribute("data-k");b.disabled=true;if(k===Q[i].a)b.classList.add("ok");else if(k===ANS[i])b.classList.add("no")})});
+ var n=Object.keys(ANS).length,ok=Object.keys(ANS).filter(function(i){return ANS[i]===Q[i].a}).length;
+ var sc=$("sc");if(!n){sc.style.display="none";return}sc.style.display="flex";sc.innerHTML='<span>'+L("Score","స్కోరు")+': <b>'+ok+'</b> / '+n+(FULL?' <small>('+L("of","మొత్తం")+' '+Q.length+')</small>':'')+'</span><button class="btn line" id="rs" style="padding:6px 12px">'+L("Reset","మళ్లీ")+'</button>';
+ $("rs").onclick=function(){ANS={};draw()}}
+function lockH(){var c=D.counts,price=D.price;
+ return'<div class="lock" id="buy"><h2>🔓 '+L("Unlock the full capsule — ₹","పూర్తి క్యాప్సూల్ — ₹")+price+'</h2>'+
+ '<ul class="teaser">'+(D.teaser||[]).map(function(t){return'<li>'+E(x(t))+'</li>'}).join("")+
+ '<li>'+L("All "+c.big+" deep index cards + "+c.more+" more indices + key reports","మొత్తం "+c.big+" లోతైన సూచిక కార్డులు + మరో "+c.more+" సూచీలు + ముఖ్య నివేదికలు")+'</li><li>'+L(c.mcq+" Group 1/2-pattern MCQs with explanations (tap to check)",c.mcq+" గ్రూప్ 1/2 స్థాయి ప్రశ్నలు, వివరణలతో (నొక్కి చూసుకోండి)")+'</li><li>'+L("PDF in English and Telugu — print and revise","ఇంగ్లీష్, తెలుగు PDFలు — ప్రింట్ తీసి రివైజ్ చేయండి")+'</li></ul>'+
+ '<ol><li>'+L("Pay ₹"+price+" by UPI","UPIతో ₹"+price+" చెల్లించండి")+'<div class="upirow"><a class="btn grn" href="'+E(D.upi)+'">'+L("Pay ₹"+price+" with UPI app","UPI యాప్‌తో ₹"+price+" చెల్లించండి")+'</a><code>'+UPI+'</code><button class="btn line" id="cpu" style="padding:6px 12px">'+L("Copy","కాపీ")+'</button></div><img id="qr" src="'+E(D.qr)+'" alt="UPI QR"><span class="note">'+L("On a computer? Scan this QR with any UPI app.","కంప్యూటర్‌లో ఉన్నారా? ఏదైనా UPI యాప్‌తో ఈ QR స్కాన్ చేయండి.")+'</span></li>'+
+ '<li>'+L("Send the payment screenshot on Telegram with your device number","చెల్లింపు స్క్రీన్‌షాట్, మీ పరికరం నంబర్ టెలిగ్రామ్‌లో పంపండి")+'<div class="upirow"><a class="btn tg" href="'+TG+'" target="_blank" rel="noopener">Telegram</a></div></li>'+
+ '<li>'+L("Type the unlock code you receive","మీకు వచ్చిన అన్‌లాక్ కోడ్ టైప్ చేయండి")+'<form class="codeF" id="codeForm"><input id="code" placeholder="XXXXX-XXXXX" autocomplete="off"><button class="btn pri">'+L("Unlock","అన్‌లాక్")+'</button></form><div class="msg" id="msg"></div></li></ol></div>'}
+function draw(){document.documentElement.lang=lang;$("lte").className=lang==="te"?"on":"";$("len").className=lang==="en"?"on":"";
+ document.title=x(D.title)+" · Sulabham";
+ var h='<div class="hero"><span class="tag">'+L("Capsule","క్యాప్సూల్")+' · ₹'+D.price+' · '+E(D.updated)+'</span><h1>'+E(x(D.title))+'</h1><p>'+E(x(D.sub))+'</p><div class="stats"><span>📚 '+(D.counts.big+D.counts.more)+' '+L("indices","సూచీలు")+'</span><span>✍️ '+D.counts.mcq+' MCQs</span><span>📄 PDF EN + TE</span><span>✅ '+L("Facts verified","వాస్తవాలు నిర్ధారితం")+'</span></div>'+
+  (FULL?'':'<div style="margin-top:12px"><a class="btn gold" href="#buy">'+L("Unlock all — ₹"+D.price,"అన్నీ అన్‌లాక్ — ₹"+D.price)+'</a></div>')+'</div>';
+ var src=FULL||{big:[D.free.big],mcq:D.free.mcq};
+ h+='<div class="how">💡 '+E(x(D.free.how))+'</div>';
+ if(FULL){h+='<div class="pdfs"><button class="btn pri" data-pdf="en">📄 PDF — English</button><button class="btn pri" data-pdf="te">📄 PDF — తెలుగు</button></div>'}
+ else h+='<p class="note">👀 '+L("Free preview: the first index card and 3 questions.","ఉచిత నమూనా: మొదటి సూచిక కార్డు, 3 ప్రశ్నలు.")+'</p>';
+ h+=src.big.map(bigH).join("");
+ if(FULL){
+  h+='<h2 class="sec">➕ '+L("More indices & reports up to November 2026","నవంబర్ 2026 వరకు మరిన్ని సూచీలు & నివేదికలు")+'</h2>'+FULL.more.map(function(c){return'<div class="mini"><h3>'+c.icon+' '+E(x(c.name))+'</h3><div><b>'+L("By","ప్రచురణ")+':</b> '+E(x(c.by))+'</div><div><b>'+L("Top / last","మొదటి / చివరి")+':</b> '+E(x(c.top))+'</div><div><b>'+L("India","భారత్")+':</b> '+E(x(c.india))+'</div><div><b>'+L("Link","అనుసంధానం")+':</b> '+E(x(c.link))+'</div></div>'}).join("");
+  h+='<h2 class="sec">📄 '+L("Reports to remember","గుర్తుంచుకోవాల్సిన నివేదికలు")+'</h2><table>'+FULL.reports.map(function(r){return'<tr><td class="k">'+E(x(r[0]))+'</td><td>'+E(x(r[1]))+'</td></tr>'}).join("")+'</table>';
+  h+='<h2 class="sec">📊 '+L("India’s rank ladder (best → worst)","భారత్ ర్యాంకుల నిచ్చెన (ఉత్తమం → అధ్వాన్నం)")+'</h2>'+FULL.ladder.map(function(r){var p=r[1].split("/");return'<div class="bar"><span>'+E(r[0])+'</span><i style="width:'+Math.max(4,48*(+p[0])/(+p[1]))+'%"></i><em>'+E(r[1])+'</em></div>'}).join("");
+  h+='<h2 class="sec">🏢 '+L("Who publishes what","ఏ సూచిక ఎవరిది")+'</h2><table><tr><th>'+L("Index","సూచిక")+'</th><th>'+L("Publisher","ప్రచురణ")+'</th><th>'+L("Base","కేంద్రం")+'</th></tr>'+FULL.pub.map(function(r){return'<tr><td>'+E(x(r[0]))+'</td><td>'+E(x(r[1]))+'</td><td>'+E(x(r[2]))+'</td></tr>'}).join("")+'</table>';
+ }
+ h+='<h2 class="sec">✍️ '+L("Practice — tap an option to check","ప్రాక్టీస్ — ఆప్షన్ నొక్కి సరిచూసుకోండి")+'</h2>'+src.mcq.map(qH).join("");
+ if(!FULL)h+=lockH();else h+='<p class="note">🔒 '+L("Unlocked on this device","ఈ పరికరంలో అన్‌లాక్ అయింది")+' · D-'+SUL_dev.id()+'</p>';
+ $("m").innerHTML=h;mark();wire()}
+function wire(){document.querySelectorAll(".op").forEach(function(b){b.onclick=function(){var i=+b.getAttribute("data-q");if(ANS[i]!=null)return;ANS[i]=+b.getAttribute("data-k");mark()}});
+ var cp=$("cpu");if(cp)cp.onclick=function(){try{navigator.clipboard.writeText(UPI)}catch(e){}cp.textContent=L("Copied ✓","కాపీ ✓")};
+ var f=$("codeForm");if(f)f.onsubmit=function(e){e.preventDefault();tryCode($("code").value,true)};
+ document.querySelectorAll("[data-pdf]").forEach(function(b){b.onclick=function(){getPdf(b.getAttribute("data-pdf"),b)}})}
+function tryCode(typed,user,isMaster){var msg=$("msg");if(msg&&user){msg.className="msg";msg.textContent=L("Checking…","పరిశీలిస్తున్నాం…")}
+ return (isMaster?Promise.resolve(norm(typed)):SUL_dev.resolve(typed,"cap-"+id)).then(function(master){if(!master)throw 0;return keyOf(master).then(function(k){return dec(k,b64(D.check)).then(function(){KEY=k;ls("sul_cap_"+id,norm(master));return dec(k,b64(D.enc))})})})
+ .then(function(buf){FULL=JSON.parse(new TextDecoder().decode(buf));ANS={};draw();window.scrollTo(0,0)})
+ .catch(function(){if(msg&&user){msg.className="msg bad";msg.textContent=L("This code is not correct for this device. Check it, or send us your device number.","ఈ పరికరానికి ఈ కోడ్ సరికాదు. సరిచూడండి, లేదా మీ పరికరం నంబర్ పంపండి.")}})}
+function getPdf(m,b){if(!KEY)return;var old=b.textContent;b.textContent="⏳";
+ fetch(D.pdf[m].file).then(function(r){return r.arrayBuffer()}).then(function(a){return dec(KEY,new Uint8Array(a))}).then(function(buf){
+  var u=URL.createObjectURL(new Blob([buf],{type:"application/pdf"})),a=document.createElement("a");a.href=u;a.download="Sulabham_"+id+"_"+m.toUpperCase()+".pdf";document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(u)},4000);b.textContent=old})
+ .catch(function(){b.textContent=old})}
+$("lte").onclick=function(){lang="te";ls("sul_lang",lang);if(D)draw()};$("len").onclick=function(){lang="en";ls("sul_lang",lang);if(D)draw()};
+fetch("caps/"+id+".json").then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){D=d;draw();
+ var saved=ls("sul_cap_"+id);var u=(location.hash.match(/code=([A-Za-z0-9-]+)/)||[])[1];
+ if(u){history.replaceState(null,"",location.pathname+location.search);tryCode(u,true)}else if(saved)tryCode(saved,false,true)})
+ .catch(function(){$("m").innerHTML='<p>'+L("Capsule not found.","క్యాప్సూల్ దొరకలేదు.")+' <a href="caps.html">'+L("See all capsules","అన్ని క్యాప్సూల్స్")+'</a></p>'});
+})();
+</script>
+</body></html>

@@ -32,6 +32,7 @@ var MON=["","January","February","March","April","May","June","July","August","S
 var MONTE=["","జనవరి","ఫిబ్రవరి","మార్చి","ఏప్రిల్","మే","జూన్","జూలై","ఆగస్టు","సెప్టెంబర్","అక్టోబర్","నవంబర్","డిసెంబర్"];
 function info(p){if(p==="pk")return{n:te?"గ్రూప్ 1 & 2 ప్రిలిమ్స్ ప్యాక్":"Group 1 & 2 Prelims Pack",f:"pk/pack.json",key:"sul_pack",u:"prelims.html"};
  var m=p.match(/^ca-(\d{4})-(\d{2})$/);if(m)return{n:(te?MONTE[+m[2]]+" "+m[1]+" కరెంట్ అఫైర్స్":"Current affairs — "+MON[+m[2]]+" "+m[1]),f:"ca/"+m[1]+"-"+m[2]+".json",key:"sul_code_"+m[1]+"-"+m[2],u:"ca.html?m="+m[1]+"-"+m[2]};
+ var c=p.match(/^cap-([a-z0-9-]+)$/);if(c)return{n:(te?"క్యాప్సూల్: ":"Capsule: ")+c[1],f:"caps/"+c[1]+".json",key:"sul_cap_"+c[1],u:"capsule.html?t="+c[1],chk:1};
  return null}
 var raw=decodeURIComponent(location.hash.slice(1));history.replaceState(null,"",location.pathname);
 var parts=raw.split("~").map(function(x){var i=x.lastIndexOf(".");return{p:x.slice(0,i),c:x.slice(i+1)}}).filter(function(x){return info(x.p)&&x.c});
@@ -40,7 +41,7 @@ if(!parts.length){H.textContent=te?"అన్‌లాక్ లింక్ స
 var good=0;
 Promise.all(parts.map(function(x){var i=info(x.p);
  return SUL_dev.resolve(x.c,x.p).then(function(master){if(!master)return{x:x,i:i,ok:false};
-  return fetch(i.f).then(function(r){return r.json()}).then(function(d){return verify(master,d).then(function(ok){if(ok)ls(i.key,norm(master));return{x:x,i:i,ok:ok}})}).catch(function(){return{x:x,i:i,ok:false}})})})).then(function(R){
+  return fetch(i.f).then(function(r){return r.json()}).then(function(d){return verify(master,i.chk?{salt:d.salt,iter:d.iter,enc:d.check}:d).then(function(ok){if(ok)ls(i.key,norm(master));return{x:x,i:i,ok:ok}})}).catch(function(){return{x:x,i:i,ok:false}})})})).then(function(R){
  R.forEach(function(r){if(r.ok)good++;LI.insertAdjacentHTML("beforeend",'<div class="row"><span class="s">'+(r.ok?"✅":"❌")+'</span><b class="'+(r.ok?"ok":"bad")+'">'+r.i.n+'</b>'+(r.ok?'<a href="'+r.i.u+'">'+(te?"తెరవండి":"Open")+'</a>':'')+'</div>')});
  H.textContent=good===R.length?(te?"🎉 అన్నీ అన్‌లాక్ అయ్యాయి!":"🎉 Everything is unlocked!"):(good?(te?"కొన్ని అన్‌లాక్ అయ్యాయి":"Some items are unlocked"):(te?"అన్‌లాక్ కాలేదు":"Could not unlock"));
  F.innerHTML=(good<R.length?'<p class="note">'+(te?"❌ ఉన్నవి ఈ ఫోన్ కోసం చేసిన కోడ్‌లు కావు. కింది పరికరం నంబర్ మాకు పంపండి — కొత్త లింక్ ఉచితంగా పంపుతాం.":"❌ items were made for a different phone. Send us the device number below — we will send a new link free.")+'</p>':'')+
