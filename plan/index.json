@@ -1625,121 +1625,115 @@
    "ph": 2,
    "items": [
     {
-     "s": "mock",
-     "id": "spm-7",
-     "en": "Full-length mock (150 questions, 150 minutes), then analyse every wrong and guessed answer",
-     "te": "పూర్తి మాక్ టెస్ట్ (150 ప్రశ్నలు, 150 ని.), తప్పులు, ఊహించిన వాటన్నిటి విశ్లేషణ"
+     "s": "ma",
+     "id": "g1-ma-1",
+     "en": "Paper II catch-up: clocks, calendar and age problems; Venn diagrams",
+     "te": "పేపర్ II క్యాచ్-అప్: గడియారాలు, క్యాలెండర్, వయసు సమస్యలు; వెన్ చిత్రాలు"
     },
     {
      "s": "ca",
-     "id": "spca-7",
-     "en": "Current affairs revision (International, National, Andhra Pradesh)",
-     "te": "కరెంట్ అఫైర్స్ పునశ్చరణ (అంతర్జాతీయ, జాతీయ, ఆంధ్రప్రదేశ్)"
+     "id": "ca-61",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
    "n": 61,
-   "w": 11,
-   "ready": false
+   "w": 11
   },
   {
    "ph": 2,
    "items": [
     {
-     "s": "mock",
-     "id": "spm-8",
-     "en": "Full-length mock (150 questions, 150 minutes), then analyse every wrong and guessed answer",
-     "te": "పూర్తి మాక్ టెస్ట్ (150 ప్రశ్నలు, 150 ని.), తప్పులు, ఊహించిన వాటన్నిటి విశ్లేషణ"
+     "s": "ma",
+     "id": "g1-ma-2",
+     "en": "Paper II catch-up: powers, square and cube roots, HCF and LCM, BODMAS and symbols; profit and loss",
+     "te": "పేపర్ II క్యాచ్-అప్: ఘాతాలు, వర్గ, ఘన మూలాలు, గ.సా.భా, క.సా.గు, BODMAS, గుర్తులు; లాభనష్టాలు"
     },
     {
      "s": "ca",
-     "id": "spca-8",
-     "en": "Current affairs revision (International, National, Andhra Pradesh)",
-     "te": "కరెంట్ అఫైర్స్ పునశ్చరణ (అంతర్జాతీయ, జాతీయ, ఆంధ్రప్రదేశ్)"
+     "id": "ca-62",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
    "n": 62,
-   "w": 11,
-   "ready": false
+   "w": 11
   },
   {
    "ph": 2,
    "items": [
     {
-     "s": "mock",
-     "id": "spm-9",
-     "en": "Full-length mock (150 questions, 150 minutes), then analyse every wrong and guessed answer",
-     "te": "పూర్తి మాక్ టెస్ట్ (150 ప్రశ్నలు, 150 ని.), తప్పులు, ఊహించిన వాటన్నిటి విశ్లేషణ"
+     "s": "ma",
+     "id": "g1-ma-3",
+     "en": "Paper II catch-up: mean, median, mode and weighted mean; area, volume and basic geometry",
+     "te": "పేపర్ II క్యాచ్-అప్: సగటు, మధ్యగతం, బహుళకం, భారిత సగటు; వైశాల్యం, ఘనపరిమాణం, ప్రాథమిక జ్యామితి"
     },
     {
      "s": "ca",
-     "id": "spca-9",
-     "en": "Current affairs revision (International, National, Andhra Pradesh)",
-     "te": "కరెంట్ అఫైర్స్ పునశ్చరణ (అంతర్జాతీయ, జాతీయ, ఆంధ్రప్రదేశ్)"
+     "id": "ca-63",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
    "n": 63,
-   "w": 11,
-   "ready": false
+   "w": 11
   },
   {
    "ph": 2,
    "items": [
     {
-     "s": "mock",
-     "id": "spm-10",
-     "en": "Full-length mock (150 questions, 150 minutes), then analyse every wrong and guessed answer",
-     "te": "పూర్తి మాక్ టెస్ట్ (150 ప్రశ్నలు, 150 ని.), తప్పులు, ఊహించిన వాటన్నిటి విశ్లేషణ"
+     "s": "ma",
+     "id": "g1-ma-4",
+     "en": "Paper II catch-up: data sufficiency and probability; emotional and social intelligence, decision making",
+     "te": "పేపర్ II క్యాచ్-అప్: డేటా సఫిషియెన్సీ, సంభావ్యత; భావోద్వేగ, సామాజిక ప్రజ్ఞ, నిర్ణయాలు"
     },
     {
      "s": "ca",
-     "id": "spca-10",
-     "en": "Current affairs revision (International, National, Andhra Pradesh)",
-     "te": "కరెంట్ అఫైర్స్ పునశ్చరణ (అంతర్జాతీయ, జాతీయ, ఆంధ్రప్రదేశ్)"
+     "id": "ca-64",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
    "n": 64,
-   "w": 11,
-   "ready": false
+   "w": 11
   },
   {
    "ph": 2,
    "items": [
     {
-     "s": "mock",
-     "id": "spm-11",
-     "en": "Full-length mock (150 questions, 150 minutes), then analyse every wrong and guessed answer",
-     "te": "పూర్తి మాక్ టెస్ట్ (150 ప్రశ్నలు, 150 ని.), తప్పులు, ఊహించిన వాటన్నిటి విశ్లేషణ"
+     "s": "his",
+     "id": "g1-his-1",
+     "en": "History catch-up: Gandhi's ideas, Patel, Bose and Ambedkar; Kanauj, Hoysalas and Yadavas; Governor-Generals and Viceroys",
+     "te": "చరిత్ర క్యాచ్-అప్: గాంధీ ఆలోచనలు, పటేల్, బోస్, అంబేద్కర్; కనౌజ్, హొయసళులు, యాదవులు; గవర్నర్ జనరళ్లు, వైస్రాయ్‌లు"
     },
     {
      "s": "ca",
-     "id": "spca-11",
-     "en": "Current affairs revision (International, National, Andhra Pradesh)",
-     "te": "కరెంట్ అఫైర్స్ పునశ్చరణ (అంతర్జాతీయ, జాతీయ, ఆంధ్రప్రదేశ్)"
+     "id": "ca-65",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
    "n": 65,
-   "w": 11,
-   "ready": false
+   "w": 11
   },
   {
    "ph": 2,
    "items": [
     {
-     "s": "mock",
-     "id": "spm-12",
-     "en": "Full-length mock (150 questions, 150 minutes), then analyse every wrong and guessed answer",
-     "te": "పూర్తి మాక్ టెస్ట్ (150 ప్రశ్నలు, 150 ని.), తప్పులు, ఊహించిన వాటన్నిటి విశ్లేషణ"
+     "s": "sci",
+     "id": "g1-sci-1",
+     "en": "Science catch-up: nanotechnology, biotech ethics, cyber security and netiquette, Indian scientists; Geography: air masses and fronts",
+     "te": "సైన్స్ క్యాచ్-అప్: నానోటెక్నాలజీ, బయోటెక్ నైతికత, సైబర్ భద్రత, నెటికెట్, భారత శాస్త్రవేత్తలు; భౌగోళికం: వాయురాశులు, వాతాగ్రాలు"
     },
     {
      "s": "ca",
-     "id": "spca-12",
-     "en": "Current affairs revision (International, National, Andhra Pradesh)",
-     "te": "కరెంట్ అఫైర్స్ పునశ్చరణ (అంతర్జాతీయ, జాతీయ, ఆంధ్రప్రదేశ్)"
+     "id": "ca-66",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
    "n": 66,
-   "w": 11,
-   "ready": false
+   "w": 11
   },
   {
    "n": "R11",
@@ -1751,40 +1745,119 @@
    "items": [
     {
      "s": "mock",
-     "id": "spm-13",
-     "en": "Full-length mock (150 questions, 150 minutes), then analyse every wrong and guessed answer",
-     "te": "పూర్తి మాక్ టెస్ట్ (150 ప్రశ్నలు, 150 ని.), తప్పులు, ఊహించిన వాటన్నిటి విశ్లేషణ"
+     "id": "g1m-1A",
+     "en": "Group 1 Mock 1 – Paper I: General Studies (120 questions, 120 minutes)",
+     "te": "గ్రూప్ 1 మాక్ 1 – పేపర్ I: జనరల్ స్టడీస్ (120 ప్రశ్నలు, 120 ని.)"
     },
     {
      "s": "ca",
-     "id": "spca-13",
-     "en": "Current affairs revision (International, National, Andhra Pradesh)",
-     "te": "కరెంట్ అఫైర్స్ పునశ్చరణ (అంతర్జాతీయ, జాతీయ, ఆంధ్రప్రదేశ్)"
+     "id": "ca-67",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
    "n": 67,
-   "w": 12,
-   "ready": false
+   "w": 12
   },
   {
    "ph": 2,
    "items": [
     {
      "s": "mock",
-     "id": "spm-14",
-     "en": "Full-length mock (150 questions, 150 minutes), then analyse every wrong and guessed answer",
-     "te": "పూర్తి మాక్ టెస్ట్ (150 ప్రశ్నలు, 150 ని.), తప్పులు, ఊహించిన వాటన్నిటి విశ్లేషణ"
+     "id": "g1m-1B",
+     "en": "Group 1 Mock 1 – Paper II: Aptitude, Science and Current Affairs (120 questions, 120 minutes)",
+     "te": "గ్రూప్ 1 మాక్ 1 – పేపర్ II: ఆప్టిట్యూడ్, సైన్స్, కరెంట్ అఫైర్స్ (120 ప్రశ్నలు, 120 ని.)"
     },
     {
      "s": "ca",
-     "id": "spca-14",
-     "en": "Current affairs revision (International, National, Andhra Pradesh)",
-     "te": "కరెంట్ అఫైర్స్ పునశ్చరణ (అంతర్జాతీయ, జాతీయ, ఆంధ్రప్రదేశ్)"
+     "id": "ca-68",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
    "n": 68,
+   "w": 12
+  },
+  {
+   "ph": 2,
+   "items": [
+    {
+     "s": "mock",
+     "id": "g1m-2A",
+     "en": "Group 1 Mock 2 – Paper I: General Studies (120 questions, 120 minutes)",
+     "te": "గ్రూప్ 1 మాక్ 2 – పేపర్ I: జనరల్ స్టడీస్ (120 ప్రశ్నలు, 120 ని.)"
+    },
+    {
+     "s": "ca",
+     "id": "ca-69",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 69,
+   "w": 12
+  },
+  {
+   "ph": 2,
+   "items": [
+    {
+     "s": "mock",
+     "id": "g1m-2B",
+     "en": "Group 1 Mock 2 – Paper II: Aptitude, Science and Current Affairs (120 questions, 120 minutes)",
+     "te": "గ్రూప్ 1 మాక్ 2 – పేపర్ II: ఆప్టిట్యూడ్, సైన్స్, కరెంట్ అఫైర్స్ (120 ప్రశ్నలు, 120 ని.)"
+    },
+    {
+     "s": "ca",
+     "id": "ca-70",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 70,
+   "w": 12
+  },
+  {
+   "ph": 2,
+   "items": [
+    {
+     "s": "mock",
+     "id": "g1m-3A",
+     "en": "Group 1 Mock 3 – Paper I: General Studies (120 questions, 120 minutes)",
+     "te": "గ్రూప్ 1 మాక్ 3 – పేపర్ I: జనరల్ స్టడీస్ (120 ప్రశ్నలు, 120 ని.)"
+    },
+    {
+     "s": "ca",
+     "id": "ca-71",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 71,
+   "w": 12
+  },
+  {
+   "ph": 2,
+   "items": [
+    {
+     "s": "mock",
+     "id": "g1m-3B",
+     "en": "Group 1 Mock 3 – Paper II: Aptitude, Science and Current Affairs (120 questions, 120 minutes)",
+     "te": "గ్రూప్ 1 మాక్ 3 – పేపర్ II: ఆప్టిట్యూడ్, సైన్స్, కరెంట్ అఫైర్స్ (120 ప్రశ్నలు, 120 ని.)"
+    },
+    {
+     "s": "ca",
+     "id": "ca-72",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 72,
+   "w": 12
+  },
+  {
+   "n": "R12",
    "w": 12,
-   "ready": false
+   "rev": 1
   },
   {
    "ph": 3,
@@ -1802,15 +1875,14 @@
      "te": "ఏపీలో గ్రామీణ రుణం, సహకార సంఘాలు, వ్యవసాయ మార్కెటింగ్"
     },
     {
-     "s": "prac",
-     "id": "prac-11",
-     "en": "Timed practice: 30 questions in APPSC pattern — Science and Environment (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — సైన్స్, పర్యావరణం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "s": "ca",
+     "id": "ca-73",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 69,
-   "w": 12,
-   "ready": false
+   "n": 73,
+   "w": 13
   },
   {
    "ph": 3,
@@ -1828,15 +1900,14 @@
      "te": "ఏపీ వ్యవసాయ, అనుబంధ రంగ పథకాలు: ఉద్యాన, మత్స్య, పశుసంవర్ధక"
     },
     {
-     "s": "prac",
-     "id": "prac-12",
-     "en": "Timed practice: 30 questions in APPSC pattern — Indian Society (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — భారత సమాజం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "s": "ca",
+     "id": "ca-74",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 70,
-   "w": 12,
-   "ready": false
+   "n": 74,
+   "w": 13
   },
   {
    "ph": 3,
@@ -1854,15 +1925,14 @@
      "te": "పరిశ్రమల వృద్ధి, నిర్మాణం; ఇటీవలి ఏపీ పారిశ్రామిక విధానం"
     },
     {
-     "s": "prac",
-     "id": "prac-13",
-     "en": "Timed practice: 30 questions in APPSC pattern — Polity (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — పాలిటీ (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "s": "ca",
+     "id": "ca-75",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 71,
-   "w": 12,
-   "ready": false
+   "n": 75,
+   "w": 13
   },
   {
    "ph": 3,
@@ -1880,20 +1950,14 @@
      "te": "సింగిల్ విండో, పారిశ్రామిక ప్రోత్సాహకాలు, MSMEలు"
     },
     {
-     "s": "prac",
-     "id": "prac-14",
-     "en": "Timed practice: 30 questions in APPSC pattern — History (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — చరిత్ర (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "s": "ca",
+     "id": "ca-76",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 72,
-   "w": 12,
-   "ready": false
-  },
-  {
-   "n": "R12",
-   "w": 12,
-   "rev": 1
+   "n": 76,
+   "w": 13
   },
   {
    "ph": 3,
@@ -1911,15 +1975,14 @@
      "te": "పారిశ్రామిక కారిడార్లు"
     },
     {
-     "s": "prac",
-     "id": "prac-15",
-     "en": "Timed practice: 30 questions in APPSC pattern — Geography (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — భౌగోళికం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "s": "ca",
+     "id": "ca-77",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 73,
-   "w": 13,
-   "ready": false
+   "n": 77,
+   "w": 13
   },
   {
    "ph": 3,
@@ -1937,15 +2000,19 @@
      "te": "ఏపీలో సేవా రంగం: IT, ఎలక్ట్రానిక్స్, కమ్యూనికేషన్లు; ఇటీవలి ఐటీ విధానం"
     },
     {
-     "s": "prac",
-     "id": "prac-16",
-     "en": "Timed practice: 30 questions in APPSC pattern — Economy (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — ఆర్థికం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "s": "ca",
+     "id": "ca-78",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 74,
+   "n": 78,
+   "w": 13
+  },
+  {
+   "n": "R13",
    "w": 13,
-   "ready": false
+   "rev": 1
   },
   {
    "ph": 3,
@@ -1957,21 +2024,20 @@
      "te": "ఆంధ్రలో విజయనగర సామ్రాజ్యం: సమాజం, ఆర్థికం"
     },
     {
-     "s": "pol",
-     "id": "mw-pol-1",
-     "en": "Mains answer writing: Polity — Fundamental Rights, DPSP, Basic Structure (3 answers of 150 words)",
-     "te": "మెయిన్స్ సమాధాన రచన: పాలిటీ — ప్రాథమిక హక్కులు, DPSP, మౌలిక స్వరూపం"
-    },
-    {
      "s": "prac",
      "id": "prac-17",
      "en": "Timed practice: 30 questions in APPSC pattern — Science and Environment (60 min), then correct every wrong answer",
      "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — సైన్స్, పర్యావరణం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+    },
+    {
+     "s": "ca",
+     "id": "ca-79",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 75,
-   "w": 13,
-   "ready": false
+   "n": 79,
+   "w": 14
   },
   {
    "ph": 3,
@@ -1983,21 +2049,20 @@
      "te": "తెలుగు భాష, సాహిత్యం; కళ, వాస్తుశిల్పం (11–16వ శ.)"
     },
     {
-     "s": "pol",
-     "id": "mw-pol-2",
-     "en": "Mains answer writing: Polity — Centre–State relations, commissions, local government",
-     "te": "మెయిన్స్ సమాధాన రచన: పాలిటీ — కేంద్ర–రాష్ట్ర సంబంధాలు, కమిషన్లు, స్థానిక పాలన"
-    },
-    {
      "s": "prac",
      "id": "prac-18",
      "en": "Timed practice: 30 questions in APPSC pattern — Indian Society (60 min), then correct every wrong answer",
      "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — భారత సమాజం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+    },
+    {
+     "s": "ca",
+     "id": "ca-80",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 76,
-   "w": 13,
-   "ready": false
+   "n": 80,
+   "w": 14
   },
   {
    "ph": 3,
@@ -2009,21 +2074,20 @@
      "te": "ఆంధ్రలో యూరోపియన్లు: వాణిజ్య కేంద్రాలు; కంపెనీ పాలనలో ఆంధ్ర"
     },
     {
-     "s": "pol",
-     "id": "mw-pol-3",
-     "en": "Mains answer writing: Economy — planning, reforms, banking, fiscal policy, agriculture",
-     "te": "మెయిన్స్ సమాధాన రచన: ఆర్థికం — ప్రణాళిక, సంస్కరణలు, బ్యాంకింగ్, ఆర్థిక విధానం, వ్యవసాయం"
+     "s": "prac",
+     "id": "prac-14",
+     "en": "Timed practice: 30 questions in APPSC pattern — History (60 min), then correct every wrong answer",
+     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — చరిత్ర (60 ని.), తప్పులన్నీ సరిదిద్దండి"
     },
     {
-     "s": "sci",
-     "id": "mw-sci-1",
-     "en": "Mains S&T and Environment: answer writing on space, defence, ICT, energy",
-     "te": "మెయిన్స్ సైన్స్ & టెక్నాలజీ, పర్యావరణం: అంతరిక్షం, రక్షణ, ICT, శక్తిపై సమాధాన రచన"
+     "s": "ca",
+     "id": "ca-81",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 77,
-   "w": 13,
-   "ready": false
+   "n": 81,
+   "w": 14
   },
   {
    "ph": 3,
@@ -2035,26 +2099,20 @@
      "te": "1857 తిరుగుబాటు, ఆంధ్ర; బ్రిటిష్ పాలన స్థాపన"
     },
     {
-     "s": "pol",
-     "id": "mw-pol-4",
-     "en": "Mains answer writing: AP economy — GSDP, finances, agriculture, industry",
-     "te": "మెయిన్స్ సమాధాన రచన: ఏపీ ఆర్థికం — GSDP, ఆర్థిక స్థితి, వ్యవసాయం, పరిశ్రమ"
+     "s": "prac",
+     "id": "prac-21",
+     "en": "Timed practice: 30 questions in APPSC pattern — Geography (60 min), then correct every wrong answer",
+     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — భౌగోళికం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
     },
     {
-     "s": "sci",
-     "id": "mw-sci-2",
-     "en": "Mains S&T and Environment: biodiversity, pollution, climate, health answers",
-     "te": "మెయిన్స్: జీవవైవిధ్యం, కాలుష్యం, వాతావరణం, ఆరోగ్యంపై సమాధానాలు"
+     "s": "ca",
+     "id": "ca-82",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 78,
-   "w": 13,
-   "ready": false
-  },
-  {
-   "n": "R13",
-   "w": 13,
-   "rev": 1
+   "n": 82,
+   "w": 14
   },
   {
    "ph": 3,
@@ -2067,20 +2125,19 @@
     },
     {
      "s": "prac",
-     "id": "prac-14",
-     "en": "Timed practice: 30 questions in APPSC pattern — History (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — చరిత్ర (60 ని.), తప్పులన్నీ సరిదిద్దండి"
-    },
-    {
-     "s": "prac",
-     "id": "prac-21",
+     "id": "prac-15",
      "en": "Timed practice: 30 questions in APPSC pattern — Geography (60 min), then correct every wrong answer",
      "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — భౌగోళికం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+    },
+    {
+     "s": "ca",
+     "id": "ca-83",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 79,
-   "w": 14,
-   "ready": false
+   "n": 83,
+   "w": 14
   },
   {
    "ph": 3,
@@ -2093,20 +2150,24 @@
     },
     {
      "s": "prac",
-     "id": "prac-15",
-     "en": "Timed practice: 30 questions in APPSC pattern — Geography (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — భౌగోళికం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
-    },
-    {
-     "s": "prac",
      "id": "prac-22",
      "en": "Timed practice: 30 questions in APPSC pattern — Economy (60 min), then correct every wrong answer",
      "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — ఆర్థికం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+    },
+    {
+     "s": "ca",
+     "id": "ca-84",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 80,
+   "n": 84,
+   "w": 14
+  },
+  {
+   "n": "R14",
    "w": 14,
-   "ready": false
+   "rev": 1
   },
   {
    "ph": 3,
@@ -2124,15 +2185,14 @@
      "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — ఆర్థికం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
     },
     {
-     "s": "prac",
-     "id": "prac-23",
-     "en": "Timed practice: 30 questions in APPSC pattern — Science and Environment (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — సైన్స్, పర్యావరణం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "s": "ca",
+     "id": "ca-85",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 81,
-   "w": 14,
-   "ready": false
+   "n": 85,
+   "w": 15
   },
   {
    "ph": 3,
@@ -2145,20 +2205,19 @@
     },
     {
      "s": "prac",
-     "id": "prac-17",
+     "id": "prac-23",
      "en": "Timed practice: 30 questions in APPSC pattern — Science and Environment (60 min), then correct every wrong answer",
      "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — సైన్స్, పర్యావరణం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
     },
     {
-     "s": "prac",
-     "id": "prac-24",
-     "en": "Timed practice: 30 questions in APPSC pattern — Indian Society (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — భారత సమాజం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "s": "ca",
+     "id": "ca-86",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 82,
-   "w": 14,
-   "ready": false
+   "n": 86,
+   "w": 15
   },
   {
    "ph": 3,
@@ -2171,20 +2230,19 @@
     },
     {
      "s": "prac",
-     "id": "prac-18",
-     "en": "Timed practice: 30 questions in APPSC pattern — Indian Society (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — భారత సమాజం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "id": "prac-17",
+     "en": "Timed practice: 30 questions in APPSC pattern — Science and Environment (60 min), then correct every wrong answer",
+     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — సైన్స్, పర్యావరణం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
     },
     {
-     "s": "prac",
-     "id": "prac-25",
-     "en": "Timed practice: 30 questions in APPSC pattern — Polity (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — పాలిటీ (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "s": "ca",
+     "id": "ca-87",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 83,
-   "w": 14,
-   "ready": false
+   "n": 87,
+   "w": 15
   },
   {
    "ph": 3,
@@ -2197,25 +2255,19 @@
     },
     {
      "s": "prac",
-     "id": "prac-19",
-     "en": "Timed practice: 30 questions in APPSC pattern — Polity (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — పాలిటీ (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "id": "prac-24",
+     "en": "Timed practice: 30 questions in APPSC pattern — Indian Society (60 min), then correct every wrong answer",
+     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — భారత సమాజం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
     },
     {
-     "s": "prac",
-     "id": "prac-26",
-     "en": "Timed practice: 30 questions in APPSC pattern — History (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — చరిత్ర (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "s": "ca",
+     "id": "ca-88",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 84,
-   "w": 14,
-   "ready": false
-  },
-  {
-   "n": "R14",
-   "w": 14,
-   "rev": 1
+   "n": 88,
+   "w": 15
   },
   {
    "ph": 3,
@@ -2228,20 +2280,19 @@
     },
     {
      "s": "prac",
-     "id": "prac-20",
-     "en": "Timed practice: 30 questions in APPSC pattern — History (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — చరిత్ర (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "id": "prac-18",
+     "en": "Timed practice: 30 questions in APPSC pattern — Indian Society (60 min), then correct every wrong answer",
+     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — భారత సమాజం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
     },
     {
-     "s": "prac",
-     "id": "prac-27",
-     "en": "Timed practice: 30 questions in APPSC pattern — Geography (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — భౌగోళికం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "s": "ca",
+     "id": "ca-89",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 85,
-   "w": 15,
-   "ready": false
+   "n": 89,
+   "w": 15
   },
   {
    "ph": 3,
@@ -2254,20 +2305,24 @@
     },
     {
      "s": "prac",
-     "id": "prac-21",
-     "en": "Timed practice: 30 questions in APPSC pattern — Geography (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — భౌగోళికం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "id": "prac-25",
+     "en": "Timed practice: 30 questions in APPSC pattern — Polity (60 min), then correct every wrong answer",
+     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — పాలిటీ (60 ని.), తప్పులన్నీ సరిదిద్దండి"
     },
     {
-     "s": "prac",
-     "id": "prac-28",
-     "en": "Timed practice: 30 questions in APPSC pattern — Economy (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — ఆర్థికం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "s": "ca",
+     "id": "ca-90",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 86,
+   "n": 90,
+   "w": 15
+  },
+  {
+   "n": "R15",
    "w": 15,
-   "ready": false
+   "rev": 1
   },
   {
    "ph": 3,
@@ -2280,20 +2335,19 @@
     },
     {
      "s": "prac",
-     "id": "prac-22",
-     "en": "Timed practice: 30 questions in APPSC pattern — Economy (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — ఆర్థికం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "id": "prac-19",
+     "en": "Timed practice: 30 questions in APPSC pattern — Polity (60 min), then correct every wrong answer",
+     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — పాలిటీ (60 ని.), తప్పులన్నీ సరిదిద్దండి"
     },
     {
-     "s": "prac",
-     "id": "prac-29",
-     "en": "Timed practice: 30 questions in APPSC pattern — Science and Environment (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — సైన్స్, పర్యావరణం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "s": "ca",
+     "id": "ca-91",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 87,
-   "w": 15,
-   "ready": false
+   "n": 91,
+   "w": 16
   },
   {
    "ph": 3,
@@ -2306,20 +2360,19 @@
     },
     {
      "s": "prac",
-     "id": "prac-23",
-     "en": "Timed practice: 30 questions in APPSC pattern — Science and Environment (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — సైన్స్, పర్యావరణం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "id": "prac-26",
+     "en": "Timed practice: 30 questions in APPSC pattern — History (60 min), then correct every wrong answer",
+     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — చరిత్ర (60 ని.), తప్పులన్నీ సరిదిద్దండి"
     },
     {
-     "s": "prac",
-     "id": "prac-30",
-     "en": "Timed practice: 30 questions in APPSC pattern — Indian Society (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — భారత సమాజం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "s": "ca",
+     "id": "ca-92",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 88,
-   "w": 15,
-   "ready": false
+   "n": 92,
+   "w": 16
   },
   {
    "ph": 3,
@@ -2332,20 +2385,19 @@
     },
     {
      "s": "prac",
-     "id": "prac-24",
-     "en": "Timed practice: 30 questions in APPSC pattern — Indian Society (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — భారత సమాజం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "id": "prac-20",
+     "en": "Timed practice: 30 questions in APPSC pattern — History (60 min), then correct every wrong answer",
+     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — చరిత్ర (60 ని.), తప్పులన్నీ సరిదిద్దండి"
     },
     {
-     "s": "prac",
-     "id": "prac-31",
-     "en": "Timed practice: 30 questions in APPSC pattern — Polity (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — పాలిటీ (60 ని.), తప్పులన్నీ సరిదిద్దండి"
+     "s": "ca",
+     "id": "ca-93",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
-   "n": 89,
-   "w": 15,
-   "ready": false
+   "n": 93,
+   "w": 16
   },
   {
    "ph": 3,
@@ -2358,150 +2410,339 @@
     },
     {
      "s": "prac",
-     "id": "prac-25",
-     "en": "Timed practice: 30 questions in APPSC pattern — Polity (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — పాలిటీ (60 ని.), తప్పులన్నీ సరిదిద్దండి"
-    },
-    {
-     "s": "prac",
-     "id": "prac-32",
-     "en": "Timed practice: 30 questions in APPSC pattern — History (60 min), then correct every wrong answer",
-     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — చరిత్ర (60 ని.), తప్పులన్నీ సరిదిద్దండి"
-    }
-   ],
-   "n": 90,
-   "w": 15,
-   "ready": false
-  },
-  {
-   "n": "R15",
-   "w": 15,
-   "rev": 1
-  },
-  {
-   "ph": 4,
-   "items": [
-    {
-     "s": "mock",
-     "id": "fm-1",
-     "en": "Group 2 Screening Test mock (150 questions) and full analysis",
-     "te": "గ్రూప్ 2 స్క్రీనింగ్ టెస్ట్ మాక్ (150 ప్రశ్నలు), విశ్లేషణ"
+     "id": "prac-27",
+     "en": "Timed practice: 30 questions in APPSC pattern — Geography (60 min), then correct every wrong answer",
+     "te": "సమయ పరిమితితో సాధన: APPSC విధానంలో 30 ప్రశ్నలు — భౌగోళికం (60 ని.), తప్పులన్నీ సరిదిద్దండి"
     },
     {
      "s": "ca",
-     "id": "fmca-1",
-     "en": "Current affairs revision",
-     "te": "కరెంట్ అఫైర్స్ పునశ్చరణ"
-    }
-   ],
-   "n": 91,
-   "w": 16,
-   "ready": false
-  },
-  {
-   "ph": 4,
-   "items": [
-    {
-     "s": "mock",
-     "id": "fm-2",
-     "en": "Group 2 Screening Test mock (150 questions) and full analysis",
-     "te": "గ్రూప్ 2 స్క్రీనింగ్ టెస్ట్ మాక్ (150 ప్రశ్నలు), విశ్లేషణ"
-    },
-    {
-     "s": "ca",
-     "id": "fmca-2",
-     "en": "Current affairs revision",
-     "te": "కరెంట్ అఫైర్స్ పునశ్చరణ"
-    }
-   ],
-   "n": 92,
-   "w": 16,
-   "ready": false
-  },
-  {
-   "ph": 4,
-   "items": [
-    {
-     "s": "mock",
-     "id": "fm-3",
-     "en": "Group 2 Screening Test mock (150 questions) and full analysis",
-     "te": "గ్రూప్ 2 స్క్రీనింగ్ టెస్ట్ మాక్ (150 ప్రశ్నలు), విశ్లేషణ"
-    },
-    {
-     "s": "ca",
-     "id": "fmca-3",
-     "en": "Current affairs revision",
-     "te": "కరెంట్ అఫైర్స్ పునశ్చరణ"
-    }
-   ],
-   "n": 93,
-   "w": 16,
-   "ready": false
-  },
-  {
-   "ph": 4,
-   "items": [
-    {
-     "s": "mock",
-     "id": "fm-4",
-     "en": "Group 2 Mains-style paper: Paper I or Paper II answer writing",
-     "te": "గ్రూప్ 2 మెయిన్స్ తరహా పేపర్: పేపర్ I లేదా II సమాధాన రచన"
-    },
-    {
-     "s": "ca",
-     "id": "fmca-4",
-     "en": "Current affairs revision",
-     "te": "కరెంట్ అఫైర్స్ పునశ్చరణ"
+     "id": "ca-94",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
     }
    ],
    "n": 94,
-   "w": 16,
-   "ready": false
-  },
-  {
-   "ph": 4,
-   "items": [
-    {
-     "s": "mock",
-     "id": "fm-5",
-     "en": "Group 2 Mains-style paper: Paper I or Paper II answer writing",
-     "te": "గ్రూప్ 2 మెయిన్స్ తరహా పేపర్: పేపర్ I లేదా II సమాధాన రచన"
-    },
-    {
-     "s": "ca",
-     "id": "fmca-5",
-     "en": "Current affairs revision",
-     "te": "కరెంట్ అఫైర్స్ పునశ్చరణ"
-    }
-   ],
-   "n": 95,
-   "w": 16,
-   "ready": false
-  },
-  {
-   "ph": 4,
-   "items": [
-    {
-     "s": "mock",
-     "id": "fm-6",
-     "en": "Group 2 Mains-style paper: Paper I or Paper II answer writing",
-     "te": "గ్రూప్ 2 మెయిన్స్ తరహా పేపర్: పేపర్ I లేదా II సమాధాన రచన"
-    },
-    {
-     "s": "ca",
-     "id": "fmca-6",
-     "en": "Current affairs revision",
-     "te": "కరెంట్ అఫైర్స్ పునశ్చరణ"
-    }
-   ],
-   "n": 96,
-   "w": 16,
-   "ready": false
+   "w": 16
   },
   {
    "n": "R16",
    "w": 16,
    "rev": 1
+  },
+  {
+   "ph": 4,
+   "items": [
+    {
+     "s": "mock",
+     "id": "g1m-4A",
+     "en": "Group 1 Mock 4 – Paper I: General Studies (120 questions, 120 minutes)",
+     "te": "గ్రూప్ 1 మాక్ 4 – పేపర్ I: జనరల్ స్టడీస్ (120 ప్రశ్నలు, 120 ని.)"
+    },
+    {
+     "s": "ca",
+     "id": "ca-95",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 95,
+   "w": 17
+  },
+  {
+   "ph": 4,
+   "items": [
+    {
+     "s": "mock",
+     "id": "g1m-4B",
+     "en": "Group 1 Mock 4 – Paper II: Aptitude, Science and Current Affairs (120 questions, 120 minutes)",
+     "te": "గ్రూప్ 1 మాక్ 4 – పేపర్ II: ఆప్టిట్యూడ్, సైన్స్, కరెంట్ అఫైర్స్ (120 ప్రశ్నలు, 120 ని.)"
+    },
+    {
+     "s": "ca",
+     "id": "ca-96",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 96,
+   "w": 17
+  },
+  {
+   "ph": 4,
+   "items": [
+    {
+     "s": "mock",
+     "id": "g1m-5A",
+     "en": "Group 1 Mock 5 – Paper I: General Studies (120 questions, 120 minutes)",
+     "te": "గ్రూప్ 1 మాక్ 5 – పేపర్ I: జనరల్ స్టడీస్ (120 ప్రశ్నలు, 120 ని.)"
+    },
+    {
+     "s": "ca",
+     "id": "ca-97",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 97,
+   "w": 17
+  },
+  {
+   "ph": 4,
+   "items": [
+    {
+     "s": "mock",
+     "id": "g1m-5B",
+     "en": "Group 1 Mock 5 – Paper II: Aptitude, Science and Current Affairs (120 questions, 120 minutes)",
+     "te": "గ్రూప్ 1 మాక్ 5 – పేపర్ II: ఆప్టిట్యూడ్, సైన్స్, కరెంట్ అఫైర్స్ (120 ప్రశ్నలు, 120 ని.)"
+    },
+    {
+     "s": "ca",
+     "id": "ca-98",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 98,
+   "w": 17
+  },
+  {
+   "ph": 4,
+   "items": [
+    {
+     "s": "ca",
+     "id": "g1-ca-1",
+     "en": "12-month current affairs revision I (Jan–Jun 2026) with a 60-question test",
+     "te": "12 నెలల కరెంట్ అఫైర్స్ పునశ్చరణ I (జన–జూన్ 2026), 60 ప్రశ్నల టెస్ట్"
+    }
+   ],
+   "n": 99,
+   "w": 17
+  },
+  {
+   "ph": 4,
+   "items": [
+    {
+     "s": "ca",
+     "id": "g1-ca-2",
+     "en": "12-month current affairs revision II (Jul 2026–Jan 2027) and last-week one-page sheets for every subject",
+     "te": "12 నెలల కరెంట్ అఫైర్స్ పునశ్చరణ II (జూలై 2026–జన 2027), ప్రతి సబ్జెక్టుకు చివరి వారం ఒక పేజీ షీట్లు"
+    }
+   ],
+   "n": 100,
+   "w": 17
+  },
+  {
+   "n": "R17",
+   "w": 17,
+   "rev": 1
+  },
+  {
+   "ph": 5,
+   "items": [
+    {
+     "s": "mock",
+     "id": "g2f-1",
+     "en": "Group 2 Screening final mock 1 (150 questions, 150 minutes) and analysis",
+     "te": "గ్రూప్ 2 స్క్రీనింగ్ తుది మాక్ 1 (150 ప్రశ్నలు, 150 ని.), విశ్లేషణ"
+    },
+    {
+     "s": "ca",
+     "id": "ca-101",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 101,
+   "w": 18
+  },
+  {
+   "ph": 5,
+   "items": [
+    {
+     "s": "mock",
+     "id": "g2f-2",
+     "en": "Group 2 Screening final mock 2 (150 questions, 150 minutes) and analysis",
+     "te": "గ్రూప్ 2 స్క్రీనింగ్ తుది మాక్ 2 (150 ప్రశ్నలు, 150 ని.), విశ్లేషణ"
+    },
+    {
+     "s": "ca",
+     "id": "ca-102",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 102,
+   "w": 18
+  },
+  {
+   "ph": 5,
+   "items": [
+    {
+     "s": "mock",
+     "id": "g2f-3",
+     "en": "Group 2 Screening final mock 3 (150 questions, 150 minutes) and analysis",
+     "te": "గ్రూప్ 2 స్క్రీనింగ్ తుది మాక్ 3 (150 ప్రశ్నలు, 150 ని.), విశ్లేషణ"
+    },
+    {
+     "s": "ca",
+     "id": "ca-103",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 103,
+   "w": 18
+  },
+  {
+   "ph": 5,
+   "items": [
+    {
+     "s": "pol",
+     "id": "mw-pol-1",
+     "en": "Mains answer writing: Polity — Fundamental Rights, DPSP, Basic Structure (3 answers of 150 words)",
+     "te": "మెయిన్స్ సమాధాన రచన: పాలిటీ — ప్రాథమిక హక్కులు, DPSP, మౌలిక స్వరూపం"
+    },
+    {
+     "s": "ca",
+     "id": "ca-104",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 104,
+   "w": 18
+  },
+  {
+   "ph": 5,
+   "items": [
+    {
+     "s": "pol",
+     "id": "mw-pol-2",
+     "en": "Mains answer writing: Polity — Centre–State relations, commissions, local government",
+     "te": "మెయిన్స్ సమాధాన రచన: పాలిటీ — కేంద్ర–రాష్ట్ర సంబంధాలు, కమిషన్లు, స్థానిక పాలన"
+    },
+    {
+     "s": "ca",
+     "id": "ca-105",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 105,
+   "w": 18
+  },
+  {
+   "ph": 5,
+   "items": [
+    {
+     "s": "pol",
+     "id": "mw-pol-3",
+     "en": "Mains answer writing: Economy — planning, reforms, banking, fiscal policy, agriculture",
+     "te": "మెయిన్స్ సమాధాన రచన: ఆర్థికం — ప్రణాళిక, సంస్కరణలు, బ్యాంకింగ్, ఆర్థిక విధానం, వ్యవసాయం"
+    },
+    {
+     "s": "ca",
+     "id": "ca-106",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 106,
+   "w": 18
+  },
+  {
+   "n": "R18",
+   "w": 18,
+   "rev": 1
+  },
+  {
+   "ph": 5,
+   "items": [
+    {
+     "s": "sci",
+     "id": "mw-sci-1",
+     "en": "Mains S&T and Environment: answer writing on space, defence, ICT, energy",
+     "te": "మెయిన్స్ సైన్స్ & టెక్నాలజీ, పర్యావరణం: అంతరిక్షం, రక్షణ, ICT, శక్తిపై సమాధాన రచన"
+    },
+    {
+     "s": "ca",
+     "id": "ca-107",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 107,
+   "w": 19
+  },
+  {
+   "ph": 5,
+   "items": [
+    {
+     "s": "pol",
+     "id": "mw-pol-4",
+     "en": "Mains answer writing: AP economy — GSDP, finances, agriculture, industry",
+     "te": "మెయిన్స్ సమాధాన రచన: ఏపీ ఆర్థికం — GSDP, ఆర్థిక స్థితి, వ్యవసాయం, పరిశ్రమ"
+    },
+    {
+     "s": "ca",
+     "id": "ca-108",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 108,
+   "w": 19
+  },
+  {
+   "ph": 5,
+   "items": [
+    {
+     "s": "sci",
+     "id": "mw-sci-2",
+     "en": "Mains S&T and Environment: biodiversity, pollution, climate, health answers",
+     "te": "మెయిన్స్: జీవవైవిధ్యం, కాలుష్యం, వాతావరణం, ఆరోగ్యంపై సమాధానాలు"
+    },
+    {
+     "s": "ca",
+     "id": "ca-109",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 109,
+   "w": 19
+  },
+  {
+   "ph": 5,
+   "items": [
+    {
+     "s": "mock",
+     "id": "g2f-4",
+     "en": "Group 2 Screening final mock 4 (150 questions, 150 minutes) and analysis",
+     "te": "గ్రూప్ 2 స్క్రీనింగ్ తుది మాక్ 4 (150 ప్రశ్నలు, 150 ని.), విశ్లేషణ"
+    },
+    {
+     "s": "ca",
+     "id": "ca-110",
+     "en": "Current affairs: today's news and one month of revision",
+     "te": "కరెంట్ అఫైర్స్: నేటి వార్తలు, ఒక నెల పునశ్చరణ"
+    }
+   ],
+   "n": 110,
+   "w": 19
+  },
+  {
+   "ph": 5,
+   "items": [
+    {
+     "s": "ca",
+     "id": "g2-ca-1",
+     "en": "Group 2 last-week revision: Society, History, Geography one-page sheets and current affairs",
+     "te": "గ్రూప్ 2 చివరి వారం పునశ్చరణ: సమాజం, చరిత్ర, భౌగోళికం ఒక పేజీ షీట్లు, కరెంట్ అఫైర్స్"
+    }
+   ],
+   "n": 111,
+   "w": 19
   }
  ]
 }
