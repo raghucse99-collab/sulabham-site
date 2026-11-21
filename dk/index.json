@@ -2,7 +2,7 @@
 "v": 1,
 "salt": "M1iId3fIyqYDue3YLUqMXw==",
 "iter": 200000,
-"check": "IlAdWwPCc2aUDgv9+HTbPvA9ywfP/+f4NKYDJBT6RE9FCmo00+ClqKBRmQ==",
+"check": "rQ3H9EohebfjSgvDkaOCeAZlfGsd8tdOpnlbXYJV6e/8S/J7cn+WhPZJ1A==",
 "lessons": {
 "dsc-sgt-perspectives-day2": "Perspectives in Education, Day 2: Teachers, Rights, Concerns, NCF and NEP",
 "dsc-sgt-perspectives-day2-te": "విద్యా దృక్పథాలు, 2వ రోజు: ఉపాధ్యాయులు, హక్కులు, సమకాలీన అంశాలు, NCF, NEP",
@@ -63,6 +63,8 @@
 "dsc-sgt-social-day7": "Social Studies, Day 7: Social Methodology — All 10 Units",
 "dsc-sgt-social-day7-te": "సాంఘిక శాస్త్రం, రోజు 7: సాంఘిక బోధనా పద్ధతులు — మొత్తం 10 యూనిట్లు",
 "dsc-sgt-social-test": "DSC SGT Social Studies Test: Content & Methodology",
-"dsc-sgt-social-test-te": "DSC SGT సాంఘిక శాస్త్రం టెస్ట్: విషయం & బోధనా పద్ధతులు"
+"dsc-sgt-social-test-te": "DSC SGT సాంఘిక శాస్త్రం టెస్ట్: విషయం & బోధనా పద్ధతులు",
+"dsc-sgt-english-day1": "English, Day 1: Parts of Speech; Articles and Prepositions",
+"dsc-sgt-english-day1-te": "ఇంగ్లీష్, రోజు 1: పదభాగాలు (Parts of Speech); ఆర్టికల్స్, ప్రిపోజిషన్లు"
 }
 }
