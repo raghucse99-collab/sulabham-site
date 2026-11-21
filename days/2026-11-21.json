@@ -1,0 +1,2091 @@
+{
+ "date": "2026-11-21",
+ "day": {
+  "en": "Saturday, 21 November 2026",
+  "te": "శనివారం, 21 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Scattering",
+   "en": "light bouncing off particles in many directions",
+   "te": "కాంతి పరిక్షేపణం (కణాలను తాకి అన్ని దిశల్లో చెదరడం)",
+   "ex": "Raman found that a tiny part of scattered light comes out with a changed frequency.",
+   "topic": "raman"
+  },
+  {
+   "w": "Aquaculture",
+   "en": "farming of fish, shrimp and other water animals",
+   "te": "జలచరాల సాగు (చెరువుల్లో చేపలు, రొయ్యల పెంపకం)",
+   "ex": "In Andhra Pradesh, aquaculture makes up about 7.6% of the state's GVA.",
+   "topic": "fisheries"
+  },
+  {
+   "w": "Retrenchment",
+   "en": "ending workers' jobs by the employer, not as punishment",
+   "te": "ఉద్యోగాల తొలగింపు (శిక్షగా కాకుండా యాజమాన్యం చేసేది)",
+   "ex": "Under the Industrial Relations Code, retrenchment needs prior permission only in units with 300 or more workers.",
+   "topic": "labourcodes"
+  },
+  {
+   "w": "Saturation",
+   "en": "covering every eligible person or place fully",
+   "te": "సంపూర్ణ కవరేజీ (అర్హులందరికీ చేరడం)",
+   "ex": "The Centre wants SVAMITVA saturation in all target villages by 31 March 2027.",
+   "topic": "svamitva"
+  },
+  {
+   "w": "Beneficiation",
+   "en": "cleaning and upgrading raw ore before refining",
+   "te": "ఖనిజ శుద్ధీకరణ పూర్వ ప్రక్రియ (ముడి ఖనిజాన్ని శుభ్రం చేసి నాణ్యత పెంచడం)",
+   "ex": "The op-ed says mined ore needs beneficiation and refining before it becomes useful material.",
+   "topic": "minerals"
+  }
+ ],
+ "items": [
+  {
+   "id": "raman",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "rocket",
+   "cf": [
+    0,
+    2,
+    3,
+    5,
+    7
+   ],
+   "tag": {
+    "en": "Death anniversary · 21 Nov 1970",
+    "te": "వర్ధంతి · 21 నవంబర్ 1970"
+   },
+   "title": {
+    "en": "Sir C.V. Raman — the scientist of light",
+    "te": "సర్ సి.వి. రామన్ — కాంతి శాస్త్రవేత్త"
+   },
+   "line": {
+    "en": "The first Indian to win a Nobel Prize in science (Physics, 1930) — his discovery date, 28 February, is our National Science Day.",
+    "te": "సైన్స్‌లో నోబెల్ బహుమతి పొందిన తొలి భారతీయుడు (భౌతిక శాస్త్రం, 1930) — ఆయన ఆవిష్కరణ తేదీ ఫిబ్రవరి 28నే మనం జాతీయ సైన్స్ దినోత్సవంగా జరుపుకుంటాం."
+   },
+   "easy": [
+    {
+     "en": "When light passes through a liquid or a gas, most of it comes out with the same colour. But C.V. Raman found that a very small part of the scattered light comes out with a slightly changed colour (frequency). This change tells us about the molecules inside the substance. This is called the Raman effect.",
+     "te": "కాంతి ఒక ద్రవం లేదా వాయువు గుండా వెళ్లినప్పుడు ఎక్కువ భాగం అదే రంగుతో బయటకు వస్తుంది. కానీ చెల్లాచెదురైన (scattered) కాంతిలో చాలా చిన్న భాగం కొద్దిగా మారిన రంగు (పౌనఃపున్యం)తో వస్తుందని సి.వి. రామన్ కనుగొన్నారు. ఈ మార్పు ఆ పదార్థంలోని అణువుల గురించి చెబుతుంది. దీనినే రామన్ ఫలితం (Raman effect) అంటారు."
+    },
+    {
+     "en": "Raman did this work in India, with simple instruments, at the Indian Association for the Cultivation of Science in Calcutta. He began research there in his spare time while working as a government finance officer. He later built institutions in Bengaluru — he was the first Indian director of IISc and founded the Raman Research Institute.",
+     "te": "రామన్ ఈ పరిశోధనను భారతదేశంలోనే, సాధారణ పరికరాలతో, కలకత్తాలోని ఇండియన్ అసోసియేషన్ ఫర్ ది కల్టివేషన్ ఆఫ్ సైన్స్ (IACS)లో చేశారు. ప్రభుత్వ ఆర్థిక శాఖ అధికారిగా పని చేస్తూనే ఖాళీ సమయంలో అక్కడ పరిశోధన ప్రారంభించారు. తర్వాత బెంగళూరులో సంస్థలను నిర్మించారు — IISc తొలి భారతీయ డైరెక్టర్‌ అయ్యారు, రామన్ రీసెర్చ్ ఇన్‌స్టిట్యూట్‌ను స్థాపించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "7 November 1888, Tiruchirappalli (Tamil Nadu)",
+      "te": "7 నవంబర్ 1888, తిరుచిరాపల్లి (తమిళనాడు)"
+     }
+    ],
+    [
+     {
+      "en": "1907",
+      "te": "1907"
+     },
+     {
+      "en": "Joined the Indian Finance Service as Assistant Accountant General",
+      "te": "ఇండియన్ ఫైనాన్స్ సర్వీస్‌లో అసిస్టెంట్ అకౌంటెంట్ జనరల్‌గా చేరారు"
+     }
+    ],
+    [
+     {
+      "en": "1917",
+      "te": "1917"
+     },
+     {
+      "en": "First Palit Professor of Physics, Calcutta University",
+      "te": "కలకత్తా విశ్వవిద్యాలయంలో తొలి 'పాలిత్' భౌతిక శాస్త్ర ప్రొఫెసర్"
+     }
+    ],
+    [
+     {
+      "en": "28 Feb 1928",
+      "te": "28 ఫిబ్ర 1928"
+     },
+     {
+      "en": "Discovery of the Raman effect → National Science Day",
+      "te": "రామన్ ఫలితం ఆవిష్కరణ → జాతీయ సైన్స్ దినోత్సవం"
+     }
+    ],
+    [
+     {
+      "en": "1929 / 1930",
+      "te": "1929 / 1930"
+     },
+     {
+      "en": "Knighted (1929); Nobel Prize in Physics (1930) for work on scattering of light",
+      "te": "'సర్' బిరుదు (1929); కాంతి పరిక్షేపణంపై కృషికి భౌతిక శాస్త్ర నోబెల్ (1930)"
+     }
+    ],
+    [
+     {
+      "en": "1933",
+      "te": "1933"
+     },
+     {
+      "en": "First Indian director of the Indian Institute of Science (IISc), Bengaluru",
+      "te": "బెంగళూరు ఇండియన్ ఇన్‌స్టిట్యూట్ ఆఫ్ సైన్స్ (IISc) తొలి భారతీయ డైరెక్టర్"
+     }
+    ],
+    [
+     {
+      "en": "Institutions",
+      "te": "సంస్థలు"
+     },
+     {
+      "en": "Indian Journal of Physics (1926); Indian Academy of Sciences; Raman Research Institute (1948)",
+      "te": "ఇండియన్ జర్నల్ ఆఫ్ ఫిజిక్స్ (1926); ఇండియన్ అకాడమీ ఆఫ్ సైన్సెస్; రామన్ రీసెర్చ్ ఇన్‌స్టిట్యూట్ (1948)"
+     }
+    ],
+    [
+     {
+      "en": "Honours",
+      "te": "గౌరవాలు"
+     },
+     {
+      "en": "Bharat Ratna (1954); Lenin Peace Prize (1957)",
+      "te": "భారతరత్న (1954); లెనిన్ శాంతి బహుమతి (1957)"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "21 November 1970, Bengaluru",
+      "te": "21 నవంబర్ 1970, బెంగళూరు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Raman and Indian science today",
+     "te": "లింక్ చెయిన్ · రామన్, నేటి భారత సైన్స్"
+    },
+    "l": [
+     {
+      "en": "National Science Day (28 Feb): the government chose this date in 1986; first celebrated in 1987. 2026 theme: 'Women in Science: Catalyzing Viksit Bharat'",
+      "te": "జాతీయ సైన్స్ దినోత్సవం (ఫిబ్ర 28): ప్రభుత్వం 1986లో ఈ తేదీని ఎంచుకుంది; తొలిసారి 1987లో జరిపారు. 2026 థీమ్: 'Women in Science: Catalyzing Viksit Bharat'"
+     },
+     {
+      "en": "Raman Research Institute, Bengaluru is still active — this week (Nov 2026) its team reported a new study on quantum magnetism",
+      "te": "బెంగళూరు రామన్ రీసెర్చ్ ఇన్‌స్టిట్యూట్ నేటికీ చురుకుగా ఉంది — ఈ వారం (నవం 2026) క్వాంటం అయస్కాంతత్వంపై కొత్త అధ్యయనాన్ని ప్రకటించింది"
+     },
+     {
+      "en": "Birth (7 Nov), discovery (28 Feb) and death (21 Nov) are three different dates — exams mix them",
+      "te": "జననం (నవం 7), ఆవిష్కరణ (ఫిబ్ర 28), మరణం (నవం 21) — మూడు వేర్వేరు తేదీలు; పరీక్షల్లో వీటిని కలిపి అడుగుతారు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "National Science Day (28 Feb) marks the DISCOVERY of the Raman effect (1928), not Raman's birthday (7 Nov). The discovery was in 1928 but the Nobel came in 1930 — and it was in Physics, not Chemistry.",
+    "te": "జాతీయ సైన్స్ దినోత్సవం (ఫిబ్ర 28) రామన్ ఫలితం ఆవిష్కరణ (1928) గుర్తు — రామన్ పుట్టినరోజు (నవం 7) కాదు. ఆవిష్కరణ 1928లో, నోబెల్ 1930లో — అది భౌతిక శాస్త్రంలో, రసాయన శాస్త్రంలో కాదు."
+   },
+   "tip": {
+    "en": "Ladder 17-26-28-30-33-48-54: Professor, Journal, Effect, Nobel, IISc, RRI, Bharat Ratna.",
+    "te": "నిచ్చెన 17-26-28-30-33-48-54: ప్రొఫెసర్, జర్నల్, ఫలితం, నోబెల్, IISc, RRI, భారతరత్న."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Sir C.V. Raman, consider the following statements:",
+     "te": "సర్ సి.వి. రామన్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. National Science Day is celebrated on his birthday.",
+      "te": "I. జాతీయ సైన్స్ దినోత్సవాన్ని ఆయన పుట్టినరోజున జరుపుతారు."
+     },
+     {
+      "en": "II. He received the Nobel Prize in Physics in 1930.",
+      "te": "II. ఆయనకు 1930లో భౌతిక శాస్త్ర నోబెల్ బహుమతి లభించింది."
+     },
+     {
+      "en": "III. He was awarded the Bharat Ratna in 1954.",
+      "te": "III. ఆయనకు 1954లో భారతరత్న లభించింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I is wrong: National Science Day (28 Feb) marks the discovery of the Raman effect in 1928; Raman was born on 7 November.",
+     "te": "I తప్పు: జాతీయ సైన్స్ దినోత్సవం (ఫిబ్ర 28) 1928లో రామన్ ఫలితం ఆవిష్కరణకు గుర్తు; రామన్ నవంబర్ 7న జన్మించారు."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "His life in dates",
+      "te": "తేదీల్లో ఆయన జీవితం"
+     },
+     "items": [
+      {
+       "y": "1888",
+       "t": {
+        "en": "Born at Tiruchirappalli (7 Nov)",
+        "te": "తిరుచిరాపల్లిలో జననం (నవం 7)"
+       }
+      },
+      {
+       "y": "1907",
+       "t": {
+        "en": "Indian Finance Service; research at IACS, Calcutta",
+        "te": "ఇండియన్ ఫైనాన్స్ సర్వీస్; కలకత్తా IACSలో పరిశోధన"
+       }
+      },
+      {
+       "y": "1917",
+       "t": {
+        "en": "Palit Professor, Calcutta University",
+        "te": "పాలిత్ ప్రొఫెసర్, కలకత్తా విశ్వవిద్యాలయం"
+       }
+      },
+      {
+       "y": "1928",
+       "t": {
+        "en": "Raman effect (28 Feb) → National Science Day",
+        "te": "రామన్ ఫలితం (ఫిబ్ర 28) → జాతీయ సైన్స్ దినోత్సవం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1930",
+       "t": {
+        "en": "Nobel Prize in Physics",
+        "te": "భౌతిక శాస్త్ర నోబెల్ బహుమతి"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1933",
+       "t": {
+        "en": "First Indian director of IISc",
+        "te": "IISc తొలి భారతీయ డైరెక్టర్"
+       }
+      },
+      {
+       "y": "1948",
+       "t": {
+        "en": "Raman Research Institute, Bengaluru",
+        "te": "రామన్ రీసెర్చ్ ఇన్‌స్టిట్యూట్, బెంగళూరు"
+       }
+      },
+      {
+       "y": "1954",
+       "t": {
+        "en": "Bharat Ratna",
+        "te": "భారతరత్న"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1970",
+       "t": {
+        "en": "Died at Bengaluru (21 Nov)",
+        "te": "బెంగళూరులో మరణం (నవం 21)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = most asked: 1928 effect, 1930 Nobel, 1954 Bharat Ratna.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగేవి: 1928 ఫలితం, 1930 నోబెల్, 1954 భారతరత్న."
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "What is the Raman effect?",
+      "te": "రామన్ ఫలితం అంటే ఏమిటి?"
+     },
+     "items": [
+      {
+       "i": "💡",
+       "t": {
+        "en": "Light of one colour falls on a liquid",
+        "te": "ఒకే రంగు కాంతి ద్రవంపై పడుతుంది"
+       }
+      },
+      {
+       "i": "🌊",
+       "t": {
+        "en": "Molecules scatter the light",
+        "te": "అణువులు కాంతిని చెల్లాచెదురు చేస్తాయి"
+       }
+      },
+      {
+       "i": "🌈",
+       "t": {
+        "en": "A tiny part comes out with changed frequency",
+        "te": "చిన్న భాగం మారిన పౌనఃపున్యంతో బయటకు"
+       }
+      },
+      {
+       "i": "🔬",
+       "t": {
+        "en": "The shift reveals the molecule — used to identify substances",
+        "te": "ఆ మార్పు అణువును తెలుపుతుంది — పదార్థాల గుర్తింపుకు ఉపయోగం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "NobelPrize.org — Sir Chandrasekhara Venkata Raman, Facts (Nobel Prize in Physics 1930)",
+     "u": "https://www.nobelprize.org/prizes/physics/1930/raman/facts/"
+    },
+    {
+     "t": "Physics Today (AIP) — Chandrasekhara Raman, 7 Nov 2018",
+     "u": "https://physicstoday.aip.org/news/chandrasekhara-raman"
+    },
+    {
+     "t": "New India Samachar (PIB) — C.V. Raman profile",
+     "u": "https://newindiasamachar.pib.gov.in/archive/nov2/english/files/basic-html/page31.html"
+    },
+    {
+     "t": "Britannica — C.V. Raman",
+     "u": "https://www.britannica.com/biography/C-V-Raman"
+    },
+    {
+     "t": "Drishti IAS (cross-check) — National Science Day 2026, 6 Mar 2026",
+     "u": "https://www.drishtiias.com/daily-updates/daily-news-analysis/national-science-day-2026-1"
+    },
+    {
+     "t": "CrackTarget (cross-check) — Current Affairs 21 November 2026 (RRI quantum magnetism study)",
+     "u": "https://cracktarget.com/current-affairs-21-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "fisheries",
+   "kind": "day",
+   "color": "#1f6f6a",
+   "icon": "food",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    6
+   ],
+   "tag": {
+    "en": "World Fisheries Day · 21 November",
+    "te": "ప్రపంచ మత్స్య దినోత్సవం · 21 నవంబర్"
+   },
+   "title": {
+    "en": "World Fisheries Day — India No. 2 in the world, Andhra Pradesh No. 1 in India",
+    "te": "ప్రపంచ మత్స్య దినోత్సవం — ప్రపంచంలో భారత్ నం.2, భారత్‌లో ఆంధ్రప్రదేశ్ నం.1"
+   },
+   "line": {
+    "en": "The day began in New Delhi in 1997. India produces about 8% of the world's fish, and AP leads the country in fish and shrimp production.",
+    "te": "ఈ దినోత్సవం 1997లో న్యూఢిల్లీలో మొదలైంది. ప్రపంచ చేపల ఉత్పత్తిలో భారత్ వాటా సుమారు 8%; చేపలు, రొయ్యల ఉత్పత్తిలో దేశంలో ఏపీ అగ్రస్థానంలో ఉంది."
+   },
+   "easy": [
+    {
+     "en": "On 21 November 1997, representatives of fishing communities from 18 countries met in New Delhi and set up a World Fisheries Forum. Since then 21 November is marked as World Fisheries Day — to protect fish stocks and the people who live by fishing.",
+     "te": "1997 నవంబర్ 21న 18 దేశాల మత్స్యకార సమాజాల ప్రతినిధులు న్యూఢిల్లీలో సమావేశమై 'వరల్డ్ ఫిషరీస్ ఫోరం'ను ఏర్పాటు చేశారు. అప్పటి నుంచి నవంబర్ 21ని ప్రపంచ మత్స్య దినోత్సవంగా జరుపుతున్నారు — చేపల సంపదను, చేపల వేటపై ఆధారపడిన ప్రజలను కాపాడడమే లక్ష్యం."
+    },
+    {
+     "en": "India's fish production doubled in about ten years — from 96 lakh tonnes (2013-14) to 195 lakh tonnes (2024-25). Inland fish production (rivers, tanks and ponds) grew by 140%. Andhra Pradesh, with its long coastline and many aquaculture ponds, is the biggest contributor.",
+     "te": "సుమారు పదేళ్లలో భారత చేపల ఉత్పత్తి రెట్టింపైంది — 96 లక్షల టన్నులు (2013-14) నుంచి 195 లక్షల టన్నులు (2024-25). అంతర్గత (నదులు, చెరువులు, కుంటలు) చేపల ఉత్పత్తి 140% పెరిగింది. పొడవైన తీరం, విస్తారమైన ఆక్వా చెరువులతో ఆంధ్రప్రదేశ్ అతిపెద్ద వాటా అందిస్తోంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Origin",
+      "te": "ప్రారంభం"
+     },
+     {
+      "en": "21 Nov 1997, New Delhi — fishing communities of 18 countries formed the World Fisheries Forum",
+      "te": "21 నవం 1997, న్యూఢిల్లీ — 18 దేశాల మత్స్యకార సమాజాలు 'వరల్డ్ ఫిషరీస్ ఫోరం' ఏర్పాటు"
+     }
+    ],
+    [
+     {
+      "en": "2026 global focus",
+      "te": "2026 ప్రపంచ ఫోకస్"
+     },
+     {
+      "en": "FAO–ILO event (Rome, 20 Nov): 'Empowering people for change: advancing decent work in fisheries and aquaculture, particularly for youth and women'",
+      "te": "FAO–ILO కార్యక్రమం (రోమ్, నవం 20): 'Empowering people for change: advancing decent work in fisheries and aquaculture, particularly for youth and women'"
+     }
+    ],
+    [
+     {
+      "en": "India",
+      "te": "భారత్"
+     },
+     {
+      "en": "2nd largest fish producer — about 8% of world output",
+      "te": "ప్రపంచంలో 2వ అతిపెద్ద చేపల ఉత్పత్తిదారు — ప్రపంచ ఉత్పత్తిలో సుమారు 8%"
+     }
+    ],
+    [
+     {
+      "en": "Production",
+      "te": "ఉత్పత్తి"
+     },
+     {
+      "en": "96 lakh t (2013-14) → 195 lakh t (2024-25); inland output up 140%",
+      "te": "96 లక్షల టన్నులు (2013-14) → 195 లక్షల టన్నులు (2024-25); అంతర్గత ఉత్పత్తి 140% పెరుగుదల"
+     }
+    ],
+    [
+     {
+      "en": "Seafood exports",
+      "te": "సముద్ర ఆహార ఎగుమతులు"
+     },
+     {
+      "en": "₹62,408 crore (2024-25)",
+      "te": "₹62,408 కోట్లు (2024-25)"
+     }
+    ],
+    [
+     {
+      "en": "Schemes",
+      "te": "పథకాలు"
+     },
+     {
+      "en": "FIDF (2018, ₹7,522.48 cr); PMMSY (10 Sept 2020, ₹20,312 cr); PM-MKSSY (8 Feb 2024, ₹6,000 cr)",
+      "te": "FIDF (2018, ₹7,522.48 కో); PMMSY (10 సెప్టెం 2020, ₹20,312 కో); PM-MKSSY (8 ఫిబ్ర 2024, ₹6,000 కో)"
+     }
+    ],
+    [
+     {
+      "en": "Andhra Pradesh",
+      "te": "ఆంధ్రప్రదేశ్"
+     },
+     {
+      "en": "Leads India in fish & shrimp production (28% share, AP Budget 2025-26); aquaculture = 7.6% of state GVA",
+      "te": "చేపలు, రొయ్యల ఉత్పత్తిలో దేశంలో అగ్రస్థానం (28% వాటా, ఏపీ బడ్జెట్ 2025-26); రాష్ట్ర GVAలో ఆక్వాకల్చర్ 7.6%"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Blue economy and AP",
+     "te": "లింక్ చెయిన్ · బ్లూ ఎకానమీ, ఏపీ"
+    },
+    "l": [
+     {
+      "en": "PMMSY gives women beneficiaries 60% assistance (others 40%)",
+      "te": "PMMSYలో మహిళా లబ్ధిదారులకు 60% సాయం (ఇతరులకు 40%)"
+     },
+     {
+      "en": "India's coastline: 11,099 km; coastal States/UTs give 72% of fish production and 76% of seafood exports",
+      "te": "భారత తీరరేఖ: 11,099 కి.మీ; తీర రాష్ట్రాలు/UTల నుంచే 72% చేపల ఉత్పత్తి, 76% సముద్ర ఆహార ఎగుమతులు"
+     },
+     {
+      "en": "AP's marine fishery exports are worth about ₹19,420 crore (AP Budget speech, 2025)",
+      "te": "ఏపీ సముద్ర మత్స్య ఎగుమతుల విలువ సుమారు ₹19,420 కోట్లు (ఏపీ బడ్జెట్ ప్రసంగం, 2025)"
+     },
+     {
+      "en": "Fisheries budget 2026-27: ₹2,761.80 crore",
+      "te": "మత్స్య రంగ బడ్జెట్ 2026-27: ₹2,761.80 కోట్లు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "India is the world's SECOND largest fish producer, not the first. Among Indian States, Andhra Pradesh is first. Match the schemes carefully: FIDF 2018, PMMSY 2020, PM-MKSSY 2024.",
+    "te": "భారత్ ప్రపంచంలో రెండో అతిపెద్ద చేపల ఉత్పత్తిదారు — మొదటిది కాదు. రాష్ట్రాల్లో ఆంధ్రప్రదేశ్ మొదటిది. పథకాలను జాగ్రత్తగా జత చేయండి: FIDF 2018, PMMSY 2020, PM-MKSSY 2024."
+   },
+   "tip": {
+    "en": "'97 Delhi, 18 nations' — and 96 → 195: production doubled in a decade.",
+    "te": "'97 ఢిల్లీ, 18 దేశాలు' — 96 → 195: దశాబ్దంలో ఉత్పత్తి రెట్టింపు."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about fisheries in India:",
+     "te": "భారతదేశంలో మత్స్య రంగానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. India is the largest fish producer in the world.",
+      "te": "I. ప్రపంచంలో అతిపెద్ద చేపల ఉత్పత్తిదారు భారత్."
+     },
+     {
+      "en": "II. World Fisheries Day traces its origin to a meeting held in New Delhi in 1997.",
+      "te": "II. ప్రపంచ మత్స్య దినోత్సవం 1997లో న్యూఢిల్లీలో జరిగిన సమావేశం నుంచి మొదలైంది."
+     },
+     {
+      "en": "III. Andhra Pradesh leads India in fish and shrimp production.",
+      "te": "III. చేపలు, రొయ్యల ఉత్పత్తిలో దేశంలో ఆంధ్రప్రదేశ్ అగ్రస్థానంలో ఉంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "I is wrong: India is the SECOND largest fish producer (about 8% of world output).",
+     "te": "I తప్పు: భారత్ రెండో అతిపెద్ద చేపల ఉత్పత్తిదారు (ప్రపంచ ఉత్పత్తిలో సుమారు 8%)."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "India's fish production (lakh tonnes)",
+      "te": "భారత చేపల ఉత్పత్తి (లక్షల టన్నులు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "2013-14",
+        "te": "2013-14"
+       },
+       "v": 96,
+       "vl": "96"
+      },
+      {
+       "t": {
+        "en": "2024-25",
+        "te": "2024-25"
+       },
+       "v": 195,
+       "vl": "195"
+      }
+     ],
+     "cap": {
+      "en": "Doubled in about a decade; inland fisheries grew 140% (PIB, Nov 2025).",
+      "te": "సుమారు దశాబ్దంలో రెట్టింపు; అంతర్గత మత్స్య రంగం 140% వృద్ధి (PIB, నవం 2025)."
+     }
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Where: AP — India's top fish & shrimp state",
+      "te": "ఎక్కడ: ఏపీ — దేశంలో చేపలు, రొయ్యల్లో అగ్ర రాష్ట్రం"
+     },
+     "view": "ap",
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#1f6f6a",
+     "rivers": [
+      "Godavari",
+      "Krishna"
+     ],
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        17.69,
+        83.22
+       ],
+       "t": {
+        "en": "Visakhapatnam",
+        "te": "విశాఖపట్నం"
+       }
+      },
+      {
+       "ll": [
+        16.99,
+        82.25
+       ],
+       "t": {
+        "en": "Kakinada",
+        "te": "కాకినాడ"
+       }
+      }
+     ],
+     "cap": {
+      "en": "AP: 28% share in fish & shrimp production; aquaculture = 7.6% of state GVA.",
+      "te": "ఏపీ: చేపలు, రొయ్యల ఉత్పత్తిలో 28% వాటా; రాష్ట్ర GVAలో ఆక్వాకల్చర్ 7.6%."
+     },
+     "src": "cards/2026-11-21/map-fisheries-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB — Strengthening Marine Resources and Livelihoods: India Celebrates World Fisheries Day 2025 (backgrounder), 20 Nov 2025",
+     "u": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251120700601.pdf"
+    },
+    {
+     "t": "ILO Live — World Fisheries Day: Empowering women and youth in fisheries (FAO–ILO event, Rome, 20 Nov 2026)",
+     "u": "https://live.ilo.org/event/world-fisheries-day-empowering-women-and-youth-fisheries-2026-11-20"
+    },
+    {
+     "t": "The Hans India — AP leads in fish, shrimp production in India, 1 Mar 2025",
+     "u": "https://thehansindia.com/andhra-pradesh/ap-leads-in-fish-shrimp-production-in-india-949810"
+    },
+    {
+     "t": "Morung Express (IANS) — World Fisheries Day: India highlights sustainability, livelihoods, Blue Economy growth",
+     "u": "https://morungexpress.com/world-fisheries-day-india-highlights-sustainability-livelihoods-blue-economy-growth"
+    },
+    {
+     "t": "Vajiram & Ravi (cross-check) — World Fisheries Day 2026",
+     "u": "https://vajiramandravi.com/current-affairs/world-fisheries-day-2026/"
+    }
+   ]
+  },
+  {
+   "id": "labourcodes",
+   "kind": "article",
+   "color": "#9b2c2c",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    6
+   ],
+   "src": {
+    "en": "Business Today · 20 Nov 2026 · One year of the Labour Codes",
+    "te": "బిజినెస్ టుడే · 20 నవం 2026 · లేబర్ కోడ్‌లకు ఏడాది"
+   },
+   "tag": {
+    "en": "Explained · GS-II Governance / GS-III Economy",
+    "te": "వివరణ · GS-II పాలన / GS-III ఆర్థిక వ్యవస్థ"
+   },
+   "title": {
+    "en": "One year of the four Labour Codes: what changed, what is still pending",
+    "te": "నాలుగు లేబర్ కోడ్‌లకు ఏడాది: ఏం మారింది, ఇంకా ఏం మిగిలింది"
+   },
+   "line": {
+    "en": "29 central labour laws were merged into 4 Codes from 21 Nov 2025. One year on, many States are still finishing their rules — Andhra Pradesh is among the few that have notified final rules under all four.",
+    "te": "29 కేంద్ర కార్మిక చట్టాలను 4 కోడ్‌లుగా కలిపి 21 నవం 2025 నుంచి అమలు చేశారు. ఏడాది తర్వాత కూడా చాలా రాష్ట్రాలు తమ నిబంధనలు పూర్తి చేస్తున్నాయి — నాలుగు కోడ్‌ల కింద తుది నిబంధనలు జారీ చేసిన కొద్ది రాష్ట్రాల్లో ఆంధ్రప్రదేశ్ ఒకటి."
+   },
+   "easy": [
+    {
+     "en": "Earlier India had 29 separate central laws on wages, factories, trade unions, PF and so on. Parliament merged them into four Codes in 2019–2020: the Code on Wages, the Industrial Relations Code, the Code on Social Security and the Occupational Safety, Health and Working Conditions (OSH) Code. They came into force on 21 November 2025.",
+     "te": "ఇంతకుముందు వేతనాలు, కర్మాగారాలు, కార్మిక సంఘాలు, PF వంటి వాటిపై 29 వేర్వేరు కేంద్ర చట్టాలు ఉండేవి. పార్లమెంటు వీటిని 2019–2020లో నాలుగు కోడ్‌లుగా కలిపింది: వేతనాల కోడ్, పారిశ్రామిక సంబంధాల (IR) కోడ్, సామాజిక భద్రత కోడ్, వృత్తి భద్రత–ఆరోగ్యం–పని పరిస్థితుల (OSH) కోడ్. ఇవి 21 నవంబర్ 2025 నుంచి అమల్లోకి వచ్చాయి."
+    },
+    {
+     "en": "Labour is a concurrent subject, so both the Centre and the States must make rules. A law works on the ground only after the rules are notified. That is why, one year later, the focus is on States' rules, the gig-worker fund and the national floor wage.",
+     "te": "కార్మికులు ఉమ్మడి (concurrent) జాబితా అంశం — కాబట్టి కేంద్రం, రాష్ట్రాలు రెండూ నిబంధనలు (rules) రూపొందించాలి. నిబంధనలు జారీ అయిన తర్వాతే చట్టం క్షేత్రస్థాయిలో పని చేస్తుంది. అందుకే ఏడాది తర్వాత రాష్ట్రాల నిబంధనలు, గిగ్ కార్మికుల నిధి, జాతీయ కనీస వేతన స్థాయి (floor wage)పై దృష్టి ఉంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "In force",
+      "te": "అమలు"
+     },
+     {
+      "en": "21 November 2025 (Ministry of Labour & Employment notifications)",
+      "te": "21 నవంబర్ 2025 (కార్మిక–ఉపాధి మంత్రిత్వ శాఖ నోటిఫికేషన్లు)"
+     }
+    ],
+    [
+     {
+      "en": "4 Codes",
+      "te": "4 కోడ్‌లు"
+     },
+     {
+      "en": "Wages (2019); Industrial Relations (2020); Social Security (2020); OSH (2020)",
+      "te": "వేతనాలు (2019); పారిశ్రామిక సంబంధాలు (2020); సామాజిక భద్రత (2020); OSH (2020)"
+     }
+    ],
+    [
+     {
+      "en": "Laws merged",
+      "te": "విలీనమైన చట్టాలు"
+     },
+     {
+      "en": "29 central labour laws (repealed)",
+      "te": "29 కేంద్ర కార్మిక చట్టాలు (రద్దు)"
+     }
+    ],
+    [
+     {
+      "en": "Draft central rules",
+      "te": "కేంద్ర ముసాయిదా నిబంధనలు"
+     },
+     {
+      "en": "Notified around 1 Jan 2026; 45 days for objections",
+      "te": "సుమారు 1 జన 2026న జారీ; అభ్యంతరాలకు 45 రోజులు"
+     }
+    ],
+    [
+     {
+      "en": "States with final rules under all 4",
+      "te": "4 కోడ్‌లకూ తుది నిబంధనలు"
+     },
+     {
+      "en": "Andhra Pradesh, Arunachal Pradesh, Bihar, Gujarat; UTs Dadra & Nagar Haveli, Lakshadweep, Puducherry",
+      "te": "ఆంధ్రప్రదేశ్, అరుణాచల్ ప్రదేశ్, బిహార్, గుజరాత్; UTలు దాద్రా & నగర్ హవేలి, లక్షద్వీప్, పుదుచ్చేరి"
+     }
+    ],
+    [
+     {
+      "en": "Retrenchment (IR Code)",
+      "te": "ఉద్యోగ తొలగింపు (IR కోడ్)"
+     },
+     {
+      "en": "Prior government permission only for units with 300 or more workers (earlier 100)",
+      "te": "300 లేదా అంతకంటే ఎక్కువ కార్మికులున్న సంస్థలకే ప్రభుత్వ ముందస్తు అనుమతి (గతంలో 100)"
+     }
+    ],
+    [
+     {
+      "en": "Gig & platform workers",
+      "te": "గిగ్, ప్లాట్‌ఫాం కార్మికులు"
+     },
+     {
+      "en": "Aggregators pay 1–2% of annual turnover to a social security fund, capped at 5% of what they pay these workers",
+      "te": "అగ్రిగేటర్లు వార్షిక టర్నోవర్‌లో 1–2% సామాజిక భద్రత నిధికి చెల్లించాలి; గరిష్ఠం ఆ కార్మికులకు చెల్లించే మొత్తంలో 5%"
+     }
+    ],
+    [
+     {
+      "en": "Latest",
+      "te": "తాజా"
+     },
+     {
+      "en": "EPFO board approved new EPF and EPS schemes under the Codes (19 Nov 2026); national board for unorganised, gig & platform workers formed (Oct 2026)",
+      "te": "కోడ్‌ల కింద కొత్త EPF, EPS పథకాలకు EPFO బోర్డు ఆమోదం (19 నవం 2026); అసంఘటిత, గిగ్, ప్లాట్‌ఫాం కార్మికుల జాతీయ బోర్డు ఏర్పాటు (అక్టో 2026)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Other worker benefits in the Codes",
+     "te": "లింక్ చెయిన్ · కోడ్‌లలో ఇతర కార్మిక ప్రయోజనాలు"
+    },
+    "l": [
+     {
+      "en": "Fixed-term employees get gratuity after 1 year of service",
+      "te": "నిర్ణీత కాల (fixed-term) ఉద్యోగులకు 1 ఏడాది సేవ తర్వాతే గ్రాట్యుటీ"
+     },
+     {
+      "en": "'Wages' 50% rule: if allowances exceed 50% of pay, the extra is counted as wages (affects PF, gratuity)",
+      "te": "'వేతనం' 50% నియమం: అలవెన్సులు జీతంలో 50% దాటితే అదనపు భాగం వేతనంగా లెక్క (PF, గ్రాట్యుటీపై ప్రభావం)"
+     },
+     {
+      "en": "Appointment letters for all; free annual health check-up for workers above 40",
+      "te": "అందరికీ నియామక పత్రాలు; 40 ఏళ్లు దాటిన కార్మికులకు ఏటా ఉచిత ఆరోగ్య పరీక్ష"
+     },
+     {
+      "en": "Women may work night shifts with consent and safety conditions (OSH Code)",
+      "te": "సమ్మతి, భద్రత షరతులతో మహిళలు రాత్రి షిఫ్టుల్లో పని చేయవచ్చు (OSH కోడ్)"
+     },
+     {
+      "en": "Inspector becomes 'inspector-cum-facilitator' — to guide as well as check",
+      "te": "ఇన్‌స్పెక్టర్ ఇక 'ఇన్‌స్పెక్టర్-కమ్-ఫెసిలిటేటర్' — తనిఖీతో పాటు మార్గదర్శనం"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The Codes were PASSED in 2019–2020 but came INTO FORCE only on 21 Nov 2025. They merged 29 laws (not 44). The retrenchment-permission threshold is 300 workers (raised from 100). The gig-fund cap is 5% of payments to gig workers, not 5% of turnover.",
+    "te": "కోడ్‌లు 2019–2020లో ఆమోదం పొందాయి కానీ అమల్లోకి వచ్చింది 21 నవం 2025నే. విలీనమైనవి 29 చట్టాలు (44 కాదు). తొలగింపు అనుమతి పరిమితి 300 మంది (100 నుంచి పెంపు). గిగ్ నిధి గరిష్ఠ పరిమితి గిగ్ కార్మికులకు చెల్లించే మొత్తంలో 5% — టర్నోవర్‌లో 5% కాదు."
+   },
+   "tip": {
+    "en": "'4 Codes, 29 laws, 300 workers, 21-11-25' — W-I-S-O: Wages, IR, Social Security, OSH.",
+    "te": "'4 కోడ్‌లు, 29 చట్టాలు, 300 మంది, 21-11-25' — W-I-S-O: వేతనాలు, IR, సామాజిక భద్రత, OSH."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the four Labour Codes, consider the following statements:",
+     "te": "నాలుగు లేబర్ కోడ్‌లకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. They came into force on 21 November 2025.",
+      "te": "I. ఇవి 21 నవంబర్ 2025 నుంచి అమల్లోకి వచ్చాయి."
+     },
+     {
+      "en": "II. They consolidate 29 central labour laws.",
+      "te": "II. ఇవి 29 కేంద్ర కార్మిక చట్టాలను ఏకీకృతం చేశాయి."
+     },
+     {
+      "en": "III. Under the Industrial Relations Code, prior permission for retrenchment is needed in units with 100 or more workers.",
+      "te": "III. IR కోడ్ ప్రకారం 100 లేదా అంతకంటే ఎక్కువ కార్మికులున్న సంస్థల్లో తొలగింపుకు ముందస్తు అనుమతి కావాలి."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "III is wrong: the threshold was raised from 100 to 300 workers.",
+     "te": "III తప్పు: పరిమితిని 100 నుంచి 300 మందికి పెంచారు."
+    }
+   },
+   "pics": [
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "29 laws → 4 Codes",
+      "te": "29 చట్టాలు → 4 కోడ్‌లు"
+     },
+     "c": {
+      "en": "Labour Codes (in force 21 Nov 2025)",
+      "te": "లేబర్ కోడ్‌లు (21 నవం 2025 నుంచి)"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Code on Wages, 2019",
+        "te": "వేతనాల కోడ్, 2019"
+       },
+       "l": [
+        {
+         "en": "50% 'wages' rule",
+         "te": "50% 'వేతనం' నియమం"
+        },
+        {
+         "en": "National floor wage",
+         "te": "జాతీయ కనీస వేతన స్థాయి"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Industrial Relations Code, 2020",
+        "te": "IR కోడ్, 2020"
+       },
+       "l": [
+        {
+         "en": "Retrenchment permission: 300+ workers",
+         "te": "తొలగింపు అనుమతి: 300+ మంది"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Code on Social Security, 2020",
+        "te": "సామాజిక భద్రత కోడ్, 2020"
+       },
+       "l": [
+        {
+         "en": "Gig fund: 1–2% of turnover",
+         "te": "గిగ్ నిధి: టర్నోవర్‌లో 1–2%"
+        },
+        {
+         "en": "Gratuity after 1 yr (fixed-term)",
+         "te": "1 ఏడాదికే గ్రాట్యుటీ (fixed-term)"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "OSH Code, 2020",
+        "te": "OSH కోడ్, 2020"
+       },
+       "l": [
+        {
+         "en": "Health check-up 40+",
+         "te": "40+ వారికి ఆరోగ్య పరీక్ష"
+        },
+        {
+         "en": "Women night shifts (consent)",
+         "te": "మహిళల రాత్రి షిఫ్టులు (సమ్మతితో)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "From law to the ground",
+      "te": "చట్టం నుంచి క్షేత్రస్థాయికి"
+     },
+     "items": [
+      {
+       "i": "🏛️",
+       "t": {
+        "en": "Codes passed 2019–2020",
+        "te": "2019–2020లో కోడ్‌ల ఆమోదం"
+       }
+      },
+      {
+       "i": "📅",
+       "t": {
+        "en": "In force 21 Nov 2025",
+        "te": "21 నవం 2025 నుంచి అమలు"
+       }
+      },
+      {
+       "i": "📝",
+       "t": {
+        "en": "Draft central rules, Jan 2026",
+        "te": "కేంద్ర ముసాయిదా నిబంధనలు, జన 2026"
+       }
+      },
+      {
+       "i": "🗺️",
+       "t": {
+        "en": "State rules — AP among 7 that finished all 4",
+        "te": "రాష్ట్ర నిబంధనలు — 4 కోడ్‌లూ పూర్తి చేసిన 7లో ఏపీ"
+       }
+      },
+      {
+       "i": "💼",
+       "t": {
+        "en": "New EPF/EPS schemes approved, 19 Nov 2026",
+        "te": "కొత్త EPF/EPS పథకాలకు ఆమోదం, 19 నవం 2026"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Business Today — One year of labour codes implementation: some progress made, but still a long way to go, 20 Nov 2026",
+     "u": "https://www.businesstoday.in/jobs/story/one-year-of-labour-codes-implementation-some-progress-made-but-still-a-long-way-to-go-568765-2026-11-20"
+    },
+    {
+     "t": "All India Radio (newsonair) — Government notifies draft rules for four Labour Codes, 1 Jan 2026",
+     "u": "https://www.newsonair.gov.in/government-notifies-draft-rules-for-four-labour-codes/"
+    },
+    {
+     "t": "Cyril Amarchand Mangaldas — A Guide to the New Labour Codes (law as on 6 Feb 2026)",
+     "u": "https://www.cyrilshroff.com/wp-content/uploads/2025/12/Guide-to-the-Labour-Codes.pdf"
+    }
+   ],
+   "mains": {
+    "en": "One year after the four Labour Codes came into force, their benefits depend on rules framed by the States. Examine how the concurrent nature of 'labour' affects implementation, and assess whether the Codes balance ease of doing business with worker protection.",
+    "te": "నాలుగు లేబర్ కోడ్‌లు అమల్లోకి వచ్చి ఏడాది అయినా, వాటి ప్రయోజనాలు రాష్ట్రాలు రూపొందించే నిబంధనలపైనే ఆధారపడి ఉన్నాయి. 'కార్మికులు' ఉమ్మడి జాబితా అంశం కావడం అమలును ఎలా ప్రభావితం చేస్తుందో పరిశీలించండి; వ్యాపార సౌలభ్యం, కార్మిక రక్షణల మధ్య కోడ్‌లు సమతుల్యం సాధించాయా అంచనా వేయండి."
+   }
+  },
+  {
+   "id": "svamitva",
+   "kind": "article",
+   "color": "#a86b00",
+   "icon": "poverty",
+   "cf": [
+    0,
+    2,
+    3,
+    4,
+    5
+   ],
+   "src": {
+    "en": "In the news · Ministry of Panchayati Raj review · 20 Nov 2026",
+    "te": "వార్తల్లో · పంచాయతీరాజ్ మంత్రిత్వ శాఖ సమీక్ష · 20 నవం 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Governance / Rural development",
+    "te": "వివరణ · GS-II పాలన / గ్రామీణాభివృద్ధి"
+   },
+   "title": {
+    "en": "SVAMITVA: drones map 98% of target villages, but only two-thirds have property cards",
+    "te": "స్వామిత్వ: లక్ష్య గ్రామాల్లో 98% డ్రోన్ సర్వే పూర్తి, కానీ ఆస్తి కార్డులు మూడింట రెండు వంతులకే"
+   },
+   "line": {
+    "en": "The Centre and States have agreed to finish the scheme by 31 March 2027. The weak link is ground verification and card distribution, which States must do.",
+    "te": "31 మార్చి 2027 నాటికి పథకాన్ని పూర్తి చేయాలని కేంద్రం, రాష్ట్రాలు నిర్ణయించాయి. బలహీనమైన దశ — క్షేత్రస్థాయి ధృవీకరణ, కార్డుల పంపిణీ — ఇవి రాష్ట్రాలు చేయాల్సిన పనులు."
+   },
+   "easy": [
+    {
+     "en": "In most villages, people live in houses for generations but have no legal paper for the house plot (the 'abadi' or inhabited area). Without a paper, they cannot take a bank loan on it, and disputes are common. SVAMITVA uses drones to map every house plot and then gives the owner a 'Record of Rights' — the property card.",
+     "te": "చాలా గ్రామాల్లో ప్రజలు తరతరాలుగా ఇళ్లలో నివసిస్తున్నా, ఆ ఇంటి స్థలానికి ('ఆబాదీ' లేదా నివాస ప్రాంతం) చట్టబద్ధ పత్రం ఉండదు. పత్రం లేకపోతే దానిపై బ్యాంకు రుణం రాదు, వివాదాలు ఎక్కువ. స్వామిత్వ పథకం డ్రోన్లతో ప్రతి ఇంటి స్థలాన్ని మ్యాప్ చేసి యజమానికి 'హక్కుల రికార్డు' — ఆస్తి కార్డు — ఇస్తుంది."
+    },
+    {
+     "en": "At the national review on 20 Nov 2026, the Ministry said drone surveys are almost complete (98%), but property cards cover only 66% of villages. The missing steps are ground checking by State officials and hearing objections before cards are issued.",
+     "te": "20 నవం 2026 జాతీయ సమీక్షలో డ్రోన్ సర్వే దాదాపు పూర్తయిందని (98%), కానీ ఆస్తి కార్డులు 66% గ్రామాలకే అందాయని మంత్రిత్వ శాఖ తెలిపింది. మిగిలిన దశలు — రాష్ట్ర అధికారుల క్షేత్రస్థాయి తనిఖీ, కార్డుల జారీకి ముందు అభ్యంతరాల విచారణ."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Full form",
+      "te": "పూర్తి పేరు"
+     },
+     {
+      "en": "Survey of Villages Abadi and Mapping with Improvised Technology in Village Areas",
+      "te": "Survey of Villages Abadi and Mapping with Improvised Technology in Village Areas"
+     }
+    ],
+    [
+     {
+      "en": "Ministry / type",
+      "te": "మంత్రిత్వ శాఖ / రకం"
+     },
+     {
+      "en": "Ministry of Panchayati Raj; Central Sector Scheme",
+      "te": "పంచాయతీరాజ్ మంత్రిత్వ శాఖ; కేంద్ర రంగ పథకం (Central Sector Scheme)"
+     }
+    ],
+    [
+     {
+      "en": "Launched",
+      "te": "ప్రారంభం"
+     },
+     {
+      "en": "24 April 2020 by the PM; pilot 2020-21 in 8 States",
+      "te": "24 ఏప్రిల్ 2020న ప్రధాని ప్రారంభం; 2020-21లో 8 రాష్ట్రాల్లో పైలట్"
+     }
+    ],
+    [
+     {
+      "en": "Drone survey",
+      "te": "డ్రోన్ సర్వే"
+     },
+     {
+      "en": "3.28 lakh of 3.33 lakh target villages (98%)",
+      "te": "3.33 లక్షల లక్ష్య గ్రామాల్లో 3.28 లక్షలు (98%)"
+     }
+    ],
+    [
+     {
+      "en": "Property cards",
+      "te": "ఆస్తి కార్డులు"
+     },
+     {
+      "en": "3.47 crore cards for 2.20 lakh villages (66%)",
+      "te": "2.20 లక్షల గ్రామాలకు 3.47 కోట్ల కార్డులు (66%)"
+     }
+    ],
+    [
+     {
+      "en": "Deadline",
+      "te": "గడువు"
+     },
+     {
+      "en": "Saturation by 31 March 2027",
+      "te": "31 మార్చి 2027 నాటికి పూర్తి (saturation)"
+     }
+    ],
+    [
+     {
+      "en": "Bank loans",
+      "te": "బ్యాంకు రుణాలు"
+     },
+     {
+      "en": "16,614 loans worth ₹1,769.56 crore on property cards (MP, Rajasthan, Maharashtra, Gujarat, Mizoram, J&K, Ladakh)",
+      "te": "ఆస్తి కార్డులపై ₹1,769.56 కోట్ల విలువైన 16,614 రుణాలు (MP, రాజస్థాన్, మహారాష్ట్ర, గుజరాత్, మిజోరం, J&K, లద్దాఖ్)"
+     }
+    ],
+    [
+     {
+      "en": "Review meeting",
+      "te": "సమీక్ష సమావేశం"
+     },
+     {
+      "en": "20 Nov 2026, New Delhi — Union Panchayati Raj Minister Rajiv Ranjan Singh; ministers of 9 States",
+      "te": "20 నవం 2026, న్యూఢిల్లీ — కేంద్ర పంచాయతీరాజ్ మంత్రి రాజీవ్ రంజన్ సింగ్; 9 రాష్ట్రాల మంత్రులు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Rural land records",
+     "te": "లింక్ చెయిన్ · గ్రామీణ భూ రికార్డులు"
+    },
+    "l": [
+     {
+      "en": "18 Jan 2025: PM distributed over 65 lakh property cards in 50,000+ villages of 230+ districts (10 States, 2 UTs)",
+      "te": "18 జన 2025: 10 రాష్ట్రాలు, 2 UTల్లో 230+ జిల్లాల 50,000+ గ్రామాల్లో 65 లక్షలకు పైగా ఆస్తి కార్డులను ప్రధాని పంపిణీ చేశారు"
+     },
+     {
+      "en": "Aims: bank credit on rural houses, fewer disputes, better property-tax assessment for gram panchayats, village-level planning",
+      "te": "లక్ష్యాలు: గ్రామీణ ఇళ్లపై బ్యాంకు రుణం, తక్కువ వివాదాలు, గ్రామ పంచాయతీలకు మెరుగైన ఆస్తి పన్ను అంచనా, గ్రామస్థాయి ప్రణాళిక"
+     },
+     {
+      "en": "Survey of India officials, State ministers and the Panchayati Raj Secretary took part in the 20 Nov review",
+      "te": "20 నవం సమీక్షలో సర్వే ఆఫ్ ఇండియా అధికారులు, రాష్ట్ర మంత్రులు, పంచాయతీరాజ్ కార్యదర్శి పాల్గొన్నారు"
+     },
+     {
+      "en": "Panchayati Raj link: 73rd Amendment (1992) — property tax helps panchayats raise their own revenue",
+      "te": "పంచాయతీరాజ్ లింక్: 73వ సవరణ (1992) — ఆస్తి పన్ను పంచాయతీల సొంత ఆదాయానికి తోడ్పడుతుంది"
+     }
+    ]
+   },
+   "trap": {
+    "en": "SVAMITVA maps the inhabited (abadi) house plots of villages — NOT agricultural land. It is a Central Sector scheme of the Ministry of Panchayati Raj (not the Rural Development Ministry). 98% is the DRONE SURVEY figure; property cards cover only 66% of villages.",
+    "te": "స్వామిత్వ గ్రామాల్లోని నివాస (ఆబాదీ) ఇంటి స్థలాలను మ్యాప్ చేస్తుంది — వ్యవసాయ భూములను కాదు. ఇది పంచాయతీరాజ్ మంత్రిత్వ శాఖ కేంద్ర రంగ పథకం (గ్రామీణాభివృద్ధి శాఖది కాదు). 98% అనేది డ్రోన్ సర్వే గణాంకం; ఆస్తి కార్డులు 66% గ్రామాలకే."
+   },
+   "tip": {
+    "en": "98 → 95 → 81 → 74 → 66: each step of the pipeline loses villages — survey, map, verify, objections, card.",
+    "te": "98 → 95 → 81 → 74 → 66: ప్రతి దశలో గ్రామాలు తగ్గుతాయి — సర్వే, మ్యాప్, ధృవీకరణ, అభ్యంతరాలు, కార్డు."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the SVAMITVA scheme:",
+     "te": "స్వామిత్వ పథకానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It is implemented by the Ministry of Rural Development.",
+      "te": "I. దీనిని గ్రామీణాభివృద్ధి మంత్రిత్వ శాఖ అమలు చేస్తుంది."
+     },
+     {
+      "en": "II. It uses drones to map inhabited (abadi) areas of villages.",
+      "te": "II. గ్రామాల నివాస (ఆబాదీ) ప్రాంతాలను మ్యాప్ చేయడానికి డ్రోన్లను ఉపయోగిస్తుంది."
+     },
+     {
+      "en": "III. The target for saturation is 31 March 2027.",
+      "te": "III. పూర్తి (saturation) లక్ష్య గడువు 31 మార్చి 2027."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "I is wrong: SVAMITVA is a scheme of the Ministry of Panchayati Raj.",
+     "te": "I తప్పు: స్వామిత్వ పంచాయతీరాజ్ మంత్రిత్వ శాఖ పథకం."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Where the villages stand (lakh villages, Nov 2026)",
+      "te": "గ్రామాలు ఏ దశలో ఉన్నాయి (లక్షల గ్రామాలు, నవం 2026)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Target",
+        "te": "లక్ష్యం"
+       },
+       "v": 3.33,
+       "vl": "3.33"
+      },
+      {
+       "t": {
+        "en": "Drone survey done",
+        "te": "డ్రోన్ సర్వే పూర్తి"
+       },
+       "v": 3.28,
+       "vl": "3.28 (98%)"
+      },
+      {
+       "t": {
+        "en": "Maps given to States",
+        "te": "రాష్ట్రాలకు మ్యాప్‌లు"
+       },
+       "v": 3.17,
+       "vl": "3.17 (95%)"
+      },
+      {
+       "t": {
+        "en": "Ground verification",
+        "te": "క్షేత్ర ధృవీకరణ"
+       },
+       "v": 2.69,
+       "vl": "2.69 (81%)"
+      },
+      {
+       "t": {
+        "en": "Objections stage",
+        "te": "అభ్యంతరాల దశ"
+       },
+       "v": 2.46,
+       "vl": "2.46 (74%)"
+      },
+      {
+       "t": {
+        "en": "Property cards",
+        "te": "ఆస్తి కార్డులు"
+       },
+       "v": 2.2,
+       "vl": "2.20 (66%)"
+      }
+     ],
+     "cap": {
+      "en": "Ministry of Panchayati Raj review, 20 Nov 2026.",
+      "te": "పంచాయతీరాజ్ మంత్రిత్వ శాఖ సమీక్ష, 20 నవం 2026."
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How a villager gets a property card",
+      "te": "గ్రామస్థుడికి ఆస్తి కార్డు ఎలా వస్తుంది"
+     },
+     "items": [
+      {
+       "i": "🚁",
+       "t": {
+        "en": "Drone survey of house plots",
+        "te": "ఇంటి స్థలాలపై డ్రోన్ సర్వే"
+       }
+      },
+      {
+       "i": "🗺️",
+       "t": {
+        "en": "Village map prepared",
+        "te": "గ్రామ మ్యాప్ తయారీ"
+       }
+      },
+      {
+       "i": "👣",
+       "t": {
+        "en": "Ground verification by State",
+        "te": "రాష్ట్రం క్షేత్రస్థాయి ధృవీకరణ"
+       }
+      },
+      {
+       "i": "📢",
+       "t": {
+        "en": "Objections and claims heard",
+        "te": "అభ్యంతరాలు, క్లెయిమ్‌ల విచారణ"
+       }
+      },
+      {
+       "i": "🪪",
+       "t": {
+        "en": "Property card issued",
+        "te": "ఆస్తి కార్డు జారీ"
+       }
+      },
+      {
+       "i": "🏦",
+       "t": {
+        "en": "Bank loan possible",
+        "te": "బ్యాంకు రుణానికి అవకాశం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Kashmir Despatch (Ministry of Panchayati Raj release) — Union Minister Rajiv Ranjan Singh calls for mission-mode implementation of SVAMITVA to achieve saturation by March 31, 2027, 20 Nov 2026",
+     "u": "https://kashmirdespatch.com/union-minister-shri-rajiv-ranjan-singh-calls-for-mission-mode-implementation-of-svamitva-to-achieve-saturation-by-march-31-2027/"
+    },
+    {
+     "t": "PM India — PM distributes over 65 lakh property cards under SVAMITVA Scheme across 10 States and 2 UTs, 18 Jan 2025",
+     "u": "https://www.pmindia.gov.in/en/news_updates/pm-distributes-over-65-lakh-property-cards-under-svamitva-scheme-across-10-states-and-2-union-territories/"
+    },
+    {
+     "t": "Wikipedia — Svamitva Yojana (full form, pilot States)",
+     "u": "https://en.wikipedia.org/wiki/Svamitva_Yojana"
+    }
+   ],
+   "mains": {
+    "en": "Drone surveys under SVAMITVA are almost complete, yet property cards reach only two-thirds of villages. Discuss the reasons for this gap and how secure rural property rights can strengthen credit access and panchayat finances.",
+    "te": "స్వామిత్వ కింద డ్రోన్ సర్వే దాదాపు పూర్తయినా, ఆస్తి కార్డులు మూడింట రెండు వంతుల గ్రామాలకే చేరాయి. ఈ అంతరానికి కారణాలను, సురక్షిత గ్రామీణ ఆస్తి హక్కులు రుణ లభ్యతను, పంచాయతీ ఆర్థిక వనరులను ఎలా బలోపేతం చేస్తాయో చర్చించండి."
+   }
+  },
+  {
+   "id": "minerals",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "ghats",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "The Hindu · Op-Ed · 20 Nov 2026",
+    "te": "ది హిందూ · ఆప్-ఎడ్ · 20 నవం 2026"
+   },
+   "tag": {
+    "en": "Editorial · GS-III Economy / Resources",
+    "te": "సంపాదకీయం · GS-III ఆర్థిక వ్యవస్థ / వనరులు"
+   },
+   "title": {
+    "en": "Critical minerals: from auctioning mines to 'material security'",
+    "te": "కీలక ఖనిజాలు: గనుల వేలం నుంచి 'పదార్థ భద్రత' వైపు"
+   },
+   "line": {
+    "en": "India has started auctioning critical-mineral blocks, but most processed materials are still imported. The op-ed argues India must build processing and recycling, not just mines.",
+    "te": "భారత్ కీలక ఖనిజ బ్లాకుల వేలం ప్రారంభించింది, కానీ శుద్ధి చేసిన పదార్థాలు ఎక్కువగా దిగుమతి అవుతున్నాయి. గనులే కాదు, శుద్ధి (processing), రీసైక్లింగ్ కూడా నిర్మించాలని ఈ వ్యాసం వాదిస్తుంది."
+   },
+   "easy": [
+    {
+     "en": "Critical minerals like lithium, cobalt, nickel, graphite and rare earths are needed for batteries, electric vehicles, solar panels and electronics. Digging out the ore is only step one. The ore must be cleaned (beneficiation) and refined into usable material. China's strength comes from doing this processing at scale, not just from mining.",
+     "te": "లిథియం, కోబాల్ట్, నికెల్, గ్రాఫైట్, అరుదైన మృత్తికలు (rare earths) వంటి కీలక ఖనిజాలు బ్యాటరీలు, విద్యుత్ వాహనాలు, సోలార్ ప్యానెళ్లు, ఎలక్ట్రానిక్స్‌కు అవసరం. ఖనిజాన్ని తవ్వడం మొదటి అడుగు మాత్రమే. దానిని శుభ్రం చేసి (beneficiation), శుద్ధి చేసి వాడదగిన పదార్థంగా మార్చాలి. చైనా బలం కేవలం తవ్వకంలో కాదు — భారీ స్థాయిలో ఈ శుద్ధి చేయడంలో ఉంది."
+    },
+    {
+     "en": "The op-ed says recycling old batteries and e-waste is a faster route than opening new mines — India generated 3.8 million tonnes of e-waste in 2024. Stockpiles can protect against short-term shocks, but are not a long-term answer. Success should be measured by processed output, not by the number of blocks auctioned.",
+     "te": "కొత్త గనులు తెరవడం కంటే పాత బ్యాటరీలు, ఈ-వ్యర్థాల రీసైక్లింగ్ వేగవంతమైన మార్గమని వ్యాసం చెబుతుంది — 2024లో భారత్‌లో 3.8 మిలియన్ టన్నుల ఈ-వ్యర్థాలు ఉత్పత్తయ్యాయి. నిల్వలు (stockpile) తాత్కాలిక షాక్‌ల నుంచి రక్షిస్తాయి కానీ దీర్ఘకాల పరిష్కారం కాదు. ఎన్ని బ్లాకులు వేలం వేశామన్నది కాదు, ఎంత శుద్ధి చేసిన ఉత్పత్తి వచ్చిందన్నదే విజయానికి కొలమానం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "National Critical Mineral Mission",
+      "te": "జాతీయ కీలక ఖనిజ మిషన్ (NCMM)"
+     },
+     {
+      "en": "Cabinet approval 29 Jan 2025; ₹34,300 crore over 7 years (₹16,300 cr Govt + ₹18,000 cr expected from PSUs etc.)",
+      "te": "కేబినెట్ ఆమోదం 29 జన 2025; 7 ఏళ్లలో ₹34,300 కోట్లు (ప్రభుత్వం ₹16,300 కో + PSUలు తదితరుల నుంచి ₹18,000 కో అంచనా)"
+     }
+    ],
+    [
+     {
+      "en": "Announced",
+      "te": "ప్రకటన"
+     },
+     {
+      "en": "Union Budget 2024-25 (23 July 2024)",
+      "te": "కేంద్ర బడ్జెట్ 2024-25 (23 జూలై 2024)"
+     }
+    ],
+    [
+     {
+      "en": "Critical minerals list",
+      "te": "కీలక ఖనిజాల జాబితా"
+     },
+     {
+      "en": "30 minerals identified by the Ministry of Mines (June 2023)",
+      "te": "గనుల మంత్రిత్వ శాఖ 30 ఖనిజాలను గుర్తించింది (జూన్ 2023)"
+     }
+    ],
+    [
+     {
+      "en": "MMDR Amendment 2023",
+      "te": "MMDR సవరణ 2023"
+     },
+     {
+      "en": "24 critical & strategic minerals put in Part D of the First Schedule — Centre auctions their blocks",
+      "te": "24 కీలక, వ్యూహాత్మక ఖనిజాలను మొదటి షెడ్యూల్ పార్ట్ Dలో చేర్చారు — వాటి బ్లాకులను కేంద్రమే వేలం వేస్తుంది"
+     }
+    ],
+    [
+     {
+      "en": "Recycling scheme",
+      "te": "రీసైక్లింగ్ పథకం"
+     },
+     {
+      "en": "₹1,500 crore; target to recover 400 kilotonnes of critical minerals by 2031",
+      "te": "₹1,500 కోట్లు; 2031 నాటికి 400 కిలోటన్నుల కీలక ఖనిజాల పునరుద్ధరణ లక్ష్యం"
+     }
+    ],
+    [
+     {
+      "en": "NCMM tools",
+      "te": "NCMM సాధనాలు"
+     },
+     {
+      "en": "Exploration on land and offshore; national stockpile; mineral processing parks; Centre of Excellence; recycling",
+      "te": "భూమిపై, సముద్ర గర్భంలో (offshore) అన్వేషణ; జాతీయ నిల్వ; ఖనిజ ప్రాసెసింగ్ పార్కులు; సెంటర్ ఆఫ్ ఎక్సలెన్స్; రీసైక్లింగ్"
+     }
+    ],
+    [
+     {
+      "en": "Overseas",
+      "te": "విదేశాల్లో"
+     },
+     {
+      "en": "KABIL (Khanij Bidesh India Ltd) acquired about 15,703 ha in Catamarca, Argentina for lithium",
+      "te": "KABIL (ఖనిజ్ బిదేశ్ ఇండియా లిమిటెడ్) అర్జెంటీనాలోని కాటమార్కాలో లిథియం కోసం సుమారు 15,703 హెక్టార్లు పొందింది"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Critical minerals in the news",
+     "te": "లింక్ చెయిన్ · వార్తల్లో కీలక ఖనిజాలు"
+    },
+    "l": [
+     {
+      "en": "20 Nov 2026: Ministry of Mines released a concept paper on overseas investment in critical minerals; red mud named as a secondary source",
+      "te": "20 నవం 2026: కీలక ఖనిజాల్లో విదేశీ పెట్టుబడులపై గనుల శాఖ కాన్సెప్ట్ పేపర్ విడుదల; రెడ్ మడ్‌ను ద్వితీయ వనరుగా పేర్కొంది"
+     },
+     {
+      "en": "Recycling sources: e-waste, used batteries, mine tailings, fly ash, red mud",
+      "te": "రీసైక్లింగ్ వనరులు: ఈ-వ్యర్థాలు, వాడిన బ్యాటరీలు, గని వ్యర్థాలు (tailings), ఫ్లై యాష్, రెడ్ మడ్"
+     },
+     {
+      "en": "Black mass (shredded used-battery material) export has been banned to keep these minerals at home",
+      "te": "బ్లాక్ మాస్ (ముక్కలు చేసిన పాత బ్యాటరీ పదార్థం) ఎగుమతిని నిషేధించారు — ఈ ఖనిజాలు దేశంలోనే ఉండేలా"
+     },
+     {
+      "en": "Partnerships: Minerals Security Partnership, Quad critical minerals initiative",
+      "te": "భాగస్వామ్యాలు: మినరల్స్ సెక్యూరిటీ పార్ట్‌నర్‌షిప్, క్వాడ్ కీలక ఖనిజాల చొరవ"
+     }
+    ]
+   },
+   "trap": {
+    "en": "30 minerals were IDENTIFIED as critical (2023), but 24 were added to Part D of the MMDR Act for central auction — don't mix 30 and 24. NCMM's ₹34,300 crore includes ₹18,000 crore expected from PSUs — government spending is ₹16,300 crore.",
+    "te": "కీలకంగా గుర్తించినవి 30 ఖనిజాలు (2023); కేంద్ర వేలం కోసం MMDR చట్టం పార్ట్ Dలో చేర్చినవి 24 — 30, 24 కలపకండి. NCMM ₹34,300 కోట్లలో ₹18,000 కోట్లు PSUల నుంచి అంచనా — ప్రభుత్వ వ్యయం ₹16,300 కోట్లు."
+   },
+   "tip": {
+    "en": "'30 identified, 24 auctioned, 34,300 crore, 7 years' — and Mine → Refine → Recycle.",
+    "te": "'30 గుర్తింపు, 24 వేలం, 34,300 కోట్లు, 7 ఏళ్లు' — తవ్వు → శుద్ధి చేయి → రీసైకిల్ చేయి."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to India's critical minerals policy, consider the following statements:",
+     "te": "భారత కీలక ఖనిజ విధానానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The National Critical Mineral Mission was approved by the Union Cabinet in January 2025.",
+      "te": "I. జాతీయ కీలక ఖనిజ మిషన్‌కు కేంద్ర కేబినెట్ జనవరి 2025లో ఆమోదం తెలిపింది."
+     },
+     {
+      "en": "II. The MMDR Amendment, 2023 placed 30 critical minerals in Part D of the First Schedule.",
+      "te": "II. MMDR సవరణ 2023 ద్వారా 30 కీలక ఖనిజాలను మొదటి షెడ్యూల్ పార్ట్ Dలో చేర్చారు."
+     },
+     {
+      "en": "III. KABIL has acquired lithium blocks in Argentina.",
+      "te": "III. KABIL అర్జెంటీనాలో లిథియం బ్లాకులను పొందింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II is wrong: Part D has 24 critical and strategic minerals; 30 is the number identified as critical in 2023.",
+     "te": "II తప్పు: పార్ట్ Dలో 24 కీలక, వ్యూహాత్మక ఖనిజాలు ఉన్నాయి; 30 అనేది 2023లో కీలకంగా గుర్తించిన సంఖ్య."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "From ore to 'material security'",
+      "te": "ఖనిజం నుంచి 'పదార్థ భద్రత' వరకు"
+     },
+     "items": [
+      {
+       "i": "🔎",
+       "t": {
+        "en": "Explore (land + offshore)",
+        "te": "అన్వేషణ (భూమి + సముద్రం)"
+       }
+      },
+      {
+       "i": "⛏️",
+       "t": {
+        "en": "Auction & mine the block",
+        "te": "బ్లాక్ వేలం, తవ్వకం"
+       }
+      },
+      {
+       "i": "🏭",
+       "t": {
+        "en": "Beneficiate & refine — India's weak link",
+        "te": "శుభ్రం, శుద్ధి — భారత్ బలహీన దశ"
+       }
+      },
+      {
+       "i": "🔋",
+       "t": {
+        "en": "Make batteries, magnets, panels",
+        "te": "బ్యాటరీలు, అయస్కాంతాలు, ప్యానెళ్ల తయారీ"
+       }
+      },
+      {
+       "i": "♻️",
+       "t": {
+        "en": "Recycle e-waste & batteries back",
+        "te": "ఈ-వ్యర్థాలు, బ్యాటరీల రీసైక్లింగ్"
+       }
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Where: KABIL's lithium land in Argentina",
+      "te": "ఎక్కడ: అర్జెంటీనాలో KABIL లిథియం భూమి"
+     },
+     "view": "world",
+     "ctry": [
+      "Argentina"
+     ],
+     "hlc": "#7a3b8f",
+     "pts": [
+      {
+       "ll": [
+        28.61,
+        77.21
+       ],
+       "t": {
+        "en": "New Delhi",
+        "te": "న్యూఢిల్లీ"
+       }
+      },
+      {
+       "ll": [
+        -28.47,
+        -65.78
+       ],
+       "t": {
+        "en": "Catamarca (lithium)",
+        "te": "కాటమార్కా (లిథియం)"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "KABIL acquired about 15,703 ha in Catamarca province for lithium.",
+      "te": "కాటమార్కా ప్రావిన్స్‌లో లిథియం కోసం KABIL సుమారు 15,703 హెక్టార్లు పొందింది."
+     },
+     "src": "cards/2026-11-21/map-minerals-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB — Cabinet approves National Critical Mineral Mission with an outlay of Rs 34,300 crore over seven years, 29 Jan 2025",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2097308"
+    },
+    {
+     "t": "PM India — Cabinet approves National Critical Mineral Mission, 29 Jan 2025",
+     "u": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-national-critical-mineral-mission-to-build-a-resilient-value-chain-for-critical-mineral-resources-vital-to-green-technologies-with-an-outlay-of-rs-34300-crore-over-seven-years"
+    },
+    {
+     "t": "Vajiram & Ravi — Daily Editorial Analysis 20 Nov 2026 (The Hindu op-ed 'India's minerals policy needs to move to material security')",
+     "u": "https://vajiramandravi.com/current-affairs/daily-editorial-analysis-20-november-2026/"
+    },
+    {
+     "t": "Raman Academy (cross-check) — 20 November 2026 Current Affairs: From mineral blocks to material security",
+     "u": "https://ramanacademy.in/daily-current-affairs/20-november-2026/"
+    },
+    {
+     "t": "Drishti IAS (cross-check) — Securing India's Critical Mineral Future (30 minerals, MMDR Part D)",
+     "u": "https://www.drishtiias.com/daily-updates/daily-news-editorials/securing-indias-critical-mineral-future-1"
+    },
+    {
+     "t": "CrackTarget (cross-check) — Current Affairs 21 Nov 2026 (Mines Ministry concept paper)",
+     "u": "https://cracktarget.com/current-affairs-21-november-2026/"
+    }
+   ],
+   "mains": {
+    "en": "'Mining does not equal materials.' In the light of the National Critical Mineral Mission, discuss why processing, recycling and stockpiling are essential for India's critical-mineral security, and the challenges in building them.",
+    "te": "'తవ్వకం అంటే పదార్థం కాదు.' జాతీయ కీలక ఖనిజ మిషన్ నేపథ్యంలో భారత కీలక ఖనిజ భద్రతకు శుద్ధి, రీసైక్లింగ్, నిల్వలు ఎందుకు అవసరమో, వాటి నిర్మాణంలో సవాళ్లను చర్చించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "raman",
+   "q": {
+    "en": "Consider the following statements about Sir C.V. Raman:",
+    "te": "సర్ సి.వి. రామన్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. He discovered the Raman effect on 28 February 1928.",
+     "te": "I. ఆయన 1928 ఫిబ్రవరి 28న రామన్ ఫలితాన్ని కనుగొన్నారు."
+    },
+    {
+     "en": "II. In 1933 he became the first Indian director of the Indian Institute of Science, Bengaluru.",
+     "te": "II. 1933లో బెంగళూరు ఇండియన్ ఇన్‌స్టిట్యూట్ ఆఫ్ సైన్స్ తొలి భారతీయ డైరెక్టర్ అయ్యారు."
+    },
+    {
+     "en": "III. He founded the Raman Research Institute before he received the Nobel Prize.",
+     "te": "III. నోబెల్ బహుమతి రాకముందే ఆయన రామన్ రీసెర్చ్ ఇన్‌స్టిట్యూట్‌ను స్థాపించారు."
+    },
+    {
+     "en": "IV. He received the Lenin Peace Prize in 1957.",
+     "te": "IV. ఆయనకు 1957లో లెనిన్ శాంతి బహుమతి లభించింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "III is wrong: the Raman Research Institute was founded in 1948, long after the 1930 Nobel Prize.",
+    "te": "III తప్పు: రామన్ రీసెర్చ్ ఇన్‌స్టిట్యూట్ 1948లో స్థాపించారు — 1930 నోబెల్ తర్వాత చాలా ఏళ్లకు."
+   }
+  },
+  {
+   "topic": "raman",
+   "q": {
+    "en": "Match the year with the event in C.V. Raman's life:",
+    "te": "సి.వి. రామన్ జీవితంలో సంవత్సరాన్ని సంఘటనతో జత చేయండి:"
+   },
+   "st": [
+    {
+     "en": "A. 1917 — 1. Bharat Ratna",
+     "te": "A. 1917 — 1. భారతరత్న"
+    },
+    {
+     "en": "B. 1926 — 2. First Palit Professor of Physics, Calcutta University",
+     "te": "B. 1926 — 2. కలకత్తా విశ్వవిద్యాలయ తొలి పాలిత్ భౌతిక శాస్త్ర ప్రొఫెసర్"
+    },
+    {
+     "en": "C. 1954 — 3. Lenin Peace Prize",
+     "te": "C. 1954 — 3. లెనిన్ శాంతి బహుమతి"
+    },
+    {
+     "en": "D. 1957 — 4. Founded the Indian Journal of Physics",
+     "te": "D. 1957 — 4. ఇండియన్ జర్నల్ ఆఫ్ ఫిజిక్స్ స్థాపన"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-2, B-4, C-1, D-3",
+     "te": "A-2, B-4, C-1, D-3"
+    },
+    {
+     "en": "A-2, B-1, C-4, D-3",
+     "te": "A-2, B-1, C-4, D-3"
+    },
+    {
+     "en": "A-4, B-2, C-1, D-3",
+     "te": "A-4, B-2, C-1, D-3"
+    },
+    {
+     "en": "A-2, B-4, C-3, D-1",
+     "te": "A-2, B-4, C-3, D-1"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1917 Palit Professor, 1926 Indian Journal of Physics, 1954 Bharat Ratna, 1957 Lenin Peace Prize. Option (c) swaps 1917/1926 and (d) swaps the two prizes — common traps.",
+    "te": "1917 పాలిత్ ప్రొఫెసర్, 1926 ఇండియన్ జర్నల్ ఆఫ్ ఫిజిక్స్, 1954 భారతరత్న, 1957 లెనిన్ శాంతి బహుమతి. (c) 1917/1926ను, (d) రెండు బహుమతులను తారుమారు చేస్తాయి — సాధారణ ఉచ్చులు."
+   }
+  },
+  {
+   "topic": "fisheries",
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. World Fisheries Day traces its origin to a meeting of fishing communities from 18 countries in New Delhi in 1997.",
+     "te": "I. 1997లో న్యూఢిల్లీలో 18 దేశాల మత్స్యకార సమాజాల సమావేశం నుంచి ప్రపంచ మత్స్య దినోత్సవం మొదలైంది."
+    },
+    {
+     "en": "II. India's fish production reached about 195 lakh tonnes in 2024-25.",
+     "te": "II. 2024-25లో భారత చేపల ఉత్పత్తి సుమారు 195 లక్షల టన్నులకు చేరింది."
+    },
+    {
+     "en": "III. The Pradhan Mantri Matsya Sampada Yojana (PMMSY) was launched in 2018.",
+     "te": "III. ప్రధాన మంత్రి మత్స్య సంపద యోజన (PMMSY) 2018లో ప్రారంభమైంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "III is wrong: PMMSY was launched on 10 September 2020. 2018 is the year of the Fisheries and Aquaculture Infrastructure Development Fund (FIDF).",
+    "te": "III తప్పు: PMMSY 10 సెప్టెంబర్ 2020న ప్రారంభమైంది. 2018 అనేది మత్స్య, ఆక్వాకల్చర్ మౌలిక వసతుల అభివృద్ధి నిధి (FIDF) సంవత్సరం."
+   }
+  },
+  {
+   "topic": "fisheries",
+   "q": {
+    "en": "Which of the following pairs is/are correctly matched?",
+    "te": "కింది జతల్లో సరిగా జతపరిచినవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. FIDF — 2018",
+     "te": "I. FIDF — 2018"
+    },
+    {
+     "en": "II. PMMSY — outlay of ₹6,000 crore",
+     "te": "II. PMMSY — ₹6,000 కోట్ల వ్యయం"
+    },
+    {
+     "en": "III. PM-MKSSY — approved in February 2024",
+     "te": "III. PM-MKSSY — ఫిబ్రవరి 2024లో ఆమోదం"
+    },
+    {
+     "en": "IV. Andhra Pradesh — about 28% share in India's fish and shrimp production",
+     "te": "IV. ఆంధ్రప్రదేశ్ — దేశ చేపలు, రొయ్యల ఉత్పత్తిలో సుమారు 28% వాటా"
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is wrong: PMMSY's outlay is ₹20,312 crore. ₹6,000 crore is the outlay of PM-MKSSY.",
+    "te": "II తప్పు: PMMSY వ్యయం ₹20,312 కోట్లు. ₹6,000 కోట్లు PM-MKSSY వ్యయం."
+   }
+  },
+  {
+   "topic": "labourcodes",
+   "q": {
+    "en": "With reference to the four Labour Codes, consider the following statements:",
+    "te": "నాలుగు లేబర్ కోడ్‌లకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. They were passed by Parliament in 2019–2020 but came into force only on 21 November 2025.",
+     "te": "I. ఇవి 2019–2020లో పార్లమెంటు ఆమోదం పొందినా, 21 నవంబర్ 2025 నుంచే అమల్లోకి వచ్చాయి."
+    },
+    {
+     "en": "II. Since labour is a concurrent subject, States also have to frame rules under the Codes.",
+     "te": "II. కార్మికులు ఉమ్మడి జాబితా అంశం కాబట్టి, కోడ్‌ల కింద రాష్ట్రాలు కూడా నిబంధనలు రూపొందించాలి."
+    },
+    {
+     "en": "III. Andhra Pradesh is among the States that have notified final rules under all four Codes.",
+     "te": "III. నాలుగు కోడ్‌ల కింద తుది నిబంధనలు జారీ చేసిన రాష్ట్రాల్లో ఆంధ్రప్రదేశ్ ఒకటి."
+    },
+    {
+     "en": "IV. An aggregator's contribution to the gig workers' fund is capped at 5% of its annual turnover.",
+     "te": "IV. గిగ్ కార్మికుల నిధికి అగ్రిగేటర్ చెల్లింపు గరిష్ఠంగా దాని వార్షిక టర్నోవర్‌లో 5%."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "IV is wrong: the contribution is 1–2% of annual turnover, and the CAP is 5% of the amount paid to gig and platform workers — not 5% of turnover.",
+    "te": "IV తప్పు: చెల్లింపు వార్షిక టర్నోవర్‌లో 1–2%; గరిష్ఠ పరిమితి గిగ్, ప్లాట్‌ఫాం కార్మికులకు చెల్లించే మొత్తంలో 5% — టర్నోవర్‌లో 5% కాదు."
+   }
+  },
+  {
+   "topic": "labourcodes",
+   "q": {
+    "en": "Which one of the following statements about the Labour Codes is NOT correct?",
+    "te": "లేబర్ కోడ్‌లకు సంబంధించి కింది వాటిలో సరికాని వాక్యం ఏది?"
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "Prior government permission for retrenchment is needed only in units with 100 or more workers",
+     "te": "100 లేదా అంతకంటే ఎక్కువ కార్మికులున్న సంస్థల్లోనే తొలగింపుకు ప్రభుత్వ ముందస్తు అనుమతి అవసరం"
+    },
+    {
+     "en": "Fixed-term employees get gratuity after one year of service",
+     "te": "నిర్ణీత కాల ఉద్యోగులకు ఒక ఏడాది సేవ తర్వాత గ్రాట్యుటీ వస్తుంది"
+    },
+    {
+     "en": "Workers above 40 years of age get a free annual health check-up",
+     "te": "40 ఏళ్లు దాటిన కార్మికులకు ఏటా ఉచిత ఆరోగ్య పరీక్ష"
+    },
+    {
+     "en": "The four Codes together replaced 29 central labour laws",
+     "te": "నాలుగు కోడ్‌లు కలిసి 29 కేంద్ర కార్మిక చట్టాల స్థానంలో వచ్చాయి"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "(a) is wrong: under the Industrial Relations Code the threshold was raised from 100 to 300 workers. (b), (c) and (d) are correct.",
+    "te": "(a) తప్పు: IR కోడ్ కింద పరిమితిని 100 నుంచి 300 మందికి పెంచారు. (b), (c), (d) సరైనవి."
+   }
+  },
+  {
+   "topic": "svamitva",
+   "q": {
+    "en": "Consider the following statements about the SVAMITVA scheme:",
+    "te": "స్వామిత్వ పథకానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It is a Central Sector Scheme of the Ministry of Panchayati Raj.",
+     "te": "I. ఇది పంచాయతీరాజ్ మంత్రిత్వ శాఖ కేంద్ర రంగ పథకం."
+    },
+    {
+     "en": "II. It maps agricultural land of farmers for crop insurance.",
+     "te": "II. పంట బీమా కోసం రైతుల వ్యవసాయ భూములను ఇది మ్యాప్ చేస్తుంది."
+    },
+    {
+     "en": "III. About 3.47 crore property cards have been generated for 2.20 lakh villages.",
+     "te": "III. 2.20 లక్షల గ్రామాలకు సుమారు 3.47 కోట్ల ఆస్తి కార్డులు రూపొందాయి."
+    },
+    {
+     "en": "IV. The Centre and States aim to complete it by 31 March 2027.",
+     "te": "IV. 31 మార్చి 2027 నాటికి దీనిని పూర్తి చేయాలని కేంద్రం, రాష్ట్రాల లక్ష్యం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "II is wrong: SVAMITVA maps the inhabited (abadi) house plots of villages, not agricultural land, and has nothing to do with crop insurance.",
+    "te": "II తప్పు: స్వామిత్వ గ్రామాల్లోని నివాస (ఆబాదీ) ఇంటి స్థలాలను మ్యాప్ చేస్తుంది — వ్యవసాయ భూములను కాదు; పంట బీమాతో సంబంధం లేదు."
+   }
+  },
+  {
+   "topic": "svamitva",
+   "q": {
+    "en": "Ramaiah has lived in his ancestral house in a village for 40 years but has no legal document for the plot. In the light of SVAMITVA, consider the following statements:",
+    "te": "రామయ్య 40 ఏళ్లుగా గ్రామంలోని తన పూర్వీకుల ఇంట్లో ఉంటున్నారు, కానీ ఆ స్థలానికి చట్టబద్ధ పత్రం లేదు. స్వామిత్వ పథకం దృష్ట్యా కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. After the drone survey, State officials verify the plot on the ground and hear objections before a card is issued.",
+     "te": "I. డ్రోన్ సర్వే తర్వాత రాష్ట్ర అధికారులు క్షేత్రస్థాయిలో స్థలాన్ని ధృవీకరించి, అభ్యంతరాలు విన్న తర్వాతే కార్డు ఇస్తారు."
+    },
+    {
+     "en": "II. Nationally, the drone survey is the slowest stage, while card distribution is almost complete.",
+     "te": "II. దేశవ్యాప్తంగా డ్రోన్ సర్వే అత్యంత నెమ్మదైన దశ; కార్డుల పంపిణీ దాదాపు పూర్తయింది."
+    },
+    {
+     "en": "III. With the property card, Ramaiah can use his house to get a bank loan.",
+     "te": "III. ఆస్తి కార్డుతో రామయ్య తన ఇంటిపై బ్యాంకు రుణం పొందవచ్చు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is the reverse of the truth: the drone survey is 98% done, but property cards cover only 66% of villages.",
+    "te": "II వాస్తవానికి వ్యతిరేకం: డ్రోన్ సర్వే 98% పూర్తయింది, కానీ ఆస్తి కార్డులు 66% గ్రామాలకే."
+   }
+  },
+  {
+   "topic": "minerals",
+   "q": {
+    "en": "With reference to the National Critical Mineral Mission (NCMM), consider the following statements:",
+    "te": "జాతీయ కీలక ఖనిజ మిషన్ (NCMM)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Its ₹34,300 crore over seven years includes ₹18,000 crore of investment expected from PSUs and others.",
+     "te": "I. ఏడేళ్లలో ₹34,300 కోట్లలో PSUలు తదితరుల నుంచి ₹18,000 కోట్ల పెట్టుబడి అంచనా కూడా ఉంది."
+    },
+    {
+     "en": "II. It was announced in the Union Budget 2024-25.",
+     "te": "II. దీనిని కేంద్ర బడ్జెట్ 2024-25లో ప్రకటించారు."
+    },
+    {
+     "en": "III. It aims to build a national stockpile and mineral processing parks.",
+     "te": "III. జాతీయ నిల్వ, ఖనిజ ప్రాసెసింగ్ పార్కుల ఏర్పాటు దీని లక్ష్యాల్లో ఉన్నాయి."
+    },
+    {
+     "en": "IV. It covers exploration only on land and excludes offshore areas.",
+     "te": "IV. ఇది భూమిపై అన్వేషణకే పరిమితం; సముద్ర గర్భ (offshore) ప్రాంతాలు ఇందులో లేవు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "IV is wrong: the Mission will intensify exploration within the country AND in its offshore areas.",
+    "te": "IV తప్పు: దేశంలోనూ, సముద్ర గర్భ (offshore) ప్రాంతాల్లోనూ అన్వేషణను మిషన్ ముమ్మరం చేస్తుంది."
+   }
+  },
+  {
+   "topic": "minerals",
+   "q": {
+    "en": "The Hindu op-ed (20 Nov 2026) on moving from mineral auctions to 'material security' argues which of the following?",
+    "te": "ఖనిజ వేలం నుంచి 'పదార్థ భద్రత' వైపు వెళ్లాలన్న ది హిందూ వ్యాసం (20 నవం 2026) కింది వాటిలో దేనిని వాదిస్తుంది?"
+   },
+   "st": [
+    {
+     "en": "I. China's dominance comes mainly from processing and refining at scale, not from mining alone.",
+     "te": "I. చైనా ఆధిపత్యం ప్రధానంగా భారీ స్థాయి శుద్ధి నుంచే వస్తుంది — కేవలం తవ్వకం నుంచి కాదు."
+    },
+    {
+     "en": "II. Recycling e-waste and batteries is a faster route than opening new mines.",
+     "te": "II. కొత్త గనులు తెరవడం కంటే ఈ-వ్యర్థాలు, బ్యాటరీల రీసైక్లింగ్ వేగవంతమైన మార్గం."
+    },
+    {
+     "en": "III. Stockpiles are a short-term cushion, not a long-term fix.",
+     "te": "III. నిల్వలు తాత్కాలిక రక్షణ మాత్రమే, దీర్ఘకాల పరిష్కారం కాదు."
+    },
+    {
+     "en": "IV. The number of blocks auctioned is the best measure of success.",
+     "te": "IV. వేలం వేసిన బ్లాకుల సంఖ్యే విజయానికి ఉత్తమ కొలమానం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "IV is the opposite of the argument: auction counts are weak indicators — processed output is the real measure.",
+    "te": "IV వాదనకు వ్యతిరేకం: వేలం సంఖ్యలు బలహీన సూచికలు — శుద్ధి చేసిన ఉత్పత్తే అసలైన కొలమానం."
+   }
+  }
+ ]
+}

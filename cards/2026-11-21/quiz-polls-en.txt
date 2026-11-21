@@ -1,0 +1,223 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-21 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about Sir C.V. Raman:
+I. He discovered the Raman effect on 28 February 1928.
+II. In 1933 he became the first Indian director of the Indian Institute of Science, Bengaluru.
+III. He founded the Raman Research Institute before he received the Nobel Prize.
+IV. He received the Lenin Peace Prize in 1957.
+
+--- QUESTION ---
+Q1. Consider the following statements about Sir C.V. Raman: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and III only
+(c) I, II and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(c) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the Raman Research Institute was founded in 1948, long after the 1930 Nobel Prize.
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Match the year with the event in C.V. Raman's life:
+A. 1917 — 1. Bharat Ratna
+B. 1926 — 2. First Palit Professor of Physics, Calcutta University
+C. 1954 — 3. Lenin Peace Prize
+D. 1957 — 4. Founded the Indian Journal of Physics
+
+--- OPTIONS ---
+(a) A-2, B-4, C-1, D-3
+(b) A-2, B-1, C-4, D-3
+(c) A-4, B-2, C-1, D-3
+(d) A-2, B-4, C-3, D-1
+
+--- CORRECT (tick this) ---
+(a) A-2, B-4, C-1, D-3
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+1917 Palit Professor, 1926 Indian Journal of Physics, 1954 Bharat Ratna, 1957 Lenin Peace Prize. Option (c) swaps 1917/1926 and (d) swaps the two prizes — common traps.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements:
+I. World Fisheries Day traces its origin to a meeting of fishing communities from 18 countries in New Delhi in 1997.
+II. India's fish production reached about 195 lakh tonnes in 2024-25.
+III. The Pradhan Mantri Matsya Sampada Yojana (PMMSY) was launched in 2018.
+
+--- QUESTION ---
+Q3. Consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and III only
+(c) II and III only
+(d) I and II only
+
+--- CORRECT (tick this) ---
+(d) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: PMMSY was launched on 10 September 2020. 2018 is the year of the Fisheries and Aquaculture Infrastructure Development Fund (FIDF).
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Which of the following pairs is/are correctly matched?
+I. FIDF — 2018
+II. PMMSY — outlay of ₹6,000 crore
+III. PM-MKSSY — approved in February 2024
+IV. Andhra Pradesh — about 28% share in India's fish and shrimp production
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, III and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: PMMSY's outlay is ₹20,312 crore. ₹6,000 crore is the outlay of PM-MKSSY.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. With reference to the four Labour Codes, consider the following statements:
+I. They were passed by Parliament in 2019–2020 but came into force only on 21 November 2025.
+II. Since labour is a concurrent subject, States also have to frame rules under the Codes.
+III. Andhra Pradesh is among the States that have notified final rules under all four Codes.
+IV. An aggregator's contribution to the gig workers' fund is capped at 5% of its annual turnover.
+
+--- QUESTION ---
+Q5. With reference to the four Labour Codes, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II, III and IV only
+(c) I, II and III only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(c) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: the contribution is 1–2% of annual turnover, and the CAP is 5% of the amount paid to gig and platform workers — not 5% of turnover.
+
+==================== Q6 ====================
+--- QUESTION ---
+Q6. Which one of the following statements about the Labour Codes is NOT correct?
+
+--- OPTIONS ---
+(a) Prior government permission for retrenchment is needed only in units with 100 or more workers
+(b) Fixed-term employees get gratuity after one year of service
+(c) Workers above 40 years of age get a free annual health check-up
+(d) The four Codes together replaced 29 central labour laws
+
+--- CORRECT (tick this) ---
+(a) Prior government permission for retrenchment is needed only in units with 100 or more workers
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(a) is wrong: under the Industrial Relations Code the threshold was raised from 100 to 300 workers. (b), (c) and (d) are correct.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following statements about the SVAMITVA scheme:
+I. It is a Central Sector Scheme of the Ministry of Panchayati Raj.
+II. It maps agricultural land of farmers for crop insurance.
+III. About 3.47 crore property cards have been generated for 2.20 lakh villages.
+IV. The Centre and States aim to complete it by 31 March 2027.
+
+--- QUESTION ---
+Q7. Consider the following statements about the SVAMITVA scheme: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II, III and IV only
+(c) I and IV only
+(d) I, III and IV only
+
+--- CORRECT (tick this) ---
+(d) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: SVAMITVA maps the inhabited (abadi) house plots of villages, not agricultural land, and has nothing to do with crop insurance.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Ramaiah has lived in his ancestral house in a village for 40 years but has no legal document for the plot. In the light of SVAMITVA, consider the following statements:
+I. After the drone survey, State officials verify the plot on the ground and hear objections before a card is issued.
+II. Nationally, the drone survey is the slowest stage, while card distribution is almost complete.
+III. With the property card, Ramaiah can use his house to get a bank loan.
+
+--- QUESTION ---
+Q8. Ramaiah has lived in his ancestral house in a village for 40 years but has no legal document for the plot. In the light of SVAMITVA, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is the reverse of the truth: the drone survey is 98% done, but property cards cover only 66% of villages.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. With reference to the National Critical Mineral Mission (NCMM), consider the following statements:
+I. Its ₹34,300 crore over seven years includes ₹18,000 crore of investment expected from PSUs and others.
+II. It was announced in the Union Budget 2024-25.
+III. It aims to build a national stockpile and mineral processing parks.
+IV. It covers exploration only on land and excludes offshore areas.
+
+--- QUESTION ---
+Q9. With reference to the National Critical Mineral Mission (NCMM), consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III only
+(b) I and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: the Mission will intensify exploration within the country AND in its offshore areas.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. The Hindu op-ed (20 Nov 2026) on moving from mineral auctions to 'material security' argues which of the following?
+I. China's dominance comes mainly from processing and refining at scale, not from mining alone.
+II. Recycling e-waste and batteries is a faster route than opening new mines.
+III. Stockpiles are a short-term cushion, not a long-term fix.
+IV. The number of blocks auctioned is the best measure of success.
+
+--- QUESTION ---
+Q10. The Hindu op-ed (20 Nov 2026) on moving from mineral auctions to 'material security' argues which of the following? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II, III and IV only
+(c) I, II and IV only
+(d) I, II and III only
+
+--- CORRECT (tick this) ---
+(d) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is the opposite of the argument: auction counts are weak indicators — processed output is the real measure.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-21&tab=quiz
