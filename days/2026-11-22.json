@@ -1,0 +1,1962 @@
+{
+ "date": "2026-11-22",
+ "day": {
+  "en": "Sunday, 22 November 2026",
+  "te": "ఆదివారం, 22 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Collateral",
+   "en": "property or security pledged to get a loan",
+   "te": "రుణం కోసం హామీగా ఉంచే ఆస్తి (తాకట్టు)",
+   "ex": "PM SVANidhi gives street vendors loans without any collateral.",
+   "topic": "svanidhi"
+  },
+  {
+   "w": "Convergence",
+   "en": "bringing different schemes together for one person",
+   "te": "వేర్వేరు పథకాలను ఒకే లబ్ధిదారుకు కలిపి అందించడం (సమన్వయం)",
+   "ex": "'SVANidhi se Samriddhi' is a convergence drive linking vendors to eight welfare schemes.",
+   "topic": "svanidhi"
+  },
+  {
+   "w": "Base effect",
+   "en": "a big % change caused by a very low or high figure last year",
+   "te": "గత ఏడాది సంఖ్య చాలా తక్కువ/ఎక్కువ కావడంతో ఈ ఏడాది శాతంలో కనిపించే పెద్ద మార్పు",
+   "ex": "ICRA said October's 10.9% core growth was partly a base effect.",
+   "topic": "coresector"
+  },
+  {
+   "w": "Pro rata",
+   "en": "in proportion to each one's share",
+   "te": "ఎవరి వాటాకు తగ్గట్టు వారికి (దామాషా ప్రకారం)",
+   "ex": "Tamil Nadu wanted the shortfall of Cauvery water shared pro rata.",
+   "topic": "cauvery"
+  },
+  {
+   "w": "Decoy",
+   "en": "someone or something used to mislead an enemy",
+   "te": "శత్రువును తప్పుదారి పట్టించేందుకు ఉపయోగించే వ్యక్తి/వస్తువు (ఎర)",
+   "ex": "Jhalkari Bai acted as a decoy so that Rani Lakshmibai could escape.",
+   "topic": "jhalkari"
+  }
+ ],
+ "items": [
+  {
+   "id": "jhalkari",
+   "kind": "day",
+   "color": "#9b2c2c",
+   "icon": "shield",
+   "cf": [
+    0,
+    2,
+    3,
+    4,
+    5
+   ],
+   "tag": {
+    "en": "Birth anniversary · 22 Nov 1830",
+    "te": "జయంతి · 22 నవంబర్ 1830"
+   },
+   "title": {
+    "en": "Jhalkari Bai — the warrior who became the 'Rani' of Jhansi",
+    "te": "ఝల్కారీ బాయి — ఝాన్సీ 'రాణి'గా మారిన వీరవనిత"
+   },
+   "line": {
+    "en": "A woman soldier of Rani Lakshmibai's army who dressed as the queen to buy her time to escape in 1858.",
+    "te": "1858లో రాణి లక్ష్మీబాయి తప్పించుకోవడానికి సమయం కల్పించేందుకు రాణి వేషం ధరించిన ఆమె సైన్యంలోని మహిళా యోధురాలు."
+   },
+   "easy": [
+    {
+     "en": "In 1858 the British general Hugh Rose attacked Jhansi. When the British entered the fort, Rani Lakshmibai escaped. Jhalkari Bai, who looked very much like the Rani, dressed as the queen and went to the British camp saying 'I am the Rani'. The confusion lasted a whole day and gave the real Rani time to get away.",
+     "te": "1858లో బ్రిటిష్ జనరల్ హ్యూ రోజ్ ఝాన్సీపై దాడి చేశాడు. బ్రిటిష్ సైన్యం కోటలోకి ప్రవేశించినప్పుడు రాణి లక్ష్మీబాయి తప్పించుకున్నారు. రాణిని పోలి ఉండే ఝల్కారీ బాయి రాణి వేషం ధరించి 'నేనే రాణిని' అంటూ బ్రిటిష్ శిబిరానికి వెళ్లారు. ఈ గందరగోళం రోజంతా కొనసాగి, అసలు రాణి దూరంగా వెళ్లేందుకు సమయం దొరికింది."
+    },
+    {
+     "en": "She came from a poor farming family of the Kori/Koli community near Jhansi. Today she is honoured as a symbol of the courage of ordinary and Dalit women in the Revolt of 1857. Note: most of her story comes from folk memory — she is hardly mentioned in records of that time.",
+     "te": "ఆమె ఝాన్సీ సమీపంలోని కోరి/కోలి సమాజానికి చెందిన పేద రైతు కుటుంబంలో జన్మించారు. 1857 తిరుగుబాటులో సాధారణ, దళిత మహిళల ధైర్యానికి ప్రతీకగా నేడు ఆమెను గౌరవిస్తున్నారు. గమనిక: ఆమె కథ ఎక్కువగా జానపద స్మృతుల నుంచే వచ్చింది — ఆనాటి రికార్డుల్లో ఆమె ప్రస్తావన చాలా తక్కువ."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "22 November 1830, Bhojla village near Jhansi",
+      "te": "22 నవంబర్ 1830, ఝాన్సీ సమీపంలోని భోజ్లా గ్రామం"
+     }
+    ],
+    [
+     {
+      "en": "Family",
+      "te": "కుటుంబం"
+     },
+     {
+      "en": "Farmer's daughter (father Sadova Singh, mother Jamuna Devi); Kori/Koli community",
+      "te": "రైతు కుమార్తె (తండ్రి సదోవా సింగ్, తల్లి జమునా దేవి); కోరి/కోలి సమాజం"
+     }
+    ],
+    [
+     {
+      "en": "Army role",
+      "te": "సైన్యంలో పాత్ర"
+     },
+     {
+      "en": "In the women's wing of the Jhansi army (Durga Dal); rose to command; close adviser of the Rani",
+      "te": "ఝాన్సీ సైన్యంలోని మహిళా విభాగం (దుర్గా దళ్)లో చేరి నాయకత్వ స్థాయికి ఎదిగారు; రాణికి సన్నిహిత సలహాదారు"
+     }
+    ],
+    [
+     {
+      "en": "1858 siege",
+      "te": "1858 ముట్టడి"
+     },
+     {
+      "en": "General Hugh Rose attacked Jhansi; she posed as the Rani in his camp",
+      "te": "జనరల్ హ్యూ రోజ్ ఝాన్సీపై దాడి; ఆయన శిబిరంలో ఆమె రాణిగా నటించారు"
+     }
+    ],
+    [
+     {
+      "en": "Death",
+      "te": "మరణం"
+     },
+     {
+      "en": "Disputed — 4 April 1858 (community accounts) vs 1881 or 'very old age' (some historians)",
+      "te": "వివాదాస్పదం — 4 ఏప్రిల్ 1858 (సమాజ కథనాలు) లేదా 1881 / 'వృద్ధాప్యంలో' (కొందరు చరిత్రకారులు)"
+     }
+    ],
+    [
+     {
+      "en": "Honours",
+      "te": "గౌరవాలు"
+     },
+     {
+      "en": "Postage stamp by the Department of Posts; statue in Bhopal unveiled by President Ram Nath Kovind (10 Nov 2017)",
+      "te": "తపాలా శాఖ స్టాంపు; భోపాల్‌లో రాష్ట్రపతి రామ్‌నాథ్ కోవింద్ విగ్రహావిష్కరణ (10 నవంబర్ 2017)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Women of 1857",
+     "te": "లింక్ చెయిన్ · 1857 మహిళా యోధులు"
+    },
+    "l": [
+     {
+      "en": "Rani Lakshmibai — Jhansi (birth anniversary 19 Nov)",
+      "te": "రాణి లక్ష్మీబాయి — ఝాన్సీ (జయంతి 19 నవంబర్)"
+     },
+     {
+      "en": "Begum Hazrat Mahal — led the revolt at Lucknow (Awadh)",
+      "te": "బేగం హజ్రత్ మహల్ — లక్నో (అవధ్)లో తిరుగుబాటుకు నాయకత్వం"
+     },
+     {
+      "en": "Jhalkari Bai — the 'double' of the Rani; Dalit/OBC communities of Bundelkhand celebrate her Jayanti",
+      "te": "ఝల్కారీ బాయి — రాణి 'ప్రతిరూపం'; బుందేల్‌ఖండ్‌లో ఆమె జయంతిని ఘనంగా జరుపుతారు"
+     },
+     {
+      "en": "AP link — 1857 era: the Revolt hardly spread to the Madras Presidency; Telugu resistance came earlier (Uyyalawada Narasimha Reddy, 1846–47)",
+      "te": "ఏపీ లింక్ — 1857 కాలంలో మద్రాస్ ప్రెసిడెన్సీకి తిరుగుబాటు పెద్దగా విస్తరించలేదు; తెలుగు ప్రాంతంలో ప్రతిఘటన అంతకు ముందే (ఉయ్యాలవాడ నరసింహారెడ్డి, 1846–47)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Jhalkari Bai did NOT die in the Rani's place at Gwalior — the Rani herself died fighting near Gwalior. Jhalkari's trick was at Jhansi, and her death date is disputed (1858 vs 1881).",
+    "te": "ఝల్కారీ బాయి గ్వాలియర్‌లో రాణి బదులు మరణించలేదు — రాణి స్వయంగా గ్వాలియర్ సమీపంలో పోరాడుతూ మరణించారు. ఝల్కారీ వ్యూహం ఝాన్సీలో జరిగింది; ఆమె మరణ తేదీ వివాదాస్పదం (1858 vs 1881)."
+   },
+   "tip": {
+    "en": "19 → 22: Rani's Jayanti on 19 Nov, her 'double' Jhalkari's on 22 Nov — same week, same fort.",
+    "te": "19 → 22: రాణి జయంతి 19 నవంబర్, ఆమె 'ప్రతిరూపం' ఝల్కారీ జయంతి 22 నవంబర్ — ఒకే వారం, ఒకే కోట."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Jhalkari Bai, consider the following statements:",
+     "te": "ఝల్కారీ బాయికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. She disguised herself as Rani Lakshmibai during the British attack on Jhansi led by Hugh Rose.",
+      "te": "I. హ్యూ రోజ్ నేతృత్వంలో ఝాన్సీపై బ్రిటిష్ దాడి సమయంలో ఆమె రాణి లక్ష్మీబాయి వేషం ధరించారు."
+     },
+     {
+      "en": "II. Her date of death is firmly recorded in British military records as 18 June 1858.",
+      "te": "II. ఆమె మరణ తేదీ 18 జూన్ 1858 అని బ్రిటిష్ సైనిక రికార్డుల్లో స్పష్టంగా నమోదైంది."
+     },
+     {
+      "en": "III. A postage stamp has been issued in her honour.",
+      "te": "III. ఆమె గౌరవార్థం తపాలా స్టాంపు విడుదలైంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II is wrong: she is hardly in contemporary records and her death is disputed (1858 vs 1881).",
+     "te": "II తప్పు: ఆనాటి రికార్డుల్లో ఆమె ప్రస్తావన చాలా తక్కువ; మరణ తేదీ వివాదాస్పదం (1858 vs 1881)."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "How the decoy worked (1858)",
+      "te": "మోసపు వ్యూహం ఎలా పనిచేసింది (1858)"
+     },
+     "items": [
+      {
+       "i": "⚔️",
+       "t": {
+        "en": "Hugh Rose attacks Jhansi",
+        "te": "హ్యూ రోజ్ ఝాన్సీపై దాడి"
+       }
+      },
+      {
+       "i": "🚪",
+       "t": {
+        "en": "A gate is opened to the British",
+        "te": "ఒక ద్వారం బ్రిటిష్ వారికి తెరవబడింది"
+       }
+      },
+      {
+       "i": "🐎",
+       "t": {
+        "en": "Rani escapes by the Bhanderi gate",
+        "te": "భాండేరి ద్వారం గుండా రాణి తప్పించుకున్నారు"
+       }
+      },
+      {
+       "i": "👑",
+       "t": {
+        "en": "Jhalkari goes to Rose's camp: 'I am the Rani'",
+        "te": "ఝల్కారీ రోజ్ శిబిరానికి: 'నేనే రాణిని'"
+       }
+      },
+      {
+       "i": "⏳",
+       "t": {
+        "en": "A day of confusion = time for the Rani",
+        "te": "రోజంతా గందరగోళం = రాణికి సమయం"
+       }
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Where: Jhansi, Bundelkhand",
+      "te": "ఎక్కడ: ఝాన్సీ, బుందేల్‌ఖండ్"
+     },
+     "view": "india",
+     "hl": [
+      "Uttar Pradesh"
+     ],
+     "hlc": "#9b2c2c",
+     "pts": [
+      {
+       "ll": [
+        25.45,
+        78.57
+       ],
+       "t": {
+        "en": "Jhansi",
+        "te": "ఝాన్సీ"
+       }
+      },
+      {
+       "ll": [
+        26.22,
+        78.18
+       ],
+       "t": {
+        "en": "Gwalior",
+        "te": "గ్వాలియర్"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "Jhansi (UP) — the siege; Gwalior (MP) — where the Rani later died fighting.",
+      "te": "ఝాన్సీ (యూపీ) — ముట్టడి; గ్వాలియర్ (ఎంపీ) — తర్వాత రాణి పోరాడుతూ మరణించిన చోటు."
+     },
+     "src": "cards/2026-11-22/map-jhalkari-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Wikipedia — Jhalkaribai (birth, siege of 1858, honours, disputed death)",
+     "u": "https://en.wikipedia.org/wiki/Jhalkaribai"
+    },
+    {
+     "t": "The Week (PTI) — Delhi CM pays tribute to Jhalkari Bai Koli on birth anniversary, 21 Nov 2025",
+     "u": "https://www.theweek.in/wire-updates/national/2025/11/21/des69-dl-cm-jhalkari-bai.html"
+    }
+   ]
+  },
+  {
+   "id": "jfk",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "unsc",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "tag": {
+    "en": "Death anniversary · 22 Nov 1963",
+    "te": "వర్ధంతి · 22 నవంబర్ 1963"
+   },
+   "title": {
+    "en": "John F. Kennedy assassinated in Dallas — 63 years ago",
+    "te": "డల్లాస్‌లో జాన్ ఎఫ్. కెన్నెడీ హత్య — 63 ఏళ్ల క్రితం"
+   },
+   "line": {
+    "en": "The US President was shot in a motorcade; the Warren Commission later said the killer acted alone.",
+    "te": "ఊరేగింపులో అమెరికా అధ్యక్షుడిని కాల్చి చంపారు; హంతకుడు ఒంటరిగానే చేశాడని తర్వాత వారెన్ కమిషన్ తేల్చింది."
+   },
+   "easy": [
+    {
+     "en": "On Friday, 22 November 1963, President John F. Kennedy was driving through downtown Dallas, Texas in an open car with his wife Jacqueline and Texas Governor John Connally. At 12:30 pm he was hit by two rifle bullets fired from a sixth-floor window of the Texas School Book Depository, near Dealey Plaza. He was declared dead at 1 pm at Parkland Hospital.",
+     "te": "1963 నవంబర్ 22 శుక్రవారం, అధ్యక్షుడు జాన్ ఎఫ్. కెన్నెడీ భార్య జాక్వెలిన్, టెక్సాస్ గవర్నర్ జాన్ కానలీతో కలిసి డల్లాస్ (టెక్సాస్) నగరం మధ్యలో తెరిచిన కారులో వెళ్తున్నారు. మధ్యాహ్నం 12:30కు డీలే ప్లాజా సమీపంలోని టెక్సాస్ స్కూల్ బుక్ డిపాజిటరీ భవనం ఆరో అంతస్తు కిటికీ నుంచి పేల్చిన రెండు తూటాలు ఆయనకు తగిలాయి. పార్క్‌లాండ్ ఆసుపత్రిలో మధ్యాహ్నం 1 గంటకు మరణించినట్లు ప్రకటించారు."
+    },
+    {
+     "en": "Vice President Lyndon B. Johnson took the oath as the 36th President at 2:38 pm on the presidential plane. Lee Harvey Oswald was arrested; two days later he was shot dead by Jack Ruby. To find the truth, Johnson set up the Warren Commission, headed by Chief Justice Earl Warren.",
+     "te": "ఉపాధ్యక్షుడు లిండన్ బి. జాన్సన్ మధ్యాహ్నం 2:38కు అధ్యక్ష విమానంలోనే 36వ అధ్యక్షుడిగా ప్రమాణం చేశారు. లీ హార్వే ఓస్వాల్డ్ అరెస్టయ్యాడు; రెండు రోజుల తర్వాత జాక్ రూబీ అతన్ని కాల్చి చంపాడు. నిజం తేల్చేందుకు జాన్సన్ ప్రధాన న్యాయమూర్తి ఎర్ల్ వారెన్ అధ్యక్షతన వారెన్ కమిషన్‌ను ఏర్పాటు చేశారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "When / where",
+      "te": "ఎప్పుడు / ఎక్కడ"
+     },
+     {
+      "en": "22 Nov 1963, 12:30 pm · Dealey Plaza, Dallas, Texas",
+      "te": "22 నవంబర్ 1963, మధ్యాహ్నం 12:30 · డీలే ప్లాజా, డల్లాస్, టెక్సాస్"
+     }
+    ],
+    [
+     {
+      "en": "Accused",
+      "te": "నిందితుడు"
+     },
+     {
+      "en": "Lee Harvey Oswald, 24 — shot dead two days later by Jack Ruby",
+      "te": "లీ హార్వే ఓస్వాల్డ్ (24) — రెండు రోజుల తర్వాత జాక్ రూబీ కాల్చి చంపాడు"
+     }
+    ],
+    [
+     {
+      "en": "Successor",
+      "te": "వారసుడు"
+     },
+     {
+      "en": "Lyndon B. Johnson — sworn in as 36th President on the plane at 2:38 pm",
+      "te": "లిండన్ బి. జాన్సన్ — విమానంలో మధ్యాహ్నం 2:38కు 36వ అధ్యక్షుడిగా ప్రమాణం"
+     }
+    ],
+    [
+     {
+      "en": "Warren Commission",
+      "te": "వారెన్ కమిషన్"
+     },
+     {
+      "en": "Set up 29 Nov 1963 by Johnson; chair Chief Justice Earl Warren; 888-page report on 24 Sep 1964",
+      "te": "29 నవంబర్ 1963న జాన్సన్ ఏర్పాటు; అధ్యక్షుడు ప్రధాన న్యాయమూర్తి ఎర్ల్ వారెన్; 24 సెప్టెంబర్ 1964న 888 పేజీల నివేదిక"
+     }
+    ],
+    [
+     {
+      "en": "Finding",
+      "te": "తీర్పు"
+     },
+     {
+      "en": "Oswald acted alone; no conspiracy, foreign or domestic",
+      "te": "ఓస్వాల్డ్ ఒంటరిగానే చేశాడు; దేశీయ, విదేశీ కుట్ర లేదు"
+     }
+    ],
+    [
+     {
+      "en": "1979",
+      "te": "1979"
+     },
+     {
+      "en": "A US House committee said acoustic evidence suggested a second gunman who missed",
+      "te": "రెండో షూటర్ ఉండి గురి తప్పి ఉండవచ్చని శబ్ద విశ్లేషణ సూచిస్తోందని అమెరికా ప్రతినిధుల సభ కమిటీ చెప్పింది"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Leaders assassinated",
+     "te": "లింక్ చెయిన్ · హత్యకు గురైన నాయకులు"
+    },
+    "l": [
+     {
+      "en": "Abraham Lincoln (USA) — 1865",
+      "te": "అబ్రహం లింకన్ (అమెరికా) — 1865"
+     },
+     {
+      "en": "Mahatma Gandhi — 30 Jan 1948, Delhi",
+      "te": "మహాత్మా గాంధీ — 30 జనవరి 1948, ఢిల్లీ"
+     },
+     {
+      "en": "J.F. Kennedy — 22 Nov 1963, Dallas; Martin Luther King Jr. — 1968",
+      "te": "జె.ఎఫ్. కెన్నెడీ — 22 నవంబర్ 1963, డల్లాస్; మార్టిన్ లూథర్ కింగ్ జూ. — 1968"
+     },
+     {
+      "en": "Indira Gandhi — 31 Oct 1984; Rajiv Gandhi — 21 May 1991, Sriperumbudur",
+      "te": "ఇందిరా గాంధీ — 31 అక్టోబర్ 1984; రాజీవ్ గాంధీ — 21 మే 1991, శ్రీపెరంబుదూర్"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Warren Commission (USA, Kennedy killing, 1964) ≠ Warren Hastings (first Governor-General of Bengal). And it was set up by Johnson, not by Kennedy's Congress.",
+    "te": "వారెన్ కమిషన్ (అమెరికా, కెన్నెడీ హత్య, 1964) ≠ వారెన్ హేస్టింగ్స్ (బెంగాల్ తొలి గవర్నర్ జనరల్). దీన్ని ఏర్పాటు చేసింది జాన్సన్."
+   },
+   "tip": {
+    "en": "63 → 64: killed in '63, report in '64. Kennedy 35 → Johnson 36.",
+    "te": "63 → 64: హత్య '63లో, నివేదిక '64లో. కెన్నెడీ 35 → జాన్సన్ 36."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the assassination of John F. Kennedy:",
+     "te": "జాన్ ఎఫ్. కెన్నెడీ హత్యకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It took place in Dallas, Texas, on 22 November 1963.",
+      "te": "I. ఇది 1963 నవంబర్ 22న టెక్సాస్‌లోని డల్లాస్‌లో జరిగింది."
+     },
+     {
+      "en": "II. The Warren Commission was headed by the Chief Justice of the United States.",
+      "te": "II. వారెన్ కమిషన్‌కు అమెరికా ప్రధాన న్యాయమూర్తి అధ్యక్షత వహించారు."
+     },
+     {
+      "en": "III. The Warren Commission concluded that a foreign conspiracy was behind the killing.",
+      "te": "III. హత్య వెనుక విదేశీ కుట్ర ఉందని వారెన్ కమిషన్ తేల్చింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "III is wrong: the Commission found Oswald acted alone and found no conspiracy, foreign or domestic.",
+     "te": "III తప్పు: ఓస్వాల్డ్ ఒంటరిగానే చేశాడని, దేశీయ/విదేశీ కుట్ర లేదని కమిషన్ తేల్చింది."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "From the shot to the report",
+      "te": "కాల్పుల నుంచి నివేదిక వరకు"
+     },
+     "items": [
+      {
+       "y": "12:30",
+       "t": {
+        "en": "22 Nov 1963 — shots in Dallas",
+        "te": "22 నవంబర్ 1963 — డల్లాస్‌లో కాల్పులు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1:00",
+       "t": {
+        "en": "Declared dead at Parkland Hospital",
+        "te": "పార్క్‌లాండ్ ఆసుపత్రిలో మరణ ప్రకటన"
+       }
+      },
+      {
+       "y": "2:38",
+       "t": {
+        "en": "Johnson sworn in on the plane (36th President)",
+        "te": "విమానంలో జాన్సన్ ప్రమాణం (36వ అధ్యక్షుడు)"
+       }
+      },
+      {
+       "y": "+2 days",
+       "t": {
+        "en": "Oswald shot by Jack Ruby",
+        "te": "ఓస్వాల్డ్‌ను జాక్ రూబీ కాల్చాడు"
+       }
+      },
+      {
+       "y": "29 Nov",
+       "t": {
+        "en": "Warren Commission set up",
+        "te": "వారెన్ కమిషన్ ఏర్పాటు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1964",
+       "t": {
+        "en": "Report (24 Sep): Oswald acted alone",
+        "te": "నివేదిక (24 సెప్టెంబర్): ఓస్వాల్డ్ ఒంటరిగానే"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1979",
+       "t": {
+        "en": "House committee: possible second gunman",
+        "te": "సభ కమిటీ: రెండో షూటర్ అవకాశం"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = most-asked points.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే అంశాలు."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Britannica — John F. Kennedy: Assassination",
+     "u": "https://www.britannica.com/biography/John-F-Kennedy/Assassination"
+    },
+    {
+     "t": "Britannica — Warren Commission",
+     "u": "https://britannica.com/topic/Warren-Commission"
+    },
+    {
+     "t": "US National Archives — Warren Commission Report, Chapter 1",
+     "u": "https://www.archives.gov/research/jfk/warren-commission-report/chapter-1"
+    }
+   ]
+  },
+  {
+   "id": "svanidhi",
+   "kind": "article",
+   "color": "#2f6b2f",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "In the news · AP · SVANidhi Samman Awards, New Delhi · 20 Nov 2026",
+    "te": "వార్తల్లో · ఏపీ · స్వనిధి సమ్మాన్ అవార్డులు, న్యూఢిల్లీ · 20 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-III Economy · AP schemes",
+    "te": "వివరణ · జీఎస్-III ఆర్థిక వ్యవస్థ · ఏపీ పథకాలు"
+   },
+   "title": {
+    "en": "AP wins seven national PM SVANidhi awards: small loans for street vendors",
+    "te": "పీఎం స్వనిధిలో ఏపీకి 7 జాతీయ అవార్డులు: వీధి వ్యాపారులకు చిన్న రుణాలు"
+   },
+   "line": {
+    "en": "AP is No. 1 in special campaigns, No. 2 in loan disbursement and No. 3 overall; four cities also won.",
+    "te": "ప్రత్యేక ప్రచారాల్లో ఏపీ నం.1, రుణ పంపిణీలో నం.2, మొత్తం పనితీరులో నం.3; నాలుగు పట్టణాలకూ అవార్డులు."
+   },
+   "easy": [
+    {
+     "en": "A tea seller or vegetable vendor often borrows from moneylenders at very high interest because banks ask for collateral (security). PM SVANidhi (PM Street Vendor's AtmaNirbhar Nidhi), started on 1 June 2020 after COVID-19, gives them small working-capital loans without collateral. Repay on time and you get the next, bigger loan.",
+     "te": "టీ అమ్మేవారు, కూరగాయల వ్యాపారులు బ్యాంకులు హామీ (కొలాటరల్) అడగడంతో తరచూ అధిక వడ్డీకి వడ్డీ వ్యాపారుల దగ్గర అప్పు తీసుకుంటారు. కోవిడ్-19 తర్వాత 2020 జూన్ 1న ప్రారంభమైన పీఎం స్వనిధి (పీఎం స్ట్రీట్ వెండర్స్ ఆత్మనిర్భర్ నిధి) వారికి హామీ లేకుండా చిన్న మూలధన రుణాలు ఇస్తుంది. సకాలంలో తిరిగి చెల్లిస్తే తర్వాతి, పెద్ద రుణం వస్తుంది."
+    },
+    {
+     "en": "On 20 November 2026 the Union Housing and Urban Affairs Ministry gave the SVANidhi Samman Awards in New Delhi. AP won 7 — 3 at state level and 4 for urban local bodies. MEPMA (Mission for Elimination of Poverty in Municipal Areas) runs the scheme in AP's towns.",
+     "te": "2026 నవంబర్ 20న కేంద్ర గృహనిర్మాణ, పట్టణ వ్యవహారాల మంత్రిత్వ శాఖ న్యూఢిల్లీలో స్వనిధి సమ్మాన్ అవార్డులు ప్రదానం చేసింది. ఏపీకి 7 వచ్చాయి — 3 రాష్ట్ర స్థాయిలో, 4 పట్టణ స్థానిక సంస్థలకు. ఏపీ పట్టణాల్లో ఈ పథకాన్ని మెప్మా (పట్టణ ప్రాంతాల్లో పేదరిక నిర్మూలన మిషన్) అమలు చేస్తోంది."
+    },
+    {
+     "en": "Why it matters: it is not only a loan. 'SVANidhi se Samriddhi' profiles the vendor's family and links it to eight central welfare schemes, and digital (UPI) payments build a credit history.",
+     "te": "ఎందుకు ముఖ్యం: ఇది కేవలం రుణం కాదు. 'స్వనిధి సే సమృద్ధి' వ్యాపారి కుటుంబ వివరాలు సేకరించి ఎనిమిది కేంద్ర సంక్షేమ పథకాలతో అనుసంధానిస్తుంది; డిజిటల్ (UPI) చెల్లింపులు రుణ చరిత్రను నిర్మిస్తాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "AP state awards",
+      "te": "ఏపీ రాష్ట్ర అవార్డులు"
+     },
+     {
+      "en": "Special Campaigns – 1st · Loan Disbursement – 2nd · Overall Performance – 3rd",
+      "te": "ప్రత్యేక ప్రచారాలు – 1వ · రుణ పంపిణీ – 2వ · మొత్తం పనితీరు – 3వ"
+     }
+    ],
+    [
+     {
+      "en": "AP city awards",
+      "te": "ఏపీ పట్టణ అవార్డులు"
+     },
+     {
+      "en": "Kadapa MC – 2nd (loans) · Ramachandrapuram – 1st & Amalapuram – 2nd (SVANidhi se Samriddhi) · Vizianagaram MC – 2nd (digital transactions)",
+      "te": "కడప కార్పొరేషన్ – 2వ (రుణాలు) · రామచంద్రపురం – 1వ, అమలాపురం – 2వ (స్వనిధి సే సమృద్ధి) · విజయనగరం కార్పొరేషన్ – 2వ (డిజిటల్ లావాదేవీలు)"
+     }
+    ],
+    [
+     {
+      "en": "Scheme type",
+      "te": "పథకం రకం"
+     },
+     {
+      "en": "Central Sector Scheme of MoHUA; SIDBI is the implementation partner",
+      "te": "కేంద్ర గృహ, పట్టణ వ్యవహారాల శాఖ కేంద్ర రంగ పథకం; అమలు భాగస్వామి SIDBI"
+     }
+    ],
+    [
+     {
+      "en": "Loan ladder",
+      "te": "రుణ నిచ్చెన"
+     },
+     {
+      "en": "₹15,000 → ₹25,000 → ₹50,000 (after restructuring)",
+      "te": "₹15,000 → ₹25,000 → ₹50,000 (పునర్వ్యవస్థీకరణ తర్వాత)"
+     }
+    ],
+    [
+     {
+      "en": "Benefits",
+      "te": "ప్రయోజనాలు"
+     },
+     {
+      "en": "7% interest subsidy on timely repayment; ₹50–100 monthly cashback for digital payments; UPI-linked RuPay credit card up to ₹30,000",
+      "te": "సకాలంలో చెల్లిస్తే 7% వడ్డీ రాయితీ; డిజిటల్ చెల్లింపులకు నెలకు ₹50–100 క్యాష్‌బ్యాక్; ₹30,000 వరకు UPI-అనుసంధాన రూపే క్రెడిట్ కార్డు"
+     }
+    ],
+    [
+     {
+      "en": "Extended",
+      "te": "పొడిగింపు"
+     },
+     {
+      "en": "Restructured Aug 2025; runs till 31 March 2030; outlay ₹7,332 crore",
+      "te": "2025 ఆగస్టులో పునర్వ్యవస్థీకరణ; 2030 మార్చి 31 వరకు; వ్యయం ₹7,332 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Reach (all India)",
+      "te": "విస్తృతి (దేశవ్యాప్తంగా)"
+     },
+     {
+      "en": "About 81 lakh vendors, 1.21 crore+ loans worth about ₹20,000 crore",
+      "te": "సుమారు 81 లక్షల వ్యాపారులు, ₹20,000 కోట్ల విలువైన 1.21 కోట్లకు పైగా రుణాలు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Urban livelihoods",
+     "te": "లింక్ చెయిన్ · పట్టణ జీవనోపాధి"
+    },
+    "l": [
+     {
+      "en": "Street Vendors (Protection of Livelihood and Regulation of Street Vending) Act, 2014 — Town Vending Committees",
+      "te": "వీధి వ్యాపారుల (జీవనోపాధి రక్షణ, వీధి వ్యాపార నియంత్రణ) చట్టం, 2014 — టౌన్ వెండింగ్ కమిటీలు"
+     },
+     {
+      "en": "DAY-NULM (urban livelihoods mission) — in AP run by MEPMA; rural side = SERP",
+      "te": "DAY-NULM (పట్టణ జీవనోపాధి మిషన్) — ఏపీలో మెప్మా అమలు; గ్రామీణ వైపు = సెర్ప్"
+     },
+     {
+      "en": "Financial inclusion: Jan Dhan, MUDRA (Shishu loans), SVANidhi = credit without collateral",
+      "te": "ఆర్థిక సమ్మిళితం: జన్ ధన్, ముద్ర (శిశు రుణాలు), స్వనిధి = హామీ లేని రుణం"
+     },
+     {
+      "en": "74th Amendment (1992) — urban local bodies; Schedule 12 item: urban poverty alleviation",
+      "te": "74వ సవరణ (1992) — పట్టణ స్థానిక సంస్థలు; 12వ షెడ్యూల్ అంశం: పట్టణ పేదరిక నిర్మూలన"
+     }
+    ]
+   },
+   "trap": {
+    "en": "SVANidhi is for URBAN street vendors, run by MoHUA (not the Finance Ministry or Rural Development). In AP it is MEPMA, not SERP. And it is a Central Sector scheme (100% Centre), not Centrally Sponsored.",
+    "te": "స్వనిధి పట్టణ వీధి వ్యాపారుల కోసం, గృహ-పట్టణ వ్యవహారాల శాఖ నిర్వహిస్తుంది (ఆర్థిక శాఖ / గ్రామీణాభివృద్ధి కాదు). ఏపీలో మెప్మా, సెర్ప్ కాదు. ఇది కేంద్ర రంగ పథకం (100% కేంద్రం), కేంద్ర ప్రాయోజిత కాదు."
+   },
+   "tip": {
+    "en": "AP's ranks = 1-2-3: Campaigns 1, Loans 2, Overall 3.",
+    "te": "ఏపీ ర్యాంకులు = 1-2-3: ప్రచారాలు 1, రుణాలు 2, మొత్తం 3."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the PM SVANidhi scheme, consider the following statements:",
+     "te": "పీఎం స్వనిధి పథకానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It gives collateral-free working-capital loans to street vendors.",
+      "te": "I. ఇది వీధి వ్యాపారులకు హామీ లేని మూలధన రుణాలు ఇస్తుంది."
+     },
+     {
+      "en": "II. It is implemented by the Ministry of Rural Development, and in Andhra Pradesh by SERP.",
+      "te": "II. దీన్ని గ్రామీణాభివృద్ధి మంత్రిత్వ శాఖ, ఏపీలో సెర్ప్ అమలు చేస్తాయి."
+     },
+     {
+      "en": "III. Vendors who repay on time get a 7% interest subsidy.",
+      "te": "III. సకాలంలో చెల్లించే వ్యాపారులకు 7% వడ్డీ రాయితీ లభిస్తుంది."
+     },
+     {
+      "en": "IV. It has been extended till 31 March 2030.",
+      "te": "IV. దీన్ని 2030 మార్చి 31 వరకు పొడిగించారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II, III and IV only",
+      "te": "II, III, IV మాత్రమే"
+     },
+     {
+      "en": "I, III and IV only",
+      "te": "I, III, IV మాత్రమే"
+     },
+     {
+      "en": "I, II, III and IV",
+      "te": "I, II, III, IV"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II is wrong: the scheme belongs to the Ministry of Housing and Urban Affairs; in AP it is run through MEPMA (urban), not SERP (rural).",
+     "te": "II తప్పు: పథకం గృహ, పట్టణ వ్యవహారాల శాఖది; ఏపీలో మెప్మా (పట్టణ) ద్వారా అమలవుతుంది, సెర్ప్ (గ్రామీణ) కాదు."
+    }
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "AP towns that won",
+      "te": "అవార్డు గెలిచిన ఏపీ పట్టణాలు"
+     },
+     "view": "ap",
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#2f6b2f",
+     "pts": [
+      {
+       "ll": [
+        18.11,
+        83.4
+       ],
+       "t": {
+        "en": "Vizianagaram",
+        "te": "విజయనగరం"
+       }
+      },
+      {
+       "ll": [
+        16.84,
+        82.03
+       ],
+       "t": {
+        "en": "Ramachandrapuram",
+        "te": "రామచంద్రపురం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.58,
+        82.01
+       ],
+       "t": {
+        "en": "Amalapuram",
+        "te": "అమలాపురం"
+       }
+      },
+      {
+       "ll": [
+        14.47,
+        78.82
+       ],
+       "t": {
+        "en": "Kadapa",
+        "te": "కడప"
+       }
+      }
+     ],
+     "cap": {
+      "en": "North Andhra, Godavari delta and Rayalaseema — awards came from all regions.",
+      "te": "ఉత్తరాంధ్ర, గోదావరి డెల్టా, రాయలసీమ — అన్ని ప్రాంతాల నుంచి అవార్డులు."
+     },
+     "src": "cards/2026-11-22/map-svanidhi-1-{m}.svg"
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How SVANidhi lifts a vendor",
+      "te": "స్వనిధి వ్యాపారిని ఎలా పైకి తెస్తుంది"
+     },
+     "items": [
+      {
+       "i": "🧺",
+       "t": {
+        "en": "Vendor, no collateral",
+        "te": "హామీ లేని వ్యాపారి"
+       }
+      },
+      {
+       "i": "💵",
+       "t": {
+        "en": "Loan ₹15,000",
+        "te": "రుణం ₹15,000"
+       }
+      },
+      {
+       "i": "📱",
+       "t": {
+        "en": "Repay on time + UPI = 7% subsidy, cashback",
+        "te": "సకాల చెల్లింపు + UPI = 7% రాయితీ, క్యాష్‌బ్యాక్"
+       }
+      },
+      {
+       "i": "📈",
+       "t": {
+        "en": "Next loans ₹25,000 → ₹50,000",
+        "te": "తర్వాతి రుణాలు ₹25,000 → ₹50,000"
+       }
+      },
+      {
+       "i": "🏠",
+       "t": {
+        "en": "Family linked to 8 welfare schemes",
+        "te": "కుటుంబం 8 సంక్షేమ పథకాలతో అనుసంధానం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India — AP bags seven national awards under PM SVANidhi, 21 Nov 2026",
+     "u": "https://www.thehansindia.com/news/cities/amaravati/ap-bags-seven-national-awards-under-pm-svanidhi-1144116"
+    },
+    {
+     "t": "The Morning Voice — Andhra Pradesh ranks among top states in PM SVANidhi, wins seven awards, 22 Nov 2026",
+     "u": "https://tmv.in/article/andhra-pradesh-ranks-among-top-states-in-pm-svanidhi-wins-seven-awards"
+    },
+    {
+     "t": "Mango News — Andhra Pradesh earns national recognition, 21 Nov 2026",
+     "u": "https://themangonews.com/andhra-pradesh-regional/andhra-pradesh-earns-national-recognition/"
+    },
+    {
+     "t": "GKToday — Andhra Pradesh wins seven national PM SVANidhi awards (cross-check)",
+     "u": "https://www.gktoday.in/andhra-pradesh-wins-seven-national-pm-svanidhi-awards/"
+    }
+   ],
+   "mains": {
+    "en": "'PM SVANidhi is more a tool of financial inclusion than a loan scheme.' Discuss with reference to Andhra Pradesh's performance.",
+    "te": "'పీఎం స్వనిధి రుణ పథకం కంటే ఆర్థిక సమ్మిళిత సాధనమే ఎక్కువ.' ఆంధ్రప్రదేశ్ పనితీరు నేపథ్యంలో చర్చించండి."
+   }
+  },
+  {
+   "id": "coresector",
+   "kind": "article",
+   "color": "#a86b00",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "DD News / Ministry of Commerce & Industry · 20 Nov 2026",
+    "te": "డీడీ న్యూస్ / వాణిజ్య, పరిశ్రమల మంత్రిత్వ శాఖ · 20 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-III Economy · Indices",
+    "te": "వివరణ · జీఎస్-III ఆర్థిక వ్యవస్థ · సూచీలు"
+   },
+   "title": {
+    "en": "Core sector grows 10.9% in October — but read the 'base effect'",
+    "te": "అక్టోబర్‌లో కోర్ రంగం 10.9% వృద్ధి — కానీ 'బేస్ ఎఫెక్ట్' గమనించండి"
+   },
+   "line": {
+    "en": "The Index of Core Industries, now with 9 industries and base 2022-23, jumped 10.9% — the highest in the new series.",
+    "te": "ఇప్పుడు 9 పరిశ్రమలు, 2022-23 ఆధార సంవత్సరంతో ఉన్న కోర్ పరిశ్రమల సూచీ 10.9% పెరిగింది — కొత్త సిరీస్‌లో అత్యధికం."
+   },
+   "easy": [
+    {
+     "en": "Core industries are the 'basic' industries every other industry needs — power, coal, steel, cement, fuel, fertilisers. If they grow, factories, construction and transport usually grow too. So the monthly core index is an early signal of how industry is doing.",
+     "te": "కోర్ పరిశ్రమలు అంటే మిగతా పరిశ్రమలన్నింటికీ అవసరమైన 'మౌలిక' పరిశ్రమలు — విద్యుత్, బొగ్గు, ఉక్కు, సిమెంట్, ఇంధనం, ఎరువులు. ఇవి పెరిగితే సాధారణంగా కర్మాగారాలు, నిర్మాణాలు, రవాణా కూడా పెరుగుతాయి. అందుకే నెలవారీ కోర్ సూచీ పరిశ్రమల స్థితికి ముందస్తు సంకేతం."
+    },
+    {
+     "en": "October 2026 growth was 10.9% (September revised to 8.2%). But in October 2025 growth was only 0.8% — a very low base. When last year's number is small, this year's percentage looks big. This is the 'base effect'. ICRA called the jump partly 'optical'; April–October growth (6.0%) is a steadier picture.",
+     "te": "2026 అక్టోబర్ వృద్ధి 10.9% (సెప్టెంబర్ 8.2%కు సవరణ). కానీ 2025 అక్టోబర్‌లో వృద్ధి కేవలం 0.8% — చాలా తక్కువ ఆధారం. గత ఏడాది సంఖ్య చిన్నదైతే ఈ ఏడాది శాతం పెద్దదిగా కనిపిస్తుంది. దీన్నే 'బేస్ ఎఫెక్ట్' అంటారు. ఈ పెరుగుదల పాక్షికంగా 'కంటికి కనిపించేదే' అని ICRA పేర్కొంది; ఏప్రిల్–అక్టోబర్ వృద్ధి (6.0%) స్థిరమైన చిత్రం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Oct 2026 growth",
+      "te": "అక్టోబర్ 2026 వృద్ధి"
+     },
+     {
+      "en": "10.9% (provisional); index 123.1 vs 111.0 a year ago",
+      "te": "10.9% (తాత్కాలిక); సూచీ 123.1 (గత ఏడాది 111.0)"
+     }
+    ],
+    [
+     {
+      "en": "New series",
+      "te": "కొత్త సిరీస్"
+     },
+     {
+      "en": "Base 2022-23 (old 2011-12), from July 2026; iron ore added → 9 industries",
+      "te": "ఆధార సంవత్సరం 2022-23 (పాతది 2011-12), జూలై 2026 నుంచి; ఇనుప ఖనిజం చేరిక → 9 పరిశ్రమలు"
+     }
+    ],
+    [
+     {
+      "en": "Biggest weights",
+      "te": "అత్యధిక వెయిటేజీ"
+     },
+     {
+      "en": "Electricity 30.9% > Refinery products 22.6% > Steel 17.6%",
+      "te": "విద్యుత్ 30.9% > రిఫైనరీ ఉత్పత్తులు 22.6% > ఉక్కు 17.6%"
+     }
+    ],
+    [
+     {
+      "en": "Fastest in Oct",
+      "te": "అక్టోబర్‌లో వేగంగా"
+     },
+     {
+      "en": "Iron ore +26.4%, Coal +23.1%, Electricity +21.6%, Cement +15.4%",
+      "te": "ఇనుప ఖనిజం +26.4%, బొగ్గు +23.1%, విద్యుత్ +21.6%, సిమెంట్ +15.4%"
+     }
+    ],
+    [
+     {
+      "en": "Fell in Oct",
+      "te": "అక్టోబర్‌లో తగ్గినవి"
+     },
+     {
+      "en": "Fertilisers −12.2%, Natural gas −7.6%, Crude oil −4.1%",
+      "te": "ఎరువులు −12.2%, సహజ వాయువు −7.6%, ముడి చమురు −4.1%"
+     }
+    ],
+    [
+     {
+      "en": "Apr–Oct 2026",
+      "te": "ఏప్రిల్–అక్టోబర్ 2026"
+     },
+     {
+      "en": "6.0% (vs 2.3% a year earlier)",
+      "te": "6.0% (గత ఏడాది 2.3%)"
+     }
+    ],
+    [
+     {
+      "en": "Released by",
+      "te": "విడుదల"
+     },
+     {
+      "en": "Office of the Economic Adviser, DPIIT (Ministry of Commerce & Industry), on 20 Nov 2026",
+      "te": "ఆర్థిక సలహాదారు కార్యాలయం, DPIIT (వాణిజ్య, పరిశ్రమల శాఖ), 20 నవంబర్ 2026"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Indices of the economy",
+     "te": "లింక్ చెయిన్ · ఆర్థిక సూచీలు"
+    },
+    "l": [
+     {
+      "en": "Core index (OEA, DPIIT) → feeds the IIP (released by NSO, MoSPI)",
+      "te": "కోర్ సూచీ (OEA, DPIIT) → IIPకి ఆధారం (NSO, గణాంక శాఖ విడుదల)"
+     },
+     {
+      "en": "WPI — also by OEA, DPIIT; CPI — by NSO",
+      "te": "WPI — కూడా OEA, DPIIT; CPI — NSO"
+     },
+     {
+      "en": "Base-year revision = new weights that match today's economy (old base 2011-12 → new 2022-23)",
+      "te": "ఆధార సంవత్సర సవరణ = నేటి ఆర్థిక వ్యవస్థకు తగిన కొత్త వెయిటేజీలు (పాత ఆధారం 2011-12 → కొత్తది 2022-23)"
+     },
+     {
+      "en": "AP link: coal-based power (Krishnapatnam, Vijayawada thermal), Vizag Steel Plant, cement belt of Kurnool–Kadapa–Guntur (Palnadu)",
+      "te": "ఏపీ లింక్: బొగ్గు విద్యుత్ (కృష్ణపట్నం, విజయవాడ థర్మల్), విశాఖ ఉక్కు, కర్నూలు–కడప–పల్నాడు సిమెంట్ బెల్ట్"
+     }
+    ]
+   },
+   "trap": {
+    "en": "It is no longer 'eight' core industries — the new 2022-23 series has NINE (iron ore added). Electricity, not refinery products, now has the largest weight. Core index is by DPIIT, IIP by NSO.",
+    "te": "ఇకపై 'ఎనిమిది' కోర్ పరిశ్రమలు కావు — 2022-23 కొత్త సిరీస్‌లో తొమ్మిది (ఇనుప ఖనిజం చేరింది). అత్యధిక వెయిటేజీ ఇప్పుడు విద్యుత్‌ది, రిఫైనరీ ఉత్పత్తులది కాదు. కోర్ సూచీ DPIIT, IIP NSO విడుదల చేస్తాయి."
+   },
+   "tip": {
+    "en": "'ERS' on top: Electricity, Refinery, Steel = about 71% of the index.",
+    "te": "పైన 'ERS': విద్యుత్, రిఫైనరీ, ఉక్కు = సూచీలో సుమారు 71%."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the Index of Core Industries (new series):",
+     "te": "కోర్ పరిశ్రమల సూచీ (కొత్త సిరీస్)కి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. Its base year is now 2022-23.",
+      "te": "I. దీని ఆధార సంవత్సరం ఇప్పుడు 2022-23."
+     },
+     {
+      "en": "II. It covers eight industries, with refinery products having the highest weight.",
+      "te": "II. ఇది ఎనిమిది పరిశ్రమలను కవర్ చేస్తుంది; రిఫైనరీ ఉత్పత్తులకు అత్యధిక వెయిటేజీ ఉంది."
+     },
+     {
+      "en": "III. It is released by the Office of the Economic Adviser, DPIIT.",
+      "te": "III. దీన్ని DPIIT ఆర్థిక సలహాదారు కార్యాలయం విడుదల చేస్తుంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "II is wrong: the new series has nine industries (iron ore added) and electricity has the highest weight (30.9%).",
+     "te": "II తప్పు: కొత్త సిరీస్‌లో తొమ్మిది పరిశ్రమలు (ఇనుప ఖనిజం చేరిక); అత్యధిక వెయిటేజీ విద్యుత్‌ది (30.9%)."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "October 2026 growth by industry (%)",
+      "te": "అక్టోబర్ 2026 పరిశ్రమల వారీ వృద్ధి (%)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Iron ore",
+        "te": "ఇనుప ఖనిజం"
+       },
+       "v": 26.4,
+       "vl": "+26.4"
+      },
+      {
+       "t": {
+        "en": "Coal",
+        "te": "బొగ్గు"
+       },
+       "v": 23.1,
+       "vl": "+23.1"
+      },
+      {
+       "t": {
+        "en": "Electricity",
+        "te": "విద్యుత్"
+       },
+       "v": 21.6,
+       "vl": "+21.6"
+      },
+      {
+       "t": {
+        "en": "Cement",
+        "te": "సిమెంట్"
+       },
+       "v": 15.4,
+       "vl": "+15.4"
+      },
+      {
+       "t": {
+        "en": "Steel",
+        "te": "ఉక్కు"
+       },
+       "v": 7.3,
+       "vl": "+7.3"
+      },
+      {
+       "t": {
+        "en": "Refinery products",
+        "te": "రిఫైనరీ ఉత్పత్తులు"
+       },
+       "v": 3.4,
+       "vl": "+3.4"
+      }
+     ],
+     "cap": {
+      "en": "Overall +10.9%. Fell: fertilisers −12.2, natural gas −7.6, crude oil −4.1.",
+      "te": "మొత్తం +10.9%. తగ్గినవి: ఎరువులు −12.2, సహజ వాయువు −7.6, ముడి చమురు −4.1."
+     }
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Old series vs new series",
+      "te": "పాత సిరీస్ vs కొత్త సిరీస్"
+     },
+     "a": {
+      "h": {
+       "en": "Old (2011-12)",
+       "te": "పాతది (2011-12)"
+      },
+      "l": [
+       {
+        "en": "8 industries",
+        "te": "8 పరిశ్రమలు"
+       },
+       {
+        "en": "No iron ore",
+        "te": "ఇనుప ఖనిజం లేదు"
+       },
+       {
+        "en": "Refinery products had top weight",
+        "te": "రిఫైనరీ ఉత్పత్తులకు అత్యధిక వెయిటేజీ"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "New (2022-23)",
+       "te": "కొత్తది (2022-23)"
+      },
+      "l": [
+       {
+        "en": "9 industries",
+        "te": "9 పరిశ్రమలు"
+       },
+       {
+        "en": "Iron ore added (4.9%)",
+        "te": "ఇనుప ఖనిజం చేరిక (4.9%)"
+       },
+       {
+        "en": "Electricity top weight (30.9%)",
+        "te": "విద్యుత్‌కు అత్యధిక వెయిటేజీ (30.9%)"
+       },
+       {
+        "en": "Steel: gross production",
+        "te": "ఉక్కు: స్థూల ఉత్పత్తి"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "DD News — India's core industries output grows 10.9% in October, led by iron ore, coal and electricity, 20 Nov 2026",
+     "u": "https://ddnews.gov.in/en/indias-core-industries-output-grows-10-9-in-october-led-by-iron-ore-coal-and-electricity/"
+    },
+    {
+     "t": "Lapaas Voice — Core sector growth hits 10.9% in October 2026, highest under new series",
+     "u": "https://lapaasvoice.com/indias-core-sector-growth-hits-10-9-in-october-2026-highest-under-new-series-as-coal-and-iron-ore-surge"
+    },
+    {
+     "t": "Discovery Alert — India core sector growth 10.9% but ICRA flags base effect",
+     "u": "https://discoveryalert.com/news/india-core-sector-growth-base-effect-november-2026/"
+    }
+   ],
+   "mains": {
+    "en": "What is the 'base effect'? Using the October 2026 core-sector data, explain why a single month's growth rate can mislead policy makers.",
+    "te": "'బేస్ ఎఫెక్ట్' అంటే ఏమిటి? 2026 అక్టోబర్ కోర్ రంగ గణాంకాలతో, ఒక నెల వృద్ధి రేటు విధాన నిర్ణేతలను ఎందుకు తప్పుదారి పట్టించగలదో వివరించండి."
+   }
+  },
+  {
+   "id": "cauvery",
+   "kind": "article",
+   "color": "#1f6f6a",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "In the news · Supreme Court · 20 Nov 2026",
+    "te": "వార్తల్లో · సుప్రీంకోర్టు · 20 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity · Inter-state rivers",
+    "te": "వివరణ · జీఎస్-II పాలిటీ · అంతర్రాష్ట్ర నదులు"
+   },
+   "title": {
+    "en": "Cauvery: Supreme Court rejects Tamil Nadu's plea for 11 TMC more water",
+    "te": "కావేరి: 11 టీఎంసీల అదనపు నీటి కోసం తమిళనాడు పిటిషన్‌ను తిరస్కరించిన సుప్రీంకోర్టు"
+   },
+   "line": {
+    "en": "In a dry year, who decides how much water each state gets — the court or the Cauvery Water Management Authority?",
+    "te": "కరవు సంవత్సరంలో ఏ రాష్ట్రానికి ఎంత నీరు అనేది ఎవరు నిర్ణయిస్తారు — కోర్టా, కావేరి జల నిర్వహణ ప్రాధికార సంస్థా?"
+   },
+   "easy": [
+    {
+     "en": "The Cauvery rises in Karnataka and flows into Tamil Nadu. Karnataka must release a fixed amount every month at the border point Biligundlu. In a year of poor rain, both states get less — this is 'distress sharing'. Tamil Nadu said Karnataka had a backlog of 11 TMC (thousand million cubic feet) as on 7 October and asked the Court to order release at 1.3 TMC a day for 10 days.",
+     "te": "కావేరి కర్ణాటకలో పుట్టి తమిళనాడులోకి ప్రవహిస్తుంది. సరిహద్దు ప్రాంతం బిలిగుండ్లు వద్ద కర్ణాటక ప్రతి నెలా నిర్ణీత నీటిని విడుదల చేయాలి. వర్షాలు తక్కువైన సంవత్సరంలో రెండు రాష్ట్రాలకూ తక్కువ వస్తుంది — దీన్నే 'కరవు భాగస్వామ్యం' (డిస్ట్రెస్ షేరింగ్) అంటారు. అక్టోబర్ 7 నాటికి కర్ణాటక 11 టీఎంసీలు బకాయి పడిందని, రోజుకు 1.3 టీఎంసీల చొప్పున 10 రోజులు విడుదల చేయించాలని తమిళనాడు కోర్టును కోరింది."
+    },
+    {
+     "en": "On 20 November 2026 a bench of Justices Vikram Nath and Aparesh Kumar Singh dismissed Tamil Nadu's two applications. Karnataka said it was a drought year and that the CWMA had already fixed flows (3,000 cusecs from 9 October). Tamil Nadu complained that the CWMA has not framed a distress-sharing formula even eight years after it was set up.",
+     "te": "2026 నవంబర్ 20న జస్టిస్ విక్రమ్ నాథ్, జస్టిస్ అపరేశ్ కుమార్ సింగ్ ధర్మాసనం తమిళనాడు రెండు దరఖాస్తులను కొట్టివేసింది. ఇది కరవు సంవత్సరమని, CWMA ఇప్పటికే ప్రవాహాలను (అక్టోబర్ 9 నుంచి 3,000 క్యూసెక్కులు) నిర్ణయించిందని కర్ణాటక వాదించింది. ఏర్పాటై ఎనిమిదేళ్లయినా CWMA కరవు భాగస్వామ్య సూత్రాన్ని రూపొందించలేదని తమిళనాడు ఆరోపించింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Order",
+      "te": "ఉత్తర్వు"
+     },
+     {
+      "en": "20 Nov 2026 · Justices Vikram Nath & Aparesh Kumar Singh · decision reserved on 12 Oct",
+      "te": "20 నవంబర్ 2026 · జస్టిస్ విక్రమ్ నాథ్, అపరేశ్ కుమార్ సింగ్ · అక్టోబర్ 12న తీర్పు రిజర్వ్"
+     }
+    ],
+    [
+     {
+      "en": "TN's demand",
+      "te": "తమిళనాడు డిమాండ్"
+     },
+     {
+      "en": "Clear 11 TMC backlog (as on 7 Oct) at 1.3 TMC/day for 10 days at Biligundlu",
+      "te": "11 టీఎంసీల బకాయి (అక్టోబర్ 7 నాటికి) బిలిగుండ్లు వద్ద రోజుకు 1.3 టీఎంసీల చొప్పున 10 రోజుల్లో"
+     }
+    ],
+    [
+     {
+      "en": "Regulators",
+      "te": "నియంత్రణ సంస్థలు"
+     },
+     {
+      "en": "CWMA (authority) + CWRC (regulation committee) — set up in 2018 under the Inter-State River Water Disputes Act, 1956",
+      "te": "CWMA (ప్రాధికార సంస్థ) + CWRC (నియంత్రణ కమిటీ) — అంతర్రాష్ట్ర నదీ జల వివాదాల చట్టం, 1956 కింద 2018లో ఏర్పాటు"
+     }
+    ],
+    [
+     {
+      "en": "Flows cut",
+      "te": "ప్రవాహాల తగ్గింపు"
+     },
+     {
+      "en": "6,000 → 4,000 cusecs (from 24 Sep) → 3,000 cusecs (from 9 Oct)",
+      "te": "6,000 → 4,000 క్యూసెక్కులు (సెప్టెంబర్ 24 నుంచి) → 3,000 క్యూసెక్కులు (అక్టోబర్ 9 నుంచి)"
+     }
+    ],
+    [
+     {
+      "en": "History",
+      "te": "చరిత్ర"
+     },
+     {
+      "en": "Agreements 1892 & 1924 → Tribunal award 2007 → SC judgment 2018 → CWMA",
+      "te": "ఒప్పందాలు 1892, 1924 → ట్రైబ్యునల్ అవార్డు 2007 → సుప్రీంకోర్టు తీర్పు 2018 → CWMA"
+     }
+    ],
+    [
+     {
+      "en": "2018 shares (TMC)",
+      "te": "2018 వాటాలు (టీఎంసీ)"
+     },
+     {
+      "en": "Tamil Nadu 404.25 · Karnataka 284.75 · Kerala 30 · Puducherry 7",
+      "te": "తమిళనాడు 404.25 · కర్ణాటక 284.75 · కేరళ 30 · పుదుచ్చేరి 7"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Inter-state river disputes (Polity + AP)",
+     "te": "లింక్ చెయిన్ · అంతర్రాష్ట్ర నదీ వివాదాలు (పాలిటీ + ఏపీ)"
+    },
+    "l": [
+     {
+      "en": "Article 262 — Parliament may provide for adjudication of inter-state river disputes and may bar the jurisdiction of courts",
+      "te": "ఆర్టికల్ 262 — అంతర్రాష్ట్ర నదీ వివాదాల పరిష్కారానికి పార్లమెంట్ చట్టం చేయవచ్చు, కోర్టుల అధికార పరిధిని నిరోధించవచ్చు"
+     },
+     {
+      "en": "Inter-State River Water Disputes Act, 1956 — tribunals; award has the force of a Supreme Court decree",
+      "te": "అంతర్రాష్ట్ర నదీ జల వివాదాల చట్టం, 1956 — ట్రైబ్యునళ్లు; అవార్డుకు సుప్రీంకోర్టు డిక్రీ బలం"
+     },
+     {
+      "en": "AP link: Krishna Water Disputes Tribunals (Bachawat; Brijesh Kumar) and the Godavari Tribunal (Bachawat); KRMB & GRMB under the AP Reorganisation Act, 2014",
+      "te": "ఏపీ లింక్: కృష్ణా జల వివాద ట్రైబ్యునళ్లు (బచావత్; బ్రిజేశ్ కుమార్), గోదావరి ట్రైబ్యునల్ (బచావత్); ఏపీ పునర్వ్యవస్థీకరణ చట్టం 2014 కింద KRMB, GRMB"
+     },
+     {
+      "en": "Item 17 of the State List (water) is subject to Entry 56 of the Union List (inter-state rivers)",
+      "te": "రాష్ట్ర జాబితా 17వ అంశం (నీరు) కేంద్ర జాబితా 56వ అంశానికి (అంతర్రాష్ట్ర నదులు) లోబడి ఉంటుంది"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Article 262 (river disputes) ≠ Article 263 (Inter-State Council). CWMA was created in 2018 by the Centre after the SC judgment — not by the 2007 Tribunal. And TN, not Karnataka, has the largest share.",
+    "te": "ఆర్టికల్ 262 (నదీ వివాదాలు) ≠ ఆర్టికల్ 263 (అంతర్రాష్ట్ర మండలి). CWMAను 2018 సుప్రీంకోర్టు తీర్పు తర్వాత కేంద్రం ఏర్పాటు చేసింది — 2007 ట్రైబ్యునల్ కాదు. అత్యధిక వాటా తమిళనాడుది, కర్ణాటకది కాదు."
+   },
+   "tip": {
+    "en": "262 = 'two rivers, two states'; 263 = 'three-way talks' (Inter-State Council).",
+    "te": "262 = 'రెండు రాష్ట్రాలు, ఒక నది'; 263 = 'అంతర్రాష్ట్ర మండలి చర్చలు'."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements regarding the Cauvery water-sharing arrangement:",
+     "te": "కావేరి జల పంపిణీ ఏర్పాటుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The CWMA and CWRC were set up in 2018 under the Inter-State River Water Disputes Act, 1956.",
+      "te": "I. అంతర్రాష్ట్ర నదీ జల వివాదాల చట్టం, 1956 కింద 2018లో CWMA, CWRC ఏర్పాటయ్యాయి."
+     },
+     {
+      "en": "II. Under the 2018 judgment, Karnataka has a larger share than Tamil Nadu.",
+      "te": "II. 2018 తీర్పు ప్రకారం తమిళనాడు కంటే కర్ణాటకకు ఎక్కువ వాటా ఉంది."
+     },
+     {
+      "en": "III. Article 263 of the Constitution deals with the adjudication of inter-state river disputes.",
+      "te": "III. రాజ్యాంగంలోని ఆర్టికల్ 263 అంతర్రాష్ట్ర నదీ వివాదాల పరిష్కారానికి సంబంధించినది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "Only I is correct. II: TN 404.25 TMC > Karnataka 284.75 TMC. III: river disputes = Article 262; Article 263 = Inter-State Council.",
+     "te": "I మాత్రమే సరైనది. II: తమిళనాడు 404.25 > కర్ణాటక 284.75 టీఎంసీ. III: నదీ వివాదాలు = ఆర్టికల్ 262; ఆర్టికల్ 263 = అంతర్రాష్ట్ర మండలి."
+    }
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "The Cauvery basin states",
+      "te": "కావేరి పరీవాహక రాష్ట్రాలు"
+     },
+     "view": "south",
+     "hl": [
+      "Karnataka",
+      "Tamil Nadu",
+      "Kerala",
+      "Puducherry"
+     ],
+     "hlc": "#1f6f6a",
+     "rivers": [
+      "Kaveri"
+     ],
+     "seas": true,
+     "cap": {
+      "en": "Karnataka (upper) → Tamil Nadu (lower); Kerala and Puducherry also share.",
+      "te": "కర్ణాటక (ఎగువ) → తమిళనాడు (దిగువ); కేరళ, పుదుచ్చేరికీ వాటా."
+     },
+     "src": "cards/2026-11-22/map-cauvery-1-{m}.svg"
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "2018 shares (TMC)",
+      "te": "2018 వాటాలు (టీఎంసీ)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Tamil Nadu",
+        "te": "తమిళనాడు"
+       },
+       "v": 404.25,
+       "vl": "404.25"
+      },
+      {
+       "t": {
+        "en": "Karnataka",
+        "te": "కర్ణాటక"
+       },
+       "v": 284.75,
+       "vl": "284.75"
+      },
+      {
+       "t": {
+        "en": "Kerala",
+        "te": "కేరళ"
+       },
+       "v": 30,
+       "vl": "30"
+      },
+      {
+       "t": {
+        "en": "Puducherry",
+        "te": "పుదుచ్చేరి"
+       },
+       "v": 7,
+       "vl": "7"
+      }
+     ],
+     "cap": {
+      "en": "In a dry year all shares shrink pro rata — the formula is what TN says is missing.",
+      "te": "కరవు సంవత్సరంలో వాటాలన్నీ దామాషా ప్రకారం తగ్గుతాయి — ఆ సూత్రమే లేదని తమిళనాడు వాదన."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Free Press Journal (PTI) — Supreme Court dismisses Tamil Nadu's pleas seeking 11 TMC Cauvery water release, 20 Nov 2026",
+     "u": "https://www.freepressjournal.in/india/supreme-court-dismisses-tamil-nadus-pleas-seeking-11-tmc-cauvery-water-release-from-karnataka"
+    },
+    {
+     "t": "The Federal — SC rejects TN plea for additional Cauvery water from Karnataka, 20 Nov 2026",
+     "u": "https://thefederal.com/the-federal-focus/sc-rejects-tamil-nadu-plea-additional-cauvery-water-from-karnataka-263502"
+    },
+    {
+     "t": "Siasat (PTI) — Cauvery dispute: SC dismisses Tamil Nadu's pleas, 20 Nov 2026",
+     "u": "https://www.siasat.com/cauvery-dispute-sc-dismisses-tamil-nadus-pleas-3582055/"
+    },
+    {
+     "t": "KPIAS — Supreme Court dismisses Tamil Nadu's plea over Cauvery (cross-check: CWMA, 2018 shares)",
+     "u": "https://kpiasacademy.com/supreme-court-dismisses-tamil-nadus-plea-cauvery"
+    }
+   ],
+   "mains": {
+    "en": "Inter-state river bodies were meant to end litigation, yet states keep going to court. Examine with reference to the Cauvery Water Management Authority, and suggest lessons for Krishna water sharing.",
+    "te": "అంతర్రాష్ట్ర నదీ సంస్థలు వ్యాజ్యాలను ముగించేందుకు ఏర్పాటైనా రాష్ట్రాలు కోర్టుకు వెళ్తూనే ఉన్నాయి. కావేరి జల నిర్వహణ ప్రాధికార సంస్థ నేపథ్యంలో పరిశీలించి, కృష్ణా జలాల పంపిణీకి పాఠాలు సూచించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "jhalkari",
+   "q": {
+    "en": "Consider the following statements about Jhalkari Bai:",
+    "te": "ఝల్కారీ బాయికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. She was born on 22 November 1830 near Jhansi.",
+     "te": "I. ఆమె 1830 నవంబర్ 22న ఝాన్సీ సమీపంలో జన్మించారు."
+    },
+    {
+     "en": "II. She served in the women's wing of Rani Lakshmibai's army.",
+     "te": "II. ఆమె రాణి లక్ష్మీబాయి సైన్యంలోని మహిళా విభాగంలో పనిచేశారు."
+    },
+    {
+     "en": "III. She posed as the Rani in the camp of General Hugh Rose.",
+     "te": "III. జనరల్ హ్యూ రోజ్ శిబిరంలో ఆమె రాణిగా నటించారు."
+    },
+    {
+     "en": "IV. She died fighting at Gwalior in place of the Rani, and the Rani lived on.",
+     "te": "IV. ఆమె రాణి బదులు గ్వాలియర్‌లో పోరాడి మరణించగా, రాణి బతికే ఉన్నారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "IV is wrong: her decoy act was at Jhansi; the Rani herself later died fighting near Gwalior, and Jhalkari's death date is disputed.",
+    "te": "IV తప్పు: ఆమె వ్యూహం ఝాన్సీలో; తర్వాత గ్వాలియర్ సమీపంలో పోరాడి మరణించింది రాణి స్వయంగా; ఝల్కారీ మరణ తేదీ వివాదాస్పదం."
+   }
+  },
+  {
+   "topic": "jhalkari",
+   "q": {
+    "en": "Which of the following statements about the sources on Jhalkari Bai is INCORRECT?",
+    "te": "ఝల్కారీ బాయి గురించిన ఆధారాలకు సంబంధించి కింది వాటిలో తప్పు వాక్యం ఏది?"
+   },
+   "st": [
+    {
+     "en": "I. Most of her story comes from folk memory.",
+     "te": "I. ఆమె కథలో ఎక్కువ భాగం జానపద స్మృతుల నుంచే వచ్చింది."
+    },
+    {
+     "en": "II. She is hardly mentioned in contemporary records of 1857–58.",
+     "te": "II. 1857–58 నాటి సమకాలీన రికార్డుల్లో ఆమె ప్రస్తావన చాలా తక్కువ."
+    },
+    {
+     "en": "III. All historians agree that she died on 4 April 1858.",
+     "te": "III. ఆమె 1858 ఏప్రిల్ 4న మరణించారని చరిత్రకారులంతా అంగీకరిస్తారు."
+    },
+    {
+     "en": "IV. Kori/Koli communities celebrate her Jayanti every year.",
+     "te": "IV. కోరి/కోలి సమాజాలు ఏటా ఆమె జయంతిని జరుపుకుంటాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I",
+     "te": "I"
+    },
+    {
+     "en": "II",
+     "te": "II"
+    },
+    {
+     "en": "III",
+     "te": "III"
+    },
+    {
+     "en": "IV",
+     "te": "IV"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "III is incorrect: 4 April 1858 is the community account; some historians give 1881 or say she died very old.",
+    "te": "III తప్పు: 4 ఏప్రిల్ 1858 సమాజ కథనం; కొందరు చరిత్రకారులు 1881 అని లేదా వృద్ధాప్యంలో మరణించారని చెబుతారు."
+   }
+  },
+  {
+   "topic": "jfk",
+   "q": {
+    "en": "Arrange the following events related to the Kennedy assassination in chronological order:",
+    "te": "కెన్నెడీ హత్యకు సంబంధించిన కింది ఘటనలను కాలక్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "I. Warren Commission set up",
+     "te": "I. వారెన్ కమిషన్ ఏర్పాటు"
+    },
+    {
+     "en": "II. Lyndon B. Johnson sworn in on the plane",
+     "te": "II. విమానంలో లిండన్ బి. జాన్సన్ ప్రమాణం"
+    },
+    {
+     "en": "III. Oswald shot dead by Jack Ruby",
+     "te": "III. జాక్ రూబీ ఓస్వాల్డ్‌ను కాల్చి చంపడం"
+    },
+    {
+     "en": "IV. Commission's 888-page report submitted",
+     "te": "IV. కమిషన్ 888 పేజీల నివేదిక సమర్పణ"
+    }
+   ],
+   "o": [
+    {
+     "en": "II – III – I – IV",
+     "te": "II – III – I – IV"
+    },
+    {
+     "en": "III – II – I – IV",
+     "te": "III – II – I – IV"
+    },
+    {
+     "en": "II – I – III – IV",
+     "te": "II – I – III – IV"
+    },
+    {
+     "en": "I – II – III – IV",
+     "te": "I – II – III – IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Johnson sworn in 22 Nov (2:38 pm) → Oswald shot two days later → Commission set up 29 Nov 1963 → report 24 Sep 1964.",
+    "te": "జాన్సన్ ప్రమాణం 22 నవంబర్ (మ. 2:38) → రెండు రోజుల తర్వాత ఓస్వాల్డ్ హత్య → 29 నవంబర్ 1963 కమిషన్ ఏర్పాటు → 24 సెప్టెంబర్ 1964 నివేదిక."
+   }
+  },
+  {
+   "topic": "jfk",
+   "q": {
+    "en": "Match List-I with List-II:",
+    "te": "జాబితా-I ని జాబితా-II తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "List-I: A. Earl Warren",
+     "te": "జాబితా-I: A. ఎర్ల్ వారెన్"
+    },
+    {
+     "en": "B. Jack Ruby",
+     "te": "B. జాక్ రూబీ"
+    },
+    {
+     "en": "C. Lee Harvey Oswald",
+     "te": "C. లీ హార్వే ఓస్వాల్డ్"
+    },
+    {
+     "en": "D. John Connally",
+     "te": "D. జాన్ కానలీ"
+    },
+    {
+     "en": "List-II: 1. Texas Governor wounded in the car",
+     "te": "జాబితా-II: 1. కారులో గాయపడిన టెక్సాస్ గవర్నర్"
+    },
+    {
+     "en": "2. Accused who fired from the Book Depository",
+     "te": "2. బుక్ డిపాజిటరీ నుంచి కాల్పులు జరిపిన నిందితుడు"
+    },
+    {
+     "en": "3. Chief Justice who headed the Commission",
+     "te": "3. కమిషన్‌కు అధ్యక్షత వహించిన ప్రధాన న్యాయమూర్తి"
+    },
+    {
+     "en": "4. Nightclub owner who shot the accused",
+     "te": "4. నిందితుడిని కాల్చిన నైట్‌క్లబ్ యజమాని"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-3, B-2, C-4, D-1",
+     "te": "A-3, B-2, C-4, D-1"
+    },
+    {
+     "en": "A-1, B-4, C-2, D-3",
+     "te": "A-1, B-4, C-2, D-3"
+    },
+    {
+     "en": "A-3, B-1, C-2, D-4",
+     "te": "A-3, B-1, C-2, D-4"
+    },
+    {
+     "en": "A-3, B-4, C-2, D-1",
+     "te": "A-3, B-4, C-2, D-1"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Warren = Chief Justice (3); Ruby = nightclub owner who shot Oswald (4); Oswald = accused (2); Connally = wounded Governor (1). Option (a) swaps Ruby and Oswald — the usual trap.",
+    "te": "వారెన్ = ప్రధాన న్యాయమూర్తి (3); రూబీ = ఓస్వాల్డ్‌ను చంపిన నైట్‌క్లబ్ యజమాని (4); ఓస్వాల్డ్ = నిందితుడు (2); కానలీ = గాయపడిన గవర్నర్ (1). (a)లో రూబీ, ఓస్వాల్డ్ తారుమారు — సాధారణ ట్రాప్."
+   }
+  },
+  {
+   "topic": "svanidhi",
+   "q": {
+    "en": "With reference to Andhra Pradesh's PM SVANidhi awards (Nov 2026), consider the following statements:",
+    "te": "పీఎం స్వనిధిలో ఏపీ అవార్డుల (నవంబర్ 2026)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. AP ranked first in the country in Overall Performance.",
+     "te": "I. మొత్తం పనితీరులో ఏపీ దేశంలో మొదటి స్థానంలో నిలిచింది."
+    },
+    {
+     "en": "II. AP won three state-level and four urban local body awards.",
+     "te": "II. ఏపీకి మూడు రాష్ట్ర స్థాయి, నాలుగు పట్టణ స్థానిక సంస్థల అవార్డులు వచ్చాయి."
+    },
+    {
+     "en": "III. Ramachandrapuram ranked first in the 'SVANidhi se Samriddhi' category.",
+     "te": "III. 'స్వనిధి సే సమృద్ధి' విభాగంలో రామచంద్రపురం మొదటి స్థానం పొందింది."
+    },
+    {
+     "en": "IV. In AP the scheme is implemented through MEPMA.",
+     "te": "IV. ఏపీలో ఈ పథకం మెప్మా ద్వారా అమలవుతుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I is wrong: AP was 3rd in Overall Performance; its 1st rank was in Special Campaigns (and 2nd in Loan Disbursement).",
+    "te": "I తప్పు: మొత్తం పనితీరులో ఏపీ 3వ స్థానం; మొదటి స్థానం ప్రత్యేక ప్రచారాల్లో (రుణ పంపిణీలో 2వ)."
+   }
+  },
+  {
+   "topic": "svanidhi",
+   "q": {
+    "en": "A vegetable vendor in Vizianagaram took a ₹15,000 PM SVANidhi loan, repaid on time and uses UPI for sales. Which of the following can she get under the scheme?",
+    "te": "విజయనగరంలో ఒక కూరగాయల వ్యాపారి ₹15,000 పీఎం స్వనిధి రుణం తీసుకుని సకాలంలో చెల్లించారు, అమ్మకాలకు UPI వాడుతున్నారు. పథకం కింద ఆమెకు కింది వాటిలో ఏవి లభిస్తాయి?"
+   },
+   "st": [
+    {
+     "en": "I. A 7% interest subsidy credited to her bank account",
+     "te": "I. ఆమె బ్యాంకు ఖాతాకు 7% వడ్డీ రాయితీ"
+    },
+    {
+     "en": "II. A second loan of ₹25,000",
+     "te": "II. ₹25,000 రెండో రుణం"
+    },
+    {
+     "en": "III. Monthly cashback for digital payments",
+     "te": "III. డిజిటల్ చెల్లింపులకు నెలవారీ క్యాష్‌బ్యాక్"
+    },
+    {
+     "en": "IV. A UPI-linked RuPay credit card with no upper limit",
+     "te": "IV. గరిష్ఠ పరిమితి లేని UPI-అనుసంధాన రూపే క్రెడిట్ కార్డు"
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "IV is wrong: the credit card has a limit of up to ₹30,000. Interest subsidy (7%), next tranche (₹25,000) and ₹50–100 monthly cashback are all part of the scheme.",
+    "te": "IV తప్పు: క్రెడిట్ కార్డు పరిమితి ₹30,000 వరకే. 7% వడ్డీ రాయితీ, తర్వాతి విడత (₹25,000), నెలకు ₹50–100 క్యాష్‌బ్యాక్ పథకంలో భాగమే."
+   }
+  },
+  {
+   "topic": "coresector",
+   "q": {
+    "en": "Consider the following statements about core-sector data for October 2026:",
+    "te": "2026 అక్టోబర్ కోర్ రంగ గణాంకాలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Overall growth was 10.9%, against only 0.8% in October 2025.",
+     "te": "I. మొత్తం వృద్ధి 10.9%; 2025 అక్టోబర్‌లో ఇది కేవలం 0.8%."
+    },
+    {
+     "en": "II. Iron ore recorded the fastest growth among the industries.",
+     "te": "II. పరిశ్రమల్లో ఇనుప ఖనిజం అత్యధిక వృద్ధి నమోదు చేసింది."
+    },
+    {
+     "en": "III. All nine industries recorded positive growth.",
+     "te": "III. తొమ్మిది పరిశ్రమలన్నీ సానుకూల వృద్ధి నమోదు చేశాయి."
+    },
+    {
+     "en": "IV. Cumulative growth for April–October 2026 was higher than for October alone.",
+     "te": "IV. ఏప్రిల్–అక్టోబర్ 2026 సంచిత వృద్ధి కేవలం అక్టోబర్ వృద్ధి కంటే ఎక్కువ."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III wrong: fertilisers (−12.2%), natural gas (−7.6%) and crude oil (−4.1%) fell. IV wrong: April–October was 6.0%, lower than October's 10.9%.",
+    "te": "III తప్పు: ఎరువులు (−12.2%), సహజ వాయువు (−7.6%), ముడి చమురు (−4.1%) తగ్గాయి. IV తప్పు: ఏప్రిల్–అక్టోబర్ 6.0%, అక్టోబర్ 10.9% కంటే తక్కువ."
+   }
+  },
+  {
+   "topic": "coresector",
+   "q": {
+    "en": "Consider the following Assertion (A) and Reason (R):",
+    "te": "కింది నిశ్చితం (A), కారణం (R)లను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "Assertion (A): The 10.9% core-sector growth of October 2026 overstates the real strength of industry.",
+     "te": "నిశ్చితం (A): 2026 అక్టోబర్ 10.9% కోర్ రంగ వృద్ధి పరిశ్రమల అసలు బలాన్ని ఎక్కువ చేసి చూపుతోంది."
+    },
+    {
+     "en": "Reason (R): Growth in October 2025 was very low (0.8%), creating a favourable base effect.",
+     "te": "కారణం (R): 2025 అక్టోబర్‌లో వృద్ధి చాలా తక్కువ (0.8%) కావడంతో అనుకూల బేస్ ఎఫెక్ట్ ఏర్పడింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "Both A and R are true, and R is the correct explanation of A",
+     "te": "A, R రెండూ నిజం; A కు R సరైన వివరణ"
+    },
+    {
+     "en": "Both A and R are true, but R is not the correct explanation of A",
+     "te": "A, R రెండూ నిజం; కానీ A కు R సరైన వివరణ కాదు"
+    },
+    {
+     "en": "A is true, but R is false",
+     "te": "A నిజం, R తప్పు"
+    },
+    {
+     "en": "A is false, but R is true",
+     "te": "A తప్పు, R నిజం"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Both true and linked: a very low base (0.8%) makes this year's percentage look large; ICRA called it partly optical. (b) is the trap — R does explain A.",
+    "te": "రెండూ నిజం, సంబంధం ఉంది: చాలా తక్కువ ఆధారం (0.8%) వల్ల ఈ ఏడాది శాతం పెద్దదిగా కనిపిస్తుంది; ICRA దీన్ని పాక్షికంగా కనిపించేదే అంది. (b) ట్రాప్ — R నిజంగానే A ను వివరిస్తుంది."
+   }
+  },
+  {
+   "topic": "cauvery",
+   "q": {
+    "en": "Consider the following statements about the Supreme Court's Cauvery order of 20 November 2026:",
+    "te": "2026 నవంబర్ 20 సుప్రీంకోర్టు కావేరి ఉత్తర్వుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Tamil Nadu had sought release of an 11 TMC backlog at Biligundlu.",
+     "te": "I. బిలిగుండ్లు వద్ద 11 టీఎంసీల బకాయి విడుదల చేయాలని తమిళనాడు కోరింది."
+    },
+    {
+     "en": "II. The Court directed Karnataka to release 1.3 TMC a day for 10 days.",
+     "te": "II. 10 రోజుల పాటు రోజుకు 1.3 టీఎంసీలు విడుదల చేయాలని కోర్టు కర్ణాటకను ఆదేశించింది."
+    },
+    {
+     "en": "III. Karnataka argued that it was a drought year and the CWMA had already fixed flows.",
+     "te": "III. ఇది కరవు సంవత్సరమని, CWMA ఇప్పటికే ప్రవాహాలను నిర్ణయించిందని కర్ణాటక వాదించింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "II is wrong: 1.3 TMC/day for 10 days was Tamil Nadu's DEMAND; the Court dismissed the applications.",
+    "te": "II తప్పు: రోజుకు 1.3 టీఎంసీలు 10 రోజులు అనేది తమిళనాడు డిమాండ్ మాత్రమే; కోర్టు దరఖాస్తులను కొట్టివేసింది."
+   }
+  },
+  {
+   "topic": "cauvery",
+   "q": {
+    "en": "Which of the following statements regarding inter-state river water disputes is/are correct?",
+    "te": "అంతర్రాష్ట్ర నదీ జల వివాదాలకు సంబంధించి కింది వాటిలో సరైనవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. Article 262 allows Parliament to bar the jurisdiction of courts over such disputes.",
+     "te": "I. అలాంటి వివాదాలపై కోర్టుల అధికార పరిధిని నిరోధించేందుకు ఆర్టికల్ 262 పార్లమెంట్‌కు అనుమతిస్తుంది."
+    },
+    {
+     "en": "II. A tribunal award under the 1956 Act has the force of a Supreme Court decree.",
+     "te": "II. 1956 చట్టం కింద ట్రైబ్యునల్ అవార్డుకు సుప్రీంకోర్టు డిక్రీ బలం ఉంటుంది."
+    },
+    {
+     "en": "III. The Cauvery Water Management Authority was constituted by the 2007 Tribunal award.",
+     "te": "III. కావేరి జల నిర్వహణ ప్రాధికార సంస్థను 2007 ట్రైబ్యునల్ అవార్డు ఏర్పాటు చేసింది."
+    },
+    {
+     "en": "IV. The Krishna River Management Board was set up under the AP Reorganisation Act, 2014.",
+     "te": "IV. ఏపీ పునర్వ్యవస్థీకరణ చట్టం, 2014 కింద కృష్ణా నదీ యాజమాన్య బోర్డు ఏర్పాటైంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is wrong: the CWMA was set up in 2018, after the Supreme Court's 2018 judgment, under the 1956 Act — not by the 2007 award.",
+    "te": "III తప్పు: CWMA 2018 సుప్రీంకోర్టు తీర్పు తర్వాత 1956 చట్టం కింద 2018లో ఏర్పాటైంది — 2007 అవార్డు ద్వారా కాదు."
+   }
+  }
+ ]
+}

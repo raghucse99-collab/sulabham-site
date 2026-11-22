@@ -1,0 +1,233 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-22 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about Jhalkari Bai:
+I. She was born on 22 November 1830 near Jhansi.
+II. She served in the women's wing of Rani Lakshmibai's army.
+III. She posed as the Rani in the camp of General Hugh Rose.
+IV. She died fighting at Gwalior in place of the Rani, and the Rani lived on.
+
+--- QUESTION ---
+Q1. Consider the following statements about Jhalkari Bai: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and III only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: her decoy act was at Jhansi; the Rani herself later died fighting near Gwalior, and Jhalkari's death date is disputed.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Which of the following statements about the sources on Jhalkari Bai is INCORRECT?
+I. Most of her story comes from folk memory.
+II. She is hardly mentioned in contemporary records of 1857–58.
+III. All historians agree that she died on 4 April 1858.
+IV. Kori/Koli communities celebrate her Jayanti every year.
+
+--- QUESTION ---
+Q2. Which of the following statements about the sources on Jhalkari Bai is INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) I
+(b) II
+(c) III
+(d) IV
+
+--- CORRECT (tick this) ---
+(c) III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is incorrect: 4 April 1858 is the community account; some historians give 1881 or say she died very old.
+
+==================== Q3 ====================
+--- QUESTION ---
+Q3. Arrange the following events related to the Kennedy assassination in chronological order:
+I. Warren Commission set up
+II. Lyndon B. Johnson sworn in on the plane
+III. Oswald shot dead by Jack Ruby
+IV. Commission's 888-page report submitted
+
+--- OPTIONS ---
+(a) II – III – I – IV
+(b) III – II – I – IV
+(c) II – I – III – IV
+(d) I – II – III – IV
+
+--- CORRECT (tick this) ---
+(a) II – III – I – IV
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Johnson sworn in 22 Nov (2:38 pm) → Oswald shot two days later → Commission set up 29 Nov 1963 → report 24 Sep 1964.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. Match List-I with List-II:
+List-I: A. Earl Warren
+B. Jack Ruby
+C. Lee Harvey Oswald
+D. John Connally
+List-II: 1. Texas Governor wounded in the car
+2. Accused who fired from the Book Depository
+3. Chief Justice who headed the Commission
+4. Nightclub owner who shot the accused
+
+--- QUESTION ---
+Q4. Match List-I with List-II: (statements in the message above)
+
+--- OPTIONS ---
+(a) A-3, B-2, C-4, D-1
+(b) A-1, B-4, C-2, D-3
+(c) A-3, B-1, C-2, D-4
+(d) A-3, B-4, C-2, D-1
+
+--- CORRECT (tick this) ---
+(d) A-3, B-4, C-2, D-1
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Warren = Chief Justice (3); Ruby = nightclub owner who shot Oswald (4); Oswald = accused (2); Connally = wounded Governor (1). Option (a) swaps Ruby and Oswald — the usual trap.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. With reference to Andhra Pradesh's PM SVANidhi awards (Nov 2026), consider the following statements:
+I. AP ranked first in the country in Overall Performance.
+II. AP won three state-level and four urban local body awards.
+III. Ramachandrapuram ranked first in the 'SVANidhi se Samriddhi' category.
+IV. In AP the scheme is implemented through MEPMA.
+
+--- QUESTION ---
+Q5. With reference to Andhra Pradesh's PM SVANidhi awards (Nov 2026), consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III only
+(b) II and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(c) II, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is wrong: AP was 3rd in Overall Performance; its 1st rank was in Special Campaigns (and 2nd in Loan Disbursement).
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. A vegetable vendor in Vizianagaram took a ₹15,000 PM SVANidhi loan, repaid on time and uses UPI for sales. Which of the following can she get under the scheme?
+I. A 7% interest subsidy credited to her bank account
+II. A second loan of ₹25,000
+III. Monthly cashback for digital payments
+IV. A UPI-linked RuPay credit card with no upper limit
+
+--- QUESTION ---
+Q6. A vegetable vendor in Vizianagaram took a ₹15,000 PM SVANidhi loan, repaid on time and uses UPI for sales. Which of the following can she get under the scheme? (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III only
+(b) I and III only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: the credit card has a limit of up to ₹30,000. Interest subsidy (7%), next tranche (₹25,000) and ₹50–100 monthly cashback are all part of the scheme.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following statements about core-sector data for October 2026:
+I. Overall growth was 10.9%, against only 0.8% in October 2025.
+II. Iron ore recorded the fastest growth among the industries.
+III. All nine industries recorded positive growth.
+IV. Cumulative growth for April–October 2026 was higher than for October alone.
+
+--- QUESTION ---
+Q7. Consider the following statements about core-sector data for October 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I and II only
+(c) II and IV only
+(d) I, II and IV only
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III wrong: fertilisers (−12.2%), natural gas (−7.6%) and crude oil (−4.1%) fell. IV wrong: April–October was 6.0%, lower than October's 10.9%.
+
+==================== Q8 ====================
+--- QUESTION ---
+Q8. Consider the following Assertion (A) and Reason (R):
+Assertion (A): The 10.9% core-sector growth of October 2026 overstates the real strength of industry.
+Reason (R): Growth in October 2025 was very low (0.8%), creating a favourable base effect.
+
+--- OPTIONS ---
+(a) Both A and R are true, and R is the correct explanation of A
+(b) Both A and R are true, but R is not the correct explanation of A
+(c) A is true, but R is false
+(d) A is false, but R is true
+
+--- CORRECT (tick this) ---
+(a) Both A and R are true, and R is the correct explanation of A
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Both true and linked: a very low base (0.8%) makes this year's percentage look large; ICRA called it partly optical. (b) is the trap — R does explain A.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Consider the following statements about the Supreme Court's Cauvery order of 20 November 2026:
+I. Tamil Nadu had sought release of an 11 TMC backlog at Biligundlu.
+II. The Court directed Karnataka to release 1.3 TMC a day for 10 days.
+III. Karnataka argued that it was a drought year and the CWMA had already fixed flows.
+
+--- QUESTION ---
+Q9. Consider the following statements about the Supreme Court's Cauvery order of 20 November 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I, II and III
+(d) I and III only
+
+--- CORRECT (tick this) ---
+(d) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: 1.3 TMC/day for 10 days was Tamil Nadu's DEMAND; the Court dismissed the applications.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Which of the following statements regarding inter-state river water disputes is/are correct?
+I. Article 262 allows Parliament to bar the jurisdiction of courts over such disputes.
+II. A tribunal award under the 1956 Act has the force of a Supreme Court decree.
+III. The Cauvery Water Management Authority was constituted by the 2007 Tribunal award.
+IV. The Krishna River Management Board was set up under the AP Reorganisation Act, 2014.
+
+--- QUESTION ---
+Q10. Which of the following statements regarding inter-state river water disputes is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the CWMA was set up in 2018, after the Supreme Court's 2018 judgment, under the 1956 Act — not by the 2007 award.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-22&tab=quiz
