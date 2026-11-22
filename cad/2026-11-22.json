@@ -1,0 +1,1497 @@
+{
+ "date": "2026-11-22",
+ "day": {
+  "en": "Sunday, 22 November 2026",
+  "te": "ఆదివారం, 22 నవంబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "nielit",
+   "cat": "ap",
+   "title": {
+    "en": "NIELIT opens a temporary Quantum & AI university campus at Acharya Nagarjuna University; permanent campus to come up in Amaravati",
+    "te": "ఆచార్య నాగార్జున విశ్వవిద్యాలయంలో NIELIT క్వాంటమ్ & AI యూనివర్సిటీ తాత్కాలిక క్యాంపస్ ప్రారంభం; అమరావతిలో శాశ్వత క్యాంపస్"
+   },
+   "pts": [
+    {
+     "en": "On 21 Nov, NIELIT (National Institute of Electronics and Information Technology) opened its temporary campus in the Centre for Distance Education building of Acharya Nagarjuna University (ANU), Guntur.",
+     "te": "21 నవంబర్‌న NIELIT (నేషనల్ ఇన్‌స్టిట్యూట్ ఆఫ్ ఎలక్ట్రానిక్స్ అండ్ ఇన్ఫర్మేషన్ టెక్నాలజీ) గుంటూరులోని ఆచార్య నాగార్జున విశ్వవిద్యాలయం (ANU) దూరవిద్యా కేంద్రం భవనంలో తాత్కాలిక క్యాంపస్ ప్రారంభించింది."
+    },
+    {
+     "en": "What is NIELIT: an autonomous body under the Union Ministry of Electronics & IT (MeitY) with 'Deemed to be University' status; main campus at Ropar (Punjab).",
+     "te": "NIELIT అంటే: కేంద్ర ఎలక్ట్రానిక్స్ & ఐటీ మంత్రిత్వ శాఖ (MeitY) కింద స్వయంప్రతిపత్తి సంస్థ; 'డీమ్డ్ టు బి యూనివర్సిటీ' హోదా; ప్రధాన క్యాంపస్ రోపర్ (పంజాబ్)."
+    },
+    {
+     "en": "Why: it supports AP's 'Quantum Valley' plan in Amaravati. The MoU was signed on 20 Feb 2026 at the India AI Impact Summit; the campus started within nine months.",
+     "te": "ఎందుకు: అమరావతి 'క్వాంటమ్ వ్యాలీ' ప్రణాళికకు ఊతం. 20 ఫిబ్రవరి 2026న ఇండియా AI ఇంపాక్ట్ సమ్మిట్‌లో MoU కుదిరింది; తొమ్మిది నెలల్లోనే క్యాంపస్ మొదలైంది."
+    },
+    {
+     "en": "First phase: ₹47 crore for four labs — quantum computing, quantum communication, chip design & VLSI, AI & computing. Ten 2–3-month certificate courses start in January 2027.",
+     "te": "మొదటి దశ: నాలుగు ల్యాబ్‌లకు ₹47 కోట్లు — క్వాంటమ్ కంప్యూటింగ్, క్వాంటమ్ కమ్యూనికేషన్, చిప్ డిజైన్ & VLSI, AI & కంప్యూటింగ్. 2–3 నెలల పది సర్టిఫికెట్ కోర్సులు జనవరి 2027 నుంచి."
+    },
+    {
+     "en": "Permanent campus: ₹730.70 crore on 8.5 acres at Nidamarru, Amaravati; State gives land, NIELIT/MeitY bear building and lab costs; about 8,250 learners in five years.",
+     "te": "శాశ్వత క్యాంపస్: అమరావతి నిడమర్రులో 8.5 ఎకరాల్లో ₹730.70 కోట్లు; భూమి రాష్ట్రం, భవనం–ల్యాబ్ ఖర్చు NIELIT/MeitY; ఐదేళ్లలో సుమారు 8,250 మందికి శిక్షణ."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Inaugurated by",
+      "te": "ప్రారంభించినవారు"
+     },
+     {
+      "en": "Dr A. Pratibha, Financial Adviser, MeitY",
+      "te": "డా. ఎ. ప్రతిభ, ఆర్థిక సలహాదారు, MeitY"
+     }
+    ],
+    [
+     {
+      "en": "NIELIT DG",
+      "te": "NIELIT డీజీ"
+     },
+     {
+      "en": "Dr Madan Mohan Tripathi",
+      "te": "డా. మదన్ మోహన్ త్రిపాఠి"
+     }
+    ],
+    [
+     {
+      "en": "Training target (5 yrs)",
+      "te": "శిక్షణ లక్ష్యం (5 ఏళ్లు)"
+     },
+     {
+      "en": "1,650 degree + 6,600 skill = ~8,250",
+      "te": "1,650 డిగ్రీ + 6,600 నైపుణ్య = ~8,250"
+     }
+    ],
+    [
+     {
+      "en": "Also",
+      "te": "ఇంకా"
+     },
+     {
+      "en": "NIELIT Tirupati to move from SV University to a permanent campus (3 acres proposed)",
+      "te": "NIELIT తిరుపతి SV యూనివర్సిటీ నుంచి శాశ్వత క్యాంపస్‌కు (3 ఎకరాల ప్రతిపాదన)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Link: NIELIT is under MeitY (not the Education Ministry). Trap: the temporary campus is at ANU, Guntur; the permanent one at Nidamarru, Amaravati.",
+    "te": "లింక్: NIELIT MeitY కింద ఉంటుంది (విద్యా శాఖ కాదు). ట్రాప్: తాత్కాలిక క్యాంపస్ గుంటూరు ANUలో; శాశ్వతది అమరావతి నిడమర్రులో."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "From MoU to campus",
+      "te": "MoU నుంచి క్యాంపస్ వరకు"
+     },
+     "items": [
+      {
+       "i": "🤝",
+       "t": {
+        "en": "MoU · 20 Feb 2026",
+        "te": "MoU · 20 ఫిబ్ర 2026"
+       }
+      },
+      {
+       "i": "✅",
+       "t": {
+        "en": "CM approves ₹730.70 cr · Aug 2026",
+        "te": "₹730.70 కోట్లకు సీఎం ఆమోదం · ఆగ 2026"
+       }
+      },
+      {
+       "i": "🏫",
+       "t": {
+        "en": "Temporary campus at ANU · 21 Nov",
+        "te": "ANUలో తాత్కాలిక క్యాంపస్ · 21 నవం"
+       }
+      },
+      {
+       "i": "📚",
+       "t": {
+        "en": "Courses from Jan 2027",
+        "te": "జన 2027 నుంచి కోర్సులు"
+       }
+      },
+      {
+       "i": "🏗️",
+       "t": {
+        "en": "Permanent campus, Nidamarru",
+        "te": "శాశ్వత క్యాంపస్, నిడమర్రు"
+       }
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Where the campuses are",
+      "te": "క్యాంపస్‌లు ఎక్కడ"
+     },
+     "view": "ap",
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#1d4f91",
+     "pts": [
+      {
+       "ll": [
+        16.37,
+        80.52
+       ],
+       "t": {
+        "en": "ANU, Guntur",
+        "te": "ANU, గుంటూరు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.51,
+        80.52
+       ],
+       "t": {
+        "en": "Amaravati",
+        "te": "అమరావతి"
+       }
+      },
+      {
+       "ll": [
+        13.63,
+        79.42
+       ],
+       "t": {
+        "en": "Tirupati",
+        "te": "తిరుపతి"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Temporary campus at ANU now; permanent campus at Nidamarru (Amaravati).",
+      "te": "ఇప్పుడు ANUలో తాత్కాలికం; నిడమర్రు (అమరావతి)లో శాశ్వతం."
+     },
+     "src": "cards/cad/2026-11-22/map-nielit-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Deccan Chronicle — Amaravati Gets World's First Quantum AI University Campus, 21 Nov 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/amaravati-gets-worlds-first-quantum-ai-university-campus-2006678"
+    },
+    {
+     "t": "Telugu360 — Amaravati Gets Dedicated Quantum and AI University Campus, ₹730 Crore Permanent Facility Planned, 21 Nov 2026",
+     "u": "https://www.telugu360.com/amaravati-gets-dedicated-quantum-and-ai-university-campus-%E2%82%B9730-crore-permanent-facility-planned/"
+    },
+    {
+     "t": "The Tribune (ANI) — NIELIT and Andhra Pradesh launch first Quantum-AI university campus in Amaravati (MoU), 21 Feb 2026",
+     "u": "https://www.tribuneindia.com/news/business/national-institute-of-electronics-information-technology-and-andhra-pradesh-launch-first-quantum-ai-university-campus-in-amaravati/"
+    }
+   ]
+  },
+  {
+   "id": "orvakal",
+   "cat": "ap",
+   "title": {
+    "en": "Reliance commissions 'Asia's largest' beverage plant at Orvakal, Kurnool — within 12 months of the foundation stone",
+    "te": "కర్నూలు జిల్లా ఓర్వకల్‌లో 'ఆసియాలోనే అతిపెద్ద' రిలయన్స్ పానీయాల ప్లాంట్ ప్రారంభం — శంకుస్థాపన నుంచి 12 నెలల్లోనే"
+   },
+   "pts": [
+    {
+     "en": "Reliance Consumer Products has started production at its beverage plant at Orvakal in Kurnool district (Rayalaseema); IT Minister Nara Lokesh announced it on 21 Nov.",
+     "te": "రిలయన్స్ కన్స్యూమర్ ప్రొడక్ట్స్ కర్నూలు జిల్లా (రాయలసీమ) ఓర్వకల్‌లోని పానీయాల ప్లాంట్‌లో ఉత్పత్తి మొదలుపెట్టింది; 21 నవంబర్‌న ఐటీ మంత్రి నారా లోకేశ్ ప్రకటించారు."
+    },
+    {
+     "en": "The foundation stone was laid by CM N. Chandrababu Naidu in November 2025; the plant, with 10 production lines, was ready in about 12 months.",
+     "te": "నవంబర్ 2025లో సీఎం ఎన్. చంద్రబాబు నాయుడు శంకుస్థాపన చేశారు; 10 ఉత్పత్తి లైన్ల ప్లాంట్ సుమారు 12 నెలల్లో సిద్ధమైంది."
+    },
+    {
+     "en": "Products: Campa Cola, fruit juices and packaged drinking water. About 1,200 direct jobs for local people, plus transport and farm-linked work.",
+     "te": "ఉత్పత్తులు: కాంపా కోలా, పండ్ల రసాలు, ప్యాకేజ్డ్ తాగునీరు. స్థానికులకు సుమారు 1,200 ప్రత్యక్ష ఉద్యోగాలు; రవాణా, వ్యవసాయ అనుబంధ ఉపాధి అదనం."
+    },
+    {
+     "en": "Background: the State allotted land in June 2025 for this ₹1,622 crore unit, cleared by the State Investment Promotion Board (SIPB) chaired by the CM.",
+     "te": "నేపథ్యం: ₹1,622 కోట్ల ఈ యూనిట్‌కు జూన్ 2025లో రాష్ట్రం భూమి కేటాయించింది; సీఎం అధ్యక్షతన గల రాష్ట్ర పెట్టుబడుల ప్రోత్సాహక మండలి (SIPB) ఆమోదించింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Place",
+      "te": "ప్రాంతం"
+     },
+     {
+      "en": "Orvakal, Kurnool district",
+      "te": "ఓర్వకల్, కర్నూలు జిల్లా"
+     }
+    ],
+    [
+     {
+      "en": "Investment",
+      "te": "పెట్టుబడి"
+     },
+     {
+      "en": "₹1,622 crore",
+      "te": "₹1,622 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Production lines",
+      "te": "ఉత్పత్తి లైన్లు"
+     },
+     {
+      "en": "10",
+      "te": "10"
+     }
+    ],
+    [
+     {
+      "en": "Direct jobs",
+      "te": "ప్రత్యక్ష ఉద్యోగాలు"
+     },
+     {
+      "en": "About 1,200",
+      "te": "సుమారు 1,200"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "AP economy link: Orvakal (Kurnool) is a Rayalaseema industrial node; SIPB is chaired by the Chief Minister. Trap: the plant is in Kurnool district, not Nandyal or Anantapur.",
+    "te": "ఏపీ ఆర్థిక లింక్: ఓర్వకల్ (కర్నూలు) రాయలసీమ పారిశ్రామిక కేంద్రం; SIPBకి సీఎం అధ్యక్షుడు. ట్రాప్: ప్లాంట్ కర్నూలు జిల్లాలో — నంద్యాల లేదా అనంతపురం కాదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Orvakal in Kurnool district",
+      "te": "కర్నూలు జిల్లాలో ఓర్వకల్"
+     },
+     "view": "ap",
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#a86b00",
+     "pts": [
+      {
+       "ll": [
+        15.83,
+        78.04
+       ],
+       "t": {
+        "en": "Kurnool",
+        "te": "కర్నూలు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        15.69,
+        78.17
+       ],
+       "t": {
+        "en": "Orvakal",
+        "te": "ఓర్వకల్"
+       }
+      }
+     ],
+     "rivers": [
+      "Tungabhadra",
+      "Krishna"
+     ],
+     "cap": {
+      "en": "Kurnool city stands on the Tungabhadra; Orvakal is a short drive east.",
+      "te": "కర్నూలు నగరం తుంగభద్ర ఒడ్డున; ఓర్వకల్ దానికి తూర్పున దగ్గర్లో."
+     },
+     "src": "cards/cad/2026-11-22/map-orvakal-1-{m}.svg"
+    },
+    {
+     "type": "timeline",
+     "h": {
+      "en": "12 months: plan to production",
+      "te": "12 నెలలు: ప్రణాళిక నుంచి ఉత్పత్తి"
+     },
+     "items": [
+      {
+       "y": "Jun 2025",
+       "t": {
+        "en": "SIPB nod, land allotted",
+        "te": "SIPB ఆమోదం, భూకేటాయింపు"
+       }
+      },
+      {
+       "y": "Nov 2025",
+       "t": {
+        "en": "Foundation stone by CM",
+        "te": "సీఎం శంకుస్థాపన"
+       }
+      },
+      {
+       "y": "Nov 2026",
+       "t": {
+        "en": "Production starts",
+        "te": "ఉత్పత్తి ప్రారంభం"
+       },
+       "hl": 1
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Deccan Chronicle — Lokesh says Orvakal Campa Cola plant exemplifies AP's speed of doing business, 22 Nov 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/lokesh-says-orvakal-campa-cola-plant-exemplifies-aps-speed-of-doing-business-2006749"
+    },
+    {
+     "t": "ETV Bharat Telugu — రాయలసీమలో మరో భారీ పారిశ్రామిక ప్రస్థానం, 21 Nov 2026",
+     "u": "https://www.etvbharat.com/te/state/minister-lokesh-on-reliance-consumer-products-at-orvakal-in-kurnool-district-aps26112105336"
+    },
+    {
+     "t": "Lokmat Times (IANS) — Rayalaseema's industrial transformation taking shape: Nara Lokesh (land allotment), 27 Jun 2025",
+     "u": "https://www.lokmattimes.com/national/rayalaseemas-industrial-transformation-taking-shape-andhra-minister-nara-lokesh/amp"
+    }
+   ]
+  },
+  {
+   "id": "nepaltrain",
+   "cat": "ir",
+   "title": {
+    "en": "Nepal PM Balendra Shah arrives in Delhi; Janakpur Dham–Ayodhya weekly train to be flagged off; Nepal seeks $2 billion credit and grants",
+    "te": "నేపాల్ ప్రధాని బాలేంద్ర షా ఢిల్లీ రాక; జనక్‌పూర్ ధామ్–అయోధ్య వారపు రైలు ప్రారంభం; 2 బిలియన్ డాలర్ల రుణాలు, గ్రాంట్లు కోరిన నేపాల్"
+   },
+   "pts": [
+    {
+     "en": "PM Balendra Shah began his two-day state visit on 22 Nov — his first bilateral foreign visit; delegation-level talks with PM Modi are on 23 Nov.",
+     "te": "ప్రధాని బాలేంద్ర షా 22 నవంబర్‌న రెండు రోజుల అధికారిక పర్యటన మొదలుపెట్టారు — ఇది ఆయన తొలి ద్వైపాక్షిక విదేశీ పర్యటన; 23 నవంబర్‌న ప్రధాని మోదీతో ప్రతినిధి స్థాయి చర్చలు."
+    },
+    {
+     "en": "Indian Railways is starting a weekly train between Janakpur Dham (Nepal, birthplace of Mata Sita) and Ayodhya (UP, birthplace of Lord Ram); both PMs will flag it off by video.",
+     "te": "జనక్‌పూర్ ధామ్ (నేపాల్, సీతామాత జన్మస్థలం) – అయోధ్య (యూపీ, శ్రీరాముడి జన్మస్థలం) మధ్య భారతీయ రైల్వే వారపు రైలు ప్రారంభిస్తోంది; ఇద్దరు ప్రధానులు వీడియో ద్వారా జెండా ఊపుతారు."
+    },
+    {
+     "en": "Kathmandu Post (22 Nov): India is positive on Nepal's request for $2 billion in lines of credit and grants; MoUs on education, health, agriculture, sports and disaster management are expected.",
+     "te": "కాఠ్మండు పోస్ట్ (22 నవం): నేపాల్ కోరిన 2 బిలియన్ డాలర్ల రుణ పరపతి (LoC), గ్రాంట్లపై భారత్ సానుకూలం; విద్య, ఆరోగ్యం, వ్యవసాయం, క్రీడలు, విపత్తు నిర్వహణపై MoUలు ఆశిస్తున్నారు."
+    },
+    {
+     "en": "Not yet agreed: a new air entry route. Nepal wants route L626 (Kathmandu–Mahendranagar, western Nepal) to work both ways; India proposed military use of the Bagdogra entry, which Nepal declined.",
+     "te": "ఇంకా కుదరనిది: కొత్త విమాన ప్రవేశ మార్గం. పశ్చిమ నేపాల్ L626 (కాఠ్మండు–మహేంద్రనగర్) మార్గాన్ని రెండు వైపులా వాడాలని నేపాల్ కోరుతోంది; బాగ్‌డోగ్రా ద్వారా సైనిక విమానాలకు భారత్ ప్రతిపాదన — నేపాల్ అంగీకరించలేదు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "India's policy frame",
+      "te": "భారత విధాన చట్రం"
+     },
+     {
+      "en": "'Neighbourhood First' (MEA)",
+      "te": "'నైబర్‌హుడ్ ఫస్ట్' (MEA)"
+     }
+    ],
+    [
+     {
+      "en": "Train",
+      "te": "రైలు"
+     },
+     {
+      "en": "Janakpur Dham ↔ Ayodhya, weekly",
+      "te": "జనక్‌పూర్ ధామ్ ↔ అయోధ్య, వారానికి ఒకసారి"
+     }
+    ],
+    [
+     {
+      "en": "Aid sought",
+      "te": "కోరిన సాయం"
+     },
+     {
+      "en": "$2 billion (lines of credit + grants)",
+      "te": "2 బిలియన్ డాలర్లు (LoC + గ్రాంట్లు)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: India–Nepal Treaty of Peace and Friendship (1950); Janakpur–Ayodhya is a Ramayana-circuit link. Trap: Janakpur is in Nepal (birthplace of Sita), not in Bihar.",
+    "te": "స్టాటిక్ లింక్: భారత్–నేపాల్ శాంతి, స్నేహ ఒప్పందం (1950); జనక్‌పూర్–అయోధ్య రామాయణ సర్క్యూట్ లింక్. ట్రాప్: జనక్‌పూర్ నేపాల్‌లో ఉంది (సీత జన్మస్థలం) — బిహార్‌లో కాదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Rail and air routes in the talks",
+      "te": "చర్చల్లోని రైలు, విమాన మార్గాలు"
+     },
+     "view": [
+      77.5,
+      25.5,
+      89.0,
+      30.5
+     ],
+     "ctry": [
+      "Nepal"
+     ],
+     "hlc": "#9b2c2c",
+     "pts": [
+      {
+       "ll": [
+        27.71,
+        85.32
+       ],
+       "t": {
+        "en": "Kathmandu",
+        "te": "కాఠ్మండు"
+       }
+      },
+      {
+       "ll": [
+        26.73,
+        85.93
+       ],
+       "t": {
+        "en": "Janakpur",
+        "te": "జనక్‌పూర్"
+       }
+      },
+      {
+       "ll": [
+        26.8,
+        82.2
+       ],
+       "t": {
+        "en": "Ayodhya",
+        "te": "అయోధ్య"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        28.96,
+        80.18
+       ],
+       "t": {
+        "en": "Mahendranagar",
+        "te": "మహేంద్రనగర్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        26.68,
+        88.33
+       ],
+       "t": {
+        "en": "Bagdogra",
+        "te": "బాగ్‌డోగ్రా"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         26.8,
+         82.2
+        ],
+        [
+         26.73,
+         85.93
+        ]
+       ],
+       "arrow": 1
+      },
+      {
+       "ll": [
+        [
+         27.71,
+         85.32
+        ],
+        [
+         28.96,
+         80.18
+        ]
+       ],
+       "dash": 1
+      }
+     ],
+     "cap": {
+      "en": "Arrow: new weekly train. Dashed: air route L626 that Nepal wants as two-way.",
+      "te": "బాణం: కొత్త వారపు రైలు. చుక్కల గీత: రెండు వైపులా కావాలని నేపాల్ కోరుతున్న L626 విమాన మార్గం."
+     },
+     "src": "cards/cad/2026-11-22/map-nepaltrain-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "All India Radio — India and Nepal to launch weekly train service between Janakpur Dham and Ayodhya, 22 Nov 2026",
+     "u": "https://newsonair.gov.in/india-and-nepal-to-launch-weekly-train-service-between-janakpur-dham-and-ayodhya/"
+    },
+    {
+     "t": "The Kathmandu Post — Delhi positive on $2 billion Nepal aid proposal, new air route yet to be agreed, 22 Nov 2026",
+     "u": "https://kathmandupost.com/national/2026/11/22/delhi-positive-on-2-billion-nepal-aid-proposal-new-air-route-yet-to-be-agreed"
+    }
+   ]
+  },
+  {
+   "id": "bulgaria",
+   "cat": "ir",
+   "title": {
+    "en": "Jaishankar holds talks with Bulgaria's Foreign Minister; says the India–EU FTA will enter into force soon",
+    "te": "బల్గేరియా విదేశాంగ మంత్రితో జైశంకర్ చర్చలు; భారత్–EU స్వేచ్ఛా వాణిజ్య ఒప్పందం త్వరలో అమల్లోకి అని వెల్లడి"
+   },
+   "pts": [
+    {
+     "en": "On 21 Nov in New Delhi, External Affairs Minister S. Jaishankar met Bulgarian Foreign Minister Velislava Petrova-Chamova.",
+     "te": "21 నవంబర్‌న న్యూఢిల్లీలో విదేశాంగ మంత్రి ఎస్. జైశంకర్ బల్గేరియా విదేశాంగ మంత్రి వెలిస్లావా పెట్రోవా-చమోవాతో భేటీ అయ్యారు."
+    },
+    {
+     "en": "He said the India–EU Free Trade Agreement (FTA) is expected to enter into force soon; India and the EU have also signed a Security and Defence Partnership and a mobility framework.",
+     "te": "భారత్–యూరోపియన్ యూనియన్ స్వేచ్ఛా వాణిజ్య ఒప్పందం (FTA) త్వరలో అమల్లోకి వస్తుందని చెప్పారు; భారత్–EU భద్రత & రక్షణ భాగస్వామ్యం, మొబిలిటీ ఫ్రేమ్‌వర్క్ పైనా సంతకాలు చేశాయి."
+    },
+    {
+     "en": "He thanked Bulgaria for helping bring home Indian seafarers from ships attacked in the Black Sea. Areas discussed: trade, defence, education, AI, space, tourism, mobility.",
+     "te": "నల్ల సముద్రంలో దాడికి గురైన నౌకల నుంచి భారత నావికులను స్వదేశానికి తేవడంలో సాయపడినందుకు బల్గేరియాకు కృతజ్ఞతలు చెప్పారు. చర్చించిన రంగాలు: వాణిజ్యం, రక్షణ, విద్య, AI, అంతరిక్షం, పర్యాటకం, మొబిలిటీ."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Bulgaria — capital",
+      "te": "బల్గేరియా రాజధాని"
+     },
+     {
+      "en": "Sofia (Jaishankar visited in June 2026)",
+      "te": "సోఫియా (జూన్ 2026లో జైశంకర్ పర్యటన)"
+     }
+    ],
+    [
+     {
+      "en": "Bulgaria borders",
+      "te": "బల్గేరియా సరిహద్దు"
+     },
+     {
+      "en": "Black Sea to the east",
+      "te": "తూర్పున నల్ల సముద్రం"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "IR link: Bulgaria is an EU member, so the India–EU FTA covers it. Trap: an FTA is negotiated with the EU as a bloc, not with each member country.",
+    "te": "IR లింక్: బల్గేరియా EU సభ్యదేశం, కాబట్టి భారత్–EU FTA దానికీ వర్తిస్తుంది. ట్రాప్: FTA మొత్తం EU కూటమితో — ఒక్కో సభ్యదేశంతో కాదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Bulgaria on the Black Sea",
+      "te": "నల్ల సముద్ర తీరంలో బల్గేరియా"
+     },
+     "view": [
+      15.0,
+      38.0,
+      35.0,
+      48.5
+     ],
+     "ctry": [
+      "Bulgaria"
+     ],
+     "hlc": "#1f6f6a",
+     "pts": [
+      {
+       "ll": [
+        42.7,
+        23.32
+       ],
+       "t": {
+        "en": "Sofia",
+        "te": "సోఫియా"
+       }
+      }
+     ],
+     "labels": [
+      {
+       "ll": [
+        43.2,
+        31.5
+       ],
+       "t": {
+        "en": "Black Sea",
+        "te": "నల్ల సముద్రం"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bulgaria, an EU member, lies on the western shore of the Black Sea.",
+      "te": "EU సభ్యదేశం బల్గేరియా నల్ల సముద్రపు పశ్చిమ తీరంలో ఉంది."
+     },
+     "src": "cards/cad/2026-11-22/map-bulgaria-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "All India Radio — EAM Jaishankar holds talks with Bulgarian Foreign Affairs Minister Velislava Petrova-Chamova in New Delhi, 21 Nov 2026",
+     "u": "https://newsonair.gov.in/eam-jaishankar-holds-talks-with-bulgarian-foreign-affairs-minister-velislava-petrova-chamova-in-new-delhi/"
+    }
+   ]
+  },
+  {
+   "id": "bricswomen",
+   "cat": "ir",
+   "title": {
+    "en": "Lok Sabha Speaker Om Birla opens the BRICS Women's Leadership Summit at Banasthali Vidyapith, Rajasthan (till 23 Nov)",
+    "te": "రాజస్థాన్ బనస్థలి విద్యాపీఠ్‌లో BRICS మహిళా నాయకత్వ సదస్సును ప్రారంభించిన లోక్‌సభ స్పీకర్ ఓం బిర్లా (23 నవం వరకు)"
+   },
+   "pts": [
+    {
+     "en": "On 21 Nov, Speaker Om Birla inaugurated the BRICS Women's Leadership Summit at Banasthali Vidyapith in Tonk district, Rajasthan; it continues till 23 Nov.",
+     "te": "21 నవంబర్‌న రాజస్థాన్ టోంక్ జిల్లాలోని బనస్థలి విద్యాపీఠ్‌లో స్పీకర్ ఓం బిర్లా BRICS మహిళా నాయకత్వ సదస్సును ప్రారంభించారు; ఇది 23 నవంబర్ వరకు కొనసాగుతుంది."
+    },
+    {
+     "en": "Women parliamentarians, policymakers and experts from BRICS and other countries are discussing women's leadership, political participation and capacity building.",
+     "te": "BRICS, ఇతర దేశాల మహిళా పార్లమెంటేరియన్లు, విధాన నిర్ణేతలు, నిపుణులు మహిళా నాయకత్వం, రాజకీయ భాగస్వామ్యం, సామర్థ్య నిర్మాణంపై చర్చిస్తున్నారు."
+    },
+    {
+     "en": "Birla said equal opportunity and political participation are key to women's progress and called for joint action on climate change, terrorism, cybercrime and human trafficking.",
+     "te": "మహిళల ప్రగతికి సమాన అవకాశాలు, రాజకీయ భాగస్వామ్యం కీలకమని, వాతావరణ మార్పు, ఉగ్రవాదం, సైబర్ నేరాలు, మానవ అక్రమ రవాణాపై ఉమ్మడి చర్యలు అవసరమని బిర్లా అన్నారు."
+    }
+   ],
+   "exam": {
+    "en": "Polity link: the Constitution (106th Amendment) Act, 2023 (Nari Shakti Vandan) reserves one-third of Lok Sabha and Assembly seats for women. Trap: BRICS (bloc of countries) ≠ BRIC (India's biotech council, next item).",
+    "te": "పాలిటీ లింక్: రాజ్యాంగ (106వ సవరణ) చట్టం, 2023 (నారీ శక్తి వందన్) లోక్‌సభ, శాసనసభల్లో మహిళలకు మూడో వంతు సీట్లు. ట్రాప్: BRICS (దేశాల కూటమి) ≠ BRIC (భారత బయోటెక్ కౌన్సిల్, తర్వాతి అంశం)."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Venue: Banasthali, Tonk (Rajasthan)",
+      "te": "వేదిక: బనస్థలి, టోంక్ (రాజస్థాన్)"
+     },
+     "view": "india",
+     "hl": [
+      "Rajasthan"
+     ],
+     "hlc": "#7a3b8f",
+     "pts": [
+      {
+       "ll": [
+        26.4,
+        75.87
+       ],
+       "t": {
+        "en": "Banasthali",
+        "te": "బనస్థలి"
+       }
+      }
+     ],
+     "src": "cards/cad/2026-11-22/map-bricswomen-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "All India Radio — LS Speaker Om Birla stresses importance of women's leadership in development, 21 Nov 2026",
+     "u": "https://newsonair.gov.in/ls-speaker-om-birla-stresses-importance-of-womens-leadership-in-development/"
+    }
+   ]
+  },
+  {
+   "id": "kuno",
+   "cat": "env",
+   "title": {
+    "en": "Botswana-born cheetah KOMG 3 gives birth to four cubs in the wild at Kuno; India's cheetah count rises to 62",
+    "te": "కునోలో బోట్స్వానా చీతా KOMG 3 అడవిలో నాలుగు కూనలకు జన్మ; భారత్‌లో చీతాల సంఖ్య 62కు"
+   },
+   "pts": [
+    {
+     "en": "On 20 Nov, KOMG 3, a 2½-year-old female brought from Botswana, gave birth to four cubs in the open forest of Kuno National Park, Madhya Pradesh.",
+     "te": "20 నవంబర్‌న బోట్స్వానా నుంచి తెచ్చిన రెండున్నరేళ్ల ఆడ చీతా KOMG 3 మధ్యప్రదేశ్ కునో జాతీయ పార్కులో బహిరంగ అడవిలో నాలుగు కూనలకు జన్మనిచ్చింది."
+    },
+    {
+     "en": "Why it matters: births in the wild (not in enclosures) show the cats are settling. It is only the second recorded birth in natural conditions under Project Cheetah.",
+     "te": "ప్రాముఖ్యత: ఎన్‌క్లోజర్‌లో కాకుండా అడవిలో పుట్టడం చీతాలు అలవాటు పడుతున్నాయనడానికి సంకేతం. ప్రాజెక్ట్ చీతాలో సహజ పరిస్థితుల్లో ఇది రెండో జననం మాత్రమే."
+    },
+    {
+     "en": "India now has 62 cheetahs: 3 at Gandhi Sagar Wildlife Sanctuary, the rest in Kuno; 43 have been born in India since September 2022.",
+     "te": "భారత్‌లో ఇప్పుడు 62 చీతాలు: గాంధీ సాగర్ వన్యప్రాణి అభయారణ్యంలో 3, మిగిలినవి కునోలో; సెప్టెంబర్ 2022 నుంచి 43 భారత్‌లోనే పుట్టాయి."
+    },
+    {
+     "en": "Challenge remains: eight cheetahs died in 2026; a young male (KNG22) was found shot outside Kuno in October.",
+     "te": "సవాళ్లు ఉన్నాయి: 2026లో ఎనిమిది చీతాలు చనిపోయాయి; అక్టోబర్‌లో కునో వెలుపల ఒక యువ మగ చీతా (KNG22) తుపాకీ గాయాలతో కనిపించింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Batch 1",
+      "te": "1వ బ్యాచ్"
+     },
+     {
+      "en": "8 from Namibia · Sept 2022",
+      "te": "నమీబియా నుంచి 8 · సెప్టె 2022"
+     }
+    ],
+    [
+     {
+      "en": "Batch 2",
+      "te": "2వ బ్యాచ్"
+     },
+     {
+      "en": "12 from South Africa · Feb 2023",
+      "te": "దక్షిణాఫ్రికా నుంచి 12 · ఫిబ్ర 2023"
+     }
+    ],
+    [
+     {
+      "en": "Batch 3",
+      "te": "3వ బ్యాచ్"
+     },
+     {
+      "en": "9 from Botswana · Feb 2026",
+      "te": "బోట్స్వానా నుంచి 9 · ఫిబ్ర 2026"
+     }
+    ],
+    [
+     {
+      "en": "Next sites (MP)",
+      "te": "తర్వాతి ప్రాంతాలు (MP)"
+     },
+     {
+      "en": "Gandhi Sagar WLS, Nauradehi Tiger Reserve",
+      "te": "గాంధీ సాగర్ WLS, నౌరాదేహి టైగర్ రిజర్వ్"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: the cheetah was declared extinct in India in 1952 — Project Cheetah is the world's first intercontinental large-carnivore translocation. Trap: Botswana is the third source country, after Namibia and South Africa.",
+    "te": "స్టాటిక్ లింక్: 1952లో భారత్‌లో చీతా అంతరించినట్లు ప్రకటించారు — ప్రాజెక్ట్ చీతా ప్రపంచంలోనే తొలి ఖండాంతర పెద్ద మాంసాహార జంతువుల తరలింపు. ట్రాప్: నమీబియా, దక్షిణాఫ్రికా తర్వాత మూడో దేశం బోట్స్వానా."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Project Cheetah: where they came from",
+      "te": "ప్రాజెక్ట్ చీతా: ఎక్కడి నుంచి వచ్చాయి"
+     },
+     "items": [
+      {
+       "y": "2022",
+       "t": {
+        "en": "Namibia — 8 (Sept)",
+        "te": "నమీబియా — 8 (సెప్టె)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2023",
+       "t": {
+        "en": "South Africa — 12 (Feb)",
+        "te": "దక్షిణాఫ్రికా — 12 (ఫిబ్ర)"
+       }
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "Botswana — 9 (Feb)",
+        "te": "బోట్స్వానా — 9 (ఫిబ్ర)"
+       }
+      },
+      {
+       "y": "20 Nov 2026",
+       "t": {
+        "en": "4 cubs in the wild → total 62",
+        "te": "అడవిలో 4 కూనలు → మొత్తం 62"
+       },
+       "hl": 1
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Cheetah homes in Madhya Pradesh",
+      "te": "మధ్యప్రదేశ్‌లో చీతాల నివాసాలు"
+     },
+     "view": "north",
+     "hl": [
+      "Madhya Pradesh"
+     ],
+     "hlc": "#2f6b2f",
+     "pts": [
+      {
+       "ll": [
+        25.6,
+        77.3
+       ],
+       "t": {
+        "en": "Kuno NP",
+        "te": "కునో NP"
+       }
+      },
+      {
+       "ll": [
+        24.7,
+        75.6
+       ],
+       "t": {
+        "en": "Gandhi Sagar",
+        "te": "గాంధీ సాగర్"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "59 in Kuno, 3 in Gandhi Sagar (as of 20 Nov 2026).",
+      "te": "కునోలో 59, గాంధీ సాగర్‌లో 3 (20 నవం 2026 నాటికి)."
+     },
+     "src": "cards/cad/2026-11-22/map-kuno-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "ThePrint — Botswana-born cheetah gives birth to four cubs in Kuno. Cheetah count at 62, 20 Nov 2026",
+     "u": "https://theprint.in/environment/botswana-born-cheetah-gives-birth-to-four-cubs-in-kuno/3104010/"
+    },
+    {
+     "t": "The Week — Boost for India's cheetah population as Botswana female gives birth to four cubs, 20 Nov 2026",
+     "u": "https://www.theweek.in/news/india/2026/11/20/boost-for-indias-cheetah-population-as-botswana-female-gives-birth-to-four-cubs.html"
+    }
+   ]
+  },
+  {
+   "id": "bric",
+   "cat": "science",
+   "title": {
+    "en": "BRIC aims to grow India's bioeconomy to $300 billion by 2030 and $1 trillion by 2047 — Jitendra Singh",
+    "te": "2030 నాటికి భారత బయో-ఆర్థిక వ్యవస్థ 300 బిలియన్ డాలర్లు, 2047 నాటికి 1 ట్రిలియన్ డాలర్లు — BRIC లక్ష్యం: జితేంద్ర సింగ్"
+   },
+   "pts": [
+    {
+     "en": "At the 4th Annual General Meeting of the BRIC Society in New Delhi on 21 Nov, Science & Technology Minister Jitendra Singh set out the bioeconomy targets.",
+     "te": "21 నవంబర్‌న న్యూఢిల్లీలో BRIC సొసైటీ 4వ వార్షిక సర్వసభ్య సమావేశంలో శాస్త్ర సాంకేతిక మంత్రి జితేంద్ర సింగ్ బయో-ఆర్థిక లక్ష్యాలను వివరించారు."
+    },
+    {
+     "en": "BRIC = Biotechnology Research and Innovation Council — the umbrella body of the Department of Biotechnology's research institutes.",
+     "te": "BRIC = బయోటెక్నాలజీ రీసెర్చ్ అండ్ ఇన్నోవేషన్ కౌన్సిల్ — బయోటెక్నాలజీ విభాగం (DBT) పరిశోధనా సంస్థల ఉమ్మడి సంస్థ."
+    },
+    {
+     "en": "Bioeconomy means economic activity built on biology — biomanufacturing, health, farm and animal biotech. India has more than 11,000 biotech startups.",
+     "te": "బయో-ఆర్థిక వ్యవస్థ అంటే జీవశాస్త్రం ఆధారిత ఆర్థిక కార్యకలాపాలు — బయో-మాన్యుఫ్యాక్చరింగ్, ఆరోగ్యం, వ్యవసాయ, పశు బయోటెక్. భారత్‌లో 11 వేలకు పైగా బయోటెక్ స్టార్టప్‌లు."
+    },
+    {
+     "en": "Focus areas named: healthcare, agriculture, animal health, advanced materials and technology platforms; the Entrepreneur-in-Residence programme was welcomed.",
+     "te": "ప్రస్తావించిన రంగాలు: ఆరోగ్యం, వ్యవసాయం, పశు ఆరోగ్యం, అధునాతన పదార్థాలు, టెక్నాలజీ ప్లాట్‌ఫారాలు; 'ఎంటర్‌ప్రెన్యూర్-ఇన్-రెసిడెన్స్' కార్యక్రమాన్ని ప్రశంసించారు."
+    }
+   ],
+   "exam": {
+    "en": "Numbers trap: $300 billion is the 2030 target and $1 trillion the 2047 target — examiners swap them. Link: BioE3 policy (Biotechnology for Economy, Environment, Employment).",
+    "te": "సంఖ్యల ట్రాప్: 300 బిలియన్ డాలర్లు 2030 లక్ష్యం, 1 ట్రిలియన్ డాలర్లు 2047 లక్ష్యం — వీటిని తారుమారు చేసి అడుగుతారు. లింక్: BioE3 విధానం (ఎకానమీ, ఎన్విరాన్‌మెంట్, ఎంప్లాయ్‌మెంట్ కోసం బయోటెక్నాలజీ)."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "India's bioeconomy targets (US$ billion)",
+      "te": "భారత బయో-ఆర్థిక లక్ష్యాలు (బిలియన్ డాలర్లు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "By 2030",
+        "te": "2030 నాటికి"
+       },
+       "v": 300,
+       "vl": "$300 bn"
+      },
+      {
+       "t": {
+        "en": "By 2047",
+        "te": "2047 నాటికి"
+       },
+       "v": 1000,
+       "vl": "$1 trillion"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "All India Radio — BRIC aims to grow India's bioeconomy to $300 billion by 2030: Union Minister Jitendra Singh, 21 Nov 2026",
+     "u": "https://newsonair.gov.in/bric-aims-to-grow-indias-bioeconomy-to-300-billion-by-2030-union-minister-jitendra-singh/"
+    }
+   ]
+  },
+  {
+   "id": "gem",
+   "cat": "schemes",
+   "title": {
+    "en": "GeM signs MoU with the Tribal Indian Chamber of Commerce and Industry to bring tribal entrepreneurs into government buying",
+    "te": "గిరిజన వ్యాపారవేత్తలను ప్రభుత్వ కొనుగోళ్లలోకి తేవడానికి ట్రైబల్ ఇండియన్ ఛాంబర్ ఆఫ్ కామర్స్‌తో GeM ఒప్పందం"
+   },
+   "pts": [
+    {
+     "en": "Government e-Marketplace (GeM) — the online portal through which ministries and departments buy goods and services — signed an MoU with TICCI on 20 Nov.",
+     "te": "మంత్రిత్వ శాఖలు, విభాగాలు వస్తువులు, సేవలు కొనే ఆన్‌లైన్ పోర్టల్ గవర్నమెంట్ ఇ-మార్కెట్‌ప్లేస్ (GeM) 20 నవంబర్‌న TICCIతో MoU కుదుర్చుకుంది."
+    },
+    {
+     "en": "Aim: more tribal-owned enterprises selling to the government. TICCI will find and mobilise tribal entrepreneurs, run outreach, give field support and build a network of trainers and mentors.",
+     "te": "లక్ష్యం: ప్రభుత్వానికి అమ్మే గిరిజన సంస్థలు పెరగాలి. TICCI గిరిజన వ్యాపారవేత్తలను గుర్తించి, అవగాహన కార్యక్రమాలు, క్షేత్రస్థాయి సహాయం, శిక్షకులు–మార్గదర్శకుల నెట్‌వర్క్ ఏర్పాటు చేస్తుంది."
+    },
+    {
+     "en": "Signed by GeM Additional CEO Ajit B. Chavan and TICCI Chairman Sudhakar Dharavath; GeM CEO is Mihir Kumar.",
+     "te": "GeM అదనపు సీఈవో అజిత్ బి. చవాన్, TICCI ఛైర్మన్ సుధాకర్ ధరావత్ సంతకాలు చేశారు; GeM సీఈవో మిహిర్ కుమార్."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "GeM is under",
+      "te": "GeM ఏ శాఖ కింద"
+     },
+     {
+      "en": "Ministry of Commerce & Industry",
+      "te": "వాణిజ్య, పరిశ్రమల మంత్రిత్వ శాఖ"
+     }
+    ],
+    [
+     {
+      "en": "Launched",
+      "te": "ప్రారంభం"
+     },
+     {
+      "en": "2016",
+      "te": "2016"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Link: Public Procurement Policy for MSEs reserves 4% of annual procurement for SC/ST-owned enterprises (within the 25% MSE target). Trap: GeM is under Commerce, not Finance.",
+    "te": "లింక్: MSEల ప్రజా కొనుగోలు విధానం — 25% MSE లక్ష్యంలో 4% SC/ST యజమానుల సంస్థలకు. ట్రాప్: GeM వాణిజ్య శాఖ కింద — ఆర్థిక శాఖ కాదు."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "How the MoU should help",
+      "te": "ఈ ఒప్పందం ఎలా సాయపడుతుంది"
+     },
+     "items": [
+      {
+       "i": "🔎",
+       "t": {
+        "en": "TICCI finds tribal entrepreneurs",
+        "te": "TICCI గిరిజన వ్యాపారులను గుర్తిస్తుంది"
+       }
+      },
+      {
+       "i": "🎓",
+       "t": {
+        "en": "Training & mentoring",
+        "te": "శిక్షణ & మార్గదర్శనం"
+       }
+      },
+      {
+       "i": "💻",
+       "t": {
+        "en": "Register as sellers on GeM",
+        "te": "GeMలో విక్రేతలుగా నమోదు"
+       }
+      },
+      {
+       "i": "🏛️",
+       "t": {
+        "en": "Sell to government buyers",
+        "te": "ప్రభుత్వ కొనుగోలుదారులకు అమ్మకం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "All India Radio — GeM signs MoU with Tribal Indian Chamber of Commerce and Industry, 21 Nov 2026",
+     "u": "https://newsonair.gov.in/gem-signs-mou-with-tribal-indian-chamber-of-commerce-and-industry/"
+    }
+   ]
+  },
+  {
+   "id": "sebi",
+   "cat": "economy",
+   "title": {
+    "en": "SEBI proposes to drop the extra disclosure rules for offshore funds introduced in 2023",
+    "te": "2023లో తెచ్చిన విదేశీ ఫండ్ల అదనపు వెల్లడి నిబంధనలను తొలగించాలని SEBI ప్రతిపాదన"
+   },
+   "pts": [
+    {
+     "en": "On 20 Nov, SEBI (Securities and Exchange Board of India) proposed removing the additional disclosure requirements for offshore funds investing in India.",
+     "te": "20 నవంబర్‌న SEBI (సెక్యూరిటీస్ అండ్ ఎక్స్ఛేంజ్ బోర్డ్ ఆఫ్ ఇండియా) భారత్‌లో పెట్టుబడి పెట్టే విదేశీ ఫండ్లకు అదనపు వెల్లడి నిబంధనలు తొలగించాలని ప్రతిపాదించింది."
+    },
+    {
+     "en": "Present rule (2023): 'higher-risk' offshore funds must give enhanced disclosures, including their ultimate beneficial owners (the real persons behind the money).",
+     "te": "ప్రస్తుత నిబంధన (2023): 'అధిక రిస్క్' విదేశీ ఫండ్లు తమ అంతిమ లబ్ధిదారుల (డబ్బు వెనక ఉన్న అసలు వ్యక్తుల) వివరాలతో సహా అదనపు వెల్లడి ఇవ్వాలి."
+    },
+    {
+     "en": "Why change: SEBI says the existing beneficial-ownership norms already give enough transparency; it wants to balance oversight with ease of doing business. It is a consultation paper — no final decision yet.",
+     "te": "ఎందుకు మార్పు: ఇప్పటికే ఉన్న లబ్ధిదారు యాజమాన్య నిబంధనలు చాలని SEBI భావన; పర్యవేక్షణ, వ్యాపార సౌలభ్యం మధ్య సమతుల్యం లక్ష్యం. ఇది సంప్రదింపుల పత్రమే — తుది నిర్ణయం ఇంకా లేదు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "SEBI set up",
+      "te": "SEBI ఏర్పాటు"
+     },
+     {
+      "en": "1988; statutory under the SEBI Act, 1992",
+      "te": "1988; SEBI చట్టం 1992తో చట్టబద్ధ హోదా"
+     }
+    ],
+    [
+     {
+      "en": "HQ",
+      "te": "ప్రధాన కార్యాలయం"
+     },
+     {
+      "en": "Mumbai",
+      "te": "ముంబై"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Concept: 'ultimate beneficial owner' = the natural person who finally owns or controls the money. Trap: this is only a proposal for public comments, not a new rule.",
+    "te": "భావన: 'అంతిమ లబ్ధిదారు' = డబ్బును చివరకు సొంతం చేసుకునే/నియంత్రించే వ్యక్తి. ట్రాప్: ఇది ప్రజాభిప్రాయం కోసం ప్రతిపాదన మాత్రమే — కొత్త నిబంధన కాదు."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Offshore fund disclosure",
+      "te": "విదేశీ ఫండ్ల వెల్లడి"
+     },
+     "a": {
+      "h": {
+       "en": "Now (2023 rule)",
+       "te": "ఇప్పుడు (2023 నిబంధన)"
+      },
+      "l": [
+       {
+        "en": "Higher-risk funds give extra details",
+        "te": "అధిక రిస్క్ ఫండ్లు అదనపు వివరాలు ఇవ్వాలి"
+       },
+       {
+        "en": "Includes ultimate beneficial owners",
+        "te": "అంతిమ లబ్ధిదారుల వివరాలు సహా"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Proposed",
+       "te": "ప్రతిపాదన"
+      },
+      "l": [
+       {
+        "en": "Extra layer removed",
+        "te": "అదనపు పొర తొలగింపు"
+       },
+       {
+        "en": "Normal beneficial-ownership norms stay",
+        "te": "సాధారణ లబ్ధిదారు నిబంధనలు కొనసాగుతాయి"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "All India Radio — SEBI proposes eliminating additional disclosure requirements for offshore funds, 21 Nov 2026",
+     "u": "https://newsonair.gov.in/sebi-proposes-eliminating-additional-disclosure-requirements-for-offshore-funds/"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "nielit",
+   "q": {
+    "en": "Consider the following statements about the NIELIT Quantum & AI campus in Andhra Pradesh:\nWhich of the statements given above is/are correct?",
+    "te": "ఏపీలో NIELIT క్వాంటమ్ & AI క్యాంపస్ గురించి కింది ప్రకటనలు పరిశీలించండి:\nపై వాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II and III are correct. I is the trap: NIELIT is an autonomous body under MeitY (Electronics & IT), with Deemed University status — not under the Education Ministry.",
+    "te": "II, III సరైనవి. I ట్రాప్: NIELIT MeitY (ఎలక్ట్రానిక్స్ & ఐటీ) కింద స్వయంప్రతిపత్తి సంస్థ, డీమ్డ్ యూనివర్సిటీ హోదా — విద్యా శాఖ కింద కాదు."
+   },
+   "st": [
+    {
+     "en": "I. NIELIT functions under the Union Ministry of Education.",
+     "te": "I. NIELIT కేంద్ర విద్యా మంత్రిత్వ శాఖ కింద పనిచేస్తుంది."
+    },
+    {
+     "en": "II. The temporary campus is at Acharya Nagarjuna University, Guntur.",
+     "te": "II. తాత్కాలిక క్యాంపస్ గుంటూరు ఆచార్య నాగార్జున విశ్వవిద్యాలయంలో ఉంది."
+    },
+    {
+     "en": "III. The permanent campus is planned at Nidamarru, Amaravati.",
+     "te": "III. శాశ్వత క్యాంపస్ అమరావతి నిడమర్రులో ప్రణాళిక."
+    }
+   ]
+  },
+  {
+   "topic": "nielit",
+   "q": {
+    "en": "Match List-I (NIELIT AP campus item) with List-II (detail):\nA. First-phase lab spend\nB. Permanent campus cost\nC. Land at Nidamarru\nD. Learners in five years\n1. ₹730.70 crore\n2. About 8,250\n3. ₹47 crore\n4. 8.5 acres",
+    "te": "List-I (NIELIT ఏపీ క్యాంపస్ అంశం)ను List-II (వివరం)తో జతపరచండి:\nA. మొదటి దశ ల్యాబ్ ఖర్చు\nB. శాశ్వత క్యాంపస్ వ్యయం\nC. నిడమర్రులో భూమి\nD. ఐదేళ్లలో శిక్షణార్థులు\n1. ₹730.70 కోట్లు\n2. సుమారు 8,250\n3. ₹47 కోట్లు\n4. 8.5 ఎకరాలు"
+   },
+   "o": [
+    {
+     "en": "A-3, B-1, C-4, D-2",
+     "te": "A-3, B-1, C-4, D-2"
+    },
+    {
+     "en": "A-1, B-3, C-4, D-2",
+     "te": "A-1, B-3, C-4, D-2"
+    },
+    {
+     "en": "A-3, B-1, C-2, D-4",
+     "te": "A-3, B-1, C-2, D-4"
+    },
+    {
+     "en": "A-1, B-3, C-2, D-4",
+     "te": "A-1, B-3, C-2, D-4"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "₹47 crore is for the four first-phase labs; ₹730.70 crore is the permanent campus; 8.5 acres at Nidamarru; about 8,250 learners (1,650 degree + 6,600 skill). Trap: swapping ₹47 cr and ₹730.70 cr.",
+    "te": "₹47 కోట్లు మొదటి దశ నాలుగు ల్యాబ్‌లకు; ₹730.70 కోట్లు శాశ్వత క్యాంపస్; నిడమర్రులో 8.5 ఎకరాలు; సుమారు 8,250 మంది (1,650 డిగ్రీ + 6,600 నైపుణ్య). ట్రాప్: ₹47 కోట్లు, ₹730.70 కోట్లను తారుమారు చేయడం."
+   }
+  },
+  {
+   "topic": "orvakal",
+   "q": {
+    "en": "Which one of the following statements about the Reliance beverage plant commissioned in Andhra Pradesh in November 2026 is INCORRECT?",
+    "te": "నవంబర్ 2026లో ఏపీలో ప్రారంభమైన రిలయన్స్ పానీయాల ప్లాంట్ గురించి కింది వాటిలో సరికానిది ఏది?"
+   },
+   "o": [
+    {
+     "en": "It is located at Orvakal in Kurnool district.",
+     "te": "ఇది కర్నూలు జిల్లా ఓర్వకల్‌లో ఉంది."
+    },
+    {
+     "en": "It has 10 production lines.",
+     "te": "దీనికి 10 ఉత్పత్తి లైన్లు ఉన్నాయి."
+    },
+    {
+     "en": "Its foundation stone was laid in November 2025.",
+     "te": "నవంబర్ 2025లో శంకుస్థాపన జరిగింది."
+    },
+    {
+     "en": "It is expected to give about 12,000 direct jobs.",
+     "te": "సుమారు 12,000 ప్రత్యక్ష ఉద్యోగాలు ఇస్తుందని అంచనా."
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "(d) is incorrect: the plant gives about 1,200 direct jobs (not 12,000). The other three are correct — Orvakal (Kurnool), 10 lines, foundation in Nov 2025, production in about 12 months.",
+    "te": "(d) సరికాదు: ప్లాంట్ సుమారు 1,200 ప్రత్యక్ష ఉద్యోగాలు ఇస్తుంది (12,000 కాదు). మిగతా మూడూ సరైనవి — ఓర్వకల్ (కర్నూలు), 10 లైన్లు, నవం 2025 శంకుస్థాపన, సుమారు 12 నెలల్లో ఉత్పత్తి."
+   }
+  },
+  {
+   "topic": "nepaltrain",
+   "q": {
+    "en": "Consider the following statements about the India–Nepal developments of November 2026:\nWhich of the statements given above is/are correct?",
+    "te": "నవంబర్ 2026 భారత్–నేపాల్ పరిణామాల గురించి కింది ప్రకటనలు పరిశీలించండి:\nపై వాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and II are correct. III is the trap: Nepal said it can allow civilian flights, not military ones; the new air route is not yet agreed.",
+    "te": "I, II సరైనవి. III ట్రాప్: పౌర విమానాలకు అనుమతిస్తాం కానీ సైనిక విమానాలకు కాదని నేపాల్ చెప్పింది; కొత్త విమాన మార్గం ఇంకా కుదరలేదు."
+   },
+   "st": [
+    {
+     "en": "I. A weekly train will link Janakpur Dham in Nepal with Ayodhya.",
+     "te": "I. నేపాల్‌లోని జనక్‌పూర్ ధామ్‌ను అయోధ్యతో వారపు రైలు కలుపుతుంది."
+    },
+    {
+     "en": "II. Nepal has sought $2 billion in lines of credit and grants from India.",
+     "te": "II. భారత్ నుంచి 2 బిలియన్ డాలర్ల రుణ పరపతి, గ్రాంట్లను నేపాల్ కోరింది."
+    },
+    {
+     "en": "III. Nepal has agreed to let Indian military aircraft use the Bagdogra entry route.",
+     "te": "III. బాగ్‌డోగ్రా ప్రవేశ మార్గాన్ని భారత సైనిక విమానాలు వాడేందుకు నేపాల్ అంగీకరించింది."
+    }
+   ]
+  },
+  {
+   "topic": "bulgaria",
+   "q": {
+    "en": "Consider the following statements about India's talks with Bulgaria on 21 November 2026:\nWhich of the statements given above is/are correct?",
+    "te": "21 నవంబర్ 2026న బల్గేరియాతో భారత చర్చల గురించి కింది ప్రకటనలు పరిశీలించండి:\nపై వాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct. II is wrong: trade deals are with the EU as a bloc — Jaishankar said the India–EU FTA will enter into force soon; no agreement was signed with Bulgaria at these talks.",
+    "te": "I, III సరైనవి. II తప్పు: వాణిజ్య ఒప్పందం EU కూటమితోనే — భారత్–EU FTA త్వరలో అమల్లోకి వస్తుందని జైశంకర్ చెప్పారు; ఈ చర్చల్లో బల్గేరియాతో ఏ ఒప్పందమూ జరగలేదు."
+   },
+   "st": [
+    {
+     "en": "I. Bulgaria is a member of the European Union.",
+     "te": "I. బల్గేరియా యూరోపియన్ యూనియన్ సభ్యదేశం."
+    },
+    {
+     "en": "II. India signed a separate Free Trade Agreement with Bulgaria at these talks.",
+     "te": "II. ఈ చర్చల్లో బల్గేరియాతో భారత్ ప్రత్యేక స్వేచ్ఛా వాణిజ్య ఒప్పందం చేసుకుంది."
+    },
+    {
+     "en": "III. Bulgaria helped bring home Indian seafarers from ships attacked in the Black Sea.",
+     "te": "III. నల్ల సముద్రంలో దాడికి గురైన నౌకల భారత నావికులను స్వదేశానికి తేవడంలో బల్గేరియా సాయపడింది."
+    }
+   ]
+  },
+  {
+   "topic": "kuno",
+   "q": {
+    "en": "Arrange the source countries of cheetahs brought to India under Project Cheetah in the correct chronological order:\n1. Botswana\n2. Namibia\n3. South Africa",
+    "te": "ప్రాజెక్ట్ చీతా కింద భారత్‌కు చీతాలను పంపిన దేశాలను సరైన కాలక్రమంలో అమర్చండి:\n1. బోట్స్వానా\n2. నమీబియా\n3. దక్షిణాఫ్రికా"
+   },
+   "o": [
+    {
+     "en": "3 – 2 – 1",
+     "te": "3 – 2 – 1"
+    },
+    {
+     "en": "2 – 1 – 3",
+     "te": "2 – 1 – 3"
+    },
+    {
+     "en": "1 – 2 – 3",
+     "te": "1 – 2 – 3"
+    },
+    {
+     "en": "2 – 3 – 1",
+     "te": "2 – 3 – 1"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Namibia (8, Sept 2022) → South Africa (12, Feb 2023) → Botswana (9, Feb 2026). KOMG 3, whose four cubs took the count to 62, came from Botswana.",
+    "te": "నమీబియా (8, సెప్టె 2022) → దక్షిణాఫ్రికా (12, ఫిబ్ర 2023) → బోట్స్వానా (9, ఫిబ్ర 2026). నాలుగు కూనలతో సంఖ్యను 62కు చేర్చిన KOMG 3 బోట్స్వానా చీతా."
+   }
+  },
+  {
+   "topic": "kuno",
+   "q": {
+    "en": "Consider the following statements about India's cheetah population as of 20 November 2026:\nWhich of the statements given above is/are correct?",
+    "te": "20 నవంబర్ 2026 నాటి భారత చీతాల సంఖ్య గురించి కింది ప్రకటనలు పరిశీలించండి:\nపై వాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and II are correct: 62 in all, 43 born in India (more than half). III is wrong: 3 live in Gandhi Sagar Wildlife Sanctuary, the rest in Kuno — both in Madhya Pradesh.",
+    "te": "I, II సరైనవి: మొత్తం 62, వాటిలో 43 భారత్‌లో పుట్టినవి (సగానికి పైగా). III తప్పు: 3 గాంధీ సాగర్ వన్యప్రాణి అభయారణ్యంలో, మిగిలినవి కునోలో — రెండూ మధ్యప్రదేశ్‌లోనే."
+   },
+   "st": [
+    {
+     "en": "I. India has 62 cheetahs in all.",
+     "te": "I. భారత్‌లో మొత్తం 62 చీతాలు ఉన్నాయి."
+    },
+    {
+     "en": "II. More than half of them were born in India.",
+     "te": "II. వాటిలో సగానికి పైగా భారత్‌లోనే పుట్టాయి."
+    },
+    {
+     "en": "III. All of them are in Kuno National Park.",
+     "te": "III. అవన్నీ కునో జాతీయ పార్కులోనే ఉన్నాయి."
+    }
+   ]
+  },
+  {
+   "topic": "bric",
+   "q": {
+    "en": "Assertion (A): Union Minister Jitendra Singh said BRIC aims to grow India's bioeconomy to $300 billion by 2030.\nReason (R): BRIC is the BRICS forum's council for biotechnology research.",
+    "te": "అభిప్రాయం (A): 2030 నాటికి భారత బయో-ఆర్థిక వ్యవస్థను 300 బిలియన్ డాలర్లకు పెంచడం BRIC లక్ష్యమని కేంద్ర మంత్రి జితేంద్ర సింగ్ చెప్పారు.\nకారణం (R): BRIC అంటే BRICS కూటమి బయోటెక్ పరిశోధనా మండలి."
+   },
+   "o": [
+    {
+     "en": "Both A and R are true and R explains A",
+     "te": "A, R రెండూ నిజం; R, Aను వివరిస్తుంది"
+    },
+    {
+     "en": "Both A and R are true but R does not explain A",
+     "te": "A, R రెండూ నిజం కానీ R, Aను వివరించదు"
+    },
+    {
+     "en": "A is true but R is false",
+     "te": "A నిజం కానీ R తప్పు"
+    },
+    {
+     "en": "A is false but R is true",
+     "te": "A తప్పు కానీ R నిజం"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "A is true ($300 bn by 2030, $1 trillion by 2047). R is false: BRIC = Biotechnology Research and Innovation Council of India's Department of Biotechnology — not linked to BRICS.",
+    "te": "A నిజం (2030కి 300 బిలియన్, 2047కి 1 ట్రిలియన్ డాలర్లు). R తప్పు: BRIC = భారత బయోటెక్నాలజీ విభాగం (DBT) బయోటెక్నాలజీ రీసెర్చ్ అండ్ ఇన్నోవేషన్ కౌన్సిల్ — BRICSతో సంబంధం లేదు."
+   }
+  },
+  {
+   "topic": "gem",
+   "q": {
+    "en": "Consider the following statements about the GeM–TICCI MoU of November 2026:\nWhich of the statements given above is/are correct?",
+    "te": "నవంబర్ 2026 GeM–TICCI ఒప్పందం గురించి కింది ప్రకటనలు పరిశీలించండి:\nపై వాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and II are correct. III is the trap: GeM is under the Ministry of Commerce & Industry, not Finance.",
+    "te": "I, II సరైనవి. III ట్రాప్: GeM వాణిజ్య, పరిశ్రమల మంత్రిత్వ శాఖ కింద ఉంటుంది — ఆర్థిక శాఖ కాదు."
+   },
+   "st": [
+    {
+     "en": "I. Its aim is to increase tribal entrepreneurs' share in government procurement.",
+     "te": "I. ప్రభుత్వ కొనుగోళ్లలో గిరిజన వ్యాపారవేత్తల వాటా పెంచడం దీని లక్ష్యం."
+    },
+    {
+     "en": "II. TICCI will build a network of trainers and mentors.",
+     "te": "II. TICCI శిక్షకులు, మార్గదర్శకుల నెట్‌వర్క్ ఏర్పాటు చేస్తుంది."
+    },
+    {
+     "en": "III. GeM functions under the Union Ministry of Finance.",
+     "te": "III. GeM కేంద్ర ఆర్థిక మంత్రిత్వ శాఖ కింద పనిచేస్తుంది."
+    }
+   ]
+  },
+  {
+   "topic": "sebi",
+   "q": {
+    "en": "Consider the following statements about SEBI's November 2026 proposal on offshore funds:\nWhich of the statements given above is/are correct?",
+    "te": "విదేశీ ఫండ్లపై SEBI నవంబర్ 2026 ప్రతిపాదన గురించి కింది ప్రకటనలు పరిశీలించండి:\nపై వాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and III are correct. II is wrong: it is only a consultation paper for public comments; SEBI regulations do not need Parliament's approval to be proposed.",
+    "te": "I, III సరైనవి. II తప్పు: ఇది ప్రజాభిప్రాయం కోసం సంప్రదింపుల పత్రం మాత్రమే; తుది నిర్ణయం ఇంకా లేదు."
+   },
+   "st": [
+    {
+     "en": "I. It proposes removing the additional disclosure rules introduced in 2023.",
+     "te": "I. 2023లో తెచ్చిన అదనపు వెల్లడి నిబంధనలను తొలగించాలని ప్రతిపాదిస్తుంది."
+    },
+    {
+     "en": "II. It has already come into force after Parliament's approval.",
+     "te": "II. పార్లమెంట్ ఆమోదంతో ఇది ఇప్పటికే అమల్లోకి వచ్చింది."
+    },
+    {
+     "en": "III. SEBI says the existing beneficial-ownership norms already give adequate transparency.",
+     "te": "III. ఇప్పటి లబ్ధిదారు యాజమాన్య నిబంధనలు తగిన పారదర్శకత ఇస్తున్నాయని SEBI చెబుతోంది."
+    }
+   ]
+  }
+ ]
+}
