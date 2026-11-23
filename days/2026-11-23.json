@@ -1,0 +1,2149 @@
+{
+ "date": "2026-11-23",
+ "day": {
+  "en": "Monday, 23 November 2026",
+  "te": "సోమవారం, 23 నవంబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "jcbose",
+   "kind": "day",
+   "color": "#2f6b2f",
+   "icon": "leaf",
+   "cf": [
+    0,
+    2,
+    3,
+    4,
+    5
+   ],
+   "tag": {
+    "en": "Death anniversary · 23 Nov 1937",
+    "te": "వర్ధంతి · 23 నవంబర్ 1937"
+   },
+   "title": {
+    "en": "Sir Jagadish Chandra Bose — radio waves and the life of plants",
+    "te": "సర్ జగదీశ్ చంద్ర బోస్ — రేడియో తరంగాలు, మొక్కల జీవనం"
+   },
+   "line": {
+    "en": "One of the first Indian scientists to win world recognition — a pioneer of radio science and plant physiology, and founder of the Bose Institute (1917).",
+    "te": "ప్రపంచ గుర్తింపు పొందిన తొలి భారతీయ శాస్త్రవేత్తల్లో ఒకరు — రేడియో విజ్ఞానం, మొక్కల శరీరధర్మశాస్త్రంలో మార్గదర్శి, బోస్ ఇన్‌స్టిట్యూట్ (1917) స్థాపకుడు."
+   },
+   "easy": [
+    {
+     "en": "J.C. Bose did two very different kinds of science. First, as a physics professor at Presidency College, Calcutta, he studied very short radio waves (1895) and improved the 'coherer', the device that detects radio waves. He was one of the first to show how such waves travel — before Marconi's patented radio system — but he chose not to make money from his invention.",
+     "te": "జె.సి. బోస్ రెండు భిన్నమైన రంగాల్లో పరిశోధన చేశారు. మొదట కలకత్తా ప్రెసిడెన్సీ కళాశాలలో భౌతికశాస్త్ర ఆచార్యుడిగా అతి చిన్న రేడియో తరంగాలను (1895) అధ్యయనం చేసి, రేడియో తరంగాలను గుర్తించే 'కోహెరర్' పరికరాన్ని మెరుగుపరిచారు. ఈ తరంగాలు ఎలా ప్రయాణిస్తాయో చూపిన తొలివారిలో ఆయన ఒకరు — మార్కోనీ పేటెంట్ పొందిన రేడియో వ్యవస్థ కంటే ముందే — కానీ తన ఆవిష్కరణను వ్యాపారంగా మార్చుకోలేదు."
+    },
+    {
+     "en": "Later he turned to plants. He showed that plants respond to stimuli much like living tissue, and built very sensitive instruments such as the Crescograph to record tiny movements and growth of plants. His book 'Response in the Living and Non-Living' came out in 1902.",
+     "te": "తర్వాత ఆయన మొక్కలపై దృష్టి పెట్టారు. మొక్కలు కూడా ఉద్దీపనలకు సజీవ కణజాలంలా స్పందిస్తాయని చూపారు. మొక్కల అతి సూక్ష్మ కదలికలు, పెరుగుదలను నమోదు చేసే 'క్రెస్కోగ్రాఫ్' వంటి సున్నితమైన పరికరాలను రూపొందించారు. ఆయన పుస్తకం 'Response in the Living and Non-Living' 1902లో వచ్చింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "30 November 1858, Mymensingh, Bengal (now in Bangladesh)",
+      "te": "30 నవంబర్ 1858, మైమెన్‌సింగ్, బెంగాల్ (ప్రస్తుతం బంగ్లాదేశ్)"
+     }
+    ],
+    [
+     {
+      "en": "Education",
+      "te": "విద్య"
+     },
+     {
+      "en": "St Xavier's College, Calcutta; Natural Sciences degree, Christ's College, Cambridge (1884)",
+      "te": "సెయింట్ జేవియర్స్ కళాశాల, కలకత్తా; కేంబ్రిడ్జ్ క్రైస్ట్స్ కళాశాల నుంచి నేచురల్ సైన్సెస్ డిగ్రీ (1884)"
+     }
+    ],
+    [
+     {
+      "en": "Presidency College",
+      "te": "ప్రెసిడెన్సీ కళాశాల"
+     },
+     {
+      "en": "Professor of physical science, 1885–1915",
+      "te": "భౌతికశాస్త్ర ఆచార్యుడు, 1885–1915"
+     }
+    ],
+    [
+     {
+      "en": "Radio work",
+      "te": "రేడియో పరిశోధన"
+     },
+     {
+      "en": "Very short radio waves (1895); improved the coherer; first to use semiconductor junctions to detect radio waves",
+      "te": "అతి చిన్న రేడియో తరంగాలు (1895); కోహెరర్ మెరుగుదల; రేడియో తరంగాల గుర్తింపుకు అర్ధవాహక జంక్షన్లను తొలిసారి వాడారు"
+     }
+    ],
+    [
+     {
+      "en": "Plant work",
+      "te": "మొక్కలపై పరిశోధన"
+     },
+     {
+      "en": "Crescograph; books 'Response in the Living and Non-Living' (1902), 'The Nervous Mechanism of Plants' (1926)",
+      "te": "క్రెస్కోగ్రాఫ్; పుస్తకాలు 'Response in the Living and Non-Living' (1902), 'The Nervous Mechanism of Plants' (1926)"
+     }
+    ],
+    [
+     {
+      "en": "1917",
+      "te": "1917"
+     },
+     {
+      "en": "Founded the Bose Institute, Calcutta (directed it 1917–37); knighted the same year",
+      "te": "కలకత్తాలో బోస్ ఇన్‌స్టిట్యూట్ స్థాపన (1917–37 డైరెక్టర్); అదే ఏడాది 'సర్' బిరుదు"
+     }
+    ],
+    [
+     {
+      "en": "Honours",
+      "te": "గౌరవాలు"
+     },
+     {
+      "en": "First Indian in science elected Fellow of the Royal Society (FRS); called the father of Bengali science fiction",
+      "te": "రాయల్ సొసైటీ ఫెలో (FRS)గా ఎన్నికైన తొలి భారతీయ శాస్త్రవేత్త; బెంగాలీ సైన్స్ ఫిక్షన్ పితామహుడు"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "23 November 1937, Giridih (then in Bihar)",
+      "te": "23 నవంబర్ 1937, గిరిడీహ్ (అప్పటి బిహార్)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Three 'Bose / Raman' look-alikes",
+     "te": "లింక్ చెయిన్ · పోలిన పేర్లు — బోస్ / రామన్"
+    },
+    "l": [
+     {
+      "en": "J.C. Bose — radio waves + plant response, Crescograph, Bose Institute (1917)",
+      "te": "జె.సి. బోస్ — రేడియో తరంగాలు + మొక్కల స్పందన, క్రెస్కోగ్రాఫ్, బోస్ ఇన్‌స్టిట్యూట్ (1917)"
+     },
+     {
+      "en": "S.N. Bose (Satyendra Nath Bose) — Bose–Einstein statistics; the particle 'boson' is named after him",
+      "te": "ఎస్.ఎన్. బోస్ (సత్యేంద్రనాథ్ బోస్) — బోస్–ఐన్‌స్టీన్ సాంఖ్యకశాస్త్రం; 'బోసాన్' కణానికి ఆయన పేరు"
+     },
+     {
+      "en": "C.V. Raman — Raman Effect (light scattering); National Science Day 28 Feb marks it, not Bose",
+      "te": "సి.వి. రామన్ — రామన్ ఫలితం (కాంతి పరిక్షేపణం); జాతీయ విజ్ఞాన దినోత్సవం (28 ఫిబ్రవరి) దీనికి గుర్తు, బోస్‌కు కాదు"
+     },
+     {
+      "en": "Moseley (born today, 1887) — atomic number; see the next card",
+      "te": "మోస్లే (ఈరోజే జననం, 1887) — పరమాణు సంఖ్య; తర్వాతి కార్డు చూడండి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "J.C. Bose (radio waves, plants, Crescograph) ≠ S.N. Bose (bosons, Bose–Einstein). The Bose Institute (1917) was founded by J.C. Bose. He did NOT patent or commercialise his radio work — Marconi did.",
+    "te": "జె.సి. బోస్ (రేడియో తరంగాలు, మొక్కలు, క్రెస్కోగ్రాఫ్) ≠ ఎస్.ఎన్. బోస్ (బోసాన్లు, బోస్–ఐన్‌స్టీన్). బోస్ ఇన్‌స్టిట్యూట్ (1917) స్థాపకుడు జె.సి. బోస్. ఆయన తన రేడియో పరిశోధనను పేటెంట్/వ్యాపారం చేయలేదు — అది మార్కోనీ."
+   },
+   "tip": {
+    "en": "Remember 58–85–95–1902–17–37: born, professor, radio waves, book, Institute + knighthood, death.",
+    "te": "58–85–95–1902–17–37 గుర్తుంచుకోండి: జననం, ఆచార్యుడు, రేడియో తరంగాలు, పుస్తకం, ఇన్‌స్టిట్యూట్ + సర్ బిరుదు, మరణం."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Sir Jagadish Chandra Bose, consider the following statements:",
+     "te": "సర్ జగదీశ్ చంద్ర బోస్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "He invented the Crescograph to record minute movements of plants.",
+      "te": "మొక్కల సూక్ష్మ కదలికలను నమోదు చేయడానికి ఆయన క్రెస్కోగ్రాఫ్‌ను రూపొందించారు."
+     },
+     {
+      "en": "The elementary particle 'boson' is named after him.",
+      "te": "'బోసాన్' అనే ప్రాథమిక కణానికి ఆయన పేరు పెట్టారు."
+     },
+     {
+      "en": "He founded the Bose Institute in Calcutta in 1917.",
+      "te": "ఆయన 1917లో కలకత్తాలో బోస్ ఇన్‌స్టిట్యూట్‌ను స్థాపించారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II is wrong: 'boson' is named after S.N. Bose (Bose–Einstein statistics), not J.C. Bose.",
+     "te": "II తప్పు: 'బోసాన్' పేరు ఎస్.ఎన్. బోస్ (బోస్–ఐన్‌స్టీన్) నుంచి వచ్చింది, జె.సి. బోస్ కాదు."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "His life in dates",
+      "te": "తేదీల్లో ఆయన జీవితం"
+     },
+     "items": [
+      {
+       "y": "1858",
+       "t": {
+        "en": "Born at Mymensingh (30 Nov)",
+        "te": "మైమెన్‌సింగ్‌లో జననం (30 నవంబర్)"
+       }
+      },
+      {
+       "y": "1884",
+       "t": {
+        "en": "Degree from Christ's College, Cambridge",
+        "te": "కేంబ్రిడ్జ్ క్రైస్ట్స్ కళాశాల డిగ్రీ"
+       }
+      },
+      {
+       "y": "1885",
+       "t": {
+        "en": "Professor, Presidency College, Calcutta",
+        "te": "ప్రెసిడెన్సీ కళాశాల ఆచార్యుడు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1895",
+       "t": {
+        "en": "Experiments on very short radio waves",
+        "te": "అతి చిన్న రేడియో తరంగాలపై ప్రయోగాలు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1902",
+       "t": {
+        "en": "Book: Response in the Living and Non-Living",
+        "te": "పుస్తకం: Response in the Living and Non-Living"
+       }
+      },
+      {
+       "y": "1917",
+       "t": {
+        "en": "Bose Institute founded; knighted",
+        "te": "బోస్ ఇన్‌స్టిట్యూట్ స్థాపన; సర్ బిరుదు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1926",
+       "t": {
+        "en": "Book: The Nervous Mechanism of Plants",
+        "te": "పుస్తకం: The Nervous Mechanism of Plants"
+       }
+      },
+      {
+       "y": "1937",
+       "t": {
+        "en": "Died at Giridih (23 Nov)",
+        "te": "గిరిడీహ్‌లో మరణం (23 నవంబర్)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = the most-asked years: 1885, 1895, 1917.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే సంవత్సరాలు: 1885, 1895, 1917."
+     }
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "J.C. Bose vs S.N. Bose",
+      "te": "జె.సి. బోస్ vs ఎస్.ఎన్. బోస్"
+     },
+     "a": {
+      "h": {
+       "en": "J.C. Bose (1858–1937)",
+       "te": "జె.సి. బోస్ (1858–1937)"
+      },
+      "l": [
+       {
+        "en": "Radio waves, coherer",
+        "te": "రేడియో తరంగాలు, కోహెరర్"
+       },
+       {
+        "en": "Plants respond — Crescograph",
+        "te": "మొక్కల స్పందన — క్రెస్కోగ్రాఫ్"
+       },
+       {
+        "en": "Bose Institute, 1917",
+        "te": "బోస్ ఇన్‌స్టిట్యూట్, 1917"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "S.N. Bose",
+       "te": "ఎస్.ఎన్. బోస్"
+      },
+      "l": [
+       {
+        "en": "Quantum statistics",
+        "te": "క్వాంటం సాంఖ్యకశాస్త్రం"
+       },
+       {
+        "en": "Bose–Einstein statistics",
+        "te": "బోస్–ఐన్‌స్టీన్ సాంఖ్యకశాస్త్రం"
+       },
+       {
+        "en": "'Boson' named after him",
+        "te": "'బోసాన్'కు ఆయన పేరు"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Britannica — Sir Jagadish Chandra Bose",
+     "u": "https://www.britannica.com/print/article/74631"
+    },
+    {
+     "t": "The Tribune — Father of radio science in India (Time Capsule: Jagdish Chandra Bose)",
+     "u": "https://www.tribuneindia.com/news/anniversary/father-of-radio-science-in-india"
+    },
+    {
+     "t": "The Tribune — Physicist & father of Bengali sci-fi",
+     "u": "https://www.tribuneindia.com/news/anniversary/physicist-father-of-bengali-sci-fi"
+    },
+    {
+     "t": "Wikiwand — Jagadish Chandra Bose (cross-check: knighthood 1917, semiconductor detector)",
+     "u": "https://www.wikiwand.com/en/J.C._Bose"
+    }
+   ]
+  },
+  {
+   "id": "moseley",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "sirsyed",
+   "cf": [
+    0,
+    2,
+    3,
+    4,
+    6
+   ],
+   "tag": {
+    "en": "Birth anniversary · 23 Nov 1887",
+    "te": "జయంతి · 23 నవంబర్ 1887"
+   },
+   "title": {
+    "en": "Henry Moseley — the man who gave the periodic table its 'atomic number'",
+    "te": "హెన్రీ మోస్లే — ఆవర్తన పట్టికకు 'పరమాణు సంఖ్య'ను ఇచ్చిన శాస్త్రవేత్త"
+   },
+   "line": {
+    "en": "His X-ray work (1913–14) showed that an element's properties depend on its atomic number, not its atomic weight — the basis of the modern periodic table.",
+    "te": "ఆయన ఎక్స్-కిరణ పరిశోధన (1913–14) మూలకం ధర్మాలు పరమాణు భారం మీద కాదు, పరమాణు సంఖ్య మీద ఆధారపడతాయని చూపింది — ఆధునిక ఆవర్తన పట్టికకు ఇదే పునాది."
+   },
+   "easy": [
+    {
+     "en": "Mendeleev's table of 1869 arranged elements by atomic weight. But in three places the chemistry did not fit that order, and Mendeleev had to swap elements by hand. Nobody could explain why.",
+     "te": "1869లో మెండలీఫ్ మూలకాలను పరమాణు భారం ఆధారంగా అమర్చారు. కానీ మూడు చోట్ల రసాయన ధర్మాలు ఆ క్రమానికి సరిపోలేదు; మెండలీఫ్ ఆ మూలకాలను స్థానం మార్చాల్సి వచ్చింది. ఎందుకో ఎవరూ వివరించలేకపోయారు."
+    },
+    {
+     "en": "Moseley, working in Rutherford's laboratory at Manchester, fired electrons at different elements and measured the X-rays they gave out. The X-ray frequency rose step by step with a whole number — the atomic number. In 1914 he concluded that this number is the positive charge of the nucleus, i.e. the number of protons. So the table should be arranged by atomic number.",
+     "te": "మాంచెస్టర్‌లో రూథర్‌ఫర్డ్ ప్రయోగశాలలో పనిచేస్తూ మోస్లే వివిధ మూలకాలపై ఎలక్ట్రాన్లను ప్రయోగించి, అవి విడుదల చేసే ఎక్స్-కిరణాలను కొలిచారు. ఎక్స్-కిరణ పౌనఃపున్యం ఒక పూర్ణసంఖ్యతో క్రమంగా పెరిగింది — అదే పరమాణు సంఖ్య. ఈ సంఖ్య కేంద్రకంలోని ధనావేశం, అంటే ప్రోటాన్ల సంఖ్య అని 1914లో తేల్చారు. కాబట్టి పట్టికను పరమాణు సంఖ్య ఆధారంగా అమర్చాలి."
+    },
+    {
+     "en": "His graph also showed gaps — elements not yet found. He was killed in World War I at Gallipoli in 1915, aged 27.",
+     "te": "ఆయన గ్రాఫ్ ఇంకా కనుగొనని మూలకాల ఖాళీలను కూడా చూపింది. మొదటి ప్రపంచ యుద్ధంలో 1915లో గల్లిపోలీ వద్ద 27 ఏళ్ల వయసులో మరణించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "23 November 1887, Weymouth, England",
+      "te": "23 నవంబర్ 1887, వేమౌత్, ఇంగ్లండ్"
+     }
+    ],
+    [
+     {
+      "en": "Studied",
+      "te": "చదువు"
+     },
+     {
+      "en": "Trinity College, Oxford (degree 1910)",
+      "te": "ట్రినిటీ కళాశాల, ఆక్స్‌ఫర్డ్ (1910లో డిగ్రీ)"
+     }
+    ],
+    [
+     {
+      "en": "Worked with",
+      "te": "కలిసి పనిచేశారు"
+     },
+     {
+      "en": "Ernest Rutherford, University of Manchester (from 1910)",
+      "te": "ఎర్నెస్ట్ రూథర్‌ఫర్డ్, మాంచెస్టర్ విశ్వవిద్యాలయం (1910 నుంచి)"
+     }
+    ],
+    [
+     {
+      "en": "Moseley's law (1913)",
+      "te": "మోస్లే నియమం (1913)"
+     },
+     {
+      "en": "X-ray frequency of an element is linked to its atomic number",
+      "te": "మూలకం ఎక్స్-కిరణ పౌనఃపున్యం దాని పరమాణు సంఖ్యతో ముడిపడి ఉంటుంది"
+     }
+    ],
+    [
+     {
+      "en": "1914 conclusion",
+      "te": "1914 నిర్ధారణ"
+     },
+     {
+      "en": "Atomic number = positive charge of the nucleus (number of protons)",
+      "te": "పరమాణు సంఖ్య = కేంద్రకంలోని ధనావేశం (ప్రోటాన్ల సంఖ్య)"
+     }
+    ],
+    [
+     {
+      "en": "Predicted gaps",
+      "te": "ఖాళీల అంచనా"
+     },
+     {
+      "en": "Unknown elements with atomic numbers 43, 61, 75 (later technetium, promethium, rhenium); he missed 72 (hafnium)",
+      "te": "పరమాణు సంఖ్యలు 43, 61, 75 గల తెలియని మూలకాలు (తర్వాత టెక్నీషియం, ప్రొమీథియం, రీనియం); 72 (హాఫ్నియం)ను గుర్తించలేదు"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "10 August 1915, Gallipoli (Turkey), World War I — aged 27",
+      "te": "10 ఆగస్టు 1915, గల్లిపోలీ (టర్కీ), మొదటి ప్రపంచ యుద్ధం — 27 ఏళ్లు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · How the periodic table grew",
+     "te": "లింక్ చెయిన్ · ఆవర్తన పట్టిక పరిణామం"
+    },
+    "l": [
+     {
+      "en": "Mendeleev (1869) — periodic law based on atomic weight; left gaps for undiscovered elements",
+      "te": "మెండలీఫ్ (1869) — పరమాణు భారం ఆధారిత ఆవర్తన నియమం; కనుగొనని మూలకాలకు ఖాళీలు వదిలారు"
+     },
+     {
+      "en": "Rutherford — nucleus; Moseley in his lab measured nuclear charge with X-rays",
+      "te": "రూథర్‌ఫర్డ్ — కేంద్రకం; ఆయన ల్యాబ్‌లోనే మోస్లే ఎక్స్-కిరణాలతో కేంద్రక ఆవేశాన్ని కొలిచారు"
+     },
+     {
+      "en": "Modern periodic law: properties of elements are a periodic function of their atomic number",
+      "te": "ఆధునిక ఆవర్తన నియమం: మూలకాల ధర్మాలు వాటి పరమాణు సంఖ్యల ఆవర్తన ప్రమేయాలు"
+     },
+     {
+      "en": "Nobel link: Moseley never won it; Manne Siegbahn, who followed his X-ray method, won the 1924 Physics Nobel",
+      "te": "నోబెల్ లింక్: మోస్లేకు రాలేదు; ఆయన ఎక్స్-కిరణ పద్ధతిని అనుసరించిన మన్నె సీగ్‌బాన్‌కు 1924 భౌతికశాస్త్ర నోబెల్"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Mendeleev = atomic WEIGHT (1869); Moseley = atomic NUMBER (1913–14). Moseley did not win a Nobel Prize — he died in 1915. Atomic number = protons, not protons + neutrons (that is mass number).",
+    "te": "మెండలీఫ్ = పరమాణు భారం (1869); మోస్లే = పరమాణు సంఖ్య (1913–14). మోస్లేకు నోబెల్ రాలేదు — 1915లోనే మరణించారు. పరమాణు సంఖ్య = ప్రోటాన్లు మాత్రమే; ప్రోటాన్లు + న్యూట్రాన్లు = ద్రవ్యరాశి సంఖ్య."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the modern periodic table:",
+     "te": "ఆధునిక ఆవర్తన పట్టికకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "Mendeleev's 1869 table was arranged by atomic number.",
+      "te": "మెండలీఫ్ 1869 పట్టికను పరమాణు సంఖ్య ఆధారంగా అమర్చారు."
+     },
+     {
+      "en": "Moseley showed through X-ray spectra that atomic number equals the positive charge of the nucleus.",
+      "te": "ఎక్స్-కిరణ వర్ణపటాల ద్వారా పరమాణు సంఖ్య = కేంద్రక ధనావేశం అని మోస్లే చూపారు."
+     },
+     {
+      "en": "Moseley predicted undiscovered elements, including atomic number 43.",
+      "te": "పరమాణు సంఖ్య 43తో సహా కనుగొనని మూలకాలను మోస్లే అంచనా వేశారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "I is wrong: Mendeleev used atomic weight; ordering by atomic number came from Moseley.",
+     "te": "I తప్పు: మెండలీఫ్ పరమాణు భారం వాడారు; పరమాణు సంఖ్య క్రమం మోస్లే నుంచి వచ్చింది."
+    }
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Old rule vs new rule",
+      "te": "పాత నియమం vs కొత్త నియమం"
+     },
+     "a": {
+      "h": {
+       "en": "Mendeleev, 1869",
+       "te": "మెండలీఫ్, 1869"
+      },
+      "l": [
+       {
+        "en": "Order by atomic weight",
+        "te": "పరమాణు భారం క్రమం"
+       },
+       {
+        "en": "3 places did not fit",
+        "te": "3 చోట్ల సరిపోలలేదు"
+       },
+       {
+        "en": "Left gaps for new elements",
+        "te": "కొత్త మూలకాలకు ఖాళీలు"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Moseley, 1913–14",
+       "te": "మోస్లే, 1913–14"
+      },
+      "l": [
+       {
+        "en": "Order by atomic number",
+        "te": "పరమాణు సంఖ్య క్రమం"
+       },
+       {
+        "en": "Atomic number = protons",
+        "te": "పరమాణు సంఖ్య = ప్రోటాన్లు"
+       },
+       {
+        "en": "Gaps at 43, 61, 75",
+        "te": "43, 61, 75 వద్ద ఖాళీలు"
+       }
+      ]
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How he found the atomic number",
+      "te": "పరమాణు సంఖ్యను ఎలా కనుగొన్నారు"
+     },
+     "items": [
+      {
+       "i": "⚡",
+       "t": {
+        "en": "Hit each element with electrons",
+        "te": "ప్రతి మూలకంపై ఎలక్ట్రాన్ల ప్రయోగం"
+       }
+      },
+      {
+       "i": "📡",
+       "t": {
+        "en": "Measure the X-rays given out",
+        "te": "విడుదలైన ఎక్స్-కిరణాల కొలత"
+       }
+      },
+      {
+       "i": "📈",
+       "t": {
+        "en": "Frequency rises step by step",
+        "te": "పౌనఃపున్యం క్రమంగా పెరుగుదల"
+       }
+      },
+      {
+       "i": "🔢",
+       "t": {
+        "en": "Step number = atomic number (protons)",
+        "te": "మెట్టు సంఖ్య = పరమాణు సంఖ్య (ప్రోటాన్లు)"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Britannica — Henry Moseley",
+     "u": "https://www.britannica.com/print/article/393528"
+    },
+    {
+     "t": "NIST Taking Measure — Henry Moseley: A Patriotic Scientist Who Changed the Periodic Table — and Then Went Off to War",
+     "u": "https://www.nist.gov/blogs/taking-measure/henry-moseley-patriotic-scientist-who-changed-periodic-table-and-then-went-war"
+    },
+    {
+     "t": "Today in Science History — 23 November (births)",
+     "u": "https://todayinsci.com/11/11_23.htm"
+    }
+   ]
+  },
+  {
+   "id": "icj",
+   "kind": "article",
+   "color": "#9b2c2c",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    6
+   ],
+   "src": {
+    "en": "In the news · International · ICJ, The Hague · 19 Nov 2026",
+    "te": "వార్తల్లో · అంతర్జాతీయం · ICJ, హేగ్ · 19 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II International Relations & Law",
+    "te": "వివరణ · GS-II అంతర్జాతీయ సంబంధాలు & చట్టం"
+   },
+   "title": {
+    "en": "World Court rules Myanmar committed genocide against the Rohingya",
+    "te": "రోహింగ్యాలపై మయన్మార్ జాతి హననానికి పాల్పడిందని ప్రపంచ న్యాయస్థానం తీర్పు"
+   },
+   "line": {
+    "en": "In The Gambia v. Myanmar, the International Court of Justice found (9–6) that Myanmar itself committed genocide in northern Rakhine during the 2017 'clearance operations'.",
+    "te": "గాంబియా వర్సెస్ మయన్మార్ కేసులో, 2017 'క్లియరెన్స్ ఆపరేషన్ల' సమయంలో ఉత్తర రఖైన్‌లో మయన్మార్ స్వయంగా జాతి హననానికి పాల్పడిందని అంతర్జాతీయ న్యాయస్థానం (9–6) తేల్చింది."
+   },
+   "easy": [
+    {
+     "en": "What happened? In 2017 Myanmar's army carried out 'clearance operations' in northern Rakhine State. At least 7,40,000 Rohingya fled to Bangladesh within months; about 12 lakh now live in camps at Cox's Bazar.",
+     "te": "ఏం జరిగింది? 2017లో మయన్మార్ సైన్యం ఉత్తర రఖైన్ రాష్ట్రంలో 'క్లియరెన్స్ ఆపరేషన్లు' చేపట్టింది. కొన్ని నెలల్లోనే కనీసం 7,40,000 మంది రోహింగ్యాలు బంగ్లాదేశ్‌కు పారిపోయారు; ఇప్పుడు సుమారు 12 లక్షల మంది కాక్స్ బజార్ శిబిరాల్లో ఉన్నారు."
+    },
+    {
+     "en": "Who went to court? The Gambia — a small African country with no direct link to the events — filed the case in November 2019 under the 1948 Genocide Convention, backed by the 57-member OIC. Any member of the Convention can sue another member before the ICJ (Article IX). Eleven states, including Canada, France and the UK, joined in as interveners.",
+     "te": "కోర్టుకు ఎవరు వెళ్లారు? ఈ ఘటనలతో నేరుగా సంబంధం లేని చిన్న ఆఫ్రికా దేశం గాంబియా, 57 సభ్యుల OIC మద్దతుతో, 1948 జాతి హనన ఒప్పందం కింద 2019 నవంబర్‌లో కేసు వేసింది. ఒప్పంద సభ్యదేశం ఏదైనా మరో సభ్యదేశంపై ICJలో కేసు వేయవచ్చు (ఆర్టికల్ IX). కెనడా, ఫ్రాన్స్, బ్రిటన్ సహా 11 దేశాలు ఇంటర్వీనర్లుగా చేరాయి."
+    },
+    {
+     "en": "Why is it historic? In the 2007 Bosnia case, the ICJ held Serbia responsible only for failing to prevent and punish genocide. This time the Court found that the state itself committed genocide. Myanmar must prosecute those responsible, give restitution (including safe return) and pay compensation. But the ICJ cannot enforce its own rulings; that would need the UN Security Council.",
+     "te": "ఎందుకు చారిత్రకం? 2007 బోస్నియా కేసులో సెర్బియా జాతి హననాన్ని నిరోధించలేదని, శిక్షించలేదని మాత్రమే ICJ చెప్పింది. ఈసారి దేశమే స్వయంగా జాతి హననానికి పాల్పడిందని తేల్చింది. మయన్మార్ బాధ్యులను విచారించాలి, పునరుద్ధరణ (సురక్షిత తిరుగుప్రయాణం సహా) చేయాలి, పరిహారం చెల్లించాలి. కానీ ICJ తన తీర్పులను తానే అమలు చేయించలేదు; దానికి ఐరాస భద్రతా మండలి అవసరం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Case",
+      "te": "కేసు"
+     },
+     {
+      "en": "The Gambia v. Myanmar (11 States intervening) — Genocide Convention, 1948",
+      "te": "గాంబియా వర్సెస్ మయన్మార్ (11 దేశాల జోక్యం) — జాతి హనన ఒప్పందం, 1948"
+     }
+    ],
+    [
+     {
+      "en": "Timeline",
+      "te": "కాలక్రమం"
+     },
+     {
+      "en": "Filed 11 Nov 2019 → provisional measures 23 Jan 2020 → jurisdiction upheld 22 Jul 2022 → merits judgment 19 Nov 2026",
+      "te": "కేసు 11 నవంబర్ 2019 → తాత్కాలిక చర్యలు 23 జనవరి 2020 → అధికార పరిధి నిర్ధారణ 22 జూలై 2022 → తుది తీర్పు 19 నవంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Committed genocide",
+      "te": "జాతి హననం చేసింది"
+     },
+     {
+      "en": "Yes — vote 9–6",
+      "te": "అవును — ఓటు 9–6"
+     }
+    ],
+    [
+     {
+      "en": "Incitement",
+      "te": "ప్రేరేపణ"
+     },
+     {
+      "en": "Not proved — Myanmar did not directly and publicly incite genocide (14–1)",
+      "te": "నిరూపణ కాలేదు — మయన్మార్ నేరుగా, బహిరంగంగా ప్రేరేపించలేదు (14–1)"
+     }
+    ],
+    [
+     {
+      "en": "Duty to punish / prosecute",
+      "te": "శిక్షించే బాధ్యత"
+     },
+     {
+      "en": "Violated (11–4); must investigate and prosecute suspects (13–2)",
+      "te": "ఉల్లంఘించింది (11–4); అనుమానితులను విచారించి శిక్షించాలి (13–2)"
+     }
+    ],
+    [
+     {
+      "en": "Remedies",
+      "te": "పరిహారం"
+     },
+     {
+      "en": "Restitution and compensation to the Rohingya group (10–5); report to the Court within two years",
+      "te": "రోహింగ్యా సమూహానికి పునరుద్ధరణ, పరిహారం (10–5); రెండేళ్లలో కోర్టుకు నివేదిక"
+     }
+    ],
+    [
+     {
+      "en": "ICJ",
+      "te": "ICJ"
+     },
+     {
+      "en": "Principal judicial organ of the UN (1945); 15 judges, 9-year terms; Peace Palace, The Hague",
+      "te": "ఐరాస ప్రధాన న్యాయ అంగం (1945); 15 మంది న్యాయమూర్తులు, 9 ఏళ్ల పదవీకాలం; పీస్ ప్యాలెస్, హేగ్"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · ICJ vs ICC and the Genocide Convention",
+     "te": "లింక్ చెయిన్ · ICJ vs ICC, జాతి హనన ఒప్పందం"
+    },
+    "l": [
+     {
+      "en": "ICJ settles disputes between STATES and gives advisory opinions; judges are elected by the UN General Assembly and Security Council",
+      "te": "ICJ దేశాల మధ్య వివాదాలు పరిష్కరిస్తుంది, సలహా అభిప్రాయాలు ఇస్తుంది; న్యాయమూర్తులను ఐరాస సర్వసభ్య సమావేశం, భద్రతా మండలి ఎన్నుకుంటాయి"
+     },
+     {
+      "en": "ICC (Rome Statute) tries INDIVIDUALS for genocide, war crimes etc.; India is not a party to the Rome Statute",
+      "te": "ICC (రోమ్ శాసనం) వ్యక్తులను జాతి హననం, యుద్ధ నేరాలకు విచారిస్తుంది; భారత్ రోమ్ శాసనంలో సభ్యదేశం కాదు"
+     },
+     {
+      "en": "Genocide = certain acts (killing, serious harm, preventing births…) done with intent to destroy a group; the Court found intent was 'the only reasonable inference'",
+      "te": "జాతి హననం = ఒక సమూహాన్ని నాశనం చేసే ఉద్దేశంతో చేసే చర్యలు (హత్యలు, తీవ్ర హాని, జననాల నిరోధం…); ఉద్దేశం 'ఒకే సహేతుక నిర్ధారణ' అని కోర్టు చెప్పింది"
+     },
+     {
+      "en": "India link: neighbourhood refugee issue — Rohingya also live in India; Myanmar borders four NE states",
+      "te": "భారత్ లింక్: పొరుగు శరణార్థుల సమస్య — రోహింగ్యాలు భారత్‌లోనూ ఉన్నారు; మయన్మార్ నాలుగు ఈశాన్య రాష్ట్రాలతో సరిహద్దు పంచుకుంటుంది"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The case was filed by The Gambia, NOT by Bangladesh or the OIC (the OIC only backed it). It is the ICJ (states), not the ICC (individuals). The Court rejected the 'incitement' charge (14–1) even while finding genocide (9–6).",
+    "te": "కేసు వేసింది గాంబియా — బంగ్లాదేశ్ లేదా OIC కాదు (OIC మద్దతు మాత్రమే). ఇది ICJ (దేశాలు), ICC (వ్యక్తులు) కాదు. జాతి హననం (9–6) నిర్ధారించినా, 'ప్రేరేపణ' ఆరోపణను (14–1) కోర్టు తిరస్కరించింది."
+   },
+   "tip": {
+    "en": "Votes ladder: 9–6 committed · 14–1 no incitement · 13–2 prosecute · 10–5 compensate.",
+    "te": "ఓట్ల నిచ్చెన: 9–6 చేసింది · 14–1 ప్రేరేపణ లేదు · 13–2 విచారణ · 10–5 పరిహారం."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the ICJ judgment of 19 November 2026 in The Gambia v. Myanmar, consider the following statements:",
+     "te": "గాంబియా వర్సెస్ మయన్మార్ కేసులో 19 నవంబర్ 2026 ICJ తీర్పుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "The case was brought under the 1948 Genocide Convention.",
+      "te": "ఈ కేసు 1948 జాతి హనన ఒప్పందం కింద దాఖలైంది."
+     },
+     {
+      "en": "The Organisation of Islamic Cooperation was the applicant.",
+      "te": "ఇస్లామిక్ సహకార సంస్థ (OIC) దరఖాస్తుదారు."
+     },
+     {
+      "en": "The Court found that Myanmar directly and publicly incited genocide.",
+      "te": "మయన్మార్ నేరుగా, బహిరంగంగా జాతి హననాన్ని ప్రేరేపించిందని కోర్టు తేల్చింది."
+     },
+     {
+      "en": "Myanmar must report to the Court within two years on compensation.",
+      "te": "పరిహారంపై మయన్మార్ రెండేళ్లలో కోర్టుకు నివేదిక ఇవ్వాలి."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and IV only",
+      "te": "I, IV మాత్రమే"
+     },
+     {
+      "en": "I, II and IV only",
+      "te": "I, II, IV మాత్రమే"
+     },
+     {
+      "en": "I, III and IV only",
+      "te": "I, III, IV మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "II is wrong (The Gambia was the applicant; the OIC backed it). III is wrong (the incitement charge failed, 14–1).",
+     "te": "II తప్పు (దరఖాస్తుదారు గాంబియా; OIC మద్దతు మాత్రమే). III తప్పు (ప్రేరేపణ ఆరోపణ వీగిపోయింది, 14–1)."
+    }
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Rakhine to Cox's Bazar",
+      "te": "రఖైన్ నుంచి కాక్స్ బజార్‌కు"
+     },
+     "view": [
+      86.0,
+      17.0,
+      99.0,
+      28.5
+     ],
+     "ctry": [
+      "Myanmar",
+      "Bangladesh"
+     ],
+     "hlc": "#9b2c2c",
+     "pts": [
+      {
+       "ll": [
+        20.15,
+        92.9
+       ],
+       "t": {
+        "en": "Sittwe (Rakhine)",
+        "te": "సిట్వే (రఖైన్)"
+       }
+      },
+      {
+       "ll": [
+        21.43,
+        91.98
+       ],
+       "t": {
+        "en": "Cox's Bazar camps",
+        "te": "కాక్స్ బజార్ శిబిరాలు"
+       },
+       "a": "l"
+      }
+     ],
+     "labels": [
+      {
+       "ll": [
+        22.5,
+        96.0
+       ],
+       "t": {
+        "en": "MYANMAR",
+        "te": "మయన్మార్"
+       }
+      },
+      {
+       "ll": [
+        24.2,
+        90.0
+       ],
+       "t": {
+        "en": "BANGLADESH",
+        "te": "బంగ్లాదేశ్"
+       }
+      },
+      {
+       "ll": [
+        18.5,
+        89.5
+       ],
+       "t": {
+        "en": "Bay of Bengal",
+        "te": "బంగాళాఖాతం"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         20.6,
+         92.7
+        ],
+        [
+         21.4,
+         92.1
+        ]
+       ],
+       "arrow": 1
+      }
+     ],
+     "seas": true,
+     "cap": {
+      "en": "2017: at least 7,40,000 Rohingya crossed from northern Rakhine into Bangladesh.",
+      "te": "2017: కనీసం 7,40,000 మంది రోహింగ్యాలు ఉత్తర రఖైన్ నుంచి బంగ్లాదేశ్‌కు వలస వెళ్లారు."
+     },
+     "src": "cards/2026-11-23/map-icj-1-{m}.svg"
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "Seven years in court",
+      "te": "ఏడేళ్ల న్యాయపోరాటం"
+     },
+     "items": [
+      {
+       "i": "🔥",
+       "t": {
+        "en": "2017: 'clearance operations', exodus",
+        "te": "2017: 'క్లియరెన్స్ ఆపరేషన్లు', వలస"
+       }
+      },
+      {
+       "i": "📄",
+       "t": {
+        "en": "Nov 2019: The Gambia files case",
+        "te": "నవంబర్ 2019: గాంబియా కేసు"
+       }
+      },
+      {
+       "i": "🛑",
+       "t": {
+        "en": "Jan 2020: provisional measures",
+        "te": "జనవరి 2020: తాత్కాలిక చర్యలు"
+       }
+      },
+      {
+       "i": "⚖️",
+       "t": {
+        "en": "Jul 2022: jurisdiction upheld",
+        "te": "జూలై 2022: అధికార పరిధి నిర్ధారణ"
+       }
+      },
+      {
+       "i": "🔨",
+       "t": {
+        "en": "19 Nov 2026: genocide found (9–6)",
+        "te": "19 నవంబర్ 2026: జాతి హననం నిర్ధారణ (9–6)"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ICJ Press Release No. 2026/30 — The Gambia v. Myanmar: The Court delivers its Judgment on the merits, 19 Nov 2026",
+     "u": "https://www.refworld.org/sites/default/files/2026-11/178-20261119-pre-01-00-en.pdf"
+    },
+    {
+     "t": "Human Rights Watch — World Court Finds Myanmar Committed Rohingya Genocide, 19 Nov 2026",
+     "u": "https://www.hrw.org/news/2026/11/19/world-court-finds-myanmar-committed-rohingya-genocide"
+    },
+    {
+     "t": "Al Jazeera — What the ICJ genocide ruling means for the Rohingya people, 19 Nov 2026",
+     "u": "https://www.aljazeera.com/news/2026/11/19/what-the-icj-ruling-means-for-the-rohingya"
+    }
+   ],
+   "mains": {
+    "en": "'The ICJ's Rohingya judgment is historic, but its enforcement depends on politics.' Examine, and discuss its implications for India's neighbourhood policy.",
+    "te": "'ICJ రోహింగ్యా తీర్పు చారిత్రకమైనదే, కానీ దాని అమలు రాజకీయాలపై ఆధారపడుతుంది.' పరిశీలించి, భారత పొరుగు దేశాల విధానంపై దాని ప్రభావాన్ని చర్చించండి."
+   }
+  },
+  {
+   "id": "japan22",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "shield",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "In the news · IR & Defence · Tokyo · 19 Nov 2026",
+    "te": "వార్తల్లో · అంతర్జాతీయ సంబంధాలు & రక్షణ · టోక్యో · 19 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II IR · GS-III Security",
+    "te": "వివరణ · GS-II అంతర్జాతీయ సంబంధాలు · GS-III భద్రత"
+   },
+   "title": {
+    "en": "India–Japan 2+2: Japanese forces to fire live missiles on Indian ranges — a first",
+    "te": "భారత్–జపాన్ 2+2: భారత రేంజ్‌లలో జపాన్ దళాల లైవ్-ఫైర్ శిక్షణ — తొలిసారి"
+   },
+   "line": {
+    "en": "At the fourth 2+2 in Tokyo, a Letter of Intent lets Japan's Self-Defense Forces use Indian firing ranges, including for surface-to-ship missile training.",
+    "te": "టోక్యోలో జరిగిన నాలుగో 2+2లో కుదిరిన లెటర్ ఆఫ్ ఇంటెంట్ ద్వారా జపాన్ స్వీయ రక్షణ దళాలు భారత ఫైరింగ్ రేంజ్‌లను — ఉపరితలం నుంచి నౌకపైకి క్షిపణి శిక్షణ సహా — వాడుకోవచ్చు."
+   },
+   "easy": [
+    {
+     "en": "What is a 2+2? Two ministers from each side — the Foreign and Defence Ministers — meet together, so diplomacy and defence are planned as one. India holds 2+2 talks only with a few close partners such as the US, Japan and Australia.",
+     "te": "2+2 అంటే ఏమిటి? ప్రతి దేశం నుంచి ఇద్దరు మంత్రులు — విదేశాంగ, రక్షణ మంత్రులు — కలిసి సమావేశమవుతారు; దౌత్యం, రక్షణ ఒకే ప్రణాళికగా సాగుతాయి. అమెరికా, జపాన్, ఆస్ట్రేలియా వంటి కొద్ది సన్నిహిత భాగస్వాములతోనే భారత్ 2+2 చర్చలు జరుపుతుంది."
+    },
+    {
+     "en": "What is new? Japan's Self-Defense Forces (JSDF) will, for the first time, do live-fire training in India, including surface-to-ship missiles. Japan has little space at home for such firing. Earlier in 2026, Japanese fighter jets (Air Self-Defense Force) visited India for the first time in exercise Veer Guardian 26.",
+     "te": "కొత్తది ఏమిటి? జపాన్ స్వీయ రక్షణ దళాలు (JSDF) తొలిసారి భారత్‌లో లైవ్-ఫైర్ శిక్షణ చేస్తాయి — ఉపరితలం నుంచి నౌకపైకి క్షిపణులతో సహా. జపాన్‌లో ఇలాంటి కాల్పులకు స్థలం తక్కువ. 2026లోనే 'వీర్ గార్డియన్ 26' విన్యాసం కోసం జపాన్ యుద్ధ విమానాలు తొలిసారి భారత్‌కు వచ్చాయి."
+    },
+    {
+     "en": "Technology: Japan's UNICORN (Unified Complex Radio Antenna) mast for warships is to be transferred; India is to give 'Acceptance of Necessity' (the first step of a defence purchase) by February 2027. The idea is 'Design with Japan, Make in India'.",
+     "te": "సాంకేతికత: యుద్ధ నౌకల కోసం జపాన్ 'యూనికార్న్' (UNICORN — యూనిఫైడ్ కాంప్లెక్స్ రేడియో యాంటెనా) బదిలీ; 2027 ఫిబ్రవరి నాటికి భారత్ 'అక్సెప్టెన్స్ ఆఫ్ నెసెసిటీ' (రక్షణ కొనుగోలులో మొదటి అడుగు) ఇవ్వాలి. లక్ష్యం 'డిజైన్ విత్ జపాన్, మేక్ ఇన్ ఇండియా'."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Meeting",
+      "te": "సమావేశం"
+     },
+     {
+      "en": "Fourth India–Japan 2+2 Foreign and Defence Ministerial Meeting, Tokyo, 19 Nov 2026",
+      "te": "నాలుగో భారత్–జపాన్ 2+2 విదేశాంగ, రక్షణ మంత్రుల సమావేశం, టోక్యో, 19 నవంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "India",
+      "te": "భారత్"
+     },
+     {
+      "en": "Rajnath Singh (Defence), Dr S. Jaishankar (External Affairs)",
+      "te": "రాజ్‌నాథ్ సింగ్ (రక్షణ), డా. ఎస్. జైశంకర్ (విదేశాంగ)"
+     }
+    ],
+    [
+     {
+      "en": "Japan",
+      "te": "జపాన్"
+     },
+     {
+      "en": "Motegi Toshimitsu (Foreign Affairs), Koizumi Shinjiro (Defense)",
+      "te": "మోటెగి తోషిమిట్సు (విదేశాంగ), కొయిజుమి షింజిరో (రక్షణ)"
+     }
+    ],
+    [
+     {
+      "en": "Firing ranges",
+      "te": "ఫైరింగ్ రేంజ్‌లు"
+     },
+     {
+      "en": "Letter of Intent — JSDF live-fire training in India for the first time, incl. surface-to-ship missiles",
+      "te": "లెటర్ ఆఫ్ ఇంటెంట్ — భారత్‌లో తొలిసారి JSDF లైవ్-ఫైర్ శిక్షణ, ఉపరితలం-నౌక క్షిపణులు సహా"
+     }
+    ],
+    [
+     {
+      "en": "UNICORN",
+      "te": "యూనికార్న్"
+     },
+     {
+      "en": "Unified Complex Radio Antenna; India's Acceptance of Necessity by Feb 2027",
+      "te": "యూనిఫైడ్ కాంప్లెక్స్ రేడియో యాంటెనా; ఫిబ్రవరి 2027 నాటికి భారత్ AoN"
+     }
+    ],
+    [
+     {
+      "en": "Framework",
+      "te": "చట్రం"
+     },
+     {
+      "en": "Special Strategic and Global Partnership; Joint Declaration on Security Cooperation (Aug 2025 summit)",
+      "te": "ప్రత్యేక వ్యూహాత్మక, ప్రపంచ భాగస్వామ్యం; భద్రతా సహకార ఉమ్మడి ప్రకటన (ఆగస్టు 2025 శిఖరాగ్రం)"
+     }
+    ],
+    [
+     {
+      "en": "Indo-Pacific",
+      "te": "ఇండో-పసిఫిక్"
+     },
+     {
+      "en": "India's IPOI and MAHASAGAR to work with Japan's updated 'Free and Open Indo-Pacific'; Quad",
+      "te": "భారత IPOI, MAHASAGAR + జపాన్ నవీకరించిన 'స్వేచ్ఛాయుత, బహిరంగ ఇండో-పసిఫిక్'; క్వాడ్"
+     }
+    ],
+    [
+     {
+      "en": "Next",
+      "te": "తర్వాత"
+     },
+     {
+      "en": "2027 = 'Japan–India Year of Shared Horizons' (75 years of ties); next 2+2 in India",
+      "te": "2027 = 'జపాన్–భారత్ షేర్డ్ హొరైజన్స్ సంవత్సరం' (సంబంధాలకు 75 ఏళ్లు); తదుపరి 2+2 భారత్‌లో"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · India–Japan static GK",
+     "te": "లింక్ చెయిన్ · భారత్–జపాన్ స్టాటిక్ GK"
+    },
+    "l": [
+     {
+      "en": "Exercises: Veer Guardian (air forces); Japan is also a Malabar and Quad partner",
+      "te": "విన్యాసాలు: వీర్ గార్డియన్ (వైమానిక దళాలు); జపాన్ మలబార్, క్వాడ్ భాగస్వామి కూడా"
+     },
+     {
+      "en": "Quad = India, Japan, Australia, USA",
+      "te": "క్వాడ్ = భారత్, జపాన్, ఆస్ట్రేలియా, అమెరికా"
+     },
+     {
+      "en": "Both back each other for permanent seats in a reformed UN Security Council",
+      "te": "సంస్కరించిన ఐరాస భద్రతా మండలిలో శాశ్వత సభ్యత్వానికి పరస్పర మద్దతు"
+     },
+     {
+      "en": "The 2+2 statement condemned terrorism, naming LeT and JeM",
+      "te": "2+2 ప్రకటన ఉగ్రవాదాన్ని ఖండించింది — LeT, JeM పేర్లతో"
+     }
+    ]
+   },
+   "trap": {
+    "en": "This is the FOURTH 2+2 (Tokyo, 2026), not the first. The new deal is about Japanese forces training on Indian ranges — not Indian forces in Japan. MAHASAGAR and IPOI are India's; FOIP is Japan's.",
+    "te": "ఇది నాలుగో 2+2 (టోక్యో, 2026), మొదటిది కాదు. కొత్త ఒప్పందం జపాన్ దళాలు భారత రేంజ్‌లలో శిక్షణ గురించి — భారత దళాలు జపాన్‌లో కాదు. MAHASAGAR, IPOI భారత్‌వి; FOIP జపాన్‌ది."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the fourth India–Japan 2+2 Ministerial Meeting (Nov 2026), consider the following statements:",
+     "te": "నాలుగో భారత్–జపాన్ 2+2 మంత్రుల సమావేశం (నవంబర్ 2026)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "A Letter of Intent was signed for Indian forces to use firing ranges in Japan.",
+      "te": "భారత దళాలు జపాన్‌లో ఫైరింగ్ రేంజ్‌లు వాడేందుకు లెటర్ ఆఫ్ ఇంటెంట్ కుదిరింది."
+     },
+     {
+      "en": "India is to give Acceptance of Necessity for UNICORN by February 2027.",
+      "te": "2027 ఫిబ్రవరి నాటికి యూనికార్న్‌కు భారత్ 'అక్సెప్టెన్స్ ఆఫ్ నెసెసిటీ' ఇవ్వాలి."
+     },
+     {
+      "en": "The meeting was held in New Delhi.",
+      "te": "ఈ సమావేశం న్యూఢిల్లీలో జరిగింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I is reversed — Japan's forces will use ranges in India. III is wrong — it was held in Tokyo; the next one will be in India.",
+     "te": "I తారుమారు — జపాన్ దళాలు భారత్‌లో రేంజ్‌లు వాడతాయి. III తప్పు — టోక్యోలో జరిగింది; తదుపరిది భారత్‌లో."
+    }
+   },
+   "pics": [
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "What the 2+2 agreed",
+      "te": "2+2లో కుదిరినవి"
+     },
+     "c": {
+      "en": "India–Japan 2+2, Tokyo",
+      "te": "భారత్–జపాన్ 2+2, టోక్యో"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Training",
+        "te": "శిక్షణ"
+       },
+       "l": [
+        {
+         "en": "JSDF live-fire in India",
+         "te": "భారత్‌లో JSDF లైవ్-ఫైర్"
+        },
+        {
+         "en": "Surface-to-ship missiles",
+         "te": "ఉపరితలం-నౌక క్షిపణులు"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Technology",
+        "te": "సాంకేతికత"
+       },
+       "l": [
+        {
+         "en": "UNICORN antenna",
+         "te": "యూనికార్న్ యాంటెనా"
+        },
+        {
+         "en": "Design with Japan, Make in India",
+         "te": "డిజైన్ విత్ జపాన్, మేక్ ఇన్ ఇండియా"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Exercises",
+        "te": "విన్యాసాలు"
+       },
+       "l": [
+        {
+         "en": "Veer Guardian 26",
+         "te": "వీర్ గార్డియన్ 26"
+        },
+        {
+         "en": "Short-notice drills",
+         "te": "స్వల్ప నోటీసు విన్యాసాలు"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Indo-Pacific",
+        "te": "ఇండో-పసిఫిక్"
+       },
+       "l": [
+        {
+         "en": "IPOI + MAHASAGAR + FOIP",
+         "te": "IPOI + MAHASAGAR + FOIP"
+        },
+        {
+         "en": "Quad",
+         "te": "క్వాడ్"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Global",
+        "te": "ప్రపంచ"
+       },
+       "l": [
+        {
+         "en": "UNSC reform",
+         "te": "UNSC సంస్కరణ"
+        },
+        {
+         "en": "Anti-terror: LeT, JeM",
+         "te": "ఉగ్రవాద వ్యతిరేకం: LeT, JeM"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "India and Japan in the Indo-Pacific",
+      "te": "ఇండో-పసిఫిక్‌లో భారత్, జపాన్"
+     },
+     "view": "world",
+     "ctry": [
+      "Japan"
+     ],
+     "hlc": "#7a3b8f",
+     "pts": [
+      {
+       "ll": [
+        28.61,
+        77.21
+       ],
+       "t": {
+        "en": "New Delhi",
+        "te": "న్యూఢిల్లీ"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        35.68,
+        139.69
+       ],
+       "t": {
+        "en": "Tokyo (19 Nov)",
+        "te": "టోక్యో (19 నవంబర్)"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         35.68,
+         139.69
+        ],
+        [
+         28.61,
+         77.21
+        ]
+       ],
+       "dash": 1,
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "Arrow: Japanese forces come to Indian ranges for live-fire training.",
+      "te": "బాణం: లైవ్-ఫైర్ శిక్షణకు జపాన్ దళాలు భారత రేంజ్‌లకు వస్తాయి."
+     },
+     "src": "cards/2026-11-23/map-japan22-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Japan Ministry of Defense — Fourth Japan-India 2+2 Foreign and Defence Ministerial Meeting (Joint Statement), 19 Nov 2026",
+     "u": "https://www.mod.go.jp/en/article/2026/11/d9c0d66ca2caa24209a22a32c43f1e28f85d53ad.html"
+    },
+    {
+     "t": "Japan Ministry of Defense — Fourth Japan-India 2+2 (Press Release, provisional translation), 19 Nov 2026",
+     "u": "https://www.mod.go.jp/en/article/2026/11/2f0c0ee072c8fe72cd463dd9b31067d9d819f010.html"
+    },
+    {
+     "t": "MOFA Japan — Joint Statement, Fourth Japan-India 2+2 (PDF)",
+     "u": "https://www.mofa.go.jp/files/101121776.pdf"
+    },
+    {
+     "t": "NEXT IAS — India-Japan 2+2 Ministerial Meeting (cross-check; cites The Hindu)",
+     "u": "https://www.nextias.com/ca/current-affairs/20-11-2026/india-japan-2-2-meeting"
+    }
+   ],
+   "mains": {
+    "en": "How does the opening of Indian firing ranges to Japan's Self-Defense Forces reflect the changing nature of India–Japan defence ties in the Indo-Pacific?",
+    "te": "జపాన్ స్వీయ రక్షణ దళాలకు భారత ఫైరింగ్ రేంజ్‌లను తెరవడం ఇండో-పసిఫిక్‌లో భారత్–జపాన్ రక్షణ సంబంధాల మారుతున్న స్వభావాన్ని ఎలా ప్రతిబింబిస్తుంది?"
+   }
+  },
+  {
+   "id": "rapp8",
+   "kind": "article",
+   "color": "#a86b00",
+   "icon": "rocket",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "In the news · Science & Energy · PIB (DAE) · 20 Nov 2026",
+    "te": "వార్తల్లో · సైన్స్ & ఇంధనం · PIB (అణుశక్తి విభాగం) · 20 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-III Science & Tech · Energy",
+    "te": "వివరణ · GS-III సైన్స్ & టెక్ · ఇంధనం"
+   },
+   "title": {
+    "en": "RAPP-8 cleared for 'first criticality': India's fourth home-made 700 MW reactor",
+    "te": "RAPP-8కు 'ఫస్ట్ క్రిటికాలిటీ' అనుమతి: భారత్ నాలుగో స్వదేశీ 700 MW రియాక్టర్"
+   },
+   "line": {
+    "en": "On 19 Nov 2026 the Atomic Energy Regulatory Board allowed Unit-8 at Rawatbhata, Rajasthan, to start its chain reaction for the first time — a key step before it makes electricity.",
+    "te": "19 నవంబర్ 2026న రాజస్థాన్‌లోని రావత్‌భటా యూనిట్-8లో తొలిసారి గొలుసు చర్య ప్రారంభానికి అణుశక్తి నియంత్రణ మండలి (AERB) అనుమతి ఇచ్చింది — విద్యుత్ ఉత్పత్తికి ముందు కీలక దశ."
+   },
+   "easy": [
+    {
+     "en": "What is 'criticality'? Inside a reactor, uranium atoms split and release neutrons, which split more atoms. When this chain reaction becomes self-sustaining, the reactor is 'critical'. The 'first approach to criticality' (FAC) is the first time this is done in a new reactor, under the regulator's watch. After more tests, the unit is connected to the grid and then starts commercial operation.",
+     "te": "'క్రిటికాలిటీ' అంటే ఏమిటి? రియాక్టర్‌లో యురేనియం పరమాణువులు విచ్ఛిత్తి చెంది న్యూట్రాన్లను విడుదల చేస్తాయి; అవి మరిన్ని పరమాణువులను విడగొడతాయి. ఈ గొలుసు చర్య తనంతట తానే కొనసాగే స్థితికి వస్తే రియాక్టర్ 'క్రిటికల్' అయినట్టు. కొత్త రియాక్టర్‌లో నియంత్రణ సంస్థ పర్యవేక్షణలో తొలిసారి ఇలా చేయడమే 'ఫస్ట్ అప్రోచ్ టు క్రిటికాలిటీ' (FAC). తర్వాత పరీక్షలు, గ్రిడ్ అనుసంధానం, ఆపై వాణిజ్య ఉత్పత్తి."
+    },
+    {
+     "en": "Why it matters: RAPP-8 is the fourth of India's own 700 MWe Pressurised Heavy Water Reactors (PHWRs), after Kakrapar-3 and 4 (Gujarat) and RAPP-7. These use natural uranium as fuel and heavy water to slow down neutrons — Stage 1 of India's three-stage nuclear programme. The country aims for at least 100 GW of nuclear capacity by 2047.",
+     "te": "ఎందుకు ముఖ్యం: కాక్రాపార్-3, 4 (గుజరాత్), RAPP-7 తర్వాత RAPP-8 భారత్ సొంత 700 MWe ప్రెషరైజ్డ్ హెవీ వాటర్ రియాక్టర్ల (PHWR) శ్రేణిలో నాలుగోది. ఇవి సహజ యురేనియంను ఇంధనంగా, న్యూట్రాన్లను నెమ్మదింపజేయడానికి భారజలాన్ని వాడతాయి — భారత మూడు దశల అణు కార్యక్రమంలో మొదటి దశ. 2047 నాటికి కనీసం 100 GW అణు సామర్థ్యం లక్ష్యం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Permission",
+      "te": "అనుమతి"
+     },
+     {
+      "en": "AERB allowed First Approach to Criticality of RAPP-8 on 19 Nov 2026 (PIB, 20 Nov)",
+      "te": "RAPP-8 ఫస్ట్ అప్రోచ్ టు క్రిటికాలిటీకి AERB అనుమతి 19 నవంబర్ 2026 (PIB, 20 నవంబర్)"
+     }
+    ],
+    [
+     {
+      "en": "Reactor",
+      "te": "రియాక్టర్"
+     },
+     {
+      "en": "700 MWe Pressurised Heavy Water Reactor (PHWR), indigenous design",
+      "te": "700 MWe ప్రెషరైజ్డ్ హెవీ వాటర్ రియాక్టర్ (PHWR), స్వదేశీ డిజైన్"
+     }
+    ],
+    [
+     {
+      "en": "Location",
+      "te": "ప్రదేశం"
+     },
+     {
+      "en": "Rawatbhata, Chittorgarh district, Rajasthan — site has eight units",
+      "te": "రావత్‌భటా, చిత్తోర్‌గఢ్ జిల్లా, రాజస్థాన్ — ఈ ప్రాంగణంలో ఎనిమిది యూనిట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Series so far",
+      "te": "ఇప్పటివరకు శ్రేణి"
+     },
+     {
+      "en": "KAPP-3 & 4 (Kakrapar, Gujarat), RAPP-7, now RAPP-8 — the 4th",
+      "te": "KAPP-3, 4 (కాక్రాపార్, గుజరాత్), RAPP-7, ఇప్పుడు RAPP-8 — నాలుగోది"
+     }
+    ],
+    [
+     {
+      "en": "RAPP-7",
+      "te": "RAPP-7"
+     },
+     {
+      "en": "First criticality Sep 2024 → grid Mar 2025 → full 700 MW on 10 Feb 2026",
+      "te": "ఫస్ట్ క్రిటికాలిటీ సెప్టెంబర్ 2024 → గ్రిడ్ మార్చి 2025 → పూర్తి 700 MW 10 ఫిబ్రవరి 2026"
+     }
+    ],
+    [
+     {
+      "en": "Fleet plan",
+      "te": "ఫ్లీట్ ప్రణాళిక"
+     },
+     {
+      "en": "Sixteen 700 MW PHWRs planned; 'fleet mode' units at Kaiga, Gorakhpur, Chutka, Mahi Banswara",
+      "te": "16 × 700 MW PHWRలు; 'ఫ్లీట్ మోడ్' యూనిట్లు కైగా, గోరఖ్‌పూర్, చుట్కా, మహీ బాన్స్‌వారా"
+     }
+    ],
+    [
+     {
+      "en": "Goal",
+      "te": "లక్ష్యం"
+     },
+     {
+      "en": "At least 100 GW nuclear capacity by 2047",
+      "te": "2047 నాటికి కనీసం 100 GW అణు సామర్థ్యం"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · India's nuclear static GK",
+     "te": "లింక్ చెయిన్ · భారత అణు స్టాటిక్ GK"
+    },
+    "l": [
+     {
+      "en": "Three-stage programme (Homi Bhabha): PHWR (natural uranium) → Fast Breeder (plutonium) → Thorium",
+      "te": "మూడు దశల కార్యక్రమం (హోమీ భాభా): PHWR (సహజ యురేనియం) → ఫాస్ట్ బ్రీడర్ (ప్లూటోనియం) → థోరియం"
+     },
+     {
+      "en": "AERB = safety regulator (1983, under the Atomic Energy Act, 1962); NPCIL builds and runs the plants",
+      "te": "AERB = భద్రతా నియంత్రణ సంస్థ (1983, అణుశక్తి చట్టం 1962 కింద); ప్లాంట్ల నిర్మాణం, నిర్వహణ NPCIL"
+     },
+     {
+      "en": "Heavy water (D₂O) is the moderator and coolant in a PHWR",
+      "te": "PHWRలో భారజలం (D₂O) మోడరేటర్, శీతలకారిణి"
+     },
+     {
+      "en": "AP link: Kovvada (Srikakulam) is a proposed nuclear power project site in Andhra Pradesh",
+      "te": "ఏపీ లింక్: కొవ్వాడ (శ్రీకాకుళం) — ఆంధ్రప్రదేశ్‌లో ప్రతిపాదిత అణు విద్యుత్ ప్రాజెక్టు ప్రదేశం"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Criticality ≠ electricity. FAC only starts the chain reaction; grid connection and commercial operation come later. RAPP-8 is the 4th 700 MW PHWR (not the first — KAPP-3 was). Rawatbhata is in Chittorgarh district, Rajasthan — not Kota city.",
+    "te": "క్రిటికాలిటీ ≠ విద్యుత్. FAC గొలుసు చర్యను మాత్రమే ప్రారంభిస్తుంది; గ్రిడ్ అనుసంధానం, వాణిజ్య ఉత్పత్తి తర్వాత. RAPP-8 నాలుగో 700 MW PHWR (మొదటిది కాదు — KAPP-3). రావత్‌భటా రాజస్థాన్ చిత్తోర్‌గఢ్ జిల్లాలో ఉంది."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to RAPP Unit-8, consider the following statements:",
+     "te": "RAPP యూనిట్-8కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "It is a 700 MWe Pressurised Heavy Water Reactor located in Rajasthan.",
+      "te": "ఇది రాజస్థాన్‌లోని 700 MWe ప్రెషరైజ్డ్ హెవీ వాటర్ రియాక్టర్."
+     },
+     {
+      "en": "It is the first reactor of India's indigenous 700 MWe PHWR series.",
+      "te": "భారత స్వదేశీ 700 MWe PHWR శ్రేణిలో ఇది మొదటి రియాక్టర్."
+     },
+     {
+      "en": "Permission for First Approach to Criticality means the unit has started supplying power to the grid.",
+      "te": "ఫస్ట్ అప్రోచ్ టు క్రిటికాలిటీ అనుమతి అంటే యూనిట్ గ్రిడ్‌కు విద్యుత్ సరఫరా ప్రారంభించిందని అర్థం."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "II is wrong (it is the 4th, after KAPP-3, KAPP-4 and RAPP-7). III is wrong (FAC only starts the chain reaction; grid supply comes later).",
+     "te": "II తప్పు (KAPP-3, KAPP-4, RAPP-7 తర్వాత 4వది). III తప్పు (FAC గొలుసు చర్య ప్రారంభం మాత్రమే; గ్రిడ్ సరఫరా తర్వాత)."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "From reactor to your switch",
+      "te": "రియాక్టర్ నుంచి మీ స్విచ్ వరకు"
+     },
+     "items": [
+      {
+       "i": "⛽",
+       "t": {
+        "en": "Fuel loading",
+        "te": "ఇంధనం నింపడం"
+       }
+      },
+      {
+       "i": "☢️",
+       "t": {
+        "en": "First criticality (chain reaction)",
+        "te": "ఫస్ట్ క్రిటికాలిటీ (గొలుసు చర్య)"
+       }
+      },
+      {
+       "i": "🔌",
+       "t": {
+        "en": "Grid connection",
+        "te": "గ్రిడ్ అనుసంధానం"
+       }
+      },
+      {
+       "i": "📈",
+       "t": {
+        "en": "Full 700 MW power",
+        "te": "పూర్తి 700 MW"
+       }
+      },
+      {
+       "i": "🏭",
+       "t": {
+        "en": "Commercial operation",
+        "te": "వాణిజ్య ఉత్పత్తి"
+       }
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "India's 700 MWe PHWR sites",
+      "te": "భారత 700 MWe PHWR ప్రదేశాలు"
+     },
+     "view": "india",
+     "hl": [
+      "Rajasthan",
+      "Gujarat"
+     ],
+     "hlc": "#a86b00",
+     "pts": [
+      {
+       "ll": [
+        24.89,
+        75.61
+       ],
+       "t": {
+        "en": "Rawatbhata (RAPP-7, 8)",
+        "te": "రావత్‌భటా (RAPP-7, 8)"
+       }
+      },
+      {
+       "ll": [
+        21.24,
+        73.35
+       ],
+       "t": {
+        "en": "Kakrapar (KAPP-3, 4)",
+        "te": "కాక్రాపార్ (KAPP-3, 4)"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "All four working 700 MW units are in Rajasthan and Gujarat.",
+      "te": "నాలుగు 700 MW యూనిట్లూ రాజస్థాన్, గుజరాత్‌లోనే."
+     },
+     "src": "cards/2026-11-23/map-rapp8-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB (DAE) — AERB approves First Approach to Criticality of RAPP Unit-8, 20 Nov 2026",
+     "u": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2339225&reg=48&lang=2"
+    },
+    {
+     "t": "World Nuclear News — India's Rajasthan unit 7 reaches full power, 11 Feb 2026",
+     "u": "https://world-nuclear-news.org/articles/indias-rajasthan-unit-7-reaches-full-power"
+    },
+    {
+     "t": "Business Standard — RAPP-8 begins fuel loading, 20 Sep 2026",
+     "u": "https://www.business-standard.com/india-news/rapp-8-begins-fuel-loading-commercial-operations-targeted-this-fiscal-126092000801_1.html"
+    },
+    {
+     "t": "NEXT IAS — RAPP-8 gets AERB approval for First Approach to Criticality (cross-check)",
+     "u": "https://www.nextias.com/ca/current-affairs/20-11-2026/rapp-8-first-criticality"
+    }
+   ],
+   "mains": {
+    "en": "Explain the role of indigenous 700 MWe PHWRs in India's three-stage nuclear programme and in reaching 100 GW of nuclear capacity by 2047.",
+    "te": "భారత మూడు దశల అణు కార్యక్రమంలో, 2047 నాటికి 100 GW అణు సామర్థ్యం సాధనలో స్వదేశీ 700 MWe PHWRల పాత్రను వివరించండి."
+   }
+  }
+ ],
+ "words": [
+  {
+   "w": "Propagation",
+   "en": "the spreading or travelling of waves through space",
+   "te": "తరంగాలు ఒక చోటు నుంచి మరో చోటుకు ప్రయాణించడం (ప్రసారం)",
+   "ex": "J.C. Bose was one of the first to demonstrate the propagation of very short radio waves.",
+   "topic": "jcbose"
+  },
+  {
+   "w": "Restitution",
+   "en": "giving back what was lost, or putting things back as they were",
+   "te": "కోల్పోయినదాన్ని తిరిగి ఇవ్వడం, పూర్వ స్థితిని పునరుద్ధరించడం",
+   "ex": "The ICJ said Myanmar must provide restitution, including the safe return of the Rohingya.",
+   "topic": "icj"
+  },
+  {
+   "w": "Intervene",
+   "en": "to join a case or situation to protect an interest",
+   "te": "ఒక కేసులో/పరిస్థితిలో జోక్యం చేసుకోవడం",
+   "ex": "Eleven states chose to intervene in The Gambia v. Myanmar.",
+   "topic": "icj"
+  },
+  {
+   "w": "Coercion",
+   "en": "forcing someone to act by using pressure or threats",
+   "te": "ఒత్తిడి, బెదిరింపులతో బలవంతం చేయడం",
+   "ex": "India and Japan expressed grave concern over economic coercion.",
+   "topic": "japan22"
+  },
+  {
+   "w": "Criticality",
+   "en": "the state in which a nuclear chain reaction keeps going on its own",
+   "te": "అణు గొలుసు చర్య తనంతట తానే కొనసాగే స్థితి",
+   "ex": "AERB allowed RAPP-8 to make its first approach to criticality.",
+   "topic": "rapp8"
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "jcbose",
+   "q": {
+    "en": "Consider the following statements about Sir J.C. Bose:",
+    "te": "సర్ జె.సి. బోస్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. He studied very short radio waves and improved the coherer.",
+     "te": "I. అతి చిన్న రేడియో తరంగాలను అధ్యయనం చేసి కోహెరర్‌ను మెరుగుపరిచారు."
+    },
+    {
+     "en": "II. He patented his radio system before Marconi and earned royalties from it.",
+     "te": "II. మార్కోనీ కంటే ముందే తన రేడియో వ్యవస్థకు పేటెంట్ పొంది రాయల్టీ సంపాదించారు."
+    },
+    {
+     "en": "III. He was the first Indian in science to be elected a Fellow of the Royal Society.",
+     "te": "III. రాయల్ సొసైటీ ఫెలోగా ఎన్నికైన తొలి భారతీయ శాస్త్రవేత్త ఆయనే."
+    },
+    {
+     "en": "IV. He died at Giridih in 1937.",
+     "te": "IV. ఆయన 1937లో గిరిడీహ్‌లో మరణించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is the trap: Bose chose NOT to commercialise his invention; Marconi held the patented system.",
+    "te": "II ట్రాప్: బోస్ తన ఆవిష్కరణను వ్యాపారం చేయలేదు; పేటెంట్ వ్యవస్థ మార్కోనీది."
+   }
+  },
+  {
+   "topic": "jcbose",
+   "q": {
+    "en": "Match List-I (scientist) with List-II (contribution):",
+    "te": "జాబితా-I (శాస్త్రవేత్త)ని జాబితా-II (కృషి)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "List-I: A. J.C. Bose",
+     "te": "జాబితా-I: A. జె.సి. బోస్"
+    },
+    {
+     "en": "B. S.N. Bose",
+     "te": "B. ఎస్.ఎన్. బోస్"
+    },
+    {
+     "en": "C. C.V. Raman",
+     "te": "C. సి.వి. రామన్"
+    },
+    {
+     "en": "D. Henry Moseley",
+     "te": "D. హెన్రీ మోస్లే"
+    },
+    {
+     "en": "List-II: 1. Scattering of light",
+     "te": "జాబితా-II: 1. కాంతి పరిక్షేపణం"
+    },
+    {
+     "en": "2. Atomic number from X-ray spectra",
+     "te": "2. ఎక్స్-కిరణ వర్ణపటాల నుంచి పరమాణు సంఖ్య"
+    },
+    {
+     "en": "3. Crescograph and plant response",
+     "te": "3. క్రెస్కోగ్రాఫ్, మొక్కల స్పందన"
+    },
+    {
+     "en": "4. Statistics behind the 'boson'",
+     "te": "4. 'బోసాన్' వెనుక ఉన్న సాంఖ్యకశాస్త్రం"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-4, B-3, C-1, D-2",
+     "te": "A-4, B-3, C-1, D-2"
+    },
+    {
+     "en": "A-3, B-4, C-2, D-1",
+     "te": "A-3, B-4, C-2, D-1"
+    },
+    {
+     "en": "A-3, B-1, C-4, D-2",
+     "te": "A-3, B-1, C-4, D-2"
+    },
+    {
+     "en": "A-3, B-4, C-1, D-2",
+     "te": "A-3, B-4, C-1, D-2"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "J.C. Bose = Crescograph (3); S.N. Bose = boson statistics (4); Raman = light scattering (1); Moseley = atomic number (2). Option (a) swaps the two Boses — the usual trap.",
+    "te": "జె.సి. బోస్ = క్రెస్కోగ్రాఫ్ (3); ఎస్.ఎన్. బోస్ = బోసాన్ (4); రామన్ = కాంతి పరిక్షేపణం (1); మోస్లే = పరమాణు సంఖ్య (2). (a)లో ఇద్దరు బోస్‌లు తారుమారు — సాధారణ ట్రాప్."
+   }
+  },
+  {
+   "topic": "moseley",
+   "q": {
+    "en": "Which of the following statements about Henry Moseley is/are INCORRECT?",
+    "te": "హెన్రీ మోస్లేకు సంబంధించి కింది వాటిలో తప్పు వాక్యం/వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. He worked in Ernest Rutherford's laboratory at Manchester.",
+     "te": "I. మాంచెస్టర్‌లో ఎర్నెస్ట్ రూథర్‌ఫర్డ్ ప్రయోగశాలలో పనిచేశారు."
+    },
+    {
+     "en": "II. He received the Nobel Prize in Physics for discovering atomic number.",
+     "te": "II. పరమాణు సంఖ్య ఆవిష్కరణకు భౌతికశాస్త్ర నోబెల్ పొందారు."
+    },
+    {
+     "en": "III. He was killed at Gallipoli during World War I.",
+     "te": "III. మొదటి ప్రపంచ యుద్ధంలో గల్లిపోలీ వద్ద మరణించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Only II is incorrect: Moseley never won a Nobel; he died in 1915 aged 27. Siegbahn, who used his method, won in 1924.",
+    "te": "II మాత్రమే తప్పు: మోస్లేకు నోబెల్ రాలేదు; 1915లో 27 ఏళ్లకే మరణించారు. ఆయన పద్ధతిని వాడిన సీగ్‌బాన్‌కు 1924లో వచ్చింది."
+   }
+  },
+  {
+   "topic": "moseley",
+   "q": {
+    "en": "An element X has 17 protons and 18 neutrons. Applying Moseley's idea, consider:",
+    "te": "మూలకం Xలో 17 ప్రోటాన్లు, 18 న్యూట్రాన్లు ఉన్నాయి. మోస్లే భావనను అన్వయిస్తూ పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Its position in the modern periodic table is decided by the number 17.",
+     "te": "I. ఆధునిక ఆవర్తన పట్టికలో దాని స్థానాన్ని 17 అనే సంఖ్య నిర్ణయిస్తుంది."
+    },
+    {
+     "en": "II. Its atomic number is 35.",
+     "te": "II. దాని పరమాణు సంఖ్య 35."
+    },
+    {
+     "en": "III. Under Mendeleev's 1869 method it would have been placed by its atomic weight.",
+     "te": "III. మెండలీఫ్ 1869 పద్ధతిలో దాన్ని పరమాణు భారం ఆధారంగా ఉంచేవారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II is wrong: 35 = protons + neutrons = mass number. Atomic number = protons = 17, which fixes the place.",
+    "te": "II తప్పు: 35 = ప్రోటాన్లు + న్యూట్రాన్లు = ద్రవ్యరాశి సంఖ్య. పరమాణు సంఖ్య = ప్రోటాన్లు = 17; అదే స్థానాన్ని నిర్ణయిస్తుంది."
+   }
+  },
+  {
+   "topic": "icj",
+   "q": {
+    "en": "Arrange the following stages of The Gambia v. Myanmar case in chronological order:",
+    "te": "గాంబియా వర్సెస్ మయన్మార్ కేసు దశలను కాలక్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "I. Judgment on preliminary objections upholding jurisdiction",
+     "te": "I. అధికార పరిధిని నిర్ధారించిన ప్రాథమిక అభ్యంతరాలపై తీర్పు"
+    },
+    {
+     "en": "II. Filing of the Application by The Gambia",
+     "te": "II. గాంబియా దరఖాస్తు దాఖలు"
+    },
+    {
+     "en": "III. Judgment on the merits finding genocide",
+     "te": "III. జాతి హననాన్ని నిర్ధారించిన తుది తీర్పు"
+    },
+    {
+     "en": "IV. Order on provisional measures",
+     "te": "IV. తాత్కాలిక చర్యలపై ఉత్తర్వు"
+    }
+   ],
+   "o": [
+    {
+     "en": "II, I, IV, III",
+     "te": "II, I, IV, III"
+    },
+    {
+     "en": "IV, II, I, III",
+     "te": "IV, II, I, III"
+    },
+    {
+     "en": "II, IV, I, III",
+     "te": "II, IV, I, III"
+    },
+    {
+     "en": "II, IV, III, I",
+     "te": "II, IV, III, I"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Nov 2019 filing (II) → Jan 2020 provisional measures (IV) → Jul 2022 jurisdiction (I) → Nov 2026 merits (III). Option (a) puts jurisdiction before provisional measures — the trap.",
+    "te": "నవంబర్ 2019 దాఖలు (II) → జనవరి 2020 తాత్కాలిక చర్యలు (IV) → జూలై 2022 అధికార పరిధి (I) → నవంబర్ 2026 తుది తీర్పు (III). (a)లో అధికార పరిధిని ముందు పెట్టడం ట్రాప్."
+   }
+  },
+  {
+   "topic": "icj",
+   "q": {
+    "en": "Consider the following statements about the International Court of Justice (ICJ):",
+    "te": "అంతర్జాతీయ న్యాయస్థానం (ICJ)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It has 15 judges elected for nine-year terms by the UN General Assembly and Security Council.",
+     "te": "I. ఐరాస సర్వసభ్య సమావేశం, భద్రతా మండలి 9 ఏళ్ల కాలానికి ఎన్నుకునే 15 మంది న్యాయమూర్తులు ఉంటారు."
+    },
+    {
+     "en": "II. It tries individual persons accused of genocide and war crimes.",
+     "te": "II. జాతి హననం, యుద్ధ నేరాల నిందిత వ్యక్తులను విచారిస్తుంది."
+    },
+    {
+     "en": "III. It can enforce its judgments directly with its own machinery.",
+     "te": "III. తన తీర్పులను తన సొంత యంత్రాంగంతో నేరుగా అమలు చేయించగలదు."
+    },
+    {
+     "en": "IV. It sits at the Peace Palace in The Hague.",
+     "te": "IV. దీని పీఠం హేగ్‌లోని పీస్ ప్యాలెస్."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "II is wrong: trying individuals is the ICC's job; the ICJ decides disputes between states. III is wrong: the ICJ cannot enforce its rulings — the UN Security Council can be approached.",
+    "te": "II తప్పు: వ్యక్తుల విచారణ ICC పని; ICJ దేశాల మధ్య వివాదాలు తీర్చుతుంది. III తప్పు: ICJ తీర్పులను తానే అమలు చేయించలేదు — భద్రతా మండలిని ఆశ్రయించాలి."
+   }
+  },
+  {
+   "topic": "japan22",
+   "q": {
+    "en": "Consider the following statements regarding India–Japan relations (Nov 2026):",
+    "te": "భారత్–జపాన్ సంబంధాలు (నవంబర్ 2026)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Japan's Self-Defense Forces will conduct live-fire training in India for the first time.",
+     "te": "I. జపాన్ స్వీయ రక్షణ దళాలు తొలిసారి భారత్‌లో లైవ్-ఫైర్ శిక్షణ చేస్తాయి."
+    },
+    {
+     "en": "II. 'MAHASAGAR' is Japan's updated Indo-Pacific vision.",
+     "te": "II. 'MAHASAGAR' జపాన్ నవీకరించిన ఇండో-పసిఫిక్ దృక్పథం."
+    },
+    {
+     "en": "III. Japanese Air Self-Defense Force fighter aircraft visited India for the first time in exercise Veer Guardian 26.",
+     "te": "III. 'వీర్ గార్డియన్ 26'లో జపాన్ వైమానిక స్వీయ రక్షణ దళ యుద్ధ విమానాలు తొలిసారి భారత్‌కు వచ్చాయి."
+    },
+    {
+     "en": "IV. 2027 has been named the 'Japan–India Year of Shared Horizons'.",
+     "te": "IV. 2027ను 'జపాన్–భారత్ షేర్డ్ హొరైజన్స్ సంవత్సరం'గా ప్రకటించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "II is wrong: MAHASAGAR (like IPOI) is India's; Japan's vision is 'Free and Open Indo-Pacific' (FOIP).",
+    "te": "II తప్పు: MAHASAGAR (IPOI లాగే) భారత్‌ది; జపాన్‌ది 'స్వేచ్ఛాయుత, బహిరంగ ఇండో-పసిఫిక్' (FOIP)."
+   }
+  },
+  {
+   "topic": "japan22",
+   "q": {
+    "en": "Consider the following Assertion (A) and Reason (R) about the India–Japan dialogue:",
+    "te": "భారత్–జపాన్ చర్చలకు సంబంధించి కింది ప్రతిపాదన (A), కారణం (R)లను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "A: India and Japan hold a '2+2' ministerial dialogue; its fourth meeting was held in Tokyo in November 2026.",
+     "te": "A: భారత్, జపాన్ '2+2' మంత్రుల చర్చలు జరుపుతాయి; దాని నాలుగో సమావేశం నవంబర్ 2026లో టోక్యోలో జరిగింది."
+    },
+    {
+     "en": "R: In a 2+2, the Foreign and Defence Ministers of both countries meet together so that diplomacy and defence are planned jointly.",
+     "te": "R: 2+2లో రెండు దేశాల విదేశాంగ, రక్షణ మంత్రులు కలిసి సమావేశమై దౌత్యం, రక్షణను ఉమ్మడిగా ప్రణాళిక చేస్తారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "Both A and R are true and R is the correct explanation of A",
+     "te": "A, R రెండూ నిజం; A కు R సరైన వివరణ"
+    },
+    {
+     "en": "Both A and R are true but R is not the correct explanation of A",
+     "te": "A, R రెండూ నిజం; కానీ A కు R సరైన వివరణ కాదు"
+    },
+    {
+     "en": "A is true but R is false",
+     "te": "A నిజం, R తప్పు"
+    },
+    {
+     "en": "A is false but R is true",
+     "te": "A తప్పు, R నిజం"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Both true, and R explains what the 2+2 format is. Trap: thinking 2+2 means two Defence Ministers + two service chiefs.",
+    "te": "రెండూ నిజం; 2+2 అంటే ఏమిటో R వివరిస్తుంది. ట్రాప్: 2+2 అంటే ఇద్దరు రక్షణ మంత్రులు + ఇద్దరు దళాధిపతులు అనుకోవడం."
+   }
+  },
+  {
+   "topic": "rapp8",
+   "q": {
+    "en": "Arrange the commissioning steps of a new nuclear power unit in the correct order:",
+    "te": "కొత్త అణు విద్యుత్ యూనిట్ ప్రారంభ దశలను సరైన క్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "I. Grid connection",
+     "te": "I. గ్రిడ్ అనుసంధానం"
+    },
+    {
+     "en": "II. Initial fuel loading",
+     "te": "II. ప్రాథమిక ఇంధనం నింపడం"
+    },
+    {
+     "en": "III. First approach to criticality",
+     "te": "III. ఫస్ట్ అప్రోచ్ టు క్రిటికాలిటీ"
+    },
+    {
+     "en": "IV. Commercial operation",
+     "te": "IV. వాణిజ్య ఉత్పత్తి"
+    }
+   ],
+   "o": [
+    {
+     "en": "III, II, I, IV",
+     "te": "III, II, I, IV"
+    },
+    {
+     "en": "II, III, I, IV",
+     "te": "II, III, I, IV"
+    },
+    {
+     "en": "II, I, III, IV",
+     "te": "II, I, III, IV"
+    },
+    {
+     "en": "II, III, IV, I",
+     "te": "II, III, IV, I"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Fuel first (RAPP-8 loaded fuel in Sep 2026), then criticality (AERB nod 19 Nov 2026), then grid, then commercial operation. RAPP-7 followed the same path: criticality Sep 2024 → grid Mar 2025.",
+    "te": "ముందు ఇంధనం (RAPP-8లో సెప్టెంబర్ 2026), తర్వాత క్రిటికాలిటీ (AERB అనుమతి 19 నవంబర్ 2026), గ్రిడ్, ఆపై వాణిజ్య ఉత్పత్తి. RAPP-7 కూడా ఇదే: క్రిటికాలిటీ సెప్టెంబర్ 2024 → గ్రిడ్ మార్చి 2025."
+   }
+  },
+  {
+   "topic": "rapp8",
+   "q": {
+    "en": "With reference to India's 700 MWe PHWRs, which of the following statements is/are correct?",
+    "te": "భారత 700 MWe PHWRలకు సంబంధించి కింది వాటిలో సరైన వాక్యం/వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. They use natural uranium as fuel and heavy water as moderator.",
+     "te": "I. ఇవి సహజ యురేనియంను ఇంధనంగా, భారజలాన్ని మోడరేటర్‌గా వాడతాయి."
+    },
+    {
+     "en": "II. They belong to the third (thorium) stage of India's nuclear programme.",
+     "te": "II. ఇవి భారత అణు కార్యక్రమం మూడో (థోరియం) దశకు చెందినవి."
+    },
+    {
+     "en": "III. Kakrapar-3 and 4 in Gujarat are of this design.",
+     "te": "III. గుజరాత్‌లోని కాక్రాపార్-3, 4 ఈ డిజైన్‌వే."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "II is wrong: PHWRs are Stage 1. Stage 2 = fast breeder reactors, Stage 3 = thorium.",
+    "te": "II తప్పు: PHWRలు మొదటి దశ. రెండో దశ = ఫాస్ట్ బ్రీడర్, మూడో దశ = థోరియం."
+   }
+  }
+ ]
+}
