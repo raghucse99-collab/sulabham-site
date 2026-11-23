@@ -1,0 +1,237 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-23 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about the urban local bodies of Andhra Pradesh after the 2026 amendments:
+Which of the statements given above is/are correct?
+I. Mayors of corporations are elected directly by the voters.
+II. Each corporation now has two Deputy Mayors.
+III. Deputy Mayors are elected indirectly by the elected and ex-officio members.
+
+--- QUESTION ---
+Q1. Consider the following statements about the urban local bodies of Andhra Pradesh after the 2026 amendments:
+Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct. II is the trap: the number of Deputy Mayors (and Vice-Chairpersons) was REDUCED from two to one per body. Options (b) and (d) fail because they include II; (a) misses III.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Match List-I (constitutional provision) with List-II (subject):
+Select the correct code:
+A. Part IX       1. Municipalities
+B. Part IXA      2. Panchayats
+C. Article 243K  3. State Finance Commission
+D. Article 243-I 4. State Election Commission (panchayats)
+
+--- QUESTION ---
+Q2. Match List-I (constitutional provision) with List-II (subject):
+Select the correct code: (statements in the message above)
+
+--- OPTIONS ---
+(a) A-2, B-1, C-4, D-3
+(b) A-1, B-2, C-4, D-3
+(c) A-2, B-1, C-3, D-4
+(d) A-1, B-2, C-3, D-4
+
+--- CORRECT (tick this) ---
+(a) A-2, B-1, C-4, D-3
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Part IX = Panchayats (73rd Amendment); Part IXA = Municipalities (74th). Art 243K = State Election Commission, which is running AP's panchayat polls; Art 243-I = State Finance Commission. Traps: sw...
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements about phase 1 of the 2026 AP gram panchayat elections:
+Which of the statements given above is/are correct?
+I. Of 3,949 sarpanch posts, 758 were filled unopposed.
+II. Polling for the remaining sarpanch posts is on 26 November.
+III. Every district, including Visakhapatnam and Guntur, has panchayats in phase 1.
+
+--- QUESTION ---
+Q3. Consider the following statements about phase 1 of the 2026 AP gram panchayat elections:
+Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and III only
+(d) I and II only
+
+--- CORRECT (tick this) ---
+(d) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct (3,949 − 758 = 3,191 posts go to poll on 26 Nov). III is wrong: phase 1 covers 26 districts — Visakhapatnam and Guntur have no panchayats in this phase. So (b) and (c) fail; (a...
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. Match the India–Nepal projects (List-I) with their type (List-II):
+Select the correct code:
+A. Lower Arun          1. Motorable bridge
+B. Motihari–Amlekhgunj  2. Hydroelectric project (669 MW)
+C. Dharchula–Darchula   3. Integrated Check Post
+D. Banbasa              4. Petroleum pipeline
+
+--- QUESTION ---
+Q4. Match the India–Nepal projects (List-I) with their type (List-II):
+Select the correct code: (statements in the message above)
+
+--- OPTIONS ---
+(a) A-4, B-2, C-1, D-3
+(b) A-2, B-4, C-1, D-3
+(c) A-2, B-4, C-3, D-1
+(d) A-3, B-4, C-1, D-2
+
+--- CORRECT (tick this) ---
+(b) A-2, B-4, C-1, D-3
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Lower Arun = 669-MW hydro project (foundation stone); Motihari–Amlekhgunj = petroleum pipeline (phase II dedicated); Dharchula–Darchula = new motorable bridge; Banbasa = new Integrated Check Post. ...
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. With reference to Nepal PM Balendra Shah's visit to India (22–23 Nov 2026), consider:
+Which of the statements given above is/are correct?
+I. India announced a package of about NPR 240 billion (≈ $1.62 billion) for Nepal.
+II. An ISRO MoU covers satellite communication using the South Asia Satellite.
+III. The Ayodhya–Janakpur train is named the Saryu-Kamala Express.
+
+--- QUESTION ---
+Q5. With reference to Nepal PM Balendra Shah's visit to India (22–23 Nov 2026), consider:
+Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III
+(b) I and II only
+(c) II and III only
+(d) I and III only
+
+--- CORRECT (tick this) ---
+(a) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+All three are correct as reported on 23 Nov. The trap is to doubt II — the South Asia Satellite (GSAT-9, launched 2017) is India's gift satellite for neighbours, and the new MoU uses it for Nepal's...
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following statements about India's revised official data series (2026):
+Which of the statements given above are correct?
+I. The new CPI has base 2024=100, with weights from HCES 2023-24.
+II. The new IIP keeps 2011-12 as its base year.
+III. The new IIP adds 'Water supply, sewerage & waste management' and 'Gas supply'.
+IV. The new GDP series has base year 2022-23.
+
+--- QUESTION ---
+Q6. Consider the following statements about India's revised official data series (2026):
+Which of the statements given above are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and IV only
+(b) I, II and IV only
+(c) I, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(c) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: the IIP base moved FROM 2011-12 TO 2022-23 (same as GDP). I, III, IV are correct. (b) and (d) include the old base; (a) leaves out the true statement III.
+
+==================== Q7 ====================
+--- QUESTION ---
+Q7. Which one of the following statements about the Labour Ministry initiatives launched on 22 Nov 2026 is NOT correct?
+
+--- OPTIONS ---
+(a) NCS ONE stands for National Career Service Open Network for Employment
+(b) The e-Shram Livelihood Profile Module tracks three protections of a worker
+(c) The Occupational Shortage Index shows gaps between labour demand and supply
+(d) They were launched at a Chintan Shivir in Gandhinagar, a year after the Labour Codes took effect
+
+--- CORRECT (tick this) ---
+(b) The e-Shram Livelihood Profile Module tracks three protections of a worker
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(b) is NOT correct: the module tracks FIVE protections — food, health, life insurance, accident/disability and pension. (a), (c) and (d) are correct (Labour Codes in force from 21 Nov 2025).
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Consider the following statements about the National Disaster Response Force (NDRF):
+Which of the statements given above are correct?
+I. Its 12th Battalion campus is at Hollongi, near Itanagar.
+II. SDRFs of all eight North-Eastern states will train at this campus.
+III. NDRF was constituted under the Disaster Management Act, 2005.
+IV. NDRF functions under the Ministry of Defence.
+
+--- QUESTION ---
+Q8. Consider the following statements about the National Disaster Response Force (NDRF):
+Which of the statements given above are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and IV only
+(c) I, II and IV only
+(d) I, II and III only
+
+--- CORRECT (tick this) ---
+(d) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is the trap: NDRF is under the Ministry of Home Affairs (MHA), not Defence. I, II, III are correct. (b) and (c) contain IV; (a) leaves out III, which is also true.
+
+==================== Q9 ====================
+--- QUESTION ---
+Q9. Assertion (A): COP31 at Antalya ended without adopting its main 'cover decision'.
+Reason (R): Decisions under the UNFCCC are taken by consensus, and Parties could not agree on language on fossil fuels.
+
+--- OPTIONS ---
+(a) Both A and R are true, and R is the correct explanation of A
+(b) Both A and R are true, but R is not the correct explanation of A
+(c) A is true, but R is false
+(d) A is false, but R is true
+
+--- CORRECT (tick this) ---
+(a) Both A and R are true, and R is the correct explanation of A
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Both true and linked: the COP31 President said there was no agreement on the text, so the decisions were not adopted — the EU and vulnerable nations wanted stronger fossil-fuel language, exporters ...
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Consider the following statements about the 2026 IBSF World Snooker Championship held at Indore:
+Which of the statements given above is/are correct?
+I. Anupama Ramachandran beat So Man Yan 3-1 to retain the women's title.
+II. Her first senior world title came in Doha in 2025.
+III. Pankaj Advani won the men's title.
+
+--- QUESTION ---
+Q10. Consider the following statements about the 2026 IBSF World Snooker Championship held at Indore:
+Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is the trap: the men's title went to Ali Gharahgojlou of Iran (5-1 over Tam Yun Fung); Advani won bronze. So (b) and (d) fail; (a) misses II.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/current.html?d=2026-11-23
