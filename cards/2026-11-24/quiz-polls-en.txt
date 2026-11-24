@@ -1,0 +1,229 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-24 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about Guru Tegh Bahadur:
+I. He was the ninth of the ten Sikh Gurus.
+II. His son Guru Gobind Singh was born at Anandpur Sahib in 1666.
+III. His compositions — 116 shabads in 15 ragas — are included in the Adi Granth.
+IV. He was executed at Chandni Chowk, Delhi, in 1675 on Aurangzeb's orders.
+
+--- QUESTION ---
+Q1. Consider the following statements about Guru Tegh Bahadur: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and IV only
+(b) I, III and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is the trap: Guru Gobind Singh was born at Patna (1666), where Tegh Bahadur had left his family during his eastern travels.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Match List-I (place) with List-II (link with Guru Tegh Bahadur) and select the correct code:
+A. Amritsar — 1. Gurdwara marking a truce with the Ahom king
+B. Anandpur Sahib — 2. Place of birth (1621)
+C. Dhubri (on the Brahmaputra) — 3. Place of martyrdom (1675)
+D. Chandni Chowk — 4. Centre set up in 1665
+
+--- QUESTION ---
+Q2. Match List-I (place) with List-II (link with Guru Tegh Bahadur) and select the correct code: (statements in the message above)
+
+--- OPTIONS ---
+(a) A-2, B-4, C-3, D-1
+(b) A-4, B-2, C-1, D-3
+(c) A-2, B-1, C-4, D-3
+(d) A-2, B-4, C-1, D-3
+
+--- CORRECT (tick this) ---
+(d) A-2, B-4, C-1, D-3
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Amritsar = birth; Anandpur Sahib = 1665 centre; Dhubri Sahib = Ahom truce; Chandni Chowk = martyrdom (Gurdwara Sis Ganj). Option (a) swaps Dhubri and Chandni Chowk.
+
+==================== Q3 ====================
+--- QUESTION ---
+Q3. Arrange the following events connected with Lachit Borphukan in chronological order:
+I. Battle of Alaboi
+II. Recapture of Guwahati
+III. Battle of Saraighat
+IV. Unveiling of the Statue of Valour at Hollongapar
+
+--- OPTIONS ---
+(a) II, I, III, IV
+(b) I, II, III, IV
+(c) II, III, I, IV
+(d) I, III, II, IV
+
+--- CORRECT (tick this) ---
+(a) II, I, III, IV
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Guwahati retaken Nov 1667 → Alaboi 1669 → Saraighat March 1671 → statue 9 March 2024. Trap (b): Alaboi came after the recapture of Guwahati.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. Assertion (A): The Ahoms under Lachit Borphukan defeated the larger Mughal army at Saraighat in 1671. Reason (R): Lachit used small, fast boats and the narrow channels of the Brahmaputra for river warfare. Select the correct answer:
+I. The Mughal force at Saraighat was led by Raja Ram Singh I of Amer.
+II. After the battle, the Mughals retreated beyond the Manas river.
+
+--- QUESTION ---
+Q4. Assertion (A): The Ahoms under Lachit Borphukan defeated the larger Mughal army at Saraighat in 1671. Reason (R): Lachit used small, fast boats and the narrow channels of the Brahmaputra for river warfare. Select the correct answer: (statements in ...
+
+--- OPTIONS ---
+(a) Both A and R are true and R is the correct explanation of A
+(b) Both A and R are true but R is not the correct explanation of A
+(c) A is true but R is false
+(d) A is false but R is true
+
+--- CORRECT (tick this) ---
+(a) Both A and R are true and R is the correct explanation of A
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Both are true and R explains A: the river tactics were the reason a smaller force won. Statements I and II are supporting facts. Trap: confusing Ram Singh I with Mir Jumla, whose invasion came earl...
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Which of the following statements about Charles Darwin is/are INCORRECT?
+I. 'On the Origin of Species' (1859) presented his evidence that humans descended from apes.
+II. Thomas Malthus, an economist, influenced his idea of the 'struggle for existence'.
+III. Evidence for his theory came from his voyage on HMS Beagle, including the Galapagos Islands.
+IV. Lamarck independently discovered natural selection and presented it with Darwin in 1858.
+
+--- QUESTION ---
+Q5. Which of the following statements about Charles Darwin is/are INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) IV only
+(c) I and IV only
+(d) II and IV only
+
+--- CORRECT (tick this) ---
+(c) I and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is wrong — human descent is in 'The Descent of Man' (1871). IV is wrong — the co-discoverer presented at the Linnean Society (1858) was Alfred Russel Wallace; Lamarck was an earlier evolutionist.
+
+==================== Q6 ====================
+--- QUESTION ---
+Q6. Match the district (List-I) with the economic region (List-II) it belongs to:
+A. Nellore — 1. Visakhapatnam Economic Region
+B. Prakasam — 2. Tirupati Economic Region
+C. Kakinada — 3. Amaravati Economic Region
+D. Kurnool
+
+--- OPTIONS ---
+(a) A-3, B-3, C-1, D-2
+(b) A-2, B-3, C-1, D-2
+(c) A-2, B-2, C-1, D-2
+(d) A-2, B-3, C-3, D-2
+
+--- CORRECT (tick this) ---
+(b) A-2, B-3, C-1, D-2
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Nellore and Kurnool → Tirupati region; Prakasam → Amaravati region; Kakinada → Visakhapatnam region. Trap: Nellore is coastal but grouped with Tirupati, not Amaravati.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following statements about the Amaravati Economic Region (AER):
+I. Its Implementation Committee is chaired by the CEO of the AER, with the APCRDA Commissioner as member-convener.
+II. It has about 35% of Andhra Pradesh's coastline.
+III. It is a new administrative division that replaces district collectors.
+IV. Quantum Valley in Amaravati is one of its planned projects.
+
+--- QUESTION ---
+Q7. Consider the following statements about the Amaravati Economic Region (AER): (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and IV only
+(c) I, III and IV only
+(d) I, II and IV only
+
+--- CORRECT (tick this) ---
+(d) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the AER is a planning and investment framework — the nine district collectors are members of its committee, not replaced by it.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. A newspaper says: 'SAMPADA shows anaemia has fallen sharply compared with earlier national surveys.' Which of the following, if true, is the BEST reason to be careful about this conclusion?
+I. SAMPADA used venous blood and automated analysers, while earlier surveys used point-of-care devices.
+II. SAMPADA covered 183 districts in 35 States/UTs.
+III. Most anaemia cases found were mild or moderate.
+
+--- QUESTION ---
+Q8. A newspaper says: 'SAMPADA shows anaemia has fallen sharply compared with earlier national surveys.' Which of the following, if true, is the BEST reason to be careful about this conclusion? (statements in the message above)
+
+--- OPTIONS ---
+(a) II only
+(b) III only
+(c) I only
+(d) II and III only
+
+--- CORRECT (tick this) ---
+(c) I only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Only I questions the comparison: a change in measuring method can change the numbers by itself. II and III are true facts but do not make the comparison unreliable.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. With reference to anaemia findings of the SAMPADA survey, consider the following statements:
+I. Among women aged 15–49, Andhra Pradesh recorded the highest prevalence in India.
+II. Kerala recorded the lowest prevalence among women aged 15–49.
+III. Anaemia among women in Andhra Pradesh (15–49) is higher than in Telangana.
+IV. For women, the WHO haemoglobin cut-off used is 12.0 g/dL.
+
+--- QUESTION ---
+Q9. With reference to anaemia findings of the SAMPADA survey, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) II, III and IV only
+(b) I, II and III only
+(c) I and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) II, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is the trap: for women 15–49 West Bengal is highest (72.4%); AP (68.5%) is high but tops the list only for women aged 60+ (81.7%).
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Consider the following statements based on the NSO's QBUSE (July–September 2026):
+I. The number of establishments grew faster than the number of workers.
+II. Urban areas grew faster than rural areas in both establishments and employment.
+III. 'Other services' recorded the highest growth among the sectors.
+IV. Women formed more than 31% of the workforce.
+
+--- QUESTION ---
+Q10. Consider the following statements based on the NSO's QBUSE (July–September 2026): (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I, III and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: urban led in establishments (+22.05% vs +16.05%), but rural led in employment (+17.52% vs +16.30%). I: +18.81% vs +16.86%.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-24&tab=quiz

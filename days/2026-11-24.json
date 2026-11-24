@@ -1,0 +1,2392 @@
+{
+ "date": "2026-11-24",
+ "day": {
+  "en": "Tuesday, 24 November 2026",
+  "te": "మంగళవారం, 24 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Martyrdom",
+   "en": "suffering death for one's faith or principles",
+   "te": "విశ్వాసం లేదా సిద్ధాంతం కోసం ప్రాణత్యాగం (బలిదానం)",
+   "ex": "Guru Tegh Bahadur's martyrdom in 1675 at Chandni Chowk is remembered as Shaheedi Diwas.",
+   "topic": "gtb"
+  },
+  {
+   "w": "Riverine",
+   "en": "relating to or happening on a river",
+   "te": "నదికి సంబంధించిన / నదిపై జరిగే",
+   "ex": "Lachit Borphukan used riverine tactics on the narrow channels of the Brahmaputra at Saraighat.",
+   "topic": "lachit"
+  },
+  {
+   "w": "Heresy",
+   "en": "a belief strongly against accepted religious teaching",
+   "te": "ప్రచలిత మత బోధనలకు విరుద్ధమైన అభిప్రాయం (మత ద్రోహం)",
+   "ex": "Orthodox Christians condemned Darwin's Origin of Species as heresy.",
+   "topic": "darwin"
+  },
+  {
+   "w": "Prevalence",
+   "en": "how common something is in a population, usually as a percentage",
+   "te": "జనాభాలో ఒక సమస్య ఎంత మేరకు ఉందో తెలిపే శాతం (వ్యాప్తి)",
+   "ex": "The SAMPADA survey found anaemia prevalence of 55.9% among women aged 15–49.",
+   "topic": "anaemia"
+  },
+  {
+   "w": "Unincorporated",
+   "en": "a business not registered as a company or corporation",
+   "te": "కంపెనీగా నమోదు కాని (అసంఘటిత) వ్యాపార సంస్థ",
+   "ex": "Unincorporated enterprises rose to 9.47 crore establishments in July–September 2026.",
+   "topic": "informal"
+  }
+ ],
+ "items": [
+  {
+   "id": "gtb",
+   "kind": "day",
+   "color": "#8a4b14",
+   "icon": "shield",
+   "cf": [
+    0,
+    2,
+    3,
+    4,
+    6
+   ],
+   "tag": {
+    "en": "Martyrdom day (Shaheedi Diwas) · 1675",
+    "te": "బలిదాన దినం (షహీదీ దివస్) · 1675"
+   },
+   "title": {
+    "en": "Guru Tegh Bahadur — the ninth Sikh Guru",
+    "te": "గురు తేగ్ బహాదూర్ — తొమ్మిదో సిక్కు గురువు"
+   },
+   "line": {
+    "en": "He refused to give up his faith and was executed on Aurangzeb's orders in 1675 — a symbol of freedom of conscience.",
+    "te": "తన విశ్వాసాన్ని వదులుకోవడానికి నిరాకరించడంతో 1675లో ఔరంగజేబు ఆదేశాలతో ఆయనను ఉరితీశారు — మనస్సాక్షి స్వేచ్ఛకు ప్రతీక."
+   },
+   "easy": [
+    {
+     "en": "Guru Tegh Bahadur was the ninth of the ten Sikh Gurus. He was born in Amritsar on 21 April 1621 to Guru Hargobind, the sixth Guru, who introduced the idea of 'warrior saints'. His childhood name was Tyag Mal. At 13 he fought bravely against a Mughal chieftain, and that earned him the name Tegh Bahadur.",
+     "te": "గురు తేగ్ బహాదూర్ పది మంది సిక్కు గురువుల్లో తొమ్మిదో వారు. 1621 ఏప్రిల్ 21న అమృత్‌సర్‌లో ఆరో గురువు గురు హరగోవింద్‌కు జన్మించారు. 'యోధ సాధువులు' అనే భావనను తెచ్చింది గురు హరగోవింద్. చిన్నప్పటి పేరు త్యాగ్ మల్. 13 ఏళ్ల వయసులో ఒక మొఘల్ సర్దారుతో ధైర్యంగా పోరాడటంతో 'తేగ్ బహాదూర్' అనే పేరు వచ్చింది."
+    },
+    {
+     "en": "In 1665 he set up his centre at present-day Anandpur Sahib. He then travelled east — Mathura, Agra, Benares, Allahabad, Patna, Dhaka and Puri. His son, Guru Gobind Singh, was born at Patna in 1666. On the way back, at the request of Raja Ram Singh of Amer, he helped make a truce with the Ahom king; Gurdwara Dhubri Sahib on the Brahmaputra marks it.",
+     "te": "1665లో ఇప్పటి ఆనంద్‌పూర్ సాహిబ్‌లో తన కేంద్రాన్ని ఏర్పాటు చేశారు. తర్వాత తూర్పు వైపు పర్యటించారు — మథుర, ఆగ్రా, బనారస్, అలహాబాద్, పాట్నా, ఢాకా, పూరి. ఆయన కుమారుడు గురు గోవింద్ సింగ్ 1666లో పాట్నాలో జన్మించారు. తిరుగు ప్రయాణంలో ఆమేర్ రాజు రామ్ సింగ్ కోరిక మేరకు అహోం రాజుతో సంధికి సహాయపడ్డారు; బ్రహ్మపుత్ర ఒడ్డున ఉన్న గురుద్వారా ధుబ్రీ సాహిబ్ దీనికి గుర్తు."
+    },
+    {
+     "en": "He refused to convert to Islam, so Aurangzeb ordered his public execution in 1675. He was beheaded at Chandni Chowk, Delhi, along with his companions Bhai Mati Das, Bhai Sati Das and Bhai Dyala. Gurdwara Sis Ganj was built on that spot in 1784. He composed 116 shabads in 15 ragas, included in the Adi Granth.",
+     "te": "ఇస్లాం స్వీకరించడానికి నిరాకరించడంతో 1675లో ఔరంగజేబు ఆయనకు బహిరంగ మరణశిక్ష విధించాడు. ఢిల్లీలోని చాందినీ చౌక్‌లో ఆయనను, అనుచరులు భాయ్ మతీ దాస్, భాయ్ సతీ దాస్, భాయ్ దయాలాలను హతమార్చారు. ఆ స్థలంలో 1784లో గురుద్వారా సీస్ గంజ్ నిర్మించారు. ఆయన 15 రాగాల్లో 116 శబద్‌లు రచించారు; అవి ఆది గ్రంథ్‌లో ఉన్నాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "21 April 1621, Amritsar",
+      "te": "21 ఏప్రిల్ 1621, అమృత్‌సర్"
+     }
+    ],
+    [
+     {
+      "en": "Father",
+      "te": "తండ్రి"
+     },
+     {
+      "en": "Guru Hargobind — 6th Guru, 'warrior saints'",
+      "te": "గురు హరగోవింద్ — 6వ గురువు, 'యోధ సాధువులు'"
+     }
+    ],
+    [
+     {
+      "en": "Position",
+      "te": "స్థానం"
+     },
+     {
+      "en": "9th of the 10 Sikh Gurus",
+      "te": "10 మంది సిక్కు గురువుల్లో 9వ వారు"
+     }
+    ],
+    [
+     {
+      "en": "1665",
+      "te": "1665"
+     },
+     {
+      "en": "Centre at present-day Anandpur Sahib",
+      "te": "ఇప్పటి ఆనంద్‌పూర్ సాహిబ్‌లో కేంద్రం"
+     }
+    ],
+    [
+     {
+      "en": "1675",
+      "te": "1675"
+     },
+     {
+      "en": "Executed at Chandni Chowk, Delhi, on Aurangzeb's orders",
+      "te": "ఔరంగజేబు ఆదేశంతో ఢిల్లీ చాందినీ చౌక్‌లో బలిదానం"
+     }
+    ],
+    [
+     {
+      "en": "Memorial",
+      "te": "స్మారకం"
+     },
+     {
+      "en": "Gurdwara Sis Ganj (built 1784) at the execution site",
+      "te": "బలిదాన స్థలంలో గురుద్వారా సీస్ గంజ్ (1784)"
+     }
+    ],
+    [
+     {
+      "en": "Writings",
+      "te": "రచనలు"
+     },
+     {
+      "en": "116 shabads in 15 ragas — in the Adi Granth",
+      "te": "15 రాగాల్లో 116 శబద్‌లు — ఆది గ్రంథ్‌లో"
+     }
+    ],
+    [
+     {
+      "en": "Son",
+      "te": "కుమారుడు"
+     },
+     {
+      "en": "Guru Gobind Singh (10th Guru, founded the Khalsa), born Patna 1666",
+      "te": "గురు గోవింద్ సింగ్ (10వ గురువు, ఖాల్సా స్థాపకుడు), పాట్నాలో 1666లో జననం"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Sikh Gurus & Delhi gurdwaras",
+     "te": "లింక్ చెయిన్ · సిక్కు గురువులు & ఢిల్లీ గురుద్వారాలు"
+    },
+    "l": [
+     {
+      "en": "Guru Nanak Dev (1st) → Guru Hargobind (6th, warrior saints) → Guru Tegh Bahadur (9th) → Guru Gobind Singh (10th, Khalsa)",
+      "te": "గురు నానక్ దేవ్ (1వ) → గురు హరగోవింద్ (6వ, యోధ సాధువులు) → గురు తేగ్ బహాదూర్ (9వ) → గురు గోవింద్ సింగ్ (10వ, ఖాల్సా)"
+     },
+     {
+      "en": "Gurdwara Sis Ganj = execution site (Chandni Chowk); Gurdwara Bangla Sahib = on land given by Raja Jai Singh of Amer",
+      "te": "గురుద్వారా సీస్ గంజ్ = బలిదాన స్థలం (చాందినీ చౌక్); గురుద్వారా బంగ్లా సాహిబ్ = ఆమేర్ రాజు జై సింగ్ ఇచ్చిన స్థలంలో"
+     },
+     {
+      "en": "Guru Gobind Singh wrote about his father's sacrifice in 'Vichitra Natak'",
+      "te": "తండ్రి త్యాగం గురించి గురు గోవింద్ సింగ్ 'విచిత్ర నాటక్'లో రాశారు"
+     },
+     {
+      "en": "Link to today's Lachit item: the same Raja Ram Singh of Amer led the Mughal army at Saraighat (1671)",
+      "te": "నేటి లచిత్ అంశంతో లింక్: అదే ఆమేర్ రాజు రామ్ సింగ్ సరాయ్‌ఘాట్ (1671)లో మొఘల్ సైన్యానికి నాయకత్వం వహించాడు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Sis Ganj (execution site) ≠ Bangla Sahib (Jai Singh's land). Guru Gobind Singh was born at Patna, not Anandpur Sahib. Tegh Bahadur was the 9th Guru, son of the 6th — not son of the 8th.",
+    "te": "సీస్ గంజ్ (బలిదాన స్థలం) ≠ బంగ్లా సాహిబ్ (జై సింగ్ స్థలం). గురు గోవింద్ సింగ్ పాట్నాలో జన్మించారు, ఆనంద్‌పూర్ సాహిబ్‌లో కాదు. తేగ్ బహాదూర్ 9వ గురువు, 6వ గురువు కుమారుడు — 8వ గురువు కుమారుడు కాదు."
+   },
+   "tip": {
+    "en": "Code 21-65-66-75: born 1621 → Anandpur 1665 → son born 1666 → martyr 1675.",
+    "te": "కోడ్ 21-65-66-75: జననం 1621 → ఆనంద్‌పూర్ 1665 → కుమారుడి జననం 1666 → బలిదానం 1675."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Guru Tegh Bahadur, consider the following statements:",
+     "te": "గురు తేగ్ బహాదూర్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. He was the son of Guru Hargobind, the sixth Sikh Guru.",
+      "te": "I. ఆయన ఆరో సిక్కు గురువు గురు హరగోవింద్ కుమారుడు."
+     },
+     {
+      "en": "II. He set up his centre at present-day Anandpur Sahib in 1665.",
+      "te": "II. 1665లో ఇప్పటి ఆనంద్‌పూర్ సాహిబ్‌లో తన కేంద్రాన్ని ఏర్పాటు చేశారు."
+     },
+     {
+      "en": "III. Gurdwara Bangla Sahib stands at the place of his execution in Chandni Chowk.",
+      "te": "III. చాందినీ చౌక్‌లో ఆయన బలిదాన స్థలంలో గురుద్వారా బంగ్లా సాహిబ్ ఉంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and II are correct. III is wrong: the execution site has Gurdwara Sis Ganj (1784); Bangla Sahib is on land given by Raja Jai Singh of Amer.",
+     "te": "I, II సరైనవి. III తప్పు: బలిదాన స్థలంలో ఉన్నది గురుద్వారా సీస్ గంజ్ (1784); బంగ్లా సాహిబ్ ఆమేర్ రాజు జై సింగ్ ఇచ్చిన స్థలంలో ఉంది."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "His life in dates",
+      "te": "తేదీల్లో ఆయన జీవితం"
+     },
+     "items": [
+      {
+       "y": "1621",
+       "t": {
+        "en": "Born at Amritsar",
+        "te": "అమృత్‌సర్‌లో జననం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1632",
+       "t": {
+        "en": "Marries Mata Gujri at Kartarpur",
+        "te": "కర్తార్‌పూర్‌లో మాతా గుజ్రీతో వివాహం"
+       }
+      },
+      {
+       "y": "1665",
+       "t": {
+        "en": "Centre at Anandpur Sahib",
+        "te": "ఆనంద్‌పూర్ సాహిబ్‌లో కేంద్రం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1666",
+       "t": {
+        "en": "Son Gobind Singh born at Patna",
+        "te": "పాట్నాలో కుమారుడు గోవింద్ సింగ్ జననం"
+       }
+      },
+      {
+       "y": "1675",
+       "t": {
+        "en": "Martyrdom at Chandni Chowk, Delhi",
+        "te": "ఢిల్లీ చాందినీ చౌక్‌లో బలిదానం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1784",
+       "t": {
+        "en": "Gurdwara Sis Ganj built",
+        "te": "గురుద్వారా సీస్ గంజ్ నిర్మాణం"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = most-asked dates.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే తేదీలు."
+     }
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Places in his life",
+      "te": "ఆయన జీవితంలోని ప్రదేశాలు"
+     },
+     "view": "india",
+     "hl": [
+      "Punjab"
+     ],
+     "hlc": "#8a4b14",
+     "pts": [
+      {
+       "ll": [
+        31.63,
+        74.87
+       ],
+       "t": {
+        "en": "Amritsar (born)",
+        "te": "అమృత్‌సర్ (జననం)"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        31.24,
+        76.5
+       ],
+       "t": {
+        "en": "Anandpur Sahib",
+        "te": "ఆనంద్‌పూర్ సాహిబ్"
+       }
+      },
+      {
+       "ll": [
+        28.65,
+        77.23
+       ],
+       "t": {
+        "en": "Delhi (martyrdom)",
+        "te": "ఢిల్లీ (బలిదానం)"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        25.59,
+        85.14
+       ],
+       "t": {
+        "en": "Patna",
+        "te": "పాట్నా"
+       }
+      },
+      {
+       "ll": [
+        26.02,
+        89.98
+       ],
+       "t": {
+        "en": "Dhubri Sahib",
+        "te": "ధుబ్రీ సాహిబ్"
+       }
+      }
+     ],
+     "rivers": [
+      "Brahmaputra"
+     ],
+     "cap": {
+      "en": "From Punjab to the Brahmaputra: his travels linked Sikh centres across north and east India.",
+      "te": "పంజాబ్ నుంచి బ్రహ్మపుత్ర వరకు: ఆయన పర్యటనలు ఉత్తర, తూర్పు భారతంలో సిక్కు కేంద్రాలను కలిపాయి."
+     },
+     "src": "cards/2026-11-24/map-gtb-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "All India Radio (News On AIR) — Nation observes 350th Martyrdom Day of Guru Tegh Bahadur, 24 Nov 2025",
+     "u": "https://www.newsonair.gov.in/nation-observes-350th-martyrdom-day-of-guru-tegh-bahadur/"
+    },
+    {
+     "t": "Legacy IAS — Guru Tegh Bahadur: Shaheedi Divas (based on The Indian Express) — cross-check",
+     "u": "https://www.legacyias.com/guru-tegh-bahadur-shaheedi-divas/"
+    }
+   ]
+  },
+  {
+   "id": "lachit",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "shield",
+   "cf": [
+    0,
+    1,
+    3,
+    4,
+    6
+   ],
+   "tag": {
+    "en": "Birth anniversary · 24 Nov 1622 · Lachit Divas",
+    "te": "జయంతి · 24 నవంబర్ 1622 · లచిత్ దివస్"
+   },
+   "title": {
+    "en": "Lachit Borphukan — hero of Saraighat",
+    "te": "లచిత్ బర్ఫుకన్ — సరాయ్‌ఘాట్ వీరుడు"
+   },
+   "line": {
+    "en": "The Ahom commander who used the Brahmaputra itself as a weapon and stopped the Mughal advance into the Northeast in 1671.",
+    "te": "బ్రహ్మపుత్ర నదినే ఆయుధంగా వాడి 1671లో ఈశాన్య భారతంలోకి మొఘల్ విస్తరణను ఆపిన అహోం సేనాని."
+   },
+   "easy": [
+    {
+     "en": "The Ahom kingdom ruled present-day Assam. After Mughal general Mir Jumla's invasion, King Chakradhwaj Singha made Lachit the Borphukan — viceroy of western Assam and commander-in-chief of the Ahom army — to win back the lost land. Lachit recaptured Guwahati in November 1667.",
+     "te": "ఇప్పటి అస్సాంను అహోం రాజ్యం పాలించేది. మొఘల్ సేనాని మీర్ జుమ్లా దండయాత్ర తర్వాత, కోల్పోయిన భూమిని తిరిగి పొందడానికి రాజు చక్రధ్వజ సింహ లచిత్‌ను బర్ఫుకన్‌గా — పశ్చిమ అస్సాం రాజప్రతినిధి, అహోం సైన్యాధిపతిగా — నియమించాడు. 1667 నవంబర్‌లో లచిత్ గువాహటిని తిరిగి స్వాధీనం చేసుకున్నారు."
+    },
+    {
+     "en": "Aurangzeb sent a big army under Raja Ram Singh I of Amer (Jaipur). The Ahoms lost at Alaboi (1669), but Lachit learned from it. At Saraighat (March 1671) he fought on the river — small fast boats in the narrow channels of the Brahmaputra. Though very ill, he came out on a war boat to lead. The Mughals retreated beyond the Manas river.",
+     "te": "ఔరంగజేబు ఆమేర్ (జైపూర్) రాజు రామ్ సింగ్ I నాయకత్వంలో పెద్ద సైన్యాన్ని పంపాడు. అలాబోయ్ (1669)లో అహోంలు ఓడిపోయారు, కానీ లచిత్ దాని నుంచి పాఠం నేర్చుకున్నారు. సరాయ్‌ఘాట్ (మార్చి 1671)లో నదిపైనే పోరాడారు — బ్రహ్మపుత్ర ఇరుకు పాయల్లో చిన్న, వేగవంతమైన పడవలతో. తీవ్ర అనారోగ్యంలోనూ యుద్ధ పడవపై వచ్చి సైన్యాన్ని నడిపించారు. మొఘలులు మానస్ నది అవతలికి వెనుదిరిగారు."
+    },
+    {
+     "en": "He died in 1672, about a year after Saraighat, and was buried in a maidam (Ahom burial mound) at Holongapar, Jorhat. His birthday, 24 November, is Lachit Divas. The best cadet of the NDA gets the Lachit Borphukan Gold Medal.",
+     "te": "సరాయ్‌ఘాట్ తర్వాత సుమారు ఏడాదికి, 1672లో మరణించారు; జోర్హాట్ జిల్లా హోలోంగాపార్‌లో 'మైదాం' (అహోం సమాధి దిబ్బ)లో ఖననం చేశారు. ఆయన జన్మదినం నవంబర్ 24 లచిత్ దివస్. NDAలో ఉత్తమ క్యాడెట్‌కు 'లచిత్ బర్ఫుకన్ బంగారు పతకం' ఇస్తారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "24 November 1622, Charaideo (Assam)",
+      "te": "24 నవంబర్ 1622, చరాయిదేవ్ (అస్సాం)"
+     }
+    ],
+    [
+     {
+      "en": "Title",
+      "te": "పదవి"
+     },
+     {
+      "en": "Borphukan — viceroy of western Assam & Ahom army chief",
+      "te": "బర్ఫుకన్ — పశ్చిమ అస్సాం రాజప్రతినిధి & అహోం సైన్యాధిపతి"
+     }
+    ],
+    [
+     {
+      "en": "Nov 1667",
+      "te": "నవంబర్ 1667"
+     },
+     {
+      "en": "Recaptured Guwahati",
+      "te": "గువాహటి పునఃస్వాధీనం"
+     }
+    ],
+    [
+     {
+      "en": "March 1671",
+      "te": "మార్చి 1671"
+     },
+     {
+      "en": "Battle of Saraighat — defeated Mughals under Ram Singh I",
+      "te": "సరాయ్‌ఘాట్ యుద్ధం — రామ్ సింగ్ I నేతృత్వంలోని మొఘలులపై విజయం"
+     }
+    ],
+    [
+     {
+      "en": "Tactics",
+      "te": "వ్యూహం"
+     },
+     {
+      "en": "River (naval) warfare, guerrilla attacks, fortifications",
+      "te": "నదీ (నౌకా) యుద్ధం, గెరిల్లా దాడులు, కోటలు"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "1672 — maidam at Holongapar, Jorhat",
+      "te": "1672 — జోర్హాట్ హోలోంగాపార్‌లో మైదాం"
+     }
+    ],
+    [
+     {
+      "en": "Statue of Valour",
+      "te": "స్టాచ్యూ ఆఫ్ వాలర్"
+     },
+     {
+      "en": "125 ft bronze, Hollongapar (Jorhat), unveiled 9 March 2024; sculptor Ram V. Sutar",
+      "te": "125 అడుగుల కాంస్య విగ్రహం, హోలోంగాపార్ (జోర్హాట్), 9 మార్చి 2024న ఆవిష్కరణ; శిల్పి రామ్ వి. సుతార్"
+     }
+    ],
+    [
+     {
+      "en": "Honour",
+      "te": "గౌరవం"
+     },
+     {
+      "en": "Lachit Borphukan Gold Medal — best NDA cadet",
+      "te": "లచిత్ బర్ఫుకన్ బంగారు పతకం — NDA ఉత్తమ క్యాడెట్"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Ahoms & Mughals",
+     "te": "లింక్ చెయిన్ · అహోంలు & మొఘలులు"
+    },
+    "l": [
+     {
+      "en": "Mir Jumla's invasion of Assam came first → Lachit appointed to recover the land",
+      "te": "మొదట మీర్ జుమ్లా అస్సాం దండయాత్ర → భూమి తిరిగి పొందడానికి లచిత్ నియామకం"
+     },
+     {
+      "en": "Alaboi 1669 (Ahom loss) → Saraighat 1671 (Ahom victory)",
+      "te": "అలాబోయ్ 1669 (అహోంల ఓటమి) → సరాయ్‌ఘాట్ 1671 (అహోంల విజయం)"
+     },
+     {
+      "en": "Raja Ram Singh of Amer also kept Guru Tegh Bahadur at his Delhi house and asked him to broker a truce with the Ahom king",
+      "te": "ఆమేర్ రాజు రామ్ సింగ్ గురు తేగ్ బహాదూర్‌ను ఢిల్లీలో తన ఇంట్లో ఉంచుకున్నాడు, అహోం రాజుతో సంధి కుదర్చమని కోరాడు"
+     },
+     {
+      "en": "Ram Sutar also made the Statue of Unity (Sardar Patel)",
+      "te": "స్టాచ్యూ ఆఫ్ యూనిటీ (సర్దార్ పటేల్)ని రూపొందించింది కూడా రామ్ సుతారే"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Saraighat 1671 = Ahom WIN; Alaboi 1669 = Ahom LOSS. The Mughal commander at Saraighat was Ram Singh I, not Mir Jumla. Lachit Divas marks his BIRTH (24 Nov), not the battle.",
+    "te": "సరాయ్‌ఘాట్ 1671 = అహోంల విజయం; అలాబోయ్ 1669 = అహోంల ఓటమి. సరాయ్‌ఘాట్‌లో మొఘల్ సేనాని రామ్ సింగ్ I, మీర్ జుమ్లా కాదు. లచిత్ దివస్ ఆయన జన్మదినం (24 నవంబర్), యుద్ధ దినం కాదు."
+   },
+   "tip": {
+    "en": "'67 take, '69 break, '71 make': Guwahati retaken 1667, lost at Alaboi 1669, won Saraighat 1671.",
+    "te": "'67 స్వాధీనం, '69 ఓటమి, '71 విజయం': గువాహటి 1667, అలాబోయ్ 1669, సరాయ్‌ఘాట్ 1671."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Lachit Borphukan, consider the following statements:",
+     "te": "లచిత్ బర్ఫుకన్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. He defeated a Mughal army led by Mir Jumla at Saraighat in 1671.",
+      "te": "I. 1671లో సరాయ్‌ఘాట్‌లో మీర్ జుమ్లా నేతృత్వంలోని మొఘల్ సైన్యాన్ని ఓడించారు."
+     },
+     {
+      "en": "II. The Battle of Saraighat was fought mainly on the Brahmaputra river.",
+      "te": "II. సరాయ్‌ఘాట్ యుద్ధం ప్రధానంగా బ్రహ్మపుత్ర నదిపై జరిగింది."
+     },
+     {
+      "en": "III. The best cadet of the National Defence Academy receives a gold medal named after him.",
+      "te": "III. జాతీయ రక్షణ అకాడమీ (NDA) ఉత్తమ క్యాడెట్‌కు ఆయన పేరిట బంగారు పతకం ఇస్తారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II and III are correct. I is wrong: at Saraighat the Mughals were led by Raja Ram Singh I of Amer; Mir Jumla's invasion came earlier.",
+     "te": "II, III సరైనవి. I తప్పు: సరాయ్‌ఘాట్‌లో మొఘలులకు ఆమేర్ రాజు రామ్ సింగ్ I నాయకత్వం వహించాడు; మీర్ జుమ్లా దండయాత్ర అంతకు ముందే జరిగింది."
+    }
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Where Lachit fought",
+      "te": "లచిత్ పోరాడిన ప్రాంతం"
+     },
+     "view": "northeast",
+     "hl": [
+      "Assam"
+     ],
+     "hlc": "#1d4f91",
+     "pts": [
+      {
+       "ll": [
+        26.14,
+        91.74
+       ],
+       "t": {
+        "en": "Guwahati (Saraighat)",
+        "te": "గువాహటి (సరాయ్‌ఘాట్)"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        26.75,
+        94.22
+       ],
+       "t": {
+        "en": "Jorhat (Statue of Valour)",
+        "te": "జోర్హాట్ (స్టాచ్యూ ఆఫ్ వాలర్)"
+       }
+      }
+     ],
+     "rivers": [
+      "Brahmaputra"
+     ],
+     "cap": {
+      "en": "Saraighat is on the Brahmaputra near Guwahati; the Mughals came upriver from the west.",
+      "te": "సరాయ్‌ఘాట్ గువాహటి దగ్గర బ్రహ్మపుత్రపై ఉంది; మొఘలులు పడమర నుంచి నది మీదుగా వచ్చారు."
+     },
+     "src": "cards/2026-11-24/map-lachit-1-{m}.svg"
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "From defeat to victory",
+      "te": "ఓటమి నుంచి విజయానికి"
+     },
+     "items": [
+      {
+       "i": "⚔️",
+       "t": {
+        "en": "Mir Jumla's invasion",
+        "te": "మీర్ జుమ్లా దండయాత్ర"
+       }
+      },
+      {
+       "i": "🏰",
+       "t": {
+        "en": "1667: Guwahati retaken",
+        "te": "1667: గువాహటి పునఃస్వాధీనం"
+       }
+      },
+      {
+       "i": "📉",
+       "t": {
+        "en": "1669: loss at Alaboi",
+        "te": "1669: అలాబోయ్‌లో ఓటమి"
+       }
+      },
+      {
+       "i": "🚣",
+       "t": {
+        "en": "1671: river war at Saraighat",
+        "te": "1671: సరాయ్‌ఘాట్ నదీ యుద్ధం"
+       }
+      },
+      {
+       "i": "🏆",
+       "t": {
+        "en": "Mughals pushed beyond the Manas",
+        "te": "మానస్ అవతలికి మొఘలులు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Drishti IAS (source: PIB) — Lachit Borphukan, 25 Nov 2025 — cross-check",
+     "u": "https://www.drishtiias.com/daily-updates/daily-news-analysis/lachit-borphukan-3"
+    },
+    {
+     "t": "Vajiram & Ravi — Lachit Borphukan (1622–1672): Biography, Battles, Statue, Death — cross-check",
+     "u": "https://vajiramandravi.com/current-affairs/lachit-borphukan-1622-1672/"
+    }
+   ]
+  },
+  {
+   "id": "darwin",
+   "kind": "day",
+   "color": "#2f6b2f",
+   "icon": "leaf",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "tag": {
+    "en": "On this day · 24 Nov 1859",
+    "te": "ఈ రోజు · 24 నవంబర్ 1859"
+   },
+   "title": {
+    "en": "Darwin's 'On the Origin of Species' is published",
+    "te": "డార్విన్ 'ఆన్ ది ఆరిజిన్ ఆఫ్ స్పీషీస్' ప్రచురణ"
+   },
+   "line": {
+    "en": "The book that explained HOW new species form — by natural selection — and changed biology for ever.",
+    "te": "కొత్త జాతులు ఎలా ఏర్పడతాయో — ప్రకృతి వరణం ద్వారా — వివరించి జీవశాస్త్రాన్ని శాశ్వతంగా మార్చిన పుస్తకం."
+   },
+   "easy": [
+    {
+     "en": "Charles Darwin's book 'On the Origin of Species by Means of Natural Selection' came out in England on 24 November 1859. All 1,250 copies of the first edition sold out in a single day; a second edition of 3,000 copies followed on 7 January 1860.",
+     "te": "చార్లెస్ డార్విన్ రాసిన 'ఆన్ ది ఆరిజిన్ ఆఫ్ స్పీషీస్ బై మీన్స్ ఆఫ్ నేచురల్ సెలెక్షన్' 1859 నవంబర్ 24న ఇంగ్లాండ్‌లో విడుదలైంది. మొదటి ముద్రణలోని 1,250 ప్రతులూ ఒక్క రోజులోనే అమ్ముడయ్యాయి; 1860 జనవరి 7న 3,000 ప్రతులతో రెండో ముద్రణ వచ్చింది."
+    },
+    {
+     "en": "The idea in simple words: living things vary a little. Variations that help in the 'struggle for existence' let those organisms leave more young ones. These useful traits are inherited, and over a very long time a new species forms. This is natural selection.",
+     "te": "సరళంగా చెప్పాలంటే: జీవుల్లో చిన్న చిన్న తేడాలు (వైవిధ్యాలు) ఉంటాయి. 'జీవన పోరాటం'లో ఉపయోగపడే తేడాలున్న జీవులు ఎక్కువ సంతానాన్ని వదులుతాయి. ఆ ఉపయోగకర లక్షణాలు తర్వాతి తరాలకు వస్తాయి; చాలా కాలానికి కొత్త జాతి ఏర్పడుతుంది. ఇదే ప్రకృతి వరణం (నేచురల్ సెలెక్షన్)."
+    },
+    {
+     "en": "Evolution itself was an older idea (Erasmus Darwin, Lamarck). Darwin's contribution was the mechanism, backed by evidence from his five-year voyage on HMS Beagle in the 1830s, including the Galapagos Islands. Alfred Russel Wallace reached a similar theory; their work was presented together at the Linnean Society, London, in July 1858.",
+     "te": "పరిణామం అనే ఆలోచన ముందే ఉంది (ఎరాస్మస్ డార్విన్, లామార్క్). డార్విన్ అందించింది దాని విధానం (మెకానిజం) — 1830లలో HMS బీగల్ నౌకపై ఐదేళ్ల యాత్ర (గాలపగోస్ దీవులు సహా) నుంచి సేకరించిన ఆధారాలతో. ఆల్ఫ్రెడ్ రసెల్ వాలెస్ కూడా ఇలాంటి సిద్ధాంతానికే చేరారు; 1858 జూలైలో లండన్ లిన్నియన్ సొసైటీలో ఇద్దరి పనినీ కలిపి సమర్పించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Full title",
+      "te": "పూర్తి పేరు"
+     },
+     {
+      "en": "On the Origin of Species by Means of Natural Selection",
+      "te": "ఆన్ ది ఆరిజిన్ ఆఫ్ స్పీషీస్ బై మీన్స్ ఆఫ్ నేచురల్ సెలెక్షన్"
+     }
+    ],
+    [
+     {
+      "en": "Published",
+      "te": "ప్రచురణ"
+     },
+     {
+      "en": "24 November 1859, England",
+      "te": "24 నవంబర్ 1859, ఇంగ్లాండ్"
+     }
+    ],
+    [
+     {
+      "en": "First edition",
+      "te": "మొదటి ముద్రణ"
+     },
+     {
+      "en": "1,250 copies — sold out in one day",
+      "te": "1,250 ప్రతులు — ఒక్క రోజులో అమ్ముడయ్యాయి"
+     }
+    ],
+    [
+     {
+      "en": "Evidence",
+      "te": "ఆధారాలు"
+     },
+     {
+      "en": "5-year HMS Beagle voyage (1830s), incl. Galapagos Islands",
+      "te": "HMS బీగల్ ఐదేళ్ల యాత్ర (1830లు), గాలపగోస్ దీవులు సహా"
+     }
+    ],
+    [
+     {
+      "en": "Co-discoverer",
+      "te": "సహ-ఆవిష్కర్త"
+     },
+     {
+      "en": "Alfred Russel Wallace — joint presentation, Linnean Society, July 1858",
+      "te": "ఆల్ఫ్రెడ్ రసెల్ వాలెస్ — లిన్నియన్ సొసైటీలో ఉమ్మడి సమర్పణ, జూలై 1858"
+     }
+    ],
+    [
+     {
+      "en": "Influences",
+      "te": "ప్రభావాలు"
+     },
+     {
+      "en": "Lamarck (naturalist) and Malthus (economist)",
+      "te": "లామార్క్ (ప్రకృతి శాస్త్రవేత్త), మాల్థస్ (ఆర్థికవేత్త)"
+     }
+    ],
+    [
+     {
+      "en": "Later book",
+      "te": "తర్వాతి పుస్తకం"
+     },
+     {
+      "en": "The Descent of Man (1871) — human evolution",
+      "te": "ది డిసెంట్ ఆఫ్ మ్యాన్ (1871) — మానవ పరిణామం"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "1882; buried in Westminster Abbey",
+      "te": "1882; వెస్ట్‌మిన్‌స్టర్ అబేలో ఖననం"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Evolution (General Science)",
+     "te": "లింక్ చెయిన్ · పరిణామం (జనరల్ సైన్స్)"
+    },
+    "l": [
+     {
+      "en": "Lamarck: earlier evolution idea ('ladder' of life) → Darwin: mechanism = natural selection",
+      "te": "లామార్క్: ముందటి పరిణామ ఆలోచన (జీవ 'నిచ్చెన') → డార్విన్: విధానం = ప్రకృతి వరణం"
+     },
+     {
+      "en": "Malthus (population pressure) gave Darwin the idea of the 'struggle for existence'",
+      "te": "మాల్థస్ (జనాభా ఒత్తిడి) నుంచి డార్విన్‌కు 'జీవన పోరాటం' ఆలోచన వచ్చింది"
+     },
+     {
+      "en": "Natural forces Darwin named: geographical isolation, sexual selection",
+      "te": "డార్విన్ గుర్తించిన సహజ శక్తులు: భౌగోళిక ఏకాంతం, లైంగిక వరణం"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Darwin did NOT invent the idea of evolution — he explained its mechanism. Human evolution is in 'The Descent of Man' (1871), not in the Origin (1859). Wallace, not Lamarck, independently reached natural selection.",
+    "te": "పరిణామ ఆలోచనను డార్విన్ కనిపెట్టలేదు — దాని విధానాన్ని వివరించారు. మానవ పరిణామం 'ది డిసెంట్ ఆఫ్ మ్యాన్' (1871)లో ఉంది, ఆరిజిన్ (1859)లో కాదు. ప్రకృతి వరణానికి స్వతంత్రంగా చేరింది వాలెస్, లామార్క్ కాదు."
+   },
+   "tip": {
+    "en": "58-59-71: Linnean talk 1858 → Origin 1859 → Descent of Man 1871.",
+    "te": "58-59-71: లిన్నియన్ సమర్పణ 1858 → ఆరిజిన్ 1859 → డిసెంట్ ఆఫ్ మ్యాన్ 1871."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about Charles Darwin's 'On the Origin of Species':",
+     "te": "చార్లెస్ డార్విన్ 'ఆన్ ది ఆరిజిన్ ఆఫ్ స్పీషీస్'కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It was the first book ever to suggest that species evolve.",
+      "te": "I. జాతులు పరిణామం చెందుతాయని సూచించిన మొట్టమొదటి పుస్తకం ఇదే."
+     },
+     {
+      "en": "II. Its first edition of 1,250 copies sold out in a day.",
+      "te": "II. దాని మొదటి ముద్రణలోని 1,250 ప్రతులు ఒక్క రోజులో అమ్ముడయ్యాయి."
+     },
+     {
+      "en": "III. Alfred Russel Wallace independently arrived at a similar theory.",
+      "te": "III. ఆల్ఫ్రెడ్ రసెల్ వాలెస్ స్వతంత్రంగా ఇలాంటి సిద్ధాంతానికే చేరారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I is wrong: evolution had been suggested earlier by Erasmus Darwin and Lamarck; Darwin explained the mechanism (natural selection).",
+     "te": "I తప్పు: ఎరాస్మస్ డార్విన్, లామార్క్ ముందే పరిణామాన్ని సూచించారు; డార్విన్ దాని విధానాన్ని (ప్రకృతి వరణం) వివరించారు."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "How natural selection works",
+      "te": "ప్రకృతి వరణం ఎలా పనిచేస్తుంది"
+     },
+     "items": [
+      {
+       "i": "🧬",
+       "t": {
+        "en": "Small variations",
+        "te": "చిన్న వైవిధ్యాలు"
+       }
+      },
+      {
+       "i": "⚔️",
+       "t": {
+        "en": "Struggle for existence",
+        "te": "జీవన పోరాటం"
+       }
+      },
+      {
+       "i": "✅",
+       "t": {
+        "en": "Useful traits → more offspring",
+        "te": "ఉపయోగకర లక్షణం → ఎక్కువ సంతానం"
+       }
+      },
+      {
+       "i": "👪",
+       "t": {
+        "en": "Traits inherited",
+        "te": "లక్షణాలు వారసత్వంగా"
+       }
+      },
+      {
+       "i": "🐦",
+       "t": {
+        "en": "Over ages: new species",
+        "te": "దీర్ఘకాలంలో: కొత్త జాతి"
+       }
+      }
+     ]
+    },
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Darwin's road to the Origin",
+      "te": "ఆరిజిన్ వరకు డార్విన్ ప్రయాణం"
+     },
+     "items": [
+      {
+       "y": "1830s",
+       "t": {
+        "en": "HMS Beagle voyage, Galapagos",
+        "te": "HMS బీగల్ యాత్ర, గాలపగోస్"
+       }
+      },
+      {
+       "y": "1844",
+       "t": {
+        "en": "Theory formed, kept unpublished",
+        "te": "సిద్ధాంతం రూపొందినా ప్రచురించలేదు"
+       }
+      },
+      {
+       "y": "1858",
+       "t": {
+        "en": "Darwin–Wallace at Linnean Society",
+        "te": "లిన్నియన్ సొసైటీలో డార్విన్–వాలెస్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1859",
+       "t": {
+        "en": "Origin of Species (24 Nov)",
+        "te": "ఆరిజిన్ ఆఫ్ స్పీషీస్ (24 నవంబర్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1871",
+       "t": {
+        "en": "The Descent of Man",
+        "te": "ది డిసెంట్ ఆఫ్ మ్యాన్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1882",
+       "t": {
+        "en": "Death; Westminster Abbey",
+        "te": "మరణం; వెస్ట్‌మిన్‌స్టర్ అబే"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Darwin's diary gives 24 Nov 1859 as the sale date; the publisher's records say 22 Nov.",
+      "te": "అమ్మకం తేదీ 24 నవంబర్ 1859 అని డార్విన్ డైరీ చెబుతుంది; ప్రచురణకర్త రికార్డుల్లో 22 నవంబర్ ఉంది."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "U.S. National Library of Medicine — The Books of Darwin (exhibition 'Rewriting the Book of Nature')",
+     "u": "https://www.nlm.nih.gov/exhibition/darwin/booksofdarwin.html"
+    },
+    {
+     "t": "Smithsonian Libraries blog — Darwin's On the Origin of Species was published today in 1859",
+     "u": "https://blog.library.si.edu/blog/2009/11/24/darwins-on-the-origin-of-species-was-published-today-in-1859"
+    },
+    {
+     "t": "HISTORY — 'Origin of Species' is published, November 24, 1859",
+     "u": "https://www.history.com/this-day-in-history/november-24/origin-of-species-is-published-2"
+    }
+   ]
+  },
+  {
+   "id": "aperegions",
+   "kind": "article",
+   "color": "#a86b00",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "In the news · Andhra Pradesh · Economy & planning",
+    "te": "వార్తల్లో · ఆంధ్రప్రదేశ్ · ఆర్థిక వ్యవస్థ & ప్రణాళిక"
+   },
+   "tag": {
+    "en": "Explained · AP Economy (Group 2 Paper II)",
+    "te": "వివరణ · ఏపీ ఆర్థిక వ్యవస్థ (గ్రూప్ 2 పేపర్ II)"
+   },
+   "title": {
+    "en": "AP's three economic regions: Amaravati, Visakhapatnam, Tirupati",
+    "te": "ఏపీ మూడు ఆర్థిక ప్రాంతాలు: అమరావతి, విశాఖపట్నం, తిరుపతి"
+   },
+   "line": {
+    "en": "AP is grouping its districts into three economic regions, each with its own growth plan up to 2047 — so that growth spreads to north Andhra, the central coast and Rayalaseema.",
+    "te": "ఏపీ తన జిల్లాలను మూడు ఆర్థిక ప్రాంతాలుగా విభజించి, ఒక్కో దానికి 2047 వరకు ప్రత్యేక వృద్ధి ప్రణాళిక వేస్తోంది — అభివృద్ధి ఉత్తరాంధ్ర, మధ్య కోస్తా, రాయలసీమలకు సమానంగా చేరేలా."
+   },
+   "easy": [
+    {
+     "en": "What is it? An 'economic region' is a group of neighbouring districts planned together — roads, ports, industry, land use and investment — around one growth centre. AP has three: Amaravati Economic Region (AER), Visakhapatnam Economic Region (VER) and Tirupati Economic Region (TER), each with nine districts, under the Swarna Andhra 2047 vision.",
+     "te": "ఇది ఏమిటి? పక్కపక్క జిల్లాలను ఒక వృద్ధి కేంద్రం చుట్టూ కలిపి — రోడ్లు, ఓడరేవులు, పరిశ్రమలు, భూ వినియోగం, పెట్టుబడులు — ఒకే ప్రణాళికతో అభివృద్ధి చేయడమే 'ఆర్థిక ప్రాంతం'. ఏపీలో మూడు ఉన్నాయి: అమరావతి ఆర్థిక ప్రాంతం (AER), విశాఖపట్నం ఆర్థిక ప్రాంతం (VER), తిరుపతి ఆర్థిక ప్రాంతం (TER) — ఒక్కోదానిలో తొమ్మిది జిల్లాలు, స్వర్ణాంధ్ర 2047 దార్శనికత కింద."
+    },
+    {
+     "en": "Why? If one city gets all the investment, other districts fall behind. Three hubs with different strengths spread jobs: Amaravati — capital, quantum technology, ports and the food bowl; Visakhapatnam — manufacturing, logistics, IT; Tirupati — aerospace, defence, electronics and renewable energy.",
+     "te": "ఎందుకు? పెట్టుబడులన్నీ ఒకే నగరానికి వెళ్తే మిగతా జిల్లాలు వెనుకబడతాయి. వేర్వేరు బలాలున్న మూడు కేంద్రాలు ఉపాధిని విస్తరిస్తాయి: అమరావతి — రాజధాని, క్వాంటం టెక్నాలజీ, ఓడరేవులు, ధాన్యాగారం; విశాఖపట్నం — తయారీ, లాజిస్టిక్స్, IT; తిరుపతి — ఏరోస్పేస్, రక్షణ, ఎలక్ట్రానిక్స్, పునరుత్పాదక ఇంధనం."
+    },
+    {
+     "en": "How is it run? For the AER, an Implementation Committee (July 2026) is chaired by the CEO of the AER, with the APCRDA Commissioner as member-convener and the nine collectors as members. The VER has a Steering Committee headed by the Chief Minister. The AER regional plan is to be implemented by July 2028.",
+     "te": "ఎలా నడుస్తుంది? AER కోసం అమలు కమిటీ (జూలై 2026)కి AER CEO అధ్యక్షుడు; APCRDA కమిషనర్ సభ్య-కన్వీనర్; తొమ్మిది జిల్లాల కలెక్టర్లు సభ్యులు. VERకు ముఖ్యమంత్రి నేతృత్వంలో స్టీరింగ్ కమిటీ ఉంది. AER ప్రాంతీయ ప్రణాళికను జూలై 2028 నాటికి అమలు చేయాలని లక్ష్యం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "AER districts (9)",
+      "te": "AER జిల్లాలు (9)"
+     },
+     {
+      "en": "NTR, Krishna, Eluru, West Godavari, Guntur, Palnadu, Bapatla, Prakasam, Markapuram",
+      "te": "NTR, కృష్ణా, ఏలూరు, పశ్చిమ గోదావరి, గుంటూరు, పల్నాడు, బాపట్ల, ప్రకాశం, మార్కాపురం"
+     }
+    ],
+    [
+     {
+      "en": "AER size",
+      "te": "AER పరిమాణం"
+     },
+     {
+      "en": "≈44,800 sq km, ≈1.7 crore people, 337 km coast (35% of AP coast), ≈35% of GSDP",
+      "te": "≈44,800 చ.కి.మీ., ≈1.7 కోట్ల జనాభా, 337 కి.మీ. తీరం (ఏపీ తీరంలో 35%), GSDPలో ≈35%"
+     }
+    ],
+    [
+     {
+      "en": "VER districts (9)",
+      "te": "VER జిల్లాలు (9)"
+     },
+     {
+      "en": "Visakhapatnam, Vizianagaram, Anakapalli, Srikakulam, Kakinada, East Godavari, Alluri Sitarama Raju, Parvathipuram Manyam, Dr B.R. Ambedkar Konaseema",
+      "te": "విశాఖపట్నం, విజయనగరం, అనకాపల్లి, శ్రీకాకుళం, కాకినాడ, తూర్పు గోదావరి, అల్లూరి సీతారామరాజు, పార్వతీపురం మన్యం, డా. బి.ఆర్. అంబేద్కర్ కోనసీమ"
+     }
+    ],
+    [
+     {
+      "en": "TER districts (9)",
+      "te": "TER జిల్లాలు (9)"
+     },
+     {
+      "en": "Tirupati, Chittoor, Annamayya, YSR Kadapa, Sri Sathya Sai, Anantapur, Kurnool, Nandyal, Nellore",
+      "te": "తిరుపతి, చిత్తూరు, అన్నమయ్య, వైఎస్ఆర్ కడప, శ్రీ సత్యసాయి, అనంతపురం, కర్నూలు, నంద్యాల, నెల్లూరు"
+     }
+    ],
+    [
+     {
+      "en": "AER projects",
+      "te": "AER ప్రాజెక్టులు"
+     },
+     {
+      "en": "48 projects worth ₹4.65 lakh crore; Quantum Valley (50 acres, Amaravati)",
+      "te": "₹4.65 లక్షల కోట్ల విలువైన 48 ప్రాజెక్టులు; క్వాంటం వ్యాలీ (50 ఎకరాలు, అమరావతి)"
+     }
+    ],
+    [
+     {
+      "en": "AER panel",
+      "te": "AER కమిటీ"
+     },
+     {
+      "en": "Chair: CEO of AER · Member-convener: APCRDA Commissioner",
+      "te": "అధ్యక్షుడు: AER CEO · సభ్య-కన్వీనర్: APCRDA కమిషనర్"
+     }
+    ],
+    [
+     {
+      "en": "Targets",
+      "te": "లక్ష్యాలు"
+     },
+     {
+      "en": "VER: jobs for 20 lakh by 2047 · TER: $900 billion economy by 2047",
+      "te": "VER: 2047 నాటికి 20 లక్షల మందికి ఉపాధి · TER: 2047 నాటికి $900 బిలియన్ ఆర్థిక వ్యవస్థ"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · AP geography & economy",
+     "te": "లింక్ చెయిన్ · ఏపీ భూగోళం & ఆర్థికం"
+    },
+    "l": [
+     {
+      "en": "TER covers all of Rayalaseema plus Nellore — Satish Dhawan Space Centre (Sriharikota) and Sri City lie in this region",
+      "te": "TERలో మొత్తం రాయలసీమ + నెల్లూరు — సతీష్ ధావన్ అంతరిక్ష కేంద్రం (శ్రీహరికోట), శ్రీ సిటీ ఈ ప్రాంతంలోనే"
+     },
+     {
+      "en": "AER projects include Polavaram, Machilipatnam and Ramayapatnam ports, Vijayawada Metro and the Amaravati ring roads",
+      "te": "AER ప్రాజెక్టుల్లో పోలవరం, మచిలీపట్నం & రామాయపట్నం ఓడరేవులు, విజయవాడ మెట్రో, అమరావతి రింగ్ రోడ్లు"
+     },
+     {
+      "en": "VER tourism clusters: Green (Araku–Maredumilli), Blue (coast), Blue-Green (Godavari delta)",
+      "te": "VER పర్యాటక క్లస్టర్లు: గ్రీన్ (అరకు–మారేడుమిల్లి), బ్లూ (తీరం), బ్లూ-గ్రీన్ (గోదావరి డెల్టా)"
+     },
+     {
+      "en": "Economic regions are about planning and investment — they are not new capitals or new administrative units",
+      "te": "ఆర్థిక ప్రాంతాలు ప్రణాళిక, పెట్టుబడుల కోసం — ఇవి కొత్త రాజధానులు లేదా కొత్త పరిపాలనా విభాగాలు కావు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "AER Implementation Committee chair = CEO of the AER (not the CM); the VER Steering Committee is the one headed by the CM. Nellore is in the Tirupati region; Prakasam and Markapuram are in the Amaravati region.",
+    "te": "AER అమలు కమిటీ అధ్యక్షుడు = AER CEO (ముఖ్యమంత్రి కాదు); ముఖ్యమంత్రి నేతృత్వంలో ఉన్నది VER స్టీరింగ్ కమిటీ. నెల్లూరు తిరుపతి ప్రాంతంలో; ప్రకాశం, మార్కాపురం అమరావతి ప్రాంతంలో ఉన్నాయి."
+   },
+   "tip": {
+    "en": "'3 × 9': three regions, nine districts each. A-Q-P (Amaravati: Quantum, Ports), V-M-L (Vizag: Manufacturing, Logistics), T-A-D (Tirupati: Aerospace, Defence).",
+    "te": "'3 × 9': మూడు ప్రాంతాలు, ఒక్కోదానిలో తొమ్మిది జిల్లాలు. అమరావతి: క్వాంటం, పోర్టులు; విశాఖ: తయారీ, లాజిస్టిక్స్; తిరుపతి: ఏరోస్పేస్, రక్షణ."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Andhra Pradesh's economic regions, consider the following statements:",
+     "te": "ఆంధ్రప్రదేశ్ ఆర్థిక ప్రాంతాలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The Implementation Committee of the Amaravati Economic Region is chaired by the Chief Minister.",
+      "te": "I. అమరావతి ఆర్థిక ప్రాంత అమలు కమిటీకి ముఖ్యమంత్రి అధ్యక్షత వహిస్తారు."
+     },
+     {
+      "en": "II. Nellore district is part of the Tirupati Economic Region.",
+      "te": "II. నెల్లూరు జిల్లా తిరుపతి ఆర్థిక ప్రాంతంలో భాగం."
+     },
+     {
+      "en": "III. Each of the three economic regions has nine districts.",
+      "te": "III. మూడు ఆర్థిక ప్రాంతాల్లో ఒక్కోదానిలో తొమ్మిది జిల్లాలు ఉన్నాయి."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "I is wrong: the AER Implementation Committee is chaired by the CEO of the AER; the CM heads the VER Steering Committee.",
+     "te": "I తప్పు: AER అమలు కమిటీకి AER CEO అధ్యక్షుడు; ముఖ్యమంత్రి నేతృత్వం వహించేది VER స్టీరింగ్ కమిటీకి."
+    }
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "Three growth centres",
+      "te": "మూడు వృద్ధి కేంద్రాలు"
+     },
+     "view": "ap",
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#a86b00",
+     "pts": [
+      {
+       "ll": [
+        17.69,
+        83.22
+       ],
+       "t": {
+        "en": "Visakhapatnam",
+        "te": "విశాఖపట్నం"
+       }
+      },
+      {
+       "ll": [
+        16.51,
+        80.52
+       ],
+       "t": {
+        "en": "Amaravati",
+        "te": "అమరావతి"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        13.63,
+        79.42
+       ],
+       "t": {
+        "en": "Tirupati",
+        "te": "తిరుపతి"
+       },
+       "a": "l"
+      }
+     ],
+     "seas": true,
+     "cap": {
+      "en": "North Andhra → Visakhapatnam; central coast → Amaravati; Rayalaseema + Nellore → Tirupati.",
+      "te": "ఉత్తరాంధ్ర → విశాఖపట్నం; మధ్య కోస్తా → అమరావతి; రాయలసీమ + నెల్లూరు → తిరుపతి."
+     },
+     "src": "cards/2026-11-24/map-aperegions-1-{m}.svg"
+    },
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "What each region is built on",
+      "te": "ఏ ప్రాంతం దేనిపై ఆధారం"
+     },
+     "c": {
+      "en": "AP economic regions",
+      "te": "ఏపీ ఆర్థిక ప్రాంతాలు"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Amaravati (AER)",
+        "te": "అమరావతి (AER)"
+       },
+       "l": [
+        {
+         "en": "Capital + Quantum Valley",
+         "te": "రాజధాని + క్వాంటం వ్యాలీ"
+        },
+        {
+         "en": "Port-led east coast",
+         "te": "ఓడరేవు ఆధారిత తూర్పు తీరం"
+        },
+        {
+         "en": "Food bowl",
+         "te": "ధాన్యాగారం"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Visakhapatnam (VER)",
+        "te": "విశాఖపట్నం (VER)"
+       },
+       "l": [
+        {
+         "en": "IT, data centres",
+         "te": "IT, డేటా సెంటర్లు"
+        },
+        {
+         "en": "Steel, pharma, ports",
+         "te": "ఉక్కు, ఫార్మా, ఓడరేవులు"
+        },
+        {
+         "en": "20 lakh jobs by 2047",
+         "te": "2047కి 20 లక్షల ఉద్యోగాలు"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Tirupati (TER)",
+        "te": "తిరుపతి (TER)"
+       },
+       "l": [
+        {
+         "en": "Aerospace & defence",
+         "te": "ఏరోస్పేస్ & రక్షణ"
+        },
+        {
+         "en": "Electronics, Sri City",
+         "te": "ఎలక్ట్రానిక్స్, శ్రీ సిటీ"
+        },
+        {
+         "en": "Clean energy, space",
+         "te": "క్లీన్ ఎనర్జీ, అంతరిక్షం"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ETV Bharat — Andhra Pradesh plans three economic regions to drive growth, attract investments by 2047, 20 Nov 2026",
+     "u": "https://www.etvbharat.com/en/state/andhra-pradesh-plans-three-economic-regions-to-drive-growth-attract-investments-by-2047-enn26112004048"
+    },
+    {
+     "t": "The Hans India — AP sets up Amaravati economic region panel, 18 Jul 2026",
+     "u": "https://www.thehansindia.com/andhra-pradesh/ap-sets-up-amaravati-economic-region-panel-1098688"
+    },
+    {
+     "t": "Outlook Business (PTI) — Andhra govt constitutes implementation panel for Amaravati Economic Region, 18 Jul 2026",
+     "u": "https://www.outlookbusiness.com/amp/story/news/andhra-govt-constitutes-implementation-panel-for-amaravati-economic-region"
+    },
+    {
+     "t": "The News Minute — Andhra Pradesh to set up three distinct development zones, 30 Nov 2025",
+     "u": "https://www.thenewsminute.com/andhra-pradesh/andhra-pradesh-to-set-up-three-distinct-development-zones"
+    }
+   ],
+   "mains": {
+    "en": "'Region-based planning can reduce regional imbalance within Andhra Pradesh.' Discuss with reference to the Amaravati, Visakhapatnam and Tirupati economic regions, and mention the challenges.",
+    "te": "'ప్రాంత ఆధారిత ప్రణాళిక ఆంధ్రప్రదేశ్‌లో ప్రాంతీయ అసమానతలను తగ్గించగలదు.' అమరావతి, విశాఖపట్నం, తిరుపతి ఆర్థిక ప్రాంతాల ఆధారంగా చర్చించి, సవాళ్లను పేర్కొనండి."
+   }
+  },
+  {
+   "id": "anaemia",
+   "kind": "article",
+   "color": "#9b2c2c",
+   "icon": "food",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "In the news · Health · ICMR-NIN · 23 Nov 2026",
+    "te": "వార్తల్లో · ఆరోగ్యం · ICMR-NIN · 23 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Health & nutrition",
+    "te": "వివరణ · GS-II ఆరోగ్యం & పోషకాహారం"
+   },
+   "title": {
+    "en": "SAMPADA survey: anaemia lower than before, but over half of women still anaemic",
+    "te": "SAMPADA సర్వే: రక్తహీనత గతం కంటే తక్కువ, అయినా సగానికి పైగా మహిళల్లో ఉంది"
+   },
+   "line": {
+    "en": "ICMR's new survey, using venous blood, finds 55.9% of women (15–49) and 41.8% of young children anaemic — and Andhra Pradesh is among the worst-affected states.",
+    "te": "సిర రక్తంతో చేసిన ICMR కొత్త సర్వే ప్రకారం 15–49 ఏళ్ల మహిళల్లో 55.9%, చిన్న పిల్లల్లో 41.8% మందికి రక్తహీనత — అత్యధికంగా ప్రభావితమైన రాష్ట్రాల్లో ఆంధ్రప్రదేశ్ ఒకటి."
+   },
+   "easy": [
+    {
+     "en": "What is anaemia? Haemoglobin in red blood cells carries oxygen. When it is too low, a person feels tired and weak and cannot study or work well. For women, the WHO limit is 12.0 g/dL — below this is anaemia. The commonest cause is lack of iron; lack of folate and vitamin B12 also cause it.",
+     "te": "రక్తహీనత అంటే? ఎర్ర రక్తకణాల్లోని హీమోగ్లోబిన్ ఆక్సిజన్‌ను మోస్తుంది. అది తక్కువైతే అలసట, బలహీనత వస్తాయి; చదువు, పని సరిగా చేయలేరు. మహిళలకు WHO పరిమితి 12.0 g/dL — దీని కంటే తక్కువ ఉంటే రక్తహీనత. ఇనుము లోపమే ప్రధాన కారణం; ఫోలేట్, విటమిన్ B12 లోపం కూడా కారణమవుతాయి."
+    },
+    {
+     "en": "The survey: ICMR's National Institute of Nutrition (ICMR-NIN), Hyderabad, ran SAMPADA in 2023–25 — over 2 lakh people in over 81,000 households across 183 districts of 35 States/UTs. More than 1.7 lakh venous blood samples were tested with automated analysers (the gold standard), using the WHO 2024 cut-offs.",
+     "te": "సర్వే: హైదరాబాద్‌లోని ICMR జాతీయ పోషకాహార సంస్థ (ICMR-NIN) 2023–25లో SAMPADA నిర్వహించింది — 35 రాష్ట్రాలు/UTల్లోని 183 జిల్లాల్లో 81,000కు పైగా కుటుంబాల్లో 2 లక్షల మందికి పైగా. 1.7 లక్షలకు పైగా సిర రక్త నమూనాలను ఆటోమేటెడ్ ఎనలైజర్లతో (గోల్డ్ స్టాండర్డ్) WHO 2024 ప్రమాణాల ప్రకారం పరీక్షించారు."
+    },
+    {
+     "en": "Why it matters: the numbers are lower than earlier national surveys, but the testing method changed (earlier surveys used point-of-care devices), so a direct comparison needs care. Most cases are mild or moderate. Adolescent girls (46.3%) are twice as likely to be anaemic as boys (22.8%). In AP, 68.5% of women aged 15–49 are anaemic, and AP has the highest rate (81.7%) among women aged 60+.",
+     "te": "ప్రాముఖ్యత: గత జాతీయ సర్వేల కంటే శాతాలు తక్కువగా ఉన్నాయి, కానీ పరీక్షా విధానం మారింది (గత సర్వేలు పాయింట్-ఆఫ్-కేర్ పరికరాలు వాడాయి), కాబట్టి నేరుగా పోల్చడం జాగ్రత్తగా చేయాలి. చాలా కేసులు స్వల్ప లేదా మధ్యస్థ స్థాయివి. కౌమార బాలికల్లో (46.3%) రక్తహీనత బాలుర (22.8%) కంటే రెట్టింపు. ఏపీలో 15–49 ఏళ్ల మహిళల్లో 68.5% మందికి రక్తహీనత; 60 ఏళ్లు పైబడిన మహిళల్లో దేశంలోనే అత్యధికం (81.7%) ఏపీలో."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Survey",
+      "te": "సర్వే"
+     },
+     {
+      "en": "SAMPADA 2023–25, by ICMR-NIN; released 23 Nov 2026",
+      "te": "SAMPADA 2023–25, ICMR-NIN; 23 నవంబర్ 2026న విడుదల"
+     }
+    ],
+    [
+     {
+      "en": "Sample",
+      "te": "నమూనా"
+     },
+     {
+      "en": "2 lakh+ people, 81,000+ households, 183 districts, 35 States/UTs",
+      "te": "2 లక్షల+ మంది, 81,000+ కుటుంబాలు, 183 జిల్లాలు, 35 రాష్ట్రాలు/UTలు"
+     }
+    ],
+    [
+     {
+      "en": "Method",
+      "te": "విధానం"
+     },
+     {
+      "en": "1.7 lakh+ venous blood samples, automated analysers, WHO 2024 cut-offs",
+      "te": "1.7 లక్షల+ సిర రక్త నమూనాలు, ఆటోమేటెడ్ ఎనలైజర్లు, WHO 2024 ప్రమాణాలు"
+     }
+    ],
+    [
+     {
+      "en": "Women 15–49",
+      "te": "మహిళలు 15–49"
+     },
+     {
+      "en": "55.9% (non-pregnant, non-lactating); severe 2.9%",
+      "te": "55.9% (గర్భిణులు, బాలింతలు కానివారు); తీవ్ర స్థాయి 2.9%"
+     }
+    ],
+    [
+     {
+      "en": "Children 12–59 months",
+      "te": "పిల్లలు 12–59 నెలలు"
+     },
+     {
+      "en": "41.8%",
+      "te": "41.8%"
+     }
+    ],
+    [
+     {
+      "en": "Adolescents",
+      "te": "కౌమారులు"
+     },
+     {
+      "en": "Girls 46.3% · Boys 22.8%",
+      "te": "బాలికలు 46.3% · బాలురు 22.8%"
+     }
+    ],
+    [
+     {
+      "en": "Andhra Pradesh",
+      "te": "ఆంధ్రప్రదేశ్"
+     },
+     {
+      "en": "Women 15–49: 68.5% · Women 60+: 81.7% (highest state)",
+      "te": "మహిళలు 15–49: 68.5% · 60+ మహిళలు: 81.7% (దేశంలో అత్యధికం)"
+     }
+    ],
+    [
+     {
+      "en": "Lowest",
+      "te": "అత్యల్పం"
+     },
+     {
+      "en": "Kerala — 29.1% (women 15–49)",
+      "te": "కేరళ — 29.1% (మహిళలు 15–49)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Nutrition schemes & science",
+     "te": "లింక్ చెయిన్ · పోషకాహార పథకాలు & సైన్స్"
+    },
+    "l": [
+     {
+      "en": "Anaemia Mukt Bharat (2018), POSHAN Abhiyaan, WIFS (weekly iron-folic acid supplementation)",
+      "te": "అనీమియా ముక్త్ భారత్ (2018), పోషణ్ అభియాన్, WIFS (వారానికోసారి ఐరన్-ఫోలిక్ యాసిడ్)"
+     },
+     {
+      "en": "Earlier national surveys: NFHS and CNNS",
+      "te": "గత జాతీయ సర్వేలు: NFHS, CNNS"
+     },
+     {
+      "en": "Science: iron → haemoglobin → oxygen transport; folate and B12 needed to make red cells",
+      "te": "సైన్స్: ఇనుము → హీమోగ్లోబిన్ → ఆక్సిజన్ రవాణా; ఎర్ర కణాల తయారీకి ఫోలేట్, B12 అవసరం"
+     },
+     {
+      "en": "AP link: ICMR-NIN is in Hyderabad; in AP, 68.5% of women 15–49 are anaemic vs 54.0% in Telangana",
+      "te": "ఏపీ లింక్: ICMR-NIN హైదరాబాద్‌లో ఉంది; ఏపీలో 15–49 మహిళల్లో 68.5%, తెలంగాణలో 54.0%"
+     }
+    ]
+   },
+   "trap": {
+    "en": "'Anaemia fell' is not the full story — the method changed from point-of-care devices to venous blood. Adolescent girls (46.3%) > boys (22.8%). AP is the HIGHEST for women aged 60+, not for women 15–49 (West Bengal tops that at 72.4%).",
+    "te": "'రక్తహీనత తగ్గింది' అనేది పూర్తి కథ కాదు — విధానం పాయింట్-ఆఫ్-కేర్ నుంచి సిర రక్తానికి మారింది. కౌమార బాలికలు (46.3%) > బాలురు (22.8%). 60+ మహిళల్లో ఏపీ అత్యధికం; 15–49 మహిళల్లో కాదు (అందులో పశ్చిమ బెంగాల్ 72.4%తో మొదటిది)."
+   },
+   "tip": {
+    "en": "'56-42-46-23': women 56, children 42, girls 46, boys 23 (rounded %).",
+    "te": "'56-42-46-23': మహిళలు 56, పిల్లలు 42, బాలికలు 46, బాలురు 23 (సుమారు %)."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the ICMR-NIN SAMPADA survey (2023–25), consider the following statements:",
+     "te": "ICMR-NIN SAMPADA సర్వే (2023–25)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. Haemoglobin was measured from venous blood using automated analysers.",
+      "te": "I. సిర రక్తం నుంచి ఆటోమేటెడ్ ఎనలైజర్లతో హీమోగ్లోబిన్ కొలిచారు."
+     },
+     {
+      "en": "II. Anaemia among adolescent boys was higher than among adolescent girls.",
+      "te": "II. కౌమార బాలికల కంటే బాలురలో రక్తహీనత ఎక్కువగా ఉంది."
+     },
+     {
+      "en": "III. Andhra Pradesh recorded the highest anaemia among women aged 60 and above.",
+      "te": "III. 60 ఏళ్లు పైబడిన మహిళల్లో అత్యధిక రక్తహీనత ఆంధ్రప్రదేశ్‌లో నమోదైంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "II is wrong: girls 46.3% vs boys 22.8% — girls are about twice as affected.",
+     "te": "II తప్పు: బాలికలు 46.3%, బాలురు 22.8% — బాలికల్లోనే సుమారు రెట్టింపు."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Who is anaemic? (% , SAMPADA 2023–25)",
+      "te": "ఎవరిలో రక్తహీనత? (%, SAMPADA 2023–25)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Women 15–49",
+        "te": "మహిళలు 15–49"
+       },
+       "v": 55.9,
+       "vl": "55.9%"
+      },
+      {
+       "t": {
+        "en": "Adolescent girls",
+        "te": "కౌమార బాలికలు"
+       },
+       "v": 46.3,
+       "vl": "46.3%"
+      },
+      {
+       "t": {
+        "en": "Children 12–59 months",
+        "te": "పిల్లలు 12–59 నెలలు"
+       },
+       "v": 41.8,
+       "vl": "41.8%"
+      },
+      {
+       "t": {
+        "en": "Adolescent boys",
+        "te": "కౌమార బాలురు"
+       },
+       "v": 22.8,
+       "vl": "22.8%"
+      }
+     ]
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "Women 15–49: states compared (%)",
+      "te": "మహిళలు 15–49: రాష్ట్రాల పోలిక (%)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "West Bengal (highest)",
+        "te": "పశ్చిమ బెంగాల్ (అత్యధికం)"
+       },
+       "v": 72.4,
+       "vl": "72.4%"
+      },
+      {
+       "t": {
+        "en": "Andhra Pradesh",
+        "te": "ఆంధ్రప్రదేశ్"
+       },
+       "v": 68.5,
+       "vl": "68.5%"
+      },
+      {
+       "t": {
+        "en": "Telangana",
+        "te": "తెలంగాణ"
+       },
+       "v": 54.0,
+       "vl": "54.0%"
+      },
+      {
+       "t": {
+        "en": "Tamil Nadu",
+        "te": "తమిళనాడు"
+       },
+       "v": 52.8,
+       "vl": "52.8%"
+      },
+      {
+       "t": {
+        "en": "Kerala (lowest)",
+        "te": "కేరళ (అత్యల్పం)"
+       },
+       "v": 29.1,
+       "vl": "29.1%"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The South First — More than half of Indian women aged 15 and above have anaemia, ICMR survey finds, 23 Nov 2026",
+     "u": "https://thesouthfirst.com/health/more-than-half-of-indian-women-aged-15-and-above-have-anaemia-icmr-survey-finds/"
+    },
+    {
+     "t": "Research Rundown (summarising PIB release on SAMPADA, 23 Nov 2026) — cross-check",
+     "u": "https://varna.substack.com/p/research-rundown-daily-24-november"
+    },
+    {
+     "t": "GS Times — SAMPADA 2023-2025 (citing DD News) — cross-check",
+     "u": "https://www.gstimes.in/survey-for-assessment-of-markers-of-population-health-activity-diet-and-anthropometry-sampada-2023-2025/"
+    }
+   ],
+   "mains": {
+    "en": "Anaemia persists in India despite decades of iron supplementation. Using the SAMPADA findings, explain why women and adolescent girls are worst affected, and suggest measures for Andhra Pradesh.",
+    "te": "దశాబ్దాలుగా ఐరన్ సప్లిమెంటేషన్ ఉన్నా భారత్‌లో రక్తహీనత కొనసాగుతోంది. SAMPADA ఫలితాల ఆధారంగా మహిళలు, కౌమార బాలికలు ఎందుకు ఎక్కువగా ప్రభావితమవుతున్నారో వివరించి, ఆంధ్రప్రదేశ్‌కు చర్యలు సూచించండి."
+   }
+  },
+  {
+   "id": "informal",
+   "kind": "article",
+   "color": "#1f6f6a",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    6
+   ],
+   "src": {
+    "en": "In the news · Economy · MoSPI-NSO · 23 Nov 2026",
+    "te": "వార్తల్లో · ఆర్థికం · MoSPI-NSO · 23 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-III Economy (employment)",
+    "te": "వివరణ · GS-III ఆర్థికం (ఉపాధి)"
+   },
+   "title": {
+    "en": "Small unregistered businesses: 9.47 crore units, 15 crore jobs",
+    "te": "చిన్న అసంఘటిత వ్యాపారాలు: 9.47 కోట్ల సంస్థలు, 15 కోట్ల ఉద్యోగాలు"
+   },
+   "line": {
+    "en": "NSO's quarterly bulletin (QBUSE) shows non-farm unincorporated enterprises grew 18.81% in a year — the informal sector is where most Indians find non-farm work.",
+    "te": "NSO త్రైమాసిక బులెటిన్ (QBUSE) ప్రకారం వ్యవసాయేతర అసంఘటిత సంస్థలు ఏడాదిలో 18.81% పెరిగాయి — వ్యవసాయేతర పనిలో చాలా మంది భారతీయులకు ఉపాధి ఇక్కడే."
+   },
+   "easy": [
+    {
+     "en": "What is an 'unincorporated enterprise'? A business that is not registered as a company — a tea stall, kirana shop, tailoring unit, auto repair shed or small workshop, run by one owner or partners. NSO (under MoSPI) surveys these non-agricultural units in the Annual Survey of Unincorporated Sector Enterprises (ASUSE); the QBUSE is its quarterly bulletin.",
+     "te": "'అసంఘటిత (అన్‌ఇన్‌కార్పొరేటెడ్) సంస్థ' అంటే? కంపెనీగా నమోదు కాని వ్యాపారం — టీ కొట్టు, కిరాణా షాపు, టైలరింగ్ యూనిట్, ఆటో రిపేర్ షెడ్, చిన్న వర్క్‌షాప్ — ఒక యజమాని లేదా భాగస్వాములు నడిపేవి. ఈ వ్యవసాయేతర సంస్థలను MoSPI కింది NSO 'వార్షిక అసంఘటిత రంగ సంస్థల సర్వే' (ASUSE)లో సర్వే చేస్తుంది; దాని త్రైమాసిక బులెటిన్ QBUSE."
+    },
+    {
+     "en": "What did it find for July–September 2026? Establishments rose to 9.47 crore from 7.97 crore a year earlier (+18.81%), and workers to 15.03 crore (+16.86%). Urban establishments grew faster (+22.05%) than rural (+16.05%), but rural employment grew faster (+17.52%) than urban (+16.30%). 'Other services' grew most — establishments +29%, jobs +33%.",
+     "te": "జూలై–సెప్టెంబర్ 2026లో ఏం తేలింది? సంస్థలు ఏడాది క్రితం 7.97 కోట్ల నుంచి 9.47 కోట్లకు (+18.81%), కార్మికులు 15.03 కోట్లకు (+16.86%) పెరిగారు. సంస్థల్లో పట్టణ వృద్ధి (+22.05%) గ్రామీణం (+16.05%) కంటే ఎక్కువ; కానీ ఉపాధిలో గ్రామీణ వృద్ధి (+17.52%) పట్టణం (+16.30%) కంటే ఎక్కువ. 'ఇతర సేవలు' అత్యధికంగా పెరిగాయి — సంస్థలు +29%, ఉద్యోగాలు +33%."
+    },
+    {
+     "en": "Why it matters: most of these units are run by the owners themselves (working owners = 61.99% of workers), and women are now over 31% of the workforce. Around 80% use cashless payments, but only 43.28% are registered — formalisation is still half done. Note: the 2026 round uses the new NIC 2025 industry codes, which may affect sector comparisons.",
+     "te": "ప్రాముఖ్యత: ఈ సంస్థల్లో చాలా వాటిని యజమానులే నడుపుతారు (కార్మికుల్లో 61.99% పనిచేసే యజమానులు); శ్రామిక శక్తిలో మహిళలు ఇప్పుడు 31%కు పైగా. సుమారు 80% నగదు రహిత చెల్లింపులు వాడుతున్నా, నమోదైనవి 43.28% మాత్రమే — లాంఛనీకరణ (ఫార్మలైజేషన్) ఇంకా సగమే. గమనిక: 2026 రౌండ్‌లో కొత్త NIC 2025 పరిశ్రమ కోడ్‌లు వాడారు; రంగాల పోలికపై దీని ప్రభావం ఉండవచ్చు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Report",
+      "te": "నివేదిక"
+     },
+     {
+      "en": "Quarterly Bulletin on Unincorporated Sector Enterprises (QBUSE), NSO-MoSPI, 23 Nov 2026",
+      "te": "అసంఘటిత రంగ సంస్థలపై త్రైమాసిక బులెటిన్ (QBUSE), NSO-MoSPI, 23 నవంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Establishments",
+      "te": "సంస్థలు"
+     },
+     {
+      "en": "9.47 crore (Jul–Sep 2026) vs 7.97 crore — +18.81%",
+      "te": "9.47 కోట్లు (జూలై–సెప్టెంబర్ 2026) vs 7.97 కోట్లు — +18.81%"
+     }
+    ],
+    [
+     {
+      "en": "Workers",
+      "te": "కార్మికులు"
+     },
+     {
+      "en": "15.03 crore — +16.86%",
+      "te": "15.03 కోట్లు — +16.86%"
+     }
+    ],
+    [
+     {
+      "en": "Urban vs rural",
+      "te": "పట్టణ vs గ్రామీణ"
+     },
+     {
+      "en": "Units: urban +22.05%, rural +16.05% · Jobs: rural +17.52%, urban +16.30%",
+      "te": "సంస్థలు: పట్టణ +22.05%, గ్రామీణ +16.05% · ఉద్యోగాలు: గ్రామీణ +17.52%, పట్టణ +16.30%"
+     }
+    ],
+    [
+     {
+      "en": "Who works",
+      "te": "ఎవరు పనిచేస్తారు"
+     },
+     {
+      "en": "Working owners 61.99% (59.98% a year ago); women over 31% (28.70%)",
+      "te": "పనిచేసే యజమానులు 61.99% (గత ఏడాది 59.98%); మహిళలు 31%+ (28.70%)"
+     }
+    ],
+    [
+     {
+      "en": "Fastest sector",
+      "te": "వేగవంతమైన రంగం"
+     },
+     {
+      "en": "Other services: units +29%, jobs +33%",
+      "te": "ఇతర సేవలు: సంస్థలు +29%, ఉద్యోగాలు +33%"
+     }
+    ],
+    [
+     {
+      "en": "Digital & formal",
+      "te": "డిజిటల్ & ఫార్మల్"
+     },
+     {
+      "en": "≈84% use internet, ≈80% cashless; registered 43.28%",
+      "te": "≈84% ఇంటర్నెట్, ≈80% నగదు రహితం; నమోదైనవి 43.28%"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Employment data in India",
+     "te": "లింక్ చెయిన్ · భారత్‌లో ఉపాధి గణాంకాలు"
+    },
+    "l": [
+     {
+      "en": "NSO is part of the Ministry of Statistics & Programme Implementation (MoSPI)",
+      "te": "NSO గణాంకాలు & కార్యక్రమ అమలు మంత్రిత్వ శాఖ (MoSPI)లో భాగం"
+     },
+     {
+      "en": "ASUSE/QBUSE = unincorporated non-farm units · ASI = registered factories · PLFS = labour force (jobs of persons)",
+      "te": "ASUSE/QBUSE = అసంఘటిత వ్యవసాయేతర సంస్థలు · ASI = నమోదైన ఫ్యాక్టరీలు · PLFS = శ్రామిక శక్తి (వ్యక్తుల ఉపాధి)"
+     },
+     {
+      "en": "Growth led by retail trade, repair services, land transport, personal services, apparel making",
+      "te": "వృద్ధికి నాయకత్వం: రిటైల్ వ్యాపారం, రిపేర్ సేవలు, భూ రవాణా, వ్యక్తిగత సేవలు, దుస్తుల తయారీ"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Urban grew faster in ESTABLISHMENTS, but rural grew faster in EMPLOYMENT. Working owners (self-employed) — not hired workers — are the majority. Establishments (+18.81%) grew faster than workers (+16.86%).",
+    "te": "సంస్థల్లో పట్టణం వేగంగా పెరిగింది, కానీ ఉపాధిలో గ్రామీణం వేగంగా పెరిగింది. మెజారిటీ పనిచేసే యజమానులే (స్వయం ఉపాధి) — కూలీ కార్మికులు కాదు. సంస్థలు (+18.81%) కార్మికుల (+16.86%) కంటే వేగంగా పెరిగాయి."
+   },
+   "tip": {
+    "en": "'9-15-62-31-43': 9.47 cr units, 15 cr workers, 62% owners, 31% women, 43% registered.",
+    "te": "'9-15-62-31-43': 9.47 కోట్ల సంస్థలు, 15 కోట్ల కార్మికులు, 62% యజమానులు, 31% మహిళలు, 43% నమోదు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the NSO's QBUSE for July–September 2026, which of the following statements is/are correct?",
+     "te": "జూలై–సెప్టెంబర్ 2026 NSO QBUSEకు సంబంధించి కింది వాటిలో సరైనది/సరైనవి ఏవి?"
+    },
+    "st": [
+     {
+      "en": "I. Hired workers formed the majority of the workforce in these enterprises.",
+      "te": "I. ఈ సంస్థల శ్రామిక శక్తిలో కూలీ కార్మికులే మెజారిటీ."
+     },
+     {
+      "en": "II. Rural areas recorded faster growth in employment than urban areas.",
+      "te": "II. ఉపాధిలో పట్టణ ప్రాంతాల కంటే గ్రామీణ ప్రాంతాలు వేగంగా వృద్ధి చెందాయి."
+     },
+     {
+      "en": "III. Less than half of the establishments reported registration.",
+      "te": "III. సగం కంటే తక్కువ సంస్థలు మాత్రమే నమోదైనట్లు తెలిపాయి."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "III only",
+      "te": "III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "I is wrong: working owners were 61.99% of workers. II (rural jobs +17.52% vs urban +16.30%) and III (43.28% registered) are correct.",
+     "te": "I తప్పు: కార్మికుల్లో 61.99% పనిచేసే యజమానులు. II (గ్రామీణ ఉపాధి +17.52% vs పట్టణ +16.30%), III (43.28% నమోదు) సరైనవి."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Growth in establishments by sector (%, year on year)",
+      "te": "రంగాల వారీగా సంస్థల వృద్ధి (%, ఏడాది పోలిక)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Other services",
+        "te": "ఇతర సేవలు"
+       },
+       "v": 29,
+       "vl": "+29%"
+      },
+      {
+       "t": {
+        "en": "All establishments",
+        "te": "మొత్తం సంస్థలు"
+       },
+       "v": 18.81,
+       "vl": "+18.81%"
+      },
+      {
+       "t": {
+        "en": "Trading",
+        "te": "వ్యాపారం"
+       },
+       "v": 11.7,
+       "vl": "+11.70%"
+      },
+      {
+       "t": {
+        "en": "Manufacturing",
+        "te": "తయారీ"
+       },
+       "v": 10.55,
+       "vl": "+10.55%"
+      }
+     ]
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Urban vs rural: read the trap",
+      "te": "పట్టణ vs గ్రామీణ: ట్రాప్ గమనించండి"
+     },
+     "a": {
+      "h": {
+       "en": "Urban",
+       "te": "పట్టణ"
+      },
+      "l": [
+       {
+        "en": "Establishments +22.05% (faster)",
+        "te": "సంస్థలు +22.05% (వేగం)"
+       },
+       {
+        "en": "Employment +16.30%",
+        "te": "ఉపాధి +16.30%"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Rural",
+       "te": "గ్రామీణ"
+      },
+      "l": [
+       {
+        "en": "Establishments +16.05%",
+        "te": "సంస్థలు +16.05%"
+       },
+       {
+        "en": "Employment +17.52% (faster)",
+        "te": "ఉపాధి +17.52% (వేగం)"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Tribune (ANI) — Establishments in unincorporated sector enterprises surge 18.81% to 9.47 crore in July–September 2026: MoSPI, 23 Nov 2026",
+     "u": "https://www.tribuneindia.com/news/business-surge/establishments-in-unincorporated-sector-enterprises-surge-18-81-to-9-47-crore-in-july-september-2026-mospi"
+    },
+    {
+     "t": "Research Rundown (summarising PIB/MoSPI release on QBUSE, 23 Nov 2026) — cross-check",
+     "u": "https://varna.substack.com/p/research-rundown-daily-24-november"
+    }
+   ],
+   "mains": {
+    "en": "The rapid growth of unincorporated enterprises shows both the strength and the fragility of India's informal economy. Discuss, with reference to the latest QBUSE data, and suggest steps for their formalisation.",
+    "te": "అసంఘటిత సంస్థల వేగవంతమైన వృద్ధి భారత అనధికారిక ఆర్థిక వ్యవస్థ బలాన్నీ, బలహీనతనూ చూపుతుంది. తాజా QBUSE గణాంకాల ఆధారంగా చర్చించి, వాటి లాంఛనీకరణకు చర్యలు సూచించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "gtb",
+   "q": {
+    "en": "Consider the following statements about Guru Tegh Bahadur:",
+    "te": "గురు తేగ్ బహాదూర్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. He was the ninth of the ten Sikh Gurus.",
+     "te": "I. పది మంది సిక్కు గురువుల్లో ఆయన తొమ్మిదో వారు."
+    },
+    {
+     "en": "II. His son Guru Gobind Singh was born at Anandpur Sahib in 1666.",
+     "te": "II. ఆయన కుమారుడు గురు గోవింద్ సింగ్ 1666లో ఆనంద్‌పూర్ సాహిబ్‌లో జన్మించారు."
+    },
+    {
+     "en": "III. His compositions — 116 shabads in 15 ragas — are included in the Adi Granth.",
+     "te": "III. ఆయన రచనలు — 15 రాగాల్లో 116 శబద్‌లు — ఆది గ్రంథ్‌లో ఉన్నాయి."
+    },
+    {
+     "en": "IV. He was executed at Chandni Chowk, Delhi, in 1675 on Aurangzeb's orders.",
+     "te": "IV. 1675లో ఔరంగజేబు ఆదేశంతో ఢిల్లీ చాందినీ చౌక్‌లో ఆయనను హతమార్చారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is the trap: Guru Gobind Singh was born at Patna (1666), where Tegh Bahadur had left his family during his eastern travels.",
+    "te": "II ట్రాప్: గురు గోవింద్ సింగ్ పాట్నాలో (1666) జన్మించారు; తూర్పు పర్యటనలో తేగ్ బహాదూర్ తన కుటుంబాన్ని అక్కడే ఉంచారు."
+   }
+  },
+  {
+   "topic": "gtb",
+   "q": {
+    "en": "Match List-I (place) with List-II (link with Guru Tegh Bahadur) and select the correct code:",
+    "te": "జాబితా-I (ప్రదేశం)ను జాబితా-II (గురు తేగ్ బహాదూర్‌తో సంబంధం)తో జతపరిచి సరైన కోడ్ ఎంచుకోండి:"
+   },
+   "st": [
+    {
+     "en": "A. Amritsar — 1. Gurdwara marking a truce with the Ahom king",
+     "te": "A. అమృత్‌సర్ — 1. అహోం రాజుతో సంధికి గుర్తుగా గురుద్వారా"
+    },
+    {
+     "en": "B. Anandpur Sahib — 2. Place of birth (1621)",
+     "te": "B. ఆనంద్‌పూర్ సాహిబ్ — 2. జన్మస్థలం (1621)"
+    },
+    {
+     "en": "C. Dhubri (on the Brahmaputra) — 3. Place of martyrdom (1675)",
+     "te": "C. ధుబ్రీ (బ్రహ్మపుత్ర ఒడ్డున) — 3. బలిదాన స్థలం (1675)"
+    },
+    {
+     "en": "D. Chandni Chowk — 4. Centre set up in 1665",
+     "te": "D. చాందినీ చౌక్ — 4. 1665లో ఏర్పాటు చేసిన కేంద్రం"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-2, B-4, C-3, D-1",
+     "te": "A-2, B-4, C-3, D-1"
+    },
+    {
+     "en": "A-4, B-2, C-1, D-3",
+     "te": "A-4, B-2, C-1, D-3"
+    },
+    {
+     "en": "A-2, B-1, C-4, D-3",
+     "te": "A-2, B-1, C-4, D-3"
+    },
+    {
+     "en": "A-2, B-4, C-1, D-3",
+     "te": "A-2, B-4, C-1, D-3"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Amritsar = birth; Anandpur Sahib = 1665 centre; Dhubri Sahib = Ahom truce; Chandni Chowk = martyrdom (Gurdwara Sis Ganj). Option (a) swaps Dhubri and Chandni Chowk.",
+    "te": "అమృత్‌సర్ = జననం; ఆనంద్‌పూర్ సాహిబ్ = 1665 కేంద్రం; ధుబ్రీ సాహిబ్ = అహోం సంధి; చాందినీ చౌక్ = బలిదానం (గురుద్వారా సీస్ గంజ్). (a)లో ధుబ్రీ, చాందినీ చౌక్ తారుమారు."
+   }
+  },
+  {
+   "topic": "lachit",
+   "q": {
+    "en": "Arrange the following events connected with Lachit Borphukan in chronological order:",
+    "te": "లచిత్ బర్ఫుకన్‌కు సంబంధించిన కింది ఘటనలను కాలక్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "I. Battle of Alaboi",
+     "te": "I. అలాబోయ్ యుద్ధం"
+    },
+    {
+     "en": "II. Recapture of Guwahati",
+     "te": "II. గువాహటి పునఃస్వాధీనం"
+    },
+    {
+     "en": "III. Battle of Saraighat",
+     "te": "III. సరాయ్‌ఘాట్ యుద్ధం"
+    },
+    {
+     "en": "IV. Unveiling of the Statue of Valour at Hollongapar",
+     "te": "IV. హోలోంగాపార్‌లో స్టాచ్యూ ఆఫ్ వాలర్ ఆవిష్కరణ"
+    }
+   ],
+   "o": [
+    {
+     "en": "II, I, III, IV",
+     "te": "II, I, III, IV"
+    },
+    {
+     "en": "I, II, III, IV",
+     "te": "I, II, III, IV"
+    },
+    {
+     "en": "II, III, I, IV",
+     "te": "II, III, I, IV"
+    },
+    {
+     "en": "I, III, II, IV",
+     "te": "I, III, II, IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Guwahati retaken Nov 1667 → Alaboi 1669 → Saraighat March 1671 → statue 9 March 2024. Trap (b): Alaboi came after the recapture of Guwahati.",
+    "te": "గువాహటి నవంబర్ 1667 → అలాబోయ్ 1669 → సరాయ్‌ఘాట్ మార్చి 1671 → విగ్రహం 9 మార్చి 2024. ట్రాప్ (b): అలాబోయ్ గువాహటి పునఃస్వాధీనం తర్వాతే."
+   }
+  },
+  {
+   "topic": "lachit",
+   "q": {
+    "en": "Assertion (A): The Ahoms under Lachit Borphukan defeated the larger Mughal army at Saraighat in 1671. Reason (R): Lachit used small, fast boats and the narrow channels of the Brahmaputra for river warfare. Select the correct answer:",
+    "te": "ప్రతిపాదన (A): 1671లో సరాయ్‌ఘాట్‌లో లచిత్ బర్ఫుకన్ నేతృత్వంలో అహోంలు పెద్ద మొఘల్ సైన్యాన్ని ఓడించారు. కారణం (R): లచిత్ నదీ యుద్ధానికి చిన్న, వేగవంతమైన పడవలను, బ్రహ్మపుత్ర ఇరుకు పాయలను ఉపయోగించారు. సరైన సమాధానం ఎంచుకోండి:"
+   },
+   "st": [
+    {
+     "en": "I. The Mughal force at Saraighat was led by Raja Ram Singh I of Amer.",
+     "te": "I. సరాయ్‌ఘాట్‌లో మొఘల్ సైన్యానికి ఆమేర్ రాజు రామ్ సింగ్ I నాయకత్వం వహించాడు."
+    },
+    {
+     "en": "II. After the battle, the Mughals retreated beyond the Manas river.",
+     "te": "II. యుద్ధం తర్వాత మొఘలులు మానస్ నది అవతలికి వెనుదిరిగారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "Both A and R are true and R is the correct explanation of A",
+     "te": "A, R రెండూ నిజం; A కు R సరైన వివరణ"
+    },
+    {
+     "en": "Both A and R are true but R is not the correct explanation of A",
+     "te": "A, R రెండూ నిజం; కానీ A కు R సరైన వివరణ కాదు"
+    },
+    {
+     "en": "A is true but R is false",
+     "te": "A నిజం, R తప్పు"
+    },
+    {
+     "en": "A is false but R is true",
+     "te": "A తప్పు, R నిజం"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Both are true and R explains A: the river tactics were the reason a smaller force won. Statements I and II are supporting facts. Trap: confusing Ram Singh I with Mir Jumla, whose invasion came earlier.",
+    "te": "రెండూ నిజం, R A ను వివరిస్తుంది: నదీ వ్యూహాల వల్లే చిన్న సైన్యం గెలిచింది. I, II సహాయక వాస్తవాలు. ట్రాప్: రామ్ సింగ్ Iను మీర్ జుమ్లాతో కలపడం — మీర్ జుమ్లా దండయాత్ర అంతకు ముందే."
+   }
+  },
+  {
+   "topic": "darwin",
+   "q": {
+    "en": "Which of the following statements about Charles Darwin is/are INCORRECT?",
+    "te": "చార్లెస్ డార్విన్‌కు సంబంధించి కింది వాటిలో తప్పు వాక్యం/వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. 'On the Origin of Species' (1859) presented his evidence that humans descended from apes.",
+     "te": "I. 'ఆన్ ది ఆరిజిన్ ఆఫ్ స్పీషీస్' (1859)లో మానవులు కోతుల నుంచి వచ్చారనే ఆధారాలను సమర్పించారు."
+    },
+    {
+     "en": "II. Thomas Malthus, an economist, influenced his idea of the 'struggle for existence'.",
+     "te": "II. ఆర్థికవేత్త థామస్ మాల్థస్ 'జీవన పోరాటం' ఆలోచనపై ప్రభావం చూపారు."
+    },
+    {
+     "en": "III. Evidence for his theory came from his voyage on HMS Beagle, including the Galapagos Islands.",
+     "te": "III. HMS బీగల్ యాత్ర (గాలపగోస్ దీవులు సహా) నుంచి ఆయన సిద్ధాంతానికి ఆధారాలు వచ్చాయి."
+    },
+    {
+     "en": "IV. Lamarck independently discovered natural selection and presented it with Darwin in 1858.",
+     "te": "IV. లామార్క్ స్వతంత్రంగా ప్రకృతి వరణాన్ని కనుగొని 1858లో డార్విన్‌తో కలిసి సమర్పించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "IV only",
+     "te": "IV మాత్రమే"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I is wrong — human descent is in 'The Descent of Man' (1871). IV is wrong — the co-discoverer presented at the Linnean Society (1858) was Alfred Russel Wallace; Lamarck was an earlier evolutionist.",
+    "te": "I తప్పు — మానవ పరిణామం 'ది డిసెంట్ ఆఫ్ మ్యాన్' (1871)లో. IV తప్పు — 1858 లిన్నియన్ సొసైటీలో సహ-ఆవిష్కర్త ఆల్ఫ్రెడ్ రసెల్ వాలెస్; లామార్క్ అంతకు ముందటి పరిణామవాది."
+   }
+  },
+  {
+   "topic": "aperegions",
+   "q": {
+    "en": "Match the district (List-I) with the economic region (List-II) it belongs to:",
+    "te": "జిల్లా (జాబితా-I)ను అది చెందిన ఆర్థిక ప్రాంతం (జాబితా-II)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. Nellore — 1. Visakhapatnam Economic Region",
+     "te": "A. నెల్లూరు — 1. విశాఖపట్నం ఆర్థిక ప్రాంతం"
+    },
+    {
+     "en": "B. Prakasam — 2. Tirupati Economic Region",
+     "te": "B. ప్రకాశం — 2. తిరుపతి ఆర్థిక ప్రాంతం"
+    },
+    {
+     "en": "C. Kakinada — 3. Amaravati Economic Region",
+     "te": "C. కాకినాడ — 3. అమరావతి ఆర్థిక ప్రాంతం"
+    },
+    {
+     "en": "D. Kurnool",
+     "te": "D. కర్నూలు"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-3, B-3, C-1, D-2",
+     "te": "A-3, B-3, C-1, D-2"
+    },
+    {
+     "en": "A-2, B-3, C-1, D-2",
+     "te": "A-2, B-3, C-1, D-2"
+    },
+    {
+     "en": "A-2, B-2, C-1, D-2",
+     "te": "A-2, B-2, C-1, D-2"
+    },
+    {
+     "en": "A-2, B-3, C-3, D-2",
+     "te": "A-2, B-3, C-3, D-2"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Nellore and Kurnool → Tirupati region; Prakasam → Amaravati region; Kakinada → Visakhapatnam region. Trap: Nellore is coastal but grouped with Tirupati, not Amaravati.",
+    "te": "నెల్లూరు, కర్నూలు → తిరుపతి ప్రాంతం; ప్రకాశం → అమరావతి ప్రాంతం; కాకినాడ → విశాఖపట్నం ప్రాంతం. ట్రాప్: నెల్లూరు తీర జిల్లా అయినా అమరావతిలో కాదు, తిరుపతి ప్రాంతంలో ఉంది."
+   }
+  },
+  {
+   "topic": "aperegions",
+   "q": {
+    "en": "Consider the following statements about the Amaravati Economic Region (AER):",
+    "te": "అమరావతి ఆర్థిక ప్రాంతం (AER)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Its Implementation Committee is chaired by the CEO of the AER, with the APCRDA Commissioner as member-convener.",
+     "te": "I. దాని అమలు కమిటీకి AER CEO అధ్యక్షుడు; APCRDA కమిషనర్ సభ్య-కన్వీనర్."
+    },
+    {
+     "en": "II. It has about 35% of Andhra Pradesh's coastline.",
+     "te": "II. ఆంధ్రప్రదేశ్ తీరరేఖలో సుమారు 35% దీనిలో ఉంది."
+    },
+    {
+     "en": "III. It is a new administrative division that replaces district collectors.",
+     "te": "III. ఇది జిల్లా కలెక్టర్ల స్థానంలో వచ్చిన కొత్త పరిపాలనా విభాగం."
+    },
+    {
+     "en": "IV. Quantum Valley in Amaravati is one of its planned projects.",
+     "te": "IV. అమరావతిలో క్వాంటం వ్యాలీ దీని ప్రణాళిక ప్రాజెక్టుల్లో ఒకటి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "III is wrong: the AER is a planning and investment framework — the nine district collectors are members of its committee, not replaced by it.",
+    "te": "III తప్పు: AER ప్రణాళిక, పెట్టుబడుల చట్రం — తొమ్మిది జిల్లాల కలెక్టర్లు దాని కమిటీలో సభ్యులు; వారిని తొలగించే విభాగం కాదు."
+   }
+  },
+  {
+   "topic": "anaemia",
+   "q": {
+    "en": "A newspaper says: 'SAMPADA shows anaemia has fallen sharply compared with earlier national surveys.' Which of the following, if true, is the BEST reason to be careful about this conclusion?",
+    "te": "'గత జాతీయ సర్వేలతో పోలిస్తే రక్తహీనత బాగా తగ్గిందని SAMPADA చూపుతోంది' అని ఒక పత్రిక రాసింది. ఈ నిర్ణయం విషయంలో జాగ్రత్త పడడానికి కింది వాటిలో ఉత్తమ కారణం ఏది?"
+   },
+   "st": [
+    {
+     "en": "I. SAMPADA used venous blood and automated analysers, while earlier surveys used point-of-care devices.",
+     "te": "I. SAMPADA సిర రక్తం, ఆటోమేటెడ్ ఎనలైజర్లు వాడింది; గత సర్వేలు పాయింట్-ఆఫ్-కేర్ పరికరాలు వాడాయి."
+    },
+    {
+     "en": "II. SAMPADA covered 183 districts in 35 States/UTs.",
+     "te": "II. SAMPADA 35 రాష్ట్రాలు/UTల్లోని 183 జిల్లాలను కవర్ చేసింది."
+    },
+    {
+     "en": "III. Most anaemia cases found were mild or moderate.",
+     "te": "III. గుర్తించిన కేసుల్లో చాలావరకు స్వల్ప లేదా మధ్యస్థ స్థాయివి."
+    }
+   ],
+   "o": [
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "III only",
+     "te": "III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Only I questions the comparison: a change in measuring method can change the numbers by itself. II and III are true facts but do not make the comparison unreliable.",
+    "te": "I మాత్రమే పోలికను ప్రశ్నిస్తుంది: కొలత విధానం మారితే దానివల్లే శాతాలు మారవచ్చు. II, III నిజమే కానీ పోలికను అనుమానాస్పదం చేయవు."
+   }
+  },
+  {
+   "topic": "anaemia",
+   "q": {
+    "en": "With reference to anaemia findings of the SAMPADA survey, consider the following statements:",
+    "te": "SAMPADA సర్వే రక్తహీనత ఫలితాలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Among women aged 15–49, Andhra Pradesh recorded the highest prevalence in India.",
+     "te": "I. 15–49 ఏళ్ల మహిళల్లో దేశంలోనే అత్యధిక రక్తహీనత ఆంధ్రప్రదేశ్‌లో నమోదైంది."
+    },
+    {
+     "en": "II. Kerala recorded the lowest prevalence among women aged 15–49.",
+     "te": "II. 15–49 ఏళ్ల మహిళల్లో అత్యల్ప రక్తహీనత కేరళలో నమోదైంది."
+    },
+    {
+     "en": "III. Anaemia among women in Andhra Pradesh (15–49) is higher than in Telangana.",
+     "te": "III. ఆంధ్రప్రదేశ్‌లో మహిళల (15–49) రక్తహీనత తెలంగాణ కంటే ఎక్కువ."
+    },
+    {
+     "en": "IV. For women, the WHO haemoglobin cut-off used is 12.0 g/dL.",
+     "te": "IV. మహిళలకు వాడిన WHO హీమోగ్లోబిన్ పరిమితి 12.0 g/dL."
+    }
+   ],
+   "o": [
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I is the trap: for women 15–49 West Bengal is highest (72.4%); AP (68.5%) is high but tops the list only for women aged 60+ (81.7%).",
+    "te": "I ట్రాప్: 15–49 మహిళల్లో పశ్చిమ బెంగాల్ అత్యధికం (72.4%); ఏపీ (68.5%) ఎక్కువే కానీ మొదటి స్థానం 60+ మహిళల్లో మాత్రమే (81.7%)."
+   }
+  },
+  {
+   "topic": "informal",
+   "q": {
+    "en": "Consider the following statements based on the NSO's QBUSE (July–September 2026):",
+    "te": "NSO QBUSE (జూలై–సెప్టెంబర్ 2026) ఆధారంగా కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The number of establishments grew faster than the number of workers.",
+     "te": "I. కార్మికుల సంఖ్య కంటే సంస్థల సంఖ్య వేగంగా పెరిగింది."
+    },
+    {
+     "en": "II. Urban areas grew faster than rural areas in both establishments and employment.",
+     "te": "II. సంస్థలు, ఉపాధి — రెండింటిలోనూ పట్టణ ప్రాంతాలు గ్రామీణం కంటే వేగంగా పెరిగాయి."
+    },
+    {
+     "en": "III. 'Other services' recorded the highest growth among the sectors.",
+     "te": "III. రంగాల్లో 'ఇతర సేవలు' అత్యధిక వృద్ధి నమోదు చేశాయి."
+    },
+    {
+     "en": "IV. Women formed more than 31% of the workforce.",
+     "te": "IV. శ్రామిక శక్తిలో మహిళలు 31% కంటే ఎక్కువ."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is wrong: urban led in establishments (+22.05% vs +16.05%), but rural led in employment (+17.52% vs +16.30%). I: +18.81% vs +16.86%.",
+    "te": "II తప్పు: సంస్థల్లో పట్టణం ముందుంది (+22.05% vs +16.05%), కానీ ఉపాధిలో గ్రామీణం ముందుంది (+17.52% vs +16.30%). I: +18.81% vs +16.86%."
+   }
+  }
+ ]
+}
