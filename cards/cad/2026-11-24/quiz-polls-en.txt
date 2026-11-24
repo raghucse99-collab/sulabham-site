@@ -1,0 +1,231 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-24 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about the ASEAN–India Maritime Conclave 2026:
+Which of the statements given above is/are correct?
+I. It was held in Visakhapatnam, organised by India Foundation with the MEA.
+II. Ramayapatnam, Mulapeta, Machilipatnam and Kakinada were cited as new ports under construction in AP.
+III. The shipbuilding cluster proposed by AP is at Krishnapatnam.
+
+--- QUESTION ---
+Q1. Consider the following statements about the ASEAN–India Maritime Conclave 2026:
+Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is the trap: the shipbuilding cluster (about ₹30,000 crore) is proposed at DUGARAJAPATNAM, not Krishnapatnam. (a) misses II; (c) and (d) include the wrong III.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Match List-I (body that joined the Vizag Fishing Harbour mission) with List-II (its headquarters / nature):
+Select the correct code:
+A. AFD    1. Mumbai
+B. CMFRI  2. France's development agency
+C. FSI    3. Kochi (export promotion)
+D. MPEDA  4. Kochi (marine fisheries research)
+
+--- QUESTION ---
+Q2. Match List-I (body that joined the Vizag Fishing Harbour mission) with List-II (its headquarters / nature):
+Select the correct code: (statements in the message above)
+
+--- OPTIONS ---
+(a) A-2, B-3, C-1, D-4
+(b) A-1, B-4, C-2, D-3
+(c) A-2, B-1, C-4, D-3
+(d) A-2, B-4, C-1, D-3
+
+--- CORRECT (tick this) ---
+(d) A-2, B-4, C-1, D-3
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+AFD = Agence Française de Développement; CMFRI = research institute in Kochi; FSI (Fishery Survey of India) = Mumbai; MPEDA = export development authority, also Kochi. Trap (a): both CMFRI and MPED...
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements about the 'Srivari Yatra Suraksha' scheme:
+Which of the statements given above is/are correct?
+I. It is a group life insurance scheme of TTD with LIC.
+II. It pays ₹2 lakh for natural death and ₹10 lakh for accidental death of a pilgrim.
+III. All seven families paid in the first round were from Andhra Pradesh.
+
+--- QUESTION ---
+Q3. Consider the following statements about the 'Srivari Yatra Suraksha' scheme:
+Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: the 7 families were 4 from Tamil Nadu, 2 from Telangana and only 1 from AP — the scheme covers all pilgrims. (b) misses I; (c) and (d) include III.
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Assertion (A): Andhra Pradesh proposed a Centre for Buddhist Studies named after Acharya Nagarjuna at Acharya Nagarjuna University, Guntur.
+Reason (R): Acharya Nagarjuna founded the Theravada school of Buddhism.
+
+--- OPTIONS ---
+(a) Both A and R are true, and R is the correct explanation of A
+(b) Both A and R are true, but R is NOT the correct explanation of A
+(c) A is true, but R is false
+(d) A is false, but R is true
+
+--- CORRECT (tick this) ---
+(c) A is true, but R is false
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+A is true (Lokesh's proposal to the Thai Ambassador, 23 Nov). R is false: Nagarjuna founded the MADHYAMIKA (Shunyavada) school of MAHAYANA Buddhism. Theravada is the older school followed in Thaila...
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. With reference to changing the name of a State, consider the following statements:
+Which of the statements given above is/are correct?
+I. Parliament changes a State's name by law under Article 3.
+II. The Bill can be introduced only on the recommendation of the President.
+III. Such a law is not treated as an amendment of the Constitution under Article 368.
+
+--- QUESTION ---
+Q5. With reference to changing the name of a State, consider the following statements:
+Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(d) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+All three are correct. Art 3: Parliament alters names by law, Bill needs the President's recommendation, and the State Legislature's views are not binding. Art 4: such laws are not Art 368 amendmen...
+
+==================== Q6 ====================
+--- QUESTION ---
+Q6. Arrange the following in chronological order:
+I. Kihoto Hollohan judgment
+II. 91st Constitutional Amendment
+III. 52nd Constitutional Amendment
+IV. SC notice on PIL on 'strategic resignations'
+
+--- OPTIONS ---
+(a) III – I – II – IV
+(b) I – III – II – IV
+(c) III – II – I – IV
+(d) II – III – I – IV
+
+--- CORRECT (tick this) ---
+(a) III – I – II – IV
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+52nd Amendment 1985 (Tenth Schedule) → Kihoto Hollohan 1992 (Speaker's decision open to judicial review) → 91st Amendment 2003 (split clause deleted) → PIL notice 23 Nov 2026. Trap (c): the 91st Am...
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Match List-I (scheme served by the new e-Anudaan portal) with List-II (target group):
+Select the correct code:
+A. AVYAY     1. Drug demand reduction
+B. SMILE     2. Residential schooling for SC students
+C. SHRESHTA  3. Senior citizens
+D. NAPDDR    4. Transgender persons and people in begging
+
+--- QUESTION ---
+Q7. Match List-I (scheme served by the new e-Anudaan portal) with List-II (target group):
+Select the correct code: (statements in the message above)
+
+--- OPTIONS ---
+(a) A-4, B-3, C-2, D-1
+(b) A-3, B-4, C-1, D-2
+(c) A-3, B-4, C-2, D-1
+(d) A-2, B-4, C-3, D-1
+
+--- CORRECT (tick this) ---
+(c) A-3, B-4, C-2, D-1
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+AVYAY = Atal Vayo Abhyuday Yojana (seniors); SMILE = transgender persons and people in begging; SHRESHTA = residential education for SC students; NAPDDR = National Action Plan for Drug Demand Reduc...
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Consider the following statements:
+Which of the statements given above is/are correct?
+I. India's space economy is about $9 billion now and is projected to reach $40–45 billion within a decade.
+II. The Indian Space Association (ISpA) is a statutory body under the Department of Space.
+III. NewSpace India Limited (NSIL) is the commercial arm of ISRO.
+
+--- QUESTION ---
+Q8. Consider the following statements:
+Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct. II is the trap: ISpA is an industry association of private space companies that organised the conclave, not a government/statutory body (the government regulator-promoter is ...
+
+==================== Q9 ====================
+--- QUESTION ---
+Q9. Which of the following statements about National Milk Day 2026 is NOT correct?
+
+--- OPTIONS ---
+(a) It marks the birth anniversary of Dr Verghese Kurien
+(b) The 2026 national event is in Patna, Bihar
+(c) Basic Animal Husbandry Statistics 2026 will be released
+(d) It is observed on 1 June, as declared by FAO
+
+--- CORRECT (tick this) ---
+(d) It is observed on 1 June, as declared by FAO
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(d) is NOT correct: 1 June is WORLD Milk Day (FAO). National Milk Day is 26 Nov, Kurien's birth anniversary; the 2026 event is at Bapu Sabhagar, Patna, where BAHS 2026 will be released. (a)–(c) are...
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Consider the following statements about India–Germany relations:
+Which of the statements given above is/are correct?
+I. 2026 marks 75 years of India–Germany diplomatic relations.
+II. India and Germany are both members of the G4 seeking permanent UNSC seats.
+III. Friedrich Merz is the President of Germany.
+
+--- QUESTION ---
+Q10. Consider the following statements about India–Germany relations:
+Which of the statements given above is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: Merz is the Federal CHANCELLOR (head of government); Germany's President is the head of state. (b) misses II; (c) and (d) include III.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/current.html?d=2026-11-24
