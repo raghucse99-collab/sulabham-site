@@ -2751,31 +2751,40 @@ document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
 $('search').addEventListener('input',()=>{const q=String($('search').value||'').trim();if(/^\d{1,2}\s*\+\s*\d{1,2}$/.test(q))lastNumberNQuery=q;renderChart();});$('daySearch').addEventListener('change',renderChart);$('year').addEventListener('change',renderChart);
 $('runOpenDigitSearch')?.addEventListener('click',()=>{$('runOpenDigitSearch').dataset.run='yes';renderChart();});
 $('openDigitSummary')?.addEventListener('click',e=>{const b=e.target.closest('[data-jodi]');if(!b)return;const tool=$('openDigitTool');tool.dataset.selectedJodi=tool.dataset.selectedJodi===b.dataset.jodi?'':b.dataset.jodi;renderChart();});
+const chartFetchPromises=new Map();
 async function fetchData(marketId=selected){
- const key=chartKeyFor(marketId),file=encodeURIComponent(key)+'.json';
- // Prefer same-origin first, then public mirrors. Avoid Promise.any for older mobile WebViews.
- const sources=[
-  '/dp777/data/charts/'+file,
-  'https://raw.githubusercontent.com/raghucse99-collab/sulabham-site/main/dp777/data/charts/'+file,
-  'https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham-site@main/dp777/data/charts/'+file,
-  'https://raghucse99-collab.github.io/sulabham-site/dp777/data/charts/'+file
- ];
- const errors=[];
- return new Promise((resolve,reject)=>{
-  let pending=sources.length,finished=false;
-  sources.forEach(base=>{
-   const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),15000);
-   fetch(base+'?v='+Date.now(),{cache:'no-store',signal:controller.signal,mode:'cors'})
-    .then(res=>{if(!res.ok)throw new Error('HTTP '+res.status+' '+base);return res.json();})
-    .then(parsed=>{
-     const normalized=parsed&&Array.isArray(parsed.rows)?{updated_at:parsed.updated_at||null,charts:{[key]:parsed}}:parsed;
-     if(!normalized||!normalized.charts||!normalized.charts[key]||!Array.isArray(normalized.charts[key].rows))throw new Error('Invalid JSON structure from '+base);
-     if(!finished){finished=true;resolve(normalized);}
-    })
-    .catch(e=>{errors.push((e&&e.message)||String(e));pending--;if(!finished&&pending===0)reject(new Error('All chart sources failed for '+key+': '+errors.join(' | ')));})
-    .finally(()=>clearTimeout(timeout));
+ const key=chartKeyFor(marketId);
+ if(chartFetchPromises.has(key))return chartFetchPromises.get(key);
+ const request=(async()=>{
+  const file=encodeURIComponent(key)+'.json';
+  // Prefer same-origin first, then public mirrors. Keep the mobile-compatible
+  // parallel fallback, but share one request across every caller for this chart.
+  const sources=[
+   '/dp777/data/charts/'+file,
+   'https://raw.githubusercontent.com/raghucse99-collab/sulabham-site/main/dp777/data/charts/'+file,
+   'https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham-site@main/dp777/data/charts/'+file,
+   'https://raghucse99-collab.github.io/sulabham-site/dp777/data/charts/'+file
+  ];
+  const errors=[];
+  return new Promise((resolve,reject)=>{
+   let pending=sources.length,finished=false;
+   sources.forEach(base=>{
+    const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),10000);
+    fetch(base+'?v='+Date.now(),{cache:'no-store',signal:controller.signal,mode:'cors'})
+     .then(res=>{if(!res.ok)throw new Error('HTTP '+res.status+' '+base);return res.json();})
+     .then(parsed=>{
+      const normalized=parsed&&Array.isArray(parsed.rows)?{updated_at:parsed.updated_at||null,charts:{[key]:parsed}}:parsed;
+      if(!normalized||!normalized.charts||!normalized.charts[key]||!Array.isArray(normalized.charts[key].rows))throw new Error('Invalid JSON structure from '+base);
+      if(!finished){finished=true;resolve(normalized);}
+     })
+     .catch(e=>{errors.push((e&&e.message)||String(e));pending--;if(!finished&&pending===0)reject(new Error('All chart sources failed for '+key+': '+errors.join(' | ')));})
+     .finally(()=>clearTimeout(timeout));
+   });
   });
- });
+ })();
+ chartFetchPromises.set(key,request);
+ try{return await request;}
+ finally{if(chartFetchPromises.get(key)===request)chartFetchPromises.delete(key);}
 }
 async function refreshLiveResults(){
  for(const base of LIVE_DATA_URLS){
@@ -2786,13 +2795,10 @@ async function refreshLiveResults(){
    const parsed=await res.json();
    if(!parsed||!parsed.latest_results||typeof parsed.latest_results!=='object')throw new Error('invalid live feed');
    liveData=parsed;liveData.live_status=parsed.live_status||'ok';
-   const ids=[...new Set(markets.filter(m=>m.showLive!==false).map(m=>chartKeyFor(m.id)))];
-   const loaded=await Promise.all(ids.map(async key=>{
-    const urls=['https://raw.githubusercontent.com/raghucse99-collab/sulabham-site/main/dp777/data/charts/'+encodeURIComponent(key)+'.json','https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham-site@main/dp777/data/charts/'+encodeURIComponent(key)+'.json'];
-    for(const url of urls){try{const response=await fetch(url+'?v='+Date.now(),{cache:'no-store'});if(!response.ok)continue;const payload=await response.json();const chart=payload?.charts?.[key]||(payload?.rows?payload:null);if(chart&&Array.isArray(chart.rows))return [key,chart];}catch(e){}}
-    return [key,null];
-   }));
-   const charts={...(data.charts||{})};for(const [key,chart] of loaded){if(chart)charts[key]=chart;}data={...data,charts};applyLiveResultsToCharts();renderLatestResults();return; // Do not rebuild the selected chart during background live refresh; keep expanded weekly charts open.
+   // Historical chart archives are loaded separately and cached in memory.
+   // Refresh only the small live-results feed here; do not download every chart
+   // again every 30 seconds or compete with the selected chart's first load.
+   applyLiveResultsToCharts();renderLatestResults();return;
   }catch(e){/* Try the alternate CDN. */}
   finally{clearTimeout(timeout);}
  }
@@ -2810,7 +2816,9 @@ async function loadLiveChartFallbacks(){
  // the selected market loaded, so cards must not depend on that selection.
  const ids=[...new Set(markets.filter(m=>m.showLive!==false).map(m=>chartKeyFor(m.id)))];
  await Promise.all(ids.map(async key=>{
-  // Always refresh: an existing chart can be stale or lack today's Open value.
+  // Fetch only missing archives. Live results are refreshed independently;
+  // re-downloading all historical charts every 30 seconds caused request storms.
+  if(data.charts?.[key]?.rows?.length)return;
   try{
    const parsed=await fetchData(key);
    data={...data,updated_at:parsed.updated_at||data.updated_at,charts:{...(data.charts||{}),...parsed.charts}};
