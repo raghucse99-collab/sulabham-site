@@ -2824,8 +2824,10 @@ async function loadLiveChartFallbacks(){
    data={...data,updated_at:parsed.updated_at||data.updated_at,charts:{...(data.charts||{}),...parsed.charts}};
   }catch(e){console.warn('Live card chart fallback failed:',key,e);}
  }));
- // The fallback loader also supplies the selected గత నమూనాలు chart. Refresh
- // the chart panel after those requests finish, not just the live-result cards.
+ // Apply the latest published full results to any archives that have just loaded.
+ applyLiveResultsToCharts();
+ // The fallback loader also supplies the selected historical chart.
+ // Refresh market labels after those requests finish, not just the live-result cards.
  if(data.charts?.[chartKeyFor(selected)]?.rows?.length){
   dataLoadFailed=false;
   $('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Historical chart data loaded';
@@ -2841,6 +2843,7 @@ async function load(){
   const parsed=await fetchData(requestedMarket);
   if(requestedMarket!==selected)return;
   data={...data,updated_at:parsed.updated_at||data.updated_at,charts:{...(data.charts||{}),...parsed.charts}};
+  applyLiveResultsToCharts();
   dataLoadFailed=false;
   $('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Historical data source has not populated records yet';
  }catch(e){
