@@ -33,31 +33,31 @@
     },
     "milan-night": {
       "name": "Milan Night",
-      "result": "370-04-400",
+      "result": "113-5",
       "source": "https://dpbossss.com/",
       "source_label": "MILAN NIGHT",
-      "result_changed_at": "2026-11-24T20:22:01+00:00"
+      "result_changed_at": "2026-11-25T16:38:35+00:00"
     },
     "kalyan-night": {
       "name": "Kalyan Night",
-      "result": "455-46-457",
+      "result": "178-6",
       "source": "https://dpbossss.com/",
       "source_label": "KALYAN NIGHT",
-      "result_changed_at": "2026-11-24T20:22:01+00:00"
+      "result_changed_at": "2026-11-25T16:38:35+00:00"
     },
     "rajdhani-night": {
       "name": "Rajdhani Night",
-      "result": "146-12-129",
+      "result": "158-4",
       "source": "https://dpbossss.com/",
       "source_label": "RAJDHANI NIGHT",
-      "result_changed_at": "2026-11-24T20:22:01+00:00"
+      "result_changed_at": "2026-11-25T16:38:35+00:00"
     },
     "main-bazar": {
       "name": "Main Bazar",
-      "result": "579-16-259",
+      "result": "120-3",
       "source": "https://dpbossss.com/",
       "source_label": "MAIN BAZAR",
-      "result_changed_at": "2026-11-24T20:22:01+00:00"
+      "result_changed_at": "2026-11-25T16:38:35+00:00"
     },
     "sridevi": {
       "name": "Sridevi",
@@ -74,7 +74,7 @@
       "result_changed_at": "2026-11-25T14:55:42+00:00"
     }
   },
-  "live_fetched_at": "2026-11-25T14:55:42+00:00",
+  "live_fetched_at": "2026-11-25T16:38:35+00:00",
   "live_source": "https://dpbossss.com/",
   "live_status": "ok",
   "charts": {
