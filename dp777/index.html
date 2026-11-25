@@ -1231,7 +1231,8 @@ async function runSaturdayChainAll(){
   return '<section class="repeat-market-group"><div class="repeat-card-head"><span class="repeat-pattern-name">'+esc(item.market.name)+'</span><span class="repeat-pattern-status">'+item.continuous.length+' CONTINUOUS · '+item.failed.length+' FAILED</span></div><h3 class="section-title">CONTINUOUS PATTERNS</h3>'+cont+'<h3 class="section-title">FAILED PATTERNS</h3>'+fail+'</section>';
  }).join('');
  $('count').textContent=totalContinuous+' continuous · '+totalFailed+' failed · '+totalChecks.toLocaleString()+' checks';
- $('tableArea').innerHTML='<div class="chart-title-band">'+esc(market.name.toUpperCase())+' — SATURDAY MAIN +10 / LINKED +11 OR −11</div><div class="chart-hint">Only two categories are displayed: Continuous and Failed. Main Jodis must progress +10 on successive Saturday occurrences. Linked Jodis must progress consistently by +11 or −11 in one direction. Gaps must be the same or increase by a fixed step (+1 to +8). Minimum 3 successful pairs. Failed patterns show the first failure after at least 3 successful pairs; later recovery is not searched or displayed. Smallest g
+ $('tableArea').innerHTML='<div class="chart-title-band">'+esc(market.name.toUpperCase())+' — SATURDAY MAIN +10 / LINKED +11 OR −11</div><div class="chart-hint">Only two categories are displayed: Continuous and Failed. Main Jodis must progress +10 on successive Saturday occurrences. Linked Jodis must progress consistently by +11 or −11 in one direction. Gaps must be the same or increase by a fixed step (+1 to +8). Minimum 3 successful pairs. Failed patterns show the first failure after at least 3 successful pairs; later recovery is not searched or displayed. Smallest gap first. Historical matches only, not predictions.</div><div class="repeat-pattern-list">'+sections+'</div>';
+}
 async function runFridayChainAll(){
  const stats=$('targetStats');stats.hidden=true;
  const market=markets.find(m=>m.id===selected);
@@ -1327,7 +1328,6 @@ async function runFridayChainAll(){
  }).join('');
  $('count').textContent=totalContinuous+' continuous · '+totalFailed+' failed · '+totalChecks.toLocaleString()+' checks';
  $('tableArea').innerHTML='<div class="chart-title-band">'+esc(market.name.toUpperCase())+' — FRIDAY MAIN +10 / LINKED +11 OR −11</div><div class="chart-hint">Only two categories are displayed: Continuous and Failed. Main Jodis must progress +10 on successive Friday occurrences. Linked Jodis must progress consistently by +11 or −11 in one direction. Gaps must be the same or increase by a fixed step (+1 to +8). Minimum 3 successful pairs. Failed patterns show the first failure after at least 3 successful pairs; later recovery is not searched or displayed. Smallest gap first. Historical matches only, not predictions.</div><div class="repeat-pattern-list">'+sections+'</div>';
-}ap first. Historical matches only, not predictions.</div><div class="repeat-pattern-list">'+sections+'</div>';
 }
 function renderChart(){
  // Keep the visible selected search button synchronized with the view that is actually rendered.
