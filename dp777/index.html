@@ -1126,7 +1126,7 @@ async function runSaturdayChainAll(){
  $('count').textContent='Loading '+market.name+'…';
  $('chartTitle').textContent=market.name+' · Saturday +10 / Linked ±11';
  $('chartDesc').textContent=market.name+' only · continuous and failed patterns';
- $('tableArea').innerHTML='<div class="empty"><strong>Checking all seven market archives…</strong>Continuous and failed patterns are being verified against the original chart rows.</div>';
+ $('tableArea').innerHTML='<div class="empty"><strong>Checking the selected market archive…</strong>Continuous and failed patterns are being verified against the original chart rows.</div>';
  const days=market.id==='milan-night'?['Mon','Tue','Wed','Thu','Fri','Sat']:['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
  const valid=v=>/^\d{2}$/.test(String(v??'').trim());
  const wrap=n=>(n+100)%100;
@@ -1155,6 +1155,7 @@ async function runSaturdayChainAll(){
     for(let firstGap=1;firstGap<=52;firstGap++){
      for(let gapStep=0;gapStep<=8;gapStep++){
       totalChecks++;
+      if(totalChecks%5000===0){$('count').textContent='Scanning '+market.name+'… '+Math.round((firstNo+1)/Math.max(1,friday.length)*100)+'% · '+totalChecks.toLocaleString()+' checks';await new Promise(resolve=>setTimeout(resolve,0));}
       const chain=[];
       let current=first,n=0,failure=null,ended=false;
       while(true){
@@ -1265,7 +1266,7 @@ async function runFridayChainAll(){
   const continuous=new Map(),failed=new Map();
   for(let firstNo=0;firstNo<friday.length;firstNo++){
    const first=friday[firstNo];
-   if(firstNo%30===0){$('count').textContent='Scanning '+market.name+'… '+Math.round(firstNo/Math.max(1,friday.length)*100)+'%';await new Promise(resolve=>setTimeout(resolve,0));}
+   if(firstNo%5===0){$('count').textContent='Scanning '+market.name+'… '+Math.round(firstNo/Math.max(1,friday.length)*100)+'% · '+totalChecks.toLocaleString()+' checks';await new Promise(resolve=>setTimeout(resolve,0));}
    for(const direction of [1,-1]){
     for(let firstGap=1;firstGap<=52;firstGap++){
      for(let gapStep=0;gapStep<=8;gapStep++){
