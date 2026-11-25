@@ -2798,21 +2798,21 @@ async function fetchData(marketId=selected){
    'https://raghucse99-collab.github.io/sulabham-site/dp777/data/charts/'+file
   ];
   const errors=[];
-  return new Promise((resolve,reject)=>{
-   let pending=sources.length,finished=false;
-   sources.forEach(base=>{
-    const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),10000);
-    fetch(base+'?v='+Date.now(),{cache:'no-store',signal:controller.signal,mode:'cors'})
-     .then(res=>{if(!res.ok)throw new Error('HTTP '+res.status+' '+base);return res.json();})
-     .then(parsed=>{
-      const normalized=parsed&&Array.isArray(parsed.rows)?{updated_at:parsed.updated_at||null,charts:{[key]:parsed}}:parsed;
-      if(!normalized||!normalized.charts||!normalized.charts[key]||!Array.isArray(normalized.charts[key].rows))throw new Error('Invalid JSON structure from '+base);
-      if(!finished){finished=true;resolve(normalized);}
-     })
-     .catch(e=>{errors.push((e&&e.message)||String(e));pending--;if(!finished&&pending===0)reject(new Error('All chart sources failed for '+key+': '+errors.join(' | ')));})
-     .finally(()=>clearTimeout(timeout));
-   });
-  });
+  // Fetch one source at a time. Parallel mirror requests were competing with
+  // the initial selected-chart request on mobile and could leave the UI waiting.
+  for(const base of sources){
+   const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),8000);
+   try{
+    const res=await fetch(base+'?v='+Date.now(),{cache:'no-store',signal:controller.signal,mode:'cors'});
+    if(!res.ok)throw new Error('HTTP '+res.status+' '+base);
+    const parsed=await res.json();
+    const normalized=parsed&&Array.isArray(parsed.rows)?{updated_at:parsed.updated_at||null,charts:{[key]:parsed}}:parsed;
+    if(!normalized||!normalized.charts||!normalized.charts[key]||!Array.isArray(normalized.charts[key].rows))throw new Error('Invalid JSON structure from '+base);
+    return normalized;
+   }catch(e){errors.push((e&&e.message)||String(e));}
+   finally{clearTimeout(timeout);}
+  }
+  throw new Error('All chart sources failed for '+key+': '+errors.join(' | '));
  })();
  chartFetchPromises.set(key,request);
  try{return await request;}
