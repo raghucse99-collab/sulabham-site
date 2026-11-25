@@ -1,0 +1,232 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-25 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about Dr B.R. Ambedkar's speech of 25 November 1949:
+I. He said that from 26 January 1950 India would enter 'a life of contradictions' — equality in politics but inequality in social and economic life.
+II. He said satyagraha remains a valid method even after constitutional methods become available.
+III. He described fraternity as 'a sense of common brotherhood of all Indians'.
+IV. He said a good constitution may turn out bad if those who work it are bad.
+
+--- QUESTION ---
+Q1. Consider the following statements about Dr B.R. Ambedkar's speech of 25 November 1949: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III only
+(b) I, III and IV only
+(c) II and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is the trap: he called civil disobedience, non-cooperation and satyagraha the 'Grammar of Anarchy' once constitutional methods are open, and asked that they be abandoned.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Match List-I (idea in Ambedkar's 25 Nov 1949 speech) with List-II (person he quoted or credited):
+A. Do not lay liberties at the feet of even a great man — 1. Abraham Lincoln
+B. No nation can be grateful at the cost of its liberty — 2. John Stuart Mill
+C. A House divided against itself cannot stand — 3. Daniel O'Connell
+
+--- QUESTION ---
+Q2. Match List-I (idea in Ambedkar's 25 Nov 1949 speech) with List-II (person he quoted or credited): (statements in the message above)
+
+--- OPTIONS ---
+(a) A-1, B-2, C-3
+(b) A-3, B-2, C-1
+(c) A-2, B-1, C-3
+(d) A-2, B-3, C-1
+
+--- CORRECT (tick this) ---
+(d) A-2, B-3, C-1
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+A = J.S. Mill (hero-worship warning), B = Daniel O'Connell (gratitude vs liberty), C = Abraham Lincoln ('a House divided'). Option (c) wrongly swaps O'Connell and Lincoln.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Arrange the following in chronological order:
+I. UN Declaration on the Elimination of Violence against Women (resolution 48/104)
+II. Killing of the Mirabal sisters in the Dominican Republic
+III. UNGA designates 25 November as the International Day (resolution 54/134)
+IV. National Commission for Women set up in India
+
+--- QUESTION ---
+Q3. Arrange the following in chronological order: (statements in the message above)
+
+--- OPTIONS ---
+(a) II, IV, I, III
+(b) II, I, IV, III
+(c) IV, II, I, III
+(d) II, I, III, IV
+
+--- CORRECT (tick this) ---
+(a) II, IV, I, III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Order: Mirabal sisters 1960 → NCW 1992 → Declaration 1993 → Day designated 1999. Option (b) places the 1993 Declaration before the 1992 NCW.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. Which of the following statements about the 2026 UNiTE campaign / 16 Days of Activism is/are INCORRECT?
+I. Its 2026 theme is 'Ensure justice, protect survivors, end impunity'.
+II. The 16 days run from 25 November to International Women's Day.
+III. Purple is the campaign colour, standing for hope.
+
+--- QUESTION ---
+Q4. Which of the following statements about the 2026 UNiTE campaign / 16 Days of Activism is/are INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II only
+(c) II and III only
+(d) I and III only
+
+--- CORRECT (tick this) ---
+(c) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is incorrect — the 16 days end on 10 December, Human Rights Day. III is incorrect — the colour is orange ('Orange the World'). I is the correct 2026 theme.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. With reference to the PIL heard by the Supreme Court on 23 November 2026, consider the following statements:
+I. It seeks that a resignation made while disqualification proceedings are pending should not by itself end those proceedings.
+II. The Court sought responses from the Centre, the Election Commission and the Law Commission.
+III. It asks that in a hung House, majority be shown through letters of support submitted to the Governor.
+
+--- QUESTION ---
+Q5. With reference to the PIL heard by the Supreme Court on 23 November 2026, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is the reverse of the plea: it wants majority tested only on the floor of the House after members take oath under Article 188, not by letters of support.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following Assertion (A) and Reason (R) and select the correct answer:
+Assertion (A): Under the Tenth Schedule, members of a legislature party escape disqualification when two-thirds of them merge with another party.
+Reason (R): The 91st Amendment, 2003 removed the exemption for a split by one-third of a legislature party.
+
+--- QUESTION ---
+Q6. Consider the following Assertion (A) and Reason (R) and select the correct answer: (statements in the message above)
+
+--- OPTIONS ---
+(a) Both A and R are true, and R is the correct explanation of A
+(b) Both A and R are true, but R is not the correct explanation of A
+(c) A is true, but R is false
+(d) A is false, but R is true
+
+--- CORRECT (tick this) ---
+(b) Both A and R are true, but R is not the correct explanation of A
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Both are true. But A exists because of the merger clause (Paragraph 4); the removal of the split clause in 2003 does not explain why the merger exception exists.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following statements about the Kerala → Keralam name change:
+I. The Kerala Assembly passed the resolution seeking the change on 24 June 2024.
+II. The Bill was introduced under Article 368 because it changes the First Schedule.
+III. The new name applies from the 'appointed day' notified by the Central Government.
+IV. The Bill also changes the entry for the State in the Fourth Schedule (Rajya Sabha seats).
+
+--- QUESTION ---
+Q7. Consider the following statements about the Kerala → Keralam name change: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II, III and IV only
+(c) I and III only
+(d) I, III and IV only
+
+--- CORRECT (tick this) ---
+(d) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: the Bill was introduced under Article 3 on the President's recommendation; Article 4 says such a law is not an amendment under Article 368, even though it changes the Schedules.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. The West Bengal Assembly passes a resolution on 9 December 2026 to rename the State 'Paschim Banga'. Which of the following correctly describes what follows?
+I. The name changes immediately, as the State Assembly has the final say over its own name.
+II. The proposal goes to the Centre; a Bill can then be introduced in Parliament on the President's recommendation.
+III. Parliament can pass the Bill by a simple majority.
+IV. Ratification by half of the State Legislatures is required.
+
+--- QUESTION ---
+Q8. The West Bengal Assembly passes a resolution on 9 December 2026 to rename the State 'Paschim Banga'. Which of the following correctly describes what follows? (statements in the message above)
+
+--- OPTIONS ---
+(a) II and IV only
+(b) I and III only
+(c) II and III only
+(d) II, III and IV only
+
+--- CORRECT (tick this) ---
+(c) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is wrong — only Parliament can change a State's name (Article 3). IV is wrong — ratification by States applies to some Article 368 amendments, and Article 4 says a renaming law is not such an ame...
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Match List-I (award given with the Nandi Awards) with List-II (what it honours / prize):
+A. NTR National Film Award — 1. Contribution to Telugu cinema (since 1980)
+B. Raghupathi Venkaiah Award — 2. An eminent film producer, writer or technician
+C. Nagi Reddy–Chakrapani Award — 3. Contribution to Indian cinema; ₹5 lakh
+
+--- QUESTION ---
+Q9. Match List-I (award given with the Nandi Awards) with List-II (what it honours / prize): (statements in the message above)
+
+--- OPTIONS ---
+(a) A-3, B-1, C-2
+(b) A-1, B-3, C-2
+(c) A-3, B-2, C-1
+(d) A-2, B-1, C-3
+
+--- CORRECT (tick this) ---
+(a) A-3, B-1, C-2
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+NTR Award = Indian cinema, ₹5 lakh; Raghupathi Venkaiah = Telugu cinema (since 1980); Nagi Reddy–Chakrapani = an eminent producer/writer/technician. Option (b) swaps the NTR and Raghupathi Venkaiah...
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. With reference to the revival of the Nandi Awards approved in November 2026, consider the following statements:
+I. The corporation may use up to ₹9.61 crore from its personal deposit account for cash prizes, jury honorariums and mementos.
+II. The Nandi Film and TV Awards for 2012–2025 are covered.
+III. Kandukuri Awards for 2026 are part of the package.
+IV. The awards are organised by the Union Ministry of Information and Broadcasting.
+
+--- QUESTION ---
+Q10. With reference to the revival of the Nandi Awards approved in November 2026, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and IV only
+(b) II and III only
+(c) I, II and IV only
+(d) I, II and III only
+
+--- CORRECT (tick this) ---
+(d) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: the Nandi Awards are State awards of the Government of Andhra Pradesh, organised by the AP State Film, Television and Theatre Development Corporation.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-25&tab=quiz
