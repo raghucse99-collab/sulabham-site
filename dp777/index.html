@@ -1211,7 +1211,6 @@ async function runSaturdayChainAll(){
   output.push({market,rows,continuous:[...continuous.values()].sort(rank).slice(0,30),failed:[...failed.values()].sort((a,b)=>rank(a,b)||(a.failure.gap-b.failure.gap)).slice(0,30),rowCount:rows.length});
  }
  const lazyFridayCharts=new Map();let lazyFridayChartId=0;
- const lazyFridayCharts=new Map();let lazyFridayChartId=0;
  const makeCard=(item,c,type,index)=>{
   const sign=c.direction===1?'+11':'−11';
   const gapLabel=c.gapStep===0?'Same gap '+c.firstGap:'Gap '+c.firstGap+', then +'+c.gapStep+' rows each step';
@@ -1315,6 +1314,7 @@ async function runFridayChainAll(){
  $('count').textContent='Finalizing '+market.name+' results…';
  $('tableArea').innerHTML='<div class="empty"><strong>Scan complete — preparing verified results…</strong>Building the Continuous and Failed pattern charts. Please wait.</div>';
  await new Promise(resolve=>setTimeout(resolve,0));
+ const lazyFridayCharts=new Map();let lazyFridayChartId=0;
  const makeCard=(item,c,type,index)=>{
   const sign=c.direction===1?'+11':'−11';
   const gapLabel=c.gapStep===0?'Same gap '+c.firstGap:'Gap '+c.firstGap+', then +'+c.gapStep+' rows each step';
@@ -1343,14 +1343,6 @@ async function runFridayChainAll(){
  $('tableArea').querySelectorAll('details[data-friday-chart]').forEach(details=>details.addEventListener('toggle',()=>{
   if(!details.open||details.dataset.loaded==='yes')return;
   const payload=lazyFridayCharts.get(details.dataset.fridayChart),target=details.querySelector('.pattern-full-chart');
-  if(!payload||!target)return;
-  try{target.innerHTML=renderWeeklyChart(payload.rows,'pattern',payload.marks);details.dataset.loaded='yes';}
-  catch(error){target.innerHTML='<div class="repeat-chart-note">Could not build this weekly chart: '+esc(error&&error.message?error.message:String(error))+'</div>';}
- }));
- $('tableArea').querySelectorAll('details[data-friday-chart]').forEach(details=>details.addEventListener('toggle',()=>{
-  if(!details.open||details.dataset.loaded==='yes')return;
-  const payload=lazyFridayCharts.get(details.dataset.fridayChart);
-  const target=details.querySelector('.pattern-full-chart');
   if(!payload||!target)return;
   try{target.innerHTML=renderWeeklyChart(payload.rows,'pattern',payload.marks);details.dataset.loaded='yes';}
   catch(error){target.innerHTML='<div class="repeat-chart-note">Could not build this weekly chart: '+esc(error&&error.message?error.message:String(error))+'</div>';}
