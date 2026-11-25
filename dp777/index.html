@@ -2846,16 +2846,17 @@ refreshLiveResults();setInterval(refreshLiveResults,30000);
 async function loadLiveChartFallbacks(){
  // Load each live card's chart independently. The main chart view may only have
  // the selected market loaded, so cards must not depend on that selection.
- const ids=[...new Set(markets.filter(m=>m.showLive!==false).map(m=>chartKeyFor(m.id)))];
- await Promise.all(ids.map(async key=>{
-  // Fetch only missing archives. Live results are refreshed independently;
-  // re-downloading all historical charts every 30 seconds caused request storms.
-  if(data.charts?.[key]?.rows?.length)return;
+ const selectedKey=chartKeyFor(selected);
+ const ids=[...new Set(markets.filter(m=>m.showLive!==false).map(m=>chartKeyFor(m.id)))].filter(key=>key!==selectedKey);
+ // The selected chart is loaded by load(). Do not compete with it; fill other
+ // market cards one at a time after the primary request has priority.
+ for(const key of ids){
+  if(data.charts?.[key]?.rows?.length)continue;
   try{
    const parsed=await fetchData(key);
    data={...data,updated_at:parsed.updated_at||data.updated_at,charts:{...(data.charts||{}),...parsed.charts}};
   }catch(e){console.warn('Live card chart fallback failed:',key,e);}
- }));
+ }
  // Apply the latest published full results to any archives that have just loaded.
  applyLiveResultsToCharts();
  // The fallback loader also supplies the selected historical chart.
