@@ -1,0 +1,210 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-26 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about the local body elections held in Andhra Pradesh on 26 Nov 2026:
+I. They were conducted by the State Election Commission.
+II. Polling was held in four municipal corporations including Kakinada and Srikakulam.
+III. Results of the urban local bodies were declared the same evening.
+
+--- QUESTION ---
+Q1. Consider the following statements about the local body elections held in Andhra Pradesh on 26 Nov 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(b). The SEC conducts local polls (Art. 243K/243ZA); the 4 corporations were Srikakulam, Kakinada, Rajamahendravaram, Mangalagiri-Tadepalli. Trap: only village counting was same-day; ULB results ar...
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Match List-I (provision) with List-II (subject):
+A. Art. 324   B. Art. 243K   C. Art. 243ZA   D. Art. 243E
+1. SEC for municipalities   2. Duration of panchayats   3. Election Commission of India   4. SEC for panchayats
+
+--- OPTIONS ---
+(a) A-3, B-4, C-1, D-2
+(b) A-3, B-1, C-4, D-2
+(c) A-4, B-3, C-1, D-2
+(d) A-3, B-4, C-2, D-1
+
+--- CORRECT (tick this) ---
+(a) A-3, B-4, C-1, D-2
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(a). 324 = ECI; 243K = SEC (panchayats, Part IX); 243ZA = SEC (municipalities, Part IXA); 243E = 5-year term of panchayats. Trap: option (b) swaps 243K and 243ZA.
+
+==================== Q3 ====================
+--- QUESTION ---
+Q3. With reference to the AP High Court's directions on court proceedings (Nov 2026), which of the following is INCORRECT?
+
+--- OPTIONS ---
+(a) Screenshots of video-conference hearings need prior permission
+(b) Live streaming of hearings without approval is barred
+(c) Media are barred from reporting judgments of the court
+(d) The rules apply to advocates and litigants as well
+
+--- CORRECT (tick this) ---
+(c) Media are barred from reporting judgments of the court
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(c). The order is not a ban on reporting — media may report hearings, observations and judgments; only unauthorised recordings/clips are barred. (a), (b), (d) are correct.
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Consider the following statements:
+I. Article 215 declares every High Court a court of record.
+II. A court of record has the power to punish for its contempt.
+III. The High Court of Andhra Pradesh at Amaravati began functioning in 2014.
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(a). Art. 215 makes HCs courts of record with contempt powers (SC: Art. 129). Trap: the separate AP High Court started at Amaravati on 1 Jan 2019, not in 2014 (the year of bifurcation).
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Consider the following statements about the six urea plants approved under NIPU-2026:
+I. They are brownfield projects, each with 12.7 lakh tonnes annual capacity.
+II. Uttar Pradesh gets two of the six plants.
+III. One of the plants is located in Andhra Pradesh.
+
+--- QUESTION ---
+Q5. Consider the following statements about the six urea plants approved under NIPU-2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(c). Six brownfield plants of 12.7 lakh t each; UP gets Shahjahanpur and Jagdishpur. Trap: the southern plant is at Chennai (Tamil Nadu), not in AP.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following statements about the second container terminal at Kamarajar Port:
+I. It will be developed on PPP in DBFOT mode with a 40-year concession.
+II. It will add a capacity of 2.0 million TEU per year.
+III. Kamarajar Port is a minor port controlled by the Tamil Nadu government.
+
+--- QUESTION ---
+Q6. Consider the following statements about the second container terminal at Kamarajar Port: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) II only
+(c) I, II and III
+(d) I and II only
+
+--- CORRECT (tick this) ---
+(d) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(d). DBFOT, 40 years, 2.0 million TEU are correct. Trap: Kamarajar (Ennore) is a Major Port under the Union, owned by Chennai Port — not a state minor port.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following pairs (projects approved by the Centre on 25 Nov 2026):
+I. Doloo greenfield airport — Cachar district, Assam
+II. Second container terminal — Kamarajar Port, Tamil Nadu
+III. Doloo airport — to be built by a private developer on PPP
+
+--- QUESTION ---
+Q7. Consider the following pairs (projects approved by the Centre on 25 Nov 2026): (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(a). Doloo (Cachar) airport and the Kamarajar terminal are correctly matched. Trap: the airport will be built by the Airports Authority of India; it is the port terminal that is on PPP.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Consider the following statements based on RBI's report on forex reserves (April–September 2026):
+I. Reserves rose from about $691 billion to about $738 billion.
+II. The share of gold in total reserves increased during the period.
+III. Part of RBI's gold is kept with the Bank of England and the BIS.
+
+--- QUESTION ---
+Q8. Consider the following statements based on RBI's report on forex reserves (April–September 2026): (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I, II and III
+(d) I and III only
+
+--- CORRECT (tick this) ---
+(d) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(d). Reserves: $691.11 bn → $737.78 bn; 140.39 t of 880.52 t gold is with BoE/BIS. Trap: gold's share FELL (16.70% → about 14.38%) as gold prices fell ~9%.
+
+==================== Q9 ====================
+--- QUESTION ---
+Q9. Arrange the following MSME registration systems in chronological order:
+I. Udyam Assist Platform
+II. Udyog Aadhaar Memorandum
+III. Udyam Registration Portal
+IV. Entrepreneurs Memorandum (EM-II)
+
+--- OPTIONS ---
+(a) II-IV-III-I
+(b) IV-II-I-III
+(c) IV-II-III-I
+(d) IV-III-II-I
+
+--- CORRECT (tick this) ---
+(c) IV-II-III-I
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(c). EM-II (2006) → Udyog Aadhaar (2015) → Udyam portal (1 Jul 2020) → Udyam Assist (11 Jan 2023). Trap: (b) puts Udyam Assist before the Udyam portal.
+
+==================== Q10 ====================
+--- QUESTION ---
+Q10. Which of the following pairs of joint military exercises and partner countries is correctly matched?
+I. Suryakiran — Nepal
+II. Mitra Shakti — Bangladesh
+III. Hand-in-Hand — China
+
+--- OPTIONS ---
+(a) I only
+(b) I and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(b). Suryakiran (XX began 25 Nov at Saljhandi) is with Nepal; Hand-in-Hand is with China. Trap: Mitra Shakti is with Sri Lanka — India–Bangladesh is Sampriti.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/current.html?d=2026-11-26

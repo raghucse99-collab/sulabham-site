@@ -1,0 +1,1617 @@
+{
+ "date": "2026-11-26",
+ "day": {
+  "en": "Thursday, 26 November 2026",
+  "te": "గురువారం, 26 నవంబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "appolls",
+   "cat": "ap",
+   "title": {
+    "en": "AP votes in phase-1 gram panchayat polls and 23 urban local bodies on 26 Nov",
+    "te": "ఏపీలో నవంబర్ 26న తొలి విడత గ్రామ పంచాయతీ, 23 పట్టణ స్థానిక సంస్థల పోలింగ్"
+   },
+   "pts": [
+    {
+     "en": "Polling was held on 26 Nov in 3,240 gram panchayats of 26 districts (phase 1) and in 23 urban local bodies (ULBs) — 4 municipal corporations and 19 municipalities/nagar panchayats.",
+     "te": "నవంబర్ 26న 26 జిల్లాల్లోని 3,240 గ్రామ పంచాయతీల్లో (తొలి విడత), 23 పట్టణ స్థానిక సంస్థల్లో (4 నగరపాలక సంస్థలు + 19 పురపాలక/నగర పంచాయతీలు) పోలింగ్ జరిగింది."
+    },
+    {
+     "en": "The 4 corporations: Srikakulam, Kakinada, Rajamahendravaram and Mangalagiri-Tadepalli. About 99.4 lakh voters in all — 74.46 lakh rural and 24.98 lakh urban — at 34,312 polling stations.",
+     "te": "4 నగరపాలక సంస్థలు: శ్రీకాకుళం, కాకినాడ, రాజమహేంద్రవరం, మంగళగిరి-తాడేపల్లి. మొత్తం సుమారు 99.4 లక్షల ఓటర్లు — గ్రామీణ 74.46 లక్షలు, పట్టణ 24.98 లక్షలు — 34,312 పోలింగ్ కేంద్రాలు."
+    },
+    {
+     "en": "Village polling ran 7 am–1 pm and counting began at 2 pm the same day; ULB polling ran till 5 pm and ULB results come on 30 Nov. Phase 2 of panchayat polls is on 29 Nov.",
+     "te": "గ్రామాల్లో ఉదయం 7 నుంచి మధ్యాహ్నం 1 వరకు పోలింగ్, అదే రోజు 2 గంటల నుంచి లెక్కింపు; పట్టణాల్లో సాయంత్రం 5 వరకు పోలింగ్, ఫలితాలు నవంబర్ 30న. పంచాయతీ రెండో విడత నవంబర్ 29న."
+    },
+    {
+     "en": "Who conducts these polls? The State Election Commission (SEC), not the Election Commission of India. AP's State Election Commissioner is Anil Chandra Punetha.",
+     "te": "ఈ ఎన్నికలు ఎవరు నిర్వహిస్తారు? రాష్ట్ర ఎన్నికల సంఘం (SEC) — భారత ఎన్నికల సంఘం కాదు. ఏపీ రాష్ట్ర ఎన్నికల కమిషనర్ అనిల్ చంద్ర పునేఠా."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Phase-1 panchayats",
+      "te": "తొలి విడత పంచాయతీలు"
+     },
+     {
+      "en": "3,240 in 26 districts",
+      "te": "26 జిల్లాల్లో 3,240"
+     }
+    ],
+    [
+     {
+      "en": "Voters (total)",
+      "te": "ఓటర్లు (మొత్తం)"
+     },
+     {
+      "en": "≈ 99.4 lakh",
+      "te": "≈ 99.4 లక్షలు"
+     }
+    ],
+    [
+     {
+      "en": "Gram panchayat candidates",
+      "te": "పంచాయతీ అభ్యర్థులు"
+     },
+     {
+      "en": "62,863",
+      "te": "62,863"
+     }
+    ],
+    [
+     {
+      "en": "Police deployed",
+      "te": "పోలీసు బందోబస్తు"
+     },
+     {
+      "en": "≈ 46,000",
+      "te": "≈ 46,000"
+     }
+    ],
+    [
+     {
+      "en": "ULB results",
+      "te": "పట్టణ ఫలితాలు"
+     },
+     {
+      "en": "30 Nov 2026",
+      "te": "30 నవం 2026"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: Art. 243K (SEC for panchayats) and Art. 243ZA (SEC for municipalities) — added by the 73rd and 74th Amendments (1992). Trap: ECI (Art. 324) does NOT conduct local body polls.",
+    "te": "స్టాటిక్ లింక్: ఆర్టికల్ 243K (పంచాయతీలకు SEC), 243ZA (మున్సిపాలిటీలకు SEC) — 73, 74వ సవరణలు (1992). ట్రాప్: ECI (ఆర్టికల్ 324) స్థానిక సంస్థల ఎన్నికలు నిర్వహించదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "ap",
+     "h": {
+      "en": "The 4 corporations that voted on 26 Nov",
+      "te": "నవంబర్ 26న పోలింగ్ జరిగిన 4 నగరపాలక సంస్థలు"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#cfe3c4",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        18.3,
+        83.9
+       ],
+       "t": {
+        "en": "Srikakulam",
+        "te": "శ్రీకాకుళం"
+       }
+      },
+      {
+       "ll": [
+        16.99,
+        82.25
+       ],
+       "t": {
+        "en": "Kakinada",
+        "te": "కాకినాడ"
+       }
+      },
+      {
+       "ll": [
+        17.0,
+        81.8
+       ],
+       "t": {
+        "en": "Rajamahendravaram",
+        "te": "రాజమహేంద్రవరం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.43,
+        80.57
+       ],
+       "t": {
+        "en": "Mangalagiri-Tadepalli",
+        "te": "మంగళగిరి-తాడేపల్లి"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "Three of the four are on the coast; Mangalagiri-Tadepalli is in the capital region.",
+      "te": "నాలుగింటిలో మూడు తీరప్రాంతంలో; మంగళగిరి-తాడేపల్లి రాజధాని ప్రాంతంలో ఉంది."
+     },
+     "src": "cards/cad/2026-11-26/map-appolls-1-{m}.svg"
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Who conducts which election?",
+      "te": "ఏ ఎన్నిక ఎవరు నిర్వహిస్తారు?"
+     },
+     "a": {
+      "h": {
+       "en": "Election Commission of India",
+       "te": "భారత ఎన్నికల సంఘం"
+      },
+      "l": [
+       {
+        "en": "Art. 324",
+        "te": "ఆర్టికల్ 324"
+       },
+       {
+        "en": "Lok Sabha, Assembly",
+        "te": "లోక్‌సభ, అసెంబ్లీ"
+       },
+       {
+        "en": "President, Vice-President",
+        "te": "రాష్ట్రపతి, ఉపరాష్ట్రపతి"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "State Election Commission",
+       "te": "రాష్ట్ర ఎన్నికల సంఘం"
+      },
+      "l": [
+       {
+        "en": "Art. 243K / 243ZA",
+        "te": "ఆర్టికల్ 243K / 243ZA"
+       },
+       {
+        "en": "Panchayats",
+        "te": "పంచాయతీలు"
+       },
+       {
+        "en": "Municipalities, corporations",
+        "te": "మున్సిపాలిటీలు, కార్పొరేషన్లు"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India — Polling begins for first phase of Panchayats and 23 ULBs in AP, 26 Nov 2026",
+     "u": "https://www.thehansindia.com/andhra-pradesh/polling-begins-for-first-phase-of-panchayats-and-23-ulbs-in-ap-1145917"
+    },
+    {
+     "t": "The Hans India — AP Panchayat elections live updates, 26 Nov 2026",
+     "u": "https://www.thehansindia.com/andhra-pradesh/ap-panchayat-elections-live-updates-polling-begins-for-first-phase-of-elections-1145918"
+    },
+    {
+     "t": "NationPress — Andhra Pradesh local polls: 99.43 lakh voters, 46,000 police, 26 Nov 2026",
+     "u": "https://www.nationpress.com/national/andhra-votes-in-panchayat-civic-polls"
+    },
+    {
+     "t": "Deccan Chronicle — AP Municipal Elections Live, 26 Nov 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-municipal-elections-2026-live-polling-begins-in-four-corporations-2008074"
+    }
+   ]
+  },
+  {
+   "id": "aphc",
+   "cat": "ap",
+   "title": {
+    "en": "AP High Court bars recording, screenshots and live streaming of hearings without its permission",
+    "te": "అనుమతి లేకుండా విచారణల రికార్డింగ్, స్క్రీన్‌షాట్లు, లైవ్ స్ట్రీమింగ్‌పై ఏపీ హైకోర్టు నిషేధం"
+   },
+   "pts": [
+    {
+     "en": "The Andhra Pradesh High Court (at Amaravati) issued directions that no one may record audio/video, take photos or screenshots of court hearings without the court's prior permission.",
+     "te": "అమరావతిలోని ఏపీ హైకోర్టు ముందస్తు అనుమతి లేకుండా కోర్టు విచారణలను ఆడియో/వీడియో రికార్డు చేయడం, ఫొటోలు లేదా స్క్రీన్‌షాట్లు తీయడం నిషేధిస్తూ ఆదేశాలు ఇచ్చింది."
+    },
+    {
+     "en": "Sharing such clips on social media, websites or apps, and live streaming hearings, are also barred. It covers advocates, litigants, media, staff — in court rooms and in video-conference hearings.",
+     "te": "అలాంటి క్లిప్‌లను సోషల్ మీడియా, వెబ్‌సైట్లు, యాప్‌లలో పంచడం, విచారణలను లైవ్ స్ట్రీమ్ చేయడం కూడా నిషేధం. న్యాయవాదులు, కక్షిదారులు, మీడియా, సిబ్బంది అందరికీ — కోర్టు హాలులోనూ, వీడియో కాన్ఫరెన్స్ విచారణల్లోనూ వర్తిస్తుంది."
+    },
+    {
+     "en": "Why? To protect the dignity of judicial proceedings and courtroom discipline. Media can still report hearings, observations and judgments — only unauthorised clips are barred.",
+     "te": "ఎందుకు? న్యాయ ప్రక్రియ గౌరవాన్ని, కోర్టు క్రమశిక్షణను కాపాడటానికి. మీడియా విచారణలు, వ్యాఖ్యలు, తీర్పులను నివేదించవచ్చు — అనధికార క్లిప్‌లకు మాత్రమే నిషేధం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Court",
+      "te": "కోర్టు"
+     },
+     {
+      "en": "High Court of Andhra Pradesh, Amaravati",
+      "te": "ఏపీ హైకోర్టు, అమరావతి"
+     }
+    ],
+    [
+     {
+      "en": "Barred without permission",
+      "te": "అనుమతి లేకుండా నిషేధం"
+     },
+     {
+      "en": "Recording, screenshots, live streaming, sharing",
+      "te": "రికార్డింగ్, స్క్రీన్‌షాట్లు, లైవ్ స్ట్రీమింగ్, షేరింగ్"
+     }
+    ],
+    [
+     {
+      "en": "Still allowed",
+      "te": "అనుమతి ఉన్నవి"
+     },
+     {
+      "en": "News reports of hearings and judgments",
+      "te": "విచారణలు, తీర్పులపై వార్తా కథనాలు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: High Courts are 'courts of record' under Art. 215 (Supreme Court: Art. 129) and can punish contempt. AP High Court started at Amaravati on 1 Jan 2019. Trap: this is not a ban on reporting.",
+    "te": "స్టాటిక్ లింక్: ఆర్టికల్ 215 ప్రకారం హైకోర్టులు 'కోర్ట్ ఆఫ్ రికార్డ్' (సుప్రీంకోర్టు: ఆర్టికల్ 129), కోర్టు ధిక్కారాన్ని శిక్షించగలవు. ఏపీ హైకోర్టు అమరావతిలో 1 జనవరి 2019న ప్రారంభమైంది. ట్రాప్: ఇది వార్తా నివేదికలపై నిషేధం కాదు."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "What the order allows and bars",
+      "te": "ఆదేశం ఏది అనుమతిస్తుంది, ఏది నిషేధిస్తుంది"
+     },
+     "a": {
+      "h": {
+       "en": "Barred (without permission)",
+       "te": "నిషేధం (అనుమతి లేకుండా)"
+      },
+      "l": [
+       {
+        "en": "Audio / video recording",
+        "te": "ఆడియో / వీడియో రికార్డింగ్"
+       },
+       {
+        "en": "Photos, screenshots",
+        "te": "ఫొటోలు, స్క్రీన్‌షాట్లు"
+       },
+       {
+        "en": "Live streaming, posting clips",
+        "te": "లైవ్ స్ట్రీమింగ్, క్లిప్‌ల పోస్టింగ్"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Allowed",
+       "te": "అనుమతి"
+      },
+      "l": [
+       {
+        "en": "Reporting hearings",
+        "te": "విచారణలపై వార్తలు"
+       },
+       {
+        "en": "Reporting observations",
+        "te": "వ్యాఖ్యలపై వార్తలు"
+       },
+       {
+        "en": "Reporting judgments",
+        "te": "తీర్పులపై వార్తలు"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India — No cameras, no clips: HC cracks down on recording hearings, 26 Nov 2026",
+     "u": "https://www.thehansindia.com/news/cities/amaravati/no-cameras-no-clips-hc-cracks-down-on-recording-hearings-1145822"
+    }
+   ]
+  },
+  {
+   "id": "urea",
+   "cat": "economy",
+   "title": {
+    "en": "Six brownfield urea plants worth about ₹54,000 crore approved under NIPU-2026",
+    "te": "NIPU-2026 కింద సుమారు ₹54,000 కోట్లతో ఆరు బ్రౌన్‌ఫీల్డ్ యూరియా ప్లాంట్లకు ఆమోదం"
+   },
+   "pts": [
+    {
+     "en": "The Centre cleared six new urea plants at existing fertiliser sites ('brownfield') under the National Investment Policy for Urea (NIPU)-2026. Each will have 12.7 lakh tonnes a year capacity.",
+     "te": "జాతీయ యూరియా పెట్టుబడి విధానం (NIPU)-2026 కింద ఇప్పటికే ఉన్న ఎరువుల కేంద్రాల్లో ('బ్రౌన్‌ఫీల్డ్') ఆరు కొత్త యూరియా ప్లాంట్లకు కేంద్రం ఆమోదం. ఒక్కోదాని సామర్థ్యం ఏటా 12.7 లక్షల టన్నులు."
+    },
+    {
+     "en": "Sites: Chennai (Madras Fertilisers, Tamil Nadu), Nangal (NFL, Punjab), Shahjahanpur and Jagdishpur (Uttar Pradesh), Panagarh (West Bengal) and Gadepan (Rajasthan). Together: 76.2 lakh tonnes a year.",
+     "te": "ప్రాంతాలు: చెన్నై (మద్రాస్ ఫెర్టిలైజర్స్, తమిళనాడు), నంగల్ (NFL, పంజాబ్), షాజహాన్‌పూర్, జగదీశ్‌పూర్ (ఉత్తరప్రదేశ్), పానాగఢ్ (పశ్చిమ బెంగాల్), గడేపాన్ (రాజస్థాన్). మొత్తం ఏటా 76.2 లక్షల టన్నులు."
+    },
+    {
+     "en": "Why? India needs about 400 lakh tonnes of urea a year but produced 293.3 lakh tonnes in 2025-26, so 20–25% is imported (mainly Oman, Saudi Arabia, UAE).",
+     "te": "ఎందుకు? దేశానికి ఏటా సుమారు 400 లక్షల టన్నుల యూరియా అవసరం, 2025-26లో ఉత్పత్తి 293.3 లక్షల టన్నులే. అందుకే 20–25% దిగుమతి (ముఖ్యంగా ఒమన్, సౌదీ అరేబియా, UAE నుంచి)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Policy",
+      "te": "విధానం"
+     },
+     {
+      "en": "NIPU-2026",
+      "te": "NIPU-2026"
+     }
+    ],
+    [
+     {
+      "en": "Plants · Capacity each",
+      "te": "ప్లాంట్లు · ఒక్కోదాని సామర్థ్యం"
+     },
+     {
+      "en": "6 · 12.7 lakh t/yr",
+      "te": "6 · ఏటా 12.7 లక్షల టన్నులు"
+     }
+    ],
+    [
+     {
+      "en": "Total investment",
+      "te": "మొత్తం పెట్టుబడి"
+     },
+     {
+      "en": "≈ ₹54,000 crore",
+      "te": "≈ ₹54,000 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "States",
+      "te": "రాష్ట్రాలు"
+     },
+     {
+      "en": "TN, Punjab, UP (2), WB, Rajasthan",
+      "te": "తమిళనాడు, పంజాబ్, యూపీ (2), బెంగాల్, రాజస్థాన్"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Concept: 'brownfield' = new unit at an existing site; 'greenfield' = on fresh land. Trap: Uttar Pradesh gets two plants; none of the six is in Andhra Pradesh.",
+    "te": "కాన్సెప్ట్: 'బ్రౌన్‌ఫీల్డ్' = ఇప్పటికే ఉన్న ప్రాంగణంలో కొత్త యూనిట్; 'గ్రీన్‌ఫీల్డ్' = కొత్త భూమిలో. ట్రాప్: ఉత్తరప్రదేశ్‌కు రెండు ప్లాంట్లు; ఆరింటిలో ఏదీ ఏపీలో లేదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "india",
+     "h": {
+      "en": "States getting the new urea plants",
+      "te": "కొత్త యూరియా ప్లాంట్లు వచ్చే రాష్ట్రాలు"
+     },
+     "hl": [
+      "Tamil Nadu",
+      "Punjab",
+      "Uttar Pradesh",
+      "West Bengal",
+      "Rajasthan"
+     ],
+     "hlc": "#e9c46a",
+     "cap": {
+      "en": "Five states, six plants — Uttar Pradesh has two (Shahjahanpur, Jagdishpur).",
+      "te": "ఐదు రాష్ట్రాలు, ఆరు ప్లాంట్లు — ఉత్తరప్రదేశ్‌కు రెండు (షాజహాన్‌పూర్, జగదీశ్‌పూర్)."
+     },
+     "src": "cards/cad/2026-11-26/map-urea-1-{m}.svg"
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "Urea: need vs home production (lakh tonnes)",
+      "te": "యూరియా: అవసరం vs దేశీయ ఉత్పత్తి (లక్షల టన్నులు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Annual need",
+        "te": "వార్షిక అవసరం"
+       },
+       "v": 400,
+       "vl": "≈400"
+      },
+      {
+       "t": {
+        "en": "Produced 2025-26",
+        "te": "ఉత్పత్తి 2025-26"
+       },
+       "v": 293.3,
+       "vl": "293.3"
+      },
+      {
+       "t": {
+        "en": "Six new plants add",
+        "te": "ఆరు కొత్త ప్లాంట్లు అదనం"
+       },
+       "v": 76.2,
+       "vl": "76.2"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Swarajya — India's Rs 54,000 crore fertiliser push: six brownfield urea plants get nod, 26 Nov 2026",
+     "u": "https://swarajyamag.com/economy/indias-rs-54000-crore-fertiliser-manufacturing-push-six-brownfield-urea-plants-across-five-states-get-government-nod"
+    },
+    {
+     "t": "CrackTarget — Current Affairs 26 November 2026 (cross-check)",
+     "u": "https://cracktarget.com/current-affairs-26-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "kamarajar",
+   "cat": "economy",
+   "title": {
+    "en": "Cabinet clears ₹4,288 crore second container terminal at Kamarajar Port (Ennore) on PPP mode",
+    "te": "కామరాజర్ పోర్ట్ (ఎన్నూర్)లో ₹4,288 కోట్లతో రెండో కంటైనర్ టెర్మినల్‌కు కేబినెట్ ఆమోదం (PPP)"
+   },
+   "pts": [
+    {
+     "en": "On 25 Nov the Union Cabinet approved a second container terminal at Kamarajar Port, Tamil Nadu, at ₹4,288.26 crore. It will add 2.0 million TEU a year in two phases (1.1 + 0.9 million).",
+     "te": "నవంబర్ 25న కేంద్ర కేబినెట్ తమిళనాడులోని కామరాజర్ పోర్ట్‌లో ₹4,288.26 కోట్లతో రెండో కంటైనర్ టెర్మినల్‌కు ఆమోదం తెలిపింది. రెండు దశల్లో (1.1 + 0.9 మిలియన్) ఏటా 2.0 మిలియన్ TEU సామర్థ్యం."
+    },
+    {
+     "en": "It will be built on PPP — DBFOT (Design, Build, Finance, Operate, Transfer) with a 40-year concession; a private operator is chosen by global bidding. TEU = one 20-foot container.",
+     "te": "PPP పద్ధతిలో — DBFOT (డిజైన్, బిల్డ్, ఫైనాన్స్, ఆపరేట్, ట్రాన్స్‌ఫర్), 40 ఏళ్ల రాయితీ; ప్రైవేట్ ఆపరేటర్‌ను గ్లోబల్ బిడ్డింగ్ ద్వారా ఎంపిక చేస్తారు. TEU = ఒక 20 అడుగుల కంటైనర్."
+    },
+    {
+     "en": "Why? The existing terminal (0.8 million TEU) is about 88% used. The new 900 m berth with 18 m draft can take ships up to about 24,346 TEU.",
+     "te": "ఎందుకు? ఇప్పుడున్న టెర్మినల్ (0.8 మిలియన్ TEU) సుమారు 88% వినియోగంలో ఉంది. కొత్త 900 మీ. బెర్త్, 18 మీ. లోతు (డ్రాఫ్ట్)తో సుమారు 24,346 TEU నౌకలు రాగలవు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Port",
+      "te": "పోర్ట్"
+     },
+     {
+      "en": "Kamarajar Port (formerly Ennore Port), a Major Port",
+      "te": "కామరాజర్ పోర్ట్ (పూర్వం ఎన్నూర్ పోర్ట్), మేజర్ పోర్ట్"
+     }
+    ],
+    [
+     {
+      "en": "Cost",
+      "te": "వ్యయం"
+     },
+     {
+      "en": "₹4,288.26 crore",
+      "te": "₹4,288.26 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Capacity added",
+      "te": "అదనపు సామర్థ్యం"
+     },
+     {
+      "en": "2.0 million TEU / year",
+      "te": "ఏటా 2.0 మిలియన్ TEU"
+     }
+    ],
+    [
+     {
+      "en": "Model",
+      "te": "నమూనా"
+     },
+     {
+      "en": "PPP-DBFOT, 40 years",
+      "te": "PPP-DBFOT, 40 ఏళ్లు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: Kamarajar (Ennore) is India's first corporatised major port and is owned by Chennai Port. It lies near Pulicat Lake on the AP–TN border. Trap: Major Ports are under the Union; minor ports (like AP's) are under states.",
+    "te": "స్టాటిక్ లింక్: కామరాజర్ (ఎన్నూర్) దేశంలో తొలి కార్పొరేట్ మేజర్ పోర్ట్, చెన్నై పోర్ట్ యాజమాన్యంలో ఉంది. ఏపీ–తమిళనాడు సరిహద్దులోని పులికాట్ సరస్సు సమీపంలో ఉంది. ట్రాప్: మేజర్ పోర్టులు కేంద్రం పరిధిలో; మైనర్ పోర్టులు (ఏపీవి వంటివి) రాష్ట్రాల పరిధిలో."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": [
+      77.8,
+      11.8,
+      82.6,
+      15.8
+     ],
+     "h": {
+      "en": "Kamarajar Port, just south of the AP border",
+      "te": "ఏపీ సరిహద్దుకు దక్షిణాన కామరాజర్ పోర్ట్"
+     },
+     "hl": [
+      "Tamil Nadu"
+     ],
+     "hlc": "#cfe3c4",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        13.26,
+        80.33
+       ],
+       "t": {
+        "en": "Kamarajar (Ennore)",
+        "te": "కామరాజర్ (ఎన్నూర్)"
+       }
+      }
+     ],
+     "labels": [
+      {
+       "ll": [
+        14.8,
+        79.2
+       ],
+       "t": {
+        "en": "Andhra Pradesh",
+        "te": "ఆంధ్రప్రదేశ్"
+       }
+      },
+      {
+       "ll": [
+        12.4,
+        79.0
+       ],
+       "t": {
+        "en": "Tamil Nadu",
+        "te": "తమిళనాడు"
+       }
+      }
+     ],
+     "cap": {
+      "en": "On the Coromandel Coast (Bay of Bengal), north of Chennai port.",
+      "te": "కోరమండల్ తీరం (బంగాళాఖాతం)పై, చెన్నై పోర్ట్‌కు ఉత్తరాన."
+     },
+     "src": "cards/cad/2026-11-26/map-kamarajar-1-{m}.svg"
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "DBFOT — how the PPP works",
+      "te": "DBFOT — PPP ఎలా పనిచేస్తుంది"
+     },
+     "items": [
+      {
+       "i": "📐",
+       "t": {
+        "en": "Design",
+        "te": "డిజైన్"
+       }
+      },
+      {
+       "i": "🏗️",
+       "t": {
+        "en": "Build",
+        "te": "నిర్మాణం"
+       }
+      },
+      {
+       "i": "💰",
+       "t": {
+        "en": "Finance (private)",
+        "te": "నిధులు (ప్రైవేట్)"
+       }
+      },
+      {
+       "i": "🚢",
+       "t": {
+        "en": "Operate 40 yrs",
+        "te": "40 ఏళ్లు నిర్వహణ"
+       }
+      },
+      {
+       "i": "🔁",
+       "t": {
+        "en": "Transfer to port",
+        "te": "పోర్ట్‌కు అప్పగింత"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ETV Bharat — Cabinet approves Rs 4,288 crore 2nd container terminal at Kamarajar Port, 25 Nov 2026",
+     "u": "https://www.etvbharat.com/en/business/cabinet-approves-development-of-2nd-container-terminal-at-kamarajar-port-in-tamil-nadu-enn26112505713"
+    }
+   ]
+  },
+  {
+   "id": "silchar",
+   "cat": "economy",
+   "title": {
+    "en": "Cabinet approves ₹2,014 crore greenfield airport at Doloo near Silchar, Assam",
+    "te": "అస్సాంలోని సిల్చార్ సమీపంలో డోలూ వద్ద ₹2,014 కోట్లతో గ్రీన్‌ఫీల్డ్ విమానాశ్రయానికి కేబినెట్ ఆమోదం"
+   },
+   "pts": [
+    {
+     "en": "On 25 Nov the Cabinet Committee on Economic Affairs (CCEA) approved a new greenfield airport at Doloo in Cachar district (Barak Valley), Assam. The Airports Authority of India (AAI) will build it at ₹2,014 crore.",
+     "te": "నవంబర్ 25న ఆర్థిక వ్యవహారాల కేబినెట్ కమిటీ (CCEA) అస్సాంలోని కచార్ జిల్లా (బరాక్ లోయ) డోలూ వద్ద కొత్త గ్రీన్‌ఫీల్డ్ విమానాశ్రయానికి ఆమోదం తెలిపింది. ₹2,014 కోట్లతో భారత విమానాశ్రయాల సంస్థ (AAI) నిర్మిస్తుంది."
+    },
+    {
+     "en": "Why? Today's Silchar airport is a small civil enclave inside a defence airfield with no room to grow. The new one: 2,705 m runway (Code 4C, for A320), terminal of 12,351 sq m, 800 peak-hour passengers.",
+     "te": "ఎందుకు? ప్రస్తుత సిల్చార్ విమానాశ్రయం రక్షణ శాఖ ఎయిర్‌ఫీల్డ్‌లోని చిన్న పౌర ఎన్‌క్లేవ్, విస్తరణకు చోటు లేదు. కొత్తది: 2,705 మీ. రన్‌వే (కోడ్ 4C, A320కు అనువు), 12,351 చ.మీ. టెర్మినల్, రద్దీ గంటలో 800 ప్రయాణికులు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Place",
+      "te": "ప్రదేశం"
+     },
+     {
+      "en": "Doloo, Cachar district, Assam",
+      "te": "డోలూ, కచార్ జిల్లా, అస్సాం"
+     }
+    ],
+    [
+     {
+      "en": "Cost · Builder",
+      "te": "వ్యయం · నిర్మాణం"
+     },
+     {
+      "en": "₹2,014 cr · AAI",
+      "te": "₹2,014 కోట్లు · AAI"
+     }
+    ],
+    [
+     {
+      "en": "Runway",
+      "te": "రన్‌వే"
+     },
+     {
+      "en": "2,705 m × 45 m, Code 4C",
+      "te": "2,705 మీ × 45 మీ, కోడ్ 4C"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: Barak river valley of south Assam; Silchar is its main town. Trap: 'greenfield' = new site (Doloo), unlike the 'brownfield' urea plants in today's news.",
+    "te": "స్టాటిక్ లింక్: దక్షిణ అస్సాంలోని బరాక్ నదీ లోయ; దాని ప్రధాన పట్టణం సిల్చార్. ట్రాప్: 'గ్రీన్‌ఫీల్డ్' = కొత్త ప్రదేశం (డోలూ), నేటి వార్తలోని 'బ్రౌన్‌ఫీల్డ్' యూరియా ప్లాంట్లకు భిన్నం."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "northeast",
+     "h": {
+      "en": "Silchar in the Barak Valley, south Assam",
+      "te": "దక్షిణ అస్సాం బరాక్ లోయలో సిల్చార్"
+     },
+     "hl": [
+      "Assam"
+     ],
+     "hlc": "#cfe3c4",
+     "pts": [
+      {
+       "ll": [
+        24.83,
+        92.78
+       ],
+       "t": {
+        "en": "Silchar (Doloo)",
+        "te": "సిల్చార్ (డోలూ)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Barak Valley borders Bangladesh, Meghalaya, Manipur, Mizoram and Tripura.",
+      "te": "బరాక్ లోయ పక్కన బంగ్లాదేశ్, మేఘాలయ, మణిపూర్, మిజోరం, త్రిపుర."
+     },
+     "src": "cards/cad/2026-11-26/map-silchar-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Swarajya — Union Cabinet clears ₹2,014 crore greenfield airport project at Doloo, 25 Nov 2026",
+     "u": "https://swarajyamag.com/news-brief/union-cabinet-clears-2014-crore-greenfield-airport-project-at-doloo-in-silchars-barak-valley"
+    },
+    {
+     "t": "Imphal Free Press — Cabinet approves ₹2,014-crore greenfield airport at Doloo near Silchar, 26 Nov 2026",
+     "u": "https://www.ifp.co.in/doloo-silchar-greenfield-airport-approval/"
+    }
+   ]
+  },
+  {
+   "id": "forex",
+   "cat": "economy",
+   "title": {
+    "en": "RBI forex reserves report: reserves rise to $737.78 billion by end-September 2026",
+    "te": "RBI విదేశీ మారక నిల్వల నివేదిక: సెప్టెంబర్ 2026 చివరికి నిల్వలు $737.78 బిలియన్లు"
+   },
+   "pts": [
+    {
+     "en": "RBI's half-yearly 'Report on Management of Foreign Exchange Reserves' (April–September 2026), released 25 Nov, shows reserves rose from $691.11 billion (end-March) to $737.78 billion (end-September).",
+     "te": "RBI అర్ధవార్షిక 'విదేశీ మారక నిల్వల నిర్వహణ నివేదిక' (ఏప్రిల్–సెప్టెంబర్ 2026) నవంబర్ 25న విడుదలైంది. నిల్వలు $691.11 బిలియన్లు (మార్చి చివర) నుంచి $737.78 బిలియన్లు (సెప్టెంబర్ చివర)కి పెరిగాయి."
+    },
+    {
+     "en": "Gold: RBI held 880.52 tonnes — 740.13 t in India and 140.39 t with the Bank of England and BIS. Gold's share fell from 16.70% to about 14.38% as gold prices fell about 9%.",
+     "te": "బంగారం: RBI వద్ద 880.52 టన్నులు — 740.13 టన్నులు దేశంలో, 140.39 టన్నులు బ్యాంక్ ఆఫ్ ఇంగ్లాండ్, BIS వద్ద. బంగారం ధర సుమారు 9% తగ్గడంతో నిల్వల్లో దాని వాటా 16.70% నుంచి సుమారు 14.38%కి తగ్గింది."
+    },
+    {
+     "en": "Biggest part is Foreign Currency Assets (FCA): $608.26 billion, mostly in securities. Import cover was 10.6 months at end-March 2026.",
+     "te": "అతిపెద్ద భాగం విదేశీ కరెన్సీ ఆస్తులు (FCA): $608.26 బిలియన్లు, ఎక్కువగా సెక్యూరిటీల్లో. మార్చి 2026 చివరికి దిగుమతి కవర్ 10.6 నెలలు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "End-March 2026",
+      "te": "మార్చి 2026 చివర"
+     },
+     {
+      "en": "$691.11 bn",
+      "te": "$691.11 బి."
+     }
+    ],
+    [
+     {
+      "en": "End-Sept 2026",
+      "te": "సెప్టెంబర్ 2026 చివర"
+     },
+     {
+      "en": "$737.78 bn",
+      "te": "$737.78 బి."
+     }
+    ],
+    [
+     {
+      "en": "Gold held",
+      "te": "బంగారం నిల్వ"
+     },
+     {
+      "en": "880.52 tonnes",
+      "te": "880.52 టన్నులు"
+     }
+    ],
+    [
+     {
+      "en": "FCA (end-Sept)",
+      "te": "FCA (సెప్టెంబర్ చివర)"
+     },
+     {
+      "en": "$608.26 bn",
+      "te": "$608.26 బి."
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static: Forex reserves have 4 parts — FCA, Gold, SDRs and Reserve Tranche Position in the IMF. RBI manages them under the RBI Act, 1934. Trap: SDR is an IMF reserve asset, not a currency.",
+    "te": "స్టాటిక్: విదేశీ మారక నిల్వల్లో 4 భాగాలు — FCA, బంగారం, SDRలు, IMFలో రిజర్వ్ ట్రాంచ్ పొజిషన్. RBI చట్టం 1934 కింద RBI నిర్వహిస్తుంది. ట్రాప్: SDR అనేది IMF రిజర్వ్ ఆస్తి, కరెన్సీ కాదు."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Forex reserves, 2026 ($ billion)",
+      "te": "విదేశీ మారక నిల్వలు, 2026 ($ బిలియన్)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "End-March",
+        "te": "మార్చి చివర"
+       },
+       "v": 691.11,
+       "vl": "691.11"
+      },
+      {
+       "t": {
+        "en": "End-June",
+        "te": "జూన్ చివర"
+       },
+       "v": 668.59,
+       "vl": "668.59"
+      },
+      {
+       "t": {
+        "en": "End-August",
+        "te": "ఆగస్టు చివర"
+       },
+       "v": 751.8,
+       "vl": "751.80"
+      },
+      {
+       "t": {
+        "en": "End-September",
+        "te": "సెప్టెంబర్ చివర"
+       },
+       "v": 737.78,
+       "vl": "737.78"
+      }
+     ],
+     "cap": {
+      "en": "Reserves dipped in June, peaked in August, and ended September $46.7 bn higher than March.",
+      "te": "జూన్‌లో తగ్గి, ఆగస్టులో గరిష్ఠానికి చేరి, సెప్టెంబర్ చివరికి మార్చి కంటే $46.7 బి. ఎక్కువ."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "RBI — Half Yearly Report on Management of Foreign Exchange Reserves: April–September 2026, 25 Nov 2026",
+     "u": "https://rbi.org.in/scripts/PublicationsView.aspx?Id=24125"
+    }
+   ]
+  },
+  {
+   "id": "udyam",
+   "cat": "schemes",
+   "title": {
+    "en": "MSME registrations on Udyam portals cross 10 crore",
+    "te": "ఉద్యమ్ పోర్టళ్లలో MSME రిజిస్ట్రేషన్లు 10 కోట్లు దాటాయి"
+   },
+   "pts": [
+    {
+     "en": "The Ministry of MSME said registrations on the Udyam Registration Portal and Udyam Assist Platform crossed 10 crore on 30 Oct 2026 — up from 1.02 crore in 2020.",
+     "te": "ఉద్యమ్ రిజిస్ట్రేషన్ పోర్టల్, ఉద్యమ్ అసిస్ట్ ప్లాట్‌ఫామ్‌లో రిజిస్ట్రేషన్లు 30 అక్టోబర్ 2026న 10 కోట్లు దాటాయని MSME మంత్రిత్వ శాఖ తెలిపింది — 2020లో 1.02 కోట్లు మాత్రమే."
+    },
+    {
+     "en": "Udyam portal (1 Jul 2020) is free, paperless and self-declaration based, linked with Aadhaar, PAN, GST and Income Tax data. Udyam Assist (11 Jan 2023) brings informal micro units into the formal system.",
+     "te": "ఉద్యమ్ పోర్టల్ (1 జూలై 2020) ఉచితం, కాగిత రహితం, స్వీయ ధ్రువీకరణ ఆధారితం; ఆధార్, PAN, GST, ఆదాయపు పన్ను డేటాతో అనుసంధానం. ఉద్యమ్ అసిస్ట్ (11 జనవరి 2023) అనధికారిక సూక్ష్మ యూనిట్లను అధికారిక వ్యవస్థలోకి తెస్తుంది."
+    },
+    {
+     "en": "Why it matters: a registered unit can get priority-sector loans, government schemes and procurement benefits.",
+     "te": "ప్రాముఖ్యం: రిజిస్టర్ అయిన యూనిట్‌కు ప్రాధాన్య రంగ రుణాలు, ప్రభుత్వ పథకాలు, ప్రభుత్వ కొనుగోళ్ల ప్రయోజనాలు అందుతాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Crossed 10 crore",
+      "te": "10 కోట్లు దాటిన తేదీ"
+     },
+     {
+      "en": "30 Oct 2026",
+      "te": "30 అక్టో 2026"
+     }
+    ],
+    [
+     {
+      "en": "Udyam portal launched",
+      "te": "ఉద్యమ్ పోర్టల్ ప్రారంభం"
+     },
+     {
+      "en": "1 Jul 2020",
+      "te": "1 జూలై 2020"
+     }
+    ],
+    [
+     {
+      "en": "Udyam Assist launched",
+      "te": "ఉద్యమ్ అసిస్ట్ ప్రారంభం"
+     },
+     {
+      "en": "11 Jan 2023",
+      "te": "11 జనవరి 2023"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Order of MSME registration systems: EM-II (2006) → Udyog Aadhaar Memorandum (2015) → Udyam (2020) → Udyam Assist (2023). Trap: MSMED Act is of 2006.",
+    "te": "MSME రిజిస్ట్రేషన్ వ్యవస్థల క్రమం: EM-II (2006) → ఉద్యోగ్ ఆధార్ మెమొరాండం (2015) → ఉద్యమ్ (2020) → ఉద్యమ్ అసిస్ట్ (2023). ట్రాప్: MSMED చట్టం 2006 నాటిది."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "How MSME registration evolved",
+      "te": "MSME రిజిస్ట్రేషన్ పరిణామం"
+     },
+     "items": [
+      {
+       "y": "2006",
+       "t": {
+        "en": "EM-II system",
+        "te": "EM-II వ్యవస్థ"
+       }
+      },
+      {
+       "y": "2015",
+       "t": {
+        "en": "Udyog Aadhaar Memorandum",
+        "te": "ఉద్యోగ్ ఆధార్ మెమొరాండం"
+       }
+      },
+      {
+       "y": "2020",
+       "t": {
+        "en": "Udyam portal (1 July)",
+        "te": "ఉద్యమ్ పోర్టల్ (1 జూలై)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2023",
+       "t": {
+        "en": "Udyam Assist (11 Jan)",
+        "te": "ఉద్యమ్ అసిస్ట్ (11 జనవరి)"
+       }
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "10 crore registrations (30 Oct)",
+        "te": "10 కోట్ల రిజిస్ట్రేషన్లు (30 అక్టో)"
+       },
+       "hl": 1
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India — MSME sector crosses 10 crore registrations, 26 Nov 2026",
+     "u": "https://www.thehansindia.com/news/cities/new-delhi/msme-sector-crosses-10-crore-registrations-1145777"
+    }
+   ]
+  },
+  {
+   "id": "suryakiran",
+   "cat": "defence",
+   "title": {
+    "en": "India–Nepal Army exercise SURYAKIRAN XX begins at Saljhandi, Nepal (25 Nov–8 Dec)",
+    "te": "భారత్–నేపాల్ సైనిక విన్యాసం సూర్యకిరణ్ XX నేపాల్‌లోని సల్‌ఝండిలో ప్రారంభం (నవం 25–డిసెం 8)"
+   },
+   "pts": [
+    {
+     "en": "The 20th edition of SURYAKIRAN, the yearly India–Nepal joint military exercise, began on 25 Nov at the Nepal Army Battle School, Saljhandi. It runs till 8 Dec 2026.",
+     "te": "భారత్–నేపాల్ వార్షిక సంయుక్త సైనిక విన్యాసం సూర్యకిరణ్ 20వ ఎడిషన్ నవంబర్ 25న సల్‌ఝండిలోని నేపాల్ ఆర్మీ బ్యాటిల్ స్కూల్‌లో ప్రారంభమైంది. డిసెంబర్ 8, 2026 వరకు జరుగుతుంది."
+    },
+    {
+     "en": "334 soldiers each: India's Kumaon Regiment and Nepal Army's Shri Jawla Dal Battalion. Focus: counter-insurgency and counter-terrorism in hilly terrain, heliborne operations, disaster response and medical aid.",
+     "te": "చెరో 334 మంది సైనికులు: భారత్ నుంచి కుమావ్ రెజిమెంట్, నేపాల్ నుంచి శ్రీ జ్వాలా దళ్ బెటాలియన్. ప్రధాన అంశాలు: కొండ ప్రాంతాల్లో తిరుగుబాటు, ఉగ్రవాద నిరోధం, హెలికాప్టర్ ఆపరేషన్లు, విపత్తు స్పందన, వైద్య సహాయం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Edition",
+      "te": "ఎడిషన్"
+     },
+     {
+      "en": "20th (XX)",
+      "te": "20వ (XX)"
+     }
+    ],
+    [
+     {
+      "en": "Venue",
+      "te": "వేదిక"
+     },
+     {
+      "en": "Saljhandi, Nepal",
+      "te": "సల్‌ఝండి, నేపాల్"
+     }
+    ],
+    [
+     {
+      "en": "Held",
+      "te": "జరిగేది"
+     },
+     {
+      "en": "Every year, alternately in India and Nepal",
+      "te": "ఏటా, భారత్–నేపాల్‌లో మార్చి మార్చి"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Match-the-pair favourite: Suryakiran = India–Nepal; Hand-in-Hand = India–China; Mitra Shakti = India–Sri Lanka; Sampriti = India–Bangladesh. Trap: don't confuse with the IAF 'Surya Kiran' aerobatic team.",
+    "te": "జతపరిచే ప్రశ్నలకు: సూర్యకిరణ్ = భారత్–నేపాల్; హ్యాండ్-ఇన్-హ్యాండ్ = భారత్–చైనా; మిత్ర శక్తి = భారత్–శ్రీలంక; సంప్రీతి = భారత్–బంగ్లాదేశ్. ట్రాప్: IAF 'సూర్య కిరణ్' ఏరోబాటిక్ బృందంతో కలపకండి."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "southasia",
+     "h": {
+      "en": "SURYAKIRAN XX is being held in Nepal",
+      "te": "సూర్యకిరణ్ XX నేపాల్‌లో జరుగుతోంది"
+     },
+     "ctry": [
+      "Nepal"
+     ],
+     "hlc": "#e9c46a",
+     "labels": [
+      {
+       "ll": [
+        28.4,
+        84.1
+       ],
+       "t": {
+        "en": "Nepal",
+        "te": "నేపాల్"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Nepal shares a border with five Indian states: Uttarakhand, UP, Bihar, West Bengal and Sikkim.",
+      "te": "నేపాల్‌కు ఐదు భారత రాష్ట్రాలతో సరిహద్దు: ఉత్తరాఖండ్, యూపీ, బిహార్, పశ్చిమ బెంగాల్, సిక్కిం."
+     },
+     "src": "cards/cad/2026-11-26/map-suryakiran-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Kashmir Reader — India–Nepal joint military exercise Suryakiran XX begins in Nepal, 26 Nov 2026",
+     "u": "https://kashmirreader.com/2026/11/26/india-nepal-joint-military-exercise-suryakiran-xx-begins-in-nepal/"
+    },
+    {
+     "t": "Perivis — Suryakiran XX commences in Nepal (PIB summary), 25 Nov 2026",
+     "u": "https://blog.perivis.com/2026/11/25/india-nepal-joint-military-exercise-suryakiran-xx-commences-in-nepal/"
+    }
+   ]
+  },
+  {
+   "id": "kts",
+   "cat": "days",
+   "title": {
+    "en": "Kashi Tamil Sangamam 5.0 from 28 Nov to 12 Dec, on the theme of Thirukkural",
+    "te": "కాశీ తమిళ సంగమం 5.0 — నవంబర్ 28 నుంచి డిసెంబర్ 12 వరకు, తిరుక్కురళ్ ఇతివృత్తంతో"
+   },
+   "pts": [
+    {
+     "en": "The fifth Kashi Tamil Sangamam begins on 28 Nov and ends on 12 Dec 2026. Theme: 'Thirukkural Payilvom – Thirukkural Abhyas Karen' (Let us learn the Thirukkural).",
+     "te": "ఐదో కాశీ తమిళ సంగమం నవంబర్ 28న ప్రారంభమై డిసెంబర్ 12, 2026న ముగుస్తుంది. ఇతివృత్తం: 'తిరుక్కురళ్ పయిల్వోమ్ – తిరుక్కురళ్ అభ్యాస్ కరేఁ' (తిరుక్కురళ్ నేర్చుకుందాం)."
+    },
+    {
+     "en": "About 1,400 people from Tamil Nadu, in seven groups (students, teachers, writers, farmers, artisans, women, spiritual leaders), will visit Varanasi, Prayagraj and Ayodhya.",
+     "te": "తమిళనాడు నుంచి సుమారు 1,400 మంది, ఏడు బృందాలుగా (విద్యార్థులు, ఉపాధ్యాయులు, రచయితలు, రైతులు, కళాకారులు, మహిళలు, ఆధ్యాత్మిక నాయకులు) వారణాసి, ప్రయాగ్‌రాజ్, అయోధ్యలను సందర్శిస్తారు."
+    },
+    {
+     "en": "It is run by the Ministry of Education with IIT Madras and BHU, under the 'Ek Bharat Shreshtha Bharat' idea. The first edition was in 2022.",
+     "te": "విద్యా మంత్రిత్వ శాఖ IIT మద్రాస్, BHUతో కలిసి 'ఏక్ భారత్ శ్రేష్ఠ భారత్' స్ఫూర్తితో నిర్వహిస్తుంది. తొలి ఎడిషన్ 2022లో జరిగింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Edition · Dates",
+      "te": "ఎడిషన్ · తేదీలు"
+     },
+     {
+      "en": "5th · 28 Nov–12 Dec 2026",
+      "te": "5వ · నవం 28–డిసెం 12, 2026"
+     }
+    ],
+    [
+     {
+      "en": "Theme",
+      "te": "ఇతివృత్తం"
+     },
+     {
+      "en": "Thirukkural",
+      "te": "తిరుక్కురళ్"
+     }
+    ],
+    [
+     {
+      "en": "Organiser",
+      "te": "నిర్వాహకులు"
+     },
+     {
+      "en": "Ministry of Education (IIT Madras, BHU)",
+      "te": "విద్యా మంత్రిత్వ శాఖ (IIT మద్రాస్, BHU)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: Thirukkural was written by Thiruvalluvar — 1,330 couplets in three parts (virtue, wealth, love). Trap: Kashi = Varanasi, Uttar Pradesh.",
+    "te": "స్టాటిక్ లింక్: తిరుక్కురళ్ రచయిత తిరువళ్లువర్ — మూడు భాగాల్లో (ధర్మం, అర్థం, కామం) 1,330 ద్విపదలు. ట్రాప్: కాశీ = వారణాసి, ఉత్తరప్రదేశ్."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "india",
+     "h": {
+      "en": "From Tamil Nadu to Kashi",
+      "te": "తమిళనాడు నుంచి కాశీకి"
+     },
+     "hl": [
+      "Tamil Nadu",
+      "Uttar Pradesh"
+     ],
+     "hlc": "#e9c46a",
+     "pts": [
+      {
+       "ll": [
+        25.32,
+        82.97
+       ],
+       "t": {
+        "en": "Varanasi (Kashi)",
+        "te": "వారణాసి (కాశీ)"
+       }
+      },
+      {
+       "ll": [
+        13.08,
+        80.27
+       ],
+       "t": {
+        "en": "Chennai",
+        "te": "చెన్నై"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         13.08,
+         80.27
+        ],
+        [
+         25.32,
+         82.97
+        ]
+       ],
+       "dash": 1,
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "Delegates travel from Tamil Nadu to Varanasi, Prayagraj and Ayodhya in Uttar Pradesh.",
+      "te": "ప్రతినిధులు తమిళనాడు నుంచి ఉత్తరప్రదేశ్‌లోని వారణాసి, ప్రయాగ్‌రాజ్, అయోధ్యకు వెళ్తారు."
+     },
+     "src": "cards/cad/2026-11-26/map-kts-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "DD News (PIB) — Kashi Tamil Sangamam 5.0 to be held from November 28 to December 12, 22 Oct 2026 (updated 26 Nov 2026)",
+     "u": "https://ddnews.gov.in/en/kashi-tamil-sangamam-5-0-to-be-held-from-november-28-to-december-12/"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "appolls",
+   "q": {
+    "en": "Consider the following statements about the local body elections held in Andhra Pradesh on 26 Nov 2026:",
+    "te": "26 నవంబర్ 2026న ఏపీలో జరిగిన స్థానిక సంస్థల ఎన్నికల గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. They were conducted by the State Election Commission.",
+     "te": "I. వీటిని రాష్ట్ర ఎన్నికల సంఘం నిర్వహించింది."
+    },
+    {
+     "en": "II. Polling was held in four municipal corporations including Kakinada and Srikakulam.",
+     "te": "II. కాకినాడ, శ్రీకాకుళం సహా నాలుగు నగరపాలక సంస్థల్లో పోలింగ్ జరిగింది."
+    },
+    {
+     "en": "III. Results of the urban local bodies were declared the same evening.",
+     "te": "III. పట్టణ స్థానిక సంస్థల ఫలితాలు అదే సాయంత్రం ప్రకటించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "(b). The SEC conducts local polls (Art. 243K/243ZA); the 4 corporations were Srikakulam, Kakinada, Rajamahendravaram, Mangalagiri-Tadepalli. Trap: only village counting was same-day; ULB results are on 30 Nov.",
+    "te": "(b). స్థానిక ఎన్నికలు SEC నిర్వహిస్తుంది (ఆర్టికల్ 243K/243ZA); 4 కార్పొరేషన్లు శ్రీకాకుళం, కాకినాడ, రాజమహేంద్రవరం, మంగళగిరి-తాడేపల్లి. ట్రాప్: గ్రామాల లెక్కింపే అదే రోజు; పట్టణ ఫలితాలు నవంబర్ 30న."
+   }
+  },
+  {
+   "topic": "appolls",
+   "q": {
+    "en": "Match List-I (provision) with List-II (subject):",
+    "te": "జాబితా-I (నిబంధన)ను జాబితా-II (అంశం)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. Art. 324   B. Art. 243K   C. Art. 243ZA   D. Art. 243E",
+     "te": "A. ఆర్టికల్ 324   B. ఆర్టికల్ 243K   C. ఆర్టికల్ 243ZA   D. ఆర్టికల్ 243E"
+    },
+    {
+     "en": "1. SEC for municipalities   2. Duration of panchayats   3. Election Commission of India   4. SEC for panchayats",
+     "te": "1. మున్సిపాలిటీలకు SEC   2. పంచాయతీల కాలపరిమితి   3. భారత ఎన్నికల సంఘం   4. పంచాయతీలకు SEC"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-3, B-4, C-1, D-2",
+     "te": "A-3, B-4, C-1, D-2"
+    },
+    {
+     "en": "A-3, B-1, C-4, D-2",
+     "te": "A-3, B-1, C-4, D-2"
+    },
+    {
+     "en": "A-4, B-3, C-1, D-2",
+     "te": "A-4, B-3, C-1, D-2"
+    },
+    {
+     "en": "A-3, B-4, C-2, D-1",
+     "te": "A-3, B-4, C-2, D-1"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "(a). 324 = ECI; 243K = SEC (panchayats, Part IX); 243ZA = SEC (municipalities, Part IXA); 243E = 5-year term of panchayats. Trap: option (b) swaps 243K and 243ZA.",
+    "te": "(a). 324 = ECI; 243K = SEC (పంచాయతీలు, భాగం IX); 243ZA = SEC (మున్సిపాలిటీలు, భాగం IXA); 243E = పంచాయతీల 5 ఏళ్ల కాలపరిమితి. ట్రాప్: (b)లో 243K, 243ZA తారుమారు."
+   }
+  },
+  {
+   "topic": "aphc",
+   "q": {
+    "en": "With reference to the AP High Court's directions on court proceedings (Nov 2026), which of the following is INCORRECT?",
+    "te": "కోర్టు విచారణలపై ఏపీ హైకోర్టు ఆదేశాలు (నవం 2026) దృష్ట్యా కింది వాటిలో సరికానిది ఏది?"
+   },
+   "o": [
+    {
+     "en": "Screenshots of video-conference hearings need prior permission",
+     "te": "వీడియో కాన్ఫరెన్స్ విచారణల స్క్రీన్‌షాట్లకు ముందస్తు అనుమతి అవసరం"
+    },
+    {
+     "en": "Live streaming of hearings without approval is barred",
+     "te": "అనుమతి లేకుండా విచారణల లైవ్ స్ట్రీమింగ్ నిషేధం"
+    },
+    {
+     "en": "Media are barred from reporting judgments of the court",
+     "te": "కోర్టు తీర్పులను నివేదించడం మీడియాకు నిషేధం"
+    },
+    {
+     "en": "The rules apply to advocates and litigants as well",
+     "te": "ఈ నిబంధనలు న్యాయవాదులు, కక్షిదారులకు కూడా వర్తిస్తాయి"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "(c). The order is not a ban on reporting — media may report hearings, observations and judgments; only unauthorised recordings/clips are barred. (a), (b), (d) are correct.",
+    "te": "(c). ఇది వార్తా నివేదికలపై నిషేధం కాదు — విచారణలు, వ్యాఖ్యలు, తీర్పులను మీడియా నివేదించవచ్చు; అనధికార రికార్డింగ్‌లు/క్లిప్‌లకే నిషేధం. (a), (b), (d) సరైనవి."
+   }
+  },
+  {
+   "topic": "aphc",
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Article 215 declares every High Court a court of record.",
+     "te": "I. ఆర్టికల్ 215 ప్రతి హైకోర్టును కోర్ట్ ఆఫ్ రికార్డ్‌గా ప్రకటిస్తుంది."
+    },
+    {
+     "en": "II. A court of record has the power to punish for its contempt.",
+     "te": "II. కోర్ట్ ఆఫ్ రికార్డ్‌కు తన ధిక్కారాన్ని శిక్షించే అధికారం ఉంది."
+    },
+    {
+     "en": "III. The High Court of Andhra Pradesh at Amaravati began functioning in 2014.",
+     "te": "III. అమరావతిలో ఏపీ హైకోర్టు 2014లో పనిచేయడం ప్రారంభించింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "(a). Art. 215 makes HCs courts of record with contempt powers (SC: Art. 129). Trap: the separate AP High Court started at Amaravati on 1 Jan 2019, not in 2014 (the year of bifurcation).",
+    "te": "(a). ఆర్టికల్ 215 హైకోర్టులను ధిక్కార అధికారాలతో కోర్ట్ ఆఫ్ రికార్డ్‌గా చేస్తుంది (SC: ఆర్టికల్ 129). ట్రాప్: ప్రత్యేక ఏపీ హైకోర్టు అమరావతిలో 1 జనవరి 2019న ప్రారంభమైంది, 2014లో (విభజన సంవత్సరం) కాదు."
+   }
+  },
+  {
+   "topic": "urea",
+   "q": {
+    "en": "Consider the following statements about the six urea plants approved under NIPU-2026:",
+    "te": "NIPU-2026 కింద ఆమోదించిన ఆరు యూరియా ప్లాంట్ల గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. They are brownfield projects, each with 12.7 lakh tonnes annual capacity.",
+     "te": "I. ఇవి బ్రౌన్‌ఫీల్డ్ ప్రాజెక్టులు, ఒక్కోదాని వార్షిక సామర్థ్యం 12.7 లక్షల టన్నులు."
+    },
+    {
+     "en": "II. Uttar Pradesh gets two of the six plants.",
+     "te": "II. ఆరింటిలో రెండు ప్లాంట్లు ఉత్తరప్రదేశ్‌కు."
+    },
+    {
+     "en": "III. One of the plants is located in Andhra Pradesh.",
+     "te": "III. ఒక ప్లాంట్ ఆంధ్రప్రదేశ్‌లో ఉంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "(c). Six brownfield plants of 12.7 lakh t each; UP gets Shahjahanpur and Jagdishpur. Trap: the southern plant is at Chennai (Tamil Nadu), not in AP.",
+    "te": "(c). ఒక్కోటి 12.7 లక్షల టన్నుల ఆరు బ్రౌన్‌ఫీల్డ్ ప్లాంట్లు; యూపీకి షాజహాన్‌పూర్, జగదీశ్‌పూర్. ట్రాప్: దక్షిణాది ప్లాంట్ చెన్నై (తమిళనాడు)లో ఉంది, ఏపీలో కాదు."
+   }
+  },
+  {
+   "topic": "kamarajar",
+   "q": {
+    "en": "Consider the following statements about the second container terminal at Kamarajar Port:",
+    "te": "కామరాజర్ పోర్ట్‌లోని రెండో కంటైనర్ టెర్మినల్ గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It will be developed on PPP in DBFOT mode with a 40-year concession.",
+     "te": "I. దీన్ని DBFOT పద్ధతిలో PPP కింద 40 ఏళ్ల రాయితీతో అభివృద్ధి చేస్తారు."
+    },
+    {
+     "en": "II. It will add a capacity of 2.0 million TEU per year.",
+     "te": "II. ఏటా 2.0 మిలియన్ TEU సామర్థ్యం జతవుతుంది."
+    },
+    {
+     "en": "III. Kamarajar Port is a minor port controlled by the Tamil Nadu government.",
+     "te": "III. కామరాజర్ పోర్ట్ తమిళనాడు ప్రభుత్వ నియంత్రణలోని మైనర్ పోర్ట్."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "(d). DBFOT, 40 years, 2.0 million TEU are correct. Trap: Kamarajar (Ennore) is a Major Port under the Union, owned by Chennai Port — not a state minor port.",
+    "te": "(d). DBFOT, 40 ఏళ్లు, 2.0 మిలియన్ TEU సరైనవి. ట్రాప్: కామరాజర్ (ఎన్నూర్) కేంద్ర పరిధిలోని మేజర్ పోర్ట్, చెన్నై పోర్ట్ యాజమాన్యంలో ఉంది — రాష్ట్ర మైనర్ పోర్ట్ కాదు."
+   }
+  },
+  {
+   "topic": "silchar",
+   "q": {
+    "en": "Consider the following pairs (projects approved by the Centre on 25 Nov 2026):",
+    "te": "కింది జతలను పరిశీలించండి (నవం 25, 2026న కేంద్రం ఆమోదించిన ప్రాజెక్టులు):"
+   },
+   "st": [
+    {
+     "en": "I. Doloo greenfield airport — Cachar district, Assam",
+     "te": "I. డోలూ గ్రీన్‌ఫీల్డ్ విమానాశ్రయం — కచార్ జిల్లా, అస్సాం"
+    },
+    {
+     "en": "II. Second container terminal — Kamarajar Port, Tamil Nadu",
+     "te": "II. రెండో కంటైనర్ టెర్మినల్ — కామరాజర్ పోర్ట్, తమిళనాడు"
+    },
+    {
+     "en": "III. Doloo airport — to be built by a private developer on PPP",
+     "te": "III. డోలూ విమానాశ్రయం — PPP కింద ప్రైవేట్ డెవలపర్ నిర్మాణం"
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "(a). Doloo (Cachar) airport and the Kamarajar terminal are correctly matched. Trap: the airport will be built by the Airports Authority of India; it is the port terminal that is on PPP.",
+    "te": "(a). డోలూ (కచార్) విమానాశ్రయం, కామరాజర్ టెర్మినల్ సరిగా జతయ్యాయి. ట్రాప్: విమానాశ్రయాన్ని భారత విమానాశ్రయాల సంస్థ (AAI) నిర్మిస్తుంది; PPP కింద ఉన్నది పోర్ట్ టెర్మినల్."
+   }
+  },
+  {
+   "topic": "forex",
+   "q": {
+    "en": "Consider the following statements based on RBI's report on forex reserves (April–September 2026):",
+    "te": "విదేశీ మారక నిల్వలపై RBI నివేదిక (ఏప్రిల్–సెప్టెంబర్ 2026) ఆధారంగా కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Reserves rose from about $691 billion to about $738 billion.",
+     "te": "I. నిల్వలు సుమారు $691 బిలియన్ల నుంచి సుమారు $738 బిలియన్లకు పెరిగాయి."
+    },
+    {
+     "en": "II. The share of gold in total reserves increased during the period.",
+     "te": "II. ఈ కాలంలో మొత్తం నిల్వల్లో బంగారం వాటా పెరిగింది."
+    },
+    {
+     "en": "III. Part of RBI's gold is kept with the Bank of England and the BIS.",
+     "te": "III. RBI బంగారంలో కొంత బ్యాంక్ ఆఫ్ ఇంగ్లాండ్, BIS వద్ద ఉంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "(d). Reserves: $691.11 bn → $737.78 bn; 140.39 t of 880.52 t gold is with BoE/BIS. Trap: gold's share FELL (16.70% → about 14.38%) as gold prices fell ~9%.",
+    "te": "(d). నిల్వలు: $691.11 బి. → $737.78 బి.; 880.52 టన్నుల్లో 140.39 టన్నులు BoE/BIS వద్ద. ట్రాప్: బంగారం ధర ~9% తగ్గడంతో దాని వాటా తగ్గింది (16.70% → సుమారు 14.38%)."
+   }
+  },
+  {
+   "topic": "udyam",
+   "q": {
+    "en": "Arrange the following MSME registration systems in chronological order:",
+    "te": "కింది MSME రిజిస్ట్రేషన్ వ్యవస్థలను కాలక్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "I. Udyam Assist Platform",
+     "te": "I. ఉద్యమ్ అసిస్ట్ ప్లాట్‌ఫామ్"
+    },
+    {
+     "en": "II. Udyog Aadhaar Memorandum",
+     "te": "II. ఉద్యోగ్ ఆధార్ మెమొరాండం"
+    },
+    {
+     "en": "III. Udyam Registration Portal",
+     "te": "III. ఉద్యమ్ రిజిస్ట్రేషన్ పోర్టల్"
+    },
+    {
+     "en": "IV. Entrepreneurs Memorandum (EM-II)",
+     "te": "IV. ఎంటర్‌ప్రెన్యూర్స్ మెమొరాండం (EM-II)"
+    }
+   ],
+   "o": [
+    {
+     "en": "II-IV-III-I",
+     "te": "II-IV-III-I"
+    },
+    {
+     "en": "IV-II-I-III",
+     "te": "IV-II-I-III"
+    },
+    {
+     "en": "IV-II-III-I",
+     "te": "IV-II-III-I"
+    },
+    {
+     "en": "IV-III-II-I",
+     "te": "IV-III-II-I"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "(c). EM-II (2006) → Udyog Aadhaar (2015) → Udyam portal (1 Jul 2020) → Udyam Assist (11 Jan 2023). Trap: (b) puts Udyam Assist before the Udyam portal.",
+    "te": "(c). EM-II (2006) → ఉద్యోగ్ ఆధార్ (2015) → ఉద్యమ్ పోర్టల్ (1 జూలై 2020) → ఉద్యమ్ అసిస్ట్ (11 జనవరి 2023). ట్రాప్: (b) ఉద్యమ్ అసిస్ట్‌ను ఉద్యమ్ పోర్టల్ కంటే ముందు పెట్టింది."
+   }
+  },
+  {
+   "topic": "suryakiran",
+   "q": {
+    "en": "Which of the following pairs of joint military exercises and partner countries is correctly matched?",
+    "te": "కింది సంయుక్త సైనిక విన్యాసాలు – భాగస్వామ్య దేశాల జతల్లో సరైనవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. Suryakiran — Nepal",
+     "te": "I. సూర్యకిరణ్ — నేపాల్"
+    },
+    {
+     "en": "II. Mitra Shakti — Bangladesh",
+     "te": "II. మిత్ర శక్తి — బంగ్లాదేశ్"
+    },
+    {
+     "en": "III. Hand-in-Hand — China",
+     "te": "III. హ్యాండ్-ఇన్-హ్యాండ్ — చైనా"
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "(b). Suryakiran (XX began 25 Nov at Saljhandi) is with Nepal; Hand-in-Hand is with China. Trap: Mitra Shakti is with Sri Lanka — India–Bangladesh is Sampriti.",
+    "te": "(b). సూర్యకిరణ్ (XX నవం 25న సల్‌ఝండిలో ప్రారంభం) నేపాల్‌తో; హ్యాండ్-ఇన్-హ్యాండ్ చైనాతో. ట్రాప్: మిత్ర శక్తి శ్రీలంకతో — భారత్–బంగ్లాదేశ్ విన్యాసం సంప్రీతి."
+   }
+  }
+ ]
+}
