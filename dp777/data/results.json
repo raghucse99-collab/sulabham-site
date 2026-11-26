@@ -31,13 +31,6 @@
       "source_label": "KALYAN",
       "result_changed_at": "2026-11-26T14:07:01+00:00"
     },
-    "milan-night": {
-      "name": "Milan Night",
-      "result": "113-53-157",
-      "source": "https://dpbossss.com/",
-      "source_label": "MILAN NIGHT",
-      "result_changed_at": "2026-11-25T19:56:43+00:00"
-    },
     "kalyan-night": {
       "name": "Kalyan Night",
       "result": "178-69-144",
@@ -68,15 +61,15 @@
     },
     "sridevi-night": {
       "name": "Sridevi Night",
-      "result": "158-4",
+      "result": "158-45-140",
       "source": "https://dpbossss.com/",
       "source_label": "SRIDEVI NIGHT",
-      "result_changed_at": "2026-11-26T14:07:01+00:00"
+      "result_changed_at": "2026-11-26T15:36:32+00:00"
     }
   },
-  "live_fetched_at": "2026-11-26T14:07:01+00:00",
+  "live_fetched_at": "2026-11-26T15:36:32+00:00",
   "live_source": "https://dpbossss.com/",
-  "live_status": "ok",
+  "live_status": "partial",
   "charts": {
     "sridevi": {
       "title": "Sridevi Night historical records",
