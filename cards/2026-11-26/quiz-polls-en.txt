@@ -1,0 +1,212 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-26 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. With reference to Constitution Day (Samvidhan Divas), consider the following statements:
+I. It marks the adoption of the Constitution on 26 November 1949, which came into force on 26 January 1950.
+II. 26 November was notified as Constitution Day in 2015 by the Ministry of Law and Justice.
+III. The notification was made during the 125th birth anniversary year of Dr B.R. Ambedkar.
+
+--- QUESTION ---
+Q1. With reference to Constitution Day (Samvidhan Divas), consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct. II is the trap: the Gazette notification (19 Nov 2015) was issued by the Ministry of Social Justice & Empowerment, not the Law Ministry.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Arrange the following events in chronological order:
+1. Drafting Committee set up under Dr B.R. Ambedkar
+2. Draft Constitution introduced in the Constituent Assembly
+3. 'Hamara Samvidhan Hamara Samman' campaign launched
+4. 26 November notified as Constitution Day
+
+--- QUESTION ---
+Q2. Arrange the following events in chronological order: (statements in the message above)
+
+--- OPTIONS ---
+(a) 1-2-3-4
+(b) 2-1-4-3
+(c) 1-2-4-3
+(d) 1-4-2-3
+
+--- CORRECT (tick this) ---
+(c) 1-2-4-3
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Drafting Committee 29 Aug 1947 → Draft introduced 4 Nov 1948 → Constitution Day notified 19 Nov 2015 → campaign launched 24 Jan 2024. Option (a) wrongly puts the 2024 campaign before the 2015 notif...
+
+==================== Q3 ====================
+--- QUESTION ---
+Q3. Match List-I (event in Dr Verghese Kurien's life) with List-II (year):
+List-I: A. Becomes first chairman of NDDB · B. Operation Flood begins · C. GCMMF established · D. Ramon Magsaysay Award
+List-II: 1. 1963 · 2. 1965 · 3. 1970 · 4. 1973
+
+--- OPTIONS ---
+(a) A-3, B-2, C-4, D-1
+(b) A-2, B-4, C-3, D-1
+(c) A-1, B-3, C-4, D-2
+(d) A-2, B-3, C-4, D-1
+
+--- CORRECT (tick this) ---
+(d) A-2, B-3, C-4, D-1
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+NDDB 1965, Operation Flood 1970, GCMMF 1973, Magsaysay 1963. Option (a) swaps NDDB and Operation Flood — the most common confusion.
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Which one of the following statements about India's dairy sector is NOT correct?
+
+--- OPTIONS ---
+(a) Operation Flood was launched in 1965, the same year NDDB was created.
+(b) Milk production rose from 146.30 MT in 2014-15 to 239.30 MT in 2023-24.
+(c) Per-capita milk availability was 471 grams per day in 2023-24.
+(d) The Kaira District Cooperative Milk Producers' Union is the precursor of Amul.
+
+--- CORRECT (tick this) ---
+(a) Operation Flood was launched in 1965, the same year NDDB was created.
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(a) is wrong: NDDB was created in 1965 but Operation Flood began in 1970. (b), (c) and (d) match PIB figures and facts.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Consider the following statements regarding the constitutional basis of environment and disaster laws:
+I. Article 253 lets Parliament make laws to implement international treaties; the Air Act 1981 and the Environment (Protection) Act 1986 followed the 1972 Stockholm Conference.
+II. 'Disaster management' is a separate entry in the State List of the Seventh Schedule.
+III. Under Article 270, cesses and surcharges are kept outside the divisible pool shared with States.
+
+--- QUESTION ---
+Q5. Consider the following statements regarding the constitutional basis of environment and disaster laws: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct. II is wrong: disaster is in none of the three Lists; the DM Act 2005 was made using Concurrent List entries.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Match List-I (Supreme Court case) with List-II (principle laid down):
+List-I: A. M.C. Mehta v Union of India (1987) · B. Vellore Citizens Welfare Forum (1996) · C. M.K. Ranjitsinh v Union of India (2024)
+List-II: 1. Right against adverse effects of climate change (Arts 14, 21) · 2. Absolute liability · 3. Polluter pays and precautionary principle
+
+--- QUESTION ---
+Q6. Match List-I (Supreme Court case) with List-II (principle laid down): (statements in the message above)
+
+--- OPTIONS ---
+(a) A-1, B-2, C-3
+(b) A-2, B-3, C-1
+(c) A-3, B-2, C-1
+(d) A-2, B-1, C-3
+
+--- CORRECT (tick this) ---
+(b) A-2, B-3, C-1
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+M.C. Mehta (1987) = absolute liability; Vellore (1996) = polluter pays + precautionary; Ranjitsinh (2024) = climate right under Arts 14 and 21. Option (c) wrongly swaps the two older cases.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. With reference to the Periodic Labour Force Survey (PLFS), consider the following statements:
+I. Under Current Weekly Status (CWS), a person's activity is judged on the last 7 days before the survey.
+II. In October 2026 the urban unemployment rate (6.7%) was higher than the rural rate (4.2%).
+III. Monthly PLFS estimates have been released since the survey was launched in 2017-18.
+
+--- QUESTION ---
+Q7. With reference to the Periodic Labour Force Survey (PLFS), consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: the method was modified from January 2025 to give monthly and quarterly estimates; October 2026 is only the 19th monthly bulletin.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Read the Assertion (A) and Reason (R) based on the op-ed analysis of PLFS data:
+A: The rise in unemployment rate from 5.2% (April 2026) to 5.5% (May 2026) cannot be treated as a real change.
+R: The 95% confidence intervals of the two months (5.0–5.4% and 5.3–5.7%) overlap.
+
+--- QUESTION ---
+Q8. Read the Assertion (A) and Reason (R) based on the op-ed analysis of PLFS data: (statements in the message above)
+
+--- OPTIONS ---
+(a) Both A and R are true, and R is the correct explanation of A
+(b) Both A and R are true, but R is not the correct explanation of A
+(c) A is true, but R is false
+(d) A is false, but R is true
+
+--- CORRECT (tick this) ---
+(a) Both A and R are true, and R is the correct explanation of A
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(a): when confidence intervals overlap, the change is not statistically significant — that is exactly why the April–May rise is not a real change. The trap is to think a bigger sample makes every m...
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. With reference to the Public Examinations (Prevention of Unfair Means) Act, 2024, consider the following statements:
+I. All offences under it are cognizable, non-bailable and non-compoundable.
+II. Organised paper-leak crime is punishable with 5–10 years and a fine of not less than ₹1 crore.
+III. Offences can be investigated by a police officer of the rank of Inspector.
+IV. It covers examinations of UPSC, SSC, Railway Recruitment Boards, IBPS and NTA.
+
+--- QUESTION ---
+Q9. With reference to the Public Examinations (Prevention of Unfair Means) Act, 2024, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) II, III and IV only
+(c) I, II and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(c) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I, II and IV are correct. III is wrong: Section 12 needs an officer not below Deputy Superintendent of Police or Assistant Commissioner of Police.
+
+==================== Q10 ====================
+--- QUESTION ---
+Q10. Which one of the following about the Maharashtra exam-reform committee headed by V. Radha is NOT correct?
+
+--- OPTIONS ---
+(a) It proposes 7–10 years' jail for organised paper-leak offences.
+(b) It proposes raising the minimum fine from ₹1 crore to ₹10 crore.
+(c) It proposes an annual exam calendar to be published every October.
+(d) Its recommendations have already become law in Maharashtra.
+
+--- CORRECT (tick this) ---
+(d) Its recommendations have already become law in Maharashtra.
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(d) is wrong: the second report (23 Nov 2026) is under government consideration; an amendment Bill is expected in the Winter Session. (a), (b) and (c) are the panel's proposals.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/today.html?d=2026-11-26&tab=quiz

@@ -1,0 +1,2031 @@
+{
+ "date": "2026-11-26",
+ "day": {
+  "en": "Thursday, 26 November 2026",
+  "te": "గురువారం, 26 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Commemorate",
+   "en": "to remember and honour an event or person officially",
+   "te": "ఒక ఘటనను/వ్యక్తిని అధికారికంగా స్మరించుకోవడం",
+   "ex": "India observes 26 November every year to commemorate the adoption of the Constitution in 1949.",
+   "topic": "constday"
+  },
+  {
+   "w": "Precursor",
+   "en": "something that came before and led to a later thing",
+   "te": "తర్వాత వచ్చిన దానికి ముందు రూపం / పూర్వరూపం",
+   "ex": "PIB calls the Kaira District Cooperative Milk Producers' Union the precursor to Amul.",
+   "topic": "kurien"
+  },
+  {
+   "w": "Devolution",
+   "en": "transfer of money or power from the Centre to the States",
+   "te": "కేంద్రం నుంచి రాష్ట్రాలకు నిధులు/అధికారాల బదిలీ (వికేంద్రీకరణ)",
+   "ex": "The op-ed wants climate vulnerability to be counted in Finance Commission devolution.",
+   "topic": "climatefed"
+  },
+  {
+   "w": "Confidence interval",
+   "en": "the range within which the true value most probably lies",
+   "te": "నిజమైన విలువ ఉండే అవకాశం ఎక్కువగా ఉన్న పరిధి (విశ్వాస అంతరం)",
+   "ex": "April's and May's confidence intervals for unemployment overlapped, so the change was not significant.",
+   "topic": "plfs"
+  },
+  {
+   "w": "Cognizable",
+   "en": "an offence in which police can arrest without a court warrant",
+   "te": "కోర్టు వారెంట్ లేకుండానే పోలీసులు అరెస్టు చేయగల నేరం",
+   "ex": "All offences under the Public Examinations Act, 2024 are cognizable, non-bailable and non-compoundable.",
+   "topic": "paperleak"
+  }
+ ],
+ "items": [
+  {
+   "id": "constday",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "tag": {
+    "en": "Constitution Day (Samvidhan Divas) · 26 Nov",
+    "te": "రాజ్యాంగ దినోత్సవం (సంవిధాన్ దివస్) · 26 నవంబర్"
+   },
+   "title": {
+    "en": "Constitution Day — 77 years since India adopted its Constitution",
+    "te": "రాజ్యాంగ దినోత్సవం — భారత్ రాజ్యాంగాన్ని ఆమోదించి 77 ఏళ్లు"
+   },
+   "line": {
+    "en": "On 26 November 1949 the Constituent Assembly adopted the Constitution; it came into force on 26 January 1950.",
+    "te": "26 నవంబర్ 1949న రాజ్యాంగ పరిషత్ రాజ్యాంగాన్ని ఆమోదించింది; 26 జనవరి 1950న అది అమల్లోకి వచ్చింది."
+   },
+   "easy": [
+    {
+     "en": "Two dates are linked to our Constitution. 26 November 1949 is the day it was ADOPTED (accepted) by the Constituent Assembly. 26 January 1950 is the day it came INTO FORCE and India became a Republic. So 26 November is Constitution Day and 26 January is Republic Day.",
+     "te": "మన రాజ్యాంగానికి రెండు తేదీలు ముఖ్యం. 26 నవంబర్ 1949 — రాజ్యాంగ పరిషత్ దాన్ని ఆమోదించిన రోజు. 26 జనవరి 1950 — అది అమల్లోకి వచ్చి భారత్ గణతంత్రంగా మారిన రోజు. అందుకే 26 నవంబర్ రాజ్యాంగ దినోత్సవం, 26 జనవరి గణతంత్ర దినోత్సవం."
+    },
+    {
+     "en": "In 2015, the year-long celebration of Dr B.R. Ambedkar's 125th birth anniversary, the Ministry of Social Justice and Empowerment notified 26 November as Constitution Day in the Gazette. Ambedkar was the Chairman of the Drafting Committee.",
+     "te": "2015లో డా. బి.ఆర్. అంబేద్కర్ 125వ జయంతి ఉత్సవాల సందర్భంగా సామాజిక న్యాయం, సాధికారత మంత్రిత్వ శాఖ 26 నవంబర్‌ను రాజ్యాంగ దినోత్సవంగా గెజిట్‌లో ప్రకటించింది. అంబేద్కర్ ముసాయిదా కమిటీ ఛైర్మన్."
+    },
+    {
+     "en": "This year the Dr. Ambedkar Foundation's celebration at the Dr. Ambedkar International Centre, New Delhi, has the theme 'The Constitution @76: Dr. B.R. Ambedkar's Constitutional Vision and the Future of Indian Democracy'. Former Chief Justice of India U.U. Lalit reads the Preamble and gives the Constitution Day Lecture.",
+     "te": "ఈ ఏడాది న్యూఢిల్లీలోని డా. అంబేద్కర్ ఇంటర్నేషనల్ సెంటర్‌లో డా. అంబేద్కర్ ఫౌండేషన్ నిర్వహించే వేడుక థీమ్: 'The Constitution @76: Dr. B.R. Ambedkar's Constitutional Vision and the Future of Indian Democracy'. మాజీ ప్రధాన న్యాయమూర్తి జస్టిస్ యు.యు. లలిత్ పీఠిక చదివి, రాజ్యాంగ దినోత్సవ ఉపన్యాసం ఇస్తారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Adopted",
+      "te": "ఆమోదం"
+     },
+     {
+      "en": "26 November 1949, by the Constituent Assembly",
+      "te": "26 నవంబర్ 1949, రాజ్యాంగ పరిషత్ ద్వారా"
+     }
+    ],
+    [
+     {
+      "en": "Came into force",
+      "te": "అమల్లోకి"
+     },
+     {
+      "en": "26 January 1950 (Republic Day)",
+      "te": "26 జనవరి 1950 (గణతంత్ర దినోత్సవం)"
+     }
+    ],
+    [
+     {
+      "en": "Declared Constitution Day",
+      "te": "రాజ్యాంగ దినోత్సవంగా ప్రకటన"
+     },
+     {
+      "en": "Gazette notification, 19 Nov 2015 — Ministry of Social Justice & Empowerment (Ambedkar's 125th birth anniversary year)",
+      "te": "గెజిట్ నోటిఫికేషన్, 19 నవంబర్ 2015 — సామాజిక న్యాయం & సాధికారత మంత్రిత్వ శాఖ (అంబేద్కర్ 125వ జయంతి సంవత్సరం)"
+     }
+    ],
+    [
+     {
+      "en": "Drafting Committee",
+      "te": "ముసాయిదా కమిటీ"
+     },
+     {
+      "en": "Set up 29 Aug 1947, 7 members, Chairman Dr B.R. Ambedkar",
+      "te": "29 ఆగస్టు 1947న ఏర్పాటు, 7 మంది సభ్యులు, ఛైర్మన్ డా. బి.ఆర్. అంబేద్కర్"
+     }
+    ],
+    [
+     {
+      "en": "Time taken",
+      "te": "పట్టిన సమయం"
+     },
+     {
+      "en": "2 years, 11 months, 18 days; Assembly President Dr Rajendra Prasad",
+      "te": "2 సంవత్సరాలు, 11 నెలలు, 18 రోజులు; పరిషత్ అధ్యక్షుడు డా. రాజేంద్ర ప్రసాద్"
+     }
+    ],
+    [
+     {
+      "en": "2026 theme (Dr. Ambedkar Foundation)",
+      "te": "2026 థీమ్ (డా. అంబేద్కర్ ఫౌండేషన్)"
+     },
+     {
+      "en": "'The Constitution @76: Dr. B.R. Ambedkar's Constitutional Vision and the Future of Indian Democracy'",
+      "te": "'The Constitution @76: Dr. B.R. Ambedkar's Constitutional Vision and the Future of Indian Democracy'"
+     }
+    ],
+    [
+     {
+      "en": "Awareness campaign",
+      "te": "అవగాహన ప్రచారం"
+     },
+     {
+      "en": "'Hamara Samvidhan Hamara Samman' (24 Jan 2024, Dept of Justice) → 'Hamara Samvidhan – Hamara Swabhiman' (24 Jan 2025)",
+      "te": "'హమారా సంవిధాన్ హమారా సమ్మాన్' (24 జనవరి 2024, న్యాయ శాఖ) → 'హమారా సంవిధాన్ – హమారా స్వాభిమాన్' (24 జనవరి 2025)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Making of the Constitution",
+     "te": "లింక్ చెయిన్ · రాజ్యాంగ నిర్మాణం"
+    },
+    "l": [
+     {
+      "en": "Draft Constitution introduced by Ambedkar on 4 Nov 1948 — 315 Articles, 18 Parts, 8 Schedules",
+      "te": "4 నవంబర్ 1948న అంబేద్కర్ ముసాయిదా రాజ్యాంగాన్ని ప్రవేశపెట్టారు — 315 అధికరణలు, 18 భాగాలు, 8 షెడ్యూళ్లు"
+     },
+     {
+      "en": "25 Nov 1949 — Ambedkar's last speech ('Grammar of Anarchy'); 26 Nov 1949 — adoption",
+      "te": "25 నవంబర్ 1949 — అంబేద్కర్ చివరి ప్రసంగం ('అరాచకపు వ్యాకరణం'); 26 నవంబర్ 1949 — ఆమోదం"
+     },
+     {
+      "en": "26 November was also observed as National Law Day before 2015",
+      "te": "2015కు ముందు 26 నవంబర్‌ను జాతీయ న్యాయ దినోత్సవం (Law Day)గా కూడా జరుపుకునేవారు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Constitution Day was notified by the Ministry of Social Justice & Empowerment — not the Law Ministry. And 26 Nov = adoption; 26 Jan = commencement. Do not swap them.",
+    "te": "రాజ్యాంగ దినోత్సవాన్ని ప్రకటించింది సామాజిక న్యాయం & సాధికారత మంత్రిత్వ శాఖ — న్యాయ మంత్రిత్వ శాఖ కాదు. 26 నవంబర్ = ఆమోదం; 26 జనవరి = అమలు. వీటిని తారుమారు చేయవద్దు."
+   },
+   "tip": {
+    "en": "'November Nod, January Join' — the Assembly nodded (adopted) in November; the nation joined as a Republic in January.",
+    "te": "'నవంబర్‌లో ఆమోదం, జనవరిలో అమలు' — 'న-ఆ, జ-అ' గుర్తుంచుకోండి."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the campaigns linked to the Constitution, consider the following statements:",
+     "te": "రాజ్యాంగానికి సంబంధించిన ప్రచార కార్యక్రమాల గురించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. 'Hamara Samvidhan Hamara Samman' was launched by the Vice-President on 24 January 2024.",
+      "te": "I. 'హమారా సంవిధాన్ హమారా సమ్మాన్'ను ఉపరాష్ట్రపతి 24 జనవరి 2024న ప్రారంభించారు."
+     },
+     {
+      "en": "II. The campaign was implemented by the Department of Justice.",
+      "te": "II. ఈ ప్రచారాన్ని న్యాయ శాఖ (Department of Justice) అమలు చేసింది."
+     },
+     {
+      "en": "III. It became 'Hamara Samvidhan – Hamara Swabhiman' on 26 November 2025.",
+      "te": "III. ఇది 26 నవంబర్ 2025న 'హమారా సంవిధాన్ – హమారా స్వాభిమాన్'గా మారింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and II are correct. III is wrong: the change to 'Hamara Swabhiman' came on 24 January 2025, not on Constitution Day 2025.",
+     "te": "I, II సరైనవి. III తప్పు: 'హమారా స్వాభిమాన్'గా మార్పు 24 జనవరి 2025న జరిగింది, 2025 రాజ్యాంగ దినోత్సవం రోజున కాదు."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "From drafting to Constitution Day",
+      "te": "ముసాయిదా నుంచి రాజ్యాంగ దినోత్సవం వరకు"
+     },
+     "items": [
+      {
+       "y": "1947",
+       "t": {
+        "en": "Drafting Committee set up (29 Aug)",
+        "te": "ముసాయిదా కమిటీ ఏర్పాటు (29 ఆగస్టు)"
+       }
+      },
+      {
+       "y": "1948",
+       "t": {
+        "en": "Draft introduced by Ambedkar (4 Nov)",
+        "te": "అంబేద్కర్ ముసాయిదా ప్రవేశం (4 నవంబర్)"
+       }
+      },
+      {
+       "y": "1949",
+       "t": {
+        "en": "Constitution adopted (26 Nov)",
+        "te": "రాజ్యాంగ ఆమోదం (26 నవంబర్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1950",
+       "t": {
+        "en": "Came into force — Republic (26 Jan)",
+        "te": "అమల్లోకి — గణతంత్రం (26 జనవరి)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2015",
+       "t": {
+        "en": "26 Nov notified as Constitution Day (19 Nov)",
+        "te": "26 నవంబర్ రాజ్యాంగ దినోత్సవంగా ప్రకటన (19 నవంబర్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2024",
+       "t": {
+        "en": "'Hamara Samvidhan Hamara Samman' (24 Jan)",
+        "te": "'హమారా సంవిధాన్ హమారా సమ్మాన్' (24 జనవరి)"
+       }
+      },
+      {
+       "y": "2025",
+       "t": {
+        "en": "Becomes 'Hamara Swabhiman' (24 Jan)",
+        "te": "'హమారా స్వాభిమాన్'గా మార్పు (24 జనవరి)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = most-asked dates. Note: 2015 is when the DAY was declared, not when the Constitution was made.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే తేదీలు. గమనిక: 2015 = దినోత్సవం ప్రకటించిన సంవత్సరం, రాజ్యాంగం తయారైనది కాదు."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB — Dr. Ambedkar Foundation to Organise Constitution Day Celebration on 26 November Thursday, 24 Nov 2026",
+     "u": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2340938&reg=48&lang=2"
+    },
+    {
+     "t": "PIB — Hamara Samvidhan- Hamara Swabhiman Campaign (backgrounder), 25 Nov 2025",
+     "u": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251125705701.pdf"
+    },
+    {
+     "t": "Business Standard (ANI) — Nov. 26 to be observed as Constitution Day, 23 Nov 2015",
+     "u": "https://www.business-standard.com/amp/article/news-ani/nov-26-to-be-observed-as-constitution-day-115112300828_1.html"
+    },
+    {
+     "t": "LiveLaw — Government of India notifies Nov 26 as the 'Constitution Day', 19 Nov 2015",
+     "u": "https://livelaw.in/amp/government-of-india-notifies-nov-26-as-the-constitution-day"
+    },
+    {
+     "t": "Sunday Guardian — Constitution Day 2026: Why India Celebrates Samvidhan Diwas on November 26, 25 Nov 2026",
+     "u": "https://sundayguardianlive.com/trending/constitution-day-2026-why-india-celebrates-samvidhan-diwas-on-november-26-this-years-theme-history-significance-and-all-you-need-to-know-327791/"
+    },
+    {
+     "t": "Constitution of India (constitutionofindia.net) — Draft Constitution of India, 1948",
+     "u": "https://www.constitutionofindia.net/committee-report/draft-constitution-of-india-1948/"
+    },
+    {
+     "t": "Wikipedia — Constitution Day (India) (cross-check: Law Day name, 19 Nov 2015 gazette)",
+     "u": "https://en.wikipedia.org/wiki/Constitution_Day_(India)"
+    }
+   ]
+  },
+  {
+   "id": "kurien",
+   "kind": "day",
+   "color": "#2c5d63",
+   "icon": "food",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    6
+   ],
+   "tag": {
+    "en": "National Milk Day · Birth anniversary · 26 Nov 1921",
+    "te": "జాతీయ పాల దినోత్సవం · జయంతి · 26 నవంబర్ 1921"
+   },
+   "title": {
+    "en": "Dr Verghese Kurien — Father of the White Revolution",
+    "te": "డా. వర్గీస్ కురియన్ — శ్వేత విప్లవ పితామహుడు"
+   },
+   "line": {
+    "en": "National Milk Day is held on his birthday. His cooperative model made India the world's largest milk producer.",
+    "te": "ఆయన జయంతి రోజునే జాతీయ పాల దినోత్సవం. ఆయన సహకార నమూనా భారత్‌ను ప్రపంచంలోనే అతిపెద్ద పాల ఉత్పత్తిదారుగా నిలిపింది."
+   },
+   "easy": [
+    {
+     "en": "Kurien was an engineer, not a dairy farmer. In 1949 he came to Anand (Gujarat) to serve a government bond at a creamery. There, Tribhuvandas Patel, chairman of the Kaira District Cooperative Milk Producers' Union, asked for his help. This union later became famous as Amul.",
+     "te": "కురియన్ ఇంజనీర్, పాడి రైతు కాదు. 1949లో ప్రభుత్వ బాండ్ నిబంధన మేరకు ఆనంద్ (గుజరాత్)లోని క్రీమరీలో పనికి వచ్చారు. అక్కడ కైరా జిల్లా సహకార పాల ఉత్పత్తిదారుల సంఘం ఛైర్మన్ త్రిభువన్‌దాస్ పటేల్ ఆయన సహాయం కోరారు. ఈ సంఘమే తర్వాత 'అమూల్'గా ప్రసిద్ధి చెందింది."
+    },
+    {
+     "en": "The idea is simple: farmers own the cooperative, sell milk to it, and the profit comes back to them. After PM Lal Bahadur Shastri visited Anand in 1964, the National Dairy Development Board (NDDB) was created in 1965 with Kurien as its first chairman. NDDB then ran Operation Flood from 1970 to spread this model across India.",
+     "te": "ఆలోచన సులభం: సహకార సంఘానికి యజమానులు రైతులే; వారు పాలు అమ్ముతారు, లాభం వారికే తిరిగి వస్తుంది. 1964లో ప్రధాని లాల్ బహదూర్ శాస్త్రి ఆనంద్ సందర్శన తర్వాత 1965లో జాతీయ పాడి అభివృద్ధి బోర్డు (NDDB) ఏర్పడింది; కురియన్ దాని తొలి ఛైర్మన్. ఈ నమూనాను దేశమంతా విస్తరించడానికి NDDB 1970 నుంచి 'ఆపరేషన్ ఫ్లడ్' నిర్వహించింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "26 November 1921, Kozhikode (Kerala)",
+      "te": "26 నవంబర్ 1921, కోజికోడ్ (కేరళ)"
+     }
+    ],
+    [
+     {
+      "en": "NDDB",
+      "te": "NDDB"
+     },
+     {
+      "en": "Created 1965 — Kurien first chairman (1965–1998); Institution of National Importance by Act, 1987",
+      "te": "1965లో ఏర్పాటు — కురియన్ తొలి ఛైర్మన్ (1965–1998); 1987 చట్టంతో జాతీయ ప్రాముఖ్య సంస్థ"
+     }
+    ],
+    [
+     {
+      "en": "Operation Flood",
+      "te": "ఆపరేషన్ ఫ్లడ్"
+     },
+     {
+      "en": "Phase I 1970–80 · Phase II 1981–85 · Phase III 1985–96",
+      "te": "దశ I 1970–80 · దశ II 1981–85 · దశ III 1985–96"
+     }
+    ],
+    [
+     {
+      "en": "GCMMF (Amul marketing)",
+      "te": "GCMMF (అమూల్ మార్కెటింగ్)"
+     },
+     {
+      "en": "Established 1973 — Kurien chairman 1973–2006",
+      "te": "1973లో ఏర్పాటు — కురియన్ ఛైర్మన్ 1973–2006"
+     }
+    ],
+    [
+     {
+      "en": "Awards",
+      "te": "పురస్కారాలు"
+     },
+     {
+      "en": "Ramon Magsaysay (1963), World Food Prize (1989), Padma Vibhushan",
+      "te": "రామన్ మెగసెసె (1963), వరల్డ్ ఫుడ్ ప్రైజ్ (1989), పద్మ విభూషణ్"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "9 September 2012, Gujarat",
+      "te": "9 సెప్టెంబర్ 2012, గుజరాత్"
+     }
+    ],
+    [
+     {
+      "en": "India's milk today",
+      "te": "నేటి భారత పాల ఉత్పత్తి"
+     },
+     {
+      "en": "239.30 million tonnes (2023-24), up from 146.30 MT (2014-15); 471 g per person per day; world No. 1 since 1998",
+      "te": "239.30 మిలియన్ టన్నులు (2023-24), 2014-15లో 146.30 MT; రోజుకు ఒక్కొక్కరికి 471 గ్రాములు; 1998 నుంచి ప్రపంచంలో నంబర్ 1"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Dairy schemes to remember",
+     "te": "లింక్ చెయిన్ · గుర్తుంచుకోవాల్సిన పాడి పథకాలు"
+    },
+    "l": [
+     {
+      "en": "Rashtriya Gokul Mission (since 2014) — indigenous breeds; revised in March 2025, outlay ₹3,400 crore for 2021–2026",
+      "te": "రాష్ట్రీయ గోకుల్ మిషన్ (2014 నుంచి) — దేశీ జాతులు; మార్చి 2025లో సవరణ, 2021–2026కు ₹3,400 కోట్లు"
+     },
+     {
+      "en": "National Programme for Dairy Development (NPDD, since 2014-15) — 31,908 dairy cooperative societies organised or revived",
+      "te": "జాతీయ పాడి అభివృద్ధి కార్యక్రమం (NPDD, 2014-15 నుంచి) — 31,908 పాల సహకార సంఘాల ఏర్పాటు/పునరుద్ధరణ"
+     },
+     {
+      "en": "White Revolution 2.0 — target of 75,000 new dairy cooperative societies (2024-25 to 2028-29)",
+      "te": "శ్వేత విప్లవం 2.0 — 75,000 కొత్త పాల సహకార సంఘాల లక్ష్యం (2024-25 నుంచి 2028-29)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "NDDB (1965) and Operation Flood (1970) are different years. And India has been the No. 1 milk producer since 1998 — not since 2014. National Milk Day marks his BIRTH anniversary.",
+    "te": "NDDB (1965), ఆపరేషన్ ఫ్లడ్ (1970) వేర్వేరు సంవత్సరాలు. భారత్ 1998 నుంచే నంబర్ 1 పాల ఉత్పత్తిదారు — 2014 నుంచి కాదు. జాతీయ పాల దినోత్సవం ఆయన జయంతి, వర్ధంతి కాదు."
+   },
+   "tip": {
+    "en": "'63-65-70-73-89': Magsaysay, NDDB, Flood, GCMMF, Food Prize — five numbers, one milk story.",
+    "te": "'63-65-70-73-89': మెగసెసె, NDDB, ఫ్లడ్, GCMMF, ఫుడ్ ప్రైజ్ — ఐదు సంఖ్యలు, ఒక పాల కథ."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about Dr Verghese Kurien and India's dairy sector:",
+     "te": "డా. వర్గీస్ కురియన్, భారత పాడి రంగం గురించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. He was born on 26 November 1921 at Kozhikode.",
+      "te": "I. ఆయన 26 నవంబర్ 1921న కోజికోడ్‌లో జన్మించారు."
+     },
+     {
+      "en": "II. He was the first chairman of the National Dairy Development Board.",
+      "te": "II. ఆయన జాతీయ పాడి అభివృద్ధి బోర్డు తొలి ఛైర్మన్."
+     },
+     {
+      "en": "III. Phase I of Operation Flood ran from 1970 to 1980.",
+      "te": "III. ఆపరేషన్ ఫ్లడ్ మొదటి దశ 1970 నుంచి 1980 వరకు సాగింది."
+     },
+     {
+      "en": "IV. India became the world's largest milk producer only in 2014.",
+      "te": "IV. భారత్ 2014లోనే ప్రపంచంలో అతిపెద్ద పాల ఉత్పత్తిదారుగా మారింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I, II and III only",
+      "te": "I, II, III మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II, III and IV only",
+      "te": "II, III, IV మాత్రమే"
+     },
+     {
+      "en": "I, II, III and IV",
+      "te": "I, II, III, IV"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "I, II and III are correct. IV is wrong: PIB says India has been the world's largest milk producer since 1998.",
+     "te": "I, II, III సరైనవి. IV తప్పు: PIB ప్రకారం భారత్ 1998 నుంచే ప్రపంచంలో అతిపెద్ద పాల ఉత్పత్తిదారు."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Kurien's milk journey",
+      "te": "కురియన్ పాల ప్రయాణం"
+     },
+     "items": [
+      {
+       "y": "1921",
+       "t": {
+        "en": "Born at Kozhikode (26 Nov)",
+        "te": "కోజికోడ్‌లో జననం (26 నవంబర్)"
+       }
+      },
+      {
+       "y": "1949",
+       "t": {
+        "en": "Arrives at Anand (13 May)",
+        "te": "ఆనంద్‌కు రాక (13 మే)"
+       }
+      },
+      {
+       "y": "1963",
+       "t": {
+        "en": "Ramon Magsaysay Award",
+        "te": "రామన్ మెగసెసె అవార్డు"
+       }
+      },
+      {
+       "y": "1965",
+       "t": {
+        "en": "NDDB — first chairman",
+        "te": "NDDB — తొలి ఛైర్మన్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1970",
+       "t": {
+        "en": "Operation Flood begins",
+        "te": "ఆపరేషన్ ఫ్లడ్ ప్రారంభం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1973",
+       "t": {
+        "en": "GCMMF set up",
+        "te": "GCMMF ఏర్పాటు"
+       }
+      },
+      {
+       "y": "1989",
+       "t": {
+        "en": "World Food Prize",
+        "te": "వరల్డ్ ఫుడ్ ప్రైజ్"
+       }
+      },
+      {
+       "y": "2012",
+       "t": {
+        "en": "Dies (9 Sep)",
+        "te": "మరణం (9 సెప్టెంబర్)"
+       }
+      }
+     ]
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "India's milk production (million tonnes)",
+      "te": "భారత పాల ఉత్పత్తి (మిలియన్ టన్నులు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "2014-15",
+        "te": "2014-15"
+       },
+       "v": 146.3,
+       "vl": "146.30 MT"
+      },
+      {
+       "t": {
+        "en": "2022-23",
+        "te": "2022-23"
+       },
+       "v": 230.58,
+       "vl": "230.58 MT"
+      },
+      {
+       "t": {
+        "en": "2023-24",
+        "te": "2023-24"
+       },
+       "v": 239.3,
+       "vl": "239.30 MT"
+      }
+     ],
+     "cap": {
+      "en": "Up 63.56% in ten years (PIB).",
+      "te": "పదేళ్లలో 63.56% పెరుగుదల (PIB)."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB — National Milk Day: 'Honouring the White Revolution' (backgrounder), 25 Nov 2025",
+     "u": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251125706201.pdf"
+    },
+    {
+     "t": "PIB — National Milk Day: Celebrating India's White Revolution, 25 Nov 2024",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2077029"
+    },
+    {
+     "t": "Amul — Dr. V. Kurien (profile)",
+     "u": "https://amul.com/m/dr-v-kurien"
+    },
+    {
+     "t": "Britannica — Verghese Kurien",
+     "u": "https://www.britannica.com/biography/Verghese-Kurien"
+    }
+   ]
+  },
+  {
+   "id": "climatefed",
+   "kind": "article",
+   "color": "#2f6b2f",
+   "icon": "leaf",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "The Hindu · Lead (Op-ed) · 25 Nov 2026",
+    "te": "ది హిందూ · లీడ్ (వ్యాసం) · 25 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · Environment + Federalism (Group 2 Paper I, Group 1)",
+    "te": "వివరణ · పర్యావరణం + సమాఖ్య వ్యవస్థ (గ్రూప్ 2 పేపర్ I, గ్రూప్ 1)"
+   },
+   "title": {
+    "en": "Who pays for climate disasters? A question of federalism",
+    "te": "వాతావరణ విపత్తుల ఖర్చు ఎవరు భరించాలి? ఇది సమాఖ్య ప్రశ్న"
+   },
+   "line": {
+    "en": "States face floods and landslides first, but the Constitution keeps most laws and money with the Union.",
+    "te": "వరదలు, కొండచరియలను ముందుగా ఎదుర్కొనేది రాష్ట్రాలే; కానీ చట్టాలు, నిధులపై ఎక్కువ అధికారం కేంద్రానిదే."
+   },
+   "easy": [
+    {
+     "en": "What: The op-ed says climate disasters are now a money question between the Centre and the States. When Wayanad (Kerala) was hit by landslides in July 2024 (298 deaths), the rehabilitation help of ₹529.50 crore came as a 50-year interest-free LOAN, not a grant.",
+     "te": "ఏమిటి: వాతావరణ విపత్తులు ఇప్పుడు కేంద్రం–రాష్ట్రాల మధ్య నిధుల ప్రశ్నగా మారాయని వ్యాసం చెబుతోంది. జులై 2024లో వయనాడ్ (కేరళ) కొండచరియల్లో 298 మంది చనిపోయారు; పునరావాసానికి ₹529.50 కోట్లు 50 ఏళ్ల వడ్డీలేని రుణంగా వచ్చాయి — గ్రాంటుగా కాదు."
+    },
+    {
+     "en": "Why: Laws on environment come mostly from the Centre. Article 253 lets Parliament make laws to implement international treaties — the Air Act 1981 and Environment (Protection) Act 1986 came after the 1972 Stockholm Conference. 'Disaster' is in none of the three Lists; Parliament used Concurrent List entries for the Disaster Management Act, 2005.",
+     "te": "ఎందుకు: పర్యావరణ చట్టాలు ఎక్కువగా కేంద్రమే చేస్తుంది. అంతర్జాతీయ ఒప్పందాల అమలు కోసం చట్టాలు చేసే అధికారం అధికరణ 253 పార్లమెంటుకు ఇస్తుంది — 1972 స్టాక్‌హోమ్ సదస్సు తర్వాత వాయు చట్టం 1981, పర్యావరణ (పరిరక్షణ) చట్టం 1986 వచ్చాయి. 'విపత్తు' మూడు జాబితాల్లో దేనిలోనూ లేదు; విపత్తు నిర్వహణ చట్టం 2005 కోసం పార్లమెంటు ఉమ్మడి జాబితా అంశాలను వాడింది."
+    },
+    {
+     "en": "How money is unfair: Under Article 270, cesses and surcharges are not shared with States. The Clean Environment Cess on coal (₹400 a tonne from 2016) stays fully with the Union. The writer asks for climate-sensitive Finance Commission devolution, grants instead of loans, time-bound relief and sharing of coal and fossil-fuel levies.",
+     "te": "నిధుల అసమానత: అధికరణ 270 ప్రకారం సెస్సులు, సర్‌చార్జీలు రాష్ట్రాలతో పంచుకోరు. బొగ్గుపై క్లీన్ ఎన్విరాన్‌మెంట్ సెస్ (2016 నుంచి టన్నుకు ₹400) పూర్తిగా కేంద్రానికే. వాతావరణ ముప్పును ఆర్థిక సంఘం వాటాల్లో లెక్కించాలని, రుణాల బదులు గ్రాంట్లు, గడువులోగా సహాయం, బొగ్గు–శిలాజ ఇంధన పన్నుల పంపకం కావాలని రచయిత సూచిస్తున్నారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Wayanad (Kerala), Jul 2024",
+      "te": "వయనాడ్ (కేరళ), జులై 2024"
+     },
+     {
+      "en": "298 deaths, 32 missing; ₹529.50 cr as 50-year interest-free loan",
+      "te": "298 మరణాలు, 32 మంది గల్లంతు; ₹529.50 కోట్లు 50 ఏళ్ల వడ్డీలేని రుణం"
+     }
+    ],
+    [
+     {
+      "en": "Himachal Pradesh, 2023",
+      "te": "హిమాచల్ ప్రదేశ్, 2023"
+     },
+     {
+      "en": "Loss ₹9,042 cr; ₹633.73 cr NDRF aid; ₹2,006.40 cr recovery sanctioned ~2 years later",
+      "te": "నష్టం ₹9,042 కోట్లు; ₹633.73 కోట్లు NDRF సహాయం; ~2 ఏళ్ల తర్వాత ₹2,006.40 కోట్లు మంజూరు"
+     }
+    ],
+    [
+     {
+      "en": "Punjab, 2025 floods",
+      "te": "పంజాబ్, 2025 వరదలు"
+     },
+     {
+      "en": "Demand ₹20,000 cr; Union announced ₹1,600 cr",
+      "te": "డిమాండ్ ₹20,000 కోట్లు; కేంద్రం ప్రకటించింది ₹1,600 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Article 253",
+      "te": "అధికరణ 253"
+     },
+     {
+      "en": "Parliament can legislate to implement treaties → Air Act 1981, EP Act 1986",
+      "te": "ఒప్పందాల అమలుకు పార్లమెంటు చట్టం చేయవచ్చు → వాయు చట్టం 1981, EP చట్టం 1986"
+     }
+    ],
+    [
+     {
+      "en": "Article 270(1)",
+      "te": "అధికరణ 270(1)"
+     },
+     {
+      "en": "Cesses & surcharges kept out of the divisible pool",
+      "te": "సెస్సులు, సర్‌చార్జీలు పంపిణీ నిధి (divisible pool) వెలుపల"
+     }
+    ],
+    [
+     {
+      "en": "M.K. Ranjitsinh v UoI (2024)",
+      "te": "ఎం.కె. రంజిత్‌సిన్హ్ v UoI (2024)"
+     },
+     {
+      "en": "SC: right against adverse effects of climate change under Articles 14 and 21",
+      "te": "సుప్రీంకోర్టు: వాతావరణ మార్పు దుష్ప్రభావాల నుంచి రక్షణ హక్కు — అధికరణలు 14, 21 కింద"
+     }
+    ],
+    [
+     {
+      "en": "Older principles",
+      "te": "పాత సూత్రాలు"
+     },
+     {
+      "en": "M.C. Mehta (1987) absolute liability; Vellore Citizens (1996) polluter pays + precautionary principle",
+      "te": "ఎం.సి. మెహతా (1987) సంపూర్ణ బాధ్యత; వెల్లూరు సిటిజన్స్ (1996) కాలుష్యకారుడే చెల్లించాలి + ముందుజాగ్రత్త సూత్రం"
+     }
+    ],
+    [
+     {
+      "en": "Sikkim High Court",
+      "te": "సిక్కిం హైకోర్టు"
+     },
+     {
+      "en": "Suo motu case 'In Re: Climatic Justice in the State of Sikkim' (Sept 2026) — climate-risk assessments of all six districts",
+      "te": "సుమోటో కేసు 'In Re: Climatic Justice in the State of Sikkim' (సెప్టెంబర్ 2026) — ఆరు జిల్లాల వాతావరణ ముప్పు అంచనాలు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Static GK + AP angle",
+     "te": "లింక్ చెయిన్ · స్టాటిక్ GK + AP కోణం"
+    },
+    "l": [
+     {
+      "en": "Finance Commission — Article 280; it recommends the States' share of the divisible pool",
+      "te": "ఆర్థిక సంఘం — అధికరణ 280; పంపిణీ నిధిలో రాష్ట్రాల వాటాను సిఫార్సు చేస్తుంది"
+     },
+     {
+      "en": "NGT Act, 2010 — tribunal can order compensation for environmental damage",
+      "te": "NGT చట్టం, 2010 — పర్యావరణ నష్టానికి పరిహారం ఆదేశించే ట్రైబ్యునల్"
+     },
+     {
+      "en": "AP angle: a cyclone- and flood-prone coastal State — the same loan-vs-grant and delayed-relief questions apply to its disaster funding",
+      "te": "AP కోణం: తుఫానులు, వరదలకు గురయ్యే తీర రాష్ట్రం — రుణమా గ్రాంటా, ఆలస్య సహాయం అనే ప్రశ్నలు దీని విపత్తు నిధులకూ వర్తిస్తాయి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "'Disaster management' is NOT an entry in any of the three Lists — the DM Act 2005 was made using Concurrent List entries. And Ranjitsinh (2024) found the climate right in Articles 14 and 21 without a separate climate law.",
+    "te": "'విపత్తు నిర్వహణ' మూడు జాబితాల్లో దేనిలోనూ ప్రత్యేక అంశం కాదు — DM చట్టం 2005ను ఉమ్మడి జాబితా అంశాలతో చేశారు. రంజిత్‌సిన్హ్ (2024) తీర్పు ప్రత్యేక వాతావరణ చట్టం లేకుండానే అధికరణలు 14, 21లో ఈ హక్కును గుర్తించింది."
+   },
+   "tip": {
+    "en": "'253 makes the law, 270 keeps the cess' — Centre legislates via 253 and keeps cess money via 270.",
+    "te": "'253 చట్టం చేస్తుంది, 270 సెస్ ఉంచుకుంటుంది' — 253తో కేంద్రం చట్టం, 270తో సెస్ నిధులు కేంద్రానికే."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to disaster funding cited in the debate on climate federalism, consider the following statements:",
+     "te": "వాతావరణ సమాఖ్యవాద చర్చలో ప్రస్తావించిన విపత్తు నిధుల గురించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The ₹529.50 crore given for Wayanad rehabilitation was a grant that need not be repaid.",
+      "te": "I. వయనాడ్ పునరావాసానికి ఇచ్చిన ₹529.50 కోట్లు తిరిగి చెల్లించనక్కర్లేని గ్రాంటు."
+     },
+     {
+      "en": "II. Himachal Pradesh estimated 2023 losses at ₹9,042 crore; ₹2,006.40 crore for recovery was sanctioned nearly two years later.",
+      "te": "II. 2023 నష్టాన్ని హిమాచల్ ₹9,042 కోట్లుగా అంచనా వేసింది; పునర్నిర్మాణానికి ₹2,006.40 కోట్లు దాదాపు రెండేళ్ల తర్వాత మంజూరయ్యాయి."
+     },
+     {
+      "en": "III. The Clean Environment Cess on coal (₹400 a tonne from 2016) is kept wholly by the Union.",
+      "te": "III. బొగ్గుపై క్లీన్ ఎన్విరాన్‌మెంట్ సెస్ (2016 నుంచి టన్నుకు ₹400) పూర్తిగా కేంద్రానికే చెందుతుంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "III only",
+      "te": "III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II and III are correct. I is wrong: the Wayanad money came as a 50-year interest-free loan, which the State must repay — that is the writer's main complaint.",
+     "te": "II, III సరైనవి. I తప్పు: వయనాడ్ నిధులు 50 ఏళ్ల వడ్డీలేని రుణంగా వచ్చాయి, రాష్ట్రం తిరిగి చెల్లించాలి — రచయిత ప్రధాన అభ్యంతరం ఇదే."
+    }
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "States in the climate-funding debate",
+      "te": "వాతావరణ నిధుల చర్చలోని రాష్ట్రాలు"
+     },
+     "view": "india",
+     "hl": [
+      "Kerala",
+      "Himachal Pradesh",
+      "Punjab",
+      "Sikkim"
+     ],
+     "hlc": "#2f6b2f",
+     "labels": [
+      {
+       "ll": [
+        11.6,
+        76.1
+       ],
+       "t": {
+        "en": "Wayanad 2024",
+        "te": "వయనాడ్ 2024"
+       }
+      },
+      {
+       "ll": [
+        31.9,
+        77.2
+       ],
+       "t": {
+        "en": "Himachal 2023",
+        "te": "హిమాచల్ 2023"
+       }
+      },
+      {
+       "ll": [
+        30.8,
+        75.0
+       ],
+       "t": {
+        "en": "Punjab 2025",
+        "te": "పంజాబ్ 2025"
+       }
+      },
+      {
+       "ll": [
+        27.6,
+        88.5
+       ],
+       "t": {
+        "en": "Sikkim HC",
+        "te": "సిక్కిం HC"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Kerala (landslides), Himachal (floods), Punjab (floods) and Sikkim (High Court climate case).",
+      "te": "కేరళ (కొండచరియలు), హిమాచల్ (వరదలు), పంజాబ్ (వరదలు), సిక్కిం (హైకోర్టు వాతావరణ కేసు)."
+     },
+     "src": "cards/2026-11-26/map-climatefed-1-{m}.svg"
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "Asked/lost vs given (₹ crore)",
+      "te": "కోరింది/నష్టం vs ఇచ్చింది (₹ కోట్లు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Himachal loss 2023",
+        "te": "హిమాచల్ నష్టం 2023"
+       },
+       "v": 9042,
+       "vl": "₹9,042 cr"
+      },
+      {
+       "t": {
+        "en": "Himachal recovery sanctioned",
+        "te": "హిమాచల్ మంజూరు"
+       },
+       "v": 2006.4,
+       "vl": "₹2,006.40 cr"
+      },
+      {
+       "t": {
+        "en": "Punjab demand 2025",
+        "te": "పంజాబ్ డిమాండ్ 2025"
+       },
+       "v": 20000,
+       "vl": "₹20,000 cr"
+      },
+      {
+       "t": {
+        "en": "Punjab announced",
+        "te": "పంజాబ్‌కు ప్రకటన"
+       },
+       "v": 1600,
+       "vl": "₹1,600 cr"
+      }
+     ],
+     "cap": {
+      "en": "The gap between what States need and what they get is the writer's core point.",
+      "te": "రాష్ట్రాలకు కావాల్సిన దానికీ, అందిన దానికీ ఉన్న తేడాయే రచయిత ప్రధాన వాదన."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hindu — Who pays for climate change is a federal question (Lead), 25 Nov 2026 (original; read via the summaries below)",
+     "u": "https://www.thehindu.com/opinion/lead/who-pays-for-climate-change-is-a-federal-question/article71739568.ece"
+    },
+    {
+     "t": "Insights IAS — Who Pays for Climate Change is a Federal Question?, 25 Nov 2026",
+     "u": "https://www.insightsonindia.com/2026/11/25/who-pays-for-climate-change-is-a-federal-question/"
+    },
+    {
+     "t": "Vajiram & Ravi — Daily Editorial Analysis 25 November 2026",
+     "u": "https://vajiramandravi.com/current-affairs/daily-editorial-analysis-25-november-2026/"
+    },
+    {
+     "t": "Legacy IAS — The Hindu UPSC News Analysis for 25 November 2026",
+     "u": "https://www.legacyias.com/the-hindu-upsc-news-analysis-for-25-november-2026/"
+    }
+   ],
+   "mains": {
+    "en": "'Climate disasters strike States, but climate powers and revenues rest with the Union.' Examine this statement and suggest fiscal and legislative reforms for climate-resilient federalism in India.",
+    "te": "'వాతావరణ విపత్తులు రాష్ట్రాలను తాకుతున్నాయి, కానీ వాతావరణ అధికారాలు, ఆదాయాలు కేంద్రం వద్దే ఉన్నాయి.' ఈ వాక్యాన్ని పరిశీలించి, వాతావరణ-స్థితిస్థాపక సమాఖ్య వ్యవస్థ కోసం ఆర్థిక, శాసన సంస్కరణలు సూచించండి."
+   }
+  },
+  {
+   "id": "plfs",
+   "kind": "article",
+   "color": "#a86b00",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "src": {
+    "en": "The Hindu · Op-ed · 25 Nov 2026 + MoSPI PLFS bulletin, 16 Nov 2026",
+    "te": "ది హిందూ · వ్యాసం · 25 నవంబర్ 2026 + MoSPI PLFS బులెటిన్, 16 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · Economy — employment data (Group 2 Paper II, Group 1)",
+    "te": "వివరణ · ఆర్థిక వ్యవస్థ — ఉపాధి గణాంకాలు (గ్రూప్ 2 పేపర్ II, గ్రూప్ 1)"
+   },
+   "title": {
+    "en": "Monthly jobs data: is it news or just noise?",
+    "te": "నెలవారీ ఉపాధి గణాంకాలు: వార్తా లేక కేవలం హెచ్చుతగ్గులా?"
+   },
+   "line": {
+    "en": "Unemployment was 4.9% in October 2026, but an expert says most month-to-month changes are not statistically real.",
+    "te": "అక్టోబర్ 2026లో నిరుద్యోగ రేటు 4.9%; కానీ నెల నెలా మార్పుల్లో చాలావరకు గణాంకపరంగా నిజమైనవి కావని నిపుణుడు అంటున్నారు."
+   },
+   "easy": [
+    {
+     "en": "What: The Periodic Labour Force Survey (PLFS) of MoSPI measures jobs. Since January 2025 its method was changed to give MONTHLY and quarterly numbers. The October 2026 bulletin (released 16 Nov, the 19th in the series) shows unemployment rate (UR) 4.9%, labour force participation (LFPR) 55.7% and worker population ratio (WPR) 53.0% for people aged 15+.",
+     "te": "ఏమిటి: MoSPI చేసే పీరియాడిక్ లేబర్ ఫోర్స్ సర్వే (PLFS) ఉపాధిని కొలుస్తుంది. జనవరి 2025 నుంచి నెలవారీ, త్రైమాసిక గణాంకాలు ఇచ్చేలా పద్ధతి మార్చారు. అక్టోబర్ 2026 బులెటిన్ (16 నవంబర్ విడుదల, వరుసలో 19వది) ప్రకారం 15+ వయసు వారిలో నిరుద్యోగ రేటు (UR) 4.9%, శ్రామిక శక్తి భాగస్వామ్య రేటు (LFPR) 55.7%, కార్మిక జనాభా నిష్పత్తి (WPR) 53.0%."
+    },
+    {
+     "en": "Simple meanings: LFPR = share of people working OR looking for work. WPR = share actually working. UR = share of the labour force without work. 'Current Weekly Status' (CWS) means the person's status is judged on the last 7 days before the survey.",
+     "te": "సులభ అర్థాలు: LFPR = పని చేస్తున్నవారు లేదా పని వెతుకుతున్నవారి శాతం. WPR = నిజంగా పని చేస్తున్నవారి శాతం. UR = శ్రామిక శక్తిలో పని లేనివారి శాతం. 'కరెంట్ వీక్లీ స్టేటస్' (CWS) అంటే సర్వేకు ముందు 7 రోజుల ఆధారంగా వ్యక్తి స్థితిని నిర్ణయించడం."
+    },
+    {
+     "en": "The debate: The sample grew from about 1 lakh to about 2.7 lakh first-visit households. Yet the op-ed (by G.C. Manna, former NSSO DG) finds that none of the nine monthly UR changes from February to October 2026 was statistically significant — for example, April (5.2%) and May (5.5%) have overlapping 95% confidence intervals. So he suggests releasing only quarterly and annual estimates.",
+     "te": "చర్చ: నమూనా సుమారు 1 లక్ష నుంచి 2.7 లక్షల (మొదటి సందర్శన) కుటుంబాలకు పెరిగింది. అయినా ఫిబ్రవరి–అక్టోబర్ 2026 మధ్య తొమ్మిది నెలవారీ UR మార్పుల్లో ఒక్కటీ గణాంకపరంగా ముఖ్యమైనది కాదని వ్యాసకర్త (జి.సి. మన్నా, మాజీ NSSO DG) చెబుతున్నారు — ఉదా: ఏప్రిల్ (5.2%), మే (5.5%) 95% విశ్వాస అంతరాలు ఒకదానిపై ఒకటి పడుతున్నాయి. అందుకే త్రైమాసిక, వార్షిక అంచనాలే విడుదల చేయాలని సూచించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "UR, Oct 2026 (15+, CWS)",
+      "te": "UR, అక్టోబర్ 2026 (15+, CWS)"
+     },
+     {
+      "en": "4.9% (Sept 5.0%) · rural 4.2% · urban 6.7%",
+      "te": "4.9% (సెప్టెంబర్ 5.0%) · గ్రామీణ 4.2% · పట్టణ 6.7%"
+     }
+    ],
+    [
+     {
+      "en": "LFPR / WPR",
+      "te": "LFPR / WPR"
+     },
+     {
+      "en": "55.7% / 53.0% — rural WPR 56.0%, urban WPR 47.1%",
+      "te": "55.7% / 53.0% — గ్రామీణ WPR 56.0%, పట్టణ WPR 47.1%"
+     }
+    ],
+    [
+     {
+      "en": "Women",
+      "te": "మహిళలు"
+     },
+     {
+      "en": "Female LFPR 35.0% (up from 34.6%); urban female UR 8.7% (from 9.2%)",
+      "te": "మహిళా LFPR 35.0% (34.6% నుంచి పెరుగుదల); పట్టణ మహిళా UR 8.7% (9.2% నుంచి)"
+     }
+    ],
+    [
+     {
+      "en": "Sample, Oct 2026",
+      "te": "నమూనా, అక్టోబర్ 2026"
+     },
+     {
+      "en": "3,70,475 persons (rural 2,11,474; urban 1,59,001)",
+      "te": "3,70,475 మంది (గ్రామీణ 2,11,474; పట్టణ 1,59,001)"
+     }
+    ],
+    [
+     {
+      "en": "Monthly method",
+      "te": "నెలవారీ పద్ధతి"
+     },
+     {
+      "en": "PLFS (launched 2017-18) modified from Jan 2025; first-visit households ~1 lakh → ~2.7 lakh",
+      "te": "PLFS (2017-18లో ప్రారంభం) జనవరి 2025 నుంచి మార్పు; మొదటి సందర్శన కుటుంబాలు ~1 లక్ష → ~2.7 లక్షలు"
+     }
+    ],
+    [
+     {
+      "en": "UR range, Jan–Oct 2026",
+      "te": "UR పరిధి, జనవరి–అక్టోబర్ 2026"
+     },
+     {
+      "en": "4.9% to 5.5% — no month-to-month UR change significant (op-ed)",
+      "te": "4.9% నుంచి 5.5% — ఏ నెలవారీ UR మార్పూ ముఖ్యమైనది కాదు (వ్యాసం)"
+     }
+    ],
+    [
+     {
+      "en": "Recommendation",
+      "te": "సిఫార్సు"
+     },
+     {
+      "en": "Release only quarterly and annual estimates",
+      "te": "త్రైమాసిక, వార్షిక అంచనాలు మాత్రమే విడుదల చేయాలి"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Indian statistics system",
+     "te": "లింక్ చెయిన్ · భారత గణాంక వ్యవస్థ"
+    },
+    "l": [
+     {
+      "en": "MoSPI's National Statistics Office (NSO) releases PLFS, CPI and GDP data",
+      "te": "MoSPI పరిధిలోని జాతీయ గణాంక కార్యాలయం (NSO) PLFS, CPI, GDP గణాంకాలు విడుదల చేస్తుంది"
+     },
+     {
+      "en": "CWS (last 7 days) vs Usual Status (last 365 days) — two ways of measuring jobs",
+      "te": "CWS (గత 7 రోజులు) vs సాధారణ స్థితి (గత 365 రోజులు) — ఉపాధిని కొలిచే రెండు పద్ధతులు"
+     },
+     {
+      "en": "Unemployment rate = unemployed ÷ labour force × 100 — so UR can fall even when LFPR rises",
+      "te": "నిరుద్యోగ రేటు = నిరుద్యోగులు ÷ శ్రామిక శక్తి × 100 — అందుకే LFPR పెరిగినా UR తగ్గవచ్చు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "WPR is HIGHER in rural areas (56.0%) than urban (47.1%), while UR is HIGHER in urban areas (6.7%) than rural (4.2%). Also: monthly PLFS began in 2025, not with the 2017-18 launch.",
+    "te": "WPR గ్రామీణంలో (56.0%) పట్టణం (47.1%) కంటే ఎక్కువ; కానీ UR పట్టణంలో (6.7%) గ్రామీణం (4.2%) కంటే ఎక్కువ. అలాగే నెలవారీ PLFS 2025లో మొదలైంది, 2017-18 ప్రారంభంతో కాదు."
+   },
+   "tip": {
+    "en": "'Village works more, town waits more' — rural WPR high, urban UR high.",
+    "te": "'గ్రామం ఎక్కువ పని, పట్టణం ఎక్కువ నిరీక్షణ' — గ్రామీణ WPR ఎక్కువ, పట్టణ UR ఎక్కువ."
+   },
+   "mcq": {
+    "q": {
+     "en": "According to the PLFS monthly bulletin for October 2026 (persons aged 15+, CWS), consider the following statements:",
+     "te": "అక్టోబర్ 2026 PLFS నెలవారీ బులెటిన్ (15+ వయసు, CWS) ప్రకారం కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The all-India unemployment rate was 4.9%.",
+      "te": "I. అఖిల భారత నిరుద్యోగ రేటు 4.9%."
+     },
+     {
+      "en": "II. The female labour force participation rate rose to 35.0%.",
+      "te": "II. మహిళా శ్రామిక శక్తి భాగస్వామ్య రేటు 35.0%కి పెరిగింది."
+     },
+     {
+      "en": "III. The worker population ratio was higher in urban areas than in rural areas.",
+      "te": "III. కార్మిక జనాభా నిష్పత్తి గ్రామీణ ప్రాంతాల కంటే పట్టణాల్లో ఎక్కువ."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and II are correct. III is wrong: rural WPR was 56.0% and urban WPR 47.1% — villages have the higher WPR.",
+     "te": "I, II సరైనవి. III తప్పు: గ్రామీణ WPR 56.0%, పట్టణ WPR 47.1% — గ్రామాల్లోనే WPR ఎక్కువ."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Unemployment rate by month, 2026 (%)",
+      "te": "2026 నెలవారీ నిరుద్యోగ రేటు (%)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Jan",
+        "te": "జన"
+       },
+       "v": 5.0,
+       "vl": "5.0"
+      },
+      {
+       "t": {
+        "en": "Feb",
+        "te": "ఫిబ్ర"
+       },
+       "v": 4.9,
+       "vl": "4.9"
+      },
+      {
+       "t": {
+        "en": "Mar",
+        "te": "మార్చి"
+       },
+       "v": 5.1,
+       "vl": "5.1"
+      },
+      {
+       "t": {
+        "en": "Apr",
+        "te": "ఏప్రి"
+       },
+       "v": 5.2,
+       "vl": "5.2"
+      },
+      {
+       "t": {
+        "en": "May",
+        "te": "మే"
+       },
+       "v": 5.5,
+       "vl": "5.5"
+      },
+      {
+       "t": {
+        "en": "Jun",
+        "te": "జూన్"
+       },
+       "v": 5.5,
+       "vl": "5.5"
+      },
+      {
+       "t": {
+        "en": "Jul",
+        "te": "జులై"
+       },
+       "v": 5.1,
+       "vl": "5.1"
+      },
+      {
+       "t": {
+        "en": "Aug",
+        "te": "ఆగ"
+       },
+       "v": 5.0,
+       "vl": "5.0"
+      },
+      {
+       "t": {
+        "en": "Sep",
+        "te": "సెప్టెం"
+       },
+       "v": 5.0,
+       "vl": "5.0"
+      },
+      {
+       "t": {
+        "en": "Oct",
+        "te": "అక్టో"
+       },
+       "v": 4.9,
+       "vl": "4.9"
+      }
+     ],
+     "cap": {
+      "en": "The bars move between 4.9 and 5.5 — the op-ed says none of these month-to-month moves is statistically significant.",
+      "te": "బార్లు 4.9–5.5 మధ్యే కదులుతున్నాయి — ఈ నెలవారీ మార్పుల్లో ఏదీ గణాంకపరంగా ముఖ్యమైనది కాదని వ్యాసం చెబుతోంది."
+     }
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Monthly vs quarterly release",
+      "te": "నెలవారీ vs త్రైమాసిక విడుదల"
+     },
+     "a": {
+      "h": {
+       "en": "Monthly (now)",
+       "te": "నెలవారీ (ఇప్పుడు)"
+      },
+      "l": [
+       {
+        "en": "Fast signal every month",
+        "te": "ప్రతి నెలా వేగవంతమైన సంకేతం"
+       },
+       {
+        "en": "Small changes look like news",
+        "te": "చిన్న మార్పులూ వార్తలా కనిపిస్తాయి"
+       },
+       {
+        "en": "Confidence intervals overlap",
+        "te": "విశ్వాస అంతరాలు కలిసిపోతాయి"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Quarterly + annual (op-ed)",
+       "te": "త్రైమాసిక + వార్షిక (వ్యాసం)"
+      },
+      "l": [
+       {
+        "en": "Bigger sample per estimate",
+        "te": "ప్రతి అంచనాకు పెద్ద నమూనా"
+       },
+       {
+        "en": "Real trends easier to see",
+        "te": "నిజమైన ధోరణులు స్పష్టం"
+       },
+       {
+        "en": "Less noise, better policy",
+        "te": "తక్కువ హెచ్చుతగ్గులు, మెరుగైన విధానం"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "MoSPI (NSO) — Press Note on PLFS Monthly Bulletin, October 2026, 16 Nov 2026",
+     "u": "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1794821636269_817c2262-e357-4db4-924d-486d18de277b_Monthly_Press_note_PLFS_Oct_2026.pdf"
+    },
+    {
+     "t": "ThePrint (PTI) — India's unemployment rate eases to 4.9 pc in Oct; female participation rises, 16 Nov 2026",
+     "u": "https://theprint.in/economy/indias-unemployment-rate-eases-to-4-9-pc-in-oct-female-participation-rises/3100102/"
+    },
+    {
+     "t": "The Hindu — Revisiting monthly frequency of PLFS (Op-ed), 25 Nov 2026 (original; read via the summary below)",
+     "u": "https://www.thehindu.com/opinion/op-ed/revisiting-monthly-frequency-of-plfs/article71739878.ece"
+    },
+    {
+     "t": "Vajiram & Ravi — Daily Editorial Analysis 25 November 2026 (section: Revisiting Monthly Frequency of PLFS)",
+     "u": "https://vajiramandravi.com/current-affairs/daily-editorial-analysis-25-november-2026/"
+    }
+   ],
+   "mains": {
+    "en": "High-frequency data help policy only when they are statistically reliable. In the light of the monthly PLFS, discuss the trade-off between frequency and precision in official statistics.",
+    "te": "అధిక పౌనఃపున్య గణాంకాలు గణాంకపరంగా నమ్మదగినవైతేనే విధానాలకు ఉపయోగపడతాయి. నెలవారీ PLFS నేపథ్యంలో అధికారిక గణాంకాల్లో 'పౌనఃపున్యం vs కచ్చితత్వం' మధ్య సమతూకాన్ని చర్చించండి."
+   }
+  },
+  {
+   "id": "paperleak",
+   "kind": "article",
+   "color": "#9b2c2c",
+   "icon": "shield",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    6
+   ],
+   "src": {
+    "en": "In the news · Governance · 25 Nov 2026",
+    "te": "వార్తల్లో · పాలన · 25 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · Polity & Governance — exam integrity (Group 2 Paper I, Group 1)",
+    "te": "వివరణ · పాలిటీ & పాలన — పరీక్షల పవిత్రత (గ్రూప్ 2 పేపర్ I, గ్రూప్ 1)"
+   },
+   "title": {
+    "en": "Paper leaks: Maharashtra panel proposes 10 years' jail and ₹10 crore fine",
+    "te": "పేపర్ లీక్‌కు 10 ఏళ్ల జైలు, ₹10 కోట్ల జరిమానా"
+   },
+   "line": {
+    "en": "A State panel wants tougher punishment than the central Public Examinations Act, 2024 — a key issue for every aspirant.",
+    "te": "మహారాష్ట్ర కమిటీ ప్రతిపాదన — కేంద్ర పబ్లిక్ ఎగ్జామినేషన్స్ చట్టం 2024 కంటే కఠిన శిక్షలు. ప్రతి అభ్యర్థికీ ముఖ్యమైన అంశం."
+   },
+   "easy": [
+    {
+     "en": "What: After paper-leak allegations in Maharashtra Public Service Commission (MPSC) exams and protests by aspirants, Maharashtra set up a seven-member committee under Additional Chief Secretary V. Radha (constituted 4 September). Its second report, submitted on 23 November, proposes 7–10 years in jail for organised paper-leak crimes and raising the minimum fine from ₹1 crore to ₹10 crore, plus attachment of property.",
+     "te": "ఏమిటి: మహారాష్ట్ర పబ్లిక్ సర్వీస్ కమిషన్ (MPSC) పరీక్షల్లో పేపర్ లీక్ ఆరోపణలు, అభ్యర్థుల నిరసనల తర్వాత అదనపు ప్రధాన కార్యదర్శి వి. రాధ అధ్యక్షతన ఏడుగురు సభ్యుల కమిటీని (4 సెప్టెంబర్) ఏర్పాటు చేశారు. 23 నవంబర్న ఇచ్చిన రెండో నివేదికలో వ్యవస్థీకృత పేపర్ లీక్ నేరాలకు 7–10 ఏళ్ల జైలు, కనీస జరిమానా ₹1 కోటి నుంచి ₹10 కోట్లకు పెంపు, ఆస్తుల జప్తు ప్రతిపాదించారు."
+    },
+    {
+     "en": "Other ideas: Special Task Force and fast-track courts; investigation by at least ASP/DCP rank; full fee refund when an exam is affected; an annual exam calendar every October; One-Time Registration linked to MahaID/Aadhaar and DigiLocker; a three-tier command centre and a cyber-security cell. These are only recommendations — a Bill is expected in the Winter Session.",
+     "te": "ఇతర సూచనలు: ప్రత్యేక టాస్క్ ఫోర్స్, ఫాస్ట్-ట్రాక్ కోర్టులు; కనీసం ASP/DCP స్థాయి అధికారి దర్యాప్తు; పరీక్ష ప్రభావితమైతే పూర్తి ఫీజు వాపసు; ప్రతి అక్టోబర్‌లో వార్షిక పరీక్షల క్యాలెండర్; MahaID/ఆధార్, డిజిలాకర్‌తో వన్-టైమ్ రిజిస్ట్రేషన్; మూడంచెల కమాండ్ సెంటర్, సైబర్ భద్రతా విభాగం. ఇవి సిఫార్సులు మాత్రమే — శీతాకాల సమావేశాల్లో బిల్లు రావచ్చు."
+    },
+    {
+     "en": "The central law: The Public Examinations (Prevention of Unfair Means) Act, 2024 (Act No. 1 of 2024, in force from 21 June 2024) covers UPSC, SSC, Railway Recruitment Boards, IBPS, NTA and central ministries' recruitment. It is a model for States, which may adopt it at their discretion.",
+     "te": "కేంద్ర చట్టం: పబ్లిక్ ఎగ్జామినేషన్స్ (అక్రమ పద్ధతుల నిరోధక) చట్టం, 2024 (2024 చట్టం నం. 1, 21 జూన్ 2024 నుంచి అమలు) UPSC, SSC, రైల్వే రిక్రూట్‌మెంట్ బోర్డులు, IBPS, NTA, కేంద్ర మంత్రిత్వ శాఖల నియామకాలకు వర్తిస్తుంది. ఇది రాష్ట్రాలకు నమూనా మాత్రమే; స్వీకరించడం రాష్ట్రాల ఇష్టం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Maharashtra panel",
+      "te": "మహారాష్ట్ర కమిటీ"
+     },
+     {
+      "en": "Head: V. Radha, Additional Chief Secretary; 7 members; 2nd report 23 Nov 2026",
+      "te": "అధ్యక్షురాలు: వి. రాధ, అదనపు ప్రధాన కార్యదర్శి; 7 మంది; రెండో నివేదిక 23 నవంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Proposed: organised leaks",
+      "te": "ప్రతిపాదన: వ్యవస్థీకృత లీకేజీ"
+     },
+     {
+      "en": "7–10 years' jail; minimum fine ₹10 crore (from ₹1 crore); property attachment",
+      "te": "7–10 ఏళ్ల జైలు; కనీస జరిమానా ₹10 కోట్లు (₹1 కోటి నుంచి); ఆస్తుల జప్తు"
+     }
+    ],
+    [
+     {
+      "en": "Central Act, 2024",
+      "te": "కేంద్ర చట్టం, 2024"
+     },
+     {
+      "en": "Act No. 1 of 2024; assent 12 Feb 2024; in force 21 June 2024",
+      "te": "2024 చట్టం నం. 1; ఆమోదం 12 ఫిబ్రవరి 2024; అమలు 21 జూన్ 2024"
+     }
+    ],
+    [
+     {
+      "en": "Central Act: general offence",
+      "te": "కేంద్ర చట్టం: సాధారణ నేరం"
+     },
+     {
+      "en": "3–5 years + fine up to ₹10 lakh (Sec 10(1))",
+      "te": "3–5 ఏళ్లు + ₹10 లక్షల వరకు జరిమానా (సెక్షన్ 10(1))"
+     }
+    ],
+    [
+     {
+      "en": "Central Act: organised crime",
+      "te": "కేంద్ర చట్టం: వ్యవస్థీకృత నేరం"
+     },
+     {
+      "en": "5–10 years + fine not less than ₹1 crore (Sec 11)",
+      "te": "5–10 ఏళ్లు + కనీసం ₹1 కోటి జరిమానా (సెక్షన్ 11)"
+     }
+    ],
+    [
+     {
+      "en": "Service provider",
+      "te": "సేవా సంస్థ"
+     },
+     {
+      "en": "Fine up to ₹1 crore + barred from exam work for 4 years",
+      "te": "₹1 కోటి వరకు జరిమానా + 4 ఏళ్లు పరీక్ష పనులపై నిషేధం"
+     }
+    ],
+    [
+     {
+      "en": "Nature of offences",
+      "te": "నేరాల స్వభావం"
+     },
+     {
+      "en": "Cognizable, non-bailable, non-compoundable; probe by DSP/ACP or above",
+      "te": "కాగ్నిజబుల్, నాన్-బెయిలబుల్, రాజీ కుదరనివి; DSP/ACP లేదా పై స్థాయి దర్యాప్తు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Recruitment bodies (static GK)",
+     "te": "లింక్ చెయిన్ · నియామక సంస్థలు (స్టాటిక్ GK)"
+    },
+    "l": [
+     {
+      "en": "UPSC — Articles 315–323 (Part XIV); State PSCs like APPSC are set up under Article 315 too",
+      "te": "UPSC — అధికరణలు 315–323 (భాగం XIV); APPSC వంటి రాష్ట్ర సర్వీస్ కమిషన్లు కూడా అధికరణ 315 కిందే"
+     },
+     {
+      "en": "Candidates are not punished under the central Act; they face the exam body's own administrative rules (Statement of Objects)",
+      "te": "కేంద్ర చట్టం కింద అభ్యర్థులపై చర్య ఉండదు; పరీక్ష సంస్థ పరిపాలనా నిబంధనలే వర్తిస్తాయి (ఉద్దేశాల ప్రకటన)"
+     },
+     {
+      "en": "AP angle: the central Act's Schedule lists only central bodies (UPSC, SSC, RRBs, IBPS, NTA, central ministries) — APPSC exams are not in it; States may adopt it as a model",
+      "te": "AP కోణం: కేంద్ర చట్టం షెడ్యూల్‌లో కేంద్ర సంస్థలే (UPSC, SSC, RRBలు, IBPS, NTA, కేంద్ర మంత్రిత్వ శాఖలు) ఉన్నాయి — APPSC పరీక్షలు అందులో లేవు; రాష్ట్రాలు దీన్ని నమూనాగా స్వీకరించవచ్చు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Central Act: the ₹1 crore MINIMUM fine is for ORGANISED crime (5–10 years); the general offence is 3–5 years with fine up to ₹10 lakh. The Maharashtra ₹10 crore fine is only a proposal, not law.",
+    "te": "కేంద్ర చట్టం: ₹1 కోటి కనీస జరిమానా వ్యవస్థీకృత నేరానికి (5–10 ఏళ్లు); సాధారణ నేరానికి 3–5 ఏళ్లు, ₹10 లక్షల వరకు జరిమానా. మహారాష్ట్ర ₹10 కోట్ల జరిమానా ప్రతిపాదన మాత్రమే, చట్టం కాదు."
+   },
+   "tip": {
+    "en": "Central Act ladder: '3-5 & 10 lakh → 5-10 & 1 crore' (ordinary → organised). Maharashtra adds a zero: ₹1 crore → ₹10 crore.",
+    "te": "కేంద్ర చట్టం నిచ్చెన: '3-5 & 10 లక్షలు → 5-10 & 1 కోటి' (సాధారణ → వ్యవస్థీకృత). మహారాష్ట్ర ఒక సున్నా కలిపింది: ₹1 కోటి → ₹10 కోట్లు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the Public Examinations (Prevention of Unfair Means) Act, 2024, consider the following statements:",
+     "te": "పబ్లిక్ ఎగ్జామినేషన్స్ (అక్రమ పద్ధతుల నిరోధక) చట్టం, 2024 గురించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It is Act No. 1 of 2024 and was brought into force from 21 June 2024.",
+      "te": "I. ఇది 2024 చట్టం నం. 1; 21 జూన్ 2024 నుంచి అమల్లోకి వచ్చింది."
+     },
+     {
+      "en": "II. A service provider can be fined up to ₹1 crore and barred from exam work for four years.",
+      "te": "II. సేవా సంస్థకు ₹1 కోటి వరకు జరిమానా, నాలుగేళ్లు పరీక్ష పనులపై నిషేధం విధించవచ్చు."
+     },
+     {
+      "en": "III. All States are bound to adopt it for their own recruitment examinations.",
+      "te": "III. తమ నియామక పరీక్షలకు అన్ని రాష్ట్రాలూ దీన్ని తప్పనిసరిగా స్వీకరించాలి."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and II are correct. III is wrong: the law is a model draft that States may adopt at their discretion.",
+     "te": "I, II సరైనవి. III తప్పు: ఈ చట్టం రాష్ట్రాలకు నమూనా మాత్రమే; స్వీకరించడం రాష్ట్రాల ఇష్టం."
+    }
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Central Act 2024 vs Maharashtra proposal",
+      "te": "కేంద్ర చట్టం 2024 vs మహారాష్ట్ర ప్రతిపాదన"
+     },
+     "a": {
+      "h": {
+       "en": "Central Act, 2024 (law)",
+       "te": "కేంద్ర చట్టం, 2024 (చట్టం)"
+      },
+      "l": [
+       {
+        "en": "Organised crime: 5–10 years",
+        "te": "వ్యవస్థీకృత నేరం: 5–10 ఏళ్లు"
+       },
+       {
+        "en": "Minimum fine ₹1 crore",
+        "te": "కనీస జరిమానా ₹1 కోటి"
+       },
+       {
+        "en": "Probe: DSP/ACP or above",
+        "te": "దర్యాప్తు: DSP/ACP లేదా పైన"
+       },
+       {
+        "en": "UPSC, SSC, RRB, IBPS, NTA",
+        "te": "UPSC, SSC, RRB, IBPS, NTA"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Maharashtra panel (proposal)",
+       "te": "మహారాష్ట్ర కమిటీ (ప్రతిపాదన)"
+      },
+      "l": [
+       {
+        "en": "Organised leaks: 7–10 years",
+        "te": "వ్యవస్థీకృత లీకేజీ: 7–10 ఏళ్లు"
+       },
+       {
+        "en": "Minimum fine ₹10 crore",
+        "te": "కనీస జరిమానా ₹10 కోట్లు"
+       },
+       {
+        "en": "Probe: ASP/DCP or above",
+        "te": "దర్యాప్తు: ASP/DCP లేదా పైన"
+       },
+       {
+        "en": "State exams (MPSC etc.)",
+        "te": "రాష్ట్ర పరీక్షలు (MPSC మొ.)"
+       }
+      ]
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "Panel's plan for a leak-proof exam",
+      "te": "లీక్ లేని పరీక్షకు కమిటీ ప్రణాళిక"
+     },
+     "items": [
+      {
+       "i": "🗓️",
+       "t": {
+        "en": "Exam calendar every October",
+        "te": "ప్రతి అక్టోబర్ పరీక్షల క్యాలెండర్"
+       }
+      },
+      {
+       "i": "🪪",
+       "t": {
+        "en": "One-Time Registration (Aadhaar, DigiLocker)",
+        "te": "వన్-టైమ్ రిజిస్ట్రేషన్ (ఆధార్, డిజిలాకర్)"
+       }
+      },
+      {
+       "i": "🏫",
+       "t": {
+        "en": "Inspected 'Venue Bank'",
+        "te": "తనిఖీ చేసిన 'వెన్యూ బ్యాంక్'"
+       }
+      },
+      {
+       "i": "🖥️",
+       "t": {
+        "en": "3-tier command centre + cyber cell",
+        "te": "మూడంచెల కమాండ్ సెంటర్ + సైబర్ సెల్"
+       }
+      },
+      {
+       "i": "⚖️",
+       "t": {
+        "en": "STF + fast-track courts",
+        "te": "STF + ఫాస్ట్-ట్రాక్ కోర్టులు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Daily Jagran — Maharashtra Exam Reforms: V Radha Committee Proposes 10 Years In Jail, Rs 10 Crore Fine For Question Paper Leaks, 25 Nov 2026",
+     "u": "https://www.thedailyjagran.com/education/news/mpsc-exam-reform-maharashtra-committee-proposes-10-years-in-jail-and-rs-10-crore-fine-for-question-paper-leaks-10337564"
+    },
+    {
+     "t": "India TV — Rs 10 crore fine, 10-year jail! Maharashtra plans toughest crackdown on paper leak rackets, 25 Nov 2026",
+     "u": "https://www.indiatvnews.com/maharashtra/rs-10-crore-fine-10-year-jail-maharashtra-plans-toughest-crackdown-on-paper-leak-rackets-2026-11-25-1060322"
+    },
+    {
+     "t": "India Code — The Public Examinations (Prevention of Unfair Means) Act, 2024 (Act No. 1 of 2024)",
+     "u": "https://www.indiacode.nic.in/bitstream/123456789/20100/1/A2024-01.pdf"
+    },
+    {
+     "t": "PRS Legislative Research — The Public Examinations (Prevention of Unfair Means) Bill, 2024: Bill summary",
+     "u": "https://prsindia.org/billtrack/prs-products/prs-bill-summary-1707211380"
+    },
+    {
+     "t": "Legacy IAS — The Hindu UPSC News Analysis for 25 November 2026 (Maharashtra panel item)",
+     "u": "https://www.legacyias.com/the-hindu-upsc-news-analysis-for-25-november-2026/"
+    }
+   ],
+   "mains": {
+    "en": "Repeated paper leaks erode trust in public recruitment. Evaluate whether harsher penalties alone can solve the problem, and suggest administrative and technological safeguards for State Public Service Commissions.",
+    "te": "తరచూ జరిగే పేపర్ లీకేజీలు ప్రభుత్వ నియామకాలపై నమ్మకాన్ని దెబ్బతీస్తున్నాయి. కఠిన శిక్షలు మాత్రమే సమస్యను పరిష్కరిస్తాయా అని మూల్యాంకనం చేసి, రాష్ట్ర పబ్లిక్ సర్వీస్ కమిషన్లకు పరిపాలనా, సాంకేతిక రక్షణలు సూచించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "constday",
+   "q": {
+    "en": "With reference to Constitution Day (Samvidhan Divas), consider the following statements:",
+    "te": "రాజ్యాంగ దినోత్సవం (సంవిధాన్ దివస్) గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It marks the adoption of the Constitution on 26 November 1949, which came into force on 26 January 1950.",
+     "te": "I. ఇది 26 నవంబర్ 1949న రాజ్యాంగ ఆమోదాన్ని సూచిస్తుంది; రాజ్యాంగం 26 జనవరి 1950న అమల్లోకి వచ్చింది."
+    },
+    {
+     "en": "II. 26 November was notified as Constitution Day in 2015 by the Ministry of Law and Justice.",
+     "te": "II. 2015లో న్యాయ మంత్రిత్వ శాఖ 26 నవంబర్‌ను రాజ్యాంగ దినోత్సవంగా ప్రకటించింది."
+    },
+    {
+     "en": "III. The notification was made during the 125th birth anniversary year of Dr B.R. Ambedkar.",
+     "te": "III. డా. బి.ఆర్. అంబేద్కర్ 125వ జయంతి సంవత్సరంలో ఈ ప్రకటన వెలువడింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct. II is the trap: the Gazette notification (19 Nov 2015) was issued by the Ministry of Social Justice & Empowerment, not the Law Ministry.",
+    "te": "I, III సరైనవి. II ఉచ్చు: గెజిట్ నోటిఫికేషన్ (19 నవంబర్ 2015) ఇచ్చింది సామాజిక న్యాయం & సాధికారత మంత్రిత్వ శాఖ, న్యాయ మంత్రిత్వ శాఖ కాదు."
+   }
+  },
+  {
+   "topic": "constday",
+   "q": {
+    "en": "Arrange the following events in chronological order:",
+    "te": "కింది ఘటనలను కాలక్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "1. Drafting Committee set up under Dr B.R. Ambedkar",
+     "te": "1. డా. బి.ఆర్. అంబేద్కర్ అధ్యక్షతన ముసాయిదా కమిటీ ఏర్పాటు"
+    },
+    {
+     "en": "2. Draft Constitution introduced in the Constituent Assembly",
+     "te": "2. రాజ్యాంగ పరిషత్‌లో ముసాయిదా రాజ్యాంగం ప్రవేశం"
+    },
+    {
+     "en": "3. 'Hamara Samvidhan Hamara Samman' campaign launched",
+     "te": "3. 'హమారా సంవిధాన్ హమారా సమ్మాన్' ప్రచారం ప్రారంభం"
+    },
+    {
+     "en": "4. 26 November notified as Constitution Day",
+     "te": "4. 26 నవంబర్‌ను రాజ్యాంగ దినోత్సవంగా ప్రకటన"
+    }
+   ],
+   "o": [
+    {
+     "en": "1-2-3-4",
+     "te": "1-2-3-4"
+    },
+    {
+     "en": "2-1-4-3",
+     "te": "2-1-4-3"
+    },
+    {
+     "en": "1-2-4-3",
+     "te": "1-2-4-3"
+    },
+    {
+     "en": "1-4-2-3",
+     "te": "1-4-2-3"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Drafting Committee 29 Aug 1947 → Draft introduced 4 Nov 1948 → Constitution Day notified 19 Nov 2015 → campaign launched 24 Jan 2024. Option (a) wrongly puts the 2024 campaign before the 2015 notification.",
+    "te": "ముసాయిదా కమిటీ 29 ఆగస్టు 1947 → ముసాయిదా ప్రవేశం 4 నవంబర్ 1948 → రాజ్యాంగ దినోత్సవ ప్రకటన 19 నవంబర్ 2015 → ప్రచారం 24 జనవరి 2024. (a)లో 2024 ప్రచారాన్ని 2015 ప్రకటనకు ముందు పెట్టారు — తప్పు."
+   }
+  },
+  {
+   "topic": "kurien",
+   "q": {
+    "en": "Match List-I (event in Dr Verghese Kurien's life) with List-II (year):",
+    "te": "జాబితా-I (డా. వర్గీస్ కురియన్ జీవితంలో ఘటన)ను జాబితా-II (సంవత్సరం)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "List-I: A. Becomes first chairman of NDDB · B. Operation Flood begins · C. GCMMF established · D. Ramon Magsaysay Award",
+     "te": "జాబితా-I: A. NDDB తొలి ఛైర్మన్ · B. ఆపరేషన్ ఫ్లడ్ ప్రారంభం · C. GCMMF ఏర్పాటు · D. రామన్ మెగసెసె అవార్డు"
+    },
+    {
+     "en": "List-II: 1. 1963 · 2. 1965 · 3. 1970 · 4. 1973",
+     "te": "జాబితా-II: 1. 1963 · 2. 1965 · 3. 1970 · 4. 1973"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-3, B-2, C-4, D-1",
+     "te": "A-3, B-2, C-4, D-1"
+    },
+    {
+     "en": "A-2, B-4, C-3, D-1",
+     "te": "A-2, B-4, C-3, D-1"
+    },
+    {
+     "en": "A-1, B-3, C-4, D-2",
+     "te": "A-1, B-3, C-4, D-2"
+    },
+    {
+     "en": "A-2, B-3, C-4, D-1",
+     "te": "A-2, B-3, C-4, D-1"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "NDDB 1965, Operation Flood 1970, GCMMF 1973, Magsaysay 1963. Option (a) swaps NDDB and Operation Flood — the most common confusion.",
+    "te": "NDDB 1965, ఆపరేషన్ ఫ్లడ్ 1970, GCMMF 1973, మెగసెసె 1963. (a)లో NDDB, ఆపరేషన్ ఫ్లడ్ తారుమారు — ఇదే సాధారణ గందరగోళం."
+   }
+  },
+  {
+   "topic": "kurien",
+   "q": {
+    "en": "Which one of the following statements about India's dairy sector is NOT correct?",
+    "te": "భారత పాడి రంగం గురించి కింది వాటిలో ఏ వాక్యం సరైనది కాదు?"
+   },
+   "o": [
+    {
+     "en": "Operation Flood was launched in 1965, the same year NDDB was created.",
+     "te": "NDDB ఏర్పడిన 1965లోనే ఆపరేషన్ ఫ్లడ్ ప్రారంభమైంది."
+    },
+    {
+     "en": "Milk production rose from 146.30 MT in 2014-15 to 239.30 MT in 2023-24.",
+     "te": "పాల ఉత్పత్తి 2014-15లో 146.30 MT నుంచి 2023-24లో 239.30 MTకు పెరిగింది."
+    },
+    {
+     "en": "Per-capita milk availability was 471 grams per day in 2023-24.",
+     "te": "2023-24లో తలసరి పాల లభ్యత రోజుకు 471 గ్రాములు."
+    },
+    {
+     "en": "The Kaira District Cooperative Milk Producers' Union is the precursor of Amul.",
+     "te": "కైరా జిల్లా సహకార పాల ఉత్పత్తిదారుల సంఘమే అమూల్‌కు పూర్వరూపం."
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "(a) is wrong: NDDB was created in 1965 but Operation Flood began in 1970. (b), (c) and (d) match PIB figures and facts.",
+    "te": "(a) తప్పు: NDDB 1965లో ఏర్పడింది, కానీ ఆపరేషన్ ఫ్లడ్ 1970లో మొదలైంది. (b), (c), (d) PIB గణాంకాలతో సరిపోతాయి."
+   }
+  },
+  {
+   "topic": "climatefed",
+   "q": {
+    "en": "Consider the following statements regarding the constitutional basis of environment and disaster laws:",
+    "te": "పర్యావరణ, విపత్తు చట్టాల రాజ్యాంగ ఆధారం గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Article 253 lets Parliament make laws to implement international treaties; the Air Act 1981 and the Environment (Protection) Act 1986 followed the 1972 Stockholm Conference.",
+     "te": "I. అంతర్జాతీయ ఒప్పందాల అమలుకు చట్టాలు చేసే అధికారం అధికరణ 253 పార్లమెంటుకు ఇస్తుంది; 1972 స్టాక్‌హోమ్ సదస్సు తర్వాత వాయు చట్టం 1981, EP చట్టం 1986 వచ్చాయి."
+    },
+    {
+     "en": "II. 'Disaster management' is a separate entry in the State List of the Seventh Schedule.",
+     "te": "II. ఏడో షెడ్యూల్ రాష్ట్ర జాబితాలో 'విపత్తు నిర్వహణ' ప్రత్యేక అంశంగా ఉంది."
+    },
+    {
+     "en": "III. Under Article 270, cesses and surcharges are kept outside the divisible pool shared with States.",
+     "te": "III. అధికరణ 270 ప్రకారం సెస్సులు, సర్‌చార్జీలు రాష్ట్రాలతో పంచుకునే పంపిణీ నిధి వెలుపల ఉంటాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and III are correct. II is wrong: disaster is in none of the three Lists; the DM Act 2005 was made using Concurrent List entries.",
+    "te": "I, III సరైనవి. II తప్పు: 'విపత్తు' మూడు జాబితాల్లో దేనిలోనూ లేదు; DM చట్టం 2005ను ఉమ్మడి జాబితా అంశాలతో చేశారు."
+   }
+  },
+  {
+   "topic": "climatefed",
+   "q": {
+    "en": "Match List-I (Supreme Court case) with List-II (principle laid down):",
+    "te": "జాబితా-I (సుప్రీంకోర్టు కేసు)ను జాబితా-II (నిర్దేశించిన సూత్రం)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "List-I: A. M.C. Mehta v Union of India (1987) · B. Vellore Citizens Welfare Forum (1996) · C. M.K. Ranjitsinh v Union of India (2024)",
+     "te": "జాబితా-I: A. ఎం.సి. మెహతా v UoI (1987) · B. వెల్లూరు సిటిజన్స్ వెల్ఫేర్ ఫోరం (1996) · C. ఎం.కె. రంజిత్‌సిన్హ్ v UoI (2024)"
+    },
+    {
+     "en": "List-II: 1. Right against adverse effects of climate change (Arts 14, 21) · 2. Absolute liability · 3. Polluter pays and precautionary principle",
+     "te": "జాబితా-II: 1. వాతావరణ మార్పు దుష్ప్రభావాల నుంచి రక్షణ హక్కు (అధికరణలు 14, 21) · 2. సంపూర్ణ బాధ్యత · 3. కాలుష్యకారుడే చెల్లించాలి, ముందుజాగ్రత్త సూత్రం"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-1, B-2, C-3",
+     "te": "A-1, B-2, C-3"
+    },
+    {
+     "en": "A-2, B-3, C-1",
+     "te": "A-2, B-3, C-1"
+    },
+    {
+     "en": "A-3, B-2, C-1",
+     "te": "A-3, B-2, C-1"
+    },
+    {
+     "en": "A-2, B-1, C-3",
+     "te": "A-2, B-1, C-3"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "M.C. Mehta (1987) = absolute liability; Vellore (1996) = polluter pays + precautionary; Ranjitsinh (2024) = climate right under Arts 14 and 21. Option (c) wrongly swaps the two older cases.",
+    "te": "ఎం.సి. మెహతా (1987) = సంపూర్ణ బాధ్యత; వెల్లూరు (1996) = కాలుష్యకారుడే చెల్లించాలి + ముందుజాగ్రత్త; రంజిత్‌సిన్హ్ (2024) = అధికరణలు 14, 21 కింద వాతావరణ హక్కు. (c)లో పాత రెండు కేసులు తారుమారు."
+   }
+  },
+  {
+   "topic": "plfs",
+   "q": {
+    "en": "With reference to the Periodic Labour Force Survey (PLFS), consider the following statements:",
+    "te": "పీరియాడిక్ లేబర్ ఫోర్స్ సర్వే (PLFS) గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Under Current Weekly Status (CWS), a person's activity is judged on the last 7 days before the survey.",
+     "te": "I. కరెంట్ వీక్లీ స్టేటస్ (CWS)లో సర్వేకు ముందు 7 రోజుల ఆధారంగా వ్యక్తి కార్యకలాపాన్ని నిర్ణయిస్తారు."
+    },
+    {
+     "en": "II. In October 2026 the urban unemployment rate (6.7%) was higher than the rural rate (4.2%).",
+     "te": "II. అక్టోబర్ 2026లో పట్టణ నిరుద్యోగ రేటు (6.7%) గ్రామీణ రేటు (4.2%) కంటే ఎక్కువ."
+    },
+    {
+     "en": "III. Monthly PLFS estimates have been released since the survey was launched in 2017-18.",
+     "te": "III. 2017-18లో సర్వే ప్రారంభమైనప్పటి నుంచే నెలవారీ PLFS అంచనాలు విడుదలవుతున్నాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and II are correct. III is wrong: the method was modified from January 2025 to give monthly and quarterly estimates; October 2026 is only the 19th monthly bulletin.",
+    "te": "I, II సరైనవి. III తప్పు: నెలవారీ, త్రైమాసిక అంచనాల కోసం జనవరి 2025 నుంచి పద్ధతి మార్చారు; అక్టోబర్ 2026 బులెటిన్ వరుసలో 19వది మాత్రమే."
+   }
+  },
+  {
+   "topic": "plfs",
+   "q": {
+    "en": "Read the Assertion (A) and Reason (R) based on the op-ed analysis of PLFS data:",
+    "te": "PLFS గణాంకాలపై వ్యాస విశ్లేషణ ఆధారంగా నిశ్చితాభిప్రాయం (A), కారణం (R) చదవండి:"
+   },
+   "st": [
+    {
+     "en": "A: The rise in unemployment rate from 5.2% (April 2026) to 5.5% (May 2026) cannot be treated as a real change.",
+     "te": "A: నిరుద్యోగ రేటు 5.2% (ఏప్రిల్ 2026) నుంచి 5.5% (మే 2026)కు పెరగడాన్ని నిజమైన మార్పుగా భావించలేం."
+    },
+    {
+     "en": "R: The 95% confidence intervals of the two months (5.0–5.4% and 5.3–5.7%) overlap.",
+     "te": "R: రెండు నెలల 95% విశ్వాస అంతరాలు (5.0–5.4%, 5.3–5.7%) ఒకదానిపై ఒకటి పడుతున్నాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "Both A and R are true, and R is the correct explanation of A",
+     "te": "A, R రెండూ నిజం; A కు R సరైన వివరణ"
+    },
+    {
+     "en": "Both A and R are true, but R is not the correct explanation of A",
+     "te": "A, R రెండూ నిజం; కానీ A కు R సరైన వివరణ కాదు"
+    },
+    {
+     "en": "A is true, but R is false",
+     "te": "A నిజం, R తప్పు"
+    },
+    {
+     "en": "A is false, but R is true",
+     "te": "A తప్పు, R నిజం"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "(a): when confidence intervals overlap, the change is not statistically significant — that is exactly why the April–May rise is not a real change. The trap is to think a bigger sample makes every monthly change meaningful.",
+    "te": "(a): విశ్వాస అంతరాలు కలిసిపోతే ఆ మార్పు గణాంకపరంగా ముఖ్యమైనది కాదు — అందుకే ఏప్రిల్–మే పెరుగుదల నిజమైన మార్పు కాదు. పెద్ద నమూనా ఉంటే ప్రతి నెలవారీ మార్పూ అర్థవంతమే అనుకోవడం ఉచ్చు."
+   }
+  },
+  {
+   "topic": "paperleak",
+   "q": {
+    "en": "With reference to the Public Examinations (Prevention of Unfair Means) Act, 2024, consider the following statements:",
+    "te": "పబ్లిక్ ఎగ్జామినేషన్స్ (అక్రమ పద్ధతుల నిరోధక) చట్టం, 2024 గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. All offences under it are cognizable, non-bailable and non-compoundable.",
+     "te": "I. దీని కింద అన్ని నేరాలు కాగ్నిజబుల్, నాన్-బెయిలబుల్, రాజీ కుదరనివి."
+    },
+    {
+     "en": "II. Organised paper-leak crime is punishable with 5–10 years and a fine of not less than ₹1 crore.",
+     "te": "II. వ్యవస్థీకృత పేపర్ లీక్ నేరానికి 5–10 ఏళ్ల జైలు, కనీసం ₹1 కోటి జరిమానా."
+    },
+    {
+     "en": "III. Offences can be investigated by a police officer of the rank of Inspector.",
+     "te": "III. ఇన్‌స్పెక్టర్ స్థాయి పోలీసు అధికారి నేరాలను దర్యాప్తు చేయవచ్చు."
+    },
+    {
+     "en": "IV. It covers examinations of UPSC, SSC, Railway Recruitment Boards, IBPS and NTA.",
+     "te": "IV. UPSC, SSC, రైల్వే రిక్రూట్‌మెంట్ బోర్డులు, IBPS, NTA పరీక్షలకు వర్తిస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I, II and IV are correct. III is wrong: Section 12 needs an officer not below Deputy Superintendent of Police or Assistant Commissioner of Police.",
+    "te": "I, II, IV సరైనవి. III తప్పు: సెక్షన్ 12 ప్రకారం డిప్యూటీ సూపరింటెండెంట్ ఆఫ్ పోలీస్ లేదా అసిస్టెంట్ కమిషనర్ ఆఫ్ పోలీస్ కంటే తక్కువ కాని అధికారి దర్యాప్తు చేయాలి."
+   }
+  },
+  {
+   "topic": "paperleak",
+   "q": {
+    "en": "Which one of the following about the Maharashtra exam-reform committee headed by V. Radha is NOT correct?",
+    "te": "వి. రాధ అధ్యక్షతన ఉన్న మహారాష్ట్ర పరీక్షల సంస్కరణ కమిటీ గురించి కింది వాటిలో ఏది సరైనది కాదు?"
+   },
+   "o": [
+    {
+     "en": "It proposes 7–10 years' jail for organised paper-leak offences.",
+     "te": "వ్యవస్థీకృత పేపర్ లీక్ నేరాలకు 7–10 ఏళ్ల జైలు ప్రతిపాదించింది."
+    },
+    {
+     "en": "It proposes raising the minimum fine from ₹1 crore to ₹10 crore.",
+     "te": "కనీస జరిమానాను ₹1 కోటి నుంచి ₹10 కోట్లకు పెంచాలని ప్రతిపాదించింది."
+    },
+    {
+     "en": "It proposes an annual exam calendar to be published every October.",
+     "te": "ప్రతి అక్టోబర్‌లో వార్షిక పరీక్షల క్యాలెండర్ ప్రచురించాలని ప్రతిపాదించింది."
+    },
+    {
+     "en": "Its recommendations have already become law in Maharashtra.",
+     "te": "దాని సిఫార్సులు ఇప్పటికే మహారాష్ట్రలో చట్టంగా మారాయి."
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "(d) is wrong: the second report (23 Nov 2026) is under government consideration; an amendment Bill is expected in the Winter Session. (a), (b) and (c) are the panel's proposals.",
+    "te": "(d) తప్పు: రెండో నివేదిక (23 నవంబర్ 2026) ప్రభుత్వ పరిశీలనలో ఉంది; సవరణ బిల్లు శీతాకాల సమావేశాల్లో రావచ్చు. (a), (b), (c) కమిటీ ప్రతిపాదనలే."
+   }
+  }
+ ]
+}
