@@ -1,0 +1,2031 @@
+{
+ "date": "2026-11-27",
+ "day": {
+  "en": "Friday, 27 November 2026",
+  "te": "శుక్రవారం, 27 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Rectitude",
+   "en": "honesty and moral correctness",
+   "te": "నిజాయితీ, నైతిక నిబద్ధత",
+   "ex": "The President's 2008 condolence message remembered V.P. Singh as a leader 'known for his rectitude'.",
+   "topic": "vpsingh"
+  },
+  {
+   "w": "Bequeath",
+   "en": "to leave property to others through a will",
+   "te": "వీలునామా ద్వారా ఆస్తిని ఇతరులకు అప్పగించడం",
+   "ex": "In his will of 27 November 1895, Alfred Nobel bequeathed his fortune to fund five prizes.",
+   "topic": "nobelwill"
+  },
+  {
+   "w": "Label fatigue",
+   "en": "people ignoring warnings because they see them everywhere",
+   "te": "ఎక్కడ చూసినా హెచ్చరికలే ఉండటంతో వాటిని పట్టించుకోకపోవడం",
+   "ex": "The Supreme Court said thresholds set too low would put warnings on almost every product and cause label fatigue.",
+   "topic": "foplabel"
+  },
+  {
+   "w": "Palpable",
+   "en": "so clear that it can easily be seen",
+   "te": "స్పష్టంగా కనిపించే, తేటతెల్లమైన",
+   "ex": "A conviction can be stayed only if there is a palpable mistake that makes it illegal.",
+   "topic": "convstay"
+  },
+  {
+   "w": "Reciprocal",
+   "en": "given and received equally by both sides",
+   "te": "పరస్పర, ఇరువైపులా సమానంగా ఇచ్చిపుచ్చుకునే",
+   "ex": "India's proposed US tariff falls to 17% if the two countries sign an Agreement on Reciprocal Trade.",
+   "topic": "ustariff"
+  }
+ ],
+ "items": [
+  {
+   "id": "vpsingh",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "law",
+   "cf": [
+    0,
+    2,
+    3,
+    4,
+    6
+   ],
+   "tag": {
+    "en": "Death anniversary · 27 Nov 2008",
+    "te": "వర్ధంతి · 27 నవంబర్ 2008"
+   },
+   "title": {
+    "en": "V.P. Singh — the Prime Minister who implemented the Mandal report",
+    "te": "వి.పి. సింగ్ — మండల్ నివేదికను అమలు చేసిన ప్రధానమంత్రి"
+   },
+   "line": {
+    "en": "India's PM (1989–90) who announced 27% reservation for OBCs in central government jobs.",
+    "te": "కేంద్ర ప్రభుత్వ ఉద్యోగాల్లో OBCలకు 27% రిజర్వేషన్ ప్రకటించిన ప్రధాని (1989–90)."
+   },
+   "easy": [
+    {
+     "en": "Vishwanath Pratap Singh was born on 25 June 1931 at Allahabad. He was Chief Minister of Uttar Pradesh (1980–82), Union Finance Minister (from 31 December 1984) and Defence Minister (from January 1987). He left the Rajiv Gandhi cabinet in 1987 after his probe into arms-purchase fraud was stopped.",
+     "te": "విశ్వనాథ్ ప్రతాప్ సింగ్ 25 జూన్ 1931న అలహాబాద్‌లో జన్మించారు. ఉత్తరప్రదేశ్ ముఖ్యమంత్రి (1980–82), కేంద్ర ఆర్థిక మంత్రి (31 డిసెంబర్ 1984 నుంచి), రక్షణ మంత్రి (జనవరి 1987 నుంచి)గా పనిచేశారు. ఆయుధ కొనుగోళ్ల అవకతవకలపై తన దర్యాప్తును అడ్డుకోవడంతో 1987లో రాజీవ్ గాంధీ మంత్రివర్గం నుంచి బయటకు వచ్చారు."
+    },
+    {
+     "en": "Why he matters for exams: he led the National Front, became PM on 2 December 1989 (Janata Dal), and on 7 August 1990 announced 27% reservation for Other Backward Classes (OBCs) in central government jobs — the main recommendation of the Mandal Commission. The Government Order came on 13 August 1990.",
+     "te": "పరీక్షలకు ఎందుకు ముఖ్యం: నేషనల్ ఫ్రంట్‌కు నాయకత్వం వహించి 2 డిసెంబర్ 1989న ప్రధాని (జనతాదళ్) అయ్యారు. 7 ఆగస్టు 1990న కేంద్ర ప్రభుత్వ ఉద్యోగాల్లో ఇతర వెనుకబడిన తరగతులకు (OBC) 27% రిజర్వేషన్ ప్రకటించారు — ఇదే మండల్ కమిషన్ ప్రధాన సిఫార్సు. ప్రభుత్వ ఉత్తర్వు 13 ఆగస్టు 1990న వచ్చింది."
+    },
+    {
+     "en": "Result: there were big student protests. His government lost a vote of confidence in the Lok Sabha and he resigned on 7 November 1990. In November 1992 the Supreme Court (Indra Sawhney case, nine judges) upheld OBC reservation but fixed a 50% ceiling and kept out the 'creamy layer'. He died in New Delhi on 27 November 2008.",
+     "te": "ఫలితం: పెద్ద ఎత్తున విద్యార్థుల నిరసనలు జరిగాయి. లోక్‌సభలో విశ్వాస పరీక్షలో ఓడిపోయి 7 నవంబర్ 1990న రాజీనామా చేశారు. నవంబర్ 1992లో సుప్రీంకోర్టు (ఇందిరా సాహ్నీ కేసు, తొమ్మిది మంది న్యాయమూర్తులు) OBC రిజర్వేషన్‌ను సమర్థించింది; కానీ 50% గరిష్ఠ పరిమితి పెట్టి, 'క్రీమీ లేయర్'ను మినహాయించింది. ఆయన 27 నవంబర్ 2008న న్యూఢిల్లీలో మరణించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "25 June 1931, Allahabad (educated at Allahabad and Poona universities)",
+      "te": "25 జూన్ 1931, అలహాబాద్ (అలహాబాద్, పూణే విశ్వవిద్యాలయాల్లో చదువు)"
+     }
+    ],
+    [
+     {
+      "en": "UP Chief Minister",
+      "te": "యూపీ ముఖ్యమంత్రి"
+     },
+     {
+      "en": "9 June 1980 – 28 June 1982",
+      "te": "9 జూన్ 1980 – 28 జూన్ 1982"
+     }
+    ],
+    [
+     {
+      "en": "Prime Minister",
+      "te": "ప్రధానమంత్రి"
+     },
+     {
+      "en": "2 Dec 1989 – 10 Nov 1990 · Janata Dal (National Front government)",
+      "te": "2 డిసెంబర్ 1989 – 10 నవంబర్ 1990 · జనతాదళ్ (నేషనల్ ఫ్రంట్ ప్రభుత్వం)"
+     }
+    ],
+    [
+     {
+      "en": "Mandal Commission",
+      "te": "మండల్ కమిషన్"
+     },
+     {
+      "en": "Set up 1979 by the Morarji Desai (Janata Party) government; chairman B.P. Mandal; report 31 Dec 1980",
+      "te": "1979లో మొరార్జీ దేశాయ్ (జనతా పార్టీ) ప్రభుత్వం ఏర్పాటు; అధ్యక్షుడు బి.పి. మండల్; నివేదిక 31 డిసెంబర్ 1980"
+     }
+    ],
+    [
+     {
+      "en": "Report findings",
+      "te": "నివేదిక అంశాలు"
+     },
+     {
+      "en": "3,743 OBC communities; about 52% of population (excluding SC/ST); 27% quota → total 49.5% with SC/ST",
+      "te": "3,743 OBC కులాలు; జనాభాలో సుమారు 52% (SC/ST మినహా); 27% కోటా → SC/STతో కలిపి మొత్తం 49.5%"
+     }
+    ],
+    [
+     {
+      "en": "7 & 13 Aug 1990",
+      "te": "7 & 13 ఆగస్టు 1990"
+     },
+     {
+      "en": "27% OBC reservation announced in Parliament; Government Order issued",
+      "te": "పార్లమెంటులో 27% OBC రిజర్వేషన్ ప్రకటన; ప్రభుత్వ ఉత్తర్వు జారీ"
+     }
+    ],
+    [
+     {
+      "en": "Indra Sawhney (16 Nov 1992)",
+      "te": "ఇందిరా సాహ్నీ (16 నవంబర్ 1992)"
+     },
+     {
+      "en": "Nine-judge bench upheld the quota; 50% ceiling; creamy layer excluded",
+      "te": "తొమ్మిది మంది న్యాయమూర్తుల ధర్మాసనం కోటాను సమర్థించింది; 50% పరిమితి; క్రీమీ లేయర్ మినహాయింపు"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "27 November 2008, New Delhi",
+      "te": "27 నవంబర్ 2008, న్యూఢిల్లీ"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Backward classes & coalition era",
+     "te": "లింక్ చెయిన్ · వెనుకబడిన తరగతులు & సంకీర్ణ యుగం"
+    },
+    "l": [
+     {
+      "en": "Article 340 — the President can appoint a commission to study backward classes; the Mandal Commission was such a commission",
+      "te": "అధికరణ 340 — వెనుకబడిన తరగతుల స్థితిగతుల అధ్యయనానికి రాష్ట్రపతి కమిషన్ నియమించవచ్చు; మండల్ కమిషన్ అలాంటిదే"
+     },
+     {
+      "en": "OBC quota in central jobs was implemented in 1992 (after Indra Sawhney); in central education institutions it came in 2006",
+      "te": "కేంద్ర ఉద్యోగాల్లో OBC కోటా 1992లో (ఇందిరా సాహ్నీ తర్వాత) అమలైంది; కేంద్ర విద్యాసంస్థల్లో 2006లో వచ్చింది"
+     },
+     {
+      "en": "AP angle: N.T. Rama Rao (TDP founder) was the chairman of the National Front, the alliance that made V.P. Singh Prime Minister",
+      "te": "AP కోణం: వి.పి. సింగ్‌ను ప్రధానిని చేసిన నేషనల్ ఫ్రంట్ కూటమికి అధ్యక్షుడు ఎన్.టి. రామారావు (TDP వ్యవస్థాపకుడు)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The Mandal Commission was set up by Morarji Desai's government (1979), NOT by V.P. Singh — he only implemented it (1990). And the 50% ceiling and creamy layer came from the Supreme Court (1992), not from the Mandal report.",
+    "te": "మండల్ కమిషన్‌ను ఏర్పాటు చేసింది మొరార్జీ దేశాయ్ ప్రభుత్వం (1979) — వి.పి. సింగ్ కాదు; ఆయన దాన్ని అమలు మాత్రమే చేశారు (1990). 50% పరిమితి, క్రీమీ లేయర్ సుప్రీంకోర్టు (1992) తీర్పు నుంచి వచ్చాయి — మండల్ నివేదిక నుంచి కాదు."
+   },
+   "tip": {
+    "en": "'79 set up · 80 report · 90 implemented · 92 upheld' — Mandal's ladder: 79-80-90-92.",
+    "te": "'79 ఏర్పాటు · 80 నివేదిక · 90 అమలు · 92 సమర్థన' — మండల్ నిచ్చెన: 79-80-90-92."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the Mandal Commission, consider the following statements:",
+     "te": "మండల్ కమిషన్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It was set up in 1979 by the Morarji Desai government and submitted its report in December 1980.",
+      "te": "I. దీన్ని 1979లో మొరార్జీ దేశాయ్ ప్రభుత్వం ఏర్పాటు చేసింది; డిసెంబర్ 1980లో నివేదిక సమర్పించింది."
+     },
+     {
+      "en": "II. It recommended 27% reservation for OBCs in central government jobs and public sector undertakings.",
+      "te": "II. కేంద్ర ప్రభుత్వ ఉద్యోగాలు, ప్రభుత్వ రంగ సంస్థల్లో OBCలకు 27% రిజర్వేషన్ సిఫార్సు చేసింది."
+     },
+     {
+      "en": "III. The 50% ceiling on total reservation was part of its recommendations.",
+      "te": "III. మొత్తం రిజర్వేషన్లపై 50% పరిమితి దాని సిఫార్సుల్లో భాగం."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and II are correct. III is wrong: the 50% ceiling was laid down by the Supreme Court in Indra Sawhney (1992).",
+     "te": "I, II సరైనవి. III తప్పు: 50% పరిమితిని సుప్రీంకోర్టు ఇందిరా సాహ్నీ (1992) తీర్పులో నిర్దేశించింది."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "His life and the Mandal story",
+      "te": "ఆయన జీవితం, మండల్ కథ"
+     },
+     "items": [
+      {
+       "y": "1931",
+       "t": {
+        "en": "Born at Allahabad (25 June)",
+        "te": "అలహాబాద్‌లో జననం (25 జూన్)"
+       }
+      },
+      {
+       "y": "1979",
+       "t": {
+        "en": "Mandal Commission set up (Morarji Desai govt)",
+        "te": "మండల్ కమిషన్ ఏర్పాటు (మొరార్జీ దేశాయ్ ప్రభుత్వం)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1980",
+       "t": {
+        "en": "Mandal report (31 Dec) · V.P. Singh becomes UP CM (9 June)",
+        "te": "మండల్ నివేదిక (31 డిసెంబర్) · వి.పి. సింగ్ యూపీ సీఎం (9 జూన్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1984",
+       "t": {
+        "en": "Union Finance Minister (31 Dec)",
+        "te": "కేంద్ర ఆర్థిక మంత్రి (31 డిసెంబర్)"
+       }
+      },
+      {
+       "y": "1989",
+       "t": {
+        "en": "Prime Minister (2 Dec), National Front",
+        "te": "ప్రధానమంత్రి (2 డిసెంబర్), నేషనల్ ఫ్రంట్"
+       }
+      },
+      {
+       "y": "1990",
+       "t": {
+        "en": "27% OBC quota announced (7 Aug); resigns (7 Nov)",
+        "te": "27% OBC కోటా ప్రకటన (7 ఆగస్టు); రాజీనామా (7 నవంబర్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1992",
+       "t": {
+        "en": "Indra Sawhney: quota upheld, 50% cap (16 Nov)",
+        "te": "ఇందిరా సాహ్నీ: కోటా సమర్థన, 50% పరిమితి (16 నవంబర్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2008",
+       "t": {
+        "en": "Died in New Delhi (27 Nov)",
+        "te": "న్యూఢిల్లీలో మరణం (27 నవంబర్)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = the most-asked Mandal dates: 79 → 80 → 90 → 92.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే మండల్ తేదీలు: 79 → 80 → 90 → 92."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "PM India — Shri Vishwanath Pratap Singh (former Prime Minister)",
+     "u": "https://www.pmindia.gov.in/en/former_pm/shri-vishwanath-pratap-singh/"
+    },
+    {
+     "t": "President of India — condolence on passing away of Shri V.P. Singh, 27.11.2008",
+     "u": "https://presidentofindia.gov.in/smt-pratibha-devisingh-patil/press_releases/president-india-condoles-passing-away-former-prime"
+    },
+    {
+     "t": "Britannica — V.P. Singh",
+     "u": "https://www.britannica.com/biography/V-P-Singh"
+    },
+    {
+     "t": "ThePrint — 30 years since Mandal Commission recommendations (7 Aug 2020)",
+     "u": "https://theprint.in/theprint-essential/30-years-since-mandal-commission-recommendations-how-it-began-and-its-impact-today/477260"
+    },
+    {
+     "t": "Wikipedia — Mandal Commission (cross-check)",
+     "u": "https://en.wikipedia.org/wiki/Mandal_Commission"
+    }
+   ]
+  },
+  {
+   "id": "nobelwill",
+   "kind": "day",
+   "color": "#a86b00",
+   "icon": "trophy",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "tag": {
+    "en": "On this day · 27 Nov 1895",
+    "te": "ఈ రోజు · 27 నవంబర్ 1895"
+   },
+   "title": {
+    "en": "Alfred Nobel signs the will that created the Nobel Prizes",
+    "te": "నోబెల్ బహుమతులకు పునాది వేసిన వీలునామాపై ఆల్ఫ్రెడ్ నోబెల్ సంతకం"
+   },
+   "line": {
+    "en": "131 years ago in Paris, Nobel left his fortune for five prizes — 'for the greatest benefit to humankind'.",
+    "te": "131 ఏళ్ల క్రితం పారిస్‌లో నోబెల్ తన సంపదను ఐదు బహుమతుల కోసం వదిలారు."
+   },
+   "easy": [
+    {
+     "en": "Alfred Nobel was a Swedish chemist and inventor, born in Stockholm on 21 October 1833. He became rich from his inventions of explosives such as dynamite. On 27 November 1895 he signed his third and last will at the Swedish-Norwegian Club in Paris.",
+     "te": "ఆల్ఫ్రెడ్ నోబెల్ స్వీడన్‌కు చెందిన రసాయన శాస్త్రవేత్త, ఆవిష్కర్త; 21 అక్టోబర్ 1833న స్టాక్‌హోమ్‌లో జన్మించారు. డైనమైట్ వంటి పేలుడు పదార్థాల ఆవిష్కరణలతో సంపన్నుడయ్యారు. 27 నవంబర్ 1895న పారిస్‌లోని స్వీడిష్-నార్వేజియన్ క్లబ్‌లో తన మూడవ, చివరి వీలునామాపై సంతకం చేశారు."
+    },
+    {
+     "en": "How the will works: the interest from his fortune is divided into five equal parts — Physics, Chemistry, Physiology or Medicine, Literature and Peace. The will clearly says nationality must not be considered. Four prizes are given from Sweden, but the Peace Prize is decided by a five-member committee chosen by Norway's Parliament (Storting).",
+     "te": "వీలునామా ఎలా పనిచేస్తుంది: సంపదపై వచ్చే వడ్డీని ఐదు సమాన భాగాలు చేస్తారు — భౌతికశాస్త్రం, రసాయనశాస్త్రం, శరీరధర్మశాస్త్రం లేదా వైద్యం, సాహిత్యం, శాంతి. జాతీయతను పరిగణించరాదని వీలునామా స్పష్టంగా చెబుతుంది. నాలుగు బహుమతులు స్వీడన్ నుంచి ఇస్తారు; శాంతి బహుమతిని మాత్రం నార్వే పార్లమెంటు (స్టోర్టింగ్) ఎంపిక చేసే ఐదుగురు సభ్యుల కమిటీ నిర్ణయిస్తుంది."
+    },
+    {
+     "en": "The will caused controversy: his family opposed it and the named bodies were at first unwilling. Nobel died in 1896 at Sanremo, Italy. The first prizes were given in 1901 — five years later.",
+     "te": "ఈ వీలునామా వివాదానికి దారితీసింది: కుటుంబసభ్యులు వ్యతిరేకించారు; పేర్కొన్న సంస్థలు మొదట అంగీకరించలేదు. నోబెల్ 1896లో ఇటలీలోని శాన్‌రెమోలో మరణించారు. మొదటి బహుమతులు ఐదేళ్ల తర్వాత 1901లో ఇచ్చారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Will signed",
+      "te": "వీలునామా సంతకం"
+     },
+     {
+      "en": "27 November 1895, Swedish-Norwegian Club, Paris (his third and last will)",
+      "te": "27 నవంబర్ 1895, స్వీడిష్-నార్వేజియన్ క్లబ్, పారిస్ (మూడవ, చివరి వీలునామా)"
+     }
+    ],
+    [
+     {
+      "en": "Physics & Chemistry",
+      "te": "భౌతిక & రసాయన శాస్త్రాలు"
+     },
+     {
+      "en": "Swedish Academy of Sciences",
+      "te": "స్వీడిష్ అకాడమీ ఆఫ్ సైన్సెస్"
+     }
+    ],
+    [
+     {
+      "en": "Physiology or Medicine",
+      "te": "శరీరధర్మశాస్త్రం లేదా వైద్యం"
+     },
+     {
+      "en": "Karolinska Institute, Stockholm",
+      "te": "కరోలిన్స్కా ఇన్‌స్టిట్యూట్, స్టాక్‌హోమ్"
+     }
+    ],
+    [
+     {
+      "en": "Literature · Peace",
+      "te": "సాహిత్యం · శాంతి"
+     },
+     {
+      "en": "'The Academy in Stockholm' · a 5-member committee chosen by the Norwegian Storting",
+      "te": "'స్టాక్‌హోమ్‌లోని అకాడమీ' · నార్వే స్టోర్టింగ్ ఎంపిక చేసే 5 మంది కమిటీ"
+     }
+    ],
+    [
+     {
+      "en": "Born · Died",
+      "te": "జననం · మరణం"
+     },
+     {
+      "en": "21 Oct 1833, Stockholm · 1896, Sanremo (Italy)",
+      "te": "21 అక్టోబర్ 1833, స్టాక్‌హోమ్ · 1896, శాన్‌రెమో (ఇటలీ)"
+     }
+    ],
+    [
+     {
+      "en": "First prizes",
+      "te": "మొదటి బహుమతులు"
+     },
+     {
+      "en": "1901 — prizes are presented on 10 December, Nobel's death anniversary",
+      "te": "1901 — నోబెల్ వర్ధంతి అయిన 10 డిసెంబర్‌న బహుమతులు అందజేస్తారు"
+     }
+    ],
+    [
+     {
+      "en": "Not in the will",
+      "te": "వీలునామాలో లేనిది"
+     },
+     {
+      "en": "Economics prize — added in 1968 by Sveriges Riksbank (Sweden's central bank)",
+      "te": "ఆర్థికశాస్త్ర బహుమతి — 1968లో స్వెరిజెస్ రిక్స్‌బ్యాంక్ (స్వీడన్ కేంద్ర బ్యాంకు) చేర్చింది"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · India and the Nobel",
+     "te": "లింక్ చెయిన్ · భారత్, నోబెల్"
+    },
+    "l": [
+     {
+      "en": "Rabindranath Tagore — Literature 1913, the first Indian (and first Asian) Nobel laureate",
+      "te": "రవీంద్రనాథ్ ఠాగూర్ — సాహిత్యం 1913, తొలి భారతీయ (తొలి ఆసియా) నోబెల్ గ్రహీత"
+     },
+     {
+      "en": "C.V. Raman — Physics 1930 for the Raman Effect (National Science Day, 28 Feb)",
+      "te": "సి.వి. రామన్ — భౌతికశాస్త్రం 1930, రామన్ ఎఫెక్ట్ (జాతీయ సైన్స్ దినోత్సవం, 28 ఫిబ్రవరి)"
+     },
+     {
+      "en": "Static link: dynamite → mining, railways, dams — the same explosives used to build modern infrastructure",
+      "te": "స్టాటిక్ లింక్: డైనమైట్ → గనులు, రైల్వేలు, ఆనకట్టలు — ఆధునిక మౌలిక వసతుల నిర్మాణంలో వాడే పేలుడు పదార్థం"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The Peace Prize is decided in NORWAY (committee chosen by the Storting), not Sweden. And the Economics prize is NOT one of the five prizes in the will — it was added in 1968.",
+    "te": "శాంతి బహుమతిని నిర్ణయించేది నార్వే (స్టోర్టింగ్ ఎంపిక చేసిన కమిటీ) — స్వీడన్ కాదు. ఆర్థికశాస్త్ర బహుమతి వీలునామాలోని ఐదింటిలో లేదు — 1968లో చేర్చారు."
+   },
+   "tip": {
+    "en": "'4 in Sweden, 1 in Norway, 1 extra (1968)' — PCML in Stockholm, Peace in Oslo, Economics by the Riksbank.",
+    "te": "'స్వీడన్‌లో 4, నార్వేలో 1, అదనంగా 1 (1968)' — PCML స్టాక్‌హోమ్‌లో, శాంతి ఓస్లోలో, ఆర్థికశాస్త్రం రిక్స్‌బ్యాంక్‌ది."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Alfred Nobel's will of 27 November 1895, consider the following statements:",
+     "te": "27 నవంబర్ 1895 నాటి ఆల్ఫ్రెడ్ నోబెల్ వీలునామాకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It was signed in Paris and divided the interest of his fortune into five equal parts.",
+      "te": "I. దీనిపై పారిస్‌లో సంతకం చేశారు; సంపదపై వడ్డీని ఐదు సమాన భాగాలుగా విభజించారు."
+     },
+     {
+      "en": "II. It provided a prize in Economic Sciences to be awarded by Sweden's central bank.",
+      "te": "II. స్వీడన్ కేంద్ర బ్యాంకు ఇచ్చే ఆర్థిక శాస్త్రాల బహుమతిని ఇందులో పేర్కొన్నారు."
+     },
+     {
+      "en": "III. It said that the nationality of candidates should not be considered.",
+      "te": "III. అభ్యర్థుల జాతీయతను పరిగణించరాదని ఇది చెప్పింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "I and III are correct. II is wrong: the Economics prize is not in the will; Sveriges Riksbank added it in 1968.",
+     "te": "I, III సరైనవి. II తప్పు: ఆర్థికశాస్త్ర బహుమతి వీలునామాలో లేదు; 1968లో రిక్స్‌బ్యాంక్ చేర్చింది."
+    }
+   },
+   "pics": [
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "Five prizes of the will — who decides",
+      "te": "వీలునామాలోని ఐదు బహుమతులు — ఎవరు నిర్ణయిస్తారు"
+     },
+     "c": {
+      "en": "Nobel's will 1895",
+      "te": "నోబెల్ వీలునామా 1895"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Physics",
+        "te": "భౌతికశాస్త్రం"
+       },
+       "l": [
+        {
+         "en": "Swedish Academy of Sciences",
+         "te": "స్వీడిష్ అకాడమీ ఆఫ్ సైన్సెస్"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Chemistry",
+        "te": "రసాయనశాస్త్రం"
+       },
+       "l": [
+        {
+         "en": "Swedish Academy of Sciences",
+         "te": "స్వీడిష్ అకాడమీ ఆఫ్ సైన్సెస్"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Physiology or Medicine",
+        "te": "వైద్యం"
+       },
+       "l": [
+        {
+         "en": "Karolinska Institute",
+         "te": "కరోలిన్స్కా ఇన్‌స్టిట్యూట్"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Literature",
+        "te": "సాహిత్యం"
+       },
+       "l": [
+        {
+         "en": "Academy in Stockholm",
+         "te": "స్టాక్‌హోమ్ అకాడమీ"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Peace",
+        "te": "శాంతి"
+       },
+       "l": [
+        {
+         "en": "5-member committee of Norway's Storting",
+         "te": "నార్వే స్టోర్టింగ్ 5 మంది కమిటీ"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "timeline",
+     "h": {
+      "en": "From the will to the prizes",
+      "te": "వీలునామా నుంచి బహుమతుల వరకు"
+     },
+     "items": [
+      {
+       "y": "1833",
+       "t": {
+        "en": "Born in Stockholm (21 Oct)",
+        "te": "స్టాక్‌హోమ్‌లో జననం (21 అక్టోబర్)"
+       }
+      },
+      {
+       "y": "1895",
+       "t": {
+        "en": "Last will signed in Paris (27 Nov)",
+        "te": "పారిస్‌లో చివరి వీలునామా (27 నవంబర్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1896",
+       "t": {
+        "en": "Dies at Sanremo, Italy",
+        "te": "ఇటలీలోని శాన్‌రెమోలో మరణం"
+       }
+      },
+      {
+       "y": "1901",
+       "t": {
+        "en": "First Nobel Prizes",
+        "te": "మొదటి నోబెల్ బహుమతులు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1913",
+       "t": {
+        "en": "Tagore — first Indian laureate",
+        "te": "ఠాగూర్ — తొలి భారతీయ గ్రహీత"
+       }
+      },
+      {
+       "y": "1968",
+       "t": {
+        "en": "Economics prize created by Riksbank",
+        "te": "రిక్స్‌బ్యాంక్ ఆర్థికశాస్త్ర బహుమతి"
+       },
+       "hl": 1
+      }
+     ],
+     "cap": {
+      "en": "Bold = dates examiners twist: 1895 will, 1901 first prizes, 1968 economics.",
+      "te": "బోల్డ్ = పరీక్షల్లో తిప్పి అడిగే తేదీలు: 1895 వీలునామా, 1901 తొలి బహుమతులు, 1968 ఆర్థికశాస్త్రం."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "NobelPrize.org — The will of Alfred Nobel from 27 November 1895",
+     "u": "https://www.nobelprize.org/alfred-nobel/alfred-nobels-will/"
+    },
+    {
+     "t": "NobelPrize.org — Alfred Nobel: biographical information",
+     "u": "https://www.nobelprize.org/alfred-nobel/biographical-information/"
+    }
+   ]
+  },
+  {
+   "id": "foplabel",
+   "kind": "article",
+   "color": "#2f6b2f",
+   "icon": "food",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "Supreme Court order · 26 Nov 2026 · In the news · Health & Governance",
+    "te": "సుప్రీంకోర్టు ఉత్తర్వు · 26 నవంబర్ 2026 · వార్తల్లో · ఆరోగ్యం & పాలన"
+   },
+   "tag": {
+    "en": "Explained · GS-II Governance + GS-III Health (Group 2, Group 1)",
+    "te": "వివరణ · పాలన + ఆరోగ్యం (గ్రూప్ 2, గ్రూప్ 1)"
+   },
+   "title": {
+    "en": "Red warning hexagons on packaged food: Supreme Court orders 'High Fat', 'High Sugar', 'High Salt' labels",
+    "te": "ప్యాకేజ్డ్ ఆహారంపై ఎర్ర హెచ్చరిక షడ్భుజాలు: 'హై ఫ్యాట్', 'హై షుగర్', 'హై సాల్ట్' లేబుళ్లకు సుప్రీం ఆదేశం"
+   },
+   "line": {
+    "en": "Each harmful nutrient gets its own red hexagon on the front of the pack — so buyers see the risk at a glance.",
+    "te": "ప్రతి హానికర పోషకానికి ప్యాక్ ముందు భాగంలో వేర్వేరు ఎర్ర షడ్భుజం — కొనేవారు ఒక్క చూపులో ప్రమాదం గుర్తించేలా."
+   },
+   "easy": [
+    {
+     "en": "What: On 26 November 2026 a Supreme Court bench of Justices J.B. Pardiwala and K. Vinod Chandran, hearing a PIL by 3S & Our Health Society, directed the Food Safety and Standards Authority of India (FSSAI) to make packaged foods that cross set limits carry front-of-pack warnings: 'High Fat', 'High Sugar' or 'High Salt'.",
+     "te": "ఏమిటి: 26 నవంబర్ 2026న జస్టిస్ జె.బి. పార్దీవాలా, జస్టిస్ కె. వినోద్ చంద్రన్ ధర్మాసనం 3S & Our Health Society దాఖలు చేసిన ప్రజాప్రయోజన వ్యాజ్యం (PIL)పై విచారించి, భారత ఆహార భద్రత & ప్రమాణాల సంస్థ (FSSAI)కు ఆదేశాలిచ్చింది: నిర్ణీత పరిమితి దాటిన ప్యాకేజ్డ్ ఆహారాలపై ముందు భాగంలో 'High Fat', 'High Sugar', 'High Salt' హెచ్చరికలు ఉండాలి."
+    },
+    {
+     "en": "How: FSSAI had proposed one combined red hexagon. The court said there must be a SEPARATE red hexagon for each nutrient, with a picture symbol, and each hexagon should cover at least 4–5% of the main display panel. FSSAI must count TOTAL sugars and SATURATED fat (not only 'added' sugar and fat), along with salt.",
+     "te": "ఎలా: FSSAI ఒకే ఉమ్మడి ఎర్ర షడ్భుజాన్ని ప్రతిపాదించింది. ప్రతి పోషకానికి బొమ్మ గుర్తుతో వేర్వేరు ఎర్ర షడ్భుజం ఉండాలని, ఒక్కొక్కటి ప్యాక్ ప్రధాన భాగంలో కనీసం 4–5% ఆక్రమించాలని కోర్టు చెప్పింది. ఉప్పుతో పాటు మొత్తం చక్కెరలు (total sugars), సంతృప్త కొవ్వు (saturated fat)ను లెక్కించాలి — కేవలం 'కలిపిన' చక్కెర, కొవ్వు కాదు."
+    },
+    {
+     "en": "Why it matters: limits must be evidence-based — too low, and almost every product gets a warning, causing 'label fatigue'; too high, and the warning is useless. FSSAI must keep to its own timeline (no further extension ordinarily) and report in ten weeks.",
+     "te": "ఎందుకు ముఖ్యం: పరిమితులు శాస్త్రీయ ఆధారాలతో ఉండాలి — మరీ తక్కువైతే దాదాపు ప్రతి ఉత్పత్తికీ హెచ్చరిక వచ్చి 'లేబుల్ అలసట' (label fatigue) వస్తుంది; మరీ ఎక్కువైతే హెచ్చరిక నిరుపయోగం. FSSAI తన గడువునే పాటించాలి (సాధారణంగా ఇక పొడిగింపు లేదు); పది వారాల్లో పురోగతి నివేదించాలి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Bench · date",
+      "te": "ధర్మాసనం · తేదీ"
+     },
+     {
+      "en": "Justices J.B. Pardiwala & K. Vinod Chandran · 26 Nov 2026",
+      "te": "జస్టిస్ జె.బి. పార్దీవాలా & కె. వినోద్ చంద్రన్ · 26 నవంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Label design",
+      "te": "లేబుల్ రూపం"
+     },
+     {
+      "en": "Separate red hexagon per nutrient + pictogram; each ≥ 4–5% of the principal display panel",
+      "te": "ప్రతి పోషకానికి వేర్వేరు ఎర్ర షడ్భుజం + బొమ్మ; ఒక్కొక్కటి ప్రధాన భాగంలో ≥ 4–5%"
+     }
+    ],
+    [
+     {
+      "en": "Nutrients of concern",
+      "te": "ఆందోళనకర పోషకాలు"
+     },
+     {
+      "en": "Total sugars, saturated fat and salt (not just added sugar/fat)",
+      "te": "మొత్తం చక్కెరలు, సంతృప్త కొవ్వు, ఉప్పు (కలిపిన చక్కెర/కొవ్వు మాత్రమే కాదు)"
+     }
+    ],
+    [
+     {
+      "en": "Thresholds",
+      "te": "పరిమితులు"
+     },
+     {
+      "en": "Dietary Guidelines for Indians 2024, Table 15.1 values not to be adopted as they stand; re-fix on evidence",
+      "te": "భారతీయుల ఆహార మార్గదర్శకాలు 2024, పట్టిక 15.1 విలువలను యథాతథంగా తీసుకోరాదు; ఆధారాలతో తిరిగి నిర్ణయించాలి"
+     }
+    ],
+    [
+     {
+      "en": "Other directions",
+      "te": "ఇతర ఆదేశాలు"
+     },
+     {
+      "en": "Clear list of exempted foods; monitor product reformulation; no further extension ordinarily; report after 10 weeks",
+      "te": "మినహాయింపు ఆహారాల స్పష్టమైన జాబితా; ఉత్పత్తుల పునఃరూపకల్పన పర్యవేక్షణ; సాధారణంగా పొడిగింపు లేదు; 10 వారాల తర్వాత నివేదిక"
+     }
+    ],
+    [
+     {
+      "en": "Earlier plan (2022)",
+      "te": "పాత ప్రణాళిక (2022)"
+     },
+     {
+      "en": "FSSAI draft (13 Sep 2022) under the Labelling and Display Regulations 2020 proposed a star-based 'Indian Nutrition Rating'",
+      "te": "లేబులింగ్ & డిస్‌ప్లే నిబంధనలు 2020 కింద FSSAI ముసాయిదా (13 సెప్టెంబర్ 2022) నక్షత్రాల 'ఇండియన్ న్యూట్రిషన్ రేటింగ్' ప్రతిపాదించింది"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Static GK + AP angle",
+     "te": "లింక్ చెయిన్ · స్టాటిక్ GK + AP కోణం"
+    },
+    "l": [
+     {
+      "en": "FSSAI is a statutory body under the Food Safety and Standards Act, 2006 (Ministry of Health and Family Welfare)",
+      "te": "FSSAI — ఆహార భద్రత & ప్రమాణాల చట్టం, 2006 కింద ఏర్పడిన చట్టబద్ధ సంస్థ (ఆరోగ్య & కుటుంబ సంక్షేమ మంత్రిత్వ శాఖ)"
+     },
+     {
+      "en": "Article 47 (DPSP): the State shall raise the level of nutrition and improve public health; Article 21: right to life includes health",
+      "te": "అధికరణ 47 (ఆదేశిక సూత్రాలు): పోషణ స్థాయి పెంచడం, ప్రజారోగ్యం మెరుగుపరచడం రాజ్యం బాధ్యత; అధికరణ 21: జీవించే హక్కులో ఆరోగ్యం భాగం"
+     },
+     {
+      "en": "AP angle: clear labels help families across all AP districts make healthier choices as packaged snacks reach every village shop",
+      "te": "AP కోణం: ప్యాకేజ్డ్ చిరుతిళ్లు ప్రతి గ్రామ దుకాణానికి చేరుతున్న వేళ, స్పష్టమైన లేబుళ్లు అన్ని AP జిల్లాల కుటుంబాలు ఆరోగ్యకర ఎంపికలు చేసుకోవడానికి సహాయపడతాయి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The court asked for SEPARATE hexagons (one per nutrient), not a single combined symbol — and for TOTAL sugars and SATURATED fat, not 'added' sugar/fat. The 2022 FSSAI idea was a star rating, which is different from a warning label.",
+    "te": "కోర్టు అడిగింది వేర్వేరు షడ్భుజాలు (పోషకానికి ఒకటి) — ఒకే ఉమ్మడి గుర్తు కాదు; 'కలిపిన' చక్కెర/కొవ్వు కాదు, మొత్తం చక్కెరలు, సంతృప్త కొవ్వు. 2022 FSSAI ఆలోచన నక్షత్ర రేటింగ్ — ఇది హెచ్చరిక లేబుల్ కాదు."
+   },
+   "tip": {
+    "en": "'3 reds, 3 words' — red hexagon × 3: FAT, SUGAR, SALT; 'total, not added'.",
+    "te": "'3 ఎరుపులు, 3 పదాలు' — ఎర్ర షడ్భుజం × 3: FAT, SUGAR, SALT; 'కలిపినది కాదు, మొత్తం'."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the Supreme Court's directions of 26 November 2026 on front-of-pack labelling, consider the following statements:",
+     "te": "ముందు భాగపు లేబులింగ్‌పై 26 నవంబర్ 2026 నాటి సుప్రీంకోర్టు ఆదేశాలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. A single combined red hexagon is enough for a product high in more than one nutrient.",
+      "te": "I. ఒకటి కంటే ఎక్కువ పోషకాలు అధికంగా ఉన్న ఉత్పత్తికి ఒకే ఉమ్మడి ఎర్ర షడ్భుజం సరిపోతుంది."
+     },
+     {
+      "en": "II. Total sugars and saturated fat, rather than added sugar and added fat, are to be treated as nutrients of concern.",
+      "te": "II. కలిపిన చక్కెర, కలిపిన కొవ్వు బదులు మొత్తం చక్కెరలు, సంతృప్త కొవ్వును ఆందోళనకర పోషకాలుగా పరిగణించాలి."
+     },
+     {
+      "en": "III. Each warning hexagon should ordinarily occupy at least 4–5% of the principal display panel.",
+      "te": "III. ప్రతి హెచ్చరిక షడ్భుజం సాధారణంగా ప్రధాన ప్రదర్శన భాగంలో కనీసం 4–5% ఉండాలి."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "II and III are correct. I is wrong: the court rejected a single combined hexagon and asked for a separate hexagon for each nutrient.",
+     "te": "II, III సరైనవి. I తప్పు: ఒకే ఉమ్మడి షడ్భుజాన్ని కోర్టు తిరస్కరించి, ప్రతి పోషకానికి వేర్వేరు షడ్భుజం ఉండాలంది."
+    }
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "FSSAI's proposal vs the Supreme Court's order",
+      "te": "FSSAI ప్రతిపాదన vs సుప్రీంకోర్టు ఆదేశం"
+     },
+     "a": {
+      "h": {
+       "en": "FSSAI proposal",
+       "te": "FSSAI ప్రతిపాదన"
+      },
+      "l": [
+       {
+        "en": "One red hexagon",
+        "te": "ఒకే ఎర్ర షడ్భుజం"
+       },
+       {
+        "en": "Added sugar & added fat",
+        "te": "కలిపిన చక్కెర & కొవ్వు"
+       },
+       {
+        "en": "DGI 2024 limits as they are",
+        "te": "DGI 2024 పరిమితులు యథాతథం"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Supreme Court (26 Nov 2026)",
+       "te": "సుప్రీంకోర్టు (26 నవంబర్ 2026)"
+      },
+      "l": [
+       {
+        "en": "Separate hexagon per nutrient + picture",
+        "te": "పోషకానికో షడ్భుజం + బొమ్మ"
+       },
+       {
+        "en": "Total sugars & saturated fat + salt",
+        "te": "మొత్తం చక్కెరలు & సంతృప్త కొవ్వు + ఉప్పు"
+       },
+       {
+        "en": "Re-fix limits on evidence",
+        "te": "ఆధారాలతో పరిమితులు మళ్లీ"
+       },
+       {
+        "en": "Each ≥ 4–5% of front panel",
+        "te": "ఒక్కొక్కటి ముందు భాగంలో ≥ 4–5%"
+       }
+      ]
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How a warning reaches the buyer",
+      "te": "హెచ్చరిక కొనుగోలుదారుకు ఎలా చేరుతుంది"
+     },
+     "items": [
+      {
+       "i": "⚖️",
+       "t": {
+        "en": "SC directs FSSAI",
+        "te": "FSSAIకి సుప్రీం ఆదేశం"
+       }
+      },
+      {
+       "i": "📏",
+       "t": {
+        "en": "FSSAI fixes evidence-based limits",
+        "te": "FSSAI శాస్త్రీయ పరిమితులు"
+       }
+      },
+      {
+       "i": "🏭",
+       "t": {
+        "en": "Product above limit?",
+        "te": "పరిమితి దాటిందా?"
+       }
+      },
+      {
+       "i": "🛑",
+       "t": {
+        "en": "Red hexagon: High Fat / Sugar / Salt",
+        "te": "ఎర్ర షడ్భుజం: High Fat / Sugar / Salt"
+       }
+      },
+      {
+       "i": "🛒",
+       "t": {
+        "en": "Buyer sees risk at a glance",
+        "te": "ఒక్క చూపులో ప్రమాదం తెలుస్తుంది"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Bar & Bench — Warning labels on packaged food should disclose total sugar, fat; not just added sugar, fat: Supreme Court (26 Nov 2026)",
+     "u": "https://www.barandbench.com/news/litigation/warning-labels-on-packaged-food-should-disclose-total-sugar-fat-not-just-added-sugar-fat-supreme-court"
+    },
+    {
+     "t": "The Morung Express (IANS) — Packaged foods must carry prominent 'High Fat', 'High Sugar', 'High Salt' labels: SC (26 Nov 2026)",
+     "u": "https://www.morungexpress.com/packaged-foods-must-carry-prominent-high-fat-high-sugar-high-salt-labels-sc"
+    },
+    {
+     "t": "USDA FAS — India: FSSAI publishes draft notification on front-of-pack labelling (2022)",
+     "u": "https://fas.usda.gov/data/india-indias-fssai-publishes-draft-notification-front-pack-labeling-packaged-food-products"
+    }
+   ],
+   "mains": {
+    "en": "Front-of-pack warning labels can nudge consumers but cannot replace regulation of food composition. Discuss in the context of the Supreme Court's November 2026 directions. (Group 1 Mains, 10 marks)",
+    "te": "ముందు భాగపు హెచ్చరిక లేబుళ్లు వినియోగదారులను ప్రభావితం చేయగలవు కానీ ఆహార కూర్పు నియంత్రణకు ప్రత్యామ్నాయం కాదు. నవంబర్ 2026 సుప్రీంకోర్టు ఆదేశాల నేపథ్యంలో చర్చించండి. (గ్రూప్ 1 మెయిన్స్, 10 మార్కులు)"
+   }
+  },
+  {
+   "id": "convstay",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "law",
+   "cf": [
+    0,
+    2,
+    3,
+    4,
+    5
+   ],
+   "src": {
+    "en": "Supreme Court judgment · 25 Nov 2026 · In the news · Polity",
+    "te": "సుప్రీంకోర్టు తీర్పు · 25 నవంబర్ 2026 · వార్తల్లో · రాజకీయ వ్యవస్థ"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity — disqualification of legislators (Group 2, Group 1)",
+    "te": "వివరణ · రాజకీయ వ్యవస్థ — చట్టసభ్యుల అనర్హత (గ్రూప్ 2, గ్రూప్ 1)"
+   },
+   "title": {
+    "en": "A legislator's conviction can't be stayed just to save his seat: Supreme Court",
+    "te": "కేవలం పదవి కాపాడుకోవడానికి చట్టసభ్యుడి శిక్ష నిర్ధారణను నిలిపివేయలేం: సుప్రీంకోర్టు"
+   },
+   "line": {
+    "en": "Stay of conviction is for rare cases with a 'palpable mistake' — possible disqualification cannot be the main reason.",
+    "te": "శిక్ష నిర్ధారణ నిలిపివేత 'స్పష్టమైన తప్పు' ఉన్న అరుదైన కేసులకే — అనర్హత భయం ప్రధాన కారణం కాకూడదు."
+   },
+   "easy": [
+    {
+     "en": "What: In State of Karnataka v. Vinay Rajashekharappa Kulkarni (judgment 25 Nov 2026; Justices Prashant Kumar Mishra and Shree Chandrashekhar), the Supreme Court set aside a Karnataka High Court order of 31 July 2026. The High Court had stayed the conviction of a sitting MLA who was given life imprisonment by a Special Court, Bengaluru, on 15 April 2026 in a 2016 murder case. The convicts must surrender within two weeks.",
+     "te": "ఏమిటి: స్టేట్ ఆఫ్ కర్ణాటక v. వినయ్ రాజశేఖరప్ప కులకర్ణి కేసులో (తీర్పు 25 నవంబర్ 2026; జస్టిస్ ప్రశాంత్ కుమార్ మిశ్రా, జస్టిస్ శ్రీ చంద్రశేఖర్) సుప్రీంకోర్టు 31 జులై 2026 నాటి కర్ణాటక హైకోర్టు ఉత్తర్వును రద్దు చేసింది. 2016 హత్య కేసులో బెంగళూరు ప్రత్యేక కోర్టు 15 ఏప్రిల్ 2026న జీవిత ఖైదు విధించిన సిట్టింగ్ ఎమ్మెల్యే శిక్ష నిర్ధారణను హైకోర్టు నిలిపివేసింది. దోషులు రెండు వారాల్లో లొంగిపోవాలి."
+    },
+    {
+     "en": "Why it matters: under Section 8(3) of the Representation of the People Act, 1951, a person sentenced to two years or more is disqualified from the date of conviction and for six more years after release. If the conviction itself is stayed, the disqualification does not operate — so convicted legislators often ask for a stay.",
+     "te": "ఎందుకు ముఖ్యం: ప్రజాప్రాతినిధ్య చట్టం, 1951 సెక్షన్ 8(3) ప్రకారం రెండేళ్లు లేదా అంతకంటే ఎక్కువ శిక్ష పడిన వ్యక్తి శిక్ష నిర్ధారణ తేదీ నుంచి, విడుదలైన తర్వాత మరో ఆరేళ్ల పాటు అనర్హుడు. శిక్ష నిర్ధారణనే నిలిపివేస్తే అనర్హత వర్తించదు — అందుకే దోషులైన చట్టసభ్యులు తరచూ స్టే కోరుతారు."
+    },
+    {
+     "en": "How the court decided: suspending a SENTENCE needs only a good prima facie case. But staying a CONVICTION needs a higher test — a 'palpable mistake' that makes the conviction illegal, in rare and exceptional cases. Disqualification 'can be one of the considerations' but not the primary ground; otherwise 'every convicted legislator would automatically become entitled' to a stay.",
+     "te": "కోర్టు ఎలా నిర్ణయించింది: శిక్ష (sentence) అమలు నిలిపివేతకు బలమైన ప్రాథమిక ఆధారం (prima facie case) చాలు. కానీ శిక్ష నిర్ధారణ (conviction) నిలిపివేతకు ఉన్నత పరీక్ష — తీర్పును చట్టవిరుద్ధం చేసే 'స్పష్టమైన తప్పు' ఉండాలి, అదీ అరుదైన, అసాధారణ కేసుల్లోనే. అనర్హత ఒక అంశంగా పరిగణించవచ్చు కానీ ప్రధాన కారణం కాదు; లేకుంటే 'ప్రతి దోషి చట్టసభ్యుడికీ ఆటోమేటిక్‌గా స్టే హక్కు' వస్తుందని కోర్టు చెప్పింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Case · bench",
+      "te": "కేసు · ధర్మాసనం"
+     },
+     {
+      "en": "State of Karnataka v. Vinay Rajashekharappa Kulkarni · Justices P.K. Mishra & Shree Chandrashekhar · 25 Nov 2026",
+      "te": "స్టేట్ ఆఫ్ కర్ణాటక v. వినయ్ రాజశేఖరప్ప కులకర్ణి · జస్టిస్ పి.కె. మిశ్రా & శ్రీ చంద్రశేఖర్ · 25 నవంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Lower courts",
+      "te": "కింది కోర్టులు"
+     },
+     {
+      "en": "Special Court, Bengaluru: life imprisonment (15 Apr 2026) → High Court stayed conviction (31 Jul 2026)",
+      "te": "బెంగళూరు ప్రత్యేక కోర్టు: జీవిత ఖైదు (15 ఏప్రిల్ 2026) → హైకోర్టు శిక్ష నిర్ధారణ నిలిపివేత (31 జులై 2026)"
+     }
+    ],
+    [
+     {
+      "en": "Test for stay of conviction",
+      "te": "నిర్ధారణ నిలిపివేతకు పరీక్ష"
+     },
+     {
+      "en": "'Palpable mistake' making the conviction illegal; rare and exceptional cases — more rigorous than a prima facie case",
+      "te": "నిర్ధారణను చట్టవిరుద్ధం చేసే 'స్పష్టమైన తప్పు'; అరుదైన, అసాధారణ కేసులు — ప్రాథమిక ఆధారం కంటే కఠినం"
+     }
+    ],
+    [
+     {
+      "en": "Disqualification",
+      "te": "అనర్హత"
+     },
+     {
+      "en": "A statutory consequence (Sec 8(3) RPA 1951) — 'can be one of the considerations', not the primary ground",
+      "te": "చట్టపరమైన పర్యవసానం (RPA 1951 సెక్షన్ 8(3)) — ఒక అంశం మాత్రమే, ప్రధాన కారణం కాదు"
+     }
+    ],
+    [
+     {
+      "en": "Section 8(3) RPA",
+      "te": "సెక్షన్ 8(3) RPA"
+     },
+     {
+      "en": "Sentence of ≥ 2 years → disqualified from conviction + 6 years after release",
+      "te": "≥ 2 ఏళ్ల శిక్ష → నిర్ధారణ నుంచి + విడుదల తర్వాత 6 ఏళ్లు అనర్హత"
+     }
+    ],
+    [
+     {
+      "en": "Lily Thomas (10 Jul 2013)",
+      "te": "లిల్లీ థామస్ (10 జులై 2013)"
+     },
+     {
+      "en": "Section 8(4) (3-month protection for sitting members) declared unconstitutional → loss of seat with immediate effect",
+      "te": "సెక్షన్ 8(4) (సిట్టింగ్ సభ్యులకు 3 నెలల రక్షణ) రాజ్యాంగ విరుద్ధం → తక్షణమే సభ్యత్వం రద్దు"
+     }
+    ],
+    [
+     {
+      "en": "Suspension of sentence",
+      "te": "శిక్ష అమలు నిలిపివేత"
+     },
+     {
+      "en": "Pending appeal / long delay alone is not a ground in grave offences like murder",
+      "te": "హత్య వంటి తీవ్ర నేరాల్లో అప్పీల్ పెండింగ్ / జాప్యం మాత్రమే కారణం కాదు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Disqualification of legislators",
+     "te": "లింక్ చెయిన్ · చట్టసభ్యుల అనర్హత"
+    },
+    "l": [
+     {
+      "en": "Articles 102(1)(e) (MPs) and 191(1)(e) (MLAs): disqualification under a law made by Parliament — the RPA 1951 is that law",
+      "te": "అధికరణలు 102(1)(e) (ఎంపీలు), 191(1)(e) (ఎమ్మెల్యేలు): పార్లమెంటు చేసిన చట్టం ప్రకారం అనర్హత — ఆ చట్టమే RPA 1951"
+     },
+     {
+      "en": "Rahul Gandhi (convicted 23 Mar 2023): the Supreme Court stayed his conviction and the disqualification was lifted — an example of a stay removing disqualification",
+      "te": "రాహుల్ గాంధీ (23 మార్చి 2023 శిక్ష నిర్ధారణ): సుప్రీంకోర్టు నిర్ధారణను నిలిపివేయడంతో అనర్హత తొలగింది — స్టే వల్ల అనర్హత తొలగిన ఉదాహరణ"
+     },
+     {
+      "en": "Anti-defection disqualification is different: Tenth Schedule (52nd Amendment, 1985), decided by the Speaker/Chairman",
+      "te": "పార్టీ ఫిరాయింపు అనర్హత వేరు: పదో షెడ్యూల్ (52వ సవరణ, 1985), నిర్ణయం స్పీకర్/చైర్మన్‌దే"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Suspension of SENTENCE ≠ stay of CONVICTION. Only a stay of conviction removes disqualification, and it needs a much stricter test. Also: Section 8(4) is still printed in the Act but was struck down in Lily Thomas (2013).",
+    "te": "శిక్ష (SENTENCE) అమలు నిలిపివేత ≠ శిక్ష నిర్ధారణ (CONVICTION) నిలిపివేత. నిర్ధారణ నిలిపివేత మాత్రమే అనర్హతను తొలగిస్తుంది; దానికి చాలా కఠిన పరీక్ష. అలాగే సెక్షన్ 8(4) చట్టంలో ముద్రితమై ఉన్నా లిల్లీ థామస్ (2013)లో కొట్టివేశారు."
+   },
+   "tip": {
+    "en": "'2 years → 6 years after' and 'Sentence = soft test, Conviction = strict test'.",
+    "te": "'2 ఏళ్ల శిక్ష → విడుదల తర్వాత 6 ఏళ్లు', 'Sentence = సులభ పరీక్ష, Conviction = కఠిన పరీక్ష'."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to disqualification of legislators on conviction, consider the following statements:",
+     "te": "శిక్ష నిర్ధారణ వల్ల చట్టసభ్యుల అనర్హతకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. Under Section 8(3) of the RPA, 1951, a sentence of two years or more disqualifies a person from the date of conviction and for six years after release.",
+      "te": "I. RPA 1951 సెక్షన్ 8(3) ప్రకారం రెండేళ్లు లేదా ఎక్కువ శిక్ష పడితే నిర్ధారణ తేదీ నుంచి, విడుదలైన తర్వాత ఆరేళ్లు అనర్హత."
+     },
+     {
+      "en": "II. Suspension of the sentence during appeal is by itself enough to remove the disqualification.",
+      "te": "II. అప్పీల్ సమయంలో శిక్ష అమలు నిలిపివేత ఒక్కటే అనర్హతను తొలగించడానికి సరిపోతుంది."
+     },
+     {
+      "en": "III. In November 2026 the Supreme Court held that possible disqualification cannot be the primary ground to stay a conviction.",
+      "te": "III. అనర్హత అవకాశం శిక్ష నిర్ధారణ నిలిపివేతకు ప్రధాన కారణం కాదని నవంబర్ 2026లో సుప్రీంకోర్టు చెప్పింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "I and III are correct. II is the trap: only a stay of CONVICTION removes disqualification; suspension of sentence does not.",
+     "te": "I, III సరైనవి. II ఉచ్చు: శిక్ష నిర్ధారణ నిలిపివేత మాత్రమే అనర్హతను తొలగిస్తుంది; శిక్ష అమలు నిలిపివేత కాదు."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "From conviction to losing the seat",
+      "te": "శిక్ష నిర్ధారణ నుంచి పదవి కోల్పోవడం వరకు"
+     },
+     "items": [
+      {
+       "i": "⚖️",
+       "t": {
+        "en": "Convicted, sentence ≥ 2 years",
+        "te": "నిర్ధారణ, శిక్ష ≥ 2 ఏళ్లు"
+       }
+      },
+      {
+       "i": "🚫",
+       "t": {
+        "en": "Sec 8(3) RPA: disqualified at once",
+        "te": "సెక్షన్ 8(3): వెంటనే అనర్హత"
+       }
+      },
+      {
+       "i": "📝",
+       "t": {
+        "en": "Appeal + plea to stay conviction",
+        "te": "అప్పీల్ + నిర్ధారణ స్టే అభ్యర్థన"
+       }
+      },
+      {
+       "i": "🔍",
+       "t": {
+        "en": "Court: palpable mistake? rare case?",
+        "te": "కోర్టు: స్పష్టమైన తప్పు? అరుదైన కేసు?"
+       }
+      },
+      {
+       "i": "🪑",
+       "t": {
+        "en": "Yes → seat saved · No → seat lost",
+        "te": "అవును → పదవి నిలుస్తుంది · కాదు → పోతుంది"
+       }
+      }
+     ]
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Two different reliefs during appeal",
+      "te": "అప్పీల్ సమయంలో రెండు వేర్వేరు ఉపశమనాలు"
+     },
+     "a": {
+      "h": {
+       "en": "Suspension of sentence",
+       "te": "శిక్ష అమలు నిలిపివేత"
+      },
+      "l": [
+       {
+        "en": "Convict is released on bail",
+        "te": "దోషి బెయిల్‌పై విడుదల"
+       },
+       {
+        "en": "Test: good prima facie case",
+        "te": "పరీక్ష: బలమైన ప్రాథమిక ఆధారం"
+       },
+       {
+        "en": "Disqualification continues",
+        "te": "అనర్హత కొనసాగుతుంది"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Stay of conviction",
+       "te": "శిక్ష నిర్ధారణ నిలిపివేత"
+      },
+      "l": [
+       {
+        "en": "Conviction put on hold",
+        "te": "నిర్ధారణ తాత్కాలికంగా నిలిపివేత"
+       },
+       {
+        "en": "Test: palpable mistake, rare cases",
+        "te": "పరీక్ష: స్పష్టమైన తప్పు, అరుదైన కేసులు"
+       },
+       {
+        "en": "Disqualification does not operate",
+        "te": "అనర్హత వర్తించదు"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Verdictum — Stay of conviction needs 'palpable mistake'; legislator's possible disqualification cannot be primary ground: Supreme Court (26 Nov 2026)",
+     "u": "https://www.verdictum.in/supreme-court/state-of-karnataka-v-vinay-rajashekharappa-kulkarni-mla-vinay-kulkarnis-conviction-1626492"
+    },
+    {
+     "t": "Law Trend — Possible disqualification of a legislator can't be the primary ground to stay conviction: Supreme Court (25 Nov 2026)",
+     "u": "https://lawtrend.in/supreme-court-stay-of-conviction-legislator-disqualification-vinay-kulkarni-yogesh-goudar/"
+    },
+    {
+     "t": "LiveLaw — 2026 LiveLaw (SC) 1205, State of Karnataka v. Vinay Rajashekharappa Kulkarni (headline)",
+     "u": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1205-state-of-karnataka-versus-vinay-rajashekharappa-kulkarni-and-anr-560086"
+    },
+    {
+     "t": "Representation of the People Act, 1951 — Section 8 (bare act text)",
+     "u": "https://www.advocatekhoj.com/library/bareacts/representationofthepeople/8.php"
+    },
+    {
+     "t": "Wikipedia — Disqualification of convicted representatives in India (Lily Thomas, 2013; cross-check)",
+     "u": "https://en.wikipedia.org/wiki/Disqualification_of_convicted_representatives_in_India"
+    }
+   ],
+   "mains": {
+    "en": "Explain the difference between suspension of sentence and stay of conviction. How does the Supreme Court's November 2026 ruling strengthen the decriminalisation of politics? (Group 1 Mains, 10 marks)",
+    "te": "శిక్ష అమలు నిలిపివేత, శిక్ష నిర్ధారణ నిలిపివేత మధ్య తేడాను వివరించండి. నవంబర్ 2026 సుప్రీంకోర్టు తీర్పు రాజకీయాల నేరరహితీకరణను ఎలా బలపరుస్తుంది? (గ్రూప్ 1 మెయిన్స్, 10 మార్కులు)"
+   }
+  },
+  {
+   "id": "ustariff",
+   "kind": "article",
+   "color": "#8a4b14",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "In the news · Economy + IR · 25–26 Nov 2026",
+    "te": "వార్తల్లో · ఆర్థిక వ్యవస్థ + అంతర్జాతీయ సంబంధాలు · 25–26 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II IR + GS-III Economy (Group 2, Group 1)",
+    "te": "వివరణ · అంతర్జాతీయ సంబంధాలు + ఆర్థికం (గ్రూప్ 2, గ్రూప్ 1)"
+   },
+   "title": {
+    "en": "US proposes up to 25% 'excess capacity' tariff on India under Section 301",
+    "te": "సెక్షన్ 301 కింద భారత్‌పై 25% వరకు 'అదనపు సామర్థ్యం' సుంకం ప్రతిపాదించిన అమెరికా"
+   },
+   "line": {
+    "en": "Only a proposal for now — it falls to 17% if India and the US sign a reciprocal trade agreement.",
+    "te": "ప్రస్తుతానికి ప్రతిపాదన మాత్రమే — భారత్–అమెరికా పరస్పర వాణిజ్య ఒప్పందం కుదిరితే 17%కి తగ్గుతుంది."
+   },
+   "easy": [
+    {
+     "en": "What: On 25 November 2026 the US Trade Representative (USTR) announced findings in Section 301 investigations (Trade Act of 1974) and PROPOSED new tariffs on 14 economies for 'structural excess capacity' — producing far more than their home market needs and pushing cheap goods abroad. India: up to 25%, or 17% if an Agreement on Reciprocal Trade is reached.",
+     "te": "ఏమిటి: 25 నవంబర్ 2026న అమెరికా వాణిజ్య ప్రతినిధి (USTR) సెక్షన్ 301 (వాణిజ్య చట్టం 1974) దర్యాప్తుల ఫలితాలు ప్రకటించి, 'నిర్మాణాత్మక అదనపు సామర్థ్యం' (structural excess capacity) కారణంగా 14 దేశాలపై కొత్త సుంకాలను ప్రతిపాదించింది — అంటే దేశీయ అవసరానికి మించి ఉత్పత్తి చేసి చౌక వస్తువులను బయటకు నెట్టడం. భారత్‌పై: 25% వరకు; పరస్పర వాణిజ్య ఒప్పందం కుదిరితే 17%."
+    },
+    {
+     "en": "How: the investigations began on 11 March 2026 (16 economies). Rates are proposed — written comments are due by 5 January 2027 and a public hearing starts on 25 January 2027. Goods already under Section 232 tariffs (steel, aluminium, copper, vehicles, patented medicines, semiconductors) are exempt for non-China economies. A separate Section 301 'forced labour' tariff came in July 2026.",
+     "te": "ఎలా: దర్యాప్తులు 11 మార్చి 2026న (16 దేశాలపై) మొదలయ్యాయి. ఇవి ప్రతిపాదిత రేట్లు — లిఖితపూర్వక అభిప్రాయాలకు గడువు 5 జనవరి 2027; బహిరంగ విచారణ 25 జనవరి 2027 నుంచి. ఇప్పటికే సెక్షన్ 232 సుంకాలున్న వస్తువులకు (ఉక్కు, అల్యూమినియం, రాగి, వాహనాలు, పేటెంట్ మందులు, సెమీకండక్టర్లు) చైనా కాని దేశాలకు మినహాయింపు. 'బలవంతపు శ్రమ' పేరుతో మరో సెక్షన్ 301 సుంకం జులై 2026లో వచ్చింది."
+    },
+    {
+     "en": "India's reply: the Commerce Ministry said 'India does not have structural excess capacity in any sector', that the notice is under examination, and that such concerns should be handled in the ongoing bilateral trade talks. Labour-intensive exports like textiles, gems and engineering goods are seen as most at risk.",
+     "te": "భారత్ స్పందన: 'భారత్‌కు ఏ రంగంలోనూ నిర్మాణాత్మక అదనపు సామర్థ్యం లేదు' అని వాణిజ్య మంత్రిత్వ శాఖ చెప్పింది; నోటీసును పరిశీలిస్తున్నామని, ఇలాంటి అంశాలను కొనసాగుతున్న ద్వైపాక్షిక చర్చల్లోనే పరిష్కరించుకోవాలని పేర్కొంది. వస్త్రాలు, రత్నాలు, ఇంజనీరింగ్ వస్తువుల వంటి శ్రమ ఆధారిత ఎగుమతులకు ఎక్కువ ముప్పు అని భావిస్తున్నారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Announced",
+      "te": "ప్రకటన"
+     },
+     {
+      "en": "25 Nov 2026 by USTR — proposed, not yet in effect",
+      "te": "25 నవంబర్ 2026, USTR — ప్రతిపాదన మాత్రమే, ఇంకా అమల్లో లేదు"
+     }
+    ],
+    [
+     {
+      "en": "Legal basis",
+      "te": "చట్టపరమైన ఆధారం"
+     },
+     {
+      "en": "Section 301, US Trade Act of 1974 (probes began 11 Mar 2026)",
+      "te": "సెక్షన్ 301, అమెరికా వాణిజ్య చట్టం 1974 (దర్యాప్తు 11 మార్చి 2026)"
+     }
+    ],
+    [
+     {
+      "en": "India's rate",
+      "te": "భారత్‌పై రేటు"
+     },
+     {
+      "en": "Up to 25%; 17% with an Agreement on Reciprocal Trade",
+      "te": "25% వరకు; పరస్పర వాణిజ్య ఒప్పందంతో 17%"
+     }
+    ],
+    [
+     {
+      "en": "Others",
+      "te": "ఇతర దేశాలు"
+     },
+     {
+      "en": "Vietnam 35% (20% with deal) · China up to 20% · Singapore 20% · Bangladesh, Indonesia, Thailand 18% · EU, Japan, Korea 15%",
+      "te": "వియత్నాం 35% (ఒప్పందంతో 20%) · చైనా 20% వరకు · సింగపూర్ 20% · బంగ్లాదేశ్, ఇండోనేషియా, థాయ్‌లాండ్ 18% · EU, జపాన్, కొరియా 15%"
+     }
+    ],
+    [
+     {
+      "en": "Timeline",
+      "te": "గడువులు"
+     },
+     {
+      "en": "Comments by 5 Jan 2027; hearing from 25 Jan 2027",
+      "te": "అభిప్రాయాలకు 5 జనవరి 2027; విచారణ 25 జనవరి 2027 నుంచి"
+     }
+    ],
+    [
+     {
+      "en": "Exempt (non-China)",
+      "te": "మినహాయింపు (చైనా కాని దేశాలు)"
+     },
+     {
+      "en": "Section 232 goods: steel, aluminium, copper, vehicles, patented pharma, semiconductors",
+      "te": "సెక్షన్ 232 వస్తువులు: ఉక్కు, అల్యూమినియం, రాగి, వాహనాలు, పేటెంట్ మందులు, సెమీకండక్టర్లు"
+     }
+    ],
+    [
+     {
+      "en": "India's stand",
+      "te": "భారత్ వైఖరి"
+     },
+     {
+      "en": "'No structural excess capacity in any sector'; resolve in bilateral talks",
+      "te": "'ఏ రంగంలోనూ నిర్మాణాత్మక అదనపు సామర్థ్యం లేదు'; ద్వైపాక్షిక చర్చల్లో పరిష్కారం"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Static GK + AP angle",
+     "te": "లింక్ చెయిన్ · స్టాటిక్ GK + AP కోణం"
+    },
+    "l": [
+     {
+      "en": "Section 301 (Trade Act 1974) = action against 'unfair' foreign trade practices; Section 232 (Trade Expansion Act 1962) = national security tariffs",
+      "te": "సెక్షన్ 301 (వాణిజ్య చట్టం 1974) = 'అన్యాయ' విదేశీ వాణిజ్య విధానాలపై చర్య; సెక్షన్ 232 (వాణిజ్య విస్తరణ చట్టం 1962) = జాతీయ భద్రత సుంకాలు"
+     },
+     {
+      "en": "WTO basics: Most-Favoured-Nation (MFN) principle — no discrimination between trading partners; country-specific tariffs depart from it",
+      "te": "WTO మూలాలు: అత్యంత ప్రాధాన్య దేశం (MFN) సూత్రం — వాణిజ్య భాగస్వాముల మధ్య వివక్ష ఉండరాదు; దేశానికో సుంకం దీనికి భిన్నం"
+     },
+     {
+      "en": "AP angle: AP's export sectors such as seafood (shrimp) and the Visakhapatnam port economy depend on the US market — final rates matter for them",
+      "te": "AP కోణం: సముద్ర ఆహారం (రొయ్యలు) వంటి AP ఎగుమతి రంగాలు, విశాఖపట్నం ఓడరేవు ఆర్థిక వ్యవస్థ అమెరికా మార్కెట్‌పై ఆధారపడతాయి — తుది రేట్లు వాటికి కీలకం"
+     }
+    ]
+   },
+   "trap": {
+    "en": "These tariffs are only PROPOSED (hearings in Jan 2027), not in force. And it is Section 301 of the Trade ACT of 1974 — Section 232 belongs to the Trade EXPANSION Act of 1962. India's 25% is second-highest, after Vietnam's 35%.",
+    "te": "ఈ సుంకాలు ప్రతిపాదనలు మాత్రమే (విచారణ జనవరి 2027) — అమల్లో లేవు. సెక్షన్ 301 వాణిజ్య చట్టం 1974ది; సెక్షన్ 232 వాణిజ్య విస్తరణ చట్టం 1962ది. భారత్‌పై 25% రెండో అత్యధికం — వియత్నాం 35% తర్వాత."
+   },
+   "tip": {
+    "en": "'301 = unfair trade (1974), 232 = security (1962)'; 'India 25 → 17 with a deal'.",
+    "te": "'301 = అన్యాయ వాణిజ్యం (1974), 232 = భద్రత (1962)'; 'భారత్ 25 → ఒప్పందంతో 17'."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the US 'structural excess capacity' tariff proposal of November 2026, consider the following statements:",
+     "te": "నవంబర్ 2026 అమెరికా 'నిర్మాణాత్మక అదనపు సామర్థ్యం' సుంకాల ప్రతిపాదనకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It has been proposed under Section 232 of the Trade Expansion Act of 1962.",
+      "te": "I. దీన్ని వాణిజ్య విస్తరణ చట్టం 1962 సెక్షన్ 232 కింద ప్రతిపాదించారు."
+     },
+     {
+      "en": "II. The proposed rate for India falls from 25% to 17% if an Agreement on Reciprocal Trade is reached.",
+      "te": "II. పరస్పర వాణిజ్య ఒప్పందం కుదిరితే భారత్‌పై ప్రతిపాదిత రేటు 25% నుంచి 17%కి తగ్గుతుంది."
+     },
+     {
+      "en": "III. Among the economies named, the highest proposed rate is for Vietnam.",
+      "te": "III. పేర్కొన్న దేశాల్లో అత్యధిక ప్రతిపాదిత రేటు వియత్నాంపై ఉంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "III only",
+      "te": "III మాత్రమే"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II and III are correct (Vietnam 35%). I is wrong: the proposal is under Section 301 of the Trade Act of 1974; Section 232 goods are exempted.",
+     "te": "II, III సరైనవి (వియత్నాం 35%). I తప్పు: ప్రతిపాదన వాణిజ్య చట్టం 1974 సెక్షన్ 301 కింద; సెక్షన్ 232 వస్తువులకు మినహాయింపు ఉంది."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Proposed Section 301 rates (top rate, %)",
+      "te": "ప్రతిపాదిత సెక్షన్ 301 రేట్లు (గరిష్ఠ రేటు, %)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Vietnam",
+        "te": "వియత్నాం"
+       },
+       "v": 35,
+       "vl": "35%"
+      },
+      {
+       "t": {
+        "en": "India",
+        "te": "భారత్"
+       },
+       "v": 25,
+       "vl": "25%"
+      },
+      {
+       "t": {
+        "en": "China",
+        "te": "చైనా"
+       },
+       "v": 20,
+       "vl": "up to 20%"
+      },
+      {
+       "t": {
+        "en": "Singapore",
+        "te": "సింగపూర్"
+       },
+       "v": 20,
+       "vl": "20%"
+      },
+      {
+       "t": {
+        "en": "Bangladesh",
+        "te": "బంగ్లాదేశ్"
+       },
+       "v": 18,
+       "vl": "18%"
+      },
+      {
+       "t": {
+        "en": "EU / Japan / Korea",
+        "te": "EU / జపాన్ / కొరియా"
+       },
+       "v": 15,
+       "vl": "15%"
+      }
+     ],
+     "cap": {
+      "en": "India's rate falls to 17% (Vietnam's to 20%) if a reciprocal trade deal is signed. All rates are proposals.",
+      "te": "పరస్పర ఒప్పందం కుదిరితే భారత్ రేటు 17%కి (వియత్నాం 20%కి) తగ్గుతుంది. ఇవన్నీ ప్రతిపాదనలే."
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "What happens next",
+      "te": "తర్వాత ఏమవుతుంది"
+     },
+     "items": [
+      {
+       "i": "🔎",
+       "t": {
+        "en": "Probe begins (11 Mar 2026)",
+        "te": "దర్యాప్తు ప్రారంభం (11 మార్చి 2026)"
+       }
+      },
+      {
+       "i": "📢",
+       "t": {
+        "en": "Findings + proposed rates (25 Nov 2026)",
+        "te": "ఫలితాలు + ప్రతిపాదిత రేట్లు (25 నవంబర్ 2026)"
+       }
+      },
+      {
+       "i": "✍️",
+       "t": {
+        "en": "Comments by 5 Jan 2027",
+        "te": "అభిప్రాయాలు 5 జనవరి 2027 లోపు"
+       }
+      },
+      {
+       "i": "🏛️",
+       "t": {
+        "en": "Public hearing from 25 Jan 2027",
+        "te": "బహిరంగ విచారణ 25 జనవరి 2027 నుంచి"
+       }
+      },
+      {
+       "i": "🤝",
+       "t": {
+        "en": "Final rate — 17% for India if trade deal",
+        "te": "తుది రేటు — ఒప్పందమైతే భారత్‌కు 17%"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Wiley — USTR announces affirmative Section 301 determinations and proposes new tariffs on 14 trading partners (Nov 2026)",
+     "u": "https://www.wiley.law/alert-USTR-Announces-Affirmative-Section-301-Determinations-and-Proposes-New-Tariffs-on-14-Trading-Partners-to-Address-Structural-Excess-Capacity"
+    },
+    {
+     "t": "Husch Blackwell (International Trade Insights) — USTR announces proposed Section 301 excess capacity tariffs on fourteen economies (Nov 2026)",
+     "u": "https://www.internationaltradeinsights.com/2026/11/ustr-announces-proposed-section-301-excess-capacity-tariffs-on-fourteen-economies/"
+    },
+    {
+     "t": "The Week — 'No structural excess capacity in any sector': India pushes back against US proposal for 25% tariffs (26 Nov 2026)",
+     "u": "https://www.theweek.in/news/biz-tech/2026/11/26/tariff-india-rejects-us-excess-capacity-allegations.html"
+    },
+    {
+     "t": "Legacy IAS — The Hindu UPSC News Analysis, 26 Nov 2026 (cross-check, sectors at risk)",
+     "u": "https://www.legacyias.com/the-hindu-upsc-news-analysis-for-26-november-2026/"
+    }
+   ],
+   "mains": {
+    "en": "Unilateral tariffs under domestic trade laws challenge the multilateral trading system. Examine the US Section 301 'excess capacity' proposal and suggest India's response. (Group 1 Mains, 15 marks)",
+    "te": "దేశీయ వాణిజ్య చట్టాల కింద ఏకపక్ష సుంకాలు బహుపాక్షిక వాణిజ్య వ్యవస్థకు సవాలు. అమెరికా సెక్షన్ 301 'అదనపు సామర్థ్యం' ప్రతిపాదనను పరిశీలించి భారత్ స్పందనను సూచించండి. (గ్రూప్ 1 మెయిన్స్, 15 మార్కులు)"
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "vpsingh",
+   "q": {
+    "en": "Consider the following statements about V.P. Singh:",
+    "te": "వి.పి. సింగ్ గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. He served as Chief Minister of Uttar Pradesh and as Union Finance Minister before becoming Prime Minister.",
+     "te": "I. ప్రధాని కాకముందు ఆయన ఉత్తరప్రదేశ్ ముఖ్యమంత్రిగా, కేంద్ర ఆర్థిక మంత్రిగా పనిచేశారు."
+    },
+    {
+     "en": "II. He set up the Mandal Commission soon after becoming Prime Minister in 1989.",
+     "te": "II. 1989లో ప్రధాని అయిన వెంటనే ఆయన మండల్ కమిషన్‌ను ఏర్పాటు చేశారు."
+    },
+    {
+     "en": "III. He resigned in November 1990 after losing a vote of confidence in the Lok Sabha.",
+     "te": "III. లోక్‌సభలో విశ్వాస పరీక్షలో ఓడి నవంబర్ 1990లో రాజీనామా చేశారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct. II is the trap: the Mandal Commission was set up in 1979 by the Morarji Desai government; V.P. Singh implemented its report in 1990.",
+    "te": "I, III సరైనవి. II ఉచ్చు: మండల్ కమిషన్‌ను 1979లో మొరార్జీ దేశాయ్ ప్రభుత్వం ఏర్పాటు చేసింది; వి.పి. సింగ్ 1990లో నివేదికను అమలు చేశారు."
+   }
+  },
+  {
+   "topic": "vpsingh",
+   "q": {
+    "en": "Arrange the following events in chronological order:",
+    "te": "కింది ఘటనలను కాలక్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "1. Mandal Commission submits its report",
+     "te": "1. మండల్ కమిషన్ నివేదిక సమర్పణ"
+    },
+    {
+     "en": "2. Indra Sawhney judgment fixes a 50% ceiling",
+     "te": "2. ఇందిరా సాహ్నీ తీర్పు 50% పరిమితి"
+    },
+    {
+     "en": "3. 27% OBC reservation announced in Parliament",
+     "te": "3. పార్లమెంటులో 27% OBC రిజర్వేషన్ ప్రకటన"
+    },
+    {
+     "en": "4. OBC quota extended to central educational institutions",
+     "te": "4. కేంద్ర విద్యాసంస్థలకు OBC కోటా విస్తరణ"
+    }
+   ],
+   "o": [
+    {
+     "en": "1-3-2-4",
+     "te": "1-3-2-4"
+    },
+    {
+     "en": "1-2-3-4",
+     "te": "1-2-3-4"
+    },
+    {
+     "en": "3-1-2-4",
+     "te": "3-1-2-4"
+    },
+    {
+     "en": "1-3-4-2",
+     "te": "1-3-4-2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Report 31 Dec 1980 → announcement 7 Aug 1990 → Indra Sawhney 16 Nov 1992 → education quota 2006. Option (b) wrongly puts the 1992 judgment before the 1990 announcement.",
+    "te": "నివేదిక 31 డిసెంబర్ 1980 → ప్రకటన 7 ఆగస్టు 1990 → ఇందిరా సాహ్నీ 16 నవంబర్ 1992 → విద్యా కోటా 2006. (b)లో 1992 తీర్పును 1990 ప్రకటనకు ముందు పెట్టారు — తప్పు."
+   }
+  },
+  {
+   "topic": "nobelwill",
+   "q": {
+    "en": "Match List-I (Nobel Prize) with List-II (body that decides it, as per the will):",
+    "te": "జాబితా-I (నోబెల్ బహుమతి)ని జాబితా-II (వీలునామా ప్రకారం నిర్ణయించే సంస్థ)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "List-I: A. Physics",
+     "te": "జాబితా-I: A. భౌతికశాస్త్రం"
+    },
+    {
+     "en": "B. Physiology or Medicine",
+     "te": "B. శరీరధర్మశాస్త్రం లేదా వైద్యం"
+    },
+    {
+     "en": "C. Literature",
+     "te": "C. సాహిత్యం"
+    },
+    {
+     "en": "D. Peace",
+     "te": "D. శాంతి"
+    },
+    {
+     "en": "List-II: 1. Karolinska Institute",
+     "te": "జాబితా-II: 1. కరోలిన్స్కా ఇన్‌స్టిట్యూట్"
+    },
+    {
+     "en": "2. Committee chosen by the Norwegian Storting",
+     "te": "2. నార్వే స్టోర్టింగ్ ఎంపిక చేసిన కమిటీ"
+    },
+    {
+     "en": "3. Swedish Academy of Sciences",
+     "te": "3. స్వీడిష్ అకాడమీ ఆఫ్ సైన్సెస్"
+    },
+    {
+     "en": "4. The Academy in Stockholm",
+     "te": "4. స్టాక్‌హోమ్ అకాడమీ"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-3, B-1, C-2, D-4",
+     "te": "A-3, B-1, C-2, D-4"
+    },
+    {
+     "en": "A-1, B-3, C-4, D-2",
+     "te": "A-1, B-3, C-4, D-2"
+    },
+    {
+     "en": "A-4, B-1, C-3, D-2",
+     "te": "A-4, B-1, C-3, D-2"
+    },
+    {
+     "en": "A-3, B-1, C-4, D-2",
+     "te": "A-3, B-1, C-4, D-2"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Physics – Swedish Academy of Sciences; Medicine – Karolinska Institute; Literature – the Academy in Stockholm; Peace – Norwegian Storting's committee. Option (a) wrongly gives Literature to Norway.",
+    "te": "భౌతికశాస్త్రం – స్వీడిష్ అకాడమీ ఆఫ్ సైన్సెస్; వైద్యం – కరోలిన్స్కా; సాహిత్యం – స్టాక్‌హోమ్ అకాడమీ; శాంతి – నార్వే స్టోర్టింగ్ కమిటీ. (a)లో సాహిత్యాన్ని నార్వేకు ఇచ్చారు — తప్పు."
+   }
+  },
+  {
+   "topic": "nobelwill",
+   "q": {
+    "en": "Which of the following statements about the Nobel Prizes is NOT correct?",
+    "te": "నోబెల్ బహుమతుల గురించి కింది వాటిలో సరికానిది ఏది?"
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "Nobel signed his last will at the Swedish-Norwegian Club in Paris in 1895.",
+     "te": "నోబెల్ 1895లో పారిస్‌లోని స్వీడిష్-నార్వేజియన్ క్లబ్‌లో చివరి వీలునామాపై సంతకం చేశారు."
+    },
+    {
+     "en": "The first Nobel Prizes were awarded in 1901, after Nobel's death.",
+     "te": "నోబెల్ మరణానంతరం 1901లో మొదటి బహుమతులు ఇచ్చారు."
+    },
+    {
+     "en": "The Economics prize was one of the five original prizes in the will.",
+     "te": "ఆర్థికశాస్త్ర బహుమతి వీలునామాలోని ఐదు అసలు బహుమతుల్లో ఒకటి."
+    },
+    {
+     "en": "Rabindranath Tagore (1913) was the first Indian Nobel laureate.",
+     "te": "రవీంద్రనాథ్ ఠాగూర్ (1913) తొలి భారతీయ నోబెల్ గ్రహీత."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "(c) is NOT correct: the Economics prize was added in 1968 by Sveriges Riksbank; the will named Physics, Chemistry, Medicine, Literature and Peace. (a), (b), (d) are correct.",
+    "te": "(c) సరికాదు: ఆర్థికశాస్త్ర బహుమతిని 1968లో రిక్స్‌బ్యాంక్ చేర్చింది; వీలునామాలో భౌతిక, రసాయన, వైద్యం, సాహిత్యం, శాంతి మాత్రమే. (a), (b), (d) సరైనవి."
+   }
+  },
+  {
+   "topic": "foplabel",
+   "q": {
+    "en": "With reference to the Supreme Court's front-of-pack labelling order (26 Nov 2026), consider the following statements:",
+    "te": "సుప్రీంకోర్టు ముందు భాగపు లేబులింగ్ ఉత్తర్వు (26 నవంబర్ 2026)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. FSSAI must adopt the thresholds in Table 15.1 of the Dietary Guidelines for Indians, 2024 without change.",
+     "te": "I. భారతీయుల ఆహార మార్గదర్శకాలు 2024 పట్టిక 15.1 పరిమితులను FSSAI మార్పు లేకుండా అమలు చేయాలి."
+    },
+    {
+     "en": "II. The court warned that very low thresholds could cause 'label fatigue' among consumers.",
+     "te": "II. మరీ తక్కువ పరిమితులు వినియోగదారుల్లో 'లేబుల్ అలసట' కలిగిస్తాయని కోర్టు హెచ్చరించింది."
+    },
+    {
+     "en": "III. FSSAI must prepare a clearly defined list of food products exempted from front-of-pack labelling.",
+     "te": "III. ముందు భాగపు లేబులింగ్ నుంచి మినహాయించిన ఆహారాల స్పష్టమైన జాబితాను FSSAI సిద్ధం చేయాలి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II and III are correct. I is wrong: the court said the DGI 2024 Table 15.1 values should NOT be adopted as they stand, because they were based on added sugar and added fat.",
+    "te": "II, III సరైనవి. I తప్పు: DGI 2024 పట్టిక 15.1 విలువలు కలిపిన చక్కెర, కొవ్వు ఆధారంగా ఉన్నందున వాటిని యథాతథంగా తీసుకోరాదని కోర్టు చెప్పింది."
+   }
+  },
+  {
+   "topic": "foplabel",
+   "q": {
+    "en": "A biscuit packet has high saturated fat and high total sugars but normal salt. Under the Supreme Court's directions, what should its front panel show?",
+    "te": "ఒక బిస్కెట్ ప్యాకెట్‌లో సంతృప్త కొవ్వు, మొత్తం చక్కెరలు ఎక్కువ; ఉప్పు సాధారణం. సుప్రీంకోర్టు ఆదేశాల ప్రకారం దాని ముందు భాగంలో ఏముండాలి?"
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "Two separate red hexagons — 'High Fat' and 'High Sugar' — each with a pictogram",
+     "te": "రెండు వేర్వేరు ఎర్ర షడ్భుజాలు — 'High Fat', 'High Sugar' — ఒక్కోదానికి బొమ్మతో"
+    },
+    {
+     "en": "One combined red hexagon listing fat and sugar",
+     "te": "కొవ్వు, చక్కెర రెండూ ఉన్న ఒకే ఉమ్మడి ఎర్ర షడ్భుజం"
+    },
+    {
+     "en": "A star rating ('Indian Nutrition Rating') only",
+     "te": "కేవలం నక్షత్ర రేటింగ్ ('ఇండియన్ న్యూట్రిషన్ రేటింగ్')"
+    },
+    {
+     "en": "Three red hexagons, including 'High Salt'",
+     "te": "'High Salt'తో సహా మూడు ఎర్ర షడ్భుజాలు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "(a): a separate hexagon for each nutrient that crosses the limit. (b) is the rejected single-hexagon idea; (c) was the 2022 draft idea; (d) is wrong because salt is within limits.",
+    "te": "(a): పరిమితి దాటిన ప్రతి పోషకానికి వేర్వేరు షడ్భుజం. (b) కోర్టు తిరస్కరించిన ఒకే షడ్భుజం; (c) 2022 ముసాయిదా ఆలోచన; (d) ఉప్పు పరిమితిలోనే ఉన్నందున తప్పు."
+   }
+  },
+  {
+   "topic": "convstay",
+   "q": {
+    "en": "A sitting MLA is convicted and sentenced to three years in prison. He appeals. Consider the following statements:",
+    "te": "ఒక సిట్టింగ్ ఎమ్మెల్యేకు మూడేళ్ల జైలు శిక్ష పడింది. ఆయన అప్పీల్ చేశారు. కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. He is disqualified from the date of conviction under Section 8(3) of the RPA, 1951.",
+     "te": "I. RPA 1951 సెక్షన్ 8(3) ప్రకారం శిక్ష నిర్ధారణ తేదీ నుంచే ఆయన అనర్హుడు."
+    },
+    {
+     "en": "II. He gets three months to appeal before the disqualification takes effect, under Section 8(4).",
+     "te": "II. సెక్షన్ 8(4) ప్రకారం అనర్హత అమల్లోకి రాకముందు అప్పీల్ చేయడానికి ఆయనకు మూడు నెలల సమయం ఉంటుంది."
+    },
+    {
+     "en": "III. If the appellate court stays his conviction, the disqualification does not operate.",
+     "te": "III. అప్పీల్ కోర్టు శిక్ష నిర్ధారణను నిలిపివేస్తే అనర్హత వర్తించదు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "I and III are correct. II is the trap: Section 8(4) was declared unconstitutional in Lily Thomas (10 July 2013), so the seat is lost with immediate effect.",
+    "te": "I, III సరైనవి. II ఉచ్చు: లిల్లీ థామస్ (10 జులై 2013) తీర్పులో సెక్షన్ 8(4)ను రాజ్యాంగ విరుద్ధంగా ప్రకటించారు; అందువల్ల సభ్యత్వం తక్షణమే పోతుంది."
+   }
+  },
+  {
+   "topic": "convstay",
+   "q": {
+    "en": "Consider the following Assertion (A) and Reason (R):",
+    "te": "కింది నిశ్చితం (A), కారణం (R)లను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "Assertion (A): A High Court should not stay a legislator's conviction merely because he would otherwise be disqualified.",
+     "te": "నిశ్చితం (A): చట్టసభ్యుడు అనర్హుడవుతాడనే కారణం ఒక్కటే చూసి హైకోర్టు ఆయన శిక్ష నిర్ధారణను నిలిపివేయరాదు."
+    },
+    {
+     "en": "Reason (R): Disqualification under Section 8(3) of the RPA, 1951 is a statutory consequence of conviction and sentence.",
+     "te": "కారణం (R): RPA 1951 సెక్షన్ 8(3) కింద అనర్హత శిక్ష నిర్ధారణ, శిక్షల చట్టపరమైన పర్యవసానం."
+    }
+   ],
+   "o": [
+    {
+     "en": "Both A and R are true, and R is the correct explanation of A",
+     "te": "A, R రెండూ నిజం; A కు R సరైన వివరణ"
+    },
+    {
+     "en": "Both A and R are true, but R is not the correct explanation of A",
+     "te": "A, R రెండూ నిజం; కానీ A కు R సరైన వివరణ కాదు"
+    },
+    {
+     "en": "A is true, but R is false",
+     "te": "A నిజం, R తప్పు"
+    },
+    {
+     "en": "A is false, but R is true",
+     "te": "A తప్పు, R నిజం"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "(a): the court said disqualification is a statutory consequence that cannot be avoided 'on mere showing of an arguable case'; so it cannot be the primary ground for a stay. A stay needs a 'palpable mistake' in rare cases.",
+    "te": "(a): అనర్హత చట్టపరమైన పర్యవసానం; కేవలం వాదించదగిన అంశం చూపి తప్పించుకోలేరని కోర్టు చెప్పింది; అందుకే అది స్టేకు ప్రధాన కారణం కాదు. స్టేకు అరుదైన కేసుల్లో 'స్పష్టమైన తప్పు' అవసరం."
+   }
+  },
+  {
+   "topic": "ustariff",
+   "q": {
+    "en": "With reference to the US tariff proposal of 25 November 2026, consider the following statements:",
+    "te": "25 నవంబర్ 2026 అమెరికా సుంకాల ప్రతిపాదనకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The proposed tariffs are already in force from 25 November 2026.",
+     "te": "I. ప్రతిపాదిత సుంకాలు 25 నవంబర్ 2026 నుంచే అమల్లోకి వచ్చాయి."
+    },
+    {
+     "en": "II. Written comments are due by 5 January 2027, followed by a public hearing from 25 January 2027.",
+     "te": "II. లిఖితపూర్వక అభిప్రాయాలకు గడువు 5 జనవరి 2027; తర్వాత 25 జనవరి 2027 నుంచి బహిరంగ విచారణ."
+    },
+    {
+     "en": "III. For economies other than China, goods covered by Section 232 tariffs, such as steel and semiconductors, are exempted.",
+     "te": "III. చైనా కాని దేశాలకు, ఉక్కు, సెమీకండక్టర్ల వంటి సెక్షన్ 232 సుంకాల వస్తువులకు మినహాయింపు ఉంది."
+    },
+    {
+     "en": "IV. India's Commerce Ministry accepted that India has excess capacity in some sectors.",
+     "te": "IV. కొన్ని రంగాల్లో అదనపు సామర్థ్యం ఉందని భారత వాణిజ్య శాఖ అంగీకరించింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II and III are correct. I is wrong — the rates are only proposals. IV is wrong — India said it 'does not have structural excess capacity in any sector'.",
+    "te": "II, III సరైనవి. I తప్పు — రేట్లు ప్రతిపాదనలు మాత్రమే. IV తప్పు — 'ఏ రంగంలోనూ నిర్మాణాత్మక అదనపు సామర్థ్యం లేదు' అని భారత్ చెప్పింది."
+   }
+  },
+  {
+   "topic": "ustariff",
+   "q": {
+    "en": "Match List-I (US law/provision) with List-II (its use):",
+    "te": "జాబితా-I (అమెరికా చట్టం/నిబంధన)ను జాబితా-II (దాని ఉపయోగం)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "List-I: A. Section 301, Trade Act of 1974",
+     "te": "జాబితా-I: A. సెక్షన్ 301, వాణిజ్య చట్టం 1974"
+    },
+    {
+     "en": "B. Section 232, Trade Expansion Act of 1962",
+     "te": "B. సెక్షన్ 232, వాణిజ్య విస్తరణ చట్టం 1962"
+    },
+    {
+     "en": "C. Agreement on Reciprocal Trade",
+     "te": "C. పరస్పర వాణిజ్య ఒప్పందం"
+    },
+    {
+     "en": "D. Forced-labour Section 301 action",
+     "te": "D. బలవంతపు శ్రమపై సెక్షన్ 301 చర్య"
+    },
+    {
+     "en": "List-II: 1. Tariffs on national security grounds",
+     "te": "జాబితా-II: 1. జాతీయ భద్రత కారణంగా సుంకాలు"
+    },
+    {
+     "en": "2. Lowers India's proposed rate to 17%",
+     "te": "2. భారత్ ప్రతిపాదిత రేటును 17%కి తగ్గిస్తుంది"
+    },
+    {
+     "en": "3. Basis of the 'excess capacity' proposal",
+     "te": "3. 'అదనపు సామర్థ్యం' ప్రతిపాదనకు ఆధారం"
+    },
+    {
+     "en": "4. Separate tariffs imposed in July 2026",
+     "te": "4. జులై 2026లో విధించిన వేరే సుంకాలు"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-1, B-3, C-2, D-4",
+     "te": "A-1, B-3, C-2, D-4"
+    },
+    {
+     "en": "A-3, B-1, C-4, D-2",
+     "te": "A-3, B-1, C-4, D-2"
+    },
+    {
+     "en": "A-3, B-1, C-2, D-4",
+     "te": "A-3, B-1, C-2, D-4"
+    },
+    {
+     "en": "A-3, B-2, C-1, D-4",
+     "te": "A-3, B-2, C-1, D-4"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "A-3 (Section 301 is the basis), B-1 (Section 232 = national security), C-2 (deal → 17%), D-4 (July 2026). Option (a) swaps 301 and 232 — the common trap.",
+    "te": "A-3 (సెక్షన్ 301 ఆధారం), B-1 (సెక్షన్ 232 = జాతీయ భద్రత), C-2 (ఒప్పందం → 17%), D-4 (జులై 2026). (a)లో 301, 232 తారుమారు — సాధారణ ఉచ్చు."
+   }
+  }
+ ]
+}
