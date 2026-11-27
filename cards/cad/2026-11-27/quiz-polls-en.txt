@@ -1,0 +1,219 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-27 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Match List-I (project approved by the AP Cabinet on 27 Nov 2026) with List-II (place):
+List-I: A. Kia Plant-2   B. Integrated Titanium Complex   C. Float glass plant   D. 1,000 MW solar project
+List-II: 1. Achyutapuram   2. Mylavaram   3. Penukonda   4. Srikakulam
+
+--- QUESTION ---
+Q1. Match List-I (project approved by the AP Cabinet on 27 Nov 2026) with List-II (place): (statements in the message above)
+
+--- OPTIONS ---
+(a) A-4, B-3, C-1, D-2
+(b) A-3, B-1, C-4, D-2
+(c) A-3, B-4, C-1, D-2
+(d) A-2, B-4, C-1, D-3
+
+--- CORRECT (tick this) ---
+(c) A-3, B-4, C-1, D-2
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(c). Kia Plant-2 – Penukonda (≈₹19,000 cr), Adani titanium complex – Srikakulam, Saint-Gobain float glass – Achyutapuram, 1,000 MW solar – Mylavaram. Trap (b): swapping the two North Andhra projects.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Consider the following statements about the AP Cabinet's decision on the Rushikonda buildings:
+I. The buildings will be used to earn tourism revenue.
+II. They will be given to hospitality firms on an O&M basis under PPP.
+III. The buildings will be sold outright to the highest bidder.
+
+--- QUESTION ---
+Q2. Consider the following statements about the AP Cabinet's decision on the Rushikonda buildings: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(a). The Cabinet accepted the sub-committee's tourism plan and an O&M lease under PPP within 120 days. III is wrong — in an O&M lease the government keeps ownership; nothing is sold.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements about the Polavaram project:
+I. It is built on the river Godavari.
+II. It was declared a national project under the AP Reorganisation Act, 2014.
+III. Its main dam is an earth-cum-rock-fill (ECRF) dam, recently inspected by the PPA CEO.
+
+--- QUESTION ---
+Q3. Consider the following statements about the Polavaram project: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(d) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(d). All three are correct: Godavari; national project under Section 90 of the AP Reorganisation Act 2014; PPA CEO Sanjeev Vohra checked ECRF dam compaction. Trap: confusing Polavaram (Godavari) wi...
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Which of the following statements is INCORRECT?
+
+--- OPTIONS ---
+(a) The April 2026 amendment bill got 298 votes in favour in the Lok Sabha
+(b) A constitutional amendment under Art. 368 needs only a simple majority
+(c) The 106th Amendment (2023) provides one-third seats for women in Lok Sabha and Assemblies
+(d) The new bill proposes a uniform 50% rise in every state's Lok Sabha seats
+
+--- CORRECT (tick this) ---
+(b) A constitutional amendment under Art. 368 needs only a simple majority
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(b) is incorrect. Art. 368 needs a special majority — two-thirds of members present and voting plus a majority of total membership. That is why 298–230 was not enough in April. (a), (c), (d) are co...
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Consider the following statements about the special sitting of Parliament announced for Nov–Dec 2026:
+I. The Lok Sabha reconvenes on 30 November.
+II. The Rajya Sabha meets from 2 December.
+III. It is a new session called after the Monsoon Session was prorogued.
+
+--- QUESTION ---
+Q5. Consider the following statements about the special sitting of Parliament announced for Nov–Dec 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(c). LS from 30 Nov, RS from 2 Dec, both likely till 3 Dec. III is wrong: the Monsoon Session was adjourned sine die on 13 Aug but NOT prorogued, so this sitting extends it. Trap: adjournment sine ...
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following statements about the Colombo Security Conclave (CSC):
+I. Its 8th NSA-level meeting was hosted by the Maldives.
+II. Its 2026–27 roadmap has five pillars, including cyber security and HADR.
+III. Australia and Malaysia took part as full members.
+
+--- QUESTION ---
+Q6. Consider the following statements about the Colombo Security Conclave (CSC): (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(a). The Maldives hosted the 8th meeting; the roadmap has 5 pillars (maritime security, terrorism, trafficking, cyber, HADR). III is wrong — Australia and Malaysia were only guests. Trap: guests vs...
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following statements about Vindhyagiri, delivered to the Navy on 27 Nov 2026:
+I. It is the seventh and last Nilgiri-class (Project 17A) frigate.
+II. It was built by Garden Reach Shipbuilders & Engineers, Kolkata.
+III. It was launched by President Droupadi Murmu in August 2023.
+
+--- QUESTION ---
+Q7. Consider the following statements about Vindhyagiri, delivered to the Navy on 27 Nov 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(d) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(d). All correct: 7th and last P17A ship, 3rd from GRSE Kolkata, launched by President Murmu on 17 Aug 2023. Trap: thinking Mazagon Dock (Mumbai) built it — MDL built the other four.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Consider the following statements about the crop estimates released on 26 Nov 2026:
+I. Foodgrain output in 2025-26 was a record of about 378.5 million tonnes.
+II. Rice output in 2025-26 was higher than wheat output.
+III. The first advance estimate of kharif 2026-27 foodgrains is below the five-year kharif average.
+
+--- QUESTION ---
+Q8. Consider the following statements about the crop estimates released on 26 Nov 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(b). 378.538 MT is a record; rice 155.154 MT > wheat 122.064 MT. III is wrong — kharif 2026-27 (167.143 MT) is 9.767 MT ABOVE the 5-year average despite El Niño. Trap: assuming El Niño means a belo...
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Consider the following statements about India at the 61st Venice Biennale:
+I. The Visitors' Lion is decided by the votes of visitors.
+II. India's pavilion was titled 'Geographies of Distance: Remembering Home'.
+III. This was India's first-ever participation in the Venice Biennale.
+
+--- QUESTION ---
+Q9. Consider the following statements about India at the 61st Venice Biennale: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(c). The Visitors' Lion is a public-vote award; the pavilion (curator Amin Jaffer) was 'Geographies of Distance: Remembering Home'. III is wrong — it was India's first pavilion at the art Biennale ...
+
+==================== Q10 ====================
+--- QUESTION ---
+Q10. Arrange the following offices held by G.V. Mavalankar in chronological order:
+A. Speaker, Bombay Legislative Assembly
+B. President, Central Legislative Assembly
+C. Speaker, Constituent Assembly (Legislative)
+D. Speaker, first Lok Sabha
+
+--- OPTIONS ---
+(a) A-B-C-D
+(b) B-A-C-D
+(c) A-C-B-D
+(d) B-C-A-D
+
+--- CORRECT (tick this) ---
+(a) A-B-C-D
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(a). Bombay Assembly Speaker 1937 → Central Legislative Assembly President 1946 → Constituent Assembly (Legislative) Speaker 17 Nov 1947 → first Lok Sabha Speaker 15 May 1952. Trap (b): placing the...
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/current.html?d=2026-11-27
