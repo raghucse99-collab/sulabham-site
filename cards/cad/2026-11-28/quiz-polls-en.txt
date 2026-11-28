@@ -1,0 +1,200 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-11-28 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider these statements on AP gram panchayat polls (phase 2, 29 Nov 2026):
+I. They are conducted by the State Election Commission under Article 243K.
+II. The Upa-Sarpanch is elected directly by all voters of the village.
+III. In this phase, 1,171 sarpanch posts were decided unopposed.
+
+--- QUESTION ---
+Q1. Consider these statements on AP gram panchayat polls (phase 2, 29 Nov 2026): (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(b). I: panchayat polls are run by the SEC (Art. 243K), not the ECI. III: 1,171 unopposed, 3,803 went to poll. II is the trap — the Upa-Sarpanch is chosen by the elected ward members on poll day, n...
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Match List-I (year of amendment) with List-II (languages added to the Eighth Schedule):
+List-I: A. 1967   B. 1992   C. 2003
+List-II: 1. Bodo, Dogri, Maithili, Santali   2. Sindhi   3. Konkani, Manipuri, Nepali
+
+--- OPTIONS ---
+(a) A-2, B-1, C-3
+(b) A-3, B-2, C-1
+(c) A-1, B-3, C-2
+(d) A-2, B-3, C-1
+
+--- CORRECT (tick this) ---
+(d) A-2, B-3, C-1
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(d). 1967 (21st Amd) – Sindhi; 1992 (71st) – Konkani, Manipuri, Nepali; 2003 (92nd) – Bodo, Dogri, Maithili, Santali. 14+1+3+4 = 22. Trap (a): swapping the 1992 and 2003 groups.
+
+==================== Q3 ====================
+--- QUESTION ---
+Q3. Which of the following statements about the Constitution Day 2026 release is INCORRECT?
+
+--- OPTIONS ---
+(a) It was released by Vice-President C.P. Radhakrishnan
+(b) It covered all 22 languages of the Eighth Schedule
+(c) English is one of the 22 Eighth Schedule languages
+(d) It was organised by the Legislative Department, Law Ministry
+
+--- CORRECT (tick this) ---
+(c) English is one of the 22 Eighth Schedule languages
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(c) is incorrect — English is NOT in the Eighth Schedule (it is used under Art. 343(2)/Art. 348). The VP released the editions at Vigyan Bhawan on 26 Nov; the Legislative Department organised it.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. Consider the following statements about the RBI's CRR decision of 27 Nov 2026:
+I. The CRR rate was cut from 4% to 3% of NDTL.
+II. The minimum daily CRR balance fell from 99% to 90% of the requirement.
+III. Banks must still meet the full CRR on a fortnightly average.
+
+--- QUESTION ---
+Q4. Consider the following statements about the RBI's CRR decision of 27 Nov 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) II and III only
+(b) I and II only
+(c) III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(a). Only the daily floor changed (99% → 90%, from the fortnight starting 1 Dec); the fortnightly average must be full. I is the trap — CRR stays at 3%; nothing was cut.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Consider the following statements about the Indian Ocean Rim Association (IORA):
+I. Its secretariat is in Ebene, Mauritius.
+II. India chairs IORA for 2025–2027 and hosted the 25th Council of Ministers.
+III. It has 23 member states and was founded in 1997.
+
+--- QUESTION ---
+Q5. Consider the following statements about the Indian Ocean Rim Association (IORA): (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(d) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(d). All three are correct: HQ Ebene (Mauritius), founded 7 March 1997, 23 members + 12 dialogue partners, India Chair 2025–27 (Jaishankar chaired the 25th CoM in New Delhi). Trap: assuming the sec...
+
+==================== Q6 ====================
+--- QUESTION ---
+Q6. Match List-I (ITU event / body) with List-II (place):
+List-I: A. PP-26 (2026)   B. PP-30 (2030)   C. WTSA-28 (2028)   D. ITU headquarters
+List-II: 1. Geneva   2. Samarkand   3. India   4. Doha
+
+--- OPTIONS ---
+(a) A-3, B-4, C-2, D-1
+(b) A-4, B-3, C-2, D-1
+(c) A-4, B-3, C-1, D-2
+(d) A-2, B-3, C-4, D-1
+
+--- CORRECT (tick this) ---
+(b) A-4, B-3, C-2, D-1
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(b). PP-26 was held in Doha (Qatar); India hosts PP-30 in 2030; WTSA-28 goes to Samarkand (Uzbekistan); ITU HQ is Geneva. Trap (a): thinking India hosted the 2026 conference.
+
+==================== Q7 ====================
+--- QUESTION ---
+Q7. Consider the following statements about the Sivok–Rangpo new rail line:
+I. Tunnel No. 10 (5.3 km) is its longest tunnel.
+II. Pakyong, on its route, is a district of West Bengal.
+III. Tunnels make up about 86% of the 45-km route.
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I and III only
+(d) I only
+
+--- CORRECT (tick this) ---
+(c) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(c). I and III are correct (all 14 tunnels now excavated; 23 bridges). II is wrong — Pakyong is in Sikkim; Darjeeling and Kalimpong are the West Bengal districts.
+
+==================== Q8 ====================
+--- QUESTION ---
+Q8. Assertion (A): India is unlikely to meet the 2026 measles–rubella elimination goal. Reason (R): India's measles vaccine coverage is below 50%.
+
+--- OPTIONS ---
+(a) Both A and R are true, and R explains A
+(b) Both A and R are true, but R does not explain A
+(c) A is true, but R is false
+(d) A is false, but R is true
+
+--- CORRECT (tick this) ---
+(c) A is true, but R is false
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(c). A is true (WHO: new targets — interrupt by 2029, verify by 2032). R is false — coverage is 98% (dose 1) and 95% (dose 2). The gap is in remote pockets, hesitancy and the rule of 3 straight yea...
+
+==================== Q9 ====================
+--- QUESTION ---
+Q9. Arrange the expected stages of the Bay of Bengal weather system (IMD forecast, late Nov 2026) in the correct order:
+1. Depression   2. Cyclonic circulation   3. Low-pressure area
+
+--- OPTIONS ---
+(a) 2 → 3 → 1
+(b) 1 → 2 → 3
+(c) 3 → 2 → 1
+(d) 2 → 1 → 3
+
+--- CORRECT (tick this) ---
+(a) 2 → 3 → 1
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(a). Cyclonic circulation over the south Andaman Sea (29 Nov) → low-pressure area (30 Nov) → depression (by 2 Dec). A depression is stronger than a low; next stages would be deep depression and cyc...
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Consider the following statements about recent AP news:
+I. Gandikota, the new NIMAS regional centre, is a gorge on the Penna river.
+II. NIMAS works under the Ministry of Tourism.
+III. AP's ₹4,851-crore cyclone-proof power plan asks the Centre to fund 90%.
+
+--- QUESTION ---
+Q10. Consider the following statements about recent AP news: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(b). I: Gandikota (YSR Kadapa) is the Penna gorge. III: Centre 90 : State 10, over 2027-28 to 2029-30. II is the trap — NIMAS is under the Ministry of Defence, even though AP's Tourism Minister att...
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://sulabham.in/current.html?d=2026-11-28

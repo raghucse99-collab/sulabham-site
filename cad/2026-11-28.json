@@ -1,0 +1,1684 @@
+{
+ "date": "2026-11-28",
+ "day": {
+  "en": "Saturday, 28 November 2026",
+  "te": "శనివారం, 28 నవంబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "appolls2",
+   "cat": "ap",
+   "title": {
+    "en": "AP gram panchayat polls: phase 2 on 29 Nov — 1,171 sarpanches already unopposed",
+    "te": "ఏపీ పంచాయతీ ఎన్నికలు: నవంబర్ 29న రెండో దశ — 1,171 సర్పంచ్‌లు ఏకగ్రీవం"
+   },
+   "pts": [
+    {
+     "en": "The AP State Election Commission (SEC), headed by Anil Chandra Punetha, holds the second phase of gram panchayat polls on 29 November in 27 districts.",
+     "te": "అనిల్ చంద్ర పునేఠ నేతృత్వంలోని ఏపీ రాష్ట్ర ఎన్నికల సంఘం (SEC) నవంబర్ 29న 27 జిల్లాల్లో గ్రామ పంచాయతీ రెండో దశ ఎన్నికలు నిర్వహిస్తోంది."
+    },
+    {
+     "en": "In this phase 1,171 sarpanch posts were filled unopposed; voting is needed for the remaining 3,803 sarpanch posts.",
+     "te": "ఈ దశలో 1,171 సర్పంచ్ పదవులు ఏకగ్రీవమయ్యాయి; మిగిలిన 3,803 సర్పంచ్ పదవులకు పోలింగ్ జరుగుతుంది."
+    },
+    {
+     "en": "Polling is from 7 am to 1 pm; counting starts at 2 pm the same day, and the Upa-Sarpanch (deputy) is elected on the same day. Re-poll, if needed, on 30 November.",
+     "te": "పోలింగ్ ఉదయం 7 నుంచి మధ్యాహ్నం 1 వరకు; అదే రోజు మధ్యాహ్నం 2 నుంచి లెక్కింపు, అదే రోజు ఉప సర్పంచ్ ఎన్నిక. అవసరమైతే నవంబర్ 30న రీ-పోలింగ్."
+    },
+    {
+     "en": "Phase 1 was held on 26 November; one more phase remains.",
+     "te": "మొదటి దశ నవంబర్ 26న జరిగింది; ఇంకో దశ మిగిలి ఉంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Poll date",
+      "te": "పోలింగ్ తేదీ"
+     },
+     {
+      "en": "29 Nov 2026 · 7 am–1 pm",
+      "te": "29 నవం 2026 · ఉ.7–మ.1"
+     }
+    ],
+    [
+     {
+      "en": "Unopposed sarpanches",
+      "te": "ఏకగ్రీవ సర్పంచ్‌లు"
+     },
+     {
+      "en": "1,171",
+      "te": "1,171"
+     }
+    ],
+    [
+     {
+      "en": "Sarpanch posts going to poll",
+      "te": "పోలింగ్ జరిగే సర్పంచ్ పదవులు"
+     },
+     {
+      "en": "3,803",
+      "te": "3,803"
+     }
+    ],
+    [
+     {
+      "en": "Conducted by",
+      "te": "నిర్వహణ"
+     },
+     {
+      "en": "AP State Election Commission (Art. 243K)",
+      "te": "ఏపీ రాష్ట్ర ఎన్నికల సంఘం (ఆర్టికల్ 243K)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: panchayat elections are run by the State Election Commission (Art. 243K, 73rd Amendment 1992), NOT by the Election Commission of India. Trap: the Upa-Sarpanch is chosen by the elected ward members, not directly by voters.",
+    "te": "స్టాటిక్ లింక్: పంచాయతీ ఎన్నికలు రాష్ట్ర ఎన్నికల సంఘం నిర్వహిస్తుంది (ఆర్టికల్ 243K, 73వ సవరణ 1992) — భారత ఎన్నికల సంఘం కాదు. ట్రాప్: ఉప సర్పంచ్‌ను ఓటర్లు నేరుగా కాదు, ఎన్నికైన వార్డు సభ్యులు ఎన్నుకుంటారు."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "Phase-2 poll day, step by step",
+      "te": "రెండో దశ పోలింగ్ రోజు — దశలవారీగా"
+     },
+     "items": [
+      {
+       "i": "🗳️",
+       "t": {
+        "en": "Voting 7 am–1 pm",
+        "te": "పోలింగ్ ఉ.7–మ.1"
+       }
+      },
+      {
+       "i": "🔢",
+       "t": {
+        "en": "Counting from 2 pm",
+        "te": "మ.2 నుంచి లెక్కింపు"
+       }
+      },
+      {
+       "i": "🏅",
+       "t": {
+        "en": "Sarpanch & ward results",
+        "te": "సర్పంచ్, వార్డు ఫలితాలు"
+       }
+      },
+      {
+       "i": "🤝",
+       "t": {
+        "en": "Upa-Sarpanch elected by ward members",
+        "te": "వార్డు సభ్యులచే ఉప సర్పంచ్ ఎన్నిక"
+       }
+      },
+      {
+       "i": "🔁",
+       "t": {
+        "en": "Re-poll if needed: 30 Nov",
+        "te": "అవసరమైతే రీ-పోల్: 30 నవం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Deccan Chronicle — AP: Phase-II gram panchayat polls on Nov 29, 16 Nov 2026",
+     "u": "https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/ap-phase-ii-gram-panchayat-polls-on-nov-29-2005004"
+    },
+    {
+     "t": "Andhra Jyothy — live updates, 28 Nov 2026 (1,171 unopposed, 3,803 to poll)",
+     "u": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-28th-november-2026-3727.html"
+    },
+    {
+     "t": "The Hans India — Tirupati district gears up for second phase, 17 Nov 2026",
+     "u": "https://www.thehansindia.com/news/cities/tirupathi/tirupati-district-gears-up-for-second-phase-of-rural-local-body-elections-1142848"
+    }
+   ]
+  },
+  {
+   "id": "appower",
+   "cat": "ap",
+   "title": {
+    "en": "AP seeks ₹4,851 crore from the Centre for a cyclone-proof power network",
+    "te": "తుపానులను తట్టుకునే విద్యుత్ వ్యవస్థకు కేంద్రం నుంచి ₹4,851 కోట్లు కోరిన ఏపీ"
+   },
+   "pts": [
+    {
+     "en": "At the meeting of State power ministers in New Delhi (27–28 Nov), AP Energy Minister Gottipati Ravikumar met Union Power Minister Manohar Lal.",
+     "te": "న్యూఢిల్లీలో రాష్ట్రాల విద్యుత్ మంత్రుల సమావేశంలో (27–28 నవం) ఏపీ ఇంధన శాఖ మంత్రి గొట్టిపాటి రవికుమార్ కేంద్ర విద్యుత్ మంత్రి మనోహర్ లాల్‌ను కలిశారు."
+    },
+    {
+     "en": "Why: cyclones Arnab and Murasu damaged poles, transformers and substations, cutting power to lakhs of consumers.",
+     "te": "ఎందుకు: ఆర్నబ్, మురసు తుపానులు స్తంభాలు, ట్రాన్స్‌ఫార్మర్లు, సబ్‌స్టేషన్లను దెబ్బతీసి లక్షల మందికి విద్యుత్ నిలిచిపోయింది."
+    },
+    {
+     "en": "Plan: underground cables and stronger spun poles in vulnerable coastal areas — ₹4,851 crore over 3 years (2027-28 to 2029-30).",
+     "te": "ప్రణాళిక: తీర ప్రాంతాల్లో భూగర్భ కేబుళ్లు, బలమైన స్పన్ స్తంభాలు — 3 ఏళ్లలో (2027-28 నుంచి 2029-30) ₹4,851 కోట్లు."
+    },
+    {
+     "en": "AP asked the Centre to bear 90% of the cost; the State will pay 10%.",
+     "te": "ఖర్చులో 90% కేంద్రం భరించాలని, 10% రాష్ట్రం భరిస్తుందని ఏపీ కోరింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Estimated cost",
+      "te": "అంచనా వ్యయం"
+     },
+     {
+      "en": "₹4,851 crore",
+      "te": "₹4,851 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Funding asked",
+      "te": "కోరిన నిధుల వాటా"
+     },
+     {
+      "en": "Centre 90 : State 10",
+      "te": "కేంద్రం 90 : రాష్ట్రం 10"
+     }
+    ],
+    [
+     {
+      "en": "Period",
+      "te": "కాలం"
+     },
+     {
+      "en": "FY 2027-28 to 2029-30",
+      "te": "2027-28 నుంచి 2029-30"
+     }
+    ],
+    [
+     {
+      "en": "Cyclones named",
+      "te": "తుపానులు"
+     },
+     {
+      "en": "Arnab, Murasu",
+      "te": "ఆర్నబ్, మురసు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Link to disaster management: AP's 974-km coastline (second-longest in India after Gujarat) makes it cyclone-prone; 'resilient infrastructure' = build back better. Trap: the ₹4,851 crore is only a PROPOSAL — not yet sanctioned.",
+    "te": "విపత్తు నిర్వహణ లింక్: ఏపీ 974 కి.మీ. తీరరేఖ (గుజరాత్ తర్వాత దేశంలో రెండో పొడవైనది) వల్ల తుపానుల ముప్పు ఎక్కువ. ట్రాప్: ₹4,851 కోట్లు ఇంకా ప్రతిపాదన మాత్రమే — మంజూరు కాలేదు."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "From cyclone damage to a stronger grid",
+      "te": "తుపాను నష్టం నుంచి బలమైన గ్రిడ్ వైపు"
+     },
+     "items": [
+      {
+       "i": "🌀",
+       "t": {
+        "en": "Cyclones Arnab & Murasu",
+        "te": "ఆర్నబ్, మురసు తుపానులు"
+       }
+      },
+      {
+       "i": "⚡",
+       "t": {
+        "en": "Poles, transformers, substations damaged",
+        "te": "స్తంభాలు, ట్రాన్స్‌ఫార్మర్లు, సబ్‌స్టేషన్లకు నష్టం"
+       }
+      },
+      {
+       "i": "🔌",
+       "t": {
+        "en": "Underground cables + spun poles",
+        "te": "భూగర్భ కేబుళ్లు + స్పన్ స్తంభాలు"
+       }
+      },
+      {
+       "i": "💰",
+       "t": {
+        "en": "₹4,851 cr · Centre 90%",
+        "te": "₹4,851 కోట్లు · కేంద్రం 90%"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India (IANS) — AP seeks Centre's support for cyclone-resilient power infrastructure, 27 Nov 2026",
+     "u": "https://www.thehansindia.com/news/cities/amaravati/andhra-pradesh-seeks-centres-support-for-cyclone-resilient-power-infrastructure-1146383"
+    },
+    {
+     "t": "CrackTarget — Current Affairs 28 Nov 2026 (Power Ministers' Conference, 27–28 Nov) [cross-check]",
+     "u": "https://cracktarget.com/current-affairs-28-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "gandikota",
+   "cat": "ap",
+   "title": {
+    "en": "Gandikota to become South India's adventure sports hub — MoU with NIMAS",
+    "te": "దక్షిణ భారత సాహస క్రీడల కేంద్రంగా గండికోట — NIMASతో ఒప్పందం"
+   },
+   "pts": [
+    {
+     "en": "The Adventure Sports Academy (ASA), Gandikota signed an MoU with NIMAS (National Institute of Mountaineering and Adventure Sports, under the Ministry of Defence) on 27 Nov, in the presence of Tourism Minister Kandula Durgesh.",
+     "te": "గండికోట అడ్వెంచర్ స్పోర్ట్స్ అకాడమీ (ASA) నవంబర్ 27న పర్యాటక మంత్రి కందుల దుర్గేష్ సమక్షంలో రక్షణ శాఖ పరిధిలోని NIMAS (నేషనల్ ఇన్‌స్టిట్యూట్ ఆఫ్ మౌంటెనీరింగ్ అండ్ అడ్వెంచర్ స్పోర్ట్స్)తో ఒప్పందం చేసుకుంది."
+    },
+    {
+     "en": "ASA Gandikota will be NIMAS's regional training centre for South India — trekking, rock climbing, kayaking, water rescue, wilderness first aid.",
+     "te": "ASA గండికోట దక్షిణ భారతదేశానికి NIMAS ప్రాంతీయ శిక్షణ కేంద్రంగా ఉంటుంది — ట్రెక్కింగ్, రాక్ క్లైంబింగ్, కయాకింగ్, నీటి రక్షణ, అడవుల్లో ప్రథమ చికిత్స."
+    },
+    {
+     "en": "The first combined basic + intermediate paramotor course will run at Gandikota from 6 to 31 January 2027.",
+     "te": "తొలి బేసిక్ + ఇంటర్మీడియట్ పారామోటార్ కోర్సు గండికోటలో 2027 జనవరి 6–31 వరకు జరుగుతుంది."
+    },
+    {
+     "en": "APTDC earned an operational surplus of ₹15.70 crore in 2025-26 and served over 27 lakh tourists.",
+     "te": "2025-26లో APTDCకి ₹15.70 కోట్ల నిర్వహణ మిగులు, 27 లక్షలకు పైగా పర్యాటకులు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Place",
+      "te": "ప్రదేశం"
+     },
+     {
+      "en": "Gandikota, YSR Kadapa district (Penna gorge)",
+      "te": "గండికోట, వైఎస్ఆర్ కడప జిల్లా (పెన్నా లోయ)"
+     }
+    ],
+    [
+     {
+      "en": "Partner",
+      "te": "భాగస్వామి"
+     },
+     {
+      "en": "NIMAS (Ministry of Defence)",
+      "te": "NIMAS (రక్షణ శాఖ)"
+     }
+    ],
+    [
+     {
+      "en": "First paramotor course",
+      "te": "తొలి పారామోటార్ కోర్సు"
+     },
+     {
+      "en": "6–31 Jan 2027",
+      "te": "6–31 జనవరి 2027"
+     }
+    ],
+    [
+     {
+      "en": "APTDC surplus 2025-26",
+      "te": "APTDC మిగులు 2025-26"
+     },
+     {
+      "en": "₹15.70 crore",
+      "te": "₹15.70 కోట్లు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "AP geography link: Gandikota — the 'Grand Canyon of India' — is a gorge cut by the Penna (Pennar) river through the Erramala hills in YSR Kadapa district. Trap: it is on the Penna, not the Krishna or Tungabhadra.",
+    "te": "ఏపీ భౌగోళిక లింక్: 'గ్రాండ్ కాన్యన్ ఆఫ్ ఇండియా' గండికోట — వైఎస్ఆర్ కడప జిల్లాలో ఎర్రమల కొండల గుండా పెన్నా నది చేసిన లోయ. ట్రాప్: ఇది పెన్నాపై ఉంది — కృష్ణ లేదా తుంగభద్రపై కాదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "ap",
+     "h": {
+      "en": "Gandikota on the Penna river",
+      "te": "పెన్నా నదిపై గండికోట"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#cfe3c4",
+     "rivers": [
+      "Penna",
+      "Krishna"
+     ],
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        14.81,
+        78.29
+       ],
+       "t": {
+        "en": "Gandikota",
+        "te": "గండికోట"
+       }
+      },
+      {
+       "ll": [
+        16.51,
+        80.52
+       ],
+       "t": {
+        "en": "Amaravati (MoU)",
+        "te": "అమరావతి (ఒప్పందం)"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "Gandikota is in Rayalaseema (YSR Kadapa); the MoU was signed at the Secretariat, Amaravati.",
+      "te": "గండికోట రాయలసీమలో (వైఎస్ఆర్ కడప); ఒప్పందం అమరావతి సచివాలయంలో జరిగింది."
+     },
+     "src": "cards/cad/2026-11-28/map-gandikota-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India — Gandikota to soar as South India adventure hub, 28 Nov 2026",
+     "u": "https://www.thehansindia.com/news/cities/amaravati/gandikota-to-soar-as-south-india-adventure-hub-1146463"
+    }
+   ]
+  },
+  {
+   "id": "aprain",
+   "cat": "env",
+   "title": {
+    "en": "Northeast winds bring rain to AP; a low-pressure system may form in the Bay of Bengal",
+    "te": "ఈశాన్య గాలులతో ఏపీలో వర్షాలు; బంగాళాఖాతంలో అల్పపీడనం ఏర్పడే అవకాశం"
+   },
+   "pts": [
+    {
+     "en": "Amaravati Meteorological Centre: northeast winds blow over AP and Yanam; light to moderate rain likely in coastal AP, Yanam and Rayalaseema for three days.",
+     "te": "అమరావతి వాతావరణ కేంద్రం: ఏపీ, యానాంపై ఈశాన్య గాలులు; మూడు రోజులు కోస్తా ఏపీ, యానాం, రాయలసీమలో తేలికపాటి నుంచి మోస్తరు వర్షాలు."
+    },
+    {
+     "en": "A cyclonic circulation is expected over the south Andaman Sea on 29 Nov → a low-pressure area by 30 Nov → a depression by 2 Dec.",
+     "te": "నవంబర్ 29న దక్షిణ అండమాన్ సముద్రంపై ఉపరితల ఆవర్తనం → 30 నాటికి అల్పపీడనం → డిసెంబర్ 2 నాటికి వాయుగుండం ఏర్పడే అవకాశం."
+    },
+    {
+     "en": "Thunder and lightning alerts for Nellore, Annamayya and Tirupati districts; coastal winds may reach 60 km/h.",
+     "te": "నెల్లూరు, అన్నమయ్య, తిరుపతి జిల్లాలకు ఉరుములు, పిడుగుల హెచ్చరిక; తీరంలో గాలుల వేగం గంటకు 60 కి.మీ. వరకు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "29 Nov",
+      "te": "29 నవం"
+     },
+     {
+      "en": "Cyclonic circulation, south Andaman Sea",
+      "te": "ఉపరితల ఆవర్తనం, దక్షిణ అండమాన్ సముద్రం"
+     }
+    ],
+    [
+     {
+      "en": "30 Nov",
+      "te": "30 నవం"
+     },
+     {
+      "en": "Low-pressure area (likely)",
+      "te": "అల్పపీడనం (అవకాశం)"
+     }
+    ],
+    [
+     {
+      "en": "By 2 Dec",
+      "te": "2 డిసెం నాటికి"
+     },
+     {
+      "en": "Depression (likely)",
+      "te": "వాయుగుండం (అవకాశం)"
+     }
+    ],
+    [
+     {
+      "en": "Coastal winds",
+      "te": "తీర గాలులు"
+     },
+     {
+      "en": "up to 60 km/h",
+      "te": "గంటకు 60 కి.మీ. వరకు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: Oct–Dec is the northeast (retreating) monsoon — the main rain season for south coastal AP and Rayalaseema. IMD stages: low → depression → deep depression → cyclonic storm. Trap: Yanam lies inside AP's East Godavari region but belongs to the UT of Puducherry.",
+    "te": "స్టాటిక్ లింక్: అక్టోబర్–డిసెంబర్ ఈశాన్య (తిరోగమన) రుతుపవనాల కాలం — దక్షిణ కోస్తా, రాయలసీమకు ప్రధాన వర్షాకాలం. IMD దశలు: అల్పపీడనం → వాయుగుండం → తీవ్ర వాయుగుండం → తుపాను. ట్రాప్: యానాం ఏపీలోని తూర్పు గోదావరి ప్రాంతంలో ఉన్నా పుదుచ్చేరి కేంద్రపాలిత ప్రాంతానికి చెందింది."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": [
+      76.0,
+      5.0,
+      99.0,
+      20.5
+     ],
+     "h": {
+      "en": "Where the weather system starts",
+      "te": "వాతావరణ వ్యవస్థ ఎక్కడ మొదలవుతుంది"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#cfe3c4",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        14.44,
+        79.99
+       ],
+       "t": {
+        "en": "Nellore",
+        "te": "నెల్లూరు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.73,
+        82.22
+       ],
+       "t": {
+        "en": "Yanam",
+        "te": "యానాం"
+       }
+      },
+      {
+       "ll": [
+        9.0,
+        95.5
+       ],
+       "t": {
+        "en": "Circulation · 29 Nov",
+        "te": "ఆవర్తనం · 29 నవం"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "A cyclonic circulation over the south Andaman Sea may strengthen into a low and then a depression while AP gets northeast-wind rain.",
+      "te": "దక్షిణ అండమాన్ సముద్రంపై ఆవర్తనం అల్పపీడనంగా, తర్వాత వాయుగుండంగా బలపడవచ్చు; ఏపీకి ఈశాన్య గాలుల వర్షాలు."
+     },
+     "src": "cards/cad/2026-11-28/map-aprain-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Webdunia Telugu — Northeast winds, moderate rain in AP, Yanam, Rayalaseema, 28 Nov 2026",
+     "u": "https://telugu.webdunia.com/article/andhra-pradesh-news/rain-and-thunderstorms-forecast-as-cyclonic-circulation-develops-over-bay-of-bengal-126112800015_1.html"
+    }
+   ]
+  },
+  {
+   "id": "const22",
+   "cat": "polity",
+   "title": {
+    "en": "Constitution of India released in all 22 Eighth Schedule languages for the first time",
+    "te": "తొలిసారిగా ఎనిమిదో షెడ్యూల్‌లోని 22 భాషల్లోనూ భారత రాజ్యాంగం విడుదల"
+   },
+   "pts": [
+    {
+     "en": "On Constitution Day (26 Nov), Vice-President C.P. Radhakrishnan released updated editions of the Constitution in all 22 languages of the Eighth Schedule at Vigyan Bhawan, New Delhi.",
+     "te": "రాజ్యాంగ దినోత్సవం (నవం 26) సందర్భంగా ఉపరాష్ట్రపతి సి.పి. రాధాకృష్ణన్ న్యూఢిల్లీ విజ్ఞాన్ భవన్‌లో ఎనిమిదో షెడ్యూల్‌లోని 22 భాషల్లో రాజ్యాంగ నవీకరించిన ప్రతులను విడుదల చేశారు."
+    },
+    {
+     "en": "Organised by the Legislative Department, Ministry of Law and Justice; Law MoS (I/C) Arjun Ram Meghwal attended. It marked the Constitution's 77th year.",
+     "te": "న్యాయ శాఖ పరిధిలోని శాసన విభాగం (Legislative Department) నిర్వహించింది; న్యాయ శాఖ సహాయ మంత్రి (స్వతంత్ర) అర్జున్ రామ్ మేఘ్వాల్ పాల్గొన్నారు. రాజ్యాంగ 77వ సంవత్సరం సందర్భంగా."
+    },
+    {
+     "en": "Why it matters: citizens can read the Constitution in their mother tongue (Telugu included) — more constitutional awareness.",
+     "te": "ప్రాముఖ్యం: పౌరులు తమ మాతృభాషలో (తెలుగుతో సహా) రాజ్యాంగం చదవవచ్చు — రాజ్యాంగ అవగాహన పెరుగుతుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Eighth Schedule at start (1950)",
+      "te": "ప్రారంభంలో (1950)"
+     },
+     {
+      "en": "14 languages",
+      "te": "14 భాషలు"
+     }
+    ],
+    [
+     {
+      "en": "1967 · 21st Amendment",
+      "te": "1967 · 21వ సవరణ"
+     },
+     {
+      "en": "Sindhi",
+      "te": "సింధీ"
+     }
+    ],
+    [
+     {
+      "en": "1992 · 71st Amendment",
+      "te": "1992 · 71వ సవరణ"
+     },
+     {
+      "en": "Konkani, Manipuri, Nepali",
+      "te": "కొంకణి, మణిపురి, నేపాలీ"
+     }
+    ],
+    [
+     {
+      "en": "2003 · 92nd Amendment",
+      "te": "2003 · 92వ సవరణ"
+     },
+     {
+      "en": "Bodo, Dogri, Maithili, Santali",
+      "te": "బోడో, డోగ్రీ, మైథిలీ, సంతాలీ"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Memory: 14 + 1 + 3 + 4 = 22. Constitution Day is observed since 2015 (adoption on 26 Nov 1949). Trap: English is NOT in the Eighth Schedule; official language provisions are Articles 343–351 (Part XVII).",
+    "te": "మెమరీ: 14 + 1 + 3 + 4 = 22. 2015 నుంచి రాజ్యాంగ దినోత్సవం (1949 నవం 26న ఆమోదం). ట్రాప్: ఇంగ్లీష్ ఎనిమిదో షెడ్యూల్‌లో లేదు; అధికార భాషా నిబంధనలు ఆర్టికల్స్ 343–351 (భాగం XVII)."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "How the Eighth Schedule grew to 22",
+      "te": "ఎనిమిదో షెడ్యూల్ 22కి ఎలా పెరిగింది"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "1950",
+        "te": "1950"
+       },
+       "v": 14,
+       "vl": "14"
+      },
+      {
+       "t": {
+        "en": "1967 (+Sindhi)",
+        "te": "1967 (+సింధీ)"
+       },
+       "v": 15,
+       "vl": "15"
+      },
+      {
+       "t": {
+        "en": "1992 (+3)",
+        "te": "1992 (+3)"
+       },
+       "v": 18,
+       "vl": "18"
+      },
+      {
+       "t": {
+        "en": "2003 (+4)",
+        "te": "2003 (+4)"
+       },
+       "v": 22,
+       "vl": "22"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "WebIndia123 (ANI) — VP Radhakrishnan releases updated editions of Constitution in 22 languages, 26 Nov 2026",
+     "u": "https://news.webindia123.com/news/Articles/India/20261126/4524804.html"
+    },
+    {
+     "t": "PIB — Updated edition of the Constitution of India released in all 22 Scheduled Languages on Constitution Day 2026",
+     "u": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2341972&reg=48&lang=1"
+    },
+    {
+     "t": "GKToday — India releases updated Constitution in 22 Scheduled Languages, 27 Nov 2026 [cross-check]",
+     "u": "https://www.gktoday.in/india-releases-updated-constitution-in-22-scheduled-languages/"
+    }
+   ]
+  },
+  {
+   "id": "crr",
+   "cat": "economy",
+   "title": {
+    "en": "RBI eases daily CRR rule: banks need keep only 90% of CRR on any day (was 99%)",
+    "te": "రోజువారీ CRR నిబంధన సడలింపు: ఏ రోజైనా 90% ఉంచితే చాలు (గతంలో 99%)"
+   },
+   "pts": [
+    {
+     "en": "CRR (Cash Reserve Ratio) = the share of deposits (NDTL) banks must keep as cash with the RBI. It stays at 3% — unchanged.",
+     "te": "CRR (నగదు నిల్వల నిష్పత్తి) = బ్యాంకులు డిపాజిట్లలో (NDTL) నగదుగా ఆర్‌బీఐ వద్ద ఉంచాల్సిన వాటా. ఇది 3% వద్దే — మార్పు లేదు."
+    },
+    {
+     "en": "What changed (27 Nov): the minimum a bank must hold on any single day falls from 99% to 90% of its CRR requirement, from the fortnight beginning 1 December 2026. The fortnightly average must still be full.",
+     "te": "మార్పు (నవం 27): ఏ ఒక్క రోజైనా ఉంచాల్సిన కనీస మొత్తం CRR అవసరంలో 99% నుంచి 90%కి తగ్గింపు — 2026 డిసెంబర్ 1న మొదలయ్యే పక్షం నుంచి. పక్షం సగటు మాత్రం పూర్తిగా ఉండాలి."
+    },
+    {
+     "en": "Why: banking liquidity turned into deficit for the first time in five months (GST outflows, RBI forex intervention). Reports estimate over ₹40,000 crore is freed for banks.",
+     "te": "ఎందుకు: ఐదు నెలల్లో తొలిసారి బ్యాంకింగ్ ద్రవ్యత లోటులోకి వెళ్లింది (జీఎస్టీ చెల్లింపులు, ఆర్‌బీఐ ఫారెక్స్ జోక్యం). ₹40,000 కోట్లకు పైగా విడుదల అవుతుందని అంచనా."
+    },
+    {
+     "en": "Background: on 9 Oct the RBI had raised the daily floor from 90% to 99% (from 16 Oct), when liquidity was in surplus.",
+     "te": "నేపథ్యం: ద్రవ్యత మిగులుగా ఉన్నప్పుడు అక్టోబర్ 9న ఆర్‌బీఐ రోజువారీ కనీస పరిమితిని 90% నుంచి 99%కి పెంచింది (అక్టో 16 నుంచి)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "CRR rate",
+      "te": "CRR రేటు"
+     },
+     {
+      "en": "3% of NDTL (unchanged)",
+      "te": "NDTLలో 3% (మార్పు లేదు)"
+     }
+    ],
+    [
+     {
+      "en": "Daily minimum",
+      "te": "రోజువారీ కనీసం"
+     },
+     {
+      "en": "99% → 90% of requirement",
+      "te": "అవసరంలో 99% → 90%"
+     }
+    ],
+    [
+     {
+      "en": "Effective",
+      "te": "అమలు"
+     },
+     {
+      "en": "Fortnight from 1 Dec 2026",
+      "te": "1 డిసెం 2026 పక్షం నుంచి"
+     }
+    ],
+    [
+     {
+      "en": "Legal basis",
+      "te": "చట్టబద్ధత"
+     },
+     {
+      "en": "Sec. 42(1), RBI Act 1934",
+      "te": "సెక్షన్ 42(1), ఆర్‌బీఐ చట్టం 1934"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trap: this is NOT a CRR cut — the 3% rate is the same; only the daily flexibility changed. CRR earns no interest and is kept with the RBI; SLR is kept by banks themselves in cash, gold or G-secs.",
+    "te": "ట్రాప్: ఇది CRR తగ్గింపు కాదు — 3% రేటు అదే; రోజువారీ వెసులుబాటు మాత్రమే మారింది. CRRపై వడ్డీ రాదు, ఆర్‌బీఐ వద్ద ఉంటుంది; SLR బ్యాంకులే నగదు, బంగారం, ప్రభుత్వ సెక్యూరిటీలుగా ఉంచుకుంటాయి."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "CRR rule: before vs after",
+      "te": "CRR నిబంధన: ముందు vs తర్వాత"
+     },
+     "a": {
+      "h": {
+       "en": "16 Oct – 30 Nov",
+       "te": "16 అక్టో – 30 నవం"
+      },
+      "l": [
+       {
+        "en": "Daily minimum 99%",
+        "te": "రోజువారీ కనీసం 99%"
+       },
+       {
+        "en": "Liquidity was surplus",
+        "te": "ద్రవ్యత మిగులు"
+       },
+       {
+        "en": "CRR 3%",
+        "te": "CRR 3%"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "From 1 Dec 2026",
+       "te": "1 డిసెం 2026 నుంచి"
+      },
+      "l": [
+       {
+        "en": "Daily minimum 90%",
+        "te": "రోజువారీ కనీసం 90%"
+       },
+       {
+        "en": "Liquidity in deficit",
+        "te": "ద్రవ్యత లోటు"
+       },
+       {
+        "en": "CRR still 3%",
+        "te": "CRR ఇంకా 3%"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "NationPress — RBI cuts daily CRR requirement to 90% amid liquidity deficit, 27 Nov 2026",
+     "u": "https://www.nationpress.com/business/rbi-eases-daily-crr-floor-to-90percent"
+    },
+    {
+     "t": "BozokMedia — RBI eases daily CRR maintenance to 90%, unlocking over ₹40,000 crore, 27 Nov 2026",
+     "u": "https://www.bozokmedia.com/en/business/2026/11/27/rbi-eases-daily-crr-maintenance-to-90-unlocking-over-40-000-crore-for-banks-438008/"
+    },
+    {
+     "t": "RBI circular RBI/2026-27/290 — Change in daily minimum CRR maintenance (90% → 99%), 9 Oct 2026",
+     "u": "https://rbi.org.in/Scripts/BS_CircularIndexDisplay.aspx?Id=13736"
+    }
+   ]
+  },
+  {
+   "id": "iora",
+   "cat": "ir",
+   "title": {
+    "en": "India hosts the 25th IORA Council of Ministers in New Delhi",
+    "te": "న్యూఢిల్లీలో 25వ IORA మంత్రుల మండలి సమావేశానికి భారత్ ఆతిథ్యం"
+   },
+   "pts": [
+    {
+     "en": "EAM S. Jaishankar chaired the 25th Council of Ministers meeting of the Indian Ocean Rim Association (IORA) on 27 Nov; India is IORA Chair for 2025–2027.",
+     "te": "నవంబర్ 27న ఇండియన్ ఓషన్ రిమ్ అసోసియేషన్ (IORA) 25వ మంత్రుల మండలి సమావేశానికి విదేశాంగ మంత్రి ఎస్. జైశంకర్ అధ్యక్షత వహించారు; 2025–2027కు IORA అధ్యక్ష దేశం భారత్."
+    },
+    {
+     "en": "PM Modi met foreign ministers of the 23 member states and recalled India's MAHASAGAR vision (Mutual and Holistic Advancement for Security and Growth Across Regions).",
+     "te": "23 సభ్య దేశాల విదేశాంగ మంత్రులతో ప్రధాని మోదీ భేటీ; భారత 'మహాసాగర్' (MAHASAGAR) దృక్పథాన్ని ప్రస్తావించారు."
+    },
+    {
+     "en": "Theme of India's chairship: 'Innovation, Openness, Resilience and Adaptability in the Indian Ocean Region' — its first letters spell I-O-R-A.",
+     "te": "భారత అధ్యక్షత థీమ్: 'Innovation, Openness, Resilience and Adaptability in the Indian Ocean Region' — మొదటి అక్షరాలు I-O-R-A."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Founded",
+      "te": "స్థాపన"
+     },
+     {
+      "en": "7 March 1997",
+      "te": "7 మార్చి 1997"
+     }
+    ],
+    [
+     {
+      "en": "Secretariat",
+      "te": "సచివాలయం"
+     },
+     {
+      "en": "Ebene, Mauritius",
+      "te": "ఎబెన్, మారిషస్"
+     }
+    ],
+    [
+     {
+      "en": "Members / dialogue partners",
+      "te": "సభ్యులు / డైలాగ్ భాగస్వాములు"
+     },
+     {
+      "en": "23 / 12",
+      "te": "23 / 12"
+     }
+    ],
+    [
+     {
+      "en": "Chair 2025–27",
+      "te": "అధ్యక్షత 2025–27"
+     },
+     {
+      "en": "India",
+      "te": "భారత్"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Memory: theme initials = I-O-R-A. Trap: IORA's secretariat is in Mauritius (not India), and MAHASAGAR (2025) is the upgraded form of SAGAR (2015).",
+    "te": "మెమరీ: థీమ్ మొదటి అక్షరాలు = I-O-R-A. ట్రాప్: IORA సచివాలయం మారిషస్‌లో (భారత్‌లో కాదు); MAHASAGAR (2025) అనేది SAGAR (2015)కు విస్తరిత రూపం."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "world",
+     "h": {
+      "en": "IORA: host city and secretariat",
+      "te": "IORA: ఆతిథ్య నగరం, సచివాలయం"
+     },
+     "ctry": [
+      "Sri Lanka",
+      "Maldives"
+     ],
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        28.61,
+        77.21
+       ],
+       "t": {
+        "en": "New Delhi (25th CoM)",
+        "te": "న్యూఢిల్లీ (25వ సమావేశం)"
+       }
+      },
+      {
+       "ll": [
+        -20.24,
+        57.49
+       ],
+       "t": {
+        "en": "Ebene, Mauritius (HQ)",
+        "te": "ఎబెన్, మారిషస్ (ప్రధాన కార్యాలయం)"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "Ministers from Sri Lanka, Mauritius, Maldives and Seychelles were among those who met the PM.",
+      "te": "ప్రధానిని కలిసిన వారిలో శ్రీలంక, మారిషస్, మాల్దీవులు, సీషెల్స్ మంత్రులు ఉన్నారు."
+     },
+     "src": "cards/cad/2026-11-28/map-iora-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "PMIndia — PM meets Foreign Ministers and Heads of Delegation of IORA Member-States, 27 Nov 2026",
+     "u": "https://www.pmindia.gov.in/en/news_updates/pm-meets-foreign-ministers-and-heads-of-delegation-of-iora-member-states-in-new-delhi/?comment=disable"
+    },
+    {
+     "t": "The Tribune (ANI) — India to work closely with partners in strengthening peace and security in IOR: PM, 27 Nov 2026",
+     "u": "https://www.tribuneindia.com/news/india-maritime-cooperation/india-to-work-closely-with-partners-in-strengthening-peace-and-security-in-ior-pm-modi"
+    },
+    {
+     "t": "Utkarsh — India hosts 25th IORA Council of Ministers meeting [cross-check: founding date, HQ]",
+     "u": "https://utkarsh.com/current-affairs/international/summit-conference/india-hosts-25th-iora-council-of-ministers-meeting-in-new-delhi"
+    }
+   ]
+  },
+  {
+   "id": "itu",
+   "cat": "ir",
+   "title": {
+    "en": "India to host the ITU Plenipotentiary Conference (PP-30) in 2030",
+    "te": "2030లో ITU ప్లెనిపొటెన్షియరీ సదస్సు (PP-30)కు భారత్ ఆతిథ్యం"
+   },
+   "pts": [
+    {
+     "en": "The ITU Plenipotentiary Conference 2026 (PP-26) closed in Doha, Qatar on 27 Nov. It formally accepted India's offer to host the next one, PP-30, in 2030.",
+     "te": "ITU ప్లెనిపొటెన్షియరీ సదస్సు 2026 (PP-26) నవంబర్ 27న ఖతార్ రాజధాని దోహాలో ముగిసింది. తదుపరి PP-30 (2030)కు భారత్ ఆతిథ్య ప్రతిపాదనను అధికారికంగా ఆమోదించింది."
+    },
+    {
+     "en": "The Plenipotentiary is ITU's top decision-making body, held every four years. PP-26 had 179 Member States and over 3,000 delegates; it agreed on AI, digital resilience and lunar communications.",
+     "te": "ప్లెనిపొటెన్షియరీ ITU అత్యున్నత నిర్ణయాధికార సదస్సు — ప్రతి 4 ఏళ్లకోసారి. PP-26లో 179 సభ్య దేశాలు, 3,000కు పైగా ప్రతినిధులు; AI, డిజిటల్ దృఢత్వం, చంద్ర కమ్యూనికేషన్లపై ఏకాభిప్రాయం."
+    },
+    {
+     "en": "India was also elected to the ITU Council for 2027–2030. India has been an ITU member since 1869 and a Council member continuously since 1952.",
+     "te": "2027–2030కు ITU కౌన్సిల్‌కు కూడా భారత్ ఎన్నికైంది. భారత్ 1869 నుంచి ITU సభ్యదేశం, 1952 నుంచి నిరంతరం కౌన్సిల్ సభ్యదేశం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "PP-26 host",
+      "te": "PP-26 ఆతిథ్యం"
+     },
+     {
+      "en": "Doha, Qatar",
+      "te": "దోహా, ఖతార్"
+     }
+    ],
+    [
+     {
+      "en": "PP-30 host",
+      "te": "PP-30 ఆతిథ్యం"
+     },
+     {
+      "en": "India (2030)",
+      "te": "భారత్ (2030)"
+     }
+    ],
+    [
+     {
+      "en": "WTSA-28 (2028)",
+      "te": "WTSA-28 (2028)"
+     },
+     {
+      "en": "Samarkand, Uzbekistan",
+      "te": "సమర్‌కండ్, ఉజ్బెకిస్తాన్"
+     }
+    ],
+    [
+     {
+      "en": "ITU HQ · Secretary-General",
+      "te": "ITU కేంద్రం · సెక్రటరీ జనరల్"
+     },
+     {
+      "en": "Geneva · Doreen Bogdan-Martin",
+      "te": "జెనీవా · డోరీన్ బోగ్డాన్-మార్టిన్"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static: ITU (founded 1865) is the UN specialised agency for ICT and the oldest UN agency; HQ Geneva. Trap: the conference just held was in Doha — India hosts the NEXT one (2030), not this one.",
+    "te": "స్టాటిక్: ITU (1865లో స్థాపన) సమాచార-కమ్యూనికేషన్ సాంకేతికతకు ఐరాస ప్రత్యేక సంస్థ, అత్యంత పురాతన ఐరాస సంస్థ; కేంద్రం జెనీవా. ట్రాప్: ఇప్పుడు జరిగింది దోహాలో — భారత్ ఆతిథ్యం తదుపరి (2030) సదస్సుకు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "world",
+     "h": {
+      "en": "ITU: where things happen",
+      "te": "ITU: ఎక్కడ ఏమిటి"
+     },
+     "ctry": [
+      "Qatar",
+      "Switzerland",
+      "Uzbekistan"
+     ],
+     "pts": [
+      {
+       "ll": [
+        46.2,
+        6.14
+       ],
+       "t": {
+        "en": "Geneva (HQ)",
+        "te": "జెనీవా (కేంద్రం)"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        25.29,
+        51.53
+       ],
+       "t": {
+        "en": "Doha (PP-26)",
+        "te": "దోహా (PP-26)"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        39.65,
+        66.96
+       ],
+       "t": {
+        "en": "Samarkand (WTSA-28)",
+        "te": "సమర్‌కండ్ (WTSA-28)"
+       }
+      },
+      {
+       "ll": [
+        28.61,
+        77.21
+       ],
+       "t": {
+        "en": "India (PP-30, 2030)",
+        "te": "భారత్ (PP-30, 2030)"
+       }
+      }
+     ],
+     "src": "cards/cad/2026-11-28/map-itu-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "ITU press release — Governments achieve consensus on AI, digital resilience and lunar communications at PP-26, 27 Nov 2026",
+     "u": "https://www.itu.int/en/mediacentre/Pages/PR-2026-11-27-PP26-closing.aspx"
+    },
+    {
+     "t": "DD India — India set to host prestigious ITU Plenipotentiary Conference 2030, 28 Nov 2026",
+     "u": "https://ddindia.co.in/2026/11/india-set-to-host-prestigious-itu-plenipotentiary-conference-2030/"
+    }
+   ]
+  },
+  {
+   "id": "sivok",
+   "cat": "economy",
+   "title": {
+    "en": "Sivok–Rangpo rail line: longest tunnel (T-10, 5.3 km) breaks through; all 14 tunnels dug",
+    "te": "సివోక్–రంగ్పో రైలు మార్గం: పొడవైన సొరంగం (T-10, 5.3 కి.మీ.) పూర్తి; 14 సొరంగాల తవ్వకం పూర్తి"
+   },
+   "pts": [
+    {
+     "en": "On 28 Nov Indian Railways completed digging Tunnel No. 10 (5.3 km), the longest on the Sivok–Rangpo new line. With this, excavation of all 14 tunnels is complete.",
+     "te": "నవంబర్ 28న సివోక్–రంగ్పో కొత్త లైన్‌లో అత్యంత పొడవైన 10వ నంబర్ సొరంగం (5.3 కి.మీ.) తవ్వకాన్ని రైల్వే పూర్తి చేసింది. దీంతో 14 సొరంగాల తవ్వకం పూర్తయింది."
+    },
+    {
+     "en": "The 45-km broad-gauge line runs through Darjeeling and Kalimpong (West Bengal) and Pakyong (Sikkim); tunnels make up about 86% of the route, with 23 bridges.",
+     "te": "45 కి.మీ. బ్రాడ్‌గేజ్ మార్గం డార్జిలింగ్, కాలింపాంగ్ (పశ్చిమ బెంగాల్), పాక్యోంగ్ (సిక్కిం) జిల్లాల గుండా వెళ్తుంది; మార్గంలో సుమారు 86% సొరంగాలే, 23 వంతెనలు."
+    },
+    {
+     "en": "Why: it will give Sikkim its first rail link and an alternative to NH-10. Lining, track laying and safety systems remain.",
+     "te": "ఎందుకు: సిక్కింకు తొలి రైలు అనుసంధానం, NH-10కు ప్రత్యామ్నాయం. లైనింగ్, ట్రాక్, భద్రతా వ్యవస్థల పని మిగిలి ఉంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Longest tunnel",
+      "te": "పొడవైన సొరంగం"
+     },
+     {
+      "en": "T-10 · 5.3 km",
+      "te": "T-10 · 5.3 కి.మీ."
+     }
+    ],
+    [
+     {
+      "en": "Line length",
+      "te": "మార్గం పొడవు"
+     },
+     {
+      "en": "45 km, broad gauge",
+      "te": "45 కి.మీ., బ్రాడ్‌గేజ్"
+     }
+    ],
+    [
+     {
+      "en": "Tunnels / bridges",
+      "te": "సొరంగాలు / వంతెనలు"
+     },
+     {
+      "en": "14 / 23",
+      "te": "14 / 23"
+     }
+    ],
+    [
+     {
+      "en": "Stations",
+      "te": "స్టేషన్లు"
+     },
+     {
+      "en": "Sivok, Riyang, Melli, Rangpo + Teesta Bazaar (underground halt)",
+      "te": "సివోక్, రియాంగ్, మెల్లి, రంగ్పో + తీస్తా బజార్ (భూగర్భ హాల్ట్)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Map link: the line follows the Teesta valley from Sivok (near Siliguri, West Bengal) to Rangpo (Sikkim). Trap: Pakyong district is in Sikkim; Darjeeling and Kalimpong are in West Bengal.",
+    "te": "మ్యాప్ లింక్: ఈ మార్గం సివోక్ (సిలిగురి దగ్గర, ప.బెంగాల్) నుంచి రంగ్పో (సిక్కిం) వరకు తీస్తా లోయ వెంట వెళ్తుంది. ట్రాప్: పాక్యోంగ్ సిక్కింలో; డార్జిలింగ్, కాలింపాంగ్ పశ్చిమ బెంగాల్‌లో."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": [
+      86.8,
+      25.6,
+      90.2,
+      28.3
+     ],
+     "h": {
+      "en": "Sivok–Rangpo: West Bengal to Sikkim",
+      "te": "సివోక్–రంగ్పో: పశ్చిమ బెంగాల్ నుంచి సిక్కిం"
+     },
+     "hl": [
+      "Sikkim"
+     ],
+     "rivers": [
+      "Teesta"
+     ],
+     "pts": [
+      {
+       "ll": [
+        26.88,
+        88.47
+       ],
+       "t": {
+        "en": "Sivok",
+        "te": "సివోక్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        27.18,
+        88.53
+       ],
+       "t": {
+        "en": "Rangpo",
+        "te": "రంగ్పో"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         26.88,
+         88.47
+        ],
+        [
+         27.18,
+         88.53
+        ]
+       ],
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "45 km of hill railway along the Teesta, mostly inside tunnels.",
+      "te": "తీస్తా వెంట 45 కి.మీ. కొండ రైలు మార్గం — ఎక్కువ భాగం సొరంగాల్లోనే."
+     },
+     "src": "cards/cad/2026-11-28/map-sivok-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "IANS — Indian Railways achieves breakthrough in longest tunnel on Sivok-Rangpo New Line Project, 28 Nov 2026",
+     "u": "https://ianslive.in/indian-railways-achieves-breakthrough-in-longest-tunnel-on-sivok-rangpo-new-line-project--20261128180232"
+    }
+   ]
+  },
+  {
+   "id": "measles",
+   "cat": "health",
+   "title": {
+    "en": "WHO: India unlikely to meet the 2026 measles–rubella elimination target, despite big gains",
+    "te": "WHO: భారీ పురోగతి ఉన్నా 2026 మీజిల్స్–రుబెల్లా నిర్మూలన లక్ష్యాన్ని భారత్ అందుకోలేకపోవచ్చు"
+   },
+   "pts": [
+    {
+     "en": "WHO officials say India will not meet the South-East Asia regional goal of eliminating measles and rubella by 2026. New targets: stop local (indigenous) spread by 2029, verify elimination by 2032.",
+     "te": "2026 నాటికి మీజిల్స్, రుబెల్లా నిర్మూలన అనే ఆగ్నేయాసియా ప్రాంతీయ లక్ష్యాన్ని భారత్ అందుకోలేదని WHO అధికారులు తెలిపారు. కొత్త లక్ష్యాలు: 2029 నాటికి స్థానిక వ్యాప్తి ఆపడం, 2032 నాటికి నిర్మూలన ధ్రువీకరణ."
+    },
+    {
+     "en": "Gains: vaccine coverage 98% (first dose) and 95% (second dose); cases fell from 65,150 (2023) to 17,995 (2025).",
+     "te": "పురోగతి: టీకా కవరేజీ 98% (మొదటి డోసు), 95% (రెండో డోసు); కేసులు 65,150 (2023) నుంచి 17,995 (2025)కి తగ్గాయి."
+    },
+    {
+     "en": "For the first time since 2001, India is out of the top-10 list of countries with the most unvaccinated children. Elimination needs 3 straight years without local spread.",
+     "te": "2001 తర్వాత తొలిసారిగా అత్యధిక టీకాలు అందని పిల్లలున్న టాప్-10 దేశాల జాబితా నుంచి భారత్ బయటపడింది. నిర్మూలనకు వరుసగా 3 ఏళ్లు స్థానిక వ్యాప్తి ఉండకూడదు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Coverage (dose 1 / dose 2)",
+      "te": "కవరేజీ (డోసు 1 / డోసు 2)"
+     },
+     {
+      "en": "98% / 95%",
+      "te": "98% / 95%"
+     }
+    ],
+    [
+     {
+      "en": "Cases 2023 → 2025",
+      "te": "కేసులు 2023 → 2025"
+     },
+     {
+      "en": "65,150 → 17,995",
+      "te": "65,150 → 17,995"
+     }
+    ],
+    [
+     {
+      "en": "New targets",
+      "te": "కొత్త లక్ష్యాలు"
+     },
+     {
+      "en": "Interrupt 2029 · verify 2032",
+      "te": "వ్యాప్తి నిలిపివేత 2029 · ధ్రువీకరణ 2032"
+     }
+    ],
+    [
+     {
+      "en": "Global coverage",
+      "te": "ప్రపంచ కవరేజీ"
+     },
+     {
+      "en": "84% / 77%",
+      "te": "84% / 77%"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static: measles and rubella are viral diseases; rubella in pregnancy causes Congenital Rubella Syndrome. The MR vaccine is given free under the Universal Immunisation Programme (UIP). Trap: high coverage ≠ elimination — elimination needs 3 years of zero local transmission.",
+    "te": "స్టాటిక్: మీజిల్స్, రుబెల్లా వైరస్ వ్యాధులు; గర్భిణికి రుబెల్లా వస్తే శిశువుకు కంజెనిటల్ రుబెల్లా సిండ్రోమ్. MR టీకా సార్వత్రిక వ్యాధినిరోధక కార్యక్రమం (UIP) కింద ఉచితం. ట్రాప్: ఎక్కువ కవరేజీ = నిర్మూలన కాదు — 3 ఏళ్లు స్థానిక వ్యాప్తి సున్నా ఉండాలి."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Measles cases in India fell sharply",
+      "te": "భారత్‌లో మీజిల్స్ కేసులు భారీగా తగ్గాయి"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "2023",
+        "te": "2023"
+       },
+       "v": 65150,
+       "vl": "65,150"
+      },
+      {
+       "t": {
+        "en": "2025",
+        "te": "2025"
+       },
+       "v": 17995,
+       "vl": "17,995"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Daijiworld — India unlikely to meet 2026 measles elimination target: WHO, 28 Nov 2026",
+     "u": "https://daijiworld.com/news/newsDisplay?newsID=1336502"
+    },
+    {
+     "t": "Next IAS — News in Brief 28-11-2026 (Indian Express report, measles) [cross-check]",
+     "u": "https://www.nextias.com/ca/current-affairs/28-11-2026/news-in-brief-28-11-2026"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "appolls2",
+   "q": {
+    "en": "Consider these statements on AP gram panchayat polls (phase 2, 29 Nov 2026):",
+    "te": "ఏపీ గ్రామ పంచాయతీ ఎన్నికలు (రెండో దశ, 29 నవం 2026) గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "(b). I: panchayat polls are run by the SEC (Art. 243K), not the ECI. III: 1,171 unopposed, 3,803 went to poll. II is the trap — the Upa-Sarpanch is chosen by the elected ward members on poll day, not directly by voters.",
+    "te": "(b). I: పంచాయతీ ఎన్నికలు SEC (ఆర్టికల్ 243K) నిర్వహిస్తుంది, ECI కాదు. III: 1,171 ఏకగ్రీవం, 3,803కు పోలింగ్. II ట్రాప్ — ఉప సర్పంచ్‌ను ఓటర్లు నేరుగా కాదు, ఎన్నికైన వార్డు సభ్యులు ఎన్నుకుంటారు."
+   },
+   "st": [
+    {
+     "en": "I. They are conducted by the State Election Commission under Article 243K.",
+     "te": "I. ఆర్టికల్ 243K కింద రాష్ట్ర ఎన్నికల సంఘం వీటిని నిర్వహిస్తుంది."
+    },
+    {
+     "en": "II. The Upa-Sarpanch is elected directly by all voters of the village.",
+     "te": "II. ఉప సర్పంచ్‌ను గ్రామంలోని ఓటర్లందరూ నేరుగా ఎన్నుకుంటారు."
+    },
+    {
+     "en": "III. In this phase, 1,171 sarpanch posts were decided unopposed.",
+     "te": "III. ఈ దశలో 1,171 సర్పంచ్ పదవులు ఏకగ్రీవమయ్యాయి."
+    }
+   ]
+  },
+  {
+   "topic": "const22",
+   "q": {
+    "en": "Match List-I (year of amendment) with List-II (languages added to the Eighth Schedule):",
+    "te": "జాబితా-I (సవరణ సంవత్సరం)ని జాబితా-II (ఎనిమిదో షెడ్యూల్‌కు చేర్చిన భాషలు)తో జతపరచండి:"
+   },
+   "o": [
+    {
+     "en": "A-2, B-1, C-3",
+     "te": "A-2, B-1, C-3"
+    },
+    {
+     "en": "A-3, B-2, C-1",
+     "te": "A-3, B-2, C-1"
+    },
+    {
+     "en": "A-1, B-3, C-2",
+     "te": "A-1, B-3, C-2"
+    },
+    {
+     "en": "A-2, B-3, C-1",
+     "te": "A-2, B-3, C-1"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "(d). 1967 (21st Amd) – Sindhi; 1992 (71st) – Konkani, Manipuri, Nepali; 2003 (92nd) – Bodo, Dogri, Maithili, Santali. 14+1+3+4 = 22. Trap (a): swapping the 1992 and 2003 groups.",
+    "te": "(d). 1967 (21వ సవరణ) – సింధీ; 1992 (71వ) – కొంకణి, మణిపురి, నేపాలీ; 2003 (92వ) – బోడో, డోగ్రీ, మైథిలీ, సంతాలీ. 14+1+3+4 = 22. ట్రాప్ (a): 1992, 2003 గుంపులను తారుమారు చేయడం."
+   },
+   "st": [
+    {
+     "en": "List-I: A. 1967   B. 1992   C. 2003",
+     "te": "జాబితా-I: A. 1967   B. 1992   C. 2003"
+    },
+    {
+     "en": "List-II: 1. Bodo, Dogri, Maithili, Santali   2. Sindhi   3. Konkani, Manipuri, Nepali",
+     "te": "జాబితా-II: 1. బోడో, డోగ్రీ, మైథిలీ, సంతాలీ   2. సింధీ   3. కొంకణి, మణిపురి, నేపాలీ"
+    }
+   ]
+  },
+  {
+   "topic": "const22",
+   "q": {
+    "en": "Which of the following statements about the Constitution Day 2026 release is INCORRECT?",
+    "te": "రాజ్యాంగ దినోత్సవం 2026 విడుదల గురించి కింది వాటిలో సరికాని వాక్యం ఏది?"
+   },
+   "o": [
+    {
+     "en": "It was released by Vice-President C.P. Radhakrishnan",
+     "te": "దీనిని ఉపరాష్ట్రపతి సి.పి. రాధాకృష్ణన్ విడుదల చేశారు"
+    },
+    {
+     "en": "It covered all 22 languages of the Eighth Schedule",
+     "te": "ఇది ఎనిమిదో షెడ్యూల్‌లోని 22 భాషలనూ కవర్ చేసింది"
+    },
+    {
+     "en": "English is one of the 22 Eighth Schedule languages",
+     "te": "ఎనిమిదో షెడ్యూల్‌లోని 22 భాషల్లో ఇంగ్లీష్ ఒకటి"
+    },
+    {
+     "en": "It was organised by the Legislative Department, Law Ministry",
+     "te": "దీనిని న్యాయ శాఖ శాసన విభాగం నిర్వహించింది"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "(c) is incorrect — English is NOT in the Eighth Schedule (it is used under Art. 343(2)/Art. 348). The VP released the editions at Vigyan Bhawan on 26 Nov; the Legislative Department organised it.",
+    "te": "(c) సరికాదు — ఇంగ్లీష్ ఎనిమిదో షెడ్యూల్‌లో లేదు (ఆర్టికల్ 343(2)/348 కింద వినియోగం). నవం 26న విజ్ఞాన్ భవన్‌లో ఉపరాష్ట్రపతి విడుదల చేశారు; శాసన విభాగం నిర్వహించింది."
+   }
+  },
+  {
+   "topic": "crr",
+   "q": {
+    "en": "Consider the following statements about the RBI's CRR decision of 27 Nov 2026:",
+    "te": "27 నవం 2026 ఆర్‌బీఐ CRR నిర్ణయం గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "III only",
+     "te": "III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "(a). Only the daily floor changed (99% → 90%, from the fortnight starting 1 Dec); the fortnightly average must be full. I is the trap — CRR stays at 3%; nothing was cut.",
+    "te": "(a). రోజువారీ కనీస పరిమితి మాత్రమే మారింది (99% → 90%, డిసెం 1 పక్షం నుంచి); పక్షం సగటు పూర్తిగా ఉండాలి. I ట్రాప్ — CRR 3% వద్దే; తగ్గింపు లేదు."
+   },
+   "st": [
+    {
+     "en": "I. The CRR rate was cut from 4% to 3% of NDTL.",
+     "te": "I. CRR రేటును NDTLలో 4% నుంచి 3%కి తగ్గించారు."
+    },
+    {
+     "en": "II. The minimum daily CRR balance fell from 99% to 90% of the requirement.",
+     "te": "II. రోజువారీ కనీస CRR నిల్వ అవసరంలో 99% నుంచి 90%కి తగ్గింది."
+    },
+    {
+     "en": "III. Banks must still meet the full CRR on a fortnightly average.",
+     "te": "III. పక్షం సగటులో బ్యాంకులు పూర్తి CRR పాటించాల్సిందే."
+    }
+   ]
+  },
+  {
+   "topic": "iora",
+   "q": {
+    "en": "Consider the following statements about the Indian Ocean Rim Association (IORA):",
+    "te": "ఇండియన్ ఓషన్ రిమ్ అసోసియేషన్ (IORA) గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "(d). All three are correct: HQ Ebene (Mauritius), founded 7 March 1997, 23 members + 12 dialogue partners, India Chair 2025–27 (Jaishankar chaired the 25th CoM in New Delhi). Trap: assuming the secretariat is in India because India is Chair.",
+    "te": "(d). మూడూ సరైనవే: కేంద్రం ఎబెన్ (మారిషస్), 1997 మార్చి 7న స్థాపన, 23 సభ్యులు + 12 డైలాగ్ భాగస్వాములు, 2025–27 అధ్యక్షత భారత్ (25వ సమావేశానికి జైశంకర్ అధ్యక్షత). ట్రాప్: భారత్ అధ్యక్ష దేశం కాబట్టి సచివాలయం భారత్‌లోనే అనుకోవడం."
+   },
+   "st": [
+    {
+     "en": "I. Its secretariat is in Ebene, Mauritius.",
+     "te": "I. దీని సచివాలయం మారిషస్‌లోని ఎబెన్‌లో ఉంది."
+    },
+    {
+     "en": "II. India chairs IORA for 2025–2027 and hosted the 25th Council of Ministers.",
+     "te": "II. 2025–2027కు IORA అధ్యక్ష దేశం భారత్; 25వ మంత్రుల మండలికి ఆతిథ్యమిచ్చింది."
+    },
+    {
+     "en": "III. It has 23 member states and was founded in 1997.",
+     "te": "III. ఇందులో 23 సభ్య దేశాలు; 1997లో స్థాపించారు."
+    }
+   ]
+  },
+  {
+   "topic": "itu",
+   "q": {
+    "en": "Match List-I (ITU event / body) with List-II (place):",
+    "te": "జాబితా-I (ITU సదస్సు / సంస్థ)ని జాబితా-II (ప్రదేశం)తో జతపరచండి:"
+   },
+   "o": [
+    {
+     "en": "A-3, B-4, C-2, D-1",
+     "te": "A-3, B-4, C-2, D-1"
+    },
+    {
+     "en": "A-4, B-3, C-2, D-1",
+     "te": "A-4, B-3, C-2, D-1"
+    },
+    {
+     "en": "A-4, B-3, C-1, D-2",
+     "te": "A-4, B-3, C-1, D-2"
+    },
+    {
+     "en": "A-2, B-3, C-4, D-1",
+     "te": "A-2, B-3, C-4, D-1"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "(b). PP-26 was held in Doha (Qatar); India hosts PP-30 in 2030; WTSA-28 goes to Samarkand (Uzbekistan); ITU HQ is Geneva. Trap (a): thinking India hosted the 2026 conference.",
+    "te": "(b). PP-26 దోహా (ఖతార్)లో; PP-30 (2030) భారత్‌లో; WTSA-28 సమర్‌కండ్ (ఉజ్బెకిస్తాన్)లో; ITU కేంద్రం జెనీవా. ట్రాప్ (a): 2026 సదస్సు భారత్‌లో జరిగిందనుకోవడం."
+   },
+   "st": [
+    {
+     "en": "List-I: A. PP-26 (2026)   B. PP-30 (2030)   C. WTSA-28 (2028)   D. ITU headquarters",
+     "te": "జాబితా-I: A. PP-26 (2026)   B. PP-30 (2030)   C. WTSA-28 (2028)   D. ITU ప్రధాన కార్యాలయం"
+    },
+    {
+     "en": "List-II: 1. Geneva   2. Samarkand   3. India   4. Doha",
+     "te": "జాబితా-II: 1. జెనీవా   2. సమర్‌కండ్   3. భారత్   4. దోహా"
+    }
+   ]
+  },
+  {
+   "topic": "sivok",
+   "q": {
+    "en": "Consider the following statements about the Sivok–Rangpo new rail line:",
+    "te": "సివోక్–రంగ్పో కొత్త రైలు మార్గం గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "(c). I and III are correct (all 14 tunnels now excavated; 23 bridges). II is wrong — Pakyong is in Sikkim; Darjeeling and Kalimpong are the West Bengal districts.",
+    "te": "(c). I, III సరైనవి (14 సొరంగాల తవ్వకం పూర్తి; 23 వంతెనలు). II తప్పు — పాక్యోంగ్ సిక్కింలో; డార్జిలింగ్, కాలింపాంగ్ పశ్చిమ బెంగాల్ జిల్లాలు."
+   },
+   "st": [
+    {
+     "en": "I. Tunnel No. 10 (5.3 km) is its longest tunnel.",
+     "te": "I. 10వ నంబర్ సొరంగం (5.3 కి.మీ.) దీనిలో అత్యంత పొడవైనది."
+    },
+    {
+     "en": "II. Pakyong, on its route, is a district of West Bengal.",
+     "te": "II. మార్గంలోని పాక్యోంగ్ పశ్చిమ బెంగాల్ జిల్లా."
+    },
+    {
+     "en": "III. Tunnels make up about 86% of the 45-km route.",
+     "te": "III. 45 కి.మీ. మార్గంలో సుమారు 86% సొరంగాలే."
+    }
+   ]
+  },
+  {
+   "topic": "measles",
+   "q": {
+    "en": "Assertion (A): India is unlikely to meet the 2026 measles–rubella elimination goal. Reason (R): India's measles vaccine coverage is below 50%.",
+    "te": "ప్రతిపాదన (A): 2026 మీజిల్స్–రుబెల్లా నిర్మూలన లక్ష్యాన్ని భారత్ అందుకోలేకపోవచ్చు. కారణం (R): భారత్‌లో మీజిల్స్ టీకా కవరేజీ 50% కంటే తక్కువ."
+   },
+   "o": [
+    {
+     "en": "Both A and R are true, and R explains A",
+     "te": "A, R రెండూ నిజం; R, Aకు సరైన వివరణ"
+    },
+    {
+     "en": "Both A and R are true, but R does not explain A",
+     "te": "A, R రెండూ నిజం; కానీ R, Aకు వివరణ కాదు"
+    },
+    {
+     "en": "A is true, but R is false",
+     "te": "A నిజం, కానీ R తప్పు"
+    },
+    {
+     "en": "A is false, but R is true",
+     "te": "A తప్పు, కానీ R నిజం"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "(c). A is true (WHO: new targets — interrupt by 2029, verify by 2032). R is false — coverage is 98% (dose 1) and 95% (dose 2). The gap is in remote pockets, hesitancy and the rule of 3 straight years without local spread.",
+    "te": "(c). A నిజం (WHO: కొత్త లక్ష్యాలు — 2029 నాటికి వ్యాప్తి నిలిపివేత, 2032 నాటికి ధ్రువీకరణ). R తప్పు — కవరేజీ 98% (డోసు 1), 95% (డోసు 2). సమస్య మారుమూల ప్రాంతాలు, టీకా సంకోచం, వరుసగా 3 ఏళ్లు స్థానిక వ్యాప్తి ఉండకూడదనే నిబంధన."
+   }
+  },
+  {
+   "topic": "aprain",
+   "q": {
+    "en": "Arrange the expected stages of the Bay of Bengal weather system (IMD forecast, late Nov 2026) in the correct order:",
+    "te": "బంగాళాఖాతం వాతావరణ వ్యవస్థ దశలను (IMD అంచనా, నవం చివర 2026) సరైన క్రమంలో అమర్చండి:"
+   },
+   "o": [
+    {
+     "en": "2 → 3 → 1",
+     "te": "2 → 3 → 1"
+    },
+    {
+     "en": "1 → 2 → 3",
+     "te": "1 → 2 → 3"
+    },
+    {
+     "en": "3 → 2 → 1",
+     "te": "3 → 2 → 1"
+    },
+    {
+     "en": "2 → 1 → 3",
+     "te": "2 → 1 → 3"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "(a). Cyclonic circulation over the south Andaman Sea (29 Nov) → low-pressure area (30 Nov) → depression (by 2 Dec). A depression is stronger than a low; next stages would be deep depression and cyclonic storm.",
+    "te": "(b). దక్షిణ అండమాన్ సముద్రంపై ఉపరితల ఆవర్తనం (29 నవం) → అల్పపీడనం (30 నవం) → వాయుగుండం (డిసెం 2 నాటికి). అల్పపీడనం కంటే వాయుగుండం బలమైనది; తర్వాత తీవ్ర వాయుగుండం, తుపాను."
+   },
+   "st": [
+    {
+     "en": "1. Depression   2. Cyclonic circulation   3. Low-pressure area",
+     "te": "1. వాయుగుండం   2. ఉపరితల ఆవర్తనం   3. అల్పపీడనం"
+    }
+   ]
+  },
+  {
+   "topic": "gandikota",
+   "q": {
+    "en": "Consider the following statements about recent AP news:",
+    "te": "ఇటీవలి ఏపీ వార్తల గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "(b). I: Gandikota (YSR Kadapa) is the Penna gorge. III: Centre 90 : State 10, over 2027-28 to 2029-30. II is the trap — NIMAS is under the Ministry of Defence, even though AP's Tourism Minister attended the signing.",
+    "te": "(b). I: గండికోట (వైఎస్ఆర్ కడప) పెన్నా లోయ. III: కేంద్రం 90 : రాష్ట్రం 10, 2027-28 నుంచి 2029-30. II ట్రాప్ — ఒప్పందానికి పర్యాటక మంత్రి హాజరైనా NIMAS రక్షణ శాఖ పరిధిలోనిది."
+   },
+   "st": [
+    {
+     "en": "I. Gandikota, the new NIMAS regional centre, is a gorge on the Penna river.",
+     "te": "I. NIMAS కొత్త ప్రాంతీయ కేంద్రం గండికోట పెన్నా నదిపై ఉన్న లోయ."
+    },
+    {
+     "en": "II. NIMAS works under the Ministry of Tourism.",
+     "te": "II. NIMAS పర్యాటక మంత్రిత్వ శాఖ పరిధిలో పనిచేస్తుంది."
+    },
+    {
+     "en": "III. AP's ₹4,851-crore cyclone-proof power plan asks the Centre to fund 90%.",
+     "te": "III. ₹4,851 కోట్ల తుపాను-నిరోధక విద్యుత్ ప్రణాళికలో 90% నిధులు కేంద్రం ఇవ్వాలని ఏపీ కోరింది."
+    }
+   ]
+  }
+ ]
+}
