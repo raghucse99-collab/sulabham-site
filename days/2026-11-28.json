@@ -1,0 +1,2136 @@
+{
+ "date": "2026-11-28",
+ "day": {
+  "en": "Saturday, 28 November 2026",
+  "te": "శనివారం, 28 నవంబర్ 2026"
+ },
+ "words": [
+  {
+   "w": "Delimitation",
+   "en": "fixing the number and boundaries of election constituencies",
+   "te": "నియోజకవర్గాల సంఖ్య, సరిహద్దుల నిర్ణయం (పునర్విభజన)",
+   "ex": "Parliament meets from 30 November on a revised delimitation plan that raises every State's Lok Sabha seats by 50%.",
+   "topic": "delimit"
+  },
+  {
+   "w": "Choke point",
+   "en": "a narrow passage that much traffic must pass through",
+   "te": "ఎక్కువ రాకపోకలు తప్పనిసరిగా వెళ్లాల్సిన ఇరుకు మార్గం",
+   "ex": "UNCTAD says disruptions at choke points like the Strait of Hormuz stalled sea trade in 2026.",
+   "topic": "maritime"
+  },
+  {
+   "w": "Sunset clause",
+   "en": "a rule that a law or scheme ends on a fixed date unless renewed",
+   "te": "పునరుద్ధరించకపోతే నిర్ణీత తేదీతో చట్టం/పథకం ముగిసే నిబంధన",
+   "ex": "The Hindu op-ed suggests every new cash scheme should carry a sunset clause.",
+   "topic": "cashtransfer"
+  },
+  {
+   "w": "Emancipation",
+   "en": "freeing people from slavery or social restrictions",
+   "te": "బానిసత్వం లేదా సామాజిక ఆంక్షల నుంచి విముక్తి",
+   "ex": "Phule saw education as the path to the emancipation of women and lower castes.",
+   "topic": "phule"
+  },
+  {
+   "w": "Proletariat",
+   "en": "the class of wage workers who own no means of production",
+   "te": "ఉత్పత్తి సాధనాలు లేని కూలి కార్మిక వర్గం",
+   "ex": "Engels described the hard life of Manchester's proletariat in his 1845 book.",
+   "topic": "engels"
+  }
+ ],
+ "items": [
+  {
+   "id": "phule",
+   "kind": "day",
+   "color": "#9b2c2c",
+   "icon": "sirsyed",
+   "cf": [
+    0,
+    2,
+    3,
+    4,
+    6
+   ],
+   "tag": {
+    "en": "Death anniversary · 28 Nov 1890",
+    "te": "వర్ధంతి · 28 నవంబర్ 1890"
+   },
+   "title": {
+    "en": "Mahatma Jyotirao Phule — schools for girls, truth for the oppressed",
+    "te": "మహాత్మా జ్యోతిరావు ఫూలే — బాలికలకు బడి, అణగారినవారికి సత్యం"
+   },
+   "line": {
+    "en": "He opened a pioneering girls' school in Pune (1848) and founded the Satyashodhak Samaj (1873) against caste inequality.",
+    "te": "పుణెలో మార్గదర్శక బాలికల పాఠశాల (1848) ప్రారంభించి, కుల అసమానతలపై సత్యశోధక సమాజ్ (1873) స్థాపించారు."
+   },
+   "easy": [
+    {
+     "en": "Jyotirao Govindrao Phule was born on 11 April 1827 in the Bombay Presidency (now Maharashtra) in a family of fruit and vegetable farmers of the Mali caste, counted among the Shudras. In the 1840s he studied at a secondary school run by Scottish Christian missionaries in Pune.",
+     "te": "జ్యోతిరావు గోవిందరావు ఫూలే 11 ఏప్రిల్ 1827న బొంబాయి ప్రెసిడెన్సీలో (ఇప్పటి మహారాష్ట్ర) జన్మించారు. శూద్ర వర్గంగా పరిగణించే మాలి కులానికి చెందిన పండ్లు, కూరగాయల రైతు కుటుంబం వారిది. 1840లలో పుణెలో స్కాటిష్ క్రైస్తవ మిషనరీలు నడిపిన మాధ్యమిక పాఠశాలలో చదివారు."
+    },
+    {
+     "en": "Why he matters: in 1848 he and his wife Savitribai opened a school for girls at Tatyasaheb Bhide's house in Pune — Savitribai became its teacher. Later the couple opened more girls' schools, a school for lower castes (especially Mahars and Mangs), night schools (1855) for workers, farmers and women, and a home for pregnant widows and their children.",
+     "te": "ఎందుకు ముఖ్యం: 1848లో ఆయన, ఆయన భార్య సావిత్రీబాయి పుణెలో తాత్యాసాహెబ్ భిడే ఇంట్లో బాలికల పాఠశాల ప్రారంభించారు — సావిత్రీబాయి అందులో ఉపాధ్యాయిని. తర్వాత మరిన్ని బాలికల పాఠశాలలు, అణగారిన కులాల (ముఖ్యంగా మహార్, మాంగ్) కోసం పాఠశాల, కార్మికులు-రైతులు-మహిళల కోసం రాత్రి బడులు (1855), గర్భిణి వితంతువులు, వారి పిల్లల కోసం ఆశ్రయం ఏర్పాటు చేశారు."
+    },
+    {
+     "en": "On 24 September 1873 he founded the Satyashodhak Samaj ('Society of Seekers of Truth') in Pune. The same year he wrote Gulamgiri ('Slavery'), comparing caste oppression to slavery and dedicating it to the people of the USA who fought to end slavery. In 1888 he was given the title 'Mahatma'. He died in Pune on 28 November 1890. His ideas inspired later caste-reform movements, including Dr B.R. Ambedkar's.",
+     "te": "24 సెప్టెంబర్ 1873న పుణెలో సత్యశోధక సమాజ్ ('సత్యాన్వేషకుల సంఘం') స్థాపించారు. అదే ఏడాది 'గులాంగిరి' ('బానిసత్వం') రాశారు — కుల అణచివేతను బానిసత్వంతో పోల్చి, బానిసత్వ నిర్మూలనకు పోరాడిన అమెరికా ప్రజలకు అంకితం చేశారు. 1888లో ఆయనకు 'మహాత్మా' బిరుదు లభించింది. 28 నవంబర్ 1890న పుణెలో మరణించారు. డా. బి.ఆర్. అంబేడ్కర్‌తో సహా తర్వాతి కుల సంస్కరణ ఉద్యమాలకు ఆయన ఆలోచనలు స్ఫూర్తి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "11 April 1827, Bombay Presidency (Pune or Satara area — sources differ)",
+      "te": "11 ఏప్రిల్ 1827, బొంబాయి ప్రెసిడెన్సీ (పుణె లేదా సతారా ప్రాంతం — ఆధారాల్లో తేడా)"
+     }
+    ],
+    [
+     {
+      "en": "Caste background",
+      "te": "కుల నేపథ్యం"
+     },
+     {
+      "en": "Mali (gardener) community, counted among Shudras",
+      "te": "మాలి (తోటమాలి) సమాజం, శూద్ర వర్గంగా పరిగణన"
+     }
+    ],
+    [
+     {
+      "en": "1848",
+      "te": "1848"
+     },
+     {
+      "en": "Girls' school at Bhide's house, Pune — Savitribai as teacher",
+      "te": "పుణెలో భిడే ఇంట్లో బాలికల పాఠశాల — ఉపాధ్యాయిని సావిత్రీబాయి"
+     }
+    ],
+    [
+     {
+      "en": "Satyashodhak Samaj",
+      "te": "సత్యశోధక సమాజ్"
+     },
+     {
+      "en": "24 Sept 1873, Pune — 'Society of Seekers of Truth'",
+      "te": "24 సెప్టెంబర్ 1873, పుణె — 'సత్యాన్వేషకుల సంఘం'"
+     }
+    ],
+    [
+     {
+      "en": "Books",
+      "te": "రచనలు"
+     },
+     {
+      "en": "Gulamgiri (1873) · Shetkaryacha Asud ('Cultivator's Whipcord', 1881) · Tritiya Ratna (a play)",
+      "te": "గులాంగిరి (1873) · షేత్కర్యాచా అసూడ్ ('రైతు కొరడా', 1881) · తృతీయ రత్న (నాటకం)"
+     }
+    ],
+    [
+     {
+      "en": "Public office",
+      "te": "ప్రజా పదవి"
+     },
+     {
+      "en": "Member (commissioner) of the Poona Municipality, 1876–1883",
+      "te": "పూనా మున్సిపాలిటీ సభ్యుడు (కమిషనర్), 1876–1883"
+     }
+    ],
+    [
+     {
+      "en": "'Mahatma'",
+      "te": "'మహాత్మా'"
+     },
+     {
+      "en": "Title given in 1888 (by social activist Vithalrao Krishnaji Vandekar)",
+      "te": "1888లో బిరుదు (సామాజిక కార్యకర్త విఠల్‌రావు కృష్ణాజీ వండేకర్ ఇచ్చారు)"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "28 November 1890, Pune",
+      "te": "28 నవంబర్ 1890, పుణె"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Social reform in the 19th century",
+     "te": "లింక్ చెయిన్ · 19వ శతాబ్ది సాంఘిక సంస్కరణలు"
+    },
+    "l": [
+     {
+      "en": "Savitribai Phule — called India's first woman teacher; she taught in the 1848 school",
+      "te": "సావిత్రీబాయి ఫూలే — భారత తొలి మహిళా ఉపాధ్యాయినిగా పేరు; 1848 పాఠశాలలో బోధించారు"
+     },
+     {
+      "en": "Phule's anti-caste, pro-education ideas inspired later movements, including Dr B.R. Ambedkar's",
+      "te": "ఫూలే కుల వ్యతిరేక, విద్యా అనుకూల ఆలోచనలు అంబేడ్కర్ ఉద్యమం సహా తర్వాతి ఉద్యమాలకు స్ఫూర్తి"
+     },
+     {
+      "en": "AP link (compare): Kandukuri Veeresalingam, the Telugu reformer, conducted the first widow remarriage at Rajahmundry in 1881 — both fought for women's education and widows",
+      "te": "AP కోణం (పోల్చండి): తెలుగు సంస్కర్త కందుకూరి వీరేశలింగం 1881లో రాజమండ్రిలో తొలి వితంతు పునర్వివాహం జరిపించారు — ఇద్దరూ స్త్రీ విద్య, వితంతువుల కోసం పోరాడారు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The Satyashodhak Samaj (1873, Pune) is Phule's — do not confuse it with the Prarthana Samaj (1867, Bombay) or Arya Samaj (1875). And Gulamgiri was dedicated to Americans who fought slavery, not to the British.",
+    "te": "సత్యశోధక సమాజ్ (1873, పుణె) ఫూలేది — ప్రార్థనా సమాజ్ (1867, బొంబాయి), ఆర్య సమాజ్ (1875)తో కలపవద్దు. 'గులాంగిరి'ని బానిసత్వంపై పోరాడిన అమెరికన్లకు అంకితం చేశారు — బ్రిటిష్‌వారికి కాదు."
+   },
+   "tip": {
+    "en": "'48 school → 55 night school → 73 Samaj + Gulamgiri → 88 Mahatma → 90 death' — Phule's ladder: 48-55-73-88-90.",
+    "te": "'48 బడి → 55 రాత్రి బడి → 73 సమాజ్ + గులాంగిరి → 88 మహాత్మా → 90 మరణం' — ఫూలే నిచ్చెన: 48-55-73-88-90."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Jyotirao Phule, consider the following statements:",
+     "te": "జ్యోతిరావు ఫూలేకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. He founded the Satyashodhak Samaj in Pune in 1873.",
+      "te": "I. 1873లో పుణెలో సత్యశోధక సమాజ్ స్థాపించారు."
+     },
+     {
+      "en": "II. His book Gulamgiri was dedicated to the British Parliament for abolishing sati.",
+      "te": "II. సతీ నిర్మూలన చేసినందుకు 'గులాంగిరి'ని బ్రిటిష్ పార్లమెంటుకు అంకితం చేశారు."
+     },
+     {
+      "en": "III. He and Savitribai opened a girls' school in Pune in 1848.",
+      "te": "III. ఆయన, సావిత్రీబాయి 1848లో పుణెలో బాలికల పాఠశాల ప్రారంభించారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and III are correct. II is wrong: Gulamgiri (1873) was dedicated to the people of the USA who fought to end slavery.",
+     "te": "I, III సరైనవి. II తప్పు: 'గులాంగిరి' (1873)ని బానిసత్వ నిర్మూలనకు పోరాడిన అమెరికా ప్రజలకు అంకితం చేశారు."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Phule's life in dates",
+      "te": "తేదీల్లో ఫూలే జీవితం"
+     },
+     "items": [
+      {
+       "y": "1827",
+       "t": {
+        "en": "Born (11 April)",
+        "te": "జననం (11 ఏప్రిల్)"
+       }
+      },
+      {
+       "y": "1848",
+       "t": {
+        "en": "Girls' school at Bhide's house, Pune",
+        "te": "పుణె భిడే ఇంట్లో బాలికల పాఠశాల"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1855",
+       "t": {
+        "en": "Night schools for workers, farmers, women",
+        "te": "కార్మికులు, రైతులు, మహిళలకు రాత్రి బడులు"
+       }
+      },
+      {
+       "y": "1873",
+       "t": {
+        "en": "Satyashodhak Samaj (24 Sept) · Gulamgiri",
+        "te": "సత్యశోధక సమాజ్ (24 సెప్టెంబర్) · గులాంగిరి"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1881",
+       "t": {
+        "en": "Shetkaryacha Asud — on peasants' suffering",
+        "te": "షేత్కర్యాచా అసూడ్ — రైతుల కష్టాలపై"
+       }
+      },
+      {
+       "y": "1888",
+       "t": {
+        "en": "Title 'Mahatma'",
+        "te": "'మహాత్మా' బిరుదు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1890",
+       "t": {
+        "en": "Died in Pune (28 Nov)",
+        "te": "పుణెలో మరణం (28 నవంబర్)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = most-asked: 1848 school, 1873 Samaj, 1888 Mahatma.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగేవి: 1848 బడి, 1873 సమాజ్, 1888 మహాత్మా."
+     }
+    },
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "What Phule fought for",
+      "te": "ఫూలే దేని కోసం పోరాడారు"
+     },
+     "c": {
+      "en": "Jyotirao Phule",
+      "te": "జ్యోతిరావు ఫూలే"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Education",
+        "te": "విద్య"
+       },
+       "l": [
+        {
+         "en": "Girls' school 1848",
+         "te": "బాలికల బడి 1848"
+        },
+        {
+         "en": "Night schools 1855",
+         "te": "రాత్రి బడులు 1855"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Caste equality",
+        "te": "కుల సమానత్వం"
+       },
+       "l": [
+        {
+         "en": "Satyashodhak Samaj",
+         "te": "సత్యశోధక సమాజ్"
+        },
+        {
+         "en": "Gulamgiri",
+         "te": "గులాంగిరి"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Women & widows",
+        "te": "మహిళలు, వితంతువులు"
+       },
+       "l": [
+        {
+         "en": "Home for pregnant widows",
+         "te": "గర్భిణి వితంతువులకు ఆశ్రయం"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Farmers",
+        "te": "రైతులు"
+       },
+       "l": [
+        {
+         "en": "Shetkaryacha Asud",
+         "te": "షేత్కర్యాచా అసూడ్"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Britannica — Jyotirao Phule",
+     "u": "https://www.britannica.com/biography/Jyotirao-Phule"
+    },
+    {
+     "t": "Drishti IAS — Mahatma Jyotiba Phule and His Major Social Reforms (28 Nov 2025)",
+     "u": "https://www.drishtiias.com/daily-updates/daily-news-analysis/mahatma-jyotiba-phule-and-his-major-social-reforms/print_manually"
+    },
+    {
+     "t": "Vision IAS — 135th death anniversary of Mahatma Jyotirao Phule",
+     "u": "https://visionias.in/blog/current-affairs/135th-death-anniversary-of-mahatma-jyotirao-phule-pioneer-of-social-reform-and-education-in-19th-century-india"
+    },
+    {
+     "t": "MJP Rohilkhand University — About Mahatma Jyotiba Phule",
+     "u": "https://www.mjpru.ac.in/AboutMJP.aspx"
+    }
+   ]
+  },
+  {
+   "id": "engels",
+   "kind": "day",
+   "color": "#7a3b8f",
+   "icon": "sirsyed",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "tag": {
+    "en": "Birth anniversary · 28 Nov 1820",
+    "te": "జయంతి · 28 నవంబర్ 1820"
+   },
+   "title": {
+    "en": "Friedrich Engels — co-author of the Communist Manifesto",
+    "te": "ఫ్రెడరిక్ ఏంగెల్స్ — కమ్యూనిస్ట్ మేనిఫెస్టో సహ రచయిత"
+   },
+   "line": {
+    "en": "Karl Marx's lifelong partner; wrote on factory workers' lives and completed Das Kapital after Marx died.",
+    "te": "కార్ల్ మార్క్స్ జీవితకాల సహచరుడు; కార్మికుల జీవితాలపై రాశారు, మార్క్స్ మరణానంతరం 'దాస్ కాపిటల్' పూర్తి చేశారు."
+   },
+   "easy": [
+    {
+     "en": "Friedrich Engels was born on 28 November 1820 at Barmen in the Rhine Province of Prussia (now part of Wuppertal, Germany). His father owned a textile factory in Barmen and was a partner in the Ermen & Engels cotton plant in Manchester, England.",
+     "te": "ఫ్రెడరిక్ ఏంగెల్స్ 28 నవంబర్ 1820న ప్రష్యాలోని రైన్ ప్రావిన్స్‌లోని బార్మెన్‌లో (ఇప్పుడు జర్మనీలోని వుప్పర్టాల్‌లో భాగం) జన్మించారు. ఆయన తండ్రికి బార్మెన్‌లో వస్త్ర కర్మాగారం ఉండేది; ఇంగ్లండ్‌లోని మాంచెస్టర్‌లో 'ఎర్మెన్ & ఏంగెల్స్' పత్తి మిల్లులో భాగస్వామి."
+    },
+    {
+     "en": "Working in Manchester (1842–44), he saw how factory workers lived. This became his book 'The Condition of the Working Class in England' (1845). He first met Karl Marx in 1842 at Cologne; their lifelong friendship began in Paris in 1844. In February 1848 the two published the Communist Manifesto in London.",
+     "te": "మాంచెస్టర్‌లో పనిచేసిన కాలంలో (1842–44) కర్మాగార కార్మికుల జీవితాలను దగ్గరగా చూశారు. అదే 'ద కండిషన్ ఆఫ్ ద వర్కింగ్ క్లాస్ ఇన్ ఇంగ్లండ్' (1845) పుస్తకం అయింది. కార్ల్ మార్క్స్‌ను మొదట 1842లో కొలోన్‌లో కలిశారు; 1844లో పారిస్‌లో వారి జీవితకాల స్నేహం మొదలైంది. ఫిబ్రవరి 1848లో ఇద్దరూ లండన్‌లో 'కమ్యూనిస్ట్ మేనిఫెస్టో' ప్రచురించారు."
+    },
+    {
+     "en": "After Marx died, Engels edited and brought out Volume 2 of Das Kapital (1885) and finished the work on Volume 3 (1894). He also wrote Anti-Dühring (1878) and 'The Origin of the Family, Private Property and the State' (1884). He died in London on 5 August 1895.",
+     "te": "మార్క్స్ మరణం తర్వాత 'దాస్ కాపిటల్' రెండో సంపుటాన్ని (1885) ఏంగెల్స్ సంపాదకత్వంలో వెలువరించారు; మూడో సంపుటం పనిని 1894లో పూర్తి చేశారు. 'యాంటీ-డ్యూరింగ్' (1878), 'కుటుంబం, వ్యక్తిగత ఆస్తి, రాజ్యం — వాటి పుట్టుక' (1884) కూడా రాశారు. 5 ఆగస్టు 1895న లండన్‌లో మరణించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "28 Nov 1820, Barmen, Prussia (now Wuppertal, Germany)",
+      "te": "28 నవంబర్ 1820, బార్మెన్, ప్రష్యా (ఇప్పుడు వుప్పర్టాల్, జర్మనీ)"
+     }
+    ],
+    [
+     {
+      "en": "First book on workers",
+      "te": "కార్మికులపై తొలి పుస్తకం"
+     },
+     {
+      "en": "The Condition of the Working Class in England (1845)",
+      "te": "ద కండిషన్ ఆఫ్ ద వర్కింగ్ క్లాస్ ఇన్ ఇంగ్లండ్ (1845)"
+     }
+    ],
+    [
+     {
+      "en": "Communist Manifesto",
+      "te": "కమ్యూనిస్ట్ మేనిఫెస్టో"
+     },
+     {
+      "en": "February 1848, London — with Karl Marx",
+      "te": "ఫిబ్రవరి 1848, లండన్ — కార్ల్ మార్క్స్‌తో కలిసి"
+     }
+    ],
+    [
+     {
+      "en": "Das Kapital",
+      "te": "దాస్ కాపిటల్"
+     },
+     {
+      "en": "Vol 1 by Marx; Engels edited Vol 2 (1885) and completed Vol 3 (1894)",
+      "te": "1వ సంపుటం మార్క్స్‌ది; 2వ సంపుటం (1885) ఏంగెల్స్ సంపాదకత్వం, 3వ సంపుటం (1894) పూర్తి"
+     }
+    ],
+    [
+     {
+      "en": "Other works",
+      "te": "ఇతర రచనలు"
+     },
+     {
+      "en": "Anti-Dühring (1878) · Origin of the Family, Private Property and the State (1884)",
+      "te": "యాంటీ-డ్యూరింగ్ (1878) · కుటుంబం, వ్యక్తిగత ఆస్తి, రాజ్యం పుట్టుక (1884)"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "5 August 1895, London",
+      "te": "5 ఆగస్టు 1895, లండన్"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Socialism in world and Indian history",
+     "te": "లింక్ చెయిన్ · ప్రపంచ, భారత చరిత్రలో సోషలిజం"
+    },
+    "l": [
+     {
+      "en": "1848 was also the year of revolutions across Europe — the Manifesto came out just before them",
+      "te": "1848 యూరప్ అంతటా విప్లవాల సంవత్సరం — మేనిఫెస్టో వాటికి కొద్దిగా ముందే వచ్చింది"
+     },
+     {
+      "en": "Marxist ideas shaped the Russian Revolution (1917) and, in India, the communist and trade-union movements",
+      "te": "మార్క్సిస్టు ఆలోచనలు రష్యా విప్లవాన్ని (1917), భారత్‌లో కమ్యూనిస్టు, కార్మిక సంఘాల ఉద్యమాలను ప్రభావితం చేశాయి"
+     },
+     {
+      "en": "Compare with Phule (same day): both wrote about the exploited — Engels about factory workers, Phule about lower castes and peasants",
+      "te": "ఫూలేతో పోల్చండి (అదే రోజు): ఇద్దరూ దోపిడీకి గురైనవారిపై రాశారు — ఏంగెల్స్ కర్మాగార కార్మికులపై, ఫూలే అణగారిన కులాలు, రైతులపై"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Das Kapital Volume 1 (1867) was written and published by Marx himself; Engels only edited Volumes 2 and 3 after Marx's death. And Engels was born in Prussia (Germany), not in England — he only worked in Manchester.",
+    "te": "దాస్ కాపిటల్ 1వ సంపుటాన్ని (1867) మార్క్స్ స్వయంగా రాసి ప్రచురించారు; మార్క్స్ మరణం తర్వాత 2, 3 సంపుటాలను మాత్రమే ఏంగెల్స్ సంపాదకత్వం వహించారు. ఏంగెల్స్ ప్రష్యా (జర్మనీ)లో జన్మించారు — ఇంగ్లండ్‌లో కాదు; మాంచెస్టర్‌లో పని మాత్రమే చేశారు."
+   },
+   "tip": {
+    "en": "Engels = 'E for England's workers' (1845 book) + 'Manifesto 48' + 'Kapital 85/94'.",
+    "te": "ఏంగెల్స్ = 'ఇంగ్లండ్ కార్మికులు' (1845) + 'మేనిఫెస్టో 48' + 'కాపిటల్ 85/94'."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Friedrich Engels, consider the following statements:",
+     "te": "ఫ్రెడరిక్ ఏంగెల్స్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. He wrote 'The Condition of the Working Class in England' after working in Manchester.",
+      "te": "I. మాంచెస్టర్‌లో పనిచేసిన తర్వాత 'ద కండిషన్ ఆఫ్ ద వర్కింగ్ క్లాస్ ఇన్ ఇంగ్లండ్' రాశారు."
+     },
+     {
+      "en": "II. He wrote and published Volume 1 of Das Kapital.",
+      "te": "II. దాస్ కాపిటల్ 1వ సంపుటాన్ని ఆయనే రాసి ప్రచురించారు."
+     },
+     {
+      "en": "III. He co-authored the Communist Manifesto with Karl Marx in 1848.",
+      "te": "III. 1848లో కార్ల్ మార్క్స్‌తో కలిసి కమ్యూనిస్ట్ మేనిఫెస్టో రాశారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "I and III are correct. II is wrong: Volume 1 was Marx's own work; Engels edited Volumes 2 (1885) and 3 (1894) after Marx died.",
+     "te": "I, III సరైనవి. II తప్పు: 1వ సంపుటం మార్క్స్ స్వంత రచన; మార్క్స్ మరణం తర్వాత 2 (1885), 3 (1894) సంపుటాలకు ఏంగెల్స్ సంపాదకత్వం వహించారు."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Engels in dates",
+      "te": "తేదీల్లో ఏంగెల్స్"
+     },
+     "items": [
+      {
+       "y": "1820",
+       "t": {
+        "en": "Born at Barmen, Prussia (28 Nov)",
+        "te": "ప్రష్యాలోని బార్మెన్‌లో జననం (28 నవంబర్)"
+       }
+      },
+      {
+       "y": "1842",
+       "t": {
+        "en": "Goes to Manchester; first meets Marx at Cologne",
+        "te": "మాంచెస్టర్‌కు; కొలోన్‌లో మార్క్స్‌తో తొలి కలయిక"
+       }
+      },
+      {
+       "y": "1845",
+       "t": {
+        "en": "Condition of the Working Class in England",
+        "te": "ఇంగ్లండ్ కార్మిక వర్గ స్థితి పుస్తకం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1848",
+       "t": {
+        "en": "Communist Manifesto (Feb, London)",
+        "te": "కమ్యూనిస్ట్ మేనిఫెస్టో (ఫిబ్రవరి, లండన్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1884",
+       "t": {
+        "en": "Origin of the Family, Private Property and the State",
+        "te": "కుటుంబం, వ్యక్తిగత ఆస్తి, రాజ్యం పుట్టుక"
+       }
+      },
+      {
+       "y": "1885",
+       "t": {
+        "en": "Das Kapital Vol 2 (edited)",
+        "te": "దాస్ కాపిటల్ 2వ సంపుటం (సంపాదకత్వం)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1895",
+       "t": {
+        "en": "Died in London (5 Aug)",
+        "te": "లండన్‌లో మరణం (5 ఆగస్టు)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = most-asked dates: 1845 book, 1848 Manifesto, 1885 Kapital Vol 2.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగేవి: 1845 పుస్తకం, 1848 మేనిఫెస్టో, 1885 కాపిటల్ 2వ సంపుటం."
+     }
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Marx and Engels — who did what",
+      "te": "మార్క్స్, ఏంగెల్స్ — ఎవరు ఏం చేశారు"
+     },
+     "a": {
+      "h": {
+       "en": "Karl Marx",
+       "te": "కార్ల్ మార్క్స్"
+      },
+      "l": [
+       {
+        "en": "Das Kapital Vol 1",
+        "te": "దాస్ కాపిటల్ 1వ సంపుటం"
+       },
+       {
+        "en": "Co-author, Manifesto 1848",
+        "te": "మేనిఫెస్టో 1848 సహ రచయిత"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Friedrich Engels",
+       "te": "ఫ్రెడరిక్ ఏంగెల్స్"
+      },
+      "l": [
+       {
+        "en": "Working Class in England 1845",
+        "te": "ఇంగ్లండ్ కార్మిక వర్గం 1845"
+       },
+       {
+        "en": "Co-author, Manifesto 1848",
+        "te": "మేనిఫెస్టో 1848 సహ రచయిత"
+       },
+       {
+        "en": "Edited Kapital Vols 2 & 3",
+        "te": "కాపిటల్ 2, 3 సంపుటాల సంపాదకత్వం"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Britannica — Friedrich Engels",
+     "u": "https://www.britannica.com/money/Friedrich-Engels"
+    },
+    {
+     "t": "Marx-Engels Internet Archive — Engels biography (1892 encyclopedia entry)",
+     "u": "https://www.marxists.org/archive/marx/bio/engels/en-1892.htm"
+    },
+    {
+     "t": "Deutsches Historisches Museum (LeMO) — Friedrich Engels 1820–1895",
+     "u": "https://www.dhm.de/lemo/biografie/friedrich-engels"
+    }
+   ]
+  },
+  {
+   "id": "delimit",
+   "kind": "article",
+   "color": "#1d4f91",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    6
+   ],
+   "src": {
+    "en": "In the news · Polity · 27 Nov 2026 (special sitting from 30 Nov)",
+    "te": "వార్తల్లో · రాజకీయ వ్యవస్థ · 27 నవంబర్ 2026 (30 నవంబర్ నుంచి ప్రత్యేక సమావేశం)"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity — Parliament & delimitation (Group 2, Group 1)",
+    "te": "వివరణ · రాజకీయ వ్యవస్థ — పార్లమెంట్, నియోజకవర్గాల పునర్విభజన (గ్రూప్ 2, గ్రూప్ 1)"
+   },
+   "title": {
+    "en": "Delimitation explained: why Lok Sabha seats are still based on the 1971 Census",
+    "te": "డీలిమిటేషన్ వివరణ: లోక్‌సభ సీట్లు ఇప్పటికీ 1971 జనాభా లెక్కల ఆధారంగానే ఎందుకు?"
+   },
+   "line": {
+    "en": "Parliament meets in a special sitting from 30 Nov on a revised plan to raise every State's Lok Sabha seats by 50% and keep State shares frozen till 2051 (as reported).",
+    "te": "ప్రతి రాష్ట్ర లోక్‌సభ సీట్లను 50% పెంచి, రాష్ట్రాల వాటాను 2051 వరకు స్థిరంగా ఉంచే సవరించిన ప్రణాళికపై 30 నవంబర్ నుంచి పార్లమెంట్ ప్రత్యేక సమావేశం (వార్తల ప్రకారం)."
+   },
+   "easy": [
+    {
+     "en": "What is delimitation? It means fixing the number of seats and the boundaries of Lok Sabha and Assembly constituencies, so that each MP or MLA represents roughly the same number of people. Article 82 (Lok Sabha) and Article 170 (Assemblies) say this should be readjusted after each Census. The work is done by a Delimitation Commission, whose orders cannot be challenged in courts (Article 329(a)).",
+     "te": "డీలిమిటేషన్ అంటే? లోక్‌సభ, శాసనసభ నియోజకవర్గాల సంఖ్యను, సరిహద్దులను నిర్ణయించడం — ప్రతి ఎంపీ/ఎమ్మెల్యే దాదాపు సమాన జనాభాకు ప్రాతినిధ్యం వహించేలా. ప్రతి జనాభా లెక్కల తర్వాత ఇది పునఃసర్దుబాటు కావాలని అధికరణ 82 (లోక్‌సభ), అధికరణ 170 (శాసనసభలు) చెబుతాయి. ఈ పని డీలిమిటేషన్ కమిషన్ చేస్తుంది; దాని ఉత్తర్వులను కోర్టుల్లో సవాల్ చేయలేరు (అధికరణ 329(a))."
+    },
+    {
+     "en": "Why the freeze? Delimitation Commissions were set up in 1952, 1963, 1973 and 2002. The 42nd Amendment (1976) froze the number of seats per State on the 1971 Census until the first Census after 2000; the 84th Amendment (2001) extended it until the first Census after 2026. Reason: States that controlled population (mostly in the South) should not lose seats. The 2002 Commission (Justice Kuldip Singh) only redrew boundaries inside States — the 87th Amendment (2003) let it use the 2001 Census for that. So the Lok Sabha still has 543 seats.",
+     "te": "ఎందుకు స్తంభన? డీలిమిటేషన్ కమిషన్లు 1952, 1963, 1973, 2002లో ఏర్పడ్డాయి. 42వ సవరణ (1976) రాష్ట్రాల వారీ సీట్ల సంఖ్యను 1971 జనాభా లెక్కలపై 2000 తర్వాతి తొలి జనగణన వరకు స్తంభింపజేసింది; 84వ సవరణ (2001) దాన్ని 2026 తర్వాతి తొలి జనగణన వరకు పొడిగించింది. కారణం: జనాభాను నియంత్రించిన రాష్ట్రాలు (ఎక్కువగా దక్షిణాది) సీట్లు కోల్పోకూడదు. 2002 కమిషన్ (జస్టిస్ కుల్దీప్ సింగ్) రాష్ట్రాల లోపల సరిహద్దులను మాత్రమే మార్చింది — 87వ సవరణ (2003) దానికి 2001 జనాభా లెక్కలు వాడే వీలిచ్చింది. అందుకే లోక్‌సభలో ఇప్పటికీ 543 సీట్లు."
+    },
+    {
+     "en": "What is new? In April 2026 the Delimitation Bill, 2026 proposed up to 850 seats; the linked Constitution (131st Amendment) Bill failed in the Lok Sabha on 17 April (298 for, 230 against — a two-thirds special majority under Article 368 was needed). A revised package, reportedly cleared by the Union Cabinet on 27 November, proposes a uniform 50% rise in every State's seats and extends the freeze on State shares till 2051, so the 33% women's reservation (106th Amendment, 2023) can start before the 2029 election. Parliament sits from 30 November.",
+     "te": "కొత్తగా ఏమిటి? ఏప్రిల్ 2026లో డీలిమిటేషన్ బిల్లు, 2026 గరిష్ఠంగా 850 సీట్లను ప్రతిపాదించింది; దానికి అనుబంధ రాజ్యాంగ (131వ సవరణ) బిల్లు ఏప్రిల్ 17న లోక్‌సభలో వీగిపోయింది (అనుకూలం 298, వ్యతిరేకం 230 — అధికరణ 368 కింద మూడింట రెండు వంతుల ప్రత్యేక మెజారిటీ అవసరం). నవంబర్ 27న కేంద్ర కేబినెట్ ఆమోదించినట్లు వార్తల్లో వచ్చిన సవరించిన ప్యాకేజీ — ప్రతి రాష్ట్ర సీట్లను సమానంగా 50% పెంచడం, రాష్ట్రాల వాటాపై స్తంభనను 2051 వరకు పొడిగించడం — తద్వారా 33% మహిళా రిజర్వేషన్ (106వ సవరణ, 2023) 2029 ఎన్నికలకు ముందే అమలవుతుంది. పార్లమెంట్ 30 నవంబర్ నుంచి సమావేశమవుతుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Lok Sabha today",
+      "te": "ప్రస్తుత లోక్‌సభ"
+     },
+     {
+      "en": "543 seats — State shares based on 1971 Census",
+      "te": "543 సీట్లు — రాష్ట్రాల వాటా 1971 జనాభా లెక్కల ఆధారంగా"
+     }
+    ],
+    [
+     {
+      "en": "Freeze laws",
+      "te": "స్తంభన సవరణలు"
+     },
+     {
+      "en": "42nd Amendment 1976 (till first Census after 2000) → 84th Amendment 2001 (till first Census after 2026)",
+      "te": "42వ సవరణ 1976 (2000 తర్వాతి తొలి జనగణన వరకు) → 84వ సవరణ 2001 (2026 తర్వాతి తొలి జనగణన వరకు)"
+     }
+    ],
+    [
+     {
+      "en": "Delimitation Commissions",
+      "te": "డీలిమిటేషన్ కమిషన్లు"
+     },
+     {
+      "en": "1952, 1963, 1973, 2002 (last: Justice Kuldip Singh)",
+      "te": "1952, 1963, 1973, 2002 (చివరిది: జస్టిస్ కుల్దీప్ సింగ్)"
+     }
+    ],
+    [
+     {
+      "en": "April 2026 attempt",
+      "te": "ఏప్రిల్ 2026 ప్రయత్నం"
+     },
+     {
+      "en": "Delimitation Bill (up to 850 seats); 131st Amendment Bill failed 17 Apr: 298–230, needed 352",
+      "te": "డీలిమిటేషన్ బిల్లు (850 వరకు సీట్లు); 131వ సవరణ బిల్లు ఏప్రిల్ 17న వీగింది: 298–230, అవసరం 352"
+     }
+    ],
+    [
+     {
+      "en": "Revised plan (reported)",
+      "te": "సవరించిన ప్రణాళిక (వార్తల ప్రకారం)"
+     },
+     {
+      "en": "Uniform +50% seats for every State; State-share freeze extended to 2051",
+      "te": "ప్రతి రాష్ట్రానికి సమానంగా +50% సీట్లు; రాష్ట్రాల వాటా స్తంభన 2051 వరకు"
+     }
+    ],
+    [
+     {
+      "en": "Special sitting",
+      "te": "ప్రత్యేక సమావేశం"
+     },
+     {
+      "en": "Lok Sabha from 30 Nov, Rajya Sabha from 2 Dec; till 3 Dec",
+      "te": "లోక్‌సభ 30 నవంబర్ నుంచి, రాజ్యసభ 2 డిసెంబర్ నుంచి; 3 డిసెంబర్ వరకు"
+     }
+    ],
+    [
+     {
+      "en": "Andhra Pradesh now",
+      "te": "ప్రస్తుతం ఆంధ్రప్రదేశ్"
+     },
+     {
+      "en": "25 Lok Sabha · 175 Assembly seats (a 50% rise would mean about 37–38 MPs; final number depends on the law)",
+      "te": "25 లోక్‌సభ · 175 శాసనసభ సీట్లు (50% పెంపుతో సుమారు 37–38 ఎంపీలు; తుది సంఖ్య చట్టంపై ఆధారం)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Articles to remember",
+     "te": "లింక్ చెయిన్ · గుర్తుంచుకోవాల్సిన అధికరణలు"
+    },
+    "l": [
+     {
+      "en": "Art 81 — composition of Lok Sabha · Art 82 — readjustment after each Census · Art 170 — State Assemblies",
+      "te": "అధి. 81 — లోక్‌సభ కూర్పు · అధి. 82 — ప్రతి జనగణన తర్వాత పునఃసర్దుబాటు · అధి. 170 — రాష్ట్ర శాసనసభలు"
+     },
+     {
+      "en": "Art 329(a) — courts cannot question delimitation laws/orders (Meghraj Kothari case, 1967)",
+      "te": "అధి. 329(a) — డీలిమిటేషన్ చట్టాలు/ఉత్తర్వులను కోర్టులు ప్రశ్నించలేవు (మేఘరాజ్ కొఠారి కేసు, 1967)"
+     },
+     {
+      "en": "Art 334A (106th Amendment) — women's quota starts only after delimitation following the first Census after the Act; Art 368 — special majority for amendments",
+      "te": "అధి. 334A (106వ సవరణ) — చట్టం తర్వాతి తొలి జనగణన అనంతర డీలిమిటేషన్ తర్వాతే మహిళా కోటా; అధి. 368 — సవరణలకు ప్రత్యేక మెజారిటీ"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The 42nd Amendment (1976) first froze seats on the 1971 Census; the 84th Amendment (2001) extended the freeze to after 2026. The 2002 Commission did NOT change the number of seats per State — only boundaries inside States.",
+    "te": "1971 జనాభా లెక్కలపై సీట్లను మొదట స్తంభింపజేసింది 42వ సవరణ (1976); 84వ సవరణ (2001) దాన్ని 2026 తర్వాతకు పొడిగించింది. 2002 కమిషన్ రాష్ట్రాల సీట్ల సంఖ్యను మార్చలేదు — రాష్ట్రాల లోపలి సరిహద్దులను మాత్రమే."
+   },
+   "tip": {
+    "en": "'42 froze, 84 extended, 87 redrew' — 42nd (1976) · 84th (2001) · 87th (2003).",
+    "te": "'42 స్తంభన, 84 పొడిగింపు, 87 సరిహద్దులు' — 42వ (1976) · 84వ (2001) · 87వ (2003)."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to delimitation of Lok Sabha constituencies in India, consider the following statements:",
+     "te": "భారత్‌లో లోక్‌సభ నియోజకవర్గాల డీలిమిటేషన్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The 42nd Amendment (1976) froze the State-wise allocation of seats on the basis of the 1971 Census.",
+      "te": "I. 42వ సవరణ (1976) రాష్ట్రాల వారీ సీట్ల కేటాయింపును 1971 జనాభా లెక్కల ఆధారంగా స్తంభింపజేసింది."
+     },
+     {
+      "en": "II. The Delimitation Commission of 2002 increased the number of Lok Sabha seats of the southern States.",
+      "te": "II. 2002 డీలిమిటేషన్ కమిషన్ దక్షిణాది రాష్ట్రాల లోక్‌సభ సీట్లను పెంచింది."
+     },
+     {
+      "en": "III. Orders of the Delimitation Commission cannot be questioned in courts.",
+      "te": "III. డీలిమిటేషన్ కమిషన్ ఉత్తర్వులను కోర్టుల్లో ప్రశ్నించలేరు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "I and III are correct. II is wrong: the 2002 Commission only redrew boundaries within States; the number of seats per State stayed frozen.",
+     "te": "I, III సరైనవి. II తప్పు: 2002 కమిషన్ రాష్ట్రాల లోపల సరిహద్దులను మాత్రమే మార్చింది; రాష్ట్రాల సీట్ల సంఖ్య స్తంభనలోనే ఉంది."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "How the seat freeze grew",
+      "te": "సీట్ల స్తంభన ఎలా పెరిగింది"
+     },
+     "items": [
+      {
+       "y": "1952",
+       "t": {
+        "en": "1st Delimitation Commission (1951 Census)",
+        "te": "1వ డీలిమిటేషన్ కమిషన్ (1951 జనగణన)"
+       }
+      },
+      {
+       "y": "1973",
+       "t": {
+        "en": "3rd Commission — seats on 1971 Census",
+        "te": "3వ కమిషన్ — 1971 జనగణనపై సీట్లు"
+       }
+      },
+      {
+       "y": "1976",
+       "t": {
+        "en": "42nd Amendment: freeze till after 2000",
+        "te": "42వ సవరణ: 2000 తర్వాత వరకు స్తంభన"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2001",
+       "t": {
+        "en": "84th Amendment: freeze till after 2026",
+        "te": "84వ సవరణ: 2026 తర్వాత వరకు స్తంభన"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2002",
+       "t": {
+        "en": "4th Commission (Kuldip Singh): boundaries only",
+        "te": "4వ కమిషన్ (కుల్దీప్ సింగ్): సరిహద్దులు మాత్రమే"
+       }
+      },
+      {
+       "y": "2023",
+       "t": {
+        "en": "106th Amendment: 33% women's quota",
+        "te": "106వ సవరణ: 33% మహిళా కోటా"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "April bill fails; revised plan, special sitting 30 Nov",
+        "te": "ఏప్రిల్ బిల్లు వీగింది; సవరించిన ప్రణాళిక, 30 నవంబర్ ప్రత్యేక సమావేశం"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = the three Amendments most asked in exams.",
+      "te": "బోల్డ్ = పరీక్షల్లో ఎక్కువగా అడిగే మూడు సవరణలు."
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "Why delimitation and women's quota are linked",
+      "te": "డీలిమిటేషన్, మహిళా కోటా ఎందుకు ముడిపడ్డాయి"
+     },
+     "items": [
+      {
+       "i": "👩",
+       "t": {
+        "en": "106th Amendment 2023: 33% seats for women",
+        "te": "106వ సవరణ 2023: మహిళలకు 33% సీట్లు"
+       }
+      },
+      {
+       "i": "📋",
+       "t": {
+        "en": "Art 334A: only after Census + delimitation",
+        "te": "అధి. 334A: జనగణన + డీలిమిటేషన్ తర్వాతే"
+       }
+      },
+      {
+       "i": "⏳",
+       "t": {
+        "en": "No delimitation → quota cannot start",
+        "te": "డీలిమిటేషన్ లేకుంటే → కోటా మొదలవదు"
+       }
+      },
+      {
+       "i": "➕",
+       "t": {
+        "en": "Revised plan: +50% seats, shares frozen to 2051",
+        "te": "సవరించిన ప్రణాళిక: +50% సీట్లు, వాటా 2051 వరకు స్థిరం"
+       }
+      },
+      {
+       "i": "🗳️",
+       "t": {
+        "en": "Goal: quota before 2029 polls",
+        "te": "లక్ష్యం: 2029 ఎన్నికల ముందే కోటా"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Particle News — Cabinet clears revised Delimitation Bill and calls special Parliament sittings (27 Nov 2026)",
+     "u": "https://particle.news/story/cabinet-clears-revised-delimitation-bill-and-calls-special-parliament-sittings"
+    },
+    {
+     "t": "Vajiram & Ravi — Delimitation Bill 2026: background, proposed reforms, latest news (27 Nov 2026)",
+     "u": "https://vajiramandravi.com/current-affairs/delimitation-bill/"
+    },
+    {
+     "t": "SuperKalam — Delimitation 2026: why Lok Sabha seats depend on the 1971 Census (updated 27 Nov 2026)",
+     "u": "https://superkalam.com/current-affairs/articles/delimitation-2026-why-lok-sabha-seats-depend-on-the-1971-census"
+    },
+    {
+     "t": "Wikipedia — Delimitation Bill, 2026",
+     "u": "https://en.wikipedia.org/wiki/Delimitation_Bill,_2026"
+    },
+    {
+     "t": "Next IAS — Headlines of the Day, 27 Nov 2026 (The Hindu: Delimitation Bill likely to be tabled next week)",
+     "u": "https://nextias.com/ca/headlines-of-the-day/27-11-2026/89673"
+    },
+    {
+     "t": "Business Today — Andhra Pradesh: polling in all 25 Lok Sabha constituencies, 175 Assembly segments (9 May 2024)",
+     "u": "https://www.businesstoday.in/amp/india/story/andhra-pradesh-lok-sabha-election-2024-polling-in-all-25-constituencies-on-may-13-full-list-of-seats-candidates-here-428877-2024-05-09"
+    }
+   ],
+   "mains": {
+    "en": "Explain why the inter-State allocation of Lok Sabha seats has been frozen since 1976. Discuss the federal concerns of the southern States, including Andhra Pradesh, about delimitation after 2026. (Group 1 Mains, 15 marks)",
+    "te": "1976 నుంచి లోక్‌సభ సీట్ల అంతర్‌రాష్ట్ర కేటాయింపు ఎందుకు స్తంభనలో ఉందో వివరించండి. 2026 తర్వాతి డీలిమిటేషన్‌పై ఆంధ్రప్రదేశ్ సహా దక్షిణాది రాష్ట్రాల సమాఖ్య ఆందోళనలను చర్చించండి. (గ్రూప్ 1 మెయిన్స్, 15 మార్కులు)"
+   }
+  },
+  {
+   "id": "cashtransfer",
+   "kind": "article",
+   "color": "#2f6b2f",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "The Hindu · Op-ed · 27 Nov 2026 + PRS 'State of State Finances 2026-27'",
+    "te": "ద హిందూ · వ్యాసం · 27 నవంబర్ 2026 + PRS 'రాష్ట్ర ఆర్థిక స్థితి 2026-27'"
+   },
+   "tag": {
+    "en": "Explained · GS-III Economy — State finances & welfare (Group 2, Group 1)",
+    "te": "వివరణ · ఆర్థిక వ్యవస్థ — రాష్ట్ర ఆర్థికాలు, సంక్షేమం (గ్రూప్ 2, గ్రూప్ 1)"
+   },
+   "title": {
+    "en": "Cash in hand: States' direct cash schemes near ₹4 lakh crore — who pays?",
+    "te": "చేతికి నగదు: రాష్ట్రాల నగదు బదిలీ పథకాలు ₹4 లక్షల కోట్లకు చేరువ — భారం ఎవరిది?"
+   },
+   "line": {
+    "en": "Unconditional cash transfers now take about 1% of GDP; Andhra Pradesh spends ₹33,943 crore — about 14% of its revenue receipts.",
+    "te": "బేషరతు నగదు బదిలీలు ఇప్పుడు GDPలో సుమారు 1%; ఆంధ్రప్రదేశ్ ఖర్చు ₹33,943 కోట్లు — రెవెన్యూ రాబడుల్లో సుమారు 14%."
+   },
+   "easy": [
+    {
+     "en": "What is an unconditional cash transfer (UCT)? Money paid straight into a beneficiary's bank account every month or year, with no condition to fulfil — for example, monthly money for women, pensions for the elderly, or support for farmers. PRS Legislative Research counted 128 such State schemes with nearly ₹4 lakh crore allocated in 2026-27.",
+     "te": "బేషరతు నగదు బదిలీ (UCT) అంటే? ఎలాంటి షరతు లేకుండా లబ్ధిదారు బ్యాంకు ఖాతాలోకి నెలకోసారి లేదా ఏటా నేరుగా జమ చేసే డబ్బు — ఉదా. మహిళలకు నెలవారీ నగదు, వృద్ధులకు పింఛన్లు, రైతులకు సాయం. PRS లెజిస్లేటివ్ రీసెర్చ్ అలాంటి 128 రాష్ట్ర పథకాలను లెక్కించింది; 2026-27లో వీటికి దాదాపు ₹4 లక్షల కోట్లు కేటాయించారు."
+    },
+    {
+     "en": "How big is it? UCTs rose from 0.6% of GDP in 2022-23 to an estimated 1% in 2026-27. Women's schemes alone are about 0.5% of GDP, pensions about 0.39%. Women and pensioners take almost 90% of the money. Examples: Lakshmir Bhandar (West Bengal), Gruha Lakshmi (Karnataka), Ladki Bahin (Maharashtra), Ladli Behna (Madhya Pradesh), Subhadra (Odisha), Magalir Urimai Thogai (Tamil Nadu).",
+     "te": "ఎంత పెద్దది? UCTలు 2022-23లో GDPలో 0.6% నుంచి 2026-27లో అంచనా 1%కి పెరిగాయి. మహిళా పథకాలే GDPలో సుమారు 0.5%, పింఛన్లు సుమారు 0.39%. మొత్తం డబ్బులో దాదాపు 90% మహిళలు, పింఛనుదారులకే. ఉదాహరణలు: లక్ష్మీర్ భండార్ (పశ్చిమ బెంగాల్), గృహ లక్ష్మి (కర్ణాటక), లడ్కీ బహిన్ (మహారాష్ట్ర), లాడ్లీ బెహనా (మధ్యప్రదేశ్), సుభద్ర (ఒడిశా), మగళిర్ ఉరిమై తొగై (తమిళనాడు)."
+    },
+    {
+     "en": "Why the worry? Such transfers are hard to withdraw once started. The 16th Finance Commission flagged the growing burden and advised rationalising (narrowing) beneficiary coverage. The Hindu op-ed warns that gaps are filled by borrowing or by cutting essential spending (like filling teacher posts), and suggests a published 'social DPR' — with a 10-year cost projection and a sunset clause — before any new scheme or poll promise is approved. AP angle: AP's UCT allocation is ₹33,943 crore, including the country's largest pension allocation (₹27,343 crore) and Annadata Sukhibhava for farmers (₹6,600 crore).",
+     "te": "ఆందోళన ఎందుకు? ఒకసారి మొదలైన బదిలీలను వెనక్కి తీసుకోవడం కష్టం. 16వ ఆర్థిక సంఘం పెరుగుతున్న భారాన్ని ఎత్తిచూపి, లబ్ధిదారుల పరిధిని హేతుబద్ధీకరించాలని (కుదించాలని) సూచించింది. అప్పులు తేవడం లేదా అత్యవసర ఖర్చులను (ఉపాధ్యాయ పోస్టుల భర్తీ వంటివి) తగ్గించడం ద్వారా లోటు పూడుస్తున్నారని ద హిందూ వ్యాసం హెచ్చరించి — ఏ కొత్త పథకం లేదా ఎన్నికల హామీకైనా ముందే 10 ఏళ్ల వ్యయ అంచనా, 'సన్‌సెట్ క్లాజ్'తో 'సోషల్ DPR' ప్రచురించాలని సూచించింది. AP కోణం: AP UCT కేటాయింపు ₹33,943 కోట్లు — దేశంలోనే అతిపెద్ద పింఛన్ కేటాయింపు (₹27,343 కోట్లు), రైతుల కోసం అన్నదాత సుఖీభవ (₹6,600 కోట్లు) సహా."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "All States' UCTs, 2026-27",
+      "te": "రాష్ట్రాల UCTలు, 2026-27"
+     },
+     {
+      "en": "128 schemes · nearly ₹4 lakh crore (PRS)",
+      "te": "128 పథకాలు · దాదాపు ₹4 లక్షల కోట్లు (PRS)"
+     }
+    ],
+    [
+     {
+      "en": "Share of GDP",
+      "te": "GDPలో వాటా"
+     },
+     {
+      "en": "0.6% (2022-23) → about 1% (2026-27 est.)",
+      "te": "0.6% (2022-23) → సుమారు 1% (2026-27 అంచనా)"
+     }
+    ],
+    [
+     {
+      "en": "Who gets it",
+      "te": "ఎవరికి"
+     },
+     {
+      "en": "Women ≈ 0.5% of GDP · pensions ≈ 0.39% · together almost 90% of spending",
+      "te": "మహిళలు ≈ GDPలో 0.5% · పింఛన్లు ≈ 0.39% · కలిపి ఖర్చులో దాదాపు 90%"
+     }
+    ],
+    [
+     {
+      "en": "Andhra Pradesh",
+      "te": "ఆంధ్రప్రదేశ్"
+     },
+     {
+      "en": "₹33,943 crore UCTs (4th highest) · ≈14% of revenue receipts",
+      "te": "₹33,943 కోట్ల UCTలు (4వ స్థానం) · రెవెన్యూ రాబడుల్లో ≈14%"
+     }
+    ],
+    [
+     {
+      "en": "AP pensions / farmers",
+      "te": "AP పింఛన్లు / రైతులు"
+     },
+     {
+      "en": "₹27,343 crore (largest of any State) · Annadata Sukhibhava ₹6,600 crore",
+      "te": "₹27,343 కోట్లు (అన్ని రాష్ట్రాల్లో అత్యధికం) · అన్నదాత సుఖీభవ ₹6,600 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Highest share",
+      "te": "అత్యధిక వాటా"
+     },
+     {
+      "en": "West Bengal ≈15% of revenue receipts; its UCTs (₹47,542 cr) exceed its capital outlay (₹40,930 cr)",
+      "te": "పశ్చిమ బెంగాల్ ≈ రెవెన్యూ రాబడుల్లో 15%; దాని UCTలు (₹47,542 కోట్లు) మూలధన వ్యయం (₹40,930 కోట్లు) కంటే ఎక్కువ"
+     }
+    ],
+    [
+     {
+      "en": "16th Finance Commission",
+      "te": "16వ ఆర్థిక సంఘం"
+     },
+     {
+      "en": "Flagged the burden; advised rationalising beneficiary coverage",
+      "te": "భారాన్ని ఎత్తిచూపింది; లబ్ధిదారుల పరిధి హేతుబద్ధీకరణ సూచన"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Public finance basics",
+     "te": "లింక్ చెయిన్ · ప్రభుత్వ ఆర్థిక ప్రాథమికాలు"
+    },
+    "l": [
+     {
+      "en": "Revenue expenditure (salaries, pensions, transfers) creates no assets; capital expenditure (roads, dams, schools) does — more transfers can squeeze capital spending",
+      "te": "రెవెన్యూ వ్యయం (జీతాలు, పింఛన్లు, బదిలీలు) ఆస్తులు సృష్టించదు; మూలధన వ్యయం (రోడ్లు, ఆనకట్టలు, బడులు) సృష్టిస్తుంది — బదిలీలు పెరిగితే మూలధన వ్యయం తగ్గవచ్చు"
+     },
+     {
+      "en": "Finance Commission — Article 280; it recommends sharing of taxes between Centre and States",
+      "te": "ఆర్థిక సంఘం — అధికరణ 280; కేంద్ర-రాష్ట్రాల మధ్య పన్నుల పంపిణీపై సిఫార్సు చేస్తుంది"
+     },
+     {
+      "en": "Direct Benefit Transfer (DBT) through Jan Dhan–Aadhaar–Mobile (JAM) makes such payments possible without middlemen",
+      "te": "జన్‌ధన్–ఆధార్–మొబైల్ (JAM) ద్వారా ప్రత్యక్ష నగదు బదిలీ (DBT) మధ్యవర్తులు లేకుండా ఇలాంటి చెల్లింపులను సాధ్యం చేస్తుంది"
+     }
+    ]
+   },
+   "trap": {
+    "en": "An unconditional transfer has NO condition (like school attendance) — a conditional transfer does. And AP's biggest UCT item is pensions, not a women's scheme; AP is not in PRS's list of States with the largest women-focused allocations.",
+    "te": "బేషరతు బదిలీకి ఎలాంటి షరతు (బడి హాజరు వంటిది) ఉండదు — షరతులతో కూడిన బదిలీకి ఉంటుంది. AP అతిపెద్ద UCT అంశం పింఛన్లు — మహిళా పథకం కాదు; అత్యధిక మహిళా కేటాయింపుల PRS జాబితాలో AP లేదు."
+   },
+   "tip": {
+    "en": "'4-1-90': ₹4 lakh crore · 1% of GDP · 90% to women + pensioners.",
+    "te": "'4-1-90': ₹4 లక్షల కోట్లు · GDPలో 1% · 90% మహిళలు + పింఛనుదారులకు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to unconditional cash transfer (UCT) schemes of States in 2026-27 (PRS data), consider the following statements:",
+     "te": "2026-27లో రాష్ట్రాల బేషరతు నగదు బదిలీ (UCT) పథకాలకు (PRS సమాచారం) సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. Together they are estimated at about 1% of GDP.",
+      "te": "I. మొత్తం కలిపి GDPలో సుమారు 1%గా అంచనా."
+     },
+     {
+      "en": "II. Andhra Pradesh has the largest pension allocation among the States.",
+      "te": "II. రాష్ట్రాల్లో ఆంధ్రప్రదేశ్‌కే అతిపెద్ద పింఛన్ కేటాయింపు ఉంది."
+     },
+     {
+      "en": "III. Farmers' assistance takes the largest share of UCT spending.",
+      "te": "III. UCT ఖర్చులో అతిపెద్ద వాటా రైతు సాయానిదే."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "I and II are correct. III is wrong: women (≈0.5% of GDP) and pensioners (≈0.39%) take almost 90%; farmer assistance is only about 0.12% of GDP.",
+     "te": "I, II సరైనవి. III తప్పు: మహిళలు (≈GDPలో 0.5%), పింఛనుదారులు (≈0.39%) కలిపి దాదాపు 90% పొందుతారు; రైతు సాయం GDPలో సుమారు 0.12% మాత్రమే."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Top States: cash-transfer allocation 2026-27 (₹ crore)",
+      "te": "అగ్ర రాష్ట్రాలు: నగదు బదిలీ కేటాయింపు 2026-27 (₹ కోట్లు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "West Bengal",
+        "te": "పశ్చిమ బెంగాల్"
+       },
+       "v": 47542,
+       "vl": "47,542"
+      },
+      {
+       "t": {
+        "en": "Karnataka",
+        "te": "కర్ణాటక"
+       },
+       "v": 40392,
+       "vl": "40,392"
+      },
+      {
+       "t": {
+        "en": "Maharashtra",
+        "te": "మహారాష్ట్ర"
+       },
+       "v": 38549,
+       "vl": "38,549"
+      },
+      {
+       "t": {
+        "en": "Andhra Pradesh",
+        "te": "ఆంధ్రప్రదేశ్"
+       },
+       "v": 33943,
+       "vl": "33,943"
+      },
+      {
+       "t": {
+        "en": "Telangana",
+        "te": "తెలంగాణ"
+       },
+       "v": 32629,
+       "vl": "32,629"
+      },
+      {
+       "t": {
+        "en": "Madhya Pradesh",
+        "te": "మధ్యప్రదేశ్"
+       },
+       "v": 32059,
+       "vl": "32,059"
+      }
+     ],
+     "cap": {
+      "en": "AP is 4th; most of AP's amount is pensions (₹27,343 crore). Source: PRS via Business Standard.",
+      "te": "AP 4వ స్థానం; AP మొత్తంలో ఎక్కువ భాగం పింఛన్లే (₹27,343 కోట్లు). ఆధారం: PRS (బిజినెస్ స్టాండర్డ్)."
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "Why economists worry",
+      "te": "ఆర్థికవేత్తల ఆందోళన ఎందుకు"
+     },
+     "items": [
+      {
+       "i": "💸",
+       "t": {
+        "en": "New cash scheme / poll promise",
+        "te": "కొత్త నగదు పథకం / ఎన్నికల హామీ"
+       }
+      },
+      {
+       "i": "🔒",
+       "t": {
+        "en": "Hard to withdraw later",
+        "te": "తర్వాత వెనక్కి తీసుకోవడం కష్టం"
+       }
+      },
+      {
+       "i": "🏦",
+       "t": {
+        "en": "Gap filled by borrowing",
+        "te": "అప్పులతో లోటు పూడ్చడం"
+       }
+      },
+      {
+       "i": "🏫",
+       "t": {
+        "en": "Cuts in essential spending (teachers, capex)",
+        "te": "అత్యవసర ఖర్చులకు కోత (ఉపాధ్యాయులు, మూలధనం)"
+       }
+      },
+      {
+       "i": "📑",
+       "t": {
+        "en": "Fix: 'social DPR' + 10-year cost + sunset clause",
+        "te": "పరిష్కారం: 'సోషల్ DPR' + 10 ఏళ్ల వ్యయం + సన్‌సెట్ క్లాజ్"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hindu (via KhanList) — The fiscal cost of cash-transfer schemes, R. Srinivasan (27 Nov 2026)",
+     "u": "https://khanlist.com/story/the-fiscal-cost-of-cash-transfer-schemes-dda9c7df"
+    },
+    {
+     "t": "Business Standard — Cash transfers near ₹4 trn in FY27 as states expand direct welfare schemes (PRS data, 20 Nov 2026)",
+     "u": "https://www.business-standard.com/economy/news/cash-transfers-near-4-trn-in-fy27-as-states-expand-direct-welfare-schemes-126112001202_1.html"
+    },
+    {
+     "t": "Legacy IAS — The Hindu UPSC news analysis, 27 Nov 2026 (fiscal cost of cash transfers)",
+     "u": "https://www.legacyias.com/the-hindu-upsc-news-analysis-for-27-november-2026/"
+    }
+   ],
+   "mains": {
+    "en": "Unconditional cash transfers empower beneficiaries but strain State finances. Examine this statement with reference to Andhra Pradesh and suggest safeguards for fiscal sustainability. (Group 1 Mains, 15 marks)",
+    "te": "బేషరతు నగదు బదిలీలు లబ్ధిదారులకు సాధికారత ఇస్తాయి కానీ రాష్ట్ర ఆర్థికాలపై ఒత్తిడి పెంచుతాయి. ఆంధ్రప్రదేశ్ సందర్భంలో ఈ వ్యాఖ్యను పరిశీలించి, ఆర్థిక సుస్థిరతకు రక్షణ చర్యలు సూచించండి. (గ్రూప్ 1 మెయిన్స్, 15 మార్కులు)"
+   }
+  },
+  {
+   "id": "maritime",
+   "kind": "article",
+   "color": "#2c5d63",
+   "icon": "unsc",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "In the news · International economy · UNCTAD report, 26 Nov 2026",
+    "te": "వార్తల్లో · అంతర్జాతీయ ఆర్థికం · UNCTAD నివేదిక, 26 నవంబర్ 2026"
+   },
+   "tag": {
+    "en": "Reports & indices · GS-III Economy / Geography (Group 2, Group 1)",
+    "te": "నివేదికలు & సూచీలు · ఆర్థిక వ్యవస్థ / భూగోళశాస్త్రం (గ్రూప్ 2, గ్రూప్ 1)"
+   },
+   "title": {
+    "en": "UNCTAD: world sea trade to stall in 2026 as choke points are disrupted",
+    "te": "UNCTAD: కీలక సముద్ర మార్గాలకు అంతరాయం — 2026లో ప్రపంచ సముద్ర వాణిజ్యం నిలిచిపోనుంది"
+   },
+   "line": {
+    "en": "Review of Maritime Transport 2026 forecasts 0% growth in seaborne trade after the Hormuz and Red Sea disruptions.",
+    "te": "హోర్ముజ్, ఎర్ర సముద్రం అంతరాయాల తర్వాత సముద్ర వాణిజ్యంలో 0% వృద్ధిని 'రివ్యూ ఆఫ్ మారిటైమ్ ట్రాన్స్‌పోర్ట్ 2026' అంచనా వేసింది."
+   },
+   "easy": [
+    {
+     "en": "What is it? UNCTAD (UN Trade and Development) publishes the Review of Maritime Transport every year. The 2026 edition, released on 26 November, is titled 'Shipping at a crossroads: navigating risks, sustainability and resilience'. It says seaborne trade reached 12.3 billion tons in 2025, growing 1.9% (down from 3.9% in 2024), and forecasts 0% growth in 2026 — though container trade may still grow 3.3%. It expects a recovery to 3.2% in 2027.",
+     "te": "ఇది ఏమిటి? UNCTAD (ఐరాస వాణిజ్యం, అభివృద్ధి) ఏటా 'రివ్యూ ఆఫ్ మారిటైమ్ ట్రాన్స్‌పోర్ట్' ప్రచురిస్తుంది. నవంబర్ 26న విడుదలైన 2026 సంచిక పేరు 'Shipping at a crossroads: navigating risks, sustainability and resilience'. 2025లో సముద్ర వాణిజ్యం 12.3 బిలియన్ టన్నులకు చేరి 1.9% పెరిగింది (2024లో 3.9%); 2026లో 0% వృద్ధి అంచనా — కంటైనర్ వాణిజ్యం మాత్రం 3.3% పెరగొచ్చు. 2027లో 3.2%కి కోలుకుంటుందని అంచనా."
+    },
+    {
+     "en": "Why the stall? Choke points — narrow sea passages that a large share of ships must use — were disrupted. Conflict around the Strait of Hormuz from 28 February 2026 cut transits by about 95% by early March; about 20% of world oil supply passes this strait. Traffic through Bab el-Mandeb (entrance to the Red Sea) fell about 43% in early August, so ships went around the Cape of Good Hope, adding distance. The Panama Canal faced draught restrictions, and Black Sea grain trade was disrupted.",
+     "te": "ఎందుకు నిలిచింది? 'చోక్ పాయింట్లు' — ఎక్కువ నౌకలు తప్పనిసరిగా వెళ్లాల్సిన ఇరుకైన సముద్ర మార్గాలు — దెబ్బతిన్నాయి. 28 ఫిబ్రవరి 2026 నుంచి హోర్ముజ్ జలసంధి చుట్టూ ఘర్షణతో మార్చి మొదటికి నౌకల రాకపోకలు సుమారు 95% తగ్గాయి; ప్రపంచ చమురు సరఫరాలో సుమారు 20% ఈ జలసంధి గుండానే. ఆగస్టు మొదట్లో బాబ్-ఎల్-మాండెబ్ (ఎర్ర సముద్రం ప్రవేశ ద్వారం) రాకపోకలు సుమారు 43% తగ్గడంతో నౌకలు కేప్ ఆఫ్ గుడ్ హోప్ చుట్టూ తిరిగి వెళ్లాయి — దూరం పెరిగింది. పనామా కాలువపై లోతు (డ్రాఫ్ట్) ఆంక్షలు, నల్ల సముద్రం ధాన్య వాణిజ్యానికి అంతరాయం కూడా."
+    },
+    {
+     "en": "Why it matters for India: India imports most of its crude oil by sea, so choke-point shocks raise freight and fuel costs. UNCTAD estimates a sustained 70–80% rise in ship-fuel costs would raise consumer prices by 0.19% worldwide (0.35% in the least developed countries). Container spot rates more than doubled between January and August 2026, and average ship waiting times at ports nearly doubled between 2019 and 2026.",
+     "te": "భారత్‌కు ఎందుకు ముఖ్యం: భారత్ ముడి చమురులో ఎక్కువ భాగం సముద్ర మార్గంలోనే దిగుమతి చేసుకుంటుంది; చోక్ పాయింట్ షాక్‌లతో రవాణా, ఇంధన ఖర్చులు పెరుగుతాయి. నౌకా ఇంధన ఖర్చు 70–80% స్థిరంగా పెరిగితే ప్రపంచవ్యాప్తంగా వినియోగదారుల ధరలు 0.19% (అత్యల్ప అభివృద్ధి దేశాల్లో 0.35%) పెరుగుతాయని UNCTAD అంచనా. జనవరి–ఆగస్టు 2026 మధ్య కంటైనర్ స్పాట్ రేట్లు రెట్టింపు కంటే ఎక్కువయ్యాయి; 2019–2026 మధ్య ఓడరేవుల్లో నౌకల సగటు నిరీక్షణ సమయం దాదాపు రెట్టింపైంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Report",
+      "te": "నివేదిక"
+     },
+     {
+      "en": "Review of Maritime Transport 2026 · UNCTAD · 26 Nov 2026",
+      "te": "రివ్యూ ఆఫ్ మారిటైమ్ ట్రాన్స్‌పోర్ట్ 2026 · UNCTAD · 26 నవంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Sea trade 2025",
+      "te": "సముద్ర వాణిజ్యం 2025"
+     },
+     {
+      "en": "12.3 billion tons, +1.9% (2024: +3.9%)",
+      "te": "12.3 బిలియన్ టన్నులు, +1.9% (2024: +3.9%)"
+     }
+    ],
+    [
+     {
+      "en": "Forecast",
+      "te": "అంచనా"
+     },
+     {
+      "en": "2026: 0% (containers +3.3%) · 2027: +3.2%",
+      "te": "2026: 0% (కంటైనర్లు +3.3%) · 2027: +3.2%"
+     }
+    ],
+    [
+     {
+      "en": "Strait of Hormuz",
+      "te": "హోర్ముజ్ జలసంధి"
+     },
+     {
+      "en": "Conflict from 28 Feb 2026; transits down ≈95% by early March; ≈20% of world oil passes here",
+      "te": "28 ఫిబ్రవరి 2026 నుంచి ఘర్షణ; మార్చి మొదటికి రాకపోకలు ≈95% తగ్గుదల; ప్రపంచ చమురులో ≈20% ఇక్కడి నుంచే"
+     }
+    ],
+    [
+     {
+      "en": "Bab el-Mandeb",
+      "te": "బాబ్-ఎల్-మాండెబ్"
+     },
+     {
+      "en": "Traffic down ≈43% in early Aug 2026 → detour via Cape of Good Hope",
+      "te": "ఆగస్టు 2026 మొదట్లో రాకపోకలు ≈43% తగ్గుదల → కేప్ ఆఫ్ గుడ్ హోప్ చుట్టూ మళ్లింపు"
+     }
+    ],
+    [
+     {
+      "en": "World fleet (1 Jan 2026)",
+      "te": "ప్రపంచ నౌకాదళం (1 జనవరి 2026)"
+     },
+     {
+      "en": "115,655 ships · 2.53 billion dwt · top owners China, Greece, Japan",
+      "te": "1,15,655 నౌకలు · 2.53 బిలియన్ dwt · అగ్ర యజమానులు చైనా, గ్రీస్, జపాన్"
+     }
+    ],
+    [
+     {
+      "en": "Flags of convenience",
+      "te": "ఓపెన్ రిజిస్ట్రీలు"
+     },
+     {
+      "en": "Most ships registered in Liberia, Panama, Marshall Islands",
+      "te": "ఎక్కువ నౌకల నమోదు లైబీరియా, పనామా, మార్షల్ దీవుల్లో"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Geography of sea routes",
+     "te": "లింక్ చెయిన్ · సముద్ర మార్గాల భూగోళం"
+    },
+    "l": [
+     {
+      "en": "Strait of Hormuz joins the Persian Gulf to the Gulf of Oman (Iran on the north side)",
+      "te": "హోర్ముజ్ జలసంధి పర్షియన్ గల్ఫ్‌ను గల్ఫ్ ఆఫ్ ఒమన్‌తో కలుపుతుంది (ఉత్తరాన ఇరాన్)"
+     },
+     {
+      "en": "Bab el-Mandeb joins the Red Sea to the Gulf of Aden; the Suez Canal at the other end of the Red Sea links to the Mediterranean",
+      "te": "బాబ్-ఎల్-మాండెబ్ ఎర్ర సముద్రాన్ని గల్ఫ్ ఆఫ్ ఏడెన్‌తో కలుపుతుంది; ఎర్ర సముద్రం మరో చివర సూయజ్ కాలువ మధ్యధరా సముద్రానికి కలుపుతుంది"
+     },
+     {
+      "en": "UNCTAD — set up in 1964, headquarters Geneva; renamed 'UN Trade and Development'",
+      "te": "UNCTAD — 1964లో ఏర్పాటు, ప్రధాన కార్యాలయం జెనీవా; ఇప్పుడు 'UN Trade and Development'"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The Review of Maritime Transport is by UNCTAD — not the IMO (International Maritime Organization, London), which makes shipping safety rules. And Bab el-Mandeb is the southern gate of the Red Sea; the Suez Canal is its northern end.",
+    "te": "'రివ్యూ ఆఫ్ మారిటైమ్ ట్రాన్స్‌పోర్ట్' UNCTADది — నౌకా భద్రత నియమాలు చేసే IMO (అంతర్జాతీయ సముద్ర సంస్థ, లండన్)ది కాదు. బాబ్-ఎల్-మాండెబ్ ఎర్ర సముద్రం దక్షిణ ద్వారం; సూయజ్ కాలువ ఉత్తర చివర."
+   },
+   "tip": {
+    "en": "'1.9 → 0 → 3.2': 2025 grew, 2026 stalls, 2027 recovers.",
+    "te": "'1.9 → 0 → 3.2': 2025 వృద్ధి, 2026 నిలకడ, 2027 కోలుకోవడం."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to UNCTAD's Review of Maritime Transport 2026, consider the following statements:",
+     "te": "UNCTAD 'రివ్యూ ఆఫ్ మారిటైమ్ ట్రాన్స్‌పోర్ట్ 2026'కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It forecasts zero growth in total seaborne trade in 2026.",
+      "te": "I. 2026లో మొత్తం సముద్ర వాణిజ్యంలో సున్నా వృద్ధిని అంచనా వేసింది."
+     },
+     {
+      "en": "II. It is published by the International Maritime Organization (IMO).",
+      "te": "II. దీన్ని అంతర్జాతీయ సముద్ర సంస్థ (IMO) ప్రచురిస్తుంది."
+     },
+     {
+      "en": "III. It names China, Greece and Japan as the leading ship-owning countries.",
+      "te": "III. చైనా, గ్రీస్, జపాన్‌లను ప్రముఖ నౌకా యజమాని దేశాలుగా పేర్కొంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "I and III are correct. II is wrong: the Review is published by UNCTAD (Geneva), not the IMO.",
+     "te": "I, III సరైనవి. II తప్పు: ఈ నివేదికను IMO కాదు, UNCTAD (జెనీవా) ప్రచురిస్తుంది."
+    }
+   },
+   "pics": [
+    {
+     "type": "map",
+     "h": {
+      "en": "The choke points that slowed world shipping",
+      "te": "ప్రపంచ నౌకా రవాణాను మందగింపజేసిన చోక్ పాయింట్లు"
+     },
+     "view": "world",
+     "pts": [
+      {
+       "ll": [
+        26.57,
+        56.25
+       ],
+       "t": {
+        "en": "Strait of Hormuz",
+        "te": "హోర్ముజ్ జలసంధి"
+       }
+      },
+      {
+       "ll": [
+        12.6,
+        43.3
+       ],
+       "t": {
+        "en": "Bab el-Mandeb",
+        "te": "బాబ్-ఎల్-మాండెబ్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        9.1,
+        -79.7
+       ],
+       "t": {
+        "en": "Panama Canal",
+        "te": "పనామా కాలువ"
+       }
+      },
+      {
+       "ll": [
+        -34.36,
+        18.47
+       ],
+       "t": {
+        "en": "Cape of Good Hope",
+        "te": "కేప్ ఆఫ్ గుడ్ హోప్"
+       }
+      },
+      {
+       "ll": [
+        20.59,
+        78.96
+       ],
+       "t": {
+        "en": "India",
+        "te": "భారత్"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Hormuz transits fell ≈95% (March); Bab el-Mandeb ≈43% (August) — ships detoured around the Cape of Good Hope.",
+      "te": "హోర్ముజ్ రాకపోకలు ≈95% (మార్చి), బాబ్-ఎల్-మాండెబ్ ≈43% (ఆగస్టు) తగ్గాయి — నౌకలు కేప్ ఆఫ్ గుడ్ హోప్ చుట్టూ మళ్లాయి."
+     },
+     "src": "cards/2026-11-28/map-maritime-1-{m}.svg"
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "Growth of world seaborne trade (%)",
+      "te": "ప్రపంచ సముద్ర వాణిజ్య వృద్ధి (%)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "2024",
+        "te": "2024"
+       },
+       "v": 3.9,
+       "vl": "3.9%"
+      },
+      {
+       "t": {
+        "en": "2025",
+        "te": "2025"
+       },
+       "v": 1.9,
+       "vl": "1.9%"
+      },
+      {
+       "t": {
+        "en": "2026 (forecast)",
+        "te": "2026 (అంచనా)"
+       },
+       "v": 0,
+       "vl": "0%"
+      },
+      {
+       "t": {
+        "en": "2027 (forecast)",
+        "te": "2027 (అంచనా)"
+       },
+       "v": 3.2,
+       "vl": "3.2%"
+      }
+     ],
+     "cap": {
+      "en": "Container trade is still expected to grow 3.3% in 2026.",
+      "te": "2026లో కంటైనర్ వాణిజ్యం మాత్రం 3.3% పెరుగుతుందని అంచనా."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "UNCTAD — Review of Maritime Transport 2026: Shipping at a crossroads (26 Nov 2026)",
+     "u": "https://unctad.org/publication/review-maritime-transport-2026"
+    },
+    {
+     "t": "UNCTAD — Review of Maritime Transport 2026, Overview (PDF)",
+     "u": "https://unctad.org/system/files/official-document/rmt2026overview_en.pdf"
+    },
+    {
+     "t": "Arab News — UNCTAD forecasts zero maritime trade growth in 2026 (27 Nov 2026)",
+     "u": "https://www.arabnews.pk/business/unctad-forecasts-zero-maritime-trade-growth-in-2026-as-shipping-disruptions-mount-3008230"
+    }
+   ],
+   "mains": {
+    "en": "What are maritime choke points? Explain how disruptions at the Strait of Hormuz and the Red Sea in 2026 affected global trade, and their implications for India's energy security. (Group 1 Mains, 10 marks)",
+    "te": "సముద్ర చోక్ పాయింట్లు అంటే ఏమిటి? 2026లో హోర్ముజ్ జలసంధి, ఎర్ర సముద్రంలో అంతరాయాలు ప్రపంచ వాణిజ్యాన్ని ఎలా ప్రభావితం చేశాయో, భారత ఇంధన భద్రతపై వాటి ప్రభావాన్ని వివరించండి. (గ్రూప్ 1 మెయిన్స్, 10 మార్కులు)"
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "phule",
+   "q": {
+    "en": "Arrange the following events in the life of Jyotirao Phule in chronological order:",
+    "te": "జ్యోతిరావు ఫూలే జీవితంలోని కింది ఘటనలను కాలక్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "1. Title 'Mahatma' conferred on him",
+     "te": "1. 'మహాత్మా' బిరుదు లభించడం"
+    },
+    {
+     "en": "2. Girls' school opened at Bhide's house, Pune",
+     "te": "2. పుణెలో భిడే ఇంట్లో బాలికల పాఠశాల ప్రారంభం"
+    },
+    {
+     "en": "3. Founding of the Satyashodhak Samaj",
+     "te": "3. సత్యశోధక సమాజ్ స్థాపన"
+    },
+    {
+     "en": "4. Night schools for workers, farmers and women",
+     "te": "4. కార్మికులు, రైతులు, మహిళలకు రాత్రి బడులు"
+    }
+   ],
+   "o": [
+    {
+     "en": "2-3-4-1",
+     "te": "2-3-4-1"
+    },
+    {
+     "en": "2-4-3-1",
+     "te": "2-4-3-1"
+    },
+    {
+     "en": "4-2-3-1",
+     "te": "4-2-3-1"
+    },
+    {
+     "en": "2-4-1-3",
+     "te": "2-4-1-3"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Girls' school 1848 → night schools 1855 → Satyashodhak Samaj 1873 → 'Mahatma' 1888. Trap: night schools (1855) came before the Samaj (1873).",
+    "te": "బాలికల బడి 1848 → రాత్రి బడులు 1855 → సత్యశోధక సమాజ్ 1873 → 'మహాత్మా' 1888. ఉచ్చు: రాత్రి బడులు (1855) సమాజ్ (1873) కంటే ముందు."
+   }
+  },
+  {
+   "topic": "phule",
+   "q": {
+    "en": "Which of the following statements about Jyotirao Phule is NOT correct?",
+    "te": "జ్యోతిరావు ఫూలేకు సంబంధించి కింది వాటిలో సరికాని వాక్యం ఏది?"
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "He belonged to the Mali community of fruit and vegetable farmers.",
+     "te": "ఆయన పండ్లు, కూరగాయల రైతులైన మాలి సమాజానికి చెందినవారు."
+    },
+    {
+     "en": "He dedicated Gulamgiri to the people of the USA who fought to end slavery.",
+     "te": "బానిసత్వ నిర్మూలనకు పోరాడిన అమెరికా ప్రజలకు 'గులాంగిరి'ని అంకితం చేశారు."
+    },
+    {
+     "en": "He founded the Satyashodhak Samaj in Bombay in 1867.",
+     "te": "1867లో బొంబాయిలో సత్యశోధక సమాజ్ స్థాపించారు."
+    },
+    {
+     "en": "He served as a member of the Poona Municipality between 1876 and 1883.",
+     "te": "1876–1883 మధ్య పూనా మున్సిపాలిటీ సభ్యుడిగా పనిచేశారు."
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "(c) is wrong: the Satyashodhak Samaj was founded in Pune on 24 Sept 1873. 1867, Bombay is the Prarthana Samaj — a classic trap.",
+    "te": "(c) తప్పు: సత్యశోధక సమాజ్ 24 సెప్టెంబర్ 1873న పుణెలో స్థాపితమైంది. 1867, బొంబాయి అంటే ప్రార్థనా సమాజ్ — ప్రసిద్ధ ఉచ్చు."
+   }
+  },
+  {
+   "topic": "engels",
+   "q": {
+    "en": "Match List-I (work) with List-II (year):",
+    "te": "జాబితా-I (రచన)ను జాబితా-II (సంవత్సరం)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "List-I: A. The Condition of the Working Class in England",
+     "te": "జాబితా-I: A. ద కండిషన్ ఆఫ్ ద వర్కింగ్ క్లాస్ ఇన్ ఇంగ్లండ్"
+    },
+    {
+     "en": "B. Communist Manifesto",
+     "te": "B. కమ్యూనిస్ట్ మేనిఫెస్టో"
+    },
+    {
+     "en": "C. Anti-Dühring",
+     "te": "C. యాంటీ-డ్యూరింగ్"
+    },
+    {
+     "en": "D. Origin of the Family, Private Property and the State",
+     "te": "D. కుటుంబం, వ్యక్తిగత ఆస్తి, రాజ్యం పుట్టుక"
+    },
+    {
+     "en": "List-II: 1. 1878",
+     "te": "జాబితా-II: 1. 1878"
+    },
+    {
+     "en": "2. 1845",
+     "te": "2. 1845"
+    },
+    {
+     "en": "3. 1884",
+     "te": "3. 1884"
+    },
+    {
+     "en": "4. 1848",
+     "te": "4. 1848"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-2, B-4, C-1, D-3",
+     "te": "A-2, B-4, C-1, D-3"
+    },
+    {
+     "en": "A-4, B-2, C-1, D-3",
+     "te": "A-4, B-2, C-1, D-3"
+    },
+    {
+     "en": "A-2, B-4, C-3, D-1",
+     "te": "A-2, B-4, C-3, D-1"
+    },
+    {
+     "en": "A-2, B-1, C-4, D-3",
+     "te": "A-2, B-1, C-4, D-3"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Working Class in England 1845, Manifesto 1848, Anti-Dühring 1878, Origin of the Family 1884. Trap: (c) swaps 1878 and 1884.",
+    "te": "ఇంగ్లండ్ కార్మిక వర్గం 1845, మేనిఫెస్టో 1848, యాంటీ-డ్యూరింగ్ 1878, కుటుంబం పుట్టుక 1884. ఉచ్చు: (c)లో 1878, 1884 తారుమారు."
+   }
+  },
+  {
+   "topic": "engels",
+   "q": {
+    "en": "Consider the following Assertion (A) and Reason (R):",
+    "te": "కింది నిశ్చితాభిప్రాయం (A), కారణం (R)ను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "Assertion (A): Volumes 2 and 3 of Das Kapital were brought out by Friedrich Engels.",
+     "te": "నిశ్చితాభిప్రాయం (A): దాస్ కాపిటల్ 2, 3 సంపుటాలను ఫ్రెడరిక్ ఏంగెల్స్ వెలువరించారు."
+    },
+    {
+     "en": "Reason (R): Engels was born in Manchester and ran his own textile mill there.",
+     "te": "కారణం (R): ఏంగెల్స్ మాంచెస్టర్‌లో జన్మించి, అక్కడ స్వంత వస్త్ర మిల్లు నడిపారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "Both A and R are true, and R is the correct explanation of A",
+     "te": "A, R రెండూ సరైనవి; R, Aకి సరైన వివరణ"
+    },
+    {
+     "en": "Both A and R are true, but R is not the correct explanation of A",
+     "te": "A, R రెండూ సరైనవి; కానీ R, Aకి సరైన వివరణ కాదు"
+    },
+    {
+     "en": "A is true, but R is false",
+     "te": "A సరైనది, కానీ R తప్పు"
+    },
+    {
+     "en": "A is false, but R is true",
+     "te": "A తప్పు, కానీ R సరైనది"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "A is true: Engels edited Vol 2 (1885) and completed Vol 3 (1894) after Marx's death. R is false: he was born at Barmen, Prussia; in Manchester he worked at the Ermen & Engels mill in which his father was a partner.",
+    "te": "A సరైనది: మార్క్స్ మరణం తర్వాత 2వ (1885), 3వ (1894) సంపుటాలను ఏంగెల్స్ పూర్తి చేశారు. R తప్పు: ఆయన ప్రష్యాలోని బార్మెన్‌లో జన్మించారు; మాంచెస్టర్‌లో తండ్రి భాగస్వామిగా ఉన్న ఎర్మెన్ & ఏంగెల్స్ మిల్లులో పనిచేశారు."
+   }
+  },
+  {
+   "topic": "delimit",
+   "q": {
+    "en": "With reference to delimitation and the Lok Sabha, consider the following statements:",
+    "te": "డీలిమిటేషన్, లోక్‌సభకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The 84th Amendment (2001) extended the freeze on State-wise Lok Sabha seats until the first Census after 2026.",
+     "te": "I. 84వ సవరణ (2001) రాష్ట్రాల వారీ లోక్‌సభ సీట్ల స్తంభనను 2026 తర్వాతి తొలి జనగణన వరకు పొడిగించింది."
+    },
+    {
+     "en": "II. The 87th Amendment (2003) allowed the 2001 Census to be used for redrawing constituency boundaries within States.",
+     "te": "II. 87వ సవరణ (2003) రాష్ట్రాల లోపల నియోజకవర్గ సరిహద్దుల పునర్విభజనకు 2001 జనాభా లెక్కలు వాడేందుకు అనుమతించింది."
+    },
+    {
+     "en": "III. The Constitution (131st Amendment) Bill was passed by the Lok Sabha in April 2026 with 298 votes.",
+     "te": "III. రాజ్యాంగ (131వ సవరణ) బిల్లును ఏప్రిల్ 2026లో లోక్‌సభ 298 ఓట్లతో ఆమోదించింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and II are correct. III is wrong: 298 votes in favour (230 against) was short of the two-thirds special majority (352) — the Bill failed on 17 April 2026.",
+    "te": "I, II సరైనవి. III తప్పు: అనుకూలంగా 298 (వ్యతిరేకం 230) ఓట్లు మూడింట రెండు వంతుల ప్రత్యేక మెజారిటీ (352)కి సరిపోలేదు — బిల్లు 17 ఏప్రిల్ 2026న వీగిపోయింది."
+   }
+  },
+  {
+   "topic": "delimit",
+   "q": {
+    "en": "Andhra Pradesh now has 25 Lok Sabha seats. Under the revised plan reported on 27 Nov 2026, consider the following statements:",
+    "te": "ఆంధ్రప్రదేశ్‌కు ప్రస్తుతం 25 లోక్‌సభ సీట్లు ఉన్నాయి. 27 నవంబర్ 2026న వార్తల్లో వచ్చిన సవరించిన ప్రణాళిక ప్రకారం కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Every State's seats would rise by the same 50%, so AP's share of Lok Sabha seats would stay about the same.",
+     "te": "I. ప్రతి రాష్ట్ర సీట్లు సమానంగా 50% పెరుగుతాయి కాబట్టి లోక్‌సభలో AP వాటా దాదాపు అలాగే ఉంటుంది."
+    },
+    {
+     "en": "II. States' seats would be reallocated according to their latest population, so AP would lose seats.",
+     "te": "II. తాజా జనాభా ప్రకారం రాష్ట్రాల సీట్లను పునఃకేటాయిస్తారు కాబట్టి AP సీట్లు కోల్పోతుంది."
+    },
+    {
+     "en": "III. One aim is to make the 33% women's reservation workable before the 2029 general election.",
+     "te": "III. 2029 సాధారణ ఎన్నికలకు ముందే 33% మహిళా రిజర్వేషన్ అమలు ఒక లక్ష్యం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "III only",
+     "te": "III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and III are correct. II is wrong: the plan reportedly freezes State shares (based on 1971) till 2051 with a uniform 50% rise — no population-based reallocation between States.",
+    "te": "I, III సరైనవి. II తప్పు: ప్రణాళిక ప్రకారం సమాన 50% పెంపుతో రాష్ట్రాల వాటా (1971 ఆధారం) 2051 వరకు స్థిరం — జనాభా ఆధారంగా రాష్ట్రాల మధ్య పునఃకేటాయింపు లేదు."
+   }
+  },
+  {
+   "topic": "cashtransfer",
+   "q": {
+    "en": "A State gives every woman aged 21–60 ₹1,500 a month with no condition attached. Consider the following statements about such a scheme:",
+    "te": "21–60 ఏళ్ల ప్రతి మహిళకు ఎలాంటి షరతు లేకుండా నెలకు ₹1,500 ఇచ్చే రాష్ట్ర పథకం గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It is an unconditional cash transfer.",
+     "te": "I. ఇది బేషరతు నగదు బదిలీ."
+    },
+    {
+     "en": "II. Its spending is capital expenditure because it builds human assets.",
+     "te": "II. మానవ ఆస్తులు సృష్టిస్తుంది కాబట్టి దీని ఖర్చు మూలధన వ్యయం."
+    },
+    {
+     "en": "III. The Hindu op-ed suggests such a scheme should come with a 10-year cost projection and a sunset clause.",
+     "te": "III. ఇలాంటి పథకానికి 10 ఏళ్ల వ్యయ అంచనా, సన్‌సెట్ క్లాజ్ ఉండాలని ద హిందూ వ్యాసం సూచించింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "I and III are correct. II is wrong: cash transfers are revenue expenditure — they create no physical asset; more of them can squeeze capital spending.",
+    "te": "I, III సరైనవి. II తప్పు: నగదు బదిలీలు రెవెన్యూ వ్యయం — భౌతిక ఆస్తి సృష్టించవు; ఇవి పెరిగితే మూలధన వ్యయం తగ్గవచ్చు."
+   }
+  },
+  {
+   "topic": "cashtransfer",
+   "q": {
+    "en": "Match List-I (scheme) with List-II (State):",
+    "te": "జాబితా-I (పథకం)ను జాబితా-II (రాష్ట్రం)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "List-I: A. Lakshmir Bhandar",
+     "te": "జాబితా-I: A. లక్ష్మీర్ భండార్"
+    },
+    {
+     "en": "B. Gruha Lakshmi",
+     "te": "B. గృహ లక్ష్మి"
+    },
+    {
+     "en": "C. Subhadra",
+     "te": "C. సుభద్ర"
+    },
+    {
+     "en": "D. Annadata Sukhibhava",
+     "te": "D. అన్నదాత సుఖీభవ"
+    },
+    {
+     "en": "List-II: 1. Odisha",
+     "te": "జాబితా-II: 1. ఒడిశా"
+    },
+    {
+     "en": "2. Andhra Pradesh",
+     "te": "2. ఆంధ్రప్రదేశ్"
+    },
+    {
+     "en": "3. West Bengal",
+     "te": "3. పశ్చిమ బెంగాల్"
+    },
+    {
+     "en": "4. Karnataka",
+     "te": "4. కర్ణాటక"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-4, B-3, C-1, D-2",
+     "te": "A-4, B-3, C-1, D-2"
+    },
+    {
+     "en": "A-3, B-4, C-2, D-1",
+     "te": "A-3, B-4, C-2, D-1"
+    },
+    {
+     "en": "A-3, B-1, C-4, D-2",
+     "te": "A-3, B-1, C-4, D-2"
+    },
+    {
+     "en": "A-3, B-4, C-1, D-2",
+     "te": "A-3, B-4, C-1, D-2"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Lakshmir Bhandar — West Bengal; Gruha Lakshmi — Karnataka; Subhadra — Odisha; Annadata Sukhibhava — AP (farmers, ₹6,600 crore). Trap: Annadata Sukhibhava is a farmers' scheme, not a women's scheme.",
+    "te": "లక్ష్మీర్ భండార్ — పశ్చిమ బెంగాల్; గృహ లక్ష్మి — కర్ణాటక; సుభద్ర — ఒడిశా; అన్నదాత సుఖీభవ — AP (రైతులు, ₹6,600 కోట్లు). ఉచ్చు: అన్నదాత సుఖీభవ రైతు పథకం — మహిళా పథకం కాదు."
+   }
+  },
+  {
+   "topic": "maritime",
+   "q": {
+    "en": "Match List-I (sea passage) with List-II (what it connects / note):",
+    "te": "జాబితా-I (సముద్ర మార్గం)ను జాబితా-II (ఏం కలుపుతుంది / విశేషం)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "List-I: A. Strait of Hormuz",
+     "te": "జాబితా-I: A. హోర్ముజ్ జలసంధి"
+    },
+    {
+     "en": "B. Bab el-Mandeb",
+     "te": "B. బాబ్-ఎల్-మాండెబ్"
+    },
+    {
+     "en": "C. Suez Canal",
+     "te": "C. సూయజ్ కాలువ"
+    },
+    {
+     "en": "D. Cape of Good Hope",
+     "te": "D. కేప్ ఆఫ్ గుడ్ హోప్"
+    },
+    {
+     "en": "List-II: 1. Red Sea and Mediterranean",
+     "te": "జాబితా-II: 1. ఎర్ర సముద్రం, మధ్యధరా"
+    },
+    {
+     "en": "2. Detour route around Africa",
+     "te": "2. ఆఫ్రికా చుట్టూ మళ్లింపు మార్గం"
+    },
+    {
+     "en": "3. Persian Gulf and Gulf of Oman",
+     "te": "3. పర్షియన్ గల్ఫ్, గల్ఫ్ ఆఫ్ ఒమన్"
+    },
+    {
+     "en": "4. Red Sea and Gulf of Aden",
+     "te": "4. ఎర్ర సముద్రం, గల్ఫ్ ఆఫ్ ఏడెన్"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-3, B-1, C-4, D-2",
+     "te": "A-3, B-1, C-4, D-2"
+    },
+    {
+     "en": "A-3, B-4, C-1, D-2",
+     "te": "A-3, B-4, C-1, D-2"
+    },
+    {
+     "en": "A-4, B-3, C-1, D-2",
+     "te": "A-4, B-3, C-1, D-2"
+    },
+    {
+     "en": "A-3, B-4, C-2, D-1",
+     "te": "A-3, B-4, C-2, D-1"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Hormuz — Persian Gulf/Gulf of Oman; Bab el-Mandeb — Red Sea/Gulf of Aden (south gate); Suez — Red Sea/Mediterranean (north end); Cape of Good Hope — the detour. Trap: (a) swaps the two ends of the Red Sea.",
+    "te": "హోర్ముజ్ — పర్షియన్ గల్ఫ్/గల్ఫ్ ఆఫ్ ఒమన్; బాబ్-ఎల్-మాండెబ్ — ఎర్ర సముద్రం/గల్ఫ్ ఆఫ్ ఏడెన్ (దక్షిణ ద్వారం); సూయజ్ — ఎర్ర సముద్రం/మధ్యధరా (ఉత్తర చివర); కేప్ ఆఫ్ గుడ్ హోప్ — మళ్లింపు. ఉచ్చు: (a)లో ఎర్ర సముద్రం రెండు చివరలు తారుమారు."
+   }
+  },
+  {
+   "topic": "maritime",
+   "q": {
+    "en": "With reference to the Review of Maritime Transport 2026, consider the following statements:",
+    "te": "'రివ్యూ ఆఫ్ మారిటైమ్ ట్రాన్స్‌పోర్ట్ 2026'కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. World seaborne trade grew faster in 2025 than in 2024.",
+     "te": "I. 2025లో ప్రపంచ సముద్ర వాణిజ్యం 2024 కంటే వేగంగా పెరిగింది."
+    },
+    {
+     "en": "II. Container trade is expected to grow in 2026 even though total seaborne trade is forecast to stall.",
+     "te": "II. మొత్తం సముద్ర వాణిజ్యం నిలిచిపోతుందని అంచనా ఉన్నా 2026లో కంటైనర్ వాణిజ్యం పెరుగుతుందని అంచనా."
+    },
+    {
+     "en": "III. Most of the world's ships are registered under open registries such as Liberia, Panama and the Marshall Islands.",
+     "te": "III. ప్రపంచ నౌకల్లో ఎక్కువ భాగం లైబీరియా, పనామా, మార్షల్ దీవుల వంటి ఓపెన్ రిజిస్ట్రీల కింద నమోదయ్యాయి."
+    },
+    {
+     "en": "IV. About 20% of the world's oil supply passes through the Strait of Hormuz.",
+     "te": "IV. ప్రపంచ చమురు సరఫరాలో సుమారు 20% హోర్ముజ్ జలసంధి గుండా వెళ్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II, III and IV are correct. I is wrong: growth slowed from 3.9% (2024) to 1.9% (2025).",
+    "te": "II, III, IV సరైనవి. I తప్పు: వృద్ధి 3.9% (2024) నుంచి 1.9% (2025)కి తగ్గింది."
+   }
+  }
+ ]
+}
